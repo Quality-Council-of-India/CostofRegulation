@@ -1,0 +1,222 @@
+{
+  "code": "JH",
+  "findings": [
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL"],
+      "sentiment": "neutral",
+      "text": "The factory license application flows entirely through the Jharkhand Single Window/Shramadhan portal: login and service selection, Form No. 2 submission with document upload and online fee payment, scrutiny with electronic deficiency communication, electronic forwarding to the Inspector of Factories, site inspection (auto-allocated), the Inspector's recommendation, and final approval/issuance by the Deputy Chief Inspector with SMS notification."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["TIMELINE"],
+      "sentiment": "neutral",
+      "text": "The official procedure stipulates a 12-day timeline for the Inspector to forward their recommendation to the Deputy Chief Inspector, within an overall 30-day timeline for processing a complete application."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL"],
+      "sentiment": "positive",
+      "text": "The site inspection conducted by the Inspector of Factories is the only physical, in-person component of an otherwise fully digitized process (application, uploads, fee payment, status tracking, deficiency communication, and license issuance all occur electronically)."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["COMPLY"],
+      "sentiment": "neutral",
+      "text": "Required documentation spans core application/fee proof, premises and site documents (possession proof, owner consent, approved building/site plan), Pollution Control Board Consent to Establish/Operate, occupier and manager identity/address proof, project and manufacturing-process documentation, machinery/installed-power details, and entity-specific documents (MOA/AOA/Board resolution for companies; partnership deed for firms)."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["COMPLY"],
+      "sentiment": "neutral",
+      "text": "Beyond the prescribed list, the Chief Inspector, Deputy Chief Inspector, or Inspector may request any other specific document for a particular factory at their discretion."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["RENEWAL"],
+      "sentiment": "neutral",
+      "text": "The Jharkhand Factories (Amendment) Rules, 2025 set a minimum license validity of one year, with longer-term options also offered under the notified framework; one-year licenses must be renewed annually, fully online via Shramadhan."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["FEES"],
+      "sentiment": "neutral",
+      "text": "Under the 2025 fee notification (Schedule-A), the statutory fee for factories is based on total rated machinery/plant capacity in HP and the maximum number of workers on any single day (e.g. Nil HP: ₹530 up to 20 workers, ₹2,060 up to 50, ₹2,380 up to 100; up to 10 HP: ₹1,190 up to 20 workers, ₹2,110 up to 50, ₹2,900 up to 100); electricity generating/transforming/transmitting stations use a separate KW-based Schedule-B/C fee."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["FEES", "PORTAL"],
+      "sentiment": "positive",
+      "text": "The Shramadhan portal includes an automated fee calculator that determines the exact amount payable for a given facility, and the 2025 amendment standardized the license amendment fee at a flat ₹1,000."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["GRIEVANCE"],
+      "sentiment": "issue",
+      "text": "There is currently no provision for automatic deemed approval of a factory license if the 30-day processing period lapses; timelines are specified but not backed by a deemed-issuance mechanism."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["GRIEVANCE"],
+      "sentiment": "suggestion",
+      "text": "The ED recommends introducing statutory deemed approval for complete, low-risk applications once the SLA lapses, combined with safety exclusions, post-approval inspection protocols, and authority to cancel approvals for non-compliance."
+    },
+    {
+      "source": "ed",
+      "category": "redundant",
+      "tags": ["INTERDEP", "DUPDOC"],
+      "sentiment": "issue",
+      "text": "A significant compliance burden persists from the repeated submission and manual verification of information already held by other government departments, such as land ownership records, project details, and environmental clearances."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["INTERDEP"],
+      "sentiment": "issue",
+      "text": "While the Single Window system has reduced the need for physical interactions, cross-departmental document verification remains a challenge for applicants."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["INTERDEP", "DUPDOC"],
+      "sentiment": "suggestion",
+      "text": "The ED recommends shifting from manual, redundant document uploads to a system-to-system verification model wherever authoritative government databases already exist (land, pollution, building, and other approval statuses), to streamline applicant preparation without bypassing mandatory statutory approvals."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["DUPDOC"],
+      "sentiment": "suggestion",
+      "text": "A proposed 'Master Factory Profile' would let occupiers reuse previously verified data (occupier, manager, address, worker counts, machinery details) to streamline document compilation for new applications and amendments."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["QUERY", "CLARITY"],
+      "sentiment": "suggestion",
+      "text": "The ED recommends replacing repeated, iterative deficiency-query cycles with a single, consolidated deficiency memo giving clear, actionable feedback to applicants."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["INSPECT", "PORTAL"],
+      "sentiment": "suggestion",
+      "text": "The ED recommends fully digitizing the inspection lifecycle — allocation, scheduling, checklists, and reporting — to increase transparency and efficiency."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["FEES"],
+      "sentiment": "suggestion",
+      "text": "Streamlined, pre-filled licensing amendment applications are proposed, which would automatically calculate incremental fees and compliance requirements based on a factory's existing data."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["RENEWAL"],
+      "sentiment": "suggestion",
+      "text": "The ED recommends an expedited, simplified renewal process for established factories with clean compliance records."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["INSPECT", "NORMS"],
+      "sentiment": "neutral",
+      "text": "Jharkhand applies a risk-based inspection framework: low-risk establishments get a streamlined route with inspection exemptions, medium-risk industries undergo third-party certification and joint verification, and high-risk establishments face mandatory technical and site inspections by the department."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["COMPLY"],
+      "sentiment": "neutral",
+      "text": "Post-approval, factories must maintain statutory registers/records/returns, maintain machinery and safety systems, meet worker-welfare standards, display the license and required notices, keep occupier/manager details current, secure license amendments for material changes, and maintain related clearances (pollution, fire safety)."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["POSITIVE", "PORTAL"],
+      "sentiment": "positive",
+      "text": "The Shramadhan Comprehensive Labour Management System is cited as a best practice: a single unified digital platform covering the full factory-regulation lifecycle — registration, licensing, renewal, amendment, inspection management, fee payment, and status communication."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["POSITIVE", "GRIEVANCE"],
+      "sentiment": "positive",
+      "text": "Operational best practices highlighted include end-to-end digital processing with electronic deficiency notification, proactive SMS-based status notifications, and consolidated digital maintenance of returns and registers."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["OTHER"],
+      "sentiment": "neutral",
+      "text": "Secondary research confirms the issuing-authority hierarchy (Inspector to Deputy Chief Inspector to Chief Inspector) via a sample issued license citing Section 6(1) of the Factories Act, and confirms the 28 March 2025 fee notification exists and fully replaces prior schedules, including the flat ₹1,000 fee for both amendment and transfer."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["RENEWAL"],
+      "sentiment": "neutral",
+      "text": "Secondary research pins down license validity more precisely than the ED: under Rule 5(2), validity ranges from a minimum of 1 year up to a maximum of 15 years, rather than the ED's vaguer 'longer-term options.'"
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["GRIEVANCE"],
+      "sentiment": "neutral",
+      "text": "Secondary research found that the Jharkhand Single Window Clearance Act, 2016 already lists deemed approval, self-certification, third-party inspections, and appeals as general features of the state's single-window regime — a legal hook for deemed approval already exists, even though the ED described deemed approval as not yet implemented for factory licensing specifically."
+    },
+    {
+      "source": "secondary",
+      "category": "procedural",
+      "tags": ["GRIEVANCE"],
+      "sentiment": "neutral",
+      "text": "Secondary research surfaced a 2025 appeal mechanism not mentioned in the ED: an occupier may appeal a Chief Inspector order to the Secretary/Principal Secretary within 30 days."
+    }
+  ],
+  "quotes": [],
+  "gaps": [
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "The ED's vague statement that the state 'also offers longer-term options under the notified framework' for validity (beyond the 1-year minimum) is resolved by secondary research, which cites Rule 5(2) of the Jharkhand Factories (Amendment) Rules, 2025: validity ranges from a minimum of 1 year up to a maximum of 15 years."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "The ED frames deemed approval purely as a future recommended reform ('currently no provision'). Secondary research found that the Jharkhand Single Window Clearance Act, 2016 already includes deemed approval, self-certification, third-party inspection, and appeals as general statutory features of the single-window regime — meaning a legal hook for deemed approval already exists, strengthening the feasibility of the ED's own recommendation, even though it remains unconfirmed whether Factory License specifically is a scheduled service under that provision."
+    },
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "Whether the Factory License service is specifically notified as a 'scheduled service' under the Jharkhand Single Window Clearance Act, 2016's deemed-approval provision could not be confirmed by secondary research, so the ED's claim that deemed approval is 'not yet implemented' for this service remains plausible but unverified either way."
+    },
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "Secondary research confirms the 28 March 2025 Schedule A/B/C fee notification exists, matching the ED's cited notification, but the exact per-slab rupee figures quoted by the ED could not be independently re-verified against the notification text."
+    },
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "Per the seed secondary research notes, 'third-party estimates' for the 30-day overall / 12-day internal-forwarding SLA 'diverge substantially' from the ED's official figures, but no specific alternative figures were captured — this discrepancy remains unresolved and unquantified."
+    },
+    {
+      "flag": "MISSING",
+      "text": "No FGD (business/industry-side) document exists for Jharkhand (fgdPending = true). All findings here are from the government official (ED) side and secondary desk research only; applicant-reported lived experience — actual time taken, informal costs, consultant reliance, satisfaction with the portal — is entirely absent for this state."
+    },
+    {
+      "flag": "VAGUE",
+      "text": "The ED describes the compliance burden around cross-departmental verification only qualitatively ('cross-departmental document verification remains a challenge') without quantifying how many departments, how long verification typically adds, or how often it causes delay."
+    },
+    {
+      "flag": "GOOD_PRACTICE",
+      "text": "Jharkhand's Shramadhan platform (single portal covering the full factory lifecycle — registration, licensing, renewal, amendment, inspection, fee, and status communication) combined with its risk-based inspection framework (low-risk exemptions, medium-risk third-party certification, high-risk mandatory inspection) is presented as a best practice worth other states replicating."
+    }
+  ]
+}

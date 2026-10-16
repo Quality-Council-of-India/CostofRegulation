@@ -1,0 +1,265 @@
+{
+  "code": "WB",
+  "findings": [
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL", "INTERDEP"],
+      "sentiment": "neutral",
+      "text": "The Factory Licence process flows through five stages: online application, multi-level departmental scrutiny, deficiency/correction handling, physical inspection, and licence issuance; the official's account did not describe a separate fee-payment step."
+    },
+    {
+      "source": "ed",
+      "category": "delay",
+      "tags": ["CLARITY", "TIMELINE", "GRIEVANCE"],
+      "sentiment": "issue",
+      "text": "Officials acknowledged delays in communicating identified deficiencies or discrepancies back to applicants, requiring them to submit additional documents or corrections."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["PORTAL"],
+      "sentiment": "issue",
+      "text": "Portal downtime was cited by the official as having affected application submission and processing, despite the process being largely digitised."
+    },
+    {
+      "source": "ed",
+      "category": "redundant",
+      "tags": ["DUPDOC", "RENEWAL"],
+      "sentiment": "issue",
+      "text": "The factory building/layout plan must be resubmitted at every licence renewal even when there has been no change to the layout or infrastructure."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["DUPDOC", "RENEWAL"],
+      "sentiment": "suggestion",
+      "text": "Officials recommended requiring only revised/modified factory plans at renewal when alterations have actually been made, with previously approved plans otherwise continuing to be valid."
+    },
+    {
+      "source": "ed",
+      "category": "delay",
+      "tags": ["TIMELINE"],
+      "sentiment": "issue",
+      "text": "An approval timeline of around 65 days was discussed and characterised by the official as lengthy from the applicant's perspective; the exact governing Act/Rule and a separate average actual timeline were not specified."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["NORMS"],
+      "sentiment": "neutral",
+      "text": "Officials stated that risk-based classification is not readily applicable to Factory Licence approvals, limiting scope for differentiated treatment of lower-risk establishments."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["CLARITY", "PORTAL", "INTERDEP"],
+      "sentiment": "suggestion",
+      "text": "Official recommendations included timely communication of application status and deficiencies, improving portal stability/reliability, strengthening single-window integration, and examining best practices from other Indian states or abroad."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["CLARITY", "GRIEVANCE"],
+      "sentiment": "issue",
+      "text": "Applicants reported little or no communication from the department after submitting applications, often remaining unaware of pending deficiencies until contacted after a considerable delay."
+    },
+    {
+      "source": "fgd",
+      "category": "delay",
+      "tags": ["TIMELINE"],
+      "sentiment": "issue",
+      "text": "Applications frequently remain pending due to document verification, scrutiny, and administrative processing, resulting in longer approval timelines."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["CLARITY"],
+      "sentiment": "issue",
+      "text": "Applicants indicated insufficient guidance on documentation requirements and procedural steps, noting there is no SOP or process flow published on the official website."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["GRIEVANCE", "CLARITY"],
+      "sentiment": "issue",
+      "text": "Participants experienced difficulty reaching concerned departmental officials for clarification or updates, further delaying resolution of application-related issues."
+    },
+    {
+      "source": "fgd",
+      "category": "policy",
+      "tags": ["RENEWAL", "COMPLY"],
+      "sentiment": "issue",
+      "text": "Factory Licence validity is only 1 year, which participants said creates a recurring compliance and renewal burden; they suggested longer validity or a permanent licence with annual fee payment instead."
+    },
+    {
+      "source": "fgd",
+      "category": "policy",
+      "tags": ["CLARITY", "GRIEVANCE"],
+      "sentiment": "issue",
+      "text": "There is no formal policy requiring the department to proactively communicate application status, deficiencies, or required actions to applicants, leading to prolonged uncertainty."
+    },
+    {
+      "source": "fgd",
+      "category": "policy",
+      "tags": ["PORTAL", "GRIEVANCE"],
+      "sentiment": "issue",
+      "text": "While applications are submitted online, participants felt the existing framework does not ensure end-to-end digital processing or transparent tracking, forcing applicants to visit the department office regularly to track verification."
+    },
+    {
+      "source": "fgd",
+      "category": "redundant",
+      "tags": ["DUPDOC"],
+      "sentiment": "issue",
+      "text": "Minor discrepancies identified during scrutiny or verification often trigger repeated resubmission of the same supporting documents."
+    },
+    {
+      "source": "fgd",
+      "category": "delay",
+      "tags": ["TIMELINE", "GRIEVANCE"],
+      "sentiment": "issue",
+      "text": "One participant reported waiting three to four months, with the process only moving forward after a departmental officer personally contacted them to request the required documents."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["RENEWAL", "FEES"],
+      "sentiment": "suggestion",
+      "text": "Participants suggested extending licence validity or introducing a permanent licence with annual fee payment, explicitly citing Trade Licence's move to automatic renewal after payment as a model to follow."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["INSPECT", "NORMS"],
+      "sentiment": "suggestion",
+      "text": "For small units, participants proposed introducing self-certification instead of extensive inspections."
+    },
+    {
+      "source": "fgd",
+      "category": "remarks",
+      "tags": ["POSITIVE"],
+      "sentiment": "positive",
+      "text": "Participants acknowledged that the online application system has improved accessibility compared to the earlier manual process, though further enhancements are needed."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["PORTAL"],
+      "sentiment": "neutral",
+      "text": "The portal, unnamed in the ED, is identified by secondary research as SilpaSathi (silpasathi.wb.gov.in), made the exclusive mandatory channel for Factory Licence from 1 January 2023 per a December 2022 Labour Department notification."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["TIMELINE"],
+      "sentiment": "neutral",
+      "text": "SilpaSathi's own official user manual states a 65-day WBRTPS timeline for a fresh licence, independently confirming the official's ~65-day figure with a citable source rather than just his self-characterisation of it as lengthy."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["GRIEVANCE"],
+      "sentiment": "neutral",
+      "text": "No deemed-approval-to-applicant clause was found anywhere in the WB Right to Public Services Act framework for Factory Licence; only a penalty on the delaying officer (Rs 250-1,000 fine) exists, with no automatic grant to the applicant."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["FEES", "RENEWAL"],
+      "sentiment": "neutral",
+      "text": "Fees are set under Schedules A, B, C of the West Bengal Factories Rules, calculated by the Inspector of Factories, and paid via treasury receipt, due annually before 31 December along with a Form 2 renewal return -- though exact rupee figures could not be found."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["RENEWAL", "TIMELINE"],
+      "sentiment": "neutral",
+      "text": "A separate 2017 RTPS gazette sets a longer 90-day timeline specifically for renewal/amendment/transfer, distinct from the 65-day timeline that applies to a fresh grant -- a distinction not mentioned in either the ED or the FGD."
+    }
+  ],
+  "quotes": [
+    {
+      "speaker": "Industry Representative",
+      "quote": "Every year we have to send someone only to maintain compliance and complete the required formalities.",
+      "topic": "Compliance Burden",
+      "tags": ["COMPLY", "INFORMAL"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Industry Representative",
+      "quote": "Trade Licence has become much simpler with automatic renewal after payment. A similar approach can be adopted for Factory Licence.",
+      "topic": "Simplification of Process",
+      "tags": ["RENEWAL"],
+      "sentiment": "suggestion"
+    },
+    {
+      "speaker": "Industry Representative",
+      "quote": "For small units, self-certification should be introduced instead of extensive inspections.",
+      "topic": "Risk-Based Regulation / Self-Certification",
+      "tags": ["INSPECT", "NORMS"],
+      "sentiment": "suggestion"
+    },
+    {
+      "speaker": "Industry Representative",
+      "quote": "The licence should have a longer validity. Instead of renewing every few years, it could be a permanent licence with annual fee payment.",
+      "topic": "Regulatory Reform",
+      "tags": ["RENEWAL", "FEES"],
+      "sentiment": "suggestion"
+    },
+    {
+      "speaker": "Industry Representative",
+      "quote": "There should be a proper help desk or guidance mechanism for licence applicants.",
+      "topic": "Service Delivery",
+      "tags": ["GRIEVANCE", "CLARITY"],
+      "sentiment": "suggestion"
+    },
+    {
+      "speaker": "Industry Representative",
+      "quote": "The online system should provide better guidance so applicants know exactly what documents are required.",
+      "topic": "Digital Governance",
+      "tags": ["PORTAL", "CLARITY"],
+      "sentiment": "suggestion"
+    },
+    {
+      "speaker": "Industry Representative",
+      "quote": "There should be wider publicity and awareness about such initiatives so that industries can provide better feedback and understand the process.",
+      "topic": "Stakeholder Awareness",
+      "tags": ["CLARITY"],
+      "sentiment": "suggestion"
+    }
+  ],
+  "gaps": [
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "Portal identity: the ED does not name the portal used for Factory Licence. Secondary research identifies it as SilpaSathi (silpasathi.wb.gov.in), made the exclusive mandatory channel from 1 January 2023 per a December 2022 Labour Department notification, replacing an earlier standalone departmental system."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "Timeline: the ED's ~65-day figure was only the official's own self-characterisation ('lengthy'), with no governing Act/Rule cited. Secondary research found SilpaSathi's own official user manual independently states a 65-day WBRTPS timeline for a fresh licence, and also surfaced a separate 90-day timeline (2017 RTPS gazette) specifically for renewal/amendment/transfer -- a distinction neither the ED nor FGD mentioned."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "Deemed approval: the ED explicitly states this was unclear/not identified, and the FGD does not mention deemed approval at all. Secondary research found no deemed-approval-to-applicant clause anywhere in the WB Right to Public Services Act framework -- only a Rs 250-1,000 fine on the delaying officer, with no automatic grant to the applicant. This confirms the FGD's real-world account (an uncushioned 3-4 month wait, no safeguard ever invoked) over any assumption of an unstated mechanism."
+    },
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "Exact statutory/application fee amount: the ED states no fee figure or variation by establishment size/employees/validity was given, and the FGD gives no INR figures at all. Secondary research found the fee basis (Schedules A, B, C of the WB Factories Rules; calculated by the Inspector of Factories; paid via treasury receipt; due annually before 31 December with a Form 2 renewal return) but could not locate the actual rupee amounts -- this gap remains open even after the web-search pass."
+    },
+    {
+      "flag": "MISSING",
+      "text": "Validity period for the initial (first-grant) licence is not stated in the ED at all. Only the FGD gives a figure -- 'validity of the license is only 1 year' -- which is not itself traced to a specific statute or rule in either transcript, though it is structurally consistent with secondary research's finding of an annual (before 31 December) renewal cycle."
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "ED frames the process as largely digitised/online, with portal downtime as the main technical complaint ('The Factory Licence process is largely digitised/online... portal downtime has affected application submission and processing'). FGD participants go further and directly contest the 'effectively digital' framing: they state the digital system provides no real-time tracking, no proactive communication, and no automated notifications, forcing applicants to 'visit the department office regularly to track the verification process' and, in one cited case, to simply wait 3-4 months until an officer personally made contact."
+    },
+    {
+      "flag": "REFORM",
+      "text": "Both ED and FGD independently converge on the same concrete fix: stop requiring resubmission of the factory building/layout plan (or other supporting documents) at every renewal when nothing has changed, and require revised plans/documents only when actual alterations have been made. The ED frames this as its main identified redundant requirement; the FGD's 'redundant/duplicate documents' theme describes the same pattern (resubmission triggered by any deficiency found at scrutiny)."
+    },
+    {
+      "flag": "GOOD_PRACTICE",
+      "text": "FGD participants pointed to West Bengal's own Trade Licence scheme, which has moved to automatic renewal after payment ('Trade Licence has become much simpler with automatic renewal after payment. A similar approach can be adopted for Factory Licence'), as an in-state model worth examining -- consistent with the ED's own recommendation to 'examine and adopt relevant best practices from other Indian states or international jurisdictions.'"
+    }
+  ]
+}

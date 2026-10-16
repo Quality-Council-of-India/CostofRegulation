@@ -1,0 +1,272 @@
+{
+  "code": "DNHDD",
+  "findings": [
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL"],
+      "sentiment": "neutral",
+      "text": "The Factory License process runs as a 10-step, largely digital workflow on the EODB Single Window Portal for Industrial Clearances (swp.dddgov.in): registration and plan-approval application, document upload, departmental scrutiny, license-registration application, fee payment via digital challan, checklist verification, a safety-officer site inspection, and finally download of a digitally signed license certificate."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["PORTAL", "CLARITY"],
+      "sentiment": "issue",
+      "text": "Despite the largely digital process, certain documents still need to be submitted offline in specific cases, introducing a manual step into an otherwise online workflow — the official's principal identified friction point."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["DUPDOC"],
+      "sentiment": "positive",
+      "text": "The department works off a deliberately concise, fixed checklist of 7 prescribed documents (structural drawings/site plans/process flowcharts for plan approval; ownership or lease deed, list of directors, and safety clearances for license registration), with no duplicate or redundant documentation flagged."
+    },
+    {
+      "source": "ed",
+      "category": "delay",
+      "tags": ["TIMELINE"],
+      "sentiment": "neutral",
+      "text": "The end-to-end process takes approximately 20-25 working days, which reflects UT-level administrative practice rather than a statutory turnaround prescribed under the Factories Act, 1948."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["FEES", "CLARITY"],
+      "sentiment": "neutral",
+      "text": "The processing and license fee is paid online via digital challan, subject to a payment ceiling of approximately Rs. 1 lakh; applicants may opt for a lower tenure of registration at a correspondingly lower fee, but exact fee slabs by unit size, employee strength, or tenure were not detailed."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["RENEWAL", "CLARITY"],
+      "sentiment": "neutral",
+      "text": "Exact validity slabs for the Factory License, and whether an extended or lifetime validity comparable to Plan Approval could be introduced, were not confirmed during the discussion and were flagged for follow-up with the department."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["GRIEVANCE"],
+      "sentiment": "issue",
+      "text": "DNH & DD currently has no deemed-approval provision for the Factory License; applications are approved only after actual departmental scrutiny and an on-site inspection by a safety officer are completed, with no consent clause in force."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["GRIEVANCE", "TIMELINE"],
+      "sentiment": "suggestion",
+      "text": "The official suggested exploring a deemed-approval clause for cases where scrutiny is not completed within a defined period, while retaining the mandatory site-inspection requirement for higher-risk units."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["NORMS"],
+      "sentiment": "neutral",
+      "text": "No risk-based classification system for Factory License applications was indicated by the official; all applications currently go through the same scrutiny and mandatory site inspection regardless of the unit's scale or risk profile."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["NORMS"],
+      "sentiment": "suggestion",
+      "text": "The official suggested introducing a risk-based classification approach — lighter-touch verification for low-risk units and more intensive scrutiny for units handling hazardous processes or chemicals — as a possible future reform."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["PORTAL"],
+      "sentiment": "suggestion",
+      "text": "Recommended fully digitising the remaining document categories currently submitted offline; since the checklist, submission mode, and processing procedure are UT-level administrative practice rather than part of the Central Factories Act, this gap can be closed without any change to Central legislation."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["OTHER"],
+      "sentiment": "neutral",
+      "text": "DNH & DD has one of the highest concentrations of industrial units among Union Territories, with close to 7,000 registered industries; fatalities and major injuries are described as rare, attributed to strict compliance enforcement."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["FEES", "TIMELINE"],
+      "sentiment": "issue",
+      "text": "Where a unit depends on institutional bank loans or government tender-based supply contracts, delay in obtaining the factory licence and pollution clearance directly delays loan disbursement or billing, adding an interest-cost burden while the applicant waits."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["CONSULT", "FEES"],
+      "sentiment": "issue",
+      "text": "Smaller enterprises without dedicated technical staff often engage a consultant for factory layout drawings and technical paperwork, at a cost of roughly ₹30,000, specifically to avoid documentation errors and the repeated queries that follow from them."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["COMPLY", "FEES"],
+      "sentiment": "issue",
+      "text": "Beyond consultant fees, machinery and equipment must meet the specifications required under the factory licence, so units incur a purchase cost to meet the compliance standard, separate from what they would otherwise spend to build production capacity."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["PORTAL"],
+      "sentiment": "issue",
+      "text": "Local telecom and internet infrastructure in industrial belts can occasionally stall online submissions, particularly during heavy monsoons."
+    },
+    {
+      "source": "fgd",
+      "category": "policy",
+      "tags": ["COMPLY"],
+      "sentiment": "issue",
+      "text": "Statutory obligations such as ambulance or crèche provisions apply only once workforce thresholds are crossed (e.g. above 500 workers); participants felt DNH/Daman does not offer the kind of graduated, tiered compliance timeline that some other states extend to newer or lower-risk units to phase in such obligations."
+    },
+    {
+      "source": "fgd",
+      "category": "policy",
+      "tags": ["CONSULT", "CLARITY"],
+      "sentiment": "issue",
+      "text": "Consultants engaged for factory licensing are not officially empanelled or registered with the department, unlike architects submitting building-plan approvals via the OBPS portal or auditors conducting water-related compliance audits, both of whom must hold recognised registration or certification — leaving service quality and accountability inconsistent."
+    },
+    {
+      "source": "fgd",
+      "category": "procedural",
+      "tags": ["PORTAL"],
+      "sentiment": "positive",
+      "text": "The application process is almost entirely online; participants did not report using an offline route, and once the listed checklist documents are ready, completing and submitting the application form takes about 30-45 minutes."
+    },
+    {
+      "source": "fgd",
+      "category": "procedural",
+      "tags": ["NORMS", "INSPECT"],
+      "sentiment": "neutral",
+      "text": "Physical inspection is not required for standard, self-declaration-based factory licensing — typically Green-category units, where the applicant self-certifies products manufactured, machinery installed, connected electrical load, workforce, and floor area. Inspection becomes necessary for higher-risk Orange/Red-category units, and the associated site-visit scheduling adds to processing time for those categories specifically."
+    },
+    {
+      "source": "fgd",
+      "category": "procedural",
+      "tags": ["GRIEVANCE", "TIMELINE"],
+      "sentiment": "positive",
+      "text": "A deemed-approval provision applies to factory licensing: if the department neither raises a query nor takes any action within 25 days of submission, the application is treated as approved by default."
+    },
+    {
+      "source": "fgd",
+      "category": "redundant",
+      "tags": ["DUPDOC"],
+      "sentiment": "positive",
+      "text": "No redundant or duplicate documentation was reported; the checklist (building layout drawings, land ownership/title records, rent or purchase agreement, and fire department permission) was described by participants as clear and non-repetitive."
+    },
+    {
+      "source": "fgd",
+      "category": "delay",
+      "tags": ["QUERY", "TIMELINE"],
+      "sentiment": "neutral",
+      "text": "Delays occur mainly when the department raises a query due to incomplete documentation; the processing clock pauses until the applicant responds, after which approval typically resumes promptly."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["COMPLY", "TIMELINE"],
+      "sentiment": "suggestion",
+      "text": "Participants suggested introducing a transition period along the lines of Gujarat's practice, where green/low-risk category units are permitted to commence operations on self-declaration or intimation, with up to two to three years allowed to complete peripheral compliances after operations have started."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["CONSULT", "CLARITY"],
+      "sentiment": "suggestion",
+      "text": "Participants suggested formal empanelment or registration of consultants engaged for factory licensing, comparable to the registration required of architects or certified water-compliance auditors, to improve consistency and accountability of service."
+    },
+    {
+      "source": "fgd",
+      "category": "remarks",
+      "tags": ["POSITIVE"],
+      "sentiment": "positive",
+      "text": "Participants described the department's officers and online portals as responsive and supportive, communicating through SMS, email, and a dedicated departmental WhatsApp group."
+    },
+    {
+      "source": "fgd",
+      "category": "remarks",
+      "tags": ["FEES", "POSITIVE"],
+      "sentiment": "positive",
+      "text": "Statutory fees are calculated automatically on the portal based on connected electrical load (HP/KW) and number of workers, and also vary by pollution category (Green/Orange/Red); participants cited an example statutory fee of roughly ₹22,000 for a unit based on its connected load, with no hidden charges reported."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["GRIEVANCE", "TIMELINE"],
+      "sentiment": "neutral",
+      "text": "A draft DNH & DD Ease of Doing Business Regulation, 2026 (gazetted 20 Jul 2026 for consultation) proposes a \"Right to Business\" self-declaration/in-principle-approval framework for eligible MSMEs — conceptually adjacent to, but distinct from, a classic \"25-days-then-deemed-granted\" timer, suggesting on-the-ground practice may be running ahead of, or anticipating, formal rule change."
+    },
+    {
+      "source": "secondary",
+      "category": "remarks",
+      "tags": ["OTHER"],
+      "sentiment": "neutral",
+      "text": "Secondary research flags possible legal fragmentation within the merged UT: a 2026 draft OSH rules document references the \"Goa, Daman & Diu Factories Rules, 1985\" as still applicable specifically to Daman, meaning the Daman side may still run under older pre-merger rules distinct from a single unified DNH&DD Factories Rules framework — a plausible explanation for reporting variance between sources."
+    }
+  ],
+  "quotes": [
+    {
+      "speaker": "R1",
+      "quote": "Delays typically happen only if the department raises a query due to incomplete documentation. If a query is raised, the clock pauses until the applicant responds.",
+      "topic": "Query-Driven Delay",
+      "tags": ["QUERY", "TIMELINE"],
+      "sentiment": "neutral"
+    },
+    {
+      "speaker": "R2",
+      "quote": "I engaged a consultant to get it expedited for the factory layout designs and technical paperwork, so it could be processed quickly without errors, but the fee is high for the service.",
+      "topic": "Consultant Dependency",
+      "tags": ["CONSULT", "FEES"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "R1",
+      "quote": "In regions like Gujarat, green/low risk category industries are given a transition period of up to two to three years to complete peripheral compliances after starting operations.",
+      "topic": "Gujarat Transition-Period Model",
+      "tags": ["COMPLY"],
+      "sentiment": "suggestion"
+    },
+    {
+      "speaker": "R1",
+      "quote": "The online portals and staff in Dadra & Nagar Haveli and Daman are extremely responsive and supportive.",
+      "topic": "Portal & Staff Responsiveness",
+      "tags": ["POSITIVE"],
+      "sentiment": "positive"
+    }
+  ],
+  "gaps": [
+    {
+      "flag": "MISSING",
+      "text": "Exact fee slabs by unit size, employee strength, or registration tenure for the Factory License are not stated anywhere in the ED. The ED gives only a payment ceiling of 'approximately Rs. 1 lakh'; the FGD supplies a single example fee (~₹22,000 for one unit based on connected load) but not a full schedule."
+    },
+    {
+      "flag": "MISSING",
+      "text": "Exact validity period/slabs for the Factory License itself are not stated in the ED, which explicitly notes this was 'not confirmed during this discussion' and should be verified with the department separately."
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "ED states: 'Dadra and Nagar Haveli and Daman and Diu do not currently provide deemed approval for the Factory License... there is no consent clause in force for this service.' FGD states: 'A deemed approval provision applies to factory licensing: if the department neither raises a query nor takes any action within 25 days of submission, the application is treated as approved by default,' and describes it as functioning well (clock pauses only for genuine queries, resumes promptly). This is a direct, unresolved conflict on a core fact."
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "ED states: 'No risk based classification system for Factory License applications was indicated during the discussion. All applications currently go through the same scrutiny and mandatory site inspection process, irrespective of the unit's scale or risk profile.' FGD describes an operating Green/Orange/Red classification in practice: 'Physical inspection is not required for standard, self declaration based factory licensing, typically Green category units... Inspection becomes necessary for units in higher risk (Orange/Red) categories.'"
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "ED identifies continued offline submission of 'certain documents... in specific cases' as the process's principal friction point. FGD participants instead report: 'The application process is almost entirely online; participants did not report using an offline route.'"
+    },
+    {
+      "flag": "REFORM",
+      "text": "FGD-sourced concrete simplification: adopt a Gujarat-style transition period allowing green/low-risk units to commence operations on self-declaration/intimation, with up to two to three years to complete peripheral compliances after starting operations — addresses the policy-issue complaint that DNH/Daman lacks tiered compliance timelines for lower-risk or newer units."
+    },
+    {
+      "flag": "GOOD_PRACTICE",
+      "text": "Independent of the deemed-approval dispute, both sources corroborate strong service delivery: ED cites monthly departmental review meetings on portal performance, sector-specific awareness seminars, and linkage to the National Single Window Portal; FGD independently describes officers and portals as 'extremely responsive and supportive,' communicating via SMS, email, and a dedicated departmental WhatsApp group, with no hidden fees reported."
+    },
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "Secondary (web) research could not resolve the ED-vs-FGD deemed-approval discrepancy from any official rule text found online. It surfaced a draft DNH & DD Ease of Doing Business Regulation, 2026 proposing a 'Right to Business' self-declaration/in-principle-approval framework for MSMEs (conceptually adjacent to, but not confirmed as, the FGD's 25-day timer) and a possible legal-fragmentation explanation (a 2026 draft OSH rules document still referencing the 'Goa, Daman & Diu Factories Rules, 1985' as applicable to Daman specifically) — neither confirms nor denies whether a formal 25-day deemed-approval rule currently exists."
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "code": "CG",
+  "findings": [
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL"],
+      "sentiment": "positive",
+      "text": "The Factory Licence application is submitted completely online through the Labour Department portal, reducing the need for physical submission."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["INTERDEP"],
+      "sentiment": "neutral",
+      "text": "Factory Drawing Approval must be obtained before construction of the factory can commence, ahead of the Factory Licence application itself."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["PORTAL", "GRIEVANCE"],
+      "sentiment": "positive",
+      "text": "The official stated that applications and their status can be tracked online."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL", "INSPECT"],
+      "sentiment": "positive",
+      "text": "Inspection observations, show-cause notices and compliance submissions are all communicated and submitted electronically."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["INSPECT"],
+      "sentiment": "neutral",
+      "text": "Physical inspection remains mandatory for new Factory Licence applications before the licence is granted, despite the process being otherwise digital."
+    },
+    {
+      "source": "ed",
+      "category": "redundant",
+      "tags": ["DUPDOC", "INTERDEP", "COMPLY"],
+      "sentiment": "issue",
+      "text": "Multiple NOCs and supporting documents from different authorities may be required depending on the nature and location of the factory, adding to the documentation burden."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["FEES"],
+      "sentiment": "neutral",
+      "text": "Factory Licence fees are linked to installed power, manpower and cost of construction rather than a flat statutory figure."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["FEES"],
+      "sentiment": "issue",
+      "text": "Statutory fees increase by 30% every three years; the official himself flagged this escalation as a potential area for review."
+    },
+    {
+      "source": "ed",
+      "category": "delay",
+      "tags": ["CLARITY", "QUERY"],
+      "sentiment": "issue",
+      "text": "Incomplete or inappropriate applications are a major source of delay, since they are returned for correction and resubmission."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["INSPECT"],
+      "sentiment": "suggestion",
+      "text": "The official recommended expanding risk-based inspections and exempting eligible low-risk, compliant factories from mandatory physical inspection where digital verification suffices."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["COMPLY"],
+      "sentiment": "suggestion",
+      "text": "The official recommended operationalising self-certification for eligible factories to reduce approval time."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["INTERDEP", "DUPDOC"],
+      "sentiment": "suggestion",
+      "text": "The official recommended integrating Factory Building Plan Approval and Factory Licence processes to enable document reuse and minimise repeated documentation."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["PORTAL", "CLARITY"],
+      "sentiment": "suggestion",
+      "text": "The official recommended strengthening the online portal with comprehensive document checklists and pre-submission validation."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["INTERDEP", "TIMELINE"],
+      "sentiment": "issue",
+      "text": "Factory Licence is the final compliance stage, so delays in land, building plan, fire, electricity or pollution approvals directly delay commencement of operations."
+    },
+    {
+      "source": "fgd",
+      "category": "delay",
+      "tags": ["GRIEVANCE"],
+      "sentiment": "issue",
+      "text": "Participants said the online application itself is not difficult, but follow-up and internal departmental processing create the real delays."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["GRIEVANCE", "CLARITY"],
+      "sentiment": "issue",
+      "text": "Applicants may need multiple follow-ups because they cannot always identify where in the process an application or document is pending."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["CONSULT", "INFORMAL"],
+      "sentiment": "issue",
+      "text": "Consultant support may become necessary just to track applications and resolve pending issues, increasing the cost burden for applicants."
+    },
+    {
+      "source": "fgd",
+      "category": "policy",
+      "tags": ["INTERDEP", "PORTAL"],
+      "sentiment": "issue",
+      "text": "The single-window framework does not yet provide a fully integrated end-to-end approval process across departments."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["COMPLY", "DUPDOC"],
+      "sentiment": "suggestion",
+      "text": "Experts suggested reducing requirements that are legally or practically redundant for smaller or low-risk units."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["INTERDEP"],
+      "sentiment": "suggestion",
+      "text": "A single nodal authority or lead department was suggested to coordinate and track all factory-related approvals."
+    },
+    {
+      "source": "fgd",
+      "category": "delay",
+      "tags": ["TIMELINE"],
+      "sentiment": "issue",
+      "text": "A prescribed processing timeline of 30 days was referenced by participants, but internal movement between departments affects actual processing time."
+    },
+    {
+      "source": "fgd",
+      "category": "redundant",
+      "tags": ["PORTAL", "DUPDOC"],
+      "sentiment": "issue",
+      "text": "Migration to the new portal resulted in previously submitted documents not always being available, requiring applicants to re-upload them."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["DUPDOC", "PORTAL"],
+      "sentiment": "suggestion",
+      "text": "A DigiLocker-type repository was suggested so departments can retrieve documents the applicant has already submitted, rather than requesting them again."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["INTERDEP", "TIMELINE"],
+      "sentiment": "suggestion",
+      "text": "Participants suggested linking land, building plan, fire, electricity, pollution and Factory Licence processes so eligible approvals can run in parallel."
+    },
+    {
+      "source": "secondary",
+      "category": "remarks",
+      "tags": ["PORTAL", "POSITIVE"],
+      "sentiment": "positive",
+      "text": "Secondary research found Chhattisgarh's Single Window System 2.0 ('OneClick') portal relaunched in July 2024, offering single login, e-challan payment and department queries routed through the portal."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["CLARITY"],
+      "sentiment": "neutral",
+      "text": "Secondary research found the Chhattisgarh Ease of Doing Business Bill, 2026, passed by the Assembly on 16 July 2026, is reported to introduce a risk-based, deemed/auto-approval framework (30-60 days by category) with self-certification across an initial 43 services, which would directly contradict the ED's statement that no deemed-approval mechanism exists for Factory Licence — but whether the Bill has commenced and whether Factory Licence is among the covered services could not be confirmed."
+    }
+  ],
+  "quotes": [
+    {
+      "speaker": "Participants",
+      "quote": "The application process itself is not very difficult, but the follow-up and internal processing create delays.",
+      "topic": "Process Efficiency",
+      "tags": ["TIMELINE", "GRIEVANCE"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participants",
+      "quote": "The Factory Licence is the last major compliance before the manufacturing unit can start operations.",
+      "topic": "Sequential Compliance",
+      "tags": ["INTERDEP"],
+      "sentiment": "neutral"
+    },
+    {
+      "speaker": "Participants",
+      "quote": "The biggest issue is that the single-window portal exists, but the departments are not fully interconnected.",
+      "topic": "Single Window Gap",
+      "tags": ["PORTAL", "INTERDEP"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participants",
+      "quote": "If an application is held up at a particular stage, there is no clear online update showing where exactly it is stuck.",
+      "topic": "Application Tracking",
+      "tags": ["GRIEVANCE", "PORTAL"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participants",
+      "quote": "Applicants have to visit the concerned department multiple times just to find out the status of their application.",
+      "topic": "Physical Follow-up",
+      "tags": ["GRIEVANCE"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participants",
+      "quote": "A consultant has to be hired because applicants do not always know where the application is pending or what needs to be done next.",
+      "topic": "Intermediary Dependency",
+      "tags": ["CONSULT"],
+      "sentiment": "issue"
+    }
+  ],
+  "gaps": [
+    {
+      "flag": "MISSING",
+      "text": "No numerical statutory or average processing timeline for Factory Licence is stated anywhere in the ED. The FGD references a '30-day prescribed timeline' but this was not independently corroborated by the official."
+    },
+    {
+      "flag": "MISSING",
+      "text": "The validity period of the Factory Licence and its renewal cycle are not specified in either the ED or FGD."
+    },
+    {
+      "flag": "MISSING",
+      "text": "No exact statutory fee amount is given anywhere in the sources — only the fee determinants (installed power, manpower, cost of construction) and the fact that fees rise 30% every three years."
+    },
+    {
+      "flag": "VAGUE",
+      "text": "Deemed-approval status is not clearly stated. The ED says only that 'the source report does not specify whether deemed approval is available' and that 'no specific operational mechanism for deemed approval was identified in the discussion' — this is an absence of discussion, not a definitive confirmation that no deemed-approval mechanism exists."
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "The ED states applications and their status 'can be tracked online,' listed as part of the application process flow. The FGD directly contradicts this in practice: 'If an application is held up at a particular stage, there is no clear online update showing where exactly it is stuck,' and 'the biggest issue is that the single-window portal exists, but the departments are not fully interconnected.'"
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "The FGD references 'a prescribed processing timeline discussed was 30 days,' but the ED explicitly states 'the source report does not specify a numerical statutory or average processing timeline for Factory Licence.' The two sources do not agree on whether a concrete day-count figure exists."
+    },
+    {
+      "flag": "REFORM",
+      "text": "The official himself flagged the 30%-every-three-years fee escalation as 'a potential area for review,' and separately recommended integrating Factory Building Plan Approval with the Factory Licence process to cut repeated documentation — both are concrete, official-sourced reform directions, echoed independently by the FGD's call to link building-plan, fire, electricity and pollution approvals to run in parallel."
+    },
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "Secondary research found the Chhattisgarh Ease of Doing Business Bill, 2026 (Assembly-passed 16 Jul 2026) reportedly introduces deemed/auto-approval and self-certification across an initial 43 services, which would resolve the ED's 'no deemed approval mechanism identified' gap if Factory Licence is covered and the Bill has commenced — but Governor's assent, gazette notification, commencement date and service coverage could not be confirmed, so this gap remains open. A separate low-confidence secondary source suggesting a Rule 5 validity change from 10 to 15 years (notification RULE-5/39/2025-LABOUR, Aug 2025) also could not be confirmed against primary text, so the validity-period gap likewise remains open."
+    }
+  ]
+}

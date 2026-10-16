@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cost of Regulation — Factory License | QCI · DPIIT</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lexend:wght@500;600;700&display=swap');
+
+:root{
+  --primary:#4F46E5; --primary-dark:#4338CA; --primary-light:#EEF2FF;
+  --accent:#F59E0B; --accent-light:#FEF3C7;
+  --ink:#0F172A; --body:#334155; --muted:#64748B; --faint:#94A3B8;
+  --bg:#F3F4F8; --card:#FFFFFF; --border:#E2E8F0; --border-2:#EDF0F5;
+  --success:#059669; --success-light:#D1FAE5;
+  --warning:#D97706; --warning-light:#FEF3C7;
+  --danger:#DC2626; --danger-light:#FEE2E2;
+  --info:#2563EB; --info-light:#DBEAFE;
+  --violet:#7C3AED; --violet-light:#EDE9FE;
+  --r:14px; --r-sm:9px;
+  --shadow-sm:0 1px 2px rgba(15,23,42,.05);
+  --shadow:0 2px 8px rgba(15,23,42,.06), 0 1px 2px rgba(15,23,42,.04);
+  --shadow-lg:0 12px 32px rgba(15,23,42,.12), 0 2px 6px rgba(15,23,42,.06);
+  --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --display:'Lexend','Inter',sans-serif;
+  --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--bg);color:var(--body);font-family:var(--sans);font-size:14px;line-height:1.55;-webkit-font-smoothing:antialiased}
+button,select,input{font-family:inherit;font-size:inherit;color:inherit}
+a{color:var(--primary);text-decoration:none}
+a:hover{text-decoration:underline}
+svg.ic{width:16px;height:16px;flex:0 0 auto;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+::selection{background:var(--primary-light);color:var(--primary-dark)}
+
+.shell{display:flex;min-height:100vh;align-items:stretch}
+.rail{width:256px;flex:0 0 256px;background:linear-gradient(180deg,#131B3D,#0B1230);color:#CBD3F0;display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow-y:auto}
+.rail-brand{padding:22px 18px 16px;border-bottom:1px solid rgba(255,255,255,.08)}
+.rail-brand .eyebrow{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#8C96C9;font-weight:700}
+.rail-brand h1{font-family:var(--display);font-size:19px;line-height:1.2;margin:8px 0 4px;color:#fff;font-weight:700;letter-spacing:-.01em}
+.rail-brand .sub{font-size:11.5px;color:#99A2CE}
+.svcpick{margin-top:13px;display:flex;align-items:center;gap:7px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:8px 10px}
+.svcpick select{background:transparent;border:0;color:#fff;font-weight:600;font-size:12px;width:100%;outline:none}
+.svcpick select option{color:#0F172A}
+.rail-nav{padding:14px 10px;display:flex;flex-direction:column;gap:3px}
+.navbtn{display:flex;gap:11px;align-items:flex-start;text-align:left;background:transparent;border:0;color:#B6BFE8;padding:10px 11px;border-radius:10px;cursor:pointer;width:100%;transition:background .15s, transform .15s}
+.navbtn:hover{background:rgba(255,255,255,.07);transform:translateX(2px)}
+.navbtn.on{background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:#fff;box-shadow:0 4px 14px rgba(79,70,229,.45)}
+.navbtn svg.ic{margin-top:1px;color:#808BC4;flex:0 0 auto}
+.navbtn.on svg.ic{color:#fff}
+.navbtn .t{font-weight:700;font-size:13px;display:block}
+.navbtn .d{font-size:10.5px;opacity:.78;font-weight:400;display:block;margin-top:2px;line-height:1.35}
+.rail-foot{margin-top:auto;padding:14px 18px 20px;font-size:10.5px;color:#8C96C9;line-height:1.6}
+.rail-foot b{color:#C3CAEE;font-weight:700}
+
+.main{flex:1;min-width:0;display:flex;flex-direction:column}
+.topbar{background:rgba(255,255,255,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding:12px 26px;position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.topbar-filters{display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap;flex:1}
+.fld{display:flex;flex-direction:column;gap:4px;min-width:0}
+.fld label{font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.fld select,.fld input{border:1px solid var(--border);background:#fff;border-radius:8px;padding:8px 11px;min-width:190px;max-width:300px;height:36px;outline:none;font-size:13px;transition:border-color .15s, box-shadow .15s}
+.fld select:focus,.fld input:focus{border-color:var(--primary);box-shadow:0 0 0 3px var(--primary-light)}
+.topbar-actions{display:flex;gap:10px;align-items:center}
+.search{border:1px solid var(--border);background:#fff;border-radius:999px;padding:8px 14px;height:36px;width:200px;outline:none;font-size:12.5px;transition:all .15s}
+.search:focus{border-color:var(--primary);box-shadow:0 0 0 3px var(--primary-light);width:260px}
+.btn{border:1px solid var(--border);background:#fff;border-radius:9px;height:36px;padding:0 14px;cursor:pointer;font-weight:600;font-size:12.5px;color:var(--ink);white-space:nowrap;display:inline-flex;align-items:center;gap:7px;transition:all .15s}
+.btn:hover{background:var(--bg);border-color:var(--faint);transform:translateY(-1px)}
+.btn.primary{background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:#fff;border-color:transparent;box-shadow:0 2px 8px rgba(79,70,229,.3)}
+.btn.sm{height:30px;padding:0 11px;font-size:11.5px}
+
+.canvas{padding:26px 30px 80px;flex:1;max-width:1400px;animation:fadein .25s ease}
+@keyframes fadein{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+.pagehead{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:18px;flex-wrap:wrap}
+.pagehead h2{font-family:var(--display);font-weight:700;font-size:26px;margin:0;line-height:1.2;display:flex;align-items:center;gap:11px;color:var(--ink);letter-spacing:-.01em}
+.pagehead h2 svg.ic{width:24px;height:24px;color:var(--primary)}
+.pagehead .lede{color:var(--muted);font-size:13px;margin-top:6px;max-width:800px;line-height:1.6}
+.stamp{font-size:10px;letter-spacing:.07em;text-transform:uppercase;font-weight:700;border:1px solid var(--border);border-radius:999px;padding:6px 12px;color:var(--muted);background:#fff;white-space:nowrap}
+.stamp.live{border-color:var(--success);color:var(--success);background:var(--success-light)}
+
+.grid{display:grid;gap:16px}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.g5{grid-template-columns:repeat(5,minmax(0,1fr))}
+.g23{grid-template-columns:minmax(0,2fr) minmax(0,3fr)}
+
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden;transition:box-shadow .2s}
+.card.hoverable:hover{box-shadow:var(--shadow-lg)}
+.card-h{padding:14px 18px 12px;border-bottom:1px solid var(--border-2);display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card-h h3{margin:0;font-size:13.5px;font-weight:700;letter-spacing:-.005em;display:flex;align-items:center;gap:8px;color:var(--ink)}
+.card-h .note{font-size:11px;color:var(--faint)}
+.card-b{padding:17px 18px}
+.card-b.tight{padding:10px 12px 12px}
+
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:16px 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:7px;transition:transform .18s, box-shadow .18s}
+.kpi:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.kpi .k-top{display:flex;align-items:center;justify-content:space-between}
+.kpi .k-l{font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.kpi .k-v{font-family:var(--display);font-size:28px;font-weight:700;letter-spacing:-.02em;line-height:1.05;color:var(--ink)}
+.kpi .k-s{font-size:11.5px;color:var(--muted);line-height:1.4}
+.kpi.acc-success .k-v{color:var(--success)} .kpi.acc-warn .k-v{color:var(--warning)}
+.kpi.acc-danger .k-v{color:var(--danger)} .kpi.acc-primary .k-v{color:var(--primary)} .kpi.acc-violet .k-v{color:var(--violet)}
+.kpi .k-icon{width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.kpi.acc-success .k-icon{background:var(--success-light);color:var(--success)}
+.kpi.acc-warn .k-icon{background:var(--warning-light);color:var(--warning)}
+.kpi.acc-danger .k-icon{background:var(--danger-light);color:var(--danger)}
+.kpi.acc-primary .k-icon{background:var(--primary-light);color:var(--primary)}
+.kpi.acc-violet .k-icon{background:var(--violet-light);color:var(--violet)}
+
+table.dt{width:100%;border-collapse:collapse;font-size:12.5px}
+table.dt th{text-align:left;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700;padding:10px 12px;border-bottom:1px solid var(--border);white-space:nowrap;background:var(--card);cursor:pointer;user-select:none}
+table.dt th:hover{color:var(--primary)}
+table.dt th .sort-arrow{opacity:.4;margin-left:3px}
+table.dt td{padding:11px 12px;border-bottom:1px solid var(--border-2);vertical-align:top}
+table.dt tbody tr{transition:background .12s}
+table.dt tbody tr:hover{background:var(--primary-light)}
+table.dt td.n,table.dt th.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.scroll-y{max-height:560px;overflow:auto}
+.state-link{font-weight:700;cursor:pointer;color:var(--ink)}
+.state-link:hover{color:var(--primary)}
+.state-link small{display:block;font-weight:400;color:var(--faint);font-size:10.5px;margin-top:1px}
+
+.badge{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:700;padding:5px 10px;border-radius:999px;white-space:nowrap;border:1px solid transparent}
+.badge.b-online{background:var(--success-light);color:#065F46;border-color:#A7E8CB}
+.badge.b-site{background:var(--info-light);color:#1E40AF;border-color:#BFD4F7}
+.badge.b-mixed{background:var(--warning-light);color:#92400E;border-color:#F6D68B}
+.badge.b-bad{background:var(--danger-light);color:#991B1B;border-color:#F3C2BE}
+.badge.b-mute{background:var(--bg);color:var(--muted);border-color:var(--border)}
+.badge .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:0 0 auto}
+
+.tag{display:inline-block;padding:4px 9px;border-radius:6px;font-size:10px;font-weight:700;letter-spacing:.01em;white-space:nowrap}
+.t-ok{background:var(--success-light);color:#065F46}
+.t-warn{background:var(--warning-light);color:#92400E}
+.t-bad{background:var(--danger-light);color:#991B1B}
+.t-mute{background:var(--bg);color:var(--muted);border:1px solid var(--border)}
+.t-info{background:var(--info-light);color:#1E40AF}
+
+.hbars{display:flex;flex-direction:column;gap:10px}
+.hbar{display:grid;grid-template-columns:168px 1fr 70px;gap:11px;align-items:center;font-size:12px}
+.hbar .hb-n{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600;cursor:pointer}
+.hbar .hb-n:hover{color:var(--primary)}
+.hbar .hb-track{height:10px;background:var(--border-2);border-radius:6px;overflow:hidden}
+.hbar .hb-fill{height:100%;border-radius:6px;width:0;transition:width 1s cubic-bezier(.22,1,.36,1)}
+.hbar .hb-v{font-family:var(--mono);text-align:right;font-weight:700;font-size:11.5px}
+
+.stepper{display:flex;flex-direction:column}
+.step-v{display:grid;grid-template-columns:40px 1fr;column-gap:15px}
+.step-v .rail-col{display:flex;flex-direction:column;align-items:center}
+.step-v .dot{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;flex:0 0 auto;border:2px solid transparent;transition:transform .15s}
+.step-v .dot.online{background:linear-gradient(135deg,var(--success),#047857);color:#fff}
+.step-v .dot.site{background:var(--info-light);color:var(--info);border-color:#BFD4F7}
+.step-v .dot.mixed{background:var(--warning-light);color:var(--warning);border-color:#F6D68B}
+.step-v .dot.unclear{background:var(--bg);color:var(--muted);border-color:var(--border)}
+.step-v .line{width:2px;flex:1;background:var(--border);min-height:20px}
+.step-v:last-child .line{display:none}
+.step-v .body{padding:3px 0 24px}
+.step-v:hover .dot{transform:scale(1.08)}
+.step-v .sp{font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--faint);font-weight:700;margin-bottom:3px}
+.step-v .st{font-weight:700;font-size:13.5px;line-height:1.4;display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--ink)}
+.step-v .sd{font-size:12px;color:var(--muted);margin-top:4px;line-height:1.5}
+
+.src-card{border-radius:var(--r);border:1px solid var(--border);overflow:hidden;background:#fff;height:100%;display:flex;flex-direction:column;transition:box-shadow .2s}
+.src-card:hover{box-shadow:var(--shadow-lg)}
+.src-card .src-h{padding:12px 15px;display:flex;align-items:center;gap:8px;font-weight:700;font-size:12px;color:#fff}
+.src-card.ed .src-h{background:linear-gradient(135deg,#1E293B,#0F172A)}
+.src-card.fgd .src-h{background:linear-gradient(135deg,var(--violet),#5B21B6)}
+.src-card.sec .src-h{background:linear-gradient(135deg,var(--success),#047857)}
+.src-card .src-b{padding:14px 15px;font-size:12.5px;color:var(--body);line-height:1.55;flex:1}
+.src-card .src-meta{font-size:10.5px;color:var(--faint);padding:0 15px 12px;border-top:1px solid var(--border-2);margin-top:8px;padding-top:9px}
+
+.gap-note{border:1px dashed var(--faint);background:#fff;border-radius:10px;padding:11px 13px;font-size:11.5px;color:var(--muted);line-height:1.55}
+.banner{border:1px solid var(--warning);background:var(--warning-light);color:#78350F;border-radius:10px;padding:12px 15px;font-size:12.5px;display:flex;gap:10px;align-items:flex-start;margin-bottom:16px}
+.banner.info{border-color:#93C5FD;background:var(--info-light);color:#1E3A8A}
+.banner.good{border-color:#A7E8CB;background:var(--success-light);color:#065F46}
+.banner svg.ic{margin-top:2px;flex:0 0 auto}
+
+.empty{padding:34px;text-align:center;color:var(--muted);font-size:13px}
+.empty b{display:block;font-size:15px;color:var(--ink);margin-bottom:5px;font-family:var(--display);font-weight:700}
+.hint{font-size:11.5px;color:var(--faint);margin-top:10px;line-height:1.5}
+
+.statepick{display:flex;flex-wrap:wrap;gap:8px}
+.statepick button{border:1px solid var(--border);background:#fff;border-radius:999px;padding:8px 14px;font-size:12px;font-weight:600;cursor:pointer;color:var(--body);display:inline-flex;align-items:center;gap:6px;transition:all .15s}
+.statepick button:hover{border-color:var(--primary);color:var(--primary)}
+.statepick button.on{background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:#fff;border-color:transparent}
+.statepick button .n{opacity:.6;font-weight:400;font-size:10.5px}
+
+.leader-card{border:1px solid var(--border);border-radius:var(--r);padding:18px;background:linear-gradient(160deg,#fff,#FAFBFF);display:flex;flex-direction:column;gap:9px;transition:transform .18s, box-shadow .18s}
+.leader-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.leader-card .lc-kpi{font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.leader-card .lc-state{font-family:var(--display);font-size:19px;font-weight:700;color:var(--ink);cursor:pointer}
+.leader-card .lc-state:hover{color:var(--primary)}
+.leader-card .lc-metric{font-size:13px;font-weight:700;color:var(--success)}
+.leader-card .lc-why{font-size:12px;color:var(--muted);line-height:1.5}
+.medal{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#FFD873,#E8A93A);display:flex;align-items:center;justify-content:center;color:#5A3C00;flex:0 0 auto;box-shadow:0 2px 8px rgba(232,169,58,.4)}
+
+.practice-card{border:1px solid var(--border);border-radius:var(--r);padding:15px 16px;background:#fff;display:flex;gap:13px;transition:box-shadow .2s, transform .2s}
+.practice-card:hover{box-shadow:var(--shadow-lg);transform:translateY(-2px)}
+.practice-card .pc-icon{width:38px;height:38px;border-radius:10px;background:var(--violet-light);color:var(--violet);display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.practice-card .pc-state{font-size:10.5px;font-weight:700;color:var(--faint);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px;cursor:pointer}
+.practice-card .pc-state:hover{color:var(--primary)}
+.practice-card .pc-t{font-size:13px;font-weight:700;margin-bottom:4px;color:var(--ink)}
+.practice-card .pc-d{font-size:12px;color:var(--muted);line-height:1.5}
+
+.stagegrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media(max-width:1000px){.stagegrid{grid-template-columns:1fr}}
+.stagecol{display:flex;flex-direction:column;gap:11px}
+.stagecol-h{display:flex;align-items:center;gap:8px;padding:11px 14px;border-radius:10px;font-weight:700;font-size:12.5px}
+.stagecol-h.online{background:var(--success-light);color:#065F46}
+.stagecol-h.mixed{background:var(--warning-light);color:#92400E}
+.stagecol-h.site{background:var(--info-light);color:#1E40AF}
+.statecard-mini{border:1px solid var(--border);border-radius:12px;padding:13px 14px;background:#fff;cursor:pointer;transition:all .18s}
+.statecard-mini:hover{border-color:var(--primary);box-shadow:var(--shadow-lg);transform:translateY(-2px)}
+.statecard-mini .n{font-weight:700;font-size:13px;color:var(--ink);display:flex;justify-content:space-between;align-items:center}
+.statecard-mini .n .pos{font-size:10px;font-family:var(--mono);color:var(--faint);font-weight:400}
+.statecard-mini .d{font-size:11.5px;color:var(--muted);margin-top:5px;line-height:1.5}
+.mini-pipe{display:flex;gap:3px;margin-top:9px;align-items:center}
+.mini-pipe .md{width:7px;height:7px;border-radius:50%;background:var(--border)}
+.mini-pipe .md.on{background:var(--success)}
+.mini-pipe .md.site{background:var(--info)}
+.mini-pipe .md.mixed{background:var(--warning)}
+.mini-pipe .md.focus{width:11px;height:11px;outline:2px solid var(--ink);outline-offset:1px}
+.statecard-mini .meta-row{display:flex;gap:8px;margin-top:9px;flex-wrap:wrap}
+.chip-sm{font-size:10px;font-weight:700;padding:3px 8px;border-radius:999px;background:var(--bg);color:var(--muted);display:inline-flex;align-items:center;gap:4px}
+.chip-sm.link{color:var(--primary);cursor:pointer}
+.chip-sm.link:hover{text-decoration:underline}
+
+.cmp-col{border:1px solid var(--border);border-radius:var(--r);background:#fff;overflow:hidden;box-shadow:var(--shadow)}
+.cmp-col .cc-h{background:linear-gradient(135deg,#1E293B,#0F172A);color:#fff;padding:14px 16px}
+.cmp-col .cc-h .n{font-family:var(--display);font-size:17px;font-weight:700}
+.cmp-col .cc-h .s{font-size:10.5px;color:#93A7BF;margin-top:2px}
+.cmp-row{padding:11px 16px;border-bottom:1px solid var(--border-2);font-size:12.5px}
+.cmp-row .l{font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:4px}
+
+/* ---------- findings, quotes, gap badges (new) ---------- */
+.finding{border-left:3px solid var(--faint);padding:9px 13px;margin-bottom:8px;background:#fff;border:1px solid var(--border-2);border-left-width:3px;border-radius:0 10px 10px 0;font-size:12.5px;line-height:1.5}
+.finding:last-child{margin-bottom:0}
+.finding.sent-issue{border-left-color:var(--danger)}
+.finding.sent-positive{border-left-color:var(--success)}
+.finding.sent-suggestion{border-left-color:var(--info)}
+.finding.sent-neutral{border-left-color:var(--faint)}
+.finding .fmeta{display:flex;gap:6px;align-items:center;margin-bottom:5px;flex-wrap:wrap}
+.fcat{font-size:9px;text-transform:uppercase;letter-spacing:.06em;font-weight:800;color:var(--muted)}
+.ftag{font-size:9px;font-weight:700;padding:2px 7px;border-radius:999px;background:var(--bg);color:var(--muted);border:1px solid var(--border)}
+.ftag.src-ed{background:#1E293B;color:#fff;border-color:transparent}
+.ftag.src-fgd{background:var(--violet-light);color:#5B21B6;border-color:transparent}
+.ftag.src-secondary{background:var(--success-light);color:#065F46;border-color:transparent}
+.finding .ftext{color:var(--body)}
+
+.quote-card{background:linear-gradient(160deg,#fff,#FAFBFF);border:1px solid var(--border);border-radius:14px;padding:16px 18px;position:relative;height:100%}
+.quote-card .qmark{font-family:var(--display);font-size:38px;color:var(--border-2);position:absolute;top:2px;left:12px;line-height:1}
+.quote-card .qtext{font-style:italic;font-size:13.5px;color:var(--ink);padding-left:16px;line-height:1.5;position:relative}
+.quote-card .qmeta{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding-top:10px;border-top:1px solid var(--border-2);font-size:10.5px;color:var(--faint)}
+.quote-card .qtopic{font-weight:700;color:var(--muted)}
+
+.gapbadge{display:inline-flex;align-items:center;gap:5px;font-size:9.5px;font-weight:800;padding:4px 10px;border-radius:999px;border:1px solid;letter-spacing:.02em;white-space:nowrap}
+.gapbadge.gf-MISSING{background:var(--bg);color:var(--muted);border-color:var(--border)}
+.gapbadge.gf-VAGUE{background:var(--warning-light);color:#92400E;border-color:#F6D68B}
+.gapbadge.gf-INCONSISTENT{background:var(--danger-light);color:#991B1B;border-color:#F3C2BE}
+.gapbadge.gf-SECONDARY_RESOLVED{background:var(--success-light);color:#065F46;border-color:#A7E8CB}
+.gapbadge.gf-SECONDARY_OPEN{background:var(--warning-light);color:#92400E;border-color:#F6D68B;border-style:dashed}
+.gapbadge.gf-GOOD_PRACTICE{background:var(--violet-light);color:#5B21B6;border-color:#D8CCFA}
+.gapbadge.gf-REFORM{background:var(--info-light);color:#1E40AF;border-color:#BFD4F7}
+
+.gap-item{border:1px solid var(--border);border-radius:10px;padding:12px 14px;margin-bottom:9px;background:#fff}
+.gap-item:last-child{margin-bottom:0}
+.gap-item .gi-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.gap-item .gi-state{font-weight:700;font-size:12px;color:var(--ink);cursor:pointer}
+.gap-item .gi-state:hover{color:var(--primary)}
+.gap-item .gi-text{font-size:12.5px;color:var(--body);line-height:1.55;margin-top:8px}
+
+.resbar{display:flex;height:8px;border-radius:5px;overflow:hidden;background:var(--border-2)}
+.resbar .seg{height:100%}
+
+/* ---------- misc ---------- */
+.quote{font-style:italic;color:var(--body);border-left:3px solid var(--border);padding-left:11px;margin:5px 0}
+.tabset{display:flex;gap:6px;margin-bottom:13px;flex-wrap:wrap}
+.tabbtn{border:1px solid var(--border);background:#fff;border-radius:999px;padding:7px 14px;font-size:11.5px;font-weight:700;cursor:pointer;color:var(--muted);transition:all .15s}
+.tabbtn:hover{border-color:var(--primary);color:var(--primary)}
+.tabbtn.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+@media (max-width:1180px){ .g4{grid-template-columns:repeat(2,minmax(0,1fr))} .g5{grid-template-columns:repeat(2,minmax(0,1fr))} .g23,.g3{grid-template-columns:minmax(0,1fr)} .stagegrid{grid-template-columns:1fr} }
+@media (max-width:860px){
+  .shell{flex-direction:column} .rail{width:100%;flex:none;height:auto;position:static;flex-direction:column}
+  .rail-nav{flex-direction:row;flex-wrap:wrap} .navbtn{width:auto;flex:1 1 44%} .rail-foot{display:none}
+  .g2{grid-template-columns:minmax(0,1fr)} .canvas{padding:16px 14px 50px} .topbar{padding:10px 14px}
+  .search{width:140px}
+  .fld select,.fld input{min-width:140px;max-width:100%}
+}
+@media print{
+  .rail,.topbar,.btn,.statepick{display:none !important}
+  body{background:#fff} .canvas{padding:0;max-width:none}
+  .card{break-inside:avoid;box-shadow:none;border:1px solid #ccc}
+  .scroll-y{max-height:none !important;overflow:visible !important}
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+  <nav class="rail" aria-label="Dashboard sections">
+    <div class="rail-brand">
+      <div class="eyebrow">Government of India · DPIIT</div>
+      <h1>Cost of Regulation</h1>
+      <div class="sub">Quality Council of India</div>
+      <div class="svcpick">
+        <select disabled><option>Factory License — live</option><option disabled>Other licenses — not yet digitised</option></select>
+      </div>
+    </div>
+    <div class="rail-nav" id="railnav"></div>
+    <div class="rail-foot">
+      <b>Pilot scope</b><br>
+      Factory License · 11 States/UTs with Expert Discussion<br>
+      5 of 11 also have Focused Group Discussion<br><br>
+      <b>This file</b><br>
+      Single self-contained HTML, no server, no database — open it, email it, host it anywhere.
+    </div>
+  </nav>
+
+  <div class="main">
+    <div class="topbar">
+      <div class="topbar-filters" id="filterbar"></div>
+      <div class="topbar-actions">
+        <input class="search" id="globalSearch" type="search" placeholder="Jump to a State…" />
+        <button class="btn" id="downloadBtn"><svg class="ic" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="M6.5 10 12 15.5 17.5 10"/><path d="M4 19.5h16"/></svg> Download / print</button>
+      </div>
+    </div>
+    <div class="canvas" id="canvas">
+      <div class="loading">Loading…</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/;
+</script>
+<script>
+/* ==========================================================================
+   COST OF REGULATION — FACTORY LICENSE, SINGLE-FILE EDITION
+   All data is embedded above (DATA). No network calls, no backend.
+   ========================================================================== */
+
+const ICONS = {
+  grid:'<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+  user:'<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/>',
+  columns:'<rect x="3" y="4" width="5" height="16" rx="1"/><rect x="9.5" y="4" width="5" height="16" rx="1"/><rect x="16" y="4" width="5" height="16" rx="1"/>',
+  layers:'<path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>',
+  award:'<circle cx="12" cy="8" r="5.2"/><path d="M8.3 12.8 6.5 21l5.5-3 5.5 3-1.8-8.2"/>',
+  scale:'<path d="M12 3v17"/><path d="M6 7h6M12 7h6"/><path d="M3 7l2.6 6.2a2.6 2.6 0 0 0 5.2 0L8 7"/><path d="M16 7l2.6 6.2a2.6 2.6 0 0 0 5.2 0L21 7"/><path d="M7 20h10"/>',
+  book:'<path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H11v17H6.5A2.5 2.5 0 0 0 4 21.5z"/><path d="M20 4.5A2.5 2.5 0 0 0 17.5 2H13v17h4.5A2.5 2.5 0 0 1 20 21.5z"/>',
+  flask:'<path d="M9 2v6.5L4 18a2 2 0 0 0 1.8 3h12.4a2 2 0 0 0 1.8-3L15 8.5V2"/><path d="M8.5 2h7"/><path d="M7 15h10"/>',
+  download:'<path d="M12 3v12"/><path d="M6.5 10 12 15.5 17.5 10"/><path d="M4 19.5h16"/>',
+  check:'<circle cx="12" cy="12" r="9.5"/><path d="M7.5 12.3l3 3 6-6.6"/>',
+  pin:'<path d="M12 21.5s7.2-7.6 7.2-12.3A7.2 7.2 0 0 0 4.8 9.2c0 4.7 7.2 12.3 7.2 12.3z"/><circle cx="12" cy="9" r="2.6"/>',
+  alert:'<path d="M12 3 2.2 20h19.6z"/><path d="M12 10v4.5"/><circle cx="12" cy="17.3" r=".6" fill="currentColor"/>',
+  dash:'<circle cx="12" cy="12" r="9.5" stroke-dasharray="2.5 3"/>',
+  arrow:'<path d="M5 12h14"/><path d="M13 6l6 6-6 6"/>',
+  link:'<path d="M9 15 15 9"/><path d="M10 6.5 11.5 5a4 4 0 0 1 5.7 5.7L15.5 12.2"/><path d="M14 17.5 12.5 19a4 4 0 0 1-5.7-5.7L8.5 11.8"/>',
+  quote:'<path d="M7 7h4v6c0 3-2 5-5 5"/><path d="M15 7h4v6c0 3-2 5-5 5"/>',
+  unlock:'<rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 7.3-2.3"/>'
+};
+function icon(name, cls){ return `<svg class="ic${cls?' '+cls:''}" viewBox="0 0 24 24">${ICONS[name]||''}</svg>`; }
+const esc = s => String(s==null?'':s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+const STATES = DATA.states.slice().sort((a,b)=>a.name.localeCompare(b.name));
+const ST_BY_CODE = {}; STATES.forEach(s=>ST_BY_CODE[s.code]=s);
+const PHASES = DATA.phases;
+const PHASE_BY_CODE = {}; PHASES.forEach(p=>PHASE_BY_CODE[p.code]=p);
+const AGG = DATA.aggregates;
+
+STATES.forEach(s=>{
+  s._stepCount = s.steps.length;
+  const nonInspect = s.steps.filter(x=>x.phase!=='inspect');
+  const onlineCount = nonInspect.filter(x=>x.automated===true).length;
+  s._autoShare = nonInspect.length ? onlineCount/nonInspect.length : null;
+  s._hasInspection = s.steps.some(x=>x.phase==='inspect');
+  s._timeMid = (s.timeline.minDays!=null && s.timeline.maxDays!=null) ? (s.timeline.minDays+s.timeline.maxDays)/2 : null;
+});
+
+const DEEMED_LABEL = {yes:'Yes', no:'No', unclear:'Not confirmed'};
+const STAGE_MAP = Object.fromEntries(PHASES.map(p=>[p.code,{k:p.code,n:p.label}]));
+const STAGES = Object.values(STAGE_MAP);
+
+const CATEGORY_LABEL = {pain:'Pain point', policy:'Policy', procedural:'Procedure', redundant:'Redundancy', delay:'Delay', suggestions:'Suggestion', remarks:'Remark'};
+const SENT_CLASS = {issue:'sent-issue', neutral:'sent-neutral', positive:'sent-positive', suggestion:'sent-suggestion'};
+const SRC_LABEL = {ed:'ED', fgd:'FGD', secondary:'Secondary'};
+const GAP_META = {
+  MISSING:   {label:'Missing', icon:'dash'},
+  VAGUE:     {label:'Vague', icon:'alert'},
+  INCONSISTENT: {label:'Inconsistent', icon:'scale'},
+  SECONDARY_RESOLVED: {label:'Resolved by secondary research', icon:'check'},
+  SECONDARY_OPEN: {label:'Still open', icon:'flask'},
+  GOOD_PRACTICE: {label:'Good practice', icon:'award'},
+  REFORM: {label:'Reform idea', icon:'arrow'}
+};
+
+const F = { view:'overview', state:null, phase:'apply', cmp:[], search:'', sort:{col:null,dir:1}, findSrc:'all' };
+
+/* ---------- formatting helpers ---------- */
+const fmtDays = t => { if(t.minDays==null) return 'Not specified'; if(t.minDays===t.maxDays) return t.minDays+' days'; return t.minDays+'–'+t.maxDays+' days'; };
+function stepBadgeClass(step){
+  if(step.automated===true) return 'online';
+  if(step.automated==='partial') return 'mixed';
+  if(step.automated===false) return step.phase==='inspect' ? 'site' : 'mixed';
+  return 'unclear';
+}
+function stepBadgeLabel(step){
+  if(step.automated===true) return 'Online';
+  if(step.automated==='partial') return 'Partly online';
+  if(step.automated===false) return step.phase==='inspect' ? 'On-site visit' : 'Manual';
+  return 'Conditional';
+}
+function stepDot(step){ return `<div class="dot ${stepBadgeClass(step)}">${step.automated===true?icon('check'):(step.phase==='inspect'&&step.automated!==true)?icon('pin'):step.n}</div>`; }
+function stepBadge(step){ const c=stepBadgeClass(step); return `<span class="badge b-${c==='online'?'online':c==='site'?'site':c==='mixed'?'mixed':'mute'}"><span class="dot"></span>${esc(stepBadgeLabel(step))}</span>`; }
+function deemedBadge(d){
+  if(d.status==='yes') return `<span class="badge b-online">${icon('check')}Deemed approval: Yes${d.days?(' · '+d.days+' days'):''}</span>`;
+  if(d.status==='no') return `<span class="badge b-bad">${icon('alert')}Deemed approval: No</span>`;
+  return `<span class="badge b-mute">${icon('dash')}Not confirmed</span>`;
+}
+function autoLevelTag(s){
+  if(s._autoShare==null) return '<span class="tag t-mute">Not scoreable</span>';
+  const pct = Math.round(s._autoShare*100);
+  if(pct>=85) return `<span class="tag t-ok">${pct}% digitised</span>`;
+  if(pct>=55) return `<span class="tag t-warn">${pct}% digitised</span>`;
+  return `<span class="tag t-bad">${pct}% digitised</span>`;
+}
+function kpiIcon(cls,ic,l,v,s){ return `<div class="kpi ${cls}"><div class="k-top"><div class="k-l">${esc(l)}</div><div class="k-icon">${icon(ic)}</div></div><div class="k-v">${esc(v)}</div><div class="k-s">${esc(s)}</div></div>`; }
+function hbars(items){
+  const max = Math.max(1, ...items.map(i=>i.max||i.v||1));
+  return '<div class="hbars">'+items.map((i)=>{
+    const pct = i.v==null?0:Math.max(2, (i.v/max)*100);
+    return `<div class="hbar"><div class="hb-n" ${i.code?`onclick="goState('${i.code}')"`:''}>${esc(i.n)}</div>`+
+      `<div class="hb-track"><div class="hb-fill" data-w="${pct}" style="background:${i.col||'var(--primary)'}"></div></div>`+
+      `<div class="hb-v">${esc(i.label)}</div></div>`;
+  }).join('')+'</div>';
+}
+function animateBars(){
+  document.querySelectorAll('.hb-fill[data-w]').forEach(el=>{ el.style.width = '0%'; });
+  requestAnimationFrame(()=>{
+    requestAnimationFrame(()=>{
+      document.querySelectorAll('.hb-fill[data-w]').forEach(el=>{ el.style.width = el.dataset.w + '%'; });
+    });
+  });
+}
+function portalLink(s){
+  if(!s.portal.url) return `<span class="chip-sm" title="Portal name known from the Expert Discussion; URL not independently confirmed">${icon('pin')} ${esc(s.portal.name)}</span>`;
+  return `<a class="chip-sm link" href="${esc(s.portal.url)}" target="_blank" rel="noopener">${icon('link')} ${esc(s.portal.name)}</a>`;
+}
+
+/* ---------- findings / quotes / gaps (new) ---------- */
+function findingItem(f){
+  return `<div class="finding ${SENT_CLASS[f.sentiment]||''}">
+    <div class="fmeta"><span class="ftag src-${f.source}">${SRC_LABEL[f.source]||f.source}</span><span class="fcat">${esc(CATEGORY_LABEL[f.category]||f.category)}</span>${(f.tags||[]).map(t=>`<span class="ftag">${esc(t)}</span>`).join('')}</div>
+    <div class="ftext">${esc(f.text)}</div>
+  </div>`;
+}
+function quoteCard(q){
+  return `<div class="quote-card"><div class="qmark">"</div><div class="qtext">${esc(q.quote)}</div>
+    <div class="qmeta"><span class="qtopic">${esc(q.topic||'')}</span><span>${esc(q.speaker||'')}</span></div></div>`;
+}
+function gapBadge(flag){ const m = GAP_META[flag]||{label:flag,icon:'dash'}; return `<span class="gapbadge gf-${flag}">${icon(m.icon)}${esc(m.label)}</span>`; }
+function gapItem(g, showState){
+  return `<div class="gap-item"><div class="gi-head">${gapBadge(g.flag)}${showState?`<span class="gi-state" onclick="goState('${g.state}')">${esc(g.stateName||g.state)}</span>`:''}</div>
+    <div class="gi-text">${esc(g.text)}</div></div>`;
+}
+
+/* ---------- nav ---------- */
+const NAV = [
+  {k:'overview', icon:'grid', t:'National overview', d:'Factory License across all 11 States/UTs'},
+  {k:'state', icon:'user', t:'State profile', d:'Tagged ED / FGD / secondary findings per step'},
+  {k:'compare', icon:'columns', t:'Compare States', d:'Line up 2–4 States side by side'},
+  {k:'phase', icon:'layers', t:'Stage comparison', d:'One process stage, across every State'},
+  {k:'best', icon:'award', t:'Best practices', d:'Good practice, as flagged in the real record'},
+  {k:'reconcile', icon:'scale', t:'Official vs. lived experience', d:'Every logged inconsistency, both sides quoted'},
+  {k:'gaps', icon:'flask', t:'Closing the gap', d:'What secondary research resolved — and what it could not'},
+  {k:'method', icon:'book', t:'Method & data quality', d:'Taxonomy, sources, open gaps'}
+];
+function buildNav(){
+  document.getElementById('railnav').innerHTML = NAV.map(n=>
+    `<button class="navbtn" data-view="${n.k}" onclick="goView('${n.k}')">${icon(n.icon)}<span><span class="t">${esc(n.t)}</span><span class="d">${esc(n.d)}</span></span></button>`
+  ).join('');
+}
+function goView(v){ F.view=v; render(); }
+function goState(code){ F.state=code; F.view='state'; render(); }
+
+function buildFilters(){
+  const bar = document.getElementById('filterbar');
+  if(F.view==='state'){
+    bar.innerHTML = `<div class="fld"><label>State / UT</label><select id="selState">${STATES.map(s=>`<option value="${s.code}" ${F.state===s.code?'selected':''}>${esc(s.name)}</option>`).join('')}</select></div>
+      <div class="fld"><label>&nbsp;</label><div style="display:flex;gap:6px"><button class="btn sm" id="prevSt">← Prev</button><button class="btn sm" id="nextSt">Next →</button></div></div>`;
+    document.getElementById('selState').onchange = e=>{ F.state=e.target.value; render(); };
+    document.getElementById('prevSt').onclick = ()=>{ const i=STATES.findIndex(s=>s.code===F.state); F.state=STATES[(i-1+STATES.length)%STATES.length].code; render(); };
+    document.getElementById('nextSt').onclick = ()=>{ const i=STATES.findIndex(s=>s.code===F.state); F.state=STATES[(i+1)%STATES.length].code; render(); };
+  } else if(F.view==='phase'){
+    bar.innerHTML = `<div class="fld"><label>Process stage</label><select id="selPhase">${STAGES.map(p=>`<option value="${p.k}" ${F.phase===p.k?'selected':''}>${esc(p.n)}</option>`).join('')}</select></div>`;
+    document.getElementById('selPhase').onchange = e=>{ F.phase=e.target.value; render(); };
+  } else {
+    bar.innerHTML = `<div class="fld"><label>Pilot service</label><select disabled><option>Factory License</option></select></div>
+      <div class="fld"><label>Coverage</label><select disabled><option>11 of 36 States/UTs (ED complete)</option></select></div>`;
+  }
+}
+
+/* ========================= VIEWS ========================= */
+
+function renderOverview(){
+  const withDeemed = STATES.filter(s=>s.deemedApproval.status==='yes').length;
+  const withFGD = STATES.filter(s=>!s.fgdPending).length;
+  const timed = STATES.filter(s=>s._timeMid!=null);
+  const fastest = timed.slice().sort((a,b)=>a._timeMid-b._timeMid)[0];
+  const slowest = timed.slice().sort((a,b)=>b._timeMid-a._timeMid)[0];
+  const q = F.search.trim().toLowerCase();
+  const filtered = q ? STATES.filter(s=>s.name.toLowerCase().includes(q)) : STATES;
+  const resolved = AGG.gapFlagCounts.SECONDARY_RESOLVED||0, open = AGG.gapFlagCounts.SECONDARY_OPEN||0;
+
+  let h = `<div class="pagehead"><div><h2>${icon('grid')}Factory License — national overview</h2>
+    <div class="lede">${esc(DATA.meta.sourcesNote)}</div></div>
+    <span class="stamp live">${AGG.totalFindings} tagged findings · ${AGG.totalGaps} gaps logged</span></div>`;
+
+  h += `<div class="banner info">${icon('alert')}<span><b>Reading this pilot.</b> This is a process-comparison tool (steps, timeline, automation, documents, deemed approval) built strictly from real Expert Discussion, Focused Group Discussion and secondary-research records — not a composite score. Cost figures shown anywhere are informal numbers volunteered in discussions, not full CoR 2.0 survey output.</span></div>`;
+
+  h += `<div class="grid g5" style="margin-bottom:16px">
+    ${kpiIcon('acc-primary','grid','States covered','11 / 36','Factory License · ED complete')}
+    ${kpiIcon('acc-primary','book','Tagged findings', String(AGG.totalFindings), AGG.totalQuotes+' direct quotes from businesses')}
+    ${kpiIcon('acc-danger','alert','Gaps identified', String(AGG.totalGaps), (AGG.gapFlagCounts.MISSING||0)+' missing · '+(AGG.gapFlagCounts.VAGUE||0)+' vague · '+(AGG.gapFlagCounts.INCONSISTENT||0)+' inconsistent')}
+    ${kpiIcon('acc-success','flask','Closed by secondary research', resolved+' of '+(resolved+open), Math.round(resolved/(resolved+open)*100)+'% of researchable gaps resolved')}
+    ${kpiIcon('acc-violet','award','Good practice logged', String(AGG.gapFlagCounts.GOOD_PRACTICE||0), 'see Best Practices tab')}
+  </div>`;
+
+  h += `<div class="grid g23" style="margin-bottom:16px">
+    <div class="card hoverable"><div class="card-h"><h3>Overall timeline, by State</h3><span class="note">statutory/prescribed, where stated</span></div><div class="card-b">
+    ${hbars(STATES.map(s=>({n:s.name+' ('+s.code+')', code:s.code, v:s._timeMid, max:65, label: s._timeMid!=null?fmtDays(s.timeline):'not specified', col: s._timeMid==null?'#C3CBD4':(s._timeMid<=15?'var(--success)':s._timeMid<=35?'var(--warning)':'var(--danger)')})))}
+    <div class="hint">Fastest: <b>${fastest?esc(fastest.name)+' ('+fmtDays(fastest.timeline)+')':'—'}</b>. Slowest: <b>${slowest?esc(slowest.name)+' ('+fmtDays(slowest.timeline)+')':'—'}</b>.</div>
+    </div></div>
+    <div class="card hoverable"><div class="card-h"><h3>Digitisation of application &amp; scrutiny</h3><span class="note">excludes site inspection, a safety step not a process gap</span></div><div class="card-b">
+    ${hbars(STATES.map(s=>({n:s.name+' ('+s.code+')', code:s.code, v:s._autoShare==null?0:Math.round(s._autoShare*100), max:100, label:s._autoShare==null?'n/a':Math.round(s._autoShare*100)+'%', col:'var(--primary)'})))}
+    </div></div>
+  </div>`;
+
+  const sortCol = F.sort.col, sortDir = F.sort.dir;
+  const sorters = {
+    name:s=>s.name, steps:s=>s._stepCount, timeline:s=>s._timeMid??9999, auto:s=>s._autoShare??-1, deemed:s=>s.deemedApproval.status, gaps:s=>s.gaps.length
+  };
+  let rows = filtered.slice();
+  if(sortCol) rows.sort((a,b)=> (sorters[sortCol](a) > sorters[sortCol](b) ? 1 : -1) * sortDir);
+
+  const th = (col,label,extra) => `<th onclick="sortBy('${col}')">${esc(label)}${sortCol===col?`<span class="sort-arrow">${sortDir===1?'▲':'▼'}</span>`:''}${extra||''}</th>`;
+
+  h += `<div class="card"><div class="card-h"><h3>State-by-state comparison — Factory License</h3>
+    <span class="note">click a column to sort · click a row for the full profile</span></div>
+    <div class="card-b tight"><div class="scroll-y"><table class="dt"><thead><tr>
+    ${th('name','State / UT')}${th('steps','Steps')}${th('timeline','Timeline')}${th('auto','Digitisation')}${th('deemed','Deemed approval')}${th('gaps','Gaps logged')}
+    </tr></thead><tbody>`+
+    rows.map(s=>`<tr>
+      <td class="state-link" onclick="goState('${s.code}')">${esc(s.name)}${!s.fgdPending?' '+icon('user'):''}
+      <small>${esc(s.ed.date)} · ${esc((s.ed.designation||'').split(',')[0])}</small></td>
+      <td class="n">${s._stepCount}</td><td>${fmtDays(s.timeline)}</td><td>${autoLevelTag(s)}</td><td>${deemedBadge(s.deemedApproval)}</td>
+      <td class="n">${s.gaps.length}</td>
+    </tr>`).join('')+
+    '</tbody></table></div></div></div>';
+
+  return h;
+}
+function sortBy(col){
+  if(F.sort.col===col) F.sort.dir *= -1; else { F.sort.col = col; F.sort.dir = 1; }
+  render();
+}
+
+function sourceBanner(s){
+  const parts = [];
+  parts.push(`<span class="chip-sm">${icon('book')} ED: ${esc(s.ed.date)}</span>`);
+  parts.push(s.fgdPending ? `<span class="chip-sm">${icon('user')} FGD: not conducted</span>` : `<span class="chip-sm">${icon('user')} FGD: ${esc((s.fgdMeta||'').split('·')[0]).trim()}</span>`);
+  parts.push(`<span class="chip-sm">${icon('flask')} Secondary: ${s.findings.filter(f=>f.source==='secondary').length} findings</span>`);
+  return parts.join(' ');
+}
+
+function renderState(){
+  const s = ST_BY_CODE[F.state];
+  if(!s) return '<div class="empty"><b>Pick a State</b></div>';
+  let h = `<div class="pagehead"><div><h2>${icon('user')}${esc(s.name)}</h2>
+    <div class="lede">${esc(s.issuingAuthority)}</div>
+    <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap">${sourceBanner(s)} ${portalLink(s)}</div></div>
+    <span class="stamp live">ED: ${esc(s.ed.date)}</span></div>`;
+
+  const bd = {online:s.steps.filter(x=>x.automated===true).length, site:s.steps.filter(x=>x.phase==='inspect').length};
+  const nonInspectCount = s.steps.filter(x=>x.phase!=='inspect').length;
+  h += `<div class="grid g4" style="margin-bottom:16px">
+    ${kpiIcon('acc-primary','layers','Steps recorded', String(s._stepCount), 'exactly as the Expert Discussion describes them')}
+    ${kpiIcon(s._timeMid==null?'acc-warn':'acc-success','grid','Timeline', fmtDays(s.timeline), s.timeline.basis||'')}
+    ${kpiIcon('acc-primary','check','Digitisation', s._autoShare==null?'n/a':Math.round(s._autoShare*100)+'%', bd.online+' of '+nonInspectCount+' non-inspection steps online'+(s._hasInspection?' · '+bd.site+' on-site visit':''))}
+    ${kpiIcon(s.deemedApproval.status==='yes'?'acc-success':'acc-danger','award','Deemed approval', DEEMED_LABEL[s.deemedApproval.status], s.deemedApproval.days?(s.deemedApproval.days+' days'):'')}
+  </div>`;
+
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>${icon('layers')}Process — official record</h3>
+    <span class="note">${esc(s.ed.expert||'')}, ${esc(s.ed.designation||'')} · ${esc(s.ed.location||'')}</span></div>
+    <div class="card-b"><div class="stepper">`+
+    s.steps.map(st=>`<div class="step-v"><div class="rail-col">${stepDot(st)}<div class="line"></div></div>
+      <div class="body"><div class="sp">${esc(STAGE_MAP[st.phase]?.n||st.phase)}</div>
+      <div class="st">${esc(st.title)}${stepBadge(st)}</div>
+      ${st.note?`<div class="sd">${esc(st.note)}</div>`:''}
+      </div></div>`).join('')+
+    '</div></div></div>';
+
+  h += `<div class="grid g3" style="margin-bottom:16px">
+    <div class="card"><div class="card-h"><h3>Fees &amp; validity</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.6">
+      <b style="color:var(--ink)">Fees</b><br>${esc(s.fees.text)}<br><br><b style="color:var(--ink)">Validity</b><br>${esc(s.validity.text)}</div></div>
+    <div class="card"><div class="card-h"><h3>Deemed approval</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.6">${deemedBadge(s.deemedApproval)}<div style="margin-top:9px">${esc(s.deemedApproval.text)}</div></div></div>
+    <div class="card"><div class="card-h"><h3>Documents</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.6">${(s.documents||[]).length?'<ul style="margin:0;padding-left:16px">'+s.documents.map(d=>`<li>${esc(d)}</li>`).join('')+'</ul>':'See findings below.'}${s.documentsNote?`<div style="margin-top:8px">${esc(s.documentsNote)}</div>`:''}</div></div>
+  </div>`;
+
+  // tagged findings, grouped by source with filter tabs
+  const srcCounts = {ed:0, fgd:0, secondary:0};
+  s.findings.forEach(f=>srcCounts[f.source]=(srcCounts[f.source]||0)+1);
+  const visible = F.findSrc==='all' ? s.findings : s.findings.filter(f=>f.source===F.findSrc);
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>${icon('book')}Tagged findings</h3><span class="note">${s.findings.length} total — category, topic tags, sentiment, all traced to source</span></div>
+    <div class="card-b">
+    <div class="tabset">
+      <button class="tabbtn ${F.findSrc==='all'?'on':''}" onclick="setFindSrc('all')">All (${s.findings.length})</button>
+      <button class="tabbtn ${F.findSrc==='ed'?'on':''}" onclick="setFindSrc('ed')">ED (${srcCounts.ed||0})</button>
+      <button class="tabbtn ${F.findSrc==='fgd'?'on':''}" onclick="setFindSrc('fgd')">FGD (${srcCounts.fgd||0})</button>
+      <button class="tabbtn ${F.findSrc==='secondary'?'on':''}" onclick="setFindSrc('secondary')">Secondary (${srcCounts.secondary||0})</button>
+    </div>
+    <div class="scroll-y" style="max-height:600px">${visible.map(findingItem).join('')||'<div class="hint">No findings in this filter.</div>'}</div>
+    </div></div>`;
+
+  if(s.quotes.length){
+    h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>${icon('quote')}What businesses actually said</h3><span class="note">verbatim, from the FGD transcript</span></div><div class="card-b"><div class="grid g2">${s.quotes.map(quoteCard).join('')}</div></div></div>`;
+  } else {
+    h += `<div class="gap-note" style="margin-bottom:16px">${icon('dash')} No Focused Group Discussion has been held in ${esc(s.name)} for Factory License yet — there is no direct business-owner quote to show here. See the findings above for what secondary research could independently verify instead.</div>`;
+  }
+
+  h += `<div class="card"><div class="card-h"><h3>${icon('flask')}Gaps &amp; secondary research</h3><span class="note">${s.gaps.length} flags for this State</span></div><div class="card-b">${s.gaps.map(g=>gapItem(g,false)).join('')}</div></div>`;
+
+  return h;
+}
+function setFindSrc(src){ F.findSrc = src; render(); }
+
+function renderCompare(){
+  let h = `<div class="pagehead"><div><h2>${icon('columns')}Compare States</h2><div class="lede">Pick 2 to 4 States/UTs to line up side by side.</div></div></div>`;
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="statepick">${STATES.map(s=>`<button class="${F.cmp.includes(s.code)?'on':''}" onclick="toggleCmp('${s.code}')">${esc(s.name)} <span class="n">${s.code}</span></button>`).join('')}</div><div class="hint">Select up to 4. Selecting a 5th replaces the first pick.</div></div></div>`;
+  const chosen = F.cmp.map(c=>ST_BY_CODE[c]).filter(Boolean);
+  if(chosen.length<2) return h+'<div class="empty"><b>Pick at least two States</b></div>';
+  h += `<div class="grid" style="grid-template-columns:repeat(${chosen.length},minmax(0,1fr));margin-bottom:16px">`+
+    chosen.map(s=>`<div class="cmp-col"><div class="cc-h"><div class="n">${esc(s.name)}</div><div class="s">${esc(s.ed.date)}</div></div>
+      <div class="cmp-row"><div class="l">Steps</div>${s._stepCount}</div>
+      <div class="cmp-row"><div class="l">Timeline</div>${fmtDays(s.timeline)}</div>
+      <div class="cmp-row"><div class="l">Digitisation</div>${autoLevelTag(s)}</div>
+      <div class="cmp-row"><div class="l">Deemed approval</div>${deemedBadge(s.deemedApproval)}</div>
+      <div class="cmp-row"><div class="l">Gaps logged</div>${s.gaps.length} (${s.gaps.filter(g=>g.flag==='SECONDARY_RESOLVED').length} resolved)</div>
+      <div class="cmp-row" style="border-bottom:0"><div class="l">Sources</div>${sourceBanner(s)}</div>
+      </div>`).join('')+'</div>';
+  h += `<div class="card"><div class="card-h"><h3>Process, side by side</h3></div><div class="card-b tight">
+    <div class="grid" style="grid-template-columns:repeat(${chosen.length},minmax(0,1fr))">`+
+    chosen.map(s=>`<div style="padding:11px 13px;border-right:1px solid var(--border-2)"><div style="font-weight:700;font-size:12.5px;margin-bottom:9px;cursor:pointer" onclick="goState('${s.code}')">${esc(s.name)}</div><div class="stepper">`+
+      s.steps.map(st=>`<div class="step-v"><div class="rail-col">${stepDot(st)}<div class="line"></div></div><div class="body" style="padding-bottom:16px"><div class="sp">${esc(STAGE_MAP[st.phase]?.n||st.phase)}</div><div class="st" style="font-size:12px">${esc(st.title)}</div></div></div>`).join('')+
+      '</div></div>').join('')+'</div></div></div>';
+  return h;
+}
+function toggleCmp(code){ const i=F.cmp.indexOf(code); if(i>=0) F.cmp.splice(i,1); else { if(F.cmp.length>=4) F.cmp.shift(); F.cmp.push(code); } render(); }
+
+/* ---------- stage comparison, driven by the real phase taxonomy already in the data ---------- */
+function renderPhase(){
+  const stage = STAGE_MAP[F.phase];
+  const phaseDef = PHASE_BY_CODE[F.phase];
+  let h = `<div class="pagehead"><div><h2>${icon('layers')}Stage comparison — ${esc(stage.n)}</h2>
+    <div class="lede">${esc(phaseDef?phaseDef.desc:'')} Each State's actual sub-steps here, plus the tagged findings that relate to this stage.</div></div></div>`;
+
+  const withStep = STATES.map(s=>({s, steps:s.steps.filter(x=>x.phase===F.phase)})).filter(x=>x.steps.length);
+  const groups = {online:[], mixed:[], site:[]};
+  withStep.forEach(({s,steps})=>{
+    steps.forEach(st=>{
+      const c = stepBadgeClass(st);
+      groups[c==='online'?'online':c==='site'?'site':'mixed'].push({s, st});
+    });
+  });
+  const total = groups.online.length+groups.mixed.length+groups.site.length;
+  if(total){
+    h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="hbars">
+      <div class="hbar" style="grid-template-columns:150px 1fr 50px"><div class="hb-n">Fully online</div><div class="hb-track"><div class="hb-fill" style="width:${groups.online.length/total*100}%;background:var(--success)"></div></div><div class="hb-v">${groups.online.length}</div></div>
+      <div class="hbar" style="grid-template-columns:150px 1fr 50px"><div class="hb-n">Partly online</div><div class="hb-track"><div class="hb-fill" style="width:${groups.mixed.length/total*100}%;background:var(--warning)"></div></div><div class="hb-v">${groups.mixed.length}</div></div>
+      <div class="hbar" style="grid-template-columns:150px 1fr 50px"><div class="hb-n">On-site visit</div><div class="hb-track"><div class="hb-fill" style="width:${groups.site.length/total*100}%;background:var(--info)"></div></div><div class="hb-v">${groups.site.length}</div></div>
+      </div></div></div>`;
+  }
+
+  const col = (cls,label,items) => {
+    let c = `<div class="stagecol"><div class="stagecol-h ${cls}">${icon(cls==='online'?'check':cls==='site'?'pin':'dash')}${label} (${items.length})</div>`;
+    if(!items.length) c += '<div class="hint">No States recorded here.</div>';
+    items.forEach(({s,st})=>{
+      const pipe = s.steps.map(x=>{
+        const xc = stepBadgeClass(x);
+        const dotCls = xc==='online'?'on':xc==='site'?'site':xc==='mixed'?'mixed':'';
+        return `<span class="md ${dotCls} ${x.n===st.n?'focus':''}" title="${esc(x.title)}"></span>`;
+      }).join('');
+      c += `<div class="statecard-mini" onclick="goState('${s.code}')">
+        <div class="n">${esc(s.name)} <span class="pos">step ${st.n} of ${s._stepCount}</span></div>
+        <div class="d"><b>${esc(st.title)}.</b> ${esc(st.note||'')}</div>
+        <div class="mini-pipe">${pipe}</div>
+        <div class="meta-row">${portalLink(s)}</div>
+      </div>`;
+    });
+    c += '</div>';
+    return c;
+  };
+
+  h += `<div class="stagegrid">${col('online','Fully online', groups.online)}${col('mixed','Partly online / manual', groups.mixed)}${col('site','On-site visit (by design)', groups.site)}</div>`;
+
+  const missing = STATES.filter(s=>!s.steps.some(x=>x.phase===F.phase));
+  if(missing.length) h += `<div class="gap-note" style="margin-top:16px">${icon('dash')} No step was tagged to this stage for: ${missing.map(s=>esc(s.name)).join(', ')}.</div>`;
+  h += `<div class="hint" style="margin-top:4px;margin-bottom:16px">Phase tags (pre / apply / fee / scrutiny / inspect / approve / renew) come directly from the structured ED extraction for each State, applied consistently across all 11 — not a new classification invented for this view.</div>`;
+
+  return h;
+}
+
+function renderBest(){
+  const practices = AGG.goodPractices;
+  let h = `<div class="pagehead"><div><h2>${icon('award')}Best practices across States</h2><div class="lede">Every item here is a <code>GOOD_PRACTICE</code> flag raised while tagging the real ED/FGD/secondary record for that State — not a composite score.</div></div></div>`;
+  const timed = STATES.filter(s=>s._timeMid!=null).sort((a,b)=>a._timeMid-b._timeMid);
+  const autod = STATES.filter(s=>s._autoShare!=null).sort((a,b)=>b._autoShare-a._autoShare);
+  const leaderCard = (kpi,s,metric,why) => `<div class="leader-card"><div style="display:flex;justify-content:space-between;align-items:flex-start"><div class="lc-kpi">${esc(kpi)}</div><div class="medal">${icon('award')}</div></div><div class="lc-state" onclick="goState('${s.code}')">${esc(s.name)}</div><div class="lc-metric">${esc(metric)}</div><div class="lc-why">${esc(why)}</div></div>`;
+  h += `<div class="grid g3" style="margin-bottom:18px">
+    ${timed.length?leaderCard('Fastest timeline', timed[0], fmtDays(timed[0].timeline), 'Shortest statutory/prescribed process timeline on the official record.'):''}
+    ${autod.length?leaderCard('Most digitised (excl. inspection)', autod[0], Math.round(autod[0]._autoShare*100)+'% of non-inspection steps online', 'Highest share of the recorded process running through a portal.'):''}
+  </div>`;
+  h += `<div class="card"><div class="card-h"><h3>Specific practices worth replicating</h3><span class="note">${practices.length} flagged</span></div><div class="card-b"><div class="grid g2">${practices.map(p=>`<div class="practice-card"><div class="pc-icon">${icon('award')}</div><div class="pc-b"><div class="pc-state" onclick="goState('${p.state}')">${esc(p.stateName)}</div><div class="pc-d">${esc(p.text)}</div></div></div>`).join('')}</div></div></div>`;
+  return h;
+}
+
+function renderReconcile(){
+  const items = AGG.inconsistencies;
+  let h = `<div class="pagehead"><div><h2>${icon('scale')}Official record vs. lived experience</h2><div class="lede">Every <code>INCONSISTENT</code> flag raised while tagging the record — genuine disagreements between ED, FGD and/or secondary research, both sides stated.</div></div></div>`;
+  h += `<div class="grid g4" style="margin-bottom:16px">
+    ${kpiIcon('acc-primary','user','States with ED + FGD', STATES.filter(s=>!s.fgdPending).length+' of 11','')}
+    ${kpiIcon('acc-danger','alert','Inconsistencies logged', String(items.length), 'across ED, FGD and secondary research')}
+    ${kpiIcon('acc-success','check','States with zero logged', String(STATES.filter(s=>!s.gaps.some(g=>g.flag==='INCONSISTENT')).length), '')}
+    ${kpiIcon('acc-warn','dash','FGD still pending', STATES.filter(s=>s.fgdPending).length+' of 11', '')}
+  </div>`;
+  h += `<div class="card"><div class="card-h"><h3>Logged inconsistencies, by State</h3></div><div class="card-b">`+
+    (items.length ? items.map(g=>gapItem(g,true)).join('') : '<div class="empty"><b>None logged</b></div>')+
+    '</div></div>';
+  return h;
+}
+
+function renderGaps(){
+  const resolved = AGG.secondaryResolved, open = AGG.secondaryOpen, missing = AGG.missing, vague = AGG.vague;
+  const resPct = Math.round(resolved.length/(resolved.length+open.length)*100);
+  let h = `<div class="pagehead"><div><h2>${icon('flask')}Closing the gap — what secondary research actually did</h2>
+    <div class="lede">ED and FGD alone leave real gaps — facts never stated, vague phrasing, numbers that don't add up. This is where an independent, web-sourced verification pass either closed those gaps or honestly couldn't.</div></div></div>`;
+
+  h += `<div class="grid g4" style="margin-bottom:16px">
+    ${kpiIcon('acc-success','check','Resolved by secondary research', String(resolved.length), resPct+'% of researchable gaps')}
+    ${kpiIcon('acc-warn','flask','Still open after research', String(open.length), 'honestly flagged, not guessed')}
+    ${kpiIcon('acc-danger','dash','Missing entirely', String(missing.length), 'no source states this fact')}
+    ${kpiIcon('acc-warn','alert','Vague / unmeasurable', String(vague.length), 'stated but not usable as data')}
+  </div>`;
+
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div style="font-size:11.5px;color:var(--muted);margin-bottom:8px;font-weight:700">Resolution rate across all researchable gaps</div>
+    <div class="resbar"><div class="seg" style="width:${resPct}%;background:var(--success)"></div><div class="seg" style="width:${100-resPct}%;background:var(--warning-light)"></div></div>
+    <div class="hint">${resolved.length} resolved · ${open.length} still open — secondary research is a real verification pass, not a rubber stamp.</div></div></div>`;
+
+  h += `<div class="grid g2" style="margin-bottom:16px;align-items:start">
+    <div class="card"><div class="card-h"><h3>${icon('check')}Resolved — secondary research filled or confirmed the gap</h3></div><div class="card-b scroll-y" style="max-height:520px">${resolved.map(g=>gapItem(g,true)).join('')||'<div class="hint">None.</div>'}</div></div>
+    <div class="card"><div class="card-h"><h3>${icon('flask')}Still open — web research could not resolve this</h3></div><div class="card-b scroll-y" style="max-height:520px">${open.map(g=>gapItem(g,true)).join('')||'<div class="hint">None.</div>'}</div></div>
+  </div>`;
+
+  h += `<div class="grid g2" style="align-items:start">
+    <div class="card"><div class="card-h"><h3>${icon('dash')}Missing entirely</h3></div><div class="card-b scroll-y" style="max-height:420px">${missing.map(g=>gapItem(g,true)).join('')||'<div class="hint">None.</div>'}</div></div>
+    <div class="card"><div class="card-h"><h3>${icon('alert')}Vague / unmeasurable</h3></div><div class="card-b scroll-y" style="max-height:420px">${vague.map(g=>gapItem(g,true)).join('')||'<div class="hint">None.</div>'}</div></div>
+  </div>`;
+
+  return h;
+}
+
+function renderMethod(){
+  let h = `<div class="pagehead"><div><h2>${icon('book')}Method &amp; data quality</h2><div class="lede">What this dashboard is built from, how findings are tagged, and what is honestly not yet known.</div></div></div>`;
+
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Where this pilot sits in the CoR project</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">
+    <p>The CoR project runs in four stages: <b style="color:var(--ink)">Stage 1</b> — field survey, Expert Discussion (ED, government officials) and Focused Group Discussion (FGD, business owners); <b style="color:var(--ink)">Stage 2</b> — structuring the ED/FGD record; <b style="color:var(--ink)">Stage 3</b> — independent secondary (web) research against each State's own rules, notifications and portals; <b style="color:var(--ink)">Stage 4</b> — presenting the combined findings (this dashboard).</p>
+    <p>ED and FGD are treated as the authoritative baseline — secondary research verifies and extends them, and disagreements are always surfaced, never silently resolved by assumption.</p>
+  </div></div>`;
+
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Tagging taxonomy</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">
+    <p>Every finding has a <b>category</b> (pain / policy / procedural / redundant / delay / suggestions / remarks), 0 or more <b>topic tags</b> (e.g. PORTAL, CONSULT, FEES, TIMELINE, INTERDEP), and a <b>sentiment</b> (issue / neutral / positive / suggestion) — so findings can be filtered and compared, not just read as prose.</p>
+    <p>Every State also carries explicit <b>gap flags</b>: <code>MISSING</code> (a fact no source states), <code>VAGUE</code> (stated but not measurable), <code>INCONSISTENT</code> (sources genuinely disagree, both sides quoted), <code>GOOD_PRACTICE</code> and <code>REFORM</code> (worth replicating or acting on), and — our own addition beyond the internal reference prototype this format is aligned with — <code>SECONDARY_RESOLVED</code> / <code>SECONDARY_OPEN</code>, tracking specifically whether independent web research closed a gap ED and FGD alone left open.</p>
+  </div></div>`;
+
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Format — why a single file</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">
+    <p>This is one self-contained HTML file — all ${AGG.totalFindings} findings, ${AGG.totalQuotes} quotes and ${AGG.totalGaps} gap flags are embedded directly in it. No server, no database, no login: open it in a browser, email it, or host it anywhere as a static file. A separate Node/Express + Postgres web app (with an admin-triggered live secondary-research pipeline and a persistent research log) also exists in this same repository for later, if an always-on, continuously-refreshed version is ever wanted — but it is not the primary deliverable right now.</p>
+  </div></div>`;
+
+  h += `<div class="card"><div class="card-h"><h3>Source documents &amp; coverage</h3></div><div class="card-b tight"><table class="dt"><thead><tr><th>State / UT</th><th>Expert Discussion</th><th>FGD</th><th>Findings tagged</th><th>Gaps logged</th></tr></thead><tbody>`+
+    STATES.map(s=>`<tr><td class="state-link" onclick="goState('${s.code}')">${esc(s.name)}</td><td>${esc(s.ed.date||'')} · ${esc(s.ed.location||'')}</td><td>${s.fgdPending?'<span class="tag t-mute">Not yet conducted</span>':'<span class="tag t-ok">'+s.quotes.length+' quotes</span>'}</td><td class="n">${s.findings.length}</td><td class="n">${s.gaps.length}</td></tr>`).join('')+
+    '</tbody></table></div></div>';
+
+  h += `<div class="hint" style="margin-top:14px">Generated ${esc(DATA.meta.generated)}. Pilot: ${esc(DATA.meta.license)}. ${esc(DATA.meta.scope)}.</div>`;
+  return h;
+}
+
+/* ========================= ROUTER / INIT ========================= */
+
+function render(){
+  document.querySelectorAll('.navbtn').forEach(b=>b.classList.toggle('on', b.dataset.view===F.view));
+  buildFilters();
+  const c = document.getElementById('canvas');
+  if(F.view==='overview') c.innerHTML = renderOverview();
+  else if(F.view==='state') c.innerHTML = renderState();
+  else if(F.view==='compare') c.innerHTML = renderCompare();
+  else if(F.view==='phase') c.innerHTML = renderPhase();
+  else if(F.view==='best') c.innerHTML = renderBest();
+  else if(F.view==='reconcile') c.innerHTML = renderReconcile();
+  else if(F.view==='gaps') c.innerHTML = renderGaps();
+  else if(F.view==='method') c.innerHTML = renderMethod();
+  window.scrollTo(0,0);
+  animateBars();
+}
+
+function init(){
+  buildNav();
+  F.state = STATES[0]?.code;
+  F.cmp = [STATES[0]?.code, STATES[1]?.code].filter(Boolean);
+  document.getElementById('downloadBtn').onclick = ()=>window.print();
+  document.getElementById('globalSearch').addEventListener('input', e=>{
+    F.search = e.target.value.trim().toLowerCase();
+    if(F.view==='overview') render();
+  });
+  document.getElementById('globalSearch').addEventListener('keydown', e=>{
+    if(e.key==='Enter'){
+      const match = STATES.find(s=>s.name.toLowerCase().includes(e.target.value.trim().toLowerCase()));
+      if(match) goState(match.code);
+    }
+  });
+  render();
+}
+window.goView = goView; window.goState = goState; window.toggleCmp = toggleCmp; window.sortBy = sortBy; window.setFindSrc = setFindSrc;
+init();
+</script>
+</body>
+</html>

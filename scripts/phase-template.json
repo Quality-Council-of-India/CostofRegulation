@@ -1,0 +1,12 @@
+{
+  "phases": [
+    { "code": "pre", "label": "Pre-application", "desc": "Prerequisite approvals needed before a Factory License application can even be filed (e.g. building/factory plan approval)." },
+    { "code": "apply", "label": "Application", "desc": "Registering on the portal, filling the form, and submitting required documents." },
+    { "code": "fee", "label": "Fee payment", "desc": "Paying the prescribed license fee, usually online." },
+    { "code": "scrutiny", "label": "Scrutiny", "desc": "Document/compliance checking, deficiency and query handling, inter-departmental routing." },
+    { "code": "inspect", "label": "Inspection", "desc": "Physical site inspection by a factory/safety inspector." },
+    { "code": "approve", "label": "Approval & certificate", "desc": "Final decision and issuance of the signed Factory License certificate." },
+    { "code": "renew", "label": "Renewal", "desc": "What happens after the first license — annual or periodic renewal requirements." }
+  ],
+  "note": "Every state's ED-derived step list already tags each step with one of these 7 phase codes (confirmed by inspecting server/db/seed-data.json across all 11 states) — this is a real, consistently-applied taxonomy already in the data, not a new invention. Use it as the backbone for the Stage Comparison view: for each phase, show every state's actual sub-steps, automation level, and the tagged findings/gaps whose topic tags relate to that phase (e.g. tag INSPECT -> phase inspect, tag FEES -> phase fee, tag QUERY/INTERDEP -> phase scrutiny)."
+}

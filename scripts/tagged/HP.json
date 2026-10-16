@@ -1,0 +1,215 @@
+{
+  "code": "HP",
+  "findings": [
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL", "TIMELINE"],
+      "sentiment": "neutral",
+      "text": "The process runs in two sequential online stages through the same departmental portal: Building Plan Approval (BPA) first, with field verification by the Assistant Director (Factory) and forwarding to the Chief Inspector of Factories, followed by the Factory License application, which also undergoes field verification before being forwarded to the competent authority for approval."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["PORTAL", "INTERDEP"],
+      "sentiment": "issue",
+      "text": "The departmental portal is already integrated with the State Single Window framework, but direct application submission through the Single Window portal has not yet been enabled; applicants cannot yet apply seamlessly through the single window."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["COMPLY"],
+      "sentiment": "positive",
+      "text": "Fire NOC and Pollution NOC are not sought as part of the present factory licensing process unless specifically required under other applicable laws."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["COMPLY", "POSITIVE"],
+      "sentiment": "positive",
+      "text": "Officials stated that documentation requirements have been substantially reduced under Ease of Doing Business reforms, and only essential documents are now required for BPA and licensing."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["TIMELINE"],
+      "sentiment": "neutral",
+      "text": "Statutory timelines are 30 days for Building Plan Approval and 45 days for Factory License approval, each with its own deemed-approval provision, applied under the Occupational Safety, Health and Working Conditions (OSH) Code framework and related state rules."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["RENEWAL"],
+      "sentiment": "neutral",
+      "text": "Factory Licenses may be issued for 1, 5, or 10 years at the applicant's option, with renewal required after the chosen validity period expires; the longer-validity option is intended to give larger factories operational convenience."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["FEES"],
+      "sentiment": "neutral",
+      "text": "The statutory fee is not based on the chosen validity period; it is instead determined primarily by the factory's connected horsepower/power load and number of workers, ranging from approximately ₹1,000 for smaller establishments to around ₹2 lakh for large factories."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["TIMELINE", "POSITIVE"],
+      "sentiment": "positive",
+      "text": "Deemed approval is available at both stages of the process: Building Plan Approval is deemed approved after 30 days and the Factory License after 45 days if no decision is communicated."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["INSPECT", "COMPLY"],
+      "sentiment": "neutral",
+      "text": "Post-approval compliance requires maintenance of statutory registers, periodic inspection of factories, and testing/safety-related compliance as prescribed under factory laws, rules, and the OSH framework, with inspections continuing as part of ongoing regulatory oversight."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["INSPECT", "NORMS"],
+      "sentiment": "neutral",
+      "text": "A formal risk-based inspection and classification system categorizes factories by hazard potential: hazardous factories (e.g., pharmaceutical units, notified dangerous operations) are inspected every 6 months, while other factories are inspected annually or once every two years depending on worker strength and risk category."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["INSPECT", "POSITIVE"],
+      "sentiment": "positive",
+      "text": "Inspection selection is random and system-driven, which officials described as designed to ensure transparency rather than manual allocation of inspectors."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["COMPLY", "POSITIVE"],
+      "sentiment": "positive",
+      "text": "Officials stated that unnecessary requirements have already been removed through Ease of Doing Business reforms and that no major redundant requirement was identified during the discussion."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["OTHER"],
+      "sentiment": "neutral",
+      "text": "Officials did not identify any major burdensome or time-consuming activity in the current BPA or Factory License process; this is a self-assessment by the department and was not tested against applicant experience, since no FGD was conducted for this state."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["INTERDEP", "PORTAL"],
+      "sentiment": "suggestion",
+      "text": "The principal reform suggested was complete integration with the State Single Window System so that applicants can access all industrial approvals through a single interface."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["OTHER"],
+      "sentiment": "neutral",
+      "text": "Future implementation of the OSH Code is expected to further streamline registration and licensing processes, per the department."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["RENEWAL", "POSITIVE"],
+      "sentiment": "positive",
+      "text": "An auto-renewal facility is available for license renewals, cited by officials as one of the state's best practices."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["PORTAL", "INTERDEP"],
+      "sentiment": "suggestion",
+      "text": "Officials recommended enabling direct submission of BPA and Factory License applications through the Single Window portal without redirection to the departmental portal."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["GRIEVANCE", "CLARITY"],
+      "sentiment": "suggestion",
+      "text": "Officials recommended strengthening digital tracking and communication mechanisms for applicants as part of the recommended reforms."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["PORTAL", "OTHER"],
+      "sentiment": "suggestion",
+      "text": "Officials recommended implementing OSH Code provisions in a unified digital workflow covering registration, building plan approval, licensing, and renewals."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["COMPLY", "NORMS"],
+      "sentiment": "positive",
+      "text": "The applicability threshold for very small factories has reportedly been revised under the OSH framework, reducing compliance requirements for smaller establishments."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["TIMELINE"],
+      "sentiment": "issue",
+      "text": "The official OFRIS portal FAQ gives a different timeline than the ED: \"Approval of Plans — 3 months\" (approx. 90 days) and \"Registration & Renewal of factory licence — 30 days\", versus the ED's reported 30-day BPA / 45-day Factory License pairing; secondary research could not confirm which figure is currently accurate."
+    },
+    {
+      "source": "secondary",
+      "category": "remarks",
+      "tags": ["CLARITY", "OTHER"],
+      "sentiment": "issue",
+      "text": "The \"OSH Code framework\" the ED cited as governing current timelines is, per secondary research, still a DRAFT (HP Occupational Safety, Health and Working Conditions Rules, ~22 May 2026 version, under a 45-day objection window) and not yet in force; licensing today still operates under the Factories Act 1948 / HP Factories Rules 1950 as amended in 2023-2025."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["FEES", "NORMS"],
+      "sentiment": "neutral",
+      "text": "Secondary research confirmed the HP Factories (Amendment) Rules 2024 (30 Aug 2024), which replaced the one-year licence fee schedule and added a Chief-Inspector-recognised \"competent person\" provision for tests/inspections."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["NORMS"],
+      "sentiment": "neutral",
+      "text": "Secondary research confirmed the HP Factories (Amendment) Rules 2025 (16 Oct 2025), which revised working-hour provisions."
+    },
+    {
+      "source": "secondary",
+      "category": "remarks",
+      "tags": ["FEES", "CLARITY"],
+      "sentiment": "neutral",
+      "text": "The 2024 amendment's own title (\"fee for grant of licence for one year\") suggests fees may in fact scale with the validity period chosen, which would nuance the ED's claim that the fee is independent of validity period; secondary research could not confirm this either way."
+    }
+  ],
+  "quotes": [],
+  "gaps": [
+    {
+      "flag": "INCONSISTENT",
+      "text": "ED (Mr. Puneet Chauhan, Assistant Director): Building Plan Approval takes 30 days and Factory License approval takes 45 days, each with deemed approval. Secondary research (OFRIS portal FAQ, ofris.hp.gov.in): \"Approval of Plans — 3 months\" (~90 days) and \"Registration & Renewal of factory licence — 30 days\". The two sources give materially different day-counts for the same two stages, and it is unclear which is currently accurate."
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "ED framed current timelines and process as operating \"under the Occupational Safety, Health and Working Conditions (OSH) Code framework\". Secondary research found the HP OSH Rules are still in DRAFT form (~22 May 2026 version, with a 45-day public objection window) and not yet in force — licensing today is actually governed by the Factories Act 1948 / HP Factories Rules 1950 (as amended 2023-2025). The ED's framing may describe an anticipated reform track rather than the rules currently governing licensing."
+    },
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "The ED's claim that deemed approval is available and operative (30 days for BPA, 45 days for Factory License) could not be independently verified through secondary/web research; it remains sourced only to the official's statement."
+    },
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "The ED's claim that Fire NOC and Pollution NOC are not sought as part of factory licensing (unless required under other laws) could not be independently verified through secondary research."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "Secondary research filled in specifics the ED transcript did not give: the HP Factories (Amendment) Rules 2024 (30 Aug 2024, replaced the one-year licence fee schedule and added a Chief-Inspector-recognised \"competent person\" provision) and the HP Factories (Amendment) Rules 2025 (16 Oct 2025, revised working-hour provisions) — both citable and dated, confirming the regulatory framework is under active, recent amendment."
+    },
+    {
+      "flag": "MISSING",
+      "text": "No data exists on actual (lived) time taken by applicants to obtain Building Plan Approval or a Factory License in practice — only the statutory/deemed-approval timeline (30 and 45 days) is stated. Since Himachal Pradesh has no FGD (fgdPending: true), real applicant turnaround time, queries/back-and-forth cycles, or delays beyond the statutory window are not captured anywhere in ED or secondary sources."
+    },
+    {
+      "flag": "MISSING",
+      "text": "No information exists on informal or unrecorded costs (e.g., consultant/agent fees, facilitation payments, or other out-of-pocket costs businesses incur beyond the statutory fee). This is lived business experience that only an FGD could surface, and none was conducted for this state."
+    },
+    {
+      "flag": "VAGUE",
+      "text": "The statutory fee is stated only as a wide, non-itemized range — \"approximately ₹1,000\" for smaller establishments to \"around ₹2 lakh\" for large factories — without a precise fee schedule tied to specific horsepower/worker-count slabs. Secondary research additionally raises the possibility that fees may scale with the chosen validity period (per the 2024 amendment's title), which is not confirmed either way, adding further imprecision to the ED's fee claim."
+    }
+  ]
+}

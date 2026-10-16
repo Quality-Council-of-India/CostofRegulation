@@ -1,0 +1,229 @@
+{
+  "code": "NL",
+  "findings": [
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL"],
+      "sentiment": "neutral",
+      "text": "The applicant applies online through the Labour Department's single digital portal; an Inspector verifies the application, obtains approval from the District Officer/Assistant Labour Commissioner, and once approved the factory is registered/licensed through the portal, after which the applicant pays and downloads the certificate."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["PORTAL"],
+      "sentiment": "positive",
+      "text": "The Factory License service is fully online and paperless, with no offline/manual application process."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL", "TIMELINE"],
+      "sentiment": "neutral",
+      "text": "Online registration was trialled in four districts from November of the previous year and was stated to be fully online statewide from June 2026."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["INTERDEP"],
+      "sentiment": "neutral",
+      "text": "There is no inter-departmental coordination in the Factory License application process, and the service is not integrated with the State Single Window System."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["PORTAL", "CLARITY"],
+      "sentiment": "issue",
+      "text": "The online system is newly launched and not yet fully stabilized; no technical problem has been encountered so far, but lack of applicant awareness was identified as the main issue."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["INSPECT"],
+      "sentiment": "neutral",
+      "text": "Inspection is discretionary: a big establishment may require inspection, but otherwise a physical visit is generally not required."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["DUPDOC", "CLARITY"],
+      "sentiment": "positive",
+      "text": "Required documents are the plant layout, GPS location of the factory, and identity proof of the occupier/manager; the expert specifically stated PAN and Aadhaar are not insisted upon for Factory License."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["DUPDOC"],
+      "sentiment": "issue",
+      "text": "Applications may be rejected where documents are incomplete, including failure to upload the plant layout or location information."
+    },
+    {
+      "source": "ed",
+      "category": "delay",
+      "tags": ["TIMELINE"],
+      "sentiment": "positive",
+      "text": "Where papers are correct, processing takes hardly one to two days, though this reflects the newly online process and low application volume rather than a notified service standard."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["TIMELINE"],
+      "sentiment": "issue",
+      "text": "No statutory or public-service guarantee timeline has been notified for Factory License as of the interview, and there is currently no time-tracking mechanism."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["FEES"],
+      "sentiment": "neutral",
+      "text": "The Factory License fee varies according to the number of employees and horsepower utilized; a fee chart exists but the expert did not provide the actual fee amounts, and payment is made only after final approval."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["FEES"],
+      "sentiment": "issue",
+      "text": "The expert stated the payment gateway may charge around 5%, but expressed uncertainty; this is recorded only as an approximate statement, not a confirmed departmental fee."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["OTHER"],
+      "sentiment": "neutral",
+      "text": "There is no deemed approval for Factory License as of the interview."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["NORMS", "INSPECT"],
+      "sentiment": "neutral",
+      "text": "No risk categories have been notified by the department, and risk classification does not currently change inspection frequency; the expert noted there are no hazardous factories and no big/mega establishments in the state, limiting the practical effect of differentiated risk classification."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["INSPECT", "CAPACITY"],
+      "sentiment": "neutral",
+      "text": "Compliance inspection under various labour laws was being handled through a system under trial; at the time of interview that inspection process remained manual and subject to District Officer discretion."
+    },
+    {
+      "source": "ed",
+      "category": "redundant",
+      "tags": ["INTERDEP"],
+      "sentiment": "positive",
+      "text": "No specific duplicate or redundant Factory License requirement was identified; the expert was not aware of overlapping checklists from other departments, and inspection is conducted only by this department with no joint inspection."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["CLARITY"],
+      "sentiment": "suggestion",
+      "text": "Recommendation to improve applicant awareness and guidance on the online process, since lack of awareness was identified as the main problem."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["TIMELINE", "GRIEVANCE"],
+      "sentiment": "suggestion",
+      "text": "Recommendation to introduce application time-tracking once the system is stabilized."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["FEES", "CLARITY"],
+      "sentiment": "suggestion",
+      "text": "Recommendation to provide clear visibility of the employee/horsepower-based fee chart in the portal."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["GRIEVANCE"],
+      "sentiment": "suggestion",
+      "text": "Recommendation to develop digital grievance functionality as the system matures, since the current grievance mechanism remains manual with no official response timeline."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["INTERDEP"],
+      "sentiment": "suggestion",
+      "text": "Recommendation to consider future integration with the State Single Window System, since the Factory License service is currently only a standalone departmental application."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["OTHER"],
+      "sentiment": "neutral",
+      "text": "Approximately 1,000 factories/MSMEs were referenced in the department's older/manual records, versus roughly seven to eight factories registered online by the time of the interview."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["GRIEVANCE"],
+      "sentiment": "issue",
+      "text": "No grievance had been received at the time of interview; grievances are handled manually through applications with no digital system and no official response timeline, though the expert estimated one to two days informally."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["OTHER"],
+      "sentiment": "neutral",
+      "text": "The expert stated the department had not yet introduced any specific best practice or innovation to reduce compliance burden."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["NORMS"],
+      "sentiment": "neutral",
+      "text": "Secondary research independently confirms that Nagaland has never notified its own Factories Rules; pending notification, a found source states the new online system \"shall operate as an interim facilitation mechanism,\" directly supporting the ED's account of no statutory timeline, no deemed approval, and no notified risk categories."
+    },
+    {
+      "source": "secondary",
+      "category": "remarks",
+      "tags": ["NORMS"],
+      "sentiment": "neutral",
+      "text": "A draft \"Nagaland Code on OSH Rules, 2026\" was published 4 June 2026 with a 30-day objection window; if finalized it would be the state's first-ever factories rules, worth tracking for a future statutory timeline."
+    },
+    {
+      "source": "secondary",
+      "category": "procedural",
+      "tags": ["PORTAL", "TIMELINE"],
+      "sentiment": "neutral",
+      "text": "Secondary sources on the portal rollout date conflict with each other: one cites a pilot in Peren/Phek/Longleng/Kiphire from December 2025, another cites the same notification number dated 8 June 2026 for statewide go-live; this roughly matches the ED's account but the exact pilot-start month could not be pinned down precisely."
+    }
+  ],
+  "quotes": [],
+  "gaps": [
+    {
+      "flag": "MISSING",
+      "text": "Exact Factory License fee amounts are not stated anywhere. The ED confirms fees vary by number of employees and horsepower utilized and that a fee chart exists on the portal, but the expert did not provide the actual figures, and secondary research could not independently verify a fee schedule either."
+    },
+    {
+      "flag": "MISSING",
+      "text": "The validity period and renewal interval of the Factory License are not specified in the ED transcript. The expert did not address this, and no unsupported figure has been added."
+    },
+    {
+      "flag": "VAGUE",
+      "text": "The ED states processing takes \"hardly one to two days\" where papers are correct — but this is not a notified statutory or public-service-guarantee timeline (none has been notified) and there is no time-tracking mechanism, so the figure reflects a newly online, low-volume system rather than a measurable commitment."
+    },
+    {
+      "flag": "VAGUE",
+      "text": "The expert stated the payment gateway \"may charge around 5%\" but expressed uncertainty himself; this is recorded only as an approximate, unconfirmed statement, not a verified departmental or gateway fee."
+    },
+    {
+      "flag": "GOOD_PRACTICE",
+      "text": "The department explicitly does not insist on PAN or Aadhaar for Factory License applications, even as the system digitizes — a lighter documentation burden than is typical, and the ED's own recommendations call to continue this practice."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "The ED alone leaves open why Nagaland has no statutory timeline, no deemed approval, and no notified risk categories for Factory License. Secondary research resolves this: Nagaland has never notified its own Factories Rules, and a found source confirms the new online system operates only as an interim facilitation mechanism pending such notification — this explains, rather than contradicts, the ED's account."
+    },
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "The precise start date/month of the online portal rollout remains unresolved after secondary research: sources conflict on whether the district pilot began in December 2025 or whether the operative notification is dated 8 June 2026 for statewide go-live, so the exact pilot-start month could not be pinned down."
+    },
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "Secondary (web) research could not independently verify several ED claims: the PAN/Aadhaar waiver, the employee/horsepower-based fee schedule, and the official step sequence described by the expert. These remain sourced to the ED interview alone."
+    }
+  ]
+}

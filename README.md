@@ -1,10 +1,22 @@
 # Cost of Regulation (CoR) — QCI · DPIIT
 
-A real web application for the Cost of Regulation project: Quality Council of India's (QCI) assessment, for DPIIT, of the regulatory cost burden on businesses across India's 36 States/UTs and 26 licenses/services, under the CoR 2.0 framework (five cost types — time, substantive, intermediary, delay, statutory).
+The Cost of Regulation project: Quality Council of India's (QCI) assessment, for DPIIT, of the regulatory cost burden on businesses across India's 36 States/UTs and 26 licenses/services, under the CoR 2.0 framework (five cost types — time, substantive, intermediary, delay, statutory).
 
-This pilot covers **Factory License** across the 11 States/UTs with a completed Expert Discussion (ED), with Focused Group Discussion (FGD) data for 5 of them, and an admin-triggerable secondary-research pipeline for all 11.
+This pilot covers **Factory License** across the 11 States/UTs with a completed Expert Discussion (ED), with Focused Group Discussion (FGD) data for 5 of them.
 
-## Deploying to Vercel — step by step
+## The primary deliverable: `cor-dashboard.html`
+
+**Open `cor-dashboard.html` directly in a browser — no server, no install, no setup.** It's a single self-contained file (all 282 tagged findings, 33 direct business-owner quotes, and 87 gap flags across the 11 States are embedded in it) that you can open locally, email, or host anywhere as a static file.
+
+It goes well beyond the earlier three-source-card view: every ED/FGD/secondary-research finding is tagged (category, topic tags, sentiment) rather than left as prose, every State carries explicit gap flags (`MISSING`, `VAGUE`, `INCONSISTENT` — both sides quoted — `GOOD_PRACTICE`, `REFORM`), and a dedicated **"Closing the gap"** view shows exactly what independent secondary research confirmed, extended, or honestly could not resolve, state by state. See the **Method & data quality** tab inside the dashboard for the full taxonomy.
+
+To rebuild it after any data change: the pipeline is `server/db/seed-data.json` (ED/FGD/secondary content) + the tagged-findings files under a `tagged/` scratch directory + `scripts/merge+inject` (see "Extending to other licenses" below) → `cor-dashboard.html`.
+
+## The web app (parked, not the active deliverable)
+
+An earlier phase of this project also built a full Node/Express + Postgres web app — with admin login and a live, on-demand secondary-research trigger backed by the Anthropic API — deployable to Vercel. That code is still in this repository (`server/`, `public/`, `api/`, `vercel.json`) and still works, but it is **not** the current deliverable: the project deliberately moved to the single-file format above, since a one-off, periodically-regenerated file needs no hosting, login, or database to keep running. The deployment instructions below are kept for if an always-on, continuously-refreshed version is wanted later.
+
+## Deploying the web app to Vercel — step by step (optional, not currently used)
 
 This app is set up to deploy on Vercel: a Node/Express backend running as a single Vercel Function (`api/index.js`), a Postgres database via Vercel's built-in Neon integration (no separate account needed), and the frontend served as static files.
 
@@ -108,13 +120,36 @@ The original self-hosted design used `express-session` with its default in-memor
 ## Project stages
 
 1. **Field survey** — ED, FGD and allied data gathering (led by the fieldwork team; ongoing for Factory License and other licenses).
-2. **Understanding the ED/FGD documents** — structuring the qualitative record (complete for this pilot).
-3. **Secondary research** — a live, admin-triggerable pipeline (see above) instead of a one-time pass, so the record can be refreshed as rules and portals change.
-4. **Presentation** — the dashboard itself, extended as later stages complete.
+2. **Understanding the ED/FGD documents** — structuring the qualitative record, then tagging every finding against the taxonomy in `scripts/taxonomy.md` (complete for this pilot).
+3. **Secondary research** — an independent, web-search-backed verification pass per State, explicitly tracked against the gaps ED/FGD alone leave open (`SECONDARY_RESOLVED` vs. `SECONDARY_OPEN` — see the "Closing the gap" view). Currently a point-in-time pass baked into `cor-dashboard.html`; the parked web app (above) additionally supports re-running it live, on demand, per State.
+4. **Presentation** — `cor-dashboard.html`, rebuilt from `scripts/build-dashboard.js` as the underlying data is extended.
 
-## Extending to other licenses
+## Extending `cor-dashboard.html` — adding States or a new license
 
-`server/db/seed-data.json` → `server/db/enrich.cjs` → `server/db/seed-data.enriched.json` → `server/db/seed.cjs` is the full pipeline from raw structured data to the live database (`npm run seed` runs the last two steps). To add a new license:
+This is the real, working pipeline behind the primary deliverable:
+
+```
+server/db/seed-data.json  (ED/FGD/secondary content, process steps, per State)
+        +
+scripts/tagged/<CODE>.json  (tagged findings/quotes/gaps per State — see scripts/taxonomy.md)
+        │
+        ▼  node scripts/build-dashboard.js
+        │
+cor-dashboard.html  (self-contained, data embedded)
+```
+
+To add a State to the existing Factory License pilot (e.g. once its FGD is conducted) or extend to a new license:
+
+1. Add/update the State's entry in `server/db/seed-data.json` (ED/FGD narrative, steps, fees, validity, etc. — same shape as the existing 11).
+2. Produce a `scripts/tagged/<CODE>.json` file for it: `scripts/taxonomy.md` defines the category/tag/sentiment/gap-flag taxonomy, `scripts/output-schema.md` defines the exact JSON shape expected. Have Claude read the real ED/FGD source documents plus the `secondary` field already in `seed-data.json` and produce this file directly — do not derive it from already-summarized text; go back to the primary documents each time, in keeping with treating them as the authoritative record.
+3. Run `node scripts/build-dashboard.js` — it rebuilds `cor-dashboard.html` from scratch, picking up every file under `scripts/tagged/`.
+4. Open the rebuilt file and spot-check the new State's profile, gap flags, and (if applicable) quotes before sharing it onward.
+
+To change the page's layout, styling, or add a new view: edit `scripts/dashboard.template.html` (the actual source — never hand-edit `cor-dashboard.html` itself, since it's a generated file and your edit will be lost on the next rebuild), then re-run the build script.
+
+## Extending the parked web app to other licenses (optional)
+
+`server/db/seed-data.json` → `server/db/enrich.cjs` → `server/db/seed-data.enriched.json` → `server/db/seed.cjs` is the full pipeline from raw structured data to the live database (`npm run seed` runs the last two steps), for the parked web app only:
 
 1. Gather its ED/FGD documents (keep the originals somewhere version-controlled, e.g. a `sources/<license-code>/` folder in this repo).
 2. Have Claude parse them into the same shape as `server/db/seed-data.json` (service/state/steps/fgd/etc.) for the new license code.
