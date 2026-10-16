@@ -1,39 +1,83 @@
 # Cost of Regulation (CoR) — QCI · DPIIT
 
-Working repository for the Cost of Regulation project: Quality Council of India's (QCI) assessment, for DPIIT, of the regulatory cost burden on businesses across India's 36 States/UTs and 26 licenses/services, under the CoR 2.0 framework (five cost types — time, substantive, intermediary, delay, statutory).
+A real web application for the Cost of Regulation project: Quality Council of India's (QCI) assessment, for DPIIT, of the regulatory cost burden on businesses across India's 36 States/UTs and 26 licenses/services, under the CoR 2.0 framework (five cost types — time, substantive, intermediary, delay, statutory).
 
-## What's here
+This pilot covers **Factory License** across the 11 States/UTs with a completed Expert Discussion (ED), with Focused Group Discussion (FGD) data for 5 of them, and an admin-triggerable secondary-research pipeline for all 11.
 
-**[`index.html`](./index.html)** — a self-contained dashboard (no build step, no server; open the file directly in a browser) comparing the **Factory License** process across the 11 States/UTs where an Expert Discussion (ED) has been completed, with Focused Group Discussion (FGD) data layered in for the 5 States/UTs where it exists, and independent secondary-research verification layered in for all 11. This is the pilot license for the project, chosen to build and validate the single-window comparison approach before extending it to the remaining licenses. Use the "Download report" button on any tab to save it as a PDF via the browser's print dialog.
+## What changed from the first cut
 
-The dashboard has seven views:
-1. **National overview** — steps, timeline, automation, documents, deemed approval, compared across all 11 States/UTs.
-2. **State profile** — the full step-by-step process for one State/UT as a visual stepper, with three reconciled sources (official ED record, business/user FGD account, independent secondary research) and every logged disagreement between them.
-3. **Compare States** — line up 2–4 States/UTs side by side across every KPI and their full process.
-4. **Stage comparison** — one process stage (e.g. inspection, fee & payment), grouped by how automated it is, across every State/UT.
-5. **Best practices** — which State leads on each KPI and why, plus a curated catalog of specific practices worth replicating.
-6. **Official vs. lived experience** — a dedicated, project-wide log of every point where the official account and business experience disagree.
-7. **Method & data quality** — the CoR 2.0 cost-type definitions, what stage of the project this pilot represents, how it scales to other licenses, and every data gap flagged rather than guessed at.
+The project started as a single self-contained `index.html` file (still kept at [`legacy/static-dashboard.html`](./legacy/static-dashboard.html) for reference). It's now a real Node/Express + SQLite application with:
 
-Every figure in the dashboard is sourced directly from the project's Expert Discussion and Focused Group Discussion documents for Factory License, or from independently-cited secondary research (state Factories Rules, gazette notifications, citizen-charter/portal documentation) — nothing is simulated or illustrative. Where a source does not give a figure, or sources disagree, the dashboard shows that explicitly rather than guessing or silently picking one.
+- A **database** instead of embedded JSON, so the data can grow past one license without re-architecting.
+- **Admin-triggered secondary research**: a signed-in admin can click "Run secondary research" on any State's profile at any time. The backend calls Claude with real web-search tool access against official government sources, and the result — confirmed facts, contradictions, new detail, and citations — is written to the database and shown immediately, both on that State's profile and in a dedicated, append-only **Research Log**.
+- **Combined, granular step data**: every process step now carries the specific documents required at that step (not a flat list disconnected from the process) and a link to the actual application portal where one has been independently confirmed.
+- A genuinely interactive frontend: sortable tables, a live search/jump box, hover-driven detail, animated charts, and a redesigned Stage Comparison view that shows each State's full process with the selected stage highlighted in context, not just an isolated card.
 
-A physical site inspection is shown as a distinct, neutral "on-site visit" status rather than being penalised the same way a genuine friction point (e.g. a required office visit) is — inspection is a safety control present in nearly every State, not a process failure.
+## Running it locally
+
+```bash
+npm install
+cp .env.example .env   # then edit .env — see "Environment variables" below
+npm run seed            # creates and populates server/db/cor.sqlite
+npm start                # or: npm run dev (auto-restarts on change)
+```
+
+Open `http://localhost:3000`.
+
+## Running it with Docker
+
+```bash
+docker build -t cor-dashboard .
+docker run -p 3000:3000 \
+  -e ADMIN_USERNAME=admin -e ADMIN_PASSWORD='change-me' \
+  -e SESSION_SECRET='a-long-random-string' \
+  -e ANTHROPIC_API_KEY='sk-ant-...' \
+  cor-dashboard
+```
+
+**Note:** the Docker build itself was not runnable inside the sandboxed session this app was built in (no Docker daemon available there), so the `Dockerfile` has been exercised step-by-step manually (the same `npm install` and `npm run seed` it runs were run directly and verified), but not as an actual `docker build`. Please verify a real build on your end before relying on it, and tell me if anything doesn't come up cleanly.
+
+For real hosting, point any Node-capable host (Render, Railway, Fly.io, a VPS, your own Kubernetes) at this `Dockerfile`, or run `npm start` directly behind your own reverse proxy. The SQLite database is a single file (`server/db/cor.sqlite`) — back it up like any other file; there is no separate database service to provision.
+
+## Environment variables
+
+| Variable | Required | Purpose |
+|---|---|---|
+| `ADMIN_USERNAME` | On first run only | Creates the single admin account the first time the server starts with an empty `admin` table. Defaults to `admin` if unset. |
+| `ADMIN_PASSWORD` | On first run only | Same — without it, no admin account is created and admin features (triggering research) stay unreachable until you set it and restart. |
+| `SESSION_SECRET` | Yes, in production | Signs the admin login session cookie. Any long random string; the app runs with an insecure default otherwise and logs a warning. |
+| `ANTHROPIC_API_KEY` | For secondary research | **Your own key from [console.anthropic.com](https://console.anthropic.com)** — separate from whatever credential a Claude coding session used to build this app. Without it, the app works fully except that triggering secondary research fails immediately with a clear error, visible in the Research Log, telling you exactly this. |
+| `RESEARCH_MODEL` | No | Defaults to `claude-opus-5-5`. Override only if you want a different model running the research calls. |
+| `PORT` | No | Defaults to `3000`. |
+
+The admin account is created once, on first boot, from `ADMIN_USERNAME`/`ADMIN_PASSWORD`. To change the password later, stop the server, delete the single row in the `admin` table of `server/db/cor.sqlite` (or just delete the whole file and re-seed), and restart with the new password set.
+
+## How secondary research actually works
+
+When an admin clicks "Run secondary research" on a State's profile:
+
+1. The backend records a `research_runs` row with status `running` and returns immediately — the frontend polls for completion so the click never blocks the UI.
+2. It calls the Anthropic Messages API with the `web_search` server tool enabled, giving Claude the State's current ED baseline (timeline, deemed approval, fees, portal, steps) and asking it to confirm, contradict, or extend that record using real government sources — citing everything, and saying plainly when something can't be verified online rather than guessing.
+3. The structured result (confirms / contradicts / new detail / sources / a short synthesis) is parsed from Claude's response and written to the `secondary_research` table for that State, and the full run — including the raw response — is kept permanently in `research_runs` for the Research Log.
+
+**ED and FGD are never overwritten by secondary research.** They're treated as the authoritative baseline, per this project's own convention (the field team's own description of them as "bible or gospel truth"). Secondary research sits alongside them as a third, independently-sourced account, and any disagreement between the three is surfaced explicitly — never silently resolved by picking one.
+
+A single run is one Anthropic API call (with up to 8 web searches inside it) scoped to one State — it is not exhaustive legal research, and it costs real money per run (model + web search usage) on whichever Anthropic account `ANTHROPIC_API_KEY` belongs to.
 
 ## Project stages
 
-1. **Field survey** — ED, FGD and allied data gathering (led by the fieldwork team; ongoing for Factory License and other licenses). ED and FGD are treated as the authoritative baseline record, per this project's own convention.
+1. **Field survey** — ED, FGD and allied data gathering (led by the fieldwork team; ongoing for Factory License and other licenses).
 2. **Understanding the ED/FGD documents** — structuring the qualitative record (complete for this pilot).
-3. **Secondary research** — validating, extending and catching drift against each State's own rules, notifications and portals. Done once for this pilot (all 11 States); see "Keeping this current" below for how it should be kept from going stale.
-4. **Presentation** — comprehensive inter-state comparison and findings (this dashboard, extended as later stages complete).
+3. **Secondary research** — now a live, admin-triggerable pipeline (see above) instead of a one-time pass, so the record can be refreshed as rules and portals change.
+4. **Presentation** — the dashboard itself, extended as later stages complete.
 
 ## Extending to other licenses
 
-Recommended repo layout, so the dashboard can grow without re-architecting each time:
-- `/sources/<license-code>/ED/<state>.docx` and `/sources/<license-code>/FGD/<state>.docx` — the original field documents, version-controlled exactly as received.
-- `/data/<license-code>.js` — the structured, schema-consistent data the dashboard reads (today embedded directly in `index.html` for Factory License; splitting it out is the natural next step once a second license is added).
+`server/db/seed-data.json` → `server/db/enrich.cjs` → `server/db/seed-data.enriched.json` → `server/db/seed.cjs` is the full pipeline from raw structured data to the live database (`npm run seed` runs the last two steps). To add a new license:
 
-The data schema (per-state: steps, timeline, automation, documents, deemed approval, validity, fees, remarks, data gaps, FGD overlay, secondary-research overlay) is deliberately uniform across States from the start — the opposite of the inconsistent per-state spreadsheet template used in earlier work on Electricity Connection.
+1. Gather its ED/FGD documents (keep the originals somewhere version-controlled, e.g. a `sources/<license-code>/` folder in this repo).
+2. Have Claude parse them into the same shape as `server/db/seed-data.json` (service/state/steps/fgd/etc.) for the new license code.
+3. Run an enrichment pass equivalent to `enrich.cjs` (portal URLs, per-step documents) for the new license.
+4. Re-run `npm run seed` — the schema and application code are already license-aware (every table is keyed by `license_code`); nothing else changes.
 
-**On uploading documents directly to the dashboard.** A static HTML file like this one cannot write files back into the repository or reliably parse a dropped Word document in-browser, so a client-side "upload" button would only preview a file locally and lose it on refresh — it would not actually get a new license's data into the dashboard. The workflow that scales: add new ED/FGD documents to `/sources` (via this repo, or a shared drive QCI maintains), then have Claude parse them into the structured schema and commit the result to `/data`, the same way this pilot was built. That preserves the rigor the pilot was built with (locked schema, flagged gaps, no fabricated figures) instead of trading it for a fragile in-browser parser.
-
-**Keeping this current.** A static dashboard cannot re-research itself. What can be set up is a scheduled, recurring check — e.g. quarterly — where Claude re-runs the secondary-research pass per State and license, flags anything that has drifted from the ED/FGD baseline, and republishes. That has an ongoing cost and a cadence to choose, so it is a deliberate option to turn on, not something to assume is already running.
+The `/api/licenses` and `/api/states?license=<code>` endpoints already support multiple licenses — the frontend's license switcher is currently disabled with only Factory License enabled, ready to turn on once a second license has data.

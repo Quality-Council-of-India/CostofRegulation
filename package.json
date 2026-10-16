@@ -1,0 +1,22 @@
+{
+  "name": "cor-dashboard",
+  "version": "1.0.0",
+  "description": "Cost of Regulation (CoR) dashboard — QCI / DPIIT",
+  "type": "commonjs",
+  "main": "server/server.js",
+  "scripts": {
+    "seed": "node server/db/enrich.cjs && node server/db/seed.cjs",
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^18.0.8",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
