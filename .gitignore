@@ -1,0 +1,4 @@
+node_modules/
+server/db/cor.sqlite
+.env
+*.log

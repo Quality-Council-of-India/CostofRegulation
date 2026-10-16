@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cost of Regulation — Factory License Pilot | QCI · DPIIT</title>
+<style>
+:root{
+  --ink:#0E2038; --ink-2:#1B3557; --paper:#F3F5F7; --card:#FFFFFF;
+  --rule:#D6DEE6; --rule-soft:#E8EDF1; --slate:#5A6B7D; --slate-2:#8595A5;
+  --teal:#0B6E62; --teal-soft:#E1F1EE; --amber:#B06A00; --amber-soft:#FCEFDC;
+  --rust:#A3291F; --rust-soft:#FBE7E4; --info:#2E4F9E; --info-soft:#E6ECFA;
+  --shadow:0 1px 2px rgba(14,32,56,.05), 0 6px 18px rgba(14,32,56,.07);
+  --serif:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua','Times New Roman',serif;
+  --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  --mono:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;
+  --r:10px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.55;-webkit-font-smoothing:antialiased}
+button,select,input{font-family:inherit;font-size:inherit;color:inherit}
+.mono{font-family:var(--mono)}
+a{color:inherit}
+svg.ic{width:16px;height:16px;flex:0 0 auto;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+.shell{display:flex;min-height:100vh;align-items:stretch}
+.rail{width:248px;flex:0 0 248px;background:var(--ink);color:#DDE5EE;display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow-y:auto}
+.rail-brand{padding:20px 18px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+.rail-brand .eyebrow{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#7E93AC;font-weight:600}
+.rail-brand h1{font-family:var(--serif);font-size:20px;line-height:1.2;margin:8px 0 5px;color:#fff;font-weight:400}
+.rail-brand .sub{font-size:11px;color:#93A7BF;letter-spacing:.02em}
+.svcpick{margin-top:12px;display:flex;align-items:center;gap:7px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:7px;padding:7px 9px}
+.svcpick select{background:transparent;border:0;color:#fff;font-weight:700;font-size:12px;width:100%;outline:none}
+.svcpick select option{color:#0E2038}
+.rail-nav{padding:14px 10px;display:flex;flex-direction:column;gap:3px}
+.rail-nav .lbl{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:#6E839C;padding:12px 8px 5px;font-weight:700}
+.navbtn{display:flex;gap:11px;align-items:flex-start;text-align:left;background:transparent;border:0;color:#C3D1E0;padding:10px 10px;border-radius:7px;cursor:pointer;width:100%;transition:background .13s}
+.navbtn:hover{background:rgba(255,255,255,.08)}
+.navbtn.on{background:#fff;color:var(--ink)}
+.navbtn.on svg.ic{color:var(--ink)}
+.navbtn svg.ic{margin-top:1px;color:#8FA3BC}
+.navbtn .t{font-weight:700;font-size:13px;display:block}
+.navbtn .d{font-size:10.5px;opacity:.75;font-weight:400;display:block;margin-top:2px;line-height:1.35}
+.rail-foot{margin-top:auto;padding:14px 18px 18px;border-top:1px solid rgba(255,255,255,.1);font-size:10.5px;color:#7E93AC;line-height:1.6}
+.rail-foot b{color:#B9C9DA;font-weight:700}
+
+.main{flex:1;min-width:0;display:flex;flex-direction:column}
+.topbar{background:var(--card);border-bottom:1px solid var(--rule);padding:12px 24px;position:sticky;top:0;z-index:40;box-shadow:0 1px 3px rgba(14,32,56,.05);display:flex;align-items:flex-end;gap:14px;flex-wrap:wrap}
+.topbar-filters{display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap;flex:1}
+.fld{display:flex;flex-direction:column;gap:4px;min-width:0}
+.fld label{font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);font-weight:700}
+.fld select,.fld input{border:1px solid var(--rule);background:#fff;border-radius:6px;padding:7px 10px;min-width:190px;max-width:300px;height:34px;outline:none;font-size:13px}
+.fld select:focus,.fld input:focus{border-color:var(--ink-2);box-shadow:0 0 0 3px rgba(27,53,87,.1)}
+.btn{border:1px solid var(--rule);background:#fff;border-radius:6px;height:34px;padding:0 13px;cursor:pointer;font-weight:700;font-size:12.5px;color:var(--ink);white-space:nowrap;display:inline-flex;align-items:center;gap:6px}
+.btn:hover{background:var(--paper)}
+.btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn.primary:hover{background:var(--ink-2)}
+.btn.sm{height:28px;padding:0 10px;font-size:11.5px}
+
+.canvas{padding:24px 28px 70px;flex:1;max-width:1360px}
+.pagehead{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:16px;flex-wrap:wrap}
+.pagehead h2{font-family:var(--serif);font-weight:400;font-size:27px;margin:0;line-height:1.2;display:flex;align-items:center;gap:10px}
+.pagehead .lede{color:var(--slate);font-size:13px;margin-top:6px;max-width:800px;line-height:1.55}
+.stamp{font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;border:1px solid var(--rule);border-radius:4px;padding:5px 10px;color:var(--slate);background:#fff;white-space:nowrap}
+.stamp.live{border-color:var(--teal);color:var(--teal);background:var(--teal-soft)}
+
+.grid{display:grid;gap:14px}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.g23{grid-template-columns:minmax(0,2fr) minmax(0,3fr)}
+.span2{grid-column:span 2}
+
+.card{background:var(--card);border:1px solid var(--rule);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
+.card-h{padding:13px 16px 11px;border-bottom:1px solid var(--rule-soft);display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card-h h3{margin:0;font-size:13.5px;font-weight:700;letter-spacing:.005em;display:flex;align-items:center;gap:7px}
+.card-h .note{font-size:11px;color:var(--slate-2)}
+.card-b{padding:15px 16px}
+.card-b.tight{padding:9px 10px 11px}
+
+.kpi{background:var(--card);border:1px solid var(--rule);border-radius:var(--r);padding:14px 16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:6px}
+.kpi .k-top{display:flex;align-items:center;justify-content:space-between}
+.kpi .k-l{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--slate);font-weight:700}
+.kpi .k-v{font-size:27px;font-weight:700;letter-spacing:-.01em;line-height:1.05}
+.kpi .k-s{font-size:11.5px;color:var(--slate);line-height:1.4}
+.kpi.acc-teal .k-v{color:var(--teal)} .kpi.acc-amber .k-v{color:var(--amber)}
+.kpi.acc-rust .k-v{color:var(--rust)} .kpi.acc-ink .k-v{color:var(--ink)}
+.kpi .k-icon{width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.kpi.acc-teal .k-icon{background:var(--teal-soft);color:var(--teal)}
+.kpi.acc-amber .k-icon{background:var(--amber-soft);color:var(--amber)}
+.kpi.acc-rust .k-icon{background:var(--rust-soft);color:var(--rust)}
+.kpi.acc-ink .k-icon{background:var(--rule-soft);color:var(--ink-2)}
+.kpi .k-break{display:flex;gap:5px;margin-top:2px;flex-wrap:wrap}
+.kpi .k-break span{font-size:10px;font-weight:700;padding:2px 6px;border-radius:9px}
+
+table.dt{width:100%;border-collapse:collapse;font-size:12.5px}
+table.dt th{text-align:left;font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--slate);font-weight:700;padding:9px 10px;border-bottom:1px solid var(--rule);white-space:nowrap;background:var(--card)}
+table.dt td{padding:10px 10px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+table.dt tbody tr:hover{background:#F7F9FB}
+table.dt td.n,table.dt th.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.sticky-h thead th{position:sticky;top:0;z-index:2}
+.scroll-y{max-height:560px;overflow:auto}
+.svc-name{font-weight:700;cursor:pointer;color:var(--ink-2)}
+.svc-name:hover{text-decoration:underline}
+.svc-name small{display:block;font-weight:400;color:var(--slate-2);font-size:10.5px;margin-top:1px}
+
+.badge{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:700;padding:4px 9px;border-radius:14px;white-space:nowrap;border:1px solid transparent}
+.badge.b-online{background:var(--teal-soft);color:#063D36;border-color:#BFE1DA}
+.badge.b-site{background:var(--info-soft);color:#243E82;border-color:#C7D4F0}
+.badge.b-mixed{background:var(--amber-soft);color:#7A4600;border-color:#F0D6A8}
+.badge.b-bad{background:var(--rust-soft);color:#7A1C14;border-color:#F0C3BC}
+.badge.b-mute{background:var(--rule-soft);color:var(--slate);border-color:var(--rule)}
+.badge .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:0 0 auto}
+
+.tag{display:inline-block;padding:3px 8px;border-radius:4px;font-size:10px;font-weight:700;letter-spacing:.02em;white-space:nowrap}
+.t-ok{background:var(--teal-soft);color:#063D36}
+.t-warn{background:var(--amber-soft);color:#7A4600}
+.t-bad{background:var(--rust-soft);color:#7A1C14}
+.t-mute{background:var(--rule-soft);color:var(--slate);border:1px solid var(--rule)}
+.t-info{background:var(--info-soft);color:#243E82}
+
+.hbars{display:flex;flex-direction:column;gap:9px}
+.hbar{display:grid;grid-template-columns:168px 1fr 70px;gap:10px;align-items:center;font-size:12px}
+.hbar .hb-n{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}
+.hbar .hb-track{height:10px;background:var(--rule-soft);border-radius:5px;overflow:hidden}
+.hbar .hb-fill{height:100%;border-radius:5px}
+.hbar .hb-v{font-family:var(--mono);text-align:right;font-weight:700;font-size:11.5px}
+@media(max-width:700px){.hbar{grid-template-columns:110px 1fr 60px}}
+
+/* ---------- vertical stepper ---------- */
+.stepper{display:flex;flex-direction:column}
+.step-v{display:grid;grid-template-columns:40px 1fr;column-gap:14px}
+.step-v .rail-col{display:flex;flex-direction:column;align-items:center}
+.step-v .dot{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;flex:0 0 auto;border:2px solid transparent}
+.step-v .dot.online{background:var(--teal);color:#fff}
+.step-v .dot.site{background:var(--info-soft);color:var(--info);border-color:#C7D4F0}
+.step-v .dot.mixed{background:var(--amber-soft);color:var(--amber);border-color:#F0D6A8}
+.step-v .dot.unclear{background:var(--rule-soft);color:var(--slate);border-color:var(--rule)}
+.step-v .line{width:2px;flex:1;background:var(--rule);min-height:18px}
+.step-v:last-child .line{display:none}
+.step-v .body{padding:2px 0 22px}
+.step-v .sp{font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--slate-2);font-weight:700;margin-bottom:3px}
+.step-v .st{font-weight:700;font-size:13.5px;line-height:1.4;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.step-v .sd{font-size:12px;color:var(--slate);margin-top:4px;line-height:1.5}
+
+/* ---------- 3-source cards ---------- */
+.src-card{border-radius:var(--r);border:1px solid var(--rule);overflow:hidden;background:#fff;height:100%;display:flex;flex-direction:column}
+.src-card .src-h{padding:11px 14px;display:flex;align-items:center;gap:8px;font-weight:700;font-size:12px;color:#fff}
+.src-card.ed .src-h{background:var(--ink-2)}
+.src-card.fgd .src-h{background:#5A3E82}
+.src-card.sec .src-h{background:var(--teal)}
+.src-card .src-b{padding:13px 14px;font-size:12.5px;color:var(--slate);line-height:1.55;flex:1}
+.src-card .src-b b{color:var(--ink)}
+.src-card .src-meta{font-size:10.5px;color:var(--slate-2);padding:0 14px 11px;border-top:1px solid var(--rule-soft);margin-top:8px;padding-top:8px}
+
+.recon-row{display:grid;grid-template-columns:150px repeat(3,1fr);gap:10px;padding:10px 0;border-bottom:1px solid var(--rule-soft);align-items:start;font-size:12px}
+.recon-row:last-child{border-bottom:0}
+.recon-row .rl{font-weight:700;color:var(--ink-2);padding-top:3px}
+@media(max-width:900px){.recon-row{grid-template-columns:1fr}}
+
+.contra{border:1px solid #EFC2BA;background:var(--rust-soft);border-radius:8px;padding:11px 13px;font-size:12.5px;color:#5C1812;line-height:1.55;margin-bottom:9px;display:flex;gap:9px}
+.contra:last-child{margin-bottom:0}
+.contra svg.ic{color:var(--rust);margin-top:2px}
+.confirm{border:1px solid #A9D9CE;background:var(--teal-soft);border-radius:8px;padding:11px 13px;font-size:12.5px;color:#07433B;line-height:1.55;margin-bottom:9px;display:flex;gap:9px}
+.confirm svg.ic{color:var(--teal);margin-top:2px}
+
+.gap-note{border:1px dashed var(--slate-2);background:#F6F7F9;border-radius:8px;padding:10px 12px;font-size:11.5px;color:var(--slate);line-height:1.55}
+.quote{font-style:italic;color:var(--ink-2);border-left:3px solid var(--rule);padding-left:10px;margin:5px 0}
+
+.banner{border:1px solid var(--amber);background:var(--amber-soft);color:#5E3A00;border-radius:8px;padding:11px 14px;font-size:12.5px;display:flex;gap:10px;align-items:flex-start;margin-bottom:14px}
+.banner b{font-weight:700}
+.banner.info{border-color:#9FB0D8;background:var(--info-soft);color:#243E82}
+.banner.ok{border-color:var(--teal);background:var(--teal-soft);color:#07433B}
+.banner svg.ic{margin-top:2px;flex:0 0 auto}
+
+.empty{padding:30px;text-align:center;color:var(--slate);font-size:13px}
+.empty b{display:block;font-size:15px;color:var(--ink);margin-bottom:5px;font-family:var(--serif);font-weight:400}
+.hint{font-size:11.5px;color:var(--slate-2);margin-top:10px;line-height:1.5}
+
+.defcard{border:1px solid var(--rule);border-radius:8px;padding:13px 14px;background:#fff}
+.defcard h4{margin:0 0 6px;font-size:13px;font-weight:700}
+.defcard p{margin:0;font-size:12px;color:var(--slate);line-height:1.55}
+
+.statepick{display:flex;flex-wrap:wrap;gap:7px}
+.statepick button{border:1px solid var(--rule);background:#fff;border-radius:18px;padding:7px 13px;font-size:12px;font-weight:700;cursor:pointer;color:var(--ink-2);display:inline-flex;align-items:center;gap:6px}
+.statepick button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.statepick button .n{opacity:.55;font-weight:400;font-size:10.5px}
+
+.toggle-more{background:none;border:0;color:var(--info);font-weight:700;font-size:11.5px;cursor:pointer;padding:5px 0}
+.collapsed > *:nth-child(n+4){display:none}
+
+.leader-card{border:1px solid var(--rule);border-radius:var(--r);padding:16px;background:#fff;display:flex;flex-direction:column;gap:9px}
+.leader-card .lc-kpi{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--slate);font-weight:700}
+.leader-card .lc-state{font-family:var(--serif);font-size:19px;font-weight:400;color:var(--ink)}
+.leader-card .lc-metric{font-size:13px;font-weight:700;color:var(--teal)}
+.leader-card .lc-why{font-size:12px;color:var(--slate);line-height:1.5}
+.medal{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,#FFD873,#E8A93A);display:flex;align-items:center;justify-content:center;color:#5A3C00;flex:0 0 auto}
+
+.practice-card{border:1px solid var(--rule);border-radius:var(--r);padding:14px 15px;background:#fff;display:flex;gap:12px}
+.practice-card .pc-icon{width:36px;height:36px;border-radius:9px;background:var(--teal-soft);color:var(--teal);display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.practice-card .pc-b b{color:var(--ink)}
+.practice-card .pc-state{font-size:10.5px;font-weight:700;color:var(--slate-2);text-transform:uppercase;letter-spacing:.06em;margin-bottom:3px}
+.practice-card .pc-t{font-size:13px;font-weight:700;margin-bottom:4px}
+.practice-card .pc-d{font-size:12px;color:var(--slate);line-height:1.5}
+
+.stagegrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media(max-width:1000px){.stagegrid{grid-template-columns:1fr}}
+.stagecol{display:flex;flex-direction:column;gap:9px}
+.stagecol-h{display:flex;align-items:center;gap:8px;padding:9px 12px;border-radius:8px;font-weight:700;font-size:12.5px}
+.stagecol-h.online{background:var(--teal-soft);color:#063D36}
+.stagecol-h.mixed{background:var(--amber-soft);color:#7A4600}
+.stagecol-h.site{background:var(--info-soft);color:#243E82}
+.statecard-mini{border:1px solid var(--rule);border-radius:8px;padding:10px 12px;background:#fff;cursor:pointer}
+.statecard-mini:hover{border-color:var(--ink-2);box-shadow:var(--shadow)}
+.statecard-mini .n{font-weight:700;font-size:12.5px}
+.statecard-mini .d{font-size:11.5px;color:var(--slate);margin-top:3px;line-height:1.45}
+
+.cmp-col{border:1px solid var(--rule);border-radius:var(--r);background:#fff;overflow:hidden}
+.cmp-col .cc-h{background:var(--ink);color:#fff;padding:12px 14px}
+.cmp-col .cc-h .n{font-family:var(--serif);font-size:17px}
+.cmp-col .cc-h .s{font-size:10.5px;color:#9FB0D0;margin-top:2px}
+.cmp-row{padding:10px 14px;border-bottom:1px solid var(--rule-soft);font-size:12.5px}
+.cmp-row .l{font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--slate);font-weight:700;margin-bottom:4px}
+
+@media (max-width:1180px){ .g4{grid-template-columns:repeat(2,minmax(0,1fr))} .g23,.g3{grid-template-columns:minmax(0,1fr)} .span2{grid-column:span 1} .stagegrid{grid-template-columns:1fr} }
+@media (max-width:860px){
+  .shell{flex-direction:column} .rail{width:100%;flex:none;height:auto;position:static;flex-direction:column}
+  .rail-nav{flex-direction:row;flex-wrap:wrap} .navbtn{width:auto;flex:1 1 44%} .rail-foot{display:none}
+  .g2{grid-template-columns:minmax(0,1fr)} .canvas{padding:16px 14px 50px} .topbar{padding:10px 14px}
+  .fld select,.fld input{min-width:140px;max-width:100%}
+}
+@media print{
+  .rail,.topbar,.toggle-more,.statepick,.btn{display:none !important}
+  body{background:#fff} .canvas{padding:0;max-width:none}
+  .card{break-inside:avoid;box-shadow:none;border:1px solid #ccc}
+  .scroll-y{max-height:none !important;overflow:visible !important}
+  .collapsed > *{display:block !important}
+  .step-v{break-inside:avoid}
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+
+  <nav class="rail" aria-label="Dashboard sections">
+    <div class="rail-brand">
+      <div class="eyebrow">Government of India · DPIIT</div>
+      <h1>Cost of Regulation</h1>
+      <div class="sub">Quality Council of India · Pilot dashboard</div>
+      <div class="svcpick">
+        <select disabled><option>Factory License — ready</option><option disabled>Electricity Connection — not yet digitised</option><option disabled>23 other licenses — not yet digitised</option></select>
+      </div>
+    </div>
+    <div class="rail-nav" id="railnav"></div>
+    <div class="rail-foot">
+      <b>Pilot scope</b><br>
+      Factory License · 11 States/UTs with Expert Discussion<br>
+      5 of 11 also have Focused Group Discussion<br><br>
+      <b>Universe (full CoR 2.0)</b><br>
+      26 services · 36 States &amp; UTs<br><br>
+      <b>Project stage</b><br>Stage 2 complete (ED/FGD structured) · Stage 3 (secondary research) in progress
+    </div>
+  </nav>
+
+  <div class="main">
+    <div class="topbar">
+      <div class="topbar-filters" id="filterbar"></div>
+      <button class="btn" onclick="window.print()" title="Opens your browser's print dialog — choose &quot;Save as PDF&quot; as the destination to download."><svg class="ic" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M6.5 10 12 15.5 17.5 10"/><path d="M4 19.5h16"/></svg> Download report</button>
+    </div>
+    <div class="canvas" id="canvas"></div>
+  </div>
+
+</div>
+
+<script>
+/* ==========================================================================
+   COST OF REGULATION — FACTORY LICENSE PILOT DASHBOARD (v2)
+   Quality Council of India, for DPIIT, Government of India
+   ========================================================================== */
+
+/* ---------- icon set (minimal inline SVG, stroke-based) ---------- */
+const ICONS = {
+  grid:'<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+  user:'<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/>',
+  columns:'<rect x="3" y="4" width="5" height="16" rx="1"/><rect x="9.5" y="4" width="5" height="16" rx="1"/><rect x="16" y="4" width="5" height="16" rx="1"/>',
+  layers:'<path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>',
+  award:'<circle cx="12" cy="8" r="5.2"/><path d="M8.3 12.8 6.5 21l5.5-3 5.5 3-1.8-8.2"/>',
+  scale:'<path d="M12 3v17"/><path d="M6 7h6M12 7h6"/><path d="M3 7l2.6 6.2a2.6 2.6 0 0 0 5.2 0L8 7"/><path d="M16 7l2.6 6.2a2.6 2.6 0 0 0 5.2 0L21 7"/><path d="M7 20h10"/>',
+  book:'<path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H11v17H6.5A2.5 2.5 0 0 0 4 21.5z"/><path d="M20 4.5A2.5 2.5 0 0 0 17.5 2H13v17h4.5A2.5 2.5 0 0 1 20 21.5z"/>',
+  download:'<path d="M12 3v12"/><path d="M6.5 10 12 15.5 17.5 10"/><path d="M4 19.5h16"/>',
+  check:'<circle cx="12" cy="12" r="9.5"/><path d="M7.5 12.3l3 3 6-6.6"/>',
+  pin:'<path d="M12 21.5s7.2-7.6 7.2-12.3A7.2 7.2 0 0 0 4.8 9.2c0 4.7 7.2 12.3 7.2 12.3z"/><circle cx="12" cy="9" r="2.6"/>',
+  alert:'<path d="M12 3 2.2 20h19.6z"/><path d="M12 10v4.5"/><circle cx="12" cy="17.3" r=".6" fill="currentColor"/>',
+  dash:'<circle cx="12" cy="12" r="9.5" stroke-dasharray="2.5 3"/>',
+  arrow:'<path d="M5 12h14"/><path d="M13 6l6 6-6 6"/>'
+};
+function icon(name,cls){ return '<svg class="ic'+(cls?' '+cls:'')+'" viewBox="0 0 24 24">'+ICONS[name]+'</svg>'; }
+
+const SERVICE = {
+  code:'FL', name:'Factory License', category:'Existing service (CoR 2.0 carryover)',
+  definition:'A statutory license required under the Factories Act, 1948 (and corresponding State Factory Rules) to operate a factory employing workers with the aid of power, permitting manufacturing operations subject to occupational safety, health and welfare compliance.'
+};
+
+const COST_TYPES = [
+  {k:'time', n:'Time cost', d:'Time spent by employees on activities to prepare for the application — filling the form, preparing documents, obtaining approvals/certificates from other departments. Captured as respondent-reported time only, across four sub-stages: understanding requirements, collecting/preparing documents, filling/submitting the application, and follow-ups/query response.'},
+  {k:'subst', n:'Substantive cost', d:'Additional investment a business must make to comply with mandatory technical, safety, environmental or infrastructure requirements — equipment purchases, structural modifications, mandatory testing, record-keeping. Only mandatory, regulation-driven spend counts; voluntary upgrades (e.g. a firm\'s own ISO certification) are excluded.'},
+  {k:'inter', n:'Intermediary cost', d:'Fees paid to external professionals — architects, structural engineers, MEP consultants, legal/liaison agents — engaged to help obtain the approval or fulfil compliance.'},
+  {k:'delay', n:'Delay cost', d:'The additional financial burden from delay beyond the prescribed timeline — idle labour cost, bank interest on a project loan, machinery depreciation/rental, and rent or lease cost during the idle period.'},
+  {k:'stat', n:'Statutory cost', d:'Fees payable directly to Government — application/form fee, scrutiny fee, development charges, labour cess, licence fee. Per CoR 2.0 methodology this is reported as-is from the department\'s own fee schedule, and is explicitly excluded from inter-State comparison — unlike the other four cost types, it is not used for benchmarking or ranking States.'}
+];
+
+const KPIS = [
+  {k:'steps', n:'Steps required', d:'The number and sequence of discrete actions an applicant must complete, end to end, exactly as described by the official Expert Discussion — not a QCI-invented summary.'},
+  {k:'timeline', n:'Timeline', d:'The prescribed/statutory processing time as stated by the official, where given. Several States did not state a numeric timeline at all — shown as a data gap rather than assumed.'},
+  {k:'automation', n:'Automation available', d:'Whether application, scrutiny, fee payment and status tracking happen online, and whether any physical department visit is still required of the applicant — distinct from a physical site inspection, which is a safety step present almost everywhere and is shown separately, not penalised.'},
+  {k:'documents', n:'Documents requested', d:'The document checklist required, and whether officials or applicants flagged any of it as duplicated or redundant.'},
+  {k:'deemed', n:'Deemed approval', d:'Whether the law treats the approval as automatically granted if the department does not act within the prescribed time, and after how many days.'}
+];
+
+const STAGES = [
+  {k:'pre', n:'Pre-application / plan approval'},
+  {k:'apply', n:'Application & documentation'},
+  {k:'scrutiny', n:'Scrutiny'},
+  {k:'inspect', n:'Inspection'},
+  {k:'fee', n:'Fee & payment'},
+  {k:'approve', n:'Approval & issuance'},
+  {k:'renew', n:'Renewal / post-issuance'}
+];
+const STAGE_MAP = Object.fromEntries(STAGES.map(s=>[s.k,s]));
+
+function st(n, phase, title, automated, note){ return {n, phase, title, automated, note:note||''}; }
+
+const STATES = [
+{
+  code:'AP', name:'Andhra Pradesh', fgdPending:false,
+  secondary:{pending:false, confirms:['7-working-day statutory timeline confirmed with a precise citation: Rule 3 of the AP Factories Rules, 1950, as amended by G.O.Ms.No.7/2022 (2 Mar 2022), which cut the window from 30 days to 7 days and moved filing online via the Single Desk Portal.', '>20-worker threshold independently confirmed: AP\'s own amendment to Sec 2(m)/85(1) sets 20 workers with power (matches the ED) / 40 workers without power.'], contradicts:[], newDetail:['AP has a state-wide statutory deemed-approval framework for industrial clearances generally (AP Industrial Single Window Clearance Act, 2002), and green/white category industries get deemed approval to commence within 3 years of a self-declared undertaking under the Industrial Policy 2020-23 — this nuances the ED\'s "no deemed approval actively invoked" into "exists in law, rarely invoked in practice" rather than contradicting it.', 'Two further 2025 Factories Rules amendments (G.O.Ms.No.19, G.O.Ms.No.22) and a draft Safety Audit Rules 2025 were found but their content could not be confirmed online.'], sources:['G.O.Ms.No.7/2022, AP Factories (Amendment) Rules 2022', 'AP Sec 2(m)/85(1) worker-threshold amendment', 'AP Industrial Single Window Clearance Act, 2002'], notes:'Confirms the 7-day statutory timeline with an exact citation (Rule 3, as amended by G.O.Ms.No.7/2022) and the >20-worker threshold. Adds nuance rather than contradiction on deemed approval: a state-wide statutory deemed-approval framework exists for industrial clearances generally, which fits "exists in law, not actively invoked" rather than "absent." Current fee-schedule figures could not be verified online (only a clearly outdated 1994 reference was found).'},
+  ed:{date:'06-08-2026', location:'Vijayawada', expert:'Sri T. Raju', designation:'Inspector of Factories, Department of Factories'},
+  issuingAuthority:'Department of Factories, Govt. of AP — Deputy Chief Inspector of Factories (hazardous, district level) or the nodal Inspector of Factories of the circle (general category).',
+  portal:{name:'Single Desk Portal (CAF-2)'},
+  steps:[
+    st(1,'pre','Factory Building Plan Approval (CAF-1)', true, 'Obtained before commencement of manufacturing.'),
+    st(2,'apply','Apply for Factory License (CAF-2)', true, '~50-60% of plan data auto-populates from CAF-1.'),
+    st(3,'scrutiny','Routing by hazard category', true, 'Hazardous units route to the DCIF (district); general category to the circle Inspector of Factories.'),
+    st(4,'fee','License fee paid online', true, 'Slab-based on installed horsepower and number of workers.'),
+    st(5,'inspect','Site inspection', false, 'Physical verification of premises, sheds and machinery against the approved plan — no virtual inspection option used.'),
+    st(6,'scrutiny','Deviation handling', null, 'Minor deviation: license issued conditional on a revised plan within 15 days / 1 week. Major deviation: revised plan must be approved first.'),
+    st(7,'approve','License issued', true, 'Statutory 7 working days, uniform across hazardous, non-hazardous and general categories.'),
+    st(8,'renew','Annual renewal', true, 'Online fee payment before 31 December; no fresh inspection unless activity is amended (then a Revision License with revised-plan approval is required).')
+  ],
+  timeline:{minDays:7, maxDays:7, basis:'Statutory, uniform across categories', text:'7 working days. If undisposed within this window the Inspector must explain the delay to the Commissioner of Industries — functioning as an internal escalation rather than an automatic grant.'},
+  automationLevel:'partial', applicantOfficeVisit:'unclear',
+  documents:['CAF-2 application form','Approved building plan (carried forward from CAF-1)','Stability Certificate from a Department-empanelled competent person'],
+  documentsNote:'',
+  deemedApproval:{status:'no', days:null, text:'No deemed-approval provision is actively invoked; an undisposed application triggers escalation to the Commissioner of Industries instead. The expert said no deemed-approval situation has arisen so far.'},
+  validity:{text:'1 year; renewal fee due annually before 31 December.'},
+  fees:{text:'Slab-based, linked to installed horsepower and number of workers; paid online.'},
+  remarks:[
+    'The Stability Certificate is a frequent point of deficiency — applicants often wrongly assume it is not needed for new buildings.',
+    'Factories, Pollution Control and Labour departments each inspect separately; the expert considers integrating these into a single inspection not feasible, since they check different technical aspects.',
+    'Boilers are regulated separately, by the Boilers Department.',
+    'Risk threshold: more than 20 workers requires a license; fewer than 20 is generally exempt, except specified hazardous categories under Section 85(1) (rice/dal mills, saw mills, small engineering works, etc.) which require a license even with fewer than 10 workers.',
+    'Best practice: inspection findings are published via the Central Inspection System (CIS) portal.'
+  ],
+  dataGaps:[],
+  fgd:{
+    meta:'12 participants, Manufacturing (mixed), APIIC One Stop Service Centre, Atchuthapuram, Anakapalli · 29 Sept 2026 · 47 min',
+    process:'Filed online on the AP Single Window Portal. Scrutiny queries are raised on the portal and by phone, and mostly handled by the consultant rather than the applicant. Inspection occurs roughly one week after submission on average, followed by further scrutiny and final approval. Applicants cannot see this internal sequence — the portal shows only "pending" or "pending upload," with the first visible sign of approval being the printed certificate itself. The electrical department sits entirely outside the single-window portal.',
+    timeline:'Most participants reported no delay in scrutiny or inspection itself, but significant time is lost before submission preparing the stability study and drawings. One participant recalled a case of roughly 6 months\' delay (details unclear).',
+    automation:'"We have filed everything on the single window portal, but we still have to knock on every door." The portal\'s 20MB upload limit is too small for a full drawing set (some industries need 50-100MB). No real-time or stage-wise tracking exists.',
+    documentsNote:'No duplicate/redundant documents reported; drawings uploaded once are retained on the portal and carried forward at the annual acknowledgment stage unless the structure is modified.',
+    deemed:'Not described as an operative mechanism — the only visible signal of status is the final printed certificate.',
+    costs:[
+      ['Substantive','Building stability study obtained at the applicant\'s own cost from a government-empaneled structural/civil engineer; fee varies by engineer and industry size.'],
+      ['Intermediary','Consultants used end-to-end, described as near-essential for small industries lacking in-house technical knowledge (AutoCAD drawings "effectively essential"). Not quantified in INR.'],
+      ['Statutory','Fee calculated online on horsepower/kVA, labour and workforce, paid directly to government. Participants explicitly did not ask for fee reduction.'],
+      ['Informal / unrecorded','"No unrecorded or informal costs were reported; every cost in the process can be recorded in the books" — a notably clean finding relative to other States.']
+    ],
+    complaints:[
+      'Introduce real-time, stage-wise application tracking with timelines, modeled on the AP incentive portal — called the single most important ask.',
+      'Raise the 20MB upload limit to 50-100MB.',
+      'Publish an FAQ/guidance document listing mandatory documents and technical specifications by industry category, plus safety guidelines.',
+      'Invest in skill development/skill mapping — framed as preferable to fee reduction.'
+    ],
+    contradictions:[
+      'The official single-window framing is contradicted: the electrical department sits entirely outside the portal, so applicants must separately approach it — "we still have to knock on every door."',
+      'No deemed-approval mechanism is visible in practice; despite the 7-working-day statutory timeline, applicants get no interim status and learn of approval only when the certificate prints — participants called this an "Implementation Gap."'
+    ]
+  }
+},
+{
+  code:'CG', name:'Chhattisgarh', fgdPending:false,
+  secondary:{pending:false, confirms:[], contradicts:['The Chhattisgarh Ease of Doing Business Bill, 2026 was passed by the Legislative Assembly on 16 July 2026 — reported as a risk-based, trust-based permission framework with deemed/auto-approval after 30-60 days (by category) and self-certification for low-risk units, across an initial 43 services. If Factory License is among those services and the Bill is now in force, this would directly contradict the ED\'s "no deemed approval mechanism identified" — but Governor\'s assent, gazette notification, commencement date, and whether Factory License is covered could not be confirmed as of this research.'], newDetail:['A low-confidence secondary source suggests a possible Rule 5 validity change from 10 to 15 years (notification RULE-5/39/2025-LABOUR, Aug 2025) — unconfirmed against primary text, but worth chasing since the ED gave no validity figure at all for Chhattisgarh.', 'Chhattisgarh\'s Single Window System 2.0 / "OneClick" portal relaunched in July 2024 — single login, e-challan payment, department queries routed through the portal.'], sources:['Chhattisgarh Ease of Doing Business Bill 2026 — press coverage (Drishti IAS, PTI, Deccan Chronicle, Jul 2026)', 'Chhattisgarh Single Window System 2.0 relaunch coverage (Jul 2024)'], notes:'The dominant finding is forward-looking: a new state law (Assembly-passed 16 Jul 2026) would introduce exactly the deemed-approval mechanism the ED said does not exist — but whether it has commenced, and whether Factory License is among its covered services, could not be confirmed. Treat the ED\'s "no deemed approval" as likely accurate at interview time, but possibly going stale within months. The FGD\'s "30-day prescribed timeline" and the official fee schedule could not be independently verified from any other official source.'},
+  ed:{date:'05-08-2026', location:'Directorate of Industries, Commerce & Industry, Udyog Bhawan, Raipur', expert:'Ashutosh Pandey', designation:'Deputy Director, Industrial Safety & Labour Department'},
+  issuingAuthority:'Industrial Safety & Labour Department, via its online portal.',
+  portal:{name:'Labour Department online portal'},
+  steps:[
+    st(1,'apply','Submit Factory Licence application', true, 'Completely online via the Labour Department portal.'),
+    st(2,'pre','Factory Drawing Approval', null, 'Must be obtained before construction can commence.'),
+    st(3,'apply','Submit prescribed application and supporting documents/NOCs', true, ''),
+    st(4,'inspect','Inspection', 'partial', 'Conducted as applicable; the random-inspection selection itself is computer-generated/software-selected, but the visit is physical.'),
+    st(5,'scrutiny','Inspection observations and show-cause notices (where applicable)', true, 'Communicated electronically.'),
+    st(6,'scrutiny','Applicant submits compliance/clarification', true, 'Electronically.'),
+    st(7,'approve','Factory Licence granted', true, 'After fulfilment of applicable requirements/approvals.')
+  ],
+  timeline:{minDays:null, maxDays:null, basis:'Not specified in the Expert Discussion', text:'No numerical statutory or average processing timeline was given by the official. The Focused Group Discussion separately references a "prescribed processing timeline" of 30 days, which was not independently corroborated in the ED — flagged, not merged.'},
+  automationLevel:'partial', applicantOfficeVisit:'unclear',
+  documents:['Prescribed application form and supporting documents','Factory Drawing Approval','Multiple NOCs (varying by nature/location of the factory)','Information on installed power, manpower and cost of construction (fee-relevant)'],
+  documentsNote:'',
+  deemedApproval:{status:'unclear', days:null, text:'No deemed-approval mechanism was identified or discussed in the Expert Discussion.'},
+  validity:{text:'Not specified.'},
+  fees:{text:'Linked to installed power, manpower and cost of construction. Statutory fees rise by 30% every three years — flagged by the official himself as an area for review.'},
+  remarks:[
+    'Incomplete or inappropriate applications are a major cause of delay (returned for correction/resubmission).',
+    'Multiple NOCs from different authorities add to the burden.',
+    'Suggested: integrate Factory Building Plan Approval with the Factory Licence to reduce repeated documentation.',
+    'Suggested: expand risk-based inspection and operationalise self-certification for eligible factories.',
+    'Quote (Ashutosh Pandey): "Random inspection is computer-generated and selected through software." · "Factory Licence is processed separately after obtaining the required approvals." · "Statutory fees increase by 30% every three years."'
+  ],
+  dataGaps:['Timeline (statutory or average) not specified','Validity period not specified','Statutory fee amount not specified','Deemed-approval status not specified'],
+  fgd:{
+    meta:'5 participants (the source document labels them "Experts," though this is a business/user FGD), Directorate of Industries, Commerce & Industry, Raipur · 7 Aug 2026 · 1hr14min',
+    process:'Factory Licence is understood as the final stage, gated by prior approvals (land, building plan, fire, electricity, pollution) — delays upstream cascade into Factory Licence delay. Online filing itself is "not considered difficult"; the bottleneck is internal departmental movement and follow-up. A portal migration caused previously submitted documents to become unavailable, forcing fresh uploads.',
+    timeline:'A 30-day prescribed timeline was referenced, but actual time is driven by inter-departmental movement, described as "a significant source of delay." No specific real-world day count was given.',
+    automation:'"The biggest issue is that the single-window portal exists, but the departments are not fully interconnected." There is no clear online status showing exactly where, or at which department, an application is stuck.',
+    documentsNote:'The same government information is requested at multiple approval stages (duplication across departments); documents submitted under the old portal were lost in the migration and had to be re-uploaded.',
+    deemed:'Not described as operative; the emphasis is entirely on the lack of visibility into where an application is stuck, not on any automatic-grant mechanism.',
+    costs:[
+      ['Intermediary','A consultant is hired specifically to track applications and resolve pending issues, since applicants do not always know where an application is pending or what is needed next. Not quantified in INR.']
+    ],
+    complaints:[
+      'Designate one nodal department to coordinate and track all factory-related approvals.',
+      'Auto-reuse previously submitted documents/information — a "DigiLocker-type repository" was explicitly suggested.',
+      'Provide clear, stage-wise online status: what is pending, at which department.',
+      'Run land, building-plan, fire, electricity, pollution and Factory Licence approvals in parallel.',
+      'Provide checklists, sample documents and step-by-step guidance to reduce avoidable consultant dependence.'
+    ],
+    contradictions:[
+      'A direct, explicit contradiction of any "integrated single window" framing: "the single-window portal exists, but the departments are not fully interconnected" — participants explicitly called for a move from a "single portal" approach to a genuinely "single process" approach.'
+    ]
+  }
+},
+{
+  code:'DNHDD', name:'Dadra & Nagar Haveli and Daman & Diu', fgdPending:false,
+  secondary:{pending:false, confirms:[], contradicts:[], newDetail:['A draft DNH & DD Ease of Doing Business Regulation, 2026 (gazetted 20 Jul 2026 for consultation) proposes a "Right to Business" self-declaration / in-principle-approval framework for eligible MSMEs — conceptually adjacent to, but distinct from, a classic "25 days then deemed granted" timer. It suggests practice may be running ahead of, or anticipating, formal rule change, which is a plausible explanation for why the FGD reports a working 25-day deemed-approval rule that the ED does not confirm.', 'Possible legal fragmentation: a 2026 draft OSH rules document references the "Goa, Daman & Diu Factories Rules, 1985" as still applicable specifically to Daman — the Daman side of the merged UT may still run under older pre-merger rules distinct from a single unified "DNH&DD Factories Rules," which could itself explain reporting variance.'], sources:['DNH&DD draft Ease of Doing Business Regulation 2026 (Official Gazette, 20 Jul 2026)', 'Adapted Gujarat (Right of Citizens to Public Services) Act, 2013, as applied to the UT'], notes:'Could not resolve the central ED-vs-FGD discrepancy (whether a 25-day deemed-approval rule formally exists) from any official rule text found online. The most likely statutory home identified is the UT\'s adapted Right of Citizens to Public Services Act, which typically carries per-service time limits with deemed-grant provisions, but its schedule of services could not be retrieved to confirm. A draft 2026 "Right to Business" regulation suggests the UT is actively moving toward the kind of fast-track regime the FGD already describes experiencing.'},
+  ed:{date:'06-08-2026 (recorded as "Minutes of Meeting")', location:'Vidhyut Bhavan, Kachigam, Daman', expert:'Shri J.B. Chauhan (Labour Inspector) and Ms. Apexa Bhandari (Office Assistant)', designation:'Labour Department, DNH & DD'},
+  issuingAuthority:'Labour/Factory authority, via the EODB Single Window Portal for Industrial Clearances (swp.dddgov.in), under the Factories Act, 1948.',
+  portal:{name:'EODB Single Window Portal (swp.dddgov.in)'},
+  steps:[
+    st(1,'apply','Register on the EODB Single Window Portal', true, 'Fill the Common Application Form, create a Unit.'),
+    st(2,'apply','Apply for Plan Approval / Permission to Construct', true, 'Upload structural drawings, site plans, manufacturing process flowcharts.'),
+    st(3,'scrutiny','Department reviews plan and issues plan clearance', true, ''),
+    st(4,'apply','Apply for Registration of Licence', true, 'Submit ownership/lease deed, list of directors, safety clearances.'),
+    st(5,'apply','Upload balance documents', true, 'Against a fixed 7-document checklist.'),
+    st(6,'fee','Pay processing and licence fee', true, 'Online, via digital challan.'),
+    st(7,'scrutiny','Department verifies against checklist', true, 'Machinery, safety systems, staircases, ventilation, layout/machinery plan.'),
+    st(8,'inspect','Safety officer conducts on-site inspection', false, ''),
+    st(9,'approve','Department approves on completion of scrutiny/inspection', true, 'No deemed-approval provision — approval is granted only after actual review concludes.'),
+    st(10,'approve','Applicant downloads the digitally signed Factory License certificate', true, 'From the portal.')
+  ],
+  timeline:{minDays:20, maxDays:25, basis:'Administrative practice, not a statutory turnaround under the Factories Act', text:'~20-25 working days end-to-end.'},
+  automationLevel:'partial', applicantOfficeVisit:'no',
+  documents:['Structural drawings, site plans, manufacturing process flowcharts (for plan approval)','Ownership/lease deed, list of directors, safety clearances (for licence registration)','A fixed 7-document checklist overall'],
+  documentsNote:'',
+  deemedApproval:{status:'no', days:null, text:'None currently — approval is granted only after actual scrutiny and site inspection by the safety officer. The expert suggested exploring a deemed-approval clause for cases where scrutiny is not completed within a defined period, without diluting site inspection for high-risk units.'},
+  validity:{text:'A fee ceiling of about ₹1 lakh applies, and applicants can opt for a lower tenure; exact validity slabs and fee schedule were "not confirmed during this discussion."'},
+  fees:{text:'Processing and licence fee paid online via digital challan; payment ceiling ~₹1 lakh; a lower-tenure registration option reduces the fee. Exact slabs not detailed.'},
+  remarks:[
+    'No risk-based classification system currently exists — all applications go through the same scrutiny and mandatory inspection regardless of scale or risk.',
+    'No duplicate/redundant documentation flagged; the checklist is deliberately kept concise at 7 documents. Main friction: some documents still have to be submitted offline despite an otherwise online process.',
+    'DNH & DD has one of the highest concentrations of industrial units among UTs (~7,000 registered industries).',
+    'An amendment provision (e.g. change in occupier/premises) is currently missing online — not carried over from the earlier manual process.',
+    'Monthly departmental review meetings on portal performance; sector-specific awareness seminars.',
+    'Portal is linked with the National Single Window portal for cross-visibility.'
+  ],
+  dataGaps:['Exact validity slabs and fee schedule not confirmed during the discussion'],
+  fgd:{
+    meta:'6 participants, Mixed sector, Vidhyut Bhavan, Daman · 5 Aug 2026 · 53 min 47 sec',
+    process:'Almost entirely online. The department publishes a clear checklist; once documents are ready, completing and submitting the form takes 30-45 minutes. Physical inspection is NOT required for standard, self-declaration-based (Green category) licensing — applicants self-certify products, machinery, electrical load, workforce and floor area. Inspection IS required for higher-risk (Orange/Red) categories. Factory Licensing, Pollution Control Clearance, Town Planning and Power are all accessible via the National Single Window Portal.',
+    timeline:'Deemed approval kicks in at 25 days if the department neither raises a query nor acts. Orange/Red (inspection-required) cases take up to ~25 days due to site-visit scheduling. When a query is raised, "the clock pauses until the applicant responds," then resumes promptly — described as functioning largely as intended.',
+    automation:'Largely positive — officers and the portal are described as "responsive and supportive," communicating via SMS, email and a dedicated departmental WhatsApp group. The one friction point: local telecom/internet infrastructure in industrial belts can stall online submissions, particularly during heavy monsoons.',
+    documentsNote:'No redundant or duplicate documentation reported. The checklist (building layout drawings, land ownership/title records, rent/purchase agreement, fire department permission) is described as "clear and non-repetitive."',
+    deemed:'The one State in this pilot where deemed approval is reported as actually working — the 25-day rule, paused only by genuine queries and resuming promptly, with no reports of businesses having to chase the department.',
+    costs:[
+      ['Intermediary','Consultant fee for layout drawings/technical paperwork ≈ ₹30,000 for smaller enterprises specifically to avoid errors and repeated queries — "the fee is high for the service."'],
+      ['Substantive','Machinery/equipment must be purchased or upgraded to meet license-mandated specifications, a cost separate from and additional to normal capacity-building spend.'],
+      ['Delay / financing','Where a business depends on bank loans or government tender-based supply contracts, delay in the licence and pollution clearance directly delays loan disbursement/billing, adding an interest-cost burden while waiting.'],
+      ['Statutory','Example fee ≈ ₹22,000, calculated automatically by the portal from connected load, workforce and pollution category. Participants explicitly said no hidden charges were reported.']
+    ],
+    complaints:[
+      'Adopt a graduated/tiered compliance timeline for newer, lower-risk units — explicitly citing Gujarat\'s practice of giving green/low-risk units up to 2-3 years to complete peripheral compliances after starting operations, as a model DNH/DD currently lacks.',
+      'Strengthen telecom/internet infrastructure in industrial belts to prevent monsoon-related submission outages.',
+      'Formally empanel/register consultants for factory licensing (currently unregistered) — contrasted with architects on the OBPS portal and certified water-compliance auditors, who must hold recognised credentials.'
+    ],
+    contradictions:[
+      'Largely CONFIRMS rather than contradicts the official narrative — deemed approval, portal responsiveness and fee transparency are all corroborated by businesses.',
+      'The main nuance: the official narrative\'s statutory fee (~₹22,000) understates the true cost of compliance — the FGD surfaces real but unquantified substantive (equipment) and delay/financing costs that sit outside the official fee schedule.'
+    ]
+  }
+},
+{
+  code:'HP', name:'Himachal Pradesh', fgdPending:true,
+  secondary:{pending:false, confirms:[], contradicts:['The official OFRIS portal FAQ states "Approval of Plans — 3 months" and "Registration & Renewal of factory licence — 30 days" — a 90-day/30-day pairing, not the ED\'s 30-day/45-day pairing. Could not confirm which figure is current; flagged as an open discrepancy rather than resolved either way.', 'HP\'s Occupational Safety, Health and Working Conditions (HP) Rules — the "OSH Code framework" the ED cited — are still in DRAFT form (~22 May 2026 version, 45-day objection window), not yet in force. Licensing today still operates under the Factories Act 1948 / HP Factories Rules 1950 (as amended 2023-2025), so the ED\'s framing may describe an anticipated reform track rather than the rules actually governing licensing right now.'], newDetail:['Two recent amendments confirmed: HP Factories (Amendment) Rules 2024 (30 Aug 2024) replaced the one-year licence fee schedule and added a Chief-Inspector-recognised "competent person" provision for tests/inspections; HP Factories (Amendment) Rules 2025 (16 Oct 2025) revised working-hour provisions.', 'The 2024 amendment\'s own title ("fee for grant of licence for one year") suggests fees may scale with the chosen validity period, nuancing the ED\'s "fees independent of validity" claim — not confirmed either way.'], sources:['OFRIS portal guidelines & FAQ (ofris.hp.gov.in)', 'HP Factories (Amendment) Rules 2024 & 2025', 'Draft HP Occupational Safety, Health and Working Conditions Rules, 2026'], notes:'The official OFRIS portal FAQ gives a different day-count pairing (90/30) than the ED\'s (30/45), and the ED\'s framing of an "OSH Code framework" appears to describe a still-draft reform rather than the rules currently in force. Two 2024-2025 amendments were confirmed with citations. The deemed-approval provision and Fire/Pollution NOC exemption claims could not be independently verified.'},
+  ed:{date:'10-08-2026', location:'Directorate of Industries, Shimla', expert:'Mr. Puneet Chauhan', designation:'Assistant Director, Department of Labour & Employment'},
+  issuingAuthority:'Department of Labour & Employment — Chief Inspector of Factories is the final approving authority; Assistant Director (Factory) performs field verification.',
+  portal:{name:'Departmental online software portal'},
+  steps:[
+    st(1,'pre','Submit Factory Building Plan Approval (BPA) application', true, 'Via the departmental online portal.'),
+    st(2,'pre','Upload required documents and building drawings', true, 'Online.'),
+    st(3,'inspect','Assistant Director (Factory) conducts field verification', false, 'Forwards to the Chief Inspector of Factories.'),
+    st(4,'approve','BPA approved', true, 'Eligibility gate for the Factory License application.'),
+    st(5,'apply','Factory License application submitted', true, 'Through the same online portal.'),
+    st(6,'inspect','Assistant Director undertakes field verification for the licensing application', false, ''),
+    st(7,'approve','Verified application forwarded to the competent authority', true, 'For approval/issuance of the Factory License.')
+  ],
+  timeline:{minDays:30, maxDays:45, basis:'Building Plan Approval 30 days, then Factory License 45 days — sequential stages under the OSH Code framework, each with its own deemed-approval provision', text:'Building Plan Approval: 30 days (deemed approval). Factory License: 45 days (deemed approval). The two stages run sequentially.'},
+  automationLevel:'partial', applicantOfficeVisit:'unclear',
+  documents:['Building plan drawings','Factory-related statutory documents required under departmental rules for BPA and licensing'],
+  documentsNote:'Fire NOC and Pollution NOC are NOT sought as part of factory licensing unless specifically required under other laws — documentation described as "substantially reduced" under EoDB reforms.',
+  deemedApproval:{status:'yes', days:'30 (BPA) / 45 (Factory License)', text:'Available at both stages — BPA is deemed approved after 30 days, and the Factory License after 45 days, if no decision is communicated.'},
+  validity:{text:'Applicant\'s choice of 1, 5, or 10 years; renewal required after expiry. Longer validity is intended for the operational convenience of larger factories.'},
+  fees:{text:'Not based on the chosen validity period; determined by connected horsepower/power load and number of workers. Range ~₹1,000 (small establishments) to ~₹2 lakh (large factories).'},
+  remarks:[
+    'Risk-based inspection: hazardous factories (pharma, notified dangerous operations) inspected every 6 months; others annually or once every 2 years depending on worker strength/risk category. Inspection selection is random and system-driven.',
+    'Officials say unnecessary requirements have already been removed via EoDB reforms; no major redundant requirement was identified.',
+    'No major burdensome activity identified; the key pending reform is full Single Window System integration — the portal is already structurally aligned with it, but direct submission via the Single Window is not yet enabled.',
+    'The applicability threshold for very small factories was revised under the OSH framework, reducing compliance burden for smaller establishments.',
+    'Auto-renewal facility for renewals noted as a best practice.'
+  ],
+  dataGaps:[],
+  fgd:null
+},
+{
+  code:'JK', name:'Jammu & Kashmir', fgdPending:true,
+  secondary:{pending:false, confirms:['The 30-day timeline is confirmed via two independent legal bases: a June 2018 amendment to the J&K Factories Rules (licence granted within 30 days of application, consistent with the ED\'s "clock pauses on query" description) and SRO-467 (Oct 2018), separately listing 30 days for the Factories Act registration certificate.', 'Risk-based colour classification confirmed with exact thresholds: Red (Pollution Index ≥60), Orange (41-59), Green (21-40), White (≤20) — and a 28 Feb 2025 order adopted the CPCB\'s Jan 2025 classification, exempting the White category entirely from Consent to Establish/Operate — a recent reform not in the ED summary.'], contradicts:['The ED cited "Public Services Guarantee Act, 2018" — every source instead names the parent statute the J&K Public Services Guarantee Act, 2011 (Act IX of 2011); "2018" appears to be the year of the specific SRO/Rules amendment that operationalised it for Factories, not the Act\'s own year.', 'On the penal provision being "monitored, not yet active": the PSGA\'s officer-penalty mechanism (fines deducted from the responsible officer\'s honorarium, compensation to the applicant) appears to be actively enforced elsewhere in J&K government — e.g. penalty proceedings reported against 55 Revenue Dept officers — suggesting the mechanism is live state-wide even if no specific instance was found for Factories Department delays.'], newDetail:['The official J&K Single Window portal hosts a genuine citizen-charter-grade document checklist for Factory Registration — 15 distinct items (4 mutually-exclusive tenure-proof alternatives), more granular than the ED\'s "12-13 documents" estimate: Form No.1 application; Form 2 & 3 combined (annual); Pollution Board Consent to Establish/Operate; NOC from a specified authority (only for sawmills, wood-peeling, explosives, arms & ammunition, drug/pharma factories, brick kilns, stone crushers); Manager\'s authorisation letter; Power Sanction Certificate copy; Safety Certificate (duplicate); Manager/Occupier photo; applicant ID proof; one of land records/rent deed/allotment letter/lease deed; DIC Registration approval copy; machinery list; process flow chart; project report; site plan (triplicate).'], sources:['J&K Single Window — official SOP & procedure checklist, service id 21 (singlewindow.jk.gov.in)', 'SRO-467, Oct 2018', 'J&K Pollution Control Committee classification order, 28 Feb 2025'], notes:'Confirms the 30-day timeline from two independent legal bases, and finds a genuinely more granular official 15-item document checklist than the ED\'s own "12-13 documents" estimate (transcribed in full below). One correction: the ED\'s "PSGA 2018" is actually the PSGA 2011, operationalised for Factories via a 2018 notification. The officer-penalty mechanism the ED called dormant appears to be actively enforced elsewhere in J&K government.'},
+  ed:{date:'25-08-2026', location:'JLN Udyog Bhawan, Jammu', expert:'Mohammad Youmis', designation:'Junior Assistant, Labour Department'},
+  issuingAuthority:'Labour Department — the Chief Inspector of Factories (charge currently held by the Labour Commissioner) gives final approval; processed via the JK Single Window portal.',
+  portal:{name:'JK Single Window portal'},
+  steps:[
+    st(1,'apply','Apply online via the JK Single Window portal', true, 'For Factory Registration, plus Building Plan Approval where applicable.'),
+    st(2,'apply','Upload prescribed documents', true, 'Pollution certificate, authorised manager letter, power sanction load, fire NOC, site plan, lease deed, constitution documents, Aadhaar/bank details, Form 23.'),
+    st(3,'scrutiny','Dealing Assistant checks completeness', true, 'Incomplete applications are reverted with a query.'),
+    st(4,'inspect','Factory Inspector reviews documents', 'partial', 'Conducts a physical site inspection for hazardous/high-risk units.'),
+    st(5,'approve','Factory Inspector forwards to the Chief Inspector of Factories', true, 'For final approval.')
+  ],
+  timeline:{minDays:30, maxDays:30, basis:'Prescribed processing timeline under the Public Services Guarantee Act, 2018 — no deemed-approval/penal provision currently in force', text:'30 days; the clock stops when a query is pending with the applicant and restarts on resubmission. Delays are common where applicants or their service providers are slow to respond — sometimes 2-3 months pending at the applicant\'s end.'},
+  automationLevel:'partial', applicantOfficeVisit:'unclear',
+  documents:['Pollution (NOC) Certificate','Authorised manager/authority letter','Power sanction load document','Fire NOC','Site/building plan','Lease deed','Constitution documents (MOA/directors list/Board Resolution, or proprietorship/partnership declaration)','Aadhaar and bank details','Form 23 (worker details/power load)'],
+  documentsNote:'On average 12-13 documents, varying by size/category. No additional documents are required unless the activity is specialised (e.g. fertiliser manufacturing).',
+  deemedApproval:{status:'no', days:null, text:'None currently exists. A penal/automatic-approval provision under the Public Services Guarantee Act, 2018 is periodically monitored (reviewed by the Chief Secretary) but not yet in force. The expert suggested that low-risk, document-complete applications could move toward a deemed/same-day approval.'},
+  validity:{text:'Not separately addressed for the initial licence; discussed mainly for renewal (1-5 years, independent of risk category, at the applicant\'s choice).'},
+  fees:{text:'Not specified — no numerical fee structure given.'},
+  remarks:[
+    'Risk-based colour classification (Red/Orange/White/Green) from the Pollution Control Board; Red = hazardous (e.g. pesticide manufacturing). Physical inspection is more likely for Red-category, but even White/Green units are inspected in ~90% of registration cases.',
+    'Key inefficiency: no inter-departmental document auto-verification (e.g. auto-fetch of Pollution Board/Fire NOC status) — applicants must separately upload documents already held by other departments on the same Single Window platform.',
+    'Governance issue: intermediaries/service providers file using their own mobile number/email rather than the applicant\'s, reducing accountability and traceability — "hijacked by the service provider."',
+    'Staff shortage relative to application volume causes delays; the Single Window platform has had periodic technical issues over the past year.',
+    'Common query cause: incorrect worker-count or power-load details in Form 23.',
+    'No clear amendment provision (change in occupier/premises) currently exists online. No QR-code-based certificate verification mechanism yet.',
+    'Quotes (Mohammad Youmis): "On average, a new factory licence requires twelve to thirteen documents..." · "Once a query is raised, the clock stops until the applicant resubmits; the thirty-day timeline resumes only after resubmission." · "This particular system has been hijacked by the service provider — the ID and phone number used are often the consultant\'s, not the applicant\'s." · "If the applicant simply has to give one declaration, the department should be able to process it directly, almost like a same-day approval."'
+  ],
+  dataGaps:['Statutory fee amount not specified'],
+  fgd:null
+},
+{
+  code:'JH', name:'Jharkhand', fgdPending:true,
+  secondary:{pending:false, confirms:['Issuing-authority hierarchy (Inspector → Deputy Chief Inspector → Chief Inspector) confirmed via a sample issued licence citing Section 6(1) of the Factories Act.', 'The 28 March 2025 Schedule A/B/C fee notification is confirmed to exist and fully replace the prior schedules, plus a flat ₹1,000 fee for both amendment and transfer — matching the ED\'s cited notification, though the exact per-slab rupee figures could not be independently re-verified.'], contradicts:[], newDetail:['Licence validity is more precisely Rule 5(2): minimum 1 year up to a maximum of 15 years — more specific than the ED\'s vague "longer-term options."', 'The Jharkhand Single Window Clearance Act, 2016 already includes "Deemed Approval, Self-certification, Third-party inspections and Appeals" as general features of the state\'s single-window regime — a deemed-approval hook already exists in law; whether Factory License specifically is a scheduled service under it could not be confirmed, so the ED\'s "not yet implemented" claim is plausible, not disproven.', 'A new appeal mechanism (occupier may appeal a Chief Inspector order to the Secretary/Principal Secretary within 30 days) was found as a 2025 procedural addition not in the ED summary.'], sources:['Jharkhand Factories Amendment Rules 2025 notification, 28 Mar 2025', 'Jharkhand Single Window Clearance Act, 2016', 'Rule 5(2) validity provision'], notes:'Confirms the issuing-authority hierarchy and the 2025 fee notification\'s existence. Adds precision on validity (1-15 years under Rule 5(2)) and finds that a general deemed-approval hook already exists in Jharkhand\'s 2016 Single Window law, which strengthens the ED\'s own framing of deemed approval as a readily-implementable reform rather than a distant one. The specific 30-day/12-day sub-SLA figures could not be verified — third-party estimates found instead diverge substantially.'},
+  ed:{date:'25-08-2026', location:'Dept. of Industry, Nepal House, Single Window Office, Ranchi', expert:'Binit Kumar Singh (Deputy Chief Inspector) and Abhishek Mishra (Software Developer)', designation:'Dept. of Labour, Employment, Training & Skill Development'},
+  issuingAuthority:'Dept. of Labour, Employment, Training & Skill Development — Deputy Chief Inspector is the competent authority; processed via the Jharkhand Single Window / Shramadhan portal.',
+  portal:{name:'Jharkhand Single Window / Shramadhan portal'},
+  steps:[
+    st(1,'apply','Login and select service', true, 'Select "Factory Act — Registration and Grant of Licence" on the Shramadhan portal.'),
+    st(2,'apply','Complete Form No. 2 and submit', true, 'Factory, occupier, manager, worker counts, manufacturing processes, machinery/installed power, land/building details; upload documents; pay licence fee online.'),
+    st(3,'scrutiny','Scrutiny and deficiency handling', true, 'Receiving office scrutinises; deficiencies communicated electronically; applicant resubmits corrected documents.'),
+    st(4,'scrutiny','Forwarding to Inspector of Factories', true, 'Complete application forwarded electronically.'),
+    st(5,'inspect','Review and site inspection', 'partial', 'Inspector reviews and conducts a site inspection; inspection allocation is managed automatically by the departmental system.'),
+    st(6,'scrutiny','Recommendation forwarded to Deputy Chief Inspector', true, 'Statutory 12-day timeline for this step.'),
+    st(7,'approve','Approval and issuance', true, 'Competent authority approves; licence issued electronically; applicant notified via SMS/status update.')
+  ],
+  timeline:{minDays:30, maxDays:30, basis:'Statutory, for a complete application', text:'30-day total processing timeline for a complete application (correct fee and all documents). Within this, the Inspector must forward a recommendation to the Deputy Chief Inspector within 12 days of submission.'},
+  automationLevel:'partial', applicantOfficeVisit:'unclear',
+  documents:['Form No. 2','Fee payment proof (challan)','Proof of possession (registered sale/lease deed/rent agreement)','Owner consent + address proof (if leased/rented)','Approved site/building plan (where applicable)','Pollution Control Board Consent to Establish/Operate','Occupier ID/address proof','Manager ID/address proof','Project report and manufacturing process description','Machinery/installed power details','Entity-specific documents (Board list/MOA/AOA/Board resolution for companies; partnership deed + partners list for firms)'],
+  documentsNote:'Plus any other document requested by the Chief Inspector/Deputy Chief Inspector/Inspector.',
+  deemedApproval:{status:'no', days:null, text:'None currently — no automatic deemed approval after the 30-day period lapses, even though timelines are specified. Recommended reform: introduce statutory deemed approval for complete, low-risk applications after the SLA lapses, with safety exclusions, post-approval inspection protocols, and authority to cancel for non-compliance.'},
+  validity:{text:'Jharkhand Factories (Amendment) Rules, 2025 establish a minimum validity of 1 year, with longer-term options also offered; 1-year licences renew annually, fully online via Shramadhan.'},
+  fees:{text:'Under Schedule-A (2025 fee notification), based on total rated machinery/plant HP capacity and maximum workers on any single day — e.g. Nil HP: ₹530 (up to 20 workers) to ₹2,380 (up to 100 workers); up to 10 HP: ₹1,190 to ₹2,900; higher slabs cost more. Electricity generating/transmitting stations use a separate KW-based schedule. License amendment fee standardised at ₹1,000 (2025). The Shramadhan portal has an automated fee calculator.'},
+  remarks:[
+    'Significant compliance burden: repeated submission/manual verification of information already held by other government departments (land ownership, project details, environmental clearances) — the Single Window reduced physical interactions, but cross-departmental document verification remains a challenge.',
+    'Risk-based inspection framework: Low-Risk (streamlined route + inspection exemptions), Medium-Risk (third-party certification + joint verification), High-Risk (mandatory technical/site inspections).',
+    'Recommended reforms: a Master Factory Profile to reuse verified data; a consolidated deficiency memo (replacing repeated deficiency cycles); fully automated digital inspection management; system-to-system inter-departmental verification; streamlined/pre-filled licensing amendments.',
+    'Best practice: Shramadhan is a unified digital platform covering the full lifecycle — registration, licensing, renewal, amendment, inspection, fee, status.'
+  ],
+  dataGaps:[],
+  fgd:null
+},
+{
+  code:'MN', name:'Manipur', fgdPending:true,
+  secondary:{pending:false, confirms:[], contradicts:['One weak secondary source states licences are valid only to 31 December of the grant year with annual renewal under "Manipur Factories Rules 2016" — tentatively at odds with the ED\'s "10 years, auto-renewal" claim, but the source quality is low and this needs the primary Rules text to resolve.'], newDetail:['The issuing authority is plausibly resolved: the Directorate of Trade, Commerce & Industries, Govt. of Manipur, whose Director holds the ex-officio post of both Registrar of Firms and Chief Inspector of Factories & Boilers. This may explain the ED document\'s anomalous "Organization/Department" field, where a business name appears to have been mistakenly transcribed in place of the department.', 'A Chief Inspector of Factories & Boilers notice (26 Mar 2026) made online-only filing mandatory for Factory Permit/License/Renewal from 1 Apr 2026, and confirms a two-step sequence: apply for a Factory Permit first, then the Factory License after the permit is granted — more granular than the ED\'s single-stage description.'], sources:['Manipur Dept. of Trade, Commerce & Industries', 'DGFASLI Chief Inspectors directory, Jun 2024', 'Chief Inspector of Factories & Boilers online-filing notice, 26 Mar 2026'], notes:'Plausibly resolves the ED\'s anomalous department field — the Directorate of Trade, Commerce & Industries\' Director also holds the Chief Inspector of Factories & Boilers post. Finds a more granular two-step sequence (Factory Permit, then Factory License) via a March 2026 mandatory-online-filing notice. One weak, unconfirmed source suggests annual renewal rather than the ED\'s 10-year auto-renewal claim — flagged, not resolved. The Factory-License-specific timeline (vs. the ED\'s own ambiguous 90-day figure) remains unconfirmed.'},
+  ed:{date:'22-07-2026', location:'Directorate of Trade, Commerce & Industry, Lamphelpat, Imphal', expert:'Ch. Nongpdenganba Meetai & K.R Surnchandra Singh', designation:'Developer, Section Officer (department field itself is anomalous in the source — see data gaps)'},
+  issuingAuthority:'Not clearly named in the source document; context (Manipur Factories Rules 2021) implies a Labour/Factories department, but this is not stated explicitly. The "Organization/Department" field in the source document lists what appear to be private company names rather than a government department — flagged as a likely documentation error, not corrected or guessed.',
+  portal:{name:'Online application system (unnamed in source)'},
+  steps:[
+    st(1,'apply','Submit Factory Licence application', true, 'Through the online system.'),
+    st(2,'scrutiny','Department verifies application and supporting documents', true, ''),
+    st(3,'inspect','Forwarded for physical inspection', null, 'If documents are found correct.'),
+    st(4,'inspect','Inspection team conducts physical inspection', false, 'Of the factory/site.'),
+    st(5,'scrutiny','Inspection report prepared and submitted', true, 'For further processing.'),
+    st(6,'approve','Factory Licence approved/issued', true, 'After verification and inspection are complete.')
+  ],
+  timeline:{minDays:null, maxDays:null, basis:'Unclear/unconfirmed for Factory License specifically', text:'The Expert Discussion\'s "Application Timeline" field states 90 days, but that figure is explicitly for approval of the factory plan / permission to construct (Building Plan Approval) — not confirmed as a separate Factory Licence processing-time figure. Treated as a likely document inconsistency, not merged into the Factory Licence timeline.'},
+  automationLevel:'partial', applicantOfficeVisit:'unclear',
+  documents:['Application form for Factory Licence','Factory Building Plan Approval','Approved building/layout plan','Proof of ownership/lease','ID & address proof of occupier/applicant','Occupier & manager details','Machinery list & installed HP/capacity','Manufacturing process description/flow chart','Worker/employee details','Site plan/layout','Fire NOC/Fire Safety Certificate (where applicable)','Pollution Control Board Consent CTE/CTO (where applicable)','Stability/structural safety certificate (where applicable)','Electrical safety certificate (where applicable)','Proof of licence fee payment','Entity-specific documents (partnership deed/Certificate of Incorporation/board resolution)'],
+  documentsNote:'Described as recently moved from manual/physical to an online application system — "partially online": digitised application, but physical inspection remains part of the process for new licences. Renewal is online and generally does not require physical inspection.',
+  deemedApproval:{status:'unclear', days:null, text:'Manipur Factories Rules 2021 and the Manipur Public Services Delivery Guarantee Act, 2021 are referenced as applicable frameworks, but no official source establishing deemed approval for Factory Licence was confirmed in the discussion.'},
+  validity:{text:'10 years, with an auto-renewal provision under the Manipur Factories Rules, 2021.'},
+  fees:{text:'Variable, based on the Manipur Factories Rules 2021 — depends on number of workers employed and maximum installed HP; exact fee schedule not detailed.'},
+  remarks:[
+    'Principal compliance burden: mandatory physical inspection before approval of a new licence.',
+    'Factory Licence is part of a sequence of interconnected approvals (Building Plan Approval, Factory Building Plan Approval, Factory Licence, Consent to Establish, Consent to Operate, occupancy approvals); no specific Act/Rule driving individual requirements was identified.',
+    'Self-certification and third-party inspection frameworks are described as "under implementation."',
+    'No specific risk-classification criteria for Factory Licence were provided, though low/medium/high-risk categories were discussed generally.'
+  ],
+  dataGaps:['Issuing department/authority field anomalous in the source document','Factory-License-specific timeline not confirmed (the 90-day figure belongs to Building Plan Approval)','Statutory fee schedule not detailed','Deemed-approval status not confirmed'],
+  fgd:null
+},
+{
+  code:'NL', name:'Nagaland', fgdPending:true,
+  secondary:{pending:false, confirms:['Independently confirmed that Nagaland has never notified its own Factories Rules — a found source states that, pending notification, the new online system "shall operate as an interim facilitation mechanism," directly supporting the ED\'s account of no statutory timeline, no deemed approval and no notified risk categories.'], contradicts:[], newDetail:['A draft "Nagaland Code on OSH Rules, 2026" was published 4 June 2026 (30-day objection window) — would be the state\'s first-ever factories rules if finalised, worth tracking for a future statutory timeline.', 'Portal rollout dates found in two sources conflict with each other (one cites a pilot in Peren/Phek/Longleng/Kiphire from Dec 2025, another cites the same notification number dated 8 June 2026 for statewide go-live) — roughly matches the ED\'s account but the exact pilot-start month could not be pinned down precisely.'], sources:['Draft Nagaland Code on OSH Rules, 2026, Notification No. LAB/DRAFT/LC/1/26/2025-26/196 (4 Jun 2026)', 'Nagaland Labour Dept portal-rollout notifications (dates conflict between sources)'], notes:'Independently confirms the ED\'s core claim: Nagaland has never notified its own Factories Rules, which is why no statutory timeline, deemed approval or risk categories exist yet — the online system is explicitly an interim mechanism. A draft 2026 OSH Rules code, if finalised, would be the state\'s first-ever factories rules. The claimed PAN/Aadhaar waiver, fee schedule and an official step sequence could not be independently verified.'},
+  ed:{date:'21-08-2026', location:'Directorate of Industries & Commerce, Kohima', expert:'Vikeheto Naki', designation:'Assistant Labour Commissioner, Labour Department (service referred to locally as "Factory License / FAL")'},
+  issuingAuthority:'Labour Department — Inspector verifies; Assistant Labour Commissioner/District Officer gives approval; processed via the Labour Department\'s single digital portal.',
+  portal:{name:'Labour Department single digital portal'},
+  steps:[
+    st(1,'apply','Apply online', true, 'Through the Labour Department\'s single digital portal.'),
+    st(2,'scrutiny','Inspector verifies the application', true, ''),
+    st(3,'approve','Inspector obtains approval from the District Officer/Assistant Labour Commissioner', true, ''),
+    st(4,'approve','Factory registered/licensed through the portal', true, 'Once the ALC approves.'),
+    st(5,'approve','Applicant makes payment and downloads the certificate', true, 'After final approval.')
+  ],
+  timeline:{minDays:1, maxDays:2, basis:'Where papers are correct — reflects a newly online process and low application volume, not a notified SLA', text:'"Hardly one to two days." No statutory or public-service-guarantee timeline has been notified as of the interview, and no time-tracking mechanism currently exists.'},
+  automationLevel:'full', applicantOfficeVisit:'no',
+  documents:['Plant layout of the factory','GPS location of the factory','Identity proof of occupier/manager'],
+  documentsNote:'The expert specifically noted PAN and Aadhaar are NOT insisted upon. The portal has a checklist; incomplete uploads (e.g. missing plant layout/location) can cause rejection.',
+  deemedApproval:{status:'no', days:null, text:'None as of the interview.'},
+  validity:{text:'Not specified — the expert did not provide a validity period or renewal interval.'},
+  fees:{text:'Varies by number of employees and horsepower utilised; a fee chart exists on the portal but exact amounts were not provided by the expert. Payment is made only after final approval. The payment gateway may charge ~5% (the expert was uncertain — recorded as an approximate, unconfirmed statement).'},
+  remarks:[
+    'Principal current burden is lack of applicant awareness of the new online process, not a technical problem.',
+    'No risk categories notified as of the interview; the expert states Nagaland has no hazardous factories and no large/mega establishments, limiting the practical relevance of risk differentiation. Inspection frequency is currently based on officer discretion (big establishments may require it; otherwise no physical visit is generally needed).',
+    'No duplicate/redundant requirement identified; no inter-departmental coordination or joint inspection — inspection is conducted only by this department.',
+    'No best-practice/innovation yet introduced specifically to reduce compliance burden (the expert explicitly stated none identified).',
+    'The system was trialled in 4 districts from November of the previous year and became fully online statewide from June 2026 — newly launched; ~1,000 factories/MSMEs sit in older manual records versus ~7-8 registered online by interview time.',
+    'No digital grievance system; grievances handled manually with no official response timeline (expert estimated 1-2 days informally).'
+  ],
+  dataGaps:['Validity period not specified','Exact fee amounts not provided (chart exists on the portal but amounts unconfirmed)'],
+  fgd:null
+},
+{
+  code:'TG', name:'Telangana', fgdPending:true,
+  secondary:{pending:false, confirms:['A Telangana Factories Department circular (A1-6798-2015-EODB) was found quoting a Factory Licence timeline of 7 days — confirms the ED\'s order of magnitude, though not an exact match to the ED\'s ~10 days (3+7); possibly a different start point or a since-superseded 2015 figure.'], contradicts:['Validity sources conflict with each other and with the ED: one cites 1/3/5-year options (close to the ED\'s 1-5 years), another cites strictly annual renewal with an option to prepay, a third cites a fixed calendar-year cycle. Automatic/deemed renewal was independently confirmed only for a different Telangana licence (Contract Labour), not for Factory License specifically.'], newDetail:[], sources:['Telangana Factories Dept circular A1-6798-2015-EODB', 'TS-iPASS Act, 2014, Section 13 "List of Deemed Approvals" — schedule not retrievable'], notes:'The single highest-value open question for Telangana remains unresolved: whether TS-iPASS\'s statutory deemed-approval mechanism (Section 13 of the TS-iPASS Act, 2014) actually names Factory License as a scheduled service could not be confirmed — a government presentation states factories/boilers renewals are included under TS-iPASS, but the specific time-limits schedule could not be retrieved to check for a named "Factory License" line item. A 2015 departmental circular independently confirms a 7-day figure, close to but not identical to the ED\'s ~10 days.'},
+  ed:{date:'04-08-2026', location:'Commissioner of Industries, Abids, Hyderabad', expert:'Chandrashekar Babu', designation:'Joint Director of Industries (service listed as "Factory License Approval")'},
+  issuingAuthority:'Department of Industries, via the TS-iPASS single-window portal.',
+  portal:{name:'TS-iPASS'},
+  steps:[
+    st(1,'apply','Log into TS-iPASS', true, 'Using the same credentials as the Consent to Establish (CTE) stage; CTE data carries forward automatically.'),
+    st(2,'apply','Submit incremental details and pay fee online', true, 'Department document scrutiny completed within 3 days.'),
+    st(3,'inspect','Joint inspection team randomly assigned', 'partial', 'Applicant informed in advance by SMS.'),
+    st(4,'inspect','Physical site inspection', false, 'Checks installed machinery/layout against the approved plan; verifies trial-production readiness where applicable. Minor deviations are flagged for correction; a major deviation requires revised-plan approval before the licence can proceed.'),
+    st(5,'scrutiny','Pending cases reviewed in a weekly case-by-case review meeting', true, 'With the nodal commissioner.'),
+    st(6,'approve','Licence issued online', true, 'Total ~10 days from application (~3 days scrutiny + ~7 days inspection/issuance).')
+  ],
+  timeline:{minDays:10, maxDays:10, basis:'Departmental commitment — a fixed 3-day TS-iPASS scrutiny standard applied across departments, plus ~7 days for inspection/issuance', text:'~10 days total.'},
+  automationLevel:'partial', applicantOfficeVisit:'no',
+  documents:['Nothing fresh beyond what was filed at the CTE stage — auto-migrates under the same login'],
+  documentsNote:'Power requirement and worker-count figures are used by the system to auto-calculate the fee. A revised/amended layout plan is only required if installed machinery deviates from the CTE-approved plan. The self-certification declaration filed at the CTE stage also covers factory-license compliance commitments — no separate refiling needed.',
+  deemedApproval:{status:'unclear', days:null, text:'Not specifically confirmed for Factory License in this discussion. The same official separately confirmed that TS-iPASS has a statutory deemed-approval provision for the related Consent to Establish service (approval deemed granted if the department misses its own timeline) — but this has never actually been triggered in practice, since approvals are consistently issued ahead of deadline. The expert suggested a reasonable case exists for extending this safeguard formally to Factory License too, though it was not directly confirmed for this specific service.'},
+  validity:{text:'Applicant\'s choice, 1 to 5 years (most opt for the full 5 years to avoid frequent renewal). Green-category units and some Orange-category units get automatic renewal once the fee is paid, with no fresh submission needed.'},
+  fees:{text:'System auto-generates the fee based on two inputs — installed power and number of workers; no separate inspection fee. Fee amount scales with the chosen validity period.'},
+  remarks:[
+    'Risk categorisation (green/orange/red), consistent with TS-iPASS elsewhere, feeds into both renewal and inspection. Very-low-risk (green) units in designated manufacturing zones can operate on a one-time, lifetime-valid acknowledgment instead of the full factory-license process.',
+    'No duplication identified between State- and Central-level regulatory documentation — CTE carryover removes resubmission.',
+    'Burdensome: mandatory in-person inspection (no remote/digital verification option) depends on officer availability/scheduling, and applies even to green-category/low-risk premises. Suggested reform: optional remote/video verification for low-risk units.',
+    'No fixed timeline for entrepreneurs to respond to scrutiny/inspection queries — intentional, to avoid applicant pressure, but this can stretch timelines unpredictably. Suggested reform: an indicative, non-binding response window.',
+    'The amendment requirement for machinery/layout deviation stems from the Factories Act (a Central Act) and cannot be removed, but could be fast-tracked as a defined sub-workflow.',
+    'Best practices cited: Telangana describes itself as the first State to bring in self-certification, a per-day monetary penalty on officers who delay applications, and a deemed-approval provision (on CTE) — all as accountability measures. Full digital migration from CTE to Factory License under a single login; random SMS-notified joint inspections; weekly case review meetings; a third-party certification option.',
+    'The official\'s overall sense: the TS-iPASS Factory License process is already quite streamlined, with limited room for further procedural reduction beyond the reforms noted above.'
+  ],
+  dataGaps:['Deemed-approval status for Factory License specifically is not directly confirmed — only confirmed for the related Consent to Establish service'],
+  fgd:null
+},
+{
+  code:'UP', name:'Uttar Pradesh', fgdPending:false,
+  secondary:{pending:false, confirms:['Deemed approval is confirmed with statutory citation: the UP Factories (73rd Amendment) Rules, 2018 substituted Rule 3 so that plans/licences not rejected within the time limit are deemed approved, with licences for already-approved plans issued the same day. The exact trigger-day count embedded in the sub-rule could not be retrieved, but the mechanism itself is confirmed, consistent with the ED.', 'Validity of up to 10 years is confirmed under Rule 9 (2018 amendment) — with an added nuance the ED didn\'t mention: hazardous factories under Sec 2(cb) are capped at 5 years, and those also under the MSIHC Rules 1989 (the same hazardous carve-out the ED cites for the 30-day timeline) are capped at just 3 years.'], contradicts:['The official Nivesh Mitra portal\'s own service list states the Factory License timeline as 30 days (renewal separately at 60 days) — not the ED\'s 15 working days. This is a direct contradiction from the portal the ED himself described, not a third party, and is worth flagging prominently rather than assuming the ED figure is simply current.'], newDetail:['Nivesh Mitra 3.0 is confirmed as a real, recent consolidation (500+ services down to ~200-225, plus an AI chatbot/automated grievance handling) via official Invest UP press releases (Mar & Aug 2025) — but no independent, non-government coverage of user complaints was found, so the FGD\'s "confusing regression" complaint could be neither corroborated nor refuted from official sources.', 'A secondary compliance source separately noted physical inspection "remains mandatory" in UP\'s process — partially supports the FGD\'s contradiction of the ED\'s "no physical department visit required" claim, though this concerns the statutory site inspection rather than an office-filing visit specifically.'], sources:['Nivesh Mitra official service list (niveshmitra.up.gov.in/services)', 'UP Factories (73rd Amendment) Rules 2018 — Rule 3 & Rule 9', 'Invest UP — Nivesh Mitra 3.0 press coverage, Mar & Aug 2025'], notes:'A direct contradiction from the portal itself: Nivesh Mitra\'s own published service list states 30 days for Factory License, not the ED\'s 15 working days — flagged prominently rather than assumed resolved. Deemed approval and the 10-year validity (with a hazardous-category cap down to 3-5 years, a nuance the ED omitted) are both confirmed with statutory citations. The ED\'s own internally-conflicting fee figures (₹150-35,000 vs ₹100-7,000) remain unresolved — a low-authority secondary source gives a third, different range.'},
+  ed:{date:'28-07-2026', location:'Invest UP Office, PICUP Bhawan, Lucknow', expert:'Gurav Kumar', designation:'Engineer, UP Labour Department'},
+  issuingAuthority:'UP Labour Department — Chief Inspector of Factories / Labour Commissioner Organisation is the competent authority; processed via the Nivesh Mitra portal.',
+  portal:{name:'Nivesh Mitra'},
+  steps:[
+    st(1,'apply','Register on Nivesh Mitra', true, 'Enterprise name, entrepreneur details, email, mobile; credentials verified via email link + OTP.'),
+    st(2,'apply','Fill the Common Application Form (CAF), create a Unit', true, ''),
+    st(3,'apply','Apply for Permission → Department: Labour, Service: Factory License', true, ''),
+    st(4,'apply','Fill the service-specific application form', true, 'Manufacturing process, plant/machinery details, worker count, power load, layout plan — most fields auto-populate from the CAF.'),
+    st(5,'apply','Upload required documents', true, 'Site/building plan, structural stability certificate from an approved architect/engineer, sale deed/rent agreement, CA certificate of capital investment, others as specified.'),
+    st(6,'fee','Pay the prescribed processing fee online', true, 'Internet Banking, RajKosh, or other online modes.'),
+    st(7,'scrutiny','Status tracking begins on submission', true, 'Applicant monitors status via the portal dashboard.'),
+    st(8,'scrutiny','Labour Department scrutiny', true, 'Discrepancies raised as an online query for resolution.'),
+    st(9,'inspect','Site inspection', false, 'A team of 2 or more inspectors verifies safety/health/welfare provisions of the Factories Act.'),
+    st(10,'scrutiny','Inspection report uploaded; defects rectified', true, 'Typically within 15 days, with a compliance report uploaded.'),
+    st(11,'approve','Competent authority approves', true, 'Based on scrutiny, inspection and any compliance report; digitally signed licence uploaded.'),
+    st(12,'approve','Applicant downloads the digitally signed Factory License', true, 'From the Nivesh Mitra login — officially, no physical department visit is required at any stage.')
+  ],
+  timeline:{minDays:15, maxDays:30, basis:'15 working days; 30 working days for factories carrying out hazardous processes under Section 2(cb) Factories Act 1948 / Rule 2(ja) Manufacture, Storage and Import of Hazardous Chemical Rules, 1989', text:'Where defects/deviations are found, the applicant is typically given 15 days to rectify and upload a compliance report.'},
+  automationLevel:'full', applicantOfficeVisit:'no (officially) — contradicted in part by FGD',
+  documents:['Site/building plan','Structural stability certificate from an approved architect/engineer','Sale deed or rent agreement of the premises','CA certificate of capital investment','Other documents as specified'],
+  documentsNote:'',
+  deemedApproval:{status:'yes', days:'15 (30 for hazardous)', text:'By law, a plan not rejected within the time limit is deemed approved, and the licence is also deemed approved; the site plan approval letter and licence are then issued immediately by the Chief Inspector, with the applicant informed by email and registered mobile number.'},
+  validity:{text:'Up to 10 years at a time, depending on factory category, under the U.P. Factories Rules, 1950.'},
+  fees:{text:'Based on number of employees. The source document itself gives two different ranges on the same basis: INR 150-35,000 in the process-step description vs INR 100-7,000 in the Statutory Fee field — flagged as an internal inconsistency in the source, not resolved here.'},
+  remarks:[
+    'Post-license compliance: maintain statutory registers, keep machinery/safety equipment updated and safe, comply with periodic inspection/reporting as directed by the Labour Department.',
+    'Major burdens cited: incomplete documentation and lack of clarity on compliance requirements cause delays.',
+    'Best practices: UP has implemented Nivesh Mitra 3.0; further planned work includes deeper departmental system integration, predictive network planning, AI-enabled application scrutiny, and further automation.'
+  ],
+  dataGaps:['Statutory fee field internally inconsistent (₹150-35,000 vs ₹100-7,000 for the same basis) — needs verification against the primary source'],
+  fgd:{
+    meta:'13 participants, Manufacturing/Industrial, IIA Greater Noida Chapter Office · 9 Sept 2026 · 45 min. Heavy, near-default reliance on consultants/intermediaries.',
+    process:'Filed via Nivesh Mitra (now version 3.0, single window). Requires a structural audit; layout plan/factory drawing needing consultant/technical support. In a "limited number of cases," physical submission or in-person interaction with the department was still needed even after online filing. Department queries are sometimes raised right at the end of the deemed-approval window.',
+    timeline:'The deemed-approval period (15/30 days) is discussed as existing, but participants said queries can arise "close to the end" of that window, undercutting its practical value — delay persists even after query resolution.',
+    automation:'Nivesh Mitra 3.0 is seen as MORE complex than 2.0 — a regression, not an improvement — with unclear forms/document requirements, insufficient guidance, and non-response or delayed response from the Nivesh Mitra support team, pushing applicants toward consultants.',
+    documentsNote:'Repeated resubmission flagged for PAN, GST registration, occupier ID/address proof, ownership/lease/rent documents, worker strength, power load, machinery details, Fire Safety Certificate, UPPCB Consent — and even the existing Factory Licence itself on renewal, despite no change in underlying facts.',
+    deemed:'Exists on paper (15/30 days), but participants say it is undermined because queries are sometimes raised at the very end of the window, and resolution does not guarantee immediate approval, so applicants still must follow up.',
+    costs:[
+      ['Substantive','Structural audit ≈ ₹40,000-50,000 per the narrative/pain-points sections — but ≈ ₹20,000-25,000 per the same document\'s "Key Statements & Quotes" table. An internal inconsistency in the FGD source itself, flagged rather than resolved.'],
+      ['Intermediary','Consultancy/intermediary charges ≈ ₹60,000-70,000, over and above statutory fees.']
+    ],
+    complaints:[
+      'Simplify Nivesh Mitra 3.0 — step-by-step workflow, checklist, plain language.',
+      'Integrate Factory Licence with Labour/Fire/Pollution systems to avoid duplicate submission.',
+      'Review/rationalise the structural audit requirement by risk.',
+      'A transparent query-management mechanism with defined response timelines.',
+      'End-to-end online processing minimising physical visits.',
+      'Explore plug-and-play industrial facilities.'
+    ],
+    contradictions:[
+      'Nivesh Mitra 3.0 is officially a digitisation upgrade, but businesses report it as more complex and less usable than 2.0.',
+      'Deemed-approval timelines (15/30 days) exist on paper but are described as practically hollow, since queries land at the last moment.',
+      'Despite the process being nominally fully online, physical submission/interaction was still required in some cases — directly contradicting the ED\'s explicit claim that "no physical department visit required at any stage."'
+    ]
+  }
+},
+{
+  code:'WB', name:'West Bengal', fgdPending:false,
+  secondary:{pending:false, confirms:['SilpaSathi\'s own official user manual states a 65-day WBRTPS timeline for a fresh licence — directly confirms the official\'s own "~65 days" figure with a citable source, rather than just his self-characterisation of it as "lengthy."'], contradicts:[], newDetail:['The portal name, missing from the ED, is confirmed as SilpaSathi (silpasathi.wb.gov.in) — made the exclusive mandatory channel for Factory License from 1 January 2023 by a December 2022 Labour Dept notification, replacing the department\'s earlier standalone system.', 'No deemed-approval-to-applicant clause was found anywhere in the WB Right to Public Services Act framework — only a penalty on the delaying officer (₹250-1,000 fine), with no automatic grant to the applicant. This independently confirms the FGD\'s account (a real 3-4 month wait, no deemed-approval mechanism ever mentioned by business participants) over any assumption that West Bengal has an unstated safeguard.', 'Fees are set under Schedules A, B, C of the West Bengal Factories Rules, calculated by the Inspector of Factories, paid via treasury receipt, due annually before 31 December with a Form 2 renewal return — structurally confirms the FGD\'s "send someone every year" account, though exact rupee figures could not be found. A separate 2017 RTPS gazette sets a longer 90-day timeline specifically for renewal/amendment/transfer, distinct from the 65-day fresh-grant figure.', 'A genuine official SilpaSathi step sequence was partly retrieved (portal visit → apply online → login/register → accept declaration → complete registration form) — more granular than the ED\'s zero-step account, though the manual\'s further sections (documents, fee payment, status tracking, certificate download) could not be fully retrieved.'], sources:['SilpaSathi official portal & user manual (silpasathi.wb.gov.in)', 'WB Labour Dept RTPS Gazette, Jul 2017', 'WB Right to Public Services Act, 2013 framework'], notes:'Resolves two gaps the ED itself left open: the portal is SilpaSathi (mandatory since Jan 2023), and its own user manual independently confirms the official\'s ~65-day timeline. On deemed approval, secondary research sides with the FGD over any assumption of an unstated ED safeguard — no automatic-grant-to-applicant clause was found anywhere in the governing Right to Public Services framework, only a fine on the delaying officer. A partial official step sequence was recovered, more granular than the ED\'s own account.'},
+  ed:{date:'23-07-2026', location:'District Industry Centre, Kolkata', expert:'Umashankar Banerjee', designation:'Joint Director of Employment, Labour Department'},
+  issuingAuthority:'Labour Department, Govt. of West Bengal (the competent departmental authority — not further specified by name/designation in the document).',
+  portal:{name:'Digitised/online process (portal name not stated in source)'},
+  steps:[
+    st(1,'apply','Submit Factory Licence application', true, 'Through the digitised/online process.'),
+    st(2,'scrutiny','Departmental scrutiny at multiple levels', true, ''),
+    st(3,'scrutiny','Deficiencies/discrepancies handling', 'partial', 'Applicant may need to provide additional documents/corrections — the source document notes delays in communicating such deficiencies.'),
+    st(4,'inspect','Physical inspection', false, 'Conducted by the competent departmental authority before licence issuance.'),
+    st(5,'approve','Factory Licence issued', true, 'Following scrutiny and inspection.')
+  ],
+  timeline:{minDays:65, maxDays:65, basis:'Discussed figure; exact governing Act/Rule and a separate "average actual" timeline not specified', text:'~65 days — characterised by the official as lengthy from the applicant\'s perspective.'},
+  automationLevel:'partial', applicantOfficeVisit:'unclear in ED — confirmed required in FGD',
+  documents:[],
+  documentsNote:'Not itemised in the source Expert Discussion document at all. One specific point was flagged: redundant resubmission of the factory building/layout plan at renewal even when there is no change.',
+  deemedApproval:{status:'unclear', days:null, text:'Not explicitly stated either way — the Expert Discussion document does not clarify whether deemed approval exists for Factory Licence; no specific provision or operational mechanism was identified in the discussion.'},
+  validity:{text:'Not specified in the Expert Discussion. The FGD separately states licence validity is 1 year, requiring frequent re-engagement with the department for renewal.'},
+  fees:{text:'Not specified — no statutory/application fee amount or variation given.'},
+  remarks:[
+    'Main redundant requirement: resubmission of the factory building/layout plan at renewal, even with no layout/infrastructure change — recommended that only revised/modified plans be required when alterations are made, with previously approved plans otherwise remaining valid.',
+    'Risk-based classification may NOT be feasible for Factory Licence per officials — described as "not readily applicable," limiting differentiated treatment of lower-risk establishments.',
+    'Key burdens: poor communication of application status/deficiencies; portal downtime; multiple departmental interactions; multiple levels of scrutiny; manpower constraints; lengthy processing time; the physical inspection requirement.',
+    'Recommendations: timely status/deficiency communication; improve portal stability/reliability; require fresh plans at renewal only if alterations are made; examine/adopt best practices from other States; strengthen single-window integration/coordination.'
+  ],
+  dataGaps:['Documents not itemised at all in the Expert Discussion','Statutory fee amount not specified','Deemed-approval status not explicitly stated','Validity period for the initial licence not specified in the ED (the 1-year figure is sourced from the FGD instead)'],
+  fgd:{
+    meta:'8 participants ("Industry Representative" is the only identifier used; sector not specified), District Industry Centre, Kolkata · 23 July 2026 · 1hr20min',
+    process:'Applications are submitted online, but there is near-silence from the department afterward. Applicants are not proactively told of deficiencies — they learn of them, if at all, only when a department officer eventually reaches out. Resolving even minor deficiencies requires manual resubmission, with no streamlined digital correction flow. Applicants must physically visit the office repeatedly to find out status.',
+    timeline:'One specific case cited: the applicant waited 3-4 months, and the process only moved once the departmental officer personally contacted them to request the required documents. Licence validity is only 1 year, requiring frequent re-engagement for renewal.',
+    automation:'Applications being online is an acknowledged improvement over the earlier manual process, but there is no real-time status tracking, no published SOP/process-flow, no automated deficiency notifications, and officials are hard to reach for clarification. Participants "have to visit the department office regularly to track the verification process."',
+    documentsNote:'No specific duplicate-document list given, but repeated resubmission is triggered whenever "deficiencies" or "minor discrepancies" are found at scrutiny.',
+    deemed:'Not mentioned at all by participants — notably, unlike UP/DNH&DD/AP, no deemed-approval day-count or mechanism was raised, consistent with the broader complaint that there is no institutionalised timeline/communication mechanism governing the process at all.',
+    costs:[
+      ['Implied, not quantified','No specific INR figures were quantified in this FGD — unusual relative to the other states. The recurring annual compliance effort ("we have to send someone only to maintain compliance, every year") implies a standing time/intermediary cost; the 3-4 month wait implies an unmonetised delay cost.']
+    ],
+    complaints:[
+      'Institutionalise a communication mechanism (SMS/email/portal) for status and deficiency updates.',
+      'Enhance the portal — checklists, real-time tracking, automated notifications.',
+      'Extend licence validity, or move to a permanent licence with an annual fee — explicitly modelled on how "Trade Licence has become much simpler with automatic renewal after payment."',
+      'Set up dedicated help desks/nodal officers; notify deficiencies immediately.',
+      'Introduce self-certification for small units instead of extensive inspection.',
+      'Wider publicity/awareness of the process itself.'
+    ],
+    contradictions:[
+      'The official framing of an "online, digitally governed" licensing system is directly contradicted — participants say the digital system provides no real tracking or proactive communication, forcing physical office visits and reliance on being personally contacted by an officer (a 3-4 month real-world wait in the cited case).',
+      'The complete absence of any deemed-approval discussion is itself notable: businesses here appear unaware of, or unaffected by, any such safeguard.'
+    ]
+  }
+}
+];
+
+/* ---------- derived, computed metrics (never hand-entered, always traceable) ---------- */
+function timelineMid(s){ if(s.timeline.minDays==null||s.timeline.maxDays==null) return null; return (s.timeline.minDays+s.timeline.maxDays)/2; }
+function autoShareNonInspect(s){
+  /* every non-inspection step counts toward the denominator — a 'partial' or
+     conditional step is not fully online, so it must not be silently dropped
+     the way excluding it from the denominator entirely would. */
+  const scored = s.steps.filter(x=> x.phase!=='inspect');
+  if(!scored.length) return null;
+  return scored.filter(x=>x.automated===true).length/scored.length;
+}
+STATES.forEach(s=>{
+  s._timeMid = timelineMid(s);
+  s._autoShare = autoShareNonInspect(s);
+  s._stepCount = s.steps.length;
+  s._hasInspection = s.steps.some(x=>x.phase==='inspect');
+  s._breakdown = {online:s.steps.filter(x=>x.automated===true).length, mixed:s.steps.filter(x=>x.automated==='partial').length, site:s.steps.filter(x=>x.phase==='inspect'&&x.automated===false).length, other:s.steps.filter(x=>x.phase!=='inspect'&&x.automated===false).length, unclear:s.steps.filter(x=>x.automated===null).length};
+});
+const ST_BY_CODE = Object.fromEntries(STATES.map(s=>[s.code,s]));
+const DEEMED_LABEL = {yes:'Yes', no:'No', unclear:'Not confirmed'};
+
+const esc = s => String(s==null?'':s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmtDays = t => { if(t.minDays==null) return 'Not specified'; if(t.minDays===t.maxDays) return t.minDays+' days'; return t.minDays+'–'+t.maxDays+' days'; };
+
+/* a step's badge: physical steps in the Inspection stage are shown as a neutral
+   "on-site visit" (a safety control, not a deficiency) — never colored as a
+   problem the way a genuine friction point (e.g. a required office visit) is. */
+function stepBadgeClass(step){
+  if(step.automated===true) return 'online';
+  if(step.automated==='partial') return 'mixed';
+  if(step.automated===false) return step.phase==='inspect' ? 'site' : 'mixed';
+  return 'unclear';
+}
+function stepBadgeLabel(step){
+  if(step.automated===true) return 'Online';
+  if(step.automated==='partial') return 'Partly online';
+  if(step.automated===false) return step.phase==='inspect' ? 'On-site visit' : 'Manual';
+  return 'Conditional';
+}
+function stepDot(step){ return '<div class="dot '+stepBadgeClass(step)+'">'+(step.automated===true?icon('check'):step.phase==='inspect'&&step.automated!==true?icon('pin'):step.n)+'</div>'; }
+function stepBadge(step){ const c=stepBadgeClass(step); return '<span class="badge b-'+(c==='online'?'online':c==='site'?'site':c==='mixed'?'mixed':'mute')+'"><span class="dot"></span>'+esc(stepBadgeLabel(step))+'</span>'; }
+
+function deemedBadge(d){
+  if(d.status==='yes') return '<span class="badge b-online">'+icon('check')+'Deemed approval: Yes'+(d.days?(' · '+d.days+' days'):'')+'</span>';
+  if(d.status==='no') return '<span class="badge b-bad">'+icon('alert')+'Deemed approval: No</span>';
+  return '<span class="badge b-mute">'+icon('dash')+'Not confirmed</span>';
+}
+function autoLevelTag(s){
+  if(s._autoShare==null) return '<span class="tag t-mute">Not scoreable</span>';
+  const pct = Math.round(s._autoShare*100);
+  if(pct>=85) return '<span class="tag t-ok">'+pct+'% digitised</span>';
+  if(pct>=55) return '<span class="tag t-warn">'+pct+'% digitised</span>';
+  return '<span class="tag t-bad">'+pct+'% digitised</span>';
+}
+
+/* ---------- filter / routing state ---------- */
+const F = { view:'overview', state:'AP', phase:'apply', cmp:['AP','UP'] };
+
+const NAV = [
+  {k:'overview', icon:'grid', t:'National overview', d:'Factory License across all 11 States/UTs'},
+  {k:'state', icon:'user', t:'State profile', d:'Full process, with ED / FGD / secondary research side by side'},
+  {k:'compare', icon:'columns', t:'Compare States', d:'Line up 2–4 States side by side'},
+  {k:'phase', icon:'layers', t:'Stage comparison', d:'One process stage, across every State'},
+  {k:'best', icon:'award', t:'Best practices', d:'Who is doing which step best, and why'},
+  {k:'reconcile', icon:'scale', t:'Official vs. lived experience', d:'Every logged ED–FGD contradiction'},
+  {k:'method', icon:'book', t:'Method & data quality', d:'CoR 2.0 framework, sources, open gaps'}
+];
+function buildNav(){
+  document.getElementById('railnav').innerHTML = NAV.map(n=>
+    '<button class="navbtn" data-view="'+n.k+'" onclick="goView(\''+n.k+'\')">'+icon(n.icon)+
+    '<span><span class="t">'+esc(n.t)+'</span><span class="d">'+esc(n.d)+'</span></span></button>').join('');
+}
+function goView(v){ F.view=v; render(); }
+function goState(code){ F.state=code; F.view='state'; render(); }
+
+function buildFilters(){
+  const bar = document.getElementById('filterbar');
+  if(F.view==='state'){
+    bar.innerHTML = '<div class="fld"><label>State / UT</label><select id="selState">'+
+      STATES.map(s=>'<option value="'+s.code+'"'+(F.state===s.code?' selected':'')+'>'+esc(s.name)+'</option>').join('')+
+      '</select></div><div class="fld"><label>&nbsp;</label><div style="display:flex;gap:6px"><button class="btn sm" id="prevSt">← Prev</button><button class="btn sm" id="nextSt">Next →</button></div></div>';
+    document.getElementById('selState').onchange = e=>{ F.state=e.target.value; render(); };
+    document.getElementById('prevSt').onclick = ()=>{ const i=STATES.findIndex(s=>s.code===F.state); F.state=STATES[(i-1+STATES.length)%STATES.length].code; render(); };
+    document.getElementById('nextSt').onclick = ()=>{ const i=STATES.findIndex(s=>s.code===F.state); F.state=STATES[(i+1)%STATES.length].code; render(); };
+  } else if(F.view==='phase'){
+    bar.innerHTML = '<div class="fld"><label>Process stage</label><select id="selPhase">'+
+      STAGES.map(p=>'<option value="'+p.k+'"'+(F.phase===p.k?' selected':'')+'>'+esc(p.n)+'</option>').join('')+
+      '</select></div>';
+    document.getElementById('selPhase').onchange = e=>{ F.phase=e.target.value; render(); };
+  } else {
+    bar.innerHTML = '<div class="fld"><label>Pilot service</label><select disabled><option>Factory License</option></select></div>'+
+      '<div class="fld"><label>Coverage</label><select disabled><option>11 of 36 States/UTs (ED complete)</option></select></div>';
+  }
+}
+
+/* ---------- view: overview ---------- */
+function renderOverview(){
+  const withDeemed = STATES.filter(s=>s.deemedApproval.status==='yes').length;
+  const withFGD = STATES.filter(s=>!s.fgdPending).length;
+  const timed = STATES.filter(s=>s._timeMid!=null);
+  const fastest = timed.slice().sort((a,b)=>a._timeMid-b._timeMid)[0];
+  const slowest = timed.slice().sort((a,b)=>b._timeMid-a._timeMid)[0];
+
+  let h = '<div class="pagehead"><div><h2>'+icon('grid')+'Factory License — national overview</h2>'+
+    '<div class="lede">Pilot coverage: the 11 States/UTs where QCI has completed an Expert Discussion for Factory License, of 36 in the full CoR 2.0 universe. Every figure traces to a specific ED, FGD or secondary-research citation — open a State\'s profile to see the sourcing.</div></div>'+
+    '<span class="stamp live">Grounded in ED / FGD / secondary research · no simulated data</span></div>';
+
+  h += '<div class="banner info">'+icon('alert')+'<span><b>Reading this pilot.</b> This is a process-comparison tool (steps, timeline, automation, documents, deemed approval) — not yet the full CoR 2.0 cost survey (Time / Substantive / Intermediary / Delay / Statutory cost, independently sampled at 480 respondents per service per State), which has not been fielded for Factory License. Any cost figures elsewhere in this dashboard are indicative numbers volunteered in discussions, not survey output.</span></div>';
+
+  h += '<div class="grid g4" style="margin-bottom:14px">'+
+    kpiIcon('acc-ink','grid','States covered','11 / 36','Factory License · ED complete')+
+    kpiIcon('acc-teal','user','Also have FGD', withFGD+' of 11', 'business account cross-checked against the official record')+
+    kpiIcon('acc-amber','check','Deemed approval confirmed', withDeemed+' of 11', (11-withDeemed)+' report none, unclear, or untriggered in practice')+
+    kpiIcon('acc-rust','alert','Open data gaps', STATES.reduce((a,s)=>a+s.dataGaps.length,0)+' fields', 'left blank, not estimated — Secondary Research is closing these')+
+  '</div>';
+
+  h += '<div class="grid g23" style="margin-bottom:14px">'+
+    '<div class="card"><div class="card-h"><h3>Overall timeline, by State</h3><span class="note">statutory/prescribed, where stated</span></div><div class="card-b">'+
+    hbars(STATES.map(s=>({n:s.name+' ('+s.code+')', v:s._timeMid, max:65, label: s._timeMid!=null?fmtDays(s.timeline):'not specified', col: s._timeMid==null?'#C3CBD4':(s._timeMid<=15?'#0B6E62':s._timeMid<=35?'#B06A00':'#A3291F')})))+
+    '<div class="hint">Fastest on record: <b>'+(fastest?esc(fastest.name)+' ('+fmtDays(fastest.timeline)+')':'—')+'</b>. Slowest on record: <b>'+(slowest?esc(slowest.name)+' ('+fmtDays(slowest.timeline)+')':'—')+'</b>.</div>'+
+    '</div></div>'+
+    '<div class="card"><div class="card-h"><h3>Digitisation of application &amp; scrutiny</h3><span class="note">excludes site inspection, which is a safety step, not a process gap</span></div><div class="card-b">'+
+    hbars(STATES.map(s=>({n:s.name+' ('+s.code+')', v:s._autoShare==null?0:Math.round(s._autoShare*100), max:100, label:s._autoShare==null?'n/a':Math.round(s._autoShare*100)+'%', col:'#1B3557'})))+
+    '<div class="hint">A step counts as online only when the ED explicitly describes it as digital. Open any State\'s profile for the exact step-by-step breakdown behind this percentage.</div>'+
+    '</div></div>'+
+  '</div>';
+
+  const rows = STATES.map(s=>'<tr><td class="svc-name" onclick="goState(\''+s.code+'\')">'+esc(s.name)+
+      (s.dataGaps.length?' '+icon('alert','mini-warn'):'')+(!s.fgdPending?' '+icon('user','mini-info'):'')+
+      '<small>'+esc(s.ed.date)+' · '+esc(s.ed.designation.split(',')[0])+'</small></td>'+
+      '<td class="n">'+s._stepCount+'</td>'+
+      '<td>'+fmtDays(s.timeline)+'</td>'+
+      '<td>'+autoLevelTag(s)+'</td>'+
+      '<td>'+deemedBadge(s.deemedApproval)+'</td></tr>').join('');
+
+  h += '<div class="card"><div class="card-h"><h3>State-by-state comparison — Factory License</h3>'+
+    '<span class="note">'+icon('alert','mini-warn')+' has flagged data gaps · '+icon('user','mini-info')+' has an FGD · click a row for the full profile</span></div>'+
+    '<div class="card-b tight"><div class="scroll-y sticky-h"><table class="dt"><thead><tr>'+
+    '<th>State / UT</th><th class="n">Steps</th><th>Timeline</th><th>Digitisation</th><th>Deemed approval</th>'+
+    '</tr></thead><tbody>'+rows+'</tbody></table></div></div></div>';
+
+  return h;
+}
+function kpiIcon(cls,ic,l,v,s){ return '<div class="kpi '+cls+'"><div class="k-top"><div class="k-l">'+esc(l)+'</div><div class="k-icon">'+icon(ic)+'</div></div><div class="k-v">'+esc(v)+'</div><div class="k-s">'+esc(s)+'</div></div>'; }
+function hbars(items){
+  const max = Math.max(1, ...items.map(i=>i.max||i.v||1));
+  return '<div class="hbars">'+items.map(i=>{
+    const pct = i.v==null?0:Math.max(2, (i.v/max)*100);
+    return '<div class="hbar"><div class="hb-n">'+esc(i.n)+'</div>'+
+      '<div class="hb-track"><div class="hb-fill" style="width:'+pct+'%;background:'+(i.col||'#1B3557')+'"></div></div>'+
+      '<div class="hb-v">'+esc(i.label)+'</div></div>';
+  }).join('')+'</div>';
+}
+
+/* ---------- view: state profile ---------- */
+function renderState(){
+  const s = ST_BY_CODE[F.state];
+  let h = '<div class="pagehead"><div><h2>'+icon('user')+esc(s.name)+'</h2>'+
+    '<div class="lede">'+esc(s.issuingAuthority)+'</div></div>'+
+    '<span class="stamp live">ED: '+esc(s.ed.date)+'</span></div>';
+
+  if(s.dataGaps.length){
+    h += '<div class="banner">'+icon('alert')+'<span><b>Flagged data gaps for '+esc(s.name)+'.</b> '+s.dataGaps.map(esc).join(' · ')+'</span></div>';
+  }
+
+  const bd = s._breakdown;
+  h += '<div class="grid g4" style="margin-bottom:14px">'+
+    kpiIcon('acc-ink','layers','Steps recorded', String(s._stepCount), 'exactly as the Expert Discussion describes them — see note below')+
+    kpiIcon(s._timeMid==null?'acc-amber':'acc-teal','grid','Timeline', fmtDays(s.timeline), s.timeline.basis)+
+    kpiIcon('acc-ink','check','Digitisation', s._autoShare==null?'n/a':Math.round(s._autoShare*100)+'%', bd.online+' of '+(bd.online+bd.mixed+bd.other+bd.unclear)+' non-inspection steps run online'+(s._hasInspection?' · plus '+bd.site+' on-site visit':''))+
+    kpiIcon(s.deemedApproval.status==='yes'?'acc-teal':'acc-rust','award','Deemed approval', DEEMED_LABEL[s.deemedApproval.status], s.deemedApproval.days?(s.deemedApproval.days+' days'):'')+
+  '</div>';
+
+  h += '<div class="gap-note" style="margin-bottom:14px">'+icon('dash')+' <b>On step granularity:</b> the '+s._stepCount+' steps below are exactly what '+esc(s.ed.expert)+' ('+esc(s.ed.designation)+') described in the Expert Discussion — not a QCI-created summary. An Expert Discussion is a structured interview, so it naturally describes the process at the level of detail an official would narrate verbally, rather than as an exhaustive flowchart. Where the Secondary Research panel below has found a more granular, officially-published step list (a citizen charter or portal SOP), it is shown there.</div>';
+
+  h += '<div class="card" style="margin-bottom:14px"><div class="card-h"><h3>'+icon('layers')+'Process — official record (Expert Discussion)</h3>'+
+    '<span class="note">'+esc(s.ed.expert)+', '+esc(s.ed.designation)+' · '+esc(s.ed.location)+'</span></div>'+
+    '<div class="card-b"><div class="stepper">'+s.steps.map(st=>'<div class="step-v"><div class="rail-col">'+stepDot(st)+'<div class="line"></div></div>'+
+      '<div class="body"><div class="sp">'+esc((STAGE_MAP[st.phase]||{n:st.phase}).n)+'</div>'+
+      '<div class="st">'+esc(st.title)+stepBadge(st)+'</div>'+
+      (st.note?'<div class="sd">'+esc(st.note)+'</div>':'')+'</div></div>').join('')+'</div></div></div>';
+
+  h += '<div class="grid g3" style="margin-bottom:14px">'+
+    '<div class="card"><div class="card-h"><h3>Documents</h3></div><div class="card-b">'+
+      (s.documents.length? '<ul style="margin:0;padding-left:17px;font-size:12.5px;color:var(--slate);line-height:1.6">'+s.documents.map(d=>'<li>'+esc(d)+'</li>').join('')+'</ul>' : '<span class="insight" style="font-size:12.5px;color:var(--slate)">Not itemised in the source document.</span>')+
+      (s.documentsNote?'<div class="hint">'+esc(s.documentsNote)+'</div>':'')+'</div></div>'+
+    '<div class="card"><div class="card-h"><h3>Fees &amp; validity</h3></div><div class="card-b" style="font-size:12.5px;color:var(--slate);line-height:1.6">'+
+      '<b style="color:var(--ink)">Fees</b><br>'+esc(s.fees.text)+'<br><br><b style="color:var(--ink)">Validity</b><br>'+esc(s.validity.text)+'</div></div>'+
+    '<div class="card"><div class="card-h"><h3>Deemed approval</h3></div><div class="card-b" style="font-size:12.5px;color:var(--slate);line-height:1.6">'+deemedBadge(s.deemedApproval)+'<div style="margin-top:8px">'+esc(s.deemedApproval.text)+'</div></div></div>'+
+  '</div>';
+
+  if(s.remarks.length){
+    h += '<div class="card" style="margin-bottom:14px"><div class="card-h"><h3>Official\'s remarks &amp; recommendations</h3></div><div class="card-b">'+
+      '<ul style="margin:0;padding-left:17px;font-size:12.5px;color:var(--slate);line-height:1.65">'+s.remarks.map(r=>'<li>'+esc(r)+'</li>').join('')+'</ul></div></div>';
+  }
+
+  /* three-source panel */
+  h += '<div class="card-h" style="background:transparent;border:0;padding:4px 0 10px"><h3 style="font-size:16px"><span style="font-family:var(--serif);font-weight:400">Three sources, reconciled</span></h3></div>';
+  h += '<div class="grid g3" style="margin-bottom:14px;align-items:stretch">';
+  h += '<div class="src-card ed"><div class="src-h">'+icon('book')+'Official record (ED)</div><div class="src-b">Treated as the baseline record of the law/process as the official described it. See the step list above for the full account.<br><br><b>Timeline:</b> '+esc(fmtDays(s.timeline))+'<br><b>Deemed approval:</b> '+esc(DEEMED_LABEL[s.deemedApproval.status])+'</div>'+
+    '<div class="src-meta">'+esc(s.ed.expert)+' · '+esc(s.ed.date)+'</div></div>';
+  if(s.fgdPending){
+    h += '<div class="src-card fgd"><div class="src-h">'+icon('user')+'Business experience (FGD)</div><div class="src-b"><div class="empty" style="padding:10px 0"><b>Not yet conducted</b>No Focused Group Discussion has been held in '+esc(s.name)+' for Factory License. This State\'s record currently reflects only the official account.</div></div></div>';
+  } else {
+    const f = s.fgd;
+    h += '<div class="src-card fgd"><div class="src-h">'+icon('user')+'Business experience (FGD)</div><div class="src-b">'+esc(f.process.slice(0,260))+(f.process.length>260?'…':'')+'<br><br><b>Timeline experienced:</b> '+esc(f.timeline.slice(0,140))+(f.timeline.length>140?'…':'')+'</div>'+
+      '<div class="src-meta">'+esc(f.meta)+'</div></div>';
+  }
+  if(s.secondary.pending){
+    h += '<div class="src-card sec"><div class="src-h">'+icon('check')+'Secondary research</div><div class="src-b"><div class="empty" style="padding:10px 0"><b>Research in progress</b>Independent verification against the State\'s own Factories Rules, citizen charter and portal documentation is being compiled for this pilot and will appear here once complete. See the Method tab for what Stage 3 (secondary research) covers.</div></div></div>';
+  } else {
+    h += '<div class="src-card sec"><div class="src-h">'+icon('check')+'Secondary research</div><div class="src-b">'+esc(s.secondary.notes)+'</div>'+
+      '<div class="src-meta">'+s.secondary.sources.map(x=>esc(x)).join(' · ')+'</div></div>';
+  }
+  h += '</div>';
+
+  if(!s.fgdPending){
+    h += '<div class="card" style="margin-bottom:14px"><div class="card-h"><h3>Business/user experience — full account</h3><span class="note">'+esc(s.fgd.meta)+'</span></div><div class="card-b">'+
+      '<div class="grid g2" style="margin-bottom:12px">'+
+      '<div><b>What applicants say actually happens</b><div style="font-size:12.5px;color:var(--slate);margin-top:5px;line-height:1.55">'+esc(s.fgd.process)+'</div></div>'+
+      '<div><b>Automation, as experienced</b><div style="font-size:12.5px;color:var(--slate);margin-top:5px;line-height:1.55">'+esc(s.fgd.automation)+'</div></div>'+
+      '</div>'+
+      '<div style="margin-bottom:12px"><b>Costs volunteered in discussion</b><table class="dt" style="margin-top:7px"><thead><tr><th>Cost type</th><th>What participants said</th></tr></thead><tbody>'+
+      s.fgd.costs.map(c=>'<tr><td style="white-space:nowrap;font-weight:700">'+esc(c[0])+'</td><td style="color:var(--slate)">'+esc(c[1])+'</td></tr>').join('')+
+      '</tbody></table></div>'+
+      '<div><b>Complaints &amp; suggestions</b><ul style="margin:7px 0 0;padding-left:17px;font-size:12.5px;color:var(--slate);line-height:1.6">'+s.fgd.complaints.map(c=>'<li>'+esc(c)+'</li>').join('')+'</ul></div>'+
+      '</div></div>';
+
+  }
+
+  if(!s.secondary.pending){
+    const sec = s.secondary;
+    h += '<div class="card" style="margin-bottom:14px"><div class="card-h"><h3>'+icon('check')+'Secondary research — full account</h3><span class="note">independent verification against official rules, notifications &amp; portals</span></div><div class="card-b">'+
+      (sec.confirms.length? '<div style="margin-bottom:12px"><b style="color:var(--teal)">Confirms the official record</b><ul style="margin:6px 0 0;padding-left:17px;font-size:12.5px;color:var(--slate);line-height:1.6">'+sec.confirms.map(c=>'<li>'+esc(c)+'</li>').join('')+'</ul></div>':'')+
+      (sec.contradicts.length? '<div style="margin-bottom:12px"><b style="color:var(--rust)">Contradicts or complicates the official record</b><ul style="margin:6px 0 0;padding-left:17px;font-size:12.5px;color:var(--slate);line-height:1.6">'+sec.contradicts.map(c=>'<li>'+esc(c)+'</li>').join('')+'</ul></div>':'')+
+      (sec.newDetail.length? '<div style="margin-bottom:4px"><b style="color:var(--ink-2)">Adds new detail</b><ul style="margin:6px 0 0;padding-left:17px;font-size:12.5px;color:var(--slate);line-height:1.6">'+sec.newDetail.map(c=>'<li>'+esc(c)+'</li>').join('')+'</ul></div>':'')+
+      '<div class="hint">Sources: '+sec.sources.map(esc).join(' · ')+'</div>'+
+      '</div></div>';
+  }
+
+  const disagreements = [];
+  if(!s.fgdPending) s.fgd.contradictions.forEach(c=>disagreements.push({src:'Business experience vs. official record', text:c}));
+  if(!s.secondary.pending) s.secondary.contradicts.forEach(c=>disagreements.push({src:'Secondary research vs. official record', text:c}));
+  if(disagreements.length){
+    h += '<div class="card"><div class="card-h"><h3>'+icon('scale')+'Where the sources disagree</h3></div><div class="card-b">'+
+      disagreements.map(d=>'<div class="contra">'+icon('alert')+'<span><b>'+esc(d.src)+'.</b> '+esc(d.text)+'</span></div>').join('')+
+      '</div></div>';
+  } else if(!s.fgdPending || !s.secondary.pending){
+    h += '<div class="confirm">'+icon('check')+'<span>No disagreements logged between the sources gathered so far for '+esc(s.name)+'.</span></div>';
+  }
+
+  return h;
+}
+
+/* ---------- view: compare states ---------- */
+function renderCompare(){
+  let h = '<div class="pagehead"><div><h2>'+icon('columns')+'Compare States</h2>'+
+    '<div class="lede">Pick 2 to 4 States/UTs to line up side by side across every KPI.</div></div></div>';
+
+  h += '<div class="card" style="margin-bottom:14px"><div class="card-b"><div class="statepick">'+
+    STATES.map(s=>'<button class="'+(F.cmp.includes(s.code)?'on':'')+'" onclick="toggleCmp(\''+s.code+'\')">'+esc(s.name)+' <span class="n">'+s.code+'</span></button>').join('')+
+    '</div><div class="hint">Select up to 4. Selecting a 5th replaces the first pick.</div></div></div>';
+
+  const chosen = F.cmp.map(c=>ST_BY_CODE[c]).filter(Boolean);
+  if(chosen.length<2){ return h+'<div class="empty"><b>Pick at least two States</b>Select States above to compare them.</div>'; }
+
+  h += '<div class="grid" style="grid-template-columns:repeat('+chosen.length+',minmax(0,1fr));margin-bottom:14px">'+
+    chosen.map(s=>'<div class="cmp-col"><div class="cc-h"><div class="n">'+esc(s.name)+'</div><div class="s">'+esc(s.ed.date)+'</div></div>'+
+      '<div class="cmp-row"><div class="l">Steps</div>'+s._stepCount+'</div>'+
+      '<div class="cmp-row"><div class="l">Timeline</div>'+fmtDays(s.timeline)+'</div>'+
+      '<div class="cmp-row"><div class="l">Digitisation</div>'+autoLevelTag(s)+'</div>'+
+      '<div class="cmp-row"><div class="l">Deemed approval</div>'+deemedBadge(s.deemedApproval)+'</div>'+
+      '<div class="cmp-row"><div class="l">Documents</div>'+(s.documents.length||'not itemised')+'</div>'+
+      '<div class="cmp-row"><div class="l">Has FGD?</div>'+(s.fgdPending?'<span class="tag t-mute">Pending</span>':'<span class="tag t-info">Available</span>')+'</div>'+
+      '<div class="cmp-row" style="border-bottom:0"><div class="l">Data gaps</div>'+(s.dataGaps.length||'none flagged')+'</div>'+
+      '</div>').join('')+
+  '</div>';
+
+  h += '<div class="card"><div class="card-h"><h3>Process, side by side</h3><span class="note">grouped by our stage tags for alignment</span></div><div class="card-b tight">'+
+    '<div class="grid" style="grid-template-columns:repeat('+chosen.length+',minmax(0,1fr))">'+
+    chosen.map(s=>'<div style="padding:10px 12px;border-right:1px solid var(--rule-soft)"><div style="font-weight:700;font-size:12.5px;margin-bottom:8px">'+esc(s.name)+'</div><div class="stepper">'+
+      s.steps.map(st=>'<div class="step-v"><div class="rail-col">'+stepDot(st)+'<div class="line"></div></div><div class="body" style="padding-bottom:14px"><div class="sp">'+esc((STAGE_MAP[st.phase]||{n:st.phase}).n)+'</div><div class="st" style="font-size:12px">'+esc(st.title)+'</div></div></div>').join('')+
+      '</div></div>').join('')+
+    '</div></div></div>';
+
+  return h;
+}
+
+/* ---------- view: phase/stage comparison ---------- */
+function renderPhase(){
+  const stage = STAGE_MAP[F.phase];
+  let h = '<div class="pagehead"><div><h2>'+icon('layers')+'Stage comparison — '+esc(stage.n)+'</h2>'+
+    '<div class="lede">What every State\'s Expert Discussion says happens at this stage, grouped by how automated it is — the granular, step-level view a whole-process summary cannot show.</div></div></div>';
+
+  const withStep = STATES.map(s=>({s, steps:s.steps.filter(x=>x.phase===F.phase)})).filter(x=>x.steps.length);
+  const groups = {online:[], mixed:[], site:[]};
+  withStep.forEach(({s,steps})=>{
+    steps.forEach(st=>{
+      const c = stepBadgeClass(st);
+      const bucket = c==='online'?'online':c==='site'?'site':'mixed';
+      groups[bucket].push({s, st});
+    });
+  });
+
+  const total = groups.online.length+groups.mixed.length+groups.site.length;
+  if(total){
+    h += '<div class="card" style="margin-bottom:14px"><div class="card-b">'+
+      '<div class="hbars"><div class="hbar" style="grid-template-columns:150px 1fr 50px"><div class="hb-n">Fully online</div><div class="hb-track"><div class="hb-fill" style="width:'+(groups.online.length/total*100)+'%;background:#0B6E62"></div></div><div class="hb-v">'+groups.online.length+'</div></div>'+
+      '<div class="hbar" style="grid-template-columns:150px 1fr 50px"><div class="hb-n">Partly online</div><div class="hb-track"><div class="hb-fill" style="width:'+(groups.mixed.length/total*100)+'%;background:#B06A00"></div></div><div class="hb-v">'+groups.mixed.length+'</div></div>'+
+      '<div class="hbar" style="grid-template-columns:150px 1fr 50px"><div class="hb-n">On-site visit</div><div class="hb-track"><div class="hb-fill" style="width:'+(groups.site.length/total*100)+'%;background:#2E4F9E"></div></div><div class="hb-v">'+groups.site.length+'</div></div></div>'+
+    '</div></div>';
+  }
+
+  h += '<div class="stagegrid">'+
+    stageCol('online','Fully online', groups.online)+
+    stageCol('mixed','Partly online / manual', groups.mixed)+
+    stageCol('site','On-site visit (by design)', groups.site)+
+  '</div>';
+
+  const missing = STATES.filter(s=>!s.steps.some(x=>x.phase===F.phase));
+  if(missing.length){
+    h += '<div class="gap-note" style="margin-top:14px">'+icon('dash')+' No step was tagged to this stage for: '+missing.map(s=>esc(s.name)).join(', ')+'. This reflects how that State\'s official described the process, not a missing record.</div>';
+  }
+  h += '<div class="hint" style="margin-top:10px">Stage tags (Pre-application, Application, Scrutiny, Inspection, Fee, Approval, Renewal) are our own grouping of each State\'s recorded steps for comparability — not a field present in the Expert Discussion documents themselves.</div>';
+  return h;
+}
+function stageCol(cls,label,items){
+  let h = '<div class="stagecol"><div class="stagecol-h '+cls+'">'+icon(cls==='online'?'check':cls==='site'?'pin':'dash')+label+' ('+items.length+')</div>';
+  if(!items.length){ h += '<div class="hint">No States recorded here.</div>'; }
+  items.forEach(({s,st})=>{
+    h += '<div class="statecard-mini" onclick="goState(\''+s.code+'\')"><div class="n">'+esc(s.name)+'</div><div class="d"><b>'+esc(st.title)+'.</b> '+esc(st.note||'')+'</div></div>';
+  });
+  h += '</div>';
+  return h;
+}
+
+/* ---------- view: best practices ---------- */
+function renderBest(){
+  let h = '<div class="pagehead"><div><h2>'+icon('award')+'Best practices across States</h2>'+
+    '<div class="lede">Who leads on each KPI, and specific practices worth replicating elsewhere — sourced from the ED/FGD record, not a composite score.</div></div></div>';
+
+  const timed = STATES.filter(s=>s._timeMid!=null).sort((a,b)=>a._timeMid-b._timeMid);
+  const autod = STATES.filter(s=>s._autoShare!=null).sort((a,b)=>b._autoShare-a._autoShare);
+  const deemedWorks = ST_BY_CODE['DNHDD'];
+
+  h += '<div class="grid g3" style="margin-bottom:16px">'+
+    leaderCard('Fastest timeline', timed[0], fmtDays(timed[0].timeline), 'The only State in single digits to low teens for the full process, on the official\'s own account.')+
+    leaderCard('Most digitised (excl. inspection)', autod[0], Math.round(autod[0]._autoShare*100)+'% of non-inspection steps online', 'Every non-inspection step in the recorded process runs through the portal.')+
+    leaderCard('Deemed approval that actually works', deemedWorks, '25-day rule, confirmed by businesses', 'The only State/UT where the FGD independently corroborates the official deemed-approval claim rather than contradicting it.')+
+  '</div>';
+
+  const practices = [
+    {state:'Telangana', icon:'arrow', t:'Carry data forward between related approvals', d:'TS-iPASS reuses the applicant\'s Consent-to-Establish data and credentials for the Factory License stage — "nothing fresh" is required beyond what was filed earlier. Directly reduces duplicate documentation, a complaint raised in several other States.'},
+    {state:'Jharkhand', icon:'layers', t:'One platform for the full licence lifecycle', d:'Shramadhan covers registration, licensing, renewal, amendment, inspection, fee and status in a single digital platform — the official called this out explicitly as a best practice.'},
+    {state:'Dadra & Nagar Haveli and Daman & Diu', icon:'check', t:'A deemed-approval clock that genuinely pauses and resumes', d:'The 25-day rule pauses only for a genuine query and resumes promptly on response — the one State where the FGD confirms this works as designed, rather than being undermined by late-stage queries (as in Uttar Pradesh) or simply absent (as in four other States).'},
+    {state:'Andhra Pradesh', icon:'book', t:'Public inspection transparency', d:'Inspection findings are published via the Central Inspection System portal, making the inspection record publicly accessible rather than opaque.'},
+    {state:'Telangana', icon:'alert', t:'A monetary penalty on officers who delay applications', d:'Described by the official as an accountability measure introduced alongside self-certification and deemed approval on the related Consent to Establish service.'},
+    {state:'Himachal Pradesh', icon:'check', t:'Documentation genuinely trimmed under EoDB reform', d:'Fire NOC and Pollution NOC are explicitly not required for factory licensing unless specifically needed under other laws — officials report no major redundant requirement remains.'},
+    {state:'Nagaland', icon:'user', t:'A minimal, low-friction document checklist', d:'Only plant layout, GPS location and occupier/manager ID are required — PAN and Aadhaar are explicitly not insisted upon, in a State consciously keeping the bar low for a very new online system.'}
+  ];
+
+  h += '<div class="card"><div class="card-h"><h3>Specific practices worth replicating</h3></div><div class="card-b"><div class="grid g2">'+
+    practices.map(p=>'<div class="practice-card"><div class="pc-icon">'+icon(p.icon)+'</div><div class="pc-b"><div class="pc-state">'+esc(p.state)+'</div><div class="pc-t">'+esc(p.t)+'</div><div class="pc-d">'+esc(p.d)+'</div></div></div>').join('')+
+    '</div></div></div>';
+
+  h += '<div class="hint" style="margin-top:12px">This is a curated reading of the ED/FGD record, not an automated ranking — Statutory cost and other figures that the CoR 2.0 methodology excludes from inter-State comparison are not used here either.</div>';
+  return h;
+}
+function leaderCard(kpi,s,metric,why){
+  return '<div class="leader-card"><div style="display:flex;justify-content:space-between;align-items:flex-start"><div class="lc-kpi">'+esc(kpi)+'</div><div class="medal">'+icon('award')+'</div></div>'+
+    '<div class="lc-state" onclick="goState(\''+s.code+'\')" style="cursor:pointer">'+esc(s.name)+'</div>'+
+    '<div class="lc-metric">'+esc(metric)+'</div><div class="lc-why">'+esc(why)+'</div></div>';
+}
+
+/* ---------- view: reconciliation (ED vs FGD) ---------- */
+function renderReconcile(){
+  const withFGD = STATES.filter(s=>!s.fgdPending);
+  const allContra = [];
+  withFGD.forEach(s=> s.fgd.contradictions.forEach(c=> allContra.push({state:s, text:c})) );
+
+  let h = '<div class="pagehead"><div><h2>'+icon('scale')+'Official record vs. lived experience</h2>'+
+    '<div class="lede">A past review of this project\'s earlier Electricity Connection work found that contradictory inputs from different sources were never explicitly reconciled before being presented. This tab does that reconciliation in the open.</div></div></div>';
+
+  h += '<div class="grid g4" style="margin-bottom:14px">'+
+    kpiIcon('acc-ink','user','States with both ED and FGD', withFGD.length+' of 11','')+
+    kpiIcon('acc-rust','alert','Contradictions logged', String(allContra.length), 'official account vs. business experience')+
+    kpiIcon('acc-teal','check','States where FGD confirms ED', '1 · DNH & DD', 'the only State where lived experience matches the official narrative point-for-point')+
+    kpiIcon('acc-amber','dash','FGD still pending', (11-withFGD.length)+' of 11', 'HP, J&K, Jharkhand, Manipur, Nagaland, Telangana')+
+  '</div>';
+
+  h += '<div class="card" style="margin-bottom:14px"><div class="card-h"><h3>Logged contradictions, by State</h3></div><div class="card-b">'+
+    withFGD.map(s=>{
+      const good = s.code==='DNHDD';
+      return '<div style="margin-bottom:16px"><div style="font-weight:700;font-size:13px;margin-bottom:7px;cursor:pointer;color:var(--ink-2)" onclick="goState(\''+s.code+'\')">'+esc(s.name)+'</div>'+
+        (good ? '<div class="confirm">'+icon('check')+'<span><b>Largely confirmed.</b> '+esc(s.fgd.contradictions[0])+'</span></div>'
+              : s.fgd.contradictions.map(c=>'<div class="contra">'+icon('alert')+'<span>'+esc(c)+'</span></div>').join(''));
+    }).join('')+
+  '</div></div>';
+
+  h += '<div class="card"><div class="card-h"><h3>Cross-cutting patterns across the 5 reconciled States</h3></div><div class="card-b">'+
+    '<ul style="margin:0;padding-left:17px;font-size:12.5px;color:var(--slate);line-height:1.7">'+
+    '<li><b style="color:var(--ink)">"Single window" claims are the most consistently contradicted element.</b> Chhattisgarh, Andhra Pradesh and Uttar Pradesh all push back on an official framing of a fully integrated digital one-stop system. DNH &amp; DD is the clear exception, corroborated as working well.</li>'+
+    '<li><b style="color:var(--ink)">Deemed approval is State-specific, not a uniform success.</b> DNH &amp; DD is the strongest positive case; Chhattisgarh and Andhra Pradesh describe no operative mechanism; West Bengal does not mention it at all.</li>'+
+    '<li><b style="color:var(--ink)">"Online = transparent" is contradicted by near-universal status-visibility complaints</b> in West Bengal, Chhattisgarh and Andhra Pradesh.</li>'+
+    '<li><b style="color:var(--ink)">Cost burden is State-specific, not uniform.</b> Andhra Pradesh reported no informal payments; Uttar Pradesh reported heavy intermediary costs that are themselves internally inconsistent in the source — flagged, not assumed.</li>'+
+    '</ul></div></div>';
+
+  return h;
+}
+
+/* ---------- view: methodology ---------- */
+function renderMethod(){
+  let h = '<div class="pagehead"><div><h2>'+icon('book')+'Method &amp; data quality</h2>'+
+    '<div class="lede">What this dashboard is built from, how it scales to other licenses, and — as visible as the data itself — what is not yet known.</div></div></div>';
+
+  h += '<div class="card" style="margin-bottom:14px"><div class="card-h"><h3>Where this pilot sits in the CoR project</h3></div><div class="card-b" style="font-size:12.5px;color:var(--slate);line-height:1.65">'+
+    '<p>The CoR project runs in four stages: <b style="color:var(--ink)">Stage 1</b> — field survey, Expert Discussion (ED) and Focused Group Discussion (FGD) data gathering; <b style="color:var(--ink)">Stage 2</b> — structuring the ED/FGD record (complete for this pilot); <b style="color:var(--ink)">Stage 3</b> — secondary research against each State\'s own rules and portals, to validate, extend and keep the record current; <b style="color:var(--ink)">Stage 4</b> — presenting the combined findings (this dashboard).</p>'+
+    '<p>Secondary research is shown as a third source alongside ED and FGD on every State\'s profile. It is not a one-time pass: official rules, portals and fee schedules change, and the ED/FGD record (treated as the authoritative baseline, per this project\'s own convention) will not automatically catch those changes. Keeping it current needs a repeatable refresh, not a single research run — see "Keeping this current" below for how that is intended to work.</p>'+
+  '</div></div>';
+
+  h += '<div class="card" style="margin-bottom:14px"><div class="card-h"><h3>Scaling to the other 25 licenses</h3></div><div class="card-b" style="font-size:12.5px;color:var(--slate);line-height:1.65">'+
+    '<p>Recommended repo layout, so the dashboard can grow without re-architecting each time:</p>'+
+    '<ul style="padding-left:17px;line-height:1.7"><li><code>/sources/&lt;license-code&gt;/ED/&lt;state&gt;.docx</code> and <code>/sources/&lt;license-code&gt;/FGD/&lt;state&gt;.docx</code> — the original field documents, version-controlled exactly as received.</li>'+
+    '<li><code>/data/&lt;license-code&gt;.js</code> — the structured, schema-consistent data this dashboard reads (today, that is embedded directly in this file for Factory License; splitting it out is the next step once a second license is added).</li></ul>'+
+    '<p><b style="color:var(--ink)">On uploading documents directly to the dashboard:</b> a static HTML file like this one cannot write files back into the repository or parse a dropped Word document reliably in-browser, so a client-side "upload" button would not actually get new licenses into the data — it would only preview a file locally, then lose it on refresh. The workflow that actually scales is: add new ED/FGD documents to <code>/sources</code> (via this repo, or a shared drive QCI maintains), and have Claude — in a session, as now — parse them into the structured schema and commit the result to <code>/data</code>. That keeps the same rigor this pilot was built with (locked schema, flagged gaps, no fabricated figures) rather than trading it for a fragile in-browser parser.</p>'+
+    '<p><b style="color:var(--ink)">Keeping this current:</b> a static dashboard cannot re-research itself. What can be set up is a scheduled check — for example quarterly — where Claude re-runs the secondary-research pass per State and license, flags anything that has drifted from the ED/FGD baseline, and republishes. That is a deliberate, recurring piece of automation worth setting up explicitly rather than silently, since it has an ongoing cost and a cadence to choose — ask, and it can be scheduled.</p>'+
+  '</div></div>';
+
+  h += '<div class="card" style="margin-bottom:14px"><div class="card-h"><h3>The five KPIs this pilot compares</h3></div><div class="card-b"><div class="grid g3">'+
+    KPIS.map(k=>'<div class="defcard"><h4>'+esc(k.n)+'</h4><p>'+esc(k.d)+'</p></div>').join('')+
+  '</div></div></div>';
+
+  h += '<div class="card" style="margin-bottom:14px"><div class="card-h"><h3>The CoR 2.0 five cost types</h3><span class="note">not yet surveyed for Factory License</span></div><div class="card-b"><div class="grid g3">'+
+    COST_TYPES.map(c=>'<div class="defcard"><h4>'+esc(c.n)+'</h4><p>'+esc(c.d)+'</p></div>').join('')+
+    '</div><div class="hint">Per CoR 2.0 methodology, Statutory cost is reported as-is and explicitly excluded from inter-State comparison — unlike the other four cost types. The full survey has not yet been fielded for Factory License; cost figures shown elsewhere are informal numbers volunteered during FGDs, not survey output.</div></div></div>';
+
+  h += '<div class="card" style="margin-bottom:14px"><div class="card-h"><h3>Why this is built the way it is</h3></div><div class="card-b" style="font-size:12.5px;color:var(--slate);line-height:1.65">'+
+    '<p><b style="color:var(--ink)">Lesson from the earlier Electricity Connection work:</b> that study used a different column template per State, mixed numeric and narrative detail in free-text cells, and its summary presentation reported totals several times lower than its own spreadsheet, with no visible reconciliation. This dashboard locks one schema across every State, separates numeric fields from narrative notes, and treats any number it cannot source as a visible gap, never an estimate.</p>'+
+    '<p><b style="color:var(--ink)">Lesson from the earlier dashboard prototype:</b> its comparative view used clearly-labelled illustrative/dummy scores, since no real cost survey had been run. This pilot introduces no scoring system for the same reason — what is shown instead are the real, traceable process facts the ED/FGD/secondary-research record actually contains.</p>'+
+  '</div></div>';
+
+  h += '<div class="card"><div class="card-h"><h3>Source documents</h3></div><div class="card-b tight"><table class="dt"><thead><tr><th>State / UT</th><th>Expert Discussion</th><th>Focused Group Discussion</th><th>Secondary research</th></tr></thead><tbody>'+
+    STATES.map(s=>'<tr><td class="svc-name" onclick="goState(\''+s.code+'\')">'+esc(s.name)+'</td>'+
+      '<td>'+esc(s.ed.date)+' · '+esc(s.ed.location)+'</td>'+
+      '<td>'+(s.fgdPending? '<span class="tag t-mute">Not yet conducted</span>' : esc(s.fgd.meta.split('·')[0])+'…')+'</td>'+
+      '<td>'+(s.secondary.pending? '<span class="tag t-mute">In progress</span>' : '<span class="tag t-ok">Available</span>')+'</td></tr>').join('')+
+    '</tbody></table></div></div>';
+
+  return h;
+}
+
+function toggleCmp(code){
+  const i = F.cmp.indexOf(code);
+  if(i>=0) F.cmp.splice(i,1);
+  else { if(F.cmp.length>=4) F.cmp.shift(); F.cmp.push(code); }
+  render();
+}
+
+function render(){
+  document.querySelectorAll('.navbtn').forEach(b=>b.classList.toggle('on', b.dataset.view===F.view));
+  buildFilters();
+  const c = document.getElementById('canvas');
+  if(F.view==='overview') c.innerHTML = renderOverview();
+  else if(F.view==='state') c.innerHTML = renderState();
+  else if(F.view==='compare') c.innerHTML = renderCompare();
+  else if(F.view==='phase') c.innerHTML = renderPhase();
+  else if(F.view==='best') c.innerHTML = renderBest();
+  else if(F.view==='reconcile') c.innerHTML = renderReconcile();
+  else if(F.view==='method') c.innerHTML = renderMethod();
+  window.scrollTo(0,0);
+}
+
+buildNav();
+render();
+</script>
+</body>
+</html>
