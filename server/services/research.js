@@ -1,5 +1,6 @@
 const Anthropic = require('@anthropic-ai/sdk');
-const db = require('../db/db');
+const { waitUntil } = require('@vercel/functions');
+const pool = require('../db/db');
 
 const MODEL = process.env.RESEARCH_MODEL || 'claude-opus-5-5';
 const MAX_SEARCHES = Number(process.env.RESEARCH_MAX_SEARCHES || 8);
@@ -63,65 +64,65 @@ function extractJson(text) {
   return JSON.parse(jsonStr);
 }
 
-async function runResearch({ stateCode, licenseCode, triggeredBy }) {
-  const state = db.prepare('SELECT * FROM states WHERE code = ? AND license_code = ?').get(stateCode, licenseCode);
-  if (!state) throw new Error(`Unknown state ${stateCode} for license ${licenseCode}`);
-  const steps = db.prepare('SELECT * FROM steps WHERE state_code = ? AND license_code = ? ORDER BY n').all(stateCode, licenseCode);
-  const existingSecondary = db.prepare('SELECT * FROM secondary_research WHERE state_code = ? AND license_code = ?').get(stateCode, licenseCode);
+async function doResearch(runId, state, steps, existingSecondary, stateCode, licenseCode) {
+  try {
+    const client = getClient();
+    const prompt = buildPrompt(state, steps, existingSecondary);
+    const tools = [{ type: 'web_search_20260209', name: 'web_search', max_uses: MAX_SEARCHES }];
+    let messages = [{ role: 'user', content: prompt }];
+    let finalMessage = null;
 
-  const insertRun = db.prepare(`INSERT INTO research_runs (state_code, license_code, triggered_by, status) VALUES (?, ?, ?, 'running')`);
-  const runId = insertRun.run(stateCode, licenseCode, triggeredBy).lastInsertRowid;
-
-  // Fire the actual work asynchronously so the trigger endpoint returns immediately;
-  // the frontend polls /api/research/runs/:id for status.
-  (async () => {
-    try {
-      const client = getClient();
-      const prompt = buildPrompt(state, steps, existingSecondary);
-      const tools = [{ type: 'web_search_20260209', name: 'web_search', max_uses: MAX_SEARCHES }];
-      let messages = [{ role: 'user', content: prompt }];
-      let finalMessage = null;
-
-      for (let i = 0; i < MAX_PAUSE_RESUMES; i++) {
-        const response = await client.messages.create({
-          model: MODEL,
-          max_tokens: 8000,
-          tools,
-          messages,
-        });
-        if (response.stop_reason === 'pause_turn') {
-          messages = [...messages, { role: 'assistant', content: response.content }];
-          continue;
-        }
-        finalMessage = response;
-        break;
+    for (let i = 0; i < MAX_PAUSE_RESUMES; i++) {
+      const response = await client.messages.create({ model: MODEL, max_tokens: 8000, tools, messages });
+      if (response.stop_reason === 'pause_turn') {
+        messages = [...messages, { role: 'assistant', content: response.content }];
+        continue;
       }
-      if (!finalMessage) throw new Error('Research run did not complete within the pause/resume limit.');
-
-      const textBlocks = finalMessage.content.filter(b => b.type === 'text').map(b => b.text).join('\n');
-      const parsed = extractJson(textBlocks);
-
-      db.prepare(`UPDATE research_runs SET status='done', summary=?, parsed_json=?, sources_json=?, raw_text=?, completed_at=datetime('now') WHERE id=?`)
-        .run(parsed.notes || '', JSON.stringify(parsed), JSON.stringify(parsed.sources || []), textBlocks, runId);
-
-      const upsert = db.prepare(`
-        INSERT INTO secondary_research (state_code, license_code, confirms_json, contradicts_json, new_detail_json, sources_json, notes, pending, last_run_id, updated_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?, 0, ?, datetime('now'))
-        ON CONFLICT(state_code, license_code) DO UPDATE SET
-          confirms_json=excluded.confirms_json, contradicts_json=excluded.contradicts_json,
-          new_detail_json=excluded.new_detail_json, sources_json=excluded.sources_json,
-          notes=excluded.notes, pending=0, last_run_id=excluded.last_run_id, updated_at=datetime('now')
-      `);
-      upsert.run(stateCode, licenseCode,
-        JSON.stringify(parsed.confirms || []), JSON.stringify(parsed.contradicts || []),
-        JSON.stringify(parsed.newDetail || []), JSON.stringify(parsed.sources || []),
-        parsed.notes || '', runId);
-      db.prepare('UPDATE states SET secondary_pending = 0 WHERE code = ? AND license_code = ?').run(stateCode, licenseCode);
-    } catch (err) {
-      db.prepare(`UPDATE research_runs SET status='failed', error=?, completed_at=datetime('now') WHERE id=?`)
-        .run(String(err.message || err), runId);
+      finalMessage = response;
+      break;
     }
-  })();
+    if (!finalMessage) throw new Error('Research run did not complete within the pause/resume limit.');
+
+    const textBlocks = finalMessage.content.filter(b => b.type === 'text').map(b => b.text).join('\n');
+    const parsed = extractJson(textBlocks);
+
+    await pool.query(
+      `UPDATE research_runs SET status='done', summary=$1, parsed_json=$2, sources_json=$3, raw_text=$4, completed_at=NOW() WHERE id=$5`,
+      [parsed.notes || '', JSON.stringify(parsed), JSON.stringify(parsed.sources || []), textBlocks, runId]
+    );
+
+    await pool.query(`
+      INSERT INTO secondary_research (state_code, license_code, confirms_json, contradicts_json, new_detail_json, sources_json, notes, pending, last_run_id, updated_at)
+      VALUES ($1,$2,$3,$4,$5,$6,$7,0,$8,NOW())
+      ON CONFLICT (state_code, license_code) DO UPDATE SET
+        confirms_json=EXCLUDED.confirms_json, contradicts_json=EXCLUDED.contradicts_json,
+        new_detail_json=EXCLUDED.new_detail_json, sources_json=EXCLUDED.sources_json,
+        notes=EXCLUDED.notes, pending=0, last_run_id=EXCLUDED.last_run_id, updated_at=NOW()
+    `, [stateCode, licenseCode, JSON.stringify(parsed.confirms || []), JSON.stringify(parsed.contradicts || []),
+        JSON.stringify(parsed.newDetail || []), JSON.stringify(parsed.sources || []), parsed.notes || '', runId]);
+
+    await pool.query('UPDATE states SET secondary_pending = 0 WHERE code = $1 AND license_code = $2', [stateCode, licenseCode]);
+  } catch (err) {
+    await pool.query(`UPDATE research_runs SET status='failed', error=$1, completed_at=NOW() WHERE id=$2`, [String(err.message || err), runId]);
+  }
+}
+
+async function runResearch({ stateCode, licenseCode, triggeredBy }) {
+  const { rows: [state] } = await pool.query('SELECT * FROM states WHERE code = $1 AND license_code = $2', [stateCode, licenseCode]);
+  if (!state) throw new Error(`Unknown state ${stateCode} for license ${licenseCode}`);
+  const { rows: steps } = await pool.query('SELECT * FROM steps WHERE state_code = $1 AND license_code = $2 ORDER BY n', [stateCode, licenseCode]);
+  const { rows: [existingSecondary] } = await pool.query('SELECT * FROM secondary_research WHERE state_code = $1 AND license_code = $2', [stateCode, licenseCode]);
+
+  const { rows: [{ id: runId }] } = await pool.query(
+    `INSERT INTO research_runs (state_code, license_code, triggered_by, status) VALUES ($1,$2,$3,'running') RETURNING id`,
+    [stateCode, licenseCode, triggeredBy]
+  );
+
+  // On Vercel, a serverless function's background work is killed once the
+  // response is sent unless kept alive with waitUntil; outside Vercel it's a
+  // harmless wrapper and the promise just runs normally in the long-lived
+  // local Node process.
+  waitUntil(doResearch(runId, state, steps, existingSecondary, stateCode, licenseCode));
 
   return runId;
 }
