@@ -163,8 +163,7 @@
           "The official single-window framing is contradicted: the electrical department sits entirely outside the portal, so applicants must separately approach it — \"we still have to knock on every door.\"",
           "No deemed-approval mechanism is visible in practice; despite the 7-working-day statutory timeline, applicants get no interim status and learn of approval only when the certificate prints — participants called this an \"Implementation Gap.\""
         ]
-      },
-      "portalUrl": null
+      }
     },
     {
       "code": "CG",
@@ -315,8 +314,7 @@
         "contradictions": [
           "A direct, explicit contradiction of any \"integrated single window\" framing: \"the single-window portal exists, but the departments are not fully interconnected\" — participants explicitly called for a move from a \"single portal\" approach to a genuinely \"single process\" approach."
         ]
-      },
-      "portalUrl": null
+      }
     },
     {
       "code": "DNHDD",
@@ -344,7 +342,8 @@
       },
       "issuingAuthority": "Labour/Factory authority, via the EODB Single Window Portal for Industrial Clearances (swp.dddgov.in), under the Factories Act, 1948.",
       "portal": {
-        "name": "EODB Single Window Portal (swp.dddgov.in)"
+        "name": "EODB Single Window Portal (swp.dddgov.in)",
+        "url": "https://swp.dddgov.in"
       },
       "steps": [
         {
@@ -495,8 +494,7 @@
           "Largely CONFIRMS rather than contradicts the official narrative — deemed approval, portal responsiveness and fee transparency are all corroborated by businesses.",
           "The main nuance: the official narrative's statutory fee (~₹22,000) understates the true cost of compliance — the FGD surfaces real but unquantified substantive (equipment) and delay/financing costs that sit outside the official fee schedule."
         ]
-      },
-      "portalUrl": "https://swp.dddgov.in"
+      }
     },
     {
       "code": "HP",
@@ -528,7 +526,8 @@
       },
       "issuingAuthority": "Department of Labour & Employment — Chief Inspector of Factories is the final approving authority; Assistant Director (Factory) performs field verification.",
       "portal": {
-        "name": "Departmental online software portal"
+        "name": "Departmental online software portal",
+        "url": "https://admis.hp.nic.in/ofris"
       },
       "steps": [
         {
@@ -545,8 +544,25 @@
           "automated": true,
           "note": "Online.",
           "documents": [
-            "Building plan drawings",
-            "Factory-related statutory documents required under departmental rules for BPA and licensing"
+            "Form No-1 (online e-form, web application only)",
+            "Form No 1-A (online e-form, web application only)",
+            "Questionnaire (online e-form, web application only)",
+            "Flow-chart of manufacturing process",
+            "Write-up chart of manufacturing process",
+            "Resolution of the Board of Directors declaring one Director as occupier (or partners' resolution declaring one partner as occupier, or proprietor's declaration in a proprietorship)",
+            "List of Directors/Partners, with parentage and complete residential addresses",
+            "List of machinery",
+            "Copy of power sanction certificate from the concerned authority (HPSEB)",
+            "Site Plan of the factory",
+            "Building drawings, including elevations, plans & cross sections",
+            "Machine lay-out",
+            "Certificate from the Registrar of Companies regarding incorporation (company)",
+            "List of partners with parentage & complete residential address (partnership firm)",
+            "Proprietor's name, parentage and complete residential address, via self-attested declaration (proprietorship)",
+            "All documents signed by the occupier (Director/Partner/Proprietor, as applicable)",
+            "All drawings signed by the occupier and by a Chartered Engineer/Chartered Architect",
+            "Copy of approval from the Department of Industries (industrial unit) or Director Energy/HIMURJA/other competent authority (hydroelectric power project)",
+            "Uploading of all documents is mandatory"
           ]
         },
         {
@@ -568,7 +584,20 @@
           "phase": "apply",
           "title": "Factory License application submitted",
           "automated": true,
-          "note": "Through the same online portal."
+          "note": "Through the same online portal.",
+          "documents": [
+            "Form No.3 (online e-form, web application only)",
+            "Certificate of Stability, signed by a Chartered Engineer/Chartered Architect",
+            "Board resolution declaring a Director as occupier (or partners' resolution declaring a partner as occupier, or proprietor's declaration)",
+            "List of Directors/Partners, with parentage and complete residential addresses",
+            "List of partners with parentage & complete residential address",
+            "Proprietor's self-attested declaration of name, parentage and complete residential address (proprietorship)",
+            "Certificate of incorporation from the Registrar of Companies (company)",
+            "Copy of power sanction certificate from the concerned authority (HPSEB)",
+            "NOC from the Chief Fire Officer",
+            "NOC from the HP Pollution Control Board",
+            "All documents signed by the occupier and uploaded"
+          ]
         },
         {
           "n": 6,
@@ -597,7 +626,7 @@
         "Building plan drawings",
         "Factory-related statutory documents required under departmental rules for BPA and licensing"
       ],
-      "documentsNote": "Fire NOC and Pollution NOC are NOT sought as part of factory licensing unless specifically required under other laws — documentation described as \"substantially reduced\" under EoDB reforms.",
+      "documentsNote": "Fire NOC and Pollution NOC are NOT sought as part of factory licensing unless specifically required under other laws — documentation described as \"substantially reduced\" under EoDB reforms. The HP Dept. of Labour & Employment's own OFRIS \"Procedure and Checklist\" document (user-supplied) gives exact, separate checklists for Building Plan Approval (19 items) and License registration (11 items) — see those two steps below for the full lists, each more granular than this state's ED/FGD estimate.",
       "deemedApproval": {
         "status": "yes",
         "days": "30 (BPA) / 45 (Factory License)",
@@ -617,8 +646,7 @@
         "Auto-renewal facility for renewals noted as a best practice."
       ],
       "dataGaps": [],
-      "fgd": null,
-      "portalUrl": "https://ofris.hp.gov.in"
+      "fgd": null
     },
     {
       "code": "JK",
@@ -652,7 +680,8 @@
       },
       "issuingAuthority": "Labour Department — the Chief Inspector of Factories (charge currently held by the Labour Commissioner) gives final approval; processed via the JK Single Window portal.",
       "portal": {
-        "name": "JK Single Window portal"
+        "name": "JK Single Window portal",
+        "url": "https://singlewindow.jk.gov.in"
       },
       "steps": [
         {
@@ -751,8 +780,7 @@
       "dataGaps": [
         "Statutory fee amount not specified"
       ],
-      "fgd": null,
-      "portalUrl": "https://singlewindow.jk.gov.in"
+      "fgd": null
     },
     {
       "code": "JH",
@@ -785,7 +813,8 @@
       },
       "issuingAuthority": "Dept. of Labour, Employment, Training & Skill Development — Deputy Chief Inspector is the competent authority; processed via the Jharkhand Single Window / Shramadhan portal.",
       "portal": {
-        "name": "Jharkhand Single Window / Shramadhan portal"
+        "name": "Jharkhand Single Window / Shramadhan portal",
+        "url": "https://shramadhan.jharkhand.gov.in"
       },
       "steps": [
         {
@@ -891,8 +920,7 @@
         "Best practice: Shramadhan is a unified digital platform covering the full lifecycle — registration, licensing, renewal, amendment, inspection, fee, status."
       ],
       "dataGaps": [],
-      "fgd": null,
-      "portalUrl": "https://shramadhan.jharkhand.gov.in"
+      "fgd": null
     },
     {
       "code": "MN",
@@ -923,7 +951,8 @@
       },
       "issuingAuthority": "Not clearly named in the source document; context (Manipur Factories Rules 2021) implies a Labour/Factories department, but this is not stated explicitly. The \"Organization/Department\" field in the source document lists what appear to be private company names rather than a government department — flagged as a likely documentation error, not corrected or guessed.",
       "portal": {
-        "name": "Online application system (unnamed in source)"
+        "name": "Online application system (unnamed in source)",
+        "url": "https://eodbmanipur.mn.gov.in"
       },
       "steps": [
         {
@@ -1037,8 +1066,7 @@
         "Statutory fee schedule not detailed",
         "Deemed-approval status not confirmed"
       ],
-      "fgd": null,
-      "portalUrl": "https://eodbmanipur.mn.gov.in"
+      "fgd": null
     },
     {
       "code": "NL",
@@ -1149,8 +1177,7 @@
         "Validity period not specified",
         "Exact fee amounts not provided (chart exists on the portal but amounts unconfirmed)"
       ],
-      "fgd": null,
-      "portalUrl": null
+      "fgd": null
     },
     {
       "code": "TG",
@@ -1179,7 +1206,8 @@
       },
       "issuingAuthority": "Department of Industries, via the TS-iPASS single-window portal.",
       "portal": {
-        "name": "TS-iPASS"
+        "name": "TS-iPASS",
+        "url": "https://tsfactories.cgg.gov.in"
       },
       "steps": [
         {
@@ -1263,8 +1291,7 @@
       "dataGaps": [
         "Deemed-approval status for Factory License specifically is not directly confirmed — only confirmed for the related Consent to Establish service"
       ],
-      "fgd": null,
-      "portalUrl": "https://tsfactories.cgg.gov.in"
+      "fgd": null
     },
     {
       "code": "UP",
@@ -1298,7 +1325,8 @@
       },
       "issuingAuthority": "UP Labour Department — Chief Inspector of Factories / Labour Commissioner Organisation is the competent authority; processed via the Nivesh Mitra portal.",
       "portal": {
-        "name": "Nivesh Mitra"
+        "name": "Nivesh Mitra",
+        "url": "https://niveshmitra.up.gov.in"
       },
       "steps": [
         {
@@ -1458,8 +1486,7 @@
           "Deemed-approval timelines (15/30 days) exist on paper but are described as practically hollow, since queries land at the last moment.",
           "Despite the process being nominally fully online, physical submission/interaction was still required in some cases — directly contradicting the ED's explicit claim that \"no physical department visit required at any stage.\""
         ]
-      },
-      "portalUrl": "https://niveshmitra.up.gov.in"
+      }
     },
     {
       "code": "WB",
@@ -1492,7 +1519,8 @@
       },
       "issuingAuthority": "Labour Department, Govt. of West Bengal (the competent departmental authority — not further specified by name/designation in the document).",
       "portal": {
-        "name": "Digitised/online process (portal name not stated in source)"
+        "name": "Digitised/online process (portal name not stated in source)",
+        "url": "https://silpasathi.wb.gov.in"
       },
       "steps": [
         {
@@ -1589,8 +1617,7 @@
           "The official framing of an \"online, digitally governed\" licensing system is directly contradicted — participants say the digital system provides no real tracking or proactive communication, forcing physical office visits and reliance on being personally contacted by an officer (a 3-4 month real-world wait in the cited case).",
           "The complete absence of any deemed-approval discussion is itself notable: businesses here appear unaware of, or unaffected by, any such safeguard."
         ]
-      },
-      "portalUrl": "https://silpasathi.wb.gov.in"
+      }
     }
   ],
   "SERVICE": {

@@ -175,6 +175,34 @@
       "tags": ["FEES", "CLARITY"],
       "sentiment": "neutral",
       "text": "The 2024 amendment's own title (\"fee for grant of licence for one year\") suggests fees may in fact scale with the validity period chosen, which would nuance the ED's claim that the fee is independent of validity period; secondary research could not confirm this either way."
+    },
+    {
+      "source": "secondary",
+      "category": "redundant",
+      "tags": ["CLARITY", "COMPLY"],
+      "sentiment": "positive",
+      "text": "The HP Dept. of Labour & Employment's own OFRIS \"Procedure and Checklist\" document (user-supplied PDF) gives exact, separate document checklists: 19 items for Building Plan Approval and 11 items for License registration — see the per-step lists above — replacing the ED's vague \"statutory documents required under departmental rules\" with an enumerated, department-published list."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["FEES"],
+      "sentiment": "neutral",
+      "text": "The same OFRIS document publishes the full fee schedule as a slab table cross-referencing installed horsepower against number of workers employed — from ₹250 (nil connected HP, up to 9 workers) up to ₹75,000 (above 15,000 HP, above 2,000 workers). This is consistent with, but far more precise than, the ED's \"~₹1,000 to ~₹2 lakh\" range (the table's own extremes run lower and higher than that range at its tails)."
+    },
+    {
+      "source": "secondary",
+      "category": "procedural",
+      "tags": ["PORTAL"],
+      "sentiment": "neutral",
+      "text": "The OFRIS document names the real application URL as admis.hp.nic.in/ofris and sets out an 11-step service-delivery process with a named responsibility centre at each step (Applicant → Online Application → Dealing Assistant → Deputy Director (Factories), who may return the application for deficiencies or recommend it to the Chief Inspector of Factories for grant) — more granular than the ED's two-stage account."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["TIMELINE"],
+      "sentiment": "issue",
+      "text": "The OFRIS document cites a specific, dated government notification for its own timelines, different again from both the ED and the earlier-found OFRIS FAQ: Building Plan Approval within 30 days (notification Shram (A)6-2/10-Part-File-1-L, dated 27.06.2016) and grant/renewal of Factory License within 20 days (same notification series, dated 27.02.2016), both \"after completion of all codal formalities\" under the Public Service Delivery Guarantee Act."
     }
   ],
   "quotes": [],
@@ -210,6 +238,22 @@
     {
       "flag": "VAGUE",
       "text": "The statutory fee is stated only as a wide, non-itemized range — \"approximately ₹1,000\" for smaller establishments to \"around ₹2 lakh\" for large factories — without a precise fee schedule tied to specific horsepower/worker-count slabs. Secondary research additionally raises the possibility that fees may scale with the chosen validity period (per the 2024 amendment's title), which is not confirmed either way, adding further imprecision to the ED's fee claim."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "The department's own OFRIS \"Procedure and Checklist\" document (user-supplied) resolves the document-granularity gap entirely: exact 19-item (Building Plan Approval) and 11-item (License registration) checklists, now attached to the relevant step above, in place of the ED's vague generic description."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "The same OFRIS document publishes a complete fee schedule (a slab table by horsepower × workforce size), substantially sharpening — though not fully replacing — the ED's wide ₹1,000–₹2 lakh range; see the fee-schedule finding above for the table's shape and extremes."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "The portal's real URL is now confirmed directly from the department's own document as admis.hp.nic.in/ofris, replacing an earlier unconfirmed guess from web search alone."
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "A third source on the Factory License timeline, and it still doesn't match the other two: the OFRIS checklist document cites a specific, dated government notification (Shram (A)6-2/10-Part-File-1-L, 27.02.2016) for a 20-day License timeline — different from both the ED's 45 days and the previously-found OFRIS FAQ's 30 days. (Its Building Plan Approval figure of 30 days, notification dated 27.06.2016, does match the ED on that one stage.) This is the most specifically-cited of the three sources, but specificity isn't the same as being confirmed current — the notification is nearly a decade old and could itself have been superseded."
     }
   ]
 }

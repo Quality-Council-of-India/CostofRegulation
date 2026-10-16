@@ -12,7 +12,12 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const SEED = JSON.parse(fs.readFileSync(path.join(ROOT, 'server/db/seed-data.json'), 'utf8'));
+// Runs the enrichment pass first (confirmed portal URLs + per-step document
+// checklists layered onto the raw ED/FGD record — see server/db/enrich.cjs)
+// so cor-dashboard.html always reflects the latest enrichment, not a
+// possibly-stale seed-data.enriched.json left over from a previous run.
+require(path.join(ROOT, 'server/db/enrich.cjs'));
+const SEED = JSON.parse(fs.readFileSync(path.join(ROOT, 'server/db/seed-data.enriched.json'), 'utf8'));
 const TAGGED_DIR = path.join(__dirname, 'tagged');
 const PHASES = JSON.parse(fs.readFileSync(path.join(__dirname, 'phase-template.json'), 'utf8')).phases;
 
