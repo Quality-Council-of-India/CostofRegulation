@@ -22,5 +22,6 @@
   { "code": "OC", "name": "Occupancy Certificate" },
   { "code": "BMPA", "name": "Boilers Manufacturer Permission Approval" },
   { "code": "APW", "name": "Authorization for Plastic Waste" },
-  { "code": "ELD", "name": "Electrical Drawings" }
+  { "code": "ELD", "name": "Electrical Drawings" },
+  { "code": "LR", "name": "Lift Registration" }
 ]
