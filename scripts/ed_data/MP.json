@@ -1,0 +1,238 @@
+{
+  "code": "MP",
+  "name": "Madhya Pradesh",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFile": "MP_ED_BPA.docx",
+      "issuingAuthority": "Multiple authorities with overlapping jurisdiction as described in the ED — Urban Administration and Development Department (UADD), Government of Madhya Pradesh (which built the ABPAS system), along with MPIDC and Municipal bodies; no single named issuing authority is given.",
+      "portal": { "name": "Automated Building Plan Approval System (ABPAS)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "Not stated in the ED", "text": "No statutory or actual timeline for Building Plan Approval was given in the interview. The broader group discussion lists building approvals among services where delays are common, attributed to multiple approval levels, thin staffing in some departments, and continued manual processing despite the online system being in place." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": ["Building drawings and plans, uploaded through ABPAS"],
+      "documentsNote": "The interview does not give a further itemised checklist. The broader discussion adds that site plans, building drawings and layout plans are often submitted more than once, to different departments, with physical copies still requested even where the same material has already been uploaded online.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Deemed approval provisions exist in policy for regulatory approvals generally, but the group discussion was consistent in saying these are not recognised or applied uniformly by the concerned authorities in practice for BPA." },
+      "validity": { "text": "Not discussed in the interview." },
+      "fees": { "text": "Statutory fees are generated electronically by ABPAS once plans clear scrutiny; no specific figures are given. Duplicate fees and demand notes were flagged by the group discussion as a live issue for BPA specifically." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Applicant engages an empanelled architect", "automated": false, "note": "The architect prepares and files the application on the applicant's behalf." },
+        { "n": 2, "phase": "pre", "title": "Architect prepares building plans to applicable norms", "automated": false, "note": null },
+        { "n": 3, "phase": "apply", "title": "Building drawings and plans uploaded via ABPAS", "automated": true, "note": null },
+        { "n": 4, "phase": "scrutiny", "title": "System automatically scrutinises plans against applicable building regulations", "automated": true, "note": "Done within the system rather than through manual desk review." },
+        { "n": 5, "phase": "fee", "title": "Applicable statutory fees generated electronically", "automated": true, "note": null },
+        { "n": 6, "phase": "approve", "title": "Approval processed through the online system", "automated": true, "note": null },
+        { "n": 7, "phase": "approve", "title": "UCANS integration with State and National Single Window Systems (in progress)", "automated": "partial", "note": "Intended to cut down duplicate data entry; described as in progress, not yet complete." }
+      ],
+      "ed": { "date": "16-07-2026", "location": "Association of All Industries, Mandi deep Industrial Area, Bhopal, MP", "expert": "Adarsh Nayak", "designation": "Director, Madhya Pradesh Industrial Development Corporation (MPIDC)" },
+      "remarks": [
+        "Industries are willing to comply with regulation where the process is transparent, predictable and time-bound — the friction is less about the rules themselves and more about inconsistent application.",
+        "MPIDC officials were seen as comparatively responsive and more industry-friendly than several other departments."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Applicants across several services, BPA included, are still asked to visit offices and submit physical documents even after uploading everything online — a gap in implementation rather than in how ABPAS itself was designed." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Site plans, building drawings and layout plans are often submitted more than once, to different departments, even where the same material has already been uploaded online." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE", "CAPACITY"], "sentiment": "issue", "text": "Delays in building approvals are attributed to multiple approval levels, thin staffing in some departments, and continued manual processing despite the online system being in place." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Deemed approval provisions exist in policy for regulatory approvals generally, but are not recognised or applied uniformly by the concerned authorities in practice." },
+        { "source": "ed", "category": "pain", "tags": ["FEES", "DUPDOC"], "sentiment": "issue", "text": "Duplicate fees and demand notes were flagged as a live issue for Building Plan Approval specifically." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Multiple authorities are involved — MPIDC, Urban Administration, Municipal bodies and others — with overlapping jurisdiction between them." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY", "INFORMAL"], "sentiment": "issue", "text": "Heavy reliance on consultants to navigate the process was flagged as especially pronounced for BPA and Fire NOC." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "issue", "text": "Repeated, uncoordinated inspections by different departments were identified as part of the compliance burden." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Suggested reform: strengthen the Single Window System in practice and integrate approvals under MPIDC." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion", "text": "Suggested reform: enable inter-departmental data sharing and fully digitise the approval process end to end." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT", "CAPACITY"], "sentiment": "suggestion", "text": "Recommended adopting joint inspections and improving staffing in departments that currently cause bottlenecks." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Recommended ensuring deemed approval provisions are actually applied where timelines are exceeded." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "MPIDC's digital BPA process is considered among the leading examples of its kind in India." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Scrutiny against applicable building regulations happens automatically within ABPAS rather than through manual desk review, reducing manual intervention and improving consistency." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "MPIDC officials were seen as comparatively responsive and more industry-friendly than several other departments." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Risk-based classification was raised as a cross-cutting recommendation (not BPA-specific): low-risk industries should not face the same regulatory burden as high-risk ones." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No statutory or actual timeline figure for Building Plan Approval is given anywhere in the interview." },
+        { "flag": "MISSING", "text": "Validity period for a building plan approval is not discussed." },
+        { "flag": "VAGUE", "text": "Fee basis is described only as 'generated electronically by ABPAS' with no figures or fee structure given." },
+        { "flag": "VAGUE", "text": "Document checklist is not itemised beyond 'building drawings and plans'; the full requirement list is not stated." },
+        { "flag": "INCONSISTENT", "text": "The same ED report describes BPA as a fully online process via ABPAS per the expert, while its own broader-group-discussion section states applicants are still asked to visit offices and submit physical documents for BPA specifically." },
+        { "flag": "GOOD_PRACTICE", "text": "MPIDC's digital BPA process via ABPAS is described as among the leading examples of its kind in India, with automated scrutiny replacing manual desk review." },
+        { "flag": "REFORM", "text": "Recommended reforms: integrate approvals under MPIDC in a single institutional mechanism, strengthen Single Window integration in practice (not just policy), enable inter-departmental data sharing, and eliminate duplicate documentation/fees." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFile": "MP_ED_CTO.docx",
+      "issuingAuthority": "Madhya Pradesh Pollution Control Board (MPPCB)",
+      "portal": { "name": "MPPCB single-window online portal", "url": null },
+      "timeline": { "minDays": 21, "maxDays": 30, "basis": "Statutory processing window: 21 working days for Green and Orange category units, 30 working days for Red category units", "text": "Statutory timeline is 21 working days for Green and Orange category units and 30 working days for Red category units. In practice, the Board reports disposing of most applications within 15–20 days, with cases having complete documentation cleared in as little as 5–10 days." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Land document — allotment letter (where land is allotted by MPIDC/District Industries Centre) or registered sale deed plus land-use conversion/diversion certificate (where land is privately held)",
+        "Detailed project report, including manufacturing process and product list",
+        "Proposal for the applicable pollution-control arrangement (e.g. Effluent Treatment Plant, bag filter, cyclone)",
+        "Gross capital-investment certificate issued by a Chartered Accountant",
+        "Category self-declaration (Red/Orange/Green/White)"
+      ],
+      "documentsNote": "Category self-declaration is subsequently verified by the MPPCB.",
+      "deemedApproval": { "status": "no", "days": null, "text": "No formal deemed-approval clause currently exists for CTO — there is no automatic approval if the statutory timeline lapses. A 'Uniform Consent' guideline from last year allows MSME units in notified industrial areas a self-certification-style pathway, but it still requires fee payment and Board processing, so it is not yet a complete deemed-approval mechanism." },
+      "validity": { "text": "CTO is granted for a validity period of 5 years, after which the unit must apply for renewal (RCTO)." },
+      "fees": { "text": "Fee is not a flat amount; it is a slab-based figure computed on the gross capital investment of the unit, supported by a CA certificate, so cost differs between MSMEs and larger units. Where an application is rejected due to an applicant-side deficiency, the fee already deposited is retained by the Board and adjusted against a future application rather than refunded." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant registers on the MPPCB single-window portal", "automated": true, "note": "Creates login ID/password by furnishing basic details such as project cost and industry type/category." },
+        { "n": 2, "phase": "apply", "title": "Applicant fills industry-detail form", "automated": true, "note": "Covers water and air requirements, land and built-up area, residential surroundings, and approximate project cost." },
+        { "n": 3, "phase": "scrutiny", "title": "Portal auto-classifies the unit into Red/Orange/Green/White category", "automated": true, "note": "Based on manufacturing process and products declared, as per CPCB norms." },
+        { "n": 4, "phase": "apply", "title": "Applicant applies online for CTO, uploading requisite documents", "automated": true, "note": null },
+        { "n": 5, "phase": "scrutiny", "title": "Faceless online scrutiny; query raised if clarification needed", "automated": true, "note": "Applicant gets 7 days, extendable by 3, to respond; communicated via SMS/WhatsApp." },
+        { "n": 6, "phase": "fee", "title": "Statutory fee deposited", "automated": true, "note": "Reflects in the system within about 2 hours." },
+        { "n": 7, "phase": "approve", "title": "CTO granted; unit sets up required pollution-control arrangements", "automated": false, "note": "Physical installation undertaken by the applicant." },
+        { "n": 8, "phase": "apply", "title": "Applicant applies online for CTO at least 2 months before commissioning", "automated": true, "note": "Using the same registered ID, largely mirroring the CTE process; fee based on gross capital investment backed by a CA certificate." },
+        { "n": 9, "phase": "inspect", "title": "Board officer conducts physical site inspection", "automated": false, "note": "Verifies compliance with CTO conditions and pollution-control arrangements." },
+        { "n": 10, "phase": "approve", "title": "Inspection report submitted; CTO generated and delivered", "automated": true, "note": "Delivered automatically via WhatsApp/SMS with a barcode; no physical visit required to collect it." }
+      ],
+      "ed": { "date": "09-09-2026", "location": "Crystal IT Park, Khandwa road, Indore", "expert": "Mr. Sanjay Jain", "designation": "Chief Chemist, Madhya Pradesh Pollution Control Board (MPPCB)" },
+      "remarks": [
+        "This discussion formed part of the wider Cost of Regulation (CoR) 2.0 survey exercise covering 26 identified services, and was conducted offline with a Regional Officer of the Madhya Pradesh Pollution Control Board."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The entire CTE-to-CTO journey has been online and faceless since the portal went live in 2011; no physical visit is needed even for scrutiny or certificate collection." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "SMS/WhatsApp-based query and fee-payment notifications, together with barcode-enabled digital certificates, have cut down turnaround time for communication and certificate delivery." },
+        { "source": "ed", "category": "remarks", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "The statutory timeline has been progressively tightened over the years — from 45 days to 30 days to the current 21 days — while actual disposal has improved further to 15–20 days." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY", "POSITIVE"], "sentiment": "positive", "text": "A dedicated support desk (a staff member deputed at the MPIDC office) and regular seminars/workshops help first-time and MSME applicants who would otherwise depend on paid consultants. The Board also publishes daily data on applications received." },
+        { "source": "ed", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "The largest driver of delay beyond the achievable 5–10 day floor sits on the applicant's side: many units, particularly smaller ones, do not have pollution-control equipment finalised or correctly proposed at application time, requiring the Board to issue directions and wait for a revised proposal." },
+        { "source": "ed", "category": "pain", "tags": ["FEES", "COMPLY"], "sentiment": "issue", "text": "The relative cost of compliance is disproportionately higher for MSMEs: an ETP costing about ₹3 lakh works out to roughly 30% of a small unit's ₹15 lakh project cost, against only about 3% for a large unit with a project cost of ₹1 crore or more." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "No formal deemed-approval clause currently exists for CTO; there is no automatic approval if the statutory timeline lapses." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL", "OTHER"], "sentiment": "issue", "text": "The portal cannot distinguish between government-allotted and private land at the point of application, so this check is still made manually rather than through system validation, even though auto-fetching such records is technically feasible." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Explore system-level auto-validation of government land-allotment records from MPIDC to remove the manual land-document check in such cases." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Introduce an in-portal grievance-redressal module; escalation is currently limited to e-mail and phone contact with regional offices." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Build structured, mandatory pre-application guidance for MSME applicants on pollution-control-equipment requirements, to reduce query cycles and shorten average disposal time." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Formalise a deemed-approval clause for Green/White category units where the statutory timeline lapses, building on the existing MSME self-certification pathway." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Expedite the planned migration to the unified CPCB portal to bring pan-India standardisation to the process." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Units are classified Red, Orange, Green or White per CPCB norms based on pollution potential; this already drives statutory processing timeline and renewal validity, and could be extended to also differentiate inspection frequency and documentation depth by category." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Where an application is rejected on account of an applicant-side deficiency, the fee already deposited is not refunded — it is retained by the Board and can be adjusted against a future application by the same applicant." },
+        { "source": "ed", "category": "remarks", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "CTO is valid for 5 years, after which the unit must apply for renewal (RCTO)." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No deemed-approval clause exists for CTO; the interview does not describe any consequence or safeguard if the Board itself exceeds the statutory timeline." },
+        { "flag": "VAGUE", "text": "Fee is described only as 'slab-based on gross capital investment' with no actual fee table or numeric slabs given." },
+        { "flag": "GOOD_PRACTICE", "text": "Process has been fully online/faceless since 2011, with SMS/WhatsApp notifications and barcode-enabled digital certificate delivery requiring no physical office visit." },
+        { "flag": "GOOD_PRACTICE", "text": "Statutory timeline progressively tightened from 45 to 30 to 21 days, with actual disposal running further ahead at 15–20 days." },
+        { "flag": "REFORM", "text": "Recommended introducing an in-portal grievance-redressal module since escalation is currently limited to e-mail and phone contact with regional offices." },
+        { "flag": "REFORM", "text": "Recommended formalising a deemed-approval clause for Green/White category units, building on the existing MSME Uniform Consent self-certification pathway." },
+        { "flag": "MISSING", "text": "No breakdown given of what land-registry/diversion certificate requirements apply when land is privately held, beyond naming the document." }
+      ]
+    },
+    {
+      "serviceCode": "LA",
+      "serviceName": "Land Allotment",
+      "sourceFile": "MP_ED_LA.docx",
+      "issuingAuthority": "Madhya Pradesh Industrial Development Corporation (MPIDC), with registration completed through the Registration Department's Cyber Sub-Registry system.",
+      "portal": { "name": "Sampada 2.0 portal / Cyber Sub-Registry system", "url": null },
+      "timeline": { "minDays": 29, "maxDays": 29, "basis": "Intended timeline for the Land Allotment process as a whole, as stated by the expert", "text": "29 days is the intended timeline for the Land Allotment process as a whole. Within that, the Letter of Intent (LOI) is issued within 7 days and functions as a deemed approval, so applicants are not waiting on it before proceeding with subsequent steps." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": ["Documents uploaded online through the Cyber Sub-Registry system (not itemised)", "PAN", "GST registration", "Aadhaar"],
+      "documentsNote": "The interview itself does not give a further itemised checklist for Land Allotment beyond documents uploaded via the Cyber Sub-Registry system. PAN, GST registration and Aadhaar are named in the broader group discussion as documents that tend to get submitted repeatedly across services, not as an LA-specific checklist from the expert.",
+      "deemedApproval": { "status": "yes", "days": 7, "text": "The Letter of Intent is issued within 7 days and operates as a deemed approval, letting the applicant proceed with subsequent formalities without waiting for further sign-off. At the policy level, the broader discussion flagged inconsistent recognition and implementation of deemed approval provisions as a cross-cutting issue, Land Allotment included." },
+      "validity": { "text": "Not discussed in the interview." },
+      "fees": { "text": "Not discussed for Land Allotment specifically in the interview. The broader group discussion flagged duplicate fees and taxes as a recurring issue during land transfers." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Industrial plot allotted via forward auction mechanism", "automated": null, "note": "Mechanism not described as online or manual in the interview." },
+        { "n": 2, "phase": "approve", "title": "Letter of Intent (LOI) issued within 7 days", "automated": null, "note": "Functions as a deemed approval." },
+        { "n": 3, "phase": "approve", "title": "Letter of Allotment (LOA) generated", "automated": null, "note": null },
+        { "n": 4, "phase": "apply", "title": "Applicant completes registration through the Sampada 2.0 portal", "automated": true, "note": null },
+        { "n": 5, "phase": "apply", "title": "Registration carried out through the Cyber Sub-Registry system", "automated": true, "note": null },
+        { "n": 6, "phase": "apply", "title": "Required documents uploaded online; appointment scheduled electronically", "automated": true, "note": null },
+        { "n": 7, "phase": "scrutiny", "title": "Tripartite video conference held with concerned stakeholders", "automated": true, "note": "Replaces an in-person meeting." },
+        { "n": 8, "phase": "approve", "title": "Property registration completed digitally", "automated": true, "note": "Cuts down the need for repeat physical visits." }
+      ],
+      "ed": { "date": "16-07-2026", "location": "Association of All Industries, Mandi deep Industrial Area, Bhopal, MP", "expert": "Adarsh Nayak", "designation": "Director, Madhya Pradesh Industrial Development Corporation (MPIDC)" },
+      "remarks": [
+        "Participants spoke positively of MPIDC's role in maintaining industrial infrastructure — roads, street lighting, drainage and water supply.",
+        "MPIDC officials were generally seen as more responsive and industry-friendly than several other departments."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The registration leg of Land Allotment is genuinely well digitised through the Cyber Sub-Registry system, with online document upload and electronic appointment scheduling." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "A video-conference-based tripartite verification is used in place of an in-person meeting, and property registration itself is executed digitally." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "The broader group discussion suggests the registration leg isn't the whole picture on the ground — industries said they still run into physical document submission and in-person departmental visits more generally, even where a service is nominally online." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Identity and business documents (PAN, GST registration, Aadhaar) tend to get submitted repeatedly across services." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Documents already filed with MPIDC are sometimes asked for again by the Registration Department and other authorities." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Multiple departments are involved — MPIDC, the Registration Department and the Sampada portal — resulting in a fragmented overall process for transferring industrial plots." },
+        { "source": "ed", "category": "pain", "tags": ["FEES", "DUPDOC"], "sentiment": "issue", "text": "Duplicate fees and taxes were flagged as a recurring issue during land transfers, including duplicate stamp duty and registration-related charges." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Existing land allotment norms are seen as allowing speculative acquisition of plots, limiting access for genuine entrepreneurs." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "The group discussion flagged inconsistent recognition and implementation of deemed approval provisions as a cross-cutting issue, Land Allotment included." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Suggested reforms: simplify land transfer procedures and resolve the duplicate stamp duty and registration issue." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Further suggested reforms: integrate departments and enable data sharing, minimise physical interaction, and strengthen the Single Window System." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Recommended implementing deemed approval provisions effectively, rather than leaving them as policy on paper." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Recommended reviewing eligibility norms to guard against speculative plot acquisition and improve access for genuine entrepreneurs." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "MPIDC's digital Land Allotment process is regarded as among the leading practices of its kind in India." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "MPIDC officials were generally seen as more responsive and industry-friendly than several other departments, and participants spoke positively of MPIDC's role in maintaining industrial infrastructure." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Fees for Land Allotment specifically are not discussed in the interview; only the broader group discussion's remark on duplicate fees/taxes during land transfers is available." },
+        { "flag": "MISSING", "text": "Validity period for Land Allotment is not discussed." },
+        { "flag": "VAGUE", "text": "Documentation requirement is not itemised beyond 'required documents uploaded online'; the LA-specific checklist is not given by the expert." },
+        { "flag": "INCONSISTENT", "text": "The expert describes the registration leg as 'genuinely well digitised' with reduced need for repeat physical visits, while the same report's broader group discussion states industries still run into physical document submission and in-person visits generally — flagged in the document itself as a stakeholder-experience gap rather than a contradiction." },
+        { "flag": "GOOD_PRACTICE", "text": "Letter of Intent issued within 7 days functions as a deemed approval; tripartite video conferencing replaces physical meetings for registration verification." },
+        { "flag": "REFORM", "text": "Recommended integrating departments with genuine data sharing, minimising physical interaction, and reviewing eligibility norms against speculative plot acquisition." }
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFile": "MP_ED_RCTO.docx",
+      "issuingAuthority": "Madhya Pradesh Pollution Control Board (MPPCB)",
+      "portal": { "name": "MPPCB single-window online portal (same as used for CTO)", "url": null },
+      "timeline": { "minDays": 21, "maxDays": 30, "basis": "Same statutory window as CTO: 21 working days for Green/Orange category units, 30 working days for Red category units", "text": "Same statutory window as CTO: 21 days for Green/Orange category units and 30 days for Red category units. Actual disposal is reported at 15–20 days in most cases, in line with the fresh CTO experience." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Same document set as earlier submitted for CTO (land document, project report, manufacturing process details, pollution-control arrangement/CA capital-investment certificate) — need not be resubmitted where there is no change",
+        "Incremental documents relevant to an expansion or a change of directors (only where applicable)"
+      ],
+      "documentsNote": "Green category units can avail an auto-renewal facility with minimal fresh documentation.",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed-approval clause exists specifically for renewal. However, the auto-renewal facility already available to Green category units functions as a de facto simplified/near-automatic renewal route, and could serve as a template for extending deemed-approval treatment to other low-risk categories." },
+      "validity": { "text": "Renewal is granted for 5, 10 or 15 years depending on category. Green category units get the longest validity (up to 15 years), while other categories are typically renewed for shorter periods." },
+      "fees": { "text": "Same fee structure as fresh CTO — a slab-based amount linked to gross capital investment. Simple amendments, such as correcting a typographical error or a name change where the director remains unchanged, do not attract any fee. A fee applies where directors change, and the applicant is required to intimate such a change within a year." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Unit logs in with existing registered PCB ID", "automated": true, "note": "At least 6 months before expiry of the existing CTO, on the same MPPCB portal." },
+        { "n": 2, "phase": "apply", "title": "Applicant applies online for renewal, referencing documents already on record", "automated": true, "note": "Green category units with no change can go through the auto-renewal route." },
+        { "n": 3, "phase": "apply", "title": "Incremental documents submitted where there is an expansion or change (e.g. change of directors)", "automated": "partial", "note": "The earlier document set does not need to be resubmitted in full." },
+        { "n": 4, "phase": "fee", "title": "Fee computed afresh on gross capital investment, backed by a fresh CA certificate", "automated": true, "note": "Follows the same fee structure used for CTO." },
+        { "n": 5, "phase": "scrutiny", "title": "Application undergoes same faceless online scrutiny as a fresh CTO application", "automated": true, "note": "7-day (plus 3-day) query-response window if clarification is needed." },
+        { "n": 6, "phase": "fee", "title": "Fee deposit confirmed online", "automated": true, "note": "Reflects in the system within about 2 hours." },
+        { "n": 7, "phase": "inspect", "title": "Site inspection carried out to verify continued compliance", "automated": false, "note": "Checks consent conditions before renewal is granted." },
+        { "n": 8, "phase": "approve", "title": "RCT issued and delivered via WhatsApp/SMS with a barcode", "automated": true, "note": "No physical visit needed to collect it." }
+      ],
+      "ed": { "date": "09-09-2026", "location": "Crystal IT Park, Khandwa Road, Indore", "expert": "Mr. Sanjay Jain", "designation": "Chief Chemist, Madhya Pradesh Pollution Control Board (MPPCB)" },
+      "remarks": [
+        "Renewal-related queries formed the concluding part of a broader discussion on the Consent to Establish/Operate lifecycle, held offline under the Cost of Regulation (CoR) 2.0 survey exercise with a Regional Officer of the Madhya Pradesh Pollution Control Board."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "RENEWAL", "POSITIVE"], "sentiment": "positive", "text": "An auto-renewal facility is already operational for Green category units, cutting both documentation and turnaround time." },
+        { "source": "ed", "category": "remarks", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "The renewal timeline has followed the same downward trend as CTO — from 45, to 30, to the current 21 days statutorily — with 15–20 days achieved in practice." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "WhatsApp/SMS-based fee and certificate delivery, with barcode, applies equally to renewal, removing the need for any physical office visit." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL", "NORMS"], "sentiment": "issue", "text": "No deemed-approval clause exists specifically for renewal, though the Green-category auto-renewal facility functions as a de facto near-automatic route." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants are currently asked to reference/resubmit the same documents already available with the Board from the earlier CTO, even though these could in principle be auto-fetched internally except where an actual change (such as expansion) has occurred." },
+        { "source": "ed", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "As with fresh CTO, delays mostly stem from the applicant's own preparedness, particularly where an expansion triggers a fresh proposal-and-review cycle for pollution-control arrangements." },
+        { "source": "ed", "category": "suggestions", "tags": ["RENEWAL", "NORMS"], "sentiment": "suggestion", "text": "Extend the auto-renewal facility, currently limited to Green category units, to other low-risk categories with a clean compliance record (e.g. well-performing Orange units)." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "DUPDOC"], "sentiment": "suggestion", "text": "Enable system-level auto-fetch of previously submitted CTO documents for renewal cases with no material change, rather than requiring the applicant to reference/resubmit them." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Publish a clear, category-wise renewal validity and fee schedule on the portal, so applicants know upfront which validity period (5/10/15 years) and fee slab applies to them." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Introduce a structured in-portal grievance mechanism for renewal applications, mirroring the recommendation made for fresh CTE/CTO." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Continue and expedite migration to the unified CPCB portal for pan-India consistency in renewal processing." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL", "NORMS"], "sentiment": "neutral", "text": "The Red/Orange/Green/White classification directly determines renewal validity (up to 15 years for Green, shorter for higher-risk categories) and also underpins the Green-category auto-renewal facility." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Simple amendments such as correcting a typographical error or a name change without a director change attract no fee; a fee applies only where directors change, which must be intimated within a year." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No deemed-approval clause exists for renewal specifically; the interview does not describe any consequence or safeguard if the statutory renewal timeline lapses outside the Green-category auto-renewal route." },
+        { "flag": "VAGUE", "text": "Fee is described only as the 'same fee structure as fresh CTO — slab-based' with no numeric slabs given for renewal." },
+        { "flag": "GOOD_PRACTICE", "text": "Auto-renewal facility already operational for Green category units, cutting documentation and turnaround time; WhatsApp/SMS barcode-based certificate delivery removes the need for a physical visit." },
+        { "flag": "REFORM", "text": "Recommended extending the auto-renewal/minimal-documentation route to other low-risk categories, enabling system-level auto-fetch of previously submitted documents, publishing a clear validity/fee schedule, and adding an in-portal grievance mechanism." }
+      ]
+    }
+  ]
+}

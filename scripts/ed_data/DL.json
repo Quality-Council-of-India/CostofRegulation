@@ -1,0 +1,178 @@
+{
+  "code": "DL",
+  "name": "Delhi",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFile": "Delhi_ED_CTE.docx",
+      "issuingAuthority": "Delhi Pollution Control Committee (DPCC), Department of Environment, Govt. of NCT of Delhi",
+      "portal": { "name": "DPCC OCMMS Portal; for Delhi specifically, applications are also routed through the MHA Single Window Portal to DPCC, Delhi Fire Service (DFS) and the Municipal Corporation of Delhi (MCD)", "url": null },
+      "timeline": {
+        "minDays": 0,
+        "maxDays": 49,
+        "basis": "White Category: instant/same-day auto-generated certificate on fee payment, no physical scrutiny. Green Category 1 CTE is auto-issued on submission of process-flow/manufacturing details and fee. Where routed via the MHA Single Window Portal, each of DPCC/DFS/MCD has a statutory 49-working-day response timeline.",
+        "text": "Timeline depends heavily on category: White is auto-generated instantly on fee payment; Green Category 1 CTE is auto-issued (valid 1 year) on submission of the prescribed details; Green 2B/Orange/Red require committee-level review. A 49-working-day statutory response window applies to each department under the MHA Single Window Portal routing used in Delhi."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Application Form",
+        "Consent Fee",
+        "Undertaking in prescribed format duly signed by applicant",
+        "Project Report (unit details, proposed capital investment, activities, number of workers/employees, manufacturing process flow chart, raw materials, products & by-products with quantity per day, water consumption & discharge details, source of waste water/emissions, proposed pollution control system/measures)",
+        "Layout plan showing unit dimensions and boundary",
+        "Proof of possession of plot/allotment letter/lease deed, or valid rent agreement for rented premises",
+        "PAN Card of the industrial unit/proprietor/HCU",
+        "Original authorization letter (except for an individual proprietary concern)",
+        "For units in an MPD 2021 redevelopment area (Green Category): longitude and latitude of the unit in a self-certified undertaking",
+        "For units in an MPD 2021 redevelopment area (Orange/Red Category): one proof of date of establishment prior to 07.02.2007 (e.g. DPCC order/direction, Municipal Corporation Licence, Factories Act registration, BIS Licence, Sales Tax registration, Income Tax return, SSI registration, Excise registration, Drug licence, manufacturer's certificate, landline telephone bill, or power bill), plus longitude and latitude in a self-certified undertaking",
+        "White Category only: PAN, Aadhaar, proprietor details, business/residential address, activity, and area details"
+      ],
+      "documentsNote": "Document requirements differ by category (White / Green / Orange / Red) per Annexure B of the ED report and the Application Process Flow description.",
+      "deemedApproval": {
+        "status": "yes",
+        "days": 21,
+        "text": "A 21-working-day deemed-approval clause applies to White and Green Category applications (Green Category 1 CTO specifically named) if no objection is raised by the department; no deemed approval applies to Orange/Red categories."
+      },
+      "validity": {
+        "text": "CTE validity is stated as 1 year across categories, intended to allow machinery installation and trials. Separately, the expert cited a fixed one-time fee of ₹10,000 for lifetime validity under the White Category — see gap flag for this inconsistency."
+      },
+      "fees": {
+        "text": "Fee is per the DPCC Board-approved slabs (Annexure A): CTE fee for industrial units scales by capital investment, e.g. ₹100 (Green) / ₹500 (Orange) up to ₹5 lakh investment, rising to ₹5,00,000 (Green) / ₹10,00,000 (Orange) above ₹500 crore; housing/commercial/IT/infrastructure projects are charged by built-up area (₹2,00,000 up to 20,000 sq.m, rising to ₹10,00,000 above 2,00,000 sq.m). White Category: a cited one-time fee of ₹10,000 (not corroborated in the DPCC fee document reviewed). Separately, the MHA Single Window Portal charges a ₹1,000 fee that officials describe as a source of payment delays."
+      },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Create account and check industry category", "automated": true, "note": "Visit the DPCC OCMMS Portal, create an account, and check the applicable category (White, Green, Orange, or Red)." },
+        { "n": 2, "phase": "apply", "title": "Fill CTE application form", "automated": "partial" },
+        { "n": 3, "phase": "fee", "title": "Upload documents and pay fee", "automated": "partial", "note": "Fee is based on project cost; for Delhi, ₹1,000 is also paid on the linked MHA portal." },
+        { "n": 4, "phase": "scrutiny", "title": "Payment verification and jurisdictional routing", "automated": "partial", "note": "Accounts department verifies payment (1-2 working days), then the file moves to the District Dealing Officer/Cell In-Charge based on jurisdiction." },
+        { "n": 5, "phase": "scrutiny", "title": "White Category: auto-generated registration certificate", "automated": true, "note": "No physical scrutiny at this stage." },
+        { "n": 6, "phase": "scrutiny", "title": "Green Category 1: auto-issued CTE", "automated": true, "note": "Valid for 1 year to allow machinery installation and trials." },
+        { "n": 7, "phase": "scrutiny", "title": "Green 2B / Orange 2B: committee review", "automated": false, "note": "2B Committee chaired by the Member Secretary, meets once or twice a month, reviews roughly 150-200 cases per meeting." },
+        { "n": 8, "phase": "scrutiny", "title": "Orange 2A / Red: committee review with external experts", "automated": false, "note": "Chaired by the DPCC Chairman, ~5 members including an outside expert, subject to quorum." },
+        { "n": 9, "phase": "scrutiny", "title": "Multi-department routing for Delhi", "automated": true, "note": "MHA Single Window Portal simultaneously forwards the file to DPCC, Delhi Fire Service, and MCD, each with a 49-working-day response timeline." },
+        { "n": 10, "phase": "approve", "title": "Download digital certificate", "automated": true, "note": "Downloaded once approved." }
+      ],
+      "ed": { "date": "27-Aug-2026", "location": "Delhi Pollution Control Committee (DPCC) Office, IT Park Delhi", "expert": "Mr. Harshit", "designation": "Junior Environment Engineer, Delhi Pollution Control Committee (DPCC)" },
+      "remarks": [
+        "DPCC's own internal process was described as already running close to peak efficiency with minimal pendency, aided by close oversight (cases pending beyond a cut-off date invite direct action against officers; special committee meetings clear backlogs), including direct Lieutenant Governor involvement.",
+        "New Red-category CTE applications are now described as negligible since the NGT banned new water-polluting industries in Delhi; most Red-category applications are now CTO renewals for existing units.",
+        "Fee structures, categorisation, and consent-related rules are state-specific; Environment Clearance (EC) for very large investments (above ₹500 crore in Orange, or built-up area above 20,000 sq.m for Red) is handled separately via the State level appraisal committee (SIAC), not DPCC directly."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "FEES", "DELAY"], "sentiment": "issue", "text": "The CTE application is linked to the MHA departmental portal where the applicant pays a ₹1,000 fee; this payment step often takes time, and technical issues on it delay the approval process, which the expert described as very painful for users." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Even where an applicant already holds a valid Fire NOC and MCD trade licence, a DPCC-only consent application is still routed through all three departments on the single-window portal, requiring the DPCC officer to manually upload, verify and mark the already-held clearance as 'disposed' — adding administrative load without regulatory value." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "CLARITY"], "sentiment": "suggestion", "text": "Suggested reform: fix the MHA portal so minor clarifications or small fee shortfalls do not trigger automatic rejection and loss of the application fee." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion", "text": "Suggested reform: allow applicants who need only a single specific clearance (e.g. DPCC CTE/CTO) to apply directly on the departmental portal instead of being mandatorily routed through all three integrated departments." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS", "TIMELINE"], "sentiment": "neutral", "text": "Deemed approval (21 working days, if no objection raised) currently applies only to White and Green Category applications; no deemed approval applies to other categories." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Orange 2B approval practically takes around 60 days against a roughly 30-day protocol, and Red category takes 90 to 120 days — roughly twice the Orange timeline." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "DPCC operates a risk-based classification (White/Green 1/Green-Orange 2A-2B/Red) that directly drives both the approval pathway (exemption from inspection, auto-issue, or committee scrutiny) and inspection frequency (Red every 6 months, Orange annually, Green/White only surprise or complaint-triggered)." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY"], "sentiment": "neutral", "text": "The officer felt DPCC's internal process is already close to optimum capacity; further timeline reduction would require increased staffing or across-the-board same-day processing, with the clearer scope for improvement lying in fixing the MHA Single Window Portal's external routing and auto-rejection issues." },
+        { "source": "ed", "category": "remarks", "tags": ["RENEWAL", "POSITIVE"], "sentiment": "positive", "text": "An auto-renewal mechanism — uploading the previous consent plus the latest third-party test reports to auto-renew, bypassing the full 60/90-day committee cycle — was highlighted as an effective internal DPCC practice that significantly reduces the renewal burden across Green, Orange and Red categories." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The White category's self-declaration, no-inspection, auto-generated-certificate model (based only on PAN and Aadhaar for negligible-pollution activities) was described as an efficient practice." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "DPCC retains the power to conduct random/surprise inspections at any time and can revoke consent if false documentation or non-compliance is detected." },
+        { "source": "ed", "category": "procedural", "tags": ["DUPDOC", "COMPLY"], "sentiment": "neutral", "text": "Ongoing/renewal compliance includes a Chartered Accountant certificate on capital investment, a Noise Monitoring Report of the D.G. set (not older than six months), CETP membership proof where applicable, and a copy of the electricity bill; Orange Category CTO/renewal additionally requires ETP/STP effluent analysis and stack monitoring reports." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "Fee structures, categorisation and consent-related rules are state-specific — each state maintains its own schedule — and Environment Clearance for very large investments is handled separately through the State level appraisal committee (SIAC) rather than DPCC directly." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY", "POSITIVE"], "sentiment": "positive", "text": "Recent close oversight, including direct Lieutenant Governor involvement, has driven DPCC's internal disposal timeline down to what the officer described as close to optimum capacity." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "New Red-category CTE applications are now negligible since the NGT banned new water-polluting industries in Delhi; most current Red-category applications are CTO renewals for existing units." }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "The ED states 'CTE validity: 1 year across categories' but separately cites a fixed one-time ₹10,000 fee for 'lifetime validity' under the White Category — these two statements about White Category validity directly conflict within the same document." },
+        { "flag": "VAGUE", "text": "The approval-timeline figures (21-day deemed approval, ~60-day Orange, 90-120-day Red) are given under a combined 'Approval Timeline / Validity' heading for the CTE discussion, but only the Green-category figure is explicitly labelled 'CTO'; it is unclear whether the Orange/Red figures describe CTE issuance, CTO issuance, or both." },
+        { "flag": "MISSING", "text": "No explicit CTE-specific approval duration is given for Orange 2B/Red category CTE issuance — only committee meeting frequency (once or twice a month, ~150-200 cases/meeting) is stated, not a days-to-approval figure." },
+        { "flag": "GOOD_PRACTICE", "text": "DPCC's auto-renewal mechanism (upload previous consent plus latest third-party test reports) bypasses the full 60/90-day committee cycle and was flagged by the officer as a model that could be replicated for recurring approvals elsewhere." },
+        { "flag": "GOOD_PRACTICE", "text": "White Category's instant, no-inspection, auto-generated-certificate model based only on PAN and Aadhaar for negligible-pollution activities." },
+        { "flag": "REFORM", "text": "Fix the MHA Single Window Portal's rigid auto-rejection mechanism for minor clarifications/fee shortfalls, and allow single-clearance applicants to bypass mandatory three-department routing." },
+        { "flag": "MISSING", "text": "No precise same-day/turnaround figure is stated for White Category registration beyond 'auto-generated on payment of fee, with no physical scrutiny'." },
+        { "flag": "VAGUE", "text": "The expert-cited one-time ₹10,000 White Category lifetime fee is not found in, or corroborated by, the DPCC fee-structure document (Annexure A) reviewed for this report, which covers only Green/Orange slabs and the health-care establishment schedule." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFile": "Delhi_ED_FNOC.docx + Delhi_ED_FNOC_1.docx",
+      "issuingAuthority": "Delhi Fire Service (DFS), Government of NCT of Delhi (not itself the licensing/application-receiving authority — applications reach DFS automatically through the concerned building authority's portal, e.g. MCD)",
+      "portal": { "name": "No standalone Fire NOC portal; the building plan is submitted via the concerned building authority's (MCD) online portal under the Unified Building Bye-Laws, which automatically and simultaneously routes the plan to DFS's own dashboard for NOC review", "url": null },
+      "timeline": {
+        "minDays": 21,
+        "maxDays": 45,
+        "basis": "Officials state an ideal processing time of around 30 days for fully compliant applications; a 21-day service-level timeline has also been proposed as a tightened target. In practice, actual duration often stretches to 40-45 days or longer where deficiencies require multiple rounds of compliance and re-inspection.",
+        "text": "Ideal/target processing is around 30 days (21 days under a proposed, tighter SLA), but actual duration commonly stretches to 40-45+ days when deficiencies trigger repeated compliance and re-inspection cycles. Physical inspection itself can take several hours for high-rise buildings and two to three days for more complex structures."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Building plan incorporating the prescribed fire-prevention and fire-safety provisions",
+        "Fire Fighting Scheme Drawings marking extinguisher locations, hose reels, hydrants, and smoke alarms",
+        "Architect Completion Certificate",
+        "Compliance/rectification submission against deficiencies communicated by the Fire Service",
+        "Testing records for active fire alarms, wet risers, and automated sprinklers",
+        "Occupancy Certificate documentation (processed through the concerned building authority after construction)",
+        "Earlier/renewal-era requirement: annual Form K self-declaration regarding operational fire-safety systems",
+        "Under the proposed third-party model: auditor registration/details and prescribed inspection/compliance forms submitted through the portal"
+      ],
+      "documentsNote": "The Form K self-declaration is described as part of an 'earlier' renewal system, and the auditor-registration/compliance forms belong to a third-party model still under discussion — not all items apply to a single fresh application simultaneously.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Deemed approval is not an established mechanism for Fire NOC. Its possible introduction was discussed, but would require changes to the existing framework along with strong accountability, verification and enforcement safeguards so life-safety requirements are not diluted."
+      },
+      "validity": {
+        "text": "Validity is not fixed; it depends on the type of building and generally ranges from 3 to 5 years. Under the earlier process, an annual Form K self-declaration was additionally submitted during the validity period."
+      },
+      "fees": {
+        "text": "The statutory application fee for Fire NOC is zero/nil. Under the proposed third-party auditor system, the applicant pays/enters the auditor's fee through the portal, and the department releases that fee to the auditor within 24 hours under the stated procedure." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Submit building plan via building-authority portal", "automated": true, "note": "Submitted through the MCD/building authority's online portal under the Unified Building Bye-Laws (UBBL)." },
+        { "n": 2, "phase": "apply", "title": "Automatic routing to Fire Service dashboard", "automated": true, "note": "The portal automatically and simultaneously routes the plan to DFS and other required departments for their NOCs; the applicant does not separately apply to DFS." },
+        { "n": 3, "phase": "scrutiny", "title": "DFS structural/fire-safety design review", "automated": "partial", "note": "A DFS fire officer reviews the design against Part 4 of the National Building Code — fire escape stairs, fire equipment design, ventilation, emergency exits." },
+        { "n": 4, "phase": "approve", "title": "Provisional NOC / Fire Fighting Scheme Approval issued", "automated": "partial", "note": "If compliant, DFS uploads the Provisional NOC to the single-window dashboard, allowing the municipal body to sanction the building plan; if deficient, the applicant rectifies and resubmits." },
+        { "n": 5, "phase": "apply", "title": "Apply for final/operational NOC after construction", "automated": "partial", "note": "Once construction is complete and fire-safety equipment is installed and active, the applicant applies for the final operational license via the Occupancy Certificate process." },
+        { "n": 6, "phase": "inspect", "title": "Physical site inspection", "automated": false, "note": "DFS inspection team conducts a site visit under Rule 35 — pressure-tests hydrants, triggers smoke alarms, checks exit widths, backup power, tanks, basements, and plan conformance." },
+        { "n": 7, "phase": "approve", "title": "Fire Safety Certificate (FSC) issued", "automated": "partial", "note": "Issued if minimum requirements are met; where shortcomings remain, the applicant must comply first, followed by re-inspection." },
+        { "n": 8, "phase": "renew", "title": "Earlier system: annual Form K self-declaration", "automated": false, "note": "Owner submits an annual self-declaration; a physical inspection was also carried out at the time of renewal." },
+        { "n": 9, "phase": "renew", "title": "Proposed third-party auditor model", "automated": "partial", "note": "Empanelled auditors conduct inspection/certification; the Fire Service retains records and undertakes sample verification; auditor fee is paid via the portal and released within 24 hours." }
+      ],
+      "ed": { "date": "12-Aug-2026", "location": "Delhi Fire Service Headquarters", "expert": "A K Malik", "designation": "Chief Fire Officer, Delhi Fire Service, Government of NCT of Delhi" },
+      "remarks": [
+        "Delhi_ED_FNOC.docx and Delhi_ED_FNOC_1.docx are two recordings of the SAME Expert Discussion — identical date (12-Aug-2026), same expert (A K Malik), same location (Delhi Fire Service Headquarters), same 'Service(s) Discussed: Fire NOC' header, and near-identical content across every theme (timeline figures, zero statutory fee, 3-5 year validity, deemed-approval discussion, recommendations). FNOC_1 gives a more granular two-stage process narrative (explicitly naming 'Stage 1: Pre-Construction Clearance/Provisional NOC' and 'Stage 2: Post-Construction Clearance/Final FSC', naming the MCD portal, and listing more documents — Fire Fighting Scheme Drawings, Architect Completion Certificate, testing records). FNOC alone retains detail on the proposed third-party auditor fee-release mechanism and a few additional reform remarks not repeated in FNOC_1. This is treated as ONE license entry for serviceCode FNO (not a genuine FNO/RFNO split), merging both files' content, because both describe the same end-to-end initial-NOC-through-FSC process rather than a distinct renewal-specific discussion.",
+        "Expert recommended examining international fire-safety systems, particularly the Australian model, as a reference point for reform.",
+        "Unauthorized buildings may not be capable of being retrofitted to all required fire-safety standards; the expert said a clear government policy and responsibility framework is required for such cases.",
+        "The expert raised concerns about transferring life-safety responsibility to private actors (the third-party auditor model) without a sufficiently mature accreditation and accountability framework in place first."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["TIMELINE", "DELAY"], "sentiment": "issue", "text": "Actual processing time often stretches to 40-45 days or longer against an ideal of around 30 days, particularly where deficiencies require multiple rounds of compliance and re-inspection." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "A 21-day service-level timeline has been proposed as a further tightening of the current ~30-day ideal processing target." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE", "INSPECT"], "sentiment": "neutral", "text": "Physical inspection itself can take several hours for high-rise buildings, while more complex structures may need two to three days to complete." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "The statutory application fee for Fire NOC is zero/nil." },
+        { "source": "ed", "category": "policy", "tags": ["INTERDEP", "PORTAL"], "sentiment": "positive", "text": "The Fire Service is not itself the licensing authority; applications are automatically routed to DFS's dashboard once submitted to the building authority (MCD), so applicants do not separately apply to DFS." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "There is a potential duplication concern where third-party inspection under the proposed model is followed by another Fire Service verification." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY", "COMPLY"], "sentiment": "issue", "text": "Multiple rounds of communication, compliance submission and re-inspection can materially increase the time required to obtain the Fire Safety Certificate." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Limited departmental manpower simultaneously handles applications, inspections, fire calls, court matters and enforcement." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Third-party auditing is being introduced to address manpower constraints and reduce the direct inspection burden on the Fire Service." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "An independent accreditation and accountability framework for third-party auditors is recommended before large-scale implementation of the third-party model." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Define auditor qualifications, competency benchmarks, training, certification, independence, accountability and penalties for non-compliance." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Prevent conflicts of interest, including situations where contractors audit or certify fire-safety systems they themselves installed." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Retain risk-based and outcome-focused verification rather than reducing inspection to a simple equipment count." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP", "CLARITY"], "sentiment": "suggestion", "text": "Clarify the respective responsibilities of the Fire Service and the local building authority, particularly for occupancy changes and unauthorized buildings." },
+        { "source": "ed", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Use digital alerts and monitoring mechanisms for expiry, renewal and self-declaration requirements." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Deemed approval is not currently an established mechanism; its possible introduction was discussed but would require framework changes plus robust accountability, verification and enforcement measures." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "issue", "text": "Unauthorized buildings may not be capable of being retrofitted to all required fire-safety standards; a clear government policy and responsibility framework is required." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "issue", "text": "The expert raised concerns about transferring life-safety responsibility to private actors without a sufficiently mature accreditation and accountability framework." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "suggestion", "text": "The expert recommended examining international fire-safety systems, particularly the Australian model, and said the third-party model can be strengthened through independent verification and sample-based checks by the Fire Service." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "Validity is not fixed and generally ranges from 3 to 5 years depending on the type of building." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No standalone Fire NOC portal name or URL is given — DFS receives applications via the building authority's (MCD) portal/dashboard, but that integrated system is not separately named or linked." },
+        { "flag": "VAGUE", "text": "The 30-day ideal, 21-day proposed SLA, and 40-45+ day actual timeline figures are presented as officials' general statements, not tied to a specific statutory rule, order, or notification." },
+        { "flag": "GOOD_PRACTICE", "text": "Automatic single-window routing of the plan from the building authority's portal to the DFS dashboard removes the need for a separate applicant filing to the Fire Service." },
+        { "flag": "REFORM", "text": "Proposed third-party empanelled-auditor inspection/certification model, with the Fire Service retaining records and sample verification and releasing auditor fees within 24 hours, is still under discussion and not yet a finalized mechanism." },
+        { "flag": "MISSING", "text": "The precise criteria determining where a building falls within the 3-5 year validity range by 'type of building' are not specified." },
+        { "flag": "INCONSISTENT", "text": "FNOC_1 omits the proposed third-party auditor fee-release process and several reform/recommendation details (independent accreditation framework before large-scale implementation, 'deregulation should simplify procedures without reducing minimum standards') that appear in FNOC — the two recordings of the same session capture somewhat different levels of detail; this merged entry draws on both." },
+        { "flag": "MISSING", "text": "It is not stated whether the 'earlier system's' annual Form K self-declaration is still in force today, has been fully replaced by the proposed third-party model, or both coexist." }
+      ]
+    }
+  ]
+}

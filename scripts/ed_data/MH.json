@@ -1,0 +1,123 @@
+{
+  "code": "MH",
+  "name": "Maharashtra",
+  "licenses": [
+    {
+      "serviceCode": "APW",
+      "serviceName": "Authorization for Plastic Waste",
+      "sourceFile": "MH_ED_APW.docx",
+      "issuingAuthority": "Maharashtra Pollution Control Board, Government of Maharashtra (registration itself is granted via the national EPR portal maintained by the Central Pollution Control Board)",
+      "portal": { "name": "National EPR Portal maintained by the Central Pollution Control Board (CPCB) — a nationwide single window, not State-specific", "url": null },
+      "timeline": { "minDays": 15, "maxDays": 15, "basis": "Prescribed under the Plastic Waste Management Rules", "text": "Registration must be granted within 15 days of application, as laid down in the Plastic Waste Management Rules; the same 15-day timeline applies to amendment applications and uniformly to all categories of applicants." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": ["PAN card", "Aadhaar card", "Industry registration", "Consent to Operate application/number"],
+      "documentsNote": "Document count varies by applicant category: 18 documents for plastic waste processors, 13-14 for medium/large producers, importers and brand owners, and 4 for micro and small enterprises. Only PAN card, Aadhaar card, industry registration and the Consent to Operate application were individually named in the ED; the full category-wise lists were not detailed. No fresh documents need to be generated — existing documents already held by the enterprise are uploaded.",
+      "deemedApproval": { "status": "no", "days": 15, "text": "Deemed approval is provided for under the Plastic Waste Management Rules, but the provision is not operational in practice at present." },
+      "validity": { "text": "Registration is granted for lifetime with no renewal requirement. Amendment is needed only to change the registered quantity or similar particulars; a change in ownership or property requires a fresh registration rather than an amendment." },
+      "fees": { "text": "The fee is paid online at the time of application and depends on the tonnage of plastic recycled by the respective industry; exact fee figures or slabs were not stated." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Obtain Consent to Operate (CTO) from the State Pollution Control Board", "automated": false, "note": "A prerequisite that must be in hand before applying." },
+        { "n": 2, "phase": "apply", "title": "Register on the national EPR portal and submit application with CTO number", "automated": true, "note": "Portal auto-fetches consent details from the CTO number." },
+        { "n": 3, "phase": "fee", "title": "Upload required documents and pay the applicable fee on the portal", "automated": true, "note": null },
+        { "n": 4, "phase": "scrutiny", "title": "Department scrutinises application, verifying machinery, plant and photographs", "automated": "partial", "note": "Includes verification of uploaded photographs of the process and storage area." },
+        { "n": 5, "phase": "approve", "title": "Registration granted within 15 days; certificate generated on the portal", "automated": true, "note": null },
+        { "n": 6, "phase": "apply", "title": "Applicant tracks application status online", "automated": true, "note": "Ongoing throughout the process." }
+      ],
+      "ed": { "date": "28-07-2026", "location": "MAITRI office, Walchand Hirachand Rd, Ballard Estate, Fort, Mumbai, Maharashtra 400001", "expert": "Sandeep Shinde", "designation": "Field Officer, Maharashtra Pollution Control Board" },
+      "remarks": [
+        "No State-specific best practice was reported; the service is governed centrally by CPCB guidelines applied uniformly across the country, and the State has no discretion to vary the timeline or procedure.",
+        "Registration granted for lifetime with no renewal materially reduces the recurring compliance burden on enterprises for this service.",
+        "The Extended Producer Responsibility (EPR) credit mechanism, under which recyclers receive fees from producers, links compliance to a financial incentive.",
+        "The department considers the overall process less burdensome, as only the capacity of machinery is verified and machinery is in any case necessary for the activity."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "positive", "text": "The service is fully online via CPCB's national EPR portal, covering application, fee payment, document upload, status tracking and registration grant, with no need to approach the State office." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Obtaining Consent to Operate is a prerequisite before applying for plastic waste authorization, creating a sequential dependency between the two approvals." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "positive", "text": "The portal automatically fetches Consent to Operate details using the CTO number, reducing the need for the applicant to resubmit consent particulars." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "DELAY"], "sentiment": "issue", "text": "Downtime and upgradation of the national EPR portal cause frequent technical glitches that delay processing; the effect of a recent portal upgrade has not yet been assessed." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The department stated the full 15-day timeline is needed because every application must be thoroughly scrutinised, covering machinery, plant and photographs of the process and storage area." },
+        { "source": "ed", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "positive", "text": "No redundant or duplicate requirements were reported; the department verifies only mandatory, minimum requirements, limited to the capacity of machinery." },
+        { "source": "ed", "category": "redundant", "tags": ["NORMS"], "sentiment": "positive", "text": "No air pollution control equipment is required for recyclers in this category, as recyclers do not generate heavy pollution." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "positive", "text": "Registration is granted for lifetime with no renewal requirement, reducing recurring compliance burden; a change in registered quantity requires amendment only, while a change of ownership requires a fresh registration." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Post-approval compliance includes submission of procurement and sale details and an annual report on the portal; audit is conducted only after registration is granted, not before." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Recyclers earn Extended Producer Responsibility (EPR) credits by submitting sale details and receive fees from producers in exchange, linking compliance to a financial incentive." },
+        { "source": "ed", "category": "suggestions", "tags": ["TIMELINE", "NORMS"], "sentiment": "suggestion", "text": "The department suggested linking the existing risk-based classification (orange for recyclers, green for producers) to processing timelines so lower-risk applications can be cleared faster; currently the classification does not affect processing." },
+        { "source": "ed", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "The department recommended operationalising the deemed-approval provision already in the rules so applications undecided within 15 days proceed to issue of certificate." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "The department recommended publishing the applicable fee for each category of applicant clearly on the portal." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "The department recommended improving portal stability to address downtime and technical glitches, identified as the principal cause of delay in an otherwise fully online process." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL"], "sentiment": "positive", "text": "The nationwide single-window portal covers all States and Union Territories, so the process is not State-specific and does not depend on State-level discretion to vary timeline or procedure." },
+        { "source": "ed", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "positive", "text": "No fresh documents need to be generated for this service; existing documents already held by the enterprise are uploaded to the portal." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Exact fee amounts or slabs by tonnage were not given in the ED; only the basis (tonnage of plastic recycled) was stated." },
+        { "flag": "MISSING", "text": "Full itemised document lists for the 18 / 13-14 / 4 document categories were not given beyond a few named examples (PAN card, Aadhaar card, industry registration, consent application)." },
+        { "flag": "VAGUE", "text": "The 'minimum mandatory requirements' verified by the department were described only as 'capacity of machinery', without a detailed checklist or criteria." },
+        { "flag": "GOOD_PRACTICE", "text": "Automatic fetching of Consent to Operate details via the CTO number on the national EPR portal, removing duplicate submission of consent particulars." },
+        { "flag": "REFORM", "text": "Recommendation to operationalise the deemed-approval provision already in the rules but not yet connected on the portal." },
+        { "flag": "REFORM", "text": "Recommendation to link the existing risk-based classification (orange/green) to processing timelines so lower-risk applications are cleared faster." },
+        { "flag": "MISSING", "text": "Whether any category or edge case (e.g., a disputed risk classification) still requires an in-person office visit was not addressed; the ED states the general process requires none." }
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFile": "MH_ED_FBPA.docx",
+      "issuingAuthority": "Directorate of Industrial Safety and Health, Government of Maharashtra",
+      "portal": { "name": "Online departmental portal of the Directorate of Industrial Safety and Health (State-specific)", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 30, "basis": "Covered under the Right to Services framework", "text": "Plan approval is prescribed to be granted within 30 days of application; the department reported approval is issued within this period, and 30 days is also stated as the maximum time required." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "14 documents are currently required for plan approval; under a pending reform the requirement is proposed to be reduced to 5, but this awaits notification of rules. For the related Factory Licence, documents were reduced from 35 to 17. No individual document names were given in the ED.",
+      "deemedApproval": { "status": "no", "days": null, "text": "A deemed-approval provision exists in law and the Occupational Safety, Health and Working Conditions Code refers to timelines for approval, but deemed approval is not presently available for this service; the department stated this is because the service is directly connected with safety." },
+      "validity": { "text": "Plan approval itself does not require periodic renewal. The Factory Licence that follows is generally valid for one year (1 January to 31 December) and may be renewed for up to ten years at one time, reducing the frequency of renewal applications." },
+      "fees": { "text": "The application fee is under Rs. 100." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Applicant prepares building plan, site plan, machinery layout, etc.", "automated": false, "note": null },
+        { "n": 2, "phase": "apply", "title": "Application submitted on the departmental online portal with required documents", "automated": true, "note": null },
+        { "n": 3, "phase": "scrutiny", "title": "Department scrutinises the plans, including verification of minimum two fire exits per room", "automated": "partial", "note": null },
+        { "n": 4, "phase": "inspect", "title": "Site inspection, jointly with the district authority, within the same 30-day period", "automated": false, "note": "Conducted only for solvent extraction plants, which are few in number." },
+        { "n": 5, "phase": "approve", "title": "Approval of plans granted within 30 days and received online", "automated": true, "note": null },
+        { "n": 6, "phase": "apply", "title": "Applicant proceeds to apply for Factory Licence", "automated": null, "note": "Plan approval is a prerequisite for the Factory Licence." }
+      ],
+      "ed": { "date": "28-07-2026", "location": "MAITRI office, Walchand Hirachand Rd, Ballard Estate, Fort, Mumbai, Maharashtra 400001", "expert": "Swapnil Pupulwas; Vinayak Londhe", "designation": "Assistant Director; Additional Director, Directorate of Industrial Safety and Health" },
+      "remarks": [
+        "Approval covers the building plan, the site plan and the machinery layout, and is a prerequisite for grant of the Factory Licence.",
+        "The service is distinct from the general Building Plan Approval granted by the local or development authority, and no linkage exists between the two.",
+        "Fire exit requirements verified under this service are distinct from those verified for the Fire No Objection Certificate, as the fire department examines fire-specific aspects while this department examines machinery and worker safety.",
+        "The officer emphasised that discretion is exercised on safety grounds, as inherent risk differs across factories and processes, with the object of balancing ease of doing business with worker safety.",
+        "Labour laws are being consolidated into labour codes at the national level, and national and State rules under the codes are still under process."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "positive", "text": "The service is online; application, document submission and grant of plan approval take place through the departmental portal, with the approval received online." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Site inspection is the only physical step in the process, and it is limited to solvent extraction plants, conducted jointly with the district authority within the same 30-day period." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The prescribed 30-day timeline, covered under the Right to Services framework, is also the maximum time required, and the department reported approvals are issued within this period." },
+        { "source": "ed", "category": "delay", "tags": ["COMPLY"], "sentiment": "issue", "text": "Delays arise mainly where an application is rejected for lack of the minimum two fire exits and must be resubmitted, or where additional requirements are raised beyond the checklist." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "14 documents are currently required for plan approval; a reduction to 5 documents has been framed under a reform exercise but awaits notification of rules, so the higher requirement continues to apply." },
+        { "source": "ed", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "positive", "text": "Documents for the related Factory Licence have already been reduced from 35 to 17." },
+        { "source": "ed", "category": "pain", "tags": ["NORMS"], "sentiment": "issue", "text": "There is no standard checklist prescribed for verification of documents; in its absence requirements vary across officers and applicants may be asked for material not identified at the outset." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "positive", "text": "There is no dependency between the general Building Plan Approval granted by the local/development authority and the Factory Building Plan Approval granted by this department; the two are separate services." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Deemed approval is not presently available for this service because it is directly connected with safety; a related deemed-approval provision exists for registration of non-hazardous factories after the Right to Services period." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "The department suggested extending deemed approval to low-risk, non-hazardous categories, using the risk-based classification already carried out under the labour codes to identify eligible cases." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Officers of the environment, explosives and fire safety departments exercise discretionary powers and sometimes raise requirements beyond the checklist; an instance cited was a requirement to install a dust collection system not in the listed requirements." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "The department suggested guiding discretion through periodically updated rules, regulations, SOPs and industry-specific checklists, so any requirement raised beyond the checklist must carry recorded justification." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "The department recommended notifying the pending rules so the reduction from 14 to 5 documents takes effect, as the framework is already prepared." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "The department recommended flagging common grounds of rejection, such as the minimum two fire exits, on the portal so deficiencies are corrected before submission." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "positive", "text": "Renewal of the resulting Factory Licence for up to ten years at one time substantially reduces the frequency of renewal applications and associated compliance effort." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "positive", "text": "Risk-based classification has already been carried out following the consolidation of 44 labour laws into 4 codes, with safety standards formulated separately for specific categories of factories in place of earlier generic requirements." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Exact figures or examples illustrating the minimum fire-exit requirement standard were not detailed beyond 'minimum two fire exits wherever there is a room'." },
+        { "flag": "VAGUE", "text": "Whether the applicant needs to physically visit the department office at any stage (e.g., to collect documents or respond to queries) was not explicitly addressed in the ED." },
+        { "flag": "MISSING", "text": "The individual names of the 14 currently-required documents (or the proposed reduced set of 5) were not listed." },
+        { "flag": "REFORM", "text": "Reduction of required documents for plan approval from 14 to 5 is a prepared but unenforced reform awaiting notification of rules under the new labour codes." },
+        { "flag": "REFORM", "text": "Recommendation to extend deemed approval to low-risk, non-hazardous categories using the existing risk-based classification carried out under the labour codes." },
+        { "flag": "GOOD_PRACTICE", "text": "Factory Licence renewal for up to ten years at a time, reducing the frequency of renewal compliance." },
+        { "flag": "VAGUE", "text": "The exact threshold or criteria distinguishing 'solvent extraction plants' (which require inspection) from other factory categories was not elaborated." }
+      ]
+    }
+  ]
+}

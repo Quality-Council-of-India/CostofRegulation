@@ -1,0 +1,2508 @@
+{
+  "code": "AN",
+  "name": "Andaman and Nicobar Islands",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFile": "AN_ED_BPA.docx",
+      "issuingAuthority": "Sri Vijaya Puram Municipal Council (Building Official), with coordination from Revenue and Planning Departments and other clearance-granting departments",
+      "portal": {
+        "name": "Online Building Plan Approval System (OBPAS)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 60,
+        "maxDays": 60,
+        "basis": "Prescribed timeline for building plan approval",
+        "text": "The prescribed timeline for building plan approval is 60 days; eligible low- and medium-risk buildings instead receive instant approval under self-certification through registered technical professionals."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Building layout, elevation, section drawings, and other required plans prepared by a registered professional",
+        "Land and property-related records required for verification",
+        "Registration details of the architect, engineer, or other authorised technical professional",
+        "Other documents required for application scrutiny and applicable departmental clearances, including police verification where required"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No specific provision for deemed approval in case of delay beyond the prescribed 60-day timeline is specified in the available information."
+      },
+      "validity": {
+        "text": "Building plan approval is valid for 2 years and can be revalidated subject to applicable requirements and fees; a late fee of 25% per year applies after expiry, while a 10% fee is mentioned for revalidation before expiry."
+      },
+      "fees": {
+        "text": "Fees are charged per square metre (varying by building type and area slab), calculated based on land area and land use, charged as a percentage of total construction cost, and also linked to rainwater-harvesting requirements — exact rate figures were not given."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Engage registered professional to prepare building plan",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Submit application, drawings and documents online via OBPAS",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "System scrutinises drawings and flags discrepancies",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Revenue and Planning Departments verify fees, property details and land use",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Site survey and physical inspection by officials",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "scrutiny",
+          "title": "Obtain required departmental clearances where applicable",
+          "automated": "partial",
+          "note": "Includes airport, fire, and Andaman and Nicobar Command clearances where applicable"
+        },
+        {
+          "n": 7,
+          "phase": "fee",
+          "title": "Applicable fees generated and paid online",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 8,
+          "phase": "approve",
+          "title": "Building plan approval issued online; eligible buildings get instant approval under self-certification",
+          "automated": "partial",
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "14-10-2026",
+        "location": "The Conference Hall, Department of Industries, Udyog Parisar Complex, Middle Point, Sri Vijaya Puram",
+        "expert": "Gautam Dutta; Abdul Arif",
+        "designation": "Architectural Assistant; Building Official"
+      },
+      "remarks": [
+        "Applicants rely on registered technical professionals to prepare and submit building plans.",
+        "Application-related queries and discrepancies are handled through the online portal's comment and communication features."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "End-to-end online processing via OBPAS enables application submission, scrutiny, comments and approval through a single portal."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Clearances from the airport authority, Fire Department and Andaman and Nicobar Command create coordination dependencies that can delay final approval."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "positive",
+          "text": "Low- and medium-risk buildings (plot area up to 500 sq m) receive instant approval through registered technical professionals under self-certification, reducing regular departmental processing."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Officials conduct a site survey and physical inspection to verify site conditions against the submitted building-plan details."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "neutral",
+          "text": "Discrepancies identified by the system in submitted drawings require correction and resubmission through the portal."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The statutory fee basis is multi-part — per-square-metre rates by building type/area slab, land-area/land-use charges, a percentage of construction cost, and rainwater-harvesting-linked charges — without a single clear schedule given in the ED."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended strengthening online coordination with the airport authority, Fire Department and Andaman and Nicobar Command to reduce clearance delays."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended providing clear instructions and document requirements on the OBPAS portal to minimise errors and resubmissions."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Integrating departmental clearance processes into the online workflow was recommended to enable smoother coordination and application tracking."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended providing clear notifications regarding approval expiry, revalidation deadlines and applicable late fees."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral",
+          "text": "Approval is valid for 2 years and can be revalidated, with a 25%-per-year late fee after expiry versus a 10% fee for revalidation before expiry."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Colour-coded zoning maps indicating restricted zones and permitted building elevations simplify identification of cases needing Andaman and Nicobar Command clearance."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Applications outside the self-certification risk bands follow the regular departmental approval process."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "positive",
+          "text": "Online comments, dashboard updates and notifications let registered professionals track applications and address discrepancies remotely."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "The 60-day prescribed timeline is affected by payment completion and the time taken for applicable departmental clearances."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision is specified for delays beyond the 60-day prescribed timeline — applicants have no automatic fallback if the department does not act."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Exact statutory fee rates (per-sq-m slabs, percentage-of-construction-cost rate, rainwater-harvesting charge) are not quantified in the ED — only the basis is described."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No figure is given for how much interdepartmental clearances (airport, fire, Andaman & Nicobar Command) typically add to the 60-day timeline."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Colour-coded zoning maps flagging Andaman and Nicobar Command clearance requirements and permitted elevations simplify assessment of clearance needs."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Instant self-certified approval for low- and medium-risk plots (0-500 sq m) via registered professionals removes most applicants from the regular departmental queue."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Recommendation to integrate departmental clearance processing (airport, fire, A&N Command) fully into the OBPAS online workflow is still pending implementation."
+        }
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFile": "AN_ED_ECL.docx",
+      "issuingAuthority": "Electricity Department (Sub-Divisional Officer / Junior Engineer verification; Assistant Engineer approval)",
+      "portal": {
+        "name": "Electricity Department online portal",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 30,
+        "basis": "Prescribed timeline for residential and commercial connections",
+        "text": "The prescribed timeline for providing an electricity connection is 30 days for residential and commercial connections; actual time depends on technical feasibility, distance from the distribution network, and the need for network extension, capacity augmentation or a dedicated transformer."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Online electricity connection application submitted through the department's portal",
+        "Required supporting documents, reduced from seven to two under the simplified process",
+        "Ownership-related documents or a rental/lease agreement, where applicable for rented premises"
+      ],
+      "documentsNote": "Only two generic categories of supporting documents are named; the specific original seven documents and which two were retained are not itemised in the ED.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No specific provision for deemed approval in case of delay beyond the prescribed 30-day timeline is specified in the available information."
+      },
+      "validity": {
+        "text": "The connection remains valid for an indefinite period with no fixed expiry, unless the consumer requests disconnection or dismantling; the security deposit is reviewed after one year based on consumption."
+      },
+      "fees": {
+        "text": "A connection charge of ₹250 per kW is specified, based on connected load and the applicable schedule of rates; a one-time security deposit (amount depends on connected load and consumer category) is also collected; tariffs are determined by JERC and revised periodically."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit application and documents online",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "SDO and JE conduct preliminary verification and assess requirements",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "Site inspection where required (load, distance, capacity) and electrical wiring safety check",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Site inspection/technical assessment report uploaded to the portal",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "fee",
+          "title": "Department prepares connection-charge estimate; forwarded to AE for approval",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "fee",
+          "title": "Security deposit determined by load and generated online; applicant notified via SMS and can track online",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 7,
+          "phase": "fee",
+          "title": "Applicant pays connection charges and security deposit (or FD/bank-guarantee alternative)",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 8,
+          "phase": "approve",
+          "title": "Power sanction letter issued after payments are completed",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 9,
+          "phase": "approve",
+          "title": "Electricity connection released; dedicated transformer/extra arrangements handled per case",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 10,
+          "phase": "scrutiny",
+          "title": "For connections up to 20 kW, certain inspection/test-report requirements relaxed under deregulation",
+          "automated": "partial",
+          "note": "Higher loads or cases needing additional infrastructure require further technical assessment"
+        }
+      ],
+      "ed": {
+        "date": "14-10-2026",
+        "location": "The Conference Hall, Department of Industries, Udyog Parisar Complex, Middle Point, Sri Vijaya Puram",
+        "expert": "P Subbaraj",
+        "designation": "Assistant Engineer"
+      },
+      "remarks": [
+        "A single-window mechanism is not currently operational in the electricity department; development of a national single-window provision was discussed.",
+        "Electricity tariffs and applicable charges are determined by JERC (Joint Electricity Regulatory Commission) and revised periodically."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "End-to-end online application, tracking and SMS-based communication improve transparency and convenience for applicants."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive",
+          "text": "Required supporting documents were reduced from seven to two under the simplified process, lowering the documentation burden."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Connections requiring a dedicated transformer, network extension or capacity augmentation undergo additional technical assessment outside the standard online flow."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "positive",
+          "text": "Eligible connections up to 20 kW benefit from relaxed field-inspection and test-report requirements under deregulation measures."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Connection-charge estimates are based on the schedule of rates, connected load and material requirements, and require Assistant Engineer approval before being issued to the applicant."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "positive",
+          "text": "The security deposit can be submitted as cash, fixed deposit or bank guarantee where applicable, giving applicants payment flexibility."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended bringing the approval process for dedicated transformers and additional infrastructure online to reduce manual processing."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended integrating approvals for dedicated transformers, network extensions and capacity augmentation into the online application system."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended providing clear status updates at each stage — technical assessment, estimate approval, and connection release."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended establishing clear processing timelines specifically for cases requiring additional infrastructure and technical approvals."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Actual connection time can exceed the 30-day prescribed timeline depending on technical feasibility, distance from the distribution network, and infrastructure needs."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "A national single-window provision for electricity connections was discussed but is not yet operational in the department."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Electricity tariffs are determined by the Joint Electricity Regulatory Commission (JERC) and revised periodically, outside departmental control."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral",
+          "text": "The security deposit is reviewed annually based on the consumer's actual electricity consumption."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision is specified for delays beyond the prescribed 30-day connection timeline."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The seven original supporting documents and which two were retained after simplification are not itemised in the ED."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No specific timeline is given for connections requiring a dedicated transformer, network extension, or capacity augmentation — only that they take 'additional technical assessment.'"
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Reducing required documents from seven to two, plus SMS-based tracking, materially lowers the application burden for standard connections."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Relaxed inspection/test-report requirements for connections up to 20 kW under deregulation reduce processing steps for most small applicants."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Online integration of approvals for dedicated transformers/network extension/capacity augmentation is recommended but not yet implemented."
+        }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFile": "AN_ED_FNO.docx",
+      "issuingAuthority": "Andaman and Nicobar Fire Service (jurisdictional Inspecting Officer; departmental approval process)",
+      "portal": {
+        "name": "National Single Window System (NSWS) for fresh applications; existing NIC portal for renewals",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "No fixed day-count given; tied to verification and inspection completion",
+        "text": "The application processing timeline is linked to verification of fire-safety requirements and completion of the inspection process; no fixed number of days is stated for fresh Fire NOC applications in this ED."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Application form with the required details",
+        "Supporting documents relevant to the Fire NOC application",
+        "Documents demonstrating compliance with the prescribed fire safety requirements"
+      ],
+      "documentsNote": "Specific document names beyond these generic categories are not itemised; the department states it is reviewing and removing documents not directly relevant to the service.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "The ED states that it does not identify any deemed-approval provision for Fire NOC."
+      },
+      "validity": {
+        "text": "No specific validity period or renewal requirement for the Fire NOC is stated in this document."
+      },
+      "fees": {
+        "text": "The statutory fee for fresh Fire NOC applications and renewal of Fire Clearance Certificates is ₹0 on the Andaman & Nicobar Islands e-Seva portal."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant submits application online through the designated portal",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Application forwarded directly to the concerned jurisdictional inspecting officer",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Inspecting officer examines application and verifies uploaded documents",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Application rejected at application stage if errors/deficiencies are found",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "scrutiny",
+          "title": "Applicant given time to fix deficiencies; application rejected and must be resubmitted fresh if unresolved",
+          "automated": false,
+          "note": "If the prescribed requirements remain unmet within the stipulated period"
+        },
+        {
+          "n": 6,
+          "phase": "inspect",
+          "title": "Inspecting officer conducts physical inspection to verify safety arrangements and equipment",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Application proceeds through the department's approval process after verification and inspection",
+          "automated": "partial",
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "12-10-2026",
+        "location": "The Conference Hall, Department of Industries, Udyog Parisar Complex, Middle Point, Sri Vijaya Puram",
+        "expert": "Shri Jagdish Varma",
+        "designation": "Inspector"
+      },
+      "remarks": [
+        "Fresh Fire NOC applications go through NSWS while renewals continue on the existing NIC portal; integrating renewal into NSWS is still under process.",
+        "Department officials assist applicants facing difficulties with the online application or document uploads."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "neutral",
+          "text": "Fresh Fire NOC applications are submitted via the National Single Window System (NSWS), while renewals are processed through the separate, existing NIC portal."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "The split between NSWS (fresh) and the NIC portal (renewal) means the Fire NOC service is not yet under one unified online system."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "The inspecting officer conducts a risk-based physical inspection rather than applying identical requirements to every enterprise."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive",
+          "text": "The department has removed one or two documents from the application requirements and is reviewing further documents for removal where not directly relevant."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants bear the cost of purchasing, maintaining and servicing the fire-safety equipment required for compliance."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "positive",
+          "text": "Officials provide guidance to applicants who face difficulties with the online application or document uploads."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended completing integration of Fire NOC renewal services into NSWS to unify fresh and renewal applications under one system."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended reviewing remaining document requirements and removing those not directly related to the Fire NOC service."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended clearly communicating required documents and fire-safety compliance requirements to reduce errors and rejections."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended establishing a dedicated online grievance facility for Fire NOC applicants to submit queries and track resolution."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended facilitating direct communication between applicants and inspecting officers to resolve application difficulties efficiently."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "No fixed day-count timeline is given for fresh applications — processing time is only described as linked to inspection completion."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "positive",
+          "text": "The statutory fee for fresh Fire NOC and renewal of Fire Clearance Certificates is ₹0 on the A&N e-Seva portal."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "positive",
+          "text": "Fire-safety inspections follow a risk-based approach rather than uniform inspection of every enterprise."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific day-count timeline is given for processing fresh Fire NOC applications — only that it is linked to inspection completion."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision exists for Fire NOC; applicants have no automatic fallback if processing is delayed."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Documents said to have been 'removed' from requirements are not named — only described as 'one or two' documents not directly relevant."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "This document states 'no specific validity period or renewal requirement' for Fire NOC, while the separate Renewal of Fire NOC ED for the same state describes a 5-year validity with annual undertakings — this fresh-NOC ED does not itself address validity/renewal at all."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Entirely online fresh-application processing via NSWS removes the need for applicants to submit physical documents or visit the office."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Integration of the Fire NOC renewal service into NSWS, to unify it with fresh applications on one portal, is in progress but not yet complete."
+        }
+      ]
+    },
+    {
+      "serviceCode": "GST",
+      "serviceName": "GST Registration",
+      "sourceFile": "AN_ED_GST.docx",
+      "issuingAuthority": "UTGST (Union Territory GST department), Tax Officer, Admin",
+      "portal": {
+        "name": "GST registration online portal",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 45,
+        "basis": "Prescribed 30-day processing period, extendable by up to 15 days if a query is raised",
+        "text": "The application processing period is 30 days; if the department raises a query, the applicant is given an additional 15 days to respond, so the effective timeline can extend up to 45 days."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Aadhaar card of the applicant, where applicable",
+        "Property tax records, electricity bills, or other government-issued documents establishing the business address",
+        "Documents establishing ownership of the premises, where applicable",
+        "Rent agreement and relevant ownership proof of the property owner, if the business premises are rented",
+        "Documents required vary according to the type of business entity (proprietorship, partnership, private limited company)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": 30,
+        "text": "Deemed approval is discussed for cases where no query is raised or approval is not issued within the prescribed 30-day period, but the department's discussion does not clearly establish the exact conditions under which deemed approval is granted."
+      },
+      "validity": {
+        "text": "No fixed validity period is specified for GST registration itself; during the validity period, GST-registered taxpayers must comply with applicable GST return-filing and tax-compliance requirements."
+      },
+      "fees": {
+        "text": "No statutory fee is charged for GST registration in Andaman and Nicobar Islands; the Statutory Fee section describes this fee-free status under the heading 'renewal of GST Registration,' and Other Remarks separately confirms registration is provided free of cost."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant submits GST registration application online",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Applicant provides business and registration details (varies by entity type)",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "apply",
+          "title": "Applicant uploads required documents (identity proof, principal place of business proof)",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Department reviews application; system auto-identifies high-risk applications for further verification",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Physical verification of principal place of business for high-risk applications",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "scrutiny",
+          "title": "Applicant responds to department's query/clarification request within the prescribed period",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Department processes application and issues GST registration upon approval",
+          "automated": "partial",
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "13-10-2026",
+        "location": "The Conference Hall, Department of Industries, Udyog Parisar Complex, Middle Point, Sri Vijaya Puram",
+        "expert": "Arnab Samaddar",
+        "designation": "Tax officer, Admin"
+      },
+      "remarks": [
+        "The department indicated that approximately 60% of applicants use consultants for GST registration, despite consultant services not being mandatory.",
+        "The registration form contains approximately 9-10 questions and takes around 5-10 minutes to complete."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "GST registration is conducted entirely online, with requirements varying by business-entity type (proprietorship, partnership, private limited company)."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "The system automatically flags high-risk applications for further physical verification rather than inspecting every applicant."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "positive",
+          "text": "Applicants can respond to departmental queries online, without a mandatory visit to the department."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Roughly 60% of applicants reportedly use consultants for GST registration due to difficulty understanding documentation and requirements, even though hiring one is not mandatory."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Field visits for physical verification of high-risk applications take variable time depending on location and transportation, particularly affecting island applicants."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "A departmental query extends the response window by 15 days beyond the base 30-day processing period."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "positive",
+          "text": "Registration-related information is made available in a simplified format to help applicants understand requirements."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended optimising field-visit planning for high-risk applications, factoring in time and transportation to reach the business location."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended providing clear document checklists tailored to different business structures."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended making registration instructions and document requirements easier to understand so applicants rely less on consultants."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended ensuring applicants receive clear information about deficiencies and the time available to respond."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended improving access to simplified registration forms and online guidance for independent completion."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "GST registration is provided free of cost, with no statutory fee charged."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Documentation requirements vary by business-entity type, requiring applicants to identify the correct document set for their structure."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "VAGUE",
+          "text": "Deemed approval is discussed for cases of no query/no decision within 30 days, but the ED explicitly states the exact conditions for deemed approval are not clearly established."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "The Statutory Fee section labels the fee-free status as being for 'renewal of GST Registration,' even though the rest of this ED describes only fresh registration with no renewal cycle mentioned — the wording in that section is inconsistent with the rest of the document."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The specific additional supporting documents required for high-risk/field-verification cases beyond the standard list are not detailed."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "The system auto-flags high-risk applications for physical verification rather than inspecting all applicants, and the registration form is short (9-10 questions, 5-10 minutes)."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Reducing applicant dependence on consultants (currently ~60%) through simpler instructions and guidance is recommended but not yet achieved."
+        }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFile": "AN_ED_LEM.docx",
+      "issuingAuthority": "Legal Metrology Department (Consumer Affairs & Consumer Protection) — Assistant Controller approves registration",
+      "portal": {
+        "name": "Currently physical/in-person submission; department developing a fully online application and certificate-download system (not yet launched)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": 30,
+        "basis": "Typical processing time stated as ranging from 7 days to one month depending on the service",
+        "text": "Typical processing time ranges from 7 days to one month depending on the service; certificate issuance is sometimes delayed an additional 2-3 days due to software or system-link issues."
+      },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Application form (requirements vary by service)",
+        "Valid Food Safety Licence (for packers' registration involving edible items)"
+      ],
+      "documentsNote": "No additional documentation criteria are prescribed beyond requirements under the Legal Metrology Act and Rules; redundant documents previously collected by practice have been removed following deregulation.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "There is no provision for deemed approval under the current Legal Metrology application process; applications require processing and approval by the concerned authority."
+      },
+      "validity": {
+        "text": "Registration is granted on a one-time basis with lifetime validity (no renewal required, post-deregulation); the weighing/measuring instrument verification certificate is valid for 1, 2 or 5 years depending on instrument category."
+      },
+      "fees": {
+        "text": "Fees are prescribed under the Legal Metrology Act and Rules and vary by service, ranging from ₹10 to ₹5,000; the fee schedule was notified in 2011 and revised in 2026 with no significant changes except certain compounding fees; verification of instruments used by Fair Price Shops is free of charge."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant physically visits department and submits application form",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Department enters application details into its computer-based software system",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Department checks application and verifies required documents",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Application processed by concerned section and forwarded to Assistant Controller for approval",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Assistant Controller approves application; registration granted one-time, no renewal",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "inspect",
+          "title": "Applicant brings instrument to department for accuracy testing, or on-site verification if not transportable",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Instrument stamped and certificate issued (valid 1, 2 or 5 years depending on category)",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 8,
+          "phase": "pre",
+          "title": "Department developing fully online system for applications and certificate downloads (payment-gateway integration pending)",
+          "automated": null,
+          "note": "Not yet live; physical instrument verification will remain necessary where applicable"
+        }
+      ],
+      "ed": {
+        "date": "13-10-2026",
+        "location": "The Conference Hall, Department of Industries, Udyog Parisar Complex, Middle Point, Sri Vijaya Puram",
+        "expert": "J Saurabh Murthy",
+        "designation": "Legal Metrology Officer"
+      },
+      "remarks": [
+        "Only 5-6 registered licensed repairers are available for authorised repair of malfunctioning instruments.",
+        "Most grievances are resolved within 1-2 days, while complaints from remote islands may take around one week due to geographical constraints.",
+        "The department reported receiving fewer than 15 complaints in the previous year."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The application process currently requires physical visits since the fully online system is not yet operational."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Applicants must bring weighing/measuring instruments to the department for accuracy testing; on-site verification is done only when the instrument cannot be transported."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Certificate issuance is occasionally delayed by about 2-3 days due to software or system-link issues."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive",
+          "text": "Redundant documents previously collected as a matter of practice have been removed following the deregulation exercise."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "positive",
+          "text": "Registration is granted on a one-time basis with lifetime validity, eliminating the need for periodic renewal."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "positive",
+          "text": "Low-risk instruments can qualify for self-certification, and third-party certification has also been introduced as an alternative mechanism."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "positive",
+          "text": "Inspections are conducted via risk-based random selection and in response to complaints, rather than routine inspection of every applicant."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Verification of weighing and measuring instruments used by Fair Price Shops is provided free of charge."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Only 5-6 registered licensed repairers are available for authorised repair of malfunctioning instruments."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants from distant islands must travel to the department physically, since the online system is not yet available."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended completing integration of the online application system and payment gateway to enable online submission and certificate downloads."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended addressing software and system-link issues that occasionally delay certificate issuance."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended enabling online submission/downloads to reduce the need for applicants from distant islands to visit physically."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended continuing self-certification and third-party certification for eligible low-risk instruments to reduce physical testing needs."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "GRIEVANCE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Applicants can raise grievances via the department, email, or the National Consumer Helpline, with most resolved within 1-2 days."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No confirmed timeline is given for when the fully online application system (with payment gateway) will launch."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The exact list of 'redundant documents' removed following deregulation is not specified."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The specific criteria distinguishing 'low-risk' instruments eligible for self-certification from others are not detailed."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "One-time lifetime registration validity (no renewal) and free verification for Fair Price Shop instruments reduce recurring compliance burden."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Risk-based random inspection plus complaint-driven inspection, instead of routine inspection of every registrant, is a lighter-touch compliance model."
+        },
+        {
+          "flag": "REFORM",
+          "text": "A fully online application and certificate-download system is under development but not yet launched; payment-gateway integration is still pending."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFile": "AN_ED_RFN.docx",
+      "issuingAuthority": "Andaman and Nicobar Fire Service; renewal approved by the Superintendent of Police (SP), Fire",
+      "portal": {
+        "name": "NIC portal (not yet integrated with NSWS)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 30,
+        "basis": "Department's 30-day processing window for Fire NOC renewal applications",
+        "text": "The department follows a 30-day processing window for renewal applications; actual time depends on completion of the physical inspection and approval by the SP, Fire."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Self-Appraisal Form",
+        "Insurance Document",
+        "Previously Issued Fire NOC (reference required for the renewal application)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Approval is not granted automatically upon expiry of the prescribed processing timeline, as fire-safety compliance requires physical inspection and verification; the department follows a 30-day processing window."
+      },
+      "validity": {
+        "text": "The Fire NOC is valid for five years; during validity, the owner/occupier must submit an annual undertaking to the nearest fire station confirming fire-safety equipment is functional. Renewal is required after the five-year period expires."
+      },
+      "fees": {
+        "text": "No statutory fee is charged for renewal of Fire NOC in Andaman and Nicobar Islands."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant applies for renewal via the NIC portal, referencing the previously issued Fire NOC",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Applicant uploads self-appraisal form and insurance document",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "Fire officer schedules physical inspection; applicant must check the portal for the date (no SMS notification)",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Fire team inspects premises — safety equipment, norms compliance, evacuation, staircases/exits, maintenance records",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "scrutiny",
+          "title": "Application processed and forwarded to SP, Fire for approval",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "SP Fire reviews and approves the renewal application",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Applicant downloads the renewed Fire NOC through the portal",
+          "automated": true,
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "12-10-2026",
+        "location": "The Conference Hall, Department of Industries, Udyog Parisar Complex, Middle Point, Sri Vijaya Puram",
+        "expert": "Shri Jagdish Varma",
+        "designation": "Inspector"
+      },
+      "remarks": [
+        "From 1 July 2026, Fire NOC became mandatory in Andaman and Nicobar Islands, increasing departmental workload across seven fire stations.",
+        "A dedicated Fire Service grievance portal is not yet available; the department is planning a separate website for this and to provide access to existing portals.",
+        "The department is considering, but has not implemented, assistance through Common Service Centres (CSCs) to help applicants complete online applications for a service fee."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "SMS notifications are not provided for inspection scheduling, so applicants must regularly log into the NIC portal to check the date."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "The renewal process remains on the NIC portal, which is not integrated with the National Single Window System (NSWS)."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "The transition to NSWS creates difficulties for applicants due to mandatory Digital Signature Certificate (DSC) requirements, whose one-year validity mismatches the five-year Fire NOC validity."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Travel for physical inspection in island locations creates additional difficulty; local staff assist with inspections in some renewal cases."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive",
+          "text": "The renewal process requires only two documents — self-appraisal form and insurance document — and separate prescribed registers have been discontinued."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "positive",
+          "text": "Fire officers can increase or reduce fire-safety requirements based on their own risk analysis of the building."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Owners/occupiers must submit an annual undertaking confirming functional fire-safety equipment despite the five-year validity of the Fire NOC."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "The department is handling increased workload following the requirement for buildings to obtain Fire NOC, covering seven fire stations with the given staff."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended completing NSWS integration for Fire NOC renewal to simplify access and reduce portal-related difficulties."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended providing SMS alerts for inspection schedules and application status to reduce repeated portal logins."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended addressing the mismatch between the one-year DSC validity and five-year Fire NOC validity."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended improving coordination with local fire staff for renewal inspections in remote island locations."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended developing the proposed Fire Service website with a grievance-submission facility."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended facilitating CSC support for applicants who face difficulty completing online applications."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "RENEWAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Applicants can submit renewal applications and download the approved Fire NOC entirely through the portal, reducing the need for physical visits."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "neutral",
+          "text": "From 1 July 2026, Fire NOC became mandatory in Andaman and Nicobar Islands under the applicable regulation."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific figure is given for how many days the physical inspection and SP Fire approval typically add beyond the base 30-day window."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The number and locations of fire stations/staff affected by the 'increased workload' are only loosely described ('seven fire stations')."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Reducing renewal documentation to just two items (self-appraisal form plus insurance document) and discontinuing separate prescribed registers meaningfully lowers compliance burden."
+        },
+        {
+          "flag": "REFORM",
+          "text": "NSWS integration for Fire NOC renewal is incomplete, and the resulting DSC one-year-vs-five-year validity mismatch is not yet resolved."
+        },
+        {
+          "flag": "REFORM",
+          "text": "CSC-based assistance for online applications is under consideration but not yet implemented."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No SMS or portal-push notification exists for inspection scheduling — applicants must check manually, and no target date for fixing this is given."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFile": "AN_ED_RSE.docx",
+      "issuingAuthority": "Assistant Labour Commissioner (ALC), the registering officer, per the process described in the ED body text",
+      "portal": {
+        "name": "National Single Window System (NSWS); the service was earlier available on the department's own website",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 1,
+        "maxDays": 7,
+        "basis": "Citizen Charter timeline of 7 days versus actual practice of 1-2 days; auto-approval target of about 5 minutes",
+        "text": "The Citizen Charter stipulates 7 days, but the expert stated applications are generally cleared within 1-2 days due to low volume; under the new auto-approval mechanism, the certificate is expected within about 5 minutes of submission based on self-declaration."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Shop Signboard (uploaded)",
+        "Rent Agreement / Ownership Proof (Form F)",
+        "Proof of Identity of the Owner",
+        "NOC from Other Owners (where the property has multiple owners)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "yes",
+        "days": null,
+        "text": "Under the auto-approval mechanism, the registration certificate is intended to be generated automatically based on self-declaration shortly after submission (around 5 minutes, per the Application Timeline section); the Deemed Approval section's own description of this is incomplete."
+      },
+      "validity": {
+        "text": "Registration is now valid for lifetime with no renewal required (amended from an earlier one-year validity); validity continues as long as the establishment remains open."
+      },
+      "fees": {
+        "text": "The fee is linked to the declared number of employees: ₹1,000 for 20 to below 30 employees, ₹1,500 for 30 to 50 employees, and ₹2,000 for more than 50 employees."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Applicant creates an NSWS ID on the National Single Window System",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Applicant selects Shops & Establishment Registration and fills the online application form",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "apply",
+          "title": "Applicant uploads required documents (signboard, rent/ownership proof Form F, owner ID proof)",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "fee",
+          "title": "Applicant submits application; system captures declared worker count and determines applicable fee",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "scrutiny",
+          "title": "Application electronically forwarded to the Assistant Labour Commissioner (ALC), the registering officer",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "scrutiny",
+          "title": "Application scrutinised online; returned with remarks for correction/resubmission if documents are incorrect",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Under auto-approval, the registration certificate is generated based on the applicant's self-declaration",
+          "automated": true,
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "01-09-2026",
+        "location": "Training Hall, Directorate of Disaster Management(Apada Pravandhak Vibhag), Link Road, Near Anti-corruption Office, Sri Vijayapuram",
+        "expert": "Jepson Daniel",
+        "designation": "Executive Engineer"
+      },
+      "remarks": [
+        "The ED's header lists the expert as an Executive Engineer from the Sri Vijaya Puram Municipal Council, but the process described is handled by the Assistant Labour Commissioner (ALC) as the registering officer — the two do not align, suggesting a possible metadata mismatch in the source document.",
+        "Registration applies only to establishments employing 20 or more workers, placing many smaller establishments outside the scope of the requirement.",
+        "Connectivity difficulties for applicants from Northern and Middle Andaman, who may need to travel for several hours, were highlighted by the department."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "positive",
+          "text": "Registration validity was changed from one year to lifetime (one-time registration), removing the need for periodic renewal."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "The entire process is online via NSWS; applicants do not need to visit the department physically for application, correction, or resubmission."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Payment can be made online via UPI, credit card, or debit card."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "The auto-approval mechanism, based on applicant self-declaration, was adapted from a practice used in Delhi."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Some applicants face document-upload quality/size issues and PAN-verification problems while registering on NSWS, leading to returned applications."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants from Northern and Middle Andaman face connectivity difficulties and may need to travel several hours, an access barrier the online system does not fully resolve."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Shops & Establishment registration applies only to establishments with 20 or more workers, exempting many smaller establishments from the requirement."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "positive",
+          "text": "Despite a 7-day Citizen Charter timeline, applications are generally cleared in 1-2 days due to currently low application volume."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "The registration fee is tiered by declared employee count: ₹1,000 (20-29), ₹1,500 (30-50), ₹2,000 (50+)."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert indicated the department is willing to make further modifications and adopt suitable practices from other states to improve ease of doing business."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The auto-approval mechanism targets registration-certificate generation within about 5 minutes of submission."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "No risk-based classification or post-approval compliance checklist was identified for this service by the department."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Applications with incorrect or inappropriate uploaded documents are returned online with remarks, requiring correction and resubmission."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "The ED's stated expert designation (Executive Engineer, Municipal Council) does not match the Labour Department process (Assistant Labour Commissioner) described in the findings, indicating a likely metadata error in the source document."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "The ED header identifies the expert as 'Jepson Daniel, Executive Engineer, Sri Vijaya Puram Municipal Council,' but the body text describes the Assistant Labour Commissioner (ALC) as the registering officer for Shops & Establishment registration — the stated expert and department do not match the service process described."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The Deemed Approval theme's own description is cut off ('registration certificate is intended to be generated within after submission') — the exact time figure is missing from that sentence, though 5 minutes is stated elsewhere under Application Timeline."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No post-approval compliance checklist is specified for this service beyond the documents prescribed at registration."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No risk-based classification or categorisation is mentioned for Shops & Establishment registration."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Auto-approval within about 5 minutes based on self-declaration, adapted from a practice used in Delhi, substantially speeds up registration."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Lifetime one-time registration validity removes a recurring renewal burden."
+        }
+      ]
+    },
+    {
+      "serviceCode": "TFG",
+      "serviceName": "GST Tax Filing",
+      "sourceFile": "AN_ED_TFG.docx",
+      "issuingAuthority": "UTGST (GST Department), Tax Officer, Admin",
+      "portal": {
+        "name": "GST portal (GSTR-1 and related return forms)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "Periodic filing; 11th of the month referenced as a filing date during the discussion",
+        "text": "GST returns are filed periodically; the 11th of the month was referenced as a filing date during the discussion. Late filing attracts an automatically calculated late fee."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Details of B2B sales and B2C sales",
+        "Details of credit notes issued, wherever applicable",
+        "Relevant sales and tax-related information required to complete the applicable GST return",
+        "Supporting details required for calculating the tax liability"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed-approval mechanism is specified for GST tax filing — filing and tax-liability calculation are system-processed rather than subject to departmental approval."
+      },
+      "validity": {
+        "text": "A specific validity period for GST tax filing is not specified; GST returns are filed periodically as applicable to the taxpayer category (regular or composition)."
+      },
+      "fees": {
+        "text": "No statutory fee is charged for filing GST returns; late fees and interest apply in cases of delayed filing or delayed tax payment."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Taxpayer compiles required sales details (B2B, B2C, credit notes)",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Details entered in GSTR-1 on the GST portal",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Applicable tax liability calculated through the system",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "apply",
+          "title": "Taxpayer files the applicable GST return online (per category: regular/composition)",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "scrutiny",
+          "title": "If a notice or query is raised, the taxpayer responds through the online portal",
+          "automated": "partial",
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "13-10-2026",
+        "location": "The Conference Hall, Department of Industries, Udyog Parisar Complex, Middle Point, Sri Vijaya Puram",
+        "expert": "Arnab Samaddar",
+        "designation": "Tax officer, Admin"
+      },
+      "remarks": [
+        "Hiring a consultant for GST filing is optional and depends on the taxpayer's own knowledge of the process and time constraints."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "GST tax filing is entirely online through the GST portal; physical visits are not required for routine filing."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Taxpayers who lack sufficient knowledge of the GST filing process often hire consultants, resulting in additional compliance costs."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "positive",
+          "text": "Taxpayers can respond to notices or queries raised by the department entirely through the online portal."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "Late filing automatically triggers a calculated late fee; no manual assessment is needed."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Regular and composition taxpayers follow different filing requirements within the same online system."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "CLARITY",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Step-by-step instructions, user guides with screenshots, and GST-related advisories are available to help taxpayers file independently."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended continuing to provide clear, step-by-step guidance to help taxpayers complete filing independently."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended simplifying filing instructions to reduce taxpayer dependence on consultants and the associated costs."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended promoting awareness of filing due dates, late fees, and interest to help taxpayers avoid delays."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended strengthening online support for resolving taxpayer queries and responding to notices."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "The 11th of the month was referenced as a filing date during the discussion, though the ED does not detail the full filing calendar by return type."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No statutory fee is charged for filing GST returns."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "VAGUE",
+          "text": "Only the 11th of the month is referenced as a filing date; the ED does not lay out the complete filing calendar for different return types."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval or automatic-acceptance mechanism is described for GST tax filing."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No specific percentage or figure is given for how many taxpayers use consultants for filing (unlike the GST Registration ED for the same state, which cites approximately 60%)."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Entirely online, system-calculated tax liability and automatic late-fee calculation remove manual assessment steps."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Availability of step-by-step guides with screenshots and GST advisories supports independent filing."
+        }
+      ]
+    },
+    {
+      "serviceCode": "TRG",
+      "serviceName": "GST Tax Refund",
+      "sourceFile": "AN_ED_TRG.docx",
+      "issuingAuthority": "UTGST (GST Department), Tax Officer, Admin",
+      "portal": {
+        "name": "GST refund online portal",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": 60,
+        "basis": "Maximum timeline for processing a GST refund is 60 days, plus 5-7 working days for crediting",
+        "text": "The maximum timeline for processing a GST tax refund is 60 days; after processing, the approved amount generally takes an additional 5-7 working days to be credited to the applicant's bank account."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Supporting documents relevant to the type of GST refund being claimed (generally around 3-5 documents, depending on refund category)"
+      ],
+      "documentsNote": "Specific document names per refund type are not itemised in the ED, only that around 3-5 documents are generally required depending on category.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No deemed-approval mechanism is specified for GST tax refund."
+      },
+      "validity": {
+        "text": "A specific validity period for GST tax refund approval is not specified; the refund is processed based on the application and supporting documents submitted."
+      },
+      "fees": {
+        "text": "No statutory fee is charged for GST tax refund applications; the process is entirely online and free of charge."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant submits GST tax refund application online",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Applicant uploads required supporting documents (approx. 3-5, varies by refund type)",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Department examines documents and circulates them to relevant departments for checking",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "If documents are missing/deficient, applicant receives a query/deficiency notice through the portal",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "apply",
+          "title": "Applicant submits required clarification or additional documents online",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Department processes application and issues refund order/report online once satisfactory",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Approved refund is credited to the applicant's bank account",
+          "automated": true,
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "13-10-2026",
+        "location": "The Conference Hall, Department of Industries, Udyog Parisar Complex, Middle Point, Sri Vijaya Puram",
+        "expert": "Arnab Samaddar",
+        "designation": "Tax officer, Admin"
+      },
+      "remarks": [
+        "Taxpayers may use consultants for assistance with refund applications, but hiring one is not mandatory."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "The GST refund process is entirely online and paperless, from application through document verification to refund order."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "neutral",
+          "text": "The department circulates submitted refund documents to relevant other departments for checking before processing."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Missing or inadequate documentation leads to deficiency notices, additional clarification requests, and rework in the refund process."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "After a refund is processed (within the 60-day maximum), the credited amount generally takes an additional 5-7 working days to reach the applicant's bank account."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "positive",
+          "text": "Applicants can respond to deficiency notices and submit additional documents entirely through the online portal."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No statutory fee or service charge is levied for GST tax refund applications."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended providing clear guidance on the documents required for each type of GST tax refund."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended ensuring applicants receive clear and specific information about document deficiencies for timely correction."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended simplifying the clarification and resubmission process to reduce repeated submissions and rework."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "The expert recommended ensuring timely processing of refund applications within the prescribed 60-day timeline."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "Using a consultant for refund assistance is optional, not mandatory."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "neutral",
+          "text": "The number of documents required (around 3-5) varies depending on the type of refund claimed."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "VAGUE",
+          "text": "The specific documents required per refund category (the 'around 3-5 documents') are not itemised — only a general count is given."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval mechanism exists if the 60-day processing timeline is exceeded."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The specific 'relevant departments' the refund application is circulated to for checking are not named."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "The entirely paperless refund process, with online deficiency handling and direct bank-account credit, reduces applicant visits."
+        }
+      ]
+    },
+    {
+      "serviceCode": "WAC",
+      "serviceName": "Water Connection",
+      "sourceFile": "AN_ED_WAC.docx",
+      "issuingAuthority": "Municipal Council (per body text — process managed via E-File by municipal field staff/JE and the concerned approving authority); the document's own header lists 'Labour Department, A&N Administration' with Factory/Labour Inspector designations, which does not match this process — see gaps",
+      "portal": {
+        "name": "Department's E-File system (online, with very limited hard-copy files)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "No fixed departmental timeline stated",
+        "text": "No fixed departmental timeline for resolving or approving a water-connection application is specified; no timeline under a Right to Services Act, EODB Act, or Citizen Charter is stated in the discussion."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Land Record (required for a tap water connection)",
+        "Councillor Certificate (required along with the land record)",
+        "Land records and councillor certificate (for commercial water connections)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "The ED does not identify any deemed-approval provision for water connections."
+      },
+      "validity": {
+        "text": "No specific validity period or renewal requirement for the water connection is stated."
+      },
+      "fees": {
+        "text": "Water connection is charged at ₹50 per month for one connection and ₹60 per month for two connections, based on the number of connections; no separate application fee based on connection size, employee count, or validity period is stated."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant submits water-connection application through the department's online/E-File system",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Land record and councillor certificate submitted; existing-connection details checked where required",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "JE/field staff and linemen carry out required field work and prepare a field report",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Field report uploaded into the E-File system for further processing",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Concerned authority examines the file and approves; approval level depends on connection category/size",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Water connection provided through the municipal water-supply/pipe network",
+          "automated": false,
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "01-09-2026",
+        "location": "Training Hall, Directorate of Disaster Management(Apada Pravandhak Vibhag), Link Road, Near Anti-corruption Office, Sri Vijayapuram",
+        "expert": "Ajay Kumar; Prathush Narayan",
+        "designation": "Inspector of Factories; Labour Inspector"
+      },
+      "remarks": [
+        "The ED's header lists the experts as an Inspector of Factories and a Labour Inspector from the Labour Department, A&N Administration, but the body text describes a municipal water-supply process (E-File, councillor certificates, municipal pipe network, 271 wells) — the stated experts/department do not match the service process described, indicating a likely metadata mismatch in the source document.",
+        "The municipal council's water supply is supported by 24 wards, a pipeline distribution network, public wells, and tanker supply; it also receives treated water from APWD.",
+        "During periods of low water availability (e.g. when the dam level falls in summer), additional water is supplied via tankers, and the department is developing additional storage infrastructure (Jodanala and Atampad reservoirs)."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "The ED header's listed experts (Inspector of Factories, Labour Inspector, Labour Department) do not match the municipal water-supply process described in the body text, suggesting a metadata/source mismatch."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "No fixed departmental timeline for resolving or approving a water-connection application is specified — no Right to Services Act, EODB Act, or Citizen Charter timeline is cited."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "neutral",
+          "text": "The regular water-connection application is processed mainly through the E-File/online system, with very limited hard-copy files."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "neutral",
+          "text": "Approval authority level depends on the connection category/size, with larger connections handled at a higher level."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Water connection charges are flat monthly fees (₹50/month for one connection, ₹60/month for two), not tied to connection size or usage."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "positive",
+          "text": "Payment can be made online or via swipe, with cash accepted up to ₹2,000."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "The main operational burden is reduced water availability in summer when the dam level falls, requiring supplementary tanker supply."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The municipal council uses roughly 271 public wells, including heritage/Japanese wells (some motorised), as a supplementary water source during shortages — considered replicable elsewhere."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Water samples are tested regularly using testing kits, including routine checks and testing triggered by complaints."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "neutral",
+          "text": "Complaints related to water quality or supply are recorded and inspected by the concerned section, with testing carried out where required."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "No recommendation specific to the application/approval process was stated; the discussion focused mainly on water availability and supply infrastructure."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "No risk-based classification system for water connections was identified during the discussion."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "The document's header identifies the experts as 'Ajay Kumar, Inspector of Factories' and 'Prathush Narayan, Labour Inspector,' from the 'Labour Department, A&N Administration,' but the entire body of findings describes a municipal water-supply connection process (E-File, councillor certificate, municipal pipe network, 271 wells, APWD) — the stated experts and department do not match the service and process actually discussed."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No departmental processing timeline (in days) is given for water-connection applications, unlike other AN services in this set."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision and no validity/renewal requirement are specified for water connections."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Whether the applicant must visit an office in person at any stage (versus everything being handled via E-File) is not explicitly stated."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Use of roughly 271 public wells as a supplementary water source during low-availability periods is flagged as a practice worth replicating elsewhere."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No risk-based classification or specific redundant-requirement review is described for this service."
+        }
+      ]
+    }
+  ]
+}

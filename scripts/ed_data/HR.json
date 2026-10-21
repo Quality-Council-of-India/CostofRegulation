@@ -1,0 +1,170 @@
+{
+  "code": "HR",
+  "name": "Haryana",
+  "licenses": [
+    {
+      "serviceCode": "ENCL",
+      "serviceName": "Environmental Clearance",
+      "sourceFile": "HR_ED_ENCL.docx",
+      "issuingAuthority": "State Environment Impact Assessment Authority (SEIAA), Haryana",
+      "portal": { "name": "PARIVESH portal", "url": null },
+      "timeline": {
+        "minDays": 105,
+        "maxDays": 105,
+        "basis": "Statutory minimum under the EIA Notification and applicable Ministry guidelines, counted only from the date of complete document submission; the one-month Pollution Control Board CTE review falls within this window rather than being added on top.",
+        "text": "The statutory minimum timeline for Environmental Clearance is 105 days, counted from the date of complete document submission, per the EIA Notification and Ministry guidelines."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Land ownership documents (mandatory in all cases)",
+        "Forest NOC (if project falls in/near a forest area)",
+        "Airport Authority NOC (if height restrictions apply, e.g., height above the applicable threshold)",
+        "Category/project-specific NOCs as per the checklist (e.g., mining projects have a separate checklist)",
+        "Consultant-prepared EIA/project report, submitted through an empanelled consultant",
+        "Applicable form (one of 141 form types on PARIVESH, depending on the nature of amendment/expansion/fresh application sought)"
+      ],
+      "documentsNote": "Direct application by the project proponent is not permitted; all applications must be filed through an empanelled/accredited environmental consultant.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "There is no deemed approval for Environmental Clearance. The expert stated EC involves substantive technical/environmental appraisal that cannot be reduced to a time-bound automatic clearance; the 105-day timeline is treated as a floor for due process, not a ceiling with deemed-approval consequence."
+      },
+      "validity": {
+        "text": "Validity period was not explicitly discussed in the ED."
+      },
+      "fees": {
+        "text": "The fee depends entirely on project cost with no fixed flat fee. Scrutiny fee ranges from ₹50,000 to ₹2 lakh, paid by Demand Draft to the Member Secretary, SEIAA, outside the PARIVESH portal. The main EC fee starts at ₹500 for the smallest projects, rises to ₹1.5 lakh for projects up to ₹100 crore, and reaches ₹2 lakh for projects above ₹100 crore. No separate inspection fee is charged (built into the project-cost-based fee); only travel allowance applies when a complaint-driven visit is needed. This fee structure only took effect after a 2021 notification; before that EC was free."
+      },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Engage an empanelled/accredited environmental consultant", "automated": false, "note": "Direct application by the project proponent is not permitted." },
+        { "n": 2, "phase": "apply", "title": "File application online on PARIVESH", "automated": true, "note": "Applicant selects the applicable form/category (14 project categories; Category A vs. B/B1/B2)." },
+        { "n": 3, "phase": "fee", "title": "Pay scrutiny fee by Demand Draft", "automated": false, "note": "DD made in the name of the Member Secretary, SEIAA, based on project cost; handled outside PARIVESH." },
+        { "n": 4, "phase": "scrutiny", "title": "Initial scrutiny by SEAC against pre-published checklist", "automated": "partial", "note": "If documents are deficient, an 'Essential Deficiency' is raised and returned to the applicant/consultant for reply." },
+        { "n": 5, "phase": "scrutiny", "title": "Case forwarded to Pollution Control Board for CTE comments", "automated": "partial", "note": "CTE process merged with EC since 2025; comments returned within approx. one month." },
+        { "n": 6, "phase": "scrutiny", "title": "Public hearing conducted where mandated", "automated": false, "note": "Not required for projects within already-notified industrial areas." },
+        { "n": 7, "phase": "scrutiny", "title": "Case placed on SEAC agenda; SEAC reviews and issues recommendation", "automated": "partial", "note": "SEAC reviews along with CTE/other department comments and conditions (approx. 11–14 conditions typically appended)." },
+        { "n": 8, "phase": "approve", "title": "Case placed before SEIAA in formal meeting", "automated": false, "note": "Minutes recorded and uploaded online via Member Secretary's authenticated login." },
+        { "n": 9, "phase": "approve", "title": "EC letter drafted, digitally signed, and uploaded to PARIVESH", "automated": true, "note": "Typically 16–17 pages incorporating all conditions." },
+        { "n": 10, "phase": "approve", "title": "Applicant downloads EC/CTE certificate from the portal", "automated": true, "note": "Downloaded against the proposal number." }
+      ],
+      "ed": { "date": "20-08-2026", "location": "Haryana Enterprise Promotion Centre, Sector 2, Panchkula, Haryana", "expert": "Dr. Priya", "designation": "Member" },
+      "remarks": [
+        "SEIAA cannot directly penalise anyone; if a complaint-driven site visit finds a violation, the matter is passed to the Pollution Control Board, which can act or impose a penalty.",
+        "SEIAA is a time-bound statutory body constituted for 3–4 years with no permanent field staff of its own; if the authority's term ends before a new one is formed, pending cases are managed centrally in the meantime.",
+        "All notification norms, guidelines, and portal functionality are centrally controlled by the Ministry of Environment/Centre; the State Authority operates strictly within these centrally set norms with limited discretion to alter documentation or timeline requirements unilaterally.",
+        "About 90% of SEIAA Haryana's cases are construction/building projects; industrial cases are rare (only 8–10 per year) since most industrial areas already have a combined EC from their original notification."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "delay", "tags": ["PORTAL", "TIMELINE"], "sentiment": "issue", "text": "The shift to block-wise document upload on PARIVESH (replacing single-PDF upload) added roughly an hour of extra drafting per case, with portal errors taking 4–5 days to a month to resolve." },
+        { "source": "ed", "category": "redundant", "tags": ["NORMS", "INTERDEP", "COMPLY"], "sentiment": "issue", "text": "Green area requirement percentages diverge across departments for similar project types (8%, 14%, 15%, and 20% by SEIAA, Pollution Control Board, and Town & Country Planning respectively), creating duplicate and conflicting compliance burden." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Mandatory public hearings for certain project categories add at least a month to the timeline and require separate data collection; hard to remove given its statutory basis." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Portal glitches, particularly DSC verification failures and OTP issues, cause delays unrelated to the actual case review; these are centrally maintained PARIVESH backend problems rather than State-level issues." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP", "GRIEVANCE"], "sentiment": "neutral", "text": "SEIAA cannot directly penalise anyone; if a complaint-driven site visit finds a violation, the matter is passed to the Pollution Control Board, which can act or impose a penalty." },
+        { "source": "ed", "category": "procedural", "tags": ["GRIEVANCE", "PORTAL"], "sentiment": "neutral", "text": "Complaints are not handled through the PARIVESH portal; they come in through email, either to the department directly or to the CM's grievance cell." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY"], "sentiment": "neutral", "text": "SEIAA is a time-bound statutory body (3–4 year term) with no permanent staff of its own, and relies on the Pollution Control Board's Regional Officers to conduct site visits." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "About 90% of SEIAA Haryana's cases are construction/building projects; industrial cases are rare (8–10 per year) since most industrial areas already have a combined EC and individual units usually don't need a separate EC unless construction crosses 20,000 sq.m." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Haryana's SEIAA/EC process is seen as a strong, well-performing model, studied by other states in inter-state review meetings held roughly every four months." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive", "text": "All proposal details such as checklists, agendas, minutes, and the final certificate are publicly available without login, including a built-in tracker showing the exact stage a case is at and how many days it has spent there." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE", "INTERDEP"], "sentiment": "positive", "text": "The 2025 CTE–EC merger (single-window fee and application process) reduced duplicate submissions and saved 2–3 months of processing time." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS", "INTERDEP"], "sentiment": "suggestion", "text": "Harmonize department requirements, particularly green-area percentages, across SEIAA, the Pollution Control Board, and Town & Country Planning so applicants are not caught between conflicting rules." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Upgrade the PARIVESH document-upload interface to reduce the drafting and error-resolution burden introduced by the current block-wise submission format." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Improve portal technical stability, particularly around DSC verification and OTP delivery, to eliminate delays unrelated to substantive case review." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "No deemed approval exists for EC since it involves substantive technical/environmental appraisal that cannot be reduced to a time-bound automatic clearance; the 105-day timeline is a floor for due process, not a deemed-approval ceiling." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "The current project-cost-based fee structure only came into effect after a 2021 notification; before that there was no fee for EC at all." },
+        { "source": "ed", "category": "policy", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "All notification norms, guidelines, and portal functionality are centrally controlled by the Ministry of Environment/Centre; the State Authority has limited discretion to alter documentation or timeline requirements unilaterally." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Validity period of the Environmental Clearance was not explicitly discussed in the ED." },
+        { "flag": "MISSING", "text": "No PARIVESH portal URL was given during the discussion." },
+        { "flag": "VAGUE", "text": "The main EC fee was described only at three reference points (₹500, ₹1.5 lakh at ₹100 crore, ₹2 lakh above ₹100 crore); the full graduated fee schedule by project-cost bracket was not detailed." },
+        { "flag": "GOOD_PRACTICE", "text": "Public, login-free PARIVESH tracker shows the exact stage and days-elapsed for every proposal, cited as a transparency best practice studied by other states." },
+        { "flag": "GOOD_PRACTICE", "text": "The 2025 merger of CTE and EC processes (single-window fee and application) eliminated duplicate submissions and saved 2–3 months of processing time." },
+        { "flag": "REFORM", "text": "Recommended harmonization of divergent green-area percentage requirements (8%, 14%, 15%, 20%) set independently by SEIAA, the Pollution Control Board, and Town & Country Planning Department." },
+        { "flag": "REFORM", "text": "Recommended technical upgrade to the PARIVESH block-wise document-upload interface and improved stability of DSC verification/OTP delivery to reduce portal-driven delays." }
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFile": "HR_ED_RFNO.docx",
+      "issuingAuthority": "Haryana Fire Department (handled locally by an Assistant Divisional Fire Officer at the district office level)",
+      "portal": { "name": "Saral Portal (integrated with Invest Haryana)", "url": null },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 30,
+        "basis": "Mandated under the Haryana Right to Service (RTS) Act as a legally binding, government-mandated turnaround time for renewal specifically.",
+        "text": "The application timeline for renewal of the Fire NOC/Fire Safety Certificate is 30 days, as legally mandated under the Haryana Right to Service (RTS) Act."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Fire Fighting Scheme approval details – letter/proof of when the original Fire Fighting Scheme was approved",
+        "First NOC details – proof/details of the original (first-time) Fire NOC issued",
+        "Completion Certificate details – details of when the building's Completion Certificate was obtained",
+        "Last (previous) NOC details – details of the most recently issued/renewed NOC",
+        "PAN Card",
+        "Aadhaar Card",
+        "Photographs of the building",
+        "Photographs of the installed fire-fighting system (4–5 photos, uploaded as a single file within a specified file size limit)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "no",
+        "days": 30,
+        "text": "There is no formal deemed-approval provision for Fire NOC renewal. However, if the mandatory 30-day RTS timeline lapses without resolution, the application moves into the 'ASK' auto-appeal portal monitored by the Right to Service Commission, and the department must formally explain the delay."
+      },
+      "validity": {
+        "text": "First-time certificates for residential buildings are valid for 5 years; certificates for non-residential buildings and renewals are generally valid for 3 years. Previously annual, the validity was extended to 3 years under Ease of Doing Business (EODB) reforms to reduce renewal frequency and compliance burden."
+      },
+      "fees": {
+        "text": "Renewal of the Fire Safety Certificate is entirely free of charge, with no statutory fee at any stage, uniformly across all building categories irrespective of size, employee count, or validity period."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply for renewal on the Saral Portal", "automated": true, "note": "Applicant selects 'Renewal of Fire Safety Scheme/Renewal of Fire Safety Certificate' against the existing certificate." },
+        { "n": 2, "phase": "apply", "title": "Upload mandatory documents on the portal", "automated": true, "note": null },
+        { "n": 3, "phase": "apply", "title": "Application number auto-generated and reflected on Fire Department portal", "automated": true, "note": "Fully automatic feed from Saral, no manual entry." },
+        { "n": 4, "phase": "scrutiny", "title": "Application reviewed by a single officer at the local/district office", "automated": "partial", "note": "If discrepancy found, an objection is raised and the applicant is notified via SMS/portal to rectify and resubmit; if clear, forwarded for inspection." },
+        { "n": 5, "phase": "inspect", "title": "Site inspection scheduled and applicant notified", "automated": "partial", "note": "Notification via SMS/portal; a postponed inspection is communicated with a revised date/time." },
+        { "n": 6, "phase": "inspect", "title": "Local Fire Officer conducts physical site inspection", "automated": false, "note": "Verifies the fire-fighting system is installed and functioning per NBC Fire and Life Safety chapter, category-based." },
+        { "n": 7, "phase": "inspect", "title": "Inspection decision recorded", "automated": "partial", "note": "If system not functioning/maintenance lapse (most common rejection reason), objection raised and re-inspection follows rectification; if satisfactory, officer approves and submits report." },
+        { "n": 8, "phase": "approve", "title": "Renewed Fire Safety Certificate issued and downloaded from the portal", "automated": true, "note": "No physical visit required at any stage for the applicant." }
+      ],
+      "ed": { "date": "20-08-2026", "location": "Haryana Enterprise Promotion Centre, Sector 2, Panchkula, Haryana", "expert": "Mr. Sajjan Kumar and Mr. Harish", "designation": "Assistant Divisional Fire Officers" },
+      "remarks": [
+        "The process has been fully online since 2018, with the officer's physical site inspection as the only step requiring physical presence; the applicant never needs to visit in person.",
+        "Third-party empanelment for site inspection is currently being worked on as part of the department's deregulation reforms, with the empanelled third party expected to eventually conduct inspections."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "Duplicate/repeat applications caused by unclear submission confirmation on the Saral portal add avoidable processing burden." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Suggested reform is improving submission-acknowledgment on Saral so applicants are not prompted to resubmit." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "No redundant documents were flagged by the department; every document on the checklist was stated to be tied to a legal requirement." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The process has been fully online since 2018, with site inspection as the only step requiring physical presence." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive", "text": "Application data flows automatically from Saral into the Fire Department's internal portal with no manual re-entry at any stage." },
+        { "source": "ed", "category": "policy", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "Renewal of the Fire Safety Certificate is entirely free of charge at every stage, uniformly across all building categories." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "positive", "text": "Validity period was extended from annual renewal to three years under EODB reforms, reducing the frequency, time, and compliance burden associated with renewals." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE", "GRIEVANCE"], "sentiment": "neutral", "text": "If the mandatory 30-day RTS timeline lapses without resolution, the application moves to the 'ASK' auto-appeal portal monitored by the Right to Service Commission, and the department must formally explain the delay." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT", "COMPLY"], "sentiment": "neutral", "text": "The most common rejection reason at inspection is a non-functioning fire-fighting system or maintenance lapse, triggering an objection and a re-inspection cycle after rectification." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "If structural alteration is made to the building after certification, revised/fresh fire-fighting scheme approval must be obtained instead of applying for routine renewal." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Risk classification follows National Building Code (NBC) Fire and Life Safety standards based on occupancy type, building use, size, height, and associated fire risk, rather than a separate department-specific framework." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The application is handled at the local/district office level by a single officer, with no multi-department or multi-level movement." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Complete online tracking of application status is visible to both the local officer and Head Office through role-based logins." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC", "PORTAL"], "sentiment": "suggestion", "text": "Enabling DigiLocker or profile-based linkage for static identity documents such as PAN, Aadhaar, and ID proof would streamline resubmission at each renewal cycle." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY", "INSPECT"], "sentiment": "suggestion", "text": "Progressing the department's own third-party empanelment initiative for site inspection would strengthen capacity in high-density districts." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY", "POSITIVE"], "sentiment": "positive", "text": "Third-party empanelment for site inspection is currently being worked on as part of deregulation reforms, with the empanelled third party expected to eventually conduct inspections." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "Photographs of the installed fire-fighting system (4–5 photos) must be uploaded as a single file within a specified file size limit." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No Saral portal URL was given during the discussion." },
+        { "flag": "VAGUE", "text": "A 'specified file size limit' for uploading fire-fighting system photographs was mentioned but the exact limit was not stated." },
+        { "flag": "GOOD_PRACTICE", "text": "Fully online process since 2018 with zero fee and no applicant physical visit required at any stage, except the officer-conducted site inspection." },
+        { "flag": "GOOD_PRACTICE", "text": "Automatic data feed from Saral to the Fire Department portal eliminates manual data entry and auto-generates application numbers." },
+        { "flag": "REFORM", "text": "Suggested improvement of submission-acknowledgment on the Saral portal to prevent duplicate/repeat filings caused by unclear confirmation." },
+        { "flag": "REFORM", "text": "Proposed enabling DigiLocker/profile-based linkage for static identity documents (PAN, Aadhaar, ID proof) to avoid repeated submission at each renewal cycle." },
+        { "flag": "MISSING", "text": "No figures were given for the proportion of applications rejected at first inspection versus approved on the first attempt." }
+      ]
+    }
+  ]
+}

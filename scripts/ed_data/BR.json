@@ -1,0 +1,234 @@
+{
+  "code": "BR",
+  "name": "Bihar",
+  "licenses": [
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFile": "Bihar_ED_FNO.docx",
+      "issuingAuthority": "Home Department (Bihar Fire Service), via the Fire Protection Safety (FPSW) committee comprising architects, fire officers, and a legal member",
+      "portal": { "name": "Bihar Fire Service online application portal (for Fire NOC)", "url": null },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 90,
+        "basis": "Statutory timeline is 30 days; in practice revision cycles push most cases to 2-3 months",
+        "text": "The statutory timeline for Fire NOC approval is 30 days. In practice, cases without any revision are typically closed within 30-40 days, but where revisions are required (common, since the review routinely raises corrections) the back-and-forth extends the timeline to about 1-3 months. Roughly 90% of applications take 2-3 months to close, largely due to revision cycles."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Form B (application form)",
+        "Form C (checklist covering building details, fire provisions, equipment, floor plate, and built-up area)",
+        "Form D (undertaking/affidavit)",
+        "Fire-related building drawings",
+        "Basic statutory documents of the applicant (e.g., Aadhar card, PAN card, etc.)"
+      ],
+      "documentsNote": "A bank guarantee (earlier 15% of the estimated cost of proposed fire equipment) was also required but is being discontinued, as it was seen as an additional financial burden on applicants.",
+      "deemedApproval": {
+        "status": "yes",
+        "days": 30,
+        "text": "Deemed approval exists if no decision is communicated within the 30-day statutory timeline, but applies only to low- and moderate-risk buildings. High-risk buildings (hazardous industries, ethanol units, fireworks manufacturing) are excluded and require full departmental review and sign-off."
+      },
+      "validity": {
+        "text": "Under the current (pre-reform) framework, validity is category-based: residential buildings 5 years, institutional buildings 3 years, commercial buildings 3 years, and 2 years for certain hazardous categories. Under the draft Bihar Building Bylaws 2026 and Bihar Fire Service Rules 2026 (Cabinet-approved, pending Governor's assent and gazette notification), validity and approval pathways are proposed to be restructured around a low/moderate/high-risk classification."
+      },
+      "fees": {
+        "text": "The fee is charged per square metre of built-up area and varies by occupancy type, ranging from approximately ₹2/sq.m (minimum) to ₹8/sq.m (maximum), with institutional and assembly buildings falling in between. The online portal auto-calculates the fee once the applicant enters floor-wise built-up area."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit Form B (application form) online", "automated": true, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Fill Form C checklist and upload fire-related building drawings", "automated": true, "note": "Form C covers site details, road width, setbacks, height, occupancy type, staircases, floor plate/built-up area, power connections, and fire equipment provisions." },
+        { "n": 3, "phase": "apply", "title": "Submit Form D (undertaking/affidavit)", "automated": true, "note": "A bank guarantee was earlier required at this stage but is being repealed." },
+        { "n": 4, "phase": "scrutiny", "title": "Complete application forwarded for site inspection", "automated": true, "note": "" },
+        { "n": 5, "phase": "inspect", "title": "Fire officer from the nearest/jurisdictional fire station conducts physical site inspection", "automated": "partial", "note": "Verifies items such as road width and site access; uploads the inspection report online." },
+        { "n": 6, "phase": "scrutiny", "title": "Revision notice issued if discrepancies found", "automated": "partial", "note": "A joint inspection may be conducted with prior intimation to resolve ambiguity." },
+        { "n": 7, "phase": "scrutiny", "title": "FPSW committee scrutinizes drawings and application", "automated": false, "note": "Committee comprises architects, fire officers, and a legal member." },
+        { "n": 8, "phase": "approve", "title": "Fire NOC granted online if in order, else sent back for revision and resubmission", "automated": true, "note": "Since 2025 the final NOC issuance step is fully digitized; a physical hard copy can additionally be obtained on request." }
+      ],
+      "ed": { "date": "14-09-2026", "location": "Industry Department, Conference Hall, 3rd floor, Vikash Bhavan, Patna", "expert": "Rishi Kumar", "designation": "Architect, Home Department (Bihar Fire Service)" },
+      "remarks": [
+        "Large backlog with 70-80% pendency in older applications, as many applicants await favourable norms under new rules.",
+        "Around 30-35 files are pending departmental review and 60-70 applications are pending applicant revision/resubmission.",
+        "Discussion covered the new Fire NOC process; renewal was taken up separately in the same session."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "redundant", "tags": ["CLARITY"], "sentiment": "issue", "text": "Form C (the checklist) was identified as overly generic — the same static form is used regardless of building size, so smaller buildings end up filling in fields not relevant to them. The expert estimated around 45% of the form could be made more dynamic/building-specific." },
+        { "source": "ed", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "For high-risk buildings, the requirement to approach multiple agencies separately (rather than a single window) was flagged as burdensome for applicants." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Revisions are common since the review process routinely raises corrections, and the back-and-forth extends the timeline to about 1-3 months; roughly 90% of applications take 2-3 months to close, largely due to revision cycles." },
+        { "source": "ed", "category": "redundant", "tags": ["FEES"], "sentiment": "issue", "text": "The bank guarantee (previously 15% of the estimated cost of fire equipment shown in the drawings) was identified as the most significant redundant or burdensome requirement, seen as an additional financial burden on applicants." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "positive", "text": "The bank guarantee requirement has already been repealed/is being discontinued, reducing financial burden on applicants." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES", "PORTAL"], "sentiment": "positive", "text": "The online portal auto-calculates the fee once the applicant enters floor-wise built-up area, which helps prevent common errors such as omitting basement/parking area — errors that earlier led to fee shortfalls and additional payment requests." },
+        { "source": "ed", "category": "procedural", "tags": ["QUERY"], "sentiment": "positive", "text": "A reminder mechanism (\"Smart Patra\") proactively sends multiple reminders (typically two to three) to applicants who have not acted on a revision request." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Complete transition to a fully embedded Single Window System so one application covers both municipal/building approval and Fire NOC." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Make Form C (checklist) dynamic and proportionate to building size and type instead of using one generic form." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Consolidate joint inspections into a single inspection conducted by one agency." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Expedite gazette notification of Bihar Fire Service Rules 2026 and Bihar Building Bylaws 2026 to operationalize risk-based classification, reduced setbacks, and associated reliefs." },
+        { "source": "ed", "category": "remarks", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Large backlog with 70-80% pendency in older applications, as many applicants await favourable norms under the new rules." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Grievances mainly arise due to processing delays and consultant errors, with about 20-50 cases in the past year." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "issue", "text": "A data quality gap was flagged: mobile numbers are missing for many applicants; the department agreed to examine this." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY"], "sentiment": "positive", "text": "A dedicated architect has been posted in Bihar Fire Services (the position was earlier ad hoc)." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "positive", "text": "Fire audits were decentralized last year — responsibility moved from department headquarters to the district-level fire officer." },
+        { "source": "ed", "category": "policy", "tags": ["INSPECT", "FEES"], "sentiment": "neutral", "text": "Third-party audit has been introduced (already provided for in the Bihar Fire Service Rules); the associated fee was revised upward to attract adequate third-party participation." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "The draft Bihar Building Bylaws propose reduced setback norms (6m to 3.6m) to allow higher FAR." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Joint inspections are being consolidated into one agency, with backend API integration underway for inter-departmental data sharing." }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "The statutory timeline is stated as 30 days, yet the same section states cases without any revision are typically closed within 30-40 days — slightly exceeding the stated statutory limit even without revision." },
+        { "flag": "VAGUE", "text": "The ~45% estimate for how much of Form C could be made dynamic is described only as an expert estimate, with no supporting breakdown." },
+        { "flag": "MISSING", "text": "Exact portal name/URL for Fire NOC applications is not given — only referred to generically as 'online' / 'the online portal'." },
+        { "flag": "GOOD_PRACTICE", "text": "'Smart Patra' proactive reminder mechanism (two to three reminders) for applicants who have not acted on a revision request." },
+        { "flag": "REFORM", "text": "Draft Bihar Building Bylaws 2026 and Bihar Fire Service Rules 2026 — Cabinet-approved but pending Governor's assent and gazette notification — would restructure validity/approval pathways around risk classification and reduce setbacks (6m to 3.6m)." },
+        { "flag": "VAGUE", "text": "Grievance count is given only as a wide range (about 20-50 cases in the past year) with no further breakdown by type." }
+      ]
+    },
+    {
+      "serviceCode": "LA",
+      "serviceName": "Land Allotment",
+      "sourceFile": "Bihar_ED_LA.docx",
+      "issuingAuthority": "Bihar Industrial Area Development Authority (BIADA), via the Project Clearance Committee (PCC) headed by BIADA's Managing Director",
+      "portal": { "name": "BIADA online portal (part of Bihar's Single Window System)", "url": null },
+      "timeline": {
+        "minDays": 3,
+        "maxDays": 15,
+        "basis": "Fortnightly Project Clearance Committee (PCC) cycle; statutory maximum is 15 days",
+        "text": "Approval runs on a fortnightly PCC cycle, taking 3-15 days depending on when the application lands relative to the meeting date; maximum statutory time is 15 days, though large/priority investors have occasionally been approved within a single day. Minutes are signed the next day after approval and the allotment letter is issued within 3 days."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Completed Project Profile form (name, address, investment amount, land size, machinery details)",
+        "Net worth audit report",
+        "Supporting documents establishing company authenticity, turnover, and financial standing",
+        "Detailed Project Report (DPR) for larger units (not strictly mandatory even then)"
+      ],
+      "documentsNote": "MSMEs need only the Project Profile form; bigger units also submit a DPR, though even that is not strictly mandatory. The full document checklist is published alongside the Land Allotment Policy on the BIADA website.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No deemed-approval provision exists for this service. The process instead relies on a fixed 15-day maximum timeline tied to the fortnightly PCC cycle, with no automatic approval by default if that timeline were to be missed."
+      },
+      "validity": {
+        "text": "The new Land Allotment Policy 2026 offers 30/60/90-year lease options, replacing the earlier fixed 90-year term. Shorter tenure substantially reduces upfront cost (roughly ₹1 crore/acre for 90 years vs ₹70 lakh for 30 years). At the end of a 30-year term the lease can be renewed at prevailing rates or the land surrendered."
+      },
+      "fees": {
+        "text": "Processing fee (acts as an Earnest Money Deposit): 2% of project cost for Micro & Small, 5% for Medium & Large, adjusted against final payment if allotted or refunded within 15 days if rejected. Maintenance charges are 5%; an annual land lease levy of 0.5% (roughly ₹10,000-₹60,000/year depending on land size) and facility charges once land is allotted also apply."
+      },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Register on the BIADA portal and obtain login ID/password", "automated": true, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Fill in the Project Profile (name, address, investment amount, land size, machinery details)", "automated": true, "note": "MSMEs need only this form; bigger units also submit a Detailed Project Report (DPR)." },
+        { "n": 3, "phase": "apply", "title": "Upload supporting documents (audited net worth report and other papers)", "automated": "partial", "note": "Some applicants also visit the land in person to check its size, access road, and layout before applying." },
+        { "n": 4, "phase": "fee", "title": "Pay the processing fee online (EMD)", "automated": true, "note": "2% of project cost for Micro & Small, 5% for Medium & Large." },
+        { "n": 5, "phase": "scrutiny", "title": "BIADA internal teams review the application", "automated": false, "note": "Legal team checks for land disputes; Industrial Development checks nearby units for compatibility; other teams verify investment details." },
+        { "n": 6, "phase": "approve", "title": "Proposal goes to the fortnightly PCC meeting headed by the Managing Director", "automated": "partial", "note": "If approved, minutes are signed (usually the next day) and the allotment letter is issued within 3 days; the meeting is held in hybrid mode." }
+      ],
+      "ed": { "date": "14-09-2026", "location": "Industry Department, Conference Hall, 3rd floor, Vikash Bhavan, Patna", "expert": "Amit Sinha", "designation": "DGM of Investment Promotion and Land Allotment, Bihar Industrial Area Development Authority (BIADA)" },
+      "remarks": [
+        "Roughly 300 applications over the last 2 years, about 70% approved, 30% rejected mainly for incomplete documentation or investment below the ₹10 crore/acre benchmark.",
+        "The ₹10 crore/acre benchmark is driven by Bihar's high population density and resulting land pressure.",
+        "Roughly 80-90% of applicants are MSMEs; large industries are rare (cement and beverage companies with 500-1,000+ crore investment).",
+        "High demand exists in select clusters — IMC Gaya's roughly 1,100-1,200 acres are already fully committed via MoUs, and a ₹25,000 crore steel company proposal is on hold pending land availability."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Registration, project profile, documents, and payment are all completed fully online through the BIADA portal, which operates as part of Bihar's Single Window System." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "positive", "text": "The final approval stage (PCC meeting) is conducted in hybrid mode — applicants can join in person or virtually, with virtual participants getting the same outcome." },
+        { "source": "ed", "category": "remarks", "tags": ["CLARITY"], "sentiment": "neutral", "text": "Applicants from Patna or nearby districts often attend the PCC meeting in person, citing added clarity, though virtual participants receive the same outcome." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "positive", "text": "The processing fee (EMD) is adjusted against the final payment if allotted, or refunded within 15 days if rejected, rather than held indefinitely." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "positive", "text": "The new Land Allotment Policy 2026 offers 30/60/90-year lease options replacing the earlier fixed 90-year term, substantially reducing upfront cost for investors who don't need a long lease (roughly ₹1 crore/acre for 90 years vs ₹70 lakh for 30 years)." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Investment figures are actively cross-verified — machinery costs are checked against market rates and working capital is capped at an assessed 25% — to prevent inflated claims for larger incentives or land allocations." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "Land cost is excluded from the investment calculation, per the Government of India's definition of plant & machinery investment." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "positive", "text": "No part of the assessment is outsourced to third parties — all verification is done in-house, specifically to avoid manipulation." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "PCC meetings moved from weekly to fortnightly, driven by rising application volumes and unsustainable weekend workloads, not a process shortfall." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "About 30% of applications are rejected, mainly for incomplete documentation or investment below the ₹10 crore/acre benchmark." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "High demand in select clusters — IMC Gaya's roughly 1,100-1,200 acres are already fully committed via MoUs, and a ₹25,000 crore steel company proposal is on hold pending land availability." },
+        { "source": "ed", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Other states should adopt a fixed, short approval cycle (like Bihar's 15-day maximum) instead of leaving land allotment timelines open-ended." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Keep land investment checks in place to reduce the risk of manipulated numbers." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Offer flexible lease tenures (e.g., 30/60/90 years) instead of one fixed long-term lease, so smaller investors aren't forced to pay for years they don't need." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Allow both in-person and virtual participation in approval meetings, so distance doesn't disadvantage applicants." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Refund or adjust deposit amounts (EMD) quickly, within a fixed number of days, instead of holding them indefinitely." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "There is no formally named risk-tier system, but a compatibility-based check is built into MIS scrutiny (e.g., keeping a fly-ash unit away from food processing)." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "Newer industrial areas (IMC Gaya, Vaishali Electronic City) are fully sectorally zoned from the outset, while older, largely exhausted areas were never zoned this way." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Exact BIADA portal name/URL is not given — referred to only as 'the BIADA portal.'" },
+        { "flag": "MISSING", "text": "The full document checklist is described as 'published alongside the Land Allotment Policy on the BIADA website' rather than itemized in the discussion, so the complete list is not captured here." },
+        { "flag": "VAGUE", "text": "Application volume figures are approximate ('roughly 300 applications over the last 2 years,' 'about 70% approved, 30% rejected,' 'roughly 80-90% of applicants are MSMEs') with no exact counts given." },
+        { "flag": "GOOD_PRACTICE", "text": "Hybrid PCC meeting format letting applicants join in person or virtually, with EMD adjusted/refunded within 15 days rather than held indefinitely." },
+        { "flag": "REFORM", "text": "New Land Allotment Policy 2026 introduces flexible 30/60/90-year lease tenure, replacing the earlier fixed 90-year term." },
+        { "flag": "VAGUE", "text": "The move from weekly to fortnightly PCC meetings is explained only in general terms ('rising application volumes and unsustainable weekend workloads') without specific figures." }
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFile": "Bihar_ED_RFNO.docx",
+      "issuingAuthority": "Home Department (Bihar Fire Service), via the applicant's district fire office",
+      "portal": { "name": "Bihar Fire Service online portal (renewal submission is still physical; verification, inspection, and sign-off are processed through the portal)", "url": null },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": 30,
+        "basis": "No fixed statutory renewal timeline stated; officials' own estimates",
+        "text": "Officials estimated the renewal process takes roughly a month to close overall. Where paperwork and the inspection report are in order, the department typically closes out the renewal within about a week. If a deficiency is found, the remaining timeline depends mainly on how quickly the applicant fixes it rather than additional departmental delay."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "The original provisional NOC issued earlier",
+        "Building and fire-safety drawings already submitted with the original application",
+        "A separate renewal-specific application form, distinct from the original application form"
+      ],
+      "documentsNote": "No fresh building-setup documentation is required; renewal is essentially a status check on equipment already installed and approved. Must be submitted within the 45-day window before the existing NOC expires.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "If inspection finds a deficiency, the applicant is simply told to fix it and resubmit; there is no mention of the application getting auto-approved if the department doesn't respond within a set number of days."
+      },
+      "validity": {
+        "text": "Validity follows the original NOC categories: residential buildings renew every 5 years; hazardous categories renew as often as annually, reflecting their higher risk profile. A successful renewal extends the NOC for the full validity period applicable to the applicant's category."
+      },
+      "fees": {
+        "text": "Fee structure mirrors the original NOC — calculated per square metre and varying by occupancy type (e.g., hospitals vs. coaching centres attract different rates). Officials confirmed there is no separate or extra departmental fee specifically for renewal. The original NOC's bank guarantee (15% of estimated fire equipment cost) is refundable once equipment installation is completed and confirmed compliant."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Download renewal application form from the portal and submit it physically at the district fire office", "automated": false, "note": "This step is not yet fully digitised." },
+        { "n": 2, "phase": "scrutiny", "title": "Application entry and verification carried out online by the department", "automated": true, "note": "" },
+        { "n": 3, "phase": "inspect", "title": "District fire officer conducts site inspection of fire safety equipment condition", "automated": "partial", "note": "Conducted by the officer attached to the applicant's own district, not Patna headquarters." },
+        { "n": 4, "phase": "inspect", "title": "Fire officer uploads the inspection report directly onto the portal", "automated": true, "note": "" },
+        { "n": 5, "phase": "scrutiny", "title": "Department reviews the report and processes the renewal accordingly", "automated": true, "note": "" },
+        { "n": 6, "phase": "approve", "title": "Renewal closed out where paperwork and inspection report are in order", "automated": true, "note": "Typically closed within about a week once in order." }
+      ],
+      "ed": { "date": "14-09-2026", "location": "Industry Department, Conference Hall, 3rd floor, Vikash Bhavan, Patna", "expert": "Rishi Kumar", "designation": "Architect, Home Department (Bihar Fire Service)" },
+      "remarks": [
+        "The reform conversation for Fire NOC renewal sits within a larger, multi-department Ease of Doing Business push in Bihar; officials referenced similar reform activity across Land Revenue, Health, Pollution Control, and Road departments, with a state Cabinet meeting on related reforms reportedly scheduled for the following day.",
+        "The concept of common/shared fire-safety infrastructure was explored but paused, awaiting broader EoDB and National Building Code reforms."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "RENEWAL"], "sentiment": "issue", "text": "The physical submission step — downloading the form and submitting it physically at the district fire office — was the clearest burden flagged, since verification, inspection, reporting and sign-off are otherwise already online." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "INTERDEP"], "sentiment": "issue", "text": "Renewal is not yet integrated with Bihar's National Single Window System (NSWS)." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT", "RENEWAL"], "sentiment": "positive", "text": "Inspection has been decentralised to the district-level fire officer (not Patna headquarters), so neither applicants nor department staff need to travel to Patna for routine renewal cases." },
+        { "source": "ed", "category": "procedural", "tags": ["RENEWAL", "COMPLY"], "sentiment": "positive", "text": "Renewal is kept genuinely lighter than a fresh NOC — it reuses previously submitted drawings and documents, and inspection is limited to confirming equipment functionality rather than re-checking the whole building design." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "positive", "text": "The bank guarantee from the original NOC (15% of estimated fire equipment cost) is refundable once equipment installation is completed and confirmed compliant, rather than retained indefinitely." },
+        { "source": "ed", "category": "policy", "tags": ["INSPECT"], "sentiment": "neutral", "text": "A planned 5% random audit of third-party-certified renewal cases is intended to catch quality issues without slowing down the broader self-certification pathway, once operational." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "RENEWAL"], "sentiment": "suggestion", "text": "Fully digitise the renewal submission step — the single reform officials themselves pointed to as most impactful." },
+        { "source": "ed", "category": "suggestions", "tags": ["RENEWAL", "CAPACITY"], "sentiment": "suggestion", "text": "Move the self-certification route for renewal from an on-paper provision to something applicants can actually use, which depends on re-floating the empanelment tender with better fee terms to attract qualified professionals." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Revisit the shared fire-safety infrastructure concept for MSME clusters once the broader EoDB/National Building Code reforms are finalised, since it could meaningfully lower individual compliance costs for smaller units." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY", "RENEWAL"], "sentiment": "issue", "text": "Only around 30-50% of eligible entities actually come back for renewal; non-compliance is particularly common among residential buildings, where enforcement is weakest and there is no licence-linked trigger forcing the issue." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "No dedicated grievance-tracking system specific to renewal was described; grievances are handled through direct letters/emails to the department, with RTI available as a general fallback." },
+        { "source": "ed", "category": "remarks", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "The reform conversation for Fire NOC renewal sits within a larger, multi-department Ease of Doing Business push in Bihar, with similar reform activity referenced across Land Revenue, Health, Pollution Control, and Road departments." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "The concept of common/shared infrastructure was explored but paused, awaiting broader EoDB and National Building Code reforms." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Once an inspection deficiency is rectified, the department does not hold up the file — the remaining timeline depends mainly on how quickly the applicant fixes the flagged issue rather than any additional departmental delay." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "If inspection finds a deficiency, the applicant is simply told to fix it and resubmit; there is no deemed/auto-approval mechanism mentioned if the department doesn't respond within a set number of days." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No specific statutory maximum timeline is stated for renewal — officials gave only rough estimates ('about a week' when in order, 'roughly a month' overall)." },
+        { "flag": "VAGUE", "text": "Timeline figures are rough estimates ('about a week,' 'roughly a month') rather than precise durations or a stated statutory limit." },
+        { "flag": "VAGUE", "text": "Renewal uptake is given only as a wide estimated range (30-50% of eligible entities actually come back for renewal)." },
+        { "flag": "GOOD_PRACTICE", "text": "Refundable bank guarantee (returned once compliance confirmed) and decentralised district-level inspection avoiding travel to Patna for routine renewal." },
+        { "flag": "REFORM", "text": "Planned shift to self-certification/third-party certification for renewal (with a 5% random audit), contingent on re-floating the empanelment tender with better fee terms." },
+        { "flag": "MISSING", "text": "No deemed-approval provision or maximum response window is described if the department doesn't act on a renewal application." }
+      ]
+    }
+  ]
+}

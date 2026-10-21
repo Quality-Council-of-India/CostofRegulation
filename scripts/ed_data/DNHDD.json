@@ -1,0 +1,204 @@
+{
+  "code": "DNHDD",
+  "name": "Dadra and Nagar Haveli and Daman and Diu",
+  "licenses": [
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFile": "DD_ED_FAL.docx",
+      "issuingAuthority": "Labour / Factories Department, Dadra and Nagar Haveli and Daman and Diu (Labour Inspector and Office Assistant participated as experts)",
+      "portal": { "name": "EODB Single Window Portal for Industrial Clearances (swp.dddgov.in)", "url": null },
+      "timeline": { "minDays": 20, "maxDays": 25, "basis": "UT-level administrative practice, not a statutory turnaround prescribed under the Factories Act, 1948", "text": "The end-to-end process, from plan approval through license registration to certificate download, takes approximately 20 to 25 working days." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Structural drawings",
+        "Site plans",
+        "Manufacturing process flowcharts",
+        "Ownership or lease deed",
+        "List of directors",
+        "Safety clearances"
+      ],
+      "documentsNote": "These are the documents explicitly named; the department works off a fixed checklist of 7 prescribed documents overall, but only 6 were individually named in the discussion.",
+      "deemedApproval": { "status": "no", "days": null, "text": "There is no deemed approval provision for the Factory License; approval is granted only after departmental scrutiny and a site inspection by a safety officer are actually completed." },
+      "validity": { "text": "A fee payment ceiling of approximately Rs. 1 lakh applies, and applicants may register for a lower tenure if preferred. Exact validity slabs were not confirmed during the discussion and were flagged for follow-up verification with the department." },
+      "fees": { "text": "Processing and license fee is paid online via digital challan, with a payment ceiling of approximately Rs. 1 lakh; applicants may opt for a lower tenure of registration, which affects the fee payable. Exact fee slabs by unit size, employee strength, or tenure were not detailed." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Register on EODB Single Window Portal, create Unit", "automated": true, "note": "Applicant logs in and fills the Common Application Form." },
+        { "n": 2, "phase": "apply", "title": "Apply for Factory Building Plan Approval", "automated": true, "note": "Uploads structural drawings, site plans, and manufacturing process flowcharts." },
+        { "n": 3, "phase": "scrutiny", "title": "Department reviews plan and issues plan clearance", "automated": "partial" },
+        { "n": 4, "phase": "apply", "title": "Apply for Registration of License under the Factories Act, 1948", "automated": true, "note": "Submits ownership/lease deed, list of directors, safety clearances." },
+        { "n": 5, "phase": "apply", "title": "Upload balance documents per prescribed 7-document checklist", "automated": "partial", "note": "Certain documents still need to be submitted offline in specific cases." },
+        { "n": 6, "phase": "fee", "title": "Pay prescribed processing and license fee online via digital challan", "automated": true },
+        { "n": 7, "phase": "scrutiny", "title": "Department verifies application against checklist", "automated": "partial", "note": "Covers machinery, safety systems, staircases, ventilation and other facilities, layout plan, and machinery plan." },
+        { "n": 8, "phase": "inspect", "title": "Safety officer conducts on-site inspection", "automated": false },
+        { "n": 9, "phase": "approve", "title": "Department approves application on completion of scrutiny and inspection", "automated": "partial", "note": "No deemed approval provision; approval granted only once review is concluded." },
+        { "n": 10, "phase": "approve", "title": "Applicant downloads digitally signed Factory License certificate from portal", "automated": true }
+      ],
+      "ed": { "date": "6 Aug 2026", "location": "4th Floor, Audio/Visual Hall, Vidhyut Bhavan, Kachigam, Daman", "expert": "Shri J. B. Chauhan; Ms. Apexa Bhandari", "designation": "Labour Inspector, DNH&DD; Office Assistant, Daman" },
+      "remarks": [
+        "DNH&DD has one of the highest concentrations of industrial units among Union Territories, with close to 7,000 registered industries.",
+        "Fatalities and major injuries are rare; minor injuries occur occasionally, attributed to strict compliance enforcement.",
+        "The new labour codes have been implemented, though provisions of the earlier codes continue to be referenced in parallel.",
+        "Employees are generally aware of statutory welfare entitlements, including bonuses and leave, and workplace facilities are largely in place.",
+        "Incidence of strikes in the UT is lower compared to neighbouring states.",
+        "The state single window portal is linked with the national single window portal, enabling cross visibility of applications.",
+        "The department holds monthly review meetings to assess portal performance and compliance feasibility, and conducts sector-specific seminars to build awareness among employers and employees."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The process is largely conducted online end to end through the EODB Single Window Portal, covering application submission, document upload, fee payment, and certificate download." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "COMPLY"], "sentiment": "issue", "text": "Certain documents still need to be submitted offline in specific cases, introducing a manual step into an otherwise digital workflow." },
+        { "source": "ed", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "The department works off a fixed and deliberately concise checklist of 7 prescribed documents for the license application, with no duplicate or redundant documentation requirements flagged." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The end-to-end process takes approximately 20 to 25 working days, reflecting UT-level administrative practice rather than a statutory turnaround prescribed under the Factories Act, 1948." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "A fee payment ceiling of approximately Rs. 1 lakh applies, with the option to register for a lower tenure, affecting the fee payable." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL", "CLARITY"], "sentiment": "issue", "text": "Exact validity slabs, the fee schedule, and whether extended or lifetime validity comparable to Plan Approval could apply to the License itself were not confirmed during the discussion." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "There is no deemed approval provision for the Factory License; applications are approved only after actual departmental scrutiny and a safety officer site inspection are completed." },
+        { "source": "ed", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Given the current 20-25 working day turnaround is already relatively short, introducing a deemed approval clause for cases where scrutiny is not completed within a defined period could be explored, without diluting site inspection for higher-risk units." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT", "COMPLY"], "sentiment": "neutral", "text": "Post-approval compliance is monitored against a fixed checklist covering machinery condition, safety systems, staircases, ventilation, layout adherence, and machinery placement, supported by periodic safety officer inspections." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "Occupiers are required to comply with the newly implemented labour codes, while provisions of the earlier codes continue to be referenced in parallel." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No risk-based classification system for Factory License applications exists; all applications go through the same scrutiny and mandatory site inspection irrespective of unit scale or risk profile." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Introducing a risk-based approach — lighter-touch verification for low-risk units and more intensive scrutiny for units handling hazardous processes or chemicals — could be explored as a future reform." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Fully digitising the remaining document categories currently submitted offline would remove residual paper-based submission and bring the process to end-to-end online status." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "The Factories Act, 1948 is a Central law, but the document checklist, mode of submission, and processing procedure are governed by UT-level administrative practice, so the offline-submission gap can be closed via UT-level digitisation reforms without Central legislative change." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The department holds monthly review meetings to assess portal performance and compliance feasibility, and conducts sector-specific seminars to build employer and employee awareness." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The state single window portal is linked with the national single window portal, enabling cross-visibility of applications." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "DNH&DD has one of the highest concentrations of industrial units among Union Territories, with close to 7,000 registered industries; fatalities and major injuries are rare, attributed to strict compliance enforcement." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Exact validity slabs and corresponding fee schedule for the Factory License were not detailed during the discussion." },
+        { "flag": "MISSING", "text": "Exact fee amounts by unit size, employee strength, or tenure were not specified — only a Rs. 1 lakh payment ceiling was given." },
+        { "flag": "VAGUE", "text": "The full 7-document checklist was referenced but only 6 documents (3 for plan approval, 3 for license registration) were individually named in the discussion." },
+        { "flag": "GOOD_PRACTICE", "text": "End-to-end digital workflow on the EODB Single Window Portal from application to digitally signed license certificate, plus linkage to the national single window portal." },
+        { "flag": "REFORM", "text": "Suggested: fully digitise remaining offline document categories; explore a deemed approval provision while retaining mandatory inspection for higher-risk units; confirm validity/fee schedule and consider extended/lifetime validity comparable to Plan Approval; introduce risk-based classification." },
+        { "flag": "VAGUE", "text": "Whether office visits are required of the applicant at any stage (e.g., for the site inspection) was not explicitly addressed beyond the safety officer's on-site visit." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFile": "DD_ED_TLA.docx",
+      "issuingAuthority": "Chief Officer, Municipal Council, Daman",
+      "portal": { "name": "EODB Single Window Portal for Industrial Clearances", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 7, "basis": "Notified service delivery timeline administered through the EODB Single Window Portal", "text": "The notified service delivery timeline for Trade License approval is 7 working days, running from submission and scrutiny through to approval by the Chief Officer, Municipal Council, Daman." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Proof of property/property tax records for the business premises",
+        "Lease agreement for the business premises",
+        "Identity proof of the applicant (mandatory)"
+      ],
+      "documentsNote": "For certain establishment categories (e.g., food/hospitality) a possible linkage to health-related clearance was noted. The complete, formally notified document checklist was not fully enumerated during the discussion.",
+      "deemedApproval": { "status": "unclear", "days": 7, "text": "A notified service delivery timeline of 7 working days applies, but the discussion did not clarify whether non-response within this window results in automatic deemed approval or whether it functions solely as a service delivery target." },
+      "validity": { "text": "The validity period of the Trade License and its renewal cycle were not discussed during this session." },
+      "fees": { "text": "Applicants pay the prescribed Trade License fee online. Experts indicated the fee follows a slab structure linked to business category, but specific fee amounts or slabs were not detailed." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Register on EODB Single Window Portal and access Trade License service", "automated": true },
+        { "n": 2, "phase": "apply", "title": "Select Trade License service and enter applicant/business, trade activity, and premises details", "automated": true },
+        { "n": 3, "phase": "apply", "title": "Upload prescribed documents (identity proof, lease deed/legal occupancy document)", "automated": true },
+        { "n": 4, "phase": "apply", "title": "Provide trade/business and premises details and submit application online", "automated": true },
+        { "n": 5, "phase": "apply", "title": "System generates application/acknowledgement number for status tracking", "automated": true },
+        { "n": 6, "phase": "fee", "title": "Pay prescribed Trade License fee online", "automated": true },
+        { "n": 7, "phase": "scrutiny", "title": "Municipal Council, Daman scrutinises application and verifies documents against checklist", "automated": "partial" },
+        { "n": 8, "phase": "approve", "title": "Chief Officer, Municipal Council, Daman approves Trade License", "automated": "partial", "note": "Notified service timeline for this step is 7 working days." }
+      ],
+      "ed": { "date": "7 Aug 2026", "location": "4th Floor, Audio/Visual Hall, Vidhyut Bhavan, Kachigam, Daman", "expert": "Smt. Rashmi K. Dubey; Shri Shekhar Tandel", "designation": "Administrative Officer, DNH&DD; Upper Division Clerk, Daman" },
+      "remarks": [
+        "The overall process was described by the experts as already streamlined, with no major additional support or intervention flagged as required at this stage.",
+        "It was observed that applicants sometimes proceed with business operations while approval is pending, in some cases relying on financing before licensing is finalised; raised as an observation rather than a formal department position.",
+        "The department did not flag major additional feedback for reform beyond the points captured."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The service is delivered end to end through the EODB Single Window Portal: registration, document upload, fee payment, application tracking, and approval are all conducted online, with no step flagged as requiring offline submission." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The system generates an application/acknowledgement number allowing the applicant to track application status online." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The notified service delivery timeline for Trade License approval is 7 working days." },
+        { "source": "ed", "category": "policy", "tags": ["CLARITY", "TIMELINE"], "sentiment": "issue", "text": "It was not clarified whether non-response within the 7 working day window results in automatic deemed approval, or whether the timeline functions solely as a service delivery target." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "The fee follows a slab structure linked to the category of business, but specific fee amounts or slabs were not detailed during the discussion." },
+        { "source": "ed", "category": "procedural", "tags": ["CLARITY", "DUPDOC"], "sentiment": "issue", "text": "The complete, formally notified document checklist was not fully enumerated during the discussion." },
+        { "source": "ed", "category": "pain", "tags": ["INTERDEP", "DELAY"], "sentiment": "issue", "text": "Pending or unverified property tax records against the business premises form part of the verification checklist and can delay Trade License processing until resolved." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Enable real-time verification of property tax status through integration with the property tax database, or allow alternate proof of premises where records are still being updated." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "The property tax dependency is a UT/municipal-level administrative dependency rather than a requirement driven by Central legislation, and can be addressed through local process or system integration reforms." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No risk-based or category-based classification system for Trade License applications was described during the discussion." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY", "DUPDOC"], "sentiment": "suggestion", "text": "Formally document and publish the complete checklist of mandatory documents for Trade License applications, to remove ambiguity for applicants and reviewers alike." },
+        { "source": "ed", "category": "suggestions", "tags": ["RENEWAL", "CLARITY"], "sentiment": "suggestion", "text": "Confirm the validity period, renewal cycle, and fee slab structure with the department, and document these clearly for applicant reference." },
+        { "source": "ed", "category": "remarks", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Applicants sometimes proceed with business operations while approval is pending, in some cases relying on financing before licensing is finalised; this was raised as an observation rather than a formal department position." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Consider issuing applicant guidance clarifying that commencing business operations is expected to follow, not precede, license approval." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The overall process was described by the experts as already streamlined, with no major additional support or intervention flagged as required at this stage." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Validity period of the Trade License and its renewal cycle were not discussed in this session." },
+        { "flag": "MISSING", "text": "Specific Trade License fee amounts or slabs by business category were not detailed." },
+        { "flag": "VAGUE", "text": "The complete, formally notified document checklist was not fully enumerated during the discussion." },
+        { "flag": "VAGUE", "text": "Whether the 7-working-day timeline carries an automatic deemed approval effect on lapse was not clarified." },
+        { "flag": "GOOD_PRACTICE", "text": "Fully online, end-to-end application journey from registration to approval, with system-generated acknowledgement number for tracking and no offline steps flagged." },
+        { "flag": "REFORM", "text": "Suggested: integrate with property tax records for real-time verification; clarify deemed approval status of the 7-day timeline; publish the full document checklist; issue applicant guidance that operations should follow, not precede, approval." }
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License — Renewal",
+      "sourceFile": "DD_ED_TLR.docx",
+      "issuingAuthority": "Chief Officer, Daman Municipal Council (Director is first appellate authority)",
+      "portal": { "name": "EODB Single Window Portal, routing to Daman Municipal Council's own portal for shop & establishment/trade license applications", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 7, "basis": "Single notified entry on the EODB Single Window Portal's officially published service list, titled 'Registration for Trade License', with Chief Officer as responsible authority; no separate renewal-specific timeline exists", "text": "The EODB Single Window Portal lists a single notified entry for this service with a 7 working day timeline; there is no separate service entry or distinct timeline for renewal specifically." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Photo ID proof",
+        "Lease/rent agreement"
+      ],
+      "documentsNote": "These two documents are mandatory for the shop/establishment track. A category-wise checklist is available on the portal, but first-time applicants are not always directed to it early enough, leading to avoidable rejections. Renewal applicants currently go through the same full document set as a fresh license.",
+      "deemedApproval": { "status": "no", "days": 7, "text": "No deemed approval provision is notified for Trade License registration or renewal; approval is granted only on active departmental clearance following scrutiny, within the 7-working-day timeline. This applies uniformly, with no separate renewal position indicated." },
+      "validity": { "text": "The Trade License operates on an annual cycle, confirmed by Daman Municipal Council's published fee schedule titled 'Annual Licence Fee' (Standing Committee resolution, effective 1 April 2018). The renewal due date mechanism and any grace period were not covered in the discussion." },
+      "fees": { "text": "The annual license fee is fixed category-wise per Daman Municipal Council's published schedule (Standing Committee resolution, effective 1 April 2018). Representative slabs: Bank Rs. 15,000; Supermarket Rs. 10,000; Distillery Rs. 40,000; Kirana/provision store Rs. 2,000; Restaurant Rs. 3,000. The applicant must correctly identify the applicable category upfront as this determines the fee slab." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "File application online via EODB Single Window Portal, routed to Daman Municipal Council's portal; upload required documents", "automated": true },
+        { "n": 2, "phase": "apply", "title": "System generates reference number, communicated by SMS/email, enabling tracking", "automated": true },
+        { "n": 3, "phase": "scrutiny", "title": "Municipal Council scrutinises application/documents against checklist; mandatory physical field inspection for larger establishments/industrial units", "automated": "partial", "note": "Shop & establishment category verified largely on documents; other categories inspected physically." },
+        { "n": 4, "phase": "approve", "title": "Approval or rejection notified by SMS/email", "automated": "partial", "note": "Rejection includes reason; applicant may resubmit only after resolving the issue, effectively repeating Steps 1-3." },
+        { "n": 5, "phase": "fee", "title": "On approval, applicant pays prescribed fee online", "automated": true },
+        { "n": 6, "phase": "approve", "title": "Applicant downloads license from portal", "automated": true },
+        { "n": 7, "phase": "renew", "title": "License copy displayed at business premises, as required", "automated": false }
+      ],
+      "ed": { "date": "7 Aug 2026", "location": "4th Floor, Audio/Visual Hall, Vidhyut Bhavan, Kachigam, Daman", "expert": "Smt. Rashmi K. Dubey; Shri Shekhar Tandel", "designation": "Administrative Officer, DNH&DD; Upper Division Clerk, Daman" },
+      "remarks": [
+        "Name approval is a mandatory step before any business activity can begin; businesses report they cannot access bank finance or working capital until the trade license/name approval comes through.",
+        "Verification load on the Chief Officer's office, the designated approving authority, contributes to delays during periods of high application volume.",
+        "The discussion leaned more toward fresh registration and name approval than toward renewal specifically; renewal-specific pain points may be worth a dedicated follow-up session."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The process is fully online end to end for the shop & establishment/trade category, verified largely on the strength of submitted documents." },
+        { "source": "ed", "category": "pain", "tags": ["NORMS", "TIMELINE"], "sentiment": "issue", "text": "Industrial establishments and establishments located in residential areas continue to be processed through a more manual track and do not fully share the turnaround time of the online shop/establishment category." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Categories requiring a mandatory physical field inspection (larger establishments, industrial units) are correspondingly slower than the largely document-based shop/establishment track." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY", "DUPDOC"], "sentiment": "issue", "text": "A category-wise checklist is available on the portal, but first-time applicants are not always directed to it early enough in the application flow, which leads to avoidable rejections." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The EODB Single Window Portal carries a single notified entry for this service with a 7 working day timeline and no separate service entry or distinct timeline for renewal." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "positive", "text": "The Trade License operates on an annual cycle per Daman Municipal Council's published 'Annual Licence Fee' schedule (effective 1 April 2018)." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "The annual license fee is fixed category-wise (e.g., Bank Rs. 15,000; Supermarket Rs. 10,000; Distillery Rs. 40,000; Kirana/provision store Rs. 2,000; Restaurant Rs. 3,000), and the applicant must correctly identify the category upfront as it determines the fee slab." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "No deemed approval provision is notified for Trade License registration or renewal; approval is granted only on active departmental clearance following scrutiny." },
+        { "source": "ed", "category": "suggestions", "tags": ["RENEWAL", "TIMELINE"], "sentiment": "suggestion", "text": "Given the suggestion for a lighter, self-certification based renewal track for clean-compliance-history establishments, there may be scope to introduce a deemed approval mechanism for such low-risk renewal cases — a reform idea, not a current provision." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Property tax status, though not separately uploaded by the applicant, is effectively cross-verified during scrutiny, duplicating information the municipal taxation wing already holds internally." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "Renewal applicants, who already hold a base registration, currently appear to go through the same full document set required for a fresh license, flagged as an unnecessary repetition for this category of applicant." },
+        { "source": "ed", "category": "pain", "tags": ["INTERDEP", "DELAY"], "sentiment": "issue", "text": "Applicants who cannot immediately produce reconciled property tax records, particularly non-resident or absentee property owners, see their applications held up at the verification stage." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Pre-validate property tax status through a backend link with the taxation department instead of relying on the applicant to produce a receipt." },
+        { "source": "ed", "category": "pain", "tags": ["DELAY", "QUERY"], "sentiment": "issue", "text": "A rejected application effectively sends the applicant back to the start of submission, roughly doubling the effective timeline for those cases." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY", "GRIEVANCE"], "sentiment": "suggestion", "text": "Surface the category-wise checklist at the very start of the application flow to cut down first-pass rejections, and strengthen the grievance/feedback loop so pending or rejected applications have a clear, trackable channel back to the department." },
+        { "source": "ed", "category": "suggestions", "tags": ["RENEWAL", "DUPDOC"], "sentiment": "suggestion", "text": "Introduce a lighter, self-certification based renewal track for establishments with a clean compliance history, rather than repeating full verification every cycle." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Extend the fully online, light-document process already available to shops and traders to residential areas and industrial establishments wherever feasible." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "SMS/email notifications at each stage (reference number generation, approval or rejection with reason) keep applicants informed without manual follow-up." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY", "DELAY"], "sentiment": "issue", "text": "Verification load on the Chief Officer's office, the designated approving authority, contributes to delays during periods of high application volume." },
+        { "source": "ed", "category": "remarks", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Name approval is a mandatory step before any business activity can begin; businesses report they cannot access bank finance or working capital until the trade license/name approval comes through." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The renewal due date mechanism and any grace period for the annual Trade License cycle were not covered in the discussion." },
+        { "flag": "VAGUE", "text": "No separate renewal-specific timeline exists on the EODB portal; the discussion itself leaned more toward general/fresh registration than renewal specifically, so renewal-specific process detail is thin." },
+        { "flag": "INCONSISTENT", "text": "The document is titled 'Trade License-Renewal' and the Service(s) Discussed field names renewal, but the body content (steps, timeline, deemed approval) is explicitly framed as applying to registration/fresh applications with no distinct renewal provision — the document itself notes this leaning toward fresh registration rather than renewal." },
+        { "flag": "REFORM", "text": "Suggested: introduce a lighter, self-certification based renewal track for establishments with a clean compliance history instead of repeating the full fresh-license document set every cycle." },
+        { "flag": "REFORM", "text": "Suggested: pre-validate property tax status via backend integration with the taxation department; surface the category-wise checklist at the start of the flow; strengthen the grievance/feedback loop; extend the online light-document process to residential and industrial categories." },
+        { "flag": "GOOD_PRACTICE", "text": "SMS/email notifications at each stage, a category-wise document checklist on the portal, and formally published process/fee/appellate-authority information support transparency." },
+        { "flag": "MISSING", "text": "Renewal-specific pain points were not deeply explored; the experts suggested a dedicated follow-up session would be needed for renewal specifically." }
+      ]
+    }
+  ]
+}

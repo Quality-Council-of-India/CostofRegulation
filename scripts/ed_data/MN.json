@@ -1,0 +1,1109 @@
+{
+  "code": "MN",
+  "name": "Manipur",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFile": "MN_ED_BPA.docx",
+      "issuingAuthority": "Concerned municipal authority, with Town Planning verifying against the Master Plan and final approval given by the competent authority/Commissioner.",
+      "portal": {
+        "name": "Online Building Plan Approval System (OBPS)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 10,
+        "maxDays": 30,
+        "basis": "Officials' statements during the discussion (no specific statute/section cited); general cases take 10-15 days with a mentioned maximum of around 30 days.",
+        "text": "Officials indicated Building Plan Approval generally takes around 10-15 days in most cases, with a maximum of approximately 30 days also mentioned. Where deficiencies or queries are raised, applicants may be given up to 30 days to respond."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Building plan / architectural drawings",
+        "Site plan / layout plan",
+        "Location plan",
+        "Land ownership / title document",
+        "Sale deed / lease deed, as applicable",
+        "Latest property/land tax receipt, where applicable",
+        "Site photographs",
+        "Building area and floor-wise details",
+        "Building estimate / cost estimate",
+        "Structural drawings / structural stability certificate, where applicable",
+        "Architect's registration/empanelment details",
+        "Applicant's identification and contact details",
+        "NOCs/clearances from relevant authorities, where applicable (e.g. Fire NOC, environmental clearance, airport/heritage/road authority clearance)",
+        "Undertaking / affidavit / declaration, where required"
+      ],
+      "documentsNote": "The ED report presents this as a general list of commonly required documents/information for BPA rather than items individually itemized by officials during the discussion; the discussion itself only specifically mentioned that the architect submits the layout plan, building plan and supporting documents, and that the department verifies the building estimate and other technical documents.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "The discussion did not address deemed approval for Building Plan Approval; the ED report leaves this theme blank."
+      },
+      "validity": {
+        "text": "The ED itself did not specify the validity period of the Building Plan Approval/permit or the circumstances and timeline for renewal. The report separately notes that under the 2025 Manipur municipal building bye-laws, a sanctioned plan remains valid for 3 years and can be renewed/revalidated on payment of the prescribed fee."
+      },
+      "fees": {
+        "text": "The permit fee is payable after the application is approved at the departmental stage and before final approval by the competent authority. The actual fee amount or fee structure based on building size/use/category was not specified in the discussion."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Applicant engages registered architect, prepares building plan",
+          "automated": false,
+          "note": "Architect prepares the building plan and submits the application."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Application and plans submitted online via OBPS",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Forwarded to Town Planning for Master Plan verification",
+          "automated": false,
+          "note": "Determines whether proposed use is residential, commercial or otherwise permissible."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Returned to concerned municipal authority for further processing",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "scrutiny",
+          "title": "Technical scrutiny of plan, estimates and other requirements",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "inspect",
+          "title": "Physical site inspection and inspection report",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Application approved after technical and inspection requirements completed",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 8,
+          "phase": "fee",
+          "title": "Architect/applicant pays applicable permit fee",
+          "automated": null,
+          "note": ""
+        },
+        {
+          "n": 9,
+          "phase": "approve",
+          "title": "Final approval provided by competent authority/Commissioner",
+          "automated": false,
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "22 July 2026",
+        "location": "Directorate of Trade, Commerce & Industry, Lamphelpat, Imphal, Manipur",
+        "expert": "RajKumar Johnny & Zeeshan Ali",
+        "designation": "Assistant Engineer, LDC"
+      },
+      "remarks": [
+        "Building Plan Approval is interconnected with factory-related approvals, particularly where a factory is being established or an existing facility is being expanded.",
+        "The approval process involves Town Planning verification, technical scrutiny, inspection, permit fee payment and final approval."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "The Building Plan Approval process has shifted from the earlier manual process to the online OBPS system, converted to online processing around the previous year/December."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "The process is not completely free of physical intervention; physical site inspection and technical verification continue to form part of the approval process despite digitization."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "CAPACITY",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Only around five or six architects are actively capable of preparing and submitting digital building plans through OBPS, creating a bottleneck since applications must be submitted through registered architects."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "The architect also undertakes follow-up with different departments on behalf of the applicant, increasing intermediary dependence."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "Officials indicated Building Plan Approval generally takes 10-15 days in most cases, with a maximum of approximately 30 days also mentioned during the discussion."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "QUERY",
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Where deficiencies or queries are raised, applicants may be given up to 30 days to provide the required clarification or correction, extending the effective timeline."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The actual permit fee amount or fee structure based on building size/use/category was not specified during the discussion."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "INSPECT",
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Officials discussed a risk-based classification to reduce physical inspection requirements for low-risk applications and rely more on digital verification, while retaining stronger scrutiny for higher-risk cases."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Train more registered architects on OBPS to address the shortage of architects capable of preparing and submitting digital building plans."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Adopt risk-based inspection and reduce physical inspections for eligible low-risk building applications."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Improve inter-departmental integration so that applications do not require extensive sequential follow-up across different authorities."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Improve the online checklist to ensure applicants and architects are aware of all documentation and technical requirements before submission."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Strengthen OBPS capacity and user support so that the benefits of digitization are not constrained by limited technical expertise among registered architects."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "neutral",
+          "text": "Building Plan Approval is interconnected with factory-related approvals, particularly where a factory is being established or an existing facility expanded."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Officials identified a risk-based approach (low-risk/high-risk categories) and digital verification using photographs/videos as potential improvements for suitable low-risk cases."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "Exact permit fee amount or fee structure by building size/use/category not given in the discussion."
+        },
+        {
+          "flag": "MISSING",
+          "text": "ED itself did not specify the validity period of the BPA/permit; the 3-year figure in the report is drawn from the 2025 Manipur municipal building bye-laws rather than from officials directly."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Deemed Approval theme is blank in the ED report — no information was given on whether deemed approval applies, or after how many days."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Issuing authority is not precisely named — referred to generically as 'concerned municipal authority' and 'competent authority/Commissioner' rather than naming a specific department/designation."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Risk-based classification criteria (what specifically qualifies a building as low-risk vs high-risk) were discussed in principle but not defined with specific thresholds."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Shift from a fully manual process to the OBPS online submission-and-processing system, cutting down manual paperwork for the application stage."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Proposed risk-based inspection and expanded digital verification (photos/videos) to reduce physical inspection burden for low-risk applications, alongside architect training to relieve the OBPS capacity bottleneck."
+        }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFile": "MN_ED_FAL.docx",
+      "issuingAuthority": "Not explicitly named in the discussion — referred to generically as 'the department' responsible for verification, physical inspection and issuance of the Factory Licence.",
+      "portal": {
+        "name": "Online application system for Factory Licence (specific portal name not given)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": 90,
+        "basis": "The document's own Application Timeline section cites a statutory 90-day schedule, but the text describes it as covering 'approval of the factory plan and permission to construct/extend/take into use a building as a factory' — i.e. the same language used for Factory Building Plan Approval, not a distinct Factory Licence figure.",
+        "text": "No distinct, standalone timeline for the Factory Licence itself was given. The only timeline figure in the FAL discussion (90 days) is described as covering approval of the factory plan and permission to construct/extend/take a building into use as a factory, which matches the Factory Building Plan Approval timeline rather than the Licence issuance step."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Application form for Factory Licence",
+        "Factory Building Plan Approval",
+        "Approved building/layout plan",
+        "Proof of ownership or lease of the premises",
+        "Identity and address proof of the occupier/applicant",
+        "Details of the occupier and manager",
+        "List of machinery and installed horsepower/capacity",
+        "Manufacturing process description/flow chart",
+        "Details of workers/employees",
+        "Site plan/layout of the factory",
+        "Fire NOC / Fire Safety Certificate, where applicable",
+        "Pollution Control Board Consent (Consent to Establish/Consent to Operate), where applicable",
+        "Stability certificate / structural safety certificate, where applicable",
+        "Electrical safety certificate, where applicable",
+        "Proof of payment of prescribed licence fee",
+        "Partnership deed / Certificate of Incorporation / company documents, depending on applicant type",
+        "Authorization letter/board resolution, where applicable"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "The Manipur Factories Rules, 2021 and the Manipur Public Services Delivery Guarantee Act, 2021 are relevant frameworks, but no official Manipur source establishing deemed approval for Factory Licence was identified during the discussion."
+      },
+      "validity": {
+        "text": "The Factory Licence is valid for 10 years, with an auto-renewal provision under the Manipur Factories Rules, 2021."
+      },
+      "fees": {
+        "text": "The Factory Licence fee is variable and depends on the number of workers employed and the maximum installed horsepower (HP) of the factory, per the Manipur fee schedule under the Manipur Factories Rules, 2021. Exact fee figures were not given."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant submits Factory Licence application through the online system",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Department verifies application and supporting documents",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "If documents are correct, application forwarded for physical inspection",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Inspection team conducts physical inspection of factory/site",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Inspection report prepared and submitted for further processing",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Factory Licence approved/issued after verification and inspection",
+          "automated": false,
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "22 July 2026",
+        "location": "Directorate of Trade, Commerce & Industry, Lamphelpat, Imphal, Manipur",
+        "expert": "Ch. Nongpdenganba Meetai & K.R Surnchandra Singh",
+        "designation": "Developer, Section Officer"
+      },
+      "remarks": [
+        "Discussion emphasized the need to balance Ease of Doing Business with regulatory compliance and safety requirements.",
+        "Factory License is interconnected with other factory-related approvals, making coordination and integration important for reducing the overall compliance burden."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "The Factory Licence process has recently transitioned from the earlier manual/physical process to an online application system."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Physical inspection remains part of the process for new Factory Licence applications despite digitization of the application step, so the service is only partially online."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The only timeline figure stated (90 days) is described in terms matching Factory Building Plan Approval (construction/extension permission), not a distinct Factory Licence issuance timeline."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "positive",
+          "text": "The Factory Licence is valid for 10 years with an auto-renewal provision under the Manipur Factories Rules, 2021."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The Factory Licence fee is variable based on worker count and installed horsepower, but exact fee figures were not given in the discussion."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "No official Manipur source was identified establishing deemed approval for Factory Licence, despite the Manipur Factories Rules, 2021 and Public Services Delivery Guarantee Act, 2021 being relevant frameworks."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "neutral",
+          "text": "A detailed post-approval compliance checklist was not discussed, though maintenance of registers, periodic testing, and equipment upkeep were mentioned as general post-approval obligations."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Officials discussed risk-based classification (low/medium/high risk) to reduce inspection for low-risk establishments while retaining stronger verification for higher-risk ones, though specific classification criteria were not given."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Factory Licence is part of a sequence of interconnected approvals (Building Plan Approval, Factory Building Plan Approval, Factory Licence, Consent to Establish, Consent to Operate, occupancy-related approvals), and no specific Act or Rule driving individual requirements was identified."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Introduce a risk-based inspection approach so eligible low-risk establishments can be subject to simplified verification."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Operationalize self-certification for eligible categories of factories, a framework already under implementation as a reform."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Increase use of accredited third-party agencies for eligible inspections to reduce the burden on departmental inspection teams."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "positive",
+          "text": "Renewal of Factory Licence is processed online and generally does not require routine physical inspection."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Integrate factory-related approvals to reduce multiple departmental interactions and repeated submission of information."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "The discussion emphasized the need to balance Ease of Doing Business with regulatory compliance and safety requirements."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "VAGUE",
+          "text": "The FAL document's own 'Application Timeline' section cites a 90-day figure using language that matches Factory Building Plan Approval ('approval of the factory plan and permission to construct/extend/take into use a building as a factory'), rather than giving a standalone Factory Licence processing-time figure."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Exact fee amounts or fee bands by worker-count/horsepower were not given — only that the fee is variable based on these two parameters."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Issuing department/authority for the Factory Licence was not explicitly named — only referred to generically as 'the department'."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No official source confirming deemed approval for Factory Licence was identified, despite relevant Acts/Rules being referenced."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Risk-classification criteria specific to Factory Licence (what qualifies as low/medium/high risk) were not detailed."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Recent shift of the application step to an online system, and a streamlined online renewal process that generally avoids routine physical inspection."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Self-certification and third-party inspection frameworks are described as under implementation/being introduced as part of regulatory reform for Factory Licence."
+        }
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFile": "MN_ED_FBPA.docx",
+      "issuingAuthority": "Not explicitly named as a single authority — the discussion describes the plan being scrutinized by 'the concerned authority' and processed through 'relevant planning/approval authorities and other concerned departments', per Manipur Factories Rules, 2021 and Manipur EODB/Single Window portal guidance.",
+      "portal": {
+        "name": "Applicable online system/portal (referenced alongside the Manipur EODB/Single Window portal); no single named FBPA-specific portal given",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 90,
+        "maxDays": 90,
+        "basis": "Manipur Factories Rules, 2021 and Manipur Public Services Delivery Guarantee Act, 2021, as referenced via Manipur EODB/Single Window portal guidelines.",
+        "text": "Officials indicated a 90-day applicable timeline for Factory Building Plan Approval, covering approval for constructing, extending, or taking a building into use as a factory."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Form 1 – Application",
+        "Factory site plan",
+        "Building plan/layout with elevation and sections",
+        "Manufacturing process flow chart",
+        "Details of machinery and plant",
+        "Land ownership/lease documents",
+        "Required NOCs and pollution-related approval, where applicable"
+      ],
+      "documentsNote": "The Manipur EoDB portal lists Factory Permit and Factory Licence as separate approvals, so the broader EoDB checklist should not automatically be treated as the document list for Factory Building Plan Approval itself; the above list is per official Manipur EoDB guidance and the Manipur Factories Rules specifically for FBPA.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Physical inspection/verification continues to form part of the approval process. Officials discussed risk-based approaches and reducing inspection requirements for eligible low-risk cases, but no specific deemed-approval mechanism for Factory Building Plan Approval was established."
+      },
+      "validity": {
+        "text": "FBPA approval itself usually does not have a fixed validity period; it remains applicable to the approved construction/extension plan, subject to the conditions of the approval, per the Manipur Factories Rules, 2021 and guidance via the Manipur EODB/Single Window portal."
+      },
+      "fees": {
+        "text": "A prescribed fee is payable for approval of the factory building plan, generally based on the applicable factory category, size, worker strength, or machinery/power capacity. The exact amount was not given."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Applicant prepares required building plan through an architect",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Building plan submitted through the applicable online system/portal",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Submitted plan and supporting documents scrutinized by concerned authority",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Processed through relevant planning/approval authorities and other concerned departments",
+          "automated": false,
+          "note": "Applies wherever other departments are relevant."
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Physical inspection/verification undertaken",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Building plan approval granted after verification and departmental approvals",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Applicant proceeds to the subsequent Factory Licence process",
+          "automated": false,
+          "note": "Marks transition to the Factory Licence stage; not strictly part of FBPA itself."
+        }
+      ],
+      "ed": {
+        "date": "22 July 2026",
+        "location": "Directorate of Trade, Commerce & Industry, Lamphelpat, Imphal, Manipur",
+        "expert": "Ch. Nivytamba Meetai & Ksh. Ashalata Devi",
+        "designation": "Assistant Municipal Commissioner, UDC"
+      },
+      "remarks": [
+        "The architect plays a significant role in preparing applications, submitting plans and following up with different departments.",
+        "The discussion emphasized balancing Ease of Doing Business with regulatory compliance and safety requirements, particularly for factory-related approvals."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Digital submission is available for Factory Building Plan Approval — the building plan is submitted through an online system/portal."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Only a limited number of architects are currently capable of preparing and submitting plans through the digital system, creating a capacity constraint."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Architects undertake submission and follow-up with the concerned departments, increasing intermediary dependence."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "The process involves coordination with multiple authorities and includes physical verification/inspection, so it is only partially online."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CLARITY",
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The Manipur EoDB portal lists Factory Permit and Factory Licence as separate approvals, so the broader EoDB document checklist should not automatically be treated as the document list for Factory Building Plan Approval itself — creating potential confusion over required documents."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "A 90-day timeline applies for Factory Building Plan Approval, covering construction, extension, or taking a building into use as a factory, per the Manipur Factories Rules, 2021 and Manipur Public Services Delivery Guarantee Act, 2021."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The prescribed fee for FBPA is based on factory category, size, worker strength, or machinery/power capacity, but exact fee figures were not specified."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "FBPA approval usually has no fixed validity period and remains applicable to the approved construction/extension plan, subject to the conditions of the approval."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "A risk-based approach was discussed (low/medium/high risk) to reduce inspection for low-risk projects while retaining scrutiny for higher-risk ones, though specific classification criteria were not given."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "INTERDEP",
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Factory establishment requires multiple linked approvals (BPA/FBPA, Factory Licence, Consent to Establish, Consent to Operate), leading to repeated submission and verification of project-related information across departments."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Introduce a single-window mechanism or nodal agency for factory-related approvals to reduce multiple departmental interactions."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Adopt a risk-based inspection approach, reducing physical inspection requirements for eligible low-risk cases."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Train and onboard more architects on the online building plan approval system to reduce dependence on the limited pool of trained architects."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Reduce repeated submission of information by enabling departments to access information already submitted during earlier approvals."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Expand self-certification and third-party inspection for eligible cases while retaining appropriate scrutiny for high-risk projects."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "neutral",
+          "text": "Applicants may need to obtain Building Plan Approval before proceeding to the Factory Licence stage, reflecting the sequential, interconnected nature of factory-related approvals."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "Exact fee amount or fee structure for Factory Building Plan Approval by factory category/size/worker strength/machinery power was not given."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Issuing authority for FBPA not explicitly named — only described generically as 'the concerned authority' and 'relevant planning/approval authorities'."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Risk-classification criteria specific to FBPA (what qualifies a project as low/medium/high risk) were discussed in principle but not defined with specific thresholds."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Relationship between the Manipur EoDB portal's separate 'Factory Permit' and 'Factory Licence' listings and FBPA's own document checklist is unclear, risking confusion about which documents apply to FBPA specifically."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The 'conditions of the approval' that determine whether/when the FBPA sanction lapses or needs revalidation are referenced but not specified."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Digital submission of factory building plans through an online system/portal, replacing a fully manual process."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Proposed single-window mechanism/nodal agency for factory-related approvals, plus risk-based inspection and architect training, to reduce multi-department burden and the architect capacity bottleneck."
+        }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFile": "MN_ED_FNO.docx",
+      "issuingAuthority": "Fire Department / Manipur Fire Service.",
+      "portal": {
+        "name": "Not named in the discussion — no specific online portal was identified for Fire NOC applications; process described as involving both administrative processing and physical inspection, and is 'not entirely online'.",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 2,
+        "maxDays": 7,
+        "basis": "Officials' stated prescribed timeline (seven days), with faster issuance observed in some fully-compliant cases.",
+        "text": "Officials indicated a prescribed seven-day timeline for Fire NOC, subject to the applicant completing required compliance. NOCs have, in some cases, been issued earlier, including within two days, where documents and compliance were complete."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Approved Building Plan",
+        "Site Plan / Location Plan",
+        "Floor Plans of all floors",
+        "Fire-fighting / Fire Safety Layout Plan (showing fire extinguishers, fire hydrants, hose reels, sprinkler system where applicable, fire alarm/detection system, emergency exits and escape routes, and fire staircase)",
+        "Building elevation / sectional drawings, where required",
+        "Occupancy / Completion Certificate, particularly for a final Fire NOC",
+        "Structural Stability Certificate, where applicable",
+        "Ownership / Lease / Land document",
+        "Details of installed fire-safety equipment",
+        "Fire equipment installation/testing/maintenance certificates, where applicable",
+        "Applicant/owner identification and authorization documents",
+        "Prescribed fee/payment receipt",
+        "Any other NOC/clearance required for the particular building category"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "The discussion did not establish deemed approval for Fire NOC; the Fire Department does not currently provide automatic/deemed approval as part of the process. Simplified approval was discussed through risk-based classification, third-party inspection and self-certification, rather than a confirmed deemed-approval mechanism."
+      },
+      "validity": {
+        "text": "Not specified on the official Manipur EoDB service information. In general, a final Fire NOC/Fire Safety Certificate issued by the Manipur Fire Service is typically valid for 1 year, requiring annual re-inspection and renewal before the date of expiry."
+      },
+      "fees": {
+        "text": "Statutory government fees vary based on the building's plinth area, height, and occupancy type (residential, commercial, or industrial), calculated per square meter under state guidelines, alongside application form costs. Exact figures were not given."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant submits Fire NOC application with required documents",
+          "automated": null,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Application scrutinized by the Fire Department",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "Premises/site inspected for fire-safety compliance",
+          "automated": false,
+          "note": "Third-party agencies may conduct pre-inspection before this stage in certain cases."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Deficiencies/non-compliances identified are communicated; applicant undertakes corrections/compliance",
+          "automated": false,
+          "note": "This step is listed twice (as Step-4 and Step-5) with identical wording in the source document, apparently a drafting duplication."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Fire NOC issued once required fire-safety conditions are complied with",
+          "automated": false,
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "22 July 2026",
+        "location": "Directorate of Trade, Commerce & Industry, Lamphelpat, Imphal, Manipur",
+        "expert": "M. Kunjeshwar Meetai, S. Nabakunje Singh & Kh. Rajen Sim",
+        "designation": "Principal ACTC (Thoubal); Dy Director (GH); Assistant Director (Trg)"
+      },
+      "remarks": [
+        "Officials emphasized the need to balance Ease of Doing Business with fire-safety and public-safety requirements.",
+        "Delays can occur when applicants have not fulfilled the required fire-safety conditions or need to provide additional clarification/documents."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "The Fire NOC process is not entirely online; it involves both application/administrative processing and physical inspection by the Fire Department."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Third-party agencies can conduct a pre-inspection before the application/departmental inspection stage, helping identify fire-safety deficiencies at an earlier stage."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "Officials indicated a prescribed seven-day timeline for Fire NOC, with some NOCs issued within two days where documentation and compliance were already complete."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Where deficiencies are identified, additional time is required for the applicant to undertake corrective measures and for the department to conduct follow-up verification."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Fees vary based on plinth area, height and occupancy type, calculated per square meter under state guidelines; exact figures were not given in the discussion."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral",
+          "text": "A final Fire NOC/Fire Safety Certificate from the Manipur Fire Service is typically valid for 1 year and requires annual re-inspection and renewal before expiry; this is not specified on the official Manipur EoDB service information itself."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "No deemed approval exists for Fire NOC; the Fire Department does not currently provide automatic/deemed approval as part of the process."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Applications are categorized into low, medium and high risk; for low-risk cases physical inspection may not be required where third-party inspection, photos/videos and other verification are already completed."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Physical inspection was identified as the principal compliance burden for Fire NOC."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Apply a risk-based inspection approach, reducing departmental physical inspections for eligible low-risk establishments."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Provide a comprehensive online checklist of fire-safety requirements so applicants can ensure compliance before submission, reducing incomplete applications."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Strengthen the use of accredited third-party agencies to verify fire-safety compliance before the departmental inspection stage."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Operationalize self-certification for eligible low-risk categories, supported by appropriate risk-based verification."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Improve online integration of the Fire NOC process to reduce manual interactions while retaining necessary safety checks."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "Officials emphasized the need to balance Ease of Doing Business with fire-safety and public-safety requirements."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific online portal name was identified for Fire NOC application submission."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Exact fee figures/per-square-meter rates by plinth area, height and occupancy type were not given."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Risk-classification criteria (precisely what qualifies as low/medium/high risk) for Fire NOC were not detailed."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "Step-4 and Step-5 in the Application Process Flow table are verbatim duplicates describing the same deficiency-correction step, suggesting a drafting error in the source document rather than two distinct process steps."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Validity period is 'not specified on the official Manipur EoDB service information' per the document itself, though a general 1-year figure for the Fire Safety Certificate from the Manipur Fire Service is given as general practice."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Use of third-party pre-inspection agencies to identify fire-safety deficiencies before departmental inspection/application stage, and faster issuance (within two days) observed for fully-compliant applicants."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Self-certification framework under implementation, and increasing use of third-party inspection, as part of regulatory reforms for Fire NOC."
+        }
+      ]
+    }
+  ]
+}

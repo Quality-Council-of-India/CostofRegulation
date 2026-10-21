@@ -1,0 +1,202 @@
+{
+  "code": "LD",
+  "name": "Lakshadweep",
+  "licenses": [
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFile": "LK_ED_FNO.docx",
+      "issuingAuthority": "Fire & Rescue Services Department (Police Headquarters), UT of Lakshadweep — final sanction/signature by the Chief Fire Officer, routed via the Deputy Chief Fire Officer, with scrutiny by the Sub Officer",
+      "portal": { "name": "No online portal exists; applications are entirely physical/paper-based", "url": null },
+      "timeline": { "minDays": 10, "maxDays": 20, "basis": "Rule prescribes 30 days for inspection, scrutiny and issuance; in practice the department directs inspection within 2 days of receiving the application and targets issuance within 10-20 days", "text": "By rule, Fire NOC inspection, scrutiny and issuance must be completed within 30 days. In practice, the department directs inspection to the concerned fire station within 2 days of receiving the application, and the NOC is typically issued within 10-20 days." },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Electricity safety certificate",
+        "Building stability certificate",
+        "Building photograph with building plan",
+        "Fire safety plan showing the type and number of fire extinguishers installed"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed-approval provision exists for Fire NOC. If the 5-year validity lapses without renewal, the department proactively notifies the owner using its record of the expiry date rather than granting an automatic extension; a penalty of ₹5,000 per month applies for delayed renewal." },
+      "validity": { "text": "Validity was initially one year, extended to three years, and under a notification published 3 September 2026 (first phase of deregulation) extended to five years. The holder must apply for renewal on expiry; it does not renew automatically." },
+      "fees": { "text": "The Fire NOC application/registration process is completely free of charge; no statutory fee is charged at any stage." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Application submission", "automated": false, "note": "Building/shop owner submits a physical/paper application (hand-delivered or by post) to the fire station on the concerned island; no online portal exists." },
+        { "n": 2, "phase": "apply", "title": "Document submission", "automated": false, "note": "Applicant submits the four mandatory documents along with the application." },
+        { "n": 3, "phase": "fee", "title": "Fee payment (not applicable)", "automated": false, "note": "No fee is charged, so there is no fee-payment step in practice." },
+        { "n": 4, "phase": "apply", "title": "Application forwarding to Headquarters", "automated": false, "note": "The island fire station forwards the application to Headquarters, Kavaratti." },
+        { "n": 5, "phase": "inspect", "title": "Inspection scheduling", "automated": false, "note": "Headquarters issues a direction to the officer-in-charge of the concerned island's fire station to inspect within 2 days of receiving the application." },
+        { "n": 6, "phase": "inspect", "title": "Site inspection", "automated": false, "note": "A team of one Safety/Fire Officer plus two staff inspects the building for compliance with fire-safety documents/norms." },
+        { "n": 7, "phase": "inspect", "title": "Inspection report submission", "automated": false, "note": "The inspecting team submits its report to Headquarters." },
+        { "n": 8, "phase": "scrutiny", "title": "Application scrutiny", "automated": false, "note": "Sub Officer scrutinises the report and documents; a letter is sent back if any document is missing." },
+        { "n": 9, "phase": "approve", "title": "Recommendation and approval routing", "automated": "partial", "note": "If approval is recommended, the Sub Officer forwards it via the Deputy Chief Fire Officer to the Chief Fire Officer for final sanction; digital signature is accepted." },
+        { "n": 10, "phase": "approve", "title": "Fire NOC issuance", "automated": false, "note": "NOC issued to applicant; in genuine emergencies on islands with limited ferry connectivity, scanned documents via WhatsApp are accepted to start processing." },
+        { "n": 11, "phase": "renew", "title": "Renewal", "automated": false, "note": "After the validity period, the same procedure is repeated with the same documents plus verification of any building modification." }
+      ],
+      "ed": { "date": "25-09-2026", "location": "Fire & Rescue Services (Police Headquarters), Kavaratti", "expert": "Raifuddin Shah", "designation": "Sub Officer, Fire & Rescue Services (in charge of Fire NOC processing/scrutiny at Headquarters, Kavaratti)" },
+      "remarks": [
+        "No organised third-party servicing agencies currently operate in Lakshadweep for extinguisher maintenance/refilling; it is arranged through the supplier/installer.",
+        "Specified buildings must submit an annual Form-I certificate every July confirming fire-protection and life-safety systems remain in good working condition.",
+        "A photocopy of the Fire Safety Certificate must be displayed at a prominent location on the premises.",
+        "Certain premises require Fire NOC irrespective of height due to higher inherent fire risk: hospitals with 20+ beds, resorts with 30+ rooms, petrol pumps/IOC installations, and electricity/industrial buildings.",
+        "Buildings up to 12 metres (up to 2 floors, covering most buildings in Lakshadweep) are generally exempt from mandatory Fire NOC."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "There is no online portal for Fire NOC applications in Lakshadweep; the entire process, including application, scrutiny and inspection coordination, is handled physically." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Applicants must separately obtain an Electricity Safety Certificate and a Building Stability Certificate from Electricity/PWD authorities, each taking approximately 1-2 weeks." },
+        { "source": "ed", "category": "delay", "tags": ["OTHER"], "sentiment": "issue", "text": "Limited inter-island connectivity, including the absence of daily ferry services to some islands such as Kadmat, can delay document movement and inspection coordination." },
+        { "source": "ed", "category": "remarks", "tags": ["INFORMAL"], "sentiment": "positive", "text": "In genuine emergencies on islands with limited ferry connectivity, scanned documents sent via WhatsApp are accepted to initiate processing without waiting for physical transit." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "positive", "text": "Digital signature is accepted for the Chief Fire Officer's final sanction, reducing reliance on physical signing." },
+        { "source": "ed", "category": "remarks", "tags": ["RENEWAL"], "sentiment": "positive", "text": "NOC validity has been extended progressively from 1 to 3 to 5 years, reducing renewal frequency for holders." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "positive", "text": "Buildings up to 12 metres in height are exempt from mandatory Fire NOC, reducing compliance burden for most two-floor buildings in Lakshadweep." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Develop a functional online Fire NOC portal for application, document submission and tracking, by establishing a dedicated Lakshadweep Fire Department portal." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Enable auto-population of previously submitted documents to reduce repetitive submission at renewal." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Enable online submission of the annual Form-I declaration with automated reminders." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce online tracking and automated status updates to improve transparency around the approval timeline." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "Renewal after the validity period requires resubmission of the same set of documents in full." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "The current Lakshadweep framework does not formally define separate low, medium- or high-risk building categories; classification is based only on mandatory-NOC categories versus exempt buildings." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS", "CLARITY"], "sentiment": "issue", "text": "Fire-safety norms are not defined for buildings above 12 metres, as the current framework does not specify requirements for taller structures." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "neutral", "text": "A penalty of ₹5,000 per month applies for delay in renewal beyond expiry, in lieu of any deemed/automatic approval mechanism." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Technical issues with the National Single Window System and the absence of a dedicated portal leave applicants dependent on physical filing." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "The practical issuance time is given only as a range (\"typically 10-20 days\"), with no breakdown of what drives variation within that range." },
+        { "flag": "MISSING", "text": "No fee or process detail is given for obtaining the Electricity Safety Certificate or Building Stability Certificate from Electricity/PWD authorities, beyond the 1-2 week timeframe each takes." },
+        { "flag": "MISSING", "text": "It is not stated whether the applicant must visit the fire station/HQ office in person at any stage (submission can be by post), or whether the issued NOC must be collected in person." },
+        { "flag": "GOOD_PRACTICE", "text": "Acceptance of WhatsApp-transmitted scanned documents and digital signatures as emergency workarounds for islands with limited ferry connectivity." },
+        { "flag": "REFORM", "text": "Notification published 3 September 2026, under the first phase of deregulation, extended Fire NOC validity from 3 to 5 years." },
+        { "flag": "VAGUE", "text": "The note that \"no organised third-party servicing agencies currently operate in Lakshadweep\" for extinguisher servicing is not followed by detail on how owners actually verify/certify maintenance in practice." }
+      ]
+    },
+    {
+      "serviceCode": "GST",
+      "serviceName": "GST Registration",
+      "sourceFile": "LK_ED_GST.docx",
+      "issuingAuthority": "Jurisdictional GST Officer, Department of Planning, Statistics and Taxation, UT of Lakshadweep (holding additional charge of GST functions); the GST Common Portal itself is operated centrally by GSTN, not UT-specific",
+      "portal": { "name": "GST Common Portal (gst.gov.in), managed centrally by GSTN — not UT-specific", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 30, "basis": "Governed by CGST/UTGST rules; deemed approval generally within 7 working days, while applications involving non/failed Aadhaar authentication or physical verification follow a 30-day timeline", "text": "The UT reported an average processing time of around 7 days, including up to 3 days for field verification where required. The verification period may be extended if the applicant or premises cannot be located." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "PAN",
+        "Aadhaar (for biometric/Aadhaar-based authentication)",
+        "One document evidencing the business premises (e.g., electricity bill, telephone bill, water bill, or rent agreement) matching the address/details given in the application"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "yes", "days": 7, "text": "Deemed approval is built into the process: applications are deemed approved if the proper officer takes no action within the prescribed period, generally 7 working days, while applications involving non/failed Aadhaar authentication or physical verification follow a 30-day timeline." },
+      "validity": { "text": "GST registration has no fixed validity period and is lifetime, with no periodic renewal. It continues until the taxpayer applies for cancellation (e.g., on closing the business or falling below the threshold turnover for two years) or for certain changes (partner/signatory details, HSN code, address), which are verified before being granted." },
+      "fees": { "text": "No statutory fee is required; GST registration is free of cost on the GSTN portal with no additional or hidden charges. Applicants who use a Common Service Centre/Ashraya Kendra for assistance may pay a service charge fixed by the empanelling IT Department." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Part A submission", "automated": true, "note": "Applicant submits legal name of business, PAN, mobile number, email ID and State/UT name on the GST Common Portal." },
+        { "n": 2, "phase": "apply", "title": "OTP verification and ARN generation", "automated": true, "note": "After successful OTP verification, the portal generates an Acknowledgement Reference Number (ARN)." },
+        { "n": 3, "phase": "apply", "title": "Part B submission", "automated": true, "note": "Applicant completes Part B with business, premises, authorised signatory and goods/services details and submits the application." },
+        { "n": 4, "phase": "scrutiny", "title": "Auto-verification of Aadhaar and PAN", "automated": true, "note": "System auto-verifies Aadhaar and PAN details." },
+        { "n": 5, "phase": "inspect", "title": "Field inspection (if flagged)", "automated": "partial", "note": "If a mismatch is flagged, a field inspection is scheduled and the inspector visits the business premises, submitting a report within 3 days." },
+        { "n": 6, "phase": "scrutiny", "title": "Officer examination", "automated": "partial", "note": "The jurisdictional GST Officer examines the application and seeks clarification online if discrepancies are identified." },
+        { "n": 7, "phase": "approve", "title": "Digital approval", "automated": "partial", "note": "The GST Officer digitally signs (via Digital Signature Certificate) and approves the application." },
+        { "n": 8, "phase": "approve", "title": "Certificate issuance", "automated": true, "note": "The registration certificate is issued and communicated via SMS and e-mail; it can also be downloaded from the portal." }
+      ],
+      "ed": { "date": "25-09-2026", "location": "Planning Department, Kavaratti", "expert": "Shaheena Beegum", "designation": "Statistical Officer, Department of Planning, Statistics and Taxation (holding additional charge of GST Officer)" },
+      "remarks": [
+        "No formal grievance specific to GST registration was reported.",
+        "Limited and weather-dependent connectivity between Lakshadweep and the mainland often creates logistical challenges for departmental activities and stakeholder interactions.",
+        "There is limited availability of local Chartered Accountant services in Lakshadweep, with most services provided remotely from the mainland.",
+        "The department conducts 8-10 GST awareness workshops annually across the islands."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "A Trade License — a UT-level requirement, not a CGST/UTGST requirement — must currently be obtained before a business can apply for GST registration." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "There is no API integration between the GSTN portal and the Trade License approval portal, so applicants must re-enter details (name, business details, Aadhaar, PAN) that already exist in their GST registration." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY", "INFORMAL"], "sentiment": "issue", "text": "Applicants go to seva kendras because they lack digital literacy to complete the online GST registration process themselves." },
+        { "source": "ed", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "Minor Aadhaar-PAN name mismatches (spelling/initials differences), which the system auto-flags, trigger a field inspector visit before approval even where there is no genuine identity issue." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Limited administrative capacity and the logistical challenges of verification across geographically dispersed islands may affect the ease and timeliness of field verification." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "There is limited availability of local Chartered Accountant services in Lakshadweep, with most services provided remotely from the mainland." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL"], "sentiment": "positive", "text": "The GST Registration process is entirely online and paperless end-to-end through the single central GST Portal, with no physical office visit required for the applicant." },
+        { "source": "ed", "category": "remarks", "tags": ["TIMELINE"], "sentiment": "positive", "text": "The UT commits to issuing registration within 7 days against the 15-day system allowance." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Rather than auto-rejecting applications with minor Aadhaar-PAN mismatches, the department deputes field inspectors to physically verify the applicant before deciding, avoiding avoidable rejections." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The department conducts 8-10 GST awareness workshops annually across the islands." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Integrate GSTIN data with the Trade License approval portal via API so that entering the GSTIN auto-fetches applicant/business details, removing duplicate data entry." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Greater use of digital communication and centralized tracking can improve coordination, reduce delays, and facilitate efficient application processing." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Expand video-based or digital verification to reduce the need for physical verification across dispersed islands." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Strengthen coordination between GST officials across islands to facilitate timely verification and case processing." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Improving local access to tax consultancy services could be explored." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Deemed approval applies if the proper officer does not act within the prescribed period — generally 7 working days, extending to 30 days for applications involving non/failed Aadhaar authentication or physical verification." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No formal risk-based classification exists, but the process functions on an inherent risk basis: the system auto-verifies Aadhaar-PAN and routes only mismatched/flagged applications for field verification." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "The reported \"average processing time of around 7 days\" is not broken down by application type, despite the stated prescribed timelines varying by nature of application." },
+        { "flag": "MISSING", "text": "The exact service charge CSC/Ashraya Kendra operators may levy for assisting applicants is not specified — only that it is \"fixed by the empanelling IT Department\"." },
+        { "flag": "MISSING", "text": "No detail is given on what kinds of discrepancies (beyond the Aadhaar-PAN mismatch case) prompt the jurisdictional officer's online clarification queries." },
+        { "flag": "GOOD_PRACTICE", "text": "Deputing field inspectors to verify applicants with minor Aadhaar-PAN mismatches rather than auto-rejecting the application." },
+        { "flag": "MISSING", "text": "No cost or timeline figures are given for obtaining the prerequisite Trade License referenced as a UT-level precondition to GST registration within this document." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFile": "LK_ED_TLA.docx",
+      "issuingAuthority": "Revenue Department, UT of Lakshadweep, administered through the respective island-level Block Development Offices",
+      "portal": { "name": "serviceonline.gov.in (central portal also hosting other integrated services), or via a SEVA Kendra/assisted-service centre", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 7, "basis": "Average reported turnaround from application to issuance, as stated by the department; no separate statutory figure is cited", "text": "On average, trade licenses are issued within 7 days of application, with no requirement to visit an office at any stage of the process." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Applicant identity proof",
+        "Proof of land/premises ownership (deed or possession/ownership certificate), or where leased/rented, the lease/rental agreement bearing correct stamp duty",
+        "Proof of fee payment (scanned copy of paid bank challan)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "No provision for deemed approval exists for the Trade Licence." },
+      "validity": { "text": "The Trade Licence is valid for 3 years. On expiry, the holder must submit a fresh application with the prescribed documents." },
+      "fees": { "text": "₹150, payable once for the full 3-year validity period, covering the entire process; no separate inspection, scrutiny or grant/approval fee is charged. Payment is made manually at a bank since no payment gateway is integrated with the portal, and the applicant uploads a scanned copy of the paid challan." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Account creation / application", "automated": true, "note": "Applicant creates a user account on serviceonline.gov.in or applies through a SEVA Kendra/assisted-service centre." },
+        { "n": 2, "phase": "fee", "title": "Fee payment", "automated": false, "note": "₹150 fee (for 3 years) is paid manually at a bank, as no payment gateway is integrated with the portal; applicant uploads a scanned copy of the paid challan." },
+        { "n": 3, "phase": "scrutiny", "title": "Scrutiny", "automated": false, "note": "Revenue officials scrutinise the application, including verifying stamp duty on any rental agreement submitted; a shortfall in stamp duty does not by itself cause rejection." },
+        { "n": 4, "phase": "inspect", "title": "Field visit", "automated": false, "note": "A pre-announced field visit confirms the establishment physically exists and is operating; visits are not unannounced or \"surprise\" inspections." },
+        { "n": 5, "phase": "approve", "title": "Approval and issuance", "automated": "partial", "note": "On satisfactory scrutiny and inspection, the license is approved and made available for download from the portal; no office visit is required at any stage." },
+        { "n": 6, "phase": "scrutiny", "title": "Rejection and resubmission (if applicable)", "automated": "partial", "note": "If rejected, the department communicates the reason and the applicant re-uploads the correct/missing document; no fixed resubmission deadline was stated." }
+      ],
+      "ed": { "date": "25-09-2026", "location": "Directorate of industries kavaratti", "expert": "Fahad", "designation": "village extension officer" },
+      "remarks": [
+        "No specific penalty was reported for operating without a licence.",
+        "A land-use \"diversion certificate\" is not mandatory for obtaining a Trade Licence; the official flagged the need to communicate this clearly to avoid applicant confusion.",
+        "Under the 2025 deregulation exercise, Fire NOC, Pollution Clearance and Weights & Measures Certificate were removed from the mandatory Trade Licence requirements.",
+        "SEVA Kendra assistance is available for applicants requiring digital support."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "FEES"], "sentiment": "issue", "text": "The absence of an integrated payment gateway requires applicants to physically visit a bank to pay the ₹150 fee and then upload the payment proof." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Equipment-rental businesses must separately register their rental equipment with the department through an in-person visit before applying for the Trade Licence." },
+        { "source": "ed", "category": "delay", "tags": ["OTHER"], "sentiment": "issue", "text": "Applications involving disputed land may be delayed until the matter is resolved by the concerned court or authority." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "Fresh submission of documents is required at the end of each 3-year validity period, creating avoidable compliance burden." },
+        { "source": "ed", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "There is no dedicated online grievance portal for the Trade Licence process." },
+        { "source": "ed", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants currently need to upload identity documents separately, with no integration to UIDAI/other identity-verification systems." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL"], "sentiment": "positive", "text": "Application, scrutiny and issuance are conducted end-to-end online through the portal, reducing the need for physical visits (apart from fee payment)." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "positive", "text": "Trade Licence services are handled through the respective Block Development Offices, enabling applicants to access the service locally without travelling to Kavaratti." },
+        { "source": "ed", "category": "remarks", "tags": ["TIMELINE"], "sentiment": "positive", "text": "The average turnaround time is approximately 7 days, with no in-person office visit required." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "positive", "text": "A nominal, transparent fee of ₹150 for three years is charged, with no additional charges reported." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL"], "sentiment": "positive", "text": "Applicants can track application status online using their user/application number." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY"], "sentiment": "positive", "text": "SEVA Kendras provide assistance to applicants who are digitally less literate or do not have their own portal account." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Under the 2025 deregulation exercise, Fire NOC, Pollution Clearance and Weights & Measures Certificate were removed from the mandatory Trade Licence requirements." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES", "PORTAL"], "sentiment": "suggestion", "text": "Integrate a direct online payment gateway with the portal so applicants do not need to visit a bank and separately upload a scanned challan." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Explore integration with identity-verification systems (e.g., UIDAI/Aadhaar) so applicants are not required to separately upload identity documents." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Integrate equipment registration with the Trade Licence process or enable online registration for equipment-rental businesses." },
+        { "source": "ed", "category": "suggestions", "tags": ["RENEWAL", "DUPDOC"], "sentiment": "suggestion", "text": "Simplify the renewal process by enabling reuse of previously verified documents through NIC integration where no material change has occurred, instead of a completely fresh application at each three-year renewal." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce SMS-based or in-portal push notifications for key application-status updates, supplementing the existing user-number-based tracking facility." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Field visits to confirm the establishment exists are pre-announced; applicants are contacted beforehand rather than facing unannounced \"surprise\" inspections." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "A shortfall in stamp duty paid on a submitted rental agreement does not by itself result in rejection of the Trade Licence application." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "No fixed resubmission deadline was stated for applicants who must re-upload a corrected or missing document after rejection." },
+        { "flag": "MISSING", "text": "No fee or process detail is given for the separate equipment registration required of equipment-rental businesses before they can apply for a Trade Licence." },
+        { "flag": "VAGUE", "text": "The source of applicant confusion over the (non-mandatory) land-use \"diversion certificate\" is not explained, only that it needs clearer communication." },
+        { "flag": "GOOD_PRACTICE", "text": "Island-level decentralisation of Trade Licence processing through Block Development Offices, avoiding the need to travel to Kavaratti." },
+        { "flag": "REFORM", "text": "The 2025 deregulation exercise removed Fire NOC, Pollution Clearance and Weights & Measures Certificate from the mandatory Trade Licence documentation list." },
+        { "flag": "MISSING", "text": "No typical duration or resolution process is given for how long land-dispute-related delays tend to last." }
+      ]
+    }
+  ]
+}

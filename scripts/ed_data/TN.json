@@ -1,0 +1,1054 @@
+{
+  "code": "TN",
+  "name": "Tamil Nadu",
+  "licenses": [
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFile": "TN_ED_CTO.docx",
+      "issuingAuthority": "Tamil Nadu Pollution Control Board (TNPCB) — approval routed through TSC/CCC (head office), ZLCCC (zonal) or DLCCC (district) depending on industry category",
+      "portal": {
+        "name": "TNPCB Online Consent Management & Monitoring System (OCMMS)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 20,
+        "maxDays": 30,
+        "basis": "Official processing timeline stated by TNPCB for the OCMMS Single Window Portal",
+        "text": "The official processing timeline for a CTO application through the TNPCB OCMMS Single Window Portal is 20 to 30 days from the date of complete submission."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Covering Letter: signed requisition letter detailing project status and operational activities",
+        "CTE Compliance: statement showing compliance with special conditions from the earlier Consent to Establish under the Water and Air Acts",
+        "CA Certificate: auditor's certificate with break-up details for actual Gross Fixed Assets (final cost)",
+        "Site Photographs: pictures of pollution control measures such as ETP or APC systems",
+        "Environmental Clearance: compliance reports if the project requires clearance under the Environment Protection Act",
+        "Process & Waste Details: manufacturing process flow charts, raw material lists, and analysis reports for trade effluents or emissions",
+        "Authorization Proof: Board resolution, power of attorney, or an authorization letter for the signatory"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Deemed approval is not available for CTO across all industry categories (Red, Orange, Green); these must go through complete verification, documentation and committee clearance. White category is exempted from formal CTE/CTO and only needs an online self-declaration."
+      },
+      "validity": {
+        "text": "Red category (high pollution potential): 5 years. Orange category (medium): 10 years. Green category (low): 14 years. White category: exempted."
+      },
+      "fees": {
+        "text": "Calculated dynamically based on Gross Fixed Capital Investment (land, building, plant/machinery) and pollution category. Example given: for GFA assets up to Rs 1 lakh, Red category Rs 400, Orange category Rs 300, Green category Rs 200."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Register on OCMMS and select CTO application type (CTO after CTE, or CTO Direct)",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Complete online application (industry/occupier details, raw materials, effluents, emissions) and upload prescribed documents",
+          "automated": true,
+          "note": "System auto-generates an application number"
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Pay the auto-calculated consent fee online",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "TNPCB officials scrutinize the application by industry category; deficiencies communicated via OCMMS for rectification",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Where applicable, inspection is scheduled through the portal and the report uploaded within 48 hours",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Application placed before TSC/CCC, ZLCCC or DLCCC depending on category; consent order digitally signed and issued online",
+          "automated": "partial",
+          "note": "Committee meetings are conducted offline as part of the backend process"
+        }
+      ],
+      "ed": {
+        "date": "27-08-2026",
+        "location": "Guidance Tamil Nadu, 11th Floor, Prestige Polygon Towers, No.471, Anna Salai, Rathna Nagar, Teynampet, Chennai, Tamil Nadu 600035",
+        "expert": "Jaya Murugan",
+        "designation": "Joint Chief Environmental Engineer (JCEE), Tamil Nadu Pollution Control Board"
+      },
+      "remarks": [
+        "If an applicant fails to respond to a clarification/query within 60 days, the application is automatically deleted from the system; deleted applications can be retrieved by submitting a formal request to the PCB without restarting the process afresh.",
+        "No additional parallel No Objection Certificate (NOC) is required when applying for the Consent to Operate.",
+        "The department is considering a revamped, more user-friendly system with automated calculations, validation checks and a combined application."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The CTO service is substantially online through OCMMS — registration, submission, document upload, deficiency response, fee payment, inspection scheduling, status tracking and download of the signed Consent Order are all handled on the portal."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "positive",
+          "text": "TNPCB's backend processing explicitly follows risk-based industry classification (17-category industries, Red/Orange/Green large-medium-small splits), which determines the scrutiny/inspection and committee route."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "While the applicant-facing process is online, the actual clearance decision is made offline in committee meetings (TSC/CCC, ZLCCC or DLCCC depending on category) as part of the backend approval process."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "DUPDOC",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "CTE data is auto-fetched into the CTO application, reducing repetitive document/data submission by the applicant."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "neutral",
+          "text": "If an applicant does not respond to a department query/clarification within 60 days, the application is automatically deleted from the OCMMS system."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "GRIEVANCE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Applications deleted for non-response can still be retrieved by submitting a formal request to the Pollution Control Board, without the applicant needing to start the process completely afresh."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Deemed approval is not available for CTO in any category — Red, Orange and Green industries must go through complete verification, documentation and specific committee clearances before receiving a CTO."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "White category industries are exempted from obtaining formal CTE and CTO certificates altogether, requiring only an online self-declaration and acknowledgment."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "The department is considering a revamped, more user-friendly system with automated calculations, validation checks and a combined (CTE+CTO) application."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive",
+          "text": "No redundant documents were flagged by the department — every document on the checklist was stated to be tied to a legal requirement."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "positive",
+          "text": "Officials did not identify any major burdensome or time-consuming activity in the current CTO process."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "The statutory fee is calculated dynamically based on the industry's Gross Fixed Capital Investment and assigned pollution category, rather than being a flat fee."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "neutral",
+          "text": "Deficiencies identified during scrutiny are communicated to the applicant through OCMMS for rectification before the application can proceed."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT",
+            "TIMELINE"
+          ],
+          "sentiment": "positive",
+          "text": "Where an inspection is required, it is scheduled through the portal and the inspection report is uploaded within a defined 48-hour window."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No additional parallel NOC from another department is required when applying for the Consent to Operate."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "VAGUE",
+          "text": "The 20-30 day timeline is described only as the 'official processing timeline' through OCMMS, without citing the specific statutory rule or regulation it derives from."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Only one fee example is given (GFA assets up to Rs 1 lakh: Red Rs 400 / Orange Rs 300 / Green Rs 200); no full fee slab schedule for higher investment brackets is provided in the ED."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The ED does not state whether the applicant is required to visit any TNPCB office in person at any stage of the CTO process."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "CTE data is auto-fetched into the CTO application, reducing repetitive document/data submission for applicants who obtained CTE online."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Department is considering a revamped, more user-friendly system with automated calculations, validation checks and a combined application (per Recommendations)."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The document list is described narratively (e.g., 'CTE Compliance', 'Process & Waste Details') without specifying exact formats, number of copies, or which items are mandatory versus conditional by category."
+        }
+      ]
+    },
+    {
+      "serviceCode": "ELD",
+      "serviceName": "Electrical Drawings",
+      "sourceFile": "TN_ED_ELD.docx",
+      "issuingAuthority": "Tamil Nadu Electrical Inspectorate Department (Electrical Inspector)",
+      "portal": {
+        "name": "Tamil Nadu Single Window Portal (TNSWP.com)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 5,
+        "maxDays": 5,
+        "basis": "Official processing timeline stated for the TNSWP single window portal",
+        "text": "The official processing timeline for an Electrical Drawing (ELD) application through TNSWP is 5 days from the date of complete submission."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Self-attested copy of identity proof (Voter ID, Driving Licence, Passport, Aadhaar Card)",
+        "Brief proposal note for a new enterprise or expansion",
+        "Site/topographical plan showing supply point, factory/buildings, transformers/generators, HT installation routes and TANGEDCO line routes",
+        "Switchyard/substation layouts and equipment clearances",
+        "Single-line diagram of the complete electrical installation, including equipment, wiring, protection and earthing",
+        "Panel-room and factory electrical-layout drawings",
+        "Earthing-system details and calculations",
+        "Additional technical reports/calculations for installations receiving supply at 110 kV or above",
+        "Approved planning permit and drawing from DTCP/CMDA for building installations",
+        "Elevation drawing for buildings of Ground + 3 floors and above"
+      ],
+      "documentsNote": "Requirements may vary with installation type and voltage; applicants are advised to confirm the current checklist on the portal.",
+      "deemedApproval": {
+        "status": "yes",
+        "days": null,
+        "text": "Deemed approval is available as per the Business Facilitation Act, though the ED does not state the specific number of days after which it applies."
+      },
+      "validity": {
+        "text": "Approved drawings must be implemented and the completion report submitted within three years of drawing approval; if not completed within this period, fresh drawing approval must be obtained with the prescribed drawing scrutiny fee. The three-year period is tied to completion/reporting, not a general expiry of the approved drawings."
+      },
+      "fees": {
+        "text": "New EHV installations: Rs 5,000 for transformer capacity up to and including 10 MVA, Rs 10,000 above 10 MVA (excluding generator). New HV installations: Rs 1,000 up to and including 500 kVA; Rs 2,000 above 500 kVA up to and including 2,000 kVA; Rs 4,000 above 2,000 kVA."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant completes online application through TNSWP",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "fee",
+          "title": "Uploads supporting documents, pays applicable fee, and submits the application",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Electrical Inspectorate scrutinises the application and drawings",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Applicant responds to queries, if raised",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Application reviewed by designated officers per installation capacity and region; approved or rejected",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Approved drawings are digitally signed and made available to the applicant",
+          "automated": true,
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "14-10-2026",
+        "location": "Guidance Tamil Nadu, 11th Floor, Prestige Polygon Towers, No.471, Anna Salai, Rathna Nagar, Teynampet, Chennai, Tamil Nadu 600035",
+        "expert": "Mr. Palani & Ms. Ganaga Vidhya Devi",
+        "designation": "Electrical Inspector (Technical) & Asst. Inspector Technical, Tamil Nadu Electrical Inspectorate Department"
+      },
+      "remarks": [
+        "ELD approval is required before commencing electrical installation work, while the completed installation is subject to testing and inspection before the commencement of power supply — it serves as a regulatory checkpoint at the drawing-approval stage and before the installation is energised.",
+        "Technical tools are planned to be integrated into the system to automatically validate drawings, layouts and other technical details, to expedite the approval process.",
+        "After completing the installation, the applicant must apply separately for a Safety Certificate through TNSWP, as applicable."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Electrical drawing approval is initiated online through TNSWP, where the applicant fills the application, uploads supporting documents and pays the fee."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "The reviewing/approving officer route varies according to installation capacity and region, reflecting a risk/capacity-based routing model (Low/Medium/High risk categories)."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "neutral",
+          "text": "If clarification is requested by the Electrical Inspectorate, the applicant must respond before the application can proceed further."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "CLARITY",
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The required document set is stated to vary by installation type and voltage, and applicants are told to confirm the current checklist on the portal rather than being given one fixed list."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive",
+          "text": "No redundant documents were flagged by the department — every document on the checklist was stated to be tied to a legal requirement."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "positive",
+          "text": "No specific burdensome activity was identified by officials in the current ELD process."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Technical tools are planned to be integrated to automatically validate drawings, layouts and other technical details, to expedite the approval process."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC",
+            "RENEWAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Officials recommend that, instead of requiring a completely fresh application when Drawing Approval expires, the system should fetch information/documents from the previously approved application and let the applicant update only changed details."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "RENEWAL",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "If the installation is not completed and the completion report not submitted within three years, the applicant must obtain fresh drawing approval and pay the prescribed drawing scrutiny fee again."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "positive",
+          "text": "Deemed approval is available for ELD as per the Business Facilitation Act."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "The service includes real-time application tracking and digital notifications to applicants."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Officials noted that integration with the subsequent Safety Certificate service could further improve transparency and efficiency."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "positive",
+          "text": "The statutory fee structure is clearly tiered by installation capacity (EHV vs HV, and by MVA/kVA bands) with specific figures stated."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "The completed installation must undergo separate testing and inspection before commencement of power supply, beyond the drawing-approval stage covered by this service."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "Deemed approval is stated to be available under the Business Facilitation Act, but no specific number of days after which it applies is given in the ED."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The ED states the document checklist 'may vary with installation type and voltage' and tells applicants to confirm the current list on the portal, without the ED itself specifying which documents apply to which installation type."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The ED's 'Best Practices' section claims 'end-to-end online processing' while the process flow itself describes explicit manual scrutiny by the Electrical Inspectorate and officer-level approval — the degree of automation at the scrutiny/approval step is not precisely characterized."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Risk-based classification (Low/Medium/High risk) tied to installation complexity and voltage gives differentiated scrutiny levels."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Technical tools are planned to be integrated to automatically validate drawings, layouts and other technical details, to expedite the approval process."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The ED does not state whether the applicant must visit any Electrical Inspectorate office in person at any stage."
+        }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFile": "TN_ED_FNO.docx",
+      "issuingAuthority": "Tamil Nadu Fire and Rescue Services (TNFRS)",
+      "portal": {
+        "name": "Tamil Nadu Single Window Portal (TNSWP) / TNeGA service interface",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 30,
+        "basis": "As per rule, inspection, scrutiny and issuance of the Fire NOC must be completed within 30 days",
+        "text": "Inspection, scrutiny and issuance of the Fire NOC is to be completed within 30 days as per rule. Deemed approval applies to the planning-permission NOC if this timeline is exceeded. The department is planning to reduce the timeline to 21 days."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Proposed Building Plan, certified by an approved panel engineer from the local body — for Planning Permission NOC",
+        "Proposed Fire Plan, certified by an approved panel engineer from the local body — for Planning Permission NOC",
+        "Ownership Proof or Rental/Lease Agreement",
+        "ID Proof",
+        "Address Proof",
+        "Covering Letter",
+        "Planning Permission NOC from Fire Department — for MSB Compliance Certificate",
+        "Planning Permission from competent authority (Local Body / DTCP / CMDA etc.) — for MSB Compliance Certificate",
+        "Approved Plan from competent authority — for MSB Compliance Certificate",
+        "Planning permission/approved plan or compliance documentation — for Fire Licence Registration/Renewal",
+        "Previous licence, where applicable — for Fire Licence Registration/Renewal",
+        "Form A/self-declaration — for Fire Licence Registration/Renewal"
+      ],
+      "documentsNote": "The exact document set varies by sub-service/category: Planning Permission NOC (MSB/Non-MSB), MSB Compliance Certificate, and Fire Licence Registration/Renewal each have their own listed requirements.",
+      "deemedApproval": {
+        "status": "yes",
+        "days": 30,
+        "text": "Deemed approval is applicable for the planning-permission NOC if approval is not given within the prescribed 30-day period."
+      },
+      "validity": {
+        "text": "Fire NOC for Planning Permission is a pre-establishment activity with no expiry. The subsequent Fire Licence (pre-operation) is valid for 3 years, and its Renewal (post-establishment) is also valid for 3 years."
+      },
+      "fees": {
+        "text": "The Fire NOC application/registration process is completely free of charge."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Registration and application submission on the Tamil Nadu Single Window Portal; applicant selects the applicable Fire & Rescue service",
+          "automated": true,
+          "note": "Basic information can be auto-populated from the portal/previous registration data"
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Document submission (document set varies by service/category)",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Fee payment — not applicable, process is free of charge",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Preliminary scrutiny; any query/deficiency raised within 9 days of receipt, consolidated and raised only once",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Inspection scheduling; applicant informed with 24 hours advance intimation",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "inspect",
+          "title": "Site inspection by the Fire & Rescue officer to verify building, fire-safety provisions, drawings and applicable standards",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 7,
+          "phase": "inspect",
+          "title": "Inspecting officer prepares and submits the inspection report to the concerned authority",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 8,
+          "phase": "approve",
+          "title": "Approval/decision — Fire NOC/planning-permission NOC issued if compliant; corrections sought rather than immediate rejection if deficient",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 9,
+          "phase": "renew",
+          "title": "Fire Licence renewal, generally required every three years, follows a substantially similar process",
+          "automated": "partial",
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "07-10-2026",
+        "location": "Guidance Tamil Nadu office, Prestige Polygon, Chennai, Tamil Nadu",
+        "expert": "A. Thanapal",
+        "designation": "Assistant District Officer and Public Information Officer, Tamil Nadu Fire and Rescue Services (TNFRS)"
+      },
+      "remarks": [
+        "During the last financial year, 10,116 applications were received, of which 7,807 were approved and 2,209 were rejected.",
+        "In case of rejection, applicants can submit a fresh application on a subsequent date using the same registration details.",
+        "The current process has been significantly improved compared with the process of approximately 3-4 years earlier.",
+        "The department is moving towards self-declaration mechanisms for eligible lower-risk buildings (e.g., certain Ground+1 buildings) to reduce unnecessary departmental intervention."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "positive",
+          "text": "The Fire NOC application/registration process is completely free of charge in Tamil Nadu."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "positive",
+          "text": "Deemed approval applies to the planning-permission NOC if the prescribed 30-day timeline is exceeded."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "positive",
+          "text": "Queries/deficiencies must be consolidated and raised only once within the prescribed 9-day scrutiny window, rather than piecemeal."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "positive",
+          "text": "Applicants receive 24-hour advance intimation before the scheduled site inspection."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "positive",
+          "text": "Where documents, drawings or site conditions do not fully comply, the applicant may be asked to rectify deficiencies rather than being immediately rejected."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive",
+          "text": "No redundant documents were flagged by the department — every document on the checklist was stated to be tied to a legal requirement."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "positive",
+          "text": "Officials did not identify any burdensome or time-consuming activity in the current process."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "The department is planning to reduce the application processing time from 30 days to 21 days."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive",
+          "text": "Basic applicant/project information is auto-populated from the portal/previous registration data, reducing repetitive data entry."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Fire-safety requirements differ by MSB vs Non-MSB classification, with an 18.3-metre height threshold used to determine the applicable category and service."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "A self-declaration mechanism is being considered for eligible lower-risk buildings (e.g., certain Ground+1 occupancies) to reduce unnecessary departmental intervention."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP",
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Single Window submission and routing of applications reduces the need for multiple separate departmental submissions."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Of 10,116 applications received in the last financial year, 2,209 (about 22%) were rejected."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "positive",
+          "text": "Applicants whose application is rejected can submit a fresh application on a subsequent date using the same registration details, rather than starting registration over."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Applicants can track application status and receive notifications regarding application/inspection status through the portal."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "The exact document requirements for Fire Licence Registration/Renewal are only partially enumerated ('Form A/self-declaration and other category-specific documents'); the category-specific documents are not individually named."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Deemed approval is stated to apply only 'for the planning-permission NOC' if the 30-day timeline is exceeded; it is not clear from the ED whether deemed approval also applies at the Fire Licence/Fire Licence Renewal stage."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Queries/deficiencies must be consolidated and raised only once within a 9-day scrutiny window, rather than through repeated rounds of communication."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Department is planning to reduce the application processing time from 30 days to 21 days."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The exact document set for MSB vs Non-MSB variants of each NOC type is described only in general terms ('the exact document set varies by service/category')."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The ED does not state whether the applicant must visit any Fire & Rescue Services office in person at any stage of the process."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFile": "TN_ED_RFNO.docx",
+      "issuingAuthority": "Tamil Nadu Fire and Rescue Services (TNFRS)",
+      "portal": {
+        "name": "Tamil Nadu Single Window Portal (TNSWP) / TNeGA service interface",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 30,
+        "basis": "Official processing timeline stated for Fire NOC Renewal through the Single Window Portal/TNeGA",
+        "text": "The official processing timeline for a Renewal of Fire NOC application is 30 days. The department is planning to reduce this to 21 days."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Previous/Existing Fire Licence",
+        "Planning Permission NOC / relevant planning-permission document, wherever applicable",
+        "Planning permission/approved plan from the competent authority, wherever applicable",
+        "Ownership proof or rental/lease agreement, wherever applicable",
+        "ID proof and address proof",
+        "Covering letter",
+        "Details/documents relating to installed fire-safety systems and compliance, as required"
+      ],
+      "documentsNote": "The existing licence and relevant planning-permission documentation are reused/carried forward as part of the renewal process.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No deemed approval provision is applicable for Renewal of Fire NOC."
+      },
+      "validity": {
+        "text": "The renewed Fire Licence is valid for 3 years."
+      },
+      "fees": {
+        "text": "The Renewal of Fire NOC application/registration process is completely free."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant logs into the Single Window Portal using existing registration details, selects Fire Licence Renewal, and submits the application with supporting documents (free of cost)",
+          "automated": true,
+          "note": "Basic information can be auto-populated from previous registration data"
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Documents scrutiny; any query/deficiency raised within 9 days of application receipt",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "Inspection scheduling with 24-hour advance intimation; Fire & Rescue officer conducts site inspection to verify building, fire-safety provisions and standards",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Inspecting officer prepares and submits the inspection report to the concerned authority",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Approval/decision — after satisfactory compliance, the renewed Fire Licence is issued, valid for 3 years",
+          "automated": "partial",
+          "note": ""
+        }
+      ],
+      "ed": {
+        "date": "07-10-2026",
+        "location": "Guidance Tamil Nadu office, Prestige Polygon, Chennai, Tamil Nadu",
+        "expert": "A. Thanapal",
+        "designation": "Assistant District Officer and Public Information Officer, Tamil Nadu Fire and Rescue Services (TNFRS)"
+      },
+      "remarks": [
+        "During the last financial year, 39,249 applications were received, of which 36,858 were approved and 2,296 were rejected.",
+        "The department is planning to reduce the application processing time from 30 days to 21 days.",
+        "The discussion referred to certain low-risk/low-floor or single-floor buildings where self-declaration/relaxed compliance is being considered."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "positive",
+          "text": "The Renewal of Fire NOC application/registration process is completely free of charge."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Unlike the original Fire NOC planning-permission stage, no deemed approval provision applies to the Renewal of Fire NOC."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "positive",
+          "text": "Any query/deficiency on a renewal application must be raised within the prescribed 9-day scrutiny window."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "positive",
+          "text": "Applicants receive 24-hour advance intimation before the scheduled site inspection for renewal."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive",
+          "text": "No redundant documents were flagged by the department — every document on the renewal checklist was stated to be tied to a legal requirement."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "positive",
+          "text": "Officials did not identify any burdensome or time-consuming activity in the current renewal process."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "The department is planning to reduce the application processing time from 30 days to 21 days."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive",
+          "text": "Basic applicant/project information is auto-populated from previous registration data, reducing repetitive data entry on renewal."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Renewal requirements depend on the type/category of building and the applicable fire-safety requirements."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Self-declaration/relaxed compliance is being considered for certain low-risk/low-floor or single-floor buildings at renewal."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "positive",
+          "text": "Single Window submission and routing of renewal applications reduces the need for multiple separate departmental submissions."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "Of 39,249 renewal applications received in the last financial year, 2,296 (about 5.8%) were rejected."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "positive",
+          "text": "Fire-safety compliance verification, including physical inspection where applicable, is incorporated into the renewal process."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Applicants can track renewal application status and receive notifications regarding application/inspection status through the portal."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "The 30-day renewal timeline is given as a flat figure with no breakdown of scrutiny/inspection/approval sub-timelines within it."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Several documents are listed as required only 'wherever applicable' (Planning Permission NOC, planning permission/approved plan, ownership proof) without the ED clarifying exactly when each applies."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Consolidated, single-round query mechanism within the 9-day scrutiny window limits repeated back-and-forth with applicants."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Department is planning to reduce the renewal application processing time from 30 days to 21 days."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision exists for renewal — unlike the original Fire NOC/planning-permission NOC, no fallback mechanism is described if the 30-day renewal timeline is exceeded."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The ED does not state whether the applicant must visit any Fire & Rescue Services office in person at any stage of the renewal process."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "code": "ML",
+  "name": "Meghalaya",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFile": "ML_ED_BPA.docx",
+      "issuingAuthority": "Meghalaya Urban Development Authority (MUDA) — Town Planning Officer conducts technical review; Secretary, MUDA gives administrative approval",
+      "portal": { "name": "Online Building Permission System (OBPS)", "url": null },
+      "timeline": {
+        "minDays": 10,
+        "maxDays": 30,
+        "basis": "30 days under the applicable byelaws; expert said a simple, compliant, non high-rise proposal may be approved in about 10-15 days",
+        "text": "The statutory timeline is 30 days. The processing clock stops when a rectification query is issued. A simple, non-high-rise, compliant proposal may be approved in about 10-15 days; site inspection alone may take one to two weeks."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Building plans and layout drawings prepared and signed by registered architects/engineers",
+        "Land ownership or title documents",
+        "Revenue clearance (where applicable)",
+        "Provisional fire NOC (for high rise, special or otherwise risk-relevant buildings)",
+        "Pollution Control Board clearance (for relevant commercial proposals)",
+        "NOCs relating to water bodies, airport height restrictions, or forest land (where applicable)"
+      ],
+      "documentsNote": "Applicants obtain required external NOCs directly from the concerned departments; these are not issued through the BPA/OBPS system itself. The authority also verifies that the architect/engineer's registration and professional certificates are current.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No deemed approval mechanism was identified. The statutory timeline is paused during applicant rectification, and approval can remain pending where mandatory external NOCs have not been received."
+      },
+      "validity": {
+        "text": "A specific validity period for the building permit was not mentioned during the discussion. The process includes a subsequent occupancy certificate stage after submission of the completion certificate."
+      },
+      "fees": {
+        "text": "Fees vary by occupancy type and applicable government notification; the expert noted the fee schedule itself is not set in the building byelaws. For residential applications the expert cited Rs 5 per sq ft for the first 4,000 sq ft, with additional charges beyond that threshold; commercial and industrial uses have different rates. Certain religious assembly buildings may be exempt from the statutory fee."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit application via OBPS", "automated": true, "note": "Submitted online with plans, ownership records and proposal-specific clearances." },
+        { "n": 2, "phase": "inspect", "title": "Site verification by enforcement inspector", "automated": "partial", "note": "TPO assigns file; inspector records site conditions, photographs and location details." },
+        { "n": 3, "phase": "scrutiny", "title": "Architectural and structural scrutiny", "automated": "partial", "note": "Reviewed by assistant architect and assistant engineer; deficiencies are returned to the applicant for rectification." },
+        { "n": 4, "phase": "fee", "title": "Fee calculation and online payment", "automated": true, "note": "Applicant pays the prescribed fee online before approval." },
+        { "n": 5, "phase": "approve", "title": "Technical review completion and administrative approval", "automated": true, "note": "File forwarded to Secretary, MUDA; permit issued digitally under the current OBPS process." }
+      ],
+      "ed": { "date": "14-09-2026", "location": "Meghalaya Urban Development Authority (MUDA)", "expert": "Lastmedy Rymbui", "designation": "Town Planning Officer" },
+      "remarks": [
+        "MUDA jurisdiction is restricted to a limited municipal area; other sections of the Shillong Master Plan area fall under the District Council, so these findings apply strictly to MUDA-administered areas.",
+        "Approximately 15-25 applications per month were reported for the MUDA municipal area.",
+        "The 2024-2025 administrative process was managed offline; transition to digital processing via OBPS has since commenced."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["INTERDEP", "DELAY"], "sentiment": "issue", "text": "External NOCs can delay the BPA even after MUDA's own technical checks are complete, since applicants must approach relevant departments separately for them." },
+        { "source": "ed", "category": "pain", "tags": ["GRIEVANCE", "PORTAL"], "sentiment": "issue", "text": "The current system lacks automated SMS/email alerts and a centralized grievance tracking portal, so applicants must manually check the portal to ensure rectification requests are not overlooked." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY", "CLARITY"], "sentiment": "issue", "text": "Incomplete plans, outdated professional credentials, and limited applicant awareness of byelaw amendments can result in returns and repeat submissions." },
+        { "source": "ed", "category": "policy", "tags": ["FEES", "NORMS"], "sentiment": "issue", "text": "The expert noted that the fee schedule itself is not set in the building byelaws, with fees instead varying by occupancy and applicable government notification." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE", "INSPECT"], "sentiment": "neutral", "text": "Site inspection may take about one to two weeks depending on the case." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY", "INTERDEP"], "sentiment": "issue", "text": "Pending external NOCs and delayed or incomplete rectifications by the owner/consultant are the principal causes of longer end-to-end timelines." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive", "text": "The current OBPS process supports online application, payment and digital issuance with no routine need for a physical office visit." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE", "COMPLY"], "sentiment": "positive", "text": "MUDA reduces front-end burden by accepting a provisional fire NOC for the building permit and placing pollution control/groundwater requirements as conditions to be met before completion/occupancy rather than before the permit." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL", "CLARITY"], "sentiment": "suggestion", "text": "MUDA is refining the OBPS implementation with NIC support, including making mandatory document/NOC checklists more detailed and displaying registered architects and engineers." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP", "PORTAL"], "sentiment": "suggestion", "text": "The expert recommended creating an integrated workflow or status exchange between OBPS and NOC-issuing departments so applicants can see outstanding requirements and avoid separate follow-up across agencies." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE", "PORTAL"], "sentiment": "suggestion", "text": "Recommended introducing automatic SMS/email alerts for queries and rectification requests, a real-time application status tracker, and a grievance portal or single helpdesk contact." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY", "PORTAL"], "sentiment": "suggestion", "text": "Recommended publishing a complete stage-wise checklist of documents, NOCs, fees and registered professionals, and regularly communicating byelaw amendments to applicants and practitioners." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "MUDA jurisdiction is restricted to a limited municipal area, while other sections of the Shillong Master Plan area fall under the District Council." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "The authority checks that the architect/engineer's registration and relevant professional certificates are current as part of scrutiny." },
+        { "source": "ed", "category": "pain", "tags": ["GRIEVANCE", "CAPACITY"], "sentiment": "issue", "text": "A consultant and support officers assist stakeholders with OBPS-related issues, but the expert identified the absence of a clearly visible single point of contact." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "High-rise, special, complex and location-sensitive proposals attract additional fire, revenue, pollution control, airport, waterbody or forest-related scrutiny compared to small, non-high-rise buildings." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "A specific validity period for the building permit was not mentioned during the discussion." },
+        { "flag": "VAGUE", "text": "The fee schedule is reported as not being set in the building byelaws, and exact commercial/industrial fee rates were not given (only an illustrative residential rate was cited)." },
+        { "flag": "GOOD_PRACTICE", "text": "MUDA accepts a provisional fire NOC for the building permit itself and defers pollution control/groundwater-related NOCs to the completion/occupancy stage, reducing front-end burden on applicants." },
+        { "flag": "REFORM", "text": "MUDA is refining its OBPS implementation with NIC support to make document/NOC checklists more detailed and display registered architects/engineers." },
+        { "flag": "MISSING", "text": "No deemed-approval mechanism or fallback was identified if the department itself causes delay beyond the 30-day statutory timeline." },
+        { "flag": "VAGUE", "text": "Statutory fee basis is described only as varying by 'applicable government notification' without that notification's specifics being discussed." }
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFile": "ML_ED_ECL.docx",
+      "issuingAuthority": "Meghalaya Power Distribution Corporation Limited (MePDCL)",
+      "portal": { "name": "No portal currently used (fully offline process); an online portal is reported to be in the pipeline", "url": null },
+      "timeline": {
+        "minDays": 10,
+        "maxDays": 60,
+        "basis": "No statutory/notified timeline was cited; figures are practice-based as described by the expert",
+        "text": "The process is typically completed in about 10 to 15 days if documents are in order and the consumer responds and pays promptly. If additional infrastructure such as a ~1 km line is needed, work takes a further 15-20 days after payment; loads above 30 kW needing a new transformer/substation take about two months depending on material procurement."
+      },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "No Objection Certificate (NOC) from the Meghalaya Pollution Control Board (for industries)",
+        "ID proof/address proof (e.g. Aadhaar card)",
+        "Test report of the electrical installation from an electrical contractor, showing load/appliances and manufacturer details",
+        "Land document (ownership, agreement, or allotment letter where the land is in an industrial area)",
+        "NOC for right of way (after inspection, for a new service line, where needed)",
+        "Technical drawings and specifications of the equipment (where the consumer procures the material themselves)"
+      ],
+      "documentsNote": "Where the department procures materials instead, the department prepares the line drawing itself after the site visit.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Not discussed. The expert said work is not executed without prior approval and that no additional work can be taken up until a revised approval is obtained."
+      },
+      "validity": {
+        "text": "The approved estimate is valid for 3 months; if the applicant pays after that, the estimate is revised (due to material price increases) and the process resumes from the estimate stage, not the original application. Validity of the connection itself was not discussed."
+      },
+      "fees": {
+        "text": "No fixed fee was quoted. The consumer pays the cost in the approved estimate (materials, labour, departmental charges and GST) based on line length and works found necessary at the site survey. For loads above 30 kW, the consumer bears the full cost of the additional transformer, HT line and substation. The application fee was not discussed."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit application at distribution office", "automated": false, "note": "Letter/application submitted with documents including contractor's test report; applicant states the required load." },
+        { "n": 2, "phase": "scrutiny", "title": "Document scrutiny and site survey", "automated": false, "note": "Officer calls applicant to resubmit if documents are short; physical site visit assesses line/transformer needs." },
+        { "n": 3, "phase": "fee", "title": "Estimate preparation, approval and offline payment", "automated": false, "note": "Estimate prepared within 1-2 days of survey, routed through higher offices for approval; applicant pays by depositing into MePDCL's bank account." },
+        { "n": 4, "phase": "approve", "title": "Execution and energisation", "automated": "partial", "note": "Confirmation letter from accounts, materials requested, contractor executes works; larger installations need charging approval before energisation, while simple connections are pre-approved on the test certificate basis." }
+      ],
+      "ed": { "date": "30-09-2026", "location": "State Convention Centre, Shillong, Meghalaya", "expert": "B. Kharrugi; J. Kharlyngdoh; K. Mynthing; P. Syiem; K. Pathaw; N. Suangpliang; A. Wahlang; Blah Oshua", "designation": "" },
+      "remarks": [
+        "The load required is the consumer's own decision and is not set by the department; the department only confirms feasibility of supply.",
+        "Estimates are checked at higher levels before approval, and no additional work or charge can be taken up without approval.",
+        "An online portal option to replace the current offline process is being explored."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "The approved estimate is not available online; the consumer must go to the office after the survey to be told the amount payable." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "FEES"], "sentiment": "issue", "text": "There is currently no option to pay online, so applicants deposit the amount in the MePDCL account at a bank." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Additional infrastructure needs add time: about 15-20 days further for a new line of roughly one kilometre, or about two months for loads above 30 kW needing a new transformer and substation." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY", "COMPLY"], "sentiment": "issue", "text": "Delays caused by consumer response time sit outside the department's control; the expert cited one consumer who took about 8 months to reply to a query." },
+        { "source": "ed", "category": "procedural", "tags": ["POSITIVE", "QUERY"], "sentiment": "positive", "text": "The officer calls applicants directly to resolve document shortfalls rather than leaving the applicant to discover the issue." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY", "CAPACITY"], "sentiment": "issue", "text": "Estimation and approvals are the main source of delay: the file passes through multiple levels, involves significant paperwork, and is prone to errors and misplaced files." },
+        { "source": "ed", "category": "pain", "tags": ["DELAY", "FEES"], "sentiment": "issue", "text": "Payment verification by the accounts section is offline, and a paper confirmation is required before material procurement can begin." },
+        { "source": "ed", "category": "pain", "tags": ["DELAY", "FEES"], "sentiment": "issue", "text": "When approval is delayed, supplier rates may rise between estimate and approval, forcing the estimate to be revised." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS", "DELAY"], "sentiment": "issue", "text": "Changes to load or equipment after approval, such as adding more instruments, restart the site visit and estimate process." },
+        { "source": "ed", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Delays on the department side include shortage of staff who handle both office and field work, and materials being handled through a different office/subdivision." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Simple service connections are pre-approved on the basis of the test certificate, so no separate charging approval is needed." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Contractors are pre-arranged for each area and also supply materials, enabling work to start once payment is confirmed." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE", "TIMELINE"], "sentiment": "positive", "text": "Every work order to contractors carries a fixed completion timeline, typically 30 days, to prevent open-ended execution." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce an end-to-end online portal covering application, estimate, approvals and file tracking to cut paperwork, misplaced files and errors." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "FEES"], "sentiment": "suggestion", "text": "Enable online payment (e.g. internet banking) and online verification of payment and material procurement, replacing the offline bank deposit and paper confirmation." },
+        { "source": "ed", "category": "suggestions", "tags": ["DELAY", "FEES"], "sentiment": "suggestion", "text": "Shorten administrative approval times so estimates do not need revision due to rate changes; the expert said physical execution itself cannot be sped up, so the main scope for improvement lies in estimation and approvals." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Connections at 33 kV or 132 kV are handled differently and need charging approval, but the details were not discussed." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The application fee was not discussed." },
+        { "flag": "VAGUE", "text": "The 30 kW threshold distinguishing 'basic service connection' from higher-load connections was stated with some unclear wording in the recording; the expert himself said it should be confirmed with the department." },
+        { "flag": "MISSING", "text": "Validity of the electricity connection itself (as distinct from the 3-month validity of the approved estimate) was not discussed." },
+        { "flag": "MISSING", "text": "No statutory or officially notified timeline was cited for the connection process; all day-figures given are practice-based estimates from the expert." },
+        { "flag": "GOOD_PRACTICE", "text": "Simple service connections are pre-approved based on the submitted test certificate, avoiding a separate charging-approval step." },
+        { "flag": "REFORM", "text": "A portal to move application, estimate and payment online is reported to be 'in the pipeline' but was not yet implemented at the time of discussion." },
+        { "flag": "VAGUE", "text": "Designation was left blank for all eight experts named in the document." }
+      ]
+    },
+    {
+      "serviceCode": "ELD",
+      "serviceName": "Electrical Drawings",
+      "sourceFile": "ML_ED_ELD.docx",
+      "issuingAuthority": "Inspectorate of Electricity, Power Department, Government of Meghalaya",
+      "portal": { "name": "No application portal (entirely offline); inspection fee challan is generated via a separate e-payment website", "url": null },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": 14,
+        "basis": "No timeline is officially notified for this service; figures are the expert's description of practice",
+        "text": "No timeline is officially notified. In practice, approval is generally granted within one to two weeks of application, with two weeks as the maximum reported by the expert. Document verification itself takes about half an hour; remaining time is spent fixing an inspection date and travelling to site."
+      },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Application with forwarding letter from MePDCL (the distribution company)",
+        "Test report for the line and for the substation/transformer, countersigned by a licensed electrical contractor and supervisor",
+        "Test certificate from the transformer manufacturer",
+        "Challan for the inspection fee, as per the rating of the substation",
+        "A simple Single Line Diagram, prepared by the applicant and countersigned by a supervisor or contractor"
+      ],
+      "documentsNote": "The expert summarised the requirement as five documents and considered all of them mandatory under Central Electricity Authority regulations and the Electricity Act, 2003; no identification proof, building plan approval, or fire clearance is required since the office focuses solely on safety via the test report.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Not discussed. No timeline is notified for this service, and the expert did not refer to any deemed approval provision."
+      },
+      "validity": { "text": "Not discussed." },
+      "fees": {
+        "text": "Only an inspection fee is charged, based on the rating of the substation, with different amounts for different ratings; no application fee is charged. The fee is notified by the Government and listed on the Inspectorate of Electricity website, paid via challan. Specific amounts were not quoted."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit application offline at Inspectorate office", "automated": false, "note": "Includes forwarding letter from MePDCL, test reports, transformer manufacturer's test certificate and inspection-fee challan." },
+        { "n": 2, "phase": "scrutiny", "title": "Manual document verification", "automated": false, "note": "Office staff verify documents against a checklist, taking about half an hour for five documents; deficiencies notified by letter or phone if urgent." },
+        { "n": 3, "phase": "inspect", "title": "Site inspection of line and substation", "automated": false, "note": "An inspection date is fixed with the applicant; officers test the line and substation before it is charged." },
+        { "n": 4, "phase": "approve", "title": "Approval issuance", "automated": false, "note": "If compliant, approval is delivered physically (collected or sent by post); a further inspection follows after installation." }
+      ],
+      "ed": { "date": "30-09-2026", "location": "State Convention Centre, Shillong, Meghalaya", "expert": "Tariang; A. R. Sungma", "designation": "Senior Electrical Inspector (Tariang); Electrical Tester (A. R. Sungma)" },
+      "remarks": [
+        "The service is governed by regulations framed under the Electricity Act, 2003, which the expert said have not been changed recently; the same process is followed across Meghalaya.",
+        "It is an old, well-known service, so most applicants already know the requirements.",
+        "It is not yet certain whether the planned online service will sit on the Invest Meghalaya portal or elsewhere."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The service is entirely offline: application, documents, verification, tracking and approval are all handled physically at the office." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "CAPACITY"], "sentiment": "issue", "text": "Records of applications and approvals are kept in physical files, with no digital record." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY", "PORTAL"], "sentiment": "issue", "text": "The checklist is not yet on the website, so new applicants often come to the office to ask for help; queries are not usually received by email." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY", "TIMELINE"], "sentiment": "issue", "text": "The inspection date has to be coordinated with each applicant, which was given as the main reason approval can take up to two weeks." },
+        { "source": "ed", "category": "procedural", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Document verification against the checklist takes only about half an hour for a set of five documents." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE", "DUPDOC"], "sentiment": "positive", "text": "The requirement is already light, with only five documents, the minimum needed under Central Electricity Authority regulations and the Electricity Act, 2003; the expert did not identify any as redundant." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Inspection is not risk-based: every line and substation is inspected and tested before being charged, regardless of size." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE", "COMPLY"], "sentiment": "positive", "text": "Compliance is built in through mandatory countersigning of test reports and drawings by licensed supervisors/contractors, together with a physical safety inspection before every line is charged." },
+        { "source": "ed", "category": "remarks", "tags": ["INTERDEP"], "sentiment": "positive", "text": "No referral to any other department is needed for this service." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Move the service online as planned under the SOP developed with the EODB team, with the applicant applying online, paying the inspection fee and uploading the five documents before inspection and approval follow." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "FEES"], "sentiment": "suggestion", "text": "Integrate the inspection fee payment into the planned portal, instead of the current challan generated on a separate website." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY", "PORTAL"], "sentiment": "suggestion", "text": "Publish the checklist and document requirements on the website, which the expert said is in process." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Maintain digital records of applications and approvals once the online system is in place." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The expert estimated roughly 200 applications a year across Meghalaya (an approximate figure, as the office does not formally count them); all were reportedly approved, with no rejections or grievances raised so far." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "CLARITY"], "sentiment": "neutral", "text": "It is not yet certain whether the planned online service will sit on the Invest Meghalaya portal or elsewhere." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Validity period was not discussed." },
+        { "flag": "MISSING", "text": "Specific inspection fee amounts by substation rating were not quoted." },
+        { "flag": "MISSING", "text": "No officially notified timeline exists for this service; all day-figures cited are practice-based estimates only." },
+        { "flag": "GOOD_PRACTICE", "text": "Only five documents are required, in line with Central Electricity Authority regulations, verified through a quick roughly-30-minute manual check." },
+        { "flag": "REFORM", "text": "An online application system/SOP is being developed with the EODB team but was not yet launched; it is uncertain which portal (e.g. Invest Meghalaya) it will ultimately sit on." },
+        { "flag": "MISSING", "text": "No deemed-approval provision was discussed, consistent with there being no officially notified timeline for the service." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFile": "ML_ED_FNO.docx",
+      "issuingAuthority": "Fire Service Headquarters / Meghalaya Fire and Emergency Services — application cleared by the Superintendent of Police and the jurisdictional fire station officer",
+      "portal": { "name": "Service Plus portal (NIC-developed)", "url": null },
+      "timeline": {
+        "minDays": 15,
+        "maxDays": 30,
+        "basis": "Statutory timeline of 30 days; departmental processing typically completed within about 7 days once the application is routed for inspection",
+        "text": "The statutory timeline is 30 days, and departmental processing is normally completed within about seven days of receipt and routing. The principal delay is the application remaining pending while the applicant implements fire safety recommendations and submits a compliance report, which may range from about 15 days to several months for costly installations."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Building plan and fire layout plan for the building",
+        "Identity document (e.g. EPIC, Aadhaar, or Driving licence)"
+      ],
+      "documentsNote": "A significant issue exists for older buildings, many of which lack a fire layout plan; the department proposes making the fire layout plan mandatory for new/under-construction buildings while keeping it optional for legacy buildings (subject to inspection-based recommendations).",
+      "deemedApproval": {
+        "status": "no",
+        "days": 90,
+        "text": "No automatic deemed-approval provision was described; where the statutory timeline is exceeded due to departmental delay, the applicant may approach the Meghalaya Right to Public Service Act Commission. Separately, an application may be deemed rejected if the applicant does not comply with recommendations within 90 days, after which a fresh application is required."
+      },
+      "validity": {
+        "text": "The proposed framework considers a three-year validity period alongside a perennial model evaluated against other states' practices; the final determination remains under review. Renewal is available online, with recurring inspection/audit activity continuing after issuance."
+      },
+      "fees": {
+        "text": "Fees are notified by the Government and vary by building category and built-up area, with the expert citing a range of roughly Rs 2 to Rs 10 per square metre depending on category. The fee structure was reported as not being available online."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit application via Service Plus portal", "automated": true, "note": "Applicant and building details plus required documents uploaded online." },
+        { "n": 2, "phase": "scrutiny", "title": "Initial approval and routing for inspection", "automated": "partial", "note": "After SP's initial approval, application sent to the jurisdictional fire station's officer in charge." },
+        { "n": 3, "phase": "inspect", "title": "Initial inspection and fire safety recommendations", "automated": false, "note": "Inspecting officer assesses building/hazard profile and issues recommendations; applicant implements measures and submits a compliance report." },
+        { "n": 4, "phase": "inspect", "title": "Final verification inspection", "automated": false, "note": "Fire service confirms the recommendations have been complied with." },
+        { "n": 5, "phase": "approve", "title": "Payment and certificate issuance", "automated": true, "note": "Payment request generated on satisfactory verification; digital Fire Safety Certificate/Fire NOC issued after online payment." }
+      ],
+      "ed": { "date": "14-09-2026", "location": "Fire Brigade Office, Shillong", "expert": "Sandeep Bhattacharjee", "designation": "Station Officer" },
+      "remarks": [
+        "At the time of discussion, the portal displayed 1378 applications received, 1377 processed and one pending.",
+        "Meghalaya Fire and Emergency Services described 43 fire stations statewide, including six in Shillong, with recurring reporting across 12 districts.",
+        "The State is working to amend the Meghalaya Fire and Emergency Act 2012 in line with the revised Model Fire Bill circulated by the Ministry of Home Affairs, with an intention to rationalize requirements not needed in every case."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive", "text": "Registration, renewal, document upload, payment, certificate issuance and renewal are all processed online through the Service Plus portal, without routine physical submission." },
+        { "source": "ed", "category": "pain", "tags": ["GRIEVANCE", "QUERY"], "sentiment": "issue", "text": "While the portal lets applicants view their complete processing history, proactive notifications remain limited when queries or additional document requirements arise." },
+        { "source": "ed", "category": "pain", "tags": ["DUPDOC", "COMPLY"], "sentiment": "issue", "text": "A significant issue exists with older buildings, many of which lack a fire layout plan." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY", "TIMELINE"], "sentiment": "issue", "text": "The application commonly remains pending while the applicant implements fire safety recommendations and returns a compliance report, ranging from about 15 days to several months where costly installations are required." },
+        { "source": "ed", "category": "pain", "tags": ["FEES", "PORTAL", "CLARITY"], "sentiment": "issue", "text": "The fee structure, though notified by Government, was reported as not being available online." },
+        { "source": "ed", "category": "pain", "tags": ["FEES", "COMPLY"], "sentiment": "issue", "text": "Mandating fire layout plans for older structures imposes a significant financial burden on applicants, with estimated baseline costs ranging from Rs 20,000 to Rs 25,000 or more." },
+        { "source": "ed", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Applicants raised concerns about the high cost of some fire safety measures; a pump house with required pumps was described as potentially costing Rs 35-40 lakh." },
+        { "source": "ed", "category": "pain", "tags": ["GRIEVANCE", "QUERY"], "sentiment": "issue", "text": "The system does not provide reliable automatic alerts for additional documents or queries; officers instead contact applicants by telephone." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "CAPACITY"], "sentiment": "issue", "text": "The department cannot readily filter, retrieve, review or generate period-wise reports from its dashboard without an application reference number, and relies on NIC for tailored data extraction." },
+        { "source": "ed", "category": "procedural", "tags": ["CAPACITY", "OTHER"], "sentiment": "issue", "text": "Reporting is complicated by separate records across nine building categories and 12 districts, plus differing formats requested by audit, EODB and deregulation exercises." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE", "INSPECT"], "sentiment": "positive", "text": "The service conducts a two-stage inspection — initial risk assessment and final compliance verification — before payment and issuance, verifying actual implementation rather than relying only on uploaded documents." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE", "INSPECT"], "sentiment": "positive", "text": "Ongoing safety oversight continues after issuance through monthly fire safety audits, mock drills, preparedness reporting and surprise inspections." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Recommendations are risk-based, determined by building type/category, built-up area, hazard/risk profile, location and proximity to the nearest fire station." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC", "COMPLY"], "sentiment": "suggestion", "text": "Modify Service Plus so the fire layout plan is mandatory for new and under-construction buildings but optional for legacy buildings, with the fire officer's inspection and recommendations serving as the basis for compliance." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE", "PORTAL"], "sentiment": "suggestion", "text": "Add automatic SMS/email notifications for queries, additional documents, inspection recommendations and application stage changes." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "CAPACITY"], "sentiment": "suggestion", "text": "Give the department dashboard rights to search, filter, inspect and export applications by date, period, district, category and status, supporting routine audit, EODB and deregulation reporting." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES", "CLARITY"], "sentiment": "suggestion", "text": "Publish the notified fee structure and a clear document checklist on the portal, including separate guidance for new and legacy buildings." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Exact per-square-metre fee rates for each building category were not quoted; only a range of Rs 2-10 per sq m was cited." },
+        { "flag": "VAGUE", "text": "The final validity-period policy (3-year vs. perennial model) remains under review and was not finalized at the time of discussion." },
+        { "flag": "GOOD_PRACTICE", "text": "A two-stage inspection process (initial risk assessment plus final compliance verification before payment/issuance) is used rather than relying only on uploaded documents." },
+        { "flag": "REFORM", "text": "The State is working to amend the Meghalaya Fire and Emergency Act 2012 in line with the revised Model Fire Bill to rationalize requirements not needed in every case." },
+        { "flag": "MISSING", "text": "The notified fee structure is not published online, which the expert flagged as a transparency gap." },
+        { "flag": "VAGUE", "text": "Department reporting/dashboard limitations (needing an application reference number to filter data, reliance on NIC) were described but exact current workaround details were incomplete." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFile": "ML_ED_TLA.docx",
+      "issuingAuthority": "Shillong Municipal Board — Licensing section with final approval by the Chief Executive Officer (CEO)",
+      "portal": { "name": "Municipal ServicePlus / Meghalaya Investment portal", "url": null },
+      "timeline": {
+        "minDays": 10,
+        "maxDays": 10,
+        "basis": "Expert-stated average end-to-end approval time; no statutory figure was cited",
+        "text": "The expert indicated an average end-to-end approval time of about 10 days. Delays can arise when applicant and tenant/premises details do not align, or when an issue is identified during inspection."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "EPIC/photo identity proof",
+        "Money receipt",
+        "Rent agreement",
+        "Consent to Operate from the Pollution Control Board (for certain businesses, e.g. food service establishments)"
+      ],
+      "documentsNote": "The expert referred to approximately six to seven documents in total, depending on the business and premises.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Deemed approval provision was not discussed."
+      },
+      "validity": {
+        "text": "The validity period was not specified in the discussion. The process flow refers to a renewal approval step, but the transcript did not provide further detail on the renewal cycle or conditions."
+      },
+      "fees": {
+        "text": "The fee varies with trade category and floor area of the establishment. Discussions indicated a Rs 6,000 fee for one category, but there is no verification that this rate is uniform across all remaining trade classifications. No separate inspection charge was identified."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit application via municipal portal", "automated": true, "note": "Online through ServicePlus/Meghalaya Investment portal with prescribed documents." },
+        { "n": 2, "phase": "scrutiny", "title": "Routing to licensing section and inspector assignment", "automated": "partial", "note": "Application assigned to the concerned inspector for site inspection." },
+        { "n": 3, "phase": "inspect", "title": "Site inspection and report", "automated": false, "note": "Inspector verifies the establishment and records the inspection report, sent to the engineer for review." },
+        { "n": 4, "phase": "approve", "title": "Engineering review and CEO approval", "automated": "partial", "note": "Statement goes to the CEO for final approval after engineering review." },
+        { "n": 5, "phase": "approve", "title": "License issuance and tracking", "automated": true, "note": "Trade license issued online; applicants can access and track it through the portal." }
+      ],
+      "ed": { "date": "29-09-2026", "location": "State Convention Centre, Shillong, Meghalaya", "expert": "Freestar Mylhiengap", "designation": "Licencing Officer" },
+      "remarks": [
+        "The expert cited an estimated 4,000 to 4,500 applications for the previous financial year, though a final validated count has not been established.",
+        "Approximately 400-plus cases were reportedly rejected or cancelled, though a verified total and detailed reasons for each case remain unavailable.",
+        "Shillong Municipal Board is the municipal authority for this service in Shillong."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive", "text": "The service is now processed fully online through the municipal portal — application, inspection routing, approval, issuance and status tracking are all digital." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY", "CLARITY"], "sentiment": "issue", "text": "Delays can arise when the applicant and tenant/premises details do not align, or when an issue is identified during inspection." },
+        { "source": "ed", "category": "pain", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "issue", "text": "Businesses such as food service establishments that need Consent to Operate from the Pollution Control Board face an external document dependency." },
+        { "source": "ed", "category": "procedural", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The discussion describes a clear, defined approval chain from inspection through engineering review to CEO approval." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "The inspector verifies the establishment at site and checks whether it conforms to the relevant conditions for the trade license." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Requirements and fees vary by the nature of the business and floor area of the premises; food service and other pollution-relevant activities have additional compliance needs." },
+        { "source": "ed", "category": "pain", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "A Rs 6,000 fee was cited for one trade category, but there is no verification that this rate is uniform across all remaining trade classifications." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY", "DUPDOC"], "sentiment": "suggestion", "text": "Publish a trade-specific checklist giving clear portal guidance on required documents by business type, including tenant/premises proof and when Consent to Operate is needed." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES", "CLARITY"], "sentiment": "suggestion", "text": "Publish a fee calculator or fee schedule by trade category and floor area so applicants understand the charge before submitting." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT", "PORTAL"], "sentiment": "suggestion", "text": "Provide online inspection observations and corrective actions so applicants can resolve irregularities promptly and reduce avoidable delays." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The expert cited an estimated 4,000-4,500 applications for the previous financial year, though a final validated count has not been established." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Approximately 400-plus cases were reportedly rejected or cancelled, though a verified total and detailed reasons remain unavailable." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "The validity period was not specified, and the renewal cycle/conditions were not detailed beyond a reference to 'renewal approval' in the process flow." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Validity period for the trade license was not specified in the discussion." },
+        { "flag": "VAGUE", "text": "The renewal cycle and conditions are not detailed beyond a reference to 'renewal approval' in the process flow." },
+        { "flag": "VAGUE", "text": "The Rs 6,000 fee cited applies to only one trade category, with no confirmation this fee structure is uniform or documented for all classifications." },
+        { "flag": "MISSING", "text": "Deemed approval provision was not discussed." },
+        { "flag": "VAGUE", "text": "Application volume (4,000-4,500) and rejection count (400+) are expert estimates; no final validated counts are available." }
+      ]
+    },
+    {
+      "serviceCode": "WAC",
+      "serviceName": "Water Connection",
+      "sourceFile": "ML_ED_WAC.docx",
+      "issuingAuthority": "Public Health Engineering Department (PHED), Meghalaya (non-municipal areas); Shillong Municipal Board headed by the CEO (Shillong municipal area)",
+      "portal": { "name": "Online application portal (unnamed in the document), launched 25 September 2026", "url": null },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 30,
+        "basis": "Expert-stated practical figure for connection provision; no statutory timeline was cited",
+        "text": "The water connection may take about 30 days, subject to approval, availability of materials and other requirements. Procurement of materials such as pipes and fittings can add to the time. Separate timelines for application checking and the physical visit were not discussed."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "NOC from the Headman",
+        "ID proof",
+        "Land agreement or other land-related document"
+      ],
+      "documentsNote": "The department also checks requirements during a physical visit; further documents beyond the three listed were not discussed.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not discussed."
+      },
+      "validity": { "text": "Not discussed." },
+      "fees": {
+        "text": "The applicant deposits the applicable amount in the bank or departmental account; specific fee/connection-cost amounts were not discussed. The applicant also arranges and bears the cost of materials (pipes, fittings, connectors, valves and meter where applicable), with costs not discussed."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply online with documents", "automated": true, "note": "Uploads NOC from Headman, ID proof and land document; online application began 25 September 2026, replacing the earlier offline process." },
+        { "n": 2, "phase": "scrutiny", "title": "Document check and physical site visit", "automated": false, "note": "Department checks application/documents and carries out a physical visit to verify requirements." },
+        { "n": 3, "phase": "fee", "title": "Offline payment", "automated": false, "note": "Applicant deposits the applicable amount in a bank/departmental account and submits the receipt for verification." },
+        { "n": 4, "phase": "approve", "title": "Material arrangement", "automated": false, "note": "After approval, applicant arranges water supply pipes, fittings, connectors, valves and a meter where applicable." },
+        { "n": 5, "phase": "approve", "title": "Connection provided", "automated": false, "note": "Takes about 30 days, depending on approval, material availability and other requirements." }
+      ],
+      "ed": { "date": "30-September-2026", "location": "State Convention Centre, Shillong", "expert": "Wahid Nongtori; Polji Passah; Godwin Lambok Fancon; Ibalaribha Wahlang", "designation": "Water Works Inspector and Junior Engineer" },
+      "remarks": [
+        "The online application has only recently started (from 25 September 2026), so the experience with it may still be limited.",
+        "Services are handled by two authorities: the concerned Government department in non-municipal areas, and the Shillong Municipal Board (headed by the CEO) in the Shillong municipal area.",
+        "No document was identified as redundant, and no practices from other states were discussed."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive", "text": "The application process was recently moved online, effective 25 September 2026, replacing the earlier fully offline process." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "FEES"], "sentiment": "issue", "text": "Online payment is not yet available even though the application is online, so payment and its verification remain offline through a bank deposit and submitted receipt." },
+        { "source": "ed", "category": "pain", "tags": ["DELAY", "FEES"], "sentiment": "issue", "text": "Manual payment verification — depositing the amount then submitting the receipt to the department for confirmation — may increase processing time." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "CAPACITY"], "sentiment": "issue", "text": "Physical and manual record-keeping makes document management and tracking difficult." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Applicants may still need to visit the bank or the department for payment-related formalities." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY"], "sentiment": "issue", "text": "Procurement of materials by the applicant (pipes, fittings, connectors, valves, meter) may cause delays to the connection." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "Two authorities handle the service: the concerned Government department (PHED) in non-municipal areas, and the Shillong Municipal Board headed by the CEO in the Shillong municipal area." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "The department checks the application and documents and carries out a physical visit to verify requirements before approval." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "FEES"], "sentiment": "suggestion", "text": "Introduce an online payment facility alongside the online application system." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce digital document storage and application tracking." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Provide online status tracking so applicants can check their application's progress without visiting the department." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The online application has only recently started, so the experience with it may still be limited." },
+        { "source": "ed", "category": "remarks", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "No document was identified as redundant in the current requirement list." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "No practices from other states were discussed; the recent shift to online application is the only change described." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Validity period of the water connection was not discussed." },
+        { "flag": "MISSING", "text": "Specific fee/connection-cost amounts were not discussed — only that the applicant deposits an 'applicable amount'." },
+        { "flag": "MISSING", "text": "Deemed approval provision was not discussed." },
+        { "flag": "MISSING", "text": "Risk-based classification was not discussed." },
+        { "flag": "REFORM", "text": "The application process recently shifted online (from 25 September 2026); online payment has not yet been introduced." },
+        { "flag": "VAGUE", "text": "Separate timelines for application checking versus the physical site visit were not discussed — only the overall ~30-day figure was given." }
+      ]
+    }
+  ]
+}

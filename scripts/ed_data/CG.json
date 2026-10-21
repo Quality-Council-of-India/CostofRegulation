@@ -1,0 +1,314 @@
+{
+  "code": "CG",
+  "name": "Chhattisgarh",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFile": "CG_ED_CTE.docx",
+      "issuingAuthority": "Chhattisgarh Environment Conservation Board (CECB), Government of Chhattisgarh",
+      "portal": { "name": "State single-window system (with PARIVESH portal used for Environmental Clearance-related submission, where applicable)", "url": null },
+      "timeline": { "minDays": 60, "maxDays": 60, "basis": "Indicative/prescribed processing timeline discussed by the expert (~60 days); not described as a specific statutory figure", "text": "The expert indicated an approximate 60-day processing timeline for CTE. No separate average actual processing time is given, and applications requiring clarification or that are complex/critical may need additional time." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Land-related documents",
+        "Gram Panchayat NOC",
+        "Company resolution",
+        "Environmental Clearance-related documentation, where applicable, submitted through PARIVESH",
+        "Other prescribed documents based on the nature and category of the industrial activity"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "Deemed approval is not applicable where the prescribed timeline is exceeded; an appeal provision is available to the applicant instead." },
+      "validity": { "text": "The source report does not specify a validity period for Consent to Establish or a specific renewal cycle." },
+      "fees": { "text": "The source report does not specify a numerical CTE application fee or a category-wise fee structure." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit CTE application online via the State single-window system", "automated": true },
+        { "n": 2, "phase": "apply", "title": "Upload prescribed supporting documents (land documents, Gram Panchayat NOC, company resolution)", "automated": true },
+        { "n": 3, "phase": "apply", "title": "Submit Environmental Clearance-related documentation via PARIVESH portal, where applicable", "automated": "partial", "note": "A separate portal interface from the State single-window system." },
+        { "n": 4, "phase": "inspect", "title": "Application scrutinised and site inspected to verify site suitability and proposed air/water pollution-control arrangements", "automated": false },
+        { "n": 5, "phase": "approve", "title": "CTE issued online after verification and completion of prescribed requirements", "automated": true }
+      ],
+      "ed": { "date": "05-08-2026", "location": "Directorate of Industries, Commerce & Industry, Udyog Bhawan, Shyam Nagar, Raipur, Chhattisgarh", "expert": "Bhuven Sharma", "designation": "PMO- CECB" },
+      "remarks": [
+        "The source document does not provide quantified percentages for delays, duplicate documents, consultant dependency or cost burden; such figures should not be inferred.",
+        "No major redundant or duplicate documentation was specifically identified by the expert for CTE.",
+        "CPCB is reported to be developing a new central online portal for consent-related processes, per the expert."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The CTE application process is fully online through the State single-window system, and the applicant is not required to physically visit the State Pollution Control Board for submission." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The prescribed/indicative processing timeline discussed for CTE is approximately 60 days." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Where Environmental Clearance is applicable, the applicant must separately use the PARIVESH portal for the EC-related requirement, adding an inter-portal step." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Site inspection remains a mandatory physical verification step before CTE is granted, checking site suitability and proposed pollution-control arrangements." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants still need to submit multiple supporting documents, including land documents, Gram Panchayat NOC and company resolution, which can create a burden where applications are incomplete or inappropriate." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Industries are classified as Red, Orange, Green and White based on pollution potential, following CPCB criteria adopted by the State, which determines the level of compliance applicable." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY"], "sentiment": "issue", "text": "Applications may require additional time beyond the indicative 60 days where documentation is incomplete, clarification is required, or the case is complex/critical." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "There is no deemed-approval provision for CTE; the applicant instead has an appeal provision available if the prescribed timeline is exceeded." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "The expert suggested improving integration between the State single-window system and the PARIVESH portal." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "The expert recommended clearer category-wise guidance for Red, Orange, Green and White industries." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Automated inspection allocation and tracking were identified as practices worth continuing." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Application status can be tracked online, with SMS and email notifications available to applicants." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The expert stated that major bottlenecks previously experienced in the CTE process have largely been removed following Ease of Doing Business reforms." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "CPCB is reportedly developing a new central online portal for consent-related processes." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "positive", "text": "For investment below ₹5 crore, a direct CTO is provided instead of requiring a separate CTE, simplifying the process for smaller investors." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "The expert suggested strengthening pre-submission document validation so deficiencies are identified before final submission." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No numerical CTE application fee or category-wise fee schedule is given in the source document." },
+        { "flag": "MISSING", "text": "No validity period or renewal cycle is specified for Consent to Establish." },
+        { "flag": "MISSING", "text": "No average actual processing time is given, only an indicative/prescribed figure of approximately 60 days." },
+        { "flag": "VAGUE", "text": "No detailed post-approval compliance checklist (registers, periodic testing, equipment maintenance) is provided beyond general reference to pollution-control compliance." },
+        { "flag": "GOOD_PRACTICE", "text": "Fully online CTE submission through the State single-window system eliminates the need for a physical visit to the State Pollution Control Board, with PARIVESH integration for EC cases and SMS/email status tracking." },
+        { "flag": "REFORM", "text": "CPCB is reportedly developing a new central online portal for consent-related processes, which would further digitise the CTE process once operational." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFile": "CG_ED_CTO.docx",
+      "issuingAuthority": "Chhattisgarh Environment Conservation Board (CECB), Government of Chhattisgarh",
+      "portal": { "name": "Online CTO application and processing system (specific portal name not stated in this ED; applications are forwarded to the concerned regional office for inspection)", "url": null },
+      "timeline": { "minDays": 60, "maxDays": 60, "basis": "Prescribed processing timeline discussed by the expert (~60 days)", "text": "The prescribed processing timeline discussed is approximately 60 days, and officials indicated most cases are completed within it; inspection delay can affect the overall processing timeline." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "CA certificate establishing actual investment made in the project",
+        "Compliance-related documents for fulfilment of CTE/EC conditions",
+        "Documents relating to pollution-control equipment and arrangements, where applicable",
+        "Site and technical information required for inspection and verification",
+        "Other prescribed documents applicable to the industry/category"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "The source report does not specify a deemed-approval provision for CTO; no separate operational mechanism for deemed approval was identified in the discussion." },
+      "validity": { "text": "CTO validity varies by industry category, with Red, Orange and Green industries receiving different validity periods; the source report does not provide the exact category-wise periods." },
+      "fees": { "text": "The source report does not provide a numerical CTO application fee or category-wise fee schedule; additional fee assessment may be required where actual investment exceeds the amount declared at the CTE stage." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit CTO application online after installation/commissioning of the plant", "automated": true },
+        { "n": 2, "phase": "apply", "title": "Submit prescribed documents, including a CA certificate establishing actual investment made in the project", "automated": true },
+        { "n": 3, "phase": "scrutiny", "title": "Application processed online and forwarded to the concerned regional office for inspection", "automated": "partial" },
+        { "n": 4, "phase": "inspect", "title": "Inspection verifies pollution-control equipment, site conditions, investment and other commitments made by the applicant", "automated": false },
+        { "n": 5, "phase": "scrutiny", "title": "Where mandatory pollution-control arrangements are not installed, the application may be rejected", "automated": false },
+        { "n": 6, "phase": "approve", "title": "After fulfilment of applicable compliance requirements, CTO is processed and granted", "automated": "partial" }
+      ],
+      "ed": { "date": "05-08-2026", "location": "Directorate of Industries, Commerce & Industry, Udyog Bhawan, Shyam Nagar, Raipur, Chhattisgarh", "expert": "Devvrat Mishra", "designation": "Executive Engineer" },
+      "remarks": [
+        "The discussion did not establish exact category-wise validity periods or a numerical statutory fee for CTO; these should not be inferred.",
+        "For violations after CTO is granted, the department can issue notices, impose environmental compensation and, where non-compliance continues, order closure."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The CTO application process is fully online, including online forwarding of applications to the concerned regional office for inspection." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "Additional fee assessment may be required where the actual investment at CTO stage exceeds the amount declared at the CTE stage." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY"], "sentiment": "issue", "text": "Inspection delay can affect the overall CTO processing timeline." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "CTO validity varies by industry category, with Red, Orange and Green industries receiving different validity periods and differentiated regulatory requirements." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Inspection verifies pollution-control equipment, site conditions, investment and other commitments made by the applicant." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY"], "sentiment": "issue", "text": "Where mandatory air- and water-pollution control arrangements are not installed, the CTO application may be rejected." },
+        { "source": "ed", "category": "remarks", "tags": ["RENEWAL"], "sentiment": "positive", "text": "CTO renewal is done through self-certification and a commitment letter, reducing the need for repeated physical inspections." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "positive", "text": "Continuous Emission Monitoring Systems (CEMS), connected to CPCB servers, are used for applicable industries." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "The expert suggested strengthening risk-based inspection for compliant industries." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "The expert suggested improving integration of investment information between CTE and CTO to reduce repeated verification." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "For violations after CTO is granted, the department can issue notices, impose environmental compensation and, where non-compliance continues, order closure." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "CA certificates and compliance-related documents are required to verify investment and fulfilment of CTE/EC conditions; no major redundant documents were identified during the discussion." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Online application tracking is available for CTO applications." },
+        { "source": "ed", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "The expert suggested providing automated alerts for inspection and compliance requirements." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Officials indicated that most CTO cases are completed within the prescribed ~60-day timeline." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No numerical CTO application fee or category-wise fee schedule is provided." },
+        { "flag": "MISSING", "text": "Exact category-wise (Red/Orange/Green) validity periods for CTO are not specified, only that they differ." },
+        { "flag": "VAGUE", "text": "Deemed approval status for CTO is not clearly stated, and no operational mechanism was identified in the discussion." },
+        { "flag": "VAGUE", "text": "Unlike the CTE discussion, this ED does not explicitly state whether an applicant must physically visit any office to submit the CTO application." },
+        { "flag": "GOOD_PRACTICE", "text": "Renewal via self-certification and a commitment letter avoids repeated physical inspections for CTO renewal." },
+        { "flag": "REFORM", "text": "Expert recommended stronger risk-based inspection and expanded digital verification of pollution-control equipment, plus better CTE-CTO investment data integration." }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFile": "CG_ED_FAL.docx",
+      "issuingAuthority": "Industrial Safety Labour Department",
+      "portal": { "name": "Labour Department online portal (specific portal name not stated in this ED)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No numerical statutory or average processing timeline is stated in this ED", "text": "The source report does not specify a numerical statutory or average processing timeline for Factory Licence; incomplete applications and multiple deficiencies/remarks across different stages can extend effective processing time." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Prescribed Factory Licence application and supporting documents",
+        "Factory Drawing Approval",
+        "Multiple NOCs and supporting documents from different authorities, depending on the nature and location of the factory",
+        "Documents/information relating to installed power, manpower and cost of construction",
+        "Additional documents to address inspection observations or show-cause notices, where applicable"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "The source report does not specify whether deemed approval is available for Factory Licence; no specific operational mechanism for deemed approval was identified in the discussion." },
+      "validity": { "text": "The source report does not specify the validity period of the Factory Licence or the renewal cycle in this ED." },
+      "fees": { "text": "Fees are linked to installed power, manpower and cost of construction, and statutory fees increase by 30% every three years (identified by the expert as a potential area for review); no base numerical fee figure is given." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit Factory Licence application completely online through the Labour Department portal", "automated": true },
+        { "n": 2, "phase": "pre", "title": "Obtain Factory Drawing Approval before construction of the factory can commence", "automated": null, "note": "Described as a prerequisite before construction; its own automation level is not detailed in this ED." },
+        { "n": 3, "phase": "apply", "title": "Submit prescribed application and supporting documents/NOCs applicable to the factory", "automated": true },
+        { "n": 4, "phase": "inspect", "title": "Inspection conducted as applicable; random inspection is computer-generated and selected through software", "automated": "partial" },
+        { "n": 5, "phase": "scrutiny", "title": "Inspection observations and show-cause notices, where applicable, communicated electronically", "automated": true },
+        { "n": 6, "phase": "scrutiny", "title": "Applicant submits compliance/clarification electronically", "automated": true },
+        { "n": 7, "phase": "approve", "title": "After fulfilment of applicable requirements and approvals, the Factory Licence is granted", "automated": "partial" }
+      ],
+      "ed": { "date": "05-08-2026", "location": "Directorate of Industries, Commerce & Industry, Udyog Bhawan, Shyam Nagar, Raipur, Chhattisgarh", "expert": "Ashutosh Pandey", "designation": "Deputy Director" },
+      "remarks": [
+        "The source report does not provide a numerical average processing time, validity period, or exact fee amount beyond the stated fee determinants and the 30% three-year increase.",
+        "The process is linked with other factory-related approvals, particularly Factory Building Plan Approval, making inter-service coordination important.",
+        "Physical inspection remains mandatory for new Factory Licence applications before the licence is granted, even as the online system has reduced manual intervention elsewhere."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The Factory Licence application process is completely online through the Labour Department portal." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Factory Drawing Approval is required before construction of the factory can commence, as a separate prerequisite step." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Multiple NOCs and supporting documents from different authorities may be required depending on the nature and location of the factory." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "issue", "text": "Statutory Factory Licence fees increase by 30% every three years; this was identified as a potential area for review." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY"], "sentiment": "issue", "text": "Incomplete or inappropriate applications are a major source of delay and repeated processing, as applications are returned for correction and resubmission." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY"], "sentiment": "issue", "text": "Multiple deficiencies or remarks raised across different stages can further extend the effective processing time." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Physical inspection remains mandatory for new Factory Licence applications before the licence is granted." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "Random inspection is computer-generated and selected through software as part of the risk-based classification framework." },
+        { "source": "ed", "category": "procedural", "tags": ["QUERY"], "sentiment": "positive", "text": "Inspection observations and show-cause notices are communicated electronically, and compliance/clarification is submitted electronically." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Factory Licence is processed separately after obtaining required approvals such as Factory Drawing Approval, creating scope for repeated documentation across linked services." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "The expert recommended expanding risk-based inspections and exempting eligible low-risk factories from mandatory physical inspection where digital verification is sufficient." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "The expert recommended operationalising self-certification for eligible factories." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "The expert suggested strengthening the online portal with comprehensive document checklists and pre-submission validation." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "The expert recommended integrating Factory Building Plan Approval and Factory Licence processes to enable document reuse and minimise repeated documentation." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "The expert recommended providing clear guidance and support for investors entering Chhattisgarh from other states regarding applicable Factory Licence requirements and compliance procedures." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Applications and their status can be tracked online." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No numerical statutory or average processing timeline for Factory Licence is stated in this ED." },
+        { "flag": "MISSING", "text": "No validity period or renewal cycle for Factory Licence is stated in this ED." },
+        { "flag": "MISSING", "text": "No base/numeric fee figures are given, only fee determinants (installed power, manpower, construction cost) and the 30% triennial increase." },
+        { "flag": "VAGUE", "text": "The document does not explicitly state whether an applicant must visit any office in person for the main Factory Licence application, beyond noting the process is \"completely online.\"" },
+        { "flag": "REFORM", "text": "The 30% statutory fee increase every three years was flagged by the expert as a potential area for review." },
+        { "flag": "REFORM", "text": "Integration of Factory Building Plan Approval and Factory Licence processes was recommended to reduce repeated documentation across linked services." },
+        { "flag": "GOOD_PRACTICE", "text": "Computer-generated random selection for inspection reduces discretion in choosing which factories receive physical inspection." }
+      ]
+    },
+    {
+      "serviceCode": "LA",
+      "serviceName": "Land Allotment",
+      "sourceFile": "CG_ED_LA.docx",
+      "issuingAuthority": "Directorate of Industries, CSIDC (Chhattisgarh State Industrial Development Corporation)",
+      "portal": { "name": "Online land allotment portal integrated with the Chhattisgarh e-Procurement system", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No single end-to-end statutory timeline is stated; a 21-day open-tender period applies specifically to developed plots", "text": "For developed plots the tender remains open for 21 days before evaluation and allotment. The source report does not specify a single end-to-end processing timeline for land allotment; internal scrutiny, multiple approval levels and applicant payment timelines affect the overall duration, and post-allotment activities (registration, possession certificate, lease execution) add further time." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Prescribed annual information/return (as listed in this ED's 'Documentation Required' section)",
+        "Required compliance information relating to the factory (as listed)",
+        "Prescribed renewal fee payment through e-Challan (as listed)"
+      ],
+      "documentsNote": "The 'Documentation Required' section of this source ED document lists items (annual return, compliance information relating to 'the factory', renewal fee via e-Challan) that match the Renewal of Factory Licence process rather than Land Allotment; this appears to be a drafting/copy inconsistency within the source file (flagged under gaps as INCONSISTENT). No land-allotment-specific document checklist is itemized elsewhere in this ED; the Application Process section instead references use of a Digital Signature Certificate for e-procurement registration.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "The source report does not specify whether deemed approval is available for land allotment; no separate deemed-approval mechanism was identified in the discussion." },
+      "validity": { "text": "The source report does not specify the validity period of the land allotment or lease." },
+      "fees": { "text": "Land rates are determined by the empowered board after considering land acquisition and infrastructure development costs. Applicants pay an initial 10% amount followed by the remaining 90% online before the allotment order is issued. Stamp duty exemption is available under the State Industrial Policy for eligible industries. The source report does not specify the numerical land rate or other category-wise fee amounts." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant registers on the online portal and participates in the e-procurement process using a Digital Signature Certificate", "automated": true },
+        { "n": 2, "phase": "pre", "title": "Vacant plots, plot size, base price and other plot details made available online before application submission", "automated": true },
+        { "n": 3, "phase": "scrutiny", "title": "For developed plots, the tender remains open for 21 days before evaluation and allotment", "automated": "partial" },
+        { "n": 4, "phase": "scrutiny", "title": "Applications undergo scrutiny before generation of the demand note", "automated": "partial" },
+        { "n": 5, "phase": "fee", "title": "Applicant pays the initial 10% amount followed by the remaining 90% online", "automated": true },
+        { "n": 6, "phase": "approve", "title": "After full payment, the allotment order is issued and lease deed execution is undertaken", "automated": "partial" },
+        { "n": 7, "phase": "approve", "title": "Registration is completed through the Registration Department", "automated": false },
+        { "n": 8, "phase": "approve", "title": "Possession certificates are generated online after field verification by departmental engineers", "automated": "partial" }
+      ],
+      "ed": { "date": "05-08-2026", "location": "Directorate of Industries, Commerce & Industry, Udyog Bhawan, Shyam Nagar, Raipur, Chhattisgarh", "expert": "Prafull Sahu, Kapil Singh Kushwal, Ajit Bhat Phari", "designation": "Deputy Director; G.M of CSIDC; G.M of CSIDC" },
+      "remarks": [
+        "The source report does not provide a numerical end-to-end processing time, validity period or specific land rate.",
+        "Physical visits are generally not required except where site inspection or possession-related activities are necessary.",
+        "Land allotment has shifted from first-come-first-served to competitive bidding because of high demand for industrial plots."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The entire land allotment process is digitised through an online portal integrated with the Chhattisgarh e-Procurement system, with applicants using Digital Signature Certificates to register and participate." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Vacant plots, plot size, base price and other plot details, as well as application status, are displayed online, providing transparency." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "Applicants pay an initial 10% amount followed by the remaining 90% online before the allotment order is issued." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "positive", "text": "Stamp duty exemption is available under the State Industrial Policy for eligible industries." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "For developed plots, the tender remains open for 21 days before evaluation and allotment." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY"], "sentiment": "issue", "text": "Multiple internal scrutiny and approval levels increase overall processing time." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY"], "sentiment": "issue", "text": "Delay in payment of the balance premium by applicants postpones issuance of the allotment order." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Post-allotment processes such as registration, possession certificate and lease execution require coordination with different authorities, including the Registration Department and departmental engineers." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Company incorporation and enterprise-related documents may be required at multiple stages, and registration-related documents are resubmitted again after allotment during lease execution and registration." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Different categories of industries are subject to different land eligibility criteria based on investment size and enterprise category, and industrial areas are classified by the types of industries permitted." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Pollution-intensive industries require additional environmental clearances and approvals before establishment, and additional scrutiny for highly polluting industries can increase processing time." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The recent transition from manual to online land allotment processing is still evolving." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "The experts recommended reducing the number of internal approval levels involved in processing land allotment applications." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "The experts recommended generating demand notes and allotment orders through a simplified single-click approval mechanism after scrutiny." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "The experts recommended simplifying document requirements by seeking only essential documents during the initial application stage." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "The experts recommended integrating post-allotment services such as lease transfer, plot merger, mortgage approval and utility services into the online portal." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Land allotment has shifted from first-come-first-served to competitive bidding because of high demand for industrial plots." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Possession certificates are generated online after field verification by departmental engineers." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No single statutory end-to-end processing timeline for land allotment is specified (only the 21-day tender window for developed plots)." },
+        { "flag": "MISSING", "text": "The validity period of the land allotment/lease is not specified." },
+        { "flag": "MISSING", "text": "No numerical land rate or category-wise fee amounts are specified." },
+        { "flag": "VAGUE", "text": "Deemed approval status for land allotment is not addressed in this ED." },
+        { "flag": "INCONSISTENT", "text": "The 'Documentation Required' section of this document lists items (annual return, compliance information relating to 'the factory', renewal fee via e-Challan) that belong to the Renewal of Factory Licence process rather than Land Allotment, contradicting the rest of the same document, which describes an e-procurement/land-allotment process — likely a copy/drafting error in the source file." },
+        { "flag": "GOOD_PRACTICE", "text": "Entire process integrated with the Chhattisgarh e-Procurement portal including DSC-based registration, online plot listing with transparency on price/status, and online payment." },
+        { "flag": "REFORM", "text": "Experts recommended integrating post-allotment services (lease transfer, plot merger, mortgage approval, utility services) into a single online portal and reducing internal approval levels." }
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFile": "CG_ED_RFAL.docx",
+      "issuingAuthority": "Industrial Safety Labour Department",
+      "portal": { "name": "Labour Department online renewal system, with fee payment through e-Challan (specific portal name not stated in this ED)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No separate renewal timeline stated; broader Factory Licence process timeline of ~30 days mentioned for context in this ED", "text": "The source report does not provide a separate average renewal processing time. It notes the broader Factory Licence process has a prescribed timeline of approximately 30 days per this discussion, while the renewal mechanism itself is described as more automated." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Prescribed annual information/return",
+        "Required compliance information relating to the factory",
+        "Prescribed renewal fee payment through e-Challan"
+      ],
+      "documentsNote": "The source report does not identify a major additional document set specifically for renewal.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "The source report does not specify whether deemed approval is available for renewal of Factory Licence; no separate deemed-approval mechanism was identified in the discussion." },
+      "validity": { "text": "Factory Licences can be issued with a validity of up to 15 years, reducing the frequency of conventional renewal requirements; the source report does not specify different validity periods by factory category." },
+      "fees": { "text": "Applicants are required to pay the prescribed renewal fee through e-Challan; the source report does not provide the numerical renewal fee or a category-wise fee structure." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant initiates the renewal process online before expiry of the existing Factory Licence", "automated": true },
+        { "n": 2, "phase": "apply", "title": "Applicant submits the prescribed annual information/compliance information", "automated": true },
+        { "n": 3, "phase": "fee", "title": "Applicant pays the prescribed renewal fee through e-Challan", "automated": true },
+        { "n": 4, "phase": "scrutiny", "title": "The system auto-forwards the renewal application for processing", "automated": true },
+        { "n": 5, "phase": "renew", "title": "After fulfilment of the prescribed requirements, the renewed licence is automatically generated", "automated": true }
+      ],
+      "ed": { "date": "05-08-2026", "location": "Directorate of Industries, Commerce & Industry, Udyog Bhawan, Shyam Nagar, Raipur, Chhattisgarh", "expert": "Ashutosh Pandey", "designation": "Deputy Director" },
+      "remarks": [
+        "The source report does not provide a numerical renewal fee or a separate average renewal processing time.",
+        "Annual return submission remains an important recurring compliance requirement even though the licence can be issued for up to 15 years.",
+        "The broader Factory Licence process has a prescribed timeline of approximately 30 days per this discussion, while the renewal mechanism is more automated."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The Factory Licence renewal process is entirely online, with auto-forwarding and auto-generation of the renewed licence." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "The prescribed renewal fee is paid through e-Challan." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "positive", "text": "Factory Licences can be issued with a validity of up to 15 years, reducing the frequency of conventional renewal requirements." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Annual returns and prescribed compliance information continue to be required even where the licence is subject to auto-renewal." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY"], "sentiment": "issue", "text": "Delays may arise where prescribed fees, annual returns or required information are not submitted correctly or within the prescribed timeline." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Applicants may require professional or consultant support to complete compliance-related requirements for renewal." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "The expert recommended adopting risk-based renewal, avoiding routine physical inspections for low-risk/compliant factories and focusing resources on higher-risk units." },
+        { "source": "ed", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "The expert recommended sending automated alerts/reminders before renewal and fee-payment deadlines." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "The expert recommended introducing automated pre-validation of annual return information before submission." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "The expert recommended retaining a simplified single-click renewal workflow requiring only prescribed fee payment and annual information." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Manual departmental intervention is substantially reduced through the automated renewal mechanism." },
+        { "source": "ed", "category": "remarks", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The broader Factory Licence process has a prescribed timeline of approximately 30 days per this discussion, while the renewal mechanism itself is more automated and has no separately stated time." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "No major redundant documentation was specifically identified for renewal; the process has largely been streamlined through online submission, auto-forwarding and auto-generation." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Risk-based renewal can reduce manual intervention for compliant factories while retaining regulatory oversight for higher-risk factories." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Automated reminders and pre-validation were identified as further potential simplifications to the renewal process." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No numerical renewal fee or category-wise fee structure is given." },
+        { "flag": "MISSING", "text": "No separate average renewal processing time is provided, only a general description that renewal is 'more automated' than the broader Factory Licence process." },
+        { "flag": "VAGUE", "text": "Deemed approval status for renewal of Factory Licence is not addressed in this ED." },
+        { "flag": "VAGUE", "text": "Validity is stated as 'up to 15 years' without a category-wise breakdown or minimum validity period." },
+        { "flag": "GOOD_PRACTICE", "text": "Entirely online renewal with auto-forwarding and auto-generation of the renewed licence, substantially reducing manual departmental intervention." },
+        { "flag": "REFORM", "text": "Recommends risk-based renewal avoiding routine physical inspection for low-risk/compliant factories, with inspection resources focused on higher-risk units." }
+      ]
+    }
+  ]
+}

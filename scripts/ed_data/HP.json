@@ -1,0 +1,141 @@
+{
+  "code": "HP",
+  "name": "Himachal Pradesh",
+  "licenses": [
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFile": "HP_ED_ECL.docx",
+      "issuingAuthority": "Himachal Pradesh State Electricity Board Limited (HPSEBL), Government of Himachal Pradesh (in-principle approval routed via the State Single Window System, Department of Industries)",
+      "portal": { "name": "State Single Window System (Department of Industries) / HPSEBL online portal", "url": null },
+      "timeline": {
+        "minDays": 3,
+        "maxDays": 90,
+        "basis": "HPERC Electricity Supply (Sixth Amendment) Code, 2025, effective 01.04.2025",
+        "text": "Metropolitan areas: 3 days (no mains extension/new sub-station needed); other urban/municipal areas: 7 days; rural areas: 15 days; hilly terrain: 30 days. Where transformer augmentation, line extension, or a new sub-station is required, the permissible timeline may extend up to 90 days."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "In-principle approval issued through the Single Window System",
+        "Industrial project approval documents",
+        "Load requirement details",
+        "Identity and establishment-related documents",
+        "Technical details required for load sanction and PAC processing"
+      ],
+      "documentsNote": "Department indicated documentation requirements have been significantly reduced compared to the earlier process, particularly for smaller connections.",
+      "deemedApproval": { "status": "no", "days": null, "text": "There is no provision for deemed approval for new electricity connections; technical verification and load assessment are mandatory before sanction and release of a new connection." },
+      "validity": { "text": "The in-principle approval issued through the Single Window System is currently valid for three years; renewal is required after this validity period expires. No separate validity period is stated for the electricity connection itself." },
+      "fees": { "text": "No separate application fee was specifically indicated for online submission. Charges for industrial connections are based on HPERC-approved regulatory norms; for connections up to 150 kVA, normative rates apply. Illustrative figures given: approx. ₹13,000 for certain small three-phase connections and approx. ₹4.5 lakh for higher-capacity connections. Security deposits for postpaid connections are linked to sanctioned load at approx. ₹1,800 per kVA (one month's equivalent)." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Obtain in-principle approval via the State Single Window System", "automated": true, "note": "Managed by the Department of Industries." },
+        { "n": 2, "phase": "apply", "title": "Apply online via HPSEBL website for loads up to 100 kW", "automated": true, "note": "" },
+        { "n": 3, "phase": "scrutiny", "title": "For loads above 100 kW, Single Window forwards case to HPSEBL for Power Availability Certificate (PAC) issuance", "automated": "partial", "note": "" },
+        { "n": 4, "phase": "approve", "title": "HPSEBL verifies load availability, feeder capacity and technical feasibility, and issues load sanction", "automated": "partial", "note": "Load sanction issued by the competent authority based on sanctioned load category." },
+        { "n": 5, "phase": "fee", "title": "Consumer deposits applicable security and connection-related charges", "automated": null, "note": "" },
+        { "n": 6, "phase": "approve", "title": "Connection released within prescribed timeline, or after infrastructure augmentation/new line construction if required", "automated": false, "note": "Infrastructure build-out, where needed, is a manual, physical process." }
+      ],
+      "ed": { "date": "10-08-2026", "location": "Top floor, Conference Hall, Directorate of Industries, Majitha House, Chotta Shimla, Shimla 171002 (H.P.)", "expert": "Shamsher Singh (with Ajay Thakur, Superintending Engineer Commercial; and Manoj, IT Expert, TCS)", "designation": "Senior Executive Engineer Commercial" },
+      "remarks": [
+        "The expert noted that the process itself is largely smooth and time-bound (department staff and processes are governed by the DSP resolution); delays are predominantly infrastructure-driven rather than procedural.",
+        "Panel present: Shamsher/Samshya Singh (Sr. Executive Engineer), Ajay Thakur (Superintending Engineer), and Manoj (IT Expert, TCS), HPSEBL.",
+        "HPSEBL Sales Circular No. 01/2025 dated 08.04.2025 provides clear delegation of PAC and load sanction powers."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL", "INTERDEP"], "sentiment": "neutral", "text": "Industrial applicants first obtain in-principle approval via the State Single Window System; for loads above 100 kW the Single Window forwards the case to HPSEBL for Power Availability Certificate issuance, requiring coordination across two bodies." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "INTERDEP"], "sentiment": "issue", "text": "Applicants interact first with the State Single Window System, which redirects them to the separate HPSEBL portal for electricity connection processing, rather than a single unified interface." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Prescribed timelines vary by area type under the HPERC Sixth Amendment Code 2025: 3 days (metro, no augmentation needed), 7 days (urban), 15 days (rural), 30 days (hilly terrain), extending up to 90 days where augmentation or a new sub-station is required." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE", "CAPACITY"], "sentiment": "issue", "text": "The major time-consuming factor is not the online application itself but availability of electrical infrastructure; cases needing transformer augmentation, new substations, or line extension take significantly longer to process." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion", "text": "HPSEBL suggested stronger integration between the Single Window portal and the electricity connection system so consumers can submit information once and simultaneously apply for the PAC and the electricity connection." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Recommended developing end-to-end integration between the Single Window portal and the HPSEBL connection management system, with a unified application interface for PAC requests, load sanction, and connection processing." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Recommended strengthening advance infrastructure planning in industrial growth areas to reduce delays caused by augmentation and line extension requirements." },
+        { "source": "ed", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Recommended providing applicants with clearer digital status tracking specifically for infrastructure-related (augmentation/new line) cases." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "No separate application fee is charged for online submission; charges for industrial connections follow HPERC-approved regulatory norms, with normative rates for connections up to 150 kVA. Illustrative figures given: approx. ₹13,000 for small three-phase connections and approx. ₹4.5 lakh for higher-capacity connections." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "Security deposits for postpaid connections are linked to sanctioned load at approx. ₹1,800 per kVA (one month's equivalent)." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "POSITIVE"], "sentiment": "positive", "text": "Officials reported several unnecessary documentary requirements have already been removed, substantially reducing the documentation burden for small consumers as part of earlier reforms." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "There is no deemed-approval provision for new electricity connections; technical verification and load assessment are mandatory before any sanction or release." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "No formal risk-based classification system is followed for electricity connection approvals; complexity and processing time are instead driven by sanctioned load, contract demand, supply voltage, feeder availability, and need for infrastructure augmentation." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Cited best practices: online and time-bound processing, Single Window integration for industrial approvals, reduced documentation, and clear delegation of PAC/load-sanction powers via HPSEBL Sales Circular No. 01/2025 dated 08.04.2025." },
+        { "source": "ed", "category": "remarks", "tags": ["INSPECT", "OTHER"], "sentiment": "neutral", "text": "After connection release, regular billing commences and routine testing/inspection of metering for large consumers is carried out by HPSEBL's technical wings; no separate recurring filing requirement by the consumer was identified." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Document does not state whether the applicant is required to visit any office in person at any stage (application, deposit payment, or connection release)." },
+        { "flag": "VAGUE", "text": "No standalone validity period is given for the electricity connection itself — only the Single Window in-principle approval's 3-year validity is stated, leaving unclear whether/when the connection itself needs any 'renewal.'" },
+        { "flag": "MISSING", "text": "No application-fee figure is given for the online portal itself; the document only states that 'no separate application fee was specifically indicated.'" },
+        { "flag": "INCONSISTENT", "text": "The expert's name is given as 'Shamsher Singh' in the document header but as 'Samshya Singh' in the Other Remarks panel listing — the same document uses two different spellings for the apparently same panelist." },
+        { "flag": "VAGUE", "text": "Automation level of specific steps (e.g., online payment of security/connection charges, exact method of connection release) is not described beyond characterizing the overall process as 'largely digital.'" },
+        { "flag": "GOOD_PRACTICE", "text": "Clear delegation of PAC and load-sanction approval powers was formalized via a specific documented order — HPSEBL Sales Circular No. 01/2025 dated 08.04.2025." },
+        { "flag": "REFORM", "text": "HPSEBL recommended end-to-end integration of the Single Window portal with its own connection management system to allow one unified application for PAC, load sanction and electricity connection, instead of the current multi-portal hand-off." }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFile": "HP_ED_FAL.docx",
+      "issuingAuthority": "Department of Labour & Employment, Government of Himachal Pradesh — Chief Inspector of Factories (competent authority for issuance), with field verification by the Assistant Director (Factory)",
+      "portal": { "name": "Departmental online software portal (common to Factory Building Plan Approval and Factory License; integrated with, but not yet directly reachable from, the State Single Window)", "url": null },
+      "timeline": {
+        "minDays": 45,
+        "maxDays": 45,
+        "basis": "Occupational Safety, Health and Working Conditions (OSH) Code framework and related state rules",
+        "text": "Factory License Approval has a prescribed timeline of 45 days, with deemed approval if no decision is communicated. This is preceded by the Factory Building Plan Approval (BPA) step, which has a separate 30-day timeline, also with deemed approval."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Building plan drawings",
+        "Factory-related statutory documents",
+        "Documents required under departmental rules for BPA and licensing"
+      ],
+      "documentsNote": "Fire NOC and Pollution NOC are not sought as part of the present factory licensing process unless specifically required under other applicable laws. Officials stated documentation has been substantially reduced under Ease of Doing Business reforms and only essential documents are now required.",
+      "deemedApproval": { "status": "yes", "days": 45, "text": "Deemed approval is available for both services: Building Plan Approval after 30 days, and Factory License after 45 days, if no decision is communicated." },
+      "validity": { "text": "Factory Licenses may be issued for 1, 5, or 10 years at the applicant's option; renewal is required after the selected validity period expires. Officials indicated the longer validity option is intended to give operational convenience to larger factories." },
+      "fees": { "text": "The fee is not based on the selected validity period; it is determined primarily by connected horsepower/power load and number of workers employed. The department indicated fees may range from approximately ₹1,000 for smaller establishments to around ₹2 lakh for large factories, depending on scale of operations and installed power." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Submit Factory Building Plan Approval (BPA) application through the departmental online portal", "automated": true, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Upload required documents and building drawings online", "automated": true, "note": "" },
+        { "n": 3, "phase": "scrutiny", "title": "Assistant Director (Factory) conducts field verification and forwards the case to the Chief Inspector of Factories", "automated": "partial", "note": "" },
+        { "n": 4, "phase": "approve", "title": "Building plan approved; applicant becomes eligible to apply for a Factory License", "automated": null, "note": "" },
+        { "n": 5, "phase": "apply", "title": "Factory License application submitted through the same online portal", "automated": true, "note": "" },
+        { "n": 6, "phase": "scrutiny", "title": "Assistant Director undertakes field verification for the licensing application", "automated": "partial", "note": "" },
+        { "n": 7, "phase": "approve", "title": "Verified application forwarded to the competent authority for approval and issuance of the Factory License", "automated": "partial", "note": "" }
+      ],
+      "ed": { "date": "10-08-2026", "location": "Top floor, Conference Hall, Directorate of Industries, Majitha House, Chotta Shimla, Shimla 171002 (H.P.)", "expert": "Mr. Puneet Chauhan", "designation": "Assistant Director" },
+      "remarks": [
+        "The threshold for applicability to very small factories has been revised under the OSH framework, reducing compliance requirements for smaller establishments.",
+        "Inspection processes are designed to be transparent, with inspectors selected through a randomised system rather than manual allocation.",
+        "Officials emphasized that most procedural simplification measures have already been implemented and that Single Window integration remains the key pending reform.",
+        "Future implementation of the OSH Code is expected to further streamline registration and licensing processes."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Both Building Plan Approval and Factory License applications are processed through the same departmental online portal, which is fully online." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "INTERDEP"], "sentiment": "issue", "text": "The departmental portal is already integrated with the State Single Window framework, but direct application submission through the Single Window portal has not yet been enabled, so applicants cannot yet apply seamlessly through it." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "The department indicated future integration is planned so industries can apply seamlessly through the State Single Window System; the principal recommended reform is complete end-to-end integration enabling direct submission without redirection." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Building Plan Approval has a 30-day timeline (with deemed approval) and Factory License Approval a 45-day timeline (with deemed approval), both followed under the OSH Code framework and related state rules." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY"], "sentiment": "positive", "text": "Deemed approval is available for both Building Plan Approval (after 30 days) and Factory License (after 45 days) if no decision is communicated." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "Factory Licenses may be issued for 1, 5, or 10 years at the applicant's option, intended to give larger factories operational convenience; renewal is required once the chosen validity period expires." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "Fee is based on connected horsepower/power load and number of workers rather than the chosen validity period, ranging from approx. ₹1,000 for small establishments to around ₹2 lakh for large factories." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "POSITIVE"], "sentiment": "positive", "text": "Fire NOC and Pollution NOC are not sought as part of the factory licensing process unless specifically required under other applicable laws; documentation has been substantially reduced under Ease of Doing Business reforms." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "Officials stated no major redundant requirement was identified during the discussion, as unnecessary requirements have already been removed through Ease of Doing Business reforms." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT", "POSITIVE"], "sentiment": "positive", "text": "A formal risk-based inspection/classification system is followed: hazardous factories (e.g., pharmaceutical units, dangerous operations notified under the Act) are inspected every 6 months; others annually or once every two years depending on worker strength and risk category." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT", "POSITIVE"], "sentiment": "positive", "text": "Inspection selection is random and system-driven to ensure transparency, with inspectors selected through a randomised system rather than manual allocation." },
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Post-approval compliance includes maintenance of statutory registers, periodic inspection, and testing/safety-related compliance under factory laws and the OSH framework." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "Officials did not identify any major burdensome or time-consuming activity in the current BPA or Factory License process." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Recommended implementing OSH Code provisions in a unified digital workflow covering registration, building plan approval, licensing and renewals, and strengthening digital tracking/communication for applicants." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "The threshold for applicability to very small factories has been revised under the OSH framework, reducing compliance requirements for smaller establishments." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE", "RENEWAL"], "sentiment": "positive", "text": "Cited best practices: single online portal for BPA and Factory License; reduced documentation under EoDB reforms; deemed-approval timelines; an auto-renewal facility for renewals; and a transparent, randomised risk-based inspection system." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No figure or basis is given for the Factory Building Plan Approval (BPA) fee — only the Factory License fee range is stated." },
+        { "flag": "VAGUE", "text": "The exact mechanism and duration of the 'field verification' steps (scheduled vs. on-demand site visits, typical turnaround) are not described." },
+        { "flag": "MISSING", "text": "The document does not explicitly state whether the applicant must visit any physical office at any stage; this is inferred only from the general statement that the process is 'fully online.'" },
+        { "flag": "VAGUE", "text": "The department 'indicated' documentation has been 'substantially reduced' under EoDB reforms but does not enumerate what was previously required and has since been removed." },
+        { "flag": "GOOD_PRACTICE", "text": "Risk-based inspection classification (6-monthly for hazardous units, annual/biennial for others) combined with randomised, system-driven inspector selection is a specific, documented transparency measure." },
+        { "flag": "REFORM", "text": "Full integration of the departmental portal with the State Single Window System — currently SSW-ready but without enabled direct submission — is flagged by the department as the key pending reform." },
+        { "flag": "VAGUE", "text": "An 'auto-renewal facility for renewals' is listed under Best Practices, but the renewal process itself (steps, documents required, fee) is not described anywhere in this document." }
+      ]
+    }
+  ]
+}

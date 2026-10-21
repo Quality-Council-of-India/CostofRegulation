@@ -1,0 +1,2399 @@
+{
+  "code": "WB",
+  "name": "West Bengal",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFile": "WB_ED_BPA.docx",
+      "issuingAuthority": "Urban Local Body (ULB), under the Urban Development and Municipal Affairs (UD&MA) Department, Government of West Bengal; authorised signatory is the ULB chairperson/commissioner/head",
+      "portal": {
+        "name": "SWS OBPAS / e-GrihoNoksha single-window portal",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 15,
+        "maxDays": 15,
+        "basis": "15-working-day timeline discussed by the experts (exact governing Act/Rule not cited in the source)",
+        "text": "A 15-working-day timeline was discussed, but the expert said it is often not met because the ULB depends on external departments for NOCs, which may follow their own timelines, plus manpower shortages and delays in convening ULB committee meetings."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Architectural drawings",
+        "Structural drawings",
+        "Structural stability certificate",
+        "Geotechnical certificate (where applicable)",
+        "Water-supply layout drawing",
+        "Rainwater/sewer layout drawing",
+        "Property-tax documents",
+        "Other land/property-related documents"
+      ],
+      "documentsNote": "Discussion did not provide a complete, authoritative item-wise checklist of all documents applicable to every category of building plan. Drawings must be uploaded in the prescribed Smart DCR-compatible format.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "The discussion explicitly indicated deemed approval is not available; the applicant must complete scrutiny, external NOC and ULB decision-making steps before approval is issued."
+      },
+      "validity": {
+        "text": "Mentioned as renewal for two years and revalidation for up to a maximum of ten years, including for partially occupied or block-occupied buildings; the precise applicability and governing conditions were not confirmed against the relevant rules in the discussion."
+      },
+      "fees": {
+        "text": "Building-plan sanction fees, development fees, labour-related charges and stacking charges, based on applicable West Bengal municipal rules; the expert indicated these had not been revised since 2007. Consultant fees are negotiated directly between applicant and empanelled consultant, with no departmental fee mandate identified."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Register on SWS OBPAS / e-GrihoNoksha portal",
+          "automated": true,
+          "note": "Applicant/owner creates a username and password."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Complete application and engage empanelled consultant",
+          "automated": "partial",
+          "note": "Applicant completes non-technical portion; empanelled technical consultant completes technical portion and uploads Smart DCR-compatible drawings."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Automated Smart DCR scrutiny",
+          "automated": true,
+          "note": "If the submission passes, it is forwarded to the relevant ULB."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Parallel departmental scrutiny and NOCs",
+          "automated": "partial",
+          "note": "Dealing assistant checks property-tax/legal documents; engineering division reviews technical drawings; site-inspection division inspects where required; external NOCs processed through the portal."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "ULB committee decision",
+          "automated": false,
+          "note": "Committee approves or rejects; a rejection letter stating reasons is issued if rejected."
+        },
+        {
+          "n": 6,
+          "phase": "fee",
+          "title": "Payment and digital signing",
+          "automated": true,
+          "note": "Applicant receives online payment link; after payment, the authorised signatory digitally signs the building permit and architectural drawing, and the applicant is notified."
+        }
+      ],
+      "ed": {
+        "date": "08-10-2026",
+        "location": "District Industry Centre, Kolkata, 11A&B, Esplanade East, Kolkata -69",
+        "expert": "Manas Kumar Palit; Monojit Chatterjee",
+        "designation": "Additional Chief Engineer, MED; Project Coordinator, OBPAS-VDMA, Tetra Int"
+      },
+      "remarks": [
+        "The portal integrates with certain external departments for NOCs, including references to fire, airport, urban land ceiling, National Monument Authority and power-related approvals.",
+        "Water connection, sewer and drainage applications may also be integrated with occupancy-related services on the same portal.",
+        "Source limitations noted in the report: the transcript does not clearly establish a complete document checklist, the exact governing provisions for validity, or a detailed fee schedule."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE",
+            "INTERDEP",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Despite digitisation, delays continue because of manpower constraints in ULBs, pending external NOCs and difficulty convening ULB committee meetings."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "The building plan approval depends on NOCs from multiple external departments (fire, airport, urban land ceiling, National Monument Authority, power), which may not follow the ULB's 15-working-day timeline."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The process is described as fully online, with no mandatory physical submission or in-person visit by applicants."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "positive",
+          "text": "A grievance-redressal system is incorporated into the portal, alongside departmental help-desk support for queries."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The fee structure (sanction fees, development fees, labour-related charges, stacking charges) is described as not having been revised since 2007."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Deemed approval is explicitly not available for building plan approval; the applicant must complete all scrutiny, NOC and committee steps first."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants must engage an empanelled technical consultant to complete the technical portion of the application, and the consultant's fee is negotiated directly with the applicant with no departmental mandate."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Even when the ULB's internal scrutiny is complete, approval cannot be issued until all applicable NOCs are received, since external departments may not follow the 15-working-day timeline."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "A central-level mandate requiring integrated departments to adhere to aligned timelines, alongside amendments to relevant rules, could support timely processing."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "An additional payment-gateway option could be examined to reduce payment-related friction."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Manpower constraints in ULBs that affect application scrutiny and processing should be addressed."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Scheduling and timely convening of ULB committee meetings should be improved."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "A risk-based inspection approach is used: low-risk plans use self-certification with no site inspection, medium-risk plans use third-party inspection bodies, and high-risk plans receive departmental inspection."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Different departments maintain their own inspection checklists for NOC purposes; a single common checklist across departments was not identified."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "neutral",
+          "text": "Where an application is rejected, the applicant is to receive a rejection letter stating the reasons."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "positive",
+          "text": "Departmental help-desk support is available for applicant queries during the process."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The validity/revalidation provisions (two-year renewal, up to ten-year revalidation) were described as needing confirmation against the relevant rules, as precise applicability was unclear in the discussion."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The discussion did not provide a complete, authoritative item-wise document checklist covering every category of building plan."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No exact governing Act/Rule is cited for the 15-working-day timeline."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Validity (two-year renewal / up to ten-year revalidation) conditions are not clearly specified; the expert said precise applicability should be confirmed against the relevant rules."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No consolidated fee schedule was given beyond naming the fee categories (sanction fee, development fee, labour-related charges, stacking charges)."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No complete item-wise document checklist across all building-plan categories was provided."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Risk-based inspection classification (low/medium/high risk) reduces inspection burden for low-risk plans via self-certification."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested central-level mandate or rule amendments to align timelines across integrated NOC-issuing departments."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "The report's 'Other Remarks' section states the transcript does not clearly identify the expert's full name/designation, yet the report header itself lists two named experts (Manas Kumar Palit, Monojit Chatterjee) with designations — an internal inconsistency in the source document."
+        }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFile": "WB_ED_CTO.docx",
+      "issuingAuthority": "West Bengal Pollution Control Board (WBPCB), Government of West Bengal",
+      "portal": {
+        "name": "Online system of the West Bengal Pollution Control Board (specific portal name not given)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "Consents are required to be issued within a prescribed time frame; no numerical statutory or average figure was given in the discussion",
+        "text": "The source report does not specify an exact average disposal time or a numerical statutory timeline, only that approvals are required within the prescribed time frame. Processing may take longer for Red-category industries due to mandatory site inspection, technical scrutiny and higher compliance requirements."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "The source report does not provide an item-wise document checklist; the department states only minimum mandatory and project-specific documents are required, rationalised under Ease of Doing Business reforms, with reduced requirements for Green-category and small-scale industries.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "There is no provision for deemed approval; the official indicated this is not considered appropriate because environmental and technical scrutiny is required under the regulatory framework."
+      },
+      "validity": {
+        "text": "Validity is governed by CPCB and MoEF&CC recommendations and notifications; the source report does not specify the exact duration or a renewal interval."
+      },
+      "fees": {
+        "text": "The source report does not specify the statutory/application fee or the fee structure by industry size, category or other parameters."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit Consent to Operate application online",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Upload required documents online",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Pay applicable fee online",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Technical scrutiny by the Board",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Mandatory physical site inspection for Red-category industries",
+          "automated": false,
+          "note": "The main offline/physical activity specifically identified in the discussion; not required for other categories."
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Disposal/approval of the application",
+          "automated": "partial",
+          "note": "Following scrutiny and, where applicable, inspection."
+        }
+      ],
+      "ed": {
+        "date": "23-07-2026",
+        "location": "District Industry Centre, Kolkata, 11A&B, Esplanade East, Kolkata -69 (Behind K. C. Das sweet shop at Esplanade)",
+        "expert": "Mousumi Saha",
+        "designation": "Environmental Engineer"
+      },
+      "remarks": [
+        "The source report does not provide a more detailed officer-wise approval hierarchy or inspection-report workflow.",
+        "Consent to Establish and Consent to Operate processes are largely digitised; the State Board follows CPCB and MoEF&CC rules, notifications and consent-processing guidelines, limiting independent state-level flexibility.",
+        "Environmental safeguards remain a priority; technical scrutiny and inspections cannot be dispensed with solely to accelerate approvals."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Application submission, document upload and fee payment are conducted through the online system; the process is described as largely digitised."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "A mandatory physical site inspection is conducted for Red-category industries before consent is granted."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "TIMELINE",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "No exact average disposal time or numerical statutory timeline is specified; only that approvals must be issued within a prescribed time frame."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "The validity period is governed by CPCB and MoEF&CC recommendations/notifications rather than state-level rules."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CLARITY",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The statutory/application fee and its structure by industry size or category are not specified in the source."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "COMPLY",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Documentation requirements have been rationalised under Ease of Doing Business reforms, with reduced requirements for Green-category and small-scale industries."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Industries are classified into Red, Orange, Green and White categories based on pollution potential (CPCB classification), with documentation, scrutiny, inspection and processing requirements varying by category."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Limited technical manpower in regional offices was identified as a burden affecting scrutiny, inspections and application disposal."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Strengthen technical manpower, particularly in regional offices, to improve scrutiny, inspections and application disposal."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Continue simplifying technical scrutiny where feasible without compromising environmental safeguards."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Periodically review documentation requirements and retain only essential, project-specific documents."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Expand or update the White Category framework where appropriate, subject to competent-authority approval."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Use stakeholder feedback collected through DPIIT studies to inform future consent-processing reforms."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "The official said deemed approval is not considered appropriate because environmental and technical scrutiny is required under the regulatory framework."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Online document upload and online fee payment were highlighted as existing best practices in the process."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No exact numeric statutory timeline for Consent to Operate disposal is specified."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The statutory/application fee and its structure by category are not specified."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The exact validity duration or renewal interval is not specified beyond reference to CPCB/MoEF&CC notifications."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No item-wise document checklist is provided; documents are described only as 'minimum mandatory and project-specific.'"
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "EoDB-driven rationalisation of documentation requirements, with reduced requirements for Green-category and small-scale industries."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested expansion/update of the White Category framework to reduce compliance burden for lower-pollution-potential industries."
+        }
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFile": "WB_ED_ECL.docx",
+      "issuingAuthority": "West Bengal State Electricity Distribution Company Limited (WBSEDCL) — Regional Office (50-1,499 kVA) or Central Commercial Department at headquarters (1,500 kVA and above)",
+      "portal": {
+        "name": "WBSEDCL portal",
+        "url": "wbsedcl.in"
+      },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 90,
+        "basis": "Standards of Performance (SoP) regulation",
+        "text": "Where distribution mains already exist, 30 days from receipt of application; where conductor augmentation or line extension is needed, roughly 40-90 days depending on the work (LT bulk 45 days, HT 60 days, EHT 90 days). Practically, joint inspection is arranged within about 7 days, but the technical clearance/estimate stage is the most time-consuming: connections other than 33 kV were indicated as taking around 1-2 months, while 33 kV connections can take 4-6 months."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Identity proof (driving licence, PAN card etc.)",
+        "Ownership/occupancy proof (land deed, rent receipt or occupancy proof)",
+        "Company registration certificate (for companies)",
+        "Company PAN",
+        "GST registration",
+        "ITR documents",
+        "Authorised signatory documents",
+        "Land/premises documents",
+        "Signed agreement form",
+        "Self-certification/test certificate (self-declared)",
+        "Self-certification on equipment (very large loads — to be verified)",
+        "Energy audit by a certified auditor (very large loads — to be verified)"
+      ],
+      "documentsNote": "No single consolidated checklist by load category was given. The expert noted documents are uploaded online but the department still retains hard copies, and suggested keeping documentary requirements to the minimum needed.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "There is no provision for deemed approval for electricity connection; timelines are governed by the Standards of Performance regulation."
+      },
+      "validity": {
+        "text": "The technical clearance/estimate offer is valid for 90 days, within which full payment must be made. Overall connection validity depends on the type of connection and the applicable terms of the distribution licensee."
+      },
+      "fees": {
+        "text": "Service connection charge (load-based) plus a security deposit based on about three months' estimated billing (energy charge plus demand/fixed charge at a 0.85 power factor). Above 200 kVA, the applicant bears the full cost of the service line and associated works per the estimate. No consolidated fee schedule was given."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Application submitted with documents and fee (201 kVA and above)",
+          "automated": "partial",
+          "note": "Application becomes valid on submission; for up to 200 kVA a simpler fully-online flow applies (apply, auto-generated quotation, online payment, self-certification, meter installation)."
+        },
+        {
+          "n": 2,
+          "phase": "inspect",
+          "title": "Joint inspection",
+          "automated": false,
+          "note": "Arranged within about 7 days, by planning, site, electricity and accounts departments."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Site survey and estimate",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Technical clearance from Planning Department",
+          "automated": false,
+          "note": "Indicated as the most time-consuming stage."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Offer letter issued",
+          "automated": false,
+          "note": "Physical copy with estimate and terms/conditions; full cost payable within 90 days."
+        },
+        {
+          "n": 6,
+          "phase": "fee",
+          "title": "Security deposit and agreement",
+          "automated": "partial",
+          "note": "Paid online, in cash or by bank guarantee; signed agreement form and self-certification/Electrical Inspector approval as per guidelines."
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Work order and material procurement",
+          "automated": false,
+          "note": "By the utility, or by the applicant to approved specifications with GTP approval, factory test and inspection under departmental supervision."
+        },
+        {
+          "n": 8,
+          "phase": "inspect",
+          "title": "Construction, clearance, meter installation and testing",
+          "automated": false,
+          "note": "Commercial and switching clearance by the General Manager, meter installation, internal testing and pre-commissioning report."
+        },
+        {
+          "n": 9,
+          "phase": "approve",
+          "title": "Commissioning and billing entry",
+          "automated": true,
+          "note": "Entry in the billing system; monthly billing begins."
+        }
+      ],
+      "ed": {
+        "date": "09-10-2026",
+        "location": "District Industry Centre, Kolkata, 11A&B, Esplanade East, Kolkata -69",
+        "expert": "Sampa Saha",
+        "designation": "Chief (Commercial)"
+      },
+      "remarks": [
+        "For very large loads of 15,000 kVA and above, the State Single Window (EoDB) portal, integrated with other departments, is the designated application route.",
+        "For 132 kV and above, joint inspection is held with the Central Commercial Department, WBSETCL and the applicant; remaining steps follow the standard flow.",
+        "Main causes of non-conversion: applicants not following up with payment after the quotation, documentation gaps, lack of infrastructure at site, or the area being served by another licensee (e.g., DVC).",
+        "LT supply for housing/commercial complexes and construction power are handled on a full-cost-realisation basis subject to inspection."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "The technical clearance/estimate stage at the Planning Department is the most time-consuming; non-33 kV connections take around 1-2 months while 33 kV connections can take 4-6 months."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The agreement form, bank guarantee, self-certification and offer letter must still be submitted physically despite the online application."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The department retains hard copies of documents that have already been uploaded online."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "neutral",
+          "text": "Joint inspection for 201 kVA and above involves multiple departments (planning, site, electricity, accounts)."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Site survey and estimate are treated as separate steps before technical clearance, adding to process length."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Reliance on external agencies such as WBSETCL, and right-of-way and site-level issues, contribute to delay."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Limited user awareness and help-desk support mean applicants still approach offices physically."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The system auto-generates a quotation with automatic calculation of service connection charge and security deposit for connections up to 200 kVA."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Application status can be checked on the portal using the application number without login, as well as through a call centre/help desk."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Joint inspection is practically arranged within about 7 days of a valid application."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The State Single Window (EoDB) portal is integrated with other departments for very large loads (15,000 kVA and above)."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Make the end-to-end process online, including e-signed agreement, e-submission of bank guarantee, self-certification upload and offer letter, reducing physical submissions."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Limit documents to the minimum needed for the decision and avoid keeping hard copies of uploaded documents."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Set internal timelines for technical clearance and estimate preparation, and consider deemed approval for internal clearances."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Streamline survey, estimate and joint inspection into fewer steps."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Improve coordination with WBSETCL, the Planning Department and other agencies to resolve site/right-of-way dependencies."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Strengthen awareness, help-desk and call-centre support, and improve status tracking by SMS/phone/portal."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Communicate withheld/returned applications and the reasons clearly to applicants."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "The Standards of Performance regulation caps the regulatory timeline at up to 90 days (EHT), but the same discussion separately states that 33 kV connections can practically take 4-6 months (roughly 120-180 days) — a contradiction between the stated regulatory timeline and the practical timeline reported within the same document."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No consolidated fee schedule by load category was given."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No single consolidated document checklist by load category was given."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The validity period of the connection itself (beyond the 90-day offer-letter validity) is not specified; described only as depending on 'the type of connection and the applicable terms of the distribution licensee.'"
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "System-generated quotation, automated charge calculation, and no-login status check by application number for connections up to 200 kVA."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested deemed approval for internal technical-clearance stage, and streamlining survey/estimate/joint-inspection into fewer steps."
+        }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFile": "WB_ED_FAL.docx",
+      "issuingAuthority": "Labour Department, Government of West Bengal",
+      "portal": {
+        "name": "Factory Licence digitised/online portal (specific portal name not given in source)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 65,
+        "maxDays": 65,
+        "basis": "Approximate figure discussed by the expert; exact governing Act/Rule and average actual timeline not specified",
+        "text": "An approval timeline of around 65 days was discussed, characterised in the source report as lengthy from the applicant's perspective."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "The source report does not provide an item-wise list of documents. It specifically flags repeated submission of the factory building/layout plan during renewal, even without changes, as a redundant requirement.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "The source report does not explicitly state whether deemed approval exists for Factory Licence; no specific provision or operational mechanism was identified in the discussion."
+      },
+      "validity": {
+        "text": "The source report does not specify the validity period of the Factory Licence or the exact renewal interval."
+      },
+      "fees": {
+        "text": "The source report does not specify the statutory/application fee or any fee variation based on establishment size, employees or validity period."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit Factory Licence application",
+          "automated": true,
+          "note": "Through the digitised/online process."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Departmental scrutiny at multiple levels",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Deficiency correction",
+          "automated": false,
+          "note": "If deficiencies/discrepancies are identified, the applicant may need to provide additional documents/corrections; the discussion noted delays in communicating such deficiencies."
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Physical inspection",
+          "automated": false,
+          "note": "Conducted by the competent departmental authority before licence issuance."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Licence issued",
+          "automated": false,
+          "note": "Following scrutiny and inspection."
+        }
+      ],
+      "ed": {
+        "date": "23-07-2026",
+        "location": "District Industry Centre, Kolkata, 11A&B, Esplanade East, Kolkata - 69",
+        "expert": "Umashankar Banerjee",
+        "designation": "Jt. Director of Employment"
+      },
+      "remarks": [
+        "The source report notes that portal downtime has affected application submission and processing.",
+        "Officials stated that risk-based regulation is not readily applicable to Factory Licence, limiting opportunities for differentiated treatment of lower-risk establishments.",
+        "The discussion also highlighted the potential benefit of stronger coordination between skill-development initiatives and industry requirements."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Portal downtime has affected Factory Licence application submission and processing."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "QUERY",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The discussion noted delays in communicating application deficiencies/discrepancies to applicants."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The factory building/layout plan must be resubmitted at renewal even when there has been no change in layout or infrastructure."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "The approximately 65-day processing period is characterised as lengthy from the applicant's perspective."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Physical inspection by the competent departmental authority is required before licence issuance."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Officials indicated that risk-based classification may not be feasible for Factory Licence approvals under the existing regulatory framework."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Applications undergo multiple departmental interactions and multiple levels of scrutiny."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Manpower constraints were identified as contributing to lengthy processing."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Provide timely application-status updates and immediately communicate discrepancies or additional document requirements."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Improve the stability and reliability of the Factory Licence portal to minimise downtime."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Require fresh factory plans during renewal only when alterations, additions or modifications have been made; otherwise continue using previously approved plans."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Examine and adopt relevant best practices from other Indian states or international jurisdictions."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Improve coordination and integration through a stronger single-window mechanism."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "The source report does not explicitly state whether deemed approval exists for Factory Licence."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "No validity period, renewal interval, or fee structure was specified in the discussion."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No exact governing Act/Rule for the Factory Licence process or the approximately 65-day timeline is specified."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Validity period / renewal interval of the Factory Licence is not specified."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Statutory/application fee and any variation by establishment size, employees or validity period are not specified."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Deemed-approval status is unclear — the source report does not explicitly state whether deemed approval exists for Factory Licence."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No item-wise document checklist was provided for the Factory Licence application."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested that only revised/modified factory plans be required at renewal rather than full resubmission of previously approved plans."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "The process is largely digitised/online, reducing in-person dependency, notwithstanding reported portal downtime issues."
+        }
+      ]
+    },
+    {
+      "serviceCode": "GST",
+      "serviceName": "GST Registration",
+      "sourceFile": "WB_ED_GST.docx",
+      "issuingAuthority": "State GST Department, Government of West Bengal (designated officer — Assistant/Deputy Commissioner, assigned by PIN code/charge), administered through the central GST Portal (GSTN)",
+      "portal": {
+        "name": "GST Common Portal (GSTN)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 3,
+        "maxDays": 30,
+        "basis": "Rule 9 (standard timelines) and Rule 14A (fast-track) of the CGST framework, as referenced in the discussion",
+        "text": "Aadhaar-authenticated applications are processed within 7 days (deemed approved automatically if not actioned); non-Aadhaar-authenticated applications take up to 30 days, involving mandatory physical verification, with deemed approval if no departmental action is taken. A Rule 14A fast-track grants registration within 3 working days where anticipated output tax liability does not exceed Rs. 2.5 lakh."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "PAN and Aadhaar of the applicant/authorised signatory (Aadhaar authentication of the signatory required)",
+        "Proof of principal place of business (ownership document if self-owned, or rent agreement plus electricity bill if rented)",
+        "Digital Signature Certificate (for companies; proprietors/individuals can instead use OTP-based authentication)"
+      ],
+      "documentsNote": "Trade licence was noted as not mandated by the GST process itself, though it may be a separate requirement for the business. No registration fee and no security deposit are required.",
+      "deemedApproval": {
+        "status": "yes",
+        "days": 7,
+        "text": "Aadhaar-authenticated applications are deemed approved if not actioned within 7 days; non-Aadhaar-authenticated applications are deemed approved if not actioned within 30 days. If a show cause notice is issued, the officer must decide within 15 days of the applicant's reply, failing which approval is automatic. The expert estimated roughly 1-2% of applications (out of the state's annual volume of 50,000-80,000) result in deemed approval, mostly due to portal/technical glitches."
+      },
+      "validity": {
+        "text": "Once granted, GST Registration is perpetual with no renewal requirement; only amendment (for changes such as partner/signatory details, HSN code or address) or cancellation (for discontinuation of business) applies thereafter."
+      },
+      "fees": {
+        "text": "No registration fee or security deposit is charged. The only monetary requirement is advance tax payment, applicable exclusively to casual taxable persons."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit application online via GST Common Portal",
+          "automated": true,
+          "note": "No offline/manual channel exists."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Complete Part A and receive TRN",
+          "automated": true,
+          "note": "Legal name, PAN, mobile/email, state; Temporary Reference Number issued after OTP verification."
+        },
+        {
+          "n": 3,
+          "phase": "apply",
+          "title": "Complete Part B within 15 days of TRN generation",
+          "automated": true,
+          "note": "Trade name, principal place of business, authorised signatory, goods/services, turnover-based registration type."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Examination by designated officer",
+          "automated": "partial",
+          "note": "Aadhaar-authenticated applications generally approved without field visit; non-Aadhaar-authenticated applications referred for physical verification by a State Tax Officer."
+        },
+        {
+          "n": 5,
+          "phase": "scrutiny",
+          "title": "Show cause notice process (if discrepancies found)",
+          "automated": false,
+          "note": "Applicant given an opportunity to respond before a final decision."
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Registration granted (or deemed approved)",
+          "automated": "partial",
+          "note": "Thereafter perpetual with no renewal requirement."
+        }
+      ],
+      "ed": {
+        "date": "27-08-2026",
+        "location": "Not specified in the source recording (session conducted with the State GST Department, West Bengal)",
+        "expert": "Sumit Saha",
+        "designation": "Joint Commissioner"
+      },
+      "remarks": [
+        "GST Registration is a standalone, PAN-based, all-India process; it is not linked to or contingent upon approvals from any other department or licence (e.g., Factory Licence, Fire NOC).",
+        "The entire process is governed uniformly by the GST Council and implemented through GSTN, with no scope for state-level variation, addition or removal of steps.",
+        "The expert noted an inherent policy tension (in their role as EoDB nodal officer) between keeping the process simple and fast for genuine applicants and preventing misuse by fraudulent actors."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The GST Registration process is entirely online and paperless, end-to-end, through a single central GST Portal, with no requirement for the applicant to visit any office."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Deemed approval is built into the process: 7 days for Aadhaar-authenticated applications and 30 days for non-Aadhaar-authenticated applications."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "A Rule 14A fast-track grants registration within 3 working days for applicants with lower anticipated output tax liability."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Rising use of fake or non-genuine registrations, including cases using stolen identity/Aadhaar details particularly from remote areas, to claim fraudulent input tax credit and refunds, exploiting the simplicity of the process."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Insufficient manpower to detect and act against fake taxpayers was cited as a constraint."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Field verification capacity constraints exist in some jurisdictions — e.g., only two vehicles available for the combined Medinipur-Jharkhand charge — which can delay enforcement."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "The expert described an inherent tension between keeping the process simple/fast for genuine applicants and preventing misuse, since universally mandatory physical verification would improve fraud detection but extend the current 7-day timeline."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Strengthen inter-departmental coordination (GST, police, and other enforcement agencies) to curb fake registrations."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Augment manpower and logistics (e.g., vehicles) for field verification and enforcement, particularly in resource-constrained jurisdictions."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Continue to balance Ease-of-Doing-Business objectives against fraud-prevention safeguards, rather than reverting to universally mandatory physical verification."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Sustain and expand outreach and awareness programmes with trade bodies and dealers on procedural changes."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "COMPLY",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Biometric authentication (fingerprint and iris scan at GST Suvidha Kendras) was introduced as an additional safeguard for non-Aadhaar-authenticated applicants."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Risk flags used by GSTN include the same mobile number/email linked to a previously cancelled or fake dealer, a sudden unexplained turnover spike, and certain fraud-prone sectors."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No registration fee or security deposit is required; the only monetary requirement is advance tax, applicable solely to casual taxable persons."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "GST Registration is standalone and not linked to or contingent upon approvals from any other department or licence."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Fully online, paperless registration with built-in deemed approval and a 3-working-day fast-track (Rule 14A) for applicants with lower anticipated tax liability."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Biometric authentication (fingerprint/iris scan at GST Suvidha Kendras) as an additional fraud safeguard for non-Aadhaar-authenticated applicants."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No figure is given for what share of West Bengal's GST registration volume is Aadhaar- versus non-Aadhaar-authenticated."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "There is no fixed, publicly defined risk matrix for registration; risk flags rely on 'system-driven flags and officer judgment.'"
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested strengthening inter-departmental coordination (GST, police, other enforcement bodies) and augmenting field-verification manpower/logistics to curb fake registrations."
+        }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFile": "WB_ED_LEM.docx",
+      "issuingAuthority": "Directorate of Legal Metrology, Department of Consumer Affairs, Government of West Bengal (Assistant Controller, Deputy Controller and Controller at successive stages)",
+      "portal": {
+        "name": "e-Porima, integrated with the Shilpasathi single-window portal",
+        "url": "dolm.wb.gov.in"
+      },
+      "timeline": {
+        "minDays": 45,
+        "maxDays": 45,
+        "basis": "Mandated departmental timeline",
+        "text": "The mandated timeline is 45 days, and the expert said almost all applications are approved or rejected within it. One or two cases exceeded it because of a technical glitch lasting about 2 to 3 weeks a few months before the discussion, since fixed; the expert said there is no delay from the department's side now."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Trade licence",
+        "Address proof",
+        "Land documents (owner) or rent agreement (tenant)",
+        "Area-of-operation details of the business",
+        "Name and address proof of both partners (for a partnership)",
+        "Model approval, issued by the Government of India (manufacturer licence; mandatory, cross-checked with central records)",
+        "Experience certificate (repairer licence, in addition to common documents)"
+      ],
+      "documentsNote": "Documents are checked against the SOP (Standard Operating Procedure) published on the portal. Requirements vary by licence type (manufacturer/dealer/repairer) and for packer registration.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "There is no deemed approval at present. The department plans to include a deemed-approval provision in its next proposal to the government."
+      },
+      "validity": {
+        "text": "The licence is valid for 1 year initially; it can then be renewed for 1 to 5 years at the applicant's choice, but not for more than 5 years at a time. The department's proposed move to a 'registration' model includes auto-renewal."
+      },
+      "fees": {
+        "text": "Manufacturer licence: Rs. 500; repairer licence: Rs. 100; dealer licence: Rs. 100 — not revised for a long time; no additional charge for the Inspector's visit. The packer registration fee is not given. The department has proposed raising fees so that only serious applicants take a licence."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Register on the department portal",
+          "automated": true,
+          "note": "e-Porima (dolm.wb.gov.in), reached via the Shilpasathi single-window portal; applicant selects the required service."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Fill common application form",
+          "automated": true,
+          "note": "Documents already held on the portal are auto-populated; others uploaded in PDF per the published SOP."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Routing to Assistant Controller and Inspector",
+          "automated": "partial",
+          "note": "Application goes to the Assistant Controller of the district, who sends it to the Inspector, reportedly within about 48 hours."
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Inspector's physical verification",
+          "automated": false,
+          "note": "Inspector verifies the premises and documents and records a recommendation or non-recommendation with comments."
+        },
+        {
+          "n": 5,
+          "phase": "scrutiny",
+          "title": "Assistant Controller's decision",
+          "automated": "partial",
+          "note": "Minor issues can be sent back for correction ('Back for Correction'); a major issue leads to rejection and the applicant restarts the process."
+        },
+        {
+          "n": 6,
+          "phase": "fee",
+          "title": "Deputy Controller scrutiny and fee payment",
+          "automated": "partial",
+          "note": "Recommended application goes to the Deputy Controller for scrutiny; applicant then pays the fee online. (For Packer Registration, the application goes directly to DCLM then the Controller, without an Inspector visit, and the fee is paid at submission.)"
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Electronic licence issued",
+          "automated": true,
+          "note": "Generated and emailed to the applicant; no physical copy is issued or needed."
+        }
+      ],
+      "ed": {
+        "date": "09-10-2026",
+        "location": "District Industry Centre, Kolkata, 11A&B, Esplanade East, Kolkata -69",
+        "expert": "Joy Mukherjee",
+        "designation": "DCLM (ENF)"
+      },
+      "remarks": [
+        "Packer Registration follows a different flow: scrutiny by the Deputy Controller of Legal Metrology (DCLM) without an Inspector visit, then directly to the Controller for approval; the fee is paid at submission. It must be applied for within 90 days of starting business (the licences, by contrast, must be obtained before starting business).",
+        "In a recent proposal to the government, the department plans to change the term 'licence' to 'registration' for all its services and to move to auto-renewal for existing licences.",
+        "Standard weights used by the department are traceable to international standards; verification of weights/measures is done at district and sub-division offices and in situ for large instruments."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The process has been fully online with zero contact since 2017; applicants do not need to visit the department for submission of documents or any other step."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "COMPLY",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "A recently introduced 'Back for Correction' option lets the department return an application for minor errors instead of rejecting it outright, as was previously the case."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "About 4,000 applications are received yearly with a rejection rate of about 60%, mostly driven by applicant errors — incorrectly filled forms, use of non-SI units, document mismatches, and hazy or blank uploads."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Inspection preparation and logistics (carrying standard weights, arranging manpower) add to the department's workload, and inspectors face psychological pressure."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "neutral",
+          "text": "Joint inspections with the Labour and Environment departments happen only where mandated, and each department maintains its own checklist with no common one."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "A portal technical glitch caused delays of about 2 to 3 weeks a few months before the discussion; it has since been fixed."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "The rule book still mandates old verification methods and equipment, so modern instruments used in other countries cannot be used."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "A high/medium/low risk classification exists on the department's website, but the expert said it is not very clear and does not suit legal metrology well, since something classed as low risk generally can be high risk for measurement accuracy."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Inspection frequency is formally risk-based, but in practice the department inspects mainly when a complaint is received."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Offer the portal and forms in vernacular languages."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Publish video tutorials explaining the whole process."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Revise the fee structure so that only serious players take a licence, since very low fees let people take a licence casually while the department becomes liable for the licensee's business."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Introduce deemed approval and move from licence to registration with auto-renewal."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Modernise the inspection and verification rules and equipment so modern instruments can be used."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "GRIEVANCE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "A grievance redressal system is built into the portal; only one or two grievances have been received, both related to the technical glitch."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "INFORMAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Intermediaries are rarely used; the expert said the process can easily be completed by applicants themselves, and consultant fees are not regulated."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "The packer registration fee amount is not given in the discussion."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The high/medium/low risk-classification framework exists on the department website, but the expert said it is 'not very clear' and its criteria were not detailed beyond 'validity period of the licence.'"
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "The 'Back for Correction' feature reduces outright rejections for minor errors; the effect on the 60% rejection rate is expected to show in coming years."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Fully online, zero-contact process since 2017 with auto-populated forms, published SOP, and e-licence delivered by email."
+        },
+        {
+          "flag": "REFORM",
+          "text": "The department's planned move from 'licence' to 'registration' terminology with auto-renewal and deemed approval is pending a government proposal and has not been enacted."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No exact Act/Rule citation is given for the 45-day timeline or the specific model-approval requirement, beyond it being 'mandatory, issued by Government of India.'"
+        }
+      ]
+    },
+    {
+      "serviceCode": "TFG",
+      "serviceName": "GST Tax Filing",
+      "sourceFile": "WB_ED_TFG.docx",
+      "issuingAuthority": "State GST Department, Government of West Bengal, administered through the GST Portal (GSTN)",
+      "portal": {
+        "name": "GST Portal (GSTN) dashboard",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "Recurring statutory due dates rather than a one-time approval timeline",
+        "text": "GSTR-1 (outward supply details) is due by the 11th of the subsequent month, and GSTR-3B (summary return and tax payment) by the 20th, for regular taxpayers. QRMP taxpayers file GSTR-1 and GSTR-3B quarterly while paying tax monthly; Composition taxpayers pay tax quarterly via CMP-08 and file one annual return (GSTR-4)."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [],
+      "documentsNote": "No supporting documents are typically required to be uploaded for routine filing; the taxpayer discloses transaction-wise details electronically. A Digital Signature Certificate is needed for companies (cost noted as approximately Rs. 2,000-3,000 for 3 years); proprietors/individuals can instead authenticate via OTP. Underlying books of account must be maintained but are referenced only if scrutiny or audit is triggered.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not applicable in the conventional sense — return filing is a self-assessed declaration by the taxpayer rather than an application requiring departmental approval. A demand/assessment arises only where scrutiny identifies a discrepancy, and even then the taxpayer is given an opportunity to respond before any adverse order."
+      },
+      "validity": {
+        "text": "Not applicable in the licence/approval sense — tax filing is a recurring periodic compliance obligation (monthly, quarterly, or annual depending on taxpayer category) rather than a one-time approval with a validity period."
+      },
+      "fees": {
+        "text": "No fee is charged for filing returns. A late fee of Rs. 100 per day per Act (i.e. Rs. 100 CGST + Rs. 100 SGST = Rs. 200/day) applies for delayed filing, capped at a maximum of Rs. 5,000, and is computed automatically by the portal."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Log into GST Portal dashboard",
+          "automated": true,
+          "note": "Access the return-filing module using login credentials created at registration."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "File GSTR-1",
+          "automated": true,
+          "note": "Invoice-wise outward supply details; auto-populates as GSTR-2B (purchase-side input tax credit) for the recipient."
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "File GSTR-3B and pay tax",
+          "automated": true,
+          "note": "Summary return; tax paid by debiting the electronic cash ledger and/or utilising available input tax credit."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Automatic processing",
+          "automated": true,
+          "note": "Filing and payment are captured and processed automatically; no departmental approval needed for a routine, matched return."
+        },
+        {
+          "n": 5,
+          "phase": "scrutiny",
+          "title": "Scrutiny on mismatch (if triggered)",
+          "automated": "partial",
+          "note": "If a mismatch is detected (e.g., GSTR-1 vs GSTR-3B, supplier/recipient, or Income Tax records), the case may be selected for scrutiny, leading to a show cause notice and, if unresolved, an assessment/demand order."
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Appeal against demand order (if any)",
+          "automated": false,
+          "note": "Subject to a mandatory pre-deposit of 10% of the disputed tax amount; must be filed within 3 months of the adjudication order, extendable by 1 month for sufficient cause."
+        }
+      ],
+      "ed": {
+        "date": "27-08-2026",
+        "location": "Not specified in the source recording (session conducted with the State GST Department, West Bengal)",
+        "expert": "Sumit Saha",
+        "designation": "Joint Commissioner"
+      },
+      "remarks": [
+        "Tax filing is a distinct process from GST Registration and Refund, though outcomes in filing (e.g., mismatches) can trigger the scrutiny/adjudication route.",
+        "There is no requirement for physical verification as part of routine return filing; physical/field involvement arises only through subsequent enforcement or scrutiny action, if triggered.",
+        "Scrutiny/audit selections are made periodically; audit selection is stated to be made by the Commissioner annually after database review."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Tax filing is fully online, paperless and self-declared; no departmental approval is needed for a routine, matched return."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "GSTR-2B (purchase-side input tax credit) auto-populates from the counterparty's GSTR-1, reducing manual reconciliation effort."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Late fees (Rs. 100/day per Act, capped at Rs. 5,000) are computed automatically by the portal."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Differentiated filing frequency (monthly for Regular, quarterly for QRMP and Composition taxpayers) is tailored to taxpayer scale, easing compliance load for smaller businesses."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Mismatches between taxpayer declarations, or against Income Tax data, can trigger scrutiny, notices and eventual assessment/demand, linked by the expert to rising instances of fraudulent input tax credit claims."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Enforcement and scrutiny work is constrained by manpower availability and, in some jurisdictions, limited logistics (e.g., vehicles for field enforcement)."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Strengthen data-matching and coordination with other departments (e.g., Income Tax) to identify filing mismatches earlier."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Augment manpower and logistics support for scrutiny, audit and enforcement functions tied to return filing."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Continue simplifying and automating reconciliation while maintaining adequate safeguards against misuse of self-declared filing."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Sustain outreach and awareness programmes with trade bodies and dealers on filing requirements and procedural changes."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "neutral",
+          "text": "An appeal against a demand order requires a mandatory 10% pre-deposit of the disputed tax amount and must be filed within 3 months of the adjudication order, extendable by 1 month for sufficient cause."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "A Digital Signature Certificate is required for companies to authenticate filings (noted at approximately Rs. 2,000-3,000 for 3 years); proprietors/individuals can instead use OTP."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Filing itself is not risk-classified, but selection for scrutiny afterward is parameter-driven, based on defined mismatch triggers and departmental intelligence."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Audit selection is made periodically, stated to be by the Commissioner annually after a database review."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Auto-computation of late fees and auto-population of purchase-side input tax credit (GSTR-2B) from the counterparty's GSTR-1."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No specific figure is given for the proportion of filings selected for scrutiny or found to have mismatches."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No quantified threshold is given for what counts as a 'sudden and unexplained spike in turnover' risk flag."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested stronger inter-departmental data-sharing (e.g., with Income Tax) to detect filing mismatches earlier."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Beyond the Medinipur-Jharkhand vehicle example, no overall figures are given for the scrutiny/enforcement manpower or logistics shortfall."
+        }
+      ]
+    },
+    {
+      "serviceCode": "TRG",
+      "serviceName": "GST Tax Refund",
+      "sourceFile": "WB_ED_TRG.docx",
+      "issuingAuthority": "State GST Department, Government of West Bengal (Assistant Commissioner or Deputy Commissioner verifies applications), administered through the GST Portal (GSTN)",
+      "portal": {
+        "name": "GST Portal (GSTN) dashboard",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 60,
+        "maxDays": 60,
+        "basis": "Statutory 60-day refund-processing timeline",
+        "text": "Refund must be processed and paid within 60 days of the date of application. If not paid within 60 days, the department is liable to pay the taxpayer interest at 6% per annum for the delay. A refund claim must be filed within 2 years of the relevant transaction (e.g., the export)."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Export invoice and consignment/shipping bill (export-related ITC refund)",
+        "Sale and purchase documents evidencing the input/output tax-rate differential (inverted duty structure refund)"
+      ],
+      "documentsNote": "No document is required for refund of an excess cash-ledger balance, since this represents the taxpayer's own money. Export-related refund documents are cross-verified against data the exporter has uploaded on the DGFT portal.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No deemed-approval mechanism as such was described for refunds; instead, the process is governed by a mandatory 60-day payment timeline, with the department required to pay 6% annual interest to the taxpayer for any delay beyond that period."
+      },
+      "validity": {
+        "text": "Not applicable in the licence/approval sense — refund is a transaction-based claim (tied to a specific export, inverted-duty accumulation, or excess cash balance) rather than an approval with an ongoing validity period."
+      },
+      "fees": {
+        "text": "No fee is associated with filing or processing a refund claim, consistent with the broader GST process not levying any application fee."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "File refund application on GST Portal dashboard",
+          "automated": true,
+          "note": "Under the relevant category: export-related ITC refund, inverted duty structure refund, or excess cash-ledger balance."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Upload and auto-verify export documents",
+          "automated": true,
+          "note": "For export-related refunds: export invoice and shipping bill, cross-verified against DGFT portal data."
+        },
+        {
+          "n": 3,
+          "phase": "apply",
+          "title": "Submit sale/purchase documents",
+          "automated": false,
+          "note": "For inverted duty structure refunds, evidencing the higher input tax rate versus the lower output tax rate."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Officer verification",
+          "automated": "partial",
+          "note": "Assistant/Deputy Commissioner verifies the application and supporting documentation/data; no document is required for excess cash-ledger-balance refunds."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Sanction or show cause notice",
+          "automated": "partial",
+          "note": "If the officer is satisfied (and, for exports, DGFT data matches), the refund is sanctioned and credited; if a discrepancy is noticed, a show cause notice may be issued."
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Processing within statutory timeline",
+          "automated": true,
+          "note": "Refund processed and paid within 60 days of application; delay beyond 60 days triggers automatic interest payable to the taxpayer."
+        }
+      ],
+      "ed": {
+        "date": "27-08-2026",
+        "location": "Not specified in the source recording (session conducted with the State GST Department, West Bengal)",
+        "expert": "Sumit Saha",
+        "designation": "Joint Commissioner"
+      },
+      "remarks": [
+        "Export-related refunds account for the large majority (around 80%) of refund claims.",
+        "Refund claims are not subject to mandatory physical verification; verification, where it occurs, is generally limited to document/data checks (e.g., DGFT matching) rather than site inspection, and site-level checks arise only where there is a specific reason for suspicion or a complaint.",
+        "Tax refund is a standalone process, separate from GST Registration, Tax Filing and Adjudication, though a discrepancy identified during refund processing can route the case into scrutiny/adjudication."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Tax refund is applied for entirely online through the GST Portal dashboard, with no office visit required."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Export refund claims are automatically cross-verified against DGFT portal data, reducing manual document scrutiny."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "COMPLY",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No documentation at all is required for refund of an excess cash-ledger balance."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "A statutory 60-day processing timeline is backed by mandatory 6% per annum interest payable to the taxpayer for delay."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "The rise of fake and non-genuine taxpayers, including cases of stolen identity/Aadhaar details often from remote areas, exploiting the process to claim fraudulent ITC and refunds, was flagged as the single biggest pain point from the administrative side."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Insufficient manpower to detect and act against fake taxpayers claiming fraudulent refunds was cited as a constraint."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Field/enforcement capacity constraints in some jurisdictions (e.g., limited vehicles for the combined Medinipur-Jharkhand charge) can affect the department's ability to act within statutory timelines."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Strengthen inter-departmental coordination (GST, police and other enforcement bodies) to identify and act against fraudulent refund/ITC claims linked to fake taxpayers."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Augment manpower and logistics for verification and enforcement, particularly in resource-constrained jurisdictions, to help meet the 60-day refund timeline consistently."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Continue to balance the ease and speed of the refund process against fraud safeguards, rather than defaulting to universally mandatory physical verification."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Continue leveraging automated data-matching (e.g., with DGFT) as a model for reducing manual verification burden while maintaining fraud control."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "A parameter-driven risk approach applies system-wide (registration, filing and refund alike), with history of association with a fake dealer described as the principal risk driver."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "A refund claim must be filed within 2 years of the relevant transaction, such as the export."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "The expert estimated that mandatory physical verification could eliminate an estimated 80-90% of refund-related fraud but would trade off against the speed and simplicity that make the current process taxpayer-friendly."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Statutory 60-day processing timeline backed by mandatory 6% annual interest for delay, and automated DGFT cross-verification for export refunds."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "No documentation required for refund of an excess cash-ledger balance."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No figure is given for the average actual refund processing time against the 60-day statutory cap."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "There is no fixed, publicly defined risk matrix for refund-claim scrutiny beyond 'system-driven flags and officer judgment.'"
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested strengthened inter-departmental coordination and augmented manpower/logistics to curb fraudulent claims while preserving refund speed."
+        }
+      ]
+    },
+    {
+      "serviceCode": "WAC",
+      "serviceName": "Water Connection",
+      "sourceFile": "WB_ED_WAC.docx",
+      "issuingAuthority": "Urban Local Body (ULB) Water Department, under the Urban Development & Municipal Affairs (UD&MA) Department, Government of West Bengal",
+      "portal": {
+        "name": "SWS \"Abhipas\" / e-Griho Naksha single-window portal",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 15,
+        "maxDays": 15,
+        "basis": "Timeline stated by the experts",
+        "text": "The expert indicated a timeline of 15 working days for the water connection. Delays were reported mainly for building plan approval, which delays the Occupancy Certificate and therefore the water connection that depends on it."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Occupancy Certificate (OC)",
+        "Plumber's certificate / water supply layout drawing"
+      ],
+      "documentsNote": "Property-tax and land documents are additionally checked by the Dealing Assistant. A standalone water connection application cannot be filed without an OC — the OC must be obtained first if not already held.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No deemed approval exists for water connection or for building plan approval; the expert said there is no option for it under the current rules."
+      },
+      "validity": {
+        "text": "There is no single statewide validity period specified for all water connections. The applicable validity depends on the type of connection and the authority providing it, such as a municipality, development authority, or the Irrigation & Waterways/Water Resources Investigation Department."
+      },
+      "fees": {
+        "text": "The fee is calculated automatically by the portal; the discussion does not give a clear fee structure for water connection."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Log in to the single-window portal",
+          "automated": true,
+          "note": "SWS \"Abhipas\"/e-Griho Naksha portal, where water connection and other services are available."
+        },
+        {
+          "n": 2,
+          "phase": "pre",
+          "title": "Occupancy Certificate check",
+          "automated": true,
+          "note": "Applicant is asked whether an OC is held; if not, a standalone water connection application cannot be filed and the OC must be obtained first."
+        },
+        {
+          "n": 3,
+          "phase": "apply",
+          "title": "Upload OC and plumber's certificate",
+          "automated": true,
+          "note": "Water supply layout drawing uploaded, confirming the line drawing is accurate."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Routing to ULB Dealing Assistant and Water Department",
+          "automated": "partial",
+          "note": "Dealing Assistant checks property tax/legal documents; Water Department scrutinises the water supply plan."
+        },
+        {
+          "n": 5,
+          "phase": "fee",
+          "title": "Automatic fee calculation and online payment",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Water Department approval",
+          "automated": "partial",
+          "note": "If water is unavailable in the area, applicant receives a Non-Availability of Water certificate instead of rejection; for any other rejection, reasons must be stated and the applicant restarts the process."
+        }
+      ],
+      "ed": {
+        "date": "08-10-2026",
+        "location": "District Industry Centre, Kolkata, 11A&B, Esplanade East, Kolkata -69",
+        "expert": "Manas Kumar Palit; Monojit Chatterjee",
+        "designation": "Additional Chief Engineer, MED; Project Coordinator, OBPAS-VDMA, Tetra Int"
+      },
+      "remarks": [
+        "Water connection and sewer/drainage connection have been integrated with the OC application, so an applicant can request them together with the OC, or apply for them later in standalone mode; the sewer/drainage workflow is similar to the water connection workflow.",
+        "Applicants need empanelled consultants for the technical part of building plan applications, with no departmental mandate on the consultant's fee.",
+        "The department runs awareness sessions and a master-trainer model for ULB staff."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The process is fully online through a single-window portal; applicants do not need to visit the department, though a physical help desk is available for those who do."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "neutral",
+          "text": "A standalone water connection cannot be applied for without an Occupancy Certificate, creating a structural dependency on the building plan approval/OC process."
+        },
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Delays in building plan approval and the OC cascade into delays for the water connection that depends on them."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "The main burden is delay due to manpower shortage in ULBs, where much of the staff is contractual; this was the main complaint received from applicants."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "NOC-integrated departments follow their own timelines instead of the 15-day mandate, indirectly affecting water connection via building plan approval."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Holding municipal building committee meetings is difficult, which affects building plan approval and indirectly reaches water connection."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Payment gateway downtime halts progress at the payment step."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The system generates a Non-Availability of Water certificate, rather than a bare rejection, where water is not available in the area."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "GRIEVANCE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "A grievance redressal system is built into the portal; the department also offers a physical help desk, dedicated email and phone support."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The fee is calculated automatically by the system."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Add a second payment gateway so applications are not held up when one gateway is down."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Issue a central government mandate that all integrated departments follow the 15-day timeline, with state-level rules amended to match."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Increase manpower in ULBs."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Upgrade portal infrastructure and give orientation training to new consultants and ULB staff on building-plan-related services."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The expert said payments applicants make are purely for regulatory compliance and no extra charges are levied."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "neutral",
+          "text": "The Water Department has its own inspection/approval checklist, and no common checklist exists across departments involved in building-related services."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No clear fee structure is given for water connection; the discussion states only that the fee is calculated automatically by the portal."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Validity period of water connections is not standardised statewide — it depends on the type of connection and the providing authority."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "A Non-Availability of Water certificate is issued, instead of a bare rejection, when water is unavailable in the area, giving applicants a clear status rather than an ambiguous refusal."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested a central government mandate making the 15-day timeline binding on NOC-integrated departments, alongside matching state-rule amendments."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The exact share of ULB staff that is contractual — cited as driving the manpower shortage — is not quantified."
+        }
+      ]
+    }
+  ]
+}

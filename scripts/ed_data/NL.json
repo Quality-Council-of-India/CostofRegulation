@@ -1,0 +1,441 @@
+{
+  "code": "NL",
+  "name": "Nagaland",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFile": "NL_ED_CTE.docx",
+      "issuingAuthority": "Nagaland Pollution Control Board (NPCB); consent certificate signed/issued by the Member Secretary, NPCB",
+      "portal": { "name": "NPCB website (application form download only; processing otherwise offline); CPCB-developed common portal planned pending adoption of the relevant Air/Water framework and Nagaland onboarding", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 14, "basis": "Officer-reported discussion statement, not a verified statutory service standard for Nagaland; central/CPCB guideline timelines of approximately 30, 45 or 60 days by category were also cited.", "text": "The officer reported applications are commonly processed in about 1-2 weeks because application volumes in Nagaland are currently low; central/CPCB guidance of 30/45/60 days by category was discussed but a Nagaland-specific statutory timeline was not confirmed." },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Completed prescribed/common application form",
+        "Capital-investment details certified by a Chartered Accountant",
+        "Detailed Project Report (DPR)",
+        "Village Council NOC",
+        "Trade licence",
+        "Lease agreement, if the land is leased",
+        "Any additional technical/project information required for the particular industry and its proposed pollution-control arrangements"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed-approval mechanism was identified; the application should not be treated as approved merely because a timeline has elapsed. Introducing deemed approval would need legal and environmental-risk review and safeguards." },
+      "validity": { "text": "CTE is generally issued for an initial period of one year. Extension has reportedly been allowed in practice if establishment takes longer, and a fresh application may be needed after a prolonged period, but the exact extension rule and fee schedule were not clearly established." },
+      "fees": { "text": "Application form fee: minimum ₹100. Consent fee is calculated manually based on industry category and capital investment; for investment below ₹50 lakh, minimum fees cited were ₹10,000 (Red), ₹7,500 (Orange) and ₹5,000 (Green), with higher investment resulting in higher calculated fees. No separate inspection fee; inspection cost is included in the consent fee." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Obtain prescribed common application form", "automated": "partial", "note": "Available on the NPCB website or at the department office." },
+        { "n": 2, "phase": "apply", "title": "Complete application with industry/investment details", "automated": false, "note": "Capital investment must be certified by a Chartered Accountant." },
+        { "n": 3, "phase": "apply", "title": "Submit application with supporting documents", "automated": false, "note": "Includes DPR, Village Council NOC, trade licence, lease agreement if leased." },
+        { "n": 4, "phase": "scrutiny", "title": "Technical staff screen application", "automated": false, "note": "Checks completeness, industry category and investment details." },
+        { "n": 5, "phase": "scrutiny", "title": "Forward to senior officer for examination/approval", "automated": false, "note": "" },
+        { "n": 6, "phase": "fee", "title": "Calculate and collect consent fee", "automated": false, "note": "Fee calculated manually; payment via current offline process." },
+        { "n": 7, "phase": "approve", "title": "Prepare and issue consent certificate", "automated": false, "note": "Prepared offline, submitted to Member Secretary for signature/issuance." }
+      ],
+      "ed": { "date": "06/10/2026", "location": "Nagaland Industrial Development Corporation Ltd, Kohima Road, Bank Colony, Dimapur, Nagaland 797117", "expert": "Er Kevisede Puchw", "designation": "Asst Environmental Engineer" },
+      "remarks": [
+        "CTE is required for applicable industries in Red, Orange and Green categories; White-category industries are described as requiring one-time registration rather than consent.",
+        "Field verification capacity is constrained by limited manpower, although CTE itself was described as generally not requiring a field inspection before issue.",
+        "The officer referred to past litigation concerning the absence of Village Council NOC, underscoring its importance.",
+        "The department described public-awareness efforts, including newspaper notices and awareness programmes."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The CTE service is currently offline/manual in Nagaland; application processing, fee calculation/payment and certificate issuance are not yet online." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "neutral", "text": "The CPCB-developed common portal is expected to be used once the relevant Air and Water framework is adopted and Nagaland is onboarded." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "issue", "text": "Consent fee is calculated manually based on industry category and capital investment, rather than through an automated calculator." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "A Nagaland-specific statutory timeline was not confirmed; the officer's reported 1-2 week processing time reflects currently low application volumes, not a verified service standard." },
+        { "source": "ed", "category": "procedural", "tags": ["RENEWAL", "CLARITY"], "sentiment": "issue", "text": "CTE extension is allowed in practice when establishment takes longer than the one-year validity, but the exact extension period and fee schedule were not clearly established." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No deemed-approval mechanism exists for CTE; any future proposal would need legal and environmental-risk review and safeguards." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "issue", "text": "The officer cited past litigation concerning the absence of Village Council NOC, indicating this document is treated as important and a source of risk if omitted." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Field verification capacity is constrained by limited manpower in the department." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY", "CAPACITY"], "sentiment": "issue", "text": "Applicants, especially small units, often need staff assistance to understand technical fields; the officer reported spending roughly 30-40 minutes explaining requirements to an applicant." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The department provides the application form and stepwise SOP/checklist information on its website and assists applicants with technical portions of the form." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The department conducts public-awareness efforts, including newspaper notices and awareness programmes, to inform small industries about CTE requirements." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Publish a single, current checklist for CTE by industry category, including mandatory documents and pollution-control proposals." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Make fee calculation transparent through a digital calculator and provide a written fee schedule." },
+        { "source": "ed", "category": "suggestions", "tags": ["RENEWAL", "CLARITY"], "sentiment": "suggestion", "text": "Clarify CTE validity, extension eligibility, extension fee and when a fresh application is required." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY", "INSPECT"], "sentiment": "suggestion", "text": "Increase technical staffing or introduce risk-based inspection planning, while maintaining required environmental safeguards." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "A Nagaland-specific statutory CTE timeline was not confirmed; only central/CPCB guideline figures (~30/45/60 days) and an informal officer estimate (1-2 weeks) are on record." },
+        { "flag": "VAGUE", "text": "CTE extension period and applicable extension charges are not clearly established; the discussion notes extension is allowed in practice but gives no rule or fee schedule." },
+        { "flag": "VAGUE", "text": "Pollution-control device requirements vary by industry (e.g., cyclones, water spraying for stone crushers) but are not enumerated as a complete, category-wise list." },
+        { "flag": "GOOD_PRACTICE", "text": "Department provides the application form and SOP/checklist information on its website and assists applicants with technical form fields." },
+        { "flag": "REFORM", "text": "Onboarding to the CPCB common portal once the relevant Air/Water framework is adopted, which would move CTE from offline/manual to a digital process." },
+        { "flag": "MISSING", "text": "No deemed-approval mechanism and no grievance/appeal mechanism for CTE delays was described in the discussion." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFile": "NL_ED_CTO.docx",
+      "issuingAuthority": "Nagaland Pollution Control Board (NPCB); consent certificate signed/issued by the Member Secretary, NPCB",
+      "portal": { "name": "NPCB website (application form download only; processing otherwise offline); CPCB-developed common portal planned pending adoption of the relevant Air/Water framework and Nagaland onboarding", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 14, "basis": "Officer-reported discussion statement, not a verified statutory service standard for Nagaland; central/CPCB guideline timelines of approximately 30, 45 or 60 days by category were also cited.", "text": "The officer reported CTO applications are commonly processed in around 1-2 weeks, depending on document completeness, field-inspection availability, payment timing and the Member Secretary's availability." },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Previously issued Consent to Establish (CTE)",
+        "Completed prescribed/common application form",
+        "Updated production-capacity and other industry details, including changes from the CTE proposal, if any",
+        "Trade licence and other documents where updated or otherwise required",
+        "Supporting documents for any change in ownership or location",
+        "Updated/revised DPR and supporting technical documents where plant/machinery is changed, upgraded or the unit is expanded",
+        "Capital-investment details certified by a Chartered Accountant",
+        "Category- and industry-specific information on pollution-control equipment and compliance"
+      ],
+      "documentsNote": "The discussion does not provide a complete universal CTO checklist.",
+      "deemedApproval": { "status": "no", "days": null, "text": "No current deemed-approval mechanism was described. Expiry of the processing timeline should not be assumed to constitute consent to operate; any future deemed-approval proposal would need legal review and safeguards." },
+      "validity": { "text": "Validity depends on category: Red about 5 years, Orange about 7 years, Green about 10 years; White-category units were described as one-time registration. These periods reportedly follow CPCB guidance; the current applicable notification should be confirmed." },
+      "fees": { "text": "Fee is calculated manually based on category and capital investment. For investment below ₹50 lakh, minimum amounts cited were ₹10,000 (Red), ₹7,500 (Orange) and ₹5,000 (Green); the fee may increase with investment." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply for CTO after establishment is complete", "automated": "partial", "note": "Using the prescribed/common form available on the NPCB website or at the office." },
+        { "n": 2, "phase": "apply", "title": "Submit previously issued CTE and updated details", "automated": false, "note": "Applicant indicates any change in production capacity or other relevant details." },
+        { "n": 3, "phase": "scrutiny", "title": "Staff screen application and verify documents", "automated": false, "note": "Changes in capacity or technical arrangements must be reflected." },
+        { "n": 4, "phase": "scrutiny", "title": "Forward through technical division to senior officer", "automated": false, "note": "" },
+        { "n": 5, "phase": "fee", "title": "Determine and collect applicable fee", "automated": false, "note": "Fee calculated manually using category and capital investment." },
+        { "n": 6, "phase": "inspect", "title": "Arrange site inspection where required", "automated": "partial", "note": "Large industries require physical verification; some small industries may be assessed via document verification." },
+        { "n": 7, "phase": "approve", "title": "Prepare and issue CTO certificate", "automated": false, "note": "Prepared offline, submitted to Member Secretary for signature/issuance." }
+      ],
+      "ed": { "date": "06-10-2026", "location": "Nagaland Industrial Development Corporation Ltd, Kohima Road, Bank Colony, Dimapur, Nagaland 797117", "expert": "Er Kevisede Puchw", "designation": "Asst Environmental Engineer" },
+      "remarks": [
+        "Large industries require physical site verification; some small industries may be processed via document verification depending on departmental assessment.",
+        "Applicants from districts outside Dimapur may need to travel to the department office; inspection teams also travel across the state, which can contribute to delay.",
+        "Staffing constraints relative to increasing numbers of industries can make it difficult to inspect every unit promptly."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The CTO service is currently offline/manual; online submission, payment and digital certificate issuance are not yet operational in Nagaland." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "neutral", "text": "The department expects to move to the CPCB-developed common portal after the relevant framework is adopted and Nagaland is onboarded." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Reported ~1-2 week processing depends on document completeness, field-inspection availability, payment timing and the Member Secretary's availability; a Nagaland-specific statutory timeline was not confirmed." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Large industries are subject to compulsory physical site verification, while some small units may be processed via document verification, subject to departmental assessment." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Limited staff capacity relative to increasing numbers of industries makes it difficult to inspect every unit promptly." },
+        { "source": "ed", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Applicants from districts outside Dimapur may need to travel to the department office, and inspection teams also travel across the state, adding to delay." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "Fee is calculated manually using industry category and capital investment, with minimum amounts cited by category." },
+        { "source": "ed", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "The discussion does not provide a complete universal CTO document checklist." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No deemed-approval mechanism exists for CTO; expiry of the processing timeline should not be assumed to constitute consent to operate." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "Renewal/updated documentation requirements include the prior CTE, trade licence and, where applicable, a revised DPR." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Digitise the end-to-end CTO workflow, including fee calculation, payment, file tracking and certificate issuance." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Publish category-wise inspection criteria and clarify when physical inspection is mandatory." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Strengthen field-inspection staffing and use risk-based scheduling without diluting required checks." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Offer application support for small units and applicants outside Dimapur to reduce repeated travel." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES", "CLARITY"], "sentiment": "suggestion", "text": "Publish the current fee formula and category-wise validity periods in one place." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "A Nagaland-specific statutory CTO timeline was not confirmed; only central/CPCB guideline figures (~30/45/60 days) and an informal officer estimate (1-2 weeks) are on record." },
+        { "flag": "VAGUE", "text": "The discussion does not provide a complete universal CTO document checklist, so applicants cannot verify they have all required documents from the transcript alone." },
+        { "flag": "VAGUE", "text": "The document's Best Practices section largely restates the same reform recommendations rather than describing a distinct current best practice specific to CTO." },
+        { "flag": "REFORM", "text": "Digitising the end-to-end CTO workflow (submission, fee calculation, payment, file tracking and certificate issuance), currently proposed but not implemented." },
+        { "flag": "MISSING", "text": "The current applicable notification for category-wise validity periods (Red/Orange/Green years) should be confirmed; the discussion only reports CPCB-guidance figures." }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFile": "NL_ED_FAL.docx",
+      "issuingAuthority": "Labour Department, Government of Nagaland; licence issued following verification by the Inspector and approval of the District Officer/Assistant Labour Commissioner (ALC)",
+      "portal": { "name": "Labour Department's single digital portal (shared for Factory and Shop & Establishment services)", "url": null },
+      "timeline": { "minDays": 1, "maxDays": 2, "basis": "Officer-reported processing time when papers are correct; reflects a newly online process and low application volume. No statutory or public-service guarantee timeline has been notified.", "text": "Where the papers are correct, processing takes hardly one to two days, reflecting the newly online process and currently low application volume; no statutory timeline has been notified." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Plant layout of the factory",
+        "GPS location of the factory",
+        "Identity proof of the occupier or manager"
+      ],
+      "documentsNote": "The expert specifically stated that PAN and Aadhaar are not insisted upon for Factory License. A checklist is available in the portal and applicants upload documents there.",
+      "deemedApproval": { "status": "no", "days": null, "text": "There is no deemed approval for Factory License as of the interview." },
+      "validity": { "text": "The expert did not specify the validity period of the Factory License or the renewal interval." },
+      "fees": { "text": "Fee varies according to the number of employees and the horsepower utilized. A fee chart exists in the portal but the expert did not provide the actual amounts. Payment is made only after final approval, after which the applicant downloads the certificate. The expert stated the payment gateway may charge around 5%, but expressed uncertainty; this is not a confirmed departmental fee." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply online through the Labour Department's single digital portal", "automated": true, "note": "" },
+        { "n": 2, "phase": "scrutiny", "title": "Inspector verifies the application", "automated": "partial", "note": "Inspection may be required for a big establishment; otherwise a physical visit is generally not required." },
+        { "n": 3, "phase": "approve", "title": "Inspector obtains approval from District Officer/Assistant Labour Commissioner (ALC)", "automated": "partial", "note": "" },
+        { "n": 4, "phase": "approve", "title": "Factory registered/licensed through the portal", "automated": true, "note": "Once ALC gives approval." },
+        { "n": 5, "phase": "fee", "title": "Applicant pays fee and downloads licence certificate", "automated": true, "note": "" }
+      ],
+      "ed": { "date": "21-08-2026", "location": "Directorate of Industries & Commerce, IG Stadium Road, Near Hotel Vivor, Nagaland, Kohima-797001", "expert": "Vikeheto Naki", "designation": "Assistant Labour Commissioner" },
+      "remarks": [
+        "Online registration was trialled in four districts from November of the previous year and became fully online from June 2026; the system is newly launched and not yet fully stabilised.",
+        "There is no inter-departmental coordination and no State Single Window integration for Factory License.",
+        "The expert stated that Nagaland has no hazardous factories and no big/mega establishments, which limits the practical effect of differentiated risk classification.",
+        "Because of Nagaland's typical land system, applicants may not prioritise plant-layout/Factory Building Plan approval and may construct first and approach the department for registration afterward; the expert said this does not make much difference given the absence of big units.",
+        "Boiler Manufacturer Permission does not exist in Nagaland because there is no boiler manufacturing industry/unit; the expert noted around five to six boiler users exist in the state."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The Factory License service is fully online and paperless, with no offline/manual application process." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The online system is newly launched and not yet fully stabilized." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Lack of applicant awareness of the new online process was identified as the main current issue, with no technical problems reported so far." },
+        { "source": "ed", "category": "policy", "tags": ["INTERDEP"], "sentiment": "issue", "text": "There is no inter-departmental coordination and the service is not integrated with a State Single Window System." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "No statutory or public-service guarantee timeline has been notified; current ~1-2 day processing reflects low volumes in a newly online system with no time-tracking mechanism." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "issue", "text": "A fee chart exists based on employees and horsepower, but the expert did not provide the actual fee amounts." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "issue", "text": "The expert stated the payment gateway may charge around 5%, but expressed uncertainty; this is not confirmed as a departmental fee." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Inspection is discretionary and generally required only for big establishments; otherwise a physical visit is not required." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No risk categories have been notified; the expert stated there are no hazardous factories or big/mega establishments in the state, limiting the practical effect of risk classification." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "PAN and Aadhaar are not insisted upon for Factory License, reducing the documentary burden on applicants." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "No specific duplicate or redundant Factory License requirement, or overlap with other departments' checklists, was identified by the expert." },
+        { "source": "ed", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "There is no digital grievance system; grievances are handled manually with an informal one-to-two-day response and no official timeline." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "A compliance-inspection system under various labour laws was under trial and intended to move fully online within a couple of months; at the time of the interview the inspection process remained manual and at District Officer discretion." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Introduce application time-tracking once the system is stabilized and improve applicant awareness/guidance on the online process." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Develop digital grievance functionality as the system matures; the current grievance mechanism remains manual." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Consider a transparent, published inspection framework in future; currently inspection frequency is at officer discretion and risk categories have not been notified." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The validity period and renewal interval for the Factory License were not specified by the expert." },
+        { "flag": "MISSING", "text": "Exact Factory License fee amounts are not available; a fee chart exists (based on employees/horsepower) but the expert did not disclose figures." },
+        { "flag": "VAGUE", "text": "The ~5% payment gateway charge mentioned by the expert was stated with uncertainty and is not confirmed as an official or departmental fee." },
+        { "flag": "MISSING", "text": "No statutory or public-service guarantee timeline has been notified for Factory License processing." },
+        { "flag": "GOOD_PRACTICE", "text": "PAN and Aadhaar are not insisted upon for Factory License applications, reducing documentary burden." },
+        { "flag": "REFORM", "text": "A compliance-inspection system under various labour laws was under trial and intended to move fully online within a couple of months, replacing the current manual, discretion-based inspection process." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFile": "NL_ED_FNO.docx",
+      "issuingAuthority": "Fire & Emergency Services Department, Nagaland; Fire NOC issued by Fire Headquarters/Directorate (FHQ) following verification by the Officer-in-Charge (OC) and Inspection Officer",
+      "portal": { "name": "Dedicated Fire Safety NOC portal (fully designed and in final testing at the time of discussion; not yet live). No State Single Window System is currently implemented for the service.", "url": null },
+      "timeline": { "minDays": null, "maxDays": 30, "basis": "Departmental/notified timeline stated by the experts: a maximum of one month once the Inspection Officer forwards the application and inspection report to the Directorate after fire-safety criteria are fulfilled.", "text": "The Directorate issues the Fire NOC within a maximum timeline of one month after the inspection report is forwarded by the Inspection Officer. The experts did not state an average end-to-end time from initial application to final NOC; physical inspection/verification was identified as the most time-consuming stage." },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Prescribed application format for fresh/renewal applications (incorporated in the Nagaland Fire and Emergency Services Act, 2021)",
+        "Blueprints/drawings, for pre-construction cases (for obtaining a Provisional Fire NOC)"
+      ],
+      "documentsNote": "Hard-copy documentation is required for meeting the departmental checklist since the process remains offline. Applicants must also comply with fire-safety installation requirements (e.g., fire extinguishers, hose reels, hydrants) based on building height, floor area and occupancy, as applicable.",
+      "deemedApproval": { "status": "no", "days": null, "text": "There is no provision for deemed approval for Fire NOC in the department." },
+      "validity": { "text": "The Fire Safety NOC is generally issued for three years. Inspection is conducted during renewal after expiry; inspection frequency is at the discretion of the department." },
+      "fees": { "text": "No application, approval or other official fee is currently levied for Fire Safety NOC; the experts stated charges were not levied from the beginning and no additional/hidden costs were identified. A committee has been constituted to propose license fees based on building floor area; a proposal was submitted to the Government and approval was still awaited at the time of the discussion." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant/owner/occupier submits Fire NOC application", "automated": false, "note": "Submitted to the concerned Officer-in-Charge (OC) of the jurisdiction." },
+        { "n": 2, "phase": "pre", "title": "OC redirects the matter to the Inspection Officer(s)", "automated": false, "note": "" },
+        { "n": 3, "phase": "inspect", "title": "Inspection Officer physically visits the building/site", "automated": false, "note": "Verifies fire-safety criteria and installations." },
+        { "n": 4, "phase": "inspect", "title": "NOC withheld until compliance if requirements are unmet", "automated": false, "note": "Applicant must complete applicable fire-safety installations/criteria before proceeding." },
+        { "n": 5, "phase": "inspect", "title": "Inspection Officer completes checklist and forwards report", "automated": false, "note": "Report forwarded to Fire Headquarters/Directorate (FHQ) once criteria are fulfilled." },
+        { "n": 6, "phase": "approve", "title": "Directorate processes application and issues Fire NOC", "automated": false, "note": "Within a maximum timeline of one month after receipt of the inspection report." },
+        { "n": 7, "phase": "approve", "title": "Applicant collects the final Fire NOC physically", "automated": false, "note": "" }
+      ],
+      "ed": { "date": "21-08-2026", "location": "Directorate of Industries & Commerce, IG Stadium Road, Near Hotel Vivor, Nagaland, Kohima-797001", "expert": "Thejavizo Benedict; Petekhrietuo Zumu", "designation": "Sub-Inspector; ASI" },
+      "remarks": [
+        "For pre-construction cases, the Fire Department issues a provisional Fire NOC based on blueprints; the final Fire NOC is issued after completion and verification of safety installations.",
+        "The Act requires the owner to be informed three hours before an inspection.",
+        "During FY 2025-26 the department officially issued 126 Fire NOCs; the department did not have data on the total number of applications received, approved/disposed or pending.",
+        "The Nagaland Fire and Emergency Services Act, 2021 provides for third-party licensed agencies, but the experts stated that applicants mostly apply directly.",
+        "Grievances or shortcomings are handled by the Fire Prevention wing officer or the concerned OC.",
+        "The department's checklist was introduced in 2022 after comparing practices in states such as Tamil Nadu and Kerala, formulated in adherence to the National Building Code of India and adapted considering Nagaland's hilly terrain and topography."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The Fire NOC service is currently offline; applications are submitted physically to the concerned Officer-in-Charge and the final NOC is collected physically." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "neutral", "text": "A dedicated Fire Safety NOC portal has been fully designed and is in final testing, with the department planning to move fully online, probably within 2026 or early 2027." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "issue", "text": "Applicants generally make two office visits (to submit the form and to receive the final NOC), with additional visits sometimes needed to enquire about status." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE", "INSPECT"], "sentiment": "issue", "text": "Physical inspection and verification, including completion of the checklist/field report, was identified as the most time-consuming stage, depending on occupancy and compliance." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Inspection is based on occupancy and hazard classification (low, moderate, high) following the National Building Code of India, with occupancy-specific checklists for categories such as educational, residential and industrial buildings." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "No application, approval or other official fee is currently levied for Fire Safety NOC." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "A committee has proposed license fees for Fire NOC based on building floor area; the proposal was submitted to the Government and approval was awaited at the time of discussion." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "There is no deemed-approval provision for Fire NOC." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Physical inspection is the most challenging activity for the department because officers must physically travel to and inspect the site." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY", "RENEWAL"], "sentiment": "issue", "text": "Manual data maintenance in the offline system means records pile up after NOC issuance, making it difficult at times to track and notify owners about the expiry of the three-year NOC." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Implement geotagged photographs as part of verification, retaining necessary physical verification for safety." },
+        { "source": "ed", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Implement planned SMS/email notifications for application status, reasons for rejection/approval and renewal/expiry alerts." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Consider API integration or a hyperlink with the State Single Window System once the departmental portal is operational." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The department formulated its own Fire Safety checklist in 2022 after reviewing practices in states such as Tamil Nadu and Kerala, adapted for Nagaland's hilly terrain and in adherence to the National Building Code of India." },
+        { "source": "ed", "category": "remarks", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Self-declaration and video verification were discussed as possible alternatives, but the experts were not certain about their use as replacements for physical inspection." },
+        { "source": "ed", "category": "remarks", "tags": ["CLARITY"], "sentiment": "neutral", "text": "The application format is incorporated in the Nagaland Fire and Emergency Services Act, 2021, while the inspection checklist is Government-approved but not reflected in the Act." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No average end-to-end time from initial application to final Fire NOC was given; only the post-inspection, one-month FHQ processing stage is specified." },
+        { "flag": "MISSING", "text": "The department had no data on the total number of applications received, approved/disposed or pending; only that 126 Fire NOCs were issued in FY 2025-26." },
+        { "flag": "VAGUE", "text": "A fee proposal based on building floor area has been submitted to the Government, but the proposed amounts and approval status were not resolved at the time of discussion." },
+        { "flag": "REFORM", "text": "A dedicated Fire Safety NOC portal is fully designed and in final testing, expected to replace the current offline process, probably within 2026 or early 2027." },
+        { "flag": "GOOD_PRACTICE", "text": "The department's own Fire Safety checklist, developed in 2022 drawing on Tamil Nadu and Kerala practice and adapted for Nagaland's hilly terrain, in line with the National Building Code." },
+        { "flag": "MISSING", "text": "The exact renewal process/fee for an expired Fire NOC is not detailed beyond 'inspection is conducted during renewal after expiry.'" }
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFile": "NL_ED_RCTO.docx",
+      "issuingAuthority": "Nagaland Pollution Control Board (NPCB); renewed consent certificate signed/issued by the Member Secretary, NPCB",
+      "portal": { "name": "NPCB website (application form download only; processing otherwise offline); CPCB-developed common portal planned pending adoption of the relevant Air/Water framework and Nagaland onboarding", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 14, "basis": "Officer-reported discussion statement, not a verified statutory service standard for Nagaland; central/CPCB guideline timelines of approximately 30, 45 or 60 days by category were also cited in the broader discussion.", "text": "The officer reported that renewal is commonly completed in around 1-2 weeks, subject to completeness of the application, fee payment and availability of the approving/signing authority. A Nagaland-specific statutory renewal timeline was not confirmed." },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Completed prescribed/common application form for renewal",
+        "Existing CTO/consent details or copy",
+        "Updated trade licence, where applicable",
+        "Supporting documents for change in ownership or location, if applicable",
+        "Amended application/form and supporting documents for changes to plant or machinery, process or expansion",
+        "Revised/short DPR where machinery or industrial capacity has been upgraded or changed"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed renewal or automatic-renewal mechanism was reported. Delayed renewal after expiry can attract additional charges under applicable guidance, so renewal should be filed before expiry rather than assuming automatic continuation of consent." },
+      "validity": { "text": "Renewal validity was described using the CTO category periods: Red about 5 years, Orange about 7 years, Green about 10 years; White-category units were described as one-time registration. Applicants should confirm the current category-specific notification and renewal date with NPCB." },
+      "fees": { "text": "No complete separate renewal fee schedule was given; consent fees are calculated manually according to category and capital investment, with minimum amounts cited for investment below ₹50 lakh of ₹10,000 (Red), ₹7,500 (Orange) and ₹5,000 (Green). A late-renewal charge may apply if application is made after expiry (the officer referred to central guidance and an additional calculation for delay, including a reference to 30%), but the exact formula and applicable periods were not sufficiently clear." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Check CTO expiry date and apply for renewal before expiry", "automated": false, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Submit prescribed/common application form and existing consent details/copy", "automated": false, "note": "" },
+        { "n": 3, "phase": "apply", "title": "Provide updated supporting documents where circumstances have changed", "automated": false, "note": "E.g., updated trade licence, ownership or location changes." },
+        { "n": 4, "phase": "apply", "title": "Submit amended form and supporting documents where machinery/process changed", "automated": false, "note": "Including a revised/short DPR, as applicable." },
+        { "n": 5, "phase": "scrutiny", "title": "Technical staff screen renewal application", "automated": false, "note": "Forwarded for senior-level examination." },
+        { "n": 6, "phase": "fee", "title": "Calculate and collect renewal fee", "automated": false, "note": "Calculated manually based on category and capital investment; payment via current offline process." },
+        { "n": 7, "phase": "approve", "title": "Prepare and issue renewed certificate", "automated": false, "note": "Prepared offline, submitted to Member Secretary for signature/issuance." }
+      ],
+      "ed": { "date": "06-10-2026", "location": "Nagaland Industrial Development Corporation Ltd, Kohima Road, Bank Colony, Dimapur, Nagaland 797117", "expert": "Er Kevisede Puchw", "designation": "Asst Environmental Engineer" },
+      "remarks": [
+        "No separate routine field inspection for every renewal was clearly established; the department described periodic/annual field inspections as practice, while manpower constraints prevent inspecting every industry each year, so the team rotates its visits among types of industries.",
+        "Trade licences may have one-year validity and may need updating at the time of renewal.",
+        "Use of a common application form for CTE, CTO and renewal reduces the need for entirely separate forms."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Renewal is currently handled offline/manual using the common application form shared with CTE and CTO." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "neutral", "text": "Online renewal, payment and digital issuance are not yet available; onboarding to the CPCB-developed common portal is pending adoption of the relevant framework." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Renewal is reported as commonly completed in around 1-2 weeks, subject to completeness, fee payment and availability of the approving/signing authority." },
+        { "source": "ed", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "A late-renewal charge may apply if the application is made after expiry, referencing central guidance and an additional delay calculation (including a reference to 30%), but the exact formula and periods were not sufficiently clear." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No deemed/automatic-renewal mechanism was reported; renewal should be filed before expiry rather than assuming automatic continuation of consent." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY", "INSPECT"], "sentiment": "issue", "text": "Manpower constraints prevent the department from inspecting every industry each year; the team rotates its visits among types of industries." },
+        { "source": "ed", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "The renewal process is manual, and applicants may have to travel to the department office." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants may need to renew related documents, such as trade licences, and submit updated supporting documents when circumstances change." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Use of a common application form for CTE, CTO and renewal reduces the need for entirely separate forms." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The department provides SOP/service information online and offers assistance to smaller applicants; awareness activities through newspapers and programmes help applicants renew on time." },
+        { "source": "ed", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Create an expiry reminder system and publish clear renewal lead times." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Enable online renewal, payment, application tracking and digital certificate issuance after portal onboarding." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Publish a renewal checklist distinguishing mandatory documents from documents required only when changes occur." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Clarify and publish the late-renewal fee formula, applicable grace periods and consequences of expiry." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Use existing consent records to pre-fill renewal applications and reduce repeated data submission." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY", "INSPECT"], "sentiment": "suggestion", "text": "Develop a risk-based inspection plan and strengthen staffing to improve coverage and timeliness." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "A Nagaland-specific statutory renewal timeline was not confirmed; only central/CPCB guideline figures and an informal officer estimate (1-2 weeks) are on record." },
+        { "flag": "VAGUE", "text": "The late-renewal fee formula and applicable grace periods are not sufficiently clear; the officer referenced central guidance and a possible 30% delay calculation without confirming the exact rule." },
+        { "flag": "MISSING", "text": "No complete separate renewal fee schedule was provided beyond the base category/investment-linked minimums." },
+        { "flag": "GOOD_PRACTICE", "text": "A common application form shared across CTE, CTO and renewal reduces duplication of forms for applicants." },
+        { "flag": "REFORM", "text": "Plan to onboard the CPCB common portal for online renewal once the relevant Air/Water framework is adopted." },
+        { "flag": "VAGUE", "text": "Whether an applicant office visit is required for renewal submission is not explicitly described in the transcript." }
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFile": "NL_ED_RSE.docx",
+      "issuingAuthority": "Labour Department, Government of Nagaland; registration approved by the Inspector and the District Officer/Assistant Labour Commissioner (ALC)",
+      "portal": { "name": "Labour Department's single digital portal (shared for Factory and Shop & Establishment services)", "url": null },
+      "timeline": { "minDays": 1, "maxDays": 2, "basis": "Officer-reported processing time where papers are correct ('hardly one to two days'); no formal statutory/public-service timeline has been notified, and no time-tracking mechanism was available at the time of interview.", "text": "Where papers are correct, the expert stated that processing takes hardly one to two days. No formal statutory/public-service timeline has been notified, and no time-tracking mechanism was available at the time of interview, though the system may incorporate such features after stabilization." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Owner's ID/identity proof",
+        "Address/proposed address of the establishment"
+      ],
+      "documentsNote": "An official checklist is available on the portal and applicants upload documents there; the expert does not specify the Act/rule/circular basis for each individual document.",
+      "deemedApproval": { "status": "no", "days": null, "text": "There is no deemed approval as of the interview." },
+      "validity": { "text": "The expert does not specify the validity period or renewal frequency for RSE registration." },
+      "fees": { "text": "The fee varies according to the number of employees; a fee chart exists, but the expert did not provide the actual amounts. Payment is made after final approval, followed by certificate download. The expert said the payment gateway may charge around 5%, but expressed uncertainty; this is not a confirmed departmental fee." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant applies online through the department portal", "automated": true, "note": "" },
+        { "n": 2, "phase": "scrutiny", "title": "Inspector verifies the application", "automated": "partial", "note": "Inspection may be required for a big establishment; otherwise a physical visit is generally not required." },
+        { "n": 3, "phase": "approve", "title": "Inspector obtains approval of the District Officer/ALC", "automated": "partial", "note": "" },
+        { "n": 4, "phase": "fee", "title": "Applicant pays fee and downloads registration certificate", "automated": true, "note": "Once the ALC approves, the establishment is registered." }
+      ],
+      "ed": { "date": "21-08-2026", "location": "Directorate of Industries & Commerce, IG Stadium Road, Near Hotel Vivor, Nagaland, Kohima-797001", "expert": "Vikeheto Naki", "designation": "Assistant Labour Commissioner" },
+      "remarks": [
+        "Online registration was trialled in four districts from November of the previous year and was stated to be fully online from June 2026; the system is newly launched and not yet fully stabilized.",
+        "There is no inter-departmental coordination and no State Single Window integration for RSE.",
+        "Lack of applicant awareness was identified as the main problem rather than any technical issue.",
+        "Approximately 1,000 factories/MSMEs were referenced in older/manual records, with about seven-eight having registered online at the time of interview; these are factory/MSME figures, not RSE-specific performance metrics.",
+        "Shop & Establishment and Factory services are handled by the Labour Department through one digital portal."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The RSE service is fully online and paperless; there is no manual process." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The online system is newly launched and not yet fully stabilized." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Lack of applicant awareness following the transition to online registration is the main identified challenge; no technical issue had been encountered." },
+        { "source": "ed", "category": "policy", "tags": ["INTERDEP"], "sentiment": "issue", "text": "There is no inter-departmental coordination and no State Single Window integration for RSE." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "No formal statutory/public-service timeline has been notified; processing currently takes hardly one to two days where papers are correct, with no time-tracking mechanism available at interview." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "issue", "text": "A fee chart exists for RSE based on number of employees, but the expert did not provide the actual amounts." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "issue", "text": "The expert said the payment gateway may charge around 5%, but expressed uncertainty; this is not a confirmed departmental fee." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Inspection may be required for a big establishment; otherwise physical inspection is generally not required, and no risk-category framework changes inspection frequency." },
+        { "source": "ed", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "No digital grievance system exists for RSE; grievances are handled manually, with an informal one-to-two-day response and no official notified timeline." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "No specific duplicate or redundant RSE requirement, nor any overlapping inter-departmental process, was identified." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The expert did not identify any specific departmental best practice or innovation introduced to reduce compliance burden for RSE, stating such practices had not yet been introduced." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Rejection reasons are recorded in the portal and SMS alerts are available; approximately three applicants had been rejected across the newly online Factory/Shop & Establishment services, mainly for incomplete documents, with no RSE-only rejection count provided." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Improve applicant awareness of online registration, as lack of awareness is the main identified problem." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Introduce application time-tracking once the system stabilizes, and maintain a clear portal-based checklist for required documents." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Develop digital grievance and tracking functionality as the system matures; the current grievance process remains manual." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Display the applicable employee-based fee chart clearly in the portal." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The validity period and renewal frequency for RSE registration were not specified by the expert." },
+        { "flag": "MISSING", "text": "Exact RSE fee amounts are not available; a fee chart exists based on number of employees but the expert did not disclose figures." },
+        { "flag": "VAGUE", "text": "The ~5% payment gateway charge mentioned by the expert was stated with uncertainty and is not confirmed as an official or departmental fee." },
+        { "flag": "MISSING", "text": "No formal statutory/public-service timeline has been notified for RSE processing." },
+        { "flag": "MISSING", "text": "The expert did not identify any specific departmental best practice or innovation introduced to reduce RSE compliance burden." },
+        { "flag": "VAGUE", "text": "The Act/rule/circular basis for each required document (owner's ID, address proof) is not specified." }
+      ]
+    },
+    {
+      "serviceCode": "TFG",
+      "serviceName": "GST Tax Filing",
+      "sourceFile": "NL_ED_TFG.docx",
+      "issuingAuthority": "Taxes Department, Nagaland, administering the national GST framework within state jurisdiction",
+      "portal": { "name": "GST single-window system (national GST portal)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "Recurring statutory filing deadlines rather than a one-time processing timeline: GSTR-1 by the 11th of the subsequent month, GSTR-3B by the 20th for monthly regular filers; CMP-08 quarterly for Composition Scheme filers; under QRMP, GSTR-1 monthly or quarterly and GSTR-3B quarterly.", "text": "This is a recurring compliance filing, not a one-time approval process. Monthly regular filers file GSTR-1 by the 11th and GSTR-3B by the 20th of the subsequent month; Composition Scheme filers file CMP-08 quarterly; QRMP filers file GSTR-1 monthly or quarterly and GSTR-3B quarterly. No departmental resolution timeline for flagged discrepancies was mentioned." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "GSTR-1 (detailed declaration of outward turnover and tax liability)"
+      ],
+      "documentsNote": "GSTR-2B purchase data is referenced for ITC, and physical invoices/books of accounts are referenced when explaining discrepancies or responding to notices (consultants usually bring books of accounts when notices are issued online). The expert states the law does not mandate hard copies for routine filing.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Deemed approval was not addressed by the expert for GST Tax Filing; the expert mentioned deemed approval only in relation to GST registration, a different service." },
+      "validity": { "text": "No validity period for tax filing is described; filing frequency instead applies: CMP-08 quarterly for Composition Scheme filers, GSTR-1 and GSTR-3B monthly for regular filers, and under QRMP, GSTR-1 monthly or quarterly with GSTR-3B quarterly." },
+      "fees": { "text": "No filing application fee or official statutory filing fee was specifically mentioned. Late fees for delayed filing: ₹20 per day for Nil filers (₹10 under CGST and ₹10 under SGST), capped at ₹500 per month; ₹50 per day for Non-Nil filers, capped at ₹2,000 for a particular month. For tax paid in cash after the 20th, 18% per annum interest is auto-calculated by the system and added to the next GSTR-3B; local officers have no discretionary power to waive these system-imposed late fees and interest manually." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Taxpayer logs into the GST single-window system", "automated": true, "note": "Using own username/password, or a trusted person may log in on their behalf." },
+        { "n": 2, "phase": "apply", "title": "Select applicable filing route/frequency", "automated": true, "note": "CMP-08 quarterly (Composition Scheme), monthly regular GSTR-1/GSTR-3B, or QRMP." },
+        { "n": 3, "phase": "apply", "title": "File GSTR-1", "automated": true, "note": "Detailed declaration of outward turnover and tax liability, due by the 11th of the subsequent month." },
+        { "n": 4, "phase": "fee", "title": "File GSTR-3B and pay tax due", "automated": true, "note": "Tax-payment return due by the 20th of the subsequent month." },
+        { "n": 5, "phase": "apply", "title": "File Nil return where no business activity", "automated": true, "note": "Payment is made through the filing process where tax is payable." },
+        { "n": 6, "phase": "scrutiny", "title": "System performs automated validation", "automated": true, "note": "Flags a mismatch between GSTR-1 and GSTR-3B, or an ITC mismatch." },
+        { "n": 7, "phase": "scrutiny", "title": "Jurisdictional officer examines flagged discrepancy", "automated": "partial", "note": "May issue an online notice seeking clarification." }
+      ],
+      "ed": { "date": "21-08-2026", "location": "Directorate of Industries & Commerce, IG Stadium Road, Near Hotel Vivor, Nagaland, Kohima-797001", "expert": "Merenkaba", "designation": "ASTO" },
+      "remarks": [
+        "GST processes are broadly all-India in nature; the expert stated there is nothing Nagaland-specific in the process described.",
+        "The process became easier after second-generation reforms referred to as GST 2.0, implemented from 25 September 2025.",
+        "The Tax Office is present to enforce the Act, not to file returns on behalf of taxpayers; officials guide and train taxpayers who want to file themselves.",
+        "Some agencies may insist on a GST registration number for government schemes or bank loans, leading some people to obtain GST numbers without taxable turnover, not file returns, and later face penalties.",
+        "Businesses must maintain books of accounts for 60 months under Sections 35 and 36, as cited by the expert."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The process became easier after GST 2.0 (second-generation reforms), implemented from 25 September 2025." },
+        { "source": "ed", "category": "procedural", "tags": ["CAPACITY", "COMPLY"], "sentiment": "issue", "text": "90% to 95% of dealers in Kohima hire local accountants, Chartered Accountants or certified GST Practitioners, as many small traders are not tech-savvy and consultants manage monthly filings." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Peak system traffic occurs near filing deadlines, particularly the 18th to 20th, and local network issues affect remote areas." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "Late fees are ₹20/day for Nil filers (capped at ₹500/month) and ₹50/day for Non-Nil filers (capped at ₹2,000/month)." },
+        { "source": "ed", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "18% per annum interest is auto-calculated on cash tax paid after the 20th and added to the next GSTR-3B, and local officers have no discretionary power to waive these system-imposed late fees and interest." },
+        { "source": "ed", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "Delayed scrutiny (issuing notices 3 to 4 years after filing) can create large accumulations of 18% annual interest and penalties for unintentional errors." },
+        { "source": "ed", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Issue scrutiny notices in the initial months rather than waiting 3 to 4 years, to avoid accumulation of interest and penalties for unintentional errors." },
+        { "source": "ed", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Build tighter systemic ITC validation to stop fake ITC generation at the source rather than relying solely on post-facto scrutiny." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The department identifies timely processing of queries and refund claims well before statutory deadlines, and early scrutiny rather than delaying notices for years, as a practice." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The department guides and trains taxpayers who want to file returns themselves, although officials do not file on their behalf." },
+        { "source": "ed", "category": "remarks", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Some agencies insist on a GST registration number for government schemes or bank loans, leading some people to register without taxable turnover, not file returns, and later face penalties." },
+        { "source": "ed", "category": "procedural", "tags": ["QUERY"], "sentiment": "neutral", "text": "Automated discrepancy detection flags a mismatch between GSTR-1 and GSTR-3B liability, or an ITC mismatch between a taxpayer's claim and supplier-declared data, triggering an online notice from the jurisdictional officer." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "GST processes are broadly all-India in nature, with nothing Nagaland-specific described in the filing process." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Businesses must maintain books of accounts for 60 months under Sections 35 and 36, as cited by the expert." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No departmental resolution timeline for flagged discrepancies/online notices was mentioned by the expert." },
+        { "flag": "MISSING", "text": "Deemed approval for GST Tax Filing itself was not addressed; the expert referenced deemed approval only for GST registration, a separate service." },
+        { "flag": "GOOD_PRACTICE", "text": "The department reportedly processes queries and refund claims well before statutory deadlines and pursues early scrutiny rather than delaying notices for years." },
+        { "flag": "REFORM", "text": "GST 2.0 reforms (effective 25 September 2025) were cited as having eased the filing process, though the expert did not specify exactly what changed." },
+        { "flag": "VAGUE", "text": "No quantification of how often delayed scrutiny (3 to 4 years) actually occurs or its scale across Nagaland taxpayers was provided." },
+        { "flag": "MISSING", "text": "No application or statutory filing fee amount was explicitly confirmed; only late fees and interest for delayed filing/payment were described." }
+      ]
+    }
+  ]
+}

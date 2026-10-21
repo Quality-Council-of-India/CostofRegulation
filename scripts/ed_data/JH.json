@@ -1,0 +1,373 @@
+{
+  "code": "JH",
+  "name": "Jharkhand",
+  "licenses": [
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFile": "Jharkhand_ED_FAL.docx",
+      "issuingAuthority": "Department of Labour, Employment, Training & Skill Development (Inspector of Factories / Deputy Chief Inspector of Factories / Chief Inspector of Factories), Government of Jharkhand",
+      "portal": { "name": "Jharkhand Single Window System / Shramadhan portal", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 30, "basis": "Official procedure: 12-day sub-deadline for the Inspector to forward recommendation, within an overall 30-day processing window for complete applications", "text": "The current online procedure stipulates a 30-day processing timeline for a complete factory license application, with the Inspector of Factories required to forward their recommendation within 12 days of submission." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Completed Form No. 2 (submitted via the online portal)",
+        "Proof of prescribed license fee payment (challan)",
+        "Registered sale deed, registered lease deed, or registered rent agreement (proof of possession)",
+        "Owner consent and address proof (for leased or rented premises)",
+        "Approved building or site plan documents (where applicable)",
+        "Consent to Establish or Consent to Operate from the Jharkhand State Pollution Control Board",
+        "Identity and address proof of the occupier",
+        "Identity and address proof of the factory manager",
+        "Name and address of the designated person managing affairs (government/local authority units)",
+        "Factory/project report",
+        "Detailed description of the manufacturing process",
+        "Details of machinery and total installed power capacity",
+        "Board list, MOA, AOA, and Board resolution appointing the occupier under Section 2(n) (public limited companies)",
+        "Partnership deed and list of partners (partnership firms)",
+        "Any other specific documents requested by the Chief Inspector, Deputy Chief Inspector, or Inspector"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "No automatic deemed approval currently exists after the 30-day processing period elapses; the ED recommends introducing statutory deemed approval for complete, low-risk applications with safety exclusions and post-approval inspection/cancellation powers." },
+      "validity": { "text": "The Jharkhand Factories (Amendment) Rules, 2025 establish a minimum license validity of one year, with longer-term options also offered; the issued license specifies its own validity period, and one-year licenses require annual renewal via the Shramadhan portal." },
+      "fees": { "text": "Calculated under Schedule-A based on total rated machinery/plant capacity (HP) and maximum workers on any single day; examples: Nil HP = ₹530 (up to 20 workers)/₹2,060 (up to 50)/₹2,380 (up to 100); Up to 10 HP = ₹1,190/₹2,110/₹2,900 for the same worker slabs. Electricity generating/transforming/transmitting stations use a separate KW-based schedule (Schedule-B/C). The 2025 amendment set a standardized license amendment fee of ₹1,000. The Shramadhan portal's automated calculator determines the exact fee." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Login & Selection", "automated": true, "note": "Applicant logs into the Jharkhand Single Window/Shramadhan portal and selects Factory Act registration and grant of license." },
+        { "n": 2, "phase": "apply", "title": "Application Submission", "automated": true, "note": "Applicant completes Form No. 2, uploads documents, and pays the license fee online." },
+        { "n": 3, "phase": "scrutiny", "title": "Scrutiny & Deficiency", "automated": "partial", "note": "Receiving office scrutinizes the application; deficiencies communicated electronically for resubmission." },
+        { "n": 4, "phase": "scrutiny", "title": "Forwarding", "automated": true, "note": "Complete application forwarded electronically to the Inspector of Factories." },
+        { "n": 5, "phase": "inspect", "title": "Review & Inspection", "automated": "partial", "note": "Inspector reviews the application and conducts a site inspection; allocation is managed automatically by the departmental system." },
+        { "n": 6, "phase": "inspect", "title": "Recommendation", "automated": "partial", "note": "Inspector records findings/recommendations and forwards the case to the Deputy Chief Inspector." },
+        { "n": 7, "phase": "approve", "title": "Approval & Issuance", "automated": true, "note": "Competent authority approves; license issued electronically with SMS/status notification." }
+      ],
+      "ed": { "date": "25-08-2026", "location": "Department of Industry, Nepal House, Single Window Office, Ranchi", "expert": "Binit Kumar Singh; Abhishek Mishra", "designation": "Deputy Chief Inspector; Software Developer" },
+      "remarks": [
+        "The Jharkhand Factories (Amendment) Rules, 2025 govern the current validity and fee structures.",
+        "Discretionary documents may be requested by the Chief Inspector, Deputy Chief Inspector, or Inspector for a particular factory, beyond the standard document list."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The factory license service is fully digitized through the Shramadhan/Jharkhand Single Window portal, covering application, document upload, fee payment, status tracking, deficiency handling, and license issuance; the only physical component is the site inspection." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The official procedure stipulates 12 days for the Inspector to forward their recommendation, within an overall 30-day timeline for processing complete applications." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "There is no statutory deemed-approval mechanism; the license is not issued automatically even if the 30-day SLA lapses." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Recommended introducing statutory deemed approval for complete, low-risk applications after the SLA lapses, with safety exclusions, post-approval inspection protocols, and authority to cancel for non-compliance." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "A significant compliance burden persists from repeated submission and manual verification of information already held by other departments, such as land ownership records, project details, and environmental clearances." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Recommended shifting from manual, redundant document uploads to system-to-system verification with authoritative government databases for land, pollution, and building approval statuses." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Proposed a 'Master Factory Profile' to enable reuse of verified data, streamlining document compilation for future applications and amendments." },
+        { "source": "ed", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Proposed replacing repeated deficiency cycles with a single, consolidated deficiency memo to give clearer, actionable feedback." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Proposed deploying an automated Schedule-A/B/C fee calculator to ensure transparency and accuracy in variable fee assessments." },
+        { "source": "ed", "category": "policy", "tags": ["INSPECT"], "sentiment": "positive", "text": "Jharkhand uses a risk-based inspection framework: low-risk establishments get inspection exemptions, medium-risk face third-party certification and joint verification, and high-risk face mandatory departmental technical/site inspections." },
+        { "source": "ed", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Recommended an expedited, simplified renewal process for established factories with clean compliance records." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "The 2025 amendment standardized the license amendment fee at ₹1,000 and set Schedule-A fee slabs based on HP and worker count." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "SMS-based proactive status notifications are used throughout the process for transparency." },
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Post-approval compliance requires maintaining statutory registers/returns, safety/health standards, and securing license amendments for any changes to address, occupier/manager, workforce size, or machinery/power capacity." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Full fee schedule is not disclosed beyond the Nil HP and Up to 10 HP example rows; amounts for higher HP/worker slabs are only described as 'subject to higher notified fees' without figures." },
+        { "flag": "VAGUE", "text": "The document does not specify what happens to the 30-day overall timeline if scrutiny/deficiency resubmission cycles extend processing beyond that window." },
+        { "flag": "GOOD_PRACTICE", "text": "The Shramadhan Comprehensive Labour Management System provides a unified digital platform covering the entire factory regulation lifecycle (registration, licensing, renewal, amendment, inspection, fee, communication)." },
+        { "flag": "REFORM", "text": "ED recommends a legally notified 'deemed approval' mechanism for complete, low-risk applications, including safety exclusions and post-approval inspection/cancellation authority." },
+        { "flag": "MISSING", "text": "Exact criteria or thresholds distinguishing low/medium/high-risk factory classification are described only qualitatively (manufacturing process, hazardous substances, explosion potential, population density), without quantified thresholds." }
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFile": "Jharkhand_ED_FBPA.docx",
+      "issuingAuthority": "Department of Labour, Employment, Training & Skill Development (Inspector of Factories / Deputy Chief Inspector of Factories / Chief Inspector of Factories), Government of Jharkhand",
+      "portal": { "name": "Jharkhand Single Window System (Shramadhan portal)", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 30, "basis": "30-day statutory disposal period for factory/shed and building plan applications, consistent with the national ServicePlus listing for permission to construct/extend/utilize a building as a factory", "text": "The prescribed processing timeline for Factory Plan Approval in Jharkhand is 30 days; where clarification is required, the applicant is notified and the processing cycle resumes once requested information is submitted." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "PAN Card and address proof",
+        "Comprehensive Project Report",
+        "Land ownership/tenancy proof: registered sale deed, registered lease deed, or registered rent agreement (owner consent and address proof where applicable)",
+        "Flowchart of the manufacturing process with a brief written description",
+        "Complete list of plant and machinery to be installed",
+        "Factory Plan drawn to scale, in CAD format",
+        "Site Plan showing surroundings, existing buildings, structures, roads, and drainage",
+        "Building Design: plans, elevations, and cross-sections showing lighting/ventilation, fire-escape layouts, plant/machinery placement, and aisles/passageways",
+        "Any additional drawings or documents requested by the competent authority during scrutiny"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "No automatic deemed approval currently exists upon expiry of the 30-day period; any deemed-approval model would require express statutory notification or rule amendment, with safeguards such as completeness validation, SLA monitoring, post-approval audit, and risk-based exclusions." },
+      "validity": { "text": "A one-time approval rather than a renewable license, with no annual validity period; the approved plan governs construction, reconstruction, extension, or commissioning until compliance conditions change, at which point a revised or amended approval is required." },
+      "fees": { "text": "Calculated as a share of the applicable Factory License fee slab: 25% of the Factory License fee for new factories, or 10% of the applicable fee for extension/reconstruction; the final payable amount depends on the relevant license fee slab and application type." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Registration and Application", "automated": true, "note": "Applicant registers/logs into the Single Window System and submits the Combined Application Form (CAF) for Factory Plan Approval." },
+        { "n": 2, "phase": "apply", "title": "Submission of Details", "automated": true, "note": "Applicant provides factory, ownership, and address details and uploads documents/technical drawings electronically." },
+        { "n": 3, "phase": "inspect", "title": "Scrutiny and Initial Inspection", "automated": "partial", "note": "Application undergoes scrutiny followed by a mandatory site visit by the concerned Inspector of Factories." },
+        { "n": 4, "phase": "scrutiny", "title": "Recommendation Forwarding", "automated": true, "note": "Inspector submits recommendation online to the Deputy Chief Inspector of Factories." },
+        { "n": 5, "phase": "inspect", "title": "Secondary Inspection (as applicable)", "automated": "partial", "note": "Deputy Chief Inspector reviews and may conduct a supplementary site visit if necessary." },
+        { "n": 6, "phase": "approve", "title": "Approval/Recommendation Path", "automated": "partial", "note": "If proposed employment is below 50, the Deputy Chief Inspector directly approves/rejects; if 50 or more, forwards to the Chief Inspector for final decision." },
+        { "n": 7, "phase": "approve", "title": "Final Issuance", "automated": true, "note": "For applications with 50+ employees, the Chief Inspector issues the approval electronically with conditions." },
+        { "n": 8, "phase": "approve", "title": "Compliance", "automated": null, "note": "Applicant must construct and operate strictly per the approved plans and stipulated conditions." }
+      ],
+      "ed": { "date": "25-08-2026", "location": "Department of Industry, Nepal House, Single Window Office, Ranchi", "expert": "Sagar Sinha", "designation": "Assistant Town Planner" },
+      "remarks": [
+        "Technical drawings (factory plan, site plan, building design) must be submitted in the prescribed digital format, with the factory plan in CAD format.",
+        "Any modification to the approved site, building layout, machinery placement, or other regulated parameters requires a revised or amended approval."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Factory Plan Approval is entirely digital via the Jharkhand Single Window System; the only physical components are the prescribed site visits/inspections by the Inspector of Factories and, where applicable, the Deputy Chief Inspector." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The official 30-day disposal timeline applies, consistent with the national ServicePlus listing for permission to construct/extend/utilize a building as a factory." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "No deemed approval currently exists after the 30-day period; introducing one would require statutory notification and robust safeguards." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "ED recommends statutory deemed approval for eligible low-risk, complete applications via legal notification, with safety exclusions and post-approval audits." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "The primary redundancy is repetitive submission of applicant identity, land/ownership status, and standard factory particulars already held in state government databases." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Recommended integrating with existing land, pollution, and identity databases to eliminate redundant document uploads for non-technical data." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Proposed a reusable 'factory/project profile' that retains core data to prevent applicants re-entering information for future requests." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended linking approved plans electronically to subsequent Factory License applications for a seamless 'apply once' experience." },
+        { "source": "ed", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Recommended replacing iterative, fragmented clarification cycles with a single, consolidated deficiency memo." },
+        { "source": "ed", "category": "policy", "tags": ["INSPECT"], "sentiment": "positive", "text": "Risk-based scrutiny model: low-risk projects receive streamlined scrutiny with targeted inspections, medium-risk use a hybrid of third-party certification plus departmental verification, and high-risk projects undergo mandatory rigorous technical/site review." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Recommended clearly displaying the full fee calculation prior to the payment gateway to improve transparency." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Automated SMS notifications are issued to applicants at every key stage of the processing cycle." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended standardized digital templates and automated validation checklists for technical drawing submissions to reduce manual scrutiny errors." },
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Approved plans require strict adherence during construction; any changes to site, building layout, or machinery placement require a revised or amended approval." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Exact rupee fee amounts are not given — the fee is only expressed as 25%/10% of the Factory License fee slab, with no worked examples provided." },
+        { "flag": "VAGUE", "text": "The document does not specify how many of the 30 days are consumed if the Deputy Chief Inspector conducts a secondary site visit." },
+        { "flag": "GOOD_PRACTICE", "text": "Risk-based inspection framework tailoring scrutiny depth (low/medium/high-risk) to project risk, administered via the Shramadhan portal." },
+        { "flag": "REFORM", "text": "ED proposes linking Factory Plan Approval records directly to subsequent Factory License applications for an 'apply once' experience." },
+        { "flag": "MISSING", "text": "The document gives the '50 employees' threshold for routing approval authority but does not elaborate on how proposed employment is verified or defined at this stage." }
+      ]
+    },
+    {
+      "serviceCode": "OC",
+      "serviceName": "Occupancy Certificate",
+      "sourceFile": "Jharkhand_ED_OC.docx",
+      "issuingAuthority": "Authority administering the Jharkhand Building Plan Approval and Management System (BPAMS), as discussed by the Department of Labour's Assistant Town Planner; for industrial areas, the Jharkhand Industrial Area Development Authority (JIADA) follows its own SOP",
+      "portal": { "name": "Jharkhand Building Plan Approval and Management System (BPAMS)", "url": null },
+      "timeline": { "minDays": 8, "maxDays": 21, "basis": "Standard: authority must conduct a site inspection within 15 days of a properly completed application; JIADA SOP: accelerated 8-day sequence (7 days inspection + 1 day certificate issuance); anecdotal practitioner feedback cited an unofficial 2-3 week turnaround", "text": "The authority is mandated to inspect the site within 15 days of a properly completed application; under JIADA's SOP a faster 8-day process applies; some interview feedback suggested 2-3 weeks informally, but this is explicitly flagged as not an official figure." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Notice of completion",
+        "Three copies of as-built building plans",
+        "Prescribed fee of ₹1,000",
+        "Approved building plan and building permit approval letter",
+        "Structural engineer's safety and stability certificate",
+        "Fire-safety installation certificate (where applicable)",
+        "Evidence of utility connections (drainage, water supply, electricity linked to public systems)",
+        "Completion certificate from the concerned architect",
+        "Ownership and property documents"
+      ],
+      "documentsNote": "Application requires active involvement of Licensed Technical Professionals (LTPs) such as architects and engineers, who prepare and certify the as-built plans and safety documentation.",
+      "deemedApproval": { "status": "yes", "days": 15, "text": "The Jharkhand Building Bye-laws 2016 establish a deemed-approval mechanism: if the authority does not dispose of the (resubmitted, affidavit-backed) application within 15 days, occupancy is deemed granted." },
+      "validity": { "text": "The Occupancy Certificate acts as a permanent authorization for building usage rather than an annually renewable license, so no periodic renewal is required; a fresh approval may be needed if the structure undergoes significant material alteration or a change of purpose." },
+      "fees": { "text": "A base processing fee of ₹1,000 accompanies the notice of completion; additional charges related to project-specific building plans, site inspections, or NOCs may apply depending on the development." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Application Submission", "automated": true, "note": "Applicant or LTP submits the completion/occupancy application via BPAMS once construction is complete." },
+        { "n": 2, "phase": "apply", "title": "Document Upload", "automated": true, "note": "Notice of completion, as-built plans, fee, stability/fire-safety certificates, and utility-connection evidence are uploaded." },
+        { "n": 3, "phase": "scrutiny", "title": "Scrutiny", "automated": "partial", "note": "The submitted application and associated NOCs/approvals are formally scrutinized." },
+        { "n": 4, "phase": "inspect", "title": "Site Inspection Scheduling", "automated": "partial", "note": "Authority team is required to visit the site within 15 days of receiving a properly completed application." },
+        { "n": 5, "phase": "inspect", "title": "Site Inspection", "automated": false, "note": "Officials inspect compliance with the approved building plan and structural, fire, life-safety, and utility requirements." },
+        { "n": 6, "phase": "approve", "title": "Issuance / Deemed Grant", "automated": true, "note": "OC issued if compliant; if not disposed within 15 days, occupancy is deemed granted provided required affidavits were submitted." }
+      ],
+      "ed": { "date": "25-08-2026", "location": "Department of Industry, Nepal House, Single window office, Ranchi", "expert": "Sagar Sinha", "designation": "Assistant Town Planner" },
+      "remarks": [
+        "JIADA (Jharkhand Industrial Area Development Authority) areas follow a distinct, faster SOP for OC processing (8 days) compared to the general 15-day standard.",
+        "Invoking deemed approval requires the applicant to submit necessary affidavits confirming compliance with safety and building standards; this mechanism is distinct from third-party architect/engineer certification."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The Occupancy Certificate process follows a hybrid model: the entire administrative lifecycle is digitized via BPAMS, but a physical site inspection remains mandatory for all building categories." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The standard official procedure requires a site inspection within 15 days of a properly completed application." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE", "INCONSISTENT"], "sentiment": "issue", "text": "A JIADA-specific SOP cites an accelerated 8-day process (7 days inspection + 1 day issuance), which differs from the general 15-day standard timeline described elsewhere in the same ED." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Some interview feedback suggested an unofficial 2-3 week turnaround, which the ED explicitly flags as anecdotal and not a confirmed statutory figure." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "The Jharkhand Building Bye-laws 2016 provide a deemed-approval safeguard: occupancy is deemed granted if the authority fails to act within 15 days of a compliant, affidavit-backed resubmission." },
+        { "source": "ed", "category": "policy", "tags": ["INSPECT"], "sentiment": "positive", "text": "Risk-based inspection model: site inspection is compulsory for all categories, but medium- and high-risk categories additionally require mandatory third-party and joint inspections." },
+        { "source": "ed", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Process fragmentation causes high friction due to the need for manual coordination across multiple agencies and technical professionals (LTPs)." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Potential duplication occurs when the same completion and safety data are certified or scrutinized multiple times across different stages or departments." },
+        { "source": "ed", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Applicants face operational hurdles in inspection scheduling, assembling technical reports/NOCs, and the iterative nature of document submission." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended transitioning to a single, unified online 'completion-cum-occupancy' application to replace fragmented submissions." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended auto-populating application data from previously approved building plans to reduce manual input and errors." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Recommended joint, coordinated site inspections involving all relevant agencies simultaneously, rather than separate individual agency visits." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Recommended consolidating verification of all required NOCs within the central BPAMS system." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended standardized digital inspection checklists requiring upload of digital evidence (e.g., photos/videos) for transparency and consistency." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended expanding third-party architect/engineer certification for eligible low-risk buildings to accelerate the approval process." }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "Timeline figures differ within the same ED: a standard 15-day site-inspection mandate, a JIADA accelerated 8-day SOP, and an anecdotal, explicitly unofficial 2-3 week turnaround mentioned by interviewees." },
+        { "flag": "VAGUE", "text": "The issuing authority/department is not clearly stated: the header lists 'Department of Labour' while the content describes a town-planning/building-plan process (BPAMS) and separately references JIADA for industrial areas." },
+        { "flag": "MISSING", "text": "Whether the applicant themselves must visit any physical office (as opposed to only LTPs/officials visiting the site) is not explicitly addressed." },
+        { "flag": "GOOD_PRACTICE", "text": "BPAMS provides a centralized digital workflow and repository for occupancy inspection checklists/resources, with risk-based recognition of accredited third-party architects/engineers for eligible cases." },
+        { "flag": "REFORM", "text": "ED recommends a single, unified 'completion-cum-occupancy' online application to replace the current fragmented submissions across multiple agencies." }
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFile": "Jharkhand_ED_RFAL.docx",
+      "issuingAuthority": "Department of Labour, Employment, Training & Skill Development (Inspector of Factories, with Deputy Chief Inspector/Chief Inspector notified), Government of Jharkhand",
+      "portal": { "name": "Jharkhand Single Window System / Shramadhan portal", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 30, "basis": "Official 30-day processing window commencing upon submission of a complete renewal application and fee payment", "text": "The official Jharkhand renewal procedure stipulates a 30-day processing window from submission of a complete application and fee payment; the processing cycle resumes immediately once any requested clarification is received." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Form No. 2 (online renewal application)",
+        "Prescribed annual renewal fee (payment proof)",
+        "Updated supporting documents for any changed particulars (e.g., occupier/manager, factory address, or production capacity) — only if changes occurred, or if the department requests specific clarification"
+      ],
+      "documentsNote": "Documents already on file and unchanged do not need to be re-uploaded; the system uses existing factory and license data to populate continuing particulars.",
+      "deemedApproval": { "status": "no", "days": null, "text": "There is no provision for automatic deemed renewal upon expiry of the 30-day service period; the 30-day timeline governs Inspector review and issuance, but renewal is not granted automatically solely because the period has elapsed." },
+      "validity": { "text": "The Jharkhand Factories (Amendment) Rules, 2025 establish a minimum license validity of one year, with options for longer durations; the license remains valid for the term on the issued document, and one-year license holders must renew for the subsequent licensing year." },
+      "fees": { "text": "Calculated under the 2025 annual fee structure based on rated machinery/plant capacity (HP) and maximum workers employed; examples up to 500 HP: up to 20 workers ₹28,510; up to 50 workers ₹35,640; up to 100 workers ₹37,620; up to 250 workers ₹39,600; up to 500 workers ₹43,560. Electricity generating/transforming/transmitting stations follow a separate KW-based schedule." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Login and Navigation", "automated": true, "note": "Log in to the Single Window/Shramadhan portal and select 'Factory Licence Renewal'." },
+        { "n": 2, "phase": "apply", "title": "Application Submission", "automated": true, "note": "Submit the online renewal application using Form 2; confirm and update existing details." },
+        { "n": 3, "phase": "fee", "title": "Documentation and Payment", "automated": true, "note": "Upload required renewal documents and pay the applicable annual fee online." },
+        { "n": 4, "phase": "scrutiny", "title": "Verification", "automated": true, "note": "Receiving Clerk verifies the application and forwards it electronically to the relevant Inspector of Factories." },
+        { "n": 5, "phase": "inspect", "title": "Review and Inspection", "automated": "partial", "note": "Inspector reviews the application and conducts a site inspection only when required, per the risk-based framework." },
+        { "n": 6, "phase": "scrutiny", "title": "Clarifications", "automated": true, "note": "Any required clarifications are communicated electronically and responses submitted via the portal." },
+        { "n": 7, "phase": "approve", "title": "Licence Issuance", "automated": true, "note": "Inspector issues the renewed licence online; Deputy Chief Inspector and Chief Inspector are automatically notified." }
+      ],
+      "ed": { "date": "25-08-2026", "location": "Department of Industry, Nepal House, Single Window Office, Ranchi", "expert": "Binit Kumar Singh; Abhishek Mishra", "designation": "Deputy Chief Inspector; Software Developer" },
+      "remarks": [
+        "The 2025 amendment to the Jharkhand Factories Rules governs the current renewal fee schedule and minimum one-year validity.",
+        "The Deputy Chief Inspector and Chief Inspector are automatically notified upon license renewal issuance."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Factory license renewal is designed as a fully electronic end-to-end process via the Shramadhan/Single Window portal, intended to require no physical touch points." },
+        { "source": "ed", "category": "policy", "tags": ["INSPECT"], "sentiment": "positive", "text": "Site inspections for renewal are optional and risk-based rather than mandatory for every applicant, consistent with the state's risk-based inspection framework." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "Applicants are not required to repeatedly upload documents already on file and unchanged — only updated or newly relevant information must be resubmitted." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The official procedure stipulates a 30-day processing window from submission of a complete application and fee payment." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "There is no provision for automatic deemed renewal upon expiry of the 30-day period." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Recommended a statutory framework for deemed renewal, legally notified for eligible low-risk factories with clean compliance histories and unchanged operational particulars." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The primary administrative burden is redundant submission/verification of information already held in the existing factory license record (land, project, incorporation, technical records)." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended linking the existing license database directly to the renewal portal to auto-populate details, requiring manual entry only for changed fields." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended a document repository retaining previously verified documents, limiting new uploads to expired or changed items only." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Recommended a dynamic fee calculator that automatically computes the annual renewal fee from current worker counts and machinery capacity." },
+        { "source": "ed", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Recommended issuing a single, comprehensive deficiency notice rather than fragmented clarification requests." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Recommended proactive automated reminders before license expiry, plus application-aging alerts for both applicant and department." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended embedding an 'amendment link' within the renewal portal so occupier/manager or other detail changes can be made without a separate parallel application." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "SMS notifications keep applicants informed at every stage of the renewal process." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The full renewal fee table is only given for 'up to 500 HP' examples; amounts for higher HP slabs are not specified in the document." },
+        { "flag": "VAGUE", "text": "Criteria determining when a renewal site inspection is 'required' under the risk-based framework are not detailed beyond general risk categorization." },
+        { "flag": "GOOD_PRACTICE", "text": "End-to-end online renewal workflow that reuses existing license data to avoid redundant document re-upload for unchanged particulars." },
+        { "flag": "REFORM", "text": "ED proposes a conditional/statutory deemed-renewal mechanism for low-risk factories with clean compliance records and unchanged operational particulars." },
+        { "flag": "MISSING", "text": "No figure is given for how long deficiency/clarification resubmission cycles typically add to the 30-day renewal timeline." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFile": "Jharkhand_ED_TLA.docx",
+      "issuingAuthority": "Urban Local Body approval authority (Nagar Nigam/Nagar Parishad/Nagar Panchayat/NAC), under the Urban Development & Housing Department, Government of Jharkhand",
+      "portal": { "name": "Municipal (Trade) License Management System / Single Window portal", "url": null },
+      "timeline": { "minDays": 1, "maxDays": 22, "basis": "2017 regulation: provisional license within 1 day under trust-and-verify; final license without inspection within 9 days; final license with inspection within 22 working days (inspection report due in 10 working days, decision within a further 3 working days)", "text": "A provisional license is issued within 1 day under the trust-and-verify approach; a final license without inspection is issued within 9 days; where a site inspection is required, the final license is issued within 22 working days." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Valid identity proof of the trade applicant",
+        "Premises proof if owned: land possession certificate, allotment order, revenue rent, sale deed, correction slip, or updated holding-tax receipt",
+        "Premises proof if rented/leased: valid lease/rent agreement, or an electricity bill registered in the applicant's name",
+        "Partnership deed or agreement (for partnership firms)",
+        "Certificate of incorporation or registration (for companies)",
+        "Applicable licenses, NOCs, or clearances required by the nature of the business, with the prescribed declaration or affidavit"
+      ],
+      "documentsNote": "The ED also describes renewal-specific documentation (current-year holding/property tax receipt plus the previous municipal trade license, and conditional NOCs) under the same 'Documentation Required' theme — this is covered in the TLR entry.",
+      "deemedApproval": { "status": "yes", "days": 22, "text": "The Jharkhand Municipal Trade License Regulation, 2017 provides deemed approval: if an application is not processed within 9 days (no inspection) or 22 working days (with inspection), it is treated as deemed approved." },
+      "validity": { "text": "Valid for 12 months from issuance; renewal applications must be submitted at least one month before expiry; renewals generally do not require inspection, though the municipal authority may conduct random post-renewal inspections." },
+      "fees": { "text": "Annual fee based on built-up area of commercial premises: up to 100 sq. ft. ₹300; 101-500 sq. ft. ₹500; 501-1,000 sq. ft. ₹1,500; above 1,000 sq. ft. ₹2,500. Fee schedules are subject to revision by individual ULBs; no verified official figure exists for any additional consultant charges discussed informally." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Online Application Submission", "automated": true, "note": "Applicant submits application via the Municipal License Management System or Single Window portal, uploads documents, and pays the fee online." },
+        { "n": 2, "phase": "scrutiny", "title": "Primary Verification", "automated": "partial", "note": "Dealing assistant performs an initial review before forwarding the file to the section head." },
+        { "n": 3, "phase": "scrutiny", "title": "Technical Verification", "automated": "partial", "note": "Section head conducts secondary/technical verification and may refer for site inspection if deemed necessary." },
+        { "n": 4, "phase": "inspect", "title": "Site Inspection (if required)", "automated": false, "note": "Tax Daroga or concerned inspector conducts inspection; report submitted to the approval authority." },
+        { "n": 5, "phase": "approve", "title": "Final Review & Decision", "automated": "partial", "note": "Approval authority evaluates the application, documents, and inspection report to approve, reject, or return for corrections." },
+        { "n": 6, "phase": "approve", "title": "License Issuance", "automated": "partial", "note": "A provisional license may be issued under the 2017 trust-and-verify approach, with final approval following successful verification." }
+      ],
+      "ed": { "date": "25-08-2026", "location": "Department of Industry, Nepal House, Single window office, Ranchi", "expert": "Utkarsh Kumar", "designation": "Manager IT" },
+      "remarks": [
+        "The Jharkhand Municipal Act, 2011 is the primary legislation empowering municipalities to levy trade license fees; the Jharkhand Municipal Trade License Regulation, 2017 is the governing procedural framework for all notified ULBs (Nagar Nigams, Nagar Parishads, Nagar Panchayats/NACs).",
+        "Any proposed removal of duplicative requirements must be explicitly mapped against the Jharkhand Municipal Act, 2011 and the Municipal Trade License Regulation, 2017, to ensure legal validity."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The application process is fully digital via the Municipal/Trade License Management System or Single Window portal, with mandatory document uploads, online fee payment, and real-time status tracking." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "The 2017 regulation establishes a four-tier internal approval workflow: primary verification (dealing assistant), technical verification (section head), site inspection if required (Tax Daroga/inspector), and final review (approval authority)." },
+        { "source": "ed", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "While initial application and fee payment are online, manual intervention is still required for internal reporting and physical site inspections." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "Under the 2017 regulation's 'trust-and-verify' approach, a provisional license can be issued within 1 day, with final approval following successful verification." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Final license is issued within 9 days without inspection, or within 22 working days when inspection is required (inspection report due in 10 working days, decision within a further 3 working days)." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "Deemed-approval provision under the 2017 regulation grants automatic approval if the ULB fails to dispose of the application within the mandated 9- or 22-day timeframe." },
+        { "source": "ed", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants are often required to repeatedly submit documentation already available in ULB records or accessible via integrated government portals." },
+        { "source": "ed", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Applications are frequently marked 'pending' due to document upload quality issues or delays in obtaining inter-departmental clearances and technical reports." },
+        { "source": "ed", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The requirement for multiple licenses/NOCs for a single establishment leads to redundant collection of the same establishment details across different applications." },
+        { "source": "ed", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Manual file movement to central offices and repetitive verification steps significantly extend overall processing times." },
+        { "source": "ed", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Although the 2017 regulation does not mandate routine inspections for renewals, the continued practice of physical inspection for every renewal cycle is flagged as redundant." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Risk-based classification ('hazardous'/'non-hazardous') is referenced in documentation, but there is insufficient evidence of a comprehensive formal risk matrix currently integrated into the trade license approval process." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Recommended a formal low/medium/high risk-based matrix using criteria such as environmental impact, fire/food-safety risk, hazardous materials use, and premises scale, to target inspections." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Recommended unifying the portal with departmental databases (Fire, Health, Environment) for automatic validation and auto-population, eliminating redundant submissions." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended an 'automated statutory clock' that auto-generates the deemed-approval notification once the 9-day/22-working-day deadline is crossed." },
+        { "source": "ed", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Recommended a single, comprehensive 'deficiency memo'/checklist for rejected or returned applications, instead of piecemeal communication." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "No verified or official consultant-fee figure exists despite 'discussions regarding potential consultant charges' being mentioned; the ED explicitly flags this as unconfirmed." },
+        { "flag": "MISSING", "text": "A formal risk-based classification matrix for TLA is referenced only as a documentation category ('hazardous'/'non-hazardous'); actual criteria/thresholds are not established in current practice." },
+        { "flag": "VAGUE", "text": "Fee schedules are described as 'subject to revision by individual ULBs' without specifying how applicants learn the current ULB-specific fee short of checking the portal at application time." },
+        { "flag": "GOOD_PRACTICE", "text": "The 'trust-and-verify' approach allows a 1-day provisional license with later verification, reducing time-to-start for businesses." },
+        { "flag": "REFORM", "text": "ED recommends expanding the trust-and-verify model so provisional licenses are issued within one day for low-risk businesses generally, deferring detailed verification." }
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License — Renewal",
+      "sourceFile": "Jharkhand_ED_TLR.docx",
+      "issuingAuthority": "Urban Local Body (ULB), Urban Development & Housing Department, Government of Jharkhand",
+      "portal": { "name": "Jharkhand municipal services portal (accessed via Single Window redirect), 'Renew Licence' function", "url": null },
+      "timeline": { "minDays": null, "maxDays": 22, "basis": "Municipal trade-license framework specifies a 22-working-day timeline for disposal or deemed approval; the expert noted approvals can sometimes be granted promptly or immediately when documentation is complete and correct, though no official minimum figure was given", "text": "The municipal trade-license framework specifies a 22-working-day timeline for application disposal or deemed approval; approvals can be granted promptly, sometimes immediately, when all required documents are correctly uploaded, though a reliable average turnaround was not mentioned by the experts." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Current-year holding/property tax receipt for the business premises",
+        "Previous municipal trade license (copy or original)",
+        "Updated documents and/or additional departmental clearances/NOCs (conditional, depending on nature of business or specific ULB requirements)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "yes", "days": 22, "text": "The municipal trade-license framework specifies a 22-working-day timeline for disposal or deemed approval of renewals; the ED notes no business type was identified as requiring more than this window." },
+      "validity": { "text": "The municipal trade license is generally valid for 12 months; renewal applications should typically be submitted at least one month prior to the expiry date." },
+      "fees": { "text": "Renewal fees follow the same built-up-area-based structure as new licenses (2017 framework): up to 100 sq ft ₹300; 101-500 sq ft ₹500; 501-1,000 sq ft ₹1,500; above 1,000 sq ft ₹2,500. The portal dynamically calculates applicable charges, including any arrears or penalties, and this portal-displayed total is treated as controlling even if it differs from the base framework." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Login and Retrieval", "automated": true, "note": "Applicant logs in via the single window system, is redirected to the Jharkhand municipal services portal, selects Municipal Trade Licence > Renew Licence, and retrieves existing license details." },
+        { "n": 2, "phase": "fee", "title": "Submission and Payment", "automated": true, "note": "Applicant provides renewal particulars, uploads required/amended documents, and pays the renewal fee including any arrears or penalties online." },
+        { "n": 3, "phase": "scrutiny", "title": "Verification", "automated": "partial", "note": "Municipal functionaries verify the application and submitted documents; routine inspections are generally not required since renewal follows the earlier approval framework." },
+        { "n": 4, "phase": "approve", "title": "Verification/Inspection and Issuance", "automated": "partial", "note": "Where necessary, the ULB undertakes verification or a random inspection; upon compliance, the renewed license is approved and issued electronically." }
+      ],
+      "ed": { "date": "25-08-2026", "location": "Department of Industry, Nepal House, Single window office, Ranchi", "expert": "Utkarsh Kumar", "designation": "Manager IT" },
+      "remarks": [
+        "Renewal follows the same statutory and fee framework (2017 Regulation) as new Trade License applications; routine renewals generally do not require inspection under this framework."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Renewal is facilitated entirely online via a single-window redirect to the Jharkhand municipal services portal's dedicated 'Renew Licence' function." },
+        { "source": "ed", "category": "policy", "tags": ["INSPECT"], "sentiment": "positive", "text": "Because renewal follows the earlier approval framework, routine inspections are generally not required, though the ULB may still conduct verification or a random inspection where necessary." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The municipal trade-license framework specifies a 22-working-day timeline for disposal or deemed approval of renewals." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "positive", "text": "The expert noted that when all required documents are uploaded correctly and in order, renewal approvals can be granted promptly, sometimes immediately." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No business type was identified by the expert as requiring more than the standard 22-working-day window for renewal approval." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "Renewal fees follow the same built-up-area-based structure as new licenses; the portal dynamically calculates the controlling total, including any arrears or penalties." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The current process involves repetitive document verification and redundant departmental clearances for renewal." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended that information already in the municipal database be pre-populated for routine renewals rather than requiring re-submission by the applicant." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Recommended electronic verification of departmental NOCs through system integration, eliminating duplicate physical-copy uploads." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Recommended a risk-based renewal framework exempting low-risk businesses with no operational changes from routine inspections, while continuing to route high-risk/specially regulated trades for targeted verification or NOC checks." },
+        { "source": "ed", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Key burdens include ongoing document re-submission, the possibility of physical/random inspections even for routine renewals, and manual processes for obtaining/paying departmental clearances." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended end-to-end digital renewals with pre-populated forms, automated property/holding-tax data integration, and automated fee calculation." },
+        { "source": "ed", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Recommended a single, consolidated deficiency-notice system for any renewal application issues." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The Jharkhand municipal portal offers distinct, streamlined workflows for new applications, renewals, surrenders, amendments, and license searches, described as a benchmark digital model." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "No official minimum/typical turnaround figure is confirmed for renewal; the expert's 'sometimes immediate' claim is informal, and the document notes a 'reliable average turnaround time... was not mentioned.'" },
+        { "flag": "MISSING", "text": "Specific conditions or triggers for a ULB 'random inspection' of a renewal are not defined — described only as discretionary." },
+        { "flag": "GOOD_PRACTICE", "text": "A dedicated 'Renew Licence' function within the Jharkhand municipal portal, combined with online payment and status tracking, provides a replicable digital model." },
+        { "flag": "REFORM", "text": "ED recommends a risk-based renewal framework to exempt low-risk, unchanged-operations businesses from routine inspection obligations." },
+        { "flag": "VAGUE", "text": "The exact scope of 'updated documents and relevant departmental clearances/NOCs' required 'depending on the nature of the business' is not itemized beyond the standard tax receipt plus previous license." }
+      ]
+    }
+  ]
+}

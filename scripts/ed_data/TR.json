@@ -1,0 +1,315 @@
+{
+  "code": "TR",
+  "name": "Tripura",
+  "licenses": [
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFile": "TR_ED_FNO.docx",
+      "issuingAuthority": "Directorate of Fire & Emergency Services (F&ES), Agartala — District Fire Officer reviews/recommends; Director approves and issues the final Fire NOC/Fire Safety Certificate.",
+      "portal": { "name": "Department's online portal (specific name not given)", "url": null },
+      "timeline": {
+        "minDays": null,
+        "maxDays": 42,
+        "basis": "Departmental (non-statutory) working timeline: ~21 working days for the Fire Safety Recommendation stage, followed by ~21 more working days for the final Fire NOC after inspection, for non-self-certified applications (~21+21 total). Department is working towards reducing this to 15+15 working days.",
+        "text": "Non-self-certified applications take roughly 21 working days for the Fire Safety Recommendation stage plus another 21 working days for the final NOC after compliance inspection. The department aims to cut this to 15 working days at each stage; self-certified (Low/Moderate risk) applications skip the recommendation stage but no specific day count is given for them."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Building plan / land ownership document",
+        "Proposed/existing building details (new vs. old construction)",
+        "Occupancy/use-category details (e.g., residential, commercial, hospital, coaching centre, etc.)",
+        "Emergency evacuation plan",
+        "Details of the authorised signatory",
+        "Self-certification report of fire-safety installations (for self-certified small-building applications, in place of the recommendation stage)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No deemed-approval provision currently exists. Introducing one, along with flagging/escalating applications pending beyond the timeline due to department-side delay, was discussed as a suggestion but is not currently operationalised."
+      },
+      "validity": {
+        "text": "Under a new rule reported effective around 2 June, Fire NOC validity is now uniform at 3 years for all categories, with a mandatory annual renewal via third-party inspection. Previously, validity was 5 years for residential buildings and 3 years for commercial/non-residential buildings, with no separate annual renewal requirement."
+      },
+      "fees": {
+        "text": "Application fee approx. Rs. 3,000; renewal fee approx. Rs. 2,500, as the current reported fee structure."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant applies for Fire NOC through the department's online portal", "automated": true, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Self-certification submitted (small/low-moderate risk buildings) or application routed to Regional/District Fire Station (larger/high-risk buildings)", "automated": "partial", "note": "Self-certification route up to 500 sq.m and 10m height." },
+        { "n": 3, "phase": "scrutiny", "title": "District Fire Officer reviews building plan/occupancy and issues Fire Safety Recommendation", "automated": false, "note": "Non-self-certified applications only; based on checklist attached to the online application." },
+        { "n": 4, "phase": "apply", "title": "Applicant complies with recommended fire-safety measures and resubmits", "automated": false, "note": "" },
+        { "n": 5, "phase": "inspect", "title": "Physical inspection by enquiry/inspecting officer verifies compliance", "automated": false, "note": "" },
+        { "n": 6, "phase": "approve", "title": "Director approves and issues final Fire NOC/Fire Safety Certificate", "automated": "partial", "note": "For self-certified applications, the District Officer verifies documents and forwards directly to the Director, skipping the recommendation stage." }
+      ],
+      "ed": {
+        "date": "24-07-2026",
+        "location": "Directorate of F&ES, Fire Brigade Chowmuhani, Agartala, West Tripura",
+        "expert": "Shri Sanjib Karmakar",
+        "designation": "Member (JO(CR), Directorate of F&ES, Agartala)"
+      },
+      "remarks": [
+        "Maharashtra was cited as a reference point for renewal practice — issuing licences for a shorter period (around 2 years) with more frequent (roughly 6-monthly) renewal, compared with Tripura's own move to 3-year validity with annual renewal; raised for benchmarking, not as a direct recommendation.",
+        "The new validity-period rule (uniform 3-year validity with mandatory yearly third-party renewal inspection) is very recent (reported effective from around 2 June), so its actual impact on applicants and the department is yet to be observed.",
+        "Surprise inspections may be carried out at any point during the validity period, in addition to scheduled renewal-linked inspections.",
+        "The department is working towards reducing the current ~21+21 working-day timeline to 15 working days at each stage."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The process is primarily online/portal-based (application submission, self-certification, document upload, status tracking), but the recommendation-compliance-inspection loop and the physical site inspection remain in-person/offline steps." },
+        { "source": "ed", "category": "pain", "tags": ["INFORMAL", "PORTAL"], "sentiment": "issue", "text": "Despite online status tracking being available, a significant number of citizens/consultants still visit the fire station, district office, or department office in person to follow up on pending applications." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue", "text": "The overall process can stretch to 2-3 years in practice despite the official 21+21 working-day timeline, largely due to delays in tracking/responding to departmental queries and inconsistent follow-up; an example was cited of an applicant/consultant being unaware for an extended period that the application had already been returned with a query." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Delay is often attributed to the applicant's side (time taken to comply with the recommendation and respond to queries) rather than the department, though pendency on the department's side was also acknowledged as a possibility." },
+        { "source": "ed", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "The department is working towards reducing the recommendation and post-compliance inspection timelines from the current ~21+21 working days towards a target of ~15+15 working days." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "A new rule effective around 2 June made Fire NOC validity uniform at 3 years for all categories with mandatory annual renewal via third-party inspection, replacing the earlier 5-year (residential)/3-year (commercial) validity with no interim renewal requirement." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE", "OTHER"], "sentiment": "suggestion", "text": "The possibility of introducing a deemed approval provision, with flagging/escalation of applications pending beyond the timeline where the delay is on the department's side, was discussed as a suggestion but is not currently operationalised." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "positive", "text": "A three-tier risk classification (Low/Moderate/High) determines the pathway: Low/Moderate risk buildings (up to ~500 sq.m and 10m height) are eligible for a simplified single-stage self-certification route, while High-risk/larger buildings must go through the full recommendation-and-inspection process." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "The official did not identify any specific redundant or duplicate requirement in the current checklist; existing documentation/compliance requirements were described as the minimum necessary to maintain safety." },
+        { "source": "ed", "category": "procedural", "tags": ["INFORMAL"], "sentiment": "positive", "text": "The department has introduced empanelled third-party inspection/consultant agencies, with a blacklisting mechanism for non-performing agencies, partly to formalise this role and reduce dependence on unorganised middlemen." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "Recent National Building Code (NBC)-linked norm revisions — such as easing minimum travel-distance/spacing requirements (e.g., to around 15m) and occupancy-based relaxations (e.g., for institutional buildings) — were cited as reforms already introduced to ease the compliance burden." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Maharashtra was cited as issuing licences for a shorter period (around 2 years) with roughly 6-monthly renewal cycles, versus Tripura's new 3-year validity with annual renewal; raised for benchmarking rather than as a direct recommendation to adopt it." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Recommended improving proactive online status communication/notifications so applicants and consultants are promptly informed of queries or returned applications, reducing the need for physical follow-up visits." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Post-approval compliance checklist includes maintaining fire-safety equipment, maintaining registers of upkeep/alterations, reporting required changes, and periodic (including surprise) inspections; under the new rule, a mandatory yearly renewal inspection via empanelled third-party agencies also applies." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The new validity-period rule is very recent (reported effective from around 2 June), so its actual impact on applicants and the department is yet to be observed." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "No specific day timeline is given for the self-certified (Low/Moderate risk) pathway — only the 21+21 working-day figure for non-self-certified applications is quantified." },
+        { "flag": "VAGUE", "text": "The portal is referred to only as 'the department's online portal' with no specific name or URL given." },
+        { "flag": "MISSING", "text": "The discussed deemed approval/escalation mechanism for department-side delays has no stated timeline for implementation and is not currently operationalised." },
+        { "flag": "REFORM", "text": "New uniform 3-year validity with mandatory annual third-party renewal inspection took effect around 2 June 2026, replacing the previous 5-year/3-year validity scheme; impact not yet observed per the official." },
+        { "flag": "GOOD_PRACTICE", "text": "Empanelled third-party inspection/consultant system with a blacklisting mechanism aims to formalise assistance and reduce dependence on informal intermediaries." },
+        { "flag": "VAGUE", "text": "Exact basis for the 'approx. Rs. 3,000' application fee and 'approx. Rs. 2,500' renewal fee is not specified beyond being described as the current fee structure." }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFile": "TR_ED_LEM.docx",
+      "issuingAuthority": "Legal Metrology Department, Government of Tripura — Head of Department/Controller of Legal Metrology is the approving authority.",
+      "portal": { "name": "Swagat portal (single-window system maintained by the Industry Department)", "url": null },
+      "timeline": {
+        "minDays": null,
+        "maxDays": 14,
+        "basis": "Departmental guideline was originally 21 days; superseded by a notification mandating service delivery within 14 days, after which the application is deemed approved.",
+        "text": "The departmental guideline for approval is 21 days, but a subsequent notification mandates service delivery within 14 days; in practice officials indicated approvals are generally issued earlier than the full 14 days."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Dealer: Authorisation from the company/brand being dealt with",
+        "Dealer: Identification proof (any national ID)",
+        "Dealer: Land ownership document (or rent/lease agreement if premises are rented)",
+        "Repairer: Identification proof",
+        "Repairer: Land ownership or rent/lease document",
+        "Repairer: Technical Competence Certificate",
+        "Packer: Identification proof",
+        "Packer: Land ownership document or rent/lease document"
+      ],
+      "documentsNote": "Each license type requires only 2-3 documents overall; documentation itself was not identified as a major difficulty.",
+      "deemedApproval": {
+        "status": "yes",
+        "days": 14,
+        "text": "If no action/response is given by the department within the mandated 14-day period, the application is automatically deemed approved. Officials stated they generally aim to issue decisions before the 14-day period lapses."
+      },
+      "validity": {
+        "text": "The license is currently valid for a lifetime (perpetual), with no renewal required. Previously, licenses required renewal once in a calendar year; this was changed to one-time lifetime validity as part of a deregulation reform."
+      },
+      "fees": {
+        "text": "Manufacturer: ₹25,000 (lifetime; no manufacturers currently registered in Tripura). Repairer: ₹10,000 (lifetime). Dealer: ₹5,000 (lifetime). Fee last revised in February. The Swagat portal (operated by the Industry Department) additionally levies a reported turnover-based charge on top of the departmental fee, introduced after the transition to Swagat 2.0."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits application online through the Swagat portal", "automated": true, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Applicant submits required documents online (ID, land ownership/rent document, and dealership authorization or Technical Competence Certificate as applicable)", "automated": true, "note": "" },
+        { "n": 3, "phase": "scrutiny", "title": "Scrutiny Officer examines/verifies documents and confirms fee payment", "automated": "partial", "note": "" },
+        { "n": 4, "phase": "approve", "title": "Application forwarded to Head of Department/Controller for final signature/approval", "automated": false, "note": "" },
+        { "n": 5, "phase": "approve", "title": "License issued and made available to applicant online via the portal", "automated": true, "note": "No physical copies required after the online application." }
+      ],
+      "ed": {
+        "date": "21-08-2026",
+        "location": "O/o the Controller of Legal Metrology, Pt, Nehru Complex Rd, Gorkhabasti, 79 Tilla, Agartala, Tripura 799006",
+        "expert": "R. P. Choudhury, S. P. Roy",
+        "designation": "Assistant Controller (R. P. Choudhury); Inspector (S. P. Roy)"
+      },
+      "remarks": [
+        "Tripura was highlighted as one of the pioneering states in moving to perpetual/lifetime validity of Legal Metrology licenses (removing periodic renewal) as part of a deregulation reform (BRAP/DRAP); this has also been acknowledged at the level of the Director of Legal Metrology/Government of India.",
+        "The stated objective of the online system is contactless service delivery; officials indicated some hesitation in providing direct in-person assistance to applicants, partly due to concerns about being perceived or photographed as undertaking offline processing of an otherwise fully digital service.",
+        "A grievance redressal mechanism is available through email, a helpline/phone complaints, the NCS portal, and formal letters to the Controller; grievances are generally resolved within one day of receipt.",
+        "Applications are generally not rejected; even where an applicant does not wish to proceed, the application remains pending in the system indefinitely since there is currently no option to delete/withdraw it."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The licensing process (dealer, repairer, manufacturer, packer, importer) is completely online and paperless; only the verification/certification (calibration/testing) service remains offline because it requires physical comparison of mass/volume." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "CAPACITY"], "sentiment": "issue", "text": "There is no offline submission option for the licensing process; given limited digital literacy among some applicants, officials noted both online and offline/assisted modes should ideally be available." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "positive", "text": "The departmental guideline is 21 days, superseded by a notification mandating service delivery within 14 days; in practice approvals are generally issued earlier than the full 14 days." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "positive", "text": "License validity changed from periodic (annual) renewal to lifetime/perpetual validity as a deregulation reform; Tripura was cited as a pioneer in this change, acknowledged at the GoI level." },
+        { "source": "ed", "category": "pain", "tags": ["FEES", "PORTAL"], "sentiment": "issue", "text": "The Swagat portal (operated by the Industry Department) levies an additional, reportedly turnover-based charge on top of the notified Legal Metrology fee; Legal Metrology officials stated they were not aware of the exact basis or quantum of this charge." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "No redundant or duplicate documentation requirements were identified; officials confirmed a Legal Metrology license does not require documents to be furnished to or duplicated from any other department, unlike (for example) a trade license." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY", "INFORMAL"], "sentiment": "issue", "text": "Applicants frequently seek assistance from local computer centres/consultants, mainly due to limited digital literacy/comfort with online portals rather than process complexity, at an avoidable additional cost." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Suggested reform: retain or introduce an assisted/offline option alongside the online system, or provide designated assistance points/help desks, though currently constrained by low application volumes and limited manpower for a dedicated desk." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "No risk-based classification is applied to this service; officials' concern is whether the weighing/measuring instrument is accurate, not the scale or nature of the business, so documentation requirements apply uniformly." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "positive", "text": "Physical inspections are no longer required as part of the licensing process, following deregularisation (previously required, now omitted by the Government of India)." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended expanding existing monthly awareness camps from awareness-only sessions to hands-on application support sessions guiding applicants through filling the form and uploading documents." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended providing applicants an option to withdraw or delete an application they no longer wish to pursue, since applications currently remain pending indefinitely with no delete option." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Recommended formally reviewing and clearly communicating the additional Swagat portal charges to applicants, supported by a clear notification and transparent fee structure." },
+        { "source": "ed", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Recommended maintaining and strengthening the existing 14-day deemed approval provision and enabling applicants to track the status/countdown of their application through the portal." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE"], "sentiment": "positive", "text": "A grievance redressal mechanism is available via email, helpline/phone complaints, the NCS portal, and formal letters to the Controller; grievances are generally resolved within one day of receipt." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL"], "sentiment": "neutral", "text": "The stated objective of the online system is contactless service delivery; officials indicated some hesitation in providing direct in-person assistance partly due to concerns about being perceived/photographed as doing offline processing of an otherwise fully digital service." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "The exact basis/quantum of the additional turnover-based charge levied via the Swagat portal by the Industry Department is unclear even to Legal Metrology officials." },
+        { "flag": "MISSING", "text": "No specific timeline or process detail is given for the offline verification/certification (calibration/testing) service beyond noting it is manual." },
+        { "flag": "GOOD_PRACTICE", "text": "Tripura's shift to lifetime/perpetual Legal Metrology license validity (removing periodic renewal) was cited as a deregulation best practice, acknowledged at the GoI level." },
+        { "flag": "MISSING", "text": "No option currently exists for applicants to withdraw/delete a pending application; applications remain pending indefinitely if the applicant decides not to proceed." },
+        { "flag": "INCONSISTENT", "text": "The cost of using local computer centres/consultants is cited within the same discussion as both 'at least ₹1,000' and 'approximately ₹2,000 per applicant'." },
+        { "flag": "REFORM", "text": "Suggested introducing a formal assisted digital support mechanism (not necessarily a permanent help desk) for applicants uncomfortable with online portals, via designated hours, awareness camps, or trained facilitation personnel — not yet implemented." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFile": "TR_ED_TLA.docx",
+      "issuingAuthority": "Agartala Municipal Corporation — zonal officer (Assistant Municipal Commissioner) reviews and digitally signs the approval.",
+      "portal": { "name": "Agartala Municipal Corporation's online application portal (specific name not given)", "url": null },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": 7,
+        "basis": "Notified/statutory timeline of 7 days. A provisional certificate (valid 7 days) is issued immediately on payment; the final digitally signed certificate is issued generally within the 7-day window.",
+        "text": "The notified/statutory timeline is 7 days. Delays, where they occur, are primarily attributed to the citizen's side (documents not submitted correctly or on time) rather than internal staffing capacity, inspection scheduling, or dependency on another department."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Identity proof (Aadhaar/PAN/Voter ID or similar)",
+        "Business/establishment details",
+        "Type of business",
+        "Partnership details (where applicable)"
+      ],
+      "documentsNote": "As part of an earlier deregulation exercise, a property-tax document and a No-Objection Certificate (NOC) from the property owner were removed from requirements; identification is now the only document sought beyond business details.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No deemed approval provision for trade licenses in Tripura."
+      },
+      "validity": {
+        "text": "Once officials verify documents and issue the final Standard Trade License, it is valid for the duration of the current financial year."
+      },
+      "fees": {
+        "text": "Fee depends on the type/scale of trade, reported to range from a minimum of ₹300 to a maximum of ₹30,000 (e.g., a large shopping mall cited at the ₹30,000 end); last revised in the last year. No separate charges apply for scrutiny, documentation or inspection — the trade fee is the only amount collected."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits application online with identity proof, business details, type of business, and partnership details (where applicable)", "automated": true, "note": "" },
+        { "n": 2, "phase": "scrutiny", "title": "Document verifier/clerk at the concerned division checks the form and submitted documents", "automated": false, "note": "" },
+        { "n": 3, "phase": "approve", "title": "Zonal officer (Assistant Municipal Commissioner) reviews and digitally signs (DSC) the approval", "automated": "partial", "note": "" },
+        { "n": 4, "phase": "fee", "title": "Applicant makes payment online", "automated": true, "note": "" },
+        { "n": 5, "phase": "approve", "title": "Provisional certificate (valid 7 days) issued immediately on payment", "automated": true, "note": "Allows applicant to start business/attachment work while final certificate is processed." },
+        { "n": 6, "phase": "approve", "title": "Final digitally signed certificate issued, generally within the 7-day window", "automated": true, "note": "" }
+      ],
+      "ed": {
+        "date": "20/08/2026",
+        "location": "Agartala Municipal Corporation, Paradise Chowmuhani, City Centre Complex, Melarmath, Dhaleswar, Agartala, Tripura 799001",
+        "expert": "Anirudh Das, Chandan Paul",
+        "designation": "System Analyst (Anirudh Das); Senior Programmer (Chandan Paul)"
+      },
+      "remarks": [
+        "The department maintains an in-house IT/development team that resolves system issues and glitches directly; significant software changes go through a joint decision between the Commissioner's office and the administrative side, while minor changes are handled internally without a formal process.",
+        "Real-time dashboards allow monitoring of pending applications and adherence to the 7-day timeline at any time.",
+        "Officials flagged a possible downstream concern of the simplified documentation: since only identification is verified (not proof tied to the specific business premises), establishing the facts of a business's physical existence could be difficult if a legal dispute arose; they indicated this may need to be raised with the deregulation authority."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The entire application process is online with no offline steps; no physical file or hard-copy document is maintained, and there is no provision to submit a physical copy after applying online." },
+        { "source": "ed", "category": "procedural", "tags": ["CAPACITY"], "sentiment": "neutral", "text": "Applicants uncomfortable with the online portal can visit a counter at the zonal office, ward office, or CSC, where staff assist in completing the same online application — described as assisted digital support, not a separate offline process." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE", "COMPLY"], "sentiment": "neutral", "text": "The notified/statutory timeline is 7 days; delays, where they occur, are primarily attributed to the citizen's side (documents not submitted correctly or on time) rather than internal staffing, inspection scheduling, or inter-department dependency." },
+        { "source": "ed", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "positive", "text": "As part of an earlier deregulation exercise, a property-tax document and an NOC from the property owner were removed from requirements; identification is now the only document sought." },
+        { "source": "ed", "category": "pain", "tags": ["NORMS"], "sentiment": "issue", "text": "Officials flagged that since only identification (not proof tied to the specific business premises) is now verified, establishing the facts of a business's physical existence could be difficult if a legal dispute arose; this may need to be raised with the deregulation authority." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "No clearance from any other department is required to issue a trade license, and other departments (e.g., Fire) do not need to furnish documentation to this department either." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No risk-based classification system (by sector, scale, hazard, compliance history, or accreditation) currently exists for trade license approval; officials indicated this has not been considered." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Physical inspection is not compulsory/routine; it is conducted only on a specific complaint or as part of an occasional random/joint inspection (e.g., with the food department or police), not as a mandatory requirement for the trade license itself." },
+        { "source": "ed", "category": "delay", "tags": ["FEES"], "sentiment": "issue", "text": "Non-payment of the fee was cited as the single leading reason applications remain pending, rather than documentation or procedural complexity." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Officials suggested integrating Aadhaar-based verification via an API could eliminate a stage of the process (manual identification-document verification), since nearly everyone now has an Aadhaar card." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The application process is fully electronic/paperless end-to-end including administrative/record-keeping; real-time dashboards allow monitoring of pending applications and 7-day timeline adherence." },
+        { "source": "ed", "category": "procedural", "tags": ["CAPACITY"], "sentiment": "positive", "text": "Assisted-digital support is available via counters at zonal offices, ward offices and CSCs, along with a WhatsApp/helpline number and periodic market-level awareness camps (reported about 10 times a year) for applicants unfamiliar with the online portal." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Suggested a structured pendency-management mechanism, given a large share of applications (reported as roughly 4,000 of about 5,000 received annually) remain pending — primarily due to incorrect/incomplete documentation or non-payment of fees — with no currently defined timeline for closing such pending cases." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The department maintains an in-house IT/development team resolving system issues directly; significant software changes go through a joint decision between the Commissioner's office and administrative side, while minor changes are handled internally without a formal process." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "The statutory fee depends on type/scale of trade, ranging from ₹300 minimum to ₹30,000 maximum (e.g., a large shopping mall cited at the ₹30,000 end); last revised in the last year; no separate charges apply for scrutiny, documentation, or inspection." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The portal's name/URL for the AMC trade license online system is not given in the ED — referred to generically as 'the portal'/'online application'." },
+        { "flag": "VAGUE", "text": "The exact timeframe of 'the last year' for the most recent fee revision is not specified." },
+        { "flag": "MISSING", "text": "No deemed approval provision exists, but no alternative escalation/grievance mechanism for applications stuck beyond the 7-day timeline is described." },
+        { "flag": "VAGUE", "text": "The scale of the pendency problem is given only as an approximate ratio ('roughly 4,000 out of about 5,000 received annually') without an exact figure or time period specified." },
+        { "flag": "GOOD_PRACTICE", "text": "A fully electronic/paperless process with no physical file at any stage, combined with real-time dashboards for monitoring the 7-day timeline, was highlighted as a best practice." },
+        { "flag": "REFORM", "text": "Suggested reform: Aadhaar-based (API) identity verification to reduce/eliminate manual verification of identification documents — not yet implemented." }
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License — Renewal",
+      "sourceFile": "TR_ED_TLR.docx",
+      "issuingAuthority": "Agartala Municipal Corporation — authorised officer digitally signs the renewed certificate.",
+      "portal": { "name": "Agartala Municipal Corporation's online application portal (specific name not given)", "url": null },
+      "timeline": {
+        "minDays": 1,
+        "maxDays": 2,
+        "basis": "Certificate is issued immediately on payment; the digitally signed version generally follows within a day or two once signed by the authorised officer.",
+        "text": "Renewal is largely automated on payment — a certificate is issued immediately, with the digitally signed version generally following within a day or two."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [],
+      "documentsNote": "No fresh documentation is required for renewal — the applicant only needs to provide the existing trade license number.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No deemed approval provision for trade licenses in Tripura."
+      },
+      "validity": {
+        "text": "At renewal, the applicant can choose a validity period of either 1 year or 5 years. A 9-month window after expiry is available within which renewal can be completed; renewal sought beyond this window attracts a late fee (reported as 10% of the applicable fee), and arrears for lapsed years must also be paid at the time of renewal — this is still processed as a renewal, not a fresh application."
+      },
+      "fees": {
+        "text": "The renewal fee follows the same slab as a fresh application — reported to range from a minimum of ₹300 to a maximum of ₹30,000 depending on type/scale of trade — multiplied by the number of years chosen for renewal. The fee is non-refundable, even where a business is later found to be operating outside what was declared."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant logs into the portal and enters the existing trade license number", "automated": true, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Applicant selects the desired validity period — 1 year or 5 years", "automated": true, "note": "" },
+        { "n": 3, "phase": "fee", "title": "Applicable fee calculated automatically (base fee × number of years) and displayed", "automated": true, "note": "" },
+        { "n": 4, "phase": "fee", "title": "Applicant pays the fee online", "automated": true, "note": "" },
+        { "n": 5, "phase": "approve", "title": "Certificate issued immediately on payment; digitally signed version follows once signed by the authorised officer", "automated": "partial", "note": "Digitally signed version generally follows within a day or two." }
+      ],
+      "ed": {
+        "date": "20/08/2026",
+        "location": "Agartala Municipal Corporation, Paradise Chowmuhani, City Centre Complex, Melarmath, Dhaleswar, Agartala, Tripura 799001",
+        "expert": "Anirudh Das, Chandan Paul",
+        "designation": "System Analyst (Anirudh Das); Senior Programmer (Chandan Paul)"
+      },
+      "remarks": [
+        "If an applicant has added a new business/trade item since the original license was issued, this can simply be added at the time of renewal rather than requiring a separate new license.",
+        "Officials noted that any further change to the renewal process (such as automatic renewal) would need to go through the department's administrative approval process."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The renewal process is entirely online with no physical presence required at any point; it is largely automated on payment." },
+        { "source": "ed", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "positive", "text": "No fresh documentation is required for renewal — the applicant only needs to provide the existing trade license number, which officials highlighted as a significant simplification compared to the fresh-application process." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "At renewal, the applicant can choose a validity period of either 1 year or 5 years, with the fee calculated automatically as the base fee multiplied by the number of years." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "A 9-month window after expiry is available for renewal; renewal sought beyond this window attracts a late fee (reported as 10% of the applicable fee), and arrears for lapsed years must also be paid — still processed as renewal, not a fresh application." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "The renewal fee follows the same ₹300–₹30,000 slab as a fresh application, multiplied by the years chosen; the fee is non-refundable even where a business is later found operating outside what was declared." },
+        { "source": "ed", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Discussion raised the idea of a fully automatic (auto-debit style) renewal similar to an FD or subscription auto-renewal; officials clarified this is not currently offered, since the trade license fee applies only when the citizen seeks the continued benefit (unlike a recurring tax) and the department does not hold applicants' payment-instrument details." },
+        { "source": "ed", "category": "procedural", "tags": ["RENEWAL"], "sentiment": "positive", "text": "A single-click, 5-year renewal option was introduced approximately 4-5 years ago, removing the need to renew annually, which officials said has saved processing time for both the applicant and the department." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "If an applicant has added a new business/trade item since the original license was issued, this can simply be added at renewal rather than requiring a separate new license." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "No risk-based classification system exists for trade license renewal." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "No specific post-renewal compliance checklist was identified; late-fee and backlog-payment provisions apply only where renewal is delayed beyond the permitted window." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "neutral", "text": "Officials noted that any further change to the renewal process, such as automatic renewal, would need to go through the department's administrative approval process." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "positive", "text": "The certificate is issued immediately on payment; the digitally signed version generally follows within a day or two once signed by the authorised officer." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "No exact statutory/notified timeline (number of days) is given for the renewal process itself — it is only described as 'largely automated' with the digital signature 'generally' following within a day or two." },
+        { "flag": "MISSING", "text": "No deemed approval provision for trade license renewal, and no alternative escalation/grievance mechanism for delayed digital signature issuance is described." },
+        { "flag": "MISSING", "text": "No recommendations specific to renewal were proposed by officials beyond the existing 5-year renewal option." },
+        { "flag": "VAGUE", "text": "The timing of the single-click 5-year renewal option's introduction is given only approximately ('4-5 years ago')." },
+        { "flag": "GOOD_PRACTICE", "text": "The single-click 5-year renewal option, requiring only the existing license number, was cited as having saved processing time for both applicant and department." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "code": "GJ",
+  "name": "Gujarat",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFile": "GJ_ED_BPA.docx",
+      "issuingAuthority": "Development Permission authorities (local urban development/town planning bodies), via a multi-tier L1 (initiator)/L2 (verifier)/L3 (final approval authority) login structure",
+      "portal": { "name": "IFP (common application form) for application intake; eNagar Gujarat for processing in major urban centers", "url": null },
+      "timeline": { "minDays": 15, "maxDays": 90, "basis": "As stated by the experts: major urban centers process online applications via eNagar Gujarat within 15-45 days; smaller local bodies or projects requiring extensive NOCs can take 30-90 days.", "text": "Major urban centers typically process applications in 15-45 days via eNagar Gujarat, while smaller local bodies or projects needing extensive NOCs can take 30-90 days." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "DWG (AutoCAD) drawing file",
+        "NOCs",
+        "Ownership proof",
+        "Layout",
+        "Non-agricultural (NA) order",
+        "Site-specific NOCs (e.g. from Airport Authority of India, Ministry of Defence, state-run airports, railways), depending on location"
+      ],
+      "documentsNote": "Site-specific NOCs are required only where the project site is near sensitive zones (airports, defence areas, railways, etc.); each such NOC follows its own issuing agency's timeline.",
+      "deemedApproval": { "status": "yes", "days": null, "text": "Online/deemed approval is compulsory up to 15 metres of building height; beyond that, approval is discretionary and requires full manual authority review. A self-certification model also applies to single residential dwelling units up to 125 sq. m." },
+      "validity": { "text": "A building plan approval (development permission) lapses if construction work is not commenced within one year from the date of the commencement certificate or development permission." },
+      "fees": { "text": "A scrutiny fee is paid as part of the application process; if a drawing-level defect leads to a 'revoke' and reapplication, the already-paid fee is adjusted against the fresh application rather than charged again. Specific fee amounts/slabs were not stated." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Register and apply via IFP common application form, select authority", "automated": true, "note": "" },
+        { "n": 2, "phase": "scrutiny", "title": "Upload DWG (AutoCAD) file for pre-DCR auto-scrutiny", "automated": true, "note": "Pre-DCR software runs automated layering and compliance checks on the drawing." },
+        { "n": 3, "phase": "apply", "title": "Complete owner registration (Gujarat-specific step)", "automated": null, "note": "" },
+        { "n": 4, "phase": "apply", "title": "Upload supporting documents (NOCs, ownership proof, layout, NA order, etc.)", "automated": null, "note": "" },
+        { "n": 5, "phase": "scrutiny", "title": "POR (licensed architect/engineer) conducts technical review and gives consent", "automated": false, "note": "" },
+        { "n": 6, "phase": "fee", "title": "Pay scrutiny fee", "automated": true, "note": "" },
+        { "n": 7, "phase": "scrutiny", "title": "Multi-tier authority review: L1 receives/routes, L2 conducts full CGDCR-compliant scrutiny, L3 gives final approval", "automated": "partial", "note": "Landing is centralised even in multi-zone cities; L2 scrutiny is manual." },
+        { "n": 8, "phase": "inspect", "title": "Stage-wise physical inspections after approval (commencement, plinth, intermediate storeys, final storey)", "automated": false, "note": "A recent initiative allows a third-party POA representative, not only the original POR, to conduct site verification for low-risk categories." }
+      ],
+      "ed": { "date": "05/08/2026", "location": "Committee Room, Industries Commissionerate, 2nd Floor, Block No. 1, Udyog Bhavan, Sector 11, Gandhinagar, Gujarat", "expert": "Sandip Darji; Shalin Parekh; Rakesh", "designation": "Junior Town Planner (Sandip Darji, Shalin Parekh); IT Officer (Rakesh) — Development Permission authorities" },
+      "remarks": [
+        "The state is focusing on integrating Building Plan Approval with related services — Consent to Establish/Operate, Factory License, and BU permission — into a more unified framework, alongside the newly formed DPIFC.",
+        "About 800 files undergo pre-scrutiny daily, but only around 400 (roughly 50%) are formally submitted to the authority, indicating applicants often iterate drawings multiple times before formal submission.",
+        "Terminology differs by category: a post-approval disqualification is termed 'revoke' for cases up to 15 metres that were deemed approved, versus a straightforward 'reject' for cases above 15 metres requiring manual approval (since no prior deemed approval existed)."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "delay", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "Under the earlier IFP/ODPS single-login system (launched 2017), a single nodal-officer login handled all scrutiny, so any query on either the document or the drawing pushed the file back into a pending state, slowing throughput." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "QUERY", "GRIEVANCE"], "sentiment": "issue", "text": "There is currently no portal option for an applicant to ask for clarification when a scrutiny officer's comment on a required drawing revision is unclear; the applicant must visit in person or send an email, adding delay." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "CAPACITY"], "sentiment": "issue", "text": "Very large/complex drawings (e.g. a roughly 15-lakh sq. m institutional campus) have been difficult to upload and process online, occasionally requiring manual handling due to file-size and layer complexity." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY", "OTHER"], "sentiment": "issue", "text": "Applications are often filed in the name of an individual landowner rather than the operating company, obscuring which industry is actually operating on a leased or rented plot." },
+        { "source": "ed", "category": "procedural", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Multi-tier authority review (L1/L2/L3) splits file initiation/routing, full technical/CGDCR-compliant scrutiny, and final approval across distinct logins, replacing the earlier single-login bottleneck." },
+        { "source": "ed", "category": "policy", "tags": ["INTERDEP", "POSITIVE"], "sentiment": "positive", "text": "Fire-safety and building-bylaw staircase requirements were recently synchronised (the fire code previously required two staircases where bylaws allowed one), resolving an earlier inconsistency between departments." },
+        { "source": "ed", "category": "redundant", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "issue", "text": "Building Plan Approval, fire department clearance and GPCB consent independently check related but distinct aspects (bylaws/margins/parking vs. fire safety vs. pollution/machinery); the same facility can be checked independently by multiple departments with differing requirements until departments actively synchronise norms." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "NORMS"], "sentiment": "issue", "text": "Information such as Aadhaar and PAN, already available with government departments, is sometimes still required from applicants rather than being auto-fetched, though PAN-linked auto-fetch is part of the National Single Window System mandate and is being progressively streamlined." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "About 800 files undergo pre-scrutiny daily, but only around 400 (roughly 50%) are formally submitted to the authority, indicating applicants often iterate their drawings multiple times before committing to formal submission." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE"], "sentiment": "positive", "text": "A self-certification model applies to single residential dwelling units up to 125 square metres." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE", "INTERDEP"], "sentiment": "positive", "text": "The newly formed Development Permission & Investor Facilitation Cell (DPIFC), under the Chief Town Planner's office, acts as a single point of contact guiding investors across multiple NOC-issuing agencies (e.g. ONGC, railways, fire, airports), including 'green channel' facilitation for large investments." },
+        { "source": "ed", "category": "procedural", "tags": ["CAPACITY"], "sentiment": "neutral", "text": "Roughly 5,000-10,000 architects and engineers are currently empanelled on the portal through the CGDCR licensee registration process, supporting the POR-based technical review model." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "QUERY"], "sentiment": "suggestion", "text": "Enable an online query-clarification channel so applicants can resolve unclear technical/drawing-revision comments directly through the portal instead of an in-person visit or email." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC", "PORTAL"], "sentiment": "suggestion", "text": "Improve auto-fetch of already-available government data (continuing ongoing efforts, including recent Government of India-level coordination) to auto-fetch PAN-linked and other government-held data, reducing repeat document submission." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Deepen inter-agency integration, building on the model already used for fire safety (aligning staircase norms), to further synchronise requirements across Building Plan Approval, Consent to Establish/Operate, Factory License and other linked NOC-issuing agencies." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "CAPACITY"], "sentiment": "suggestion", "text": "Strengthen handling of large/complex file submissions so the upcoming ODPS 3 system can reliably process very large plan files (e.g. large institutional or industrial campuses) without requiring manual workarounds." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Continue expanding risk-based deemed-approval thresholds, building on the existing 15-metre compulsory online/deemed-approval threshold and the 125 sq. m self-certification model, with appropriate risk-based safeguards, as ODPS 3 is rolled out." },
+        { "source": "ed", "category": "delay", "tags": ["INTERDEP", "TIMELINE"], "sentiment": "issue", "text": "Depending on location (e.g. proximity to airports, defence zones, or other specific jurisdictions), applicants may need separate site-specific NOCs from multiple agencies — such as the Airport Authority of India, the Ministry of Defence, state-run airports, or railways — each on its own timeline." },
+        { "source": "ed", "category": "procedural", "tags": ["CLARITY"], "sentiment": "neutral", "text": "Terminology differs by deemed-approval category: a post-grant disqualification is termed 'revoke' for cases up to 15 metres that were deemed approved, but a straightforward 'reject' for cases above 15 metres requiring manual approval, since no prior deemed approval existed there." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Specific fee amounts/slabs for the scrutiny fee were not stated in the ED." },
+        { "flag": "MISSING", "text": "No specific day-count is given for the 'deemed approval' itself (only the 15-metre height eligibility threshold is specified; the exact deemed-approval timeline/trigger in days is not stated)." },
+        { "flag": "VAGUE", "text": "The acronym 'IFP' (application portal) is used without being expanded/defined in the document, and its relationship to 'eNagar Gujarat' (named as the processing portal for major urban centers) is not fully clarified." },
+        { "flag": "GOOD_PRACTICE", "text": "Multi-tier L1 (initiator)/L2 (verifier)/L3 (final approval) authority review, replacing the earlier single-login bottleneck that stalled files on any query." },
+        { "flag": "GOOD_PRACTICE", "text": "Development Permission & Investor Facilitation Cell (DPIFC) as a single point of contact across multiple NOC-issuing agencies, including a 'green channel' for large investments." },
+        { "flag": "REFORM", "text": "Synchronisation of fire-safety and building-bylaw staircase requirements, resolving an earlier inconsistency between the fire department and building bylaws." },
+        { "flag": "MISSING", "text": "The full list of documents required for each site-specific NOC category (airport, defence, railway, etc.) is not itemised — only the general category of required NOCs is named." }
+      ]
+    },
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFile": "GJ_ED_CTE.docx",
+      "issuingAuthority": "Gujarat Pollution Control Board (GPCB) — Regional Officer/district level for Green-category applications, Unit Head level for Orange-category, Member Secretary level for Red-category; White-category industries are exempt and only submit an intimation",
+      "portal": { "name": "XGN (Extended Green Node) — GPCB's web application, accessed via redirection from the IFP (Industries Facilitation Portal)", "url": null },
+      "timeline": { "minDays": null, "maxDays": 120, "basis": "Maximum processing period as stated by the expert, with different internal timelines depending on pollution category and project size.", "text": "The maximum processing period for Consent to Establish is 120 days, with internal timelines varying by pollution category (Green/Orange/Red) and project size." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Land ownership/possession documents",
+        "Manufacturing process details",
+        "Site/layout plan",
+        "Investment details",
+        "Raw materials/products details",
+        "Water and wastewater generation details",
+        "Pollution-control measures proposal",
+        "EIA Report (where applicable)",
+        "Environmental Clearance (where applicable)",
+        "Other statutory clearances (where applicable)",
+        "CA certificate (used to compute the fee based on investment amount)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "yes", "days": null, "text": "Consent to Establish can be deemed granted for Micro and Small Enterprises located in notified industrial estates/areas on a self-certified application, since the land has already undergone environmental assessment. No specific day-count for the deemed grant was stated." },
+      "validity": { "text": "Consent to Establish is generally valid for five years from the date of grant, extendable by a maximum of two additional years upon application, for a maximum total validity of seven years." },
+      "fees": { "text": "Fee is calculated based on the applicant's investment amount, computed using the CA certificate submitted with the application. Specific fee slabs/amounts were not discussed." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Register on the IFP (Industries Facilitation Portal)", "automated": true, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Portal redirects applicant to GPCB's XGN (Extended Green Node) web application", "automated": true, "note": "" },
+        { "n": 3, "phase": "apply", "title": "Fill and submit online application for Consent to Establish", "automated": true, "note": "" },
+        { "n": 4, "phase": "scrutiny", "title": "Application routed to concerned officer for scrutiny and acceptance", "automated": "partial", "note": "Routing is online; the technical scrutiny itself is manual." },
+        { "n": 5, "phase": "scrutiny", "title": "Applicant responds to and clears objections raised during scrutiny", "automated": false, "note": "Objections are mostly on technical documents, e.g. proposed Environment Management System not matching best available technology." },
+        { "n": 6, "phase": "fee", "title": "Pay the requisite fee", "automated": true, "note": "" },
+        { "n": 7, "phase": "approve", "title": "Consent to Establish granted by the competent authority based on pollution category", "automated": "partial", "note": "Authority level (Regional Officer/Unit Head/Member Secretary) depends on Green/Orange/Red category; White-category units are exempt and only submit an intimation." },
+        { "n": 8, "phase": "inspect", "title": "Site inspection (only for units on revenue land)", "automated": false, "note": "No site visit is required for units that do not require prior EC and are located in notified GIDC industrial estates." }
+      ],
+      "ed": { "date": "05-08-2026", "location": "Committee Room, Industries Commissionerate, 2nd Floor, Block No. 1, Udyog Bhavan, Sector 11, Gandhinagar, Gujarat", "expert": "Mehul", "designation": "IT Head, Gujarat Pollution Control Board (GPCB), Government of Gujarat" },
+      "remarks": [
+        "Industry category (Green/Orange/Red) is self-selected by the applicant via a searchable drop-down on the portal (similar to Udyam Aadhaar registration) and is verified by GPCB officers against the manufacturing-process document at the time of scrutiny; officers may reclassify if the selection is inaccurate.",
+        "Activities not covered by existing NIC-based categories are referred to a category committee.",
+        "Gujarat was the first state in India to digitize environmental governance (since 2008) and, per the expert, remains the most transparent/digitized system among states today."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY", "COMPLY"], "sentiment": "issue", "text": "Despite the process being fully digitized and described by the expert as straightforward and transparent, industry owners remain heavily dependent on architects/consultants for technical submissions (EMS/plant layout design) and for filling the application form itself, adding cost on top of an already compliance-heavy process." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "A 2025 portal revamp targeted a maximum of about 9-10 pages with no more than roughly 25 fields per page, to reduce application complexity." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "A walk-in help desk at the GPCB office where staff directly assist industries in filing applications." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE", "OTHER"], "sentiment": "positive", "text": "Quarterly WhatsApp messaging to industry associations and explanatory videos on the portal are used as additional outreach/support channels." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Gujarat was the first state in India to digitize environmental governance (since 2008) and, per the expert, remains the most transparent/digitized system among states today." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE", "GRIEVANCE"], "sentiment": "positive", "text": "'Environment Clinics' — scheduled, non-inspection sessions (e.g. weekly, at industry-association offices) where GPCB officers attend as advisors (not inspectors) and industries can raise compliance concerns informally/without attribution." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "District-level 'Open Houses' open to any industry representative or member of the public, sometimes including academic experts or officials from other departments, to answer queries and gather input." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "POSITIVE"], "sentiment": "positive", "text": "Physical site inspection is waived for units in GIDC-notified industrial areas, since land suitability there is already vetted, avoiding duplication of the verification carried out for revenue-land units." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE"], "sentiment": "positive", "text": "For notified-area applications, GPCB effectively operates on a self-certification basis: Consent to Establish is granted purely on submitted documents, with no site visit required (or only depending on industry requirements)." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES", "CLARITY"], "sentiment": "neutral", "text": "Fee is calculated based on the applicant's investment amount using the CA certificate submitted with the application; specific fee slabs/amounts were not discussed by the expert." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS", "CLARITY"], "sentiment": "neutral", "text": "Pollution category (Green/Orange/Red) is self-declared by the applicant via a searchable drop-down, then verified by GPCB officers against the manufacturing-process document at scrutiny; officers may reclassify if the selection is inaccurate." },
+        { "source": "ed", "category": "procedural", "tags": ["CLARITY", "OTHER"], "sentiment": "neutral", "text": "Activities not covered by existing NIC-based categories are referred to a category committee for classification." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY", "CAPACITY"], "sentiment": "suggestion", "text": "The expert suggested continuing to strengthen self-certification (for notified areas) and outreach channels (clinics, open houses, help desk, portal videos) to reduce industries' dependence on paid consultants, viewing the barrier as more about applicants' comfort with technical requirements than procedural complexity." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The maximum processing period for Consent to Establish is 120 days, with different internal timelines depending on pollution category and project size (not individually broken down in the ED)." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE"], "sentiment": "positive", "text": "White-category industries, which have comparatively negligible pollution potential, are exempt from obtaining consent and are generally required only to submit an intimation to GPCB." },
+        { "source": "ed", "category": "procedural", "tags": ["QUERY", "COMPLY"], "sentiment": "neutral", "text": "Objections raised during scrutiny are mostly on technical documents, e.g. a proposed Environment Management System not matching best available technology, which the applicant must then respond to and clear." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "Although application submission, scrutiny routing, fee payment and approval are all processed online, scrutiny of technical submissions (e.g. STP/EMS design) is currently done manually by officers." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Specific fee slabs/amounts for Consent to Establish were not discussed in the ED, only that the fee is based on investment amount per the CA certificate." },
+        { "flag": "MISSING", "text": "No day-count is given for the deemed-grant pathway available to Micro and Small Enterprises in notified industrial estates." },
+        { "flag": "VAGUE", "text": "Only a maximum processing timeline (120 days) is stated; the different internal timelines by pollution category and project size are referenced but not individually specified." },
+        { "flag": "GOOD_PRACTICE", "text": "'Environment Clinics' and district-level 'Open Houses' — informal, non-inspection forums for industries to raise compliance concerns directly with GPCB officers." },
+        { "flag": "GOOD_PRACTICE", "text": "Self-certification/deemed-grant pathway for Micro and Small Enterprises in notified industrial estates, plus exemption (intimation-only) for White-category industries." },
+        { "flag": "REFORM", "text": "2025 portal revamp reducing the application form to about 9-10 pages with a cap of roughly 25 fields per page, to cut complexity." }
+      ]
+    }
+  ]
+}
