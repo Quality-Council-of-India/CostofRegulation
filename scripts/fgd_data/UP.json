@@ -1,0 +1,623 @@
+{
+  "code": "UP",
+  "name": "Uttar Pradesh",
+  "licenses": [
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFiles": ["UP_FGD_ECL.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Industrial applicants may undergo inspections at different stages of the electricity connection process, with different officials verifying technical requirements, site conditions, wiring, load requirements and other aspects." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "QUERY"], "sentiment": "issue", "text": "Coordinating with officials for inspection scheduling increases the time required; applicants may need repeated follow-ups to ensure inspections are scheduled and completed." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Infrastructure-related expenditure (transformers, cables, poles, metering, internal wiring, safety equipment/devices) was identified as an important and separate component of the overall cost of obtaining an industrial electricity connection, beyond the official processing fee." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE", "INFRA"], "sentiment": "issue", "text": "Transformer availability and installation were highlighted as a key factor affecting timeline for high-load connections; where a dedicated/additional transformer is required, availability can delay final release and affect commencement or expansion of operations." },
+        { "source": "fgd", "category": "pain", "tags": ["NORMS"], "sentiment": "issue", "text": "The load sanctioned by the department may sometimes be higher than the actual requirement of the industrial unit, forcing applicants to develop additional infrastructure to support the sanctioned (rather than actual) load, resulting in unnecessary expenditure." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Load assessment should be based more closely on the actual and justified requirement of the applicant, supported by transparent technical criteria." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Limited predictability on how long individual stages (technical feasibility, inspection, infrastructure development, transformer installation, final release) will take; participants suggested establishing clear timelines for each stage." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY", "GRIEVANCE"], "sentiment": "issue", "text": "Applicants often need repeated follow-ups with concerned officials to understand application status and move it forward, across technical feasibility, inspection scheduling, documentation, infrastructure requirements and final release." },
+        { "source": "fgd", "category": "procedural", "tags": ["CONSULT"], "sentiment": "issue", "text": "Industrial applicants often depend on electrical consultants for drawings, technical documentation, application filing and coordination during inspections, creating an additional cost for businesses beyond official charges." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT"], "sentiment": "issue", "text": "Technical feasibility assessment (whether the existing network can accommodate requested load) can affect overall processing time, particularly for high-load industrial connections." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT"], "sentiment": "issue", "text": "Inspection scheduling was identified as a reason for delay; coordination needed to arrange site inspections, and scheduling/completion delays affect subsequent stages." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Right-of-way issues (where poles, cables or other infrastructure need to pass through areas requiring permissions/access) can delay electricity infrastructure development and extend the overall timeline." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Establish clear, measurable timelines for every stage of the electricity connection process, from application submission through technical feasibility, inspection, infrastructure installation, metering and final release." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Provide a real-time digital tracking facility showing current application status, pending action, responsible official and expected completion timeline, to reduce repeated visits and follow-ups." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "To get an industrial electricity connection, documents required include identity proof (Aadhar, Photo, PAN, CoI, Partnership deed, Rent Deed) and property ownership/occupancy proof." }
+      ],
+      "quotes": [
+        { "speaker": "Participant-1", "quote": "Understanding the electricity load requirement and completing the related formalities takes significant time. Coordinating inspections and following up with the concerned officials is required at almost every stage of the process. These repeated follow-ups continue until the electricity connection is finally released, increasing the overall time and effort required from the applicant.", "topic": "Time cost of coordination and follow-ups", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue" },
+        { "speaker": "Participant-2", "quote": "The electricity load sanctioned by the department is often considerably higher than the actual requirement of the industrial unit. As a result, the applicant may have to arrange additional infrastructure such as transformers, cables and other electrical equipment to support the sanctioned load, leading to unnecessary additional expenditure.", "topic": "Load over-sanctioning", "tags": ["NORMS", "FEES"], "sentiment": "issue" },
+        { "speaker": "Participant-3", "quote": "Transformer availability is one of the major reasons for delay, particularly for high-load electricity connections. In addition, right-of-way issues can delay the installation of required electrical infrastructure such as cables and poles. These infrastructure-related issues can significantly extend the overall time taken to receive the electricity connection.", "topic": "Transformer and right-of-way delays", "tags": ["TIMELINE", "INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Participant-4", "quote": "The industrial unit had to depend on an electrical consultant for preparation of technical drawings, completion of technical formalities and liaison/coordination with the concerned department. This created an additional cost for the business over and above the official charges payable for obtaining the electricity connection.", "topic": "Consultant dependence and cost", "tags": ["CONSULT", "FEES"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "FGD participants did not give a specific rupee figure for the extra infrastructure cost incurred when the sanctioned load exceeds actual need; it is described only as 'unnecessary expenditure,' unlike other UP FGD sessions that gave concrete cost ranges." },
+        { "flag": "MISSING", "text": "Neither the ED nor this FGD gives day-based timelines for individual stages (feasibility check, inspection scheduling, transformer installation); FGD participants explicitly flag this lack of predictability as a problem, reinforcing the ED's own MISSING gap on the same point." },
+        { "flag": "REFORM", "text": "FGD participants' asks (transparent, requirement-based load-assessment criteria and real-time digital tracking with stage-level timelines) echo reforms the ED expert already recommended but which remain unimplemented (risk-based classification, GIS-based planning) — business testimony corroborates that these reforms have not yet reached applicants." }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFiles": ["UP_FGD_FAL.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY", "FEES"], "sentiment": "issue", "text": "Structural audit is a significant cost component for obtaining the Factory License, with participants reporting an approximate cost of INR 40,000-50,000 (the session's own Quotes table separately cites INR 20,000-25,000 for the same item — see gaps)." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "Layout plan and factory drawing involve additional costs, as technical drawings generally require support from consultants or technical professionals." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT", "FEES"], "sentiment": "issue", "text": "High consultancy/intermediary charges were reported in some cases, ranging approximately INR 60,000-70,000, over and above the applicable statutory government fees." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT", "CLARITY"], "sentiment": "issue", "text": "Applicants often depend on consultants because the Factory License application process and technical requirements are difficult to understand independently." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "Nivesh Mitra 3.0 was described as more complex than Nivesh Mitra 2.0, particularly regarding application forms, document requirements and overall process flow; proper/sufficiently clear information is not readily available through the system." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE", "CONSULT"], "sentiment": "issue", "text": "Non-response or delayed response from the Nivesh Mitra support team creates difficulty obtaining clarification and increases dependence on consultants to resolve process-related issues." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Some applicants have been required to physically approach the concerned department or submit documents even after online filing, although reported only in limited cases." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "CLARITY"], "sentiment": "issue", "text": "Departmental queries are difficult to understand and resolve without professional assistance, particularly where they relate to technical documents, drawings or compliance requirements." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY", "TIMELINE"], "sentiment": "issue", "text": "Queries may sometimes be raised close to the end of the deemed-approval timeline, creating uncertainty and reducing the practical benefit of the prescribed timeline." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Duplication reported in submission of PAN, GST registration, identity/address proof of the occupier, and ownership/lease/rent documents, particularly where the same information is already available through government records." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "The existing Factory Licence and previously submitted application-related documents/forms must be resubmitted during subsequent applications or renewals; worker strength, power load and machinery details are also resubmitted even when unchanged." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Duplication identified in submission of the Fire Safety Certificate and UPPCB Consent documents, where these may already have been submitted or could potentially be verified through departmental records." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "suggestion", "text": "Participants suggested relevant information from GST, MSME/Udyam and MCA databases/portals could be retrieved or verified through the Nivesh Mitra ecosystem rather than requiring repeated uploads." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "RENEWAL"], "sentiment": "suggestion", "text": "A risk-based regulatory approach was suggested: establishments with satisfactory compliance history and no material changes could have a simplified renewal mechanism, retaining detailed scrutiny for changes, non-compliance or higher-risk activities." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "CLARITY"], "sentiment": "suggestion", "text": "Simplify Nivesh Mitra 3.0 with a service-specific, step-by-step workflow, a comprehensive document checklist and plain-language guidance." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Strengthen integration between Factory Licence, Labour, Fire and Pollution Control systems so common applicant information/documents are submitted only once and shared across departments." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Introduce a transparent query management mechanism with clearly stated reasons for queries, defined response timelines and status tracking until final disposal." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive", "text": "Participants acknowledged the Nivesh Mitra 3.0 portal has helped digitise the Factory Licence process, but highlighted the need for further simplification and improved user-friendliness." }
+      ],
+      "quotes": [
+        { "speaker": "Participant(s)", "quote": "Structural audit costs of approximately ₹20,000-₹25,000 [were reported] as a significant component of compliance cost.", "topic": "Structural audit cost", "tags": ["COMPLY", "FEES"], "sentiment": "issue" },
+        { "speaker": "Participant(s)", "quote": "Consultant/intermediary charges of approximately ₹60,000-₹70,000 in some cases, in addition to statutory fees and other compliance costs.", "topic": "Intermediary cost", "tags": ["CONSULT", "FEES"], "sentiment": "issue" },
+        { "speaker": "Participant(s)", "quote": "Nivesh Mitra 3.0 [is] significantly more complex than Nivesh Mitra 2.0 and ... users do not receive sufficient understanding of how to complete the forms.", "topic": "Portal complexity", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant(s)", "quote": "Multiple documents are required and ... some limited cases involved physical submission or departmental interaction even after online filing.", "topic": "Residual physical visits", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant(s)", "quote": "Deemed-approval timelines were discussed as 15 days for non-hazardous and 30 days for hazardous industries, but queries may arise on the last day.", "topic": "Deemed approval and late queries", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue" },
+        { "speaker": "Participant(s)", "quote": "Linking Factory License with Labour, Fire and Pollution Control systems so that common information is not repeatedly submitted.", "topic": "Inter-departmental integration suggestion", "tags": ["INTERDEP"], "sentiment": "suggestion" },
+        { "speaker": "Participant(s)", "quote": "Rationalising structural audit requirements based on establishment size and risk while retaining necessary safety oversight.", "topic": "Structural audit rationalisation", "tags": ["NORMS", "COMPLY"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED: the expert explicitly confirmed 'no physical department visit is required at any stage' of the Factory License process. FGD: participants reported that 'some applicants have been required to physically approach the concerned department or submit documents even after online filing, although this was reported only in limited cases.' This is a genuine factual contradiction on the ground-level experience of a claim the ED stated without qualification." },
+        { "flag": "MISSING", "text": "The ED's fees record covers only the statutory government fee (and already flags an internal inconsistency between two cited ranges). The FGD reveals substantial additional de-facto costs not captured in the ED record: structural audit charges (participants cite both ~INR 40,000-50,000 and, in the same document's quotes table, ~INR 20,000-25,000) and consultant/intermediary charges of ~INR 60,000-70,000." },
+        { "flag": "VAGUE", "text": "This FGD document itself gives two different figures for the structural audit cost — INR 40,000-50,000 in the Pain Points/Policy Issues/Other Remarks sections versus ₹20,000-₹25,000 in the Key Statements & Quotes table — an internal inconsistency within the single source document, not resolved by the text." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": ["UP_FGD_FNO.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY", "FEES"], "sentiment": "issue", "text": "High cost of mandatory fire-safety infrastructure (fire extinguishers, alarms, sprinklers, emergency exits, water storage/pumps, fire-resistant electrical installations); initial infrastructure cost estimated at approximately INR 1,00,000-1,50,000." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "First-time applicants face difficulty understanding technical fire-safety guidelines and requirements." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT", "FEES"], "sentiment": "issue", "text": "Businesses often depend on private fire-safety/electrical consultants for technical drawings, documentation and application support, with additional consultant fees of approximately INR 10,000-30,000." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL", "COMPLY"], "sentiment": "issue", "text": "Recurring compliance requirements (quarterly checks, six-monthly emergency drills, annual equipment compliance) add to the ongoing compliance burden." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "Although there is no significant direct official application fee, the overall cost of obtaining and maintaining Fire NOC compliance is high due to infrastructure, consultant, documentation and inspection-related expenses." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Lack of standardized and predictable inspection timelines makes it difficult for businesses to plan for inspection and approval." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Multiple follow-ups may be required after inspection to understand application status and address observations raised by the department." },
+        { "source": "fgd", "category": "procedural", "tags": ["CONSULT", "INTERDEP"], "sentiment": "issue", "text": "Applicants need to coordinate with architects, engineers, consultants and departmental officials before inspection, increasing time and effort." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "issue", "text": "Where deficiencies/non-compliance are identified during inspection, applicants must rectify issues and may undergo re-inspection before approval." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same or similar supporting documents may be requested more than once at different stages, increasing administrative burden particularly where already submitted online." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT"], "sentiment": "issue", "text": "Pending inspections can delay movement to the next stage; re-inspection requirements after rectification further increase overall approval time." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "Clarifications regarding submitted documents require additional communication between applicant and department, extending processing time." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Simplify and rationalize documentation requirements and avoid repeated submission of the same documents." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Introduce risk-based inspections, particularly simplified procedures for low-risk establishments, while maintaining scrutiny for high-risk establishments." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Publish a standardized inspection checklist so applicants know requirements before inspection; establish a dedicated applicant helpdesk for first-time applicants." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants appreciated the Government's efforts towards digitization and online service delivery for Fire NOC-related processes, and considered the statutory/direct fee reasonable compared with other compliance costs." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "Understanding the fire-safety guidelines and preparing the required documentation was identified as one of the most difficult parts of the process, particularly for first-time applicants ... it took around 2-3 working days to understand the requirements, arrange the necessary documents and prepare for the application.", "topic": "First-time applicant preparation time", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Equipment such as fire extinguishers, alarms and sprinklers cost well over INR 1 lakh before the application could be completed. ... businesses are classified into different risk-based categories, with high-risk establishments requiring more extensive fire-safety compliance.", "topic": "Substantive infrastructure cost", "tags": ["COMPLY", "FEES"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Although there is no significant official fee for obtaining the Fire NOC, the overall cost becomes substantial due to private consultant charges and repeat inspections. These indirect costs accumulate ... and create a higher compliance burden for businesses than the statutory cost alone.", "topic": "Indirect cost vs. statutory cost", "tags": ["FEES", "CONSULT"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The same set of supporting documents had to be submitted more than once at different stages of the process ... documents already submitted should be reused wherever possible.", "topic": "Redundant document submission", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Providing a standardized inspection checklist and a fixed inspection timeline would make the Fire NOC process more predictable ... help businesses prepare in advance and avoid unnecessary waiting and repeated follow-ups.", "topic": "Suggestion: checklist and fixed timeline", "tags": ["CLARITY", "TIMELINE"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "FGD does not confirm whether the ED-cited 15-working-day statutory timeline for provisional/final/renewal Fire NOC is actually met in practice; participants only describe a general lack of predictability and separately cite 2-3 days for their own document preparation, which is a different metric." },
+        { "flag": "VAGUE", "text": "Participants reference 'high-risk establishments' requiring more extensive compliance but give no specific threshold or criteria distinguishing risk categories, consistent with the ED's own note that risk-based classification was 'not specifically elaborated.'" },
+        { "flag": "GOOD_PRACTICE", "text": "FGD participants largely corroborate the ED's 'no processing fee' statement for Fire NOC — considering the statutory/direct fee reasonable and not a major concern compared with other costs — which tends to support one side of the ED document's own internal inconsistency (Step 6 vs. the Statutory Fee section)." }
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFiles": ["UP_FGD_RSE.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Lack of clarity regarding required documents and registration procedure, particularly for first-time applicants, makes it difficult to understand the complete process and comply correctly at the initial stage." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Multiple documents required for registration even where similar information/documents may already be available with other government departments or portals." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY", "FEES"], "sentiment": "issue", "text": "Difficulty understanding the applicable registration category and fee structure based on nature, size and number of employees, creating uncertainty for applicants." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT", "FEES"], "sentiment": "issue", "text": "Some applicants prefer to engage consultants to minimise rejection risk, reportedly paying approximately INR 5,000-9,000 for assistance." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "High cost of obtaining the registration compared with perceived benefits; some participants stated the registration provides no significant/immediate benefit and is viewed primarily as an additional compliance requirement." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Technical issues with the online portal (document upload, application submission, generating payment receipts) and lack of real-time application tracking." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "GRIEVANCE"], "sentiment": "issue", "text": "Need for repeated follow-ups with the department to obtain status updates or resolve issues, with limited visibility of the exact stage/action required; lack of a responsive grievance/helpdesk mechanism." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Difficulty making amendments or updating registration details when establishment particulars change (address, ownership, nature of business, employee strength)." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Time and cost of compliance are particularly burdensome for small establishments with limited administrative resources, who may need to engage external consultants." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "Absence of a transparent, time-bound approval mechanism; applicants often face objections or rejections without clear reasoning or guidance on corrective actions." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Verification/inspection was conducted telephonically rather than through a physical site visit, with basic business-related questions asked; participants found this convenient but felt the process and criteria were not fully transparent." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "File/document upload size limitations on the portal caused minor difficulty for some applicants; no real-time status updates were received at interim stages (e.g. during telephonic verification/pending), only upon final approval." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Most participants reported approval within about 7 days of application where telephonic verification was required; delays beyond this were attributed to the applicant's own time to prepare/organise documents rather than departmental processing." },
+        { "source": "fgd", "category": "delay", "tags": ["CLARITY"], "sentiment": "issue", "text": "Lack of clarity on whether a 'deemed/auto-approval' provision applies after document submission added uncertainty for some participants." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Reduce the statutory registration fee (currently cited by participants as ₹5,000) and rationalise it to be proportionate to establishment size/nature, to ease entry for new and micro/small enterprises." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce clear, real-time status notifications at each stage of processing (submission, under verification, pending, approval), not only at final approval." },
+        { "source": "fgd", "category": "remarks", "tags": ["RENEWAL", "POSITIVE"], "sentiment": "positive", "text": "The registration has lifetime validity and does not require periodic renewal; however, participants perceive limited practical utility in regular business operations, viewing it as primarily useful for government tenders, and suggested it could potentially be merged with other business registrations." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "The registration has lifetime validity and does not require periodic renewal, which reduces the recurring compliance burden. However, the registration should provide greater practical utility to establishments. ... [it] has limited use in regular business activities and is mainly required when the establishment participates in government tenders.", "topic": "Lifetime validity, limited practical utility", "tags": ["RENEWAL"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "A consultant was engaged to prepare documents and file the application, with ₹9,000 paid as consultancy charges in addition to the ₹5,000 statutory government fee, bringing the total cost to ₹14,000.", "topic": "Consultant cost nearly triples total spend", "tags": ["CONSULT", "FEES"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Verification was carried out telephonically rather than through a physical site visit, with basic business-related questions asked, and ... approval was received within 7 days of application.", "topic": "Telephonic verification, 7-day approval", "tags": ["INSPECT", "TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "The statutory fee should be reduced, noting that the registration is primarily useful for micro and small enterprises and that a lower fee would ease entry for new businesses.", "topic": "Fee reduction suggestion", "tags": ["FEES"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "The registration is rarely required as a standalone document outside this process itself, since it is not typically sought during tender applications, and ... could potentially be merged with other business registrations.", "topic": "Limited standalone utility", "tags": ["CLARITY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "ED: Section 4-B(1) of the UP Shops and Commercial Establishments Act, 1962 provides a confirmed 30-day deemed-registration mechanism. FGD: participants reported genuine uncertainty over 'whether a deemed/auto-approval provision applies after document submission,' indicating limited applicant-side awareness of this legal safeguard despite its existence per the ED." },
+        { "flag": "MISSING", "text": "The ED's process steps (register -> CAF -> apply -> upload -> fee -> scrutiny -> approve) do not mention a telephonic verification step; FGD participants consistently describe verification being conducted by phone with basic business questions rather than a site visit, filling a gap in the ED's procedural description." },
+        { "flag": "GOOD_PRACTICE", "text": "FGD corroborates the ED's finding that the registration carries lifetime validity with no renewal required, and that most participants completed registration within roughly 7 days — within the ED's cited 1-30 day range." }
+      ]
+    },
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFiles": ["UP_FGD_BPA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "Substantial dependence on consultants/intermediaries for preparation and filing of the Building Plan Approval application; applicants generally do not find the process sufficiently self-explanatory to complete independently." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT", "FEES"], "sentiment": "issue", "text": "Consultant cost reportedly increased after migration from Nivesh Mitra 2.0 to 3.0, from approximately INR 2,000-2,500 to around INR 6,000-8,000 in some cases." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "TIMELINE"], "sentiment": "issue", "text": "Nivesh Mitra 3.0 described as comparatively lengthy and slow; completing the application can require substantial time, and the portal does not always provide clear guidance on what needs to be submitted." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY", "PORTAL"], "sentiment": "issue", "text": "Absence of a sufficiently clear user manual, document checklist, process guidance and flow chart explaining the sequence of approvals and supporting documents." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Process involves multiple supporting requirements and coordination with other authorities (fire, pollution-control, local-authority/town-planning), increasing compliance burden." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY", "FEES"], "sentiment": "issue", "text": "Concerns about cost and necessity of structural audit requirements; structural audit charges of approximately INR 20,000-25,000 were referenced (from the related factory-licensing discussion), with this session focused on the compliance burden of the requirement." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Structural audit requirement should be reviewed/rationalised for smaller units while continuing to protect the safety objective; compliance requirements should be proportionate to size and nature of the industrial unit, particularly for MSMEs." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "suggestion", "text": "Relevant information from GST, MSME/Udyam and MCA databases/portals could be retrieved or verified through the Nivesh Mitra ecosystem rather than requiring repeated uploads." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "issue", "text": "A statutory timeline of about 15 and 30 days was discussed; participants expressed concern that applications may be rejected before the full statutory period is completed, rather than remaining pending through the full period." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Applicants may still need to coordinate with or approach other departments/authorities for supporting approvals or information, despite online submission." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "No single document was identified as universally redundant; instead participants highlighted duplication of information across departments and the need to submit multiple supporting approvals/NOCs." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "Supporting documents such as Fire Safety Certificate, UPPCB consent, and ownership-related documents (ownership proof, lease deed, rent agreement) may need to be resubmitted during renewal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "CLARITY"], "sentiment": "suggestion", "text": "Develop a simple, step-by-step Nivesh Mitra 3.0 interface with a clear document checklist, process flow, FAQs and service-specific user manual, similar to commonly used digital banking applications." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Develop a centralised document repository ('Document Drive') within Nivesh Mitra where documents submitted by an establishment can be securely stored and reused." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS", "RENEWAL"], "sentiment": "suggestion", "text": "Introduce a simplified mechanism for establishments meeting defined eligibility criteria (satisfactory compliance history, no major violation, no material change, valid approvals, timely fees), with automatic renewed validity subject to risk-based verification." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Poor road infrastructure and sewer leakage were highlighted as an indirect burden, causing travel disruptions and reduced accessibility for industrial establishments, though not directly part of the licensing procedure itself." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Some participant statements regarding structural audit reports being inaccurate or fabricated were strongly worded; the source report itself notes these are participant-reported claims that should not be treated as independently established findings without further verification." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "Consultant dependence is high for Building Plan Approval because the technical plan and related documentation are generally prepared and filed with professional assistance.", "topic": "Consultant dependence", "tags": ["CONSULT"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Consultant charges were around 2,000-2,500 under Nivesh Mitra 2.0 and had increased to approximately 6,000-8,000 in some cases under Nivesh Mitra 3.0.", "topic": "Consultant cost increase", "tags": ["CONSULT", "FEES"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Nivesh Mitra 3.0 [is] comparatively lengthy and slow ... completing the application can take substantially more time than under the earlier system.", "topic": "Portal complexity/speed", "tags": ["PORTAL", "TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The portal does not provide sufficiently clear instructions, user manuals, document lists or flow charts explaining the required process.", "topic": "Procedural clarity", "tags": ["CLARITY", "PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The process involves multiple supporting requirements and coordination with fire, pollution-control and local-authority/town-planning related requirements.", "topic": "Multi-department compliance", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "[Suggested] reviewing the structural audit requirement for smaller units, while retaining appropriate safety safeguards.", "topic": "Structural audit rationalisation", "tags": ["NORMS", "COMPLY"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "[Reported] concern that applications can be rejected before the full statutory processing period, creating uncertainty for applicants.", "topic": "Early rejection concern", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "[Recommended] a simple and intuitive portal, using step-by-step guidance similar to commonly used digital banking applications.", "topic": "Portal simplification suggestion", "tags": ["PORTAL"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No participant named the issuing authority for Building Plan Approval; it is described only as processed via Nivesh Mitra with coordination required from fire, pollution-control and local/town-planning authorities." },
+        { "flag": "MISSING", "text": "No BPA-specific statutory government fee figure was given by participants; only consultant costs and a cross-referenced structural-audit cost figure from the related factory-licensing discussion were cited." },
+        { "flag": "VAGUE", "text": "Participants imply some consequence attaches to the statutory 15/30-day period (concern that applications 'may be rejected before the full statutory period is completed') but no participant explicitly confirmed or described a deemed-approval mechanism for BPA." },
+        { "flag": "VAGUE", "text": "The documents list below is inferred from general discussion of 'supporting approvals/NOCs' and duplication issues rather than from an enumerated checklist given by participants." },
+        { "flag": "REFORM", "text": "Multiple reforms were recommended (centralised document repository, GST/MSME/MCA database integration, risk-based renewal eligibility) that participants describe as not yet implemented." }
+      ],
+      "issuingAuthority": "Not explicitly named by participants in this FGD; the process is described as handled via the Nivesh Mitra portal with required coordination with fire, pollution-control and local-authority/town-planning departments.",
+      "portal": { "name": "Nivesh Mitra (Single Window Portal)", "url": null },
+      "timeline": { "minDays": 15, "maxDays": 30, "basis": "Participant-described statutory timeline, not independently verified against an official source.", "text": "Participants discussed a statutory timeline of about 15 and 30 days for the approval process, and expressed concern that applications may be rejected before the full period elapses rather than remaining pending through it." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Building/layout plan",
+        "Supporting NOCs/approvals from fire, pollution-control and local/town-planning authorities",
+        "Ownership proof, lease deed or rent agreement",
+        "Fire Safety Certificate",
+        "UPPCB consent (where applicable)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. The documents list is inferred from participants' discussion of 'supporting approvals/NOCs' and renewal-stage duplication issues rather than an enumerated checklist given in the session.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Participants referenced a 'statutory timeline of about 15 days and 30 days' and expressed concern that applications 'may be rejected before the full statutory period is completed,' implying some automatic consequence may attach at the end of this period, but no participant explicitly described or confirmed a deemed-approval mechanism." },
+      "validity": { "text": "Not discussed by participants in this FGD." },
+      "fees": { "text": "No BPA-specific statutory fee figure was given. Participants discussed consultant costs (~INR 2,000-2,500 under Nivesh Mitra 2.0, rising to ~INR 6,000-8,000 under 3.0) and referenced structural audit charges of approximately INR 20,000-25,000 from the related Factory Licence discussion, but did not state a government fee specific to Building Plan Approval." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit building/layout plan application via Nivesh Mitra", "automated": "partial", "note": "Technical plans are generally prepared with the assistance of consultants; portal does not always give clear guidance on what to submit." },
+        { "n": 2, "phase": "apply", "title": "Coordinate with fire, pollution-control and local/town-planning authorities for supporting NOCs", "automated": false, "note": "Participants indicate applicants may still need to approach other departments/authorities despite online submission." },
+        { "n": 3, "phase": "scrutiny", "title": "Department scrutiny; queries raised via the online process", "automated": "partial", "note": null },
+        { "n": 4, "phase": "approve", "title": "Statutory disposal within approximately 15-30 days", "automated": null, "note": "Participants expressed concern that applications may be rejected before the full statutory period elapses, rather than being approved or deemed approved." }
+      ],
+      "remarks": [
+        "No ED record exists for Building Plan Approval (BPA) in Uttar Pradesh; this record is derived entirely from FGD testimony and has not been cross-checked against an official source.",
+        "This BPA session and the separate Factory Building Plan Approval (FBPA) session, held one day apart at the same venue with an overlapping participant pool type, describe near-identical processes and pain points (Nivesh Mitra 3.0 complexity, the same consultant-cost increase from ~INR 2,000-2,500 to ~INR 6,000-8,000, and structural-audit concerns) — BPA appears to cover general/commercial building plan approval while FBPA covers factory-specific building plans, per their respective session headers, though the written findings text is largely shared/templated between the two reports.",
+        "This session's Key Statements & Quotes table paraphrases participant statements in the third person rather than giving verbatim first-person quotes; the quotes above reflect the closest wording the source document provides."
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFiles": ["UP_FGD_FBPA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "Substantial dependence on consultants/intermediaries for preparation and filing of the Factory Building Plan Approval application; applicants generally do not find the process sufficiently self-explanatory to complete independently." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT", "FEES"], "sentiment": "issue", "text": "Consultant cost reportedly increased after migration from Nivesh Mitra 2.0 to 3.0, from approximately INR 2,000-2,500 to around INR 6,000-8,000 in some cases." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "TIMELINE"], "sentiment": "issue", "text": "Nivesh Mitra 3.0 described as comparatively lengthy and slow; completing the application can require substantial time, and the portal does not always provide clear guidance on what needs to be submitted." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY", "PORTAL"], "sentiment": "issue", "text": "Absence of a sufficiently clear user manual, document checklist, process guidance and flow chart explaining the sequence of approvals and supporting documents." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Process involves multiple supporting requirements and coordination with other authorities (fire, pollution-control, local-authority/town-planning), increasing compliance burden." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY", "FEES"], "sentiment": "issue", "text": "Concerns about cost and necessity of structural audit requirements; charges of approximately INR 20,000-25,000 were referenced from the related factory-licensing discussion, with this session focused on the compliance burden of the requirement." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Structural audit requirement should be reviewed/rationalised for smaller units while continuing to protect the safety objective; compliance requirements should be proportionate to size and nature of the industrial unit, particularly for MSMEs." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "suggestion", "text": "Relevant information from GST, MSME/Udyam and MCA databases/portals could be retrieved or verified through the Nivesh Mitra ecosystem rather than requiring repeated uploads." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "issue", "text": "A statutory timeline of about 15 and 30 days was discussed; participants expressed concern that applications may be rejected before the full statutory period is completed." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Applicants may still need to coordinate with or approach other departments/authorities for supporting approvals or information, despite online submission." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "No single document was identified as universally redundant; instead participants highlighted duplication of information across departments and the need to submit multiple supporting approvals/NOCs." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "Supporting documents such as Fire Safety Certificate, UPPCB consent, and ownership-related documents (ownership proof, lease deed, rent agreement) may need to be resubmitted during renewal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "CLARITY"], "sentiment": "suggestion", "text": "Develop a simple, step-by-step Nivesh Mitra 3.0 interface with a clear document checklist, process flow, FAQs and service-specific user manual, similar to commonly used digital banking applications." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Develop a centralised document repository ('Document Drive') within Nivesh Mitra where documents submitted by an establishment can be securely stored and reused." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS", "RENEWAL"], "sentiment": "suggestion", "text": "Introduce a simplified mechanism for factories meeting defined eligibility criteria (satisfactory compliance history, no major violation, no material change in premises/operations, valid approvals, timely fees), with automatic renewed validity subject to risk-based verification." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Poor road infrastructure and sewer leakage were highlighted as an indirect burden causing travel disruptions and reduced accessibility, though not directly part of the licensing procedure itself." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "Consultant dependence is high for Factory Building Plan Approval because the technical plan and related documentation are generally prepared and filed with professional assistance.", "topic": "Consultant dependence", "tags": ["CONSULT"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Consultant charges were around 2,000-2,500 under Nivesh Mitra 2.0 and had increased to approximately 6,000-8,000 in some cases under Nivesh Mitra 3.0.", "topic": "Consultant cost increase", "tags": ["CONSULT", "FEES"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Nivesh Mitra 3.0 [is] comparatively lengthy and slow ... completing the application can take substantially more time than under the earlier system.", "topic": "Portal complexity/speed", "tags": ["PORTAL", "TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The portal does not provide sufficiently clear instructions, user manuals, document lists or flow charts explaining the required process.", "topic": "Procedural clarity", "tags": ["CLARITY", "PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The process involves multiple supporting requirements and coordination with fire, pollution-control and local-authority/town-planning related requirements.", "topic": "Multi-department compliance", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "[Suggested] reviewing the structural audit requirement for smaller units, while retaining appropriate safety safeguards.", "topic": "Structural audit rationalisation", "tags": ["NORMS", "COMPLY"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "[Recommended] a simple and intuitive portal, using step-by-step guidance similar to commonly used digital banking applications.", "topic": "Portal simplification suggestion", "tags": ["PORTAL"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No participant named the issuing authority for Factory Building Plan Approval; it is described only as processed via Nivesh Mitra with coordination required from fire, pollution-control and local/town-planning authorities." },
+        { "flag": "MISSING", "text": "No FBPA-specific statutory government fee figure was given; only consultant costs and a cross-referenced structural-audit cost figure from the related factory-licensing discussion were cited." },
+        { "flag": "VAGUE", "text": "No participant explicitly confirmed or described a deemed-approval mechanism for FBPA, despite implying some consequence attaches to the statutory 15/30-day period." },
+        { "flag": "REFORM", "text": "Multiple reforms were recommended (centralised document repository, GST/MSME/MCA database integration, risk-based renewal eligibility) that participants describe as not yet implemented." }
+      ],
+      "issuingAuthority": "Not explicitly named by participants in this FGD; the process is described as handled via the Nivesh Mitra portal with required coordination with fire, pollution-control and local-authority/town-planning departments, specific to factory premises.",
+      "portal": { "name": "Nivesh Mitra (Single Window Portal)", "url": null },
+      "timeline": { "minDays": 15, "maxDays": 30, "basis": "Participant-described statutory timeline, not independently verified against an official source.", "text": "Participants discussed a statutory timeline of about 15 and 30 days for the approval process, and expressed concern that applications may be rejected before the full period elapses rather than remaining pending through it." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Factory building/layout plan",
+        "Supporting NOCs/approvals from fire, pollution-control and local/town-planning authorities",
+        "Ownership proof, lease deed or rent agreement",
+        "Fire Safety Certificate",
+        "UPPCB consent (where applicable)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. The documents list is inferred from participants' discussion of 'supporting approvals/NOCs' and renewal-stage duplication issues rather than an enumerated checklist given in the session.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Participants referenced a 'statutory timeline of about 15 days and 30 days' and expressed concern that applications 'may be rejected before the full statutory period is completed,' implying some automatic consequence may attach, but no participant explicitly described or confirmed a deemed-approval mechanism." },
+      "validity": { "text": "Not discussed by participants in this FGD." },
+      "fees": { "text": "No FBPA-specific statutory fee figure was given. Participants discussed consultant costs (~INR 2,000-2,500 under Nivesh Mitra 2.0, rising to ~INR 6,000-8,000 under 3.0) and referenced structural audit charges of approximately INR 20,000-25,000 from the related Factory Licence discussion, but did not state a government fee specific to Factory Building Plan Approval." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit factory building/layout plan application via Nivesh Mitra", "automated": "partial", "note": "Technical plans are generally prepared with the assistance of consultants; portal does not always give clear guidance on what to submit." },
+        { "n": 2, "phase": "apply", "title": "Coordinate with fire, pollution-control and local/town-planning authorities for supporting NOCs", "automated": false, "note": "Participants indicate applicants may still need to approach other departments/authorities despite online submission." },
+        { "n": 3, "phase": "scrutiny", "title": "Department scrutiny; queries raised via the online process", "automated": "partial", "note": null },
+        { "n": 4, "phase": "approve", "title": "Statutory disposal within approximately 15-30 days", "automated": null, "note": "Participants expressed concern that applications may be rejected before the full statutory period elapses, rather than being approved or deemed approved." }
+      ],
+      "remarks": [
+        "No ED record exists for Factory Building Plan Approval (FBPA) in Uttar Pradesh; this record is derived entirely from FGD testimony and has not been cross-checked against an official source.",
+        "This FBPA session and the separate Building Plan Approval (BPA) session, held one day apart at different venues, describe near-identical processes and pain points, with the written 'Findings, Theme-wise' narrative text essentially identical word-for-word between the two source documents — indicating a standardized/templated write-up reused across both sessions rather than independently drafted theme summaries.",
+        "In this session's Key Statements & Quotes table, one row's 'Service Tagged' field reads 'Renewal of Factory Licence' rather than 'Factory Building Plan Approval' (the same mislabel appears in the parallel BPA document's quotes table, where it reads 'Renewal of Licence') — flagged here as a likely clerical/copy-paste artifact in the source document rather than corrected or treated as a substantive finding about renewal."
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFiles": ["UP_FGD_RFAL.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Poor road and surrounding infrastructure conditions (e.g. sewer leakage) create an indirect time/operational burden, causing delays in movement for factory representatives visiting government offices." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Renewal demands unnecessary administrative effort through repeated submission of documents, even when the factory's basic information and previous license records are already available and no underlying changes have occurred." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Absence of an auto-renewal or deemed-renewal mechanism for eligible factories with valid licenses, consistent compliance, and no material changes creates unnecessary repetitive compliance burdens; there is a lack of defined eligibility criteria and compliance-history tracking that could otherwise exempt compliant establishments." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "issue", "text": "Insufficient inter-departmental data integration forces businesses to repeatedly submit information already available with other government authorities; failure to retrieve/verify existing GST, MSME/Udyam and MCA data through Nivesh Mitra results in redundant document uploads." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "The current regulatory approach applies detailed scrutiny uniformly, lacking a risk-based mechanism differentiating highly compliant establishments from those with material changes or higher-risk activities." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "DUPDOC"], "sentiment": "issue", "text": "The renewal process is documentation-heavy and lacks a user-friendly interface; the Nivesh Mitra portal lacks a centralised document repository or facility to view, confirm and reuse previously submitted documents during subsequent renewals." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants must submit duplicate copies of previously provided documents (existing Factory Licence, Form-4, Form-4B, PAN card, GST registration, occupier ID/address proof) and resubmit unchanged operational data (worker count, power load, machinery details)." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Supporting documents (Fire Safety Certificates, UPPCB consent, ownership records) are repeatedly requested during renewal even when previously submitted versions remain valid; the system does not retain/reuse documents from initial licensing." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL", "NORMS"], "sentiment": "suggestion", "text": "Introduce an auto-renewal/simplified renewal mechanism for factories meeting defined eligibility criteria (satisfactory compliance history, no major violation, no material change, valid approvals, timely fees), with renewed validity automatically granted subject to safeguards and risk-based verification." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Develop a centralised document repository ('Document Drive') within Nivesh Mitra so submitted documents can be securely stored and reused; reduce the number of documents required and avoid repeated submission of documents already available." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Set clear timelines for each stage of scrutiny, inspection and approval; introduce time-bound disposal with automatic escalation where the prescribed timeline is exceeded; enable online scheduling of inspections." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Strengthen integration between Nivesh Mitra and government databases (GST, MSME/Udyam, MCA) so already-available information is electronically retrieved/verified rather than resubmitted." },
+        { "source": "fgd", "category": "remarks", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "Renewal of a factory licence is a recurring compliance activity, so even small procedural requirements can result in repeated administrative costs over multiple renewal cycles." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "Poor road conditions and sewer leakage in industrial areas can increase travel time and create indirect operational difficulties for factory representatives.", "topic": "Infrastructure/time cost", "tags": ["OTHER"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Eligible factories with a satisfactory compliance record should be considered for an auto-renewal mechanism instead of completing the full renewal process every cycle.", "topic": "Auto-renewal suggestion", "tags": ["RENEWAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "Nivesh Mitra should provide a central document drive so that documents submitted during earlier applications or renewals can be reused instead of being uploaded repeatedly.", "topic": "Document repository suggestion", "tags": ["DUPDOC", "PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "Information already available with government departments should be exchanged electronically instead of requiring businesses to submit the same information again.", "topic": "Inter-departmental data exchange", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "[Recommended] reducing the number of documents required for renewal and limiting fresh submission to documents that have expired or where information has changed.", "topic": "Reduce redundant documentation", "tags": ["DUPDOC"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "A risk-based renewal mechanism could be adopted, with simplified renewal for compliant factories and detailed scrutiny only where required.", "topic": "Risk-based renewal", "tags": ["NORMS"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No specific renewal fee figure or day-based processing timeline was given by participants in this FGD." },
+        { "flag": "MISSING", "text": "No participant explicitly named the issuing authority for Renewal of Factory License in this FGD; context implies the same UP Labour Department authority as the original Factory License, but this was not stated in the session." },
+        { "flag": "VAGUE", "text": "The renewal cycle length/validity period is not specified by participants; renewal is described only as 'a recurring compliance activity.'" },
+        { "flag": "REFORM", "text": "An auto-renewal/risk-based renewal mechanism was repeatedly recommended by participants but confirmed as not currently implemented." }
+      ],
+      "issuingAuthority": "Not explicitly named by participants in this FGD; the renewal context implies the same UP Labour Department authority as the original Factory License (per the related FAL ED record), but this was not confirmed in this session.",
+      "portal": { "name": "Nivesh Mitra (Single Window Portal)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "", "text": "No specific day-based renewal timeline was stated by participants; renewal of a factory licence is described as a recurring compliance activity without a cited processing duration in this session." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Existing Factory Licence",
+        "Form-4",
+        "Form-4B",
+        "PAN card",
+        "GST registration",
+        "Occupier ID/address proof",
+        "Worker count, power load (HP) and machinery details",
+        "Fire Safety Certificate",
+        "UPPCB consent",
+        "Ownership records (lease deed/rent agreement)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "No deemed/auto-renewal mechanism currently exists per participants; they explicitly identified 'the absence of an auto-renewal or deemed renewal mechanism' as a policy gap and recommended one be introduced for compliant establishments." },
+      "validity": { "text": "Not stated in day/year terms by participants in this FGD; discussion frames renewal as 'a recurring compliance activity' implying a cyclical validity period, but no specific duration was given." },
+      "fees": { "text": "No specific renewal fee figure was given by participants in this FGD." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit renewal application via Nivesh Mitra, re-entering/re-uploading documents", "automated": true, "note": "Portal lacks a facility to reuse previously submitted documents, so applicants re-upload materials each renewal cycle." },
+        { "n": 2, "phase": "scrutiny", "title": "Department scrutinises renewal application; queries raised", "automated": "partial", "note": null },
+        { "n": 3, "phase": "inspect", "title": "Departmental inspection of factory premises", "automated": false, "note": "Participants cite inspection-related delays and difficulty coordinating with inspectors as recurring issues." },
+        { "n": 4, "phase": "renew", "title": "Renewal approval", "automated": null, "note": "No deemed/auto-renewal mechanism exists; the full renewal process is repeated each cycle regardless of compliance history." }
+      ],
+      "remarks": [
+        "No ED record exists for Renewal of Factory License (RFAL) in Uttar Pradesh; this record is derived entirely from FGD testimony and has not been cross-checked against an official source.",
+        "Participants' suggestions for RFAL substantially mirror those given in the separate FAL (fresh Factory License) FGD session, including auto-renewal/risk-based eligibility criteria and a centralised 'Document Drive' — both discussions appear to draw on the same underlying pain points."
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": ["UP_FGD_RFNO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY", "FEES"], "sentiment": "issue", "text": "Recurring annual expenditure for maintaining fire-safety systems, estimated at approximately INR 20,000-50,000 per year, including servicing and maintenance of fire-safety equipment." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT", "FEES"], "sentiment": "issue", "text": "Smaller businesses may depend on external consultants for technical documentation, certification and renewal support, with consultant charges estimated at approximately INR 5,000-15,000." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Uncertainty due to the absence of standardized timelines for inspection and renewal approval." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Physical/technical compliance requirements (smoke detectors, fire pipes, secondary exits, dedicated fire-water arrangements, generator-related space requirements) can create additional infrastructure costs where modifications/upgrades are required." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "A longer validity period for Fire NOC could reduce the recurring renewal burden, particularly where there has been no material change in premises, use, construction or risk profile; renewal requirements should be tied to risk category and actual changes rather than requiring the same compliance level every renewal." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT", "QUERY"], "sentiment": "issue", "text": "Renewal process generally follows: online application > document submission > departmental scrutiny/comments > inspection > completion/approval; applicants may need to respond to clarifications and, where deficiencies are found, rectify and undergo re-inspection, extending the timeline." },
+        { "source": "fgd", "category": "procedural", "tags": ["CAPACITY", "CONSULT"], "sentiment": "neutral", "text": "Larger establishments generally manage renewal internally, while smaller businesses may require external assistance for documentation and technical compliance." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "Participants did not highlight any major issue of redundant/duplicate documentation for this renewal; requirements were generally considered manageable, mainly related to updated records and technical certifications, though further simplification could still reduce administrative effort." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT"], "sentiment": "issue", "text": "Re-inspection can significantly extend the renewal timeline when deficiencies are identified during the initial inspection; participants specifically stated the waiting period for re-inspection can extend the renewal process by several weeks in some cases." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Lack of a fixed inspection schedule creates uncertainty regarding overall completion date." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce automatic reminders before Fire NOC expiry through the online system so businesses have sufficient time to initiate renewal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Introduce self-certification for low-risk premises, subject to appropriate safeguards and verification; trigger renewal/inspection by specific events (major construction, change of use, material fire-safety modification, change in risk category) rather than uniformly." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Establish fixed timelines for inspection, communication of deficiencies, re-inspection and final renewal approval." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants generally considered the renewal process less burdensome than obtaining a fresh Fire NOC, since the establishment has already undergone the initial approval process; however, recurring maintenance expenditure, documentation, inspection delays and consultant dependence continue to contribute to the overall compliance burden, relatively more for smaller establishments." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "The renewal application itself is relatively straightforward compared with obtaining a fresh Fire NOC. However, maintaining fire-safety equipment and keeping maintenance and servicing records updated creates a recurring annual burden ... these maintenance activities result in a regular expenditure every year.", "topic": "Recurring annual maintenance cost", "tags": ["COMPLY", "FEES"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Larger industrial units generally have sufficient internal resources to manage the Fire NOC renewal process ... smaller businesses may not have dedicated technical staff and therefore need to engage external persons or consultants ... resulting in an additional cost.", "topic": "Size-dependent consultant reliance", "tags": ["CONSULT", "CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Applicants are required to wait until the department schedules or conducts the inspection, creating uncertainty about when the renewal process will be completed. This uncertainty makes it difficult for businesses to plan their compliance activities and ensure timely renewal before expiry.", "topic": "No fixed inspection schedule", "tags": ["TIMELINE", "INSPECT"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "An automated reminder should be sent to businesses before the Fire NOC expiry date so that they can initiate the renewal process on time. ... introducing a self-certification mechanism for low-risk premises ... could reduce unnecessary visits, follow-ups and procedural requirements.", "topic": "Reminder and self-certification suggestion", "tags": ["PORTAL", "NORMS"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "When deficiencies are identified during the inspection, the applicant must first rectify the deficiencies and then wait for a re-inspection ... the waiting period for re-inspection can extend the overall renewal process by several weeks, particularly where inspection schedules are not fixed.", "topic": "Re-inspection delay", "tags": ["INSPECT", "TIMELINE"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No participant named the issuing authority for Renewal of Fire NOC in this FGD; context implies the same UP Police Fire Service authority as the original Fire NOC, but this was not confirmed in this session." },
+        { "flag": "MISSING", "text": "Unlike other UP FGD sessions, this discussion does not name the online portal (e.g. Nivesh Mitra) explicitly; the application process is described only generically as 'online application.'" },
+        { "flag": "VAGUE", "text": "No specific day-based renewal timeline or current validity-period duration was given; participants only state re-inspection delays can add 'several weeks' and recommend 'a longer validity period' without citing current or proposed figures." },
+        { "flag": "GOOD_PRACTICE", "text": "Unlike several other UP FGD sessions, participants in this session explicitly reported no major redundant/duplicate documentation issue for Fire NOC renewal, considering requirements generally manageable." }
+      ],
+      "issuingAuthority": "Not explicitly named by participants in this FGD; context implies the same UP Police Fire Service HQRS authority as the original Fire NOC (per the related FNO ED record), but this was not confirmed in this session.",
+      "portal": { "name": null, "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "", "text": "No specific day-based timeline was stated by participants; they note the absence of standardized inspection timelines, and that re-inspection delays can extend the renewal process 'by several weeks' in some cases." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Updated fire-safety equipment maintenance/servicing records",
+        "Technical certifications"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. The documents list is thin because participants stated they 'did not highlight any major issue of redundant or duplicate documentation' and considered requirements 'generally manageable,' without enumerating a full checklist.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants; no deemed-renewal mechanism was mentioned in this session." },
+      "validity": { "text": "Not stated by participants; they suggested 'a longer Fire NOC validity period' as a reform where there is no material change in the premises, implying the current period is viewed as too short, but no specific duration was given in this FGD (compare the related FNO ED record's Rule 43 validity tiers of 1, 3 or 5 years, which this session did not independently confirm applies to renewal)." },
+      "fees": { "text": "Participants cited recurring annual fire-safety maintenance expenditure of approximately INR 20,000-50,000/year and consultant charges of approximately INR 5,000-15,000 for smaller businesses, but did not state an official renewal government fee." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit renewal application online", "automated": true, "note": null },
+        { "n": 2, "phase": "apply", "title": "Submit supporting documents", "automated": true, "note": null },
+        { "n": 3, "phase": "scrutiny", "title": "Departmental scrutiny/comments; clarifications on submitted documents", "automated": "partial", "note": null },
+        { "n": 4, "phase": "inspect", "title": "Inspection", "automated": false, "note": null },
+        { "n": 5, "phase": "inspect", "title": "Rectification and re-inspection if deficiencies found", "automated": false, "note": "Can extend the renewal timeline by several weeks per participants." },
+        { "n": 6, "phase": "approve", "title": "Completion/approval", "automated": null, "note": null }
+      ],
+      "remarks": [
+        "No ED record exists for Renewal of Fire NOC (RFNO) in Uttar Pradesh; this record is derived entirely from FGD testimony and has not been cross-checked against an official source."
+      ]
+    },
+    {
+      "serviceCode": "LR",
+      "serviceName": "Lift Registration",
+      "sourceFiles": ["UP_FGD_LR.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "A registration fee of approximately INR 5,000 is payable separately for each lift; a building with multiple lifts incurs a significant cumulative cost (e.g. a building with five lifts may incur approximately INR 25,000 towards registration fees alone)." },
+        { "source": "fgd", "category": "pain", "tags": ["NORMS", "FEES"], "sentiment": "issue", "text": "The fee structure does not adequately account for establishments where several lifts are installed within the same building; since the owner/operator has already complied with applicable building/safety requirements, charging the full fee separately per lift was perceived as an additional financial burden." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Lift operation involves recurring maintenance expenditure, more significant for establishments with multiple lifts, each requiring periodic servicing, maintenance and safety checks." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Requirement to maintain a considerable volume of records relating to lift maintenance, servicing, repairs, inspections and other safety-related activities creates an additional administrative burden." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "The registration process may involve dependency on consultants/specialised intermediaries where applicants are not fully familiar with documentation and procedural requirements, increasing overall compliance cost beyond the statutory fee." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "The requirement to obtain NOCs/clearances from other departments can make the overall process lengthy, increasing coordination requirements for the applicant." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "Documents already submitted during initial registration may again be required during renewal, resulting in repetitive compliance; the department repeatedly requests unchanged documents instead of maintaining previously verified documents digitally for future renewals." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "FEES"], "sentiment": "suggestion", "text": "The regulatory framework lacks a consolidated registration mechanism, treating every lift in a multi-lift premises as a completely separate entity for fee and compliance purposes; participants suggested a consolidated registration mechanism be considered instead." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL", "NORMS"], "sentiment": "suggestion", "text": "The short validity period of the lift registration/NOC forces frequent, repetitive renewal compliance even when the lift continues to meet prescribed safety standards; the framework relies too heavily on frequent renewal documentation rather than continuous, regular safety inspections." },
+        { "source": "fgd", "category": "policy", "tags": ["OTHER"], "sentiment": "suggestion", "text": "There is a lack of clear accountability assigned to OEMs and authorised maintenance agencies for continuous safety/maintenance of lifts throughout their operational life; participants recommended clear OEM/manufacturer responsibility be assigned." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Participants highlighted the need for the portal to generate an instant payment receipt after successful payment; currently this is not readily available." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Current documentation requirements are perceived as overly broad, demanding information not directly relevant to the actual safety and registration of the lift." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP", "CONSULT"], "sentiment": "issue", "text": "Overall timeline can increase due to the lengthy process of collecting/compiling documents, obtaining NOCs from other departments, and dependency on consultants where applicants cannot independently navigate requirements." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Reduce or make nominal the per-lift registration fee of INR 5,000, particularly for multiple lifts in the same building, and introduce a consolidated registration mechanism instead of separate registration/payment per lift." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL", "NORMS"], "sentiment": "suggestion", "text": "Increase the lift registration/NOC validity period to reduce frequency of renewal, while continuing regular departmental inspections to monitor safety and operational condition." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Allow previously submitted and verified documents to be reused where there has been no change, via digitisation of maintenance/inspection/registration records, instead of requiring complete resubmission at renewal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Streamline the process of obtaining NOCs from different departments through better inter-departmental coordination and integration." }
+      ],
+      "quotes": [
+        { "speaker": "Participant 1", "quote": "The registration fee of approximately ₹5,000 is charged separately for each lift. In a building having multiple lifts, the establishment therefore has to bear the registration cost for every individual lift, which can substantially increase the overall regulatory cost. ... the registration should either be made free or the fee should be reduced to a minimum/nominal amount, particularly where several lifts are installed in the same premises.", "topic": "Per-lift fee burden", "tags": ["FEES", "NORMS"], "sentiment": "issue" },
+        { "speaker": "Participant 2", "quote": "[Highlighted] the need for a clear mechanism on the online portal for generating and downloading the payment receipt after payment of the registration fee. Availability of an immediately generated receipt would provide confirmation of the transaction and make the payment-related part of the registration process more convenient.", "topic": "Instant payment receipt", "tags": ["PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant 3", "quote": "[Highlighted] dependency on consultants during the lift registration process ... because of the documentation and procedural requirements involved ... reducing the need for external consultants could make the process easier for establishments and reduce the additional cost associated with completing regulatory formalities.", "topic": "Consultant dependency", "tags": ["CONSULT"], "sentiment": "issue" },
+        { "speaker": "Participant 4", "quote": "The process of collecting the required documents and obtaining NOCs from other departments can be lengthy and requires significant coordination ... these requirements increase the time and administrative effort involved in completing lift registration.", "topic": "NOC/documentation burden", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Participant 5", "quote": "Lift compliance involves maintaining several maintenance-related records and also results in significant recurring maintenance expenditure ... an ongoing burden for the establishment, in addition to the initial registration process.", "topic": "Ongoing maintenance cost and records", "tags": ["COMPLY"], "sentiment": "issue" },
+        { "speaker": "Participant 6", "quote": "Documents may have to be submitted again at the time of renewal even when the relevant information has not changed. ... documents already submitted and verified during the earlier registration cycle should be reused wherever the information remains unchanged.", "topic": "Redundant renewal documentation", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue" },
+        { "speaker": "Participant 7", "quote": "Inspections by the concerned department should be conducted regularly to ensure that lifts remain safe and compliant during their operation. At the same time, ... clear responsibility should be assigned to the OEM/manufacturer for maintenance and safety-related obligations, so that responsibility for the technical condition of the lift is not placed only on the establishment.", "topic": "Regular inspection and OEM accountability", "tags": ["OTHER", "COMPLY"], "sentiment": "suggestion" },
+        { "speaker": "Participant 8", "quote": "The validity of the NOC should be increased to reduce the frequency of renewal-related compliance. However, ... an increase in validity should not mean a reduction in safety oversight. Regular inspections should continue so that the condition and safety of the lift can be monitored periodically even when the NOC remains valid for a longer period.", "topic": "Longer validity with continued safety oversight", "tags": ["RENEWAL", "NORMS"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No participant named the issuing authority for Lift Registration in this FGD." },
+        { "flag": "MISSING", "text": "No participant named the online portal used for Lift Registration; it is referenced only generically (e.g. 'the portal')." },
+        { "flag": "VAGUE", "text": "The current validity period of the lift registration/NOC is not stated; participants describe it only as a 'short validity period' that should be increased, without giving the existing or proposed duration." },
+        { "flag": "VAGUE", "text": "No specific day-based processing timeline was given; participants describe the timeline qualitatively (lengthy document collection, NOC coordination) without citing a typical duration." },
+        { "flag": "REFORM", "text": "A consolidated multi-lift registration mechanism, OEM-assigned maintenance accountability, and a document-reuse/digital-record mechanism were all recommended by participants but confirmed as not currently implemented." }
+      ],
+      "issuingAuthority": "Not explicitly named by participants in this FGD.",
+      "portal": { "name": null, "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "", "text": "No specific day-based timeline was stated by participants; they describe the process qualitatively as lengthy where document collection and inter-departmental NOCs are involved." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "NOCs/clearances from relevant departments (not individually enumerated by participants)",
+        "Supporting technical/safety documents for the lift installation",
+        "Prior registration records (required again at renewal per participants)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Lift Registration (LR) is a service code not previously covered by an ED interview, so no official baseline exists to cross-check this documents list against.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants; no deemed-approval mechanism was mentioned in this session." },
+      "validity": { "text": "Participants describe the lift registration/NOC as having a 'short validity period' requiring frequent renewal, and recommend this be increased; no specific validity duration (days/years) was stated in this FGD." },
+      "fees": { "text": "A registration fee of approximately INR 5,000 is charged separately per lift; a building with five lifts would incur approximately INR 25,000 in registration fees alone. No separate renewal fee figure was stated." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Collect and compile supporting documents, including NOCs/clearances from multiple departments", "automated": false, "note": "Participants describe this as lengthy, requiring coordination with multiple authorities." },
+        { "n": 2, "phase": "apply", "title": "Submit registration application and pay fee (~INR 5,000 per lift) via online portal", "automated": true, "note": "Participants requested an instant, downloadable payment receipt feature, implying this was not readily available at the time of the FGD." },
+        { "n": 3, "phase": "scrutiny", "title": "Departmental processing/registration of each lift separately", "automated": "partial", "note": "Each lift is registered as a separate entity; no consolidated multi-lift mechanism currently exists." },
+        { "n": 4, "phase": "renew", "title": "Renewal: resubmission of documents even where unchanged", "automated": false, "note": "Participants report documents already submitted during initial registration are required again at renewal." }
+      ],
+      "remarks": [
+        "Lift Registration (LR) has no ED record for Uttar Pradesh; this FGD-only record has not been cross-checked against any official source, consistent with LR being flagged as a newer/less-covered service code in the project's own spec.",
+        "Participants' core asks — a reduced/consolidated per-building fee instead of a per-lift fee, a longer validity period combined with continued regular inspection, and OEM-assigned maintenance accountability — form a consistent and well-articulated set of asks repeated across multiple respondents in this single session."
+      ]
+    },
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": ["UP_FGD_CTE.docx", "UP_FGD_CTE_1.docx"],
+      "sessionCount": 2,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Obtaining CTE requires interaction with multiple departments and obtaining different NOCs/approvals, increasing the number of procedural steps and making the overall process difficult to navigate; coordinating with multiple authorities increases time and effort." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "The CTE application process was reported to be complex, particularly for users attempting to complete it independently; complexity relates to documentation, technical information, procedural requirements and coordination across departments." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "Due to process complexity, many users depend on consultants/intermediaries to prepare/submit applications and follow up with departments, creating an additional cost over and above the statutory fee." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Statutory fees are relatively high, particularly for Small and Large category users, and were identified as a significant component of the cost of obtaining CTE." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Departmental inspections are not always scheduled within the expected timeframe; since inspection is an important stage, delays here directly affect overall processing time." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Multiple queries are raised during application processing; in some cases queries arrive at different stages rather than as a consolidated list, resulting in repeated effort and follow-up, with limited time sometimes given to respond." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "issue", "text": "Required information is not adequately integrated across relevant government departments/systems, so users may be required to provide information/documents already available with another department." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Bank-related processes (reported in connection with the CTE process) can be slow and add to the overall time required." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Some users reported experiencing unrealistic pressure from the department during the application/approval process, identified as an area needing greater clarity, transparency and predictable communication." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Major redundant-documentation issues identified: multiple documents/information requirements, repeated submission of information, requirement to coordinate information from different departments, and additional documentation generated in response to departmental queries — attributed in part to lack of adequate data integration." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "Lack of clear and timely departmental support makes it difficult for users to complete the process independently; lack of a predictable, time-bound approval process increases uncertainty for industries." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "CLARITY"], "sentiment": "suggestion", "text": "Simplify Nivesh Mitra 3.0 by introducing a service-specific, step-by-step workflow with clear instructions, a comprehensive document checklist and plain-language guidance." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Introduce a transparent query management mechanism with clearly stated reasons for queries, defined response timelines and status tracking until final disposal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Enable end-to-end online processing wherever feasible, minimising the need for physical visits after successful online submission and verification." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CONSULT"], "sentiment": "suggestion", "text": "Promote self-service filing by making the portal more user-friendly, reducing unnecessary dependence on consultants/intermediaries." },
+        { "source": "fgd", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Explore plug-and-play industrial facilities and standardised industrial premises to reduce the initial infrastructure, documentation and regulatory compliance burden." }
+      ],
+      "quotes": [
+        { "speaker": "Participant 1", "quote": "Complex application process; dependent on intermediary for application and follow-up.", "topic": "Process complexity / intermediary reliance", "tags": ["CLARITY", "CONSULT"], "sentiment": "issue" },
+        { "speaker": "Participant 2", "quote": "Reported inadequate departmental support and difficulty in getting timely guidance.", "topic": "Departmental support gap", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant 3", "quote": "Reported high statutory fee for CTO [sic — table header reads CTO, session covers CTE].", "topic": "Statutory fee level", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Participant 4", "quote": "Dependent on consultant due to complexity; additional consultancy cost incurred.", "topic": "Intermediary cost", "tags": ["CONSULT", "FEES"], "sentiment": "issue" },
+        { "speaker": "Participant 5", "quote": "Not receiving timely information about regulatory changes and revised requirements.", "topic": "Regulatory communication gap", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant 7", "quote": "Difficulty in exchanging/re-submitting documents through Nivesh Mitra.", "topic": "Portal/document exchange issue", "tags": ["PORTAL", "DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Participant 8", "quote": "Portal performance reported to be slow; technical support not readily available.", "topic": "Portal performance and support", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant 14 (session 2)", "quote": "Overall process considered time-consuming and dependent on intermediary support.", "topic": "Overall process burden", "tags": ["CONSULT", "TIMELINE"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No participant named the issuing authority for CTE in either session." },
+        { "flag": "MISSING", "text": "No specific document checklist was enumerated by participants; requirements are described only generally as 'documentation, technical information and procedural requirements' needed to obtain multiple NOCs/approvals." },
+        { "flag": "MISSING", "text": "No day-based CTE processing timeline was stated by participants in either session, in contrast to the companion CTO sessions where an approximate 4-5 month duration was explicitly given." },
+        { "flag": "VAGUE", "text": "Deemed-approval status and validity were not discussed at all in either session." },
+        { "flag": "VAGUE", "text": "Specific statutory-fee and consultant-charge figures (in rupees) were not quantified in either CTE session, unlike the related CTO, FAL and RSE sessions, which gave concrete figures." }
+      ],
+      "issuingAuthority": "Not explicitly named by participants in either session; based on the fee-category terminology used ('Small/Large category' users here, and 'Red-category industries' in the related CTO sessions), this is understood to be a Uttar Pradesh Pollution Control Board (UPPCB) consent process, but this was not confirmed by name in the FGD text.",
+      "portal": { "name": "Nivesh Mitra (Single Window Portal)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "", "text": "No specific day-based CTE processing timeline was stated by participants in either session; delays are attributed to departmental inspection scheduling, query rounds and bank-related processes rather than a cited duration." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Not enumerated by participants; described generally as documentation and technical information needed to obtain multiple NOCs/approvals from different departments"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED; no specific document checklist was stated in either session.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants in either session." },
+      "validity": { "text": "Not discussed by participants in either session." },
+      "fees": { "text": "Participants described statutory fees as 'relatively high, particularly for Small and Large category users,' but did not state specific rupee figures for the government fee itself; consultant/intermediary charges were described as creating an additional cost 'over and above the statutory fee,' again without a specific figure in these sessions." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Coordinate with and obtain NOCs/approvals from multiple departments", "automated": "partial", "note": "Reported as a major source of complexity." },
+        { "n": 2, "phase": "apply", "title": "Prepare application with technical/documentary inputs, often via consultant", "automated": false, "note": "High dependence on consultants/intermediaries reported." },
+        { "n": 3, "phase": "fee", "title": "Pay statutory fee", "automated": "unclear", "note": "Fee described as relatively high for Small/Large category users, without a specific figure given." },
+        { "n": 4, "phase": "scrutiny", "title": "Departmental scrutiny; multiple queries raised, sometimes at different stages rather than consolidated", "automated": "partial", "note": null },
+        { "n": 5, "phase": "inspect", "title": "Departmental inspection", "automated": false, "note": "Not always scheduled within the expected timeframe, per participants." },
+        { "n": 6, "phase": "pre", "title": "Bank-related process (e.g. financial requirement/guarantee)", "automated": false, "note": "Reported as slow, adding to overall time." },
+        { "n": 7, "phase": "approve", "title": "Approval", "automated": "unclear", "note": "No fixed/predictable timeline reported by participants." }
+      ],
+      "remarks": [
+        "Two CTE sessions were held: 16 October 2026 at Invest UP Office, Lucknow (8 participants) and 6 October 2026 at the IIA Greater Noida Chapter Office (20 participants). The 'Findings, Theme-wise' narrative text in both source documents is near-identical, word-for-word, across Pain Points, Policy Issues, Procedural Issues, Redundant Documents, Reasons for Delay and Suggestions sections — indicating a standardized write-up was reused for both sessions rather than independently drafted theme summaries. Findings above are deduplicated accordingly rather than doubled.",
+        "The Quotes tables differ in length (CTE: 8 participant rows; CTE_1: 14 rows, the first 8 identical in substance to CTE's own 8), consistent with CTE_1 simply reflecting a larger version of the same participant-experience categories rather than a wholly distinct discussion.",
+        "No ED record exists for CTE in Uttar Pradesh; this record is FGD-only and has not been verified against an official source.",
+        "The Key Statements & Quotes tables in both source documents give paraphrased, third-person participant summaries rather than verbatim first-person quotes (and Participant 3's entry is headed 'Statutory cost for CTO' even though the session covers CTE — likely a template labeling artifact, reproduced as-is above and flagged rather than corrected or invented)."
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": ["UP_FGD_CTO.docx", "UP_FGD_CTO_1.docx"],
+      "sessionCount": 2,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "The CTO application process involves multiple procedural and documentation requirements, making the process complex." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT", "FEES"], "sentiment": "issue", "text": "High dependence on intermediaries is observed for application preparation, documentation, submission and follow-up; intermediary charges add significantly to the overall regulatory cost." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Statutory fees are relatively high for Red-category industries." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Limited departmental guidance makes independent completion of the CTO process difficult; information on new regulations and revised requirements is not communicated adequately or sufficiently in advance." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The CTO approval process may take approximately 4-5 months, creating a significant time burden for industries — consistent across both sessions." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC", "PORTAL"], "sentiment": "issue", "text": "Lack of an effective document interchange facility creates difficulties in replacing or updating submitted documents." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Slow performance of the Nivesh Mitra portal increases time/effort required; inadequate technical support for portal-related issues can contribute to additional follow-up and delays." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Documents and information may need to be submitted or referred to repeatedly during different stages; limited system integration may require applicants to provide information already available through the regulatory system." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Lack of a predictable and time-bound approval mechanism increases uncertainty and follow-up burden for industries." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Simplify the CTO application process, reduce unnecessary procedural requirements, and reduce documentation requirements by eliminating repetitive submission of information." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC", "PORTAL"], "sentiment": "suggestion", "text": "Introduce an effective document interchange facility for replacing/updating documents; improve the speed, stability and reliability of the Nivesh Mitra portal, and strengthen technical support for portal-related issues." },
+        { "source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Establish a structured departmental helpdesk and guidance mechanism; provide advance and timely communication regarding new regulations and revised requirements." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Establish clear and time-bound service-level timelines for CTO approval; provide transparent application status and clearly indicate pending actions." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Review the statutory fee structure for Red-category industries, where appropriate." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Strengthen inter-departmental coordination to reduce delays and repeated follow-up." }
+      ],
+      "quotes": [
+        { "speaker": "Participant-1", "quote": "The CTO application process was identified as complex and requiring significant procedural and documentation effort.", "topic": "Process complexity", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant-2", "quote": "Dependence on intermediaries was identified for application preparation, documentation, submission and follow-up.", "topic": "Intermediary dependence", "tags": ["CONSULT"], "sentiment": "issue" },
+        { "speaker": "Participant-3", "quote": "High intermediary charges were identified as increasing the overall cost of obtaining CTO approval.", "topic": "Intermediary cost", "tags": ["CONSULT", "FEES"], "sentiment": "issue" },
+        { "speaker": "Participant-4", "quote": "Statutory fees were identified as relatively high for Red-category industries.", "topic": "Statutory fee level", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Participant-7", "quote": "The overall CTO approval timeline of approximately 4-5 months was identified as a significant time burden.", "topic": "4-5 month approval timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant-8", "quote": "Difficulty in replacing or updating documents after submission was identified due to the lack of an effective document interchange facility.", "topic": "No document interchange facility", "tags": ["DUPDOC", "PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant-9 (session 2)", "quote": "Slow performance of the Nivesh Mitra portal was identified as increasing the time and effort required for application processing.", "topic": "Portal performance", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant-14 (session 2)", "quote": "Overall, process complexity, intermediary dependence, cost, portal limitations and extended approval timelines were identified as key regulatory burdens.", "topic": "Summary of key burdens", "tags": ["CLARITY", "CONSULT", "FEES", "PORTAL", "TIMELINE"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No participant named the issuing authority for CTO in either session." },
+        { "flag": "MISSING", "text": "No specific document checklist was enumerated by participants; requirements are described only as documents/information 'submitted or referred to repeatedly during different stages.'" },
+        { "flag": "VAGUE", "text": "Statutory fee and intermediary charge figures were described as 'relatively high' / 'significant' but not quantified in rupee terms in either session." },
+        { "flag": "VAGUE", "text": "Deemed-approval status and validity were not discussed at all in either session." },
+        { "flag": "REFORM", "text": "A time-bound service-level timeline and an effective document interchange facility were both recommended by participants but confirmed as not currently in place." }
+      ],
+      "issuingAuthority": "Not explicitly named by participants in either session; based on the 'Red-category industries' terminology used (a standard pollution-classification term), this is understood to be a UPPCB consent process, but this was not confirmed by name in the FGD text.",
+      "portal": { "name": "Nivesh Mitra (Single Window Portal)", "url": null },
+      "timeline": { "minDays": 120, "maxDays": 150, "basis": "Participant-reported approximate duration (not a cited statutory figure).", "text": "Participants in both sessions reported that CTO approval may take approximately 4-5 months, which they described as creating a significant time burden; this figure was consistent across both CTO sessions." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Not enumerated by participants; described generally as documents/information required at multiple stages of the CTO process"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED; no specific document checklist was stated in either session.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants in either session." },
+      "validity": { "text": "Not discussed by participants in either session." },
+      "fees": { "text": "Participants described statutory fees as 'relatively high for Red-category industries' and noted significant additional intermediary charges, but did not quantify either figure in rupee terms in these sessions." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Prepare and submit CTO application with multiple procedural/documentation requirements", "automated": "partial", "note": "High dependence on intermediaries for preparation, documentation, submission and follow-up reported." },
+        { "n": 2, "phase": "scrutiny", "title": "Respond to departmental queries during scrutiny", "automated": false, "note": null },
+        { "n": 3, "phase": "scrutiny", "title": "Departmental processing", "automated": "unclear", "note": "No predictable or time-bound mechanism reported; overall approval cited as taking approximately 4-5 months." },
+        { "n": 4, "phase": "scrutiny", "title": "Replace/update submitted documents as needed", "automated": false, "note": "Participants report no effective document-interchange facility exists, making replacement/updating difficult." },
+        { "n": 5, "phase": "approve", "title": "Approval", "automated": "unclear", "note": null }
+      ],
+      "remarks": [
+        "Two CTO sessions were held: 16 October 2026 at Invest UP Office, Lucknow (8 participants) and 6 October 2026 at the IIA Greater Noida Chapter Office (15 participants). As with the CTE sessions, the 'Findings, Theme-wise' narrative text is word-for-word identical across both CTO source documents, indicating a standardized write-up reused across sessions; findings above are deduplicated rather than doubled.",
+        "CTO_1's Quotes table extends CTO's 8-row table to 14 rows (the first 8 rows identical in substance); CTO_1's rows for Participant-9 and Participant-14 are labeled with theme tags 'Structural Audit Rationalisation' and 'Industrial Infrastructure,' which read as mismatched with CTO content and appear to be copy-pasted from the BPA/FBPA-family quotes tables — flagged here as a likely clerical artifact in the source document rather than corrected or treated as a substantive CTO finding.",
+        "No ED record exists for CTO in Uttar Pradesh; this record is FGD-only and has not been verified against an official source.",
+        "The Key Statements & Quotes tables in both source documents give paraphrased, third-person participant summaries rather than verbatim first-person quotes."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "code": "UP",
+  "findings": [
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL"],
+      "sentiment": "neutral",
+      "text": "Factory License application in UP is fully online, a 12-step process on the Nivesh Mitra single-window portal (niveshmitra.up.gov.in) from registration through downloading the digitally signed licence."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["FEES"],
+      "sentiment": "neutral",
+      "text": "The ED report gives the processing fee as INR 150 to 35,000 (process-step description) and separately as INR 100 to 7,000 (Statutory Fee field), both based on number of employees -- the same underlying report states two different ranges for the same fee basis."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["TIMELINE"],
+      "sentiment": "neutral",
+      "text": "The factory plan must be disposed of within 15 working days of online receipt by the Chief Inspector's office (30 working days for hazardous processes under Section 2(cb) of the Factories Act, 1948 / Rule 2(ja) of the MSIHC Rules, 1989)."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["TIMELINE", "GRIEVANCE"],
+      "sentiment": "positive",
+      "text": "Deemed approval applies: plans not rejected within the 15/30 working-day limit are deemed approved and the licence is also deemed approved, with the approval letter and licence issued immediately and the applicant notified by email and registered mobile number."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": [],
+      "sentiment": "neutral",
+      "text": "Factory License validity is up to 10 years at a time, depending on the category of the factory, under the U.P. Factories Rules, 1950."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["INSPECT"],
+      "sentiment": "neutral",
+      "text": "A team of at least two inspectors (e.g. Assistant Labour Commissioner, Labour Enforcement Officer, Assistant Director Factories) conducts a site inspection; if defects/deviations are found, the applicant is typically given 15 days to rectify and upload a compliance report."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["POSITIVE", "PORTAL"],
+      "sentiment": "positive",
+      "text": "The expert confirmed no physical department visit is required at any stage of the process, citing Nivesh Mitra 3.0 as a best practice, with deeper departmental integration, AI-enabled scrutiny and further automation planned next."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["CLARITY"],
+      "sentiment": "issue",
+      "text": "The expert identified incomplete documentation and lack of clarity on compliance requirements as the major burdens causing delays, though this was not developed as a distinct theme."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["FEES", "COMPLY"],
+      "sentiment": "issue",
+      "text": "Structural audit is a significant cost component, cited as approximately INR 40,000-50,000 in the pain-points narrative but approximately INR 20,000-25,000 in the same document's Key Statements & Quotes table -- an internal inconsistency in the FGD source itself."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["FEES", "CONSULT"],
+      "sentiment": "issue",
+      "text": "Consultancy/intermediary charges of approximately INR 60,000-70,000 were reported in some cases, over and above the applicable statutory government fees."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["CONSULT", "PORTAL", "CLARITY"],
+      "sentiment": "issue",
+      "text": "Applicants depend heavily on consultants because the application process and technical requirements are hard to understand independently, and because Nivesh Mitra 3.0 is seen as more complex than the earlier Nivesh Mitra 2.0 in forms, document requirements and process flow."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["PORTAL", "GRIEVANCE"],
+      "sentiment": "issue",
+      "text": "Participants reported non-response or delayed response from the Nivesh Mitra support team, making it hard to get clarification and increasing dependence on consultants."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["PORTAL"],
+      "sentiment": "issue",
+      "text": "In a limited number of cases, applicants were still required to physically approach the department or submit documents even after online filing -- directly contradicting the ED's claim that no physical visit is required at any stage."
+    },
+    {
+      "source": "fgd",
+      "category": "delay",
+      "tags": ["TIMELINE", "QUERY"],
+      "sentiment": "issue",
+      "text": "Departmental queries can be raised close to the end of the deemed-approval window, creating uncertainty and reducing the practical benefit of the prescribed timeline; query resolution does not always bring immediate approval."
+    },
+    {
+      "source": "fgd",
+      "category": "redundant",
+      "tags": ["DUPDOC"],
+      "sentiment": "issue",
+      "text": "Participants highlighted repeated submission of PAN, GST registration, occupier identity/address proof, ownership/lease/rent documents, worker strength, power load, machinery details, Fire Safety Certificate and UPPCB Consent, even where the underlying information is unchanged or already held by government."
+    },
+    {
+      "source": "fgd",
+      "category": "redundant",
+      "tags": ["DUPDOC", "RENEWAL"],
+      "sentiment": "issue",
+      "text": "On renewal or subsequent applications, applicants must resubmit the existing Factory Licence and previously submitted application documents/forms despite no change in the underlying facts."
+    },
+    {
+      "source": "fgd",
+      "category": "delay",
+      "tags": ["TIMELINE", "INSPECT", "GRIEVANCE"],
+      "sentiment": "issue",
+      "text": "Multiple delay drivers were cited beyond documentation: delay in scheduling/conducting inspection, difficulty coordinating with inspectors, portal technical issues/downtime, limited visibility of application status, and the need for repeated follow-up with the department."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["PORTAL", "CLARITY"],
+      "sentiment": "suggestion",
+      "text": "Participants suggested simplifying Nivesh Mitra 3.0 with a service-specific step-by-step workflow, a comprehensive document checklist and plain-language guidance, to promote self-service filing and reduce reliance on consultants."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["INTERDEP"],
+      "sentiment": "suggestion",
+      "text": "Participants suggested stronger integration between Factory Licence, Labour, Fire and Pollution Control systems, and reuse of GST/MSME-Udyam/MCA data already held by government, so common information is submitted only once."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["RENEWAL", "COMPLY"],
+      "sentiment": "suggestion",
+      "text": "Participants proposed a risk-based regulatory approach: establishments with a satisfactory compliance history and no material changes could get a simplified renewal mechanism, while detailed scrutiny is retained for changed, non-compliant or higher-risk cases."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["QUERY", "GRIEVANCE", "NORMS"],
+      "sentiment": "suggestion",
+      "text": "Participants suggested a transparent query-management mechanism with clearly stated reasons, defined response timelines and status tracking, plus a review of the structural audit requirement for risk-based rationalisation, particularly for smaller establishments."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["RENEWAL"],
+      "sentiment": "positive",
+      "text": "Secondary research confirms the deemed-approval mechanism with a statutory citation: the UP Factories (73rd Amendment) Rules, 2018 substituted Rule 3 so that plans/licences not rejected in time are deemed approved, with licences for already-approved plans issued the same day."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": [],
+      "sentiment": "neutral",
+      "text": "Secondary research confirms the 10-year validity under Rule 9 (2018 amendment) but adds a nuance absent from the ED/FGD: hazardous factories under Sec 2(cb) are capped at 5 years, and those also under the MSIHC Rules 1989 are capped at just 3 years."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["TIMELINE"],
+      "sentiment": "issue",
+      "text": "The official Nivesh Mitra portal's own published service list states the Factory License timeline as 30 days (renewal separately at 60 days) -- not the ED's 15 working days -- a direct contradiction from the portal the ED himself described."
+    },
+    {
+      "source": "secondary",
+      "category": "remarks",
+      "tags": ["PORTAL"],
+      "sentiment": "neutral",
+      "text": "Nivesh Mitra 3.0 is confirmed as a real, recent consolidation (500+ services reduced to roughly 200-225, plus an AI chatbot/automated grievance handling) per official Invest UP press releases (March and August 2025); no independent, non-government coverage of user complaints was found to corroborate or refute the FGD's complexity complaint."
+    }
+  ],
+  "quotes": [
+    {
+      "speaker": "Participant(s)",
+      "quote": "The participant(s) reported structural audit costs of approximately ₹20,000–₹25,000 as a significant component of compliance cost.",
+      "topic": "Compliance Cost",
+      "tags": ["COMPLY", "FEES"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participant(s)",
+      "quote": "The participant(s) reported consultant/intermediary charges of approximately ₹60,000–₹70,000 in some cases, in addition to statutory fees and other compliance costs.",
+      "topic": "Intermediary Cost",
+      "tags": ["CONSULT", "FEES"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participant(s)",
+      "quote": "The participant(s) described Nivesh Mitra 3.0 as significantly more complex than Nivesh Mitra 2.0 and stated that users do not receive sufficient understanding of how to complete the forms.",
+      "topic": "Portal Complexity",
+      "tags": ["PORTAL", "CLARITY"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participant(s)",
+      "quote": "The participant(s) reported that multiple documents are required and that some limited cases involved physical submission or departmental interaction even after online filing.",
+      "topic": "Procedural Issue",
+      "tags": ["PORTAL", "DUPDOC"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participant(s)",
+      "quote": "The participant(s) stated that deemed-approval timelines were discussed as 15 days for non-hazardous and 30 days for hazardous industries, but queries may arise on the last day.",
+      "topic": "Approval Timeline",
+      "tags": ["TIMELINE", "QUERY"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participant(s)",
+      "quote": "The participant(s) reported that query submission does not always result in immediate approval and that some cases continue to experience delay after the query is addressed.",
+      "topic": "Delay / Query Resolution",
+      "tags": ["QUERY", "TIMELINE"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participant(s)",
+      "quote": "The participant(s) suggested linking Factory License with Labour, Fire and Pollution Control systems so that common information is not repeatedly submitted.",
+      "topic": "Inter-departmental Integration",
+      "tags": ["INTERDEP"],
+      "sentiment": "suggestion"
+    },
+    {
+      "speaker": "Participant(s)",
+      "quote": "The participant(s) suggested that the process should require minimum documents and be completed through a simple, user-friendly online interface.",
+      "topic": "Self-Service / Simplification",
+      "tags": ["PORTAL", "CLARITY"],
+      "sentiment": "suggestion"
+    }
+  ],
+  "gaps": [
+    {
+      "flag": "INCONSISTENT",
+      "text": "The ED report itself states the fee two different ways on the same basis (number of employees): \"INR 150 to 35,000\" in the Application Process Flow (Step 6) versus \"INR 100 to 7,000\" in the Statutory Fee field. Neither ED, FGD, nor secondary research resolves which figure is current."
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "ED: \"no physical department visit is required at any stage.\" FGD: \"some applicants have been required to physically approach the concerned department or submit documents even after online filing, although this was reported only in limited cases.\" Secondary research separately notes physical inspection \"remains mandatory\" in UP's process, partially supporting the FGD side."
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "Within the FGD document itself, structural audit cost is given as approximately INR 40,000-50,000 in the Pain Points/Policy Issues narrative sections, but as approximately INR 20,000-25,000 in the same document's Key Statements & Quotes table -- the same cost item, two different ranges."
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "ED states the Factory License plan-disposal timeline as 15 working days (30 for hazardous processes). Secondary research found the official Nivesh Mitra portal's own published service list states 30 days for Factory License (60 days for renewal) -- a contradiction from the very portal the ED described, not a third-party source."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "The deemed-approval mechanism the ED described is confirmed with a specific statutory citation by secondary research: UP Factories (73rd Amendment) Rules, 2018, Rule 3, which provides that plans/licences not rejected in time are deemed approved and licences for already-approved plans are issued the same day."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "The ED/FGD both state validity as \"up to 10 years\" without nuance. Secondary research confirms this under Rule 9 (2018 amendment) and adds a detail neither source mentioned: hazardous factories under Sec 2(cb) are capped at 5 years, and those also covered by the MSIHC Rules, 1989 are capped at just 3 years."
+    },
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "The FGD's characterisation of Nivesh Mitra 3.0 as a confusing regression from 2.0 (complex forms, poor guidance, unresponsive support) could not be independently corroborated or refuted by secondary research; only official Invest UP press releases confirming the service consolidation (500+ to ~200-225 services, plus an AI chatbot) were found, with no independent user-complaint coverage."
+    },
+    {
+      "flag": "MISSING",
+      "text": "No source -- ED, FGD, or secondary -- reconciles the fee question into a single verified figure or schedule: the ED gives two internally conflicting ranges (INR 150-35,000 and INR 100-7,000) and secondary research surfaced only a third, low-authority range, none of which is confirmed as the operative fee schedule."
+    }
+  ]
+}

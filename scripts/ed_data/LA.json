@@ -1,0 +1,204 @@
+{
+  "code": "LA",
+  "name": "Ladakh",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFile": "LA_ED_BPA.docx",
+      "issuingAuthority": "Executive Officer, Municipal Committee Leh (final decision); application processed via OBPS",
+      "portal": { "name": "OBPS (Online Building Permission System)", "url": null },
+      "timeline": { "minDays": 15, "maxDays": 15, "basis": "Prescribed processing timeline, comprising ~3 days initial processing and ~7 days for site inspection, with the remainder for scrutiny, decision, fee payment and issuance", "text": "The prescribed timeline for Building Plan Approval is 15 days, including approximately 3 days for initial processing and 7 days for site inspection; the remaining time covers technical scrutiny, decision-making, fee payment and certificate issuance." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Applicant/landowner ID proof",
+        "Land ownership/title documents",
+        "Record of Rights",
+        "Site/revenue plan with site photograph",
+        "Site/building layout",
+        "Floor plans",
+        "Architectural/structural drawings",
+        "Material specifications",
+        "Owner's undertaking",
+        "Possession affidavit",
+        "Architect's undertaking",
+        "Structural Stability Certificate (where applicable)",
+        "Applicable heritage, land-use, road widening and other statutory clearances (depending on project)"
+      ],
+      "documentsNote": "Several items (Structural Stability Certificate, heritage/land-use/road-widening NOCs) apply only 'where applicable' or 'depending on the project'; exact triggering criteria not specified.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Deemed approval is not applicable for Building Plan Approval in Ladakh; no provision for deemed approval is currently operational in practice." },
+      "validity": { "text": "Buildings below 15 metres height: 3 years from the date of sanction. Buildings above 15 metres height: 5 years from the date of sanction." },
+      "fees": { "text": "Processed online through OBPS; the commercial building permission fee is ₹109 per sq. metre, paid after approval. No residential fee figure was given." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Application Submission", "automated": true, "note": "Submitted via the OBPS online portal; residential applicants apply directly, commercial applicants through an empanelled architect; architectural drawings and floor plans are uploaded." },
+        { "n": 2, "phase": "scrutiny", "title": "Initial Processing", "automated": "partial", "note": "Application remains at the initial stage for approximately 3 days before being forwarded to the technical team." },
+        { "n": 3, "phase": "scrutiny", "title": "Technical Scrutiny", "automated": false, "note": "Examined by an architect, civil engineer and structural engineer for compliance with bye-laws covering design, setbacks, fire safety and road/highway considerations." },
+        { "n": 4, "phase": "inspect", "title": "Site Inspection", "automated": false, "note": "Conducted within approximately 7 days, involving municipal enforcement personnel." },
+        { "n": 5, "phase": "scrutiny", "title": "Scrutiny/Decision", "automated": "partial", "note": "Application is either rejected with reasons communicated to the applicant, or forwarded to the Executive Officer for approval." },
+        { "n": 6, "phase": "approve", "title": "Approval by Executive Officer", "automated": "partial", "note": "Executive Officer takes the final decision; the approval is digitally signed." },
+        { "n": 7, "phase": "fee", "title": "Fee Payment", "automated": true, "note": "Applicant receives an online notification and pays the building permission fee through the online system." },
+        { "n": 8, "phase": "approve", "title": "Issuance of Building Permission", "automated": true, "note": "Building permission certificate is issued online after payment." }
+      ],
+      "ed": { "date": "22-September-2026", "location": "DIC Office Complex, DIC Conference Hall, Near Court Complex, Skampari, Leh, Ladakh", "expert": "Regzin Norbo, Sonam Wargmo, Tsweang Nutup, Afrid Ahmed", "designation": "Civil Engineer; Project Manager; MCL; MCL (Municipal Committee Leh)" },
+      "remarks": [
+        "Approximately 50 Building Plan Approval applications had been received during the year up to the date of the discussion; of these, 35 were certified, 7 rejected, and 4 under process.",
+        "No specific state-level best practice was reported; however, the OBPS-based online application, tracking and digital certificate issuance may be considered a replicable practice.",
+        "Risk-based classification is incorporated in the applicable building bye-laws, including classification of low-risk buildings; further assessment may be undertaken to determine whether this can be leveraged for simplified scrutiny, reduced documentation or faster processing."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "Applications are submitted through the OBPS online portal; residential applicants can apply directly, while commercial applicants must apply through an empanelled architect." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "NORMS"], "sentiment": "issue", "text": "Two rounds of scrutiny may create additional processing requirements and could be simplified." },
+        { "source": "ed", "category": "redundant", "tags": ["COMPLY", "DUPDOC"], "sentiment": "issue", "text": "Multiple documents and drawings are required to be uploaded through OBPS, creating compliance requirements for applicants." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Minor issues with online payment were reported, which may occasionally affect completion of the approval process." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE", "INSPECT"], "sentiment": "neutral", "text": "The inspection/scrutiny stage generally takes comparatively more time within the overall 15-day prescribed timeline." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "If an application is rejected, the applicant is informed through OBPS of the reason, may rectify deficiencies and resubmit, and the prescribed 15-day timeline starts afresh from the date of resubmission." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Officials recommended reviewing the 2025 building bye-laws and considering the 2024 bye-laws with necessary changes." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "It was suggested that bye-laws account for Ladakh's geographical conditions, plot sizes, fire requirements and local settlement patterns." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Suitable relaxation was recommended for existing buildings in newly included municipal areas." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Officials recommended promoting sustainable construction, local materials and traditional architecture." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Expanding the empanelment of architects was recommended to widen participation and improve accessibility, particularly for commercial building applications." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Risk-based classification is incorporated in the applicable building bye-laws, including classification of low-risk buildings; further assessment may determine whether this enables simplified scrutiny or faster processing." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The OBPS-based online application, tracking and digital certificate issuance was noted as a potentially replicable practice." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Technical scrutiny involves an architect, civil engineer and structural engineer reviewing compliance with building bye-laws covering design, setbacks, fire safety and road/highway considerations." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Approximately 50 BPA applications were received in the year to date; 35 certified, 7 rejected and 4 under process at the time of the discussion." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "No specific post-approval compliance checklist was identified beyond the validity period of the building permission." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Validity of the building permission is 3 years for buildings below 15 metres and 5 years for buildings above 15 metres, from the date of sanction." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No URL is given for the OBPS portal." },
+        { "flag": "VAGUE", "text": "Several documentation items (Structural Stability Certificate, heritage/land-use/road-widening NOCs) apply only 'where applicable' or 'depending on the project', without the specific triggering criteria being stated." },
+        { "flag": "GOOD_PRACTICE", "text": "The OBPS single-window online system with digital tracking and digital certificate issuance was flagged by officials as a replicable practice for other states." },
+        { "flag": "REFORM", "text": "Officials suggested simplifying the technical scrutiny process to reduce duplication from the two rounds of scrutiny (technical review and site inspection/decision)." },
+        { "flag": "VAGUE", "text": "Only the commercial building fee (₹109 per sq. metre) is given; no residential fee figure is stated." },
+        { "flag": "MISSING", "text": "Of the 15-day total timeline, only the initial ~3 days and ~7-day inspection are broken out; the remaining time for technical scrutiny, decision, fee payment and certificate issuance is not individually apportioned." }
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFile": "LA_ED_ECL.docx",
+      "issuingAuthority": "Power Development Department, Ladakh",
+      "portal": { "name": "Online application/status-tracking portal introduced 1 September 2026 (not otherwise named)", "url": null },
+      "timeline": { "minDays": 60, "maxDays": 90, "basis": "No prescribed/statutory timeline exists; figure reflects officials' estimate of actual processing time in some cases (2-3 months), not a fixed or legal norm", "text": "No prescribed timeline is currently specified for providing a new electricity connection in Ladakh. Processing time varies depending on feasibility assessment and field-level requirements, with some cases taking 2-3 months." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Aadhaar/identity proof",
+        "Land/ownership document",
+        "Passport-size photograph",
+        "Affidavit (where required in case of ownership-related issues)"
+      ],
+      "documentsNote": "For temporary connections, fewer documents are required, but the specific reduced list is not itemised in the discussion.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Deemed approval is not currently provided for electricity connections in Ladakh." },
+      "validity": { "text": "There is no specific validity period or renewal requirement for electricity connections in Ladakh." },
+      "fees": { "text": "The applicable fee is approximately ₹850; final charges vary based on the electrical load and connection requirements, with higher loads attracting higher charges." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit Application", "automated": "partial", "note": "Submitted through online or offline mode; online option available since 1 September 2026." },
+        { "n": 2, "phase": "scrutiny", "title": "Verify Application and Ownership Documents", "automated": false, "note": "" },
+        { "n": 3, "phase": "scrutiny", "title": "Feasibility Assessment and Load Determination", "automated": false, "note": "" },
+        { "n": 4, "phase": "inspect", "title": "Field Inspection and Line Work", "automated": false, "note": "" },
+        { "n": 5, "phase": "approve", "title": "Install Electricity Meter", "automated": false, "note": "Smart meters are provided by the department, with installation carried out through a third-party tender." },
+        { "n": 6, "phase": "approve", "title": "Approve and Energise Connection", "automated": false, "note": "" }
+      ],
+      "ed": { "date": "23-September-2026", "location": "DIC Office Complex, DIC Conference Hall, Near Court Complex, Skampari, Leh, Ladakh", "expert": "Stanzin Hurmet", "designation": "Junior Engineer" },
+      "remarks": [
+        "The service was fully offline before 1 September 2026; from 1 September 2026, the application process was introduced online, with status tracking available, though field-level activities (verification, feasibility assessment, inspection, line work, meter installation) remain offline.",
+        "Harsh winter conditions and difficult terrain in Ladakh may pose operational challenges for electricity connection-related field activities, particularly maintaining service lines.",
+        "Smart meters are currently provided by the department, with installation carried out through a third-party tender."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "The service was fully offline before 1 September 2026; from that date, online application with status tracking was introduced, though verification, feasibility assessment, inspection, line work and meter installation remain offline." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The online application process may be challenging for applicants who are not familiar with digital platforms." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "No prescribed timeline exists for a new electricity connection; processing time varies with feasibility and field requirements, with some cases taking 2-3 months." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "No validity period or renewal requirement applies to electricity connections in Ladakh." },
+        { "source": "ed", "category": "redundant", "tags": ["COMPLY"], "sentiment": "neutral", "text": "No specific redundant or duplicate requirement was identified, though documentation requirements may be reviewed and simplified where feasible to reduce the compliance burden." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Simplifying the documentation requirements for electricity connections was recommended to reduce the compliance burden." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Strengthening the online application process and providing support to applicants unfamiliar with digital platforms was recommended." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Improving the online tracking facility for applications was recommended." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Harsh winter conditions and difficult terrain in Ladakh may pose operational challenges for field activities, particularly maintaining service lines." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The introduction of online application and status tracking from 1 September 2026 was noted as a useful process improvement." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Smart meters are currently provided by the department, with installation carried out through a third-party tender." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No specific risk-based classification system is currently followed for electricity connections in Ladakh." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "The applicable fee is approximately ₹850, with final charges varying by electrical load and connection requirements." },
+        { "source": "ed", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "For temporary connections, fewer documents are required than for permanent connections." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No prescribed or statutory timeline is specified for new electricity connections; only an informal estimate of 2-3 months in some cases was given, with no minimum figure." },
+        { "flag": "VAGUE", "text": "The exact reduced list of documents required for temporary connections is not specified." },
+        { "flag": "VAGUE", "text": "The online portal introduced from 1 September 2026 is not named, and no URL is given." },
+        { "flag": "MISSING", "text": "No specific designation or authority is named for the final 'approve and energise' step beyond the department generally." },
+        { "flag": "VAGUE", "text": "It is noted that documentation 'may be reviewed and simplified where feasible' without detail on what specific change is being considered." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFile": "LA_ED_FNO.docx",
+      "issuingAuthority": "Fire & Rescue Service, UT-Ladakh; final Fire NOC issued by the designated authority (e.g., District Fire Officer/Deputy Director)",
+      "portal": { "name": "e-Seva portal", "url": null },
+      "timeline": { "minDays": 20, "maxDays": 20, "basis": "Departmental processing timeline as indicated by officials; an additional 20-day period may apply after rejection and resubmission", "text": "The department has indicated an application processing timeline of 20 days. In case of rejection and resubmission, an additional 20-day period may apply." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Building plan",
+        "Site plan",
+        "Fire safety drawings"
+      ],
+      "documentsNote": "These documents are specified for the provisional Fire NOC application; no separate document list is given for the final Fire NOC application after construction.",
+      "deemedApproval": { "status": "unclear", "days": 21, "text": "A deemed approval provision of 21 days was discussed; however, its current operational status requires clarification." },
+      "validity": { "text": "Validity varies by building category: Category 1 (Residential) - 1 year under earlier practice; Category 2 (self-certification by empanelled architects) - 10 years, with a return submitted every 2 years; Category 3 (other, including Commercial and Industrial) - 5 years, with an annual return requirement." },
+      "fees": { "text": "The earlier application fee for the provisional Fire NOC was ₹1,000; following proposed fee deregulation, the Fire NOC application fee in Ladakh is now nil (free of charge)." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Application Submission (Provisional Fire NOC)", "automated": "partial", "note": "Submitted through the existing departmental process or the e-Seva portal, where available." },
+        { "n": 2, "phase": "apply", "title": "Document Submission", "automated": "partial", "note": "Applicant submits building plan, site plan and required fire safety drawings." },
+        { "n": 3, "phase": "fee", "title": "Fee Payment", "automated": "partial", "note": "Applicant pays the applicable fee as per prevailing instructions (now nil after fee deregulation)." },
+        { "n": 4, "phase": "scrutiny", "title": "Application Scrutiny", "automated": false, "note": "Fire Department examines submitted documents and verifies the building category against the applicable schedule." },
+        { "n": 5, "phase": "approve", "title": "Provisional NOC", "automated": false, "note": "Department reviews the application and issues the provisional recommendation/NOC, wherever applicable, before construction." },
+        { "n": 6, "phase": "apply", "title": "Completion of Construction / Final Application", "automated": false, "note": "After completing construction, the applicant applies for the final Fire NOC." },
+        { "n": 7, "phase": "inspect", "title": "Inspection Scheduling", "automated": false, "note": "Fire Department arranges an inspection by the District Fire Officer (DFO) or an empanelled third-party agency, as applicable." },
+        { "n": 8, "phase": "inspect", "title": "Site Inspection", "automated": false, "note": "Designated officer or agency inspects the building to verify compliance with fire safety requirements." },
+        { "n": 9, "phase": "inspect", "title": "Inspection Report Submission", "automated": false, "note": "Inspection report is submitted to the concerned authority for review." },
+        { "n": 10, "phase": "approve", "title": "Review and Approval", "automated": false, "note": "Concerned authority reviews the inspection report and processes the application for final approval." },
+        { "n": 11, "phase": "approve", "title": "Fire NOC Issuance", "automated": "partial", "note": "Upon approval, the final Fire NOC is issued by the designated authority." }
+      ],
+      "ed": { "date": "22-September-2026", "location": "DIC Office Complex, DIC Conference Hall, Near Court Complex, Skampari, Leh, Ladakh", "expert": "Anaytullah, Lobzang Thamchos, Sterling Dolker", "designation": "Deputy Director; Fireman; IC NOC" },
+      "remarks": [
+        "The Fire NOC service in Ladakh is currently undergoing a transition to the single-window system; implementation of the 2025 Fire NOC rules, the online application workflow and third-party inspection provisions is still being clarified.",
+        "Coordination between the Fire Department and other concerned authorities also requires further clarification to ensure smooth implementation of the revised procedures.",
+        "No specific best practice for replication in other States/UTs was identified during the discussion."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "The Fire NOC service is currently partially online as transition to the single-window system is underway; registration, document upload, fee payment and status tracking are available via the e-Seva portal where operational, while scrutiny, inspection and approval remain largely offline/departmental." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "The requirement for third-party inspection may add to the compliance burden and increase costs for applicants; allowing the Fire Department to conduct inspections as an alternative could reduce additional expenses and simplify the approval process." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "In remote areas, availability of water and fire safety equipment may create additional compliance challenges for maintaining required fire safety infrastructure (extinguishers, sprinklers, water storage/tanks, pumps, alarms)." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "The transition to the new Fire NOC framework has created ambiguity regarding the roles of the department and third-party agencies; clarifying procedures and responsibilities could reduce procedural delays and duplication." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The exact financial savings and reduction in processing time from the proposed reforms have not been quantified in the discussion." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Specific provisions of the Central Act or State Rules responsible for the compliance burdens described were not clearly identified during the discussion." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "It was suggested the Fire Department retain the option to conduct inspections directly alongside empanelled third-party agencies to reduce additional compliance costs." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "A standard operating procedure (SOP) clarifying the roles and responsibilities of the department and third-party agencies was suggested to simplify the approval process and reduce procedural delays." },
+        { "source": "ed", "category": "suggestions", "tags": ["DELAY"], "sentiment": "suggestion", "text": "Providing suitable timelines for inspections in remote areas of Ladakh was suggested, to address challenges from limited road connectivity and winter conditions." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "positive", "text": "Following proposed fee deregulation, the Fire NOC application fee in Ladakh is now nil, down from an earlier fee of ₹1,000." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Buildings are categorised by occupancy, number of rooms, height and covered area into three categories, with Category 1 (1-14 rooms) exempt from regular Fire NOC requirements." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Category 2 buildings (15-30 rooms) permit self-certification by empanelled architects, while Category 3 (above 30 rooms) requires third-party inspection." },
+        { "source": "ed", "category": "procedural", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "Validity differs by category: 1 year for residential (earlier practice), 10 years with a return every 2 years for self-certified buildings, and 5 years with annual return for commercial/industrial buildings." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "A deemed approval provision of 21 days was discussed, but its current operational status requires clarification." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "No specific best practice for replication in other States/UTs was identified during the discussion." },
+        { "source": "ed", "category": "remarks", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Coordination between the Fire Department and other concerned authorities requires further clarification to ensure smooth implementation of revised procedures." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "In case of rejection and resubmission of the Fire NOC application, an additional 20-day processing period may apply." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "A deemed approval provision of 21 days was discussed but its current operational status (active or not) is unclear." },
+        { "flag": "VAGUE", "text": "The complete online workflow and third-party inspection procedures are described as 'still being clarified', without specifying what is settled versus pending." },
+        { "flag": "MISSING", "text": "No specific name/designation of the 'designated authority' issuing the final Fire NOC is given beyond general department roles (DFO, IC NOC, Deputy Director)." },
+        { "flag": "VAGUE", "text": "Documentation requirements are given only for the provisional NOC stage (building plan, site plan, fire safety drawings); no document list is given for the final Fire NOC application submitted after construction." },
+        { "flag": "REFORM", "text": "Officials suggested allowing the Fire Department to conduct inspections directly as an alternative to third-party agencies, to reduce compliance costs and administrative burden." },
+        { "flag": "MISSING", "text": "The exact financial savings and reduction in processing time from the proposed reforms were not quantified in the discussion." },
+        { "flag": "VAGUE", "text": "Specific provisions of the Central Act or State Rules responsible for the described compliance burdens were not clearly identified during the discussion." }
+      ]
+    }
+  ]
+}

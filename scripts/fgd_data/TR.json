@@ -1,0 +1,2733 @@
+{
+  "code": "TR",
+  "name": "Tripura",
+  "licenses": [
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": [
+        "TR_FGD_FNO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INSPECT",
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Physical inspection is mandatory before the Fire NOC is issued, and scheduling this adds directly to processing time; complete revision/approval of an application can take five to six months in some cases."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY",
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants report losing track of where they are in the documentation process, with steps repeated or restarted partway through because the sequence is not clearly visible."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Some applicants complete the application and processing steps but still do not receive the NOC."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Compliance rules are seen as rigid and complex, with confusion over which rules apply."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Site plans and key plans are submitted in varying formats, and mismatches with the department's expected format lead to queries and resubmission."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Delays have caused direct financial loss for some applicants; one participant cited roughly three months of rent loss while waiting."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT",
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Heavy reliance on agents/consultants to navigate documentation, at a reported cost of roughly Rs. 1-5 lakh; agent involvement itself sometimes adds further delay."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Self-certification and third-party inspection frameworks were referenced by participants as still under implementation, with physical inspection remaining the default route in their experience."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "A deemed-approval mechanism was raised in discussion but does not appear to be consistently applied."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Guidelines exist and are documented, but participants felt they are not always easy for applicants to follow end-to-end."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Mandatory physical inspection before NOC issuance and incomplete or non-standard site/key plan submissions trigger queries and resubmission cycles."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Supporting documents are sometimes resubmitted when the department raises queries on the initial format."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE",
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Time required to schedule and conduct the mandatory physical inspection is a cited driver of delay."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "CLARITY",
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants losing track of where they are in the process was attributed to overlapping digital platforms, recent legislative overhauls, and structural communication gaps within the tracking workflow."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Low awareness of documentation requirements among applicants leads to incomplete submissions and extends the timeline (5-6 months cited)."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Publish a complete, department-issued checklist of required documents directly on the application portal so applicants know upfront what to prepare."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Better sequence and simplify guidance so first-time applicants don't need an agent purely to understand documentation requirements."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Improve awareness among citizens/applicants and strengthen internal staff training; participants felt this alone would meaningfully reduce agent dependency, with no additional budget seen as necessary."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "At least one participant described a smooth, hassle-free experience, suggesting the process works well when the applicant is well prepared and aware of requirements."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Participants did not flag the official fee itself as a burden; the burden described is procedural, not financial."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Business Representative",
+          "quote": "We lose track of where we are in the documentation and sometimes end up restarting from an earlier stage.",
+          "topic": "Process Clarity",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Business Representative",
+          "quote": "The compliances are rigid and not clearly directional, that we needed a consultant just to understand which rules apply.",
+          "topic": "Procedural Complexity",
+          "tags": [
+            "COMPLY",
+            "CONSULT"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Business Representative",
+          "quote": "The full process, going through compliance, can run five to six months from start to finish.",
+          "topic": "Delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Business Representative",
+          "quote": "As a public-facing premises (mall/hotel), we already run a daily internal checklist covering fire panels and related equipment.",
+          "topic": "Existing Self-Compliance",
+          "tags": [
+            "COMPLY",
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Business Representative",
+          "quote": "Using an agent cost us somewhere between one and five lakh rupees, and it still didn't always save time.",
+          "topic": "Intermediary Cost",
+          "tags": [
+            "CONSULT",
+            "INFORMAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Business Representative",
+          "quote": "Awareness is the real issue - once applicants and third parties understand the requirements, most of the friction resolves itself.",
+          "topic": "Awareness Gap",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Business Representative",
+          "quote": "There's no need for added budget - it's really about planning ahead of time.",
+          "topic": "Planning / Budget",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED reports a departmental working timeline of ~21 working days for the Fire Safety Recommendation plus ~21 more working days for the final NOC after inspection (~42 working days, non-self-certified); FGD participants instead report the full process 'can run five to six months from start to finish,' with one case of roughly three months of rent loss while waiting - a much longer duration than the ED's quantified figure."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED describes an established self-certification route (for Low/Moderate risk buildings up to ~500 sq.m/10m height) already operational, supported by an empanelled third-party inspection/consultant system; FGD participants instead describe self-certification and third-party inspection frameworks as 'still under implementation,' with physical inspection remaining the default route they experience."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The ED record does not capture the informal agent/consultant cost that FGD participants describe as significant in practice (reportedly Rs. 1-5 lakh), nor that agent involvement can itself add delay."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Some FGD participants reported a smooth, hassle-free experience when well prepared, suggesting the ED-described checklist-based process works as intended for applicants with good documentation in hand."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "FGD participants did not quantify the specific documentation formats/mismatches that trigger queries and resubmission (e.g., for site/key plans), beyond stating that varying formats cause issues."
+        }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFiles": [
+        "TR_FGD_LEM.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Participants said it takes about 3-4 months from application to receiving the certificate, whereas the expected time mentioned was 10-15 days; when an intermediary is used, the certificate reportedly comes in about 10-15 days."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no tracking system; after submitting the application participants do not know where it is or which officer is handling it, receiving only an initial SMS acknowledgement and no status updates afterwards."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Participants have to visit the department about 4-5 times to ask about application status and resolve queries, even though the application is filed online; they go themselves since there is no dedicated employee, and the visits involve cost."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The department does not tell applicants the reason for delay, and deficiencies are pointed out piecemeal, with a different reason given on each visit; participants hesitate to ask officers more questions, fearing it may delay the application further."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "Participants have no information on where to complain if the certificate is delayed, and no updates or tracking for the application."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "A participant estimated a financial loss of about Rs. 300-400 per day due to delay in receiving the certificate."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES",
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Most participants get the online application filled by computer operators, paying about Rs. 500-1,000, as they do not have time, or do not have a computer or internet."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Participants get no SMS or official information when a requirement or regulation changes; they find out only when filling a new application or visiting the office - some recent applicants knew validity had changed to lifetime while others did not."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "A participant noted that if the regulation changes, goods already packed with date marking may become unsuitable for sale, causing a loss."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "The application is fully online: the applicant fills the form and uploads documents on the portal and does not need to submit documents offline; portal guidance and the document list were described as clear."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "neutral",
+          "text": "Documents listed by participants: NOC (and NOC from other owners where there is more than one owner), electricity bill, location map, Aadhaar ID proof, and a Rs. 200 stamp paper; document requirements differ by business type (manufacturing, dealers, packaging)."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral",
+          "text": "The certificate is now valid for life with no renewal needed; where renewal was still needed (for pre-reform licenses), the whole process is repeated and documents have to be uploaded again, with the old certificate number not auto-filling earlier data."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "positive",
+          "text": "There is no visit/inspection by officials for the certificate, and no equipment had to be purchased."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No additional documents are asked for after the application is submitted; all documents required are genuine and none is difficult to collect."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "A tracking system showing application status and expected time would make the process easier and reduce repeated visits."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "The full list of documents should be given once at the start, so that no other document is asked for later."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "The legal metrology certificate could be clubbed with another license (trade license and professional tax were mentioned) or issued on the basis of a self-declaration, and a single window for all offices was suggested."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Now that validity is lifetime for all, participants suggested fees for dealership and repair should be reduced, as packaging fees are already low."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "It takes about 3-4 months to get the certificate after applying, whereas it should take 10-15 days.",
+          "topic": "Processing Timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The application is fully online and easy to fill, and the portal guidance and document list are clear.",
+          "topic": "Online Process",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "There is no tracking system; we do not know where the application is or which officer has it.",
+          "topic": "Status Tracking",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "We have to visit the department about 4-5 times to ask about the application.",
+          "topic": "Repeated Visits",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The department does not tell us the reason for the delay and gives a different reason each time.",
+          "topic": "Delay Reasons",
+          "tags": [
+            "QUERY",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "We do not know where to complain if the certificate is delayed.",
+          "topic": "Grievance Redressal",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "No additional documents are asked for after submission, and no document is difficult to collect.",
+          "topic": "Document Requirements",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "There is no visit or inspection, and no equipment had to be purchased for the certificate.",
+          "topic": "Compliance Requirements",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "We get no SMS or information when a requirement or regulation changes.",
+          "topic": "Regulatory Communication",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The certificate could be clubbed with another license or issued on self-declaration to save time.",
+          "topic": "Suggestion - Merge / Self-Declaration",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED reports the mandated timeline is 14 days (superseded from an earlier 21-day guideline), with officials stating approvals are generally issued before the 14 days lapse; FGD participants instead report the certificate typically takes 3-4 months, with an intermediary needed to get it down to 10-15 days - a large, concrete contradiction on processing time."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED describes the service as fully online with applicantOfficeVisit 'no'; FGD participants report having to physically visit the department about 4-5 times per application to check status and resolve queries, contradicting the ED's no-office-visit characterization."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED states a grievance redressal mechanism exists via email, helpline/phone, the NCS portal, and formal letters to the Controller, generally resolved within one day; FGD participants say they have no information on where to complain if the certificate is delayed - a direct contradiction on grievance-channel awareness/availability."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED gives license fees of Rs. 25,000 (manufacturer), Rs. 10,000 (repairer) and Rs. 5,000 (dealer), all lifetime; FGD participants instead describe the application fee as 'about Rs. 500 to Rs. 1,000,' a much lower figure - unclear whether this reflects a different (processing/intermediary) charge or a genuine discrepancy in the fee understood by applicants."
+        },
+        {
+          "flag": "MISSING",
+          "text": "FGD participants report that regulatory/requirement changes (e.g., the shift to lifetime validity) are not proactively communicated via SMS or official notice, learned only when filing a new application or visiting the office - this communication gap is not addressed in the ED record."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The FGD does not specify which license type(s) still require renewal (described only as earlier/legacy licenses with limited validity), versus the ED's clearer statement that the service is now uniformly lifetime for all categories."
+        }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License - Approval",
+      "sourceFiles": [
+        "TR_FGD_TLA.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No participant raised a major concern about the trade license application process; specifically, no issues were reported with delayed approval, excessive documentation, difficulty understanding the process, high consultancy costs, physical follow-ups, or difficulty accessing departmental assistance."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The only minor concern raised was the possibility of technical glitches or server downtime affecting applicants, particularly first-time applicants; this occasionally includes slow document upload and payment-related issues."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "CAPACITY"
+          ],
+          "sentiment": "neutral",
+          "text": "Some participants felt an offline option could help first-time applicants during technical glitches, while others felt the online portal is sufficiently easy to use; overall there was no strong demand for replacing the online system."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CONSULT",
+            "CAPACITY"
+          ],
+          "sentiment": "positive",
+          "text": "None of the participants had engaged consultants to complete their trade license applications; consultants were considered unnecessary because departmental help desks are available to assist applicants, which was viewed positively."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "positive",
+          "text": "Online applications receive SMS/status notifications."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "neutral",
+          "text": "Required documents for a private limited firm were listed as including Aadhaar and identification of directors, GST certificate, MOA/AOA, board resolution, and a rent agreement/electricity bill."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No major additional compliance cost was reported beyond the license fee itself, and no extra equipment or infrastructure investment was required."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Approval is generally received within about 7 days as per the prescribed timeline; some applicants received it within 2-3 days. Participants did not report significant delays in receiving their licenses."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Awareness programmes and simple demonstrations/guidance on the online application process, documents, and fee payment could help first-time applicants and further reduce dependence on physical assistance."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Businesses with multiple establishments under one owner should be able to obtain a single consolidated license instead of a separate license for each location."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants suggested potentially retaining an offline/assisted contingency option for instances of technical glitches or server downtime."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry User",
+          "quote": "Approval is generally received within about 7 days as per the prescribed timeline; some applicants received it within 2-3 days.",
+          "topic": "Processing Timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Required documents for a private limited firm include Aadhaar and identification of directors, GST certificate, MOA/AOA, board resolution, and rent agreement/electricity bill.",
+          "topic": "Document Requirements",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Online applications receive SMS/status notifications.",
+          "topic": "Tracking & Transparency",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "The online portal occasionally has glitches such as slow document upload and payment-related issues, which leads some first-time applicants to prefer the offline mode.",
+          "topic": "Portal/Technical Issues",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "No major additional compliance cost was reported beyond the license fee itself, and no extra equipment or infrastructure investment was required.",
+          "topic": "Compliance Cost",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Businesses with multiple establishments under one owner should be able to obtain a single consolidated license instead of a separate license for each location.",
+          "topic": "Suggestions/Policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED's documentsNote says that as part of a deregulation exercise a property-tax document and an NOC from the property owner were removed, so 'identification is now the only document sought beyond business details'; FGD participants instead describe a longer document list for private limited firms - Aadhaar/director ID, GST certificate, MOA/AOA, board resolution, and rent agreement/electricity bill - suggesting documentation in practice is broader than the ED's simplified description, at least for company applicants."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "FGD participants confirm the ED's 7-day notified timeline, with some reporting approval in 2-3 days, and describe the departmental help-desk/assisted-digital model positively as removing the need for consultants - both corroborating the ED's account."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The suggestion that businesses with multiple establishments under one owner should get a single consolidated license (instead of one per location) is not addressed in the ED record."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "FGD participants do not quantify how often portal glitches/server downtime occur, only that they are an occasional minor concern, mainly for first-time applicants."
+        }
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License - Renewal",
+      "sourceFiles": [
+        "TR_FGD_TLR.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Participants described the trade license renewal process as simple, smooth, and easy to complete, with no significant difficulties raised and no major changes recommended."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "neutral",
+          "text": "The only factor flagged was the level of awareness of the online portal - greater awareness of the portal would make the process easier to use."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "For renewal, applicants provide their existing trade license number or registered mobile number; an OTP is generated, and once the OTP is verified and the fee is paid, the renewal is completed."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive",
+          "text": "No fresh documentation is required for a straightforward renewal; additional information is required only if the business scope is being added or changed."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "The statutory government fee for renewal is the same as for a new application: minimum Rs. 300 and maximum Rs. 30,000, depending on the size and nature of the business."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "After OTP verification and payment, a digital certificate with a QR code is generated instantly online; no signature is required. A physically signed copy can be collected offline afterward if needed."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "positive",
+          "text": "The prescribed timeline for renewal is 7 days, but in practice online renewal is completed within about 10-15 minutes of submission and payment."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral",
+          "text": "The renewal window runs for about 9 months up to 31 March, with no late fee within this period; a late fee along with back-dues applies only if renewal is delayed beyond about 2 years."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "neutral",
+          "text": "There is no separate manual or online document scrutiny at the renewal stage - the process is limited to OTP verification and fee payment."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "It was noted that documents already submitted for the trade license may be separately required by other departments."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Participants stated they had never experienced any delay in receiving a renewed license; renewal is near-instant online once payment is made."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "A fee relaxation/discount could be considered for applicants opting for a 5-year renewal, since a longer validity period involves upfront payment and reduces the frequency of renewal-related processing."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES",
+            "COMPLY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Fee concessions could be considered for larger businesses that consistently comply with prescribed renewal timelines, as an incentive for timely compliance."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry User",
+          "quote": "The renewal process is simple, smooth, and easy, with no significant difficulties.",
+          "topic": "Overall Experience",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "The only factor affecting ease of use is awareness of the online portal - greater awareness would make the process easier.",
+          "topic": "Awareness",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Renewal only requires the existing license number or registered mobile number and an OTP; no documents need to be resubmitted unless the business scope is changing.",
+          "topic": "Document Requirements",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "The statutory government fee for renewal ranges from Rs. 300 (minimum) to Rs. 30,000 (maximum), depending on the size and nature of the business.",
+          "topic": "Fee Structure",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Once the OTP is verified and the fee is paid, a digital certificate with a QR code is generated instantly online, with no signature required.",
+          "topic": "Digital Process",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "There has never been a delay in receiving a renewed license.",
+          "topic": "Processing Timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "A fee relaxation/discount could be considered for applicants opting for a 5-year renewal.",
+          "topic": "Suggestion - Fee Incentive",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED describes renewal as a two-step process - a certificate issued immediately on payment, with the digitally signed version 'generally following within a day or two once signed by the authorised officer' (timeline given as 1-2 days); FGD participants instead describe a single instant step: a digital certificate with a QR code generated immediately, with 'no signature required,' and state they have never experienced any delay. This is a genuine contradiction on whether an officer's digital signature step adds 1-2 days."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED states the late fee (10%) applies to renewal sought beyond the 9-month post-expiry window; FGD participants instead say there is 'no late fee within this [9-month] period' and that a late fee plus back-dues applies 'only if renewal is delayed beyond about 2 years' - a different trigger point for when the penalty begins."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The suggestions of a fee relaxation for 5-year renewal and fee concessions for consistently compliant businesses are not addressed in the ED record."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "FGD participants corroborate the ED's description of a largely automated, documentation-free renewal and report zero experienced delay, reinforcing the ED's positive account of this service."
+        }
+      ]
+    },
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFiles": [
+        "TR_FGD_BPA.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The engineer's professional fee (about 0.75% of total construction cost) is negotiable and not fixed, unlike the government fee, creating variability in what applicants end up paying."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES",
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "While the government fee is fixed, the engineer's fee is only benchmarked as a negotiable percentage (~0.75%) of total cost, with no notified minimum or fixed rate."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Respondents noted the absence of any fund for maintaining the software used in the planning/approval process, pointing to a policy gap in sustaining the digital infrastructure."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "Process flow described: soil testing, architect prepares the plan/drawing, drawing is submitted to the structural engineer, relevant documents (tax documents, soil test report, latitude & longitude, site plan & drawing) are filed, fees are paid, and approval is received."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "On average, it takes about 20-25 days to arrange all the relevant documents needed for submission."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "positive",
+          "text": "Approval is generally received within about 1 month if all documents are correct; one respondent specifically noted a 30-45-day approval timeline."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Fees depend on the plan, averaging about Rs. 4 lakhs in one case; a separate estimate put the fee at an average of Rs. 120 per sq. ft. The architect is separately paid a fee of approximately Rs. 3,000 for preparing the plan."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The process is completely online, and applicants reported no compliance cost associated with the approval."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No redundant or duplicate document was specifically identified by respondents; tax documents, the soil testing report, latitude & longitude details, and the site plan & drawing were described as the standard, necessary document set."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "Arranging all relevant documents before submission takes about 20-25 days on average, forming a large part of the overall timeline; the drawing must first be prepared by the architect and then submitted to the structural engineer before further documentation can proceed."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Establish a dedicated fund for the maintenance of software platforms used by planners, to support the digital tools underpinning the approval process."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES",
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Consider a notified minimum/fixed benchmark for the engineer's professional fee (in addition to the existing ~0.75% of cost / ~Rs. 120 per sq. ft. benchmark), so it is less open to negotiation and variability."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry User",
+          "quote": "Approval takes about one month if all the documents are correct; a consultant is hired only if required, and the applicant did not have to wait long, so day-to-day business was not affected.",
+          "topic": "Processing Timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "The process runs through soil testing, an architect's plan (fee of about Rs. 3,000), filing of documents, and payment of fees, with approval received after 30-45 days and no compliance cost involved.",
+          "topic": "Procedural Steps",
+          "tags": [
+            "TIMELINE",
+            "FEES"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "The entire approval process is completely online.",
+          "topic": "Digital Process",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Required documents include tax documents, soil testing, latitude & longitude, and the site plan & drawing, and it takes about 20-25 days on average to arrange all of these for submission.",
+          "topic": "Document Requirements",
+          "tags": [
+            "DUPDOC",
+            "TIMELINE"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "The architect prepares the drawing and submits it to the structural engineer, after which further documentation begins.",
+          "topic": "Procedural Steps",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Fees average about Rs. 120 per sq. ft., made up of the government fee and the engineer's fee of about 0.75% of the total cost, which is negotiable.",
+          "topic": "Fee Structure",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "There is no fund for the maintenance of the software used by planners.",
+          "topic": "Institutional Gap",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "The specific issuing authority/approving officer's designation is not named in the FGD beyond the Directorate of Urban Development being the venue; no portal name is given either."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision, validity period for the approval, or office-visit requirement was discussed in the FGD."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Two different fee benchmarks are given (an average of ~Rs. 4 lakh in one case versus ~Rs. 120 per sq. ft. in another) without enough detail to reconcile them against a specific plan size."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Participants describe a fully online process with no compliance cost and no redundant/duplicate documentation, and approval generally within about a month when documents are correct."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested reforms - a dedicated fund for software/platform maintenance, and a notified minimum/fixed benchmark for the negotiable engineer's professional fee - are not yet implemented."
+        }
+      ],
+      "issuingAuthority": "Directorate of Urban Development, Government of Tripura (Agartala) - specific approving officer/designation not named by participants.",
+      "portal": {
+        "name": "Department's online building-plan approval portal (specific name not given in FGD)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 45,
+        "basis": "FGD testimony only: approval generally received within about 1 month if documents are correct; one respondent specifically cited a 30-45 day timeline, in addition to roughly 20-25 days typically needed beforehand to arrange required documents.",
+        "text": "Approval is generally received within about 1 month (one respondent specifically cited 30-45 days) once documents are submitted; arranging the required documents (soil test, drawings, site plan, etc.) beforehand takes about 20-25 days on average."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Tax documents",
+        "Soil testing report",
+        "Latitude & longitude details",
+        "Site plan & drawing"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Documents are compiled by the applicant via the architect/structural engineer before submission; arranging the full set took about 20-25 days on average. No redundant or duplicate document requirement was identified by participants.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed-approval provision was mentioned by participants."
+      },
+      "validity": {
+        "text": "Validity of the Building Plan Approval itself was not discussed in the FGD."
+      },
+      "fees": {
+        "text": "Government fee reported to average about Rs. 120 per sq. ft. (one case cited an average of about Rs. 4 lakh total). In addition, a separate, unregulated/negotiable engineer's professional fee of about 0.75% of total construction cost applies (no notified minimum/fixed rate), and the architect is separately paid roughly Rs. 3,000 for preparing the plan."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Soil testing is conducted",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "pre",
+          "title": "Architect prepares the building plan/drawing",
+          "automated": false,
+          "note": "Architect fee reported at approximately Rs. 3,000."
+        },
+        {
+          "n": 3,
+          "phase": "pre",
+          "title": "Drawing is submitted to the structural engineer",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "apply",
+          "title": "Relevant documents (tax documents, soil test report, lat/long, site plan & drawing) are filed/submitted online",
+          "automated": "partial",
+          "note": "Document assembly itself (soil testing, drawing) is offline; takes ~20-25 days on average before online filing."
+        },
+        {
+          "n": 5,
+          "phase": "fee",
+          "title": "Government fee and the engineer's fee are paid",
+          "automated": "partial",
+          "note": "Government fee reported paid through the online process; the negotiable engineer's fee (~0.75% of cost) is paid separately, outside the government portal."
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Approval is received, generally within about 1 month (30-45 days in one case) if documents are correct",
+          "automated": true,
+          "note": ""
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record and has not been cross-checked against an official ED for Building Plan Approval in Tripura.",
+        "Participants flagged a policy gap: there is no budgetary provision/fund for maintaining the software platform used in the planning/approval process.",
+        "Participants suggested a notified minimum/fixed benchmark for the engineer's professional fee, since it is currently only a negotiable ~0.75%-of-cost / ~Rs. 120-per-sq.-ft. guideline."
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": [
+        "TR_FGD_CTO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "The mandated approval timeline is 21 days, but actual processing commonly took about 1 to 1.5 months; this was described as the most significant challenge, with a cascading impact on business operations and on obtaining other statutory approvals."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "A healthcare-sector participant received the CTE but had to wait approximately 1-1.5 months for the CTO; the delay subsequently affected obtaining other approvals including the Fire NOC, with an estimated recurring business deficit of about Rs. 3,000 per day for the micro business."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "As per the applicable Central Government requirement, an Orange-category unit was required to obtain CTO for 10 years, with no flexibility to select a shorter validity period, which is a problem for a participant operating on leased land without certainty of lease continuation for that period."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "A participant's business was classified Red category at application and the applicable (higher) fee was paid; the classification was later corrected to Orange, resulting in an excess payment that was informally said to be adjusted against the renewal fee, with no written confirmation provided."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Even after completing the application and document submission online, participants are sometimes required to submit physical copies to the department."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Participants reported taking multiple follow-ups from the department but not getting proper reasons why applications were getting delayed; responses sometimes cited that the file was pending at a particular table or with the chairperson."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants had to make repeated physical follow-ups with the department to check on status."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Delays were also linked to inter-departmental dependencies affecting the overall approval timeline."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Participants did not report significant difficulties with understanding the portal, uploading or submitting documents, or preparing the required documentation."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "neutral",
+          "text": "2 out of 8 participants engaged consultants for the CTO application, primarily to save internal time and effort in preparing and compiling documentation, not due to difficulty understanding the process."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE",
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Review the current approval workflow to ensure the mandated 21-day timeline is adhered to in practice; introduce stronger accountability and escalation mechanisms for applications exceeding the prescribed timeline."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Establish a dedicated grievance redressal mechanism, preferably through an accessible digital channel such as WhatsApp, providing status updates, reasons for pending applications, and escalation of delayed applications."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Explore reducing the CTO fee particularly for micro and small businesses, and establish a transparent mechanism (supported by formal written acknowledgement) for refund/adjustment of excess fees when category/classification changes after payment."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Consider providing applicants a choice of CTO validity period (subject to regulatory provisions), particularly relevant for businesses on leased premises where long-term tenure is not assured."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Where CTO approval depends on inputs from other departments, establish time-bound service-level requirements for those departments too, with an integrated tracking mechanism, so delays attributable to another department do not indefinitely extend the applicant's timeline."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Review and, wherever feasible, discontinue the requirement for parallel physical submission alongside the online process, to reduce paperwork and processing time."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry User",
+          "quote": "The most significant challenge was the time taken to receive the Consent to Operate; although the mandated timeline is 21 days, actual processing commonly took about 1 to 1.5 months.",
+          "topic": "Processing Timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Participants did not report significant difficulties with understanding the portal, uploading or submitting documents, or preparing the required documentation.",
+          "topic": "Digital Process",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry User (Healthcare)",
+          "quote": "After receiving the CTE, the applicant waited about 1 to 1.5 months for the CTO; the delay affected other approvals including the Fire NOC and was estimated to cause a recurring business deficit of about Rs. 3,000 per day for the micro business.",
+          "topic": "Processing Timeline / Business Impact",
+          "tags": [
+            "TIMELINE",
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User (Rubber sector)",
+          "quote": "The unit was classified as Red category and the fee was paid accordingly; the classification was later corrected to Orange category, resulting in an excess payment to be adjusted against the renewal fee, but no written confirmation was provided.",
+          "topic": "Fee Structure",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User (Rubber sector)",
+          "quote": "As per the Central Government requirement, an Orange-category unit must obtain CTO for 10 years; since the unit operates on leased land, there is no certainty of the lease continuing for that period.",
+          "topic": "Validity Period",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Even after completing the application and document submission online, applicants are sometimes required to submit physical copies to the department.",
+          "topic": "Redundant Documentation",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Repeated follow-ups with the department did not yield clear reasons for the delay, with responses citing that the file was pending at a particular table or with the chairperson.",
+          "topic": "Process Transparency",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "A dedicated grievance redressal mechanism through an accessible digital channel such as WhatsApp could provide status updates and reduce the need for repeated physical visits.",
+          "topic": "Suggestion - Grievance Redressal",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific document checklist was enumerated by participants beyond general references to 'preparing and compiling documentation'; the FGD does not give a document list for CTO."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No portal name is given - participants refer only to 'the portal'/online application; the specific issuing authority's designation (beyond the TSPCB as venue, and participant references to 'the chairperson') is not precisely named."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No specific fee amount is given for CTO; only that a category change (Red to Orange) resulted in an unquantified excess payment to be adjusted against renewal."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision was mentioned; participants describe a 21-day mandated timeline with no automatic approval reported if it lapses."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested reforms - a formal written acknowledgement process for fee adjustments, flexible CTO validity periods for leased-premises businesses, time-bound inter-departmental SLAs, and elimination of parallel physical submission - are not yet implemented, per participants."
+        }
+      ],
+      "issuingAuthority": "Tripura State Pollution Control Board (TSPCB), Agartala - final approval reported by participants as passing through the Board/chairperson's office; specific designated officer not named.",
+      "portal": {
+        "name": "TSPCB's online CTO application portal (specific name not given in FGD)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": 45,
+        "basis": "FGD testimony only: the mandated/statutory timeline is cited as 21 days, but actual processing commonly reported as about 1 to 1.5 months (roughly 30-45 days).",
+        "text": "The mandated approval timeline is 21 days, but actual processing commonly took about 1 to 1.5 months in participants' experience."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not enumerate a specific document checklist; they described completing an online application and sometimes also being required to submit physical copies of already-uploaded documents to the department.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed approval was mentioned by participants; they described a mandated 21-day timeline that is not strictly met in practice (actual ~1-1.5 months), with no automatic approval reported if the timeline lapses."
+      },
+      "validity": {
+        "text": "An Orange-category unit's CTO validity was cited as fixed at 10 years under a Central Government requirement, with no provision to choose a shorter period suited to leased-premises tenure; no other category's validity was discussed."
+      },
+      "fees": {
+        "text": "No specific fee figures were given. One participant described being charged at the Red-category rate and then having the classification corrected to Orange, resulting in an overpayment informally said to be adjusted against the renewal fee (no written confirmation given)."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant submits the CTO application and required documentation online",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "In some cases, applicant is also required to submit physical copies of the same documents to the department",
+          "automated": false,
+          "note": "Reported by participants despite having completed the process online."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Department reviews the application and verifies category (e.g., Red/Orange), which determines the applicable fee",
+          "automated": "partial",
+          "note": "A classification correction after payment was reported in one case, leading to an unresolved fee adjustment."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Application proceeds through departmental review stages (reported by participants as sometimes pending 'at a particular table or with the chairperson') before CTO is granted",
+          "automated": false,
+          "note": ""
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record and has not been cross-checked against an official ED for Consent to Operate in Tripura.",
+        "Participants described a CTE-to-CTO sequence (CTE obtained first, then CTO applied for), with delay in CTO subsequently affecting other dependent approvals such as Fire NOC.",
+        "Inter-departmental dependencies were raised as a driver of delay, without specifying which other department(s) were involved."
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFiles": [
+        "TR_FGD_ECL.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Participants said it takes about 1-2 months from submitting the application until electricity actually starts at the premises; work that should take about 10 days was said to take 20 days to 2 months in practice."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Participants have to visit the electricity department at least 2-3 times after submitting documents to follow up on queries and pending items; each visit takes 2-3 days away from work and is a loss for the business."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY",
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The department does not always tell applicants all missing items at the first submission; further deficiencies are pointed out on later visits - one participant described being told only on the second visit that a NOC from a co-owner was needed."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no SMS or tracking system; participants do not know which officer is handling the application, how long it will take, or the reason for any delay, and find out status only by visiting or when the department calls."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INFORMAL",
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Participants identified the supervisor's approval/certificate (a load-verification visit) as the harder step in the process, and said cash is paid for the supervisor's visit."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "The department often does not have materials such as meters, poles, wires and transformers available, which delays the connection by 2-3 months; one participant said money was paid for a transformer upgrade but the letter was not received in the department, requiring follow-ups and causing delay."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Beyond application charges, participants reported extra cost depending on distance from the nearest pole (about Rs. 40,000 and Rs. 25,000 cited by two participants), with pillar/pole and wire cost also borne by the applicant."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Participants said new meters are showing much higher bills than earlier meters and that the government should look into the meters."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS",
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "The supervisor's certificate/NOC and verification visit is mandatory for the connection and was described as a requirement that did not exist earlier; participants identified it as the harder step in the process."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The form is filled and documents are uploaded online, but the same documents also have to be taken to the electricity department and submitted manually; participants questioned the need for physical papers (e.g., rent agreement) given digitization."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "The estimate stage takes about a month and the meter/connection can take about another month after payment, depending on availability of materials."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The online portal works properly and is easy to fill for those who know computers."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Documents uploaded on the portal also have to be physically submitted at the department, including papers like a rent agreement, despite digitization."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion",
+          "text": "If a self-declaration were accepted in place of the supervisor's NOC/verification, the process could be shortened by about 7 days."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Ensure availability of materials (meters, poles, wires, transformers), named as the main reason for delay, to improve the timeline."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "The government should review the new meters, which are showing higher bills than before."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "The process takes about 1-2 months from application until electricity starts.",
+          "topic": "Overall Timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Work that should take 10 days takes 20 days to 2 months.",
+          "topic": "Processing Timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The application is filled online, but the documents also have to be submitted manually at the department.",
+          "topic": "Application Process",
+          "tags": [
+            "PORTAL",
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "We have to visit the department at least 2-3 times for the application to move forward.",
+          "topic": "Repeated Visits",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "On the second visit it was pointed out that the land was in two persons' names and a NOC from the other person was needed.",
+          "topic": "Document Deficiency",
+          "tags": [
+            "QUERY",
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "We do not know which officer has the application or how long it will take; there is no SMS or tracking.",
+          "topic": "Status Tracking",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The supervisor's approval is the harder step in the process, and cash is paid for the visit.",
+          "topic": "Supervisor Approval",
+          "tags": [
+            "INFORMAL",
+            "INSPECT"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The department often does not have meters, poles and wires, which delays the connection by 2-3 months.",
+          "topic": "Material Availability",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Beyond the application charges, the estimate depends on the distance from the pole; extra cost was about Rs. 40,000 for one participant and about Rs. 25,000 for another.",
+          "topic": "Cost / Estimate",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "If a self-declaration is accepted in place of the supervisor's NOC, about 7 days can be saved.",
+          "topic": "Suggestion - Self-Declaration",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific issuing authority/department name or portal name is given in the FGD - participants refer only to 'the electricity department' and 'the portal'."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision was mentioned by participants."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The FGD gives no specific base application fee figure - only the additional distance-dependent cost examples (about Rs. 40,000 and Rs. 25,000) for two participants."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Validity/renewal terms of the electricity connection itself were not discussed - the FGD covers only the connection process and a post-connection billing concern."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested reform - accepting a self-declaration in place of the mandatory supervisor NOC/verification visit, estimated to save about 7 days - is not yet implemented, per participants."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "The online application portal itself was described as working properly and being easy to fill for those familiar with computers."
+        }
+      ],
+      "issuingAuthority": "The electricity department (specific office/authority name not given in the FGD) - a supervisor conducts a load-verification visit/certificate before the connection is granted.",
+      "portal": {
+        "name": "Online application portal referenced by participants as 'the portal' (specific name not given)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "FGD testimony only: work that 'should' take about 10 days was reported as actually taking 20 days to 2 months; the overall process from application to electricity supply was reported to take about 1-2 months, with the estimate stage taking about a month and the meter/connection stage taking about another month, longer if materials are unavailable (2-3 months).",
+        "text": "Participants reported the overall process takes about 1-2 months from application to electricity supply, against an expectation of around 10-15 days if everything is done properly; delays of 2-3 months occur when materials (meters, poles, wires, transformers) are unavailable."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Application form (filled online)",
+        "Supporting documents uploaded online and also submitted physically at the department (e.g., rent agreement)",
+        "NOC from co-owner, where land is in more than one person's name (required in some cases)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants described a hybrid online-plus-physical submission process; a full document checklist was not detailed in the FGD.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed approval mechanism was mentioned by participants."
+      },
+      "validity": {
+        "text": "Validity/renewal of the electricity connection itself was not discussed in the FGD; discussion focused on the connection process and post-connection billing."
+      },
+      "fees": {
+        "text": "Beyond unquantified standard application charges, participants reported additional cost depending on distance from the nearest pole/pillar, citing about Rs. 40,000 and Rs. 25,000 for two different participants; the cost of the pillar/pole and wire is also borne by the applicant."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant fills the application form online and uploads documents",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Applicant also submits the same documents physically at the electricity department",
+          "automated": false,
+          "note": "Reported despite the online submission; participants questioned the need for physical papers given digitization."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Department reviews the application and prepares a cost estimate (including pole/wire/transformer costs), taking about a month",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "A supervisor visits to verify the kilowatt load and issue a NOC/certificate",
+          "automated": false,
+          "note": "Described by participants as the harder step and as a requirement not present earlier; cash reportedly paid for this visit; depends on supervisor availability."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Meter is installed and connection activated once materials (meters, poles, wires, transformers) are available",
+          "automated": false,
+          "note": "A further ~1 month, sometimes delayed 2-3 months due to material shortage."
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record and has not been cross-checked against an official ED for Electricity Connection in Tripura.",
+        "Participants separately raised that new meters show higher bills than earlier meters and suggested a government review of the meters - a post-connection billing issue rather than part of the connection process itself.",
+        "The supervisor NOC/verification requirement for the connection was described by participants as newly introduced (not present earlier)."
+      ]
+    },
+    {
+      "serviceCode": "LA",
+      "serviceName": "Land Allotment",
+      "sourceFiles": [
+        "TR_FGD_LA.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "The government has introduced a notary deed system; registry is done only after at least 70% of construction is completed and the government verifies it. As a result, banks do not provide loans until the registry is done; earlier, registry used to be done directly."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Participants felt the monthly rent (and the separate water charges) charged on top of the one-time 30-year lease payment is high."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no SMS or email alert after application submission and no way to track whether an application is pending; applicants are only contacted by phone call when a meeting is scheduled or a selection is made, leading to repeated office visits."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "The main challenge is that suitable land is not always available, and there are many applicants for the same areas, which delays applications."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "One participant reported that the government had promised to build an access road within a stated time but had not done so, so the project could not start; the participant has been paying rent for about two years, has received cancellation notices, and reported a loss of about Rs. 2 lakh."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The department does not proactively inform applicants about changes (for example, an increase in land price); applicants learn about them only when they visit the office."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Registry costs were reported at around 15-17% on average (up to 17.5% including advocate charges)."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Land is given on a 30-year lease with a one-time, non-refundable payment (about Rs. 10 lakh per acre at the rate applicable from 2025), and monthly rent is charged in addition; what happens after 30 years has not been defined."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "neutral",
+          "text": "Registry is done only after 70% construction is completed, with a notary deed issued before that; this affects bank loans. Construction has to be undertaken within one year, failing which the lease may be cancelled."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The application is submitted fully online through the Swagat portal; no printout or offline submission is required; the portal was described as easy, with no system errors, and no dedicated employee or consultant was needed."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Documents required are the project report (DPR), application form, ID proof and PAN card; no additional documents or clarifications are asked for if the report is submitted properly."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "neutral",
+          "text": "The government has not prescribed a format for the project report; participants prepared it themselves or through a (non-government-approved) consultant, with consultant charges reported at Rs. 4,000-5,000 and lawyer fees separate."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "After application, the department calls for a meeting within about 10-15 days; about 10-15 days after the meeting, the department calls again and takes the applicant to see the land."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "FEES",
+            "PORTAL"
+          ],
+          "sentiment": "neutral",
+          "text": "The 30-year lease amount is paid one time (about Rs. 10 lakh per acre), with one year of advance rent collected (a one-month discount if a full year is paid at once); water charges are separate; payments are made online directly to the government."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No redundant or duplicate documents were reported; only the DPR, application form, ID proof and PAN card are required, and no document was reported to take a long time to correct."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Implement a tracking system with updates and notifications sent to the applicant's mobile on any change, so repeated office visits are not needed."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Reduce or minimise the monthly rent and water charges, suggested by around 50%; one participant suggested removing the monthly rent entirely."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Remove the notary deed system and allow direct registry, so that bank loans can be availed without waiting for 70% construction."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The government should keep its timely commitments on infrastructure such as roads and inform applicants of any updates on time."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry User",
+          "quote": "The overall experience of the land allotment service was fine; there is no problem in the starting process.",
+          "topic": "Overall Experience",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "The application is fully online through the Swagat portal, with no offline submission, and the portal is easy to use.",
+          "topic": "Digital Process",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Only the project report (DPR), application form, ID proof and PAN card are required; no additional documents or clarifications are asked for.",
+          "topic": "Document Requirements",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "The 30-year lease is a one-time, non-refundable payment of about Rs. 10 lakh per acre, and the position after 30 years is not defined.",
+          "topic": "Fee Structure",
+          "tags": [
+            "FEES",
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Monthly rent and water charges are high and should be reduced by around 50%.",
+          "topic": "Rent / Charges",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Registry is done only after 70% construction, and banks do not give loans until the registry is done.",
+          "topic": "Registry & Loan Access",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "There is no SMS or email tracking; applicants only get calls and have to visit the government office repeatedly.",
+          "topic": "Tracking / Status Updates",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "The government did not build the promised road, so the project could not start; rent has been paid for two years, cancellation notices received and a loss of about Rs. 2 lakh incurred.",
+          "topic": "Infrastructure Delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "A tracking system with mobile notifications should be implemented.",
+          "topic": "Suggestion - Tracking System",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "The notary system should be removed and registry done directly.",
+          "topic": "Suggestion - Registry Process",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific issuing authority/department name or designation is given in the FGD, beyond general references to 'the government'/'the department'."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No precise end-to-end day figure is given for the full allotment-to-registry process; participants describe two sequential ~10-15 day waiting periods (for the initial meeting, then the site visit) but not a total timeline through lease signing, notary deed and registry."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "What happens to the land/lease after the 30-year lease term expires has not been defined or communicated to applicants, per participant testimony."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval or guaranteed-timeline mechanism was mentioned; allotment proceeds through a meeting-and-land-viewing process with no stated timeline guarantee."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "The fully online Swagat-portal application, with no additional/duplicate documents requested and no consultant required, was described positively by participants."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested reforms - a mobile-notification tracking system, reduced rent/water charges, and removing the notary-deed/70%-construction precondition for registry - are not yet implemented, per participants."
+        }
+      ],
+      "issuingAuthority": "Government of Tripura land allotment office (via the Swagat portal) - specific issuing authority/designation not named by participants.",
+      "portal": {
+        "name": "Swagat portal",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "FGD testimony only: no single end-to-end day figure was given. Participants described the department calling for an initial meeting within about 10-15 days of application, and calling again about 10-15 days after that to show the land; further steps (payment, notary deed, registry) were not quantified in days.",
+        "text": "After application, the department calls for a meeting within about 10-15 days; about 10-15 days after the meeting, the department calls again and takes the applicant to see the land. Subsequent steps (lease payment, notary deed, and registry after 70% construction) were not given specific day counts."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Detailed Project Report (DPR)",
+        "Application form",
+        "ID proof",
+        "PAN card"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. The government has not prescribed a format for the DPR; it covers machinery, labour, buildings and area required, and is prepared by the applicant or a (non-government-empanelled) consultant at a reported cost of Rs. 4,000-5,000.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No deemed approval or automatic-selection mechanism was mentioned by participants; allotment proceeds through a meeting and land-viewing process with no stated timeline guarantee."
+      },
+      "validity": {
+        "text": "Land is allotted on a 30-year lease with a one-time, non-refundable payment; what happens after the 30-year term expires has not been defined or communicated to applicants, per participants."
+      },
+      "fees": {
+        "text": "One-time lease payment reported at about Rs. 10 lakh per acre (rate applicable from 2025), plus ongoing monthly rent and separate water charges (one year's rent collected in advance, with a one-month discount if a full year is paid upfront). Registry cost separately reported at around 15-17% of value (up to 17.5% including advocate charges)."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant submits application fully online via the Swagat portal (DPR, application form, ID proof, PAN card)",
+          "automated": true,
+          "note": "No printout or offline submission needed."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Department calls applicant for a meeting within about 10-15 days of application to discuss the project brief",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "About 10-15 days after the meeting, department calls again and takes the applicant to see the available land",
+          "automated": false,
+          "note": "If the applicant accepts the land, the process proceeds."
+        },
+        {
+          "n": 4,
+          "phase": "fee",
+          "title": "Applicant pays the one-time 30-year lease amount (about Rs. 10 lakh/acre) online, plus one year of advance rent",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "A notary deed is issued after payment",
+          "automated": false,
+          "note": "Precedes final registry."
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Government verifies construction progress (at least 70% complete, within one year) and registry is completed",
+          "automated": false,
+          "note": "Banks do not provide loans until registry is completed."
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record and has not been cross-checked against an official ED for Land Allotment in Tripura.",
+        "Participants described a case where a promised access road was not built by the government, stalling the project despite about two years of rent payments and resulting cancellation notices - raised as a significant grievance.",
+        "No SMS/email tracking system exists; applicants are informed only by phone calls for meetings or selection outcomes."
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFiles": [
+        "TR_FGD_RFAL.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The Swagat portal shows a system error while documents are being uploaded, due to which the upload does not go through and the application cannot be submitted."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "If an application is not submitted, the data does not remain in draft form; applicants have to re-enter the data and redo the whole work."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC",
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Documents which are not applicable to the applicant are shown as requirements on the portal, because of which the application cannot be submitted; applicants have to go to the department repeatedly to get the requirement removed and then re-upload all documents."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Documents have to be uploaded again each time the license is renewed."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The government does not inform applicants when requirements change; they come to know only when they go to apply, and advisories reach them only after documents have been submitted - notifications are in the public domain but existing/renewing license holders are not specifically informed."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "A fire NOC has been newly added as a requirement for factory license renewal, flagged by participants as a challenge to obtain."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Unnecessary advisories are being issued, which also cause delay."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral",
+          "text": "If the license is not renewed on time, a penalty of 25% applies for the first month after expiry and 50% for the second month."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Factories with more than 20 persons are required to renew the license; factories with fewer than 20 persons do not renew and are instead given a license on a one-time self-declaration basis."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "There is no fixed timeline for inspection as part of renewal; one participant said that despite repeated visits to the department regarding a system change, no letter or notification was issued."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "neutral",
+          "text": "The process is entirely online: the application is made and documents are uploaded on the Swagat portal, the fee is paid online, and the whole record is maintained online."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "positive",
+          "text": "The renewed license is received in about 7 to 10 days; the application should be made at least 2 months before expiry, and if applied on time no additional fee applies."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral",
+          "text": "A factory license can be taken for 3 or 5 years, with the fee being the per-year fee multiplied by the number of years chosen; the boiler license is renewed every year separately. Fee categories of low, medium and high were mentioned, with about Rs. 15,000 per year for the medium category."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Participants confirmed that a physical visit takes place as part of renewal, and that requirements depend on the number of workers and horsepower (HP); the department should be informed of changes such as a change of motor."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "neutral",
+          "text": "One participant said a consultant charges around Rs. 10,000-12,000 for handling all licenses together, but a separate consultant is not required specifically for factory license renewal."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Documents have to be uploaded again at every renewal, and documents not applicable to the applicant's factory are also shown as required on the portal."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Obtaining an electricity connection takes around 2-3 months and there is no fixed timeline for inspection, both cited as contributing to overall delay around renewal."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Once documents have been submitted for any license, the system should fetch that data for other licenses and for renewal, instead of asking for the documents again; data should also remain saved in draft on the portal."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "The government should inform applicants, including those who already hold a license or are due for renewal, when requirements change."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "The factory license could be combined with other licenses so applicants do not have to apply repeatedly; one NOC defined category-wise should be enough instead of multiple NOCs."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants suggested fixed timelines for inspection, citing Kerala (inspection within 10 days of application) and referenced Gujarat/Tamil Nadu, where a business can operate on the basis of an NOC for one year while the application is made."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry User",
+          "quote": "The Swagat portal shows a system error during document upload, so the application cannot be submitted.",
+          "topic": "Portal Errors",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Data does not remain in draft if the application is not submitted, so the whole work has to be done again.",
+          "topic": "Portal - Draft Saving",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Documents not applicable to us are shown as required on the portal, and we have to go to the department repeatedly to get the requirement removed.",
+          "topic": "Document Requirements",
+          "tags": [
+            "DUPDOC",
+            "INFORMAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Documents have to be uploaded every time for renewal.",
+          "topic": "Redundant Documents",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "The government does not inform us about changes in requirements; we come to know only when we go to apply.",
+          "topic": "Communication of Changes",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "A fire NOC has been newly added for factory license renewal, and obtaining it is a challenge.",
+          "topic": "Fire NOC",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "The renewed license is received in 7 to 10 days; if applied on time there is no extra fee, otherwise a 25% penalty applies per month.",
+          "topic": "Processing Timeline & Late Fee",
+          "tags": [
+            "TIMELINE",
+            "RENEWAL"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "An electricity connection takes around 2-3 months and there is no timeline for inspection.",
+          "topic": "Electricity Connection / Inspection",
+          "tags": [
+            "INTERDEP",
+            "INSPECT"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "Once documents are submitted for any license, the system should fetch that data instead of asking for it again.",
+          "topic": "Suggestion - Data Fetching",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Industry User",
+          "quote": "The factory license could be combined with other licenses so that we do not have to apply repeatedly.",
+          "topic": "Suggestion - Combine Licenses",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific issuing authority/department designation is given in the FGD, beyond 'the department' and the Swagat portal."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision was mentioned; instead, participants describe a late-fee penalty regime (25% for the first month, 50% for the second month) if renewal is delayed past expiry."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Fee figures are only partially given - a medium-category rate of about Rs. 15,000/year was cited, but low and high category amounts were not quantified."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No fixed timeline for inspection was given; participants state only that 'a visit takes place' and that there is no defined inspection timeline."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The Fire NOC requirement newly added for renewal is described as a challenge, but no timeline, process detail, or cost for obtaining it specifically in the renewal context is given."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested reforms - auto-fetching previously submitted data across licenses/renewals, portal draft-saving, advance notification of requirement changes, combining licenses, a single category-wise NOC, and fixed inspection timelines (citing Kerala/Gujarat/Tamil Nadu as benchmarks) - are not yet implemented, per participants."
+        }
+      ],
+      "issuingAuthority": "Factories (and Boilers) licensing department, Government of Tripura (via the Swagat portal) - specific authority/designation not named by participants.",
+      "portal": {
+        "name": "Swagat portal",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": 10,
+        "basis": "FGD testimony only: the renewed license is reported received in about 7 to 10 days when the application is made correctly and at least 2 months before expiry, with no additional fee if applied on time.",
+        "text": "The renewed license is received in about 7 to 10 days; the application should be made at least 2 months before expiry, after which no additional fee applies if timely. Portal system errors and non-applicable document flags can delay submission before this clock effectively starts."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Land document",
+        "Trade license",
+        "ID proof",
+        "Fire NOC (newly added requirement)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Documents must be re-uploaded at every renewal, including ones participants say do not apply to their factory but are nonetheless shown as required on the Swagat portal.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No deemed approval was mentioned; participants instead describe a late-fee regime - 25% penalty for the first month and 50% for the second month - if renewal is not completed before expiry."
+      },
+      "validity": {
+        "text": "A factory license can be taken for 3 or 5 years, with the fee being the per-year fee multiplied by the number of years chosen. Factories with more than 20 workers must renew; those with fewer than 20 workers do not renew and instead hold a one-time self-declaration-based license. The boiler license is renewed every year separately."
+      },
+      "fees": {
+        "text": "Fee categories of low, medium and high were mentioned, with the medium category cited at about Rs. 15,000 per year. A late-renewal penalty of 25% applies for the first month after expiry and 50% for the second month. A consultant handling all licenses together was reported to charge about Rs. 10,000-12,000, though a separate consultant was said not to be required specifically for factory license renewal."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant logs into the Swagat portal, uploads documents (land document, trade license, ID, Fire NOC) and applies for renewal",
+          "automated": true,
+          "note": "The portal reportedly shows system errors during document upload, and does not save drafts, forcing data re-entry."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "If the portal lists a document requirement not applicable to the applicant's factory, applicant must visit the department in person to get it removed before resubmitting",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Fee (per-year rate x number of years chosen) is paid online",
+          "automated": true,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "A physical visit/inspection takes place as part of renewal",
+          "automated": false,
+          "note": "No fixed timeline given for this inspection."
+        },
+        {
+          "n": 5,
+          "phase": "renew",
+          "title": "Renewed license is issued, generally within 7-10 days of a correctly filed, on-time application",
+          "automated": "partial",
+          "note": ""
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record and has not been cross-checked against an official ED for Renewal of Factory License in Tripura.",
+        "A Fire NOC was reported as a newly added renewal requirement, not communicated to applicants in advance.",
+        "Participants referenced Kerala (a 10-day inspection timeline) and Gujarat/Tamil Nadu (operating on an NOC basis for one year) as comparative/benchmarking examples, not confirmed Tripura practice."
+      ]
+    }
+  ]
+}

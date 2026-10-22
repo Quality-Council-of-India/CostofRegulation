@@ -1,0 +1,476 @@
+{
+  "code": "TN",
+  "name": "Tamil Nadu",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFiles": ["TN_FGD_BPA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": ["OTHER"],
+          "sentiment": "neutral",
+          "text": "TN_FGD_BPA.docx is nominally the Building Plan Approval session (14 participants listed), but its 'FGD Findings, Theme-wise' table (Pain Points, Policy Issues, Procedural Issues, Redundant/Duplicate Documents, Reasons for Delay, Suggestions, Other Remarks) is entirely blank in the source document — no content was recorded under any theme."
+        }
+      ],
+      "quotes": [],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No participant testimony on Building Plan Approval's process steps, timeline, fees, documents, deemed approval or validity exists in this file — the source document's own Findings table is blank for all themes, so none of these could be extracted."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The file's 'Key Statements & Quotes' table contains no quotes about Building Plan Approval. It is a verbatim duplicate of the quotes table in TN_FGD_CTO.docx — same six statements, same 'Industry Participant' respondent label, and each row's own 'Service Tagged' column marks them 'CTO' (one row 'CTO / Related services'), not BPA. These quotes are therefore reported under the CTO license entry, not here, to avoid misattributing CTO testimony as BPA findings."
+        }
+      ],
+      "issuingAuthority": "Not stated in this session — no participant testimony specific to Building Plan Approval was recorded.",
+      "portal": {"name": null, "url": null},
+      "timeline": {"minDays": null, "maxDays": null, "basis": "", "text": "Not discussed in this session."},
+      "automationLevel": "unclear",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. This session recorded no content specific to Building Plan Approval: its Findings table (Pain Points, Policy Issues, Procedural Issues, Redundant/Duplicate Documents, Reasons for Delay, Suggestions, Other Remarks) is blank, and its only populated section — the Key Statements & Quotes table — duplicates TN_FGD_CTO.docx's quotes verbatim rather than discussing BPA.",
+      "deemedApproval": {"status": "unclear", "days": null, "text": "Not discussed in this session."},
+      "validity": {"text": "Not discussed in this session."},
+      "fees": {"text": "Not discussed in this session."},
+      "steps": [],
+      "remarks": [
+        "This FGD session's 'Service(s) Discussed' field names Building Plan Approval and lists 14 participants, but no substantive BPA-specific findings or quotes appear anywhere in the source document.",
+        "The session's Key Statements & Quotes table is identical to TN_FGD_CTO.docx's quotes table (same six statements, same respondent label, same 'CTO'/'CTO / Related services' Service Tagged values) — almost certainly a copy/paste artifact in the source report rather than genuine BPA testimony.",
+        "Per the extraction spec's instruction not to guess at facts no participant gave, this record is left minimal rather than inferring BPA process details from the CTO content."
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": ["TN_FGD_CTO.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": ["TIMELINE"],
+          "sentiment": "issue",
+          "text": "Applications generally take around 3–6 months to get approved in practice, even though the stated timeline is approximately 21 days."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": ["PORTAL", "COMPLY"],
+          "sentiment": "issue",
+          "text": "Although applicants submit documents online, certain technical documents — Topo plan, process-flow charts, a local-body-approved inspection site document, and other supporting documents — must still be submitted physically."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": ["FEES"],
+          "sentiment": "issue",
+          "text": "CTO fees are calculated by including the value of land and buildings in gross fixed assets, which participants said increases compliance costs, especially where land prices are high, rather than being based on machine numbers/plant capacity."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": ["QUERY", "TIMELINE"],
+          "sentiment": "issue",
+          "text": "When documents are found incomplete, the application is returned for correction and, after resubmission, the clock restarts, adding further time to the process."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": ["OTHER"],
+          "sentiment": "issue",
+          "text": "Applicants often need to visit department offices and follow up repeatedly to clarify queries and get applications processed, increasing time and effort."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": ["FEES"],
+          "sentiment": "issue",
+          "text": "An additional fee must be paid to the local body (Panchayat & BDO), beyond the TNPCB consent fee."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": ["INTERDEP", "OTHER"],
+          "sentiment": "issue",
+          "text": "Industrial areas were reported to have infrastructure gaps — inadequate industrial power feeders, limited water/sewage connections, drainage/flooding issues, poor transport access, and limited access to first-aid and fire services."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": ["INTERDEP", "DUPDOC"],
+          "sentiment": "issue",
+          "text": "Participants described additional difficulties obtaining building-plan and local-body approvals, including repeated requests for certificates/legal documents and differing requirements between authorities."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": ["FEES"],
+          "sentiment": "suggestion",
+          "text": "Participants recommended excluding land and building value from the CTO consent-fee calculation, linking charges instead to plant and machinery, turnover, or industry category."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": ["INSPECT", "NORMS"],
+          "sentiment": "suggestion",
+          "text": "Participants said inspection requirements should be proportionate to pollution category/risk, limiting repeat inspections for lower-risk cases where compliance is demonstrated."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": ["CLARITY", "NORMS"],
+          "sentiment": "issue",
+          "text": "Participants raised the need for clearer, more consistent categorization of activities (chemical storage, distribution, mixing/blending) so businesses understand which requirements apply to them."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": ["INTERDEP"],
+          "sentiment": "suggestion",
+          "text": "Participants asked for better coordination between departments and local authorities so approvals, land-use planning, traffic restrictions and infrastructure decisions do not conflict with industrial operations."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": ["PORTAL"],
+          "sentiment": "issue",
+          "text": "Technical documents can be difficult to upload because of portal limitations or file-size restrictions; in some cases applicants submit hard copies separately."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": ["QUERY", "CLARITY"],
+          "sentiment": "issue",
+          "text": "Repeated or unclear scrutiny queries create uncertainty about what must be corrected; participants requested a clear checklist and specific reasons whenever an application is returned."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": ["INTERDEP"],
+          "sentiment": "issue",
+          "text": "Some approvals require input from multiple authorities (pollution-control, planning, local-body offices), which participants said leads to repeated scrutiny and long waiting periods."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": ["DUPDOC"],
+          "sentiment": "issue",
+          "text": "Similar land, building, ownership and technical details — including structural-stability certificates and legal opinions — may be requested repeatedly by more than one authority, even where already extensively submitted."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": ["DUPDOC"],
+          "sentiment": "issue",
+          "text": "Documents submitted and acknowledged by one office have reportedly later been described as missing, requiring resubmission to another office."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": ["GRIEVANCE"],
+          "sentiment": "suggestion",
+          "text": "Participants requested a clear grievance and appeal mechanism for disputed classifications, penalties, fees and approval decisions."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": ["OTHER"],
+          "sentiment": "suggestion",
+          "text": "Participants supported the proposed Single Window 3.0 reforms discussed during the meeting (a single consolidated query within a defined period and fewer inspections), while noting the existing process continues to cause difficulties until the changes are implemented."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry Participant",
+          "quote": "The approval timeline may be 21 days, but in practice it can take around 3–6 months.",
+          "topic": "Timeline / Delay",
+          "tags": ["TIMELINE"],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Participant",
+          "quote": "Land and building values should not be included when calculating consent fees.",
+          "topic": "Compliance Cost",
+          "tags": ["FEES"],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Industry Participant",
+          "quote": "Applications are returned for documents, but the requirements are not always clearly explained.",
+          "topic": "Documentation / Procedure",
+          "tags": ["QUERY", "CLARITY"],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Participant",
+          "quote": "The process should involve fewer inspections and clearer rules for lower-risk categories.",
+          "topic": "Inspection / Risk-based Regulation",
+          "tags": ["INSPECT", "NORMS"],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Industry Participant",
+          "quote": "Industrial areas need coordinated approvals and basic infrastructure such as power, water, sewage and drainage.",
+          "topic": "Coordination / Infrastructure",
+          "tags": ["INTERDEP"],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Industry Participant",
+          "quote": "There should be a clear grievance mechanism for disputed charges, classifications and penalties.",
+          "topic": "Grievance Redressal",
+          "tags": ["GRIEVANCE"],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED states the official OCMMS processing timeline is 20–30 days; FGD participants report that although the stated timeline is understood to be about 21 days, approval commonly takes 3–6 months in practice ('The approval timeline may be 21 days, but in practice it can take around 3–6 months')."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED states the CTO service is 'substantially online through OCMMS — registration, submission, document upload... are all handled on the portal'; FGD participants report that certain technical documents (Topo plan, process-flow charts, local-body-approved inspection site document, and other supporting documents) must still be submitted physically, and that uploads can fail due to portal file-size/format limitations requiring separate hard-copy submission."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED remarks state 'No additional parallel No Objection Certificate (NOC) is required when applying for the Consent to Operate' and that 'no redundant documents were flagged'; FGD participants report that some approvals require input from multiple authorities (pollution-control, planning, local-body offices) causing repeated scrutiny, and that similar documents (e.g. structural-stability certificates, legal opinions) are requested repeatedly by more than one authority, with documents acknowledged by one office later reported missing by another."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED remarks state 'Officials did not identify any major burdensome or time-consuming activity in the current CTO process'; FGD participants describe multiple burdensome aspects in the same process — physical document submission, repeated office visits/follow-up, scrutiny-clock restarts after resubmission, and an additional local-body fee."
+        },
+        {
+          "flag": "MISSING",
+          "text": "FGD participants report 'additional fee needs to pay to local Body (Panchayat & BDO)' beyond the TNPCB consent fee; the ED record's fees section describes only the TNPCB GFCI-based consent fee and does not mention any local-body fee component."
+        },
+        {
+          "flag": "REFORM",
+          "text": "FGD participants referenced a 'Single Window 3.0' reform (a single consolidated query within a defined initial period, fewer inspections) as a planned but not-yet-implemented change discussed during the meeting — broadly consistent with the ED's own remark that the department is 'considering a revamped, more user-friendly system with automated calculations, validation checks and a combined application.'"
+        }
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFiles": ["TN_FGD_ECL.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": ["PORTAL"],
+          "sentiment": "issue",
+          "text": "Several related services remain manual or unavailable online, including tariff conversion, construction-power disconnection, and demand enhancement/reduction."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": ["TIMELINE"],
+          "sentiment": "issue",
+          "text": "A new electricity connection takes around 90–120 days, depending on connection type (Low Tension, High Tension, or Extra High Tension)."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": ["DUPDOC"],
+          "sentiment": "issue",
+          "text": "Applicants are asked to submit multiple sets of documents even for demand reduction or enhancement, resulting in repeated paperwork and paper waste."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": ["QUERY"],
+          "sentiment": "issue",
+          "text": "Even after submitting required documents, applicants face repeated queries and missing-document problems, which drives reliance on intermediaries to get applications processed."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": ["TIMELINE", "CLARITY"],
+          "sentiment": "issue",
+          "text": "A request to disconnect temporary construction power supply had been pending for a prolonged period, with no clarity on the final charges or any additional financial liabilities payable by the applicant."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": ["OTHER"],
+          "sentiment": "issue",
+          "text": "Multiple visits to the Department are required by users for faster processing of applications, leading users to prefer approaching intermediaries."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": ["CAPACITY"],
+          "sentiment": "issue",
+          "text": "Power-quality fluctuations, inadequate substation capacity, and long lead times for capacity enhancement affect production, expansion and investment planning."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": ["TIMELINE"],
+          "sentiment": "issue",
+          "text": "Applications for renewable-energy-related approval/NFR were reportedly pending since March 2026, holding up a project and preventing the intended power-supply arrangement from proceeding."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": ["COMPLY"],
+          "sentiment": "issue",
+          "text": "Participants reported a conflict between central-level and state-level requirements regarding use of a common seal during agreement execution."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": ["NORMS"],
+          "sentiment": "issue",
+          "text": "Participants questioned the restriction limiting rooftop solar installation to 90% of sanctioned demand/load, even where additional roof space is available."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": ["FEES"],
+          "sentiment": "issue",
+          "text": "Demand charges were described as a concern because charges may be payable on sanctioned demand even when actual power consumption is substantially lower."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": ["GRIEVANCE"],
+          "sentiment": "suggestion",
+          "text": "Participants raised the need to review tariff-violation assessments and retrospective penalties, including provision for a fair grievance redressal process."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": ["PORTAL"],
+          "sentiment": "issue",
+          "text": "The application process is not fully end-to-end online — tariff conversion, demand enhancement/reduction and construction-power disconnection were described as manual processes."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": ["PORTAL", "CLARITY"],
+          "sentiment": "issue",
+          "text": "Application-status tracking and SMS updates are available only for some services; applicants cannot consistently see the current stage, pending requirements or position in the processing queue."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": ["OTHER"],
+          "sentiment": "issue",
+          "text": "The process involves an initial demand/payment, a field inspection, a further demand/payment, and then execution of field work; material procurement and departmental execution can add substantial time."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": ["QUERY"],
+          "sentiment": "issue",
+          "text": "During the final inspection and power energisation, the department may raise additional queries or identify non-compliance issues, resulting in further delays."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": ["OTHER"],
+          "sentiment": "issue",
+          "text": "Applicants may need to make repeated calls and visit the electricity office in person to follow up; one participant reported travelling approximately 60 km to reach the office."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": ["GRIEVANCE", "COMPLY"],
+          "sentiment": "issue",
+          "text": "No grievance redressal mechanism was reported to exist; required documents must be physically signed and stamped with the organisation's common seal by authorised senior officials (e.g. MD or CEO), whose busy schedules or unavailability make timely submission difficult. The participant suggested enabling online document signing and submission."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": ["DUPDOC"],
+          "sentiment": "issue",
+          "text": "For tariff conversion, documents reportedly submitted in person and acknowledged were later described by the department as unavailable, requiring resubmission."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": ["OTHER"],
+          "sentiment": "issue",
+          "text": "Applications processed through intermediaries reportedly sometimes move faster than direct applications, for reasons participants found unclear — raised as a transparency and equal-access concern."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": ["PORTAL"],
+          "sentiment": "suggestion",
+          "text": "Make all electricity-connection-related services available through a single end-to-end online portal, including tariff conversion, demand enhancement/reduction and construction-power disconnection."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": ["PORTAL", "CLARITY"],
+          "sentiment": "suggestion",
+          "text": "Provide application tracking showing the current stage, queue position, pending action, responsible office and expected timeline, with regular SMS/email/portal updates."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry Participant",
+          "quote": "For tariff conversion and some other services, the process is not available online and we have to submit documents manually.",
+          "topic": "Digitalisation / Procedure",
+          "tags": ["PORTAL"],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Participant",
+          "quote": "From the date of application, power receipt can take around 90 to 120 days, and there may be further delay.",
+          "topic": "Timeline / Delay",
+          "tags": ["TIMELINE"],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Participant",
+          "quote": "We are not sure where the application stands in the queue; we need visibility and accountability.",
+          "topic": "Tracking / Transparency",
+          "tags": ["PORTAL", "CLARITY"],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Participant",
+          "quote": "Documents were acknowledged, but later we were told that the documents were not available in the department.",
+          "topic": "Documentation / Record Management",
+          "tags": ["DUPDOC"],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No issuing-authority name or portal name is given by participants; they refer only generically to 'the Department' and 'the electricity office' — no official entity (e.g. the distribution utility) is named in the transcript."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The 90–120 day new-connection timeline is reported as participant experience ('From the date of application, power receipt can take around 90 to 120 days, and there may be further delay'), with no official SLA or rule cited as the basis, and no breakdown by connection type (LT/HT/EHT) despite the process being said to 'depend on the type of connection'."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No specific fee amounts, deemed-approval provision/days, or validity period for an electricity connection are stated by any participant — only fee-related concerns (demand charges on sanctioned vs. actual consumption, unclear disconnection liabilities) are discussed, not figures."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No complete document checklist is given; participants mention only specific pain points (repeated company/director/power-detail submissions, and physical signing/stamping with the organisation's common seal by a senior official) rather than a full list of required documents."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Participants proposed consolidating all electricity-connection-related services (tariff conversion, demand enhancement/reduction, construction-power disconnection) into a single end-to-end online portal with full status tracking and a defined grievance process — described as a suggestion, not a confirmed current or planned feature."
+        }
+      ]
+    }
+  ]
+}

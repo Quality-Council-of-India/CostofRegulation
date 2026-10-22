@@ -1,0 +1,230 @@
+{
+  "code": "GA",
+  "name": "Goa",
+  "licenses": [
+    {
+      "serviceCode": "ENCL",
+      "serviceName": "Environmental Clearance",
+      "sourceFile": "GA_ED_ENCL.docx",
+      "issuingAuthority": "State Environment Impact Assessment Authority (SEIAA), Government of Goa, acting on the recommendation of the State Expert Appraisal Committee (SEAC); administered by the Department of Environment & Climate Change",
+      "portal": { "name": "PARIVESH single-window portal (under the Digital India Mission)", "url": null },
+      "timeline": {
+        "minDays": 105,
+        "maxDays": 105,
+        "basis": "EIA Notification, 2006: 60 days for SEAC technical appraisal + 45 days for SEIAA's final decision",
+        "text": "The prescribed statutory timeline is 105 days, comprising 60 days for SEAC's technical appraisal and 45 days for SEIAA to issue the final approval or rejection. The Ministry is also considering reducing this overall timeline to 90 days, though this is not yet in effect."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Form-1 & Online PARIVESH Application",
+        "EIA & EMP Report (prepared by a NABET-accredited consultant)",
+        "Pre-Feasibility / Project Report",
+        "Public Hearing Proceedings (where applicable)",
+        "Site & Layout Documents (approved site plan, layout, land ownership documents)",
+        "Certified Compliance Report (CCR) — required only for expansion or amendment proposals, certified by the Integrated Regional Office (IRO)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": 105,
+        "text": "The EIA framework provides for deemed approval if no communication is issued within the prescribed timeline, irrespective of project category. However, the expert clarified that deemed approval is not automatically applicable in practice — in exceptional situations such as pending court matters, the authority may delay the final decision while informing the proponent."
+      },
+      "validity": {
+        "text": "For mining, environmental clearance is valid for the life of the mine or 30 years, with renewal required every 5 years thereafter. For building and construction, EC is valid for a maximum of 10 years, with renewal required if the project remains incomplete after that period."
+      },
+      "fees": {
+        "text": "For building projects, the fee is ₹30 per square metre of built-up area (minimum built-up area 20,000 sq.m.), with a minimum processing fee of ₹10,00,000. For mining, fixed fees of ₹15,00,000 or ₹20,00,000 were mentioned depending on the mine's size and category. The expert noted the statutory fee is not fixed and varies by project schedule, size, and category."
+      },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Identify project under applicable EIA Notification, 2006 schedule", "automated": false, "note": "" },
+        { "n": 2, "phase": "pre", "title": "Prepare EIA and EMP report through a NABET-accredited consultant", "automated": false, "note": "" },
+        { "n": 3, "phase": "apply", "title": "Conduct Public Hearing (where applicable) and incorporate concerns into proposal", "automated": false, "note": "" },
+        { "n": 4, "phase": "apply", "title": "Submit proposal to SEAC via the PARIVESH single-window portal", "automated": true, "note": "Online submission under the Digital India Mission." },
+        { "n": 5, "phase": "inspect", "title": "SEAC conducts inspection and hears the project proponent's presentation", "automated": false, "note": "" },
+        { "n": 6, "phase": "approve", "title": "SEIAA grants or rejects Environmental Clearance based on SEAC's recommendation", "automated": false, "note": "" }
+      ],
+      "ed": { "date": "17/08/2026", "location": "Conference Hall, 1st Floor, Goa Rajya Kar Bhavan, Altinho, Panaji, Goa-403001", "expert": "Mr. Praveen Kumar", "designation": "Engineer, Department of Environment & Climate Change" },
+      "remarks": [
+        "Although Goa currently relies on physical inspection because of its accessibility, the discussion indicated that technology-based surveys could also be utilised.",
+        "Compressing the approval timeline can reduce the interest burden on project stakeholders and provide financial benefit.",
+        "The Ministry is considering reducing the overall EC timeline from 105 days to 90 days, though this was described as under consideration, not finalised."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["COMPLY", "CAPACITY"], "sentiment": "issue", "text": "The EIA report is a burdensome activity because pre-monsoon, post-monsoon, and during-monsoon baseline data must all be collected." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Public hearing was identified as another major concern, particularly in Goa." },
+        { "source": "ed", "category": "pain", "tags": ["FEES", "CAPACITY"], "sentiment": "issue", "text": "The cost of NABET-accredited consultants was identified as a financial burden, particularly for smaller projects." },
+        { "source": "ed", "category": "redundant", "tags": ["NORMS", "COMPLY"], "sentiment": "issue", "text": "The discussion referred to multiple approvals and a large number of conditions attached to environmental clearances, with a minimum of 250 conditions mentioned." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "The expert recommended rationalising Environmental Clearance conditions by removing non-essential or non-applicable requirements while retaining project-specific environmental safeguards." },
+        { "source": "ed", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "A reduction in the approval timeline was proposed by retaining the technical appraisal period and shortening the authority's decision period, through a 45 + 15 days model." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "The expert suggested streamlining overlapping approvals to reduce repetitive procedures and improve processing efficiency." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES", "CAPACITY"], "sentiment": "suggestion", "text": "Universities and reputed institutions could be involved in preparing EIA reports for small-scale projects, helping reduce the cost burden on project proponents." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Researchers and postgraduate students could be encouraged to undertake EIA report preparation as part of dissertation projects, improving report quality and strengthening technical capacity." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The Parivesh single-window system provides a single digital platform for application submission and integrated environmental approvals." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE", "TIMELINE"], "sentiment": "positive", "text": "Goa follows a streamlined appraisal process enabling timely processing and disposal of EC proposals, highlighted by the expert as a key strength of the state's implementation." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The statutory timeline is 105 days (60 + 45), and the Ministry is considering reducing it to 90 days." },
+        { "source": "ed", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "A deemed-approval provision exists on paper, but the expert clarified it is not automatically applied in practice — the authority may delay decisions in exceptional cases such as pending court matters." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "After EC is granted, compliance reports must be submitted every 6 months, and highly polluting industries must carry out continuous (lifetime) air quality monitoring." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "A minimum of 75% compliance with EC conditions is mandatory; in cases of non-compliance the authority may allow corrective action or initiate penalties/further action depending on severity." },
+        { "source": "ed", "category": "remarks", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Technology-based surveys could supplement the physical inspections currently relied upon in Goa due to accessibility." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES", "TIMELINE"], "sentiment": "positive", "text": "Compressing the approval timeline can reduce the interest burden on project stakeholders and provide a financial benefit." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "The statutory fee for Environmental Clearance is described as 'not fixed' and varying by project; only illustrative figures are given (₹30/sqm with min ₹10,00,000 for buildings; ₹15-20 lakh fixed amounts for mining) rather than a complete fee schedule." },
+        { "flag": "INCONSISTENT", "text": "The ED states the EIA framework 'provides a provision for deemed approval' if no communication is issued within the timeline, irrespective of category, but then states 'deemed approval is not automatically applicable in practice' — the document does not resolve whether deemed approval functionally exists." },
+        { "flag": "MISSING", "text": "The document does not clarify whether the applicant must visit any office in person at any stage, versus the process being fully conducted through the Parivesh portal." },
+        { "flag": "MISSING", "text": "The document mentions 'a minimum of 250 conditions' attached to environmental clearances but does not list or categorise these conditions." },
+        { "flag": "REFORM", "text": "The Ministry is reportedly considering reducing the overall EC timeline from 105 days to 90 days — a proposed but not-yet-implemented reform." },
+        { "flag": "GOOD_PRACTICE", "text": "The Parivesh single-window portal, integrating application submission, committee routing, and compliance monitoring, combined with Goa's reportedly efficient disposal of EC applications, was highlighted as a state strength." },
+        { "flag": "MISSING", "text": "No appeal or grievance-redressal mechanism is mentioned for applicants whose proposals are rejected or delayed." }
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFile": "GA_ED_RFAL.docx",
+      "issuingAuthority": "Inspectorate of Factories and Boilers, Government of Goa; renewal licenses require the signature of the Chief Inspector of Factories",
+      "portal": { "name": "Goa State Single Window Portal (GL system)", "url": null },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": 21,
+        "basis": "Official mandate for renewal is 21 days (vs. 90 days for the initial 'Approval of Plan' stage); actual practice is reported as 7-15 days, with best-case turnaround around 1 week",
+        "text": "The official mandated timeline for renewal is 21 days. In actual practice, the expert stated renewals are generally processed within 7 to 15 days, and can be cleared in as little as one week for applications with flawless documentation and no inspection trigger."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Application Form No. 3",
+        "Copy of Expired/Old License (scanned)",
+        "Stability Certificate (a new one from a 'competent person' if the previous one has lapsed)",
+        "Industrial drawings (currently required in hard-copy/offline format, unlike the rest of the process)"
+      ],
+      "documentsNote": "Documentation required for the initial 'Approval of Plan' (Stage 1) — such as local authority NOCs, GSPCB clearances, or list of directors — is not required for a standard renewal unless there is a material change in the factory's layout or manufacturing process.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "The expert confirmed that deemed approval does not exist for factory license renewal. Every renewal requires active scrutiny and the manual signature of the Chief Inspector, due to the need for high-level safety accountability given industrial risk."
+      },
+      "validity": {
+        "text": "The occupier has discretion to choose the renewal duration — licenses can be renewed for a minimum of 1 year up to a maximum of 10 years, based on the occupier's operational and financial planning."
+      },
+      "fees": {
+        "text": "The renewal fee is calculated automatically by the GL system based on Horse Power (HP) and number of workers, per the Goa Factories Rules. Late filing attracts a penalty linked to the statutory license fee: 10% for a one-month delay, 20% for a two-month delay, and a maximum of 30% for delays of three months or more."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant initiates renewal via the Goa State Single Window Portal (GL system)", "automated": true, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Renewal formally filed using Form No. 3 (distinct from Form No. 1 used for initial plan approval)", "automated": true, "note": "" },
+        { "n": 3, "phase": "fee", "title": "Applicant uploads required statutory documents and pays the fee via the integrated online gateway", "automated": true, "note": "" },
+        { "n": 4, "phase": "scrutiny", "title": "Application routed to the assigned Inspector for technical scrutiny", "automated": false, "note": "" },
+        { "n": 5, "phase": "scrutiny", "title": "'Return to Inbox' — if discrepancies/omissions are found, the application is returned (not rejected) to the applicant's portal inbox for correction", "automated": "partial", "note": "Preserves the original submission date, avoiding late-fee penalties if the initial filing was timely." },
+        { "n": 6, "phase": "inspect", "title": "Trigger-based physical inspection, where applicable", "automated": false, "note": "Triggered by the Inspector's doubt, a reported increase in HP or manpower, or MAH/high-risk classification; not universal, unlike initial registration." },
+        { "n": 7, "phase": "approve", "title": "Chief Inspector reviews and signs the renewal license", "automated": false, "note": "All renewal licenses must bear the Chief Inspector's signature." }
+      ],
+      "ed": { "date": "17/08/2026", "location": "Conference Hall, 1st Floor, Goa Rajya Kar Bhavan, Altinho, Panaji, Goa-403001", "expert": "Mr. Premanand Gaude", "designation": "Inspector of Factories" },
+      "remarks": [
+        "The Inspector of Factories and Boilers website serves as the central repository for all procedures and fee charts.",
+        "The system uses SMS and Email notifications for real-time tracking; entering an acknowledgment number lets an applicant see exactly whose desk the file is on — the Inspector for scrutiny or the Chief Inspector for final signature.",
+        "The department is exploring empanelling independent, authorized agencies to conduct technical inspections."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "redundant", "tags": ["OTHER"], "sentiment": "issue", "text": "The requirement to submit industrial drawings offline ('hard format') remains a significant bottleneck and point of friction in an otherwise fully online system." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE", "TIMELINE"], "sentiment": "positive", "text": "The 'Return to Inbox' protocol lets applicants correct discrepancies without forfeiting fees or losing their original filing date, unlike a standard rejection." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Mandatory digital signatures have streamlined authentication of Form 3 submissions." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "FEES"], "sentiment": "positive", "text": "Online payment integration has replaced offline challans with immediate digital gateways." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Deemed approval does not exist for renewal; a manual Chief Inspector signature is required for every renewal because of safety accountability requirements." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "positive", "text": "The government-mandated timeline is 21 days, but actual practice is faster — generally 7 to 15 days, sometimes as little as one week with flawless documentation." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Inspections for renewal are trigger-based rather than universal — triggered by the Inspector's doubt, an increase in HP/manpower, or MAH/high-risk classification." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "Late-filing penalties are tiered: 10% for a one-month delay, 20% for a two-month delay, and up to 30% for delays of three months or more, calculated on the statutory license fee." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT", "CAPACITY"], "sentiment": "suggestion", "text": "Empanelling independent, authorized agencies for technical inspections could reduce the administrative/physical load on government inspectors, leverage specialized expertise for hazardous units (e.g. MAH), and expedite renewal timelines where an inspection trigger exists." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Post-approval obligations include maintaining statutory registers, submitting Annual Returns (Form 30) through the portal, and reporting accident details annually." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY", "NORMS"], "sentiment": "neutral", "text": "The department frames retention of document checks like the Stability Certificate as a 'Regulatory Safeguard' balancing EODB-driven document reduction against the legal necessity of maintaining safety records." },
+        { "source": "ed", "category": "remarks", "tags": ["DUPDOC", "POSITIVE"], "sentiment": "positive", "text": "Documentation required for renewal is significantly reduced compared to initial registration — only Form 3, old license copy, and Stability Certificate — unless there is a material change in layout or process." },
+        { "source": "ed", "category": "remarks", "tags": ["CLARITY", "POSITIVE"], "sentiment": "positive", "text": "Website transparency plus SMS/email notifications and acknowledgment-number file tracking give applicants high 'regulatory predictability' about where their file is in the process." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS", "INSPECT"], "sentiment": "neutral", "text": "Industries are classified into Low, Medium, and High risk based on chemical inventory, manufacturing process, HP/manpower scale, and MAH designation; MAH units face mandatory safety audits and more frequent inspections." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "The ED gives two different renewal timelines — a statutory mandate of 21 days versus reported actual practice of 7-15 days (optimal ~7 days) — without clarifying which should be treated as the official SLA." },
+        { "flag": "MISSING", "text": "No specific fee amounts or slabs are given for renewal — only that the GL system calculates it automatically from HP and worker count per the Goa Factories Rules." },
+        { "flag": "MISSING", "text": "The document does not clarify how the 'hard-format' industrial drawings are physically submitted (courier, in-person visit, or another channel), leaving whether the applicant must visit an office unclear." },
+        { "flag": "GOOD_PRACTICE", "text": "The 'Return to Inbox' mechanism — returning applications for correction instead of rejecting them, while preserving the original filing date and fees already paid — is described as one of the department's most effective administrative practices." },
+        { "flag": "REFORM", "text": "Mandatory digital signatures and online payment integration are implemented reforms that replaced offline challans and physical signature requirements." },
+        { "flag": "MISSING", "text": "No figures are given on inspector caseload or capacity to substantiate the recommendation to empanel third-party agencies to 'substantially reduce' inspection load." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFile": "GA_ED_TLA.docx",
+      "issuingAuthority": "Urban Local Body (ULB) — Chief Officer (councils) or Municipal Commissioner (for Municipal Corporations such as CCP); Department of Urban Development, Government of Goa",
+      "portal": { "name": "ULB online portal (Urban Local Body portal)", "url": null },
+      "timeline": {
+        "minDays": 1,
+        "maxDays": 60,
+        "basis": "Provisional trade license issued within 24 hours of application; full compliance/regularization window is 60 days",
+        "text": "A digitally signed provisional trade license is issued within 24 hours of application, allowing the business to start immediately. The applicant then has a 60-day window to complete remaining formalities/NOCs (e.g. FDA, fire), after which the license converts to a regular license, or is auto-cancelled/auto-rejected if not complied."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "House Tax Receipt or Shop Rent Receipt",
+        "Undertaking (Affidavit), signed by both the premise owner and the business trader",
+        "Lease Agreement (soft copy, where the trader operates on rented premises)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Trade Licenses do not have a deemed-approval mechanism, since a provisional license is already issued within 24 hours of application. Pending full-compliance applications are instead monitored by the Directorate of Municipal Administration (DMA), with reminders issued before the 60-day compliance deadline; non-compliant applications are cancelled/rejected. (The ED separately notes a distinct 15-day deemed-approval provision for construction licenses, a different service.)"
+      },
+      "validity": {
+        "text": "The Trade License can be issued for a validity of 3, 5, or 7 years based on the trader's preference, with fees calculated accordingly. It auto-renews every 3 years under the 3-year option; the 5-year and 7-year options renew per their respective periods."
+      },
+      "fees": {
+        "text": "Fee depends on trade type; each council maintains its own fee structure, though a broadly standard structure is followed. Councils are classified into 3 classes (A, B, C) by population size — Class A charges higher fees, Class C roughly ₹1,000 per application. Signboard/advertisement charges are separate, based on the number and size of boards. Field inspection is included in the processing/license fee and not charged separately."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits application online through the ULB portal with the 3 required documents", "automated": true, "note": "No manual applications are accepted." },
+        { "n": 2, "phase": "fee", "title": "Fee displayed on screen and paid online", "automated": true, "note": "" },
+        { "n": 3, "phase": "approve", "title": "Digitally signed provisional trade license issued within 24 hours", "automated": true, "note": "Business can start immediately." },
+        { "n": 4, "phase": "scrutiny", "title": "Applicant complies with remaining formalities/NOCs (e.g. FDA, fire) within the 60-day window", "automated": false, "note": "" },
+        { "n": 5, "phase": "approve", "title": "On compliance, license is converted to a regular license; if not complied, the application is auto-cancelled/auto-rejected", "automated": "partial", "note": "" }
+      ],
+      "ed": { "date": "17/08/2026", "location": "Conference Hall, 1st Floor, Goa Rajya Kar Bhavan, Altinho, Panaji, Goa-403001", "expert": "Mr. Savio D'Souza", "designation": "Project Manager IT, Department of Urban Development" },
+      "remarks": [
+        "The department is working on establishing infrastructure to host all applications on a common platform (referred to as an 'OOP' platform) on the state data center, in coordination with DOIT.",
+        "Goa has (or is establishing) a single window portal, maintained by the state IT department, aiming to centralize all applications onto one data center.",
+        "Statutory fee structures, maintained at the council level, have been shared with NIC.",
+        "Geo-tagging of properties (linked to the property tax database) is reported as approximately 80% complete; the data has been shared with other departments (fire, water) and with the PM Gati Shakti platform, currently accessible only to the Chief Secretary and Secretary for issuing NOCs."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The entire application process is conducted online via the ULB portal; manual applications are not entertained, aligned with central BRAP (Business Reform Action Plan) reforms mandated by DPIIT." },
+        { "source": "ed", "category": "remarks", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "A provisional trade license is issued within 24 hours of application, allowing the business to start immediately." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY", "TIMELINE"], "sentiment": "neutral", "text": "Applicants have a 60-day window to complete remaining formalities/NOCs (e.g. FDA, fire); non-compliance leads to auto-cancellation or auto-rejection of the application." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "There is no deemed-approval mechanism for the Trade License itself, since a provisional license is already issued within 24 hours; pending applications are instead monitored by the DMA with reminders before the 60-day deadline." },
+        { "source": "ed", "category": "pain", "tags": ["QUERY", "COMPLY"], "sentiment": "issue", "text": "In some cases applicants must reapply 2-3 times due to incomplete submissions or missed requirements." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Occasional issues arise from technical/portal downtime, though this is stated to be minimal (less than a day)." },
+        { "source": "ed", "category": "procedural", "tags": ["GRIEVANCE", "CLARITY"], "sentiment": "neutral", "text": "The department reviews every application, and any rejection is carried out in consultation with the trader; approval/rejection authority rests with the Chief Officer or Municipal Commissioner." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "The notified list of trade categories was originally introduced around 1989, and the department acknowledged that many new types of trades have emerged since then." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "The department is planning to standardize trade categories across councils to enable consistent classification." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "A GIS-based application is being developed, with all establishments being geo-tagged, to let the department monitor the number and type of trades operating in specific areas." },
+        { "source": "ed", "category": "remarks", "tags": ["INTERDEP", "POSITIVE"], "sentiment": "positive", "text": "Geo-tagging of properties is about 80% complete and has already been shared with other departments (fire, water) and the PM Gati Shakti platform for issuing NOCs." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "In the long term, the department aims to expose GIS-based mapping information to citizens (e.g. via an app) to help them identify suitable locations to establish a trade." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "FEES", "POSITIVE"], "sentiment": "positive", "text": "The entire payment process is complete online, end-to-end, with no manual intervention required at the back-office level." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "positive", "text": "The online-only, document-light process aligns with Business Reform Action Plan (BRAP) reforms mandated by DPIIT, which the department has implemented." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "When comparing Goa's trade license process with other states (e.g. Maharashtra, Delhi), the expert referenced central-government-suggested reforms based on best practices aimed at reducing timelines and rationalizing required documents." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Exact fee figures are given only for Class C councils (roughly ₹1,000 per application); Class A and Class B fee amounts and the full fee schedule are not specified." },
+        { "flag": "MISSING", "text": "Signboard/advertisement charges are mentioned as 'separate' based on number and size of boards, but no actual figures are given." },
+        { "flag": "VAGUE", "text": "Councils are described as falling into 3 classes (A, B, C) by population size, but the specific population thresholds defining each class are not stated." },
+        { "flag": "GOOD_PRACTICE", "text": "24-hour provisional trade license issuance — letting the business start operating immediately while remaining formalities are completed within a 60-day window — is highlighted as an established best practice." },
+        { "flag": "VAGUE", "text": "The notified trade category list (dating to ~1989) is acknowledged as outdated, but no timeline is given for when the planned standardization/update will be completed." },
+        { "flag": "MISSING", "text": "No figures are given on how many applications require reapplication (only an approximate '2-3 times' range) or what share of total applications this affects." },
+        { "flag": "REFORM", "text": "Exposing GIS-based mapping information to citizens via an app is described as a long-term goal, not yet implemented." }
+      ]
+    }
+  ]
+}

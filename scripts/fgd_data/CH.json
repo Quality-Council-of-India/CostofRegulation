@@ -1,0 +1,225 @@
+{
+  "code": "CH",
+  "name": "Chandigarh",
+  "licenses": [
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": ["CH_FGD_CTO.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY", "NORMS"], "sentiment": "issue", "text": "Businesses described uncertainty regarding whether their activities fall under the White, Green, Orange or Red category; similar or related activities were reportedly assigned different categories, and some establishments were unsure whether consent was required or whether an intimation would suffice." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "The cost of obtaining consent was considered burdensome by some businesses, particularly where substantial fees were payable despite the existing consent remaining valid for a further period." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "The technical nature of the application and uncertainty around requirements lead some businesses to rely on consultants or other intermediaries, adding to compliance costs." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY", "COMPLY"], "sentiment": "issue", "text": "Establishments reported uncertainty about the documents, procedures and obligations applicable to their particular industry, especially where category-specific requirements were unclear." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "CLARITY"], "sentiment": "issue", "text": "Concerns were raised about inconsistent understanding of pollution categories across businesses and information sources, creating uncertainty regarding applicable consent requirements and compliance obligations." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "The renewal process was considered burdensome where the establishment's operations and relevant details had not changed since the previous approval." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "Public notices alone may not ensure that affected businesses are aware of changes in categorisation or applicable requirements." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "Renewal may require businesses to submit the same documents again even when the establishment's details and operations remain unchanged." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Although the form was not universally considered lengthy, understanding the requirements and selecting the correct service or category could be difficult for first-time users." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL", "TIMELINE"], "sentiment": "issue", "text": "Uncertainty remained regarding how far in advance applications should be submitted and when additional charges may apply; the absence of timely, direct reminders was specifically raised." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Some users described visiting the department for assistance and obtaining hard copies or confirmation after online submission, indicating that the online process may not always provide sufficient reassurance or clarity." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The repeated verification of existing records was viewed as avoidable administrative effort when the department already holds the relevant information." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY", "CLARITY"], "sentiment": "issue", "text": "Errors or uncertainty while completing the application require correction or rectification, extending the overall process; unclear industry classification leads to additional enquiries and follow-up with the department." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The discussion included a reported experience of approximately 45 days for obtaining consent; this is an individual experience, not an established average or a verified timeline for all categories." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "NORMS"], "sentiment": "suggestion", "text": "Provide a clear, searchable classification guide that enables businesses to identify the correct category and determine whether CTO, renewal or intimation is applicable." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL", "TIMELINE"], "sentiment": "suggestion", "text": "Introduce automated reminders through email and SMS before expiry, with clear information on the deadline, renewal requirements and any applicable additional charges." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "suggestion", "text": "Simplify renewal by carrying forward existing information and documents, requiring updates only where material changes have occurred." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The experience varied by business type and the respondent's familiarity with the online system; some users reported receiving useful assistance from departmental personnel." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Representative", "quote": "The same documents are required again during renewal even when the establishment and its operations have not changed.", "topic": "Repeated documentation", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue" },
+        { "speaker": "Printing Industry Representative", "quote": "Uncertainty about whether the business falls under the White category or another category makes it difficult to determine the applicable requirements.", "topic": "Industry categorisation", "tags": ["CLARITY", "NORMS"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "An additional penalty charge was reportedly payable despite applying before the existing consent expired.", "topic": "Fee structure and renewal", "tags": ["FEES", "RENEWAL"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Businesses may need external assistance because the application process and requirements are not always easy to understand.", "topic": "Application complexity", "tags": ["CONSULT", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Renewal reminders should be sent before the deadline so that businesses do not incur avoidable additional charges.", "topic": "Renewal reminders", "tags": ["RENEWAL", "TIMELINE"], "sentiment": "suggestion" },
+        { "speaker": "Industry Representative", "quote": "A step-by-step video or clear application guide would help users complete the process correctly.", "topic": "Guidance and support", "tags": ["CLARITY"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED states standard CTO processing for Red/Orange categories occurs within 21 days; FGD participants reported an individual experience of approximately 45 days to obtain consent — more than double the ED's stated timeline (though the FGD notes this is a single reported experience, not a verified average across all categories)." },
+        { "flag": "INCONSISTENT", "text": "ED's fee record describes fees calculated strictly on capital investment slabs with no mention of penalties for early renewal; an FGD participant reported an additional penalty charge was payable despite applying for renewal before the existing consent had expired." },
+        { "flag": "INCONSISTENT", "text": "ED records applicantOfficeVisit as 'no' and states the service is '100% online and paperless' with certificates downloaded without visiting the office; FGD participants described needing to visit the department for assistance and to obtain hard copies or confirmation after online submission." },
+        { "flag": "INCONSISTENT", "text": "ED's redundant/duplicate-requirements finding states the official reported 'no compliance burden or redundant requirement' in the CTO process; FGD participants directly contradicted this, describing repeated submission of the same documents during renewal and repeated verification of records the department already holds as avoidable administrative effort." },
+        { "flag": "MISSING", "text": "FGD participants reported that similar or related business activities were sometimes assigned different pollution categories (White/Green/Orange/Red) by different information sources, creating uncertainty about whether CTO, renewal, or mere intimation applies — the ED record does not address consistency of category assignment across similar businesses." }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFiles": ["CH_FGD_LEM.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE", "CLARITY"], "sentiment": "issue", "text": "Participants reported that applicants are not informed when their licence will be issued or renewed; delays affect business operations and the ability to provide valid licences to customers and government departments." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC", "COMPLY"], "sentiment": "issue", "text": "Businesses must maintain physical registers of sales and transactions despite the availability of online records, increasing compliance burden and raising concerns about confidentiality." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "The same documents, including identity and business registration proofs, must be submitted during renewals, even when no changes have occurred." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "File-size restrictions require documents to be compressed, sometimes making them unreadable and necessitating physical visits to the department." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL", "FEES"], "sentiment": "issue", "text": "Annual renewal requirements and repeated fee payments were considered burdensome, with participants recommending longer licence validity." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Participants suggested extending licence validity to five or more years instead of requiring annual renewal." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Different state-level rules, procedures and fees create difficulties for businesses operating across states." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Participants proposed allowing manufacturers to issue verification certificates for their own products, subject to departmental oversight, to reduce duplication and improve efficiency." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Applications are submitted online, but unreadable documents or technical issues sometimes require physical visits and manual submission." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC", "COMPLY"], "sentiment": "issue", "text": "Applicants must repeatedly submit existing documents and maintain prescribed physical registers despite digital records being available." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Delays reportedly depend on departmental scrutiny, staff availability and officer transfers. The Chandigarh Right to Service listing specifies a 30-day timeline for licence issuance and renewal." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Participants reported repeatedly submitting documents such as Aadhaar, PAN and business-related certificates during annual renewals, even when the information remains unchanged." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Physical sales registers were considered duplicative because relevant records are also maintained online." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE", "CLARITY"], "sentiment": "issue", "text": "Absence of a clearly communicated timeline and limited application-status visibility contributes to delay." },
+        { "source": "fgd", "category": "delay", "tags": ["OTHER"], "sentiment": "issue", "text": "Departmental workload, staff transfers and pending scrutiny were cited as reasons for delay." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Remove the requirement for physical registers where equivalent digital records are available and accessible to the department." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Extend licence validity and reduce repetitive renewal formalities; introduce application tracking and clear processing timelines." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants considered the online application form relatively simple and stated that third-party agents were generally not necessary." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Representative", "quote": "Physical registers must be maintained even though records are available online.", "topic": "Duplicate compliance", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "The department does not provide a clear timeline for licence issuance.", "topic": "Timeline certainty", "tags": ["TIMELINE", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "The same documents have to be submitted again during renewal.", "topic": "Documentation burden", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "\"One pattern\" should be followed across states for rules and procedures.", "topic": "Regulatory harmonisation", "tags": ["NORMS"], "sentiment": "suggestion" },
+        { "speaker": "Industry Representative", "quote": "Licence validity should be extended instead of requiring renewal every year.", "topic": "Renewal rationalisation", "tags": ["RENEWAL"], "sentiment": "suggestion" },
+        { "speaker": "Industry Representative", "quote": "Manufacturers should be considered for issuing verification certificates for products they manufacture, subject to appropriate oversight.", "topic": "Process simplification", "tags": ["NORMS"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The specific issuing authority/department name responsible for Legal Metrology licensing in Chandigarh is not stated anywhere in the FGD transcript." },
+        { "flag": "MISSING", "text": "No deemed-approval mechanism is described by participants; whether one exists beyond the 30-day Right to Service (RTS) listed timeline is not addressed." },
+        { "flag": "VAGUE", "text": "The Chandigarh Right to Service listing's 30-day timeline for issuance and renewal is referenced as an external benchmark, but no participant confirmed an actual average processing time or whether this target is typically met." },
+        { "flag": "MISSING", "text": "No specific portal name is identified by participants — the application is described only as 'online.'" },
+        { "flag": "GOOD_PRACTICE", "text": "The online application form was generally described by participants as relatively simple, with third-party agents generally not necessary." },
+        { "flag": "REFORM", "text": "Participant suggestion to allow manufacturer-led issuance of verification certificates for their own products, subject to departmental oversight, to reduce duplication — proposed by participants, not confirmed as an existing practice." }
+      ],
+      "issuingAuthority": "Not explicitly named in the FGD transcript (referred to generically as 'the department'); service concerns Legal Metrology licensing for manufacturers, repairers and dealers in Chandigarh.",
+      "portal": { "name": "Online application portal for Legal Metrology licensing (not specifically named by participants)", "url": null },
+      "timeline": { "minDays": null, "maxDays": 30, "basis": "Participants referenced the Chandigarh Right to Service (RTS) listing's stated 30-day timeline for licence issuance and renewal; actual processing was described as depending on departmental scrutiny, staff availability and officer transfers, with no confirmed average given.", "text": "The Chandigarh Right to Service listing specifies a 30-day timeline for licence issuance and renewal, but participants reported no clear communicated timeline in practice and said delays depend on departmental workload, staff transfers and pending scrutiny." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Identity proof (e.g., Aadhaar)",
+        "PAN",
+        "Business registration / business-related certificates",
+        "Physical sales/transaction registers (maintained in addition to online records)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants reported that identity and business registration proofs must be resubmitted at each annual renewal even when unchanged, and that physical registers are required in addition to the information already held online.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "No deemed-approval mechanism was described by participants; only the Right to Service listing's 30-day target timeline was referenced, with actual processing said to depend on departmental scrutiny, staff availability and officer transfers." },
+      "validity": { "text": "Current licensing is on an annual renewal basis, which participants considered burdensome; they recommended extending validity to five or more years instead of requiring annual renewal." },
+      "fees": { "text": "Participants reported fees varying by licence category. The published Chandigarh schedule referenced in the discussion lists annual fees of ₹500 for manufacturers and ₹100 each for repairers and dealers." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit application online", "automated": "partial", "note": "Described as a relatively simple online form by most participants." },
+        { "n": 2, "phase": "apply", "title": "Upload identity, PAN and business registration documents", "automated": "partial", "note": "File-size restrictions sometimes require compressing documents, making them unreadable and necessitating physical visits." },
+        { "n": 3, "phase": "fee", "title": "Pay applicable licence fee (per published schedule, by category)", "automated": null, "note": "Payment mechanics were not described in detail by participants." },
+        { "n": 4, "phase": "scrutiny", "title": "Departmental scrutiny of the application", "automated": false, "note": "Processing time depends on departmental workload, staff availability and officer transfers; no participant-confirmed average given." },
+        { "n": 5, "phase": "renew", "title": "Annual renewal requiring resubmission of existing documents and maintenance of physical sales registers", "automated": "partial", "note": "Participants described this as duplicative since equivalent digital records already exist with the department." }
+      ],
+      "remarks": [
+        "This is an FGD-only record and has not been verified against an official ED interview for Legal Metrology in Chandigarh.",
+        "Participants referenced the Chandigarh Right to Service listing's 30-day timeline and the published annual fee schedule (₹500 manufacturers; ₹100 repairers/dealers) as external reference points."
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": ["CH_FGD_RFNO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Renewal becomes difficult when the original applicant or authorised person has changed and the previous login credentials are unavailable; one case required a visit to the department to restore access." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "Previously submitted fire-safety plans and building-related documents may need to be uploaded again during renewal, even where no material changes have occurred." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT", "CLARITY"], "sentiment": "issue", "text": "Concerns were raised about additional requirements emerging during inspections, including cases where equipment requirements appeared to differ from earlier assessments." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "CONSULT"], "sentiment": "issue", "text": "The combined cost of statutory fees, fire-safety equipment and related professional assistance was considered burdensome, particularly for some commercial establishments." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "issue", "text": "The existing area- and business-based fee calculation was questioned, particularly for establishments that already maintain their own fire-safety infrastructure. The discussion included a reported fee of ₹11 lakh for a large commercial property for a three-year period; this figure has not been independently verified." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "The three-year renewal cycle was considered restrictive in cases where the premises, occupancy and fire-safety arrangements remain unchanged." },
+        { "source": "fgd", "category": "policy", "tags": ["INSPECT", "NORMS"], "sentiment": "issue", "text": "Differences in fire-safety requirements across locations and in their interpretation by inspecting officers were highlighted as sources of uncertainty, though requirements can legitimately vary by building height, occupancy, use and risk." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "Updates to fire-safety standards may not reach establishments directly, leaving them unaware of revised requirements until renewal or inspection." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL", "DUPDOC"], "sentiment": "issue", "text": "Renewal follows a largely fresh-application process: existing information and documents are not necessarily carried forward in a way that eliminates repeated data entry and uploads." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "The portal's account-access process and document-upload restrictions create difficulties, particularly for applicants managing large files or unfamiliar with the system." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT", "CLARITY"], "sentiment": "issue", "text": "Additional shortcomings may be communicated during or after inspection; the basis for certain requirements was not always perceived as clear or consistent." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "A consolidated, easily accessible explanation of the application process, required documents and inspection criteria was not evident to participants during the discussion." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Re-submission of previously approved fire-safety plans and building documents was considered unnecessary where the premises and relevant safety arrangements remain unchanged." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT", "TIMELINE"], "sentiment": "issue", "text": "Additional objections or compliance requirements raised during scrutiny and inspection can extend the time needed to obtain renewal." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT"], "sentiment": "issue", "text": "Differences in interpretation between inspecting officers may lead to further clarification, additional equipment requirements or repeated compliance work." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "suggestion", "text": "Introduce a renewal mechanism that pre-fills existing information and carries forward valid documents, requiring applicants to update only changed details." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "INSPECT"], "sentiment": "suggestion", "text": "Provide a standard checklist specifying the documents, equipment and compliance requirements applicable to each category of establishment before inspection." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The online process was described as manageable when the applicant had the required information and documents available; one establishment also reported a positive experience with departmental assistance and inspections." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Representative", "quote": "Accessing the previous account required assistance from the department despite the renewal being an online process.", "topic": "Login and portal access", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Previously submitted fire-safety plans should not need to be provided again if there has been no change.", "topic": "Repeated documentation", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Commercial Property Representative", "quote": "Fees based primarily on area and business type may not adequately reflect the establishment's existing safety arrangements and risk profile.", "topic": "Fee structure", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Additional requirements may emerge during inspection, even where earlier assessments had indicated compliance.", "topic": "Inspection and compliance clarity", "tags": ["INSPECT", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Renewal should not require applicants to repeat the entire process when the relevant details remain unchanged.", "topic": "Renewal procedure", "tags": ["RENEWAL", "DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Applicants need clarity on the requirements before beginning the process, rather than learning about additional requirements at a later stage.", "topic": "Advance disclosure of requirements", "tags": ["CLARITY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The specific issuing authority (e.g., name of the fire department/office) responsible for Fire NOC renewal in Chandigarh is not explicitly stated in the FGD transcript." },
+        { "flag": "MISSING", "text": "No deemed-approval mechanism or escalation path is described if the 30-day processing timeline referenced in the discussion is exceeded." },
+        { "flag": "VAGUE", "text": "The reported ₹11 lakh fee for a large commercial property over a three-year period is a single cited case, explicitly noted in the transcript as not independently verified, not an established standard figure." },
+        { "flag": "VAGUE", "text": "A 30-day processing timeline was referenced in the discussion, but participants did not establish an average actual approval time or quantify the frequency and duration of delays." },
+        { "flag": "GOOD_PRACTICE", "text": "One establishment reported a positive experience with departmental assistance and inspections, and participants generally found the online process manageable when required information and documents were ready in advance." },
+        { "flag": "REFORM", "text": "Participant suggestion to introduce a renewal mechanism that pre-fills existing information and carries forward valid documents, requiring updates only to changed details — proposed by participants, not confirmed as an existing feature." }
+      ],
+      "issuingAuthority": "Not explicitly named in the FGD transcript (service concerns renewal of Fire NOC for commercial establishments, hospitality and other occupancies in Chandigarh).",
+      "portal": { "name": "Online portal for Fire NOC renewal (not specifically named by participants); account-based login required", "url": null },
+      "timeline": { "minDays": null, "maxDays": 30, "basis": "Participants referenced a 30-day processing timeline during the discussion but did not establish an average actual approval time or quantify delay frequency/duration.", "text": "The discussion referred to a 30-day processing timeline, but did not establish an average actual approval time; delays were linked to additional objections or compliance requirements raised during scrutiny and inspection, and to difficulty accessing legacy accounts." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Fire-safety plans (previously submitted, often required again at renewal)",
+        "Building-related documents (previously submitted, often required again at renewal)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants reported that previously approved fire-safety plans and building documents are frequently required again at renewal even when premises and safety arrangements are unchanged; where changes have occurred, updated documents were considered necessary.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "No deemed-approval mechanism was described by participants; renewal appears to require active departmental processing, including inspection, rather than automatic approval after a fixed period." },
+      "validity": { "text": "The Fire NOC renewal operates on a three-year cycle, which participants considered restrictive where the premises, occupancy and fire-safety arrangements remain unchanged." },
+      "fees": { "text": "Fees are calculated on an area- and business-type basis. One case discussed in the FGD involved a reported fee of ₹11 lakh for a large commercial property for a three-year period; this figure was explicitly noted as not independently verified." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Log into the online portal using existing account credentials", "automated": "partial", "note": "Difficult when the authorised person has changed and previous login credentials are unavailable; one case required a department visit to restore access." },
+        { "n": 2, "phase": "apply", "title": "Re-submit/upload fire-safety plans and building-related documents", "automated": "partial", "note": "Existing information and documents are not necessarily carried forward from the prior approval." },
+        { "n": 3, "phase": "fee", "title": "Pay the renewal fee, calculated on an area- and business-type basis", "automated": null, "note": "Payment mechanics not described in detail by participants." },
+        { "n": 4, "phase": "inspect", "title": "Inspection of the premises", "automated": false, "note": "Additional objections or compliance requirements (e.g., equipment) may be raised during or after inspection; interpretation reportedly varies between inspecting officers." },
+        { "n": 5, "phase": "approve", "title": "Renewed Fire NOC issued (validity: three years)", "automated": null, "note": "Certificate-issuance mechanics not described in detail by participants." }
+      ],
+      "remarks": [
+        "This is an FGD-only record and has not been verified against an official ED interview for Fire NOC renewal in Chandigarh.",
+        "The concerns raised related primarily to clarity, predictability and consistency of requirements rather than to the necessity of fire-safety measures themselves."
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFiles": ["CH_FGD_RSE.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "GRIEVANCE"], "sentiment": "issue", "text": "Applications may be deemed approved within 24 hours even when departmental objections remain unresolved, raising concerns about document verification." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "COMPLY"], "sentiment": "issue", "text": "Establishments with fewer than 20 employees must enter employee details individually, making the process time-consuming." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "File-size limits create difficulties when uploading lengthy documents, particularly the Memorandum of Association." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants must re-enter existing information and upload documents again during amendments, even when details remain unchanged." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "PORTAL"], "sentiment": "issue", "text": "Participants reported discrepancies in fee deductions, incorrect application routing and inadequate technical support." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Participants recommended reviewing the employee threshold for registration, suggesting a reduction from 20 employees to 5-10 employees." },
+        { "source": "fgd", "category": "policy", "tags": ["GRIEVANCE", "QUERY"], "sentiment": "issue", "text": "Concerns were raised regarding deemed approval without proper scrutiny and inconsistent authentication of licences." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "positive", "text": "Participants supported retaining the one-time registration/intimation approach without unnecessary renewals." },
+        { "source": "fgd", "category": "procedural", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The online process was considered relatively simple, with application completion taking approximately 30-60 minutes, depending on the applicant's familiarity and documentation." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue", "text": "The 24-hour deemed-approval mechanism reduces waiting time, but unresolved objections and verification concerns remain." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Amendment applications require repeated data entry and document uploads, increasing compliance effort." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "Incorrect selection of the departmental circle and payment discrepancies require additional follow-ups." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants are required to upload previously submitted documents again during amendments, even when the documents remain unchanged." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "PORTAL"], "sentiment": "issue", "text": "Lengthy corporate documents create upload difficulties due to file-size restrictions." },
+        { "source": "fgd", "category": "delay", "tags": ["PORTAL"], "sentiment": "issue", "text": "Technical corrections are required when applications are routed to the wrong departmental circle." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce an Excel/PDF upload facility for employee details instead of manual data entry." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Simplify amendments by retaining existing information and requesting only changed details." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "The participant-reported statutory fee for registration was approximately ₹2,000-₹5,000, depending on the business category and applicable requirements; this requires confirmation against the current official fee schedule." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Representative", "quote": "It is a very simple thing.", "topic": "Ease of compliance", "tags": ["POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Industry Representative", "quote": "Applications may be deemed approved within 24 hours even when objections remain unresolved.", "topic": "Approval scrutiny", "tags": ["GRIEVANCE", "QUERY"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Employee details have to be entered individually in the portal.", "topic": "Digital process burden", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Existing details and documents must be submitted again during amendments.", "topic": "Amendment simplification", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Employee details should be uploaded instead of entered manually.", "topic": "Process simplification", "tags": ["PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Industry Representative", "quote": "Payment deductions are sometimes not appropriately reflected on the licence.", "topic": "Payment reconciliation", "tags": ["FEES"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED states establishments with fewer than 20 employees are 'deregulated' and only require intimation/registration, implying a lighter process than full registration for 20+ employee establishments; FGD participants in this same bracket described the same cumbersome, individual employee-data entry process as a specific pain point, suggesting less practical differentiation than the ED record implies." },
+        { "flag": "INCONSISTENT", "text": "ED's redundant/duplicate-requirements finding states 'no redundant documentation or overlapping inter-departmental hurdles were reported' by the official; FGD participants directly contradicted this, describing a requirement to re-upload previously submitted documents and re-enter existing information during amendments, which they considered duplicative." },
+        { "flag": "MISSING", "text": "FGD participants described the amendment process in detail (repeated data entry, document re-upload, incorrect departmental-circle routing, payment-reconciliation discrepancies) — the ED record covers initial registration but does not describe the amendment process or its administrative burden." },
+        { "flag": "MISSING", "text": "FGD participants reported discrepancies in fee deductions not being appropriately reflected on the licence; the ED record does not address fee-reconciliation or payment-tracking issues." }
+      ]
+    }
+  ]
+}

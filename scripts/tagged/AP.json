@@ -1,0 +1,272 @@
+{
+  "code": "AP",
+  "findings": [
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL"],
+      "sentiment": "neutral",
+      "text": "The process starts with factory building plan approval (CAF-1) before manufacturing commences, after which the entrepreneur applies for the factory license itself (CAF-2) through the Single Desk Portal."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["INSPECT"],
+      "sentiment": "neutral",
+      "text": "Site inspection by the Inspector of Factories remains an offline, physical process; virtual/digital inspection is not currently used because physical inspection is considered a more value-added exercise."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["TIMELINE"],
+      "sentiment": "neutral",
+      "text": "The statutory disposal timeline for a factory license application is 7 working days, applied uniformly across hazardous, non-hazardous and general category industries."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["TIMELINE", "GRIEVANCE"],
+      "sentiment": "neutral",
+      "text": "No deemed-approval provision is actively invoked; if an application is not disposed of within the 7 working-day window, the concerned Inspector must submit an explanation to the Commissioner of Industries instead. The expert said no deemed-approval situation has arisen so far."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["RENEWAL"],
+      "sentiment": "neutral",
+      "text": "The license is valid for one year, with the renewal fee paid online annually before 31 December; any amendment to the activity (e.g. an additional manufacturing line or increased horsepower) instead requires a Revision License (RVL) with revised plan approval."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["FEES"],
+      "sentiment": "neutral",
+      "text": "The license fee is slab-based, linked to the installed horsepower and the number of workers employed, and is paid online."
+    },
+    {
+      "source": "ed",
+      "category": "redundant",
+      "tags": ["DUPDOC", "PORTAL", "POSITIVE"],
+      "sentiment": "positive",
+      "text": "About 50-60% of the plan information required for the factory license (CAF-2) auto-populates from the earlier building-plan-approval stage (CAF-1); only the remainder must be submitted afresh."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["CLARITY", "QUERY", "DELAY"],
+      "sentiment": "issue",
+      "text": "The Stability Certificate requirement is a frequent point of deficiency: some applicants wrongly assume it is not needed for new buildings and omit it, triggering a deficiency/query (NCS) on the application."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["CLARITY"],
+      "sentiment": "suggestion",
+      "text": "The official recommends improving applicant guidance on mandatory documents (including the Stability Certificate) and clarifying what carries forward from CAF-1 versus what must be freshly submitted for CAF-2, to cut deficiency queries and delays."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["INTERDEP", "INSPECT"],
+      "sentiment": "neutral",
+      "text": "Factories, Pollution Control and Labour departments each run separate inspections/certifications on the same establishment; the official considers merging these into one joint inspection or license not feasible since each checks a distinct technical aspect (worker safety, emissions, labour welfare)."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["POSITIVE", "PORTAL", "GRIEVANCE"],
+      "sentiment": "positive",
+      "text": "Flagged as a best practice: inspection observations and field-visit findings are uploaded to the public domain through the Central Inspection System (CIS) portal, making inspection reports publicly accessible."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["PORTAL", "INTERDEP"],
+      "sentiment": "issue",
+      "text": "The AP Single Window Portal is not truly \"single\": departments such as electrical sit outside it, so applicants still have to approach them separately."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["PORTAL"],
+      "sentiment": "issue",
+      "text": "The portal's 20 MB upload limit is too small for a full drawing set (4-5 drawings plus structural designs); some industries need 50-100 MB and repeatedly have to request an increase."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["CONSULT", "CAPACITY"],
+      "sentiment": "issue",
+      "text": "Applicants, especially small industries without in-house technical knowledge, rely on consultants end-to-end for form filling, submission, query responses and liaisoning; AutoCAD drawings are described as effectively essential."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["FEES", "DELAY"],
+      "sentiment": "issue",
+      "text": "The building stability study must be obtained at the applicant's own cost from a government-empanelled structural/civil engineer; the fee varies by engineer and industry size, and preparing it takes considerable time."
+    },
+    {
+      "source": "fgd",
+      "category": "pain",
+      "tags": ["CLARITY"],
+      "sentiment": "issue",
+      "text": "Category-wise technical specifications and mandatory requirements are not clearly communicated to all applicants."
+    },
+    {
+      "source": "fgd",
+      "category": "policy",
+      "tags": ["RENEWAL"],
+      "sentiment": "neutral",
+      "text": "Participants described there being no true \"renewal\": the license carries forward January-December once the fee is paid by 30 December, with only an acknowledgement issued rather than a fresh license or certificate."
+    },
+    {
+      "source": "fgd",
+      "category": "delay",
+      "tags": ["GRIEVANCE", "PORTAL", "TIMELINE"],
+      "sentiment": "issue",
+      "text": "The portal shows only \"pending\" or \"pending upload\" status with no published approval timeline; applicants only learn of approval when the certificate is printed at the very end of the process."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["GRIEVANCE", "PORTAL"],
+      "sentiment": "suggestion",
+      "text": "Participants' top-priority ask: introduce real-time, stage-wise application tracking with timelines, modeled on the AP incentive portal."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["PORTAL", "CLARITY"],
+      "sentiment": "suggestion",
+      "text": "Raise the portal's 20 MB upload cap to 50-100 MB, and publish an FAQ/guidance document on the portal listing mandatory documents, technical specifications and safety guidelines by industry category."
+    },
+    {
+      "source": "fgd",
+      "category": "suggestions",
+      "tags": ["CAPACITY"],
+      "sentiment": "suggestion",
+      "text": "Participants asked for improved service quality and investment in skill development/skill mapping, explicitly preferring this over any fee reduction."
+    },
+    {
+      "source": "fgd",
+      "category": "remarks",
+      "tags": ["INFORMAL", "POSITIVE"],
+      "sentiment": "positive",
+      "text": "No unrecorded or informal costs were reported; participants said every cost in the process can be recorded in the books."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["TIMELINE"],
+      "sentiment": "neutral",
+      "text": "Secondary research confirms the 7-working-day statutory timeline with a precise legal citation: Rule 3 of the AP Factories Rules, 1950, as amended by G.O.Ms.No.7/2022 (2 March 2022), which cut the window from 30 days to 7 days and moved filing online via the Single Desk Portal."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["NORMS"],
+      "sentiment": "neutral",
+      "text": "Secondary research independently confirms the risk/license threshold: AP's amendment to Section 2(m)/85(1) of the Factories Act sets it at more than 20 workers for factories with power (matching the ED) and 40 workers for factories without power."
+    },
+    {
+      "source": "secondary",
+      "category": "remarks",
+      "tags": ["OTHER"],
+      "sentiment": "neutral",
+      "text": "Secondary research nuances the ED's \"no deemed approval invoked\": AP has a state-wide statutory deemed-approval framework for industrial clearances generally (AP Industrial Single Window Clearance Act, 2002), and green/white category industries get deemed approval to commence within 3 years of a self-declared undertaking under the Industrial Policy 2020-23 — so the mechanism exists in law but is rarely invoked for factory licenses specifically, rather than being wholly absent."
+    }
+  ],
+  "quotes": [
+    {
+      "speaker": "Participant",
+      "quote": "We have filed everything on the single window portal. but we still have to knock on every door.",
+      "topic": "Single Window Gap",
+      "tags": ["PORTAL", "INTERDEP"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participant",
+      "quote": "The file size limit on the portal is very small. 20 MB maximum for a design document is quite small.",
+      "topic": "Upload File Size Limit",
+      "tags": ["PORTAL"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participant",
+      "quote": "For everything, Sir, end to end. They fill up the form, they submit it, and if any query arises, (they handle it).",
+      "topic": "Consultant Dependence",
+      "tags": ["CONSULT"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participant",
+      "quote": "A knowledgeable person has to go. So for a small industry (it is difficult).",
+      "topic": "Capacity of Small Industries",
+      "tags": ["CAPACITY"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participant",
+      "quote": "The stability study. we have to get that done through a third party, on our own.",
+      "topic": "Stability Study Cost & Time",
+      "tags": ["FEES", "DELAY"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participant",
+      "quote": "Only after the final approval do they show that it is approved, and then we take that as a printout.",
+      "topic": "Status Visibility",
+      "tags": ["GRIEVANCE"],
+      "sentiment": "issue"
+    },
+    {
+      "speaker": "Participant",
+      "quote": "The portal needs application tracking... real-time tracking. The most important.",
+      "topic": "Real-time Tracking",
+      "tags": ["GRIEVANCE", "PORTAL"],
+      "sentiment": "suggestion"
+    },
+    {
+      "speaker": "Participant",
+      "quote": "The gap between the government and the ground level is slightly high or very high.",
+      "topic": "Implementation Gap",
+      "tags": ["OTHER"],
+      "sentiment": "issue"
+    }
+  ],
+  "gaps": [
+    {
+      "flag": "MISSING",
+      "text": "Exact INR fee amounts/slab figures for the factory license are not stated anywhere in ED, FGD, or secondary research — only that it is 'slab-based' and linked to horsepower and number of workers. Secondary research notes current fee-schedule figures could not be verified online (only a clearly outdated 1994 reference was found)."
+    },
+    {
+      "flag": "VAGUE",
+      "text": "The ED transcript states the deadline for submitting a revised plan after a minor deviation is found as 'a stipulated period (e.g., 15 days/1 week)' — two different units given without a single precise figure."
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "ED frames the service as having an annual 'renewal' with a renewal fee, implying a renewed license. FGD participants instead describe 'no renewal system': the license simply 'carries forward' once the fee is paid by 30 December, and 'only an acknowledgement is issued, not a fresh licence or certificate.' Both describe the same annual fee-payment mechanism but characterize its legal/documentary output differently."
+    },
+    {
+      "flag": "MISSING",
+      "text": "Neither ED nor FGD states how many in-person/office visits an applicant typically needs versus fully online steps; this remains unclear even after cross-checking against the secondary-research field."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "The ED's generic 'statutory timeline' of 7 working days is resolved with a precise legal citation by secondary research: Rule 3 of the AP Factories Rules 1950, as amended by G.O.Ms.No.7/2022 (2 Mar 2022), which cut the window from 30 days to 7 days."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "The ED's '>20 workers / <10 for specified hazardous categories' risk threshold is independently confirmed by secondary research citing AP's amendment to Sec 2(m)/85(1) of the Factories Act, which also adds the previously-unstated detail that the threshold is 40 workers for factories without power."
+    },
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "Secondary research identified two further 2025 Factories Rules amendments (G.O.Ms.No.19 and G.O.Ms.No.22) and a draft Safety Audit Rules 2025, but their actual content could not be confirmed online, so what (if anything) they change for factory licensing remains unknown."
+    },
+    {
+      "flag": "GOOD_PRACTICE",
+      "text": "AP publishes inspection observations and field-visit findings to the public domain via the Central Inspection System (CIS) portal, per the ED's own account — a transparency practice worth other states replicating. Note FGD participants' complaint is about a different kind of transparency (no real-time application-status tracking), so this CIS-level disclosure does not appear to be what applicants experience day to day."
+    }
+  ]
+}

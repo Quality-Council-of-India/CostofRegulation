@@ -1,0 +1,307 @@
+{
+  "code": "KA",
+  "name": "Karnataka",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFiles": ["KA_FGD_BPA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Karnataka Industrial Areas Development Board (KIADB) — local/district office (e.g., Mysuru) for buildings up to 15 metres in height; KIADB Head Office, Bengaluru for buildings exceeding 15 metres",
+      "portal": {"name": "KIADB building plan approval online portal (exact name not stated by participants)", "url": null},
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "",
+        "text": "No specific SLA or aggregate turnaround figure was given by participants. Delays are described qualitatively: files for buildings exceeding 15 metres are transferred to the Bengaluru head office, adding 'weeks or months'; applications also pass through 8 to 9 hierarchical desks/tables before final sanction."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Architectural and plant-layout drawings (AutoCAD/DWG format) showing machinery placement",
+        "Registered sale deed (for plots purchased via resale from an earlier KIADB allottee)",
+        "Fire safety, KSPCB (pollution), and DIC clearance documentation — sometimes demanded retrospectively during revision stages rather than at initial filing"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants describe document demands as shifting and ad-hoc (e.g., Fire/KSPCB/DIC clearances added mid-process) rather than a fixed, upfront checklist.",
+      "deemedApproval": {"status": "unclear", "days": null, "text": "No deemed-approval or auto-approval-on-lapse provision was mentioned by participants."},
+      "validity": {"text": "Plan approvals carry a 3-year validity window; failure to renew within this timeframe attracts a 2% penalty calculated on previously paid fees."},
+      "fees": {"text": "Standard government fees are approximately ₹1,00,000 to ₹1,50,000 (one participant cited a quoted estimate of ₹2.5 lakh against an official fee of ₹1,00,000). Beyond this, participants describe heavy unofficial/informal payments — often ₹3,00,000 to ₹4,00,000 paid locally, plus an additional ₹5,00,000 to ₹8,00,000 spread across 7 to 8 officials if a file escalates to the Bengaluru head office. Minor plan revisions (e.g., height alterations) reportedly incur repeated unofficial payments comparable to or exceeding the initial application cost."},
+      "steps": [
+        {"n": 1, "phase": "apply", "title": "Application submission via a KIADB-empanelled engineer/consultant", "automated": "partial", "note": "Industry applicants are barred from direct portal filing; empanelled engineers control submission."},
+        {"n": 2, "phase": "scrutiny", "title": "Jurisdictional routing — local/district office for buildings up to 15 metres; mandatory transfer to KIADB Head Office, Bengaluru for buildings exceeding 15 metres", "automated": false, "note": null},
+        {"n": 3, "phase": "scrutiny", "title": "Internal file movement through 8 to 9 hierarchical desks/tables (from Assistant Engineer upward)", "automated": false, "note": null},
+        {"n": 4, "phase": "inspect", "title": "Manual officer inspection and offline verification of submitted plans", "automated": false, "note": "Back-end validation is not automated despite digital front-end submission."},
+        {"n": 5, "phase": "approve", "title": "Final sanction issued after passing through all review tiers", "automated": "partial", "note": null},
+        {"n": 6, "phase": "renew", "title": "Plan revision (e.g., height/floor change) requires full re-submission of entire documentation and fresh CAD/DWG drawings", "automated": false, "note": "Required even where an existing sanctioned file is on record with the department."}
+      ],
+      "remarks": [
+        "No Expert Discussion (ED) exists for Karnataka BPA, so this structured record rests entirely on business-participant testimony and has not been cross-verified against an official source.",
+        "Participants compared KIADB's land allotment/regulatory clearance process unfavourably to other industrial development models they described as less cumbersome (e.g., comparative references to 'Kotla').",
+        "A recent Floor Area Ratio (FAR) revision from 65% to 70-85% was noted as providing expansion scope for rooftop/canteen utility structures, though participants said clarity on compounding and approval norms for this remains poor."
+      ],
+      "findings": [
+        {"source": "fgd", "category": "pain", "tags": ["PORTAL", "CONSULT"], "sentiment": "issue", "text": "Industry applicants are barred from submitting building plan applications directly on the portal and must engage KIADB-empanelled engineers/consultants who control the submission process."},
+        {"source": "fgd", "category": "pain", "tags": ["FEES", "INFORMAL"], "sentiment": "issue", "text": "Beyond standard government fees of roughly ₹1,00,000 to ₹1,50,000, applicants report heavy unofficial expenses — ₹3,00,000 to ₹4,00,000 locally, plus ₹5,00,000 to ₹8,00,000 across 7 to 8 officials if a file escalates to Bengaluru; minor revisions reportedly incur comparable repeat informal payments."},
+        {"source": "fgd", "category": "pain", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "There is no functional SMS, email, or digital notification mechanism for application status or rejections, forcing applicants to physically visit offices repeatedly to inquire about progress."},
+        {"source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "KIADB's standard floor height limit of approximately 12.5 ft is described as inadequate for modern manufacturing facilities needing heavy machinery, overhead cranes, and HVAC ducting."},
+        {"source": "fgd", "category": "policy", "tags": ["INTERDEP", "TIMELINE"], "sentiment": "issue", "text": "Buildings exceeding 15 metres cannot be approved by local/district authorities (e.g., Mysuru) and are legally mandated to be sent to the KIADB Head Office in Bengaluru, causing administrative bottlenecks."},
+        {"source": "fgd", "category": "policy", "tags": ["INTERDEP", "COMPLY"], "sentiment": "issue", "text": "When land is purchased via a registered sale deed from an earlier allottee rather than directly from KIADB, any change in activity triggers extensive re-approval requirements from the District Industries Centre (DIC)."},
+        {"source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Even routine changes in manufacturing project profiles at the DIC must be escalated to the Deputy Commissioner (DC) for clearance."},
+        {"source": "fgd", "category": "policy", "tags": ["RENEWAL", "FEES"], "sentiment": "issue", "text": "Plan approvals carry a 3-year validity window; failure to renew within this timeframe attracts a strict 2% penalty calculated on previously paid fees."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL", "CONSULT"], "sentiment": "issue", "text": "The digital portal lacks a direct user interface for business owners, operating strictly through restricted logins of empanelled engineers, who are reported to run informal desks within office premises."},
+        {"source": "fgd", "category": "procedural", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Applications must navigate through 8 to 9 hierarchical desks/tables (from Assistant Engineer upwards) before final sanction, multiplying touchpoints."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "While plans are submitted digitally, back-end validation cannot occur automatically; the process relies on manual officer inspections and offline verification, defeating the purpose of an online system."},
+        {"source": "fgd", "category": "procedural", "tags": ["QUERY", "DUPDOC"], "sentiment": "issue", "text": "Departments introduce ad-hoc approval requirements (Fire clearance, KSPCB sanctions, DIC approvals) retrospectively during revision stages, even when not requested during the initial approval."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants seeking a height or floor plan revision must re-upload the entire application from scratch, including re-submitted CAD/DWG drawings, even though an active file with prior sanction copies already exists."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Fresh project approvals from DIC are required for secondary plot transfers despite the land being legally conveyed via a registered sale deed within an established industrial estate."},
+        {"source": "fgd", "category": "delay", "tags": ["TIMELINE", "INTERDEP"], "sentiment": "issue", "text": "Any design alteration pushing building height past 15 metres removes the file from local jurisdiction, transferring review to Bengaluru and adding weeks or months to timelines."},
+        {"source": "fgd", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "Applicants are not notified of system objections or rejections online, leading to extended idle periods until they personally follow up at the department."},
+        {"source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Implement a true single-window system allowing industrial applicants to register, upload documents, and submit plans directly without compulsory reliance on empanelled engineers."},
+        {"source": "fgd", "category": "suggestions", "tags": ["PORTAL", "CLARITY"], "sentiment": "suggestion", "text": "Deploy automated digital plan scrutiny (Auto-DCR) software to check uploaded AutoCAD/DWG drawings against building bye-laws instantly, minimizing subjective manual intervention."},
+        {"source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Empower local/district KIADB offices (e.g., Mysuru) to approve building plans exceeding 15 metres, avoiding unnecessary transfer to the Bengaluru head office."},
+        {"source": "fgd", "category": "suggestions", "tags": ["PORTAL", "QUERY"], "sentiment": "suggestion", "text": "Introduce real-time status tracking with automated SMS and email notifications at every stage, including formal, time-bound rejection reasons."},
+        {"source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Revise standard floor-to-ceiling height norms to a minimum of 14-16.5 ft per floor to reflect practical manufacturing requirements."},
+        {"source": "fgd", "category": "remarks", "tags": ["FEES", "NORMS"], "sentiment": "neutral", "text": "Industries pay property tax to KIADB yet report deficient civic amenities (unattended water pipeline bursts, deteriorated roads); separately, a recent FAR revision from 65% to 70-85% offers expansion scope for rooftop/canteen structures, though clarity on compounding/approval norms remains poor."}
+      ],
+      "quotes": [
+        {"speaker": "Industry Representative", "quote": "Without going to the office, nothing like that. You, yourself, you cannot do it.", "topic": "Direct Access Restriction", "tags": ["PORTAL", "CONSULT"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "Empanelled engineers... have made the ground floor of KIADB Mysore as their office.", "topic": "Unauthorized Agency Desks", "tags": ["CONSULT"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "If it is above 15 metres, the file goes to Bangalore. The bribe cost will come somewhere up to 8,00,000.", "topic": "Speed Money & Centralization", "tags": ["INTERDEP", "INFORMAL"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "12 and a half feet is nowhere practically possible for an industry because you need to get machines and HVAC.", "topic": "Unrealistic Technical Norms", "tags": ["NORMS"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "Just to make that height alteration, I have to pay them 4,00,000 again here, and again for Bangalore.", "topic": "Repeated Costs for Revision", "tags": ["FEES", "INFORMAL"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "Initially they did not ask Fire, KSPCB clearance but now they ask me again.", "topic": "Retrospective Compliance Demands", "tags": ["DUPDOC", "QUERY"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "And for my DIC change of project also, it has to go to DC. Why does it have to go to DC?", "topic": "Redundant Administrative Hierarchy", "tags": ["INTERDEP"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "There is no tracking system. SMS, email, any portal is there but lose out so office visit is required.", "topic": "Tracking Gap & Offline Dependency", "tags": ["PORTAL", "QUERY"], "sentiment": "issue"}
+      ],
+      "gaps": [
+        {"flag": "MISSING", "text": "No numeric SLA or average processing-time figure for BPA is given by participants; delays are described only qualitatively ('weeks or months' for escalated files)."},
+        {"flag": "VAGUE", "text": "Participants cite differing fee figures for the same step (a quoted ₹2.5 lakh estimate vs. an official ₹1,00,000 fee) without reconciling which is the correct statutory amount."},
+        {"flag": "MISSING", "text": "No formal grievance or appeal channel is described for BPA beyond unstructured, repeated physical office visits."},
+        {"flag": "VAGUE", "text": "The '8 to 9 hierarchical desks/tables' step sequence is named only as a count, not individually identified by designation."}
+      ]
+    },
+    {
+      "serviceCode": "ELD",
+      "serviceName": "Electrical Drawings",
+      "sourceFiles": ["KA_FGD_ELD.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Karnataka State Electrical Inspectorate (KSEI), reviewed through a three-tier hierarchy — Assistant Electrical Inspector, Executive Engineer, Chief Electrical Inspector",
+      "portal": {"name": "KSEI portal, accessed via/redirected through Seva Sindhu; fee payment processed separately via the Khajane II portal", "url": null},
+      "timeline": {
+        "minDays": 3,
+        "maxDays": 4,
+        "basis": "Participant-reported initial verification time when drawings meet technical standards",
+        "text": "Initial verification is completed within 3 to 4 working days when drawings comply with technical standards. Overall turnaround is extended by a 15-day rectification ('send back') window, 3 to 7 days per desk across three review tiers, and batching of higher-level approvals into monthly committee meetings (effectively up to a 30-day cycle)."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Electrical layout/installation drawings",
+        "Third-party testing dossiers and OEM equipment test reports",
+        "Form 32 and related inter-departmental clearances",
+        "Letters of Intent (LOIs)",
+        "Baseline plant records, old licenses, and test certificates (for renewals)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": {"status": "no", "days": null, "text": "No deemed-approval provision is described. Instead, participants describe a 'deemed lapse' risk: if an officer issues a 'send back' remark, the applicant has only 15 days to resubmit, and if external clearances (e.g., from KPTCL) take longer, the file lapses and must be refiled with fresh statutory fees."},
+      "validity": {"text": "Electrical installations are granted an initial 1-year approval, followed by renewal in 5-year blocks; equipment testing requires mandatory annual recalibration by certified third-party vendors. Renewal applications must be submitted at least 3 months prior to expiry; missing this window triggers progressive penalties based on installation type."},
+      "fees": {"text": "Statutory government fees are based on connected electrical load/capacity and are displayed clearly on the portal without hidden charges. Payment is processed via a separate Khajane II challan tied to the correct jurisdictional Drawing and Disbursing Officer (DDO) code; an incorrect DDO code selection results in complete, non-refundable loss of the debited amount. No specific rupee fee figure was given by participants."},
+      "steps": [
+        {"n": 1, "phase": "apply", "title": "Online application and drawing upload via the KSEI portal (accessed through Seva Sindhu)", "automated": true, "note": "A strict 5 MB file-size cap forces compression/splitting of multi-page technical drawings."},
+        {"n": 2, "phase": "fee", "title": "Challan generation and payment via the external Khajane II portal, dependent on correct DDO code", "automated": "partial", "note": "Requires manual re-login and re-signing of the application after payment."},
+        {"n": 3, "phase": "scrutiny", "title": "Review through three hierarchical tiers — Assistant Electrical Inspector, Executive Engineer, Chief Electrical Inspector — each taking 3 to 7 days", "automated": false, "note": null},
+        {"n": 4, "phase": "scrutiny", "title": "Higher-level reviews and formal approvals batched into monthly committee meetings", "automated": false, "note": null},
+        {"n": 5, "phase": "scrutiny", "title": "Query/'send back' resolution within a 15-day rectification window", "automated": "partial", "note": "File lapses and must restart with fresh fees if not resolved in time, including when external utility clearances are pending."},
+        {"n": 6, "phase": "inspect", "title": "Physical site inspection requiring hard-copy presentation of drawings, LOIs, and test reports already submitted online", "automated": false, "note": null},
+        {"n": 7, "phase": "renew", "title": "Renewal filing (5-year cycle) requiring full re-upload of baseline records, old licenses, and test certificates", "automated": false, "note": "No auto-population of existing data."}
+      ],
+      "remarks": [
+        "No Expert Discussion (ED) exists for Karnataka ELD, so this structured record rests entirely on business-participant testimony and has not been cross-verified against an official source.",
+        "Participants cited transparent, clearly displayed statutory fee structures based on connected load/capacity as a positive, in contrast to other regulatory bodies."
+      ],
+      "findings": [
+        {"source": "fgd", "category": "pain", "tags": ["FEES", "PORTAL"], "sentiment": "issue", "text": "Challan payments routed through Khajane II depend strictly on selecting the correct Drawing and Disbursing Officer (DDO) code; an incorrect jurisdictional code results in complete, non-refundable loss of the debited amount."},
+        {"source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The strict 5 MB file-size ceiling for drawings and test dossiers forces applicants to repeatedly condense, compress, or split multi-page technical documents."},
+        {"source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "When technical pages are excluded or over-compressed to meet upload limits, officials mandate physical visits to present hard copies for scrutiny."},
+        {"source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Portal accounts are tethered to a single mobile number for OTP; if the responsible employee leaves the organization or loses the SIM, retrieving OTPs becomes difficult and access stalls."},
+        {"source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "The portal provides only a single support email ID, and inquiries or grievance submissions sent to it receive no response or status update."},
+        {"source": "fgd", "category": "policy", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue", "text": "If an officer issues a 'send back' remark, the applicant has only 15 days to resubmit; if external clearances (e.g., from KPTCL) take longer, the file lapses and must restart with fresh statutory fees."},
+        {"source": "fgd", "category": "policy", "tags": ["RENEWAL", "TIMELINE"], "sentiment": "issue", "text": "Renewal applications must be submitted at least 3 months before expiry; missing this window triggers progressive penalties based on installation type."},
+        {"source": "fgd", "category": "policy", "tags": ["COMPLY"], "sentiment": "issue", "text": "Any subsequent addition or alteration to internal electrical drawings or equipment configuration requires a fresh application rather than an amendment workflow."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Applicants trying to access the KSEI portal directly are repeatedly redirected to Seva Sindhu and back, creating looping navigation issues."},
+        {"source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Application forms feature ambiguous drop-downs (ESCOM, KPTCL, or Others) that keep prompting even after an applicant specifies the installation is unrelated to an ESCOM, with 'Others' left undefined."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL", "FEES"], "sentiment": "issue", "text": "The core licensing system lacks an integrated payment gateway; applicants are redirected to Khajane to generate challans, requiring manual re-login and re-signing of the application afterward."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "The portal shows overall application stages but not the specific reviewing engineer's desk, and provides no automated SMS/email alerts."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Renewal applications fail to auto-populate existing data, forcing re-upload of baseline records, old licenses, and test certificates from scratch."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Site inspectors visiting the plant demand identical physical hard copies of drawings, LOIs, and third-party test reports already submitted online."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants must submit multiple parallel test reports and inter-departmental clearances (e.g., Form 32) alongside standard OEM equipment reports."},
+        {"source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Higher-level application reviews and formal approvals are delayed because departmental scrutiny is batched for monthly committee meetings."},
+        {"source": "fgd", "category": "delay", "tags": ["INTERDEP", "TIMELINE"], "sentiment": "issue", "text": "Securing supporting documents or technical line sanctions from external utilities (e.g., KPTCL) within the 15-day rectification window is difficult, resulting in file lapses and reapplications."},
+        {"source": "fgd", "category": "suggestions", "tags": ["PORTAL", "FEES"], "sentiment": "suggestion", "text": "Integrate document uploads, automated fee calculation, and payment gateways into a single KSEI dashboard, eliminating redirects to Seva Sindhu and Khajane."},
+        {"source": "fgd", "category": "suggestions", "tags": ["TIMELINE", "QUERY"], "sentiment": "suggestion", "text": "Extend the 15-day objection rectification window to at least 30-45 days to prevent applications lapsing while awaiting external utility documents."},
+        {"source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Raise the document upload size limit from 5 MB to at least 15-20 MB for high-resolution, multi-page drawings and testing reports."},
+        {"source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Enable auto-population of verified historical plant details and earlier approvals during renewal to eliminate re-uploading from scratch."},
+        {"source": "fgd", "category": "suggestions", "tags": ["PORTAL", "QUERY"], "sentiment": "suggestion", "text": "Provide automated SMS/email updates detailing specific desk movements and officer remarks so applicants can track queries in real time."},
+        {"source": "fgd", "category": "remarks", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "When electrical drawings comply with technical standards, initial verifications are completed within 3 to 4 working days."},
+        {"source": "fgd", "category": "remarks", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "Statutory government fee calculations based on connected electrical load/capacity are displayed clearly on the portal without hidden charges."}
+      ],
+      "quotes": [
+        {"speaker": "Industry Representative", "quote": "If I do payment to Mysore instead of Tumkur... money is debited, we cannot get it back because of DDO code.", "topic": "Payment Trap & No Refund", "tags": ["FEES", "PORTAL"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "5 MB is the standard... we have to reduce and condense pages; if missed out, we give hard copies to officer.", "topic": "Upload File Limit / Hybrid Burden", "tags": ["PORTAL", "DUPDOC"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "If you don't do changes within 15 days, it gets lapsed and rejected... whole amount you have to pay again.", "topic": "Unrealistic Query Window", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "If we lose the phone number or the person is not in the organization, to get the OTP is very much difficult.", "topic": "Single-User Credential Bottleneck", "tags": ["PORTAL"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "When you apply for renewal... you have to start from the scratch, nothing gets fetched up.", "topic": "Lack of Data Auto-Population", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "KSEI diverts to Seva Sindhu, again it comes back to KSEI... common gate makes confusion.", "topic": "Portal Navigation Redirections", "tags": ["PORTAL"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "Paying fees we have to go to another application Khajane... everything should be within one portal.", "topic": "Fragmented Payment Workflow", "tags": ["PORTAL", "FEES"], "sentiment": "suggestion"},
+        {"speaker": "Industry Representative", "quote": "There is no portal for grievances... we have only one email ID, but you don't get any reply.", "topic": "Non-Responsive Grievance Mechanism", "tags": ["GRIEVANCE"], "sentiment": "issue"}
+      ],
+      "gaps": [
+        {"flag": "MISSING", "text": "No specific rupee fee figure for electrical drawing approval is stated by participants, only that fees are load/capacity-based and clearly displayed."},
+        {"flag": "MISSING", "text": "No overall end-to-end turnaround figure is given beyond the 3-4 day initial verification and component step delays (15-day query window, 3-7 days per desk, monthly committee batching)."},
+        {"flag": "VAGUE", "text": "The 'Others' option in the ESCOM/KPTCL/Others installation-category dropdown is not defined, leaving its scope unclear even to participants."},
+        {"flag": "GOOD_PRACTICE", "text": "Initial verification within 3 to 4 working days for compliant drawings, and clear, hidden-charge-free display of load-based statutory fees, are cited as notable practices."}
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFiles": ["KA_FGD_FBPA.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {"source": "fgd", "category": "pain", "tags": ["INFORMAL", "TIMELINE"], "sentiment": "issue", "text": "Multinational companies with strict anti-bribery policies (e.g., Japanese-invested firms) report file stagnation lasting over a year because they refuse to entertain unofficial facilitation payments."},
+        {"source": "fgd", "category": "pain", "tags": ["QUERY", "TIMELINE"], "sentiment": "issue", "text": "Officials routinely raise minor, piecemeal queries on the 59th or 60th day of a 60-90 day scrutiny window, resetting the process back to the beginning."},
+        {"source": "fgd", "category": "pain", "tags": ["QUERY", "CLARITY"], "sentiment": "issue", "text": "Officials repeatedly change document requirements on a daily/ad-hoc basis instead of providing a standardized, consolidated checklist of deficiencies at the start."},
+        {"source": "fgd", "category": "pain", "tags": ["CONSULT", "PORTAL"], "sentiment": "issue", "text": "Direct interaction and real-time status visibility on official portals remain largely restricted to empanelled engineers and departmental middlemen, preventing transparent applicant tracking."},
+        {"source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Industrial units are subjected to unannounced compliance and environmental inspections without prior notice or standardized checklists."},
+        {"source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Available complaint mechanisms within portals are ineffective; submissions are ignored and there is no designated senior escalation officer to resolve stalled applications."},
+        {"source": "fgd", "category": "policy", "tags": ["NORMS", "CLARITY"], "sentiment": "issue", "text": "The standardized manufacturing product list under environmental regulations fails to match specialized goods (e.g., refractory products), forcing industries to choose loose 'nearest equivalents' that risk incorrect pollution zoning."},
+        {"source": "fgd", "category": "policy", "tags": ["TIMELINE", "INTERDEP"], "sentiment": "issue", "text": "The sequential requirement of obtaining Consent for Establishment (CFE) followed by Consent for Operation (CFO) takes over 6 months, slowing project commissioning."},
+        {"source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Under service delivery acts/citizen charters, approvals from the Department of Factories and Boilers are supposed to take 8 days, but in practice regularly take upwards of 6 months."},
+        {"source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Orange-category industries are tied to 10-year validity cycles yet undergo the same scrutiny, questionnaire, and risk evaluations as heavier Red-category industries."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Although application submission and fee payment for CFE, CFO, and Factory Licences are nominally online, applicants report still being required to visit physical offices to submit hard-copy supporting dossiers."},
+        {"source": "fgd", "category": "procedural", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Files move through multiple internal bureaucratic hierarchies where any level can issue a rejection and send the file back to the bottom desk."},
+        {"source": "fgd", "category": "procedural", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "Government fee structures for environmental clearances and factory plan approvals are not clearly displayed upfront; the fee demand is only revealed after applications are reviewed."},
+        {"source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Industrial units must liaise separately with KIADB, KSPCB, the Directorate of Factories and Boilers, and local planning authorities rather than using an integrated single-window clearance."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Departments mandate manual physical submission of the exact same supporting documents, drawings, and corporate records already uploaded to online portals."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Companies must repeatedly submit machinery lists, process flow diagrams, and emission profiles separately to the Pollution Board and then again to the Factories & Boilers department."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC", "QUERY"], "sentiment": "issue", "text": "When a minor observation is raised after the 60-day scrutiny window, applicants are forced to resubmit entire document sets and re-initiate applications as if filing anew."},
+        {"source": "fgd", "category": "delay", "tags": ["QUERY", "TIMELINE"], "sentiment": "issue", "text": "Scrutiny officers withhold observations until statutory deadline thresholds (60/90 days) approach, using minor queries to buy more review time and reset timelines."},
+        {"source": "fgd", "category": "delay", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "When a desk officer stalls a file, applicants have no time-bound escalation route to senior regional managers or commissioners."},
+        {"source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Files for longstanding industrial setups in regional centers (e.g., Mysuru) frequently stall, requiring company representatives to travel to Bengaluru headquarters to unblock approvals."},
+        {"source": "fgd", "category": "suggestions", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion", "text": "Merge the approval workflows of KIADB, KSPCB (CFE/CFO), and the Directorate of Factories and Boilers into a single digital platform with concurrent rather than sequential approvals."},
+        {"source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Implement a strict digital tracking and automated escalation workflow (branch officer to regional manager to director) if a file is not cleared within statutory limits."},
+        {"source": "fgd", "category": "suggestions", "tags": ["QUERY", "CLARITY"], "sentiment": "suggestion", "text": "Mandate that reviewing authorities provide all objections and missing-document queries in a single consolidated requisition rather than raising piecemeal queries."},
+        {"source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Establish an independent grievance cell headed by designated senior ombudsmen with strict resolution timelines for stalled industrial files."},
+        {"source": "fgd", "category": "suggestions", "tags": ["FEES", "CLARITY"], "sentiment": "suggestion", "text": "Provide interactive self-assessment tools on portals so industries can determine their environmental category and calculate statutory fees prior to application submission."},
+        {"source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Representatives noted that unexplained regulatory delays for compliant, ethical MNCs (such as Japanese firms) damage India's ease-of-doing-business reputation and discourage further foreign investment."},
+        {"source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Regulatory departments reportedly treat established industrial establishments operating for over 40 years with the same suspicion and procedural roadblocks as untested greenfield applicants."}
+      ],
+      "quotes": [
+        {"speaker": "Industry Representative", "quote": "The company is there for last 40 years, despite that, for whole one year, they cannot be cleared.", "topic": "Bureaucratic Stagnation", "tags": ["TIMELINE"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "They have a prescribed timeline of 60 days, once it crosses 60 days they put one or two observations, again we have to restart from scratch.", "topic": "Clock Resetting & Delay Tactics", "tags": ["QUERY", "TIMELINE"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "Every day they keep on changing their requirements. They should tell us all put together that these are the documents.", "topic": "Shifting Procedural Demands", "tags": ["CLARITY", "QUERY"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "My company is an ethical Japanese company, they don't entertain any extra money other than fees. The Japanese have blocked the system.", "topic": "Integrity vs Speed Money (FDI Barrier)", "tags": ["INFORMAL"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "It takes about 6 months to get this CFE and CFO, procedure takes 3 months plus 3 months.", "topic": "Prolonged Environmental Timelines", "tags": ["TIMELINE", "INTERDEP"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "List of products given, we match closest... we don't know the fee for red or orange, they come back with fee structure later.", "topic": "Arbitrary Categorisation & Fee Ambiguity", "tags": ["NORMS", "CLARITY"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "Factories and boilers will get approved in 8 days as per rules... but in Karnataka it takes minimum 6 months.", "topic": "Statutory vs Ground Reality Gap", "tags": ["TIMELINE"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "Middleman, empanelled engineers... you cannot apply without them, you have to straightaway deal through them.", "topic": "Compulsory Intermediary Barrier", "tags": ["CONSULT"], "sentiment": "issue"}
+      ],
+      "gaps": [
+        {"flag": "INCONSISTENT", "text": "ED remark states the department 'has ceased unannounced raids or arbitrary site audits; inspections are strictly confined to post-registration verification when formally requested by the user.' FGD participants report the opposite: 'Industrial units are subjected to unannounced compliance and environmental inspections without prior notice or standardized checklists.'"},
+        {"flag": "INCONSISTENT", "text": "ED describes 'a transparent, one-rank-higher hierarchical online appeal system [that] resolves grievances within approximately 7 days' (step 6, cited as a GOOD_PRACTICE). FGD participants report 'Non-Functional Grievance Redressal' with ignored submissions and 'no designated senior escalation officer,' and separately that 'applicants have no time-bound escalation route to senior regional managers or commissioners.'"},
+        {"flag": "INCONSISTENT", "text": "The ED record sets applicantOfficeVisit to 'no' (fully online process). FGD participants describe a 'Superficial Online Portal Operating in Hybrid Mode': 'although application submission and fee payment for CFE, CFO, and Factory Licences are nominally online, applicants are still required to visit physical offices to submit hard-copy supporting dossiers.'"},
+        {"flag": "INCONSISTENT", "text": "The ED's FBPA timeline is a 14-day Sakala SLA (reduced from a 90-day Factories Act statutory limit), with the query-response clock pausing up to 7 days. FGD participants instead describe a 60-90 day scrutiny window in which officials 'routinely raise minor, piecemeal queries on the 59th or 60th day... resetting the process back to the beginning,' and cite actual approvals taking 'a whole one year' or 'minimum 6 months' against a claimed 8-day citizen-charter figure — none of which matches the ED's stated 14-day SLA."},
+        {"flag": "VAGUE", "text": "Much of this FGD session's substantive content (CFE/CFO environmental clearance timelines, a 60-90 day scrutiny window, an '8-day' citizen-charter claim) describes the broader Factory License / environmental-consent regulatory journey rather than the FBPA-specific building-plan technical review the ED describes — echoing the ED record's own noted issue of content mixing for this same Karnataka FBPA record. The timeline/inspection/appeal contradictions above may partly reflect this broader framing rather than FBPA review alone."},
+        {"flag": "MISSING", "text": "The ED record is silent on whether applicants may file FBPA directly or must use an empanelled engineer; FGD participants describe mandatory reliance on empanelled intermediaries/middlemen, which the ED neither confirms nor denies."}
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFiles": ["KA_FGD_RFAL.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Inspectorate of Factories and Boilers, Karnataka, with linked verification against KIADB (property tax), KSPCB (environmental consent renewal), and GSTN records",
+      "portal": {"name": "Factories and Boilers departmental online portal (exact name not stated by participants); cross-checked against KSPCB and GST portal data", "url": null},
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "",
+        "text": "No specific SLA figure was given by participants. Renewals must be filed before a 45-60 day grace window prior to expiry; filing beyond this window suspends 'automatic approvals' and triggers physical inspection. Prerequisite GST amendments, where needed, take 1 to 1.5 months, further delaying dependent renewal filings."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Old/baseline factory license",
+        "Company incorporation deed",
+        "GST registration certificate",
+        "Municipal/KIADB property tax receipts",
+        "Staff and divisional strength declarations",
+        "Revised building/layout plans (for interior machinery re-arrangement)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants describe being required to re-submit documents (baseline licenses, incorporation deeds, GST certificates, tax receipts) that already exist in government registries, even where unchanged.",
+      "deemedApproval": {"status": "yes", "days": null, "text": "Participants imply an automatic/continued-approval mechanism for renewals filed on time, since filing beyond a 45-60 day grace window is described as causing 'automatic approvals' to be suspended and triggering physical inspection — but no explicit day-count or confirming procedure for the automatic approval itself is given."},
+      "validity": {"text": "The routine factory license renewal cycle referenced by participants is 3 years (statutory government fee of ₹3,000 for the 3-year renewal). Separately, Green-category KSPCB consent renewals can carry a 5-year 'deemed bonus,' extending validity up to 15 years for a 10-year fee payment, where no hazardous expansion or category-altering change occurs."},
+      "fees": {"text": "The statutory government fee for a 3-year factory license renewal is ₹3,000, though private consultants reportedly charge double or add ₹10,000-20,000 in 'office and incidental expenses.' Separately, KIADB property tax for small-scale industrial premises has risen from ₹6,000-7,000 to ₹30,000 and now up to ₹1,50,000 annually. KSPCB environmental consent renewal fees are based on gross capital asset value — assets above ₹5 crore reportedly incur ₹8,00,000 in official fees."},
+      "steps": [
+        {"n": 1, "phase": "renew", "title": "Online renewal application submission for straightforward, unchanged-status renewals", "automated": true, "note": null},
+        {"n": 2, "phase": "fee", "title": "Statutory renewal fee payment (₹3,000 for the 3-year cycle)", "automated": true, "note": null},
+        {"n": 3, "phase": "scrutiny", "title": "Verification against prerequisite GST registration status and KSPCB consent renewal status", "automated": false, "note": "GST amendments take 1 to 1.5 months, delaying dependent factory license renewal filings."},
+        {"n": 4, "phase": "approve", "title": "Continued/automatic approval if filed within the 45-60 day grace period before expiry", "automated": "partial", "note": "Not explicitly confirmed as a formal deemed-approval mechanism by participants — inferred from the description of 'automatic approvals' being suspended past the grace window."},
+        {"n": 5, "phase": "inspect", "title": "Physical factory inspection triggered if renewal filing is delayed beyond the 45-60 day grace period", "automated": false, "note": null},
+        {"n": 6, "phase": "apply", "title": "Physical office visit (2 to 3 times) for any administrative amendment — company name change, management restructuring, or machinery/layout alteration", "automated": false, "note": "Includes re-submission of modified building/layout plans for machinery re-arrangements."}
+      ],
+      "remarks": [
+        "No Expert Discussion (ED) exists for Karnataka RFAL, so this structured record rests entirely on business-participant testimony and has not been cross-verified against an official source.",
+        "Participants noted that Green-category KSPCB units receive a 5-year deemed-approval bonus (up to 15 years total validity for a 10-year fee) as a positive feature, and that non-boiler facilities face lower inspection frequency than heavy boiler/chemical plants when filings are timely."
+      ],
+      "findings": [
+        {"source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Annual municipal/KIADB property taxes for small-scale industrial premises have surged from ₹6,000-7,000 to ₹30,000 and now ₹1,50,000, an unsustainable annual compliance burden on MSMEs and startups."},
+        {"source": "fgd", "category": "pain", "tags": ["CONSULT", "FEES"], "sentiment": "issue", "text": "While the statutory government fee for a 3-year factory license renewal is ₹3,000, private consultants reportedly charge double or add ₹10,000-20,000 under the pretext of 'office and incidental expenses'."},
+        {"source": "fgd", "category": "pain", "tags": ["FEES", "NORMS"], "sentiment": "issue", "text": "KSPCB consent renewal fees are calculated on gross capital asset value, including high urban land market rates, rather than actual emissions, production capacity, or machinery value — assets above ₹5 crore reportedly incur ₹8,00,000 in fees."},
+        {"source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Businesses pay heavy recurring property taxes yet face deteriorated, hazardous internal roads and unattended utility failures across industrial estates."},
+        {"source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Grievance mechanisms on departmental portals function superficially; submitted complaints receive no active tracking, administrative support, or visible accountability from senior officers."},
+        {"source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Small manufacturing units generating substantial monthly GST and local employment receive no tax relaxations or incentives, while capital subsidies are channeled predominantly toward unverified new setups rather than operating units."},
+        {"source": "fgd", "category": "policy", "tags": ["FEES", "NORMS"], "sentiment": "issue", "text": "Policy guidelines mandate calculating environmental consent fees on total asset size, which inappropriately taxes land acquisition and civil development costs rather than environmental pollution risk or waste generation."},
+        {"source": "fgd", "category": "policy", "tags": ["NORMS", "CLARITY"], "sentiment": "issue", "text": "Rigid bureaucratic interpretation of tribal/industrial scheme boundaries (ITDP) causes rejections of projects (e.g., MYPA schemes) in industrial estates ruled outside tribal jurisdictions, despite the administering ITDP offices being located within the same urban municipal areas."},
+        {"source": "fgd", "category": "policy", "tags": ["RENEWAL", "INSPECT"], "sentiment": "issue", "text": "Delays in submitting factory license renewals (e.g., 45 to 60 days) trigger mandatory on-site physical inspections and regulatory scrutiny."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "While routine renewals can be processed online, any administrative amendment (company name change, management restructuring, machinery alterations) forces applicants into 2 to 3 physical visits to the Inspectorate of Factories and Boilers."},
+        {"source": "fgd", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Minor operational changes such as shifting machinery or reconfiguring plant interiors require engineers to draft and formally resubmit modified layout plans for approval."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "Portals lack granular stage-by-stage tracking via automated SMS or email, leaving business owners uninformed about which desk or scrutiny officer holds their file."},
+        {"source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Applications are rejected on administrative technicalities (e.g., mobile number mismatches or requests for peripheral data) without prior explanatory notices."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants renewing factory licenses must upload previously validated static documents — old baseline licenses, company incorporation deeds, and GST registration certificates — that already exist within government registries."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Physical or digital re-submission of recently paid municipal/KIADB property tax receipts is demanded to clear routine factory license renewals."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Repeated detailed breakdowns of employee strength and divisional allocations are demanded for renewals where overall manufacturing processes remain unchanged."},
+        {"source": "fgd", "category": "delay", "tags": ["INTERDEP", "TIMELINE"], "sentiment": "issue", "text": "Delays in obtaining prerequisite approvals such as GST certificate amendments (1 to 1.5 months) or KSPCB consent renewals delay factory license renewal filings."},
+        {"source": "fgd", "category": "delay", "tags": ["INSPECT"], "sentiment": "issue", "text": "Renewal applications delayed beyond 45-60 days suspend automatic approvals and trigger physical factory inspections, adding weeks to processing times."},
+        {"source": "fgd", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "Files requiring management changes or structural alterations stall due to manual file reviews and verification visits by departmental inspectors."},
+        {"source": "fgd", "category": "suggestions", "tags": ["FEES", "NORMS"], "sentiment": "suggestion", "text": "Base environmental consent fees exclusively on installed machinery value, plant capacity, and actual pollution/effluent risk categories, completely excluding underlying real estate and land valuations."},
+        {"source": "fgd", "category": "suggestions", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion", "text": "Link the Directorate of Factories and Boilers directly with GSTN and KSPCB portals to automatically verify regulatory compliance without demanding repeated manual uploads."},
+        {"source": "fgd", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Provide fee concessions and property tax rebates to operating units with clean records of on-time tax and GST payments, rewarding ongoing compliance."},
+        {"source": "fgd", "category": "suggestions", "tags": ["PORTAL", "QUERY"], "sentiment": "suggestion", "text": "Upgrade industrial portals with milestone-based SMS and email alerts informing applicants when files move between reviewing inspectors."},
+        {"source": "fgd", "category": "suggestions", "tags": ["CLARITY", "NORMS"], "sentiment": "suggestion", "text": "Issue unambiguous geographical guidelines for regional development schemes (such as ITDP) to prevent eligible district MSME units from arbitrary rejections."},
+        {"source": "fgd", "category": "remarks", "tags": ["RENEWAL", "POSITIVE"], "sentiment": "positive", "text": "Green-category units under KSPCB enjoy a 5-year deemed bonus (granting up to 15 years total validity for a 10-year fee payment), provided no hazardous expansions or category-altering changes occur."},
+        {"source": "fgd", "category": "remarks", "tags": ["INSPECT", "POSITIVE"], "sentiment": "positive", "text": "Non-boiler industrial facilities (e.g., botanical and agro-extraction units) encounter lower inspection frequencies during license renewals than heavy boiler and chemical plants, provided their filings are submitted on time."}
+      ],
+      "quotes": [
+        {"speaker": "Industry Representative", "quote": "For my premise, spending every 1.5 lakh for building tax... it was 6,000 to 7,000, then became 30,000, now come to KIADB.", "topic": "Escalating Local Property Tax", "tags": ["FEES"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "Consultants have double charges... 10,000 to 20,000 more... they say office and own expenses.", "topic": "High Intermediary Premiums", "tags": ["CONSULT", "FEES"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "If your asset is above 5 crore, you have to pay 8,00,000 for PCB... land asset inside the city is too high.", "topic": "Unfair Valuation-Linked Clearance Fees", "tags": ["FEES", "NORMS"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "Roads are in very bad condition for past 5 years... after paying business tax and 25% profit tax.", "topic": "Civic Infrastructure Deficit vs Compliance", "tags": ["FEES"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "ITDP project got rejected... told ITDP is only inside forest, but ITDP office is kept inside Mysore city.", "topic": "Scheme Ambiguity & Arbitrary Rejection", "tags": ["NORMS", "CLARITY"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "All management changes and name change... we went to Factory office 2 to 3 times for inspections.", "topic": "Incomplete Digitization & Mandatory Visits", "tags": ["PORTAL"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "Every portal we have a grievance portal, but there is no use... nobody responds.", "topic": "Ineffective Redressal Mechanism", "tags": ["GRIEVANCE"], "sentiment": "issue"},
+        {"speaker": "Industry Representative", "quote": "Give subsidies to operating companies paying GST regularly, instead of giving subsidies to new companies where nobody knows.", "topic": "Rationalization of Industrial Subsidies", "tags": ["NORMS"], "sentiment": "suggestion"}
+      ],
+      "gaps": [
+        {"flag": "MISSING", "text": "No explicit day-count or confirming procedure is given for the implied automatic/deemed renewal-approval mechanism referenced when applications are filed within the 45-60 day grace window."},
+        {"flag": "MISSING", "text": "No aggregate turnaround figure (days) is given for standard, unchanged-status renewal processing."},
+        {"flag": "VAGUE", "text": "ITDP/MYPA scheme jurisdiction boundaries are described as ambiguous and a source of rejections, but the precise geographic or administrative criteria used by officials are not detailed."},
+        {"flag": "GOOD_PRACTICE", "text": "The Green-category 5-year KSPCB deemed-approval bonus (up to 15-year total validity for a 10-year fee) and lower inspection frequency for non-boiler facilities are cited as notable practices."}
+      ]
+    }
+  ]
+}

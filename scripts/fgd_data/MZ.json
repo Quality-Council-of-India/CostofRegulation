@@ -1,0 +1,465 @@
+{
+  "code": "MZ",
+  "name": "Mizoram",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFiles": ["MZ_FGD_BPA.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE", "DELAY"], "sentiment": "issue", "text": "Participants reported actual overall timelines of roughly 2-6 months in practice: one described ~2 weeks for drawings, up to 3 months for soil testing, and 1 month at AMC (~5 months total); for big structures \"at least 6 months.\"" },
+        { "source": "fgd", "category": "pain", "tags": ["DELAY", "FEES"], "sentiment": "issue", "text": "Soil testing was named the single biggest pain point: mandatory, conducted offline outside OBPS, taking 3-4 months in high seismic/hazard-map zones and costing roughly ₹20,000-50,000." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "AMC's review board sits only twice a month; any objection means corrections, resubmission and waiting for the next month's sitting." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "OBPS is a one-way portal: applicants cannot type remarks or responses to officials, only upload additional documents." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Scrutiny was described as superficial: officials raise corrections for items already shown in the drawing, with generic, non-specific deficiency remarks, forcing repeated correction cycles." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Buildings above 16m require an additional structural/technical review board, extending timelines for big structures to 6+ months." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Building permission is currently valid for 3 years; renewing beyond that attracts a late fee of about ₹10/day and repeats the full process; participants felt the validity period should be increased." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "AMC fees vary with built-up area (roughly ₹1,200 up to 100 sq m to ₹2,000 above 1,000 sq m; other cases ₹5,000-10,000) and are not seen as a major burden." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Make OBPS a two-way system so applicants can type observations/responses to officials, which participants believe would shorten the timeline." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP", "PORTAL"], "sentiment": "suggestion", "text": "Merge the offline soil-testing process into the single online approval system, with data fetched automatically by the government." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Make deficiency remarks specific rather than generalised, and scrutinise drawings properly rather than superficially." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Allow licensed technical professionals to self-certify/approve (risk-based inspection), with accountability fixed." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Increase the validity period of building permission beyond the current 3 years." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Fire department clearance adds about 2 additional weeks; full permission is granted only once the fire extinguisher has been installed." },
+        { "source": "fgd", "category": "remarks", "tags": ["CAPACITY"], "sentiment": "neutral", "text": "Most participants are individual civil/structural-engineer practitioners who prepare drawings and file applications themselves without a separate consultant." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Direct government fees are not a major concern for participants; soil-testing cost and delay are the dominant cost driver." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Login to OBPS is restricted to the licensed technical person (consultants cannot log in on the applicant's behalf), and fees are paid online with no bank/office visit needed for payment." }
+      ],
+      "quotes": [
+        { "speaker": "Participant (civil/structural engineer)", "quote": "Lifetime is 2 weeks plus soil test is sometimes 3 months, and after that we have submitted to AMC, one month… within 5 months we have completed.", "topic": "Overall timeline", "tags": ["TIMELINE", "DELAY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "It takes a long time. That's basically the soil testing and other requirements by the administration.", "topic": "Soil testing delay", "tags": ["DELAY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "This board is having their sitting only twice a month… if the board has any objections, they send it back, we do corrections and wait for the next month's sitting. That takes a very long process.", "topic": "Board sitting frequency", "tags": ["TIMELINE", "DELAY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "It's quite a one-way interaction. If that system has a two-way filing system where we can type in our observations… it will take a much shorter time.", "topic": "One-way portal", "tags": ["PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "They don't scrutinise that much… sometimes it's already there in the drawing, but they don't check it.", "topic": "Scrutiny quality", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "For big structures, basically you need at least 6 months.", "topic": "Timeline for large buildings", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "If we don't get it in time, probably a year is lost… there is also a 3-4 month period where we couldn't excavate anything.", "topic": "Business impact of delay", "tags": ["TIMELINE", "DELAY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The soil part is a different process… an offline process. They could have merged it with one approval system… one of the main reasons of unnecessary cost as well as unnecessary delay.", "topic": "Soil testing redundancy", "tags": ["INTERDEP", "PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "Overall, I think it is quite good, but the long process is the main problem.", "topic": "Overall experience", "tags": ["OTHER"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED cites a 30-day notified timeline with a deemed-approval provision (Reg. 7) activating after 30 days; FGD participants report actual timelines of 2-6 months (commonly ~5 months) with no participant mentioning ever invoking or being aware of the deemed-approval provision, suggesting it is not used despite frequent, large timeline overruns." },
+        { "flag": "INCONSISTENT", "text": "ED's documented steps/documents for BPA make no mention of a mandatory soil test; FGD participants describe soil testing as a mandatory, offline, 3-4 month, ₹20,000-50,000 step that is the single biggest driver of delay and cost — a significant process step absent from the ED record." },
+        { "flag": "INCONSISTENT", "text": "ED's validity record describes an amendment extending building-plan validity to 5 years (text partly garbled); FGD participants instead describe the current validity as 3 years, with a ₹10/day late fee for renewal beyond that — no participant referenced a 5-year validity." },
+        { "flag": "VAGUE", "text": "FGD's cited fee range (~₹1,200 up to 100 sq m to ₹2,000 above 1,000 sq m; other cases ₹5,000-10,000) does not closely match ED's fee schedule (₹100-2,000 ground floor plus ₹200-4,000 per additional storey); both sources flag their own figures as approximate/garbled, so the discrepancy could not be resolved." },
+        { "flag": "MISSING", "text": "The ED record does not mention a Fire Department clearance as part of the Building Plan Approval chain, but FGD participants describe fire clearance (~2 additional weeks, full permission only after fire-extinguisher installation) as a necessary step before final approval." }
+      ]
+    },
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": ["MZ_FGD_CTE.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The respondent described the application as submitted fully online with the portal easy to use (\"everything was smooth enough\"), including online fee payment with no office visit needed." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "COMPLY"], "sentiment": "issue", "text": "Non-fee compliance costs (biomedical-waste segregation set-up, equipment purchases, monthly staff training) were reported at \"more than ₹2,00,000, maybe more\" — well beyond the nominal government fee." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Treatment-plant size/capacity requirements were not made clear upfront; they surfaced only at inspection, after the applicant had already built to its own estimate, prompting possible rework." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "suggestion", "text": "The respondent felt one-size-fits-all requirements are unnecessary for small facilities with limited environmental impact and should be scaled by facility size." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "PORTAL"], "sentiment": "issue", "text": "No real-time online application tracking exists; status is followed up only by telephone, named as the single biggest pain point." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce online real-time tracking of application status instead of telephone follow-up." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Publish clear capacity/size norms for treatment plants upfront so facilities build to the right specification the first time." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Apply proportionate, size-based compliance requirements — relaxed for small facilities, stricter for large ones." },
+        { "source": "fgd", "category": "remarks", "tags": ["CONSULT"], "sentiment": "neutral", "text": "The application was prepared in-house; engineers/architects were consulted informally, mostly free of cost or for a token amount (about ₹1,000)." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "Government fees were considered nominal; no late fees or penalties were reported." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Overall approval time was about one month; the process was new to the respondent but completed without major delay." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "The respondent disagreed with the inspector's view that the treatment plant was too small and felt the applicant must verify and potentially push back on inspection findings." }
+      ],
+      "quotes": [
+        { "speaker": "Participant (hospital representative)", "quote": "One month.", "topic": "Time from filing to approval", "tags": ["TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "It would be more than 2,00,000, maybe more than that.", "topic": "Compliance cost beyond the fee", "tags": ["FEES", "COMPLY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The standard is okay, but the size is a little small, so they say it needs to be bigger.", "topic": "Treatment plant specification", "tags": ["NORMS", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "For small properties I don't think it is required… for big properties, maybe it might be required.", "topic": "Proportionate requirements", "tags": ["NORMS"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "Online tracking, online tracking.", "topic": "Biggest pain point", "tags": ["PORTAL", "QUERY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Everything was smooth enough.", "topic": "Overall experience", "tags": ["POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Participant", "quote": "For us we consult some engineers… most of the time it is free of cost… sometimes we give ₹1000.", "topic": "Informal consultants", "tags": ["CONSULT"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED's automationLevel is \"manual,\" with the official stating applications are \"currently still processed offline due to technical issues\" on both UCAMS/NSWS and department systems; the FGD respondent instead describes a fully online application and fee-payment experience that was smooth, with no office visit needed — a direct contradiction on whether the online channel is actually working for applicants." },
+        { "flag": "VAGUE", "text": "ED's actual-processing-time range is given inconsistently as 14-21 days or 7-21 days; the one FGD respondent reports \"one month\" (~30 days), longer than either ED figure — too thin a sample (single respondent) to resolve, but worth flagging." },
+        { "flag": "MISSING", "text": "The ED CTE record does not discuss a technical-specification/treatment-plant-capacity mismatch problem; the FGD respondent describes exactly this friction (building to its own estimate, then told at inspection the plant is too small)." },
+        { "flag": "MISSING", "text": "Actual non-fee compliance cost (biomedical-waste segregation, equipment, training, reported at ₹2,00,000+) is not discussed anywhere in the ED CTE record, which addresses only the official consent fee." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": ["MZ_FGD_CTO.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "Participant reported Consent to Operate completed \"within 2 weeks,\" with no delay beyond expectations." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The application was filed online and described as \"quite smooth and simple enough.\"" },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "The moderator summed up that, apart from fees being \"a little higher end,\" no major pain point was observed for Consent to Operate itself." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "The dominant source of delay raised was Environmental Clearance for any change of activity (e.g. adding an autoclave), described as needing fresh prior clearance and \"taking too much time\" — unsuited to expanding facilities." },
+        { "source": "fgd", "category": "remarks", "tags": ["CLARITY"], "sentiment": "issue", "text": "When asked, the department itself reportedly had no data on the environmental clearance process, suggesting the process is not well tracked or documented." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Consent to Operate validity is one year; the moderator noted applicants may forget to renew after a year, with no reminder system mentioned." },
+        { "source": "fgd", "category": "policy", "tags": ["CONSULT"], "sentiment": "neutral", "text": "An ETP consultant was used and described as mandatory for compliance." },
+        { "source": "fgd", "category": "policy", "tags": ["INSPECT", "POSITIVE"], "sentiment": "positive", "text": "One participant (a facility operator) felt strict enforcement/site visits help, because problems flagged by inspectors are easier to fix." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL", "POSITIVE"], "sentiment": "positive", "text": "Renewal was reported as simpler than the first application since earlier details were already on file." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Allow faster or simplified/exempt environmental clearance when an existing facility adds capacity or changes equipment." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Add SMS/email reminders before the one-year validity expires, plus general status tracking." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Provide specimen application formats, checklists and a fee calculator to reduce dependence on consultants." },
+        { "source": "fgd", "category": "remarks", "tags": ["GRIEVANCE"], "sentiment": "neutral", "text": "Participants were not aware of any grievance cell and reported no complaints." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "Within 2 weeks.", "topic": "Time taken for Consent to Operate", "tags": ["TIMELINE"], "sentiment": "positive" },
+        { "speaker": "Participant", "quote": "₹2,00,000.", "topic": "Compliance cost reported", "tags": ["FEES"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "The process was quite smooth and simple enough.", "topic": "Overall experience", "tags": ["POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Participant", "quote": "I think the main problem here is obtaining the environmental clearance.", "topic": "Environmental clearance delay", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "For change of any activities, it requires prior clearance from the authority.", "topic": "EC for activity change", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "It takes too much time. You cannot wait because the facility has to run.", "topic": "Business impact of EC delay", "tags": ["INTERDEP", "TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "When I asked the department about environmental clearance, they said they had no data.", "topic": "Transparency gap", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "If we enforce the rules properly, then it's much easier for us.", "topic": "Enforcement helps compliance", "tags": ["INSPECT"], "sentiment": "positive" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED's CTO record states technical issues currently prevent online applications submitted via the CPCB portal from being processed, so the department continues processing offline despite onboarding; the FGD respondent instead reports filing online with a smooth experience and no issues — contradicting the official's description of a non-functioning online channel." },
+        { "flag": "MISSING", "text": "The ED CTO record does not address Environmental Clearance for activity changes beyond listing an EC copy as a conditional document; the FGD identifies EC-for-change-of-activity as the single biggest source of delay for operating facilities, a dimension the ED interview did not explore in similar depth." },
+        { "flag": "VAGUE", "text": "The FGD's reported cost figure (\"₹2,00,000\") is not clearly attributed to CTO specifically versus general biomedical-waste compliance costs discussed across both the CTE and CTO sessions, so it cannot be reliably compared to ED's fee description (capital-investment-based, CPCB ceiling)." },
+        { "flag": "GOOD_PRACTICE", "text": "A participant's view that strict enforcement/inspections make compliance easier echoes the ED's description of advance multi-channel inspection communication, corroborating a largely cooperative, non-adversarial inspection regime from the business side." }
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFiles": ["MZ_FGD_ECL.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "FEES"], "sentiment": "issue", "text": "Online registration requires a DSC and DigiLocker; participants found or described this as complicated and costly (the DSC is paid for annually)." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "The process is described as manual — write a letter, wait, return to make payment, wait for installation — with up to about 5 office visits reported." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "New connection took roughly 20 days (\"3 weeks\"), and applying before the building is constructed takes much longer than applying after." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Organisations divert an office assistant's time to handle filing for \"a good part of a month\"; the cost of this diverted staff time is hard to estimate." },
+        { "source": "fgd", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "One participant noted small informal payments \"here and there\" are made and, since they must be paid, no one complains (no further detail given)." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "No real-time application tracker exists; participants follow up in person rather than online." },
+        { "source": "fgd", "category": "remarks", "tags": ["CLARITY"], "sentiment": "neutral", "text": "Most participants had not applied directly (applied through others), limiting their ability to describe filing, documents or portal use." },
+        { "source": "fgd", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Wiring must be done by a privately hired, government-approved electrician, whose work the department then inspects and accepts." },
+        { "source": "fgd", "category": "policy", "tags": ["INSPECT"], "sentiment": "neutral", "text": "A department inspector verifies the number of lights/sockets/connected load against the application." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "Monthly charges after connection stayed the same with no surprises, and fees were not reported as a concern." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "One participant suggested increasing the connection's validity period." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "A participant suggested more frequent inspection in some settings (e.g., hotels) for safety." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Move application, status updates and payment online to reduce the number of office visits." },
+        { "source": "fgd", "category": "remarks", "tags": ["CONSULT"], "sentiment": "neutral", "text": "Consultants are not seen as necessary for private houses, though may be used by bigger organisations." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER", "POSITIVE"], "sentiment": "positive", "text": "Overall experience was described as good, with no complaints, no delays and no surprise charges apart from the issues above." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "First you go to the office, write a letter, wait some time, then go again, make some payments, and then they come for installation.", "topic": "Office visit cycle", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "A good part of the month, almost the entire month.", "topic": "Overall timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "They say 20 days… roughly 3 weeks.", "topic": "Reported timeline, no delay", "tags": ["TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "I do nothing online. I go to the office myself.", "topic": "Mode of filing", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "No more than 5\" visits to the office.", "topic": "Number of office visits", "tags": ["OTHER"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "This electrician doesn't come from the department… they are government-approved… the government will accept their work.", "topic": "Government-approved electrician", "tags": ["COMPLY"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "Of course you have to pay for some folks here and there. Since we must pay, we don't complain.", "topic": "Informal payments", "tags": ["INFORMAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Me personally, I think the process is quite standard. I have no complaint.", "topic": "Overall experience", "tags": ["POSITIVE"], "sentiment": "positive" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED's notified Citizen Charter timeline is 7 days (urban) / 15 days (rural); FGD participants report an actual timeline of roughly 20 days (\"3 weeks\") for a new connection, exceeding even the longer rural notified timeline, with up to 5 required office visits." },
+        { "flag": "INCONSISTENT", "text": "ED's remarks state the department reported \"no additional costs beyond the official fee... to the department's knowledge\"; FGD participants instead describe informal \"payments here and there\" being made and felt obliged to pay without complaint — a direct contradiction on whether informal costs exist." },
+        { "flag": "VAGUE", "text": "Most FGD participants had applied through others rather than personally, so several procedural details (documents, portal use) could not be independently verified by them, limiting how far this record can corroborate or contradict the ED's account." },
+        { "flag": "GOOD_PRACTICE", "text": "Multiple participants confirmed monthly charges remain stable with no fee \"surprises,\" corroborating the ED's claim of a transparent, pre-determined fee structure." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFiles": ["MZ_FGD_TLA.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Applications are still submitted fully offline (hard copy) at the AMC office, despite the recent move to AMC's internal E-file system noted in the ED record." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Current trade-licence validity is one year; participants want options of 1, 2, 3 (or even 5) years depending on infrastructure." },
+        { "source": "fgd", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "One participant cited a fee of about ₹500 for trade-licence approval; fees were said to differ by sector and type of business." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Inspection was described by one participant as \"just a mere formality for the government,\" with no follow-up." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "No status-tracking mechanism exists; participants simply wait for AMC to inform them once the licence is ready." },
+        { "source": "fgd", "category": "remarks", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "Supporting certificates required depend on business type — health certificate (food-related businesses), pollution board certificate (resort), local-council acknowledgement (e.g., hostel)." },
+        { "source": "fgd", "category": "remarks", "tags": ["CLARITY", "POSITIVE"], "sentiment": "positive", "text": "Participants found the documents required clearly listed on the application form itself, with no follow-up requests." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "Time taken was about one week from filing to approval, with no delay reported beyond that." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Move the trade-licence application (and payment) online — the main request from participants, since everything is currently offline." },
+        { "source": "fgd", "category": "remarks", "tags": ["CONSULT", "POSITIVE"], "sentiment": "positive", "text": "Participants applied themselves without needing consultants, agents or extra equipment/infrastructure." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "On late fees, one answer suggested a charge applies \"according to the date,\" though the amount/basis was unclear to the participant." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER", "POSITIVE"], "sentiment": "positive", "text": "Overall experience was positive — the service was described as efficient and the process as easy." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "We just submit the application form to AMC. Once it is written, they inform us.", "topic": "Filing process", "tags": ["PORTAL"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "Maybe I think around one week.", "topic": "Processing timeline", "tags": ["TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "I think 500.", "topic": "Fee for trade-licence approval", "tags": ["FEES"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "Offline.", "topic": "Mode of filing", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "If it was online mode, it would have been much easier.", "topic": "Suggestion to digitise", "tags": ["PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "One year… then some option is there like one year, 2 years, 3 years, depends on the infrastructure.", "topic": "Validity period options", "tags": ["RENEWAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "Just a mere formality for the government.", "topic": "Inspection", "tags": ["INSPECT"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "The services are quite efficient.", "topic": "Overall experience", "tags": ["POSITIVE"], "sentiment": "positive" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED's TLA record describes a recently introduced internal E-file system with NSWS onboarding planned, implying a shift toward digital filing; FGD participants uniformly describe the process as still fully offline, hard-copy submission at the AMC office with no online option — confirming the applicant-facing reality has not yet caught up with the internal system's introduction." },
+        { "flag": "VAGUE", "text": "The ₹500 fee figure cited by one FGD participant cannot be checked against the ED record, which gives no specific rupee amount (only that the fee structure was \"recently revised with zone-wise classification, pending Government finalisation\")." },
+        { "flag": "GOOD_PRACTICE", "text": "FGD participants corroborate the ED's point that no site inspection is required for most trades (\"just a mere formality\"), consistent with the ED's claim that only food-related activity triggers Health Department inspection." },
+        { "flag": "MISSING", "text": "Participants' suggested validity options (1-3, or up to 5, years) do not fully align with the amendment the ED record describes (extension up to 10 years, applicant's choice of period); it is unclear whether participants were aware of the pending amendment or were suggesting something independently." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": ["MZ_FGD_FNO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "Dependence on engineers/consultants was named the biggest pain point by all participants — owners must wait for engineering consultancy to schedule survey, drawings and structure work, and good engineers are often busy in other districts." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Fire NOC cannot move without AMC building permission first; one participant had waited 7 months for AMC permission and met the AMC Commissioner multiple times." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Buildings above 5 storeys require a master's-degree structural engineer, and such engineers are in short supply, adding delay." },
+        { "source": "fgd", "category": "delay", "tags": ["OTHER"], "sentiment": "issue", "text": "AMC's municipal committee sits only once a month, so a file missing one sitting must wait a full month." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Renewal was described as harder than the first application — officials ask why work was not completed on time, and extra signatures are needed from the local council (Taluk Chairman) and the engineer." },
+        { "source": "fgd", "category": "pain", "tags": ["INFORMAL", "INSPECT"], "sentiment": "issue", "text": "Participants mentioned some mutual \"understanding\" with inspection field staff is sometimes needed, and referenced costs that cannot be recorded in the books." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Application and documents are submitted online; one participant said filing itself can take about one day online." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Land revenue/land records are requested again by the inspection team after online submission; participants felt these could instead be fetched automatically by government." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Building drawings must be separately prepared and approved at AMC and then again presented for Fire NOC — a duplicated drawing-approval step across departments." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "issue", "text": "Charges depend on building area and type (separate rates for hospitals, offices, etc.) and are not clearly communicated to applicants in advance; large sites (23 or 45 buildings) each need a separate layout." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "NOC validity ranges from about 6 months to 3 years depending on the case; no annual fee, only at renewal." },
+        { "source": "fgd", "category": "policy", "tags": ["COMPLY", "POSITIVE"], "sentiment": "positive", "text": "Participants agreed fire-fighting equipment is a must for safety and worth the cost, with rates fixed by government." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Reduce government fees/revenue charges where possible." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Fetch land/revenue records and other documents automatically rather than through repeated manual handling." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Make renewal lighter than the first application, with fewer signatures and questions." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Increase the availability of qualified structural engineers, or review the master's-degree requirement for buildings above 5 storeys." },
+        { "source": "fgd", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Hold municipal committee sittings more often so files do not wait a month." },
+        { "source": "fgd", "category": "remarks", "tags": ["GRIEVANCE"], "sentiment": "neutral", "text": "No dedicated grievance cell or helpline desk was identified by participants." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "Just for the application submit, one day time… we submit all our documents online.", "topic": "Online filing time", "tags": ["PORTAL"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "We need to take the permission from the AMC first… then the layout, the drawings, with exit and entry points.", "topic": "Dependency on AMC permission", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "It takes at least 2 to 3 weeks to finalise\" the engineer, geologist and permission documents.", "topic": "Document finalisation delay", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "I have talked with the Commissioner of AMC many times… the first 7 months, too long.", "topic": "Prolonged wait for AMC permission", "tags": ["INTERDEP", "TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Buildings above 5 storeys need a master's degree structural engineer… there are not many.", "topic": "Structural engineer shortage", "tags": ["CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "There is a separate committee in the municipal corporation that sits only once every month.", "topic": "Committee sitting frequency", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "We are not experts. We need consultants and architects, very much.", "topic": "Consultant dependence", "tags": ["CONSULT"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "First application is little easier than the renewal.", "topic": "Renewal burden", "tags": ["RENEWAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Sometimes we have to have an understanding with the inspection field staff.", "topic": "Informal practice at inspection", "tags": ["INFORMAL", "INSPECT"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "We have to put the time onto the engineering consultancy… when will they come, when will they finish?", "topic": "Main pain point, agreed by all", "tags": ["CONSULT"], "sentiment": "issue" }
+      ],
+      "issuingAuthority": "Fire Department / nearest Fire Station (exact issuing designation not named in this transcript), Government of Mizoram",
+      "portal": { "name": "Online Fire NOC application portal (name not specified by participants)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No official SLA was cited by participants; only sub-step timings were given", "text": "No clean overall processing-time figure emerges: one participant said online filing itself can take about one day, while engineer/geologist/permission document finalisation takes at least 2-3 weeks, and the whole process depends heavily on AMC building permission, which in one case took 7 months. The municipal committee that is part of the AMC-permission chain sits only once a month." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "AMC building permission/approval (precondition; fire NOC cannot proceed without it)",
+        "Layout and drawings showing fire exits and separate entry/exit points, prepared by an engineer/consultant",
+        "Updated land revenue/land records (requested again by the inspection team after submission)",
+        "Site photographs (requested by the inspection team)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not name a complete, itemised document checklist; items listed are those specifically mentioned in discussion.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants or raised by the moderator in this transcript." },
+      "validity": { "text": "NOC validity ranges from about 6 months to 3 years depending on the case; no annual fee, only at renewal." },
+      "fees": { "text": "Charges depend on building area and type (separate rates cited for hospitals, offices, etc.); large sites with many buildings (23 or 45 mentioned) each require a separate layout and fee. Fees are collected together (\"one door\") once approved, but are not clearly communicated to applicants in advance. Fire-fighting equipment costs (rates fixed by government, purchased from shops) are a separate, compulsory expense." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "AMC building permission obtained first (precondition for Fire NOC)", "automated": false },
+        { "n": 2, "phase": "pre", "title": "Engineer/consultant prepares layout and drawings, including fire exits and entry/exit points", "automated": false },
+        { "n": 3, "phase": "apply", "title": "Application and documents submitted online via the fire department portal", "automated": "partial", "note": "One participant described this step as taking about one day online." },
+        { "n": 4, "phase": "scrutiny", "title": "Inspection team requests updated land revenue records and site photographs", "automated": false },
+        { "n": 5, "phase": "inspect", "title": "Fire department inspection visit conducted", "automated": false },
+        { "n": 6, "phase": "approve", "title": "Sealed Fire NOC issued; fees collected together (\"one door\")", "automated": "partial" }
+      ],
+      "remarks": [
+        "The transcript's data-quality note flags it as machine-generated, with unlabelled speakers and some garbled passages (including participant count, fee amounts and some timelines); figures here should be verified against the audio.",
+        "Renewal of Fire NOC is covered separately by MZ_FGD_RFNO.docx; this record focuses on the new/first approval as discussed in this session."
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official SLA/notified timeline for Fire NOC itself was given by any participant; only sub-step timings (one day online filing, 2-3 weeks document finalisation, up to 7 months on a dependent AMC permission) were discussed." },
+        { "flag": "MISSING", "text": "No document gave the issuing authority's exact designation (e.g., a specific Fire Officer rank) — only \"fire department\" and \"fire station officials\" are referenced." },
+        { "flag": "VAGUE", "text": "Fee amounts for Fire NOC were not stated in rupee terms anywhere in the transcript, only that charges vary by building area/type and are \"not clearly communicated in advance.\"" },
+        { "flag": "VAGUE", "text": "Whether a deemed-approval provision exists for Fire NOC was not discussed by participants or raised by the moderator." },
+        { "flag": "GOOD_PRACTICE", "text": "Fees are collected together under a single \"one door\" payment step once approved, avoiding scattered payment visits." }
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": ["MZ_FGD_RFNO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "remarks", "tags": ["CLARITY"], "sentiment": "issue", "text": "The transcript itself notes that participants mainly described their first/provisional Fire NOC rather than a true renewal experience, limiting how much this record can say about the renewal process specifically." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Fire department capacity (staff, especially fire-truck drivers) was the main pain point raised — shifts are stretched when someone is sick, affecting emergency response even though trucks are available." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "The office holds a large number of files (about 1,500, figure unclear), so a file can wait until the next month's processing cycle." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "COMPLY"], "sentiment": "issue", "text": "Fire-safety equipment (extinguishers, water cannons) had to be installed before the NOC was granted; participants called this a bigger expense compared with other government offices." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Fire station officials issue a provisional NOC first (with a list of precautions), followed by an actual NOC once the facility is ready and reinspected." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "Actual NOC validity is about 4 years and provisional about 2 years (figures explicitly described as unclear in the transcript); participants did not ask for a change." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Mode of filing was inconsistently reported — one participant described an online portal routed to the nearest fire station, another described a hard-copy, offline process with cash fee payment to a government official." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "Application to provisional-NOC inspection took about 2 weeks, with no delay beyond that reported; the inspecting officer was described as friendly." },
+        { "source": "fgd", "category": "remarks", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Participants wanted a helpline number or consultant contact for problems; none is currently known to them." },
+        { "source": "fgd", "category": "remarks", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "On merging approvals (e.g., with pollution consent), a participant felt it was impractical since compliances sit with different departments." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "The provisional fee was described as very minimal, and fees were said to be displayed and transparent, with no yearly charges after approval." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "A participant noted fire compliance matters for insurance claims." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "I submitted through the online portal, the fire department… they send it to the nearest fire station… that took around 2 weeks.", "topic": "Online filing and inspection timeline", "tags": ["PORTAL", "TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "The fire station people came to our place and said we have to put this in place for precautionary reasons, and they gave us a provisional NOC.", "topic": "Provisional NOC and compliance", "tags": ["COMPLY"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "There is no time for them to process the file… so they have to wait until the next month. That's the only challenge.", "topic": "Office file backlog", "tags": ["CAPACITY", "TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "We have to have a lot of extinguishers and water cannons\" (inspection checks whether a fire truck can reach).", "topic": "Compliance equipment cost", "tags": ["FEES", "COMPLY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "It's a big heads-up for us compared to all the government offices…", "topic": "Compliance cost comparison", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "This was a hard copy… it is offline\"; fees were paid \"in cash to the government official.", "topic": "Offline filing and payment", "tags": ["PORTAL"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "We can have a helpline number or something where we have a consultant, if we have any problem.", "topic": "Helpline suggestion", "tags": ["GRIEVANCE"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "There are fire trucks, but no drivers to drive them… shortage of staff in an emergency. This is the main pain point.", "topic": "Main pain point: staffing", "tags": ["CAPACITY"], "sentiment": "issue" }
+      ],
+      "issuingAuthority": "Fire Department (nearest fire station officials issue the provisional and actual NOC; exact designation not named in this transcript), Government of Mizoram",
+      "portal": { "name": "Online Fire NOC portal (reported by one participant; another described a fully offline, hard-copy process — unresolved which applies)", "url": null },
+      "timeline": { "minDays": 14, "maxDays": null, "basis": "Participant-reported: about 2 weeks from application to the provisional-NOC inspection", "text": "Application-to-provisional-NOC inspection took about 2 weeks per one participant's account, with no delay beyond that. No renewal-specific timeline was captured since participants mostly discussed the first/provisional NOC." },
+      "automationLevel": "unclear",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Building permit (AMC)",
+        "ID/Aadhaar card",
+        "Inspection-related papers"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants reported no difficulty with documentation for the provisional NOC; renewal-specific document requirements were not clearly described.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants." },
+      "validity": { "text": "Actual NOC validity is about 4 years and provisional NOC validity about 2 years, though the transcript explicitly flags both figures as unclear and needing confirmation." },
+      "fees": { "text": "The provisional fee was described as very minimal; fees are displayed and transparent. No yearly charges apply after approval. At least one participant reported the fee was paid in cash to a government official under an offline process." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Application filed with the fire department, routed to the nearest fire station", "automated": "partial", "note": "Mode of filing (online vs offline) is reported inconsistently across participants." },
+        { "n": 2, "phase": "inspect", "title": "Fire station personnel inspect the site (about 2 weeks)", "automated": false },
+        { "n": 3, "phase": "approve", "title": "Provisional NOC issued, with a list of precautions to be completed", "automated": false },
+        { "n": 4, "phase": "pre", "title": "Applicant installs required fire-safety equipment (extinguishers, water cannons) per the precaution list", "automated": false },
+        { "n": 5, "phase": "inspect", "title": "Second inspection once the facility is ready", "automated": false },
+        { "n": 6, "phase": "approve", "title": "Actual NOC issued", "automated": false },
+        { "n": 7, "phase": "renew", "title": "Renewal process", "automated": null, "note": "Not clearly described by participants, since most had only a provisional or first-time NOC." }
+      ],
+      "remarks": [
+        "This transcript's own title is 'Renewal of Fire NOC,' but its data-quality note and content both indicate participants mainly described their first/provisional NOC rather than a renewal cycle; treat this record as a weak proxy for the actual renewal process.",
+        "The transcript is machine-generated, mixes English and Hindi, and speakers are unlabelled; several answers (filing mode, fee amounts, number of files, validity periods) are garbled and should be verified against the audio."
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "The FGD's own title ('Renewal of Fire NOC') does not match its content — participants mainly described their first/provisional NOC, not a renewal cycle — so this record is a weak proxy for the actual renewal process; a dedicated renewal-focused record is still needed." },
+        { "flag": "VAGUE", "text": "Mode of filing is contradictorily reported within the same transcript — one participant describes an online portal, another a hard-copy offline process with cash payment — and could not be resolved from this source." },
+        { "flag": "VAGUE", "text": "Validity figures (4 years actual / 2 years provisional) are explicitly flagged in the transcript as unclear and should be verified." },
+        { "flag": "MISSING", "text": "No rupee fee figures are given beyond \"very minimal\" for the provisional fee; no renewal fee amount is stated at all." },
+        { "flag": "GOOD_PRACTICE", "text": "Participants reported the inspecting officer as friendly and the provisional-NOC process free of significant delay, a relatively positive account of frontline service delivery." }
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License — Renewal",
+      "sourceFiles": ["MZ_FGD_TLR.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Renewal is done fully offline, in person, at the AMC office; no online payment or renewal option exists (\"we have to go all the way to the [AMC] building\")." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL"], "sentiment": "issue", "text": "With a one-year validity, one participant's licence had lapsed about 4-5 months earlier without any reminder or alert from AMC." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL"], "sentiment": "issue", "text": "The one-year validity means renewing every year, which participants find time-consuming given the travel involved." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Renewal requirements were not communicated to applicants, unlike the clearly listed requirements for the first (new) application." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Participants are not informed whether their renewal is approved or delayed, and do not know the prescribed renewal timeline." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "A participant said a business can keep operating even with an expired licence — no late fee is charged and government gives no notice or follow-up if an applicant chooses not to renew." },
+        { "source": "fgd", "category": "policy", "tags": ["INSPECT"], "sentiment": "neutral", "text": "No AMC inspection was reported for renewal; any inspection, if done, is by the local council." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC", "POSITIVE"], "sentiment": "positive", "text": "Only the original licence is required at renewal — no additional documents are requested." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Renewal took about one week across participants (one said \"more than a week\")." },
+        { "source": "fgd", "category": "remarks", "tags": ["INFORMAL", "POSITIVE"], "sentiment": "positive", "text": "No unrecorded/informal costs were reported for renewal (\"nothing from the government end\")." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Move renewal and fee payment online — described as the single biggest requested change." },
+        { "source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Send SMS/WhatsApp reminders about a week before the licence expires." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Offer validity options of 1, 2, 3 or 5 years instead of a fixed one-year term." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Consider risk-based or site-verification renewal instead of a uniform annual process." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "Yes, everything offline.", "topic": "Mode of filing", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The time taken for the renewal is also one week.", "topic": "Renewal timeline", "tags": ["TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "To renew that, we have to go all the way to the [AMC] building.", "topic": "Office visit burden", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Somehow even without renewing… we can run the thing.", "topic": "Weak renewal enforcement", "tags": ["RENEWAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "No additional document… only original license.", "topic": "Documents required at renewal", "tags": ["DUPDOC"], "sentiment": "positive" },
+        { "speaker": "Participant", "quote": "It was not informed for the renewal.", "topic": "Information gap on requirements", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "If they can inform through SMS or WhatsApp… SMS alert would have saved…", "topic": "Reminder suggestion", "tags": ["GRIEVANCE"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "They need to convert it offline to online system.", "topic": "Single biggest requested change", "tags": ["PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "We are not informed whether the approval… whether some delays there or not.", "topic": "No status visibility", "tags": ["QUERY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "If I don't want to renew my license, government may not give any notice… no follow up.", "topic": "No enforcement follow-up", "tags": ["RENEWAL"], "sentiment": "issue" }
+      ],
+      "issuingAuthority": "Aizawl Municipal Corporation (AMC), Government of Mizoram (same authority as new Trade Licence approval, per participants)",
+      "portal": { "name": "None — renewal is reported as fully offline with no online option", "url": null },
+      "timeline": { "minDays": 7, "maxDays": null, "basis": "Participant-reported: about one week ('more than a week' per one participant)", "text": "Renewal took about one week for most participants; no delay beyond that was reported, but participants also said they are not told any prescribed/notified renewal timeline." },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Original (earlier) trade licence"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No additional documents beyond the original licence were reported as required at renewal.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "No deemed-approval provision was reported, and participants said they are unsure of the prescribed renewal period. Separately, participants described a de facto enforcement gap: a business can continue operating with an expired licence without penalty or government follow-up, though this is an enforcement lapse rather than a stated deeming provision." },
+      "validity": { "text": "Licence is valid for one year and must be renewed annually; participants suggested options of 1, 2, 3 or 5 years instead." },
+      "fees": { "text": "Fees are paid directly to the government at the AMC office. A '₹10,000' figure and a '₹50' per day/week charge were both mentioned in the transcript, but it is unclear what either refers to (garbled passage)." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant visits the AMC office in person to submit the renewal application with the original licence", "automated": false },
+        { "n": 2, "phase": "scrutiny", "title": "Application manually scrutinised (about one week)", "automated": false },
+        { "n": 3, "phase": "fee", "title": "Fee paid directly at the AMC office (cash or UPI — mode unclear in transcript)", "automated": false },
+        { "n": 4, "phase": "renew", "title": "Renewed licence issued", "automated": false }
+      ],
+      "remarks": [
+        "The transcript is machine-generated, speakers are unlabelled and English/Hindi are mixed; several answers (renewal cost, the '10,000' figure, the '₹50' charge, payment mode) are explicitly flagged as unclear and should be verified against the audio.",
+        "This record is FGD-only and has not been verified against an official ED interview, since no Mizoram ED record exists for Trade License Renewal."
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No clear rupee figure for the renewal fee is established — a '₹10,000' figure and a '₹50' per day/week charge were both mentioned but the transcript does not clarify what either refers to." },
+        { "flag": "VAGUE", "text": "Payment mode at renewal (cash vs UPI) was asked about but the participant's answer is unclear in the transcript." },
+        { "flag": "MISSING", "text": "No notified/prescribed renewal timeline is known even to the participants themselves ('we do not know the prescribed period'), so no official SLA could be captured from this source." },
+        { "flag": "GOOD_PRACTICE", "text": "Only the original licence is required for renewal, with no additional documentation burden reported." },
+        { "flag": "REFORM", "text": "Participants' strongest ask — moving renewal and payment online with SMS/WhatsApp expiry reminders — remains unimplemented per this transcript." }
+      ]
+    },
+    {
+      "serviceCode": "WAC",
+      "serviceName": "Water Connection",
+      "sourceFiles": ["MZ_FGD_WAC.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Pipeline-laying/connection was identified as the stage consuming most of the time; the overall process was said to take \"about a month.\"" },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Application submission through to approval is done fully offline; a participant felt an online mode could save time and transport cost." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Participants referred to multiple follow-up visits to the office, though an exact visit count for a new connection was not given." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "neutral", "text": "An occasional office visit is needed when a bill is too high due to meter-reading errors — a billing issue rather than a new-connection issue." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "POSITIVE"], "sentiment": "positive", "text": "No validity or expiry period applies to a water connection once supplied — the connection and pipeline remain in place indefinitely." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "Fees are described as affordable and the same for commercial and residential connections; participants did not seek a reduction." },
+        { "source": "fgd", "category": "policy", "tags": ["COMPLY", "POSITIVE"], "sentiment": "positive", "text": "No equipment/infrastructure purchase was demanded of applicants; technical requirements were communicated clearly." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC", "POSITIVE"], "sentiment": "positive", "text": "Documentation required is minimal — typically just a house pass/property document — with no additional documents or clarification demanded after submission." },
+        { "source": "fgd", "category": "procedural", "tags": ["CONSULT", "POSITIVE"], "sentiment": "positive", "text": "The process is simple enough to be done without an intermediary, consultant or advisor." },
+        { "source": "fgd", "category": "procedural", "tags": ["OTHER"], "sentiment": "positive", "text": "Bill payment can be made both online (UPI) and offline (cash at the office)." },
+        { "source": "fgd", "category": "remarks", "tags": ["GRIEVANCE", "POSITIVE"], "sentiment": "positive", "text": "A grievance mechanism exists — complaints (e.g., on high bills) are taken to the office and addressed from time to time." },
+        { "source": "fgd", "category": "remarks", "tags": ["INSPECT"], "sentiment": "neutral", "text": "No participant could recall an inspection being carried out for their connection." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce an online option for application, status tracking and payment to save time and transport cost." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Several participants had old connections or did not apply personally, so could not comment on recent timelines, limiting the precision of this record." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "Application submission until the approval is done offline only.", "topic": "Mode of filing", "tags": ["PORTAL"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "Pipeline is taking much of the time rather than application or follow-ups.", "topic": "Stage consuming most time (moderator's summary)", "tags": ["TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "It is not difficult. It is easy.", "topic": "Overall experience", "tags": ["POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Participant", "quote": "We supply the house pass.", "topic": "Documents required", "tags": ["DUPDOC"], "sentiment": "positive" },
+        { "speaker": "Participant", "quote": "For this process, you can do by yourself.", "topic": "No consultant needed", "tags": ["CONSULT"], "sentiment": "positive" },
+        { "speaker": "Participant", "quote": "It is all affordable, as per the norms… the same for commercial or residential.", "topic": "Fee structure", "tags": ["FEES"], "sentiment": "positive" },
+        { "speaker": "Participant", "quote": "Sometimes if the bill is too high, then they go to the office.", "topic": "Billing-related visits", "tags": ["GRIEVANCE"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "No, no inspection that I remember.", "topic": "Inspection", "tags": ["INSPECT"], "sentiment": "neutral" }
+      ],
+      "issuingAuthority": "Water-supply authority (department not explicitly named by participants; per the Mizoram BPA ED record, water supply in Mizoram remains with the PHE department), Government of Mizoram",
+      "portal": { "name": "None for application — bill payment only can be made online (e.g., UPI)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "Participant-reported: 'about a month' overall, dominated by the pipeline-laying stage", "text": "The overall process was said to take about a month, with most of that time consumed by the pipeline/connection-laying stage rather than the application itself or follow-ups. No SLA or Citizen Charter reference was made by participants." },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "House pass / property document"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. In some cases application is made simply by a letter on plain paper, without a prescribed application form.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants." },
+      "validity": { "text": "No validity or expiry period applies once a water connection is supplied — the connection and pipeline remain in place indefinitely as long as bills are paid." },
+      "fees": { "text": "Fees are described as affordable and 'as per norms,' the same for commercial and residential connections; no specific rupee figures were given. Bills can be paid online (UPI) or offline (cash at the office)." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits a plain-paper letter to the authority (no prescribed form in some cases), with house pass/property document", "automated": false },
+        { "n": 2, "phase": "scrutiny", "title": "Authority reviews the request and communicates technical requirements clearly", "automated": false },
+        { "n": 3, "phase": "apply", "title": "Pipeline laid / connection installed — the stage consuming most of the overall time", "automated": false },
+        { "n": 4, "phase": "approve", "title": "Connection supplied; no further validity/renewal step needed", "automated": false }
+      ],
+      "remarks": [
+        "The transcript is machine-generated, speakers are unlabelled and many passages are garbled or incomplete (moderator questions mixed with responses); visit counts, timelines, fees and participant numbers should be verified against the audio.",
+        "This record is FGD-only and has not been verified against an official ED interview, since no Mizoram ED record exists for Water Connection."
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No issuing department/authority name is given anywhere in the transcript; the water-connection authority is referred to only generically as 'the office'/'the authority.'" },
+        { "flag": "MISSING", "text": "No notified or actual day-count timeline is given beyond 'about a month' overall, dominated by the pipeline-laying stage; no SLA or Citizen Charter reference was made by participants." },
+        { "flag": "VAGUE", "text": "Fee amounts are described only qualitatively ('affordable,' 'as per norms,' uniform for commercial/residential); no rupee figures are given." },
+        { "flag": "GOOD_PRACTICE", "text": "A functioning grievance mechanism for billing complaints is confirmed by participants, and no equipment-purchase burden is placed on applicants." },
+        { "flag": "VAGUE", "text": "Whether an inspection is formally required is unresolved — no participant recalled one, but this may reflect older connections rather than a confirmed absence of an inspection requirement for new applications." }
+      ]
+    }
+  ]
+}

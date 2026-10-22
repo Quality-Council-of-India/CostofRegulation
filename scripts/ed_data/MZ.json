@@ -1,0 +1,442 @@
+{
+  "code": "MZ",
+  "name": "Mizoram",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFile": "MZ_ED_BPA.pdf",
+      "issuingAuthority": "Municipal Commissioner, Aizawl Municipal Corporation (AMC), Government of Mizoram (final approving authority; review chain via Junior Engineer, Assistant Architect/Assistant Town Planner, Town Planner, Joint Municipal Commissioner)",
+      "portal": { "name": "Online Building Plan Approval System (OBPS), upgraded to OBPS 2.0 in December of the preceding year", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 30, "basis": "Citizen Charter / AMC Building Regulation, Regulation 7: 30 days from receipt of a complete application", "text": "The notified timeline is 30 days from receipt of a complete application under Building Regulation Reg. 7. No separate actual-vs-notified performance figure was given by the expert." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Site plan and building drawings prepared and certified by a registered technical person",
+        "GPS-tagged site photographs (to confirm the technical person visited the site before preparing drawings)",
+        "Site verification report (prepared by AMC's inspecting engineer, not submitted by the applicant)"
+      ],
+      "documentsNote": "Applicants submit no hard copies; all interaction with the technical person and AMC is online except the mandatory joint site inspection. Other standard items (ownership proof, identity proof) were not discussed by the expert.",
+      "deemedApproval": { "status": "yes", "days": 30, "text": "A deemed-approval provision exists under AMC Building Regulation Reg. 7: if AMC fails to respond within 30 days of a complete application (with proof of fee paid), the applicant/technical person may claim deemed permission, but the claim must be made within 7 days of the 30-day period lapsing; later claims are not accepted." },
+      "validity": { "text": "An amendment substitutes Regulation 8 to extend the validity of a building plan to five years (also removing the term 'Maximum' in specified provisions); the document's phrasing of this amendment is somewhat garbled." },
+      "fees": { "text": "Fee is based on ground area and storey count and is the same for residential and commercial use, ranging from ₹100 (first storey, up to 100 sq.m) to ₹2,000 (first storey, above 1000 sq.m), plus a per-storey charge for additional storeys (₹200 to ₹4,000). Fees are described as minimal overall (a 7-storey building cited at under ₹4,000) and were last revised around 2012. Technical-person (architect/engineer) fees are market-negotiated and unregulated. A security-deposit requirement for technical persons is mentioned but the amount/table is not captured in the document." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Registered technical person prepares site plan and building drawings", "automated": false },
+        { "n": 2, "phase": "apply", "title": "Applicant submits application and drawings online via OBPS", "automated": true },
+        { "n": 3, "phase": "inspect", "title": "AMC Junior Engineer and Planning Assistant conduct joint site visit with applicant/technical person", "automated": false },
+        { "n": 4, "phase": "scrutiny", "title": "Junior Engineer prepares site verification report, forwards to Assistant Architect/Assistant Town Planner", "automated": "partial" },
+        { "n": 5, "phase": "scrutiny", "title": "File reviewed by Town Planner, then Joint Commissioner", "automated": "partial" },
+        { "n": 6, "phase": "approve", "title": "Municipal Commissioner grants final approval; permission issued online directly to applicant", "automated": true, "note": "Under OBPS 2.0, a file returned for non-compliance goes directly back to the officer who returned it rather than restarting from the JE stage." }
+      ],
+      "ed": { "date": "19-08-2026", "location": "Conference Hall, Top Floor, Directorate of Commerce and Industries, Khatla, Aizawl, Opposite Aizawl Lungdawh Park, P.O: 796001", "expert": "Ms. Baby Zohmingliani", "designation": "Town Planner, Aizawl Municipal Corporation (AMC), Government of Mizoram" },
+      "remarks": [
+        "AMC's remit is limited strictly to Building Plan Approval; water supply, electricity connection and road construction have not yet been formally transferred to AMC by the State Government and remain with the PHE and P&E departments.",
+        "Change of Land Use (CLU) is handled separately by the Town & Country Planning Department/UD&PA and the Revenue Department, not by AMC; Aizawl currently has only a Master Plan (no zonal or neighbourhood plan).",
+        "701 architects, engineers, structural engineers and supervisors are currently empanelled with AMC for preparing and certifying building plans."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Applicants must place boundary pillars marking setback lines before AMC's inspection; this requires coordination with the separate Land Revenue Department (outside AMC's control), which the expert flagged as a recurring, avoidable source of delay." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Technical persons sometimes prepare drawings from office records without visiting the site, producing drawings that don't match ground conditions or meet regulatory requirements (setbacks, parking, fire-safety, floor counts), forcing the file to be returned for revision and re-scrutiny." },
+        { "source": "ed", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "There is no government-regulated fee for technical persons (architects/engineers); their charges are negotiated privately and were flagged by the expert as a potential compliance-cost concern." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "The expert suggested considering a mechanism to regulate or benchmark intermediary (architect/engineer) fees, currently market-determined and unregulated." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Integrate OBPS with dependent NOC-issuing departments (e.g., Fire) so applications can auto-trigger NOC requests rather than requiring applicants to apply separately." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Complete the planned status-tracking/call-centre/single-point-of-contact feature for OBPS 2.0, currently under discussion, to reduce the need for applicants to visit the office for status updates." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Publish a consolidated, calculator-style fee schedule covering all applicable charges (scrutiny, inspection, testing, late fees) in one place for transparency." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Explore ways to decouple AMC's inspection timeline from delays in boundary-pillar placement, which depends on the separate Land Revenue Department." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS", "POSITIVE"], "sentiment": "positive", "text": "Only a Local Council NOC is generally required, plus an additional NOC where building height exceeds 15 metres — reportedly fewer NOCs than in other states, which commonly require additional NOCs (e.g., airport authority, PHE, P&E)." },
+        { "source": "ed", "category": "policy", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "The fee structure is simple, minimal and uniform across residential and commercial use, avoiding a complex fee matrix." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "A deemed-approval provision is embedded directly in the Building Regulation, giving applicants a clear statutory fallback if the 30-day timeline is missed." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "positive", "text": "Mandatory GPS-tagged site photographs were introduced to confirm the technical person actually visited the site before preparing drawings, a reform aimed at the drawing-mismatch problem." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Under OBPS 2.0, a revised file returns directly to the officer who sent it back for revision, rather than restarting from the Junior Engineer stage, shortening the resubmission cycle." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "A plot-size-based risk classification (low/medium/high) linked to setback and slope-modification requirements exists; high-risk sites require additional geologist/engineer review of slope stability, relevant given Mizoram's hill terrain." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "AMC's jurisdiction is limited to Building Plan Approval; water supply, electricity connection and road construction remain with the PHE and P&E departments and have not been formally transferred to AMC." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY"], "sentiment": "neutral", "text": "701 architects, engineers, structural engineers and supervisors are currently empanelled with AMC for preparing and certifying building plans." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Change of Land Use (CLU) is handled separately by the Town & Country Planning Department/UD&PA and the Revenue Department; Aizawl currently has only a Master Plan, limiting AMC's ability to independently address land-use questions." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The security-deposit amounts/table that technical persons (other than COA-registered architects) must pay to AMC is referenced in the document but the actual figures/table content are not captured." },
+        { "flag": "VAGUE", "text": "The validity-period text describing the amendment extending building-plan validity to five years is garbled/incomplete in the transcript (stray parenthesis, unclear whether the amendment is already in force)." },
+        { "flag": "MISSING", "text": "No standard supporting documents (ownership proof, identity proof, tax receipts) are listed beyond the three lifecycle items named; it is unclear whether these are genuinely not required or simply not discussed." },
+        { "flag": "GOOD_PRACTICE", "text": "Minimal single-NOC requirement (Local Council NOC, plus a height-based NOC only above 15m) compares favourably to the multiple NOCs reportedly required in other states." },
+        { "flag": "REFORM", "text": "OBPS 2.0's shortened resubmission workflow (file returns directly to the officer who flagged it, rather than restarting review) is a completed process reform worth highlighting." },
+        { "flag": "VAGUE", "text": "The process is described as 'fully online since 2018' yet a mandatory in-person joint site inspection is a core, non-optional step for every application — the automation level framing is ambiguous." }
+      ]
+    },
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFile": "MZ_ED_CTE.pdf",
+      "issuingAuthority": "Member Secretary, Mizoram Pollution Control Board (MPCB), Government of Mizoram (final approving authority, based on a proposal from a reviewing officer following site inspection)",
+      "portal": { "name": "CPCB's Unified Consent Management System (UCAMS, onboarded February 2026) and National Single Window System (NSWS); applications currently still processed offline due to technical issues on both sides", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 60, "basis": "Water (Prevention and Control of Pollution) Act, 1974 and Air (Prevention and Control of Pollution) Act, 1981: 60 days (Red), 45 days (Orange), 30 days (Green); reduced for MSME units to 21 (Red), 14 (Orange), 7 (Green) days", "text": "Statutory timelines are 60/45/30 days by category (Red/Orange/Green), reduced to 21/14/7 days for MSME units. In practice, the timeline under the offline mode is typically cited as 14-21 days (a 7-21 day range was also mentioned), extending beyond a month in exceptional cases where the applicant fails to furnish requested information." },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Detailed Project Report (DPR) — required for Red and Orange category applications",
+        "No Objection Certificate (NOC) from the concerned village/local council — required for Green category",
+        "Self-certified readiness letter (stating readiness to operate within 15 days) — for Green category units seeking a combined CTE+CTO",
+        "GST registration — required only for online applications",
+        "Chartered Accountant (CA)-certified capital investment certificate — required only for online applications"
+      ],
+      "documentsNote": "Green category units require no documents from the applicant apart from the local council NOC. The online-only documents (GST registration, CA-certified certificate) are not asked for in offline mode, an inconsistency between channels noted by the expert.",
+      "deemedApproval": { "status": "yes", "days": null, "text": "Deemed approval is understood by the department to apply under the Water Act and Air Act where the statutory timeline (60/45/30 days by category) is exceeded; in practice, the department reports it has not yet had a case where the timeline was exceeded." },
+      "validity": { "text": "Not discussed in this transcript; CTE covers the establishment stage and no validity/renewal period for the consent itself was stated." },
+      "fees": { "text": "Fees are prescribed/notified by the State Government and published on the department's website, the online portal and displayed at office reception; no late fee is charged. No additional or undisclosed charges beyond the official fee schedule were reported (scrutiny, inspection and the Board's own laboratory testing are not separately charged). No documented refund policy exists; only one instance of an excess-payment adjustment has occurred." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits application in prescribed format, addressed to the Member Secretary", "automated": false },
+        { "n": 2, "phase": "scrutiny", "title": "Application scrutinised by office/staff for completeness and pollution-control-device issues", "automated": false },
+        { "n": 3, "phase": "scrutiny", "title": "Need for site inspection decided based on category (red/orange/green) and scale of unit", "automated": false },
+        { "n": 4, "phase": "inspect", "title": "Formal inspection notice issued, signed by Member Secretary or authorised officer, if required", "automated": false },
+        { "n": 5, "phase": "inspect", "title": "Site inspection conducted; inspecting officer submits report to Member Secretary", "automated": false },
+        { "n": 6, "phase": "scrutiny", "title": "Reviewing officer examines inspection report and proposes grant or refusal", "automated": false },
+        { "n": 7, "phase": "approve", "title": "Member Secretary, as final approving authority, decides to grant or refuse consent", "automated": false },
+        { "n": 8, "phase": "approve", "title": "Draft certificate prepared and formal CTE certificate issued to applicant", "automated": false }
+      ],
+      "ed": { "date": "19-08-2026", "location": "Conference Hall, Top Floor, Directorate of Commerce and Industries, Khatla, Aizawl, Opposite Aizawl Lungdawh Park, P.O: 796001", "expert": "Smt. Pc Lalmuanpuii", "designation": "Environmental Engineer, Mizoram Pollution Control Board (MPCB), Government of Mizoram" },
+      "remarks": [
+        "The discussion on CTE was followed, in the same session, by a discussion on Consent to Operate (CTO) with the same official.",
+        "The State Board is already onboarded to CPCB's UCAMS (since February 2026) and the NSWS, and coordinates with CPCB through a dedicated WhatsApp group to resolve ongoing technical issues."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "delay", "tags": ["OTHER"], "sentiment": "issue", "text": "The internal 'dak' (file movement/signature routing) stage, where the file passes physically through the authorised signatory and down through concerned officers, was flagged as the main internal source of delay, adding roughly 2-3 days." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "The expert suggested shortening or eliminating the internal 'dak' stage; once processes are fully online and time-bound, this stage would be eliminated altogether." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The NOC from the village/local council is not mandated under the Act or Rules; it is an office-level practice adopted because industries are often established in congested, non-industrial-estate areas, to pre-empt neighbourhood objections." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "CA-certified documents (e.g., capital investment certificate) are required only when the application is made online, not offline, indicating an inconsistency between channels rather than a statutory requirement." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Manpower shortage is cited as the department's principal internal challenge, affecting the pace of processing and site inspections." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "A dedicated facilitation/help-desk staff position is being recruited to reduce the burden on existing officers who currently assist applicants informally, and the expert recommended augmenting inspecting-officer staff strength more broadly." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "The department has reduced statutory timelines for MSME units to 21/14/7 days (Red/Orange/Green), against the general statutory timelines of 60/45/30 days." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "As a facilitation measure, applications and additional information can be submitted by e-mail or WhatsApp so applicants do not need to visit the office in person." },
+        { "source": "ed", "category": "procedural", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Green category units ready to operate can submit a self-certified readiness letter to obtain a combined CTE+CTO instead of applying separately." },
+        { "source": "ed", "category": "remarks", "tags": ["CLARITY", "POSITIVE"], "sentiment": "positive", "text": "Consent certificates are issued bilingually (English plus local language) so key compliance conditions are accessible, even though the SOP itself remains in English only." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE", "POSITIVE"], "sentiment": "positive", "text": "A dedicated grievance-redressal channel (app-based portal plus written complaints to the Member Secretary) gives grievances top priority, with an average disposal time of about 7 days." },
+        { "source": "ed", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "About 20-30% of office visitors come only to check status/follow up; a status tracker, SMS alerts and a call centre/single point of contact (already planned for the portal) were suggested to eliminate these avoidable visits." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Roll out the planned status tracker, SMS alerts and single-point-of-contact/call centre on the portal to reduce avoidable applicant visits." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Technical/integration issues between the State Board's systems, CPCB's UCAMS and the NSWS (e.g., submitted applications not becoming visible to the department) are preventing the service from moving fully online." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Expedite resolution of the technical/integration issues between the State Board's systems, CPCB's UCAMS and the NSWS so the service can move fully online as intended." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "issue", "text": "The expert identified air pollution (including waste burning) as the single biggest pain point associated with the sector/service." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Most CTE applications received are from non-bedded healthcare (service-based, non-manufacturing) facilities in rural areas, which the department reports it can process quickly." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No validity period for the CTE consent itself is discussed anywhere in this transcript, unlike the other Mizoram ED reports which each address a 'Validity Period' theme." },
+        { "flag": "VAGUE", "text": "Actual processing time is given inconsistently as both 'typically 14-21 days' and 'a range of 7-21 days was also cited' within the same document." },
+        { "flag": "MISSING", "text": "No specific statutory fee figures or fee-schedule amounts are given; only the basis ('prescribed/notified by the State Government') is described." },
+        { "flag": "GOOD_PRACTICE", "text": "The combined CTE+CTO route for ready-to-operate Green category units, based on a self-certified letter, avoids a separate application cycle." },
+        { "flag": "REFORM", "text": "Recruitment of a dedicated facilitation/help-desk staff position to assist small and less digitally literate applicants is an in-progress reform worth tracking." },
+        { "flag": "VAGUE", "text": "It is unclear how applications received through the (non-functional) online channel are currently being handled or counted against the timeline, given that they are 'not becoming visible to the department'." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFile": "MZ_ED_CTO.pdf",
+      "issuingAuthority": "Member Secretary, Mizoram Pollution Control Board (SPCB), Government of Mizoram (final approving authority, based on a proposal from the Executive Engineer following inspection)",
+      "portal": { "name": "CPCB's Unified Consent and Authorization Management portal (Online Consent Management and Monitoring System) — onboarded, but technical issues currently prevent online applications from being processed", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 90, "basis": "Water (Prevention and Control of Pollution) Act, 1974 and Air (Prevention and Control of Pollution) Act, 1981 (not the Right to Service Act): 30 days (Green), 60 days (Orange), 90 days (Red); a reduced timeline applies for MSME applicants", "text": "Statutory timelines are 30/60/90 days by category (Green/Orange/Red). The scrutiny stage takes longest for Red category files; for some Orange category cases the inspection stage takes longest instead. A reduced MSME timeline applies but the specific figure was not given (unlike the CTE discussion)." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Compliance report against conditions specified in the CTE (mandatory with the CTO application)",
+        "Copy of the CTE certificate issued by the department (used as reference if compliance report cannot be produced)",
+        "Copy of Environmental Clearance (EC) — required where the project needs prior EC",
+        "Third-Party Report (TPR) — required for smaller Green category units"
+      ],
+      "documentsNote": "Overall around 45 documents are required for CTO, substantially more than the mainly-DPR requirement for CTE. The expert flagged the TPR for smaller Green units as never having influenced a decision and a candidate for removal.",
+      "deemedApproval": { "status": "yes", "days": null, "text": "Deemed approval applies: if the statutory timeline (30/60/90 days for Green/Orange/Red) is exceeded, the application is deemed approved." },
+      "validity": { "text": "Not explicitly stated in this transcript; post-operation compliance is instead monitored through periodic inspections (quarterly for Red, twice a year for Orange, once every two years for Green), but no renewal/validity period for the CTO consent itself is given." },
+      "fees": { "text": "Fees are determined based on capital investment and industry category, as per a fee structure/ceiling prescribed by CPCB (the department's fee cannot exceed the CPCB-set ceiling); the structure was reviewed/notified around January-February 2025. The fee schedule is published on the department's website and is being incorporated into the CPCB portal, and is also available over the counter. There are no hidden costs beyond the official fee; transportation for site visits is borne by the Board. Applicants incur additional cost only if they optionally engage a Chartered Accountant or a third party for water/air sample analysis." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Application submitted addressed to the Member Secretary (offline on plain paper until 2024, or online via CPCB portal post-amendment)", "automated": "partial" },
+        { "n": 2, "phase": "scrutiny", "title": "File moves to the Technical Assistant", "automated": false },
+        { "n": 3, "phase": "scrutiny", "title": "File moves to the Assistant Engineer", "automated": false },
+        { "n": 4, "phase": "scrutiny", "title": "File moves to the Executive Engineer, who decides need for inspection/additional information", "automated": false },
+        { "n": 5, "phase": "inspect", "title": "Site inspection conducted if required; inspection report prepared", "automated": false },
+        { "n": 6, "phase": "approve", "title": "Inspection report and grant/refuse proposal submitted to the Member Secretary", "automated": false },
+        { "n": 7, "phase": "approve", "title": "Member Secretary takes final decision to grant or refuse consent", "automated": false },
+        { "n": 8, "phase": "approve", "title": "Draft certificate prepared, approved by Member Secretary, and CTO certificate issued", "automated": false }
+      ],
+      "ed": { "date": "19-08-2026", "location": "Conference Hall, Top Floor, Directorate of Commerce and Industries, Khatla, Aizawl, Opposite Aizawl Lungdawh Park, P.O: 796001", "expert": "Smt. Pc Lalmuanpuii", "designation": "Environmental Engineer, Mizoram Pollution Control Board (SPCB), Government of Mizoram" },
+      "remarks": [
+        "This discussion was a continuation of the same expert-discussion session held earlier on CTE, with the same official; the session concluded to allow participants to join a subsequent Focus Group Discussion.",
+        "The department coordinates with CPCB via a dedicated WhatsApp group and active IT-side troubleshooting to resolve pending technical issues and move fully online."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "issue", "text": "CTO requires around 45 documents overall, substantially more than CTE's mainly-DPR requirement." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Consider dropping the Third-Party Report (TPR) requirement for smaller Green category units, since it has never been shown to influence decisions." },
+        { "source": "ed", "category": "delay", "tags": ["OTHER"], "sentiment": "issue", "text": "The internal 'dak'/file-movement stage was again identified (as with CTE) as the first step the expert would remove if redesigning the workflow." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Shorten or eliminate the internal 'dak' stage, and digitise the currently manual file-movement/delay-tracking register into a stage-wise MIS to make bottlenecks easier to identify." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Technical issues currently prevent online applications received via the CPCB Unified Consent Management portal from being processed, so the department continues to process applications offline despite being onboarded." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Prioritise resolution of the technical issues preventing online applications from being processed, so the department can move from hybrid to fully online processing." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Because local industries' nature/scale differs from CPCB's standard model-workflow assumptions, prescribed pollution control devices are not always well suited to the (often locally modified) production techniques actually used, creating a compliance-report requirement that units without technical expertise struggle to fulfil." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "Fixed, category-wise timelines (Green/Orange/Red) are maintained at every stage, limiting delay even though most processing is still offline." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY", "POSITIVE"], "sentiment": "positive", "text": "A single point of contact for applicants is already in place, and an additional facilitation staff member is being recruited (advertisement already issued) to further reduce dependence on intermediaries." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Online tracking and SMS facilities are already integrated into the CPCB consent portal for applicant convenience." },
+        { "source": "ed", "category": "remarks", "tags": ["INFORMAL", "POSITIVE"], "sentiment": "positive", "text": "The office uses a mixed communication approach (phone calls, formal notices and WhatsApp) to inform applicants about inspections in advance, reducing the need to visit in person." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE", "POSITIVE"], "sentiment": "positive", "text": "A grievance mechanism accepts complaints online and offline, assigns them to designated staff by subject and gives them priority, with average disposal time of about 7 days and the Member Secretary as appellate authority." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "A reduced timeline applies for MSME applicants as a best-practice measure, though it does not apply to large and medium units." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce digital issuance of the final CTO certificate, since certificates are not yet issued digitally." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Operationalise the central government notification exempting units that already hold Environmental Clearance from separate CTE/CTO conditions, to avoid duplicate compliance requirements." },
+        { "source": "ed", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "The single biggest process-level pain point identified was site inspection and the follow-up needed to resolve disputes between complainants and the units complained against." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No validity or renewal period for the CTO consent itself is stated; only periodic post-operation inspection frequency by risk category is described." },
+        { "flag": "VAGUE", "text": "A 'reduced timeline for MSME applicants' is mentioned as a best-practice measure, but unlike the CTE discussion (which gives 21/14/7 days), no specific day-count is stated for CTO." },
+        { "flag": "VAGUE", "text": "This document identifies the issuing body as 'Mizoram Pollution Control Board (SPCB)' while the companion CTE transcript (same expert, same session) calls it '(MPCB)' — the correct acronym/official name should be confirmed." },
+        { "flag": "MISSING", "text": "The exact composition of the ~45 required documents for CTO is not itemised beyond a few named items (compliance report, CTE copy, EC copy, TPR)." },
+        { "flag": "GOOD_PRACTICE", "text": "Advance multi-channel communication (phone call, formal notice, WhatsApp) ahead of inspections reduces the need for applicants to visit in person." },
+        { "flag": "REFORM", "text": "Digitising the currently manual file-movement/delay-tracking register into a stage-wise MIS is a recommended but not-yet-implemented reform." }
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFile": "MZ_ED_ECL.docx",
+      "issuingAuthority": "Subdivision Officer (for LT connections); Division Officer with SE-level vetting (for HT connections), Power & Electricity Department, Government of Mizoram",
+      "portal": { "name": "Online portal for electricity connection applications (name not specified in transcript; at an early stage of rollout, requires DSC and DigiLocker)", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 15, "basis": "Citizen Charter / Right to Services Act: 7 days for urban areas, 15 days for rural areas", "text": "The notified timeline is 7 days (urban) and 15 days (rural) under the Citizen Charter/Right to Services Act. The expert did not separately report the actual time taken; no application has been rejected, returned or kept pending so far." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Application form (collected from site/subdivision office) filled by the applicant",
+        "Declaration of connected load",
+        "Signature/certification by a licensed electrician",
+        "Electrical drawing approved by a licensed electrician (level 3 or above) — for commercial connections, verified at the subdivision office",
+        "Aadhaar/DSC/DigiLocker validation — required for the online route only"
+      ],
+      "documentsNote": "Other standard supporting documents (identity/address proof, ownership documents) were not discussed by the expert.",
+      "deemedApproval": { "status": "no", "days": null, "text": "There is no provision for deemed approval at present; one application does not automatically trigger multiple departmental approvals." },
+      "validity": { "text": "Under the Joint Electricity Regulatory Commission for Manipur and Mizoram (Electricity Supply Code) Regulations, a permanent connection has no fixed expiry and remains active indefinitely as long as bills are paid and compliance maintained; a temporary connection is valid for a maximum of 3 months at a time." },
+      "fees": { "text": "Fee varies by category (domestic/commercial) and load band (single-phase/low, mid-level, high-level); a committee technically determines the connection and fee. Fees are based on the tariff approved by the State Electricity Regulatory Commission and are published on the department's website with a calculator/table, inclusive of scrutiny, inspection, testing and incidental charges. The only additional cost is the DSC (digital token), purchased by the applicant for the online route only." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Applicant collects application form from subdivision office or registers on the online portal", "automated": "partial" },
+        { "n": 2, "phase": "apply", "title": "Applicant fills form and declares connected load, signed by a certified electrician", "automated": false },
+        { "n": 3, "phase": "apply", "title": "For commercial connections, electrical drawings approved by a licensed electrician (level 3+) are submitted", "automated": false },
+        { "n": 4, "phase": "apply", "title": "Application submitted in hard copy at subdivision/division office, or online through the portal", "automated": "partial" },
+        { "n": 5, "phase": "scrutiny", "title": "Subdivision office scrutinises application; own meter is tested or a meter is rented from the department", "automated": false },
+        { "n": 6, "phase": "fee", "title": "Connection fee determined according to category and load", "automated": false },
+        { "n": 7, "phase": "approve", "title": "LT connections approved by subdivision officer; HT connections forwarded to division officer then vetted at SE level before connection is granted", "automated": false }
+      ],
+      "ed": { "date": "28-09-2026", "location": "New Capital Complex (MINECO) YMA IN, Near Kawlphetha building, Khatla, Aizawl, PO: 796001", "expert": "Er. Fabien Rosangzuala", "designation": "AE Commercial Branch, Power & Electricity Department, Government of Mizoram" },
+      "remarks": [
+        "The department's responsibility extends from the distribution transformer up to the consumer's meter; the inside of the premises is not within its jurisdiction after connection.",
+        "No best practice was identified by the expert for replication, since rules/procedures follow State Electricity Regulatory Commission orders outside the department's control."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "FEES"], "sentiment": "issue", "text": "Online registration requires a Digital Signature Certificate (DSC) and DigiLocker; applicants, especially in rural areas, find this complicated and costly, as the DSC is paid for and valid for only one year." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Remove the DSC and DigiLocker requirement at registration and use ordinary sign-up instead, verifying identity through Aadhaar or voter ID only at the final stage of the application." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Rework the portal interface so it is easier to use, especially for rural applicants." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Retain the hard-copy option in parallel until online uptake improves." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Consider a joint inspection/checklist with Legal Metrology for meters, and a status tracker/SMS alert to cut follow-up calls, though the expert did not see a present need for the latter." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "The online portal is at an early stage of rollout and very few applications have been received through it; applicants mostly prefer the offline route." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The single biggest pain point is the applicant-side sign-up process; from the department's end the process is fairly simple." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "No deemed-approval provision exists at present, and the expert did not offer a view on the scope for introducing one." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "The complete fee structure is published transparently on the department's website with a calculator/table." },
+        { "source": "ed", "category": "policy", "tags": ["INSPECT", "POSITIVE"], "sentiment": "positive", "text": "Only one site visit is now carried out before connection (down from around 3 earlier), under the Consumer Rules, solely for connecting to the network." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Legal Metrology was requested to act as a third party for meter checks, but no confirmation has been received; no joint inspection with a common checklist has been done with any other department." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "positive", "text": "The expert reported no additional costs beyond the official fee (no consultant, travel or documentation cost to the department's knowledge); connections have pre-determined, fixed fee structures so even a layman can apply without an advisor." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Connected load is the single biggest source of cost — the higher the load, the higher the cost." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "For commercial connections, drawings must be made by a licensed electrician (level 3+) because the department is short of staff; since licences are issued by a separate authority, the department cannot itself provide facilitation counters or help desks for this." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "No feedback has been collected showing time or cost saved from the online route, and the feedback received points back to the hassle of sign-up." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The online portal's actual name is not given in the transcript; it is referred to only generically as 'the online portal' or 'the portal'." },
+        { "flag": "MISSING", "text": "The expert did not report an actual processing-time figure separate from the notified 7/15-day Citizen Charter timeline, though stated no applications have been rejected, returned or pending." },
+        { "flag": "VAGUE", "text": "Fee amounts are described only qualitatively by category and load band; no specific rupee figures or a fee table are given in the transcript." },
+        { "flag": "GOOD_PRACTICE", "text": "Transparent publication of the full fee structure with a calculator/table on the department's website." },
+        { "flag": "REFORM", "text": "Reduction in mandatory pre-connection site visits to just one (from around three earlier), under the Consumer Rules." },
+        { "flag": "VAGUE", "text": "It is unclear whether the notified 7/15-day timeline derives from a formal Citizen Charter, the Right to Services Act, or both, as the document references them together without distinguishing the source." }
+      ]
+    },
+    {
+      "serviceCode": "GST",
+      "serviceName": "GST Registration",
+      "sourceFile": "MZ_ED_GST.docx",
+      "issuingAuthority": "Approving authority (head of the concerned zone), Taxation Department (GST), Government of Mizoram",
+      "portal": { "name": "GST Portal (national); GST Suvidha Kendra (GSK) for biometric/physical verification where flagged", "url": null },
+      "timeline": { "minDays": 1, "maxDays": 30, "basis": "SLA/Right to Service timeline: 7 working days for the tax officer to act; query-response window of 7 or 15 days; roughly one month where physical verification by an inspector is required", "text": "The service-level timeline is 7 working days for the tax officer to act. Where documents are genuine and complete, approval can happen within a day. If a query is raised, the applicant must respond within 7 or 15 days or face automatic rejection; where physical verification (no Aadhaar) is needed, about one month is given." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "PAN card (registration is based on PAN)",
+        "Bank account details",
+        "Business address proof (electricity bill/mobile bill etc.) in the applicant's name, or an authorised agreement/consent if premises belong to a relative/spouse/other person",
+        "Business proof depending on type of business (e.g., contractor licence/certificate and work order; shopkeeper/trader licence from the competent authority)",
+        "Aadhaar",
+        "Passport-size photograph"
+      ],
+      "documentsNote": "Document requirements vary by nature of business selected on the portal (proprietorship, wholesale dealer, service provider, distributor, contractor, etc.). Obtaining an electricity bill in the applicant's own name is a reported difficulty; small shopkeepers sometimes pay advocates about ₹3,000 for a rent/affidavit-type paper.",
+      "deemedApproval": { "status": "yes", "days": null, "text": "Deemed approval of GST registration happens automatically on the GST portal if the proper state tax officer fails to act within the legally prescribed time limits." },
+      "validity": { "text": "GST registration for regular taxpayers does not have a validity period and remains valid unless cancelled, surrendered, or suspended." },
+      "fees": { "text": "There is no government fee for GST registration, and no scrutiny, inspection or incidental charges. Costs arise only if the applicant engages third-party GST practitioners/chartered accountants/agencies, whose charges are outside the department's control and vary by location." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant scans required documents and logs in to the GST portal to submit the new registration application online", "automated": true },
+        { "n": 2, "phase": "scrutiny", "title": "Automated risk engine (BIFA) screens the application and documents before any human intervention", "automated": true },
+        { "n": 3, "phase": "inspect", "title": "If flagged as suspicious/incomplete, applicant books a GSK appointment for Aadhaar biometric authentication/physical document verification", "automated": "partial", "note": "Conditional step, only when the system flags the application." },
+        { "n": 4, "phase": "scrutiny", "title": "Application goes to the approving authority (zone head), who checks documents and may raise a query answered online", "automated": "partial" },
+        { "n": 5, "phase": "approve", "title": "On approval, applicant receives a system-generated User ID and temporary password, and creates a new password", "automated": true },
+        { "n": 6, "phase": "inspect", "title": "Alternate path (no Aadhaar authentication): inspector conducts physical premises verification (about one month), uploads report; approving authority approves or rejects accordingly", "automated": false }
+      ],
+      "ed": { "date": "28-09-2026", "location": "New Capital Complex (MINECO) YMA IN, Near Kawlphetha building, Khatla, Aizawl, PO: 796001", "expert": "T.T. Chhote", "designation": "State Tax Officer, Taxation Department (GST), Government of Mizoram" },
+      "remarks": [
+        "Mizoram has mostly small businesses and small entrepreneurs, with no large manufacturers/industries.",
+        "The transcript is machine-generated and partly garbled; items marked 'to be confirmed' need verification with the expert."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The process is fully online; the applicant scans documents and submits the application on the GST portal, with queries raised and answered online." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "An automated risk engine (BIFA) screens the application and documents before any human intervention." },
+        { "source": "ed", "category": "pain", "tags": ["FEES", "COMPLY"], "sentiment": "issue", "text": "Obtaining an electricity bill in the applicant's own name is a reported difficulty; small shopkeepers often pay advocates a few thousand rupees (about ₹3,000) for a rent/affidavit-type paper." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Accept a consent letter from the property owner as address proof in place of a utility bill in the applicant's name." },
+        { "source": "ed", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Name mismatch between the PAN/income-tax database and the application (initials vs. expanded names, common in the North East) is one of the most frequent causes of queries." },
+        { "source": "ed", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Address-proof mismatch is another frequent cause of queries requiring applicant resubmission." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The portal process is lengthy and not user-friendly for laypersons, so many applicants depend on practitioners/consultants." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "The expert does not recommend removing any step, and cautioned that simplifying too much could compromise security because GST involves revenue and fraud risk." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE", "POSITIVE"], "sentiment": "positive", "text": "Free GST Suvidha Kendra (GSK) help desks have operated since GST began in 2017, with 5-10 officers, Monday to Friday; walk-in applicants are helped and complex issues referred to experts." },
+        { "source": "ed", "category": "remarks", "tags": ["CLARITY", "POSITIVE"], "sentiment": "positive", "text": "Seminars, workshops and live demos are held, with registration how-to videos published on YouTube, Instagram, Facebook and WhatsApp." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE", "POSITIVE"], "sentiment": "positive", "text": "A call centre/helpline exists for grievances and drop-in redressal." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Continue and replicate the free, walk-in GSK help-desk model in other states." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Strengthen awareness on appointment booking for biometric authentication, since some applicants still visit the office because they cannot book the appointment." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "In recent months the department has received many repeated new-registration attempts from some applicants (4 or 5 reapplications)." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "No data is available on the number of registrations in the last month/financial year, as figures fluctuate daily with new registrations and cancellations." },
+        { "source": "ed", "category": "remarks", "tags": ["CLARITY"], "sentiment": "neutral", "text": "Aadhaar is not mandatory for registration per the expert (citing a Supreme Court order); a name may now be registered with initials on PAN." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "The document itself notes that burdens (address proof, lengthy portal process) 'arise from GST portal/Central GST framework rules and system design rather than Mizoram State rules' but flags this as 'to be confirmed'." },
+        { "flag": "MISSING", "text": "No data is available on the number of GST registrations processed in the last month or financial year." },
+        { "flag": "GOOD_PRACTICE", "text": "Free, walk-in GST Suvidha Kendra help desks operating since 2017, with seminars, videos and a call centre for grievances." },
+        { "flag": "VAGUE", "text": "The transcript is noted by the document itself as machine-generated and partly garbled, with several items marked 'to be confirmed' and not independently verifiable from this source." },
+        { "flag": "MISSING", "text": "The document states a query-response window of '7 or 15 days' without clarifying which figure applies under which circumstance." },
+        { "flag": "REFORM", "text": "Accepting a consent letter from the property owner as address proof, in place of a utility bill in the applicant's own name, was the expert's main suggested reform." }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFile": "MZ_ED_LEM.docx",
+      "issuingAuthority": "Controller (final approving authority), Legal Metrology Department, Government of Mizoram — file moves through Assistant Controller (Enforcement), Deputy Controller and Joint Controller before reaching the Controller",
+      "portal": { "name": "Single-window online portal (under development; applications currently all offline)", "url": null },
+      "timeline": { "minDays": 14, "maxDays": 30, "basis": "New rules effective 11 September 2026: about 14 days; earlier rules: about 30 days as shown on the portal; the expert also mentioned 20 working days at one point", "text": "The statutory/prescribed timeline is about 14 days under the new rules (effective 11 September 2026); earlier it was about 30 days per the portal, and the expert also separately mentioned 20 working days. No Citizen Charter or Right to Services timeline is currently in place. The expert said all applications are disposed of within timeline, with none pending, rejected or returned." },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Application form",
+        "Aadhaar and applicant's photo — mandatory on the online portal, not mandatory on the current paper form",
+        "Licence from the petrol company — required before a petrol pump applicant can apply"
+      ],
+      "documentsNote": "The expert did not identify any document with no bearing on the decision; all requirements are mandated by the Act and Rules.",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed approval exists; the expert said none is needed because all applications are disposed of within the time limit, and saw no scope for automatic multi-department approvals since the process is transparent and law-driven." },
+      "validity": { "text": "Under the new rules (effective 11 September 2026), registration is perpetual — one-time, with no renewal, per central government direction. Earlier, licences were renewed annually. The registration cannot be removed or sold and holds as long as the person uses it for the stated business." },
+      "fees": { "text": "New one-time fee under the 11 September 2026 rules: Manufacturer ₹25,000; Repairer ₹10,000; Dealer ₹5,000 (the notification is to be shared by the department for verification; the expert first said about ₹5,000 before confirming these amounts). Earlier fee was about ₹100 per annum. Verification fees for weights and measures are prescribed under state rules but the amount was not stated. The fee is all-inclusive (scrutiny, inspection, testing), with no separate late or incidental charges, and varies by licence category, not size or employee count." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant downloads and submits the application form in hard copy at the clerical level of the department", "automated": false },
+        { "n": 2, "phase": "scrutiny", "title": "File moves to the Assistant Controller (Enforcement)", "automated": false },
+        { "n": 3, "phase": "scrutiny", "title": "File moves to the Deputy Controller, then the Joint Controller", "automated": false },
+        { "n": 4, "phase": "approve", "title": "Controller, the approving authority, grants approval", "automated": false },
+        { "n": 5, "phase": "fee", "title": "Fee is billed/collected and the registration or certificate is issued", "automated": false },
+        { "n": 6, "phase": "inspect", "title": "For instruments, physical verification, calibration and sealing are done by department officials", "automated": false }
+      ],
+      "ed": { "date": "28-09-2026", "location": "New Capital Complex (MINECO) YMA IN, Near Kawlphetha building, Khatla, Aizawl, PO: 796001", "expert": "Vanlalrema Hnamte", "designation": "Deputy Controller, Legal Metrology Department, Government of Mizoram" },
+      "remarks": [
+        "The department also handles grievances; other matters (contraband items, packaged goods such as under-weight gas cylinders, water meters in households) were mentioned, but enforcement on these is separate from the application process.",
+        "Transcript quality is poor in places; items marked 'to be confirmed' should be verified before finalising."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["OTHER", "POSITIVE"], "sentiment": "positive", "text": "All staff sit in the same locality, so the approval chain (Assistant Controller to Controller) moves quickly." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "In principle the Assistant Controller could forward directly to the Controller, skipping intermediate levels, but the expert did not recommend this." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS", "POSITIVE"], "sentiment": "positive", "text": "The new rules (effective 11 September 2026) removed the annual renewal requirement and the prior trade-licence duplicate approval, reducing applicant burden." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Shortage of manpower in the department was the only pain point named by the expert." },
+        { "source": "ed", "category": "remarks", "tags": ["INFORMAL", "POSITIVE"], "sentiment": "positive", "text": "The department uses its own vehicles for inspection and communicates quickly and informally with applicants by phone." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS", "POSITIVE"], "sentiment": "positive", "text": "The new rules introduce risk-based inspection of premises (high, medium, low), with frequency about once a year or once in two years depending on risk category, and more frequent inspection where complaints are received." },
+        { "source": "ed", "category": "policy", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Earlier, inspections were voluntary or complaint-driven, before the new risk-based system was introduced." },
+        { "source": "ed", "category": "procedural", "tags": ["DUPDOC", "POSITIVE"], "sentiment": "positive", "text": "The expert said there are no redundant or duplicate requirements; all steps are legally mandated and none is a departmental practice." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Joint inspections are occasionally held with police, local bodies and NGOs; no other department checks the same parameters." },
+        { "source": "ed", "category": "policy", "tags": ["DUPDOC", "POSITIVE"], "sentiment": "positive", "text": "The prior trade-licence requirement, described as a duplicate approval, was removed on 11 September 2026." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Complete the online single-window portal so applications are fully paperless, while retaining physical verification where needed." },
+        { "source": "ed", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Introduce a status tracker/SMS alerts and a notified Citizen Charter/timeline, neither of which currently exist." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Address the manpower shortage in the department." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "The department should share the new rules notification with fees for the record, since the expert's figures still need verification." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Volumes quoted by the expert (about 23 valid dealer licences, 13 manufacturer/packer registrations, one repairer licence in the state) are to be cross-checked with department records." },
+        { "source": "ed", "category": "remarks", "tags": ["CLARITY"], "sentiment": "neutral", "text": "A daily-summary submission requirement for licensees was mentioned as part of the inspection procedure, but the expert's statement on this was unclear and needs confirmation." }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "The document gives three different timeline figures for the same service within the same transcript: about 14 days under the new rules (effective 11 September 2026), about 30 days as shown on the portal under earlier rules, and 20 working days mentioned separately by the expert." },
+        { "flag": "VAGUE", "text": "The daily-summary submission requirement for licensees as part of the inspection procedure is explicitly noted in the document as unclear ('expert's statement was unclear; to be confirmed')." },
+        { "flag": "VAGUE", "text": "Verification fees for weights and measures are stated to be 'prescribed under the state rules' but no amount is given." },
+        { "flag": "MISSING", "text": "The notification for the new rules and fee schedule (11 September 2026) had not yet been shared by the department for verification at the time of the discussion." },
+        { "flag": "GOOD_PRACTICE", "text": "Removal of the annual renewal requirement and the prior duplicate trade-licence requirement under the new rules, directly reducing applicant burden." },
+        { "flag": "REFORM", "text": "Introduction of risk-based inspection frequency (high/medium/low risk categories) under the new rules, replacing the earlier voluntary/complaint-driven approach." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFile": "MZ_ED_TLA.docx",
+      "issuingAuthority": "Municipal Commissioner (final decision), Aizawl Municipal Corporation (AMC), Government of Mizoram — file moves through Lower Division Clerks, ward-level officers, Town Planner, Senior Town Planner and Joint Municipal Commissioner",
+      "portal": { "name": "AMC's internal E-file system (introduced about one week before the ED); onboarding to the National Single Window System (NSWS) planned", "url": null },
+      "timeline": { "minDays": 2, "maxDays": 5, "basis": "Citizen Charter: 5 working days", "text": "The Citizen Charter notifies a timeline of 5 working days. The expert indicated licences are generally issued quickly (roughly 2-5 days), aided by the absence of site inspection for most trades. The proportion of cases decided within the notified time last year was not known to the expert." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Completed application form (Form 1 for general trades; Form 2 for hotels and lodging)",
+        "No Objection Certificate (NOC) from the house or land owner (Reg. 4(f)(i))",
+        "NOC from the Local Council (Reg. 4(f)(ii))",
+        "Residential Certificate (issued by the Deputy Commissioner's office)",
+        "EPIC/Voter ID (Reg. 4(f)(iv))",
+        "Passport-size photographs (4 copies per the Regulations; expert mentioned 2, number to be verified)",
+        "Licence/registration certificate from the Food Licensing Authority, Health & Family Welfare Department — only for establishments dealing in eatables, food items or food industries",
+        "Licence fee receipt — as currently enclosed by AMC practice"
+      ],
+      "documentsNote": "The photo-copy count (4 per Regulations vs. 2 per the expert) and the timing of fee payment (enclosed with the application per current AMC practice, vs. Reg. 12's provision that the fee is payable after approval) differ from the Licensing Regulation 2012 text and should be verified.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Not available for grant of a new licence; the Licensing Regulation 2012 has no deemed-approval provision for new applications. The only deeming provision is for renewal: the existing licence is deemed in force while a timely renewal application is pending." },
+      "validity": { "text": "Regulation 9: any licence issued is valid for 1 year from date of issue, unless suspended or cancelled. An amendment is in process to allow validity of up to 10 years, letting the applicant choose the period (e.g., 5 years for a fresh application) and pay fees accordingly. Renewal (Reg. 13) must be submitted before the first day of the month in which the licence expires, using the same procedure as for grant; a renewal application submitted late must be accompanied by a late fee of ₹10 per day of delay." },
+      "fees": { "text": "Regulation 12: the annual licence fee for items in Schedule I and II is paid after approval of the application and is subject to revision by the Board of Councillors. In practice, fees are currently paid via the hard file; under NSWS, payment would be made online. The fee structure has recently been revised with a zone-wise classification, pending Government finalisation. Late renewal fee is ₹10 per day of delay; penalty for late regularisation of existing businesses is 20% to 50% of the licence fee. No costs outside the official fee schedule beyond applicant travel expenses." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant fills Form 1 (general trades) or Form 2 (hotels/lodging) and submits with required documents under the AMC Licensing Regulation 2012", "automated": "partial" },
+        { "n": 2, "phase": "scrutiny", "title": "Level 1 (Lower Division Clerks) check mandatory fields/documents; errors communicated to applicant; file forwarded once complete", "automated": false },
+        { "n": 3, "phase": "scrutiny", "title": "Level 2 (two officers across Mizoram's 87 wards) re-verify documents and forward the file", "automated": false },
+        { "n": 4, "phase": "scrutiny", "title": "Level 3 onwards: reviewed by Town Planner, Senior Town Planner, Joint Municipal Commissioner, then Municipal Commissioner", "automated": false },
+        { "n": 5, "phase": "approve", "title": "Municipal Commissioner takes the substantive decision", "automated": false },
+        { "n": 6, "phase": "approve", "title": "If approved, file returns down the chain (Joint Municipal Commissioner, then Town Planner) for issue of the licence", "automated": false }
+      ],
+      "ed": { "date": "28-09-2026", "location": "New Capital Complex (MINECO) YMA IN, Near Kawlphetha building, Khatla, Aizawl, PO: 796001", "expert": "Ms. Baby Zohmingliani", "designation": "Town Planner, Aizawl Municipal Corporation (AMC), Government of Mizoram" },
+      "remarks": [
+        "The recording was of poor quality, so some details (such as the exact number of LDCs and fee amounts) could not be confirmed and should be verified.",
+        "Regulation references are taken from photographs of pages 8 to 11 only, so the remaining pages of the Licensing Regulations 2012 should be cross-checked."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "The six-level approval chain from clerk to Municipal Commissioner was named as a burdensome activity." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "With the recent move to E-file, the expert's view is that physical movement of the file can be removed as the first simplification." },
+        { "source": "ed", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Hard-file submission and the need to visit the AMC office in person for filing and fee payment is a burdensome activity; at present documents and fees are still submitted as hard copies." },
+        { "source": "ed", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Applicants who arrive without complete documents have to return with the missing items, causing repeat visits." },
+        { "source": "ed", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "There is currently an absence of a single point of contact or online status tracking for applicants." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Complete NSWS integration so applications and fee payments are entirely online, removing hard-copy submission and office visits." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Provide a single point of contact with status tracking, as is being developed by the Planning Department." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Ensure the ICT/I&C portal and AMC systems are compatible before NSWS roll-out." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Provide user guidance (guides, helpline or facilitation support) so applicants can use NSWS without intermediaries." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The expert is unsure whether ordinary applicants can manage a complex NSWS portal without help." },
+        { "source": "ed", "category": "policy", "tags": ["INSPECT", "POSITIVE"], "sentiment": "positive", "text": "No site inspection is required for most trades (only food-related activity requires Health Department inspection), keeping issue time short." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL", "POSITIVE"], "sentiment": "positive", "text": "A planned amendment to extend licence validity up to 10 years is intended to reduce renewal burden." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE", "POSITIVE"], "sentiment": "positive", "text": "A functioning grievance cell routes complaints to the concerned section." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "The fee structure has recently been revised with a zone-wise classification, with the amendment still awaiting finalisation by the Government before ICT-department integration." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Only one other department is triggered automatically — a Health Department NOC for food-processing activity; no other approvals are automatically triggered." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "issue", "text": "AMC's current practice of collecting the licence fee receipt at the time of filing differs from Regulation 12, which provides that the annual fee is paid after approval of the application." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The expert could not identify a single biggest source of compliance cost or pain point, and considered the current process 'good enough'." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The recording was of poor quality; some details (exact number of LDCs, fee amounts) could not be confirmed." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "The number of passport-size photographs required is unclear: the Regulations specify 4 copies but the expert mentioned 2; the correct figure should be verified." },
+        { "flag": "INCONSISTENT", "text": "AMC's current practice of collecting the licence fee at the time of filing contradicts Regulation 12, which the same document cites as providing that the annual fee is payable only after approval of the application." },
+        { "flag": "MISSING", "text": "The proportion of cases decided within the notified 5-working-day timeline last year was not known to the expert." },
+        { "flag": "MISSING", "text": "The exact number of Lower Division Clerks (LDCs) handling Level 1 scrutiny could not be confirmed due to poor recording quality." },
+        { "flag": "GOOD_PRACTICE", "text": "Extension of licence validity up to 10 years (amendment in process), letting applicants choose their renewal period and reducing renewal frequency." },
+        { "flag": "REFORM", "text": "Recent move to AMC's internal E-file system, with a planned single point of contact and status tracking being developed by the Planning Department, and planned onboarding to NSWS." },
+        { "flag": "VAGUE", "text": "Regulation references in this document are taken only from photographs of pages 8 to 11 of the Licensing Regulations 2012; the remaining pages were not cross-checked, so other provisions may be incomplete or inaccurate." }
+      ]
+    }
+  ]
+}

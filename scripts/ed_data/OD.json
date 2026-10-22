@@ -1,0 +1,239 @@
+{
+  "code": "OD",
+  "name": "Odisha",
+  "licenses": [
+    {
+      "serviceCode": "BMPA",
+      "serviceName": "Boilers Manufacturer Permission Approval",
+      "sourceFile": "OD_ED_BMPA.docx",
+      "issuingAuthority": "Directorate of Factories & Boilers (Deputy Director, Factories and Boilers)",
+      "portal": { "name": "Pareshram portal", "url": null },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": 15,
+        "basis": "Notified processing timeline: 15 days for grant of fresh recognition as a boiler manufacturer, 7 days for renewal of recognition; within the fresh-recognition timeline a maximum of 7 days is allowed for completion of the field visit.",
+        "text": "Fresh recognition as a boiler manufacturer is processed within 15 days and renewal of recognition within 7 days. A maximum of 7 days is allowed for the field visit component of a fresh-recognition application, and the clock stops whenever a query is pending with the applicant."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Photograph of the applicant/authorised person and identity proof",
+        "Required declarations",
+        "Certificate/details of the Engineer, Operator and Welder associated with the manufacturing facility",
+        "Constitution details of the firm or workshop",
+        "Manufacturing drawings, welding schedule and other applicable technical documents (for permission to manufacture a specific boiler)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "The report's Deemed Approval row still contains the unanswered template prompt ('Document whether there is deemed approval for the service...') rather than the expert's actual answer, so deemed-approval status for this service is not documented in the ED."
+      },
+      "validity": {
+        "text": "Recognition as a boiler manufacturer is valid for 2 years, and renewal of recognition is also granted for 2 years. At renewal, no fresh recognition application is required — the existing certificate is renewed on submission of the renewal application and applicable fee."
+      },
+      "fees": {
+        "text": "Rs. 20,000 for grant of recognition as a boiler manufacturer; Rs. 5,000 for renewal of recognition covering a two-year period. The fee is integrated with the online application and must be paid before the application can be submitted."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit application for recognition as boiler manufacturer", "automated": true, "note": "Submitted via the Pareshram portal with documents on firm/workshop, technical manpower, manufacturing facilities and premises." },
+        { "n": 2, "phase": "scrutiny", "title": "Application scrutinised and field verification initiated", "automated": true, "note": "Scrutiny by the Directorate of Factories & Boilers; field verification initiated through the portal." },
+        { "n": 3, "phase": "inspect", "title": "Physical verification by field officer", "automated": "partial", "note": "Field officer verifies facilities, machinery/equipment and technical manpower and submits recommendation online." },
+        { "n": 4, "phase": "approve", "title": "Recognition granted", "automated": true, "note": "Granted where field verification and recommendation are satisfactory." },
+        { "n": 5, "phase": "apply", "title": "Apply for permission to manufacture a specific boiler", "automated": true, "note": "Manufacturer submits manufacturing drawings, welding schedule and other technical documents online." },
+        { "n": 6, "phase": "scrutiny", "title": "Drawings and welding schedule scrutinised and permitted", "automated": true, "note": "Directorate scrutinises and, on approval, permits the recognised manufacturer to proceed with manufacture." },
+        { "n": 7, "phase": "inspect", "title": "Inspecting officer designated by jurisdiction", "automated": null, "note": "A defined inspecting officer is assigned based on the manufacturing location's jurisdiction." },
+        { "n": 8, "phase": "inspect", "title": "Manufacturing-stage inspection(s)", "automated": false, "note": "Designated officer inspects based on the application and manufacturing stage." },
+        { "n": 9, "phase": "approve", "title": "Final certificate issued", "automated": true, "note": "Approved document/certificate made available to the manufacturer through the online system." }
+      ],
+      "ed": { "date": "07-09-2026", "location": "Kharavela Nagar, Unit III, Bhubaneswar -751001", "expert": "Dr. Malaya Pradhan", "designation": "Deputy Director, Factories and Boilers" },
+      "remarks": [
+        "The service follows a two-stage regulatory structure: recognition establishes the firm's capability to manufacture boilers, while permission for a specific boiler is based on scrutiny of the proposed manufacturing drawings and welding schedule.",
+        "The one-time physical verification at the recognition stage focuses on the manufacturer's facilities, equipment and technical manpower, while inspections during actual manufacturing are handled separately."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL"], "sentiment": "positive", "text": "The service is primarily processed online through the Pareshram portal, including application submission, fee payment, communication, field-verification workflow and status tracking." },
+        { "source": "ed", "category": "procedural", "tags": ["CLARITY"], "sentiment": "neutral", "text": "The service follows a two-stage structure: grant of recognition to the firm as a boiler manufacturer, followed by a separate permission for a specific boiler based on drawing/welding-schedule scrutiny." },
+        { "source": "ed", "category": "remarks", "tags": ["INSPECT", "POSITIVE"], "sentiment": "positive", "text": "The inspecting officer is designated on the basis of the jurisdiction of the manufacturer's establishment, providing a defined point of contact for inspection." },
+        { "source": "ed", "category": "remarks", "tags": ["TIMELINE"], "sentiment": "positive", "text": "A defined internal time allocation is followed among the dealing assistant, Assistant Director, Deputy Director and Director to support disposal within the prescribed 15-day timeline." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY"], "sentiment": "positive", "text": "Monthly review meetings are conducted to monitor applications, processing issues and staff-level performance." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "TIMELINE"], "sentiment": "positive", "text": "The portal provides visibility of average processing time and cases where the prescribed timeline has been exceeded." },
+        { "source": "ed", "category": "procedural", "tags": ["CLARITY"], "sentiment": "positive", "text": "Where an applicant is unable to understand a query raised during scrutiny, the department facilitates guidance through the concerned field officer." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE"], "sentiment": "neutral", "text": "Grievances can be submitted through specified grievance portals and email, with review at Directorate and higher administrative levels." },
+        { "source": "ed", "category": "delay", "tags": ["QUERY"], "sentiment": "neutral", "text": "Where a query is raised, the processing clock stops until the applicant submits the required compliance; the applicant is given up to three opportunities to respond before rejection for non-compliance." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "The expert recommended maintaining and strengthening the database used for cross-checking technical manpower details of recognised boiler manufacturers, particularly where personnel move between manufacturers." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "QUERY"], "sentiment": "suggestion", "text": "The expert recommended continuing to strengthen portal-based status visibility so applicants can clearly track queries, compliance requirements and processing stage without repeated follow-up." },
+        { "source": "ed", "category": "redundant", "tags": ["OTHER"], "sentiment": "positive", "text": "No significant compliance burden or redundant requirement was reported for the service." },
+        { "source": "ed", "category": "pain", "tags": ["OTHER"], "sentiment": "neutral", "text": "No specific activity was identified as burdensome in the process, and no reform was suggested by the expert for this service." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "This service does not follow a separate risk-based classification framework." },
+        { "source": "ed", "category": "remarks", "tags": ["INSPECT"], "sentiment": "positive", "text": "Physical verification for recognition is undertaken once as part of the recognition process; regular field inspection for recognition is not required, keeping manufacturing-stage inspections as a separate, distinct activity." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "The renewal fee (Rs. 5,000 for a two-year period) is substantially lower than the fresh-recognition fee (Rs. 20,000), and no fresh recognition application is required at renewal." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The ED's Deemed Approval row retains the unanswered template question instead of the expert's actual response, so whether deemed approval applies (and on what timeline) is not documented for this service." },
+        { "flag": "VAGUE", "text": "No separate processing timeline is quantified for the second-stage 'permission to manufacture a specific boiler' step — only the recognition (15 days) and renewal (7 days) timelines are stated." },
+        { "flag": "VAGUE", "text": "It is unclear whether the 'maximum of 7 days...for completion of the field visit' is a sub-component within the 15-day fresh-recognition timeline or an allowance outside it." },
+        { "flag": "MISSING", "text": "The report does not state whether the applicant ever needs to visit a department office in person at any stage; only the field officer's visit to the manufacturer's premises is described." },
+        { "flag": "GOOD_PRACTICE", "text": "A defined internal time allocation across dealing assistant, Assistant Director, Deputy Director and Director supports disposal within the 15-day prescribed timeline." },
+        { "flag": "GOOD_PRACTICE", "text": "Jurisdiction-based assignment of a defined inspecting officer provides applicants a consistent point of contact for manufacturing-stage inspections." }
+      ]
+    },
+    {
+      "serviceCode": "ELD",
+      "serviceName": "Electrical Drawings",
+      "sourceFile": "OD_ED_ELD.docx",
+      "issuingAuthority": "Engineer-in-Chief (Electricity)-cum-Principal Chief Electrical Inspector / Drawing Approval Authority, Energy Department",
+      "portal": { "name": "Odisha e-District portal / EIC (Electricity) website — \"Drawing Approval of Electrical Works/Installation\"", "url": null },
+      "timeline": {
+        "minDays": 20,
+        "maxDays": 35,
+        "basis": "Odisha Right to Public Services (ORTPS) notification, tiered by the voltage/capacity category of the installation.",
+        "text": "ORTPS prescribes 20 days for installations at 11 KV up to 16 KVA and 99 KW at 415 V; 30 days for HT installations at 11 KV above 16 KVA up to 150 KVA; 30 days for HT installations at 11 KV/33 KV above 150 KVA up to 15 MVA; and 35 days for installations at 33 KV and above with loads above 15 MVA."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Self-attested copy of identity proof (Voter ID, Driving Licence, Passport, Aadhaar Card or PAN Card)",
+        "Single Line Diagram (SLD) of the existing installation with the proposed installation marked (for addition/alteration cases)",
+        "Soft copies of all selected drawings, compiled into a single document for upload",
+        "Any additional document/drawing uploaded under the \"Other\" field, with the document name specified"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No concept of deemed approval applies to the Drawing Approval of Electrical Works/Installation service in Odisha, as explicitly stated in the ED."
+      },
+      "validity": {
+        "text": "The Drawing Approval Order/Certificate is valid for 1 year (12 months) from the date of issue. No renewal/extension is provided after expiry — a fresh application is required if the approval expires before the installation is completed, and material technical changes (e.g., transformer capacity, breaker type, physical layout) also require a fresh/revised approval with the fee payable again."
+      },
+      "fees": {
+        "text": "Drawing checking and approval fee is Rs. 750 per drawing, deposited at first submission; an additional Rs. 750 is payable for each additional drawing subsequently required."
+      },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Access portal and select service", "automated": true, "note": "Via the Odisha e-District portal or EIC (Electricity) website, under the Energy Department." },
+        { "n": 2, "phase": "pre", "title": "Register and log in", "automated": true, "note": "Registration on e-District portal using email/mobile with OTP validation." },
+        { "n": 3, "phase": "apply", "title": "Enter applicant and installation particulars", "automated": true, "note": "Location, system voltage/capacity, and details relating to addition/alteration, ROW clearance, lines and crossings as applicable." },
+        { "n": 4, "phase": "apply", "title": "Select drawing category and submit drawings", "automated": "partial", "note": "MV/HT/EHT category selected; drawings uploaded online or submitted physically at the respective office." },
+        { "n": 5, "phase": "apply", "title": "Select Drawing Approval Authority and submit application", "automated": true, "note": "Authority selected by location/jurisdiction; application verified and submitted with required annexures." },
+        { "n": 6, "phase": "fee", "title": "Pay drawing checking/approval fee", "automated": true, "note": "Fee deposited at first submission; additional fee payable for subsequent additional drawings." },
+        { "n": 7, "phase": "apply", "title": "Acknowledgement and status tracking", "automated": true, "note": "Acknowledgement generated; applicant can track via \"Track Application Status\" facility." },
+        { "n": 8, "phase": "scrutiny", "title": "Scrutiny of application and drawings", "automated": "partial", "note": "Deficiencies, revised/additional drawings or technical discussion communicated via SMS/email; applicant submits required compliance." },
+        { "n": 9, "phase": "approve", "title": "Approval and certificate delivery", "automated": true, "note": "Drawing Approval Certificate delivered through the portal with SMS/email intimation and download." }
+      ],
+      "ed": { "date": "07-09-2026", "location": "EIC Office, Bidyut Marg, New AG Colony, Bhubaneswar, Odisha 751001", "expert": "Er. Srusti Avilipsa Nayak", "designation": "Executive Engineer" },
+      "remarks": [
+        "The Drawing Approval Certificate is required before commencement of electrical installation work, while testing and inspection are undertaken after completion of the installation before commencement of supply, making the service an important regulatory control between the design stage and subsequent energisation."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL"], "sentiment": "positive", "text": "The service is primarily online through the Odisha e-District portal, covering application particulars, annexure submission, fee payment, acknowledgement, status tracking, compliance communication and certificate download." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL", "OTHER"], "sentiment": "neutral", "text": "An offline option exists specifically for physical submission of drawings; where used, the ORTPS timeline is counted from the date of physical submission at the Drawing Approval Authority office." },
+        { "source": "ed", "category": "procedural", "tags": ["CLARITY"], "sentiment": "neutral", "text": "The applicant must select the appropriate Drawing Approval Authority based on the location and jurisdiction of the proposed installation before submitting the application." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL"], "sentiment": "positive", "text": "On successful submission, an acknowledgement is generated and the applicant can track the application through the \"Track Application Status\" facility." },
+        { "source": "ed", "category": "procedural", "tags": ["QUERY"], "sentiment": "neutral", "text": "Where deficiencies, revised/additional drawings, other compliance, or technical discussion are required, the applicant is informed through SMS/email and must submit the necessary compliance." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The ORTPS notification sets a tiered processing timeline (20, 30, 30 and 35 days) depending on the voltage/capacity category of the installation." },
+        { "source": "ed", "category": "remarks", "tags": ["TIMELINE", "GRIEVANCE"], "sentiment": "positive", "text": "The system automatically escalates applications unresolved beyond the prescribed timeline: a first escalation at midnight on the last day of the timeline and a further escalation at midnight on completion of 30 days if still unresolved." },
+        { "source": "ed", "category": "redundant", "tags": ["RENEWAL", "DUPDOC"], "sentiment": "issue", "text": "The approval is valid only 1 year with no renewal/extension; if it expires before installation is complete, the applicant must submit a completely fresh application." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "suggestion", "text": "The expert recommended that the system fetch information and documents from the previously approved application for expired approvals, so the applicant updates only changed details rather than submitting a fully fresh application." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "The drawing checking/approval fee (Rs. 750 per drawing) is payable again for each additional drawing subsequently required." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Installations are classified into a three-tier risk framework (MV, HT, EHT) by voltage, each with distinct post-approval compliance requirements such as ELBO-licensed installation, spec alignment, spatial clearances, bilingual safety signage and earthing-grid standards." },
+        { "source": "ed", "category": "redundant", "tags": ["OTHER"], "sentiment": "positive", "text": "No significant compliance burden or redundant requirements were identified for the Electrical Drawing Approval service." },
+        { "source": "ed", "category": "pain", "tags": ["OTHER"], "sentiment": "neutral", "text": "No specific burdensome activity was identified in the process." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "Deemed approval explicitly does not apply to this service." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES", "COMPLY"], "sentiment": "neutral", "text": "Material technical changes to an approved installation (e.g., transformer capacity, breaker type, physical layout) require a fresh/revised drawing approval, with the statutory fee payable again." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL"], "sentiment": "positive", "text": "The approved certificate is delivered, intimated (SMS/email) and downloadable entirely through the portal, without need for physical collection." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "It is not specified whether or how often applicants use the offline drawing-submission option versus fully online submission, nor whether it requires an in-person office visit." },
+        { "flag": "MISSING", "text": "No field-verification or site-inspection step is described for Drawing Approval (unlike the BMPA and FBPA EDs for the same state), so it is unclear whether any physical site visit occurs before approval." },
+        { "flag": "MISSING", "text": "The specific designation/level of officer who approves at each voltage tier (MV/HT/EHT) beyond 'Drawing Approval Authority based on jurisdiction' is not named." },
+        { "flag": "GOOD_PRACTICE", "text": "Automated two-stage escalation tied to timeline overruns (at expiry of the prescribed timeline, then again at 30 days) strengthens accountability without requiring applicant follow-up." },
+        { "flag": "REFORM", "text": "Expert-recommended reform: auto-fetch previously approved application data for post-expiry fresh applications, to cut duplicate document submission." },
+        { "flag": "MISSING", "text": "Unlike the BMPA and FBPA EDs, no figure is given for actual/average processing time achieved against the ORTPS-prescribed timeline for this service." }
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFile": "OD_ED_FBPA.docx",
+      "issuingAuthority": "Directorate of Factories & Boilers (new factory plan approvals processed at the level of the Director, Factories & Boilers)",
+      "portal": { "name": "Pareshram portal", "url": null },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 30,
+        "basis": "Notified processing timeline, rationalised by the government to a uniform 30 days across all factory categories (previously 30, 60 and 90 days depending on category).",
+        "text": "The notified processing timeline is 30 days for all categories. The expert stated that earlier category-wise timelines of 30, 60 and 90 days have been rationalised to a uniform 30-day timeline following government intervention, and that average processing time is reported as within this 30-day window."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Filled-in application",
+        "Process flow chart and process description",
+        "Land-related documents",
+        "No Objection Certificate (NOC) from the concerned local body, where applicable (not required where land is allotted by an Industrial Development Corporation)",
+        "Memorandum of Association (MOA) and Articles of Association (AOA), where applicable",
+        "Consent to Establish (CTE), where applicable",
+        "Previous approved drawings, for extension/plan-approval cases",
+        "Copy of the last renewed licence, where applicable",
+        "List of machinery",
+        "Relevant factory building drawings"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "yes",
+        "days": 90,
+        "text": "If the application is not disposed of within 90 days, deemed approval becomes applicable."
+      },
+      "validity": {
+        "text": "The stamped building plan approval is legally valid for 1 year from issuance to commence construction; construction should begin within this period or the approval lapses. The broader expectation is that construction is completed and the final Factory Licence applied for within 2 to 3 years."
+      },
+      "fees": {
+        "text": "The fee is calculated automatically by the online system based on the manpower and kilowatt capacity declared in the application, per a Gazette-notified fee structure that is uniform irrespective of hazard category. Average fee reported: Rs. 31,539.85."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit application and documents online", "automated": true, "note": "Via the Pareshram portal for approval of the factory building plan." },
+        { "n": 2, "phase": "scrutiny", "title": "Factory categorised by hazard classification", "automated": "partial", "note": "Categorised as Major Accident Hazard (MAH), 2(cb) or Other factories based on nature of activity." },
+        { "n": 3, "phase": "scrutiny", "title": "Application and drawings scrutinised", "automated": "partial", "note": "By designated officers at the Directorate; new factory plan approvals processed at Director level." },
+        { "n": 4, "phase": "scrutiny", "title": "Multi-level (three-tier) technical and techno-legal scrutiny", "automated": "partial", "note": "Drawings examined against applicable legal provisions at multiple levels." },
+        { "n": 5, "phase": "scrutiny", "title": "Query raised if deficiencies found", "automated": true, "note": "Query raised through the portal; applicant given opportunity to submit required compliance." },
+        { "n": 6, "phase": "scrutiny", "title": "Further query/escalation if response unsatisfactory", "automated": "partial", "note": "Raised after escalation to senior level if needed; up to three opportunities provided for compliance." },
+        { "n": 7, "phase": "scrutiny", "title": "Field officer guidance where needed", "automated": false, "note": "Matter referred to concerned field officer for local guidance where applicant needs help understanding technical requirements." },
+        { "n": 8, "phase": "approve", "title": "Plan approved and certificate issued", "automated": true, "note": "Once compliant, the factory building plan is approved and the certificate generated online for download." }
+      ],
+      "ed": { "date": "07-09-2026", "location": "Kharavela Nagar, Unit III, Bhubaneswar -751001", "expert": "Dr. Malaya Pradhan", "designation": "Deputy Director, Factories and Boilers" },
+      "remarks": [
+        "The factory building plan approval process combines technical scrutiny with techno-legal examination, with the level of documentation and scrutiny linked to the category of the proposed factory.",
+        "The service is fully digital and does not require physical verification as part of drawing approval; the applicant receives the approval certificate online after completion of scrutiny."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "INSPECT"], "sentiment": "positive", "text": "The service is processed fully online through the Pareshram portal, and no physical verification is required as part of the factory building plan approval process." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "positive", "text": "The earlier category-wise timelines of 30, 60 and 90 days have been rationalised to a uniform 30-day timeline following government intervention." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "TIMELINE"], "sentiment": "positive", "text": "The Pareshram portal provides processing data including average processing time and instances where the prescribed timeline has been exceeded; the expert stated average processing time is within the 30-day timeline." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "The application is scrutinised through a multi-level (three-tier) arrangement combining technical and techno-legal examination, generally by the same set of officers unless an officer is transferred." },
+        { "source": "ed", "category": "delay", "tags": ["QUERY"], "sentiment": "neutral", "text": "Where a query is raised, the processing clock stops until compliance is submitted; the applicant is generally given 15 days to respond, with up to three opportunities before rejection." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "QUERY"], "sentiment": "positive", "text": "Query-related communication is sent through the applicant's registered mobile number and email, in addition to status being available on the portal." },
+        { "source": "ed", "category": "procedural", "tags": ["CLARITY"], "sentiment": "positive", "text": "Where a new applicant faces difficulty understanding a technical query, the concerned field officer is asked to guide the applicant so required compliance can be completed." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "CAPACITY"], "sentiment": "issue", "text": "New applicants may face difficulty uploading and submitting a large number of drawings, particularly for projects involving a substantial set of drawings." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "The expert recommended improving the drawing-upload facility to make submission of large sets of drawings easier, particularly for new factories with multiple drawings." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY", "PORTAL"], "sentiment": "suggestion", "text": "The expert recommended providing clearer in-portal guidance on required documents and drawings for each factory category, so new applicants can prepare a complete application at the first instance." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Applications are categorised into Major Accident Hazard (MAH), 2(cb) and Other factories, with documentation and scrutiny requirements varying by category — greater for MAH, fewer for Other factories." },
+        { "source": "ed", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "An NOC from the concerned local body is not required where the land has been allotted by an Industrial Development Corporation." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "The fee is uniform irrespective of hazard category and is calculated automatically by the system based on declared manpower and kilowatt capacity; the average fee reported is Rs. 31,539.85." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "positive", "text": "Deemed approval applies if the application is not disposed of within 90 days." },
+        { "source": "ed", "category": "redundant", "tags": ["OTHER"], "sentiment": "positive", "text": "No specific redundant or duplicate requirement was identified during the discussion." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "neutral", "text": "No specific system-level reform beyond improving the drawing-upload facility was proposed during the discussion." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "The average fee (Rs. 31,539.85) is given but the underlying rate table/formula linking manpower and kilowatt capacity to the fee amount is not detailed." },
+        { "flag": "MISSING", "text": "It is unclear how the 'applicant generally given 15 days to respond' to a query interacts with the overall 30-day processing clock and the 90-day deemed-approval threshold — e.g., whether query-response time is additive or counted within these windows." },
+        { "flag": "GOOD_PRACTICE", "text": "Uniform 30-day timeline (rationalised from a prior 30/60/90-day system) combined with a fully digital, no-physical-verification process." },
+        { "flag": "REFORM", "text": "Expert-recommended improvements: a better drawing-upload facility for large document sets, and clearer category-specific in-portal guidance for new applicants." },
+        { "flag": "VAGUE", "text": "The report gives two different validity/completion windows — 1 year from issuance to commence construction, and a separate 2-to-3-year goal to complete construction and obtain the final Factory Licence — without clarifying what happens if construction is not completed within 2-3 years." },
+        { "flag": "MISSING", "text": "The 'senior level' to which a further query may be escalated after an unsatisfactory response is not named or defined by designation." }
+      ]
+    }
+  ]
+}

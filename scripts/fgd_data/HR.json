@@ -1,0 +1,618 @@
+{
+  "code": "HR",
+  "name": "Haryana",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": ["HR_FGD_CTE.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named in the discussion; participants referred only to 'the department' granting Consent to Establish, and separately to Forest, Town Planning, Pollution Control and Fire departments whose clearances feed into the CTE process.",
+      "portal": {"name": null, "url": null},
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 30,
+        "basis": "Participant testimony describing the stipulated timeline that was reportedly met in most cases.",
+        "text": "CTE approvals were reported as being processed within the stipulated 30-day timeline in most cases. The principal source of delay participants identified lies upstream of CTE, in the industrial land allotment process."
+      },
+      "automationLevel": "unclear",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants described general document checklists but did not enumerate a specific document list for Consent to Establish; the main compliance-cost concern raised was the absence of standard sample/reference formats alongside published checklists, and unclear documentation requirements generally.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": 30,
+        "text": "Participants sought clarity on whether a deemed-approval provision applies when the department does not respond within the stipulated 30-day period; no participant or moderator confirmed whether one exists."
+      },
+      "validity": {
+        "text": "Consent to Establish is valid for three years; if the plant has not been set up within that period, the applicant must re-apply for consent from scratch, per participant testimony."
+      },
+      "fees": {
+        "text": "No specific CTE fee amount was stated. Participants described the combined cost of obtaining clearances from the Forest, Town Planning, Pollution Control and Fire departments as consuming a large share of total project investment (cited as significant relative to a one-crore-rupee project budget), without isolating a fee figure for CTE itself."
+      },
+      "steps": [
+        {"n": 1, "phase": "pre", "title": "Engage a consultant to interpret documentation and format requirements", "automated": false, "note": "Consultants are generally engaged to explain documentation requirements, while application filing is typically carried out by the applicant."},
+        {"n": 2, "phase": "apply", "title": "File Consent to Establish application with required documents", "automated": null, "note": "Published checklists specify required documents but do not include a reference/sample format, which participants said affects preparation accuracy."},
+        {"n": 3, "phase": "scrutiny", "title": "Department reviews application against the 30-day stipulated timeline", "automated": null, "note": "Most participants reported receiving consent within 30 days; whether a deemed-approval provision applies beyond this period was not confirmed."},
+        {"n": 4, "phase": "approve", "title": "Consent to Establish issued, valid for 3 years", "automated": null, "note": "Reapplication from scratch is required if construction/commissioning has not begun within the 3-year validity period."}
+      ],
+      "remarks": [
+        "This is an FGD-only record (Consent to Establish session, Sonipat, 26-08-2026) and has not been verified against an official ED source for Haryana CTE.",
+        "Participants reported general satisfaction with the CTE process itself, distinguishing it from post-establishment compliance requirements; compliance costs were described as an accepted cost of doing business rather than a major grievance.",
+        "The principal source of delay participants identified occurs upstream of CTE, in the industrial land allotment process, described as auction-based, increasing land cost and reducing access for smaller manufacturers."
+      ],
+      "findings": [
+        {"source": "fgd", "category": "pain", "tags": ["INTERDEP", "FEES"], "sentiment": "issue", "text": "Establishing a unit requires clearances from multiple departments (Forest, Town Planning, Pollution Control, Fire), each adding to overall cost and time with a disproportionate impact on smaller applicants."},
+        {"source": "fgd", "category": "pain", "tags": ["NORMS"], "sentiment": "issue", "text": "Mandatory environmental compliance (e.g., water treatment) is applied without regard to a unit's actual scale or pollution potential, illustrated by participants via a boiler-capacity comparison."},
+        {"source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Applicants often do not understand what documents are required or in what format they should be prepared."},
+        {"source": "fgd", "category": "pain", "tags": ["INTERDEP", "OTHER"], "sentiment": "issue", "text": "Industrial land is allotted through an auction-based process, which participants said has increased land cost and reduced access for smaller manufacturers, a major upstream hurdle before a unit can reach the CTE stage."},
+        {"source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "No differentiated regulatory framework exists for Micro/Small enterprises; the same compliance regime, documentation and conditions apply irrespective of enterprise category."},
+        {"source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Environmental Clearance requirements are not scaled to enterprise size or pollution potential; participants felt this should apply primarily to large-scale, high-impact units."},
+        {"source": "fgd", "category": "policy", "tags": ["DUPDOC", "CLARITY"], "sentiment": "issue", "text": "No standard/sample document templates are mandated alongside published checklists, leaving applicants to interpret format and content requirements on their own or via consultants."},
+        {"source": "fgd", "category": "policy", "tags": ["RENEWAL", "COMPLY"], "sentiment": "issue", "text": "The 3-year Consent to Establish validity period is not aligned with realistic project execution timelines, requiring reapplication from scratch if construction/commissioning is delayed."},
+        {"source": "fgd", "category": "policy", "tags": ["CLARITY", "INTERDEP"], "sentiment": "issue", "text": "No settled, clearly communicated policy exists on whether units within an already area-cleared industrial estate/park are exempt from unit-level Environmental Clearance."},
+        {"source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Published checklists specify required documents but do not include a reference format, affecting preparation accuracy."},
+        {"source": "fgd", "category": "procedural", "tags": ["CONSULT"], "sentiment": "neutral", "text": "Consultants are generally engaged to explain documentation requirements, while application filing is typically carried out by the applicant directly."},
+        {"source": "fgd", "category": "procedural", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "No provision exists for expedited processing of applicants with a prior record of establishing and operating compliant units."},
+        {"source": "fgd", "category": "procedural", "tags": ["QUERY", "CLARITY"], "sentiment": "issue", "text": "Participants noted initial uncertainty about the nature of status communication, namely whether updates are issued at each processing stage or only as an immediate submission response."},
+        {"source": "fgd", "category": "procedural", "tags": ["QUERY", "TIMELINE"], "sentiment": "issue", "text": "Clarity was sought on whether a deemed-approval provision applies in cases where the department does not respond within the stipulated 30-day period."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "Participants did not identify duplicate document submission as a significant concern specific to the CTE process; the prescribed document set does not vary by unit size."},
+        {"source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "positive", "text": "CTE approvals were reported as being processed within the stipulated 30-day timeline in most cases."},
+        {"source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "The principal source of delay identified by participants occurs prior to the CTE stage, in connection with the land allotment process."},
+        {"source": "fgd", "category": "delay", "tags": ["CLARITY"], "sentiment": "issue", "text": "Limited familiarity with documentation requirements was noted as a contributing factor to errors and resubmission, extending overall processing time."},
+        {"source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Establish a differentiated, simplified compliance category for Micro and Small enterprises, and align Environmental Clearance requirements with the size and pollution potential of the unit."},
+        {"source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants reported general satisfaction with the CTE process specifically, distinguishing it from post-establishment compliance requirements; compliance costs were characterised as an accepted operating cost."}
+      ],
+      "quotes": [
+        {"speaker": "Business Participant", "quote": "The environmental norm shouldn't be the same for a small industry as for a large one, a boiler producing steam at 1,000 kg capacity cannot be treated the same as one requiring 25 lakh kcal of thermal capacity.", "topic": "Uniform Norms Across Enterprise Size", "tags": ["NORMS"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "For a unit with a one-crore budget, the cost of collecting permissions from the Forest Department, Town Planning, Pollution Control and Fire Department alone can eat up a large share of the investment.", "topic": "Compliance Cost / Multiple Permissions", "tags": ["INTERDEP", "FEES"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "The documentation requirements are not clearly communicated, making it difficult for applicants to understand and submit the required documents correctly.", "topic": "Documentation Clarity", "tags": ["CLARITY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "Consent to Establish is valid for three years, if you haven't set up the plant within that period, you have to apply for consent all over again.", "topic": "Validity Period", "tags": ["RENEWAL"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "We got our consent within 30 days; no issue arises there.", "topic": "Approval Timeline", "tags": ["TIMELINE"], "sentiment": "positive"}
+      ],
+      "gaps": [
+        {"flag": "MISSING", "text": "The issuing authority/department for CTE was not explicitly named in the discussion."},
+        {"flag": "MISSING", "text": "No specific CTE fee amount was given; only the combined cost of multi-department clearances relative to project budget was described."},
+        {"flag": "MISSING", "text": "No portal name was mentioned for CTE applications."},
+        {"flag": "VAGUE", "text": "Whether a deemed-approval provision applies when the department does not respond within the stipulated 30-day period was not confirmed either way."},
+        {"flag": "VAGUE", "text": "Document requirements were described only generically as 'checklists'; no specific document list was enumerated by participants."},
+        {"flag": "GOOD_PRACTICE", "text": "CTE approvals were reported as processed within the stipulated 30-day timeline in most cases."},
+        {"flag": "REFORM", "text": "Suggested differentiating compliance/EC requirements by enterprise size and pollution potential, and extending the 3-year CTE validity period to better match realistic project execution timelines."}
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": ["HR_FGD_CTO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not stated with certainty. Most participant interactions were described as being with HSIIDC (Haryana State Industrial and Infrastructure Development Corporation), which functions as the applicant-facing body; a participant separately cited 'HSPCB's published guideline of 21 working days' as the source of the stated timeline, suggesting the Haryana State Pollution Control Board is the approving authority, though this was not stated explicitly as such.",
+      "portal": {"name": "HSIIDC portal", "url": null},
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "Participant testimony; a published HSPCB guideline of 21 working days was cited by one participant but was unknown to nearly everyone else in the room, and actual experience ranged unpredictably.",
+        "text": "Participants cited a published HSPCB guideline of 21 working days (unknown to nearly everyone in the room), alongside lived experience ranging widely, with one participant saying CTO could take up to five years to renew."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": ["Project report (air/water pollution category classification), prepared from scratch in HSIIDC's specific format", "KYC documents", "Building/plot NOC", "Plant and machinery NOC", "CA certificate for fixed assets", "Production and profit projections"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Core documents were not seen as excessive by participants, though the project report must reportedly be recreated from scratch in HSIIDC's specific format even where the applicant already has an internal version of similar content.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed-approval or escalation provision was mentioned by participants; the 21-working-day HSPCB guideline was described as poorly known/communicated rather than as a binding or auto-triggering deadline."
+      },
+      "validity": {
+        "text": "CTO renewal validity periods were described as varying, with participants citing ranges from one year up to five years; no standardised, communicated basis for this variation was reported."
+      },
+      "fees": {
+        "text": "No official CTO fee amount was stated. One participant reported paying approximately Rs 56,000 to an informal consultant/'licensing officer' for the application process overall, without a clear sense of whether this was a fair amount."
+      },
+      "steps": [
+        {"n": 1, "phase": "pre", "title": "Learn that CTE/CTO consent is required", "automated": false, "note": "Several participants, including a large-scale unit, said they had no idea CTE or CTO were needed before starting their plant; one lost six months purely from lack of awareness."},
+        {"n": 2, "phase": "pre", "title": "Engage an informal consultant/'licensing officer'", "automated": false, "note": "Applicants rely almost entirely on informal consultants as intermediaries with HSIIDC; one participant paid roughly Rs 56,000 for this service."},
+        {"n": 3, "phase": "apply", "title": "Prepare project report (air/water pollution category classification) in HSIIDC's specific format", "automated": false, "note": "Flagged as the most time-consuming step, taking three to six months to prepare."},
+        {"n": 4, "phase": "apply", "title": "Submit application and documents via HSIIDC portal", "automated": "partial", "note": "Consultants generally do not share portal status with the applicant; many participants had never seen the tracking portal themselves."},
+        {"n": 5, "phase": "scrutiny", "title": "Department reviews application", "automated": null, "note": "HSPCB's published guideline is 21 working days, but actual timelines were reported as highly inconsistent, up to several years in one case."},
+        {"n": 6, "phase": "approve", "title": "CTO issued with a validity period", "automated": null, "note": "Validity reported to vary from one to five years with no standardised communicated basis."}
+      ],
+      "remarks": [
+        "This is an FGD-only record (Consent to Operate session, Sonipat, 26-08-2026) and has not been verified against an official ED source for Haryana CTO.",
+        "Participants across scales, from a micro cleaning-products manufacturer to a large non-woven fabric unit, described a broadly similar experience of near-total dependence on informal consultants and little direct engagement with the HSIIDC portal.",
+        "Several concerns raised sit adjacent to CTO rather than within it (power supply reliability, generator-use restrictions, water supply, labour department encounters, road/commute conditions) but were described by participants as compounding the overall difficulty of operating.",
+        "One participant praised the multi-channel reminder approach (call, email, WhatsApp, follow-up call) used by the CoR 2.0 team to organise this FGD as a model other government departments could replicate for outreach."
+      ],
+      "findings": [
+        {"source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Almost all participants, including a large-scale unit, had no idea what CTE or CTO were before starting their plant; one participant lost six months purely because no one told him these approvals were needed."},
+        {"source": "fgd", "category": "pain", "tags": ["CONSULT", "FEES"], "sentiment": "issue", "text": "Applicants rely almost entirely on informal consultants ('licensing officers') as intermediaries with HSIIDC; one participant paid around Rs 56,000 for this service without a clear sense of whether the fee was reasonable."},
+        {"source": "fgd", "category": "pain", "tags": ["CONSULT", "PORTAL"], "sentiment": "issue", "text": "Consultants generally do not share portal status with the applicant; participants working through a consultant said they had never checked or even seen the application-tracking portal themselves."},
+        {"source": "fgd", "category": "pain", "tags": ["CAPACITY", "CLARITY"], "sentiment": "issue", "text": "No single-window or nodal officer exists at HSIIDC offices to guide first-time applicants; existing staff were seen as already overloaded and unable to explain industry-specific requirements."},
+        {"source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Timelines are highly inconsistent and can run for years; one participant said CTO could take up to five years to renew, while HSPCB's published 21-working-day guideline was unknown to nearly everyone in the room."},
+        {"source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Direct interactions with officials were described as stressful even when the business was not at fault; one participant recounted a labour department team entering the plant over a case tied to a previous occupant and struggling to get them to leave."},
+        {"source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Participants said HSIIDC has not proactively reached out to them in years; one said there had been no call from HSIIDC in three years, unlike the local industry association."},
+        {"source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "No published, step-by-step guide exists for consent, leaving first-time applicants to learn the process by trial and error or word-of-mouth referral to a consultant."},
+        {"source": "fgd", "category": "policy", "tags": ["TIMELINE", "CLARITY"], "sentiment": "issue", "text": "The 21-working-day statutory timeline cited by a participant is not effectively communicated to applicants, so there is no shared expectation against which delays can be flagged."},
+        {"source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Environmental compliance documentation (project report, air/water pollution category classification) appeared to follow a uniform template regardless of industry size or nature, which participants felt was not proportionate for smaller units."},
+        {"source": "fgd", "category": "policy", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Subsidy and incentive scheme information (machinery subsidy, MSME loan schemes) is not proactively pushed to units that already have their records on file with the government."},
+        {"source": "fgd", "category": "procedural", "tags": ["CONSULT", "PORTAL"], "sentiment": "issue", "text": "Applicants working through a consultant have no direct visibility into the application's movement on the portal; the consultant is the sole channel of information."},
+        {"source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Preparing the project report from scratch was consistently flagged as the most time-consuming step, taking three to six months to prepare."},
+        {"source": "fgd", "category": "procedural", "tags": ["INTERDEP", "TIMELINE"], "sentiment": "issue", "text": "Utility and allied approvals (direct electricity line, security deposit, borewell/RO water) run in parallel with CTO and add to the overall time before a plant becomes fully operational, despite sitting outside the formal CTO process."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "Core supporting documents (KYC, building/plot NOC, plant and machinery NOC, CA certificate, production and profit projections) were not seen as excessive; participants said these are standard documents they already maintain."},
+        {"source": "fgd", "category": "delay", "tags": ["CLARITY"], "sentiment": "issue", "text": "Lack of awareness among first-time applicants of which approvals are even required was reported to cost several months before the correct process even began."},
+        {"source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Departmental understaffing was cited directly; participants said that in many offices 'the staff isn't there' or 'one person is overloaded,' which they linked to delays."},
+        {"source": "fgd", "category": "suggestions", "tags": ["CAPACITY", "CLARITY"], "sentiment": "suggestion", "text": "Set up a clearly demarcated, dedicated HSIIDC counter or nodal officer for applicants so new entrants know where to go without depending on informal consultants."},
+        {"source": "fgd", "category": "suggestions", "tags": ["PORTAL", "QUERY"], "sentiment": "suggestion", "text": "Make departmental queries and portal status specific, naming the exact document, drawing or detail pending, rather than a generic 'under process' status."},
+        {"source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "One participant praised the multi-channel reminder approach (call, email, WhatsApp, follow-up call) used by the CoR 2.0 team to organise the FGD as a model government departments could replicate for outreach."}
+      ],
+      "quotes": [
+        {"speaker": "Business Participant", "quote": "When the plant was set up, the applicant wasn't even aware that CTE or CTO consent was required; it took the applicant six months before someone guided and also that a consultant could be hired.", "topic": "Lack of First-Time Applicant Awareness", "tags": ["CLARITY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "The portal's language is too complex to understand, so they need a liaison officer who can translate their requirement into what HSIIDC needs and act as a bridge.", "topic": "Agent/Consultant Dependency", "tags": ["PORTAL", "CONSULT"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "The documentation requirements are not clearly communicated, making it difficult for applicants to understand and submit the required documents correctly.", "topic": "Documentation Clarity", "tags": ["CLARITY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "In the last three years, the HSIIDC hasn't reached out the participants to ask whether they are facing any problem; it's only the industrial association that is proactive about bringing people together.", "topic": "Lack of Proactive Departmental Outreach", "tags": ["CAPACITY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "The fees paid by the users to the consultant was 56 thousand rupees for the application process, and they don't know if that was a fair amount because they had nothing to compare it against.", "topic": "Consultant Cost / Fee Transparency", "tags": ["FEES", "CONSULT"], "sentiment": "issue"}
+      ],
+      "gaps": [
+        {"flag": "MISSING", "text": "No official CTO fee schedule was stated; only one informal consultant payment figure (around Rs 56,000) was given."},
+        {"flag": "MISSING", "text": "No HSIIDC portal URL was given, and the exact issuing authority for CTO was not stated with certainty."},
+        {"flag": "VAGUE", "text": "The 21-working-day HSPCB guideline was unknown to nearly everyone in the room; actual reported timelines ranged unpredictably up to five years, with no consistent figure confirmable from testimony."},
+        {"flag": "VAGUE", "text": "CTO renewal validity period basis (cited range of one to five years) was not clearly explained to applicants."},
+        {"flag": "REFORM", "text": "Suggested a dedicated HSIIDC counter/nodal officer for first-time applicants, specific (not generic) portal status messaging, and proactive multi-channel communication of statutory timelines and subsidy/incentive schemes."}
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFiles": ["HR_FGD_ECL.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named; participants referred generically to 'the department'/electricity utility granting connections, without naming Haryana's specific power distribution utility (e.g., UHBVN/DHBVN) in the transcript.",
+      "portal": {"name": null, "url": null},
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 30,
+        "basis": "A stated departmental norm cited by participants, frequently not met in practice.",
+        "text": "Participants cited a stated 30-day processing norm for connection/load applications, but said it is frequently not met; load-extension applications were reported pending for several months (one case over six months) on the stated ground of 'no electricity/capacity available.'"
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": ["Aadhaar", "Property/registry papers", "Business/organisation proof", "Partnership or company certificate"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not identify document duplication as a significant concern; the principal burden reported was unlisted 'add-on' documents requested informally after initial submission, not duplication of the core document set.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No clearly communicated deemed approval or escalation provision applies when the stipulated 30-day processing timeline is exceeded, per participants."
+      },
+      "validity": {
+        "text": "Validity/renewal of the connection itself was not discussed; participants instead focused on seasonal agro-processing units being charged a flat fixed monthly charge year-round (even during up to 6 months/year of non-operation), with reapplication for a different, seasonally-aligned connection category not permitted."
+      },
+      "fees": {
+        "text": "No standard, publicly available fee/security-deposit schedule was described; participants said the applicable security deposit amount is disclosed only via an automatically generated payment link after registration. Separately, participants reported informal/under-the-table payments as necessary at multiple stages (application processing, meter installation, CT purchase, wiring), quoted at roughly Rs 1,000 per kW or as lump sums of Rs 20,000 to over Rs 1 lakh paid to private contractors/agents, without which processing reportedly stalls indefinitely."
+      },
+      "steps": [
+        {"n": 1, "phase": "apply", "title": "Register/apply for connection or load extension", "automated": "partial", "note": "Nominally online; a security-deposit payment link is auto-generated after registration, disclosing the amount for the first time."},
+        {"n": 2, "phase": "fee", "title": "Pay security deposit", "automated": true, "note": null},
+        {"n": 3, "phase": "scrutiny", "title": "Document verification and fee computation", "automated": false, "note": "Reported as manual/discretionary; applicants often route through a Common Service Centre (CSC) or private agent."},
+        {"n": 4, "phase": "scrutiny", "title": "Procure and arrange last-mile infrastructure (transformers, poles, wiring) above a defined load threshold", "automated": false, "note": "Above a cited 15-50 kW threshold, this becomes the applicant's own responsibility, not clearly communicated upfront."},
+        {"n": 5, "phase": "approve", "title": "Meter allocation and installation", "automated": false, "note": "Participants reported informal payments as necessary to get a meter installed or corrected; no system-generated interim status updates are issued."}
+      ],
+      "remarks": [
+        "This is an FGD-only record (Electricity Connection session, Sonipat, 26-08-2026) and has not been verified against an official ED source for Haryana ECL.",
+        "There was broad consensus among participants that informal payment, rather than any documentation requirement, is the actual determinant of processing speed.",
+        "Participants distinguished between a comparatively straightforward process for an initial, low-load connection and a substantially more difficult process for load extension or higher-capacity connections.",
+        "Multiple participants reported operating across two locations simultaneously because of unresolved extension requests, incurring duplicate rent and financing costs."
+      ],
+      "findings": [
+        {"source": "fgd", "category": "pain", "tags": ["TIMELINE", "INFORMAL"], "sentiment": "issue", "text": "Load-extension applications (e.g., 50 kW to 300 kW) remain pending for several months on the stated ground of 'no electricity/capacity available,' halting production and forcing continued operation from, and rent payment on, a second location."},
+        {"source": "fgd", "category": "pain", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue", "text": "No defined or communicated processing timeline is experienced in practice; the stated 30-day norm is frequently not met, and no interim status updates are issued."},
+        {"source": "fgd", "category": "pain", "tags": ["CLARITY", "OTHER"], "sentiment": "issue", "text": "Above a certain load threshold (cited as 15-50 kW), last-mile infrastructure including transformers, poles and wiring must be procured and arranged by the applicant, though this is not clearly communicated upfront as the applicant's responsibility."},
+        {"source": "fgd", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Informal/under-the-table payments are reported as necessary at multiple stages (application processing, meter installation, CT purchase, wiring), quoted at roughly Rs 1,000 per kW or as lump sums of Rs 20,000 to over Rs 1 lakh; without such payment, processing reportedly stalls indefinitely."},
+        {"source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Faulty or inaccurate meters were reported (e.g., a meter showing 90 kW against an actual 6 kW load), with billing based on the incorrect reading and a further informal payment required just to get the meter corrected."},
+        {"source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Repeated power theft on the line was reported, with photographic/video evidence submitted, but no action was taken by the department or police."},
+        {"source": "fgd", "category": "pain", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "The per-kW security deposit amount is not published anywhere; applicants learn the amount only via an automatically generated payment link after registration."},
+        {"source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "A sanctioned solar connection remained physically unconnected for over 1.5 years, while fixed monthly charges continued to be levied on the non-functional connection."},
+        {"source": "fgd", "category": "pain", "tags": ["NORMS"], "sentiment": "issue", "text": "Seasonal agro-processing units are charged a flat fixed monthly charge even during months the plant is not operational, and reapplication for a different connection category aligned to actual seasonal use is not permitted."},
+        {"source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "No published policy clearly demarcates utility responsibility from applicant responsibility for last-mile infrastructure above a defined load threshold."},
+        {"source": "fgd", "category": "policy", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "No standard, publicly available fee/security-deposit schedule exists; the applicable amount is disclosed only through an automated payment link generated post-registration."},
+        {"source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "No documented grievance-redressal mechanism exists for verified power-theft complaints submitted with photographic/video evidence."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "The application is nominally online, but actual processing (document verification, fee computation, meter allocation) remains manual and discretionary, often requiring physical follow-up or routing through a CSC or private agent."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "No visible, current checklist of required documents is available on the official portal; where a list exists it is often outdated or difficult to navigate."},
+        {"source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Additional, previously unlisted 'add-on' documents are frequently requested after initial submission, extending the process unpredictably."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "Participants did not identify document duplication as a significant concern; the core document set (Aadhaar, property/registry papers, business proof, partnership or company certificate) was considered reasonable."},
+        {"source": "fgd", "category": "delay", "tags": ["OTHER"], "sentiment": "issue", "text": "The primary driver of delay identified by participants is unavailability of transformer/grid capacity rather than any step within the applicant's own documentation or application process."},
+        {"source": "fgd", "category": "delay", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Absence of informal payment was repeatedly cited as directly causing indefinite delay or non-response from the department."},
+        {"source": "fgd", "category": "suggestions", "tags": ["FEES", "CLARITY"], "sentiment": "suggestion", "text": "Publish a standard, binding schedule of security deposit and connection charges by load slab (Rs/kW), accessible before application."},
+        {"source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Strengthen and publicise a functioning grievance-redressal mechanism for power-theft complaints supported by photographic/video evidence."}
+      ],
+      "quotes": [
+        {"speaker": "Business Participant", "quote": "We've been going around in circles for over a year, from one official to another; nothing moves unless money changes hands.", "topic": "Informal Payments / Delay", "tags": ["INFORMAL"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "I applied for a 300-kW extension in March. I also paid the security deposit; six months later, there's still no update, they simply say 'the connection isn't available yet and they will act once it is,' while I keep paying rent on two locations.", "topic": "Load Extension Delay / No Status Update", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "The meter showed a reading for 90 kW when the actual load was only 6 kW, and we were still billed for the incorrect reading.", "topic": "Meter Accuracy / Billing", "tags": ["OTHER"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "Unless you pay something extra, they'll say the meter simply isn't available; the moment you pay, it appears within hours.", "topic": "Informal Payments", "tags": ["INFORMAL"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "We paid the fee two months ago for the category change from HDS to Agro industry, along with the solar net metering, but there's been no response since. At every level we're told to pay a bribe to get it done and even after paying, the work still hasn't happened.", "topic": "Delay for Category Change / Informal Payments", "tags": ["INFORMAL", "TIMELINE"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "There is no communication at all; we only get confirmation that the security deposit was received; nothing tells us whether documents are complete or when the meter will be installed.", "topic": "Status Communication Gap", "tags": ["QUERY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "Above a certain load, the transformer and wiring become our own responsibility; the department gives you the line, but you have to arrange everything beyond that yourself.", "topic": "Infrastructure Cost Shift", "tags": ["CLARITY"], "sentiment": "issue"}
+      ],
+      "gaps": [
+        {"flag": "MISSING", "text": "The issuing utility/discom was not named in the discussion."},
+        {"flag": "MISSING", "text": "No published per-kW security deposit/fee schedule exists; the amount is disclosed only post-registration via an automated payment link."},
+        {"flag": "VAGUE", "text": "The stated 30-day timeline was not consistently experienced in practice; no clear data on typical actual duration could be established from testimony."},
+        {"flag": "REFORM", "text": "Suggested publishing a standard, binding schedule of security deposit/connection charges by load slab, introducing system-generated milestone notifications, clearly defining utility vs. applicant responsibility for last-mile infrastructure, and introducing a seasonal/differentiated tariff structure for seasonal agro-processing units."}
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFiles": ["HR_FGD_FAL.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named within this session; the related Factory Building Plan Approval (FBPA) session for Haryana states that after building plan approval, the license file moves to the Labour Department at Faridabad, suggesting Haryana's Labour Department is the issuing authority for Factory License, though this was not confirmed within the FAL session itself.",
+      "portal": {"name": "Invest Haryana portal", "url": null},
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 45,
+        "basis": "Participant testimony: a fresh (first-time) license reported taking about 30 to 45 days in practice.",
+        "text": "A fresh license takes about a month in practice (30 to 45 days). Participants accepted this for a first-time grant since all verification must be done, but felt it could be shortened. Authority comments typically appear only 10 to 15 days after submission, and the application then passes through three to four authority levels."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": ["Latest electricity bill", "Proof of labour welfare payment", "Number of manpower", "Canteen and welfare details", "Rent agreement or chain of title for rented premises", "GST number", "Appointment letters of welfare and safety officers", "List of directors", "MCA documents", "Occupier's resolution", "NOC or declaration (first time only)"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants felt the documents required were reasonable and equally applicable to small and large units, and did not report duplication in a fresh application; the duplication concern raised was specific to renewal, where details already submitted (canteen, employee numbers, area) were requested again.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No communicated deemed approval or escalation route exists when the stated timeline is exceeded; participants described files as going 'on hold' with no automatic approval or rejection until authority comments are posted. The stated time limit itself was cited inconsistently, variously as 30 days and as 45 working days."
+      },
+      "validity": {
+        "text": "Only a single license validity period (five years) is available, with no shorter options (e.g., one or three years) that participants said some other states offer; fees for the full five-year term must be paid upfront."
+      },
+      "fees": {
+        "text": "Fee calculation is automatic, based on horsepower and manpower, so applicants learn the exact amount only during the process; participants said the fee has increased substantially and that paying for five years upfront is a heavy burden for new or uncertain businesses. On amendment/renewal, fees are reportedly charged from the start of the license period rather than from the year manpower or load actually increased. Payment is via online payment or an e-GRAS challan (payable at SBI); online payment does not work with some banks (e.g., Bank of Baroda), forcing some applicants to pay by UPI from a personal account. A wrong entry in an e-GRAS challan (e.g., wrong plot number) cannot be edited or refunded, requiring the applicant to pay again."
+      },
+      "steps": [
+        {"n": 1, "phase": "pre", "title": "New/transferred staff learn documentation requirements (e.g., board resolution format)", "automated": false, "note": "New joiners in a company do not know the expected format of documents and upload samples that are then queried."},
+        {"n": 2, "phase": "apply", "title": "Complete and submit application on the Invest Haryana portal; OTP-verify the generated form", "automated": "partial", "note": "After the form is generated online and verified by OTP, a signed copy still has to be printed, signed and re-uploaded."},
+        {"n": 3, "phase": "fee", "title": "Pay fee (calculated automatically on horsepower/manpower) via online payment or e-GRAS challan", "automated": "partial", "note": "Online payment does not work with some banks; e-GRAS challan errors (e.g., wrong plot number) cannot be corrected or refunded."},
+        {"n": 4, "phase": "scrutiny", "title": "Application reviewed sequentially by three to four authority levels", "automated": false, "note": "Authority comments typically appear only 10 to 15 days after submission; documents can be added only after the application is published."},
+        {"n": 5, "phase": "scrutiny", "title": "Respond to objections/comments (e.g., document format queries, labour welfare payment comment)", "automated": false, "note": "No fixed response time communicated for the department side; file goes on hold until comments come from their side."},
+        {"n": 6, "phase": "approve", "title": "License issued", "automated": null, "note": "No expiry reminder is sent; emails from the Invest Haryana portal are generic and do not show the application's stage."}
+      ],
+      "remarks": [
+        "This is an FGD-only record (Factory License session, Faridabad Industries Association, 09-10-2026) and has not been verified against an official ED source for Haryana FAL.",
+        "Participants distinguished the fresh license (accepted as inherently longer, given necessary verification) from renewal and amendment, where they expected near-automatic, quick processing instead.",
+        "Participants did not report significant portal downtime.",
+        "Several participants raised the issue of company representatives changing over time, leaving new staff without knowledge of licensing requirements."
+      ],
+      "findings": [
+        {"source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "A fresh license takes about a month in practice (30 to 45 days); participants accepted this for a first-time grant but felt it could be shortened."},
+        {"source": "fgd", "category": "pain", "tags": ["CLARITY", "QUERY"], "sentiment": "issue", "text": "It is unclear whether building drawings must be re-approved after a new setup or expansion; one unit's factory license had been pending about three months on this account with no comments or updates from the department."},
+        {"source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Authority comments typically appear only 10 to 15 days after submission, and the application then passes through three to four authority levels."},
+        {"source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "The fee has increased substantially; paying for five years upfront is a heavy burden for new or uncertain businesses."},
+        {"source": "fgd", "category": "pain", "tags": ["CLARITY", "QUERY"], "sentiment": "issue", "text": "Objections are frequently raised on uploaded documents; new joiners do not know the expected format of documents (e.g., board resolution) and upload samples that are then queried."},
+        {"source": "fgd", "category": "pain", "tags": ["PORTAL", "FEES"], "sentiment": "issue", "text": "Online payment does not work with some banks (e.g., Bank of Baroda); a company with only that account had to pay by UPI from a personal account."},
+        {"source": "fgd", "category": "pain", "tags": ["FEES", "RENEWAL"], "sentiment": "issue", "text": "On amendment or renewal, fees are reportedly charged from the start of the license period rather than from the year manpower or load increased."},
+        {"source": "fgd", "category": "pain", "tags": ["PORTAL", "FEES"], "sentiment": "issue", "text": "A wrong entry in an e-GRAS challan (e.g., wrong plot number) cannot be edited or refunded, so the applicant must pay again."},
+        {"source": "fgd", "category": "pain", "tags": ["QUERY", "RENEWAL"], "sentiment": "issue", "text": "No expiry reminder is received; emails from the Invest Haryana portal are generic and do not show the stage of the application."},
+        {"source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "No clear guidance exists on whether drawing approval is required again after a new setup or expansion."},
+        {"source": "fgd", "category": "policy", "tags": ["RENEWAL", "FEES"], "sentiment": "issue", "text": "Only a single, long license validity (five years) is perceived, with no shorter options such as one or three years that some other states offer."},
+        {"source": "fgd", "category": "policy", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue", "text": "No communicated deemed approval or escalation route exists when the stated timeline is exceeded; participants cited the stated limit variously as 30 days and 45 working days."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The process is online (it was manual earlier), and no physical inspection was reported by participants who had applied online; however, units with pending cases still needed in-person follow-up."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "A checklist of documents is available on the state portal and tracking is available; authority comments typically appear only after 10 to 15 days."},
+        {"source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "issue", "text": "File movement between levels at renewal was described as slow, with 5 to 10 days at each step even when the first level had cleared the file."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "Participants felt the documents required were reasonable and equally applicable to small and large units; the duplication concern raised was specific to renewal, where details already submitted were requested again."},
+        {"source": "fgd", "category": "delay", "tags": ["CLARITY"], "sentiment": "issue", "text": "Uncertainty on drawing approval requirements after a new setup was cited as a reason for delay."},
+        {"source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Reduce the first-time license timeline to about 20 days from the current 30 to 45 days."},
+        {"source": "fgd", "category": "suggestions", "tags": ["RENEWAL", "FEES"], "sentiment": "suggestion", "text": "Offer license validity options of one, three or five years, or a ten-year license with fees paid after five years, so new businesses are not charged five years upfront."},
+        {"source": "fgd", "category": "suggestions", "tags": ["QUERY", "DUPDOC"], "sentiment": "suggestion", "text": "Send expiry reminders and stage-wise status notifications naming the authority the file is with; publish sample/reference formats for all required documents, including the board resolution."}
+      ],
+      "quotes": [
+        {"speaker": "Business Participant", "quote": "For the first license it does take time. It took about a month, at least, and up to 45 days.", "topic": "Processing Timeline", "tags": ["TIMELINE"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "New joiners don't know the documents. If there were a sample of each document, it would be much easier.", "topic": "Documentation Guidance", "tags": ["CLARITY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "There's no clarity on drawing approval. We've made a new setup and still don't know whether the drawing has to be approved again. It's been three months, with no update.", "topic": "Drawing Approval Ambiguity", "tags": ["CLARITY", "QUERY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "If five years is the only option, a newly started industry has to pay a lot at once. A three-year option in between would help.", "topic": "License Validity / Fee Burden", "tags": ["FEES", "RENEWAL"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "We get no SMS or email at any stage, only a mail saying the remarks have been updated.", "topic": "Status Communication Gap", "tags": ["QUERY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "They don't reject and they don't approve. The file just goes on hold until comments come from their side.", "topic": "No Deemed Approval / Hold", "tags": ["TIMELINE"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "Drafts save only the basic factory details. Documents we upload are lost if we exit without clicking save.", "topic": "Portal Usability", "tags": ["PORTAL"], "sentiment": "issue"}
+      ],
+      "gaps": [
+        {"flag": "VAGUE", "text": "The stated processing-time limit was cited inconsistently by participants (30 days vs. 45 working days)."},
+        {"flag": "MISSING", "text": "No clarity on whether building drawings must be re-approved after a new setup or expansion; one case was pending about 3 months on this account with no comments."},
+        {"flag": "MISSING", "text": "The issuing authority was not explicitly named within this session."},
+        {"flag": "GOOD_PRACTICE", "text": "The application process moved from manual to online, with a checklist and tracking available on the state portal, and participants did not report significant portal downtime."},
+        {"flag": "REFORM", "text": "Suggested shorter license validity options (one/three years) or a ten-year license with fee paid after five years, expiry reminders and stage-wise status notifications naming the authority holding the file, enabling payment from all government banks with a correction/refund route for wrong e-GRAS entries, and publishing sample/reference document formats."}
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFiles": ["HR_FGD_FBPA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not named as a specific department/designation beyond 'the draftsman' at a centralised office in Chandigarh who checks drawings, and references to a 'Joint Director' at the district level (the role participants wanted empowered to approve locally, as was reportedly done earlier at Gurgaon).",
+      "portal": {"name": "Invest Haryana portal", "url": null},
+      "timeline": {
+        "minDays": 25,
+        "maxDays": 50,
+        "basis": "Participant testimony; accounts varied considerably.",
+        "text": "Building plan approval reported taking 40 to 50 days typically, called the most lengthy step of the process. One participant said 45 days is the limit written on the website; one participant's own approval was done in about 30 days; another applicant was told 25 to 30 days is usual."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": ["List of owners and directors", "Process plan (manufacturing plan, volume and process)", "GST registration", "Memorandum", "Board meeting resolution", "Plot registry or lease deed (if plot is rented)"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not raise document duplication as a concern; the only duplication raised was in verification, drawings are prepared and already approved by Haryana government-certified/licensed architects, yet checked again by the state draftsman. One participant said the portal gives no list of documents or guidance on attaching them.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No participant could name a grievance mechanism for this process. A 4-to-5-day response window is defined for the applicant to close a query, but no corresponding time limit was reported for the department's own checking; whether any deemed-approval provision exists was not addressed."
+      },
+      "validity": {
+        "text": "Validity of the Factory Building Plan Approval itself was not discussed; participants described it as a prerequisite step before applying for the Factory License."
+      },
+      "fees": {
+        "text": "No fee amount for Factory Building Plan Approval itself was stated. Architect fees (for preparing the drawing/building plan) were said to depend on the building plan, with no amounts stated."
+      },
+      "steps": [
+        {"n": 1, "phase": "pre", "title": "Architect surveys the plot and prepares the drawing/building plan", "automated": false, "note": "Architects are certified and licensed by the Haryana government."},
+        {"n": 2, "phase": "apply", "title": "Architect/consultant fills the form and uploads the drawing on the Invest Haryana portal", "automated": "partial", "note": "The portal login is held by the architect or consultant. One participant said the portal gives no list of documents or guidance on attaching them. Filing itself was described as easy and fast."},
+        {"n": 3, "phase": "scrutiny", "title": "Single draftsman at Chandigarh checks the drawing (one draftsman for all of Haryana)", "automated": false, "note": "Each drawing waits about a month for its turn; participants said getting an earlier turn needs 'source' (influence)."},
+        {"n": 4, "phase": "scrutiny", "title": "Query raised if a mistake is found; applicant has 4-5 days to respond", "automated": "partial", "note": "No time limit was reported for the department's own checking; if the applicant doesn't close the query in time, the file is rejected and must be refiled."},
+        {"n": 5, "phase": "approve", "title": "Building plan approved", "automated": null, "note": "After approval, the applicant applies for the Factory License; the file then moves to Chandigarh and then to the Labour Department at Faridabad, where a team visits after the license application."}
+      ],
+      "remarks": [
+        "This is an FGD-only record (Factory Building Plan Approval session, Faridabad Industries Association, 09-10-2026) and has not been verified against an official ED source for Haryana FBPA.",
+        "Several participants had limited direct knowledge of the process, as an architect, consultant, partner or HR head typically handled it on the company's behalf.",
+        "Approval was centralised at Chandigarh after previously being handled at Gurgaon, which participants said removed a district-level check and worked less well than the earlier arrangement.",
+        "No significant portal downtime was reported."
+      ],
+      "findings": [
+        {"source": "fgd", "category": "pain", "tags": ["CAPACITY", "INFORMAL"], "sentiment": "issue", "text": "Drawings from all of Haryana are checked by a single draftsman in Chandigarh, so each drawing waits about a month for its turn; participants said an earlier turn needs 'source' (influence)."},
+        {"source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Building plan approval takes 40 to 50 days and was called the most lengthy step of the process."},
+        {"source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "A plan applied for on 4 September had not yet been checked at the time of the discussion; another participant applied on 30 September and was told 25 to 30 days is usual."},
+        {"source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Work and orders are held up and factories stand idle while the plan is pending, described by participants as a significant business loss."},
+        {"source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "After submission the applicant gets a message confirming receipt and the portal shows only 'Submitted'; it does not show which stage the file has reached."},
+        {"source": "fgd", "category": "pain", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue", "text": "After a query is raised, the applicant has about 4 to 5 days to close it or the file is rejected and must be filed again; no time limit for the department was reported."},
+        {"source": "fgd", "category": "pain", "tags": ["CAPACITY", "OTHER"], "sentiment": "issue", "text": "Since approval moved from Gurgaon to Chandigarh, applicants who go in person lose a whole day, and the trip is wasted if the single draftsman has not been consulted beforehand."},
+        {"source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "Accounts differed on whether a checking timeline is published; one participant said no number of days is mentioned on the website, another said 45 days is written there as an estimated time."},
+        {"source": "fgd", "category": "policy", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Approval is centralised at Chandigarh; participants felt the earlier Gurgaon-based arrangement (covering Gurgaon, Faridabad and nearby districts) worked better and asked for approval at district level through the Joint Director."},
+        {"source": "fgd", "category": "policy", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Drawings are prepared by architects certified and licensed by the Haryana government, yet are checked again by the draftsman; one participant said this re-check should not be needed."},
+        {"source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "No participant could name a grievance mechanism for this process, and none was seen on the window where the form is filled."},
+        {"source": "fgd", "category": "procedural", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive", "text": "Filing was described as easy and fast, while the drawing check itself is done manually by the draftsman."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "The portal login is held by the architect or consultant; the company follows up with the officer directly to find out where the file has reached."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "The only duplication raised was in verification: licensed architects approve the drawing, and the draftsman then checks it again."},
+        {"source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "One draftsman checks all Haryana drawings, with each drawing waiting about a month for its turn."},
+        {"source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Extend the system instead of hiring more draftsmen, and limit human involvement to points of contradiction; proceed on the basis of drawings prepared and approved by licensed architects, with minimal audit."},
+        {"source": "fgd", "category": "suggestions", "tags": ["QUERY", "PORTAL"], "sentiment": "suggestion", "text": "Show which step the file is at, state which checkpoint was not met and how many days the applicant has, by SMS, email or call."},
+        {"source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Give approval at district level through the Joint Director, as was done at Gurgaon earlier."},
+        {"source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Several participants had limited direct knowledge of the process, as an architect, consultant, partner or HR head handled it."}
+      ],
+      "quotes": [
+        {"speaker": "Business Participant", "quote": "The online process is easy and fast, but then it takes 40 to 50 days to get the building plan approved. It is the most lengthy process.", "topic": "Approval Delay", "tags": ["TIMELINE"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "One draftsman checks the drawings for the entire state of Haryana.", "topic": "Single Point of Scrutiny", "tags": ["CAPACITY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "Factories stand idle because of approvals, work is stopped, orders are held up, there is a lot of loss.", "topic": "Business Impact of Delay", "tags": ["OTHER"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "To get your turn earlier, you have to use some source.", "topic": "Informal Influence", "tags": ["INFORMAL"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "After submission it just says Submitted. It doesn't show which stage it has reached.", "topic": "Status Communication Gap", "tags": ["QUERY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "Earlier it was done at Gurgaon. Now to go to Chandigarh you lose a whole day, and if the draftsman isn't there the trip is wasted.", "topic": "Centralisation", "tags": ["CAPACITY"], "sentiment": "issue"}
+      ],
+      "gaps": [
+        {"flag": "VAGUE", "text": "Accounts conflicted on whether an official checking timeline is published at all; one participant said no day-count is mentioned anywhere on the website, another said 45 days is written there."},
+        {"flag": "MISSING", "text": "No fee amount was stated for Factory Building Plan Approval itself."},
+        {"flag": "MISSING", "text": "No grievance mechanism could be named by any participant."},
+        {"flag": "GOOD_PRACTICE", "text": "The online filing portion (architect uploads drawing and documents via the Invest Haryana portal) was described as easy and fast."},
+        {"flag": "REFORM", "text": "Suggested reverting to district-level approval through the Joint Director (as previously done at Gurgaon) rather than sole centralised Chandigarh draftsman scrutiny, showing file stage/status with checkpoint-level detail, and removing duplicate verification by relying on drawings already approved by licensed architects with minimal audit."}
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": ["HR_FGD_FNO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named by department title; participants referred to 'fire officials' in Faridabad and said approvals are centralised and sent to Chandigarh, even though the industry and fire officials are both in Faridabad.",
+      "portal": {"name": null, "url": null},
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "No official timeline was known to participants; figures below are lived-experience accounts from individual participants, not a stated norm.",
+        "text": "No official stated timeline was known to participants, nor any consequence if exceeded. Reported actual duration varied widely: about one and a half years in one case (including nine months lost to a broker who failed to deliver), about three years in another, and two to three months for a unit still under construction."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": ["Building layout or map", "Details of the fire-fighting system (pipes, tank, pumps, extinguishers)", "Identification proof or signature (disputed; one participant said this is not needed)"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not name any specific document as unnecessary; the main concern raised was repeated rounds of manual paper (re-)submission after the online application each time a query was raised, rather than duplicate document types.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Participants did not know of any stated timeline for the Fire NOC, nor of any consequence (deemed approval or otherwise) if it is exceeded."
+      },
+      "validity": {
+        "text": "Validity of the Fire NOC was not directly discussed in this session beyond the fact that a unit's hazard-category classification (and associated requirements) can change during construction; renewal is addressed in the separate Renewal of Fire NOC (RFNO) session for Haryana."
+      },
+      "fees": {
+        "text": "No official Fire NOC fee schedule was stated. Participants described broker/consultant costs rising from about Rs 10,000-25,000 previously to 'lakhs' now; small units reported paying agencies Rs 5,000-10,000 just to upload documents on the portal. One participant paid about Rs 3.5 lakh in penalty plus an extension fee for one more year, after a prolonged delay."
+      },
+      "steps": [
+        {"n": 1, "phase": "pre", "title": "Engage a broker/consultant", "automated": false, "note": "No official source tells a unit which documents or steps the Fire NOC needs; participants who tried to apply on their own said they could not complete it and eventually used a broker."},
+        {"n": 2, "phase": "apply", "title": "Submit application and basic documents online", "automated": true, "note": null},
+        {"n": 3, "phase": "scrutiny", "title": "Department raises requirements; further documents (e.g., building layout) submitted manually/in hard copy", "automated": false, "note": "Everything after the initial online step was described as manual; applicants said nothing moves unless they follow up personally."},
+        {"n": 4, "phase": "scrutiny", "title": "File forwarded to Chandigarh for approval", "automated": false, "note": "Files are reportedly sent to Chandigarh even though both the industry and fire officials are in Faridabad; files are sometimes rejected at first and must be reapplied."},
+        {"n": 5, "phase": "inspect", "title": "Site inspection to check fire extinguishers and fire systems are in place", "automated": false, "note": "Agents become involved mainly at the inspection stage and in following up the file."},
+        {"n": 6, "phase": "approve", "title": "Fire NOC approved after inspection", "automated": null, "note": null}
+      ],
+      "remarks": [
+        "This is an FGD-only record (Fire NOC session, Faridabad Industries Association, 09-10-2026) and has not been verified against an official ED source for Haryana FNO.",
+        "Participants were not against fire-safety requirements in principle; they said the process is a 'headache' and the cost is high specifically for small units.",
+        "Participants expressed fear that speaking openly could bring inspections or retaliatory action against their units; the moderator noted the feedback is anonymous and reported to the central ministry, and said this fear is itself one reason many industries avoid attending such sessions.",
+        "Part of the recording (the discussion on category change, and some closing remarks) was unclear in the transcript; findings above reflect the clearer parts of the discussion.",
+        "The source document's own 'Key Statements & Quotes' table for this session includes several quotes (on drawing-approval ambiguity, fee computed from the year manpower increases, and bank payment-gateway issues) that closely duplicate quotes attributed to the Factory License (FAL) session elsewhere in the Haryana file set, rather than matching this session's own Pain Points narrative (brokers, Chandigarh centralisation, hazard-category and water-tank/pump requirements). This looks like a document-assembly artifact in the source file; it is flagged here rather than silently corrected, and those specific quotes are marked with a caveat in the quotes bank below."
+      ],
+      "findings": [
+        {"source": "fgd", "category": "pain", "tags": ["CONSULT", "CLARITY"], "sentiment": "issue", "text": "No official source tells a unit which documents or steps the Fire NOC needs. Participants depend on brokers and consultants, who operate openly across Faridabad; those who tried to apply on their own could not complete it and eventually used a broker."},
+        {"source": "fgd", "category": "pain", "tags": ["PORTAL", "COMPLY"], "sentiment": "issue", "text": "The application is made online, but everything after that is manual; the department raises requirements, papers are submitted in hard copy, and units must visit in person. Nothing moves online unless followed up personally."},
+        {"source": "fgd", "category": "pain", "tags": ["CAPACITY", "OTHER"], "sentiment": "issue", "text": "Files are reportedly sent to Chandigarh for approval although the industry and fire officials are both in Faridabad; files are reportedly rejected at first and the unit must apply again, more than once."},
+        {"source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Time taken varied widely: about one and a half years in one case (nine months lost on a person who promised to get it done), about three years in another, and two to three months for a unit still under construction."},
+        {"source": "fgd", "category": "pain", "tags": ["FEES", "CONSULT"], "sentiment": "issue", "text": "One participant paid about Rs 3.5 lakh as penalty and an extension fee for one more year; broker costs have risen from about Rs 10,000-25,000 earlier to lakhs now, and small units pay agencies Rs 5,000-10,000 just to upload documents."},
+        {"source": "fgd", "category": "pain", "tags": ["NORMS", "COMPLY"], "sentiment": "issue", "text": "One unit's category was changed during construction and placed in the hazard category because henna was seen as highly flammable, leading to a requirement of a 20,000-litre water tank on a plot of about 653 sq. yards."},
+        {"source": "fgd", "category": "pain", "tags": ["NORMS"], "sentiment": "issue", "text": "Sprinklers were first required only in the basement, but after the category was changed they were required throughout the building; a third engine-driven pump was also required beyond the two compulsory pumps, with participants questioning the need for it in a small unit."},
+        {"source": "fgd", "category": "pain", "tags": ["QUERY", "TIMELINE"], "sentiment": "issue", "text": "Queries raised by the department take years to clear, and there is no way to respond to some of the clauses added; there is no real-time tracking showing where a file is stuck or why."},
+        {"source": "fgd", "category": "policy", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Approval is centralised at Chandigarh for all units, whereas participants said it was handled locally by a junior fire officer until two to three years ago."},
+        {"source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Requirements for large industries (water tank capacity, number of pumps) are applied to small units without adjustment; there is no differentiation by plot size or turnover."},
+        {"source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Participants did not know of any stated timeline for the Fire NOC, or of any consequence if it is exceeded."},
+        {"source": "fgd", "category": "policy", "tags": ["CLARITY", "NORMS"], "sentiment": "issue", "text": "A unit's hazard-category classification can change during construction, changing requirements with it; participants did not see a clear rule governing this."},
+        {"source": "fgd", "category": "policy", "tags": ["CONSULT", "CAPACITY"], "sentiment": "issue", "text": "There is no official support for new firms; the informal broker system fills the gap."},
+        {"source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "After document scrutiny, an inspection is done to check fire extinguishers and fire systems are in place; the NOC is approved after inspection."},
+        {"source": "fgd", "category": "procedural", "tags": ["CONSULT"], "sentiment": "issue", "text": "Most participants do not use the portal directly; they get it done through agencies, which charge about Rs 5,000 to 10,000."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "Participants did not name any specific document as unnecessary; the main concern was repeated rounds of paper submission after the online application each time a query was raised, rather than duplicate document types."},
+        {"source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Clear small units locally at Faridabad (suggested for plots up to 2,000 sq. yards or one acre), with only large industries going to Chandigarh."},
+        {"source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Set approval levels and requirements by turnover or plot size, and apply scale-based requirements rather than uniform large-industry norms."},
+        {"source": "fgd", "category": "suggestions", "tags": ["QUERY", "PORTAL"], "sentiment": "suggestion", "text": "Make the entire process online, introduce real-time tracking, prescribe a clear timeline and consequence for exceeding it, and raise all queries at one time rather than in rounds."},
+        {"source": "fgd", "category": "suggestions", "tags": ["CAPACITY", "FEES"], "sentiment": "suggestion", "text": "Appoint government field assistants who visit new firms, identify NOC needs, collect documents and see the process through, charging a fixed and published fee, to formalise the informal agent system."},
+        {"source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Participants were not against fire safety; they said the requirements are important, but the process is a headache and the cost is high for small units."}
+      ],
+      "quotes": [
+        {"speaker": "Business Participant", "quote": "We keep paying the fees regularly, but we still haven't got the license. The last one we received was in 2018. I applied online and also wrote a letter, and there has been no response.", "topic": "Renewal Delay / No Communication", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "There's no clarity on drawing approval. We've made a new setup and still don't know whether the drawing has to be approved again. It's been three months, with no comment or update from them.", "topic": "Drawing Approval Ambiguity", "tags": ["CLARITY"], "sentiment": "issue", "note": "Caveat: this quote's wording closely duplicates a quote attributed to the FAL session elsewhere in the Haryana file set — see remarks."},
+        {"speaker": "Business Participant", "quote": "When we renewed, they asked for everything again: canteen, number of employees, space. We had already cleared it once and hold the license number.", "topic": "Repeat Document Requests", "tags": ["DUPDOC"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "Renewal and amendment should be done within seven days. We have the same manpower and the same electricity.", "topic": "Processing Timeline", "tags": ["TIMELINE"], "sentiment": "issue", "note": "Caveat: see remarks on possible duplication with the FAL session's quotes table."},
+        {"speaker": "Business Participant", "quote": "New joiners don't know the documents. If there were a sample of each document, it would be much easier.", "topic": "Documentation Guidance", "tags": ["CLARITY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "If manpower increases midway, the fee should be charged from that year, not from the start of the license period.", "topic": "Fee Computation", "tags": ["FEES"], "sentiment": "issue", "note": "Caveat: this quote's wording closely duplicates a quote attributed to the FAL session elsewhere in the Haryana file set — see remarks."},
+        {"speaker": "Business Participant", "quote": "Online payment doesn't accept some banks. Our company has only that one account, so I had to pay by UPI from a personal account.", "topic": "Payment Gateway Access", "tags": ["PORTAL", "FEES"], "sentiment": "issue", "note": "Caveat: see remarks on possible duplication with the FAL session's quotes table."}
+      ],
+      "gaps": [
+        {"flag": "MISSING", "text": "No official timeline (or consequence for exceeding it) was known to participants for Fire NOC approval."},
+        {"flag": "MISSING", "text": "No fee schedule was published or cited; costs are described only via broker/agency payments and one penalty example (about Rs 3.5 lakh)."},
+        {"flag": "VAGUE", "text": "The source document's Key Statements & Quotes table for this session appears to mix in quotes that duplicate the Factory License session rather than this session's own content (see remarks); several Fire-NOC-specific numeric claims (penalty amount, broker fee ranges) rest on single participant accounts."},
+        {"flag": "REFORM", "text": "Suggested handling small units locally at Faridabad rather than centralising all approvals at Chandigarh, setting requirements (tank capacity, pump count) by turnover or plot-size slabs, introducing real-time tracking with a published timeline and stated consequence for delay, and deciding/communicating hazard category at the time of application."}
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFiles": ["HR_FGD_RFAL.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named in the discussion; participants referred only generically to 'the department.'",
+      "portal": {"name": null, "url": null},
+      "timeline": {
+        "minDays": 15,
+        "maxDays": 90,
+        "basis": "Participant testimony; no official per-stage timeline was reported as published.",
+        "text": "Applications are filed online, but after submission there is no defined timeline for each approval stage; files sit for 15-20 days, or even two to three months, without movement."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": ["Form 2 (owner and factory details)", "List of directors", "Board resolution", "Old licence", "Electricity sanction/bill", "Request letter", "Occupier and manager details"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not report duplication as a major issue; this document set was considered standard for renewal.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No deemed-approval or auto-rejection provision exists; applications simply go 'on hold' until the department posts comments, with no accountability mechanism when files are delayed or grievance tickets go unanswered."
+      },
+      "validity": {
+        "text": "Validity itself was not the session's focus; discussion centred on renewal processing delays. The renewal fee is fixed by government based on manpower and horsepower; several participants had renewals due on 31 December and were concerned about delays."
+      },
+      "fees": {
+        "text": "The renewal fee (fixed by government, based on manpower and horsepower) was not itself raised as a concern; a name-change-only fee was cited at about Rs 300. Separately, informal payments to consultants/intermediaries were reported as necessary to move files, quoted at Rs 15,000-20,000 typically (one participant quoted Rs 30,000), with amounts varying by participant; informal demands were also reported across departments, with pollution control cited as the most severe (one participant cited roughly Rs 2 lakh indicated for a pollution-related approval)."
+      },
+      "steps": [
+        {"n": 1, "phase": "apply", "title": "Apply online for renewal, pay fee, upload documents", "automated": true, "note": null},
+        {"n": 2, "phase": "scrutiny", "title": "Application reviewed; no defined timeline per stage", "automated": false, "note": "Files sit for 15-20 days, or even two to three months, without movement; no SMS/email intimation is sent when the application moves between stages."},
+        {"n": 3, "phase": "scrutiny", "title": "Consultant/intermediary follows up offline (often with informal payment) to move the file", "automated": false, "note": "Participants said the file does not move until a consultant or third party intervenes; believed to submit physical copies of documents in the department."},
+        {"n": 4, "phase": "approve", "title": "Renewed licence issued", "automated": null, "note": "Outcome is learned only when the licence is issued or rejected; no live tracking exists."}
+      ],
+      "remarks": [
+        "This is an FGD-only record (Renewal of Factory License session, Gurugram, 24-09-2026) and has not been verified against an official ED source for Haryana RFAL.",
+        "Participants distinguished between applying, which is easy, and what happens after applying, which is where nearly all problems occur.",
+        "Several participants had renewals due on 31 December and were concerned about delays.",
+        "A related EPR/plastic-waste-returns data-migration problem was raised: old company data could not be migrated to a new portal despite three to four written requests, with the return module staying inactive and risking missed filing deadlines; this sits adjacent to RFAL rather than within it."
+      ],
+      "findings": [
+        {"source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Applications are filed online, but after submission there is no defined timeline for each approval stage; files sit for 15-20 days, or even two to three months, without movement."},
+        {"source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "No SMS or email intimation is sent when an application moves between stages; the only email received is a notice that remarks or the CAF form have been updated, and reminders sent by email go unanswered."},
+        {"source": "fgd", "category": "pain", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "No live tracking or status visibility exists; participants learn the outcome only when the licence is issued or rejected."},
+        {"source": "fgd", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Informal payments were reported as necessary to move files: consultants or intermediaries quoted Rs 15,000-20,000 (one participant was quoted Rs 30,000), with amounts varying by participant."},
+        {"source": "fgd", "category": "pain", "tags": ["INFORMAL", "INTERDEP"], "sentiment": "issue", "text": "Informal demands were reported across departments, with pollution control cited as the most severe; one participant said an amount of Rs 2 lakh was indicated for a pollution-related approval."},
+        {"source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Even a simple company name change in the licence was reportedly delayed despite complete documents and evidence being provided."},
+        {"source": "fgd", "category": "pain", "tags": ["PORTAL", "GRIEVANCE"], "sentiment": "issue", "text": "For EPR/plastic waste returns, old company data could not be migrated to the new portal despite three to four written requests; the return module stayed inactive and data mismatched, risking missed filing deadlines."},
+        {"source": "fgd", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Internal approval for consultant costs is difficult, since senior management (including foreign leadership in one case) does not understand why payments are needed for routine compliance."},
+        {"source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "No official timeline is published for any stage of the renewal process, and no escalation policy exists to automatically forward a file to a higher authority if it remains pending beyond a specified period."},
+        {"source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "No deemed approval or auto-rejection provision exists; applications simply go 'on hold' until the department posts comments."},
+        {"source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "No accountability mechanism applies to officials when files are delayed or when grievances and tickets on government portals go unanswered."},
+        {"source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "positive", "text": "The renewal fee is fixed by the government (based on manpower and horsepower), and participants raised no concern about it."},
+        {"source": "fgd", "category": "procedural", "tags": ["CONSULT", "PORTAL"], "sentiment": "issue", "text": "The process is online for applying, paying fees and uploading documents, but real progress after submission depends on offline follow-up; it does not move until a consultant or third party intervenes."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "The portal gives no indication of what is missing or where an application is stuck, whether or not the documents are correct."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Only primary factory details are saved as a draft; uploaded documents are saved only if the applicant clicks save, with no auto-save, so interrupted uploads must be redone."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "Participants did not report duplication as a major issue; the document set (Form 2, directors list, board resolution, old licence, electricity sanction/bill, request letter, occupier/manager details) was considered standard."},
+        {"source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Introduce an escalation policy with a fixed timeline (30-40 days suggested), after which comments are issued automatically or the file is auto-approved."},
+        {"source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Send system-generated SMS or email updates at each stage, and provide live status tracking on the portal."},
+        {"source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Participants distinguished between applying, which is easy, and what happens after applying, which is where nearly all problems occur."},
+        {"source": "fgd", "category": "remarks", "tags": ["CONSULT"], "sentiment": "neutral", "text": "Consultants are often retained on monthly fees for compliance work, separate from the informal payments demanded."}
+      ],
+      "quotes": [
+        {"speaker": "Business Participant", "quote": "We applied online, uploaded everything and paid the fee, but nothing moves until we talk to a consultant or a third party. Then what is the point of it being online?", "topic": "Online Process / Third-party Dependence", "tags": ["CONSULT", "PORTAL"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "There is no escalation policy. If a file stays 30 days at one level, it should go to a higher level, but it doesn't unless someone puts in a word.", "topic": "No Escalation", "tags": ["TIMELINE"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "There is no timeline at any stage. Nobody says it will be done in 10 or 15 days.", "topic": "No Defined Timeline", "tags": ["TIMELINE"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "If you don't hire a third party, the file can sit for two months, three months, and your licence won't be done.", "topic": "Delay / Informal Payments", "tags": ["INFORMAL"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "They asked us for an extra amount quite openly. There is no department where it isn't asked for.", "topic": "Informal Payments", "tags": ["INFORMAL"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "We get no SMS or email at any stage, only a mail saying the remarks have been updated.", "topic": "Status Communication Gap", "tags": ["QUERY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "It was only a name change, not even a renewal. We gave all the evidence and still faced delay. And it is considered as a new entity.", "topic": "Delay / Name Change", "tags": ["TIMELINE"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "Old company data could not be linked to the new portal. We wrote three or four times with no reply, and the filing deadline would run out.", "topic": "Portal Migration / No Grievance Response", "tags": ["PORTAL", "GRIEVANCE"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "They don't reject and they don't approve. The file just goes on hold until comments come from their side.", "topic": "No Deemed Approval / Hold", "tags": ["TIMELINE"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "Drafts save only the basic factory details. Documents we upload are lost if we exit without clicking save.", "topic": "Portal Usability", "tags": ["PORTAL"], "sentiment": "issue"}
+      ],
+      "gaps": [
+        {"flag": "MISSING", "text": "The issuing authority and portal name were not explicitly stated in the discussion."},
+        {"flag": "MISSING", "text": "No official per-stage timeline was reported as published for the renewal process."},
+        {"flag": "VAGUE", "text": "Informal-payment figures vary widely by participant account (Rs 15,000-30,000 generally; around Rs 2 lakh for a pollution-related approval) and are not independently verified."},
+        {"flag": "GOOD_PRACTICE", "text": "The online application, fee payment and document upload steps themselves were described by participants as easy; the difficulty was specifically in what happens after submission."},
+        {"flag": "REFORM", "text": "Suggested introducing an escalation policy with a fixed timeline (30-40 days), publishing stage-wise processing timelines, sending system-generated SMS/email status updates, and providing live status tracking on the portal."}
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": ["HR_FGD_RFNO.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {"source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The SARAL portal frequently fails to attach or upload documents, runs slow (especially during peak periods), and imposes an undisclosed file-size limit, forcing repeated resubmission."},
+        {"source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The portal enforces a roughly 30-minute submission session; a slow connection or slow server response can cause the session to time out mid-upload, requiring the applicant to restart."},
+        {"source": "fgd", "category": "pain", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "No real-time status tracking exists after submission; the portal shows only 'submitted, in process,' with no indication of document verification, review stage, or scheduled visit."},
+        {"source": "fgd", "category": "pain", "tags": ["COMPLY", "GRIEVANCE"], "sentiment": "issue", "text": "Once submitted, there is no mechanism to correct a typographical or data-entry error; the mistake is discovered only once the NOC is issued with incorrect details, and correcting it requires reapplying from scratch."},
+        {"source": "fgd", "category": "pain", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Ownership or name-amendment cases are treated as fresh applications: the full process restarts and the three-year validity period resets from the new inspection date instead of carrying over the original term."},
+        {"source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "The inspection checklist (which includes a lot of mandatory evidentiary photographs) is not published or shared with applicants in advance; requirements are learned informally, by observing other businesses or through past experience."},
+        {"source": "fgd", "category": "pain", "tags": ["GRIEVANCE", "INSPECT"], "sentiment": "issue", "text": "Equipment or configurations approved and signed off in a prior renewal cycle can be flagged as deficient by a new inspecting officer at the next renewal, with no formal right of appeal."},
+        {"source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "No published, applicant-facing checklist defines what will specifically be inspected or required for a given hazard class/business type, despite this materially affecting compliance cost."},
+        {"source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "No provision exists to preserve the original NOC validity period when only administrative details (e.g., applicant/owner name) change, rather than the physical facility."},
+        {"source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "No formal right of appeal or objection exists when a renewal-stage officer raises a new requirement against a configuration that was previously approved and unchanged; when asked directly, participants were told 'You don't have any right to challenge it.'"},
+        {"source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The post-inspection timelines cited by participants are informal, not binding SLAs; there is no formal commitment holding the department to them and, as described by participants, no escalation or deemed-approval mechanism if they are exceeded."},
+        {"source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "The application is online end-to-end in principle, but portal instability (SARAL) routinely forces applicants toward manual workarounds or third-party assistance to complete submission."},
+        {"source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "No system-generated interim status updates are issued (e.g., 'documents verified,' 'inspection scheduled for [date]'); applicants have no way to track progress independently."},
+        {"source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "Participants did not identify document duplication as a significant concern; the core document set (building/fire-equipment photographs, prior NOC, training records, authority letter, ID proof) was considered reasonable and stable across renewal cycles."},
+        {"source": "fgd", "category": "delay", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Departmental officer availability (competing inspections, meetings, VIP visits) was cited as a secondary but acknowledged cause of delay, though generally accepted as reasonable by participants."},
+        {"source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Increase the SARAL portal's file-size limit and session duration and publish both limits clearly on the upload page."},
+        {"source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Publish a standard inspection checklist (including required photographic evidence) accessible to applicants before the site visit."},
+        {"source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The Fire Department itself was consistently described positively by participants: cooperative, reasonably fast (often within a week to 10 days for standard renewals), and willing to guide first-time applicants informally. Nearly all participant frustration was directed at the SARAL portal and process-design gaps, not at departmental conduct or judgment."},
+        {"source": "fgd", "category": "remarks", "tags": ["CAPACITY"], "sentiment": "neutral", "text": "One participant recounted a serious factory fire incident, referenced to underline the practical stakes of system maintenance and compliance, independent of the administrative issues discussed."}
+      ],
+      "quotes": [
+        {"speaker": "Business Participant", "quote": "The SARAL site keeps having issues, if it worked properly, and our documents uploaded fine or we got proper status updates, there'd be no problem at all.", "topic": "Portal Reliability", "tags": ["PORTAL"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "When you apply on SARAL, there's no proper follow-up mechanism; you can't check status, there's no clear indication of progress.", "topic": "Status Communication Gap", "tags": ["PORTAL", "QUERY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "Described applying for an ownership/name change and having the three-year validity period restart from the new inspection date rather than the original 2025 date.", "topic": "Amendment / Validity Reset", "tags": ["RENEWAL"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "It's not written anywhere on the website that these are the requirements, the users learn it by observing others.", "topic": "Checklist Transparency", "tags": ["CLARITY"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "When asked directly about whether an applicant has any right to challenge a new objection raised against a previously approved installation; the answer received was: 'You don't have any right to challenge it.'", "topic": "Objection on Prior Approval", "tags": ["GRIEVANCE"], "sentiment": "issue"},
+        {"speaker": "Business Participant", "quote": "The department is good, a 10-day job gets done, no real problem. The fire officer comes, inspects politely/thoroughly, and it's done.", "topic": "Portal vs. Department", "tags": ["POSITIVE", "INSPECT"], "sentiment": "positive"}
+      ],
+      "gaps": [
+        {"flag": "INCONSISTENT", "text": "ED states a formal RTS Act-based escalation mechanism exists for Fire NOC renewal (if the mandatory 30-day timeline lapses, the application moves into the 'ASK' auto-appeal portal monitored by the Right to Service Commission, and the department must formally explain the delay). FGD participants, by contrast, described post-inspection timelines as 'informal, not binding SLAs' with 'no escalation or deemed-approval mechanism' if exceeded, suggesting this RTS/ASK mechanism, if it exists, is not visible or known to applicants in practice."},
+        {"flag": "MISSING", "text": "ED's document list (Fire Fighting Scheme approval details, Completion Certificate details, Last NOC details, PAN, Aadhaar, building and fire-system photos) only partially overlaps with FGD's description of the standard document set (photos, prior NOC, training records, authority letter, ID proof); FGD adds 'training records' and an 'authority letter' not named by the ED, while the ED names items ('Fire Fighting Scheme approval details,' 'Completion Certificate details') not mentioned by FGD participants. Not a contradiction, but the two accounts describe only partially overlapping document sets."},
+        {"flag": "MISSING", "text": "The ED interview did not address whether a post-issuance correction mechanism exists for data-entry errors; FGD reports there is none, requiring a fresh reapplication from scratch."},
+        {"flag": "MISSING", "text": "The ED interview did not address appeal/objection rights for newly raised renewal-stage objections against previously-approved, unchanged configurations; FGD reports there are none ('you don't have any right to challenge it')."},
+        {"flag": "MISSING", "text": "The ED interview did not address whether validity is preserved on administrative-only (ownership/name) amendments; FGD reports the three-year validity resets from the new inspection date in such cases rather than carrying over the original term."},
+        {"flag": "VAGUE", "text": "Both the ED and FGD independently flag that the exact file-size limit for photograph uploads is undisclosed to applicants, reinforcing this as a genuine, unresolved documentation gap rather than an isolated complaint."},
+        {"flag": "GOOD_PRACTICE", "text": "FGD corroborates the ED's picture of a fast, well-regarded local process: participants described the Fire Department as cooperative and often completing standard renewals within a week to 10 days, well inside the 30-day RTS ceiling the ED described."},
+        {"flag": "REFORM", "text": "FGD-driven suggestions not addressed by the ED: publish a standard inspection checklist, increase SARAL's file-size/session limits, introduce a defined right of response/appeal for renewal-stage objections against previously-approved configurations, and preserve the validity period on administrative-only amendments."}
+      ]
+    }
+  ]
+}

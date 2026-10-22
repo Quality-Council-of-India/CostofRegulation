@@ -1,0 +1,409 @@
+{
+  "code": "OD",
+  "name": "Odisha",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": ["OD_FGD_CTE.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "INTERDEP"], "sentiment": "issue", "text": "Participants described a gap between the intended convenience of the single-window/online mechanism and actual experience: physical visits to individual departments reportedly remain necessary even where the application is available online, reducing the practical benefit of the single-window arrangement." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY", "INFORMAL"], "sentiment": "issue", "text": "Applicants lack clarity on the sequence of activities, the next requirement, or how the subsequent stage will be communicated; participants associated this complexity with greater dependence on intermediaries." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "A common policy approach is applied across sectors with materially different activities (e.g. builders vs. manufacturers), which participants felt does not adequately reflect sector-specific characteristics and requirements." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "suggestion", "text": "The discussion points to scope for examining whether CTE requirements can be differentiated more appropriately by sector or activity, where justified." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP", "CLARITY"], "sentiment": "issue", "text": "The principal procedural concern is the disconnect between online availability and the actual applicant journey: applicants continue to interact physically with multiple departments, and information on subsequent steps is not consistently available upfront." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Participants reported limited access to query support outside office hours; Gujarat was cited as a comparison where users could reportedly contact support beyond normal office hours." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "No specific instance of duplicate or repeatedly submitted documents was recorded; the burden identified instead relates to multiple departmental interactions and physical visits rather than document duplication." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE", "INTERDEP"], "sentiment": "issue", "text": "Participants reported an average delay of approximately 2 to 3 months in obtaining CTE, associated with process complexity, limited visibility of subsequent steps, and the need to coordinate with multiple departments." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "CLARITY"], "sentiment": "suggestion", "text": "Provide a single, comprehensive online source containing the complete CTE process, sequence of steps, requirements, responsible authorities and subsequent stages." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Establish a clear single point of contact (SPOC) for applicants seeking information or clarification on the service." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Make the end-to-end process and subsequent requirements visible to applicants at the outset rather than revealing them progressively." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Strengthen query-support arrangements, including accessible support beyond regular office hours where feasible." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Examine whether CTE requirements can be made more sector-sensitive instead of applying an identical policy approach across materially different sectors." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The regulatory burden experienced by applicants extends beyond formal application requirements: where an online/single-window system still requires multiple physical interactions and applicants discover the process progressively, additional time and coordination costs can arise." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The Gujarat example was raised as a potential reference point for applicant support; participants noted a formal comparison would require verification of the respective service arrangements." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Participant", "quote": "Single-window system is not effective; applicants still have to visit individual departments.", "topic": "Single-window gap", "tags": ["PORTAL", "INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "Applicants learn the next steps only as the application progresses, causing unnecessary delay.", "topic": "Progressive disclosure of steps", "tags": ["CLARITY", "TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "A single website or SPOC should provide complete service information and the full process upfront.", "topic": "SPOC suggestion", "tags": ["PORTAL", "QUERY"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No specific fee information for CTE was discussed by participants." },
+        { "flag": "VAGUE", "text": "The reported delay of '2 to 3 months' is a participant estimate; no specific statutory timeline, step-wise breakdown, or basis was given." },
+        { "flag": "MISSING", "text": "No document checklist or document-specific issue was described; the discussion focused on inter-departmental coordination burden rather than individual document requirements." }
+      ],
+      "issuingAuthority": "Not specified by name in the FGD transcript; participants referred generally to 'individual departments' handling parts of the CTE process.",
+      "portal": { "name": null, "url": null },
+      "timeline": { "minDays": 60, "maxDays": 90, "basis": "participant-reported average", "text": "Participants reported an average delay of approximately 2 to 3 months in obtaining CTE, attributed to process complexity, limited visibility of next steps, and the need to coordinate with multiple departments." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not name specific documents; the discussion focused on process complexity and inter-departmental coordination rather than document requirements.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Deemed approval was not discussed by participants." },
+      "validity": { "text": "Validity period was not discussed by participants." },
+      "fees": { "text": "Fees were not discussed by participants." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Online application submission", "automated": true, "note": "Application can be submitted online, but this alone does not complete the process, per participants." },
+        { "n": 2, "phase": "scrutiny", "title": "Physical visits to individual departments", "automated": false, "note": "Participants reported needing to visit individual departments physically despite online submission, to coordinate progress and learn next steps." },
+        { "n": 3, "phase": "approve", "title": "CTE grant", "automated": null, "note": "Participants reported an average overall delay of 2 to 3 months to obtain CTE; the specific approval step was not detailed." }
+      ],
+      "remarks": [
+        "This record is FGD-only (Mode B) and has not been verified against an official ED interview for CTE in Odisha; no OD_ED_CTE record exists.",
+        "Participants compared Odisha's lack of after-hours query support unfavourably to Gujarat, where support was described as available beyond office hours; this comparison was not independently verified."
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFiles": ["OD_FGD_ECL.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Participants reported that obtaining an electricity connection takes 3 to 6 months." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Applicants have to make multiple visits to different departments and offices during the process." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Applicants do not receive clear information on the process and requirements at the outset." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Field visits are not communicated to applicants in advance." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Applicants often do not know which official is responsible for resolving an issue and are directed to another official." },
+        { "source": "fgd", "category": "policy", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Only one service provider is available in the state, limiting applicants' choice; the number of approved suppliers is also limited, further restricting options." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "issue", "text": "There is no fixed timeline for completing the electricity connection process." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "There is no help desk or single point of contact to guide applicants through the process." },
+        { "source": "fgd", "category": "procedural", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "There is no proper grievance redressal system for unresolved issues." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "issue", "text": "Applicants are not informed in advance about field visits." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same documents have to be submitted at multiple stages and to different departments, resulting in repeated documentation and additional applicant effort." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "issue", "text": "Multiple departmental visits, unclear process requirements, the absence of a fixed timeline, and repeated document submission together add to the time required to complete the process." },
+        { "source": "fgd", "category": "delay", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Difficulty identifying the responsible official and the lack of an effective grievance redressal mechanism can prolong resolution of application-related issues." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Provide a single source of information covering the complete process, requirements, stages and timeline." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Establish a single point of contact (SPOC) or help desk for applicant queries and issue resolution, and clearly identify the official responsible for resolving issues." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Introduce a fixed and clearly communicated timeline for completing the connection process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Inform applicants in advance about scheduled field visits." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Allow documents already submitted to be reused at subsequent stages instead of requiring repeated submission." },
+        { "source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Strengthen the grievance redressal mechanism with a clear escalation channel." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Review the availability of approved suppliers and service-provider options to improve applicant choice." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The overall process places a high coordination burden on applicants due to multiple departmental interactions, repeated documentation, and the absence of a clear point of contact; lack of clear responsibility for issue resolution makes it difficult to navigate the process when problems arise." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Participant", "quote": "Obtaining an electricity connection takes around 3 to 6 months.", "topic": "Connection timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "Applicants have to visit different departments and offices multiple times.", "topic": "Multiple departmental visits", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "There is no help desk or single point of contact for applicants.", "topic": "No SPOC / grievance channel", "tags": ["QUERY", "GRIEVANCE"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "The same documents have to be submitted at multiple stages and to different departments.", "topic": "Repeated document submission", "tags": ["DUPDOC"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No specific fee amounts for electricity connection (by load category or otherwise) were discussed by participants." },
+        { "flag": "VAGUE", "text": "The '3 to 6 months' timeline is a participant range estimate with no breakdown by connection type/load category or official basis cited." },
+        { "flag": "MISSING", "text": "No document checklist was enumerated; only the fact of repeated/duplicate submission was reported." }
+      ],
+      "issuingAuthority": "Not specified by name; participants referred generally to the electricity department/service provider offices.",
+      "portal": { "name": null, "url": null },
+      "timeline": { "minDays": 90, "maxDays": 180, "basis": "participant-reported range", "text": "Participants reported that obtaining an electricity connection takes approximately 3 to 6 months; no fixed or notified timeline was cited, and participants explicitly noted the absence of a fixed timeline." },
+      "automationLevel": "unclear",
+      "applicantOfficeVisit": "yes",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not name specific documents; they reported that the same documents must be submitted repeatedly at multiple stages and departments.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants." },
+      "validity": { "text": "Not discussed by participants." },
+      "fees": { "text": "Not discussed by participants." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Application submission", "automated": null, "note": "Mode of application (online/offline) was not specified by participants for this service." },
+        { "n": 2, "phase": "scrutiny", "title": "Multiple departmental visits and document submission", "automated": false, "note": "Applicants report visiting different departments/offices multiple times and resubmitting the same documents at each stage." },
+        { "n": 3, "phase": "inspect", "title": "Field visit", "automated": false, "note": "Field visits occur but are not communicated to applicants in advance." },
+        { "n": 4, "phase": "approve", "title": "Connection grant", "automated": null, "note": "Overall process reported to take 3 to 6 months; participants stated no fixed timeline exists." }
+      ],
+      "remarks": [
+        "This record is FGD-only (Mode B) and has not been verified against an official ED interview for Electricity Connection in Odisha; no OD_ED_ECL record exists.",
+        "Participants noted only one service provider and a limited number of approved suppliers are available in the state, restricting choice; specific supplier/provider names were not given in the transcript."
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": ["OD_FGD_FNO.docx", "OD_FGD_FNO_1.docx"],
+      "sessionCount": 2,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Applicants have to make multiple follow-ups before the field visit is initiated." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Applicants are not informed in advance about the field visit or any change/rescheduling of the inspection." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "If the concerned official is unavailable during a visit, there is no one to provide information or guidance; applicants are asked to return and check again." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Applicants are reluctant to raise grievances regarding delays because they fear it could further delay approval and affect future dealings with the department." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "INTERDEP"], "sentiment": "issue", "text": "The single-window system is not effective, as applicants still have to visit multiple departments for different document requirements even after applying online." },
+        { "source": "fgd", "category": "procedural", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Applicants do not have a clear channel to raise and follow up on grievances relating to delays or other issues." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY", "INSPECT"], "sentiment": "issue", "text": "Repeated follow-ups required before the field visit is initiated, and lack of advance information about inspection scheduling/rescheduling, add to approval time." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Provide applicants with advance information about the field-visit schedule and promptly communicate any rescheduling; provide a clear mechanism to track inspection status." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Designate an alternate contact person or help desk when the concerned official is unavailable." },
+        { "source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Establish a clear grievance mechanism allowing applicants to report delays and obtain a response without fear of affecting application processing." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion", "text": "Strengthen the single-window system so applicants do not have to visit multiple departments for different document requirements." },
+        { "source": "fgd", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Accept 3D-view maps, particularly for high-rise buildings, to make it easier to explain the complete building plan during the Fire NOC process." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The Fire NOC approval process can take 2 to 7 months, resulting in a prolonged approval cycle for establishments." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Users do not have adequate clarity or complete knowledge of the applicable Fire NOC policy and requirements." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Fire safety compliance becomes more difficult when changes suggested by the Fire Department after BPA approval require the building approval process to be taken up again." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "The validity of the Fire NOC was suggested to be increased to 5 years instead of requiring renewal at shorter intervals." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Fire NOC requirements should be integrated with the Building Plan Approval (BPA) process, since changes suggested by the Fire Department after BPA approval can require a fresh BPA cycle, creating an additional regulatory cycle." },
+        { "source": "fgd", "category": "policy", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "A system of regular interval-based inspections was suggested as an alternative compliance approach alongside a longer Fire NOC validity period." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Users do not receive sufficient practical guidance from the government on fire-safety requirements for implementation at the establishment level; in the absence of government-led drills, users approach private vendors instead." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Fire-safety guidance (Do's and Don'ts) in regional languages was suggested so business owners can communicate requirements effectively to their employees." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CONSULT"], "sentiment": "suggestion", "text": "Facilitate regular interaction between the Fire Department and users so regulatory requirements and implementation issues can be discussed directly; conduct regular government-led fire-safety awareness drives and fire drills." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "In the absence of government-led fire-safety drills, users currently approach private vendors to arrange fire-safety drills for their establishments." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Participant", "quote": "Multiple follow-ups are required before the field visit is initiated.", "topic": "Field-visit initiation delay", "tags": ["INSPECT"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "Applicants are not informed in advance about the field visit or any rescheduling.", "topic": "No advance notice of inspection", "tags": ["INSPECT"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "If the concerned person is unavailable, applicants are asked to return and check again.", "topic": "Official unavailability", "tags": ["QUERY"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "Applicants hesitate to raise grievances because they fear it could delay the approval.", "topic": "Grievance reluctance", "tags": ["GRIEVANCE"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "The Fire NOC should be integrated with BPA because changes are suggested after BPA approval.", "topic": "BPA-Fire NOC integration", "tags": ["INTERDEP"], "sentiment": "suggestion" },
+        { "speaker": "Industry Participant", "quote": "Fire NOC approval can take 2 to 7 months.", "topic": "Approval timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "Do's and Don'ts should be provided in regional languages so employees can be trained easily.", "topic": "Regional-language guidance", "tags": ["CLARITY"], "sentiment": "suggestion" },
+        { "speaker": "Industry Participant", "quote": "The department should meet users at regular intervals.", "topic": "Regular department-user interaction", "tags": ["CONSULT"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No specific fee figures for Fire NOC were discussed by participants in either session." },
+        { "flag": "VAGUE", "text": "Timeline reporting differs across the two sessions: one gave '2 to 7 months' as an overall range, while the other described delay drivers (repeated follow-ups, lack of advance scheduling) without a specific overall duration; neither cited an official basis." },
+        { "flag": "MISSING", "text": "No document checklist was enumerated by participants in either session." }
+      ],
+      "issuingAuthority": "Not specified by name in either session; participants referred generally to the Fire Department.",
+      "portal": { "name": null, "url": null },
+      "timeline": { "minDays": 60, "maxDays": 210, "basis": "participant-reported range (one session only)", "text": "One session's participants reported the Fire NOC approval process can take 2 to 7 months; the other session's participants instead emphasized delay drivers (repeated follow-ups needed before field visit, lack of advance inspection scheduling) without giving a specific overall duration." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Neither session enumerated specific documents; discussion centered on field-visit scheduling, inter-departmental coordination and BPA linkage rather than document requirements.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants in either session." },
+      "validity": { "text": "Participants did not state the current Fire NOC validity period in this discussion (as distinct from the related Renewal of Fire NOC service); one session suggested the validity be increased to 5 years." },
+      "fees": { "text": "Not discussed by participants." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Online application", "automated": true, "note": "Applications can be submitted online per participants, but this does not eliminate the need for physical departmental visits." },
+        { "n": 2, "phase": "scrutiny", "title": "Multi-department document coordination", "automated": false, "note": "Participants reported needing to visit multiple departments for different document requirements despite the single-window system." },
+        { "n": 3, "phase": "inspect", "title": "Field visit/inspection", "automated": false, "note": "Requires repeated applicant follow-up to initiate; scheduling and rescheduling are not communicated in advance." },
+        { "n": 4, "phase": "approve", "title": "Fire NOC grant", "automated": null, "note": "One session reported an overall timeline of 2 to 7 months for approval." }
+      ],
+      "remarks": [
+        "This record is FGD-only (Mode B), combining two separate sessions (9 participants on 09-09-2026 and 7 participants on 30-09-2026), and has not been verified against an official ED interview for Fire NOC in Odisha; no OD_ED_FNO record exists.",
+        "One session raised a specific link between Fire NOC and Building Plan Approval (BPA): changes suggested by the Fire Department after BPA approval can require the BPA process to be redone, extending the overall cycle."
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFiles": ["OD_FGD_RFAL.docx", "OD_FGD_RFAL_1.docx"],
+      "sessionCount": 2,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Participants reported a lack of clear information on the renewal process, requirements and next steps, requiring repeated follow-ups to understand what needs to be done." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "DUPDOC"], "sentiment": "issue", "text": "Even after submitting the application online, users are required to visit the department and submit documents physically, including the same documents multiple times." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Applicants have to make repeated follow-ups after online submission to get the renewal process started; there is no effective application status tracking mechanism." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "The inspection process can be delayed when the concerned zonal officer is unavailable; an officer from another zone handling the inspection takes additional time." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL"], "sentiment": "issue", "text": "There is a significant difference between the 1-year renewal (handled at the zonal office, comparatively easier) and the 5-year renewal (requires approaching the departmental office, more difficult)." },
+        { "source": "fgd", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Applications handled through intermediaries reportedly receive quicker responses and coordination from the department, making the process appear faster when intermediaries are involved." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "The existing grievance redressal mechanism is not effective: escalated grievances are sent back to the lower-level office, requiring the user to coordinate with the same office again. A weekly grievance meeting is held but participants stated users avoid raising complaints for fear of being targeted or facing difficulties in future dealings." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Large-scale industries reportedly receive more regular interaction and handholding from the department than smaller industries." },
+        { "source": "fgd", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Unofficial payment demand is identified as a core concern in the factory licence renewal process; users seeking a smoother/faster process often depend on intermediaries to avoid repeated physical visits and follow-up." },
+        { "source": "fgd", "category": "pain", "tags": ["INFORMAL", "RENEWAL"], "sentiment": "issue", "text": "Although 1-year and 5-year renewal options are available, participants stated users generally prefer the 1-year option because the 5-year renewal is perceived to involve substantially higher unofficial payments." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Renewal delays can extend to up to one year in some cases." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Participants expressed concern over the high cost and lack of transparency of the Stability Certificate, issued by a recognised competent person under the Odisha Factories Rules, from a limited set of recognised/approved service providers; the rules prescribe competency requirements but not a standard service charge." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Existing licensing slabs/thresholds (e.g. installed power/motor capacity, number of workers) were considered outdated and not reflective of present-day industrial conditions." },
+        { "source": "fgd", "category": "policy", "tags": ["COMPLY"], "sentiment": "issue", "text": "Participants highlighted inconsistencies between factory licence and labour-related licence requirements, making it difficult for establishments to reconcile compliance across the two systems; specific areas of mismatch require verification." },
+        { "source": "fgd", "category": "policy", "tags": ["COMPLY"], "sentiment": "issue", "text": "The amendment requirement was considered unnecessarily burdensome, particularly where routine changes in manpower, installed power or other factory particulars require a separate amendment process." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Participants stated there is no effective deemed-approval mechanism in practice for delayed renewal cases and suggested applications pending beyond the prescribed period should move forward automatically where conditions are met." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Physical submission of documents is required even after online application, resulting in duplication; participants proposed a common document repository so documents submitted once could be accessed by different departments rather than resubmitted." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "DUPDOC"], "sentiment": "suggestion", "text": "Make factory licence renewal genuinely end-to-end online, including document submission; create a central document pool so authorised departments can access documents directly instead of repeated submission." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Handle the 5-year renewal at the zonal office similar to the 1-year process; introduce an effective deemed-renewal/deemed-approval mechanism for eligible pending applications." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES", "INFORMAL"], "sentiment": "suggestion", "text": "Ensure complete transparency in official fees and charges, establish mechanisms to prevent and report unofficial payment demands, and create a transparent/standardised framework for Stability Certificate charges." },
+        { "source": "fgd", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Study the practices followed in Telangana and other parts of South India and identify relevant practices that could be adopted to improve the renewal process in Odisha." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Participant", "quote": "Intermediaries receive quicker responses and coordination from the department.", "topic": "Intermediary dependence", "tags": ["INFORMAL"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "Complaints escalated to higher authorities are sent back to the same lower-level office.", "topic": "Ineffective grievance escalation", "tags": ["GRIEVANCE"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "Smaller industries do not receive the same level of regular interaction and handholding as large-scale industries.", "topic": "Unequal handholding by size", "tags": ["CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "Practices followed in Telangana and other parts of South India could be studied for possible adoption in Odisha.", "topic": "Cross-state learning suggestion", "tags": ["OTHER"], "sentiment": "suggestion" },
+        { "speaker": "Industry Participant", "quote": "Bribery is the core issue in factory license renewal.", "topic": "Unofficial payments", "tags": ["INFORMAL"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "After applying online, a physical visit is still required to start the process.", "topic": "Online-offline gap", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "The 5-year renewal is generally avoided because the unofficial payment involved is much higher.", "topic": "5-year renewal avoidance", "tags": ["INFORMAL", "RENEWAL"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "Users avoid the Monday grievance meeting because they fear problems in future if they raise an issue.", "topic": "Grievance meeting avoidance", "tags": ["GRIEVANCE"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No specific official fee amounts were given by participants for either the 1-year or 5-year renewal, beyond allegations of unofficial payments." },
+        { "flag": "VAGUE", "text": "'Renewal delays can extend up to one year in some cases' is a participant estimate without a stated typical/median duration or an official timeline for comparison." },
+        { "flag": "REFORM", "text": "Participants identified a specific regulatory transparency gap: the Odisha Factories Rules prescribe competency requirements for the Stability Certificate's issuing 'competent person' but do not prescribe a standard service charge, which participants linked to cost opacity for this certificate." },
+        { "flag": "MISSING", "text": "No specific document checklist was enumerated beyond the general reference to documents being resubmitted physically after online filing." }
+      ],
+      "issuingAuthority": "Not named specifically; participants referred to 'the Department' (zonal office for the 1-year renewal; departmental office for the 5-year renewal) under the factory licensing administration.",
+      "portal": { "name": null, "url": null },
+      "timeline": { "minDays": null, "maxDays": 365, "basis": "participant-reported upper bound (second session)", "text": "Participants in the second session reported that renewal delays can extend up to one year in some cases; the first session did not give a specific overall duration but described a 1-year renewal (handled at the zonal office, comparatively easier) and a more difficult 5-year renewal requiring approach to the departmental office." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants referred generally to 'documents' being resubmitted physically after online filing, and proposed a central document pool as a reform, but did not enumerate a specific document list.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Participants in the second session stated there is no effective deemed-approval mechanism in practice for delayed renewal applications, and suggested one be introduced." },
+      "validity": { "text": "Two renewal options exist — 1-year and 5-year — handled differently: the 1-year renewal is processed at the zonal office and described as comparatively easier, while the 5-year renewal requires approaching the departmental office and is described as more difficult and, per the second session, associated with higher unofficial payment demands." },
+      "fees": { "text": "Official fee amounts were not stated by participants. Participants raised concerns about the cost and lack of a standardised/transparent charge for the Stability Certificate (issued by a recognised competent person under the Odisha Factories Rules) and about unofficial payment demands, particularly for the 5-year renewal." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Online application submission", "automated": true, "note": "Renewal application can be submitted online." },
+        { "n": 2, "phase": "apply", "title": "Physical visit and document submission", "automated": false, "note": "Participants report a physical visit to the Department and physical (sometimes repeated) document submission are still required after online filing." },
+        { "n": 3, "phase": "inspect", "title": "Field inspection by zonal officer", "automated": false, "note": "Can be delayed when the concerned zonal officer is unavailable and an officer from another zone must be arranged." },
+        { "n": 4, "phase": "renew", "title": "Renewal grant (1-year, zonal office)", "automated": "partial", "note": "Described as comparatively easier/faster, handled at the zonal level." },
+        { "n": 5, "phase": "renew", "title": "Renewal grant (5-year, departmental office)", "automated": false, "note": "Described as more difficult, requiring approach to the departmental office; associated by participants with higher unofficial payment demands." }
+      ],
+      "remarks": [
+        "This record is FGD-only (Mode B), combining two separate sessions (8 participants on 09-09-2026 and 13 participants on 01-10-2026), and has not been verified against an official ED interview for Renewal of Factory License in Odisha; no OD_ED_RFAL record exists.",
+        "The second session's quotes included a direct allegation that 'bribery is the core issue in factory license renewal' — this is participant testimony and has not been independently corroborated.",
+        "Participants suggested studying Telangana and other South Indian states' renewal practices for potential adoption in Odisha; this comparison was not independently verified."
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": ["OD_FGD_RFNO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The Fire NOC renewal process is rigorous and time-consuming, as the complete process has to be followed again at the time of renewal." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Users are required to make physical visits to the department even after submitting the application online." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "The limited availability of government-trained Fire Supervisors creates difficulty for establishments in meeting the prescribed requirement." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Renewal delays can extend to up to one year in some cases." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Issues are sometimes raised during renewal even after the Fire NOC was approved earlier, creating inconsistency in the compliance requirements faced by establishments." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "During field inspections, penalties are imposed when deficiencies are identified, without adequate time being provided to establishments to rectify the issues." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "The current Fire NOC validity is 2 years. Given the rigorous renewal process, the validity was suggested to be increased to 5 years." },
+        { "source": "fgd", "category": "policy", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Only government-trained Fire Supervisors are permitted and their availability is limited (last known training batches were in 2019 and 2024, with no new batch known since)." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "The requirement is limited to degree-holder Fire Supervisors (diploma holders and private-trained supervisors not accepted), increasing the financial burden on establishments as degree-holder supervisors command higher salaries." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "A deemed approval system was suggested to address cases where the renewal process remains pending for an extended period." },
+        { "source": "fgd", "category": "policy", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "An inspection-based approach was suggested as an alternative to the current renewal system; establishments indicated willingness to undergo regular, including frequent, inspections if Fire NOC validity is extended to 5 years. Maharashtra was cited as an example with no periodic Fire NOC renewal and inspections every six months." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL"], "sentiment": "issue", "text": "There is no notification or reminder system to inform establishments before the Fire NOC expires." },
+        { "source": "fgd", "category": "procedural", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "There is no proper online grievance redressal system; the available complaint box at the department is avoided by users because they fear raising complaints could affect future dealings with the department." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "The departmental helpline is inactive after 5:00 PM, limiting access to assistance outside working hours." },
+        { "source": "fgd", "category": "procedural", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Staff shortages affect the availability of officials for field inspections and contribute to delays." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Increase the validity of the Fire NOC from 2 to 5 years; replace the frequent renewal requirement with a longer validity period supported by regular fire-safety inspections." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Introduce a deemed approval system for applications remaining pending beyond the prescribed processing period; introduce advance notifications/reminders before Fire NOC expiry via SMS, email or the portal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CAPACITY", "NORMS"], "sentiment": "suggestion", "text": "Increase availability of government-trained Fire Supervisors through regular training programmes; allow suitably certified private-sector Fire Supervisors and suitably qualified diploma holders to meet the requirement." },
+        { "source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE", "QUERY"], "sentiment": "suggestion", "text": "Establish a proper online grievance redressal system with complaint registration, tracking and escalation; extend helpline support beyond 5:00 PM; address staff shortages affecting field inspections." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Provide establishments with reasonable time to rectify deficiencies identified during inspections before imposing penalties, wherever permitted under applicable rules; conduct regular fire-safety awareness drives and fire drills, including for industries employing more than 1,000 workers." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Participant", "quote": "Government buildings themselves do not comply with the norms, but users are questioned about every requirement.", "topic": "Perceived double standard in compliance enforcement", "tags": ["COMPLY"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "There is no issue with regular inspections if the renewal validity is increased to 5 years.", "topic": "Inspection-based alternative to renewal", "tags": ["RENEWAL", "INSPECT"], "sentiment": "suggestion" },
+        { "speaker": "Industry Participant", "quote": "There should be a deemed approval system because sometimes the process gets delayed for a very long time.", "topic": "Deemed approval request", "tags": ["RENEWAL", "TIMELINE"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No fee information was discussed for Fire NOC renewal." },
+        { "flag": "VAGUE", "text": "'Up to one year in some cases' is an upper-bound estimate without a stated typical/median duration or official timeline." },
+        { "flag": "REFORM", "text": "Participants cited Maharashtra as not requiring periodic Fire NOC renewal (six-monthly inspections instead) as a possible reform reference; this comparison was not independently verified in the discussion." },
+        { "flag": "MISSING", "text": "No document checklist was enumerated; participants instead noted that the entire Fire NOC process, not specific documents, is repeated at renewal." }
+      ],
+      "issuingAuthority": "Not specified by name; participants referred generally to the Fire Department.",
+      "portal": { "name": null, "url": null },
+      "timeline": { "minDays": null, "maxDays": 365, "basis": "participant-reported upper bound", "text": "Participants reported that renewal delays can extend up to one year in some cases; no typical/median duration or official timeline was cited." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No specific document list was enumerated; participants noted that the complete Fire NOC process, not specific duplicate documents, is repeated at renewal.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Participants stated there is currently no deemed approval mechanism and suggested one be introduced for cases pending beyond a reasonable period." },
+      "validity": { "text": "Current Fire NOC validity is 2 years, per participants, who suggested increasing it to 5 years in exchange for accepting more frequent regular inspections." },
+      "fees": { "text": "Not discussed by participants." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Online submission of renewal application", "automated": true, "note": "Online submission exists but does not eliminate physical interaction, per participants." },
+        { "n": 2, "phase": "apply", "title": "Physical visit to department", "automated": false, "note": "Required even after online submission." },
+        { "n": 3, "phase": "scrutiny", "title": "Fire Supervisor compliance check", "automated": false, "note": "Renewal requires a government-trained (degree-holder) Fire Supervisor; limited availability of eligible supervisors creates difficulty." },
+        { "n": 4, "phase": "inspect", "title": "Field inspection", "automated": false, "note": "Penalties may be imposed for deficiencies found, without adequate time to rectify, per participants." },
+        { "n": 5, "phase": "renew", "title": "Renewal grant", "automated": null, "note": "Full process reportedly repeated at the same rigor as the initial Fire NOC; delays can extend up to one year." }
+      ],
+      "remarks": [
+        "This record is FGD-only (Mode B) and has not been verified against an official ED interview for Renewal of Fire NOC in Odisha; no OD_ED_RFNO record exists.",
+        "Participants cited Maharashtra as an example with no periodic Fire NOC renewal and six-monthly inspections instead; this comparison was not independently verified in this discussion."
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFiles": ["OD_FGD_RSE.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["NORMS"], "sentiment": "issue", "text": "Participants felt the existing requirements do not adequately reflect the different nature and operating patterns of establishments across sectors." },
+        { "source": "fgd", "category": "pain", "tags": ["NORMS"], "sentiment": "issue", "text": "Working patterns and operating hours vary significantly across retail, restaurants, healthcare and IT establishments, making a uniform regulatory approach less practical." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "A uniform regulatory approach is applied across establishments with materially different operational requirements, working patterns, operating hours and employment-related requirements." },
+        { "source": "fgd", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "No specific procedural issue was reported in the discussion." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "No specific issue relating to duplicate or redundant documents was reported in the discussion." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "No delay in approval was reported in the discussion." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Adopt a more sector-specific approach under the Shops & Establishments framework, with requirements aligned to the nature of work, working patterns and operating hours of different sectors such as retail, restaurants, healthcare and IT." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The discussion highlights the importance of ensuring regulatory requirements remain aligned with the operational realities of different sectors rather than following a one-size-fits-all approach." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Participant", "quote": "Requirements should better reflect the different working patterns and operating requirements of sectors such as retail, restaurants, healthcare and IT.", "topic": "Sector-specific regulation", "tags": ["NORMS"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No timeline, fee or document information was discussed by participants for RSE registration — the session focused almost entirely on sector-differentiation policy concerns." },
+        { "flag": "GOOD_PRACTICE", "text": "Participants reported no procedural issues, no document duplication, and no delays in RSE registration, in contrast to most other Odisha services reviewed in this FGD round." }
+      ],
+      "issuingAuthority": "Not specified by name in this discussion.",
+      "portal": { "name": null, "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "", "text": "No delay in approval was reported by participants; no specific timeline figure was given." },
+      "automationLevel": "unclear",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No documents, fees or procedural issues were discussed; the session focused on a policy suggestion for sector-differentiated requirements.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants." },
+      "validity": { "text": "Not discussed by participants." },
+      "fees": { "text": "Not discussed by participants." },
+      "steps": [],
+      "remarks": [
+        "This record is FGD-only (Mode B) and has not been verified against an official ED interview for Registration under Shops & Establishment in Odisha; no OD_ED_RSE record exists.",
+        "This was a notably thin and low-friction session: participants reported no procedural issues, no document duplication and no approval delays, focusing instead on a policy suggestion for sector-differentiated requirements."
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License - Renewal",
+      "sourceFiles": ["OD_FGD_TLR.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Although the renewal process is available online, users still have to visit the department physically, reducing the benefit of online processing." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The portal frequently faces technical issues, which affects the smooth submission and processing of renewal applications." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "When an issue arises with an application, users are not informed by the department about what is pending or needs to be corrected; they must make repeated follow-ups to obtain this information." },
+        { "source": "fgd", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Participants reported that demands for unofficial payments are frequent and that applications tend to move more smoothly after such payments are made." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "The online renewal process is not fully end-to-end, as users are still required to make physical visits to the department." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "There is no effective mechanism for proactively informing applicants about deficiencies, pending requirements or corrections needed in their applications." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Frequent technical problems with the portal disrupt the application process." },
+        { "source": "fgd", "category": "delay", "tags": ["PORTAL"], "sentiment": "issue", "text": "Frequent technical issues with the online portal disrupt the application and renewal process." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "Applicants are not informed when an issue arises with their application, resulting in repeated follow-ups to identify pending requirements or corrections." },
+        { "source": "fgd", "category": "delay", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Unofficial payment demands affect the pace of processing, with applications perceived to move more smoothly after such payments." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Make the Trade License renewal process fully online and end-to-end, without requiring unnecessary physical visits; improve the stability and reliability of the online portal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Introduce a system for proactively notifying applicants about application deficiencies, pending requirements and corrections through the portal, SMS or email." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INFORMAL", "GRIEVANCE"], "sentiment": "suggestion", "text": "Strengthen monitoring and grievance mechanisms to address reported demands for unofficial payments and ensure applications are processed through a transparent and consistent procedure." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The availability of an online renewal facility does not by itself ensure a user-friendly process; portal reliability, proactive communication and transparent processing are important for the online system to deliver its intended benefit." },
+        { "source": "fgd", "category": "remarks", "tags": ["INFORMAL"], "sentiment": "neutral", "text": "The reported experience regarding unofficial payments indicates a need for greater transparency and accountability in application processing." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Participant", "quote": "The renewal process is online, but users still have to visit the department physically.", "topic": "Online-offline gap", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "The portal frequently faces technical issues that affect the application process.", "topic": "Portal reliability", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "Users are not informed when an issue arises with their application and have to follow up to find out what is pending.", "topic": "No proactive deficiency notice", "tags": ["QUERY"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "Unofficial payment demands are frequent, and the process tends to move more smoothly after such payments are made.", "topic": "Unofficial payments", "tags": ["INFORMAL"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official fee amounts were discussed for Trade License renewal." },
+        { "flag": "MISSING", "text": "No document checklist was enumerated by participants." },
+        { "flag": "VAGUE", "text": "No specific timeline duration (in days or months) was given by participants for TLR; delay was described qualitatively via portal issues, lack of proactive notification, and unofficial payment demands rather than a quantified figure." }
+      ],
+      "issuingAuthority": "Not specified by name; participants referred generally to 'the department' handling Trade License renewal.",
+      "portal": { "name": null, "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "", "text": "No specific timeline (in days or months) was given by participants; delay was attributed qualitatively to portal technical issues, lack of proactive deficiency notification, and unofficial payment demands." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No specific document list was enumerated by participants.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants." },
+      "validity": { "text": "Not discussed by participants." },
+      "fees": { "text": "Official fee amounts were not discussed; participants instead described frequent informal/unofficial payment demands affecting processing speed." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Online renewal application submission", "automated": true, "note": "Portal-based submission exists but frequently faces technical issues." },
+        { "n": 2, "phase": "apply", "title": "Physical visit to department", "automated": false, "note": "Required despite online submission, per participants." },
+        { "n": 3, "phase": "scrutiny", "title": "Deficiency/correction identification", "automated": false, "note": "No proactive notification; applicants must follow up repeatedly to learn what is pending." },
+        { "n": 4, "phase": "approve", "title": "Renewal grant", "automated": null, "note": "Participants reported applications move more smoothly after unofficial payments are made." }
+      ],
+      "remarks": [
+        "This record is FGD-only (Mode B) and has not been verified against an official ED interview for Trade License Renewal in Odisha; no OD_ED_TLR record exists.",
+        "Participants described frequent demands for unofficial payments as affecting processing speed; this is unverified participant testimony."
+      ]
+    }
+  ]
+}

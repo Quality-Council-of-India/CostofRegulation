@@ -1,0 +1,355 @@
+{
+  "code": "WB",
+  "name": "West Bengal",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": ["WB_FGD_CTE.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named in the FGD transcript (referred to only as 'the department'). Given the service is Consent to Establish with Green/Orange/Red category classification, this is almost certainly the West Bengal Pollution Control Board (WBPCB) — the authority named for Consent to Operate in the state's ED record — but the FGD itself does not state this.",
+      "portal": {
+        "name": "Shilpasathi (single-window portal; described by participants as carrying 'all three services')",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 15,
+        "maxDays": 30,
+        "basis": "Figures given by participants/moderators 'for context' during the discussion, not cited to a specific rule",
+        "text": "Approval time was stated as 15 days for Green category and 30 days for Red and Orange category. Participants did not dispute these figures directly but focused instead on delays caused by portal downtime and auto-rejection."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Trade licence",
+        "PAN and Aadhaar",
+        "Land documents",
+        "Manufacturing process details",
+        "List of machinery",
+        "Generator details",
+        "Water treatment/effluent treatment plant details",
+        "Raw materials with quantities",
+        "Products with quantities",
+        "Water required for industrial, domestic and process use",
+        "Hazardous waste details",
+        "Boiler and emission/air pollution control system details",
+        "Land and built-up area details",
+        "Building plan (for hospitals)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants explicitly said the documents asked for are reasonable and that none should be removed or reduced; no redundant document was identified for CTE.",
+      "deemedApproval": {
+        "status": "no",
+        "days": 30,
+        "text": "Participants said there is no deemed approval, but a 'deemed rejection' exists: an application not moved within one month is automatically rejected, including when a portal outage (not the applicant) caused the stall, forcing a fresh application."
+      },
+      "validity": {
+        "text": "Stated for context: 15 years for Green category, 10 years for Orange category, 5 years for Red category. Not independently confirmed against rules in this FGD."
+      },
+      "fees": {
+        "text": "The government fee is shown on the portal after auto-scrutiny clears the application, and is paid online via a generated challan; the exact amount/structure was not stated in the discussion. None of the participants disclosed what they pay consultants, which comes on top of the government fee for the roughly 90% who use one."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Fill form and upload documents on the Shilpasathi portal",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Auto-scrutiny",
+          "automated": true,
+          "note": "Gives either a recommendation to proceed or a list of reasons/deficiencies to address."
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Fee display and online payment",
+          "automated": true,
+          "note": "If scrutiny clears, the fee is shown and paid online through the gateway; a challan is generated."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Approval granted",
+          "automated": "partial",
+          "note": "If an application stalls/is rejected, it is not re-explained online; applicants must visit the department and meet officers to learn the reason."
+        }
+      ],
+      "remarks": [
+        "This record is FGD-only (Mode B) and has not been verified against an official ED source — WB.json has no ED entry for CTE.",
+        "A Fire NOC-style renewal/garbage-tax linkage was raised by participants in this CTE session ('renewal is not given unless the garbage tax is paid'); it is reported here as stated, though it may pertain to a related renewal process rather than the initial Consent to Establish itself — the transcript does not fully disambiguate this.",
+        "Overall, apart from the issues raised, participants said they were broadly fine with the process, the documents required and the fees."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The Shilpasathi portal, which carries all three services, stays down or glitches often — reported outages of 20 days to over a month at a time with no prior notice; even when working, network/connectivity issues slow the process." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY", "GRIEVANCE"], "sentiment": "issue", "text": "Rejections are not shown with a reason; applicants have to visit the department and meet different officers to learn what is wrong, adding time and cost." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "About 90% of participants use consultants or intermediaries — not because documents are hard to understand but because they cannot spend the time chasing papers and offices; the consultant's fee is on top of the government fee." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "RENEWAL"], "sentiment": "issue", "text": "Renewal needs the garbage tax to be paid to the local corporation first; hospital participants said they pay a waste tax as well as a hefty fee to the bio-waste disposal agency for the same waste." },
+        { "source": "fgd", "category": "pain", "tags": ["NORMS", "INTERDEP"], "sentiment": "issue", "text": "A participant said even a small hospital expansion (e.g. adding five dialysis beds to a 50-bed unit) seems to need a fresh consent." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Participants said it is hard to complete the process without a consultant because of limited awareness among applicants." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "PORTAL"], "sentiment": "issue", "text": "There is no deemed approval, but a deemed-rejection rule exists: an application not moved within one month is automatically rejected, which during a long portal outage can reject applications through no fault of the applicant." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "issue", "text": "Several overlapping charges on the same waste disposal (waste tax plus bio-waste disposal agency fee) were named as putting an undue financial burden on organisations." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Linking licence renewal to payment of the garbage tax to the corporation was named as one of the major problems." },
+        { "source": "fgd", "category": "remarks", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Consent timelines and validity were stated for context: approval time is 15 days for Green category and 30 days for Red and Orange; validity is 15 years for Green, 10 years for Orange and 5 years for Red." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "Process as described: the applicant fills the form and uploads documents on the portal; auto-scrutiny gives either a recommendation or a list of reasons to work on; if all is in order the fee is shown and paid online (challan generated), then approval follows." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "GRIEVANCE"], "sentiment": "issue", "text": "A tracking system exists, but participants said they got no usable tracking, only rejections without reasons; status messages by email, SMS or the portal were not clear enough." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "Although everything is submitted online, applicants still go to departments to understand rejections; participants wanted department queries to be raised online too, instead of requiring office visits." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "The portal has workflow problems in addition to the downtime, per the session recap." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "POSITIVE"], "sentiment": "positive", "text": "No redundant document was identified; participants said the documents asked for are reasonable and none should be removed or reduced, and the fee structure is also stated on the portal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Give advance notice of portal downtime (a couple of days' notice was mentioned) so applicants can time their applications." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "GRIEVANCE"], "sentiment": "suggestion", "text": "Show reasons for rejection on the portal and let applicants resolve queries online, so office visits are not needed." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Improve tracking and alerts with clear status updates by email or SMS on each stage." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Review and rationalise overlapping waste taxes and charges, especially for hospitals." },
+        { "source": "fgd", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Hold more awareness sessions, and hold future FGDs by zone (e.g. South and North Kolkata) so that more people can attend." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "The portal stays down for 20 days to over a month, with no advance notice to users.", "topic": "Portal Downtime", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "An application not moved within one month is rejected automatically, even when the portal outage caused the delay. There is no deemed approval.", "topic": "Auto-Rejection", "tags": ["NORMS", "TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Rejections show no reason, so applicants have to visit the department and meet officers to find out what to fix.", "topic": "Lack of Transparency", "tags": ["CLARITY", "GRIEVANCE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "We use consultants because the process takes too much time, not because the documents are hard to understand.", "topic": "Consultant Dependence", "tags": ["CONSULT"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Renewal is not given unless the garbage tax is paid to the local corporation.", "topic": "Renewal Condition", "tags": ["RENEWAL", "FEES"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Hospitals pay a waste tax on top of a hefty fee to the bio-waste disposal agency.", "topic": "Multiple Charges", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The documents the department asks for are reasonable and none needs to be removed.", "topic": "Documentation", "tags": ["DUPDOC", "POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Participant", "quote": "A small hospital expansion seems to need a fresh consent (for example five dialysis beds added to a 50-bed unit).", "topic": "Expansion Approval", "tags": ["NORMS"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No consolidated government fee amount/schedule was given — only that a fee is shown on the portal and paid via challan." },
+        { "flag": "MISSING", "text": "Consultant fees were not disclosed by any participant, though ~90% use consultants." },
+        { "flag": "VAGUE", "text": "The issuing department/authority is not explicitly named in the FGD transcript — referred to only as 'the department'." },
+        { "flag": "VAGUE", "text": "It is not fully clear from the transcript whether the 'garbage tax linked to renewal' finding pertains to CTE itself or to a related renewal process discussed in the same session." },
+        { "flag": "GOOD_PRACTICE", "text": "Participants considered the official document checklist complete and reasonable, identifying no document as redundant." },
+        { "flag": "REFORM", "text": "Suggested advance notice of planned downtime, online display of rejection reasons with online query resolution, improved status tracking/alerts, and review of overlapping waste-related taxes." }
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFiles": ["WB_FGD_FBPA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named in the FGD transcript. The process runs through the UODB/single-window system with coordination among the municipal/building authority and the fire, water and drainage departments; no single named issuing authority was stated by participants.",
+      "portal": {
+        "name": "Single-window/UODB system",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 15,
+        "maxDays": 1095,
+        "basis": "Range reported by participants across different applications/municipalities, not tied to a cited statutory figure",
+        "text": "Timelines varied significantly across municipalities/locations: some applications were approved within about 15-20 days, while others reportedly took 2.5 months to as long as 3 years. One participant's application, submitted around 2022, took about three years and was finally sanctioned on 10 August 2025, which the participant linked to the early stage of the UODB system and inter-departmental coordination problems."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No item-wise document checklist was given in this FGD; participants instead described departmental modification requirements (e.g. fire, water, drainage authorities requiring changes such as an additional staircase) that applicants must incorporate before final sanction.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Participants reported no clear mechanism for treating an application as deemed approved, or otherwise resolving it automatically, when a department does not respond within the prescribed compliance timeline."
+      },
+      "validity": {
+        "text": "Not discussed in the FGD transcript."
+      },
+      "fees": {
+        "text": "Not discussed in the FGD transcript. Participants referenced using paid consultants/LBS (Licensed Building Surveyors) for the application, but did not quantify consultant or statutory fees."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit application through the single-window/UODB system",
+          "automated": "partial",
+          "note": "Participants confirmed the system is online, but effectiveness depends on inter-departmental coordination behind it."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Coordination and review across departments",
+          "automated": false,
+          "note": "Fire, water, drainage and building authorities each review the plan; coordination among them was described as not always streamlined."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Departmental modification requirements",
+          "automated": false,
+          "note": "Applicants may need to incorporate changes required by individual departments (e.g. an additional staircase) before sanction."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Final building plan sanction",
+          "automated": false,
+          "note": "Issued once all departmental requirements/recommendations are satisfied; timing was highly variable in participant accounts."
+        }
+      ],
+      "remarks": [
+        "This record is FGD-only (Mode B) and has not been verified against an official ED source — WB.json has no ED entry for FBPA.",
+        "One participant's application took about three years (2022 to sanction on 10 August 2025); the delay was linked to the early stage of UODB implementation and created difficulty meeting a lease condition requiring production to start within three years in a government industrial estate.",
+        "The discussion also touched on related regulatory matters (factory/fire/forest licensing) but these were not treated as primary findings for Factory Building Plan Approval."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Approval timelines vary significantly across municipalities/locations; some applications were approved within about 15 days, while others took 2.5 months to 3 years." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Applications submitted through the single-window/UODB system require coordination among departments such as fire, drainage, water and building authorities, and this coordination was not always streamlined." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE", "INTERDEP"], "sentiment": "issue", "text": "One participant's application submitted around 2022 took about three years to receive sanction (granted 10 August 2025), linked to the early stage of the UODB system and inter-departmental coordination issues." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Without the building plan sanction the participant could not construct/operationalise the factory, and the delay created difficulty meeting a requirement to start production within three years of a lease in a government industrial estate." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Even where applications are submitted online, processing times differ substantially — some cases 15-20 days, others more than a year or 2-3 years." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "Some participants used consultants/LBS because the process was considered time-consuming or because they were unfamiliar with the procedure." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "COMPLY"], "sentiment": "issue", "text": "Separate requirements/recommendations from departments such as fire, water and drainage were described before sanction, including instances where modifications such as an additional staircase were required." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Participants raised concerns about limited status updates or communication during application processing." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "There is no clearly defined time-bound approval framework ensuring a consistent timeline for departments to process and grant Factory Building Plan Approval." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "There is no clear deemed-approval mechanism or other automatic resolution when a department does not respond within the prescribed timeline." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP", "PORTAL"], "sentiment": "issue", "text": "Although applications are submitted through the single-window system, coordination among concerned departments is not fully streamlined, requiring applicants to follow up with multiple departments." },
+        { "source": "fgd", "category": "policy", "tags": ["QUERY"], "sentiment": "issue", "text": "There is no clearly defined single point of contact or dedicated support mechanism for resolving application-related issues and providing procedural guidance." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "Clear and comprehensive guidance on the online application process and departmental requirements appears limited, particularly for applicants using the relatively new online system." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Applications require coordination among multiple departments (fire, water, drainage and other authorities) before final building plan sanction." },
+        { "source": "fgd", "category": "redundant", "tags": ["OTHER"], "sentiment": "neutral", "text": "No specific duplicate-document requirement was clearly established for FBPA; participants referred to multiple departmental requirements/clearances on the same building plan, but the transcript does not provide enough evidence to classify these as duplicate documents." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Ensure a clearly defined and consistently followed timeline for Factory Building Plan Approval." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Strengthen coordination among all departments involved in the approval process through the single-window/UODB system." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Introduce a single point of contact or dedicated helpline for application-related queries and coordination, and provide regular status updates to applicants." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Consider a deemed-approval/automatic-processing mechanism where an application remains pending beyond the prescribed statutory timeline, subject to the applicable legal framework." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants generally acknowledged that online application is useful, but said its effectiveness depends on coordination among the departments involved." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Representative", "quote": "For some, the sanction has been approved within 15 days, and for some other people, it has been approved in 3 years.", "topic": "Variation in Processing Time", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Coordination is required among multiple departments, including fire, drainage and water authorities.", "topic": "Inter-Departmental Coordination", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Applications submitted during the initial phase of UODB faced coordination-related challenges.", "topic": "Early-stage UODB Challenges", "tags": ["INTERDEP", "PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Factory construction cannot commence until sanctions are received from all concerned legal authorities.", "topic": "Impact of Delayed Approval", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Approval timelines vary significantly, ranging from around 15-20 days to more than one year or even 2-3 years.", "topic": "Inconsistent Timelines", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "A single point of contact is required to facilitate coordination among departments and provide guidance to applicants.", "topic": "Single Point of Contact", "tags": ["QUERY"], "sentiment": "suggestion" },
+        { "speaker": "Industry Representative", "quote": "Applicants require timely status updates and communication regarding issues or deficiencies in their applications.", "topic": "Status Tracking & Communication", "tags": ["QUERY"], "sentiment": "suggestion" },
+        { "speaker": "Industry Representative", "quote": "Departments should adhere to defined timelines for processing applications when timelines are prescribed for applicants.", "topic": "Time-bound Departmental Processing", "tags": ["TIMELINE"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No item-wise document checklist for Factory Building Plan Approval was given in this FGD." },
+        { "flag": "MISSING", "text": "No fee information (statutory fee, consultant/LBS cost) was quantified in the discussion." },
+        { "flag": "MISSING", "text": "No validity period or renewal interval for the building plan approval was discussed." },
+        { "flag": "VAGUE", "text": "No single issuing authority is named; the process is described only as running through the UODB/single-window system in coordination with fire, water, drainage and building authorities." },
+        { "flag": "VAGUE", "text": "No single statutory timeline is cited — the reported range (15 days to 3 years) reflects participant experience rather than a confirmed rule." },
+        { "flag": "GOOD_PRACTICE", "text": "Participants acknowledged that online submission via the single-window/UODB system is useful, even though coordination behind it is incomplete." },
+        { "flag": "REFORM", "text": "Suggested a deemed-approval/automatic-processing mechanism, a single point of contact for cross-departmental coordination, and a defined, consistently followed timeline." }
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": ["WB_FGD_RFNO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named in the FGD transcript — referred to only as 'the approving authority' and 'inspecting officer(s)'; the session was held at the State EoDB Cell, Kolkata, but the responsible fire-safety department itself is not named.",
+      "portal": {
+        "name": "Online renewal portal (specific name not given in the FGD transcript)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 60,
+        "maxDays": 365,
+        "basis": "Range reported by participants from their own renewal experiences, not tied to a cited statutory figure",
+        "text": "Some renewals were completed within 2-3 months, but many large projects experienced delays of several months to over a year. In one case an application remained pending for four months even after inspection was completed and the file was submitted to the approving authority."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Fire-safety drawings, layouts and other technical documents from the earlier (prior) Fire NOC approval",
+        "Sanctioned building plans and historical records (for older buildings)",
+        "Documents already available with the department/portal (re-submitted at renewal)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants said documents already held by the department are frequently requested again at each renewal, and that older buildings (20-30 years old) are asked for sanctioned plans/historical records that may not exist or may no longer reflect the current structure.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Participants reported that applications can remain pending for several months 'without clear accountability or consequences for exceeding the prescribed timeline,' but did not describe any deemed-approval or automatic-resolution mechanism, nor did they quantify what the 'prescribed timeline' is."
+      },
+      "validity": {
+        "text": "Not specified in the FGD transcript; the discussion focused on the renewal process and its delays rather than the validity period of the renewed NOC."
+      },
+      "fees": {
+        "text": "No statutory or renewal fee figure was given. Participants mentioned indirect costs — additional consultancy and compliance expenses, and costly structural modifications (e.g. rebuilding staircases/fire exits) — with some estimating business losses of roughly ₹60-70 lakh per month in specific delayed cases, but the regulatory fee itself was not quantified."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit renewal application with supporting documents",
+          "automated": "partial",
+          "note": "Via the online portal; includes previously held fire-safety and building documents."
+        },
+        {
+          "n": 2,
+          "phase": "inspect",
+          "title": "Physical inspection by fire officer",
+          "automated": false,
+          "note": "Compliance requirements identified by the inspecting officer varied between officers/renewal cycles."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Communication of inspection observations",
+          "automated": false,
+          "note": "Reported as taking several months in some cases before applicants learn what modifications are required."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Applicant compliance/modifications",
+          "automated": false,
+          "note": "Applicant carries out required modifications (sometimes structural, e.g. staircases/fire exits); may be reassessed from scratch if the responsible officer is transferred."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Renewal granted by the approving authority",
+          "automated": false,
+          "note": "Timing after inspection/submission was reported as unpredictable; one case stayed pending four months at this stage."
+        }
+      ],
+      "remarks": [
+        "This record is FGD-only (Mode B) and has not been verified against an official ED source — WB.json has no ED entry for RFNO.",
+        "Participants balanced their complaints against an acknowledgement of the importance of fire-safety standards, asking specifically for a more predictable, transparent and consistent renewal process rather than for safety requirements to be relaxed."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Renewal timelines are prolonged and unpredictable: some completed within 2-3 months, but many large projects faced delays of several months to over a year; one application remained pending for four months even after inspection and submission." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT", "CLARITY"], "sentiment": "issue", "text": "Different inspectors prescribe different compliance measures during successive renewals even when there are no changes in the building or applicable guidelines; in some cases an application accepted by one official was later questioned by a higher authority for the same deficiency." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "CLARITY"], "sentiment": "issue", "text": "When inspectors or approving officers were transferred, the incoming officer often reassessed the file and sought additional documents or fresh inspections, interrupting continuity of processing." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Documents already available with the department or online portal had to be submitted again for subsequent renewals; older buildings (20-30 years old) were asked for sanctioned plans and historical records that either did not exist or no longer reflected the current structure." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue", "text": "Participants reported waiting several months to receive inspection recommendations, and found it difficult to determine the exact stage of their application or the reasons for delay, leading to repeated follow-ups with departmental officials." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Participants felt some newly appointed officers lacked sufficient technical expertise, contributing to differing interpretations, repeated inspections and conflicting recommendations." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Delays could prevent businesses from commencing or continuing operations and affect rental income, operational revenue and project viability; participants reported additional consultancy/compliance costs, with some estimating losses of ₹60-70 lakh per month in specific cases." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Businesses reported having to undertake costly structural changes, such as rebuilding staircases or fire exits, during renewal even though the same infrastructure had been covered by an earlier Fire NOC." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "INSPECT"], "sentiment": "issue", "text": "The reported variation in compliance requirements across officers and renewal cycles indicates an absence of sufficiently uniform guidelines for renewal inspections; participants sought a standardized basis for assessment." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "There is no policy for legacy buildings and historical documentation — older establishments may lack sanctioned plans, or available records may no longer correspond to the present structure." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "There is no continuity framework for previously approved fire-safety infrastructure; it can still be subjected to fresh modification requirements during renewal even when premises/conditions have not materially changed." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "issue", "text": "There is no continuity mechanism when officers are transferred — applications may be reassessed from scratch rather than continuing from the stage already reached." },
+        { "source": "fgd", "category": "policy", "tags": ["DUPDOC"], "sentiment": "issue", "text": "There is no document-reuse policy — documents already held by the department may still be requested again during each renewal." },
+        { "source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Participants reported limited accountability for delays beyond prescribed timelines, with applications able to remain pending for months without clear consequence." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "The portal does not allow applicants to update registered mobile numbers or email IDs, which can disrupt communication when the responsible personnel change." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Limited transparency and reliance on manual follow-up: applicants found it difficult to track the exact stage of the application and often had to contact officials personally or make repeated visits for updates." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS", "INSPECT"], "sentiment": "suggestion", "text": "Standardize inspection practices and technical interpretation across officers, with regular training on fire-safety norms." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Ensure continuity when officers are transferred, so applications continue from their existing stage rather than restarting unnecessarily." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Introduce document reuse and a single source of records, with appropriate treatment of historical records for legacy buildings, so applicants provide only documents that changed." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Enable updating of registered contact details on the portal so communication is not interrupted when responsible personnel change." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Representative", "quote": "The renewal application remained pending for months even after the inspection was completed and the file was submitted.", "topic": "Approval Delay", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Every inspecting officer asks for different compliance measures during renewal, even when nothing has changed in the building.", "topic": "Inconsistent Inspection", "tags": ["INSPECT", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "When the officer handling the application was transferred, the new officer started examining the case again.", "topic": "Officer Transfer", "tags": ["INTERDEP", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Users are required to submit the same documents again for every renewal, even though they are already available with the department.", "topic": "Duplicate Documentation", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "For old buildings, sanctioned plans are not always available, but they are still demanded during renewal.", "topic": "Legacy Documentation", "tags": ["DUPDOC", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "The portal does not allow the users to update the registered mobile number or email ID when the responsible employee changes.", "topic": "Digital Governance", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "The users had to carry out costly structural modifications during renewal even though the same building had already received a Fire NOC earlier.", "topic": "Compliance Burden", "tags": ["COMPLY"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Only the updated documents should be sought during renewal instead of asking for the complete set of documents again.", "topic": "Process Simplification", "tags": ["DUPDOC"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No statutory or renewal fee figure was given in the FGD." },
+        { "flag": "MISSING", "text": "Validity period of the renewed Fire NOC was not specified." },
+        { "flag": "MISSING", "text": "No numeric prescribed statutory timeline was quantified in the discussion, despite participants referencing a 'prescribed timeline' for accountability purposes." },
+        { "flag": "VAGUE", "text": "Deemed-approval/automatic-resolution status is unclear — participants described 'limited accountability' for delays but no deemed-approval mechanism, and did not name the issuing/approving department." },
+        { "flag": "REFORM", "text": "Suggested standardized inspection guidelines with officer training, continuity of processing across officer transfers, a document-reuse policy, and the ability to update registered contact details on the portal." }
+      ]
+    }
+  ]
+}

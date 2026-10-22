@@ -1,5 +1,6 @@
--- Cost of Regulation (CoR) — schema
--- SQLite via Node's built-in node:sqlite module (no native build step).
+-- Cost of Regulation (CoR) — schema (Postgres / Neon)
+-- Runs against whatever DATABASE_URL points at — Neon in production (via
+-- Vercel's Postgres integration), a local Postgres instance in development.
 
 CREATE TABLE IF NOT EXISTS licenses (
   code TEXT PRIMARY KEY,
@@ -21,12 +22,12 @@ CREATE TABLE IF NOT EXISTS states (
   validity_text TEXT, fees_text TEXT, documents_note TEXT,
   fgd_pending INTEGER NOT NULL DEFAULT 1,
   secondary_pending INTEGER NOT NULL DEFAULT 1,
-  updated_at TEXT NOT NULL DEFAULT (datetime('now')),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   PRIMARY KEY (code, license_code)
 );
 
 CREATE TABLE IF NOT EXISTS steps (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  id SERIAL PRIMARY KEY,
   state_code TEXT NOT NULL,
   license_code TEXT NOT NULL,
   n INTEGER NOT NULL,
@@ -40,7 +41,7 @@ CREATE TABLE IF NOT EXISTS steps (
 CREATE INDEX IF NOT EXISTS idx_steps_state ON steps(state_code, license_code);
 
 CREATE TABLE IF NOT EXISTS remarks (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  id SERIAL PRIMARY KEY,
   state_code TEXT NOT NULL,
   license_code TEXT NOT NULL,
   ord INTEGER NOT NULL,
@@ -49,7 +50,7 @@ CREATE TABLE IF NOT EXISTS remarks (
 );
 
 CREATE TABLE IF NOT EXISTS data_gaps (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  id SERIAL PRIMARY KEY,
   state_code TEXT NOT NULL,
   license_code TEXT NOT NULL,
   text TEXT NOT NULL,
@@ -72,28 +73,28 @@ CREATE TABLE IF NOT EXISTS secondary_research (
   notes TEXT,
   pending INTEGER NOT NULL DEFAULT 1,
   last_run_id INTEGER,
-  updated_at TEXT NOT NULL DEFAULT (datetime('now')),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   PRIMARY KEY (state_code, license_code)
 );
 
 CREATE TABLE IF NOT EXISTS research_runs (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  id SERIAL PRIMARY KEY,
   state_code TEXT NOT NULL,
   license_code TEXT NOT NULL,
   triggered_by TEXT NOT NULL,
-  triggered_at TEXT NOT NULL DEFAULT (datetime('now')),
+  triggered_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   status TEXT NOT NULL DEFAULT 'running', -- running | done | failed
   summary TEXT,
   parsed_json TEXT,
   sources_json TEXT,
   raw_text TEXT,
   error TEXT,
-  completed_at TEXT
+  completed_at TIMESTAMPTZ
 );
 CREATE INDEX IF NOT EXISTS idx_runs_state ON research_runs(state_code, license_code, triggered_at DESC);
 
 CREATE TABLE IF NOT EXISTS admin (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  id SERIAL PRIMARY KEY,
   username TEXT NOT NULL UNIQUE,
   password_hash TEXT NOT NULL
 );

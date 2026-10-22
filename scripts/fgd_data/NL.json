@@ -1,0 +1,192 @@
+{
+  "code": "NL",
+  "name": "Nagaland",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": ["NL_FGD_CTE.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The CTE application process is experienced as predominantly offline/physical; participants described visiting the office, obtaining the form, preparing documents and submitting them physically." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "Awareness of the online route was limited; one participant said the application was available online but that there were no clear platform-specific guidelines, and a representative clarified that the State EoDB/Single Window portal exists but was still under testing and not officially launched." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The certificate is collected physically after applicants are informed by phone, creating an additional physical step even as an online route is being developed." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "For an additional Diesel Generator (DG) set, a separate CTE is required rather than amending the existing certificate; participants did not see this as a major problem because each certificate records equipment-specific identification details." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "No specified statutory/service timeline for CTE was confirmed by participants; the government representative stated timelines had not yet been defined and referred to the recently passed Public Service Guarantee Act (PSGA) as a future framework for defining timelines." },
+        { "source": "fgd", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "The CTE requirement for a Power Grid/DG-set case is linked to a locality NOC from the Gaon Bura/locality Chairman, described by participants as a Nagaland-specific/local requirement, corroborating the ED's reference to a Village Council NOC." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "The exact CTE validity period and fee were not conclusively established among participants; one suggested a possible 3-5 year period while another described CTE as a one-time approval." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Application involves physical office interaction: obtain form, complete required fields/documents, submit at office, await processing." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "The FGD does not establish a significant duplicate-document burden for CTE; documentation for the DG-set case included capital investment/tax invoice, locality NOC, turnover-related information and other application particulars." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "One participant reported that, while approval itself did not take significant time given regular contact with the department, issuance of the signed certificate could take around 1-2 months because the Member Secretary may not always be available." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Another participant described approval as generally completed within about one month where documentation was complete, describing this as participant experience rather than a confirmed official SLA." },
+        { "source": "fgd", "category": "delay", "tags": ["OTHER"], "sentiment": "neutral", "text": "No evidence of informal payments or consultant dependency for CTE was reported in this FGD." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Make the CTE application process fully online and operational through a clearly communicated government platform, with online submission, payment and digital issuance/collection where feasible." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Define and clearly communicate service timelines/SLA once the PSGA/Single Window framework is operational." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "neutral", "text": "Participants generally did not describe CTE as highly burdensome; the main concern was the offline nature of the process rather than excessive documentation, and a representative noted Nagaland already has relatively fewer licences/approvals than larger states." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "The major challenge right now is that it is offline.", "topic": "Digitisation/Accessibility", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Once it is done online, it will be much easier for us.", "topic": "Process Simplification", "tags": ["PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "We have to visit the office.", "topic": "Physical Process", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Locality NOC from Gaon Bura / Chairman is required.", "topic": "Documentation / Local Clearance", "tags": ["COMPLY"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "No specified timeline was confirmed for the service.", "topic": "Approval Timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "If documentation is complete, approval is generally received in time.", "topic": "Documentation Completeness", "tags": ["TIMELINE"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED (officer interview) reports CTE commonly processed in about 1-2 weeks; FGD participants report certificate issuance can take around 1-2 months in practice due to the Member Secretary's availability, or about one month when documentation is complete — longer than the officer's estimate." },
+        { "flag": "INCONSISTENT", "text": "ED states CTE validity is generally one year with extension allowed in practice; FGD participants were themselves unsure, with one suggesting a possible 3-5 year validity and another describing CTE as a one-time approval, differing from the ED's one-year figure." },
+        { "flag": "MISSING", "text": "The exact CTE fee remains unconfirmed on both sides: the ED gave category-based minimums while FGD participants did not establish a figure at all." },
+        { "flag": "VAGUE", "text": "Participants described a State EoDB/Single Window portal for CTE as existing but under testing and not officially launched; it is unclear from the transcripts whether this is the same channel as the CPCB-developed common portal described in the ED record." },
+        { "flag": "REFORM", "text": "Participants suggested defining and communicating service timelines once the Public Service Guarantee Act (PSGA), described as recently passed, becomes operational — a potential future timeline mechanism not mentioned in the ED record." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": ["NL_FGD_CTO.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The CTO process was described as largely offline, requiring physical visits to the NPCB office for forms/submission and physical collection of the certificate." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "An online facility exists through the State EoDB/Single Window initiative, but it was still under testing and had not been officially launched/advertised at the time of the FGD." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "Participants reported limited awareness of the online platform because it had not yet been officially launched." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "For one participant, certificate issuance could take 1-2 months even though the approval itself was not perceived as highly delayed; the reason given was the availability/signature of the Member Secretary." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "No official CTO service timeline was confirmed in the FGD; participants stated no specified timeline had yet been defined, and the Public Service Guarantee Act (PSGA) was mentioned as a framework expected to define timelines in future." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "CTO fees vary according to industry pollution category (Red/Orange/Green/White), with higher-pollution categories attracting higher fees." },
+        { "source": "fgd", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "Applicants are informed by telephone when the certificate is ready and then collect the certificate physically." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "An old CTO copy was described by one participant as sufficient for renewal, although the department may cross-check hazardous-waste handling." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Participant experiences regarding field inspection differed: one reported no inspection in their case, while another reported a previous NPCB inspection with pollution-assessment equipment and corrective measures, described as an older, since-settled case." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "One participant said inspection may occur annually unless there is an issue, though this was not confirmed as a universal rule." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "In one participant's experience, timely submission and complete documentation (around 10 days before expiry) helped avoid delay." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "No major duplicate-document burden was reported for CTO; the discussion does not establish repeated submission of the same documents across multiple departments." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Move CTO application, payment, tracking and certificate delivery to an online system, and officially launch and publicise the EoDB/Single Window platform." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Define and communicate a clear service timeline/SLA for CTO." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Most participants described direct interaction with the department as generally accessible; one participant said officials were easily reachable by phone with no major difficulty." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "The major challenge right now is that it is offline.", "topic": "Digitisation/Accessibility", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "It will reduce our time in the process.", "topic": "Time Reduction", "tags": ["TIMELINE"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "Our Consent to Operate is 3,000 per year.", "topic": "Official Fee", "tags": ["FEES"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "The old CTO copy is more than enough for us to get renewal.", "topic": "Renewal Documentation", "tags": ["DUPDOC"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "They let us know when our consent is ready.", "topic": "Communication", "tags": ["OTHER"], "sentiment": "positive" },
+        { "speaker": "Participant", "quote": "Most of the things should be done online.", "topic": "Process Simplification", "tags": ["PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "Directly visit the office and get it done. Very smooth business.", "topic": "Ease of Process", "tags": ["POSITIVE"], "sentiment": "positive" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "The ED's basis for its ~1-2 week CTO estimate names availability of the Member Secretary as one factor; FGD participants directly report that, in practice, certificate issuance tied to that same Member Secretary-availability bottleneck can take around 1-2 months — longer than the officer's stated range." },
+        { "flag": "INCONSISTENT", "text": "A participant quoted paying ₹3,000/year for CTO; the ED's minimum category-based fee figures (for investment below ₹50 lakh) were ₹10,000 (Red), ₹7,500 (Orange) and ₹5,000 (Green) — the participant's reported figure is below even the lowest ED-stated minimum." },
+        { "flag": "VAGUE", "text": "Whether the State EoDB/Single Window portal mentioned by FGD participants is the same channel as the CPCB-developed common portal described in the ED record is unclear from the transcripts." },
+        { "flag": "MISSING", "text": "FGD does not confirm the CTO validity periods described in the ED (Red ~5 years, Orange ~7 years, Green ~10 years); participants did not discuss validity duration directly." },
+        { "flag": "GOOD_PRACTICE", "text": "Participants described direct phone-based communication and accessibility of officials as a current strength of the process, notwithstanding its offline nature." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": ["NL_FGD_FNO.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Participants described the Fire NOC process as involving physical/offline interaction with the department in at least some cases; one participant stated the application was handled offline, although some compliance/reporting activity could be undertaken online." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE", "INSPECT"], "sentiment": "issue", "text": "Inspection and approval timelines were not always predictable; one participant with a pending Fire NOC was told to wait for an inspection, while another indicated inspection could take around 10-15 days in their case." },
+        { "source": "fgd", "category": "pain", "tags": ["NORMS"], "sentiment": "issue", "text": "Existing or rented buildings can create significant compliance difficulty where prescribed infrastructure cannot be physically accommodated; one participant described difficulty meeting a requirement for a 50,000-litre underground water tank because the existing building/site had insufficient space." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Requirements can involve substantial physical fire-safety infrastructure (water storage, pumps, hydrants, fire extinguishers); for older or constrained buildings, structural modification may be difficult or costly." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Applicants may have to visit different departmental offices for different approvals/NOCs; one participant described approaching pollution, factory, fire and health-related offices separately as someone new to the process." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Follow-up and tracking can be difficult when applications remain pending, with concerns about knowing the status of a file and having an accountability mechanism." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Fire NOC validity was described as differing by establishment/service context: one participant referred to a two-year validity, another (diagnostic centre) to a one-year validity; no single uniform validity period for all establishments was established in the discussion." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Participants suggested fire-safety requirements be considered at the building-construction stage so infrastructure like water tanks and fire-fighting systems can be incorporated before operations begin, and suggested stronger inter-departmental coordination via a single-window mechanism." },
+        { "source": "fgd", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "The Fire NOC process generally involves submission of documents/application, departmental verification or inspection, rectification where required, and subsequent approval; one participant described fee payment occurring at the approval stage rather than upfront." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Inspection timing was not consistently predictable; one participant reported an inspection itself took about 30 minutes once conducted, but the waiting period before being called was longer." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Applicants may need to physically visit department offices even where online processes are introduced, creating additional trips and effort." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "The FGD does not contain a clear, explicit statement that the same document was repeatedly demanded at multiple stages of the Fire NOC process, though participants described having to approach different offices for different NOCs and submit service-specific information, indicating scope for better inter-departmental information sharing." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Pending departmental inspections were identified as a source of delay; a participant with an application already submitted said the inspection had not yet taken place and they were waiting to be called." },
+        { "source": "fgd", "category": "delay", "tags": ["NORMS"], "sentiment": "issue", "text": "Clarifications and compliance with technical requirements (e.g., water-tank capacity, structural requirements) that could not readily be accommodated in existing premises were cited as extending the timeline." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "One participant stated the statutory/official fee for Fire NOC was relatively small in their case (around ₹1,500), while another referred to compliance-related expenditure of approximately ₹10,000-15,000; these are participant-specific figures, not a confirmed state-wide fee." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Move the Fire NOC application and compliance workflow towards a fully online process with status/file tracking and clear accountability for each stage; develop a state-level single-window system for submitting applications once with automatic routing." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "The participant stated that the Fire NOC application was handled offline, while some compliance/reporting activity could be carried out online.", "topic": "Procedural / Offline Process", "tags": ["PORTAL"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "The participant described difficulty complying with a requirement for a 50,000-litre underground water tank because the existing building did not have sufficient space.", "topic": "Policy / Pain Point - Infrastructure Requirement", "tags": ["NORMS"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The participant indicated that Fire NOC-related official fees were relatively minimal in their case, while compliance involved other costs.", "topic": "Statutory Cost", "tags": ["FEES"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "The participant described a process in which documents were submitted first, inspection followed, and payment was made at the approval stage.", "topic": "Procedural Sequence", "tags": ["PORTAL"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "The participant reported that the inspection itself took approximately 30 minutes, while the overall waiting period depended on when the department called the applicant.", "topic": "Time / Delay", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The participant suggested that a state-level single-window portal would make it easier to apply for services and route applications to the relevant departments.", "topic": "Suggestion", "tags": ["PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "The participant stated that an online process would be better, although applicants currently still have to make visits in connection with the Fire NOC process.", "topic": "Digitisation", "tags": ["PORTAL"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED states the Fire Safety NOC is generally issued for three years; FGD participants describe differing validity experiences — one referencing two years and another (diagnostic centre) one year — with no participant confirming a three-year validity." },
+        { "flag": "INCONSISTENT", "text": "ED states no application, approval or other official fee is currently levied for Fire Safety NOC (a license-fee proposal was pending Government approval); one FGD participant reported paying an official/statutory fee of around ₹1,500, directly contradicting the ED's 'no fee currently levied' statement." },
+        { "flag": "VAGUE", "text": "The FGD does not establish a single overall end-to-end processing time; reported experiences range from an inspection taking ~10-15 days to unpredictable waiting periods, consistent with the ED's own statement that no average end-to-end time was given." },
+        { "flag": "MISSING", "text": "The FGD does not confirm whether the dedicated Fire Safety NOC portal described by the ED as 'in final testing' had gone live; participants described the application as still offline with only some compliance/reporting activity online." },
+        { "flag": "REFORM", "text": "Participants suggested incorporating fire-safety infrastructure requirements at the building-construction design stage, before operations begin — a preventive measure not discussed in the ED record." }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFiles": ["NL_FGD_LEM.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Legal Metrology licensing and renewal is substantially offline, with no established online/Single Window process described by participants at the time of the FGD." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "No official checklist was provided to at least one participant's organisation; the organisation identified required items based on its own understanding." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Applicants must travel between the Legal Metrology department and a private calibration agency/team, completing calibration externally before returning to the department for approval." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Reported timelines vary enormously by applicant type: a PSU participant reported roughly three days to a maximum of one week, while a weighing-machine vendor reported a license taking 6-7 months." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE", "RENEWAL"], "sentiment": "issue", "text": "A local business participant reported receiving a license about six months after submission via Treasury Challan renewal, by which time the next renewal was already approaching." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Travelling to the department was described as a hassle, including because of office location and lack of parking." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Businesses reported difficulty keeping up with changes in Legal Metrology requirements because new policies/guidelines were not always communicated or accompanied by sensitisation." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT", "FEES"], "sentiment": "neutral", "text": "Large weighing equipment cannot always be transported to the department, making on-site verification necessary in some cases, at a reportedly higher cost (~₹4,000-5,000) than bringing equipment to the department (~₹1,000-1,500)." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL", "CLARITY"], "sentiment": "issue", "text": "Participants described one-year validity requiring annual renewal as their general experience, and expressed a preference for a longer validity period such as five years." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "A notification dated 28 April 2026 reportedly introduces five-year validity for manufacturer/repairer/dealer licenses, but participants said they had not received official communication of this and some were still issued one-year licenses." },
+        { "source": "fgd", "category": "procedural", "tags": ["FEES"], "sentiment": "issue", "text": "No written fee schedule was available to participants; charges were communicated verbally according to equipment capacity, and receipts did not break down the fee amount." },
+        { "source": "fgd", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "Payment methods were not standardised: participants described cash payment at the office, online payment 'depending on the person', and Treasury Challan for some renewal/inter-department situations, with Treasury Challan described as more time-consuming." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "The same limited set of officials reportedly handles both departmental processing and field verification, creating a bottleneck when applications remain pending." },
+        { "source": "fgd", "category": "delay", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Because the department itself is responsible for checking/action, businesses reported they generally wait and follow up with the same officials rather than using a separate escalation route." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "For regulated PSU/oil-industry entities, Legal Metrology delays can create additional compliance exposure because requirements may also appear in audits by bodies such as OISD and PNGRB." },
+        { "source": "fgd", "category": "remarks", "tags": ["COMPLY"], "sentiment": "issue", "text": "An IOCL participant noted the absence of State Factory Rules in Nagaland, creating ambiguity in areas such as periodic health checks, gratuity and post-accident provisions." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Implement a Single Window/digital process covering application, submission, payment, verification, approval and renewal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Introduce a clear, standard Legal Metrology SOP/checklist and communicate it to applicants, along with a transparent published fee schedule." },
+        { "source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Provide application status tracking and an escalation matrix so applicants can see progress and escalate delayed cases." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Officially communicate and consistently implement the five-year validity provision where permitted, including formal written notice to applicants." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "License mein yahan bohot time lag jata hai, 6-7 mahina lag jata hai.", "topic": "Processing Delay", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Everything humko jo bhi issues hai, toh bhi unhi ke paas jana hai; late ho rahe hai, toh bhi unhi ko call lagana hai.", "topic": "Departmental Bottleneck", "tags": ["GRIEVANCE", "CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "There should be communication from the department to introduce new policies and guidelines.", "topic": "Regulatory Communication", "tags": ["CLARITY"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "There should be an escalation matrix.", "topic": "Escalation/Tracking", "tags": ["GRIEVANCE"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "We would much appreciate if some official communication is circulated, at least in offline also, one letter.", "topic": "Communication of 5-Year Validity", "tags": ["CLARITY", "RENEWAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "We don't have any certified agency for ISO certification here, we have to go nearest to Guwahati or Kolkata.", "topic": "Local Service Availability / ISO Compliance", "tags": ["OTHER"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "There is no Factory Rules in Nagaland as of yet... there is a bit of ambiguity and grey area.", "topic": "Policy Gap / Ambiguity", "tags": ["NORMS", "CLARITY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No confirmed statutory/departmental timeline (SLA) for Legal Metrology approval was described; only widely varying participant experiences (three days to 6-7 months) are on record." },
+        { "flag": "VAGUE", "text": "Exact Legal Metrology fee amounts are not confirmed; participants described approximate ranges (₹1,000-1,500 vs ₹4,000-5,000) depending on route, with no written fee schedule." },
+        { "flag": "MISSING", "text": "The issuing authority/department's exact official name was not stated in the discussion; participants referred only generically to 'the department.'" },
+        { "flag": "VAGUE", "text": "Whether the April 2026 five-year validity notification has been formally rolled out statewide is unclear; participants reported inconsistent implementation, with some still issued one-year licenses." },
+        { "flag": "MISSING", "text": "No deemed-approval provision for Legal Metrology was discussed by participants." },
+        { "flag": "REFORM", "text": "Participants proposed a Single Window/digital process covering application, payment, verification, approval and renewal, plus an escalation matrix — suggested but not yet implemented." }
+      ],
+      "issuingAuthority": "Legal Metrology Department, Government of Nagaland (referred to generically as 'the department' by participants; the exact office name was not stated in the discussion).",
+      "portal": { "name": "No dedicated online portal was described for Legal Metrology; licensing, renewal and fee payment were described as substantially offline at the time of the FGD, with only some online payment reported depending on the individual applicant.", "url": null },
+      "timeline": { "minDays": 3, "maxDays": 210, "basis": "Highly variable per participant: a PSU participant reported processing in about three days up to a maximum of one week; a weighing-machine vendor reported waiting 6-7 months for a license; a local business participant reported receiving a license about six months after submission in one instance.", "text": "No single confirmed timeline exists. A PSU participant described the process as generally quick (around three days, maximum about a week), while a weighing-machine vendor reported a license taking 6-7 months, and a local business participant reported receiving a license about six months after submission via Treasury Challan renewal." },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "yes",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants reported no official document checklist was communicated for Legal Metrology; organisations identified required items based on their own understanding. No specific document list was named in the discussion beyond fee receipts issued at payment, which did not itemise the amount charged.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Deemed approval was not addressed by participants in the discussion." },
+      "validity": { "text": "Participants reported one-year validity requiring annual renewal as their general experience. A government official participant stated that a notification dated 28 April 2026 provides five-year validity for licenses of manufacturers, repairers and dealers of weights and measures, but participants said they had not yet received official communication of this change and some had still been issued one-year validity at the time of discussion." },
+      "fees": { "text": "No official fee schedule was shared with participants. Reported amounts varied by route: approximately ₹1,000-1,500 when the applicant brought the equipment/took the process to the department, versus approximately ₹4,000-5,000 when department personnel visited the establishment on-site. A weighing-machine vendor reported charges communicated verbally according to machine capacity range, with no written fee schedule provided. Receipts were issued but the amount was not broken down. Payment methods included cash at the office, online payment 'depending on the person,' and Treasury Challan for some renewal/inter-department situations, with Treasury Challan described as more time-consuming." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Applicant identifies required items/documents", "automated": false, "note": "No official checklist was described as being provided to at least one participant; organisations relied on their own understanding." },
+        { "n": 2, "phase": "apply", "title": "Applicant visits department office to apply/submit", "automated": false, "note": "Process described as substantially offline, requiring physical travel." },
+        { "n": 3, "phase": "scrutiny", "title": "Department refers applicant to a private calibration agency/team, or arranges on-site verification", "automated": false, "note": "On-site verification used when equipment cannot be transported to the department (reportedly higher cost)." },
+        { "n": 4, "phase": "inspect", "title": "Calibration/verification completed with the calibration provider", "automated": false, "note": "" },
+        { "n": 5, "phase": "apply", "title": "Applicant returns to the department with calibration results", "automated": false, "note": "" },
+        { "n": 6, "phase": "fee", "title": "Applicant pays applicable fee", "automated": "partial", "note": "Via cash at the office, online payment (reported as inconsistent/person-dependent), or Treasury Challan for some renewal situations." },
+        { "n": 7, "phase": "approve", "title": "Department issues license/approval", "automated": false, "note": "" },
+        { "n": 8, "phase": "renew", "title": "Annual renewal, in some cases via Treasury Challan", "automated": false, "note": "Described by one participant as taking around six months in practice, by which time the next renewal was already approaching." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cost of Regulation | QCI · DPIIT</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lexend:wght@500;600;700&display=swap');
+
+:root{
+  --primary:#4F46E5; --primary-dark:#4338CA; --primary-light:#EEF2FF;
+  --accent:#F59E0B; --accent-light:#FEF3C7;
+  --ink:#0F172A; --body:#334155; --muted:#64748B; --faint:#94A3B8;
+  --bg:#F3F4F8; --card:#FFFFFF; --border:#E2E8F0; --border-2:#EDF0F5;
+  --success:#059669; --success-light:#D1FAE5;
+  --warning:#D97706; --warning-light:#FEF3C7;
+  --danger:#DC2626; --danger-light:#FEE2E2;
+  --info:#2563EB; --info-light:#DBEAFE;
+  --violet:#7C3AED; --violet-light:#EDE9FE;
+  --r:14px; --r-sm:9px;
+  --shadow-sm:0 1px 2px rgba(15,23,42,.05);
+  --shadow:0 2px 8px rgba(15,23,42,.06), 0 1px 2px rgba(15,23,42,.04);
+  --shadow-lg:0 12px 32px rgba(15,23,42,.12), 0 2px 6px rgba(15,23,42,.06);
+  --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --display:'Lexend','Inter',sans-serif;
+  --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--bg);color:var(--body);font-family:var(--sans);font-size:14px;line-height:1.55;-webkit-font-smoothing:antialiased}
+button,select,input{font-family:inherit;font-size:inherit;color:inherit}
+a{color:var(--primary);text-decoration:none}
+a:hover{text-decoration:underline}
+svg.ic{width:16px;height:16px;flex:0 0 auto;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+::selection{background:var(--primary-light);color:var(--primary-dark)}
+
+.shell{display:flex;min-height:100vh;align-items:stretch}
+.rail{width:256px;flex:0 0 256px;background:linear-gradient(180deg,#131B3D,#0B1230);color:#CBD3F0;display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow-y:auto}
+.rail-brand{padding:22px 18px 16px;border-bottom:1px solid rgba(255,255,255,.08)}
+.rail-brand .eyebrow{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#8C96C9;font-weight:700}
+.rail-brand h1{font-family:var(--display);font-size:19px;line-height:1.2;margin:8px 0 4px;color:#fff;font-weight:700;letter-spacing:-.01em}
+.rail-brand .sub{font-size:11.5px;color:#99A2CE}
+.svcpick{margin-top:13px;display:flex;align-items:center;gap:7px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:8px 10px}
+.svcpick label{font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:#8C96C9;font-weight:700;display:block;margin-bottom:3px}
+.svcpick select{background:transparent;border:0;color:#fff;font-weight:600;font-size:12px;width:100%;outline:none}
+.svcpick select option{color:#0F172A}
+.rail-nav{padding:14px 10px;display:flex;flex-direction:column;gap:3px}
+.navbtn{display:flex;gap:11px;align-items:flex-start;text-align:left;background:transparent;border:0;color:#B6BFE8;padding:10px 11px;border-radius:10px;cursor:pointer;width:100%;transition:background .15s, transform .15s}
+.navbtn:hover{background:rgba(255,255,255,.07);transform:translateX(2px)}
+.navbtn.on{background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:#fff;box-shadow:0 4px 14px rgba(79,70,229,.45)}
+.navbtn svg.ic{margin-top:1px;color:#808BC4;flex:0 0 auto}
+.navbtn.on svg.ic{color:#fff}
+.navbtn .t{font-weight:700;font-size:13px;display:block}
+.navbtn .d{font-size:10.5px;opacity:.78;font-weight:400;display:block;margin-top:2px;line-height:1.35}
+.rail-foot{margin-top:auto;padding:14px 18px 20px;font-size:10.5px;color:#8C96C9;line-height:1.6}
+.rail-foot b{color:#C3CAEE;font-weight:700}
+
+.main{flex:1;min-width:0;display:flex;flex-direction:column}
+.topbar{background:rgba(255,255,255,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding:12px 26px;position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.topbar-filters{display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap;flex:1}
+.fld{display:flex;flex-direction:column;gap:4px;min-width:0}
+.fld label{font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.fld select,.fld input{border:1px solid var(--border);background:#fff;border-radius:8px;padding:8px 11px;min-width:190px;max-width:300px;height:36px;outline:none;font-size:13px;transition:border-color .15s, box-shadow .15s}
+.fld select:focus,.fld input:focus{border-color:var(--primary);box-shadow:0 0 0 3px var(--primary-light)}
+.topbar-actions{display:flex;gap:10px;align-items:center}
+.search{border:1px solid var(--border);background:#fff;border-radius:999px;padding:8px 14px;height:36px;width:200px;outline:none;font-size:12.5px;transition:all .15s}
+.search:focus{border-color:var(--primary);box-shadow:0 0 0 3px var(--primary-light);width:260px}
+.btn{border:1px solid var(--border);background:#fff;border-radius:9px;height:36px;padding:0 14px;cursor:pointer;font-weight:600;font-size:12.5px;color:var(--ink);white-space:nowrap;display:inline-flex;align-items:center;gap:7px;transition:all .15s}
+.btn:hover{background:var(--bg);border-color:var(--faint);transform:translateY(-1px)}
+.btn.primary{background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:#fff;border-color:transparent;box-shadow:0 2px 8px rgba(79,70,229,.3)}
+.btn.sm{height:30px;padding:0 11px;font-size:11.5px}
+
+.canvas{padding:26px 30px 80px;flex:1;max-width:1440px;animation:fadein .25s ease}
+@keyframes fadein{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+.pagehead{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:18px;flex-wrap:wrap}
+.pagehead h2{font-family:var(--display);font-weight:700;font-size:26px;margin:0;line-height:1.2;display:flex;align-items:center;gap:11px;color:var(--ink);letter-spacing:-.01em}
+.pagehead h2 svg.ic{width:24px;height:24px;color:var(--primary)}
+.pagehead .lede{color:var(--muted);font-size:13px;margin-top:6px;max-width:820px;line-height:1.6}
+.stamp{font-size:10px;letter-spacing:.07em;text-transform:uppercase;font-weight:700;border:1px solid var(--border);border-radius:999px;padding:6px 12px;color:var(--muted);background:#fff;white-space:nowrap}
+.stamp.live{border-color:var(--success);color:var(--success);background:var(--success-light)}
+
+.grid{display:grid;gap:16px}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.g5{grid-template-columns:repeat(5,minmax(0,1fr))}
+.g23{grid-template-columns:minmax(0,2fr) minmax(0,3fr)}
+
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden;transition:box-shadow .2s}
+.card.hoverable:hover{box-shadow:var(--shadow-lg)}
+.card-h{padding:14px 18px 12px;border-bottom:1px solid var(--border-2);display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card-h h3{margin:0;font-size:13.5px;font-weight:700;letter-spacing:-.005em;display:flex;align-items:center;gap:8px;color:var(--ink)}
+.card-h .note{font-size:11px;color:var(--faint)}
+.card-b{padding:17px 18px}
+.card-b.tight{padding:10px 12px 12px}
+
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:16px 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:7px;transition:transform .18s, box-shadow .18s}
+.kpi:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.kpi .k-top{display:flex;align-items:center;justify-content:space-between}
+.kpi .k-l{font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.kpi .k-v{font-family:var(--display);font-size:28px;font-weight:700;letter-spacing:-.02em;line-height:1.05;color:var(--ink)}
+.kpi .k-s{font-size:11.5px;color:var(--muted);line-height:1.4}
+.kpi.acc-success .k-v{color:var(--success)} .kpi.acc-warn .k-v{color:var(--warning)}
+.kpi.acc-danger .k-v{color:var(--danger)} .kpi.acc-primary .k-v{color:var(--primary)} .kpi.acc-violet .k-v{color:var(--violet)}
+.kpi .k-icon{width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.kpi.acc-success .k-icon{background:var(--success-light);color:var(--success)}
+.kpi.acc-warn .k-icon{background:var(--warning-light);color:var(--warning)}
+.kpi.acc-danger .k-icon{background:var(--danger-light);color:var(--danger)}
+.kpi.acc-primary .k-icon{background:var(--primary-light);color:var(--primary)}
+.kpi.acc-violet .k-icon{background:var(--violet-light);color:var(--violet)}
+
+table.dt{width:100%;border-collapse:collapse;font-size:12.5px}
+table.dt th{text-align:left;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700;padding:10px 12px;border-bottom:1px solid var(--border);white-space:nowrap;background:var(--card);cursor:pointer;user-select:none}
+table.dt th:hover{color:var(--primary)}
+table.dt th .sort-arrow{opacity:.4;margin-left:3px}
+table.dt td{padding:11px 12px;border-bottom:1px solid var(--border-2);vertical-align:top}
+table.dt tbody tr{transition:background .12s}
+table.dt tbody tr:hover{background:var(--primary-light)}
+table.dt td.n,table.dt th.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.scroll-y{max-height:560px;overflow:auto}
+.state-link{font-weight:700;cursor:pointer;color:var(--ink)}
+.state-link:hover{color:var(--primary)}
+.state-link small{display:block;font-weight:400;color:var(--faint);font-size:10.5px;margin-top:1px}
+
+.badge{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:700;padding:5px 10px;border-radius:999px;white-space:nowrap;border:1px solid transparent}
+.badge.b-online{background:var(--success-light);color:#065F46;border-color:#A7E8CB}
+.badge.b-site{background:var(--info-light);color:#1E40AF;border-color:#BFD4F7}
+.badge.b-mixed{background:var(--warning-light);color:#92400E;border-color:#F6D68B}
+.badge.b-bad{background:var(--danger-light);color:#991B1B;border-color:#F3C2BE}
+.badge.b-mute{background:var(--bg);color:var(--muted);border-color:var(--border)}
+.badge .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:0 0 auto}
+
+.tag{display:inline-block;padding:4px 9px;border-radius:6px;font-size:10px;font-weight:700;letter-spacing:.01em;white-space:nowrap}
+.t-ok{background:var(--success-light);color:#065F46}
+.t-warn{background:var(--warning-light);color:#92400E}
+.t-bad{background:var(--danger-light);color:#991B1B}
+.t-mute{background:var(--bg);color:var(--muted);border:1px solid var(--border)}
+.t-info{background:var(--info-light);color:#1E40AF}
+
+.hbars{display:flex;flex-direction:column;gap:10px}
+.hbar{display:grid;grid-template-columns:168px 1fr 70px;gap:11px;align-items:center;font-size:12px}
+.hbar .hb-n{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600;cursor:pointer}
+.hbar .hb-n:hover{color:var(--primary)}
+.hbar .hb-track{height:10px;background:var(--border-2);border-radius:6px;overflow:hidden}
+.hbar .hb-fill{height:100%;border-radius:6px;width:0;transition:width 1s cubic-bezier(.22,1,.36,1)}
+.hbar .hb-v{font-family:var(--mono);text-align:right;font-weight:700;font-size:11.5px}
+
+.stepper{display:flex;flex-direction:column}
+.step-v{display:grid;grid-template-columns:40px 1fr;column-gap:15px}
+.step-v .rail-col{display:flex;flex-direction:column;align-items:center}
+.step-v .dot{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;flex:0 0 auto;border:2px solid transparent;transition:transform .15s}
+.step-v .dot.online{background:linear-gradient(135deg,var(--success),#047857);color:#fff}
+.step-v .dot.site{background:var(--info-light);color:var(--info);border-color:#BFD4F7}
+.step-v .dot.mixed{background:var(--warning-light);color:var(--warning);border-color:#F6D68B}
+.step-v .dot.unclear{background:var(--bg);color:var(--muted);border-color:var(--border)}
+.step-v .line{width:2px;flex:1;background:var(--border);min-height:20px}
+.step-v:last-child .line{display:none}
+.step-v .body{padding:3px 0 24px}
+.step-v:hover .dot{transform:scale(1.08)}
+.step-v .sp{font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--faint);font-weight:700;margin-bottom:3px}
+.step-v .st{font-weight:700;font-size:13.5px;line-height:1.4;display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--ink)}
+.step-v .sd{font-size:12px;color:var(--muted);margin-top:4px;line-height:1.5}
+.step-docs{margin-top:8px;padding:10px 12px;background:var(--bg);border-radius:8px;font-size:11.5px}
+.step-docs b{color:var(--ink);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em}
+.step-docs ul{margin:5px 0 0;padding-left:16px;color:var(--body)}
+.step-docs .step-portal{margin-top:8px}
+
+.gap-note{border:1px dashed var(--faint);background:#fff;border-radius:10px;padding:11px 13px;font-size:11.5px;color:var(--muted);line-height:1.55}
+.banner{border:1px solid var(--warning);background:var(--warning-light);color:#78350F;border-radius:10px;padding:12px 15px;font-size:12.5px;display:flex;gap:10px;align-items:flex-start;margin-bottom:16px}
+.banner.info{border-color:#93C5FD;background:var(--info-light);color:#1E3A8A}
+.banner.good{border-color:#A7E8CB;background:var(--success-light);color:#065F46}
+.banner svg.ic{margin-top:2px;flex:0 0 auto}
+
+.empty{padding:34px;text-align:center;color:var(--muted);font-size:13px}
+.empty b{display:block;font-size:15px;color:var(--ink);margin-bottom:5px;font-family:var(--display);font-weight:700}
+.hint{font-size:11.5px;color:var(--faint);margin-top:10px;line-height:1.5}
+
+.statepick{display:flex;flex-wrap:wrap;gap:8px}
+.statepick button{border:1px solid var(--border);background:#fff;border-radius:999px;padding:8px 14px;font-size:12px;font-weight:600;cursor:pointer;color:var(--body);display:inline-flex;align-items:center;gap:6px;transition:all .15s}
+.statepick button:hover{border-color:var(--primary);color:var(--primary)}
+.statepick button.on{background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:#fff;border-color:transparent}
+.statepick button .n{opacity:.6;font-weight:400;font-size:10.5px}
+
+.leader-card{border:1px solid var(--border);border-radius:var(--r);padding:18px;background:linear-gradient(160deg,#fff,#FAFBFF);display:flex;flex-direction:column;gap:9px;transition:transform .18s, box-shadow .18s}
+.leader-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.leader-card .lc-kpi{font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.leader-card .lc-state{font-family:var(--display);font-size:19px;font-weight:700;color:var(--ink);cursor:pointer}
+.leader-card .lc-state:hover{color:var(--primary)}
+.leader-card .lc-metric{font-size:13px;font-weight:700;color:var(--success)}
+.leader-card .lc-why{font-size:12px;color:var(--muted);line-height:1.5}
+.medal{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#FFD873,#E8A93A);display:flex;align-items:center;justify-content:center;color:#5A3C00;flex:0 0 auto;box-shadow:0 2px 8px rgba(232,169,58,.4)}
+
+.stagegrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media(max-width:1000px){.stagegrid{grid-template-columns:1fr}}
+.stagecol{display:flex;flex-direction:column;gap:11px}
+.stagecol-h{display:flex;align-items:center;gap:8px;padding:11px 14px;border-radius:10px;font-weight:700;font-size:12.5px}
+.stagecol-h.online{background:var(--success-light);color:#065F46}
+.stagecol-h.mixed{background:var(--warning-light);color:#92400E}
+.stagecol-h.site{background:var(--info-light);color:#1E40AF}
+.statecard-mini{border:1px solid var(--border);border-radius:12px;padding:13px 14px;background:#fff;cursor:pointer;transition:all .18s}
+.statecard-mini:hover{border-color:var(--primary);box-shadow:var(--shadow-lg);transform:translateY(-2px)}
+.statecard-mini .n{font-weight:700;font-size:13px;color:var(--ink);display:flex;justify-content:space-between;align-items:center}
+.statecard-mini .n .pos{font-size:10px;font-family:var(--mono);color:var(--faint);font-weight:400}
+.statecard-mini .d{font-size:11.5px;color:var(--muted);margin-top:5px;line-height:1.5}
+.mini-pipe{display:flex;gap:3px;margin-top:9px;align-items:center}
+.mini-pipe .md{width:7px;height:7px;border-radius:50%;background:var(--border)}
+.mini-pipe .md.on{background:var(--success)}
+.mini-pipe .md.site{background:var(--info)}
+.mini-pipe .md.mixed{background:var(--warning)}
+.mini-pipe .md.focus{width:11px;height:11px;outline:2px solid var(--ink);outline-offset:1px}
+.statecard-mini .meta-row{display:flex;gap:8px;margin-top:9px;flex-wrap:wrap}
+.chip-sm{font-size:10px;font-weight:700;padding:3px 8px;border-radius:999px;background:var(--bg);color:var(--muted);display:inline-flex;align-items:center;gap:4px}
+.chip-sm.link{color:var(--primary);cursor:pointer}
+.chip-sm.link:hover{text-decoration:underline}
+
+.cmp-col{border:1px solid var(--border);border-radius:var(--r);background:#fff;overflow:hidden;box-shadow:var(--shadow)}
+.cmp-col .cc-h{background:linear-gradient(135deg,#1E293B,#0F172A);color:#fff;padding:14px 16px}
+.cmp-col .cc-h .n{font-family:var(--display);font-size:17px;font-weight:700}
+.cmp-col .cc-h .s{font-size:10.5px;color:#93A7BF;margin-top:2px}
+.cmp-row{padding:11px 16px;border-bottom:1px solid var(--border-2);font-size:12.5px}
+.cmp-row .l{font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:4px}
+
+.finding{border-left:3px solid var(--faint);padding:9px 13px;margin-bottom:8px;background:#fff;border:1px solid var(--border-2);border-left-width:3px;border-radius:0 10px 10px 0;font-size:12.5px;line-height:1.5}
+.finding:last-child{margin-bottom:0}
+.finding.sent-issue{border-left-color:var(--danger)}
+.finding.sent-positive{border-left-color:var(--success)}
+.finding.sent-suggestion{border-left-color:var(--info)}
+.finding.sent-neutral{border-left-color:var(--faint)}
+.finding .fmeta{display:flex;gap:6px;align-items:center;margin-bottom:5px;flex-wrap:wrap}
+.fcat{font-size:9px;text-transform:uppercase;letter-spacing:.06em;font-weight:800;color:var(--muted)}
+.ftag{font-size:9px;font-weight:700;padding:2px 7px;border-radius:999px;background:var(--bg);color:var(--muted);border:1px solid var(--border)}
+.ftag.src-ed{background:#1E293B;color:#fff;border-color:transparent}
+.ftag.src-fgd{background:var(--violet-light);color:#5B21B6;border-color:transparent}
+.finding .ftext{color:var(--body)}
+
+.quote-card{background:linear-gradient(160deg,#fff,#FAFBFF);border:1px solid var(--border);border-radius:14px;padding:16px 18px;position:relative;height:100%}
+.quote-card .qmark{font-family:var(--display,inherit);font-size:38px;color:var(--border-2);position:absolute;top:2px;left:12px;line-height:1}
+.quote-card .qtext{font-style:italic;font-size:13.5px;color:var(--ink);padding-left:16px;line-height:1.5;position:relative}
+.quote-card .qmeta{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding-top:10px;border-top:1px solid var(--border-2);font-size:10.5px;color:var(--faint)}
+.quote-card .qtopic{font-weight:700;color:var(--muted)}
+.quotegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+
+.gapbadge{display:inline-flex;align-items:center;gap:5px;font-size:9.5px;font-weight:800;padding:4px 10px;border-radius:999px;border:1px solid;letter-spacing:.02em;white-space:nowrap}
+.gapbadge.gf-MISSING{background:var(--bg);color:var(--muted);border-color:var(--border)}
+.gapbadge.gf-VAGUE{background:var(--warning-light);color:#92400E;border-color:#F6D68B}
+.gapbadge.gf-INCONSISTENT{background:var(--danger-light);color:#991B1B;border-color:#F3C2BE}
+.gapbadge.gf-GOOD_PRACTICE{background:var(--violet-light);color:#5B21B6;border-color:#D8CCFA}
+.gapbadge.gf-REFORM{background:var(--info-light);color:#1E40AF;border-color:#BFD4F7}
+
+.gap-item{border:1px solid var(--border);border-radius:10px;padding:12px 14px;margin-bottom:9px;background:#fff}
+.gap-item:last-child{margin-bottom:0}
+.gap-item .gi-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.gap-item .gi-state{font-weight:700;font-size:12px;color:var(--ink);cursor:pointer}
+.gap-item .gi-state:hover{color:var(--primary)}
+.gap-item .gi-svc{font-size:10.5px;color:var(--faint);font-weight:600}
+.gap-item .gi-text{font-size:12.5px;color:var(--body);line-height:1.55;margin-top:8px}
+
+.tabset{display:flex;gap:6px;margin-bottom:13px;flex-wrap:wrap}
+.tabbtn{border:1px solid var(--border);background:#fff;border-radius:999px;padding:7px 14px;font-size:11.5px;font-weight:700;cursor:pointer;color:var(--muted);transition:all .15s}
+.tabbtn:hover{border-color:var(--primary);color:var(--primary)}
+.tabbtn.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tabbtn .n{opacity:.65;font-weight:400;margin-left:4px}
+
+/* ---------- coverage matrix ---------- */
+.covwrap{overflow:auto;border:1px solid var(--border);border-radius:var(--r);background:#fff}
+table.covgrid{border-collapse:collapse;font-size:10.5px;white-space:nowrap}
+table.covgrid th,table.covgrid td{border:1px solid var(--border-2);padding:0;text-align:center}
+table.covgrid th.corner{position:sticky;left:0;top:0;z-index:3;background:#fff}
+table.covgrid th.svccol{position:sticky;top:0;z-index:2;background:#fff;padding:6px 4px;font-weight:700;color:var(--muted);min-width:34px;max-width:34px;font-size:9.5px}
+table.covgrid td.statecol{position:sticky;left:0;z-index:1;background:#fff;text-align:left;padding:5px 10px;font-weight:700;color:var(--ink);cursor:default;font-size:11px;min-width:190px}
+table.covgrid td.cell{width:34px;height:26px;cursor:pointer;transition:transform .1s}
+table.covgrid td.cell.has{background:var(--primary-light);color:var(--primary-dark);font-weight:800}
+table.covgrid td.cell.has:hover{background:var(--primary);color:#fff;transform:scale(1.15)}
+table.covgrid td.cell.empty{background:var(--bg);color:transparent}
+.covlegend{display:flex;gap:14px;align-items:center;font-size:11px;color:var(--muted);margin-top:10px;flex-wrap:wrap}
+.covlegend .sw{width:14px;height:14px;border-radius:4px;display:inline-block;vertical-align:middle;margin-right:5px}
+
+@media (max-width:1180px){ .g4{grid-template-columns:repeat(2,minmax(0,1fr))} .g5{grid-template-columns:repeat(2,minmax(0,1fr))} .g23,.g3{grid-template-columns:minmax(0,1fr)} .stagegrid{grid-template-columns:1fr} }
+@media (max-width:860px){
+  .shell{flex-direction:column} .rail{width:100%;flex:none;height:auto;position:static;flex-direction:column}
+  .rail-nav{flex-direction:row;flex-wrap:wrap} .navbtn{width:auto;flex:1 1 44%} .rail-foot{display:none}
+  .g2{grid-template-columns:minmax(0,1fr)} .canvas{padding:16px 14px 50px} .topbar{padding:10px 14px}
+  .search{width:140px}
+  .fld select,.fld input{min-width:140px;max-width:100%}
+}
+@media print{
+  .rail,.topbar,.btn,.statepick{display:none !important}
+  body{background:#fff} .canvas{padding:0;max-width:none}
+  .card{break-inside:avoid;box-shadow:none;border:1px solid #ccc}
+  .scroll-y{max-height:none !important;overflow:visible !important}
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+  <nav class="rail" aria-label="Dashboard sections">
+    <div class="rail-brand">
+      <div class="eyebrow">Government of India · DPIIT</div>
+      <h1>Cost of Regulation</h1>
+      <div class="sub">Quality Council of India</div>
+      <div class="svcpick">
+        <label>Selected license / service</label>
+        <select id="svcSelect"></select>
+      </div>
+    </div>
+    <div class="rail-nav" id="railnav"></div>
+    <div class="rail-foot" id="railfoot"></div>
+  </nav>
+
+  <div class="main">
+    <div class="topbar">
+      <div class="topbar-filters" id="filterbar"></div>
+      <div class="topbar-actions">
+        <input class="search" id="globalSearch" type="search" placeholder="Jump to a State…" />
+        <button class="btn" id="downloadBtn"><svg class="ic" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="M6.5 10 12 15.5 17.5 10"/><path d="M4 19.5h16"/></svg> Download / print</button>
+      </div>
+    </div>
+    <div class="canvas" id="canvas">
+      <div class="loading">Loading…</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/;
+</script>
+<script>
+/* ==========================================================================
+   COST OF REGULATION — ALL LICENSES, ALL STATES (ED-ONLY PASS)
+   Single-file edition. All data is embedded above (DATA). No network calls.
+   ========================================================================== */
+
+const ICONS = {
+  grid:'<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+  user:'<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/>',
+  columns:'<rect x="3" y="4" width="5" height="16" rx="1"/><rect x="9.5" y="4" width="5" height="16" rx="1"/><rect x="16" y="4" width="5" height="16" rx="1"/>',
+  layers:'<path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>',
+  award:'<circle cx="12" cy="8" r="5.2"/><path d="M8.3 12.8 6.5 21l5.5-3 5.5 3-1.8-8.2"/>',
+  scale:'<path d="M12 3v17"/><path d="M6 7h6M12 7h6"/><path d="M3 7l2.6 6.2a2.6 2.6 0 0 0 5.2 0L8 7"/><path d="M16 7l2.6 6.2a2.6 2.6 0 0 0 5.2 0L21 7"/><path d="M7 20h10"/>',
+  book:'<path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H11v17H6.5A2.5 2.5 0 0 0 4 21.5z"/><path d="M20 4.5A2.5 2.5 0 0 0 17.5 2H13v17h4.5A2.5 2.5 0 0 1 20 21.5z"/>',
+  flask:'<path d="M9 2v6.5L4 18a2 2 0 0 0 1.8 3h12.4a2 2 0 0 0 1.8-3L15 8.5V2"/><path d="M8.5 2h7"/><path d="M7 15h10"/>',
+  check:'<circle cx="12" cy="12" r="9.5"/><path d="M7.5 12.3l3 3 6-6.6"/>',
+  pin:'<path d="M12 21.5s7.2-7.6 7.2-12.3A7.2 7.2 0 0 0 4.8 9.2c0 4.7 7.2 12.3 7.2 12.3z"/><circle cx="12" cy="9" r="2.6"/>',
+  alert:'<path d="M12 3 2.2 20h19.6z"/><path d="M12 10v4.5"/><circle cx="12" cy="17.3" r=".6" fill="currentColor"/>',
+  dash:'<circle cx="12" cy="12" r="9.5" stroke-dasharray="2.5 3"/>',
+  arrow:'<path d="M5 12h14"/><path d="M13 6l6 6-6 6"/>',
+  link:'<path d="M9 15 15 9"/><path d="M10 6.5 11.5 5a4 4 0 0 1 5.7 5.7L15.5 12.2"/><path d="M14 17.5 12.5 19a4 4 0 0 1-5.7-5.7L8.5 11.8"/>',
+  quote:'<path d="M7 7h4v6c0 3-2 5-5 5"/><path d="M15 7h4v6c0 3-2 5-5 5"/>'
+};
+function icon(name, cls){ return `<svg class="ic${cls?' '+cls:''}" viewBox="0 0 24 24">${ICONS[name]||''}</svg>`; }
+const esc = s => String(s==null?'':s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+const SERVICES = DATA.services;
+const SVC_BY_CODE = {}; SERVICES.forEach(sv=>SVC_BY_CODE[sv.code]=sv);
+const STATE_UNIVERSE = DATA.stateUniverse;
+const STATES = DATA.states.slice().sort((a,b)=>a.name.localeCompare(b.name));
+const ST_BY_CODE = {}; STATES.forEach(s=>ST_BY_CODE[s.code]=s);
+const PHASES = DATA.phases;
+const STAGE_MAP = Object.fromEntries(PHASES.map(p=>[p.code,{k:p.code,n:p.label}]));
+const STAGES = Object.values(STAGE_MAP);
+const AGG = DATA.aggregates;
+const COVERAGE = DATA.coverage;
+
+function licOf(stateCode, svcCode){
+  const s = ST_BY_CODE[stateCode]; if(!s) return null;
+  return s.licenses.find(l=>l.serviceCode===svcCode) || null;
+}
+function statesWithService(svcCode){
+  return STATES.filter(s=>licOf(s.code, svcCode));
+}
+
+const CATEGORY_LABEL = {pain:'Pain point', policy:'Policy', procedural:'Procedure', redundant:'Redundancy', delay:'Delay', suggestions:'Suggestion', remarks:'Remark'};
+const SENT_CLASS = {issue:'sent-issue', neutral:'sent-neutral', positive:'sent-positive', suggestion:'sent-suggestion'};
+const SRC_LABEL = {ed:'ED', fgd:'FGD'};
+const GAP_META = {
+  MISSING:{label:'Missing', icon:'dash'}, VAGUE:{label:'Vague', icon:'alert'},
+  INCONSISTENT:{label:'Inconsistent', icon:'scale'}, GOOD_PRACTICE:{label:'Good practice', icon:'award'},
+  REFORM:{label:'Reform idea', icon:'arrow'}
+};
+
+const DEFAULT_SERVICE = SERVICES.find(s=>s.code==='FAL') ? 'FAL' : (SERVICES[0]?SERVICES[0].code:null);
+const F = { view:'overview', state:null, license:null, service:DEFAULT_SERVICE, cmp:[], search:'', sort:{col:null,dir:1}, bestSvc:'all', gapsSvc:'all' };
+
+/* ---------- formatting helpers ---------- */
+const fmtDays = t => { if(!t || t.minDays==null) return 'Not specified'; if(t.minDays===t.maxDays) return t.minDays+' days'; return t.minDays+'–'+t.maxDays+' days'; };
+function stepBadgeClass(step){
+  if(step.automated===true) return 'online';
+  if(step.automated==='partial') return 'mixed';
+  if(step.automated===false) return step.phase==='inspect' ? 'site' : 'mixed';
+  return 'unclear';
+}
+function stepBadgeLabel(step){
+  if(step.automated===true) return 'Online';
+  if(step.automated==='partial') return 'Partly online';
+  if(step.automated===false) return step.phase==='inspect' ? 'On-site visit' : 'Manual';
+  return 'Conditional';
+}
+function stepDot(step){ return `<div class="dot ${stepBadgeClass(step)}">${step.automated===true?icon('check'):(step.phase==='inspect'&&step.automated!==true)?icon('pin'):step.n}</div>`; }
+function stepBadge(step){ const c=stepBadgeClass(step); return `<span class="badge b-${c==='online'?'online':c==='site'?'site':c==='mixed'?'mixed':'mute'}"><span class="dot"></span>${esc(stepBadgeLabel(step))}</span>`; }
+function deemedBadge(d){
+  if(!d) return `<span class="badge b-mute">${icon('dash')}Not confirmed</span>`;
+  if(d.status==='yes') return `<span class="badge b-online">${icon('check')}Deemed approval: Yes${d.days?(' · '+d.days+' days'):''}</span>`;
+  if(d.status==='no') return `<span class="badge b-bad">${icon('alert')}Deemed approval: No</span>`;
+  return `<span class="badge b-mute">${icon('dash')}Not confirmed</span>`;
+}
+function autoLevelTag(lic){
+  if(!lic || lic._autoShare==null) return '<span class="tag t-mute">Not scoreable</span>';
+  const pct = Math.round(lic._autoShare*100);
+  if(pct>=85) return `<span class="tag t-ok">${pct}% digitised</span>`;
+  if(pct>=55) return `<span class="tag t-warn">${pct}% digitised</span>`;
+  return `<span class="tag t-bad">${pct}% digitised</span>`;
+}
+function kpiIcon(cls,ic,l,v,s){ return `<div class="kpi ${cls}"><div class="k-top"><div class="k-l">${esc(l)}</div><div class="k-icon">${icon(ic)}</div></div><div class="k-v">${esc(v)}</div><div class="k-s">${esc(s)}</div></div>`; }
+function hbars(items){
+  const max = Math.max(1, ...items.map(i=>i.max||i.v||1));
+  return '<div class="hbars">'+items.map((i)=>{
+    const pct = i.v==null?0:Math.max(2, (i.v/max)*100);
+    return `<div class="hbar"><div class="hb-n" ${i.code?`onclick="goState('${i.code}')"`:''}>${esc(i.n)}</div>`+
+      `<div class="hb-track"><div class="hb-fill" data-w="${pct}" style="background:${i.col||'var(--primary)'}"></div></div>`+
+      `<div class="hb-v">${esc(i.label)}</div></div>`;
+  }).join('')+'</div>';
+}
+function animateBars(){
+  document.querySelectorAll('.hb-fill[data-w]').forEach(el=>{ el.style.width = '0%'; });
+  requestAnimationFrame(()=>{
+    requestAnimationFrame(()=>{
+      document.querySelectorAll('.hb-fill[data-w]').forEach(el=>{ el.style.width = el.dataset.w + '%'; });
+    });
+  });
+}
+function portalLink(lic){
+  if(!lic || !lic.portal) return '';
+  if(!lic.portal.url) return `<span class="chip-sm" title="Portal name known from the Expert Discussion; URL not independently confirmed">${icon('pin')} ${esc(lic.portal.name||'Portal')}</span>`;
+  return `<a class="chip-sm link" href="${esc(lic.portal.url)}" target="_blank" rel="noopener">${icon('link')} ${esc(lic.portal.name||'Portal')}</a>`;
+}
+function findingItem(f){
+  return `<div class="finding ${SENT_CLASS[f.sentiment]||''}">
+    <div class="fmeta">${f.source?`<span class="ftag src-${f.source}">${SRC_LABEL[f.source]||f.source}</span>`:''}<span class="fcat">${esc(CATEGORY_LABEL[f.category]||f.category)}</span>${(f.tags||[]).map(t=>`<span class="ftag">${esc(t)}</span>`).join('')}</div>
+    <div class="ftext">${esc(f.text)}</div>
+  </div>`;
+}
+function quoteCard(q){
+  return `<div class="quote-card"><div class="qmark">&ldquo;</div><div class="qtext">${esc(q.quote)}</div>
+    <div class="qmeta"><span class="qtopic">${esc(q.topic||'')}</span><span>${esc(q.speaker||'')}</span></div></div>`;
+}
+function gapBadge(flag){ const m = GAP_META[flag]||{label:flag,icon:'dash'}; return `<span class="gapbadge gf-${flag}">${icon(m.icon)}${esc(m.label)}</span>`; }
+function gapItem(g, showState){
+  return `<div class="gap-item"><div class="gi-head">${gapBadge(g.flag)}${showState?`<span class="gi-state" onclick="goState('${g.state}')">${esc(g.stateName||g.state)}</span><span class="gi-svc">${esc(g.serviceName||g.serviceCode||'')}</span>`:''}</div>
+    <div class="gi-text">${esc(g.text)}</div></div>`;
+}
+
+/* ---------- nav ---------- */
+const NAV = [
+  {k:'overview', icon:'grid', t:'National overview', d:'Coverage across all States/UTs and licenses'},
+  {k:'state', icon:'user', t:'State profile', d:'Every license for one State, tagged findings per step'},
+  {k:'compare', icon:'columns', t:'Compare States', d:'Line up 2–4 States for the selected license'},
+  {k:'phase', icon:'layers', t:'Stage comparison', d:'One process stage, across every State (selected license)'},
+  {k:'best', icon:'award', t:'Good practices & reform ideas', d:'Flagged in the real record, across all licenses'},
+  {k:'reconcile', icon:'scale', t:'Flagged inconsistencies', d:'Where a report contradicts itself'},
+  {k:'gaps', icon:'flask', t:'Data gaps', d:'What is missing or too vague to use — by license'},
+  {k:'method', icon:'book', t:'Method & data quality', d:'Taxonomy, sources, scope, open gaps'}
+];
+function buildNav(){
+  document.getElementById('railnav').innerHTML = NAV.map(n=>
+    `<button class="navbtn" data-view="${n.k}" onclick="goView('${n.k}')">${icon(n.icon)}<span><span class="t">${esc(n.t)}</span><span class="d">${esc(n.d)}</span></span></button>`
+  ).join('');
+  document.getElementById('railfoot').innerHTML = `<b>Scope</b><br>${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licenses · ${esc(AGG.totalLicenses)} license records (ED + FGD)<br>Secondary (web) research on hold for this pass<br><br><b>This file</b><br>Single self-contained HTML, no server, no database — open it, email it, host it anywhere.`;
+}
+function goView(v){ F.view=v; render(); }
+function goState(code){ F.state=code; F.license=null; F.view='state'; render(); }
+function goStateService(code, svc){ F.state=code; F.license=svc; F.view='state'; render(); }
+
+function buildServicePicker(){
+  const sel = document.getElementById('svcSelect');
+  const withData = SERVICES.filter(sv=>AGG.byService[sv.code] && AGG.byService[sv.code].states.length).sort((a,b)=>AGG.byService[b.code].states.length - AGG.byService[a.code].states.length);
+  sel.innerHTML = withData.map(sv=>`<option value="${sv.code}" ${F.service===sv.code?'selected':''}>${esc(sv.name)} (${AGG.byService[sv.code].states.length})</option>`).join('');
+  sel.onchange = e => { F.service = e.target.value; render(); };
+}
+
+function buildFilters(){
+  const bar = document.getElementById('filterbar');
+  if(F.view==='state'){
+    bar.innerHTML = `<div class="fld"><label>State / UT</label><select id="selState">${STATES.map(s=>`<option value="${s.code}" ${F.state===s.code?'selected':''}>${esc(s.name)}</option>`).join('')}</select></div>
+      <div class="fld"><label>&nbsp;</label><div style="display:flex;gap:6px"><button class="btn sm" id="prevSt">← Prev</button><button class="btn sm" id="nextSt">Next →</button></div></div>`;
+    document.getElementById('selState').onchange = e=>{ F.state=e.target.value; F.license=null; render(); };
+    document.getElementById('prevSt').onclick = ()=>{ const i=STATES.findIndex(s=>s.code===F.state); F.state=STATES[(i-1+STATES.length)%STATES.length].code; F.license=null; render(); };
+    document.getElementById('nextSt').onclick = ()=>{ const i=STATES.findIndex(s=>s.code===F.state); F.state=STATES[(i+1)%STATES.length].code; F.license=null; render(); };
+  } else if(F.view==='phase'){
+    bar.innerHTML = `<div class="fld"><label>Process stage</label><select id="selPhase">${STAGES.map(p=>`<option value="${p.k}" ${F.phase===p.k?'selected':''}>${esc(p.n)}</option>`).join('')}</select></div>`;
+    document.getElementById('selPhase').onchange = e=>{ F.phase=e.target.value; render(); };
+  } else {
+    bar.innerHTML = `<div class="fld"><label>Dataset</label><select disabled><option>${esc(AGG.totalLicenses)} license records · ${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licenses</option></select></div>`;
+  }
+}
+
+/* ========================= VIEWS ========================= */
+
+function renderOverview(){
+  const q = F.search.trim().toLowerCase();
+  const svc = F.service;
+  const svcStates = statesWithService(svc).map(s=>({s, lic:licOf(s.code, svc)}));
+
+  let h = `<div class="pagehead"><div><h2>${icon('grid')}National overview</h2>
+    <div class="lede">${esc(DATA.meta.sourcesNote)}</div></div>
+    <span class="stamp live">${AGG.totalLicenses} license records tagged</span></div>`;
+
+  h += `<div class="grid g5" style="margin-bottom:16px">
+    ${kpiIcon('acc-primary','grid','States/UTs covered', AGG.totalStates+' / '+STATE_UNIVERSE.length, 'at least one license with ED or FGD')}
+    ${kpiIcon('acc-primary','layers','Licenses covered', AGG.totalServices+' / '+SERVICES.length, 'service types with at least one ED or FGD')}
+    ${kpiIcon('acc-primary','book','License records processed', String(AGG.totalLicenses), AGG.totalFindings+' tagged findings · '+AGG.totalQuotes+' FGD quotes')}
+    ${kpiIcon('acc-danger','alert','Gaps logged', String(AGG.totalGaps), (AGG.gapFlagCounts.MISSING||0)+' missing · '+(AGG.gapFlagCounts.VAGUE||0)+' vague · '+(AGG.gapFlagCounts.INCONSISTENT||0)+' inconsistent')}
+    ${kpiIcon('acc-violet','award','Good practice logged', String(AGG.gapFlagCounts.GOOD_PRACTICE||0), (AGG.gapFlagCounts.REFORM||0)+' reform ideas also flagged')}
+  </div>`;
+
+  // coverage matrix
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>${icon('columns')}Coverage — every State × every license</h3><span class="note">click a filled cell to open that State's profile for that license</span></div><div class="card-b">
+    <div class="covwrap"><table class="covgrid"><thead><tr><th class="corner"></th>${SERVICES.map(sv=>`<th class="svccol" title="${esc(sv.name)}">${esc(sv.code)}</th>`).join('')}</tr></thead><tbody>`+
+    STATE_UNIVERSE.map(su=>{
+      const has = !!COVERAGE[su.code];
+      return `<tr><td class="statecol">${esc(su.name)}</td>`+
+        SERVICES.map(sv=>{
+          const c = has ? COVERAGE[su.code][sv.code] : null;
+          if(c) return `<td class="cell has" title="${esc(su.name)} · ${esc(sv.name)} — ${c.findings} findings, ${c.gaps} gaps" onclick="goStateService('${su.code}','${sv.code}')">${icon('check')}</td>`;
+          return `<td class="cell empty"></td>`;
+        }).join('')+
+      '</tr>';
+    }).join('')+
+    '</tbody></table></div>'+
+    `<div class="covlegend"><span><span class="sw" style="background:var(--primary-light)"></span>ED on file</span><span><span class="sw" style="background:var(--bg)"></span>not yet collected</span></div>
+    </div></div>`;
+
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Selected license: ${esc(SVC_BY_CODE[svc]?SVC_BY_CODE[svc].name:svc)}</h3><span class="note">${svcStates.length} States/UTs · change the license from the sidebar</span></div><div class="card-b">`;
+  if(!svcStates.length){
+    h += `<div class="empty"><b>No data yet for this license</b></div>`;
+  } else {
+    const timed = svcStates.filter(x=>x.lic._timeMid!=null);
+    h += `<div class="grid g2">
+      <div><div style="font-weight:700;font-size:12px;margin-bottom:9px">Timeline, by State</div>
+      ${hbars(svcStates.map(({s,lic})=>({n:s.name+' ('+s.code+')', code:s.code, v:lic._timeMid, max:65, label: lic._timeMid!=null?fmtDays(lic.timeline):'not specified', col: lic._timeMid==null?'#C3CBD4':(lic._timeMid<=15?'var(--success)':lic._timeMid<=35?'var(--warning)':'var(--danger)')})))}
+      </div>
+      <div><div style="font-weight:700;font-size:12px;margin-bottom:9px">Digitisation (excl. inspection)</div>
+      ${hbars(svcStates.map(({s,lic})=>({n:s.name+' ('+s.code+')', code:s.code, v:lic._autoShare==null?0:Math.round(lic._autoShare*100), max:100, label:lic._autoShare==null?'n/a':Math.round(lic._autoShare*100)+'%', col:'var(--primary)'})))}
+      </div>
+    </div>`;
+  }
+  h += '</div></div>';
+
+  const filtered = q ? STATE_UNIVERSE.filter(s=>s.name.toLowerCase().includes(q)) : STATE_UNIVERSE;
+  h += `<div class="card"><div class="card-h"><h3>Every State / UT</h3><span class="note">click a row for its full multi-license profile</span></div><div class="card-b tight"><div class="scroll-y"><table class="dt"><thead><tr><th>State / UT</th><th class="n">Licenses on file</th><th class="n">Findings</th><th class="n">Gaps</th></tr></thead><tbody>`+
+    filtered.map(su=>{
+      const s = ST_BY_CODE[su.code];
+      const lics = s ? s.licenses.length : 0;
+      const findings = s ? s.licenses.reduce((a,l)=>a+l.findings.length,0) : 0;
+      const gaps = s ? s.licenses.reduce((a,l)=>a+l.gaps.length,0) : 0;
+      return `<tr><td ${s?`class="state-link" onclick="goState('${su.code}')"`:''}>${esc(su.name)}${!s?' <span class=\"tag t-mute\">no ED or FGD yet</span>':''}</td><td class="n">${lics}</td><td class="n">${findings}</td><td class="n">${gaps}</td></tr>`;
+    }).join('')+
+    '</tbody></table></div></div></div>';
+
+  return h;
+}
+
+function renderState(){
+  const s = ST_BY_CODE[F.state];
+  if(!s) return '<div class="empty"><b>Pick a State</b></div>';
+  if(!F.license || !licOf(s.code, F.license)) F.license = s.licenses[0] ? s.licenses[0].serviceCode : null;
+  const lic = licOf(s.code, F.license);
+
+  let h = `<div class="pagehead"><div><h2>${icon('user')}${esc(s.name)}</h2>
+    <div class="lede">${s.licenses.length} license${s.licenses.length===1?'':'s'} on file from a completed Expert Discussion and/or Focused Group Discussion.</div></div>
+    <span class="stamp live">${AGG.totalStates} States in dataset</span></div>`;
+
+  h += `<div class="tabset">`+
+    s.licenses.map(l=>`<button class="tabbtn ${F.license===l.serviceCode?'on':''}" onclick="setLicense('${l.serviceCode}')">${esc(l.serviceName)}<span class="n">${l.findings.length}</span></button>`).join('')+
+    '</div>';
+
+  if(!lic) return h + '<div class="empty"><b>No license selected</b></div>';
+
+  h += `<div class="lede" style="margin:-6px 0 10px">${esc(lic.issuingAuthority||'')}${lic.ed&&lic.ed.expert?' · '+esc(lic.ed.expert)+(lic.ed.designation?', '+esc(lic.ed.designation):''):''} ${portalLink(lic)}</div>`;
+  h += `<div style="margin:0 0 16px;display:flex;gap:6px;flex-wrap:wrap">
+    <span class="ftag src-ed" style="${lic.hasED===false?'opacity:.35':''}">${lic.hasED===false?'No ED on file':'Expert Discussion'}</span>
+    <span class="ftag src-fgd" style="${!lic.hasFGD?'opacity:.35':''}">${lic.hasFGD?('FGD — '+(lic.fgdSessionCount||1)+' session'+((lic.fgdSessionCount||1)===1?'':'s')):'No FGD on file'}</span>
+    ${lic.hasED===false?'<span class="ftag" title="This record was built entirely from business-side FGD testimony, not an official interview">FGD-only record — not verified against an official source</span>':''}
+  </div>`;
+
+  const bd = {online:lic.steps.filter(x=>x.automated===true).length, site:lic.steps.filter(x=>x.phase==='inspect').length};
+  const nonInspectCount = lic.steps.filter(x=>x.phase!=='inspect').length;
+  h += `<div class="grid g4" style="margin-bottom:16px">
+    ${kpiIcon('acc-primary','layers','Steps recorded', String(lic._stepCount), lic.hasED===false?'best-effort, from FGD testimony — not ED-verified':'exactly as the Expert Discussion describes them')}
+    ${kpiIcon(lic._timeMid==null?'acc-warn':'acc-success','grid','Timeline', fmtDays(lic.timeline), (lic.timeline&&lic.timeline.basis)||'')}
+    ${kpiIcon('acc-primary','check','Digitisation', lic._autoShare==null?'n/a':Math.round(lic._autoShare*100)+'%', bd.online+' of '+nonInspectCount+' non-inspection steps online'+(bd.site?' · '+bd.site+' on-site visit':''))}
+    ${kpiIcon(lic.deemedApproval&&lic.deemedApproval.status==='yes'?'acc-success':'acc-danger','award','Deemed approval', lic.deemedApproval?({yes:'Yes',no:'No',unclear:'Not confirmed'}[lic.deemedApproval.status]||'Not confirmed'):'Not confirmed', (lic.deemedApproval&&lic.deemedApproval.days)?(lic.deemedApproval.days+' days'):'')}
+  </div>`;
+
+  if(lic.steps.length){
+    h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>${icon('layers')}Process — official record</h3></div>
+      <div class="card-b"><div class="stepper">`+
+      lic.steps.map(st=>`<div class="step-v"><div class="rail-col">${stepDot(st)}<div class="line"></div></div>
+        <div class="body"><div class="sp">${esc(STAGE_MAP[st.phase]?.n||st.phase)}</div>
+        <div class="st">${esc(st.title)}${stepBadge(st)}</div>
+        ${st.note?`<div class="sd">${esc(st.note)}</div>`:''}
+        ${st.documents&&st.documents.length?`<div class="step-docs"><b>Documents required here (${st.documents.length})</b><ul>${st.documents.map(d=>`<li>${esc(d)}</li>`).join('')}</ul></div>`:''}
+        </div></div>`).join('')+
+      '</div></div></div>';
+  }
+
+  h += `<div class="grid g3" style="margin-bottom:16px">
+    <div class="card"><div class="card-h"><h3>Fees &amp; validity</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.6">
+      <b style="color:var(--ink)">Fees</b><br>${esc((lic.fees&&lic.fees.text)||'Not stated')}<br><br><b style="color:var(--ink)">Validity</b><br>${esc((lic.validity&&lic.validity.text)||'Not stated')}</div></div>
+    <div class="card"><div class="card-h"><h3>Deemed approval</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.6">${deemedBadge(lic.deemedApproval)}<div style="margin-top:9px">${esc((lic.deemedApproval&&lic.deemedApproval.text)||'')}</div></div></div>
+    <div class="card"><div class="card-h"><h3>Documents</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.6">${(lic.documents||[]).length?'<ul style="margin:0;padding-left:16px">'+lic.documents.map(d=>`<li>${esc(d)}</li>`).join('')+'</ul>':'See step-level lists above where available.'}${lic.documentsNote?`<div style="margin-top:8px">${esc(lic.documentsNote)}</div>`:''}</div></div>
+  </div>`;
+
+  if(lic.remarks && lic.remarks.length){
+    h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Official's remarks &amp; recommendations</h3></div><div class="card-b">
+      <ul style="margin:0;padding-left:18px;font-size:12.5px;color:var(--muted);line-height:1.7">${lic.remarks.map(r=>`<li>${esc(r)}</li>`).join('')}</ul></div></div>`;
+  }
+
+  if(lic.quotes && lic.quotes.length){
+    h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>${icon('user')}Quotes from the Focused Group Discussion</h3><span class="note">${lic.quotes.length} verbatim/lightly-trimmed quotes from participants</span></div>
+      <div class="card-b"><div class="quotegrid scroll-y" style="max-height:420px">${lic.quotes.map(quoteCard).join('')}</div></div></div>`;
+  }
+
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>${icon('book')}Tagged findings</h3><span class="note">${lic.findings.length} total — category, topic tags, sentiment, each traced to its source transcript (ED or FGD)</span></div>
+    <div class="card-b"><div class="scroll-y" style="max-height:600px">${lic.findings.map(findingItem).join('')||'<div class="hint">No findings extracted.</div>'}</div></div>`;
+
+  h += `<div class="card"><div class="card-h"><h3>${icon('flask')}Gaps</h3><span class="note">${lic.gaps.length} flags for this license</span></div><div class="card-b">${lic.gaps.map(g=>gapItem(g,false)).join('')||'<div class="hint">None logged.</div>'}</div></div>`;
+
+  return h;
+}
+function setLicense(svc){ F.license = svc; render(); }
+
+function renderCompare(){
+  const svc = F.service;
+  const pool = statesWithService(svc);
+  let h = `<div class="pagehead"><div><h2>${icon('columns')}Compare States — ${esc(SVC_BY_CODE[svc]?SVC_BY_CODE[svc].name:svc)}</h2><div class="lede">Pick 2 to 4 States/UTs that have this license to line up side by side. Change the license from the sidebar.</div></div></div>`;
+  if(!pool.length) return h + '<div class="empty"><b>No States have this license yet</b></div>';
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="statepick">${pool.map(s=>`<button class="${F.cmp.includes(s.code)?'on':''}" onclick="toggleCmp('${s.code}')">${esc(s.name)} <span class="n">${s.code}</span></button>`).join('')}</div><div class="hint">Select up to 4. Selecting a 5th replaces the first pick.</div></div></div>`;
+  const chosen = F.cmp.map(c=>({s:ST_BY_CODE[c], lic:licOf(c, svc)})).filter(x=>x.s && x.lic);
+  if(chosen.length<2) return h+'<div class="empty"><b>Pick at least two States</b></div>';
+  h += `<div class="grid" style="grid-template-columns:repeat(${chosen.length},minmax(0,1fr));margin-bottom:16px">`+
+    chosen.map(({s,lic})=>`<div class="cmp-col"><div class="cc-h"><div class="n">${esc(s.name)}</div><div class="s">${esc((lic.ed&&lic.ed.date)||'')}</div></div>
+      <div class="cmp-row"><div class="l">Steps</div>${lic._stepCount}</div>
+      <div class="cmp-row"><div class="l">Timeline</div>${fmtDays(lic.timeline)}</div>
+      <div class="cmp-row"><div class="l">Digitisation</div>${autoLevelTag(lic)}</div>
+      <div class="cmp-row"><div class="l">Deemed approval</div>${deemedBadge(lic.deemedApproval)}</div>
+      <div class="cmp-row" style="border-bottom:0"><div class="l">Portal</div>${portalLink(lic)}</div>
+      </div>`).join('')+'</div>';
+  h += `<div class="card"><div class="card-h"><h3>Process, side by side</h3></div><div class="card-b tight">
+    <div class="grid" style="grid-template-columns:repeat(${chosen.length},minmax(0,1fr))">`+
+    chosen.map(({s,lic})=>`<div style="padding:11px 13px;border-right:1px solid var(--border-2)"><div style="font-weight:700;font-size:12.5px;margin-bottom:9px;cursor:pointer" onclick="goStateService('${s.code}','${svc}')">${esc(s.name)}</div><div class="stepper">`+
+      lic.steps.map(st=>`<div class="step-v"><div class="rail-col">${stepDot(st)}<div class="line"></div></div><div class="body" style="padding-bottom:16px"><div class="sp">${esc(STAGE_MAP[st.phase]?.n||st.phase)}</div><div class="st" style="font-size:12px">${esc(st.title)}</div></div></div>`).join('')+
+      '</div></div>').join('')+'</div></div></div>';
+  return h;
+}
+function toggleCmp(code){ const i=F.cmp.indexOf(code); if(i>=0) F.cmp.splice(i,1); else { if(F.cmp.length>=4) F.cmp.shift(); F.cmp.push(code); } render(); }
+
+function renderPhase(){
+  const svc = F.service;
+  const stage = STAGE_MAP[F.phase || 'apply'];
+  if(!F.phase) F.phase = 'apply';
+  const phaseDef = PHASES.find(p=>p.code===F.phase);
+  const pool = statesWithService(svc);
+  let h = `<div class="pagehead"><div><h2>${icon('layers')}Stage comparison — ${esc(stage.n)}</h2>
+    <div class="lede">${esc(phaseDef?phaseDef.desc:'')} License: <b>${esc(SVC_BY_CODE[svc]?SVC_BY_CODE[svc].name:svc)}</b> (change from the sidebar) · ${pool.length} States have it.</div></div></div>`;
+
+  const withStep = pool.map(s=>({s, lic:licOf(s.code,svc), steps:licOf(s.code,svc).steps.filter(x=>x.phase===F.phase)})).filter(x=>x.steps.length);
+  const groups = {online:[], mixed:[], site:[]};
+  withStep.forEach(({s,lic,steps})=>{
+    steps.forEach(st=>{
+      const c = stepBadgeClass(st);
+      groups[c==='online'?'online':c==='site'?'site':'mixed'].push({s, lic, st});
+    });
+  });
+  const total = groups.online.length+groups.mixed.length+groups.site.length;
+  if(total){
+    h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="hbars">
+      <div class="hbar" style="grid-template-columns:150px 1fr 50px"><div class="hb-n">Fully online</div><div class="hb-track"><div class="hb-fill" style="width:${groups.online.length/total*100}%;background:var(--success)"></div></div><div class="hb-v">${groups.online.length}</div></div>
+      <div class="hbar" style="grid-template-columns:150px 1fr 50px"><div class="hb-n">Partly online</div><div class="hb-track"><div class="hb-fill" style="width:${groups.mixed.length/total*100}%;background:var(--warning)"></div></div><div class="hb-v">${groups.mixed.length}</div></div>
+      <div class="hbar" style="grid-template-columns:150px 1fr 50px"><div class="hb-n">On-site visit</div><div class="hb-track"><div class="hb-fill" style="width:${groups.site.length/total*100}%;background:var(--info)"></div></div><div class="hb-v">${groups.site.length}</div></div>
+      </div></div></div>`;
+  }
+
+  const col = (cls,label,items) => {
+    let c = `<div class="stagecol"><div class="stagecol-h ${cls}">${icon(cls==='online'?'check':cls==='site'?'pin':'dash')}${label} (${items.length})</div>`;
+    if(!items.length) c += '<div class="hint">No States recorded here.</div>';
+    items.forEach(({s,lic,st})=>{
+      const pipe = lic.steps.map(x=>{
+        const xc = stepBadgeClass(x);
+        const dotCls = xc==='online'?'on':xc==='site'?'site':xc==='mixed'?'mixed':'';
+        return `<span class="md ${dotCls} ${x.n===st.n?'focus':''}" title="${esc(x.title)}"></span>`;
+      }).join('');
+      c += `<div class="statecard-mini" onclick="goStateService('${s.code}','${svc}')">
+        <div class="n">${esc(s.name)} <span class="pos">step ${st.n} of ${lic._stepCount}</span></div>
+        <div class="d"><b>${esc(st.title)}.</b> ${esc(st.note||'')}</div>
+        <div class="mini-pipe">${pipe}</div>
+        <div class="meta-row">${portalLink(lic)}</div>
+      </div>`;
+    });
+    c += '</div>';
+    return c;
+  };
+
+  h += `<div class="stagegrid">${col('online','Fully online', groups.online)}${col('mixed','Partly online / manual', groups.mixed)}${col('site','On-site visit (by design)', groups.site)}</div>`;
+
+  const missing = pool.filter(s=>!licOf(s.code,svc).steps.some(x=>x.phase===F.phase));
+  if(missing.length) h += `<div class="gap-note" style="margin-top:16px">${icon('dash')} No step was tagged to this stage for: ${missing.map(s=>esc(s.name)).join(', ')}.</div>`;
+  h += `<div class="hint" style="margin-top:4px">Phase tags (pre / apply / fee / scrutiny / inspect / approve / renew) come directly from the structured ED extraction for each license — applied consistently across the whole dataset.</div>`;
+
+  return h;
+}
+
+function serviceDropdown(id, current, allLabel){
+  const withData = SERVICES.filter(sv=>AGG.byService[sv.code] && AGG.byService[sv.code].states.length);
+  return `<select id="${id}"><option value="all">${esc(allLabel)}</option>${withData.map(sv=>`<option value="${sv.code}" ${current===sv.code?'selected':''}>${esc(sv.name)}</option>`).join('')}</select>`;
+}
+
+function renderBest(){
+  const items = (F.bestSvc==='all') ? [...AGG.goodPractices, ...AGG.reforms] : [...AGG.goodPractices, ...AGG.reforms].filter(g=>g.serviceCode===F.bestSvc);
+  const byCount = {};
+  [...AGG.goodPractices, ...AGG.reforms].forEach(g=>{ byCount[g.serviceCode]=(byCount[g.serviceCode]||0)+1; });
+
+  let h = `<div class="pagehead"><div><h2>${icon('award')}Good practices &amp; reform ideas</h2><div class="lede">Every <code>GOOD_PRACTICE</code> and <code>REFORM</code> flag raised while tagging the real ED record — filter by license, or see all ${AGG.gapFlagCounts.GOOD_PRACTICE||0} good practices and ${AGG.gapFlagCounts.REFORM||0} reform ideas at once.</div></div></div>`;
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="fld" style="max-width:340px"><label>Filter by license</label>${serviceDropdown('bestSvcSel', F.bestSvc, 'All licenses ('+((AGG.gapFlagCounts.GOOD_PRACTICE||0)+(AGG.gapFlagCounts.REFORM||0))+')')}</div></div></div>`;
+  h += `<div class="card"><div class="card-h"><h3>${F.bestSvc==='all'?'All licenses':esc(SVC_BY_CODE[F.bestSvc]?SVC_BY_CODE[F.bestSvc].name:F.bestSvc)}</h3><span class="note">${items.length} items</span></div><div class="card-b scroll-y" style="max-height:900px">${items.map(g=>gapItem(g,true)).join('')||'<div class="hint">None for this license.</div>'}</div></div>`;
+  return h;
+}
+
+function renderReconcile(){
+  const items = AGG.inconsistencies;
+  let h = `<div class="pagehead"><div><h2>${icon('scale')}Flagged inconsistencies</h2><div class="lede">Every <code>INCONSISTENT</code> flag raised while tagging — either a report contradicting itself (header vs. body, one section vs. another), or a genuine contradiction between what an official described in the Expert Discussion and what businesses reported in the Focused Group Discussion, with both sides quoted or closely paraphrased.</div></div></div>`;
+  h += `<div class="grid g4" style="margin-bottom:16px">
+    ${kpiIcon('acc-danger','alert','Inconsistencies logged', String(items.length), 'across '+AGG.totalLicenses+' license records')}
+    ${kpiIcon('acc-primary','book','Reports affected', String(new Set(items.map(g=>g.state+'/'+g.serviceCode)).size), 'of '+AGG.totalLicenses+' total')}
+  </div>`;
+  h += `<div class="card"><div class="card-h"><h3>Logged inconsistencies</h3></div><div class="card-b">`+
+    (items.length ? items.map(g=>gapItem(g,true)).join('') : '<div class="empty"><b>None logged</b></div>')+
+    '</div></div>';
+  return h;
+}
+
+function renderGaps(){
+  const missing = (F.gapsSvc==='all') ? AGG.missing : AGG.missing.filter(g=>g.serviceCode===F.gapsSvc);
+  const vague = (F.gapsSvc==='all') ? AGG.vague : AGG.vague.filter(g=>g.serviceCode===F.gapsSvc);
+  let h = `<div class="pagehead"><div><h2>${icon('flask')}Data gaps</h2><div class="lede">Facts neither the Expert Discussion nor the Focused Group Discussion states (<code>MISSING</code>) or states too vaguely to use (<code>VAGUE</code>) — filter by license to see exactly what's missing where. These are the gaps secondary (web) research will be asked to close once that work resumes.</div></div></div>`;
+  h += `<div class="grid g4" style="margin-bottom:16px">
+    ${kpiIcon('acc-danger','dash','Missing entirely', String(AGG.gapFlagCounts.MISSING||0), 'no source states this fact')}
+    ${kpiIcon('acc-warn','alert','Vague / unmeasurable', String(AGG.gapFlagCounts.VAGUE||0), 'stated but not usable as data')}
+  </div>`;
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="fld" style="max-width:340px"><label>Filter by license</label>${serviceDropdown('gapsSvcSel', F.gapsSvc, 'All licenses ('+((AGG.gapFlagCounts.MISSING||0)+(AGG.gapFlagCounts.VAGUE||0))+')')}</div></div></div>`;
+  h += `<div class="grid g2" style="align-items:start">
+    <div class="card"><div class="card-h"><h3>${icon('dash')}Missing entirely</h3><span class="note">${missing.length}</span></div><div class="card-b scroll-y" style="max-height:700px">${missing.map(g=>gapItem(g,true)).join('')||'<div class="hint">None.</div>'}</div></div>
+    <div class="card"><div class="card-h"><h3>${icon('alert')}Vague / unmeasurable</h3><span class="note">${vague.length}</span></div><div class="card-b scroll-y" style="max-height:700px">${vague.map(g=>gapItem(g,true)).join('')||'<div class="hint">None.</div>'}</div></div>
+  </div>`;
+  return h;
+}
+
+function renderMethod(){
+  let h = `<div class="pagehead"><div><h2>${icon('book')}Method &amp; data quality</h2><div class="lede">What this dashboard is built from, how findings are tagged, and what is honestly not yet known.</div></div></div>`;
+
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Current scope</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">
+    <p>This pass covers <b style="color:var(--ink)">${AGG.totalLicenses} license records</b> — ${AGG.totalStates} States/UTs × up to ${AGG.totalServices} license types — built from the real Expert Discussion (ED, official-side) transcript and/or Focused Group Discussion (FGD, business-owner experience) transcript for each State/license pair. <b style="color:var(--ink)">${AGG.licensesWithFGD} of these license records now include FGD-sourced findings and quotes</b>: where an ED record already existed, FGD findings, quotes and any genuine ED-vs-FGD contradictions are layered onto it without altering the ED's own structured facts (timeline, fees, steps, etc.); where no ED existed for that State/license, a best-effort record is built entirely from FGD testimony and marked as FGD-only, unverified against an official source. <b style="color:var(--ink)">Secondary (web) research is on hold</b> for this expanded scope: it existed for the original Factory License pilot (11 States) and will be re-layered in, state by state and license by license, as that work resumes.</p>
+    <p>Every finding carries an explicit source tag (<span class="ftag src-ed" style="display:inline">ED</span> or <span class="ftag src-fgd" style="display:inline">FGD</span>). Gap flags are <code>MISSING</code>, <code>VAGUE</code>, <code>GOOD_PRACTICE</code>, <code>REFORM</code>, and <code>INCONSISTENT</code> — the last covers both a report genuinely contradicting itself (e.g. two different fee figures in the same document) and a genuine factual contradiction between what an official said in the ED and what businesses reported in the FGD, with both sides quoted or closely paraphrased. A difference in tone or emphasis alone is never flagged as inconsistent.</p>
+  </div></div>`;
+
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Tagging taxonomy</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">
+    <p>Every finding has a <b>category</b> (pain / policy / procedural / redundant / delay / suggestions / remarks), 0 or more <b>topic tags</b> (e.g. PORTAL, CONSULT, FEES, TIMELINE, INTERDEP), and a <b>sentiment</b> (issue / neutral / positive / suggestion). Every step carries a <b>phase</b> tag (pre / apply / fee / scrutiny / inspect / approve / renew), applied consistently across all ${AGG.totalLicenses} reports, which is what makes the Stage Comparison view genuinely cross-State comparable rather than just a list.</p>
+  </div></div>`;
+
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Format — why a single file</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">
+    <p>This is one self-contained HTML file — every finding and gap is embedded directly in it. No server, no database, no login: open it in a browser, email it, or host it anywhere as a static file. The build pipeline (<code>scripts/build-multi-dashboard.js</code>) is reproducible: adding a State's ED for a new license means adding one file under <code>scripts/ed_data/</code> and re-running the build, not redoing this by hand.</p>
+  </div></div>`;
+
+  h += `<div class="card"><div class="card-h"><h3>Coverage by license</h3></div><div class="card-b tight"><div class="scroll-y"><table class="dt"><thead><tr><th>License</th><th class="n">States</th><th class="n">Findings</th><th class="n">Gaps</th></tr></thead><tbody>`+
+    SERVICES.filter(sv=>AGG.byService[sv.code]&&AGG.byService[sv.code].states.length).sort((a,b)=>AGG.byService[b.code].states.length-AGG.byService[a.code].states.length).map(sv=>{
+      const agg = AGG.byService[sv.code];
+      return `<tr><td><b>${esc(sv.name)}</b> <span class="hint" style="display:inline">${esc(sv.code)}</span></td><td class="n">${agg.states.length}</td><td class="n">${agg.totalFindings}</td><td class="n">${agg.totalGaps}</td></tr>`;
+    }).join('')+
+    '</tbody></table></div></div></div>';
+
+  h += `<div class="hint" style="margin-top:14px">Generated ${esc(DATA.meta.generated)}. ${esc(DATA.meta.scope)}</div>`;
+  return h;
+}
+
+/* ========================= ROUTER / INIT ========================= */
+
+function render(){
+  document.querySelectorAll('.navbtn').forEach(b=>b.classList.toggle('on', b.dataset.view===F.view));
+  buildFilters();
+  const c = document.getElementById('canvas');
+  if(F.view==='overview') c.innerHTML = renderOverview();
+  else if(F.view==='state') c.innerHTML = renderState();
+  else if(F.view==='compare') c.innerHTML = renderCompare();
+  else if(F.view==='phase') c.innerHTML = renderPhase();
+  else if(F.view==='best') c.innerHTML = renderBest();
+  else if(F.view==='reconcile') c.innerHTML = renderReconcile();
+  else if(F.view==='gaps') c.innerHTML = renderGaps();
+  else if(F.view==='method') c.innerHTML = renderMethod();
+  window.scrollTo(0,0);
+  animateBars();
+  const bestSel = document.getElementById('bestSvcSel'); if(bestSel) bestSel.onchange = e=>{ F.bestSvc=e.target.value; render(); };
+  const gapsSel = document.getElementById('gapsSvcSel'); if(gapsSel) gapsSel.onchange = e=>{ F.gapsSvc=e.target.value; render(); };
+}
+
+function init(){
+  buildNav();
+  buildServicePicker();
+  F.state = STATES[0]?.code;
+  F.cmp = statesWithService(F.service).slice(0,2).map(s=>s.code);
+  document.getElementById('downloadBtn').onclick = ()=>window.print();
+  document.getElementById('globalSearch').addEventListener('input', e=>{
+    F.search = e.target.value.trim().toLowerCase();
+    if(F.view==='overview') render();
+  });
+  document.getElementById('globalSearch').addEventListener('keydown', e=>{
+    if(e.key==='Enter'){
+      const match = STATES.find(s=>s.name.toLowerCase().includes(e.target.value.trim().toLowerCase()));
+      if(match) goState(match.code);
+    }
+  });
+  render();
+}
+window.goView = goView; window.goState = goState; window.goStateService = goStateService;
+window.toggleCmp = toggleCmp; window.setLicense = setLicense;
+init();
+</script>
+</body>
+</html>

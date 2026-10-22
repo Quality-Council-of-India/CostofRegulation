@@ -1,0 +1,365 @@
+{
+  "code": "TG",
+  "name": "Telangana",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFile": "TG_ED_CTE.docx",
+      "issuingAuthority": "Commissioner of Industries, Department of Industries, Government of Telangana (TS-iPASS single window); the consolidated CTE certificate brings together PCB, power, fire, factories and boiler department clearances and is endorsed by the Commissioner",
+      "portal": { "name": "TS-iPASS (Telangana State Industrial Project Approval and Self-Certification System)", "url": null },
+      "timeline": { "minDays": 28, "maxDays": 28, "basis": "Committed turnaround under TS-iPASS; each department has a uniform 3-day scrutiny window; PCB consent timeline additionally varies by activity category (Green 7 days, Orange 14 days, Red 21 days); clearances are processed in parallel, not sequentially.", "text": "The official stated a committed turnaround of four weeks (28 days) for the consolidated CTE certificate, achieved through parallel rather than sequential processing across departments, each working within a fixed 3-day scrutiny window." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Dynamic common application form (reduced from roughly 100 attachments earlier to around 8 relevant fields, depending on approvals selected)",
+        "Site plan and basic project/investment details (also used for PCB fee calculation)",
+        "Category-specific declarations depending on department-wise approvals required (PCB, power, fire, boiler)",
+        "Self-certification declaration, where the unit/activity is eligible for the self-certification route"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "yes", "days": null, "text": "A deemed approval provision is in place: if a department does not act within its stipulated timeline, the approval is considered granted. The official confirmed this has not been invoked in practice, as approvals are generally issued before the applicable deadline." },
+      "validity": { "text": "No fixed validity period was discussed for CTE; it is treated as a one-time, pre-establishment consent preceding Consent to Operate (CTO), rather than a renewable licence. The gap before applying for CTO was indicated to vary considerably, from about six months to three years, depending on financing and the pace of construction." },
+      "fees": { "text": "The fee is department-specific and generally linked to project cost/investment; for example, the PCB fee is based on investment size rather than a fixed amount. No separate inspection fee is charged over and above the stipulated consent fee." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Login to TS-iPASS and complete dynamic common application form", "automated": true, "note": "Form displays only fields relevant to the approvals required." },
+        { "n": 2, "phase": "apply", "title": "Select department-wise approvals required", "automated": true, "note": "E.g., PCB consent, power feasibility, factory licence, fire and boiler approvals." },
+        { "n": 3, "phase": "fee", "title": "System calculates fees and applicant pays online", "automated": true, "note": "Payment via NEFT/UPI only; cheques and demand drafts not accepted." },
+        { "n": 4, "phase": "scrutiny", "title": "Each department reviews application independently within a fixed 3-day window", "automated": true, "note": "One department cannot make another's approval a precondition." },
+        { "n": 5, "phase": "scrutiny", "title": "PCB assesses application under White/Green/Orange/Red activity classification (~350 categories)", "automated": "partial", "note": "Determines whether consent is required and the applicable timeline." },
+        { "n": 6, "phase": "inspect", "title": "Physical inspection, only where self-certification is not applicable or specifically requested", "automated": false, "note": "Triggered for sites near schools, religious structures, highways or water bodies." },
+        { "n": 7, "phase": "scrutiny", "title": "Weekly case-by-case review tracks pending applications across departments", "automated": "partial", "note": "" },
+        { "n": 8, "phase": "approve", "title": "Clearances from PCB, power, fire, factories and boilers consolidated into single CTE certificate", "automated": "partial", "note": "Endorsed by the Commissioner." },
+        { "n": 9, "phase": "approve", "title": "Consolidated CTE certificate issued to applicant", "automated": true, "note": "Committed turnaround of four weeks (28 days)." }
+      ],
+      "ed": { "date": "03-08-2026", "location": "Commissioner of Industries, Abids, Hyderabad", "expert": "Chandrashekar Babu", "designation": "Joint Director of Industries" },
+      "remarks": [
+        "The discussion also covered Factory Licence and Consent to Operate; the findings in this entry relate specifically to the Consent to Establish portion of the discussion.",
+        "Overall, the official assessed Telangana's TS-iPASS framework for CTE as highly streamlined compared with other states, highlighting the consolidated certificate, parallel processing and officer-level accountability mechanisms as key strengths."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "positive", "text": "Application is fully digital end-to-end — form, fee payment, and issuance of the consolidated CTE certificate are all online; no offline/manual applications are accepted." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "Fee payment is online-only via NEFT/UPI; cheques and demand drafts are not accepted." },
+        { "source": "ed", "category": "policy", "tags": ["INTERDEP"], "sentiment": "positive", "text": "Each department reviews the application independently within a fixed three-day window, and one department cannot make another's approval a precondition for processing." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "PCB classifies applications into White/Green/Orange/Red categories (around 350 categories), which determines whether consent is required and the applicable timeline." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "positive", "text": "Physical inspection is triggered only in specific need-based cases — e.g., sites near schools, religious structures, highways or water bodies — rather than by default; self-certification suffices otherwise." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "positive", "text": "A weekly case-by-case review meeting tracks pending applications across departments and addresses delays before they build up." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "positive", "text": "Clearances from PCB, power, fire, factories and boilers are consolidated into a single CTE certificate endorsed by the Commissioner, accepted by banks and other agencies." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "positive", "text": "The committed turnaround for CTE is within four weeks (28 days), enabled by parallel rather than sequential processing across departments." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "Documentation has been reduced significantly, from roughly 100 attachments earlier to around 8 relevant fields depending on the approvals selected." },
+        { "source": "ed", "category": "redundant", "tags": ["INTERDEP"], "sentiment": "positive", "text": "The NOC previously required from the local body (Gram Panchayat/Sarpanch), which had been a bottleneck, has been discontinued, removing an additional clearance layer." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "positive", "text": "Officer-level financial penalties for delay (cited at roughly ₹1,000/day, with cases reaching around ₹20,000) create direct accountability against departmental hold-ups." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Although a deemed-approval provision exists, it has never been operationalised in practice, creating uncertainty about how the process would work if it were actually triggered." },
+        { "source": "ed", "category": "pain", "tags": ["QUERY", "DUPDOC"], "sentiment": "issue", "text": "Consultants working on one department's data (e.g., pollution-related information) sometimes fill in details for another department (e.g., fire) without sufficient familiarity, leading to avoidable rejections." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "issue", "text": "There is no fixed timeline for an applicant to respond to a departmental query; this provides flexibility but can make case timelines less predictable." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "The department is moving toward a single login per entrepreneur instead of separate logins per business/unit, to simplify compliance for entrepreneurs with multiple units." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "No fixed validity period for CTE was specified; it is described only as a 'one-time' pre-establishment consent, with the gap before a CTO application cited as ranging widely (6 months to 3 years) depending on financing/construction pace." },
+        { "flag": "MISSING", "text": "A detailed post-approval compliance checklist specific to the CTE stage was not covered in this discussion." },
+        { "flag": "GOOD_PRACTICE", "text": "Discontinuing the Gram Panchayat/Sarpanch NOC requirement, which had been a major bottleneck for industries." },
+        { "flag": "REFORM", "text": "Deemed approval exists in principle but has never been invoked; the official's own observation suggests a documented, published operational workflow for it is a genuine gap worth addressing." },
+        { "flag": "VAGUE", "text": "The exact deemed-approval 'stipulated timeline' per department is not given as a single figure — it varies by department (e.g., PCB Green 7 days / Orange 14 / Red 21 vs. other departments' own timelines)." },
+        { "flag": "MISSING", "text": "No fixed response window exists for applicants to answer departmental queries, and no indicative figure for this was given." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFile": "TG_ED_CTO.docx",
+      "issuingAuthority": "Linked departments under TS-iPASS — factory licence, PCB, urban plan occupancy, fire occupancy and boiler (where applicable); unlike CTE, there is no single consolidating authority — each department issues its own clearance",
+      "portal": { "name": "TS-iPASS (Telangana State Industrial Project Approval and Self-Certification System)", "url": null },
+      "timeline": { "minDays": 14, "maxDays": 14, "basis": "Parallel processing of linked departmental clearances: PCB CTO 7 days (green) / 14 days (orange); urban plan occupancy 7 days; fire occupancy 7 days (can run simultaneously with urban occupancy); boiler approval approximately 10 days including scrutiny (where applicable). Overall indicated at roughly two weeks from application.", "text": "The overall CTO process was indicated to take roughly two weeks from the date of application, reflecting parallel rather than sequential processing of the linked departmental clearances." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Most documentation carried forward automatically from the Consent to Establish (CTE) stage, under the same login",
+        "Additional items required specifically at CTO stage, such as inspection photographs",
+        "No independent testing documentation required from the applicant — PCB and boiler departments generate their own test reports via NABL-accredited facilities"
+      ],
+      "documentsNote": "Documentation is largely reused from the CTE stage rather than freshly submitted.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not explicitly re-confirmed for CTO specifically in this portion of the discussion. In the related CTE discussion, the same official confirmed a general deemed-approval provision exists under TS-iPASS, though it was not directly confirmed whether it applies individually to each CTO-linked clearance (PCB, urban occupancy, fire, boiler)." },
+      "validity": { "text": "Validity differs by linked clearance: PCB consent is commonly issued for around 2 years and must be renewed separately; other linked clearances (factory licence, fire, boiler approvals) have their own validity and renewal cycles." },
+      "fees": { "text": "The PCB CTO fee is based on the size of the investment rather than the pollution category of the activity. No separate application fee applies to water connection or labour-registration processes routed through TS-iPASS. Entrepreneurs opting for the state's Mission Bhagiratha piped-water scheme bear the estimated pipeline-laying cost themselves, cited in the range of ₹20–30 lakh." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Entrepreneur applies for CTO through TS-iPASS using the same login/data submitted at CTE stage", "automated": true, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Information from CTE stage carried forward automatically", "automated": true, "note": "Applicant submits only additional items, such as inspection photographs." },
+        { "n": 3, "phase": "scrutiny", "title": "Linked departments process clearances in parallel", "automated": "partial", "note": "Factory licence, PCB, urban plan occupancy, fire occupancy, boiler; no department can make another's approval a precondition." },
+        { "n": 4, "phase": "scrutiny", "title": "PCB reviews against Green/Orange category and conducts own emissions/effluent testing via NABL-accredited facilities", "automated": "partial", "note": "7 days (green) or 14 days (orange)." },
+        { "n": 5, "phase": "inspect", "title": "Urban plan occupancy and fire occupancy verify constructed building against CTE-approved provisional NOC/plan", "automated": false, "note": "Verification rather than fresh detailed inspection; both run simultaneously, completed within 7 days." },
+        { "n": 6, "phase": "inspect", "title": "Boiler Department carries out its own approval process, where applicable", "automated": null, "note": "Indicated to take approximately 10 days, including scrutiny." },
+        { "n": 7, "phase": "apply", "title": "Water connection: groundwater borewell (subject to feasibility inspection) or piped water via Mission Bhagiratha scheme", "automated": "partial", "note": "Routed through TS-iPASS with no separate application fee; entrepreneur bears estimated pipeline cost for the piped option." },
+        { "n": 8, "phase": "approve", "title": "Power connection released", "automated": true, "note": "Feasibility already established and required lines laid during the CTE stage." },
+        { "n": 9, "phase": "approve", "title": "Unit commences operations once all required departmental clearances are in place", "automated": null, "note": "Overall process indicated to take roughly two weeks from application." }
+      ],
+      "ed": { "date": "04-08-2026", "location": "Commissioner of Industries, Abids, Hyderabad", "expert": "Chandrashekar Babu", "designation": "Joint Director of Industries" },
+      "remarks": [
+        "This discussion was part of a session that also covered Factory License; the findings above are drawn specifically from the Consent to Operate portion of the discussion.",
+        "Deemed approval was not specifically re-confirmed for CTO in this part of the discussion; this has been kept as a point requiring departmental clarification rather than assuming it automatically applies."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "positive", "text": "Application for CTO reuses the same TS-iPASS login and data already submitted at the CTE stage; the applicant only needs to submit additional items such as inspection photographs." },
+        { "source": "ed", "category": "policy", "tags": ["INTERDEP"], "sentiment": "positive", "text": "Linked departments (factory licence, PCB, urban occupancy, fire occupancy, boiler) process clearances in parallel; no department can require another's approval as a precondition." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "positive", "text": "Fire and urban occupancy checks are framed as verification against the already-approved provisional NOC/plan from CTE rather than a fresh inspection, saving time." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "positive", "text": "PCB and boiler departments conduct their own emissions/effluent testing via NABL-accredited facilities, so the applicant does not need to separately arrange independent testing." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Overall CTO process was indicated to take roughly two weeks from application, reflecting parallel processing of departmental clearances." },
+        { "source": "ed", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The boiler approval timeline (approximately 10 days, including scrutiny) is described only approximately, less precisely than the other CTO components (PCB, fire, urban occupancy)." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Unlike CTE, which is issued as one consolidated certificate, CTO does not currently provide a single integrated approval — each department issues its own clearance, so the entrepreneur has to track multiple certificates." },
+        { "source": "ed", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Entrepreneurs opting for the voluntary Mission Bhagiratha piped-water connection must bear the full estimated pipeline-laying cost (cited at ₹20–30 lakh) upfront, a substantial and somewhat unpredictable cost commitment." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "positive", "text": "No separate application fee applies to water connection or labour-registration processes routed through TS-iPASS." },
+        { "source": "ed", "category": "procedural", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "Since CTO involves multiple departmental clearances with different validity periods (e.g., PCB consent roughly every 2 years), the entrepreneur must track several separate renewal timelines rather than one common renewal date." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "The official suggested exploring extension of the consolidated-certificate model already used for CTE to CTO." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "The official suggested publishing transparent, indicative cost estimates/formulas for the voluntary Mission Bhagiratha piped-water connection so entrepreneurs can budget and decide earlier." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "It was not directly confirmed whether the deemed-approval provision applies individually to each CTO-linked clearance; the official suggested explicitly confirming and publicising this." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Self-certification is available across all CTO-linked approvals under the single-window system." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Deemed approval for CTO specifically (and whether it applies per linked clearance) was not confirmed in this discussion; flagged as requiring departmental clarification." },
+        { "flag": "VAGUE", "text": "The boiler approval timeline (~10 days) was given only approximately, unlike the precise day-figures stated for PCB, fire and urban occupancy." },
+        { "flag": "GOOD_PRACTICE", "text": "Reuse of CTE-stage data and the provisional NOC/plan for CTO verification (rather than re-inspection) reduces duplication and saves time." },
+        { "flag": "REFORM", "text": "No single consolidated CTO certificate exists (unlike CTE); the official recommended exploring an extension of the CTE consolidated-certificate model to CTO." },
+        { "flag": "MISSING", "text": "Exact statutory fee basis/figures for most CTO-linked departmental fees (beyond PCB's investment-based basis) were not detailed, aside from the Mission Bhagiratha pipeline cost range." }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFile": "TG_ED_FAL.docx",
+      "issuingAuthority": "Department of Industries / Inspector of Factories, Government of Telangana, via TS-iPASS single window (Commissionerate of Industries, Abids, Hyderabad)",
+      "portal": { "name": "TS-iPASS (Telangana State Industrial Project Approval and Self-Certification System)", "url": null },
+      "timeline": { "minDays": 10, "maxDays": 10, "basis": "Around 10 days in total — roughly 3 days for document scrutiny, followed by about 7 days for inspection and issuance; applied as a fixed standard under TS-iPASS rather than under a separate Right to Services Act/Citizen Charter timeline.", "text": "The license is issued online in around 10 days from application — roughly 3 days for scrutiny and another 7 days for inspection." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Nothing fresh beyond what was already filed at the CTE stage — data migrates automatically under the same login",
+        "Power requirement and number-of-workers figures (used by the system to auto-calculate the licence fee)",
+        "A revised/amended layout plan, only if installed machinery deviates from what was approved at CTE"
+      ],
+      "documentsNote": "The self-certification declaration filed at the CTE stage is treated as covering Factory Licence compliance commitments too, so it is not filed again separately.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not explicitly confirmed for the Factory Licence specifically in this discussion. In the related CTE discussion, the same official confirmed TS-iPASS has a statutory deemed-approval provision generally (approval deemed granted if a department misses its own timeline), though it has never been triggered in practice; he did not directly confirm whether this formally extends to the Factory Licence." },
+      "validity": { "text": "Entrepreneurs can choose a validity of 1 to 5 years at the time of application; in practice most opt for the full 5 years. For green-category units and some orange-category ones, renewal happens automatically once the fee is paid, with no fresh submission needed; how renewal differs for the remaining categories was not discussed." },
+      "fees": { "text": "The fee is generated automatically by the system based purely on installed power and number of workers, with no separate inspection fee. The amount also moves with the validity period chosen (1 to 5 years)." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant logs into TS-iPASS with the same credentials used at CTE stage", "automated": true, "note": "Data filed at CTE carries forward." },
+        { "n": 2, "phase": "fee", "title": "Incremental details submitted and fee paid online", "automated": true, "note": "" },
+        { "n": 3, "phase": "scrutiny", "title": "Document scrutiny", "automated": "partial", "note": "Completed within 3 days." },
+        { "n": 4, "phase": "inspect", "title": "Joint inspection team assigned at random; applicant informed in advance by SMS", "automated": "partial", "note": "" },
+        { "n": 5, "phase": "inspect", "title": "Physical site inspection against approved plan and trial-production readiness", "automated": false, "note": "Minor deviations flagged for correction; a major deviation requires a revised plan approval first." },
+        { "n": 6, "phase": "scrutiny", "title": "Pending cases taken up in weekly case-by-case review meeting with nodal commissioner", "automated": "partial", "note": "" },
+        { "n": 7, "phase": "approve", "title": "Licence issued online", "automated": true, "note": "Around 10 days total from application." }
+      ],
+      "ed": { "date": "04-08-2026", "location": "Commissioner of Industries, Abids, Hyderabad", "expert": "Chandrashekar Babu", "designation": "Joint Director of Industries" },
+      "remarks": [
+        "Overall, the official's sense was that the TS-iPASS single-window system for the Factory License is already quite streamlined, with limited room for further procedural reduction beyond the reforms noted.",
+        "The amendment requirement triggered by a machinery/layout deviation stems from the Factories Act (a Central Act) and cannot be removed without compromising safety oversight, though it could potentially be fast-tracked as a defined sub-workflow since it is a common, foreseeable scenario."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "positive", "text": "The applicant logs into TS-iPASS using the same credentials used at the CTE stage, and CTE-filed data carries forward automatically to the Factory License application." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Document scrutiny is completed within 3 days, followed by about 7 days for inspection and issuance — around 10 days in total." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Joint inspection teams are assigned at random and the applicant is informed in advance by SMS so documents can be kept ready." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Minor deviations found during inspection are flagged for correction; a major deviation requires the applicant to get a revised plan approved before the licence can proceed." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "positive", "text": "Pending cases are taken up in the department's weekly case-by-case review meeting with the nodal commissioner." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "Nothing fresh is needed beyond what was already filed at the CTE stage; data migrates automatically under the same login, removing a potential duplicate submission step." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "positive", "text": "Green-category units, and some orange-category ones, qualify for automatic renewal on fee payment with no fresh submission needed." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "Very low-risk (green category) units located in designated manufacturing zones can operate on a one-time, lifetime-valid acknowledgment instead of going through the full factory licence process." },
+        { "source": "ed", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "The mandatory in-person site inspection, with no remote or digital verification option, can be burdensome because it depends on officer availability and scheduling — even for green-category/low-risk premises." },
+        { "source": "ed", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "There is no fixed timeline for entrepreneurs to respond to scrutiny or inspection queries — intentionally so, to avoid pressuring applicants, but this can stretch case timelines unpredictably." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "positive", "text": "The fee is generated automatically based purely on installed power and number of workers, with no separate inspection fee." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "positive", "text": "The official described Telangana as the first state to bring in self-certification, a per-day monetary penalty on officers who delay applications, and a deemed-approval provision, as accountability and reform measures." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "positive", "text": "A third-party certification option exists — registered agencies can certify factories, boilers and pollution-related compliance, taking some load off the department's own inspection capacity." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "The official suggested introducing remote/video-based verification as an option for green-category, low-risk units, to reduce dependency on in-person inspection scheduling." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "The official suggested clearly confirming and publicising how the deemed-approval safeguard used for Consent to Establish extends to the Factory Licence." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Deemed approval for the Factory Licence specifically was not confirmed in this discussion — only inferred by extension from the related CTE discussion." },
+        { "flag": "VAGUE", "text": "How renewal differs from the initial process for categories other than green/some-orange was not discussed." },
+        { "flag": "GOOD_PRACTICE", "text": "Full digital migration of CTE data to the Factory Licence application under a single login, eliminating duplicate document submission." },
+        { "flag": "GOOD_PRACTICE", "text": "Per-day monetary penalty on officers for delay, plus a statutory deemed-approval provision, cited as first-of-its-kind accountability measures." },
+        { "flag": "REFORM", "text": "No remote/video verification option exists for site inspection; the official suggested this as a reform for low-risk (green category) units." },
+        { "flag": "MISSING", "text": "Exact fee amounts/formula (beyond 'installed power and number of workers') were not quantified in the discussion." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFile": "TG_ED_FNO.docx",
+      "issuingAuthority": "Fire Department (District Fire Officer and jurisdictional inspection committee), applied for exclusively through the TG-iPASS single window — not directly with the Fire Department",
+      "portal": { "name": "TG-iPASS (Telangana single-window portal; integrated with the Fire Department's own system)", "url": null },
+      "timeline": { "minDays": 14, "maxDays": 14, "basis": "Provisional Fire NOC: scrutiny by the fire officer within 3 days, approval within 14 days (officer typically disposes of the application in about 2–3 days once received). Occupancy Fire NOC: 14 days, with a 7-day compliance window for fixable gaps found at inspection.", "text": "Provisional Fire NOC approval is committed within 14 days of application (scrutiny within 3 days); the Occupancy Fire NOC, applied for separately after construction, also carries a 14-day timeline." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Floor-wise drawings",
+        "Section drawings",
+        "Elevation drawings",
+        "8 mandatory documents required for all TG-iPASS approvals (e.g., sale deed, articles of association, building plan)"
+      ],
+      "documentsNote": "The Fire Department itself requires no separate legal documents beyond drawings; the common application form on TG-iPASS covers all departments, so there is no separate Fire NOC application.",
+      "deemedApproval": { "status": "yes", "days": 14, "text": "Deemed approval applies: if the approval-stage timeline (14 days) is exceeded, the application moves to a 'red band' and deemed approval takes effect. The officer responsible for the delay is penalised ₹1,000 per day, calculated automatically by the system and credited to the TG-iPASS account." },
+      "validity": { "text": "The Provisional Fire NOC has lifetime validity with no renewal. The Occupancy Fire NOC must be obtained before the building is occupied, with no fixed time limit for applying after construction is complete." },
+      "fees": { "text": "Provisional Fire NOC fee is based on built-up area, a minimum of ₹10 per square metre (e.g., 10,000 sq m of built-up area = ₹1,00,000). The Occupancy Fire NOC fee is 1% of the amount collected at the Provisional NOC stage (about ₹1,000 on a ₹1,00,000 provisional fee); there is no additional cost for inspection." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant logs in to the TG-iPASS single window portal", "automated": true, "note": "Fire NOC cannot be applied for directly with the Fire Department." },
+        { "n": 2, "phase": "apply", "title": "Applicant uses 'Know Your Approval' module, selects Fire NOC, fills 4-page Common Application Form", "automated": true, "note": "Same form used for all departments." },
+        { "n": 3, "phase": "fee", "title": "Applicant attaches 8 mandatory documents and drawings, pays fee online", "automated": true, "note": "" },
+        { "n": 4, "phase": "scrutiny", "title": "Application passes automatically from TG-iPASS to the concerned fire officer", "automated": true, "note": "The two online systems are integrated." },
+        { "n": 5, "phase": "scrutiny", "title": "Fire officer scrutinises drawings and legal entity details within 3 days", "automated": "partial", "note": "Raises a query via TG-iPASS if there is any doubt." },
+        { "n": 6, "phase": "approve", "title": "Provisional Fire NOC issued within 14 days once queries are answered", "automated": "partial", "note": "" },
+        { "n": 7, "phase": "inspect", "title": "Occupancy Fire NOC: applicant reapplies via TG-iPASS before occupying the building", "automated": false, "note": "Fire Department's inspection committee visits premises; NOC issued if systems match approved drawings." }
+      ],
+      "ed": { "date": "13-10-2026", "location": "Commissioner of Industries, Abids, Hyderabad", "expert": "K Chandrashekhar Babu", "designation": "Joint Director" },
+      "remarks": [
+        "TG-iPASS has 35 services under the single window. The Fire NOC is a pre-establishment approval; the Occupancy Fire NOC is a post-construction one and involves several departments (such as municipality, fire, pollution control board and boilers).",
+        "The discussion was held with the Fire Department's district officer, in the presence of the Joint Director of Industries (TG-iPASS) and the business team; the Quality Council of India represented DPIIT for the Cost of Regulation project.",
+        "Rejection is rare — an application is rejected only if the applicant does not respond to a query or does not comply with NBC 2016 or local GO parameters even after a query; the expert said no application had been rejected recently."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "positive", "text": "The entire Fire NOC process is fully online from filing to payment to issuance, with no physical touchpoint at any stage and no hard copy required." },
+        { "source": "ed", "category": "policy", "tags": ["INSPECT"], "sentiment": "positive", "text": "Site inspection has recently been done away with for the Provisional Fire NOC, on the orders of the Director General; scrutiny is now based only on submitted drawings." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "Buildings under 15 metres in height do not need a Fire NOC at all; the Fire Department's NOC is required only above 15 metres — the expert noted this is a major difference from other states." },
+        { "source": "ed", "category": "policy", "tags": ["INTERDEP"], "sentiment": "positive", "text": "There is no interaction with any other department — the Fire NOC is issued by the Fire Department alone." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "positive", "text": "Fixed timelines apply: 3 days for scrutiny, 14 days for approval, with automatic escalation to a 'red band' deemed-approval status and a ₹1,000/day penalty on the responsible officer for delay." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "positive", "text": "Fee is purely formula-based on built-up area (minimum ₹10/sq m), with no additional cost for inspection." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "For Occupancy Fire NOC, if an inspection finds a gap fixable within 7 days, one query is raised and the NOC issued after compliance; if it will take longer, the application is rejected so the applicant can resubmit after the work is done." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE"], "sentiment": "positive", "text": "A grievance help desk and a 6-member TG-iPASS technical team sit physically at the office to resolve problems, contacting the Fire Department only when they cannot answer themselves." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "positive", "text": "Payment has been fully online (net banking, credit/debit card, UPI) since before 2014; challans, demand drafts and cheques are no longer used." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE"], "sentiment": "positive", "text": "No grievances have been received by the Fire Department, as applicants interact with TG-iPASS rather than directly with the department." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "positive", "text": "Rejection is rare — it occurs only if the applicant fails to respond to a query or does not comply with NBC 2016/local GO parameters even after a query." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "The expert suggested introducing auto-scrutiny software that checks drawings itself, sending the file back to the applicant to comply/resubmit before it reaches the department, so no queries are needed once the department receives it; already being adopted for other applications, with the decision resting with TG-iPASS, not the Fire Department." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The expert had no other changes to suggest and did not identify requirements that could be merged." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "Scrutiny focuses on fire and life safety parameters under NBC 2016 and local Government Orders — life safety covers staircase width, tread width and riser height; fire safety covers extinguishers, hose reels, pumps and tanks." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Occupancy Fire NOC inspection is carried out by a 3-member committee per jurisdiction (District Fire Officer as chairman, with Assistant District Fire Officer and Station Fire Officer); photographs and the inspection report are uploaded to the department's website." }
+      ],
+      "gaps": [
+        { "flag": "GOOD_PRACTICE", "text": "Buildings below 15 metres are exempt from needing a Fire NOC at all — a notably different (lighter) risk threshold compared with other states, per the expert." },
+        { "flag": "GOOD_PRACTICE", "text": "Site inspection removed entirely for the Provisional Fire NOC; scrutiny based on drawings only, on the Director General's orders." },
+        { "flag": "REFORM", "text": "Expert-suggested auto-scrutiny software (automated drawing checks) is already being adopted for other applications; the decision for Fire NOC rests with TG-iPASS, not the Fire Department." },
+        { "flag": "MISSING", "text": "No specific application-volume or rejection-rate data were given beyond the general statement that rejections are rare." }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFile": "TG_ED_LEM.docx",
+      "issuingAuthority": "Legal Metrology Department, under the Commissionerate of Industries, Government of Telangana",
+      "portal": { "name": "Department's online portal (specific portal name not given in the discussion)", "url": null },
+      "timeline": { "minDays": 1, "maxDays": 15, "basis": "Maximum processing time stated as 15 days, with some cases completed in as little as one day.", "text": "The maximum processing time is 15 days, while some cases may be completed in as little as one day." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Proof of date of birth (e.g., Class 10 certificate)",
+        "Relevant technical qualification (e.g., diploma or ITI certificate, where applicable)",
+        "Address proof",
+        "Identity proof",
+        "GST details (where required)",
+        "Model approval from the Government of India (compulsory for certain instruments, e.g. weighing machines used at supermarket counters)"
+      ],
+      "documentsNote": "Documents depend on the registration/licence category; the transcript does not provide a complete category-wise document checklist.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Deemed approval was not clearly discussed. A possible penalty of ₹150 per day if processing exceeds the stated period was mentioned, but its precise applicability and legal basis were not clearly established." },
+      "validity": { "text": "Some registrations are generally one-time and remain valid until cancellation, subject to the applicable Government Order and requirements; specific validity periods for each licence or registration category were not fully detailed." },
+      "fees": { "text": "Fees are prescribed by the Government and vary by service; the discussion mentioned a fee of up to ₹5,000 in one context and approximately ₹500 for packer registration as a one-time fee." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits the relevant application online through the department's portal", "automated": true, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Applicant uploads required details and supporting documents for the relevant service/registration category", "automated": true, "note": "" },
+        { "n": 3, "phase": "fee", "title": "Applicant pays the prescribed government fee online", "automated": true, "note": "" },
+        { "n": 4, "phase": "scrutiny", "title": "Where verification/inspection is required, department schedules it based on inspector availability and informs applicant", "automated": "partial", "note": "" },
+        { "n": 5, "phase": "inspect", "title": "Inspector conducts verification/inspection and uploads report for departmental approval", "automated": false, "note": "" },
+        { "n": 6, "phase": "approve", "title": "Certificate or approval generated online after the required process is completed", "automated": true, "note": "" }
+      ],
+      "ed": { "date": "13-10-2026", "location": "Commissioner of Industries, Abids, Hyderabad", "expert": "K Chandrashekhar Babu", "designation": "Joint Director" },
+      "remarks": [
+        "Legal Metrology covers instruments and articles used in commercial transactions, ranging from weights used by vendors to flow meters used for measuring aviation turbine fuel.",
+        "The expert distinguished model approval for an instrument type from verification of an individual instrument.",
+        "Grievances can be submitted through the online portal; examples cited included consumer complaints involving packaged commodities that may violate declared quantity or price requirements, though the discussion did not clearly establish a recurring pattern of applicant-side grievances."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "positive", "text": "The process is entirely online, including applications for manufacturer, dealer, repairer and user-related services, as well as packer registration." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "positive", "text": "Applicants receive automatic SMS and email alerts using the mobile number/email address they provide." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Physical presence is generally not required for registration, as the department relies on the applicant's declaration and submitted documents; where inspection is needed it is scheduled based on inspector availability and is free of cost." },
+        { "source": "ed", "category": "pain", "tags": ["DELAY"], "sentiment": "issue", "text": "A possible penalty of ₹150 per day for exceeding the processing period was mentioned, but its precise applicability and legal basis were not clearly established." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Inspection scheduling depends on inspector availability and convenience; the transcript referenced the need for sufficient inspectors, staff, equipment and transport vehicles across regions." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "Instruments must meet prescribed verification standards and tolerance limits; those failing applicable limits may be rejected. Periodic verification intervals vary by instrument (one, three and five years were mentioned) but were not clearly mapped to specific instrument categories." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Model approval from the Government of India is compulsory for certain instruments, such as weighing machines used at supermarket counters." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "positive", "text": "Authorised laboratories, including the National Physical Laboratory (NPL), test instruments for model approval." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "The expert suggested stronger interdepartmental data integration and electronic sharing/verification of certificates, for example through QR codes." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "The expert suggested ensuring adequate availability of inspectors, staff, equipment and transport facilities across regions." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "The expert emphasised verifying the authenticity of supporting documents, including educational qualifications, before issuing certificates." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "positive", "text": "Inspection is free of cost — no additional charge." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE"], "sentiment": "neutral", "text": "Grievances can be submitted through the online portal; examples cited included consumer complaints over packaged commodities violating declared quantity or price, though no clear recurring pattern of applicant-side grievances was established." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "A complete category-wise document checklist for each Legal Metrology registration/licence type was not given." },
+        { "flag": "VAGUE", "text": "Specific validity periods for each licence/registration category were not fully detailed; only a general statement that some registrations are valid until cancellation." },
+        { "flag": "VAGUE", "text": "The legal basis and applicability of the cited ₹150/day delay penalty were not clearly established." },
+        { "flag": "VAGUE", "text": "No formal risk-based classification framework was clearly described; periodic verification intervals (1/3/5 years) were not mapped to specific instrument categories." },
+        { "flag": "MISSING", "text": "Specific fee amounts for most registration/licence categories beyond the two cited examples (up to ₹5,000; ~₹500 for packer registration) were not given." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFile": "TG_ED_TLA.docx",
+      "issuingAuthority": "Local body with jurisdiction — GHMC (corporation area), Commissioner and Director of Municipal Administration/CDMA (municipal areas), or Panchayat Raj (gram panchayat areas); applied for via TG-iPASS, which maps the application automatically to the correct local body based on location",
+      "portal": { "name": "TG-iPASS (Telangana single-window portal); each local body (GHMC, CDMA, Panchayat Raj) also has its own website for direct applications", "url": null },
+      "timeline": { "minDays": 0, "maxDays": 0, "basis": "Issued instantly upon application and online fee payment; no scrutiny or inspection precedes issuance.", "text": "The trade licence is issued instantly — immediately on filing the application and paying the fee." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Building plan",
+        "Sale deed (ownership/location proof)",
+        "Details of the activity/trade",
+        "Aadhaar",
+        "Bank details",
+        "Additional trade-specific documents where applicable (e.g., PESO license for dangerous goods, Fire NOC where hazardous goods are stored, clinical establishment registration for hospitals, Drugs and Cosmetics Act license for pharmacies)"
+      ],
+      "documentsNote": "The number of documents is very limited — about 2–3 for general trades.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Not applicable: since the trade licence is issued instantly on application and payment, there is no waiting period for which deemed approval would be needed. A licence can only be rejected or revoked after issue, if a surprise or complaint-based inspection finds something unlawful." },
+      "validity": { "text": "Valid for 3 to 5 years and must be renewed before expiry; renewal can be applied for at any time before expiry, even one day before. If not renewed, the department's automated backend system identifies expired licences and unpaid fees, issues a first and second notice, then conducts a field visit, with penalties applying under the relevant Municipalities Act / local bodies Act." },
+      "fees": { "text": "The fee is a fixed amount for each trade; local bodies list roughly 1,500–1,700 trades, each with its own specified amount, paid online at the time of application. Specific fee amounts were not given during the discussion." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant logs in to the TG-iPASS single window portal", "automated": true, "note": "Trade licence cannot be applied for directly through the department." },
+        { "n": 2, "phase": "apply", "title": "Applicant fills the 'Know Your Approval' module to identify required approvals", "automated": true, "note": "Module can list up to about 10 licences, one of which is the trade licence." },
+        { "n": 3, "phase": "apply", "title": "Applicant fills the Common Application Form (CAF)", "automated": true, "note": "" },
+        { "n": 4, "phase": "apply", "title": "Applicant uploads supporting documents", "automated": true, "note": "Building plan, sale deed, activity details, Aadhaar, bank details." },
+        { "n": 5, "phase": "fee", "title": "Applicant pays the fee online", "automated": true, "note": "Amount depends on trade selected and number of approvals chosen." },
+        { "n": 6, "phase": "approve", "title": "Trade licence issued instantly by the concerned local body", "automated": true, "note": "GHMC, CDMA or Panchayat Raj, mapped automatically from location selected; other approvals in the same application issued within their own timelines." },
+        { "n": 7, "phase": "inspect", "title": "Post-approval enforcement through surprise or complaint-based inspections by the local body", "automated": false, "note": "" }
+      ],
+      "ed": { "date": "13-10-2026", "location": "Commissioner of Industries, Abids, Hyderabad", "expert": "K Chandrashekhar Babu", "designation": "Joint Director" },
+      "remarks": [
+        "Three authorities issue trade licences depending on jurisdiction (GHMC, CDMA, Panchayat Raj), each with its own website for applicants who need only a trade licence; the single window (TG-iPASS) is most useful for applicants needing more than 5–6 approvals.",
+        "TG-iPASS currently covers only manufacturing and service-related business entry; business-centric approvals such as clinical establishments and schools are not yet available on it.",
+        "Every shop or unit needs its own trade licence, even small kirana shops, so volumes are high; no application numbers were given."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "positive", "text": "The trade licence is issued instantly, fully online, with no scrutiny or inspection before issuance and no physical interaction with the department." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "Aadhaar is verified automatically and bank details are verified through the NSDL portal; the expert described this as trust-based governance, consistent with the TG-iPASS approach generally." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Overlap exists between the trade licence and Shops and Establishment registration, which serve a similar purpose; about 50–60 trades already hold a sector licence (e.g., clinical establishment, Drugs and Cosmetics Act) that makes a separate trade licence unnecessary." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Reforms in progress: merging the trade licence with Shops and Establishment registration, and waiving the trade licence for trades already holding a sector licence; groundwork and consultation are complete and the proposal is pending Government approval." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "positive", "text": "Risk-based classification determines scrutiny: general non-hazardous trades need only sale deed, location and Aadhaar, while dangerous-goods trades require additional detail (storage, firefighting equipment, Fire NOC) and licences such as PESO." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "If a licence is not renewed, the department's automated backend identifies expired licences/unpaid fees and issues a first and second notice, followed by a field visit, with penalties under the relevant Municipalities Act/local bodies Act." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE"], "sentiment": "positive", "text": "Local bodies have a prompt grievance system, including a mobile app where a citizen can upload a photo of an issue; grievances can also be raised through TG-iPASS." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "positive", "text": "Trade licences generally receive no grievances; the only complaints are system-related, such as a slow or non-working portal or poor connectivity; no consultant is needed to apply." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "The main burden is that separate sector licences must be obtained before applying for hazardous or regulated trades, and the trade licence sits on top of the Shops and Establishment registration." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Post-approval enforcement relies on surprise or complaint-based inspections by the local body; hospitals and dangerous-goods establishments are inspected more frequently than ordinary general establishments, though no fixed inspection ratio was given." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "Trades are grouped into medical establishments, general establishments, veterinary establishments, and dangerous/offensive trades; local bodies list about 1,500–1,700 trades in total." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "The expert suggested bringing business-centric approvals (such as clinical establishments and schools) onto the single window as part of the planned TG-iPASS 2.0, so sub-licences and prerequisites can be obtained in one place." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The expert considers the trade licence one of the easiest and best-practice services, given instant, fully online approval with no scrutiny/inspection at approval stage and longer validity (3–5 years)." },
+        { "source": "ed", "category": "remarks", "tags": ["CLARITY"], "sentiment": "neutral", "text": "Earlier the licence was not instant and the process was less streamlined; it has since been made instant, with stronger enforcement after approval." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Specific trade licence fee amounts were not given during the discussion, beyond the general statement that fees are fixed per trade across roughly 1,500–1,700 trade categories." },
+        { "flag": "VAGUE", "text": "No fixed inspection ratio or frequency was given for post-approval enforcement inspections, beyond stating hospitals/dangerous-goods establishments are visited more often." },
+        { "flag": "REFORM", "text": "A proposed merger of the trade licence with Shops and Establishment registration, and exemption for trades already holding a sector licence, is pending Government approval (groundwork/consultation complete but not yet implemented)." },
+        { "flag": "GOOD_PRACTICE", "text": "Instant, fully online issuance with no scrutiny or inspection at approval stage, combined with trust-based post-approval enforcement (Aadhaar/NSDL verification, surprise/complaint-based inspection)." },
+        { "flag": "MISSING", "text": "No application volume figures were given despite the official noting that every shop/unit (including small kirana shops) needs its own trade licence, implying high volume." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "code": "RJ",
+  "name": "Rajasthan",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": ["RJ_FGD_CTE.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT", "DELAY"], "sentiment": "issue", "text": "Participants reported delays in inspection even when all required information and documents had been submitted initially." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC", "QUERY"], "sentiment": "issue", "text": "Applicants may be asked to provide additional documents despite having submitted the documents specified in the application form." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "CLARITY"], "sentiment": "issue", "text": "There is no clearly defined category for certain businesses, particularly warehouses and e-commerce businesses, creating uncertainty in the approval process; participants suggested introducing a broader, dedicated category for warehousing and logistics activities." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "A significant proportion of applicants are reportedly unaware that CTE approval/consent is required at all." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "OTHER"], "sentiment": "issue", "text": "Lack of the required CTE can affect loan sanctioning, with applicants asked to obtain the CTE before the loan can be processed." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "One respondent reported that obtaining the CTE took approximately five months." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "CONSULT"], "sentiment": "issue", "text": "The process is perceived to have a degree of dependency on individual officers, contributing to delays and uncertainty, which pushes applicants toward engaging consultants." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "issue", "text": "The requirement to pay a two-year fee was viewed as burdensome for businesses that may operate for only one year." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE", "CLARITY"], "sentiment": "issue", "text": "Applicants reported that there is no clearly specified time limit for processing CTE applications." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY", "CONSULT"], "sentiment": "issue", "text": "Applicants may face difficulties completing the application form correctly, requiring corrections or assistance from government officials." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP", "PORTAL"], "sentiment": "suggestion", "text": "Respondents highlighted the Uttar Pradesh single-window system, where applications for different approvals are submitted through a common platform and routed to the concerned department, and recommended a similar dedicated, genuinely integrated single-window portal for Rajasthan." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Businesses are required to obtain multiple registrations and certificates separately, including factory licence, ESI, PF, and MSME registration, and applicants reported having to maintain and submit 12-14 or more documents during the process." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Respondents recommended using a common application and documentation framework for both CTE and CTO to minimize duplication and simplify compliance." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Respondents advocated for time-bound or one-day approval mechanisms, wherever feasible, to reduce delays." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC", "PORTAL"], "sentiment": "suggestion", "text": "Respondents suggested using the GST number as a common identifier across approvals, including CTE and CTO, as part of Ease of Doing Business reforms, to minimize repetitive data entry and documentation." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Despite the broader concerns raised, respondents indicated that the CTE procedure itself is relatively straightforward and can be completed online, with the basic process considered easy." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Respondents noted that CTE should not be viewed in isolation when assessing Ease of Doing Business, as multiple processes and approvals collectively affect the business environment, and recommended an end-to-end solution rather than addressing individual stages separately." }
+      ],
+      "quotes": [
+        { "speaker": "Respondent", "quote": "There is still no definite category for warehouses or for e-commerce businesses.", "topic": "Business categorisation gap", "tags": ["NORMS", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Respondent", "quote": "It took five months to get CTE.", "topic": "Processing delay", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Respondent", "quote": "Our request to the government is that if you want to make a single window system, make it a single window system properly.", "topic": "Single-window system", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion" },
+        { "speaker": "Respondent", "quote": "There are more than 12 to 14 documents that you always have to carry.", "topic": "Documentation burden", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Respondent", "quote": "There is no time limit at all.", "topic": "Absence of timeline", "tags": ["TIMELINE", "CLARITY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED states prescribed CTE timelines of 7-60 days depending on industry category, with around 70-80% of applications disposed of within the prescribed timeline, often sooner. FGD participants report there is 'no time limit at all' for CTE processing, and one respondent's CTE took approximately five months (roughly 150 days) -- well beyond the ED's stated maximum of 60 days." },
+        { "flag": "MISSING", "text": "ED did not discuss whether warehousing or e-commerce businesses fall into a clearly defined CTE category; FGD participants say there is no definite category for these business types, creating uncertainty about applicability." },
+        { "flag": "VAGUE", "text": "ED's deemed-approval status for CTE was already 'unclear'; FGD testimony does not resolve this but reinforces general timeline uncertainty rather than providing a specific figure." },
+        { "flag": "MISSING", "text": "FGD participants raised a two-year fee period as burdensome for businesses operating only one year; the ED record does not address fee periodicity (only investment-slab-based fee amounts), so this could not be cross-checked." },
+        { "flag": "GOOD_PRACTICE", "text": "Both ED and FGD describe CTE as processed through an online system with a relatively straightforward core application, consistent with each other on this point." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": ["RJ_FGD_CTO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "DUPDOC"], "sentiment": "issue", "text": "Saving an application as a draft and then submitting it could create duplicate entries; one participant said the same application had to be entered repeatedly, taking more than an hour each time, and duplicate entries had to be deleted one by one." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "Some applications showed an incorrect/pending project status even after the fee had been paid and reports had been submitted." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "CLARITY"], "sentiment": "issue", "text": "Applicants could not easily identify which officer or desk was handling their application, and in some cases had to visit the office in person to find out the status or ask about pending documents." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "GRIEVANCE"], "sentiment": "issue", "text": "The portal did not always send an email or message when an application was rejected or its status changed; applicants had to log in and check manually." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "RENEWAL"], "sentiment": "issue", "text": "After an application was approved or rejected, the plant or client ID could become incomplete, and applicants had to repeat parts of the process when applying again or renewing consent; old permissions and previously submitted information were not always available even for renewals." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "There was no clear, publicly available explanation of which changes to a project, production process, capacity, or cost require a fresh CTE/CTO application versus an amendment." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE", "CLARITY"], "sentiment": "issue", "text": "The official website did not provide a clear and updated timeline for CTO processing; participants said the time taken varied widely, from around one month to three or four months, and sometimes longer." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "Documentation requirements and applicable fees were described as extensive and difficult to understand; fees depend on industry type and capital investment, but the calculation was not always clear to applicants." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP", "CLARITY"], "sentiment": "issue", "text": "Requirements from different departments, including forest-related permissions, could be difficult to coordinate and understand; participants suggested clearer public guidance on when each permission is needed." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Application status updates did not always match the actual progress of the file; participants wanted each stage to be visible, including the current desk/officer and the action still pending." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Surprise inspections may take place without advance notice; participants understood inspections can be unannounced but said the overall process and relevant stage should be explained clearly." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "DUPDOC"], "sentiment": "issue", "text": "When a new portal or system is introduced, older application data and transactions did not transfer automatically, requiring users to effectively start again rather than having data verified through a simple process." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Participants said many documents are common across applications and should be saved against a permanent plant or unit ID for reuse; if one document is amended, applicants should be able to update that document alone instead of re-uploading the full set." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Participants referred to repeated submission or verification of documents such as PAN and project-related certificates, and recommended that already-verified information not be requested again without a clear reason." },
+        { "source": "fgd", "category": "delay", "tags": ["PORTAL", "DUPDOC"], "sentiment": "issue", "text": "Duplicate application records and the need to delete them manually, plus incorrect/outdated portal status, added to the time required to complete applications and understand whether a file was moving forward." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY", "GRIEVANCE"], "sentiment": "issue", "text": "Unclear ownership of pending work, the absence of a fixed response period for objections/queries, and missing notifications led to follow-up visits, calls, and overlooked rejections or pending requirements." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Improve the portal so saving a draft and submitting does not create duplicate applications, and provide an easy option to remove duplicate or incorrect records." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "GRIEVANCE"], "sentiment": "suggestion", "text": "Show clear stages in an application tracker (current officer/desk, pending actions, expected time for next update) and send automatic email/SMS notifications for submission, objections, rejection, approval and other status changes." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "FEES"], "sentiment": "suggestion", "text": "Publish an easy-to-follow checklist explaining required documents, formats, applicable fees, and the types of changes that require a new application or amendment; publish updated service timelines and explain how applicant-side delays are counted." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "positive", "text": "One participant said the department's IT team and senior officials had provided support when portal problems arose, and some earlier upload issues had improved." }
+      ],
+      "quotes": [
+        { "speaker": "Industrial participant", "quote": "Saving the application as a draft and then submitting it created multiple entries.", "topic": "Duplicate applications", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industrial participant", "quote": "The application took more than an hour to enter, and the duplicate entries had to be deleted one by one.", "topic": "Duplicate entries", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industrial participant", "quote": "The project status is showing as pending even though the fee has been paid and the report has been submitted.", "topic": "Incorrect status", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Industrial participant", "quote": "We do not always know which officer or desk we need to contact for an update.", "topic": "Unclear ownership", "tags": ["CLARITY", "QUERY"], "sentiment": "issue" },
+        { "speaker": "Industrial participant", "quote": "There should be a clear timeline and stage-wise status so we know where the application is stuck.", "topic": "Status tracking", "tags": ["TIMELINE", "PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Industrial participant", "quote": "Common documents should remain saved against the plant ID, so we do not have to upload them again for every application.", "topic": "Document reuse", "tags": ["DUPDOC"], "sentiment": "suggestion" },
+        { "speaker": "Industrial participant", "quote": "If one document changes, we should be able to replace that document instead of uploading the full set again.", "topic": "Partial document update", "tags": ["DUPDOC"], "sentiment": "suggestion" },
+        { "speaker": "Industrial participant", "quote": "We have to log in and check the portal because notifications are not always received.", "topic": "Missing notifications", "tags": ["PORTAL", "GRIEVANCE"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official or average processing-time figure was available; participants gave only a wide range (about one month to three or four months, sometimes longer)." },
+        { "flag": "MISSING", "text": "A complete document checklist and fee-calculation method were not itemized in the transcript; participants described fees as depending on industry type and capital investment without further detail." },
+        { "flag": "VAGUE", "text": "Deemed-approval status for CTO was not addressed by participants." },
+        { "flag": "VAGUE", "text": "The extent and nature of inter-departmental integration (e.g., with forest-related permissions) was referenced only as a general coordination difficulty, without specifics." },
+        { "flag": "GOOD_PRACTICE", "text": "Participants noted that the department's IT team and senior officials provided support when portal problems arose, and some earlier upload issues had improved over time." }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFiles": ["RJ_FGD_FAL.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE", "DELAY"], "sentiment": "issue", "text": "Although described by participants as an official 90-day process, a respondent who had obtained 6-7 licences said it actually takes around 6 months or more, with document preparation at the occupier's end followed by an 'enormous delay' after submission." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT", "CLARITY"], "sentiment": "issue", "text": "It is difficult to apply without a consultant: the application requires technical documents such as assessment reports, business layouts, diagrams and pollution test certificates, which are difficult for a normal applicant to prepare, with limited departmental guidance -- especially burdensome for small businesses." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC", "CLARITY"], "sentiment": "issue", "text": "Additional documents are often asked for only after the application has been submitted, and these requirements are not always clearly mentioned on the website beforehand." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "CLARITY"], "sentiment": "issue", "text": "Applicants do not get a clear upfront picture of all approvals required (CTE/CTO, Fire NOC, stability certificate, other clearances) and find out about them one by one, each taking several weeks (e.g., pollution clearance around a month, followed by Fire NOC, before returning to the Factories Department)." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY", "COMPLY"], "sentiment": "issue", "text": "There is confusion around the stability certificate: officials told one respondent it was required before the licence could be issued, but the respondent later found in the Rajasthan Factory Rules that it could be submitted within 6 months after the licence was issued, and there is no clear list of authorised architects/consultants on the government website." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "CLARITY"], "sentiment": "issue", "text": "The reason for rejection is not clearly communicated; the online portal often shows only a generic message such as 'file not as per process/policy' or 'pending document' without specifying what exactly is wrong." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY", "QUERY"], "sentiment": "issue", "text": "Information can vary from officer to officer, and the process is not consistent across officers; the file moves from one officer/table to another, and each may raise different observations." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Risk-based classification is not really followed in practice: although industries are classified Red, Orange, Green and White, the same documents and process are followed for all categories, so even a White-category industry is treated almost like a Red-category industry." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "issue", "text": "There is a lack of coordination between departments on CTE/CTO: for a unit the Pollution Department considers White-category (CTE/CTO not required), the Factory Department may still ask for it, leaving the applicant to reconcile one department's position with the other." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "INTERDEP"], "sentiment": "issue", "text": "The single-window system does not feel like a single-window system in practice; different departments have separate processes and portals, described as 'sirf ek logo banake' (just making a common logo) rather than one integrated system." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "FEES"], "sentiment": "issue", "text": "For a company name change (Private Limited to Limited), the department asked for forms and supporting documents to be resubmitted, including a revised Form 2, and the amendment fee had to be paid again even though there was no change to the building, premises or nature of the unit." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "GRIEVANCE"], "sentiment": "issue", "text": "A name-change/amendment application was approved online, but the renewed certificate was still issued in the old name; the respondent had to make multiple visits before the issue was resolved within about five minutes after approaching a senior officer directly." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "GRIEVANCE"], "sentiment": "issue", "text": "Getting an electricity connection after receiving the factory licence is also difficult, requiring repeated manual follow-ups to push the department." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES", "COMPLY"], "sentiment": "issue", "text": "The safety audit requirement -- an external safety audit required once every two years, costing around Rs. 50,000-1,00,000 each time -- adds an extra cost for industries, and the respondent questioned why an external consultant is required for it." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP", "CLARITY"], "sentiment": "issue", "text": "The OSH&WC Code 2020's single registration/licence covering both Factory and Labour requirements is not fully operational; there is currently no proper process, portal or link between the Factory and Labour Departments." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Comparing states, the respondent said the single-window system works better in Madhya Pradesh, where agro-processing units can reportedly get subsidies of up to 60%, while in Rajasthan they faced difficulties even getting a 25% subsidy." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion", "text": "Create a real single-window system with one application and portal covering Factory, Pollution (CTE/CTO), Fire, Water, Labour and Electricity, instead of separate websites and links." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "NORMS"], "sentiment": "suggestion", "text": "Publish a complete document checklist upfront, tell applicants upfront which approvals they need by industry type, and introduce a simpler risk-based process for White, Green and Orange category industries with fewer documents than Red-category industries." }
+      ],
+      "quotes": [
+        { "speaker": "Respondent", "quote": "Document preparation is at the end of the Occupier, but after submitting application there is enormous delay.", "topic": "Post-submission delay", "tags": ["DELAY", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Respondent", "quote": "If I am setting up a white industry in Rajasthan, there is no relaxation in process.", "topic": "Risk-based classification not applied", "tags": ["NORMS"], "sentiment": "issue" },
+        { "speaker": "Respondent", "quote": "Lack of communication between many department[s] which was required to run the industry.", "topic": "Inter-departmental coordination", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Respondent", "quote": "We were told initially you need stability certificate also, but ... you can submit this stability certificate after obtaining the license within 6 months, but we are not told.", "topic": "Stability certificate confusion", "tags": ["CLARITY", "COMPLY"], "sentiment": "issue" },
+        { "speaker": "Respondent", "quote": "So how can you ascertain on what basis, on what ground, it has been rejected?", "topic": "Unclear rejection reasons", "tags": ["CLARITY", "QUERY"], "sentiment": "issue" },
+        { "speaker": "Respondent", "quote": "It got approved in the system. But the name did not change; my licence is still generated in the Private Limited name.", "topic": "Amendment/name-change failure", "tags": ["DUPDOC", "GRIEVANCE"], "sentiment": "issue" },
+        { "speaker": "Respondent", "quote": "Fire, water, pollution (CTE/CTO), labour - none of these are interlinked.", "topic": "Lack of inter-departmental integration", "tags": ["INTERDEP", "PORTAL"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED states category-based statutory timelines of 15 days (non-hazardous), 21 days (hazardous) and 60 days (MAH factories). FGD participants instead refer to '90 days' as the official timeline for the Factory Licence and say the real-world process takes around 6 months or more even with a consultant -- both the stated official figure and the real-world experience diverge sharply from the ED's figures." },
+        { "flag": "INCONSISTENT", "text": "ED describes the Factory Licence process as fully online with 'no physical visit or inspection required'. FGD participants describe extensive consultant dependency, multiple in-person follow-ups, officer-to-officer file movement, and a case where an amendment issue was only resolved by approaching a senior officer directly in person -- suggesting the end-to-end real-world experience is not visit-free, even if the ED's description of the core online submission mechanism may be accurate for that step alone." },
+        { "flag": "MISSING", "text": "The ED record for FAL does not address risk-based (Red/Orange/Green/White) category differentiation in practice; FGD participants report that even White-category industries are treated almost like Red-category industries with no real relaxation in documents or process." },
+        { "flag": "MISSING", "text": "The ED record does not mention the stability certificate requirement; FGD participants describe confusion between official practice (asked for before licence issuance) and the Rajasthan Factory Rules (allowing submission within 6 months after issuance), and the absence of a published list of authorised architects/consultants." },
+        { "flag": "MISSING", "text": "The ED record, focused on the application process, does not address post-licence compliance costs; FGD highlights a mandatory external safety audit every two years costing roughly Rs. 50,000-1,00,000, not discussed in the ED interview." }
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFiles": ["RJ_FGD_FBPA.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT", "CLARITY"], "sentiment": "issue", "text": "Applicants who do not engage consultants may face difficulty identifying the documents required at each stage of the process, creating confusion for those navigating it independently." },
+        { "source": "fgd", "category": "procedural", "tags": ["CONSULT"], "sentiment": "neutral", "text": "Most applicants depend on consultants such as architects, structural engineers, and licensing agents to manage the process, mainly for convenience rather than because participants raised it as a complaint." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "There is no simple checklist or flowchart for applicants explaining which documents are required at each stage; applicants may be unclear about requirements related to site plans, Fire NOC, municipal approvals, factory licences, and inspections." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Participants said the complete factory licence approval process takes around 90 days and involves several steps: RIICO site-plan approval, Fire NOC, municipal clearance, construction completion, factory licence application, third-party testing, and physical inspection before final approval." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Smaller shop-type licences are generally faster, taking around 15 days to 1 month." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Participants did not report delays due to informal payments or inactive review bodies during the session." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Participants suggested a simple flow chart or checklist for the Factory Building Plan Approval process, clearly mentioning which documents are required at each stage, especially for first-time applicants, so they can complete the process without depending on consultants." },
+        { "source": "fgd", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Participants were positive about the existing single-window online portal and suggested continuing to use it as the single point of interaction across different departments." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants from textile, jewellery, and furniture manufacturing units reported no major issues and felt the process was already fairly simple." },
+        { "source": "fgd", "category": "remarks", "tags": ["CONSULT"], "sentiment": "neutral", "text": "None of the 6-7 respondents had applied for the licence themselves; all relied on consultants such as architects, structural engineers, or licensing agents." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Consultants generally charged around Rs. 10,000-12,000 per quarter, covering multiple services rather than just the factory licence." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "The government fee for the factory licence was around Rs. 12,000, paid online, with no additional payments requested by officials." },
+        { "source": "fgd", "category": "remarks", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Annual fire-safety compliance, such as extinguisher refills and cylinder checks, was mentioned as a regular requirement, handled routinely by consultants and considered separate from the initial approval process." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Participant", "quote": "Applicants can't easily self-navigate the process -- no clear, self-serve checklist of what's needed at each stage.", "topic": "No self-serve checklist", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Industry Participant", "quote": "None of the ~6-7 respondents filed the application themselves -- total reliance on consultants (architects, structural engineers, licensing agents).", "topic": "Reliance on consultants", "tags": ["CONSULT"], "sentiment": "neutral" },
+        { "speaker": "Industry Participant", "quote": "Approval timeline runs ~90 days for full factory license (shorter, ~15 days-1 month, for simpler 'shop'-type licenses).", "topic": "Process timeline", "tags": ["TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Industry Participant", "quote": "Consultant fees of ~Rs. 10,000-12,000/quarter, bundled across services, quarterly, quarterly, yes quarterly.", "topic": "Consultant cost", "tags": ["FEES"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED states Factory Building Plan Approval carries no application or statutory fee (free for both hazardous and non-hazardous factories). The FGD transcript for this session states a 'government fee for the factory licence' of around Rs. 12,000 paid online; it is unclear whether this refers to the Factory Licence (FAL) itself or to Factory Building Plan Approval specifically, since the session discusses the full factory-licensing journey together, but no step in that journey is described by participants as fee-free." },
+        { "flag": "VAGUE", "text": "FGD participants did not isolate an FBPA-specific timeline, instead describing a composite ~90-day journey covering RIICO site-plan approval, Fire NOC, municipal clearance, construction completion, factory licence application, third-party testing and physical inspection together, making it hard to independently confirm the ED's stated 21-30-day FBPA-specific window." },
+        { "flag": "GOOD_PRACTICE", "text": "FGD participants were positive about the existing single-window online portal, consistent with the ED's description of a fully online FBPA process." },
+        { "flag": "MISSING", "text": "Compliance-related costs -- consultant fees of roughly Rs. 10,000-12,000 per quarter and annual fire-safety compliance (extinguisher refills, cylinder checks) -- were not discussed in the ED interview, which focused on the application process itself." }
+      ]
+    },
+    {
+      "serviceCode": "LA",
+      "serviceName": "Land Allotment",
+      "sourceFiles": ["RJ_FGD_LA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "RIICO (Rajasthan State Industrial Development and Investment Corporation) / industrial-area allotment authority (FGD sector listed as 'Revenue')",
+      "portal": { "name": "Rajasthan SSO-based online industrial plot allotment portal; grievances also referenced the Sampark portal", "url": null },
+      "timeline": { "minDays": 15, "maxDays": 15, "basis": "Participant estimate for the initial online allotment process", "text": "Participants estimated the initial online allotment process takes about 15 days, much faster than the earlier offline process when files could remain pending for around eight months. Subsequent steps (registry, demarcation, infrastructure completion) were not time-bound in the discussion." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": ["Company/applicant details entered via SSO-based online application", "Registration and stamp-duty-related certificates (for registry; exact requirements not fully clarified)"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. A complete document checklist was not set out in the discussion; participants described the online application as simple, mainly entering company and plot details rather than listing specific documents.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "No deemed-approval mechanism was discussed by participants." },
+      "validity": { "text": "Not discussed in the FGD. Participants described allotment as resulting in a possession letter after payment, followed by registry and demarcation, but did not address a validity period or renewal requirement for the allotment itself." },
+      "fees": { "text": "After provisional allotment, participants said 25% of the plot amount is payable, after which a possession letter is issued. The discussion also referred to instalments for the remaining amount -- described as spread over three years by one participant, though another participant described a different schedule that was not clarified. Exact pricing was not captured." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Applicant logs in via SSO ID, selects district and industrial area", "automated": true, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Applicant selects an available plot, enters company details, and submits the application online", "automated": true, "note": "" },
+        { "n": 3, "phase": "approve", "title": "Provisional allotment issued", "automated": "partial", "note": "" },
+        { "n": 4, "phase": "fee", "title": "Applicant pays 25% of the allotment amount", "automated": true, "note": "" },
+        { "n": 5, "phase": "approve", "title": "Possession letter issued after payment", "automated": "partial", "note": "" },
+        { "n": 6, "phase": "post", "title": "Registry and demarcation completed", "automated": false, "note": "Involves a separate registration/stamp-duty process; basic infrastructure (roads, water, drainage, streetlights) may remain incomplete in some industrial areas at this stage." }
+      ],
+      "remarks": [
+        "This record is based entirely on FGD/business testimony; no ED interview exists yet for Land Allotment in Rajasthan, so it has not been cross-verified against an official source.",
+        "Participants described ongoing difficulties with plot surrender/cancellation requests, infrastructure completion (roads, water, drainage, streetlights) and financing support that extend well beyond the initial allotment step covered by the timeline above.",
+        "The document itself notes that the Key Statements/Quotes below are paraphrased, not verbatim, because the transcript audio was reportedly unclear in places."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["OTHER", "POSITIVE"], "sentiment": "positive", "text": "The online land allotment process is much faster than the earlier offline process, when files could remain on a table for around eight months; the initial allotment process can take about 15 days." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Changes or modifications to older properties are reported to be more difficult than getting a new plot." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Basic infrastructure is still incomplete in some industrial areas, including approach roads, water connections, streetlights, drainage and plantation; one participant said the approach road to an allotted plot had not been developed, making vehicle access difficult." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "A participant reported difficulty registering a plot because the stamp-duty benefit or certificate had not been received." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "A participant's request to surrender a plot remained unresolved despite repeated reminders and an online application, with no clear reason given for the delay or non-acceptance." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Participants raised concerns about the cost and condition of some rental office units, including maintenance charges, cracks, bathroom issues and limited basement parking." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Participants reported challenges getting finance for new projects, citing differing requirements across banks/financing institutions and inconsistent availability of working capital support." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "Participants questioned the surrender and refund rules; one understood the rules to allow a 5% deduction for voluntary surrender and 10% in another situation, but feared a much larger deduction would actually be applied." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "issue", "text": "The refund or surrender value of older plots does not appear to reflect the increase in land value over time." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Participants raised concerns about restrictions on transferring industrial plots or changing the type of business activity, saying the rules and requirements can make a transfer difficult and costly." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "suggestion", "text": "One participant suggested extending the instalment period because industrial-area development and construction take time; the discussion referred to instalments spread over three years, while another participant described a different schedule that was not clarified." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "The online application for a new plot was described as straightforward: log in via SSO ID, select district and industrial area, choose a plot, enter company details and submit." },
+        { "source": "fgd", "category": "procedural", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "A participant said they had submitted repeated reminders about plot surrender but had not received a clear response or a clear online status update." },
+        { "source": "fgd", "category": "procedural", "tags": ["GRIEVANCE", "POSITIVE"], "sentiment": "positive", "text": "A participant who complained about electricity-connection delays through the relevant department and the Sampark portal said the issue was later taken up by senior officials and resolved." },
+        { "source": "fgd", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Complete approach roads, water pipelines, streetlights, drainage and other basic facilities in industrial areas as early as possible, with improved coordination between RIICO/the industrial-area authority, utility departments and local agencies." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "CLARITY"], "sentiment": "suggestion", "text": "Provide a clear, time-bound process for plot surrender, cancellation and refunds with written reasons when a request is not accepted; display applicable surrender deductions, refund calculations and transfer requirements clearly on the portal; make status of surrender/registration applications visible online." }
+      ],
+      "quotes": [
+        { "speaker": "Participant 1", "quote": "The online process is much faster than the earlier offline process, when files could remain pending for months.", "topic": "Faster online process", "tags": ["OTHER", "POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Participant 2", "quote": "The plot surrender request is still pending despite repeated reminders, and the reason has not been clearly explained.", "topic": "Unresolved surrender request", "tags": ["GRIEVANCE", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant 3", "quote": "The approach road is not ready, so vehicles have difficulty reaching the plot.", "topic": "Incomplete infrastructure", "tags": ["OTHER"], "sentiment": "issue" },
+        { "speaker": "Participant 4", "quote": "Basic facilities such as water connections and streetlights are still pending in the industrial area.", "topic": "Incomplete infrastructure", "tags": ["OTHER"], "sentiment": "issue" },
+        { "speaker": "Participant 5", "quote": "The instalment period should account for the time needed to develop the area and construct the unit.", "topic": "Instalment schedule", "tags": ["FEES"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No validity or renewal period was discussed for the land allotment itself, only the allotment-to-possession sequence." },
+        { "flag": "VAGUE", "text": "The instalment schedule was described inconsistently between participants (one referenced a three-year spread, another a different, unclarified schedule)." },
+        { "flag": "MISSING", "text": "A complete document checklist for registry/stamp-duty purposes was not itemized in the discussion." },
+        { "flag": "GOOD_PRACTICE", "text": "The online allotment process was described as significantly faster than the earlier offline process (about 15 days versus files that could previously remain pending for around eight months)." }
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFiles": ["RJ_FGD_RCTO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Rajasthan State Pollution Control Board (RSPCB)",
+      "portal": { "name": "RSPCB online consent renewal system (same portal used for Consent to Operate)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No explicit processing-time range was given; a three-month no-response period was referenced in connection with deemed renewal", "text": "No explicit average processing-time range was stated. One participant mentioned that if there is no response within three months, the renewal may be treated as deemed renewal (see deemedApproval), but participants also said queries or concerns raised by officers can still delay the renewal, so this differs from a confirmed average actual processing time, which was not given." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "unclear",
+      "documents": ["Existing compliance reports/returns and environmental statements (participants said these could be reused instead of being re-submitted)", "Third-party/authorized laboratory test reports (where valid reports already exist)", "Company/ownership documents where there is a change (e.g., ownership or name change requires extra paperwork)"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. A full, itemized renewal document checklist was not set out in the transcript; participants described information being repeatedly re-submitted to different departments rather than listing a specific checklist.",
+      "deemedApproval": { "status": "yes", "days": 90, "text": "One participant mentioned that if there is no response from the department within three months, the renewal may be treated as deemed renewal; however, participants also noted that queries or concerns raised by officers can still delay the renewal, so deemed renewal may not always apply in practice." },
+      "validity": { "text": "Not specified in the FGD. Participants said renewal requirements may vary by industry category and nature of activity, but did not state a specific CTO validity period." },
+      "fees": { "text": "Exact renewal fee amount not stated. Participants noted payment failures occur during the online renewal process, with refunds for failed payments taking around 3-5 days. One-time consultant charges for handling CTO renewal (typically bundled with other regulatory approvals) were estimated at around Rs. 10,000-20,000, depending on industry and scope of work -- a consultant fee rather than the statutory renewal fee." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit renewal application online via the RSPCB portal", "automated": true, "note": "Portal experiences performance issues during peak periods when multiple users submit simultaneously." },
+        { "n": 2, "phase": "fee", "title": "Pay the renewal fee online", "automated": "partial", "note": "Payment failures reported; refunds take approximately 3-5 days." },
+        { "n": 3, "phase": "scrutiny", "title": "Officer reviews the application and may raise queries requiring additional information", "automated": "partial", "note": "" },
+        { "n": 4, "phase": "inspect", "title": "Physical sample collection/testing may occur, with waiting time for laboratory reports", "automated": false, "note": "" },
+        { "n": 5, "phase": "approve", "title": "Renewal granted; treated as deemed renewal if no response within three months and no pending officer queries (per one participant)", "automated": "partial", "note": "" }
+      ],
+      "remarks": [
+        "This record is based entirely on FGD/business testimony; no ED interview exists yet for Renewal of Consent to Operate in Rajasthan, so it has not been cross-verified against an official source.",
+        "Participants used the same RSPCB portal described for Consent to Operate (CTO) and raised similar portal-reliability concerns (crashes, data loss, repeated data entry).",
+        "Consultants are typically engaged for multiple regulatory approvals together, making it difficult for participants to isolate the cost of CTO renewal specifically."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["DELAY", "CLARITY"], "sentiment": "issue", "text": "Participants reported delays and lack of clarity during the renewal process, and coordination gaps between different departments/officers." },
+        { "source": "fgd", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Participants mentioned informal or unofficial requests during the process." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The portal/website sometimes crashed or became unavailable, resulting in data loss and requiring users to re-enter information; the portal was also difficult to use on some devices." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC", "PORTAL"], "sentiment": "issue", "text": "Users have to repeatedly enter the same information in subsequent applications, as previously submitted data is not auto-populated." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Officers may raise queries or ask for additional information leading to multiple rounds of interaction; when officers are transferred, the new officer may ask for information not requested earlier." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT"], "sentiment": "issue", "text": "Physical sample collection/testing and waiting for laboratory reports can increase the overall processing time." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT", "INTERDEP"], "sentiment": "issue", "text": "Participants often use consultants to coordinate with officers and manage multiple regulatory approvals through a single-window approach, since no such single-window system formally connects the relevant departments." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL", "NORMS"], "sentiment": "suggestion", "text": "Participants suggested that renewals should be simplified or automated when there is no change in investment, capacity, process, storage quantity, or other key conditions; renewal requirements may vary by industry category and nature of activity." },
+        { "source": "fgd", "category": "policy", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Existing compliance reports/returns could be used for renewal instead of asking applicants to submit the same information again." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "FEES"], "sentiment": "issue", "text": "Payment failures occur during the online application process; refunds for failed payments may take around 3-5 days." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL", "PORTAL"], "sentiment": "issue", "text": "Renewal communications do not consistently provide a direct payment link or a simple 'No Change' option, requiring additional steps from applicants; the portal does not always clearly show the applicable industry category, fee, process, SOP, and required documents." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Participants reported repeated submission of the same information to different departments; information already available through returns, environmental statements and other compliance reports may be asked for again, and some documents may be re-verified even when already approved." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Participants suggested avoiding repeat testing during renewal where valid third-party/authorized laboratory reports are already available, and highlighted extra paperwork required for minor changes such as ownership or company-name changes." },
+        { "source": "fgd", "category": "delay", "tags": ["INFORMAL", "QUERY"], "sentiment": "issue", "text": "Participants linked delays to informal payments, manual file handling, lack of digital integration, and lack of clear accountability for file movement; some review committees/bodies were reported as inactive or no longer functioning." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL", "PORTAL"], "sentiment": "suggestion", "text": "Introduce auto-renewal where there is no major change in key conditions; enable auto-fill of information from earlier applications; send the renewal notification and payment link together with a simple 'No Change' option." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion", "text": "Improve portal stability, speed and cross-device performance; create a single-window system connecting all relevant departments; make the portal industry-specific, clearly showing applicable category, fee, process, SOP and required documents." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Delays increase business costs mainly through staff time and consultant involvement; participants estimated one-time consultant charges of around Rs. 10,000-20,000, which are bundled across multiple regulatory approvals, making CTO renewal costs hard to isolate separately." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "If there is no change in investment, capacity or other relevant conditions, the renewal should ideally be simplified/automated.", "topic": "Simplified renewal", "tags": ["COMPLY", "RENEWAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "The website can go down; after data is entered, it may have to be entered again.", "topic": "Portal reliability", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Information already provided should be auto-captured or auto-filled in the next application.", "topic": "Auto-fill request", "tags": ["PORTAL", "DUPDOC"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "A single-window system covering the relevant departments would be helpful.", "topic": "Single-window request", "tags": ["INTERDEP", "PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "If there is no change, the renewal communication should allow a no-change confirmation and payment.", "topic": "No-change option", "tags": ["RENEWAL", "PORTAL"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No explicit renewal processing-time range was given, beyond the reference to a three-month no-response period in connection with deemed renewal." },
+        { "flag": "VAGUE", "text": "The deemed-renewal trigger (three months with no response) is undermined by the possibility that officer queries can still delay the renewal, so its reliability in practice is unclear." },
+        { "flag": "MISSING", "text": "Exact renewal fee amount was not given by participants." },
+        { "flag": "GOOD_PRACTICE", "text": "The renewal application process was described as fully online, though participants said usability issues (portal crashes, repeated data entry, lack of auto-fill) still drive continued reliance on consultants." }
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": ["RJ_FGD_RFNO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Fire Department, Rajasthan (file routed through Dealing Assistant, Deputy Commissioner, Assistant Fire Officer, Fire Officer, and Chief Fire Officer)",
+      "portal": { "name": "Online Fire NOC renewal application system (not specifically named); status tracking described as limited", "url": null },
+      "timeline": { "minDays": 60, "maxDays": 60, "basis": "Participant estimate for renewal processing", "text": "Participants said renewal processing can take around two months (about 60 days), including delays even after required documents are uploaded. The application passes through a long chain of officers (Dealing Assistant, Deputy Commissioner, Assistant Fire Officer, Fire Officer, Chief Fire Officer, DC/field accounts) before issuance, and different stages may take several days to weeks each, with no clearly defined per-stage timeline." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": ["Building details, equipment details and supporting documents (participants said these are the same as for the initial/permanent Fire NOC and are requested again at renewal rather than being reused)"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants described the required documents as essentially a repeat of the original/permanent NOC documentation; no separate itemized renewal checklist was given.",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed-approval mechanism for renewal was mentioned; participants instead raised a gap/discrepancy between the expiry date of the existing NOC and the effective/issuance date of the renewed NOC when there are processing delays." },
+      "validity": { "text": "The current renewal validity period was not stated. Participants said the validity period is short, leading to recurring compliance requirements, and suggested extending it, with a possible 3-5 year validity discussed as a suggestion rather than confirmed as the current rule." },
+      "fees": { "text": "Exact fee amount not stated. Participants said payment is required at two different locations/processes, which they found confusing and recommended consolidating into a single payment gateway." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit renewal application online and upload building/equipment documents", "automated": "partial", "note": "" },
+        { "n": 2, "phase": "scrutiny", "title": "Application assigned and reviewed by the Dealing Assistant", "automated": false, "note": "" },
+        { "n": 3, "phase": "inspect", "title": "Assistant Fire Officer/Fire Officer inspects the premises", "automated": false, "note": "Inspection notifications and status updates described as unclear." },
+        { "n": 4, "phase": "scrutiny", "title": "Inspection report routed through DC, Fire Officer and Chief Fire Officer for review even after the inspection is complete", "automated": false, "note": "" },
+        { "n": 5, "phase": "fee", "title": "Fee paid, reportedly at two different locations/processes", "automated": "partial", "note": "" },
+        { "n": 6, "phase": "approve", "title": "Chief Fire Officer/DC/field accounts issue the renewed NOC", "automated": "partial", "note": "" }
+      ],
+      "remarks": [
+        "This record is based entirely on FGD/business testimony; no ED interview exists yet for Renewal of Fire NOC in Rajasthan, so it has not been cross-verified against an official source.",
+        "Participants reported unofficial payment demands/interactions with officials or intermediaries in some cases to expedite file processing.",
+        "Participants raised two sub-issues not reflected above: separate Fire NOC requirements for rooftop structures despite an existing building-level Fire NOC, and linkage of renewal with UD tax/RIICO lease documentation creating difficulty for properties outside the applicable tax/authority arrangement."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Limited visibility of application status after online submission requires applicants to make calls or physical visits to track progress." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Renewal processing can take around two months, including delays even after the required documents have been uploaded." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Absence of a direct/toll-free contact mechanism makes it difficult for applicants to resolve application-related issues." },
+        { "source": "fgd", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Multiple physical visits and movement of files through several officers contribute to delays; participants reported unofficial payment demands/interactions with officials or intermediaries in some cases to expedite processing." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same building details, equipment details, and supporting documents submitted during the initial/permanent NOC are requested again during renewal; additional documents are requested even where there has been no change in the building or fire-safety arrangements." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "CLARITY"], "sentiment": "issue", "text": "Separate Fire NOC requirements for rooftop structures despite an existing building-level Fire NOC create uncertainty regarding the applicable requirements and procedure." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Linkage of Fire NOC renewal with UD tax/RIICO lease documentation may create difficulties for properties that fall outside the applicable tax or authority arrangement." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "The short renewal validity period results in recurring compliance requirements; participants raised the need to review the validity period, including the possibility of a 3-5 year validity." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT", "QUERY"], "sentiment": "issue", "text": "The application passes through a long chain of officers (DA, DC, Assistant Fire Officer, Fire Officer, Chief Fire Officer, DC/field accounts) before the NOC is issued; inspection reports are routed through multiple levels of approval even after the inspection has been completed." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY", "INSPECT"], "sentiment": "issue", "text": "Inspection notifications and status updates are not sufficiently clear, making it difficult for applicants to know when inspections will take place and what stage the application has reached." },
+        { "source": "fgd", "category": "delay", "tags": ["FEES"], "sentiment": "issue", "text": "Payment through two different locations/processes creates confusion and can contribute to delays in application processing." },
+        { "source": "fgd", "category": "delay", "tags": ["RENEWAL", "GRIEVANCE"], "sentiment": "issue", "text": "Delays in renewal processing can create a gap between the expiry of the existing NOC and the effective date reflected on the renewed NOC, with unclear responsibility during that period." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Simplify the renewal process by reusing documents already submitted for the permanent/initial NOC; introduce a separate simplified renewal format requiring only an affidavit/self-declaration and AMC/fire-safety contractor certificate, with additional documents only where there are changes." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "GRIEVANCE"], "sentiment": "suggestion", "text": "Introduce a clear online application status tracker and provide a direct/toll-free contact number for resolving application-related queries." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Reduce the number of officers and approval stages after inspection, and consider using the inspecting officer's report as the basis for direct issuance of the NOC." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Consolidate the two fee/payment requirements into a single, clearly defined payment process or gateway." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Participants noted that delays in NOC processing can affect business operations and create challenges in maintaining compliance documentation for audits and other requirements." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "During renewal, documents that have already been submitted/uploaded should not be asked for again.", "topic": "Document reuse", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "You should have a direct contact number, but there isn't one available.", "topic": "No direct contact", "tags": ["GRIEVANCE", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "It's too long... they've created such a long chain/process; it needs to be shortened.", "topic": "Long approval chain", "tags": ["OTHER"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "You shouldn't have to pay at two different places... the documentation should be simpler.", "topic": "Dual payment points", "tags": ["FEES", "DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "There should be a clear validity period; the extension should be for two years, or ideally five years.", "topic": "Validity period", "tags": ["RENEWAL"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Exact renewal fee amount was not stated by participants." },
+        { "flag": "VAGUE", "text": "The current validity period for the renewed Fire NOC was not confirmed; only a suggestion to extend it to 3-5 years was given." },
+        { "flag": "REFORM", "text": "Participants proposed a structural reform: using the inspecting officer's report as the direct basis for NOC issuance, removing several of the current intermediate approval layers (DA to DC to Assistant Fire Officer to Fire Officer to Chief Fire Officer to DC/field accounts)." },
+        { "flag": "VAGUE", "text": "The exact relationship between UD tax/RIICO lease documentation and Fire NOC renewal eligibility, and how properties outside that arrangement are handled, was not fully explained." }
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFiles": ["RJ_FGD_RSE.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Labour Department, Government of Rajasthan (Shops & Establishment registration authority)",
+      "portal": { "name": "Rajasthan SSO-based online Shops & Establishment registration portal (login requires a Gmail ID, password and SSO ID)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No official/fixed timeline was confirmed by participants", "text": "Participants said there is no clear or fixed timeline for completing the application in practice, despite some processes prescribing a period (e.g., 7 days) for document submission failing which the application is automatically rejected, and despite a fixed timeline referenced under the central OSH&WC Code. Durations experienced ranged widely: about two years for one participant to understand the process, about four months via a consultant, and one to two months in other cases." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": ["Lease deed (a registered lease deed is required in principle; many businesses reportedly use an 11-month rental agreement instead)", "Electricity bill", "Photographs of the branch", "Memorandum", "List of directors", "Aadhaar", "Bank documents", "Employer's photograph", "Jan Aadhaar (for startups; must be obtained first before other registrations such as MSME)", "NOC from the landlord (may be required separately for each business operating from the same address)"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants said that if even one required document is missing, the application can be rejected.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "No deemed-approval mechanism was discussed; participants instead described the absence of any fixed timeline, with applications remaining pending indefinitely while officer observations continue." },
+      "validity": { "text": "Participants said S&E registration was earlier valid for 10 years but is now treated as a one-time registration. Establishments with fewer than 10 employees are now exempt from S&E registration/fee under a Rajasthan government Act, and issuance of the S&E certificate has reportedly stopped for such establishments, even though the document is still needed for other purposes such as opening a bank account. Older (pre-online) registrations have not been migrated to the new online system." },
+      "fees": { "text": "Participants said the S&E registration fee is around Rs. 10,000 for establishments with more than 10 employees; if the application is not submitted within 30 days of starting the business, the fee reportedly becomes double. Establishments with up to 10 employees are exempt from the fee (and registration) under the applicable Act. Participants separately described consultant charges of around Rs. 10,000-20,000 for handling the complete process." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Obtain Jan Aadhaar first if not already held (especially relevant for startups)", "automated": false, "note": "" },
+        { "n": 2, "phase": "pre", "title": "Create login using Gmail ID, password and SSO ID", "automated": "partial", "note": "Changed from an earlier Aadhaar-based login; participants said someone without a Gmail ID may not be able to create a login and apply." },
+        { "n": 3, "phase": "apply", "title": "Submit online application with required documents (lease deed/rental agreement, electricity bill, branch photos, memorandum, director list, Aadhaar, bank documents, employer photo, landlord NOC)", "automated": true, "note": "" },
+        { "n": 4, "phase": "scrutiny", "title": "Officer reviews and may raise observations; applicant responds", "automated": "partial", "note": "Can continue for multiple rounds with no fixed timeline." },
+        { "n": 5, "phase": "approve", "title": "Registration/certificate issued", "automated": "partial", "note": "Status visible only as 'in process' during review; for establishments with fewer than 10 employees, certificate issuance is reported to have stopped despite banks still requiring it." }
+      ],
+      "remarks": [
+        "This record is based entirely on FGD/business testimony; no ED interview exists yet for Registration under Shops & Establishment in Rajasthan, so it has not been cross-verified against an official source.",
+        "Participants said they have never seen anyone complete the process fully on their own; a third party/agent or consultant is generally used.",
+        "Participants cited the OSH&WC Code's 'one establishment, one registration' approach, and noted that S&E registration has reportedly stopped in some other states (e.g., Karnataka, Chhattisgarh) but continues in Rajasthan.",
+        "Participants cited the police verification/character certificate (now downloadable in about five minutes) and the passport process as positive examples of clear, fast, well-timelined government services, by contrast with S&E registration."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY", "CONSULT"], "sentiment": "issue", "text": "One scrap (kabadi) licence holder said no one explained the registration process to him; it took him almost two years to understand how to complete it, and he was eventually referred to an agent who completed it for him." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "Participants said they had never seen anyone complete the process fully on their own; a third party or agent is generally needed, mainly because the process is not easy to understand." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "CONSULT"], "sentiment": "issue", "text": "One participant paid around Rs. 10,000-20,000 to a consultant; it took about four months and involved around 20 follow-up calls, though the consultant handled the entire process so the participant did not have to visit any government office." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "The login process now requires a Gmail ID, password and SSO ID instead of the earlier Aadhaar-based login; participants felt someone without a Gmail ID may not be able to create a login and apply." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The application requires several documents (lease deed, electricity bill, branch photographs, memorandum, list of directors, Aadhaar, bank documents, employer photographs); if even one required document is missing, the application can be rejected." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "For startups, Jan Aadhaar needs to be obtained first; if it has not been created, the applicant must complete that process before moving on to other requirements such as MSME registration, adding several days." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY", "COMPLY"], "sentiment": "issue", "text": "One startup participant could not use his home address for the business and had to rent a separate office he did not actually need, and found it difficult to get an NOC from the landlord; landlords often do not understand why the NOC is required, and a separate NOC may be needed for each business at the same address." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Once the application is submitted, there is no proper way to track its status; applicants must make their own follow-up calls and cannot see which department or officer currently holds the application." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "MSME registration alone is not sufficient to open a bank account in some cases, and the S&E certificate is also required." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL", "GRIEVANCE"], "sentiment": "issue", "text": "There is reportedly no SMS or email reminder for renewal or expiry; one participant's registration expired without his knowledge, requiring him to pay a higher fee to renew it." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "COMPLY"], "sentiment": "issue", "text": "Establishments with fewer than 10 employees no longer need S&E registration under a Rajasthan Act, and certificate issuance has stopped for them, but the document is still required for opening a bank account since MSME registration alone is not accepted by banks -- which participants felt defeats the purpose of the exemption." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE", "CLARITY"], "sentiment": "issue", "text": "There is no clear or fixed timeline for completing the application in practice in Rajasthan, despite some processes having set periods (e.g., 7 days) and a fixed timeline referenced under the central OSH&WC Code." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "COMPLY"], "sentiment": "issue", "text": "A registered lease deed is required, but participants estimated around 60% of businesses typically use an 11-month rental agreement instead, and felt the policy should account for this ground reality." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "S&E registration was earlier valid for 10 years but is now treated as a one-time registration; older (pre-online) registrations have not been migrated to the new online system, so old and new systems operate separately." },
+        { "source": "fgd", "category": "procedural", "tags": ["GRIEVANCE", "CLARITY"], "sentiment": "issue", "text": "Participants were not aware of any clear escalation mechanism or nodal officer to approach if an application gets stuck, and there is no auto-escalation when an application remains pending." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "All relevant information (process, required documents, timelines, whom to contact, where to escalate) is not available in one place, and the government website does not clearly explain these things." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The bank asks for two registration certificates (S&E and MSME) even though the participant already holds MSME registration; participants said ten different parties ask for the same information (e.g., Aadhaar) in ten different ways, and suggested it should instead be extracted from a shared server, citing the Ministry of Corporate Affairs' DIN as an example where details are captured once and reused." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "QUERY"], "sentiment": "issue", "text": "After all documents are uploaded, if there is a discrepancy, further documents are asked for with no end to the process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE", "GRIEVANCE"], "sentiment": "suggestion", "text": "Participants suggested a fixed timeline for the complete process (e.g., approved or rejected within 10 days, with clear rejection reasons) and automatic escalation (e.g., to the next level or a named nodal officer) if there is no update within a set period such as 7 days." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "DUPDOC"], "sentiment": "suggestion", "text": "Participants suggested a tracking facility showing application status and the handling officer/department, a single information page on the website covering the complete process, and a single portal that reuses previously submitted information/documents (e.g., Aadhaar pulled automatically) with downloadable certificates." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS", "FEES"], "sentiment": "suggestion", "text": "For establishments with up to 10 employees, participants suggested no fee but still issuing a legal certificate/document confirming registration; they also suggested linking S&E registration with company incorporation so PAN and MCA details do not need to be re-entered." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants cited the police verification/character certificate (now downloadable from home in around five minutes) and the passport process, which has a clear timeline, as positive contrast examples of government services." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "I have never met anyone to date who came and did it on their own.", "topic": "Total reliance on agents", "tags": ["CONSULT", "INFORMAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "So, if I have any problem today, whom to escalate to? I don't know, and that is the problem", "topic": "No escalation mechanism", "tags": ["GRIEVANCE", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Whatever is fixed within a time frame gets resolved, either this way or that way. If there is no time frame, it keeps going, pending.", "topic": "No fixed timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "And if you don't have the second registration document, you cannot get a bank account opened in any nationalised or private bank.", "topic": "Bank account dependency", "tags": ["DUPDOC", "COMPLY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "it is actually ridiculous", "topic": "Frustration with exemption policy", "tags": ["OTHER"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official or average processing-time figure was confirmed; experienced durations ranged from about two years (self-navigated) to about four months (via consultant) to one-two months (other cases), with no fixed timeline applied in practice." },
+        { "flag": "VAGUE", "text": "It is unclear whether any legal document continues to be issued for establishments exempt from S&E registration (fewer than 10 employees); participants want one issued, but current practice was described only as 'issuance has stopped.'" },
+        { "flag": "MISSING", "text": "No detail was given on how or when older (pre-online) S&E registrations will be migrated to the new online system." },
+        { "flag": "REFORM", "text": "Participants proposed linking S&E registration to company incorporation and reusing PAN/MCA-held data (an idea illustrated by the Ministry of Corporate Affairs' DIN) to avoid duplicate data entry -- a suggested reform rather than a confirmed existing practice." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License – Approval",
+      "sourceFiles": ["RJ_FGD_TLA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Municipal body (urban local body); approval chain includes CHO/CMHO; no clearly prescribed authority for areas outside urban/municipal jurisdictions, per participants",
+      "portal": { "name": "Single Sign-On (SSO) based online Trade Licence application system", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "One case reported pending about two months at the CHO/CMHO stage after document checks, inspection and fee payment; no overall official timeline was described", "text": "No fixed official timeline was described by participants. One application remained pending for around two months at the CHO/CMHO stage even after document checks, inspection and fee payment were completed, with no clear communication during that time." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": ["Application submitted through the SSO system", "Building-level Fire NOC (required for leased premises in applicable cases; participants reported difficulty obtaining it from landlords, and a lack of clarity on exemptions for buildings below 15 metres/certain ground-floor establishments)"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants said the application does not provide sufficient clear guidance on required documents generally.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "No deemed-approval mechanism was discussed. Participants instead suggested that the licence should be auto-generated immediately after pre-scrutiny, required checks, and fee payment, implying no such automatic issuance currently exists." },
+      "validity": { "text": "Participants referred to 1-year, 5-year and 10-year licence-tenure options but said these are not presented clearly enough on the website/application. Participants also raised a financial-impact concern that the full annual fee may be payable even when the licence is issued later in the year." },
+      "fees": { "text": "Exact fee amount was not stated. Participants discussed the financial impact of delayed licence issuance, including concern about paying the full annual fee even when the licence is issued later in the year." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits application through the Single Sign-On (SSO) system", "automated": true, "note": "" },
+        { "n": 2, "phase": "scrutiny", "title": "Dealing assistant verifies the application", "automated": "partial", "note": "" },
+        { "n": 3, "phase": "inspect", "title": "Inspector conducts inspection", "automated": false, "note": "" },
+        { "n": 4, "phase": "scrutiny", "title": "Inspector's report sent to CMHO", "automated": "partial", "note": "" },
+        { "n": 5, "phase": "approve", "title": "CMHO approval", "automated": "partial", "note": "" },
+        { "n": 6, "phase": "fee", "title": "Accounts department generates the bill; applicant pays the fee", "automated": "partial", "note": "" },
+        { "n": 7, "phase": "approve", "title": "File returns to CHO for final approval", "automated": "partial", "note": "" },
+        { "n": 8, "phase": "approve", "title": "Licence generated by the dealing assistant after digital signature", "automated": true, "note": "" }
+      ],
+      "remarks": [
+        "This record is based entirely on FGD/business testimony; no ED interview exists yet for Trade Licence Approval in Rajasthan, so it has not been cross-verified against an official source.",
+        "Participants said the prescribed list of establishment types does not adequately cover newer tourism units (e.g., rural guest houses, agro-tourism units) or rooftop restaurants, and that the standard application format can mark rooftop applications as not applicable, requiring the process to be redone.",
+        "Participants said there is no clearly prescribed authority for submitting the application outside urban/municipal jurisdictions.",
+        "Participants said the renewal process currently does not allow applications before the financial year-end, requiring applicants to wait until 1 April to submit renewal applications."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE", "GRIEVANCE"], "sentiment": "issue", "text": "One application remained pending for around two months at the CHO/CMHO stage even after document checks, inspection and fee payment were completed, with no clear communication while it was pending." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Officer transfers and subsequent ID mapping were reported to add further delay." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "CLARITY"], "sentiment": "issue", "text": "Participants described difficulty obtaining the required building-level Fire NOC for leased premises, particularly where landlords do not provide it, and the application does not clearly distinguish cases where Fire NOC may not be required (e.g., certain ground-floor establishments in buildings below 15 metres)." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Participants reported difficulty knowing where to apply outside urban/municipal jurisdictions." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The software does not provide a provision to submit comments or additional submissions while an application is pending." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "INTERDEP"], "sentiment": "issue", "text": "The Fire NOC requirement is applied uniformly even where the building is below the stated 15-metre height threshold." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "The prescribed list does not adequately cover newer tourism units such as rural guest houses and agro-tourism units, and there is no separate provision for rooftop restaurants; the standard application format can mark rooftop applications as not applicable, requiring the process to be redone." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "Outside urban areas there is no clearly prescribed authority for submission of the application." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "COMPLY"], "sentiment": "issue", "text": "The current workflow (SSO application, dealing assistant verification, inspector inspection, report to CMHO, CMHO approval, accounts bill generation, fee payment, return to CHO, final approval, licence generation with digital signature) involves multiple manual steps after pre-scrutiny rather than enabling automatic generation of the licence upon successful payment." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "The application does not provide sufficient clear guidance on required documents, does not clearly explain eligibility by location or when Fire NOC is applicable, and the available 1-year/5-year/10-year licence-tenure options are not presented clearly enough to users." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL"], "sentiment": "issue", "text": "The renewal process currently does not allow applications before the financial year-end, requiring applicants to wait until 1 April to submit renewal applications." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Rooftop applications have to be redone because the standard format does not cover them; documents can also be rejected for issues that may be clarified through third-party assistance." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY", "CLARITY"], "sentiment": "issue", "text": "There is no clearly defined timeline for movement of the file between officers, and unclear departmental responsibility outside urban areas leads applicants to rely on third parties who know whom to approach." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "COMPLY"], "sentiment": "suggestion", "text": "Auto-generate the trade licence immediately after pre-scrutiny, completion of required checks and fee payment." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "INTERDEP"], "sentiment": "suggestion", "text": "Validate the premises/location and building height within the application so applicants know early whether the licence/Fire NOC is applicable, and consider exempting applicable buildings below 15 metres (particularly ground-floor restaurants) from the Fire NOC requirement." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "RENEWAL"], "sentiment": "suggestion", "text": "Clearly display the 1-year, 5-year and 10-year licence-tenure options; allow renewal applications before the financial year-end rather than only after 1 April; provide clear information on the competent authority for areas outside urban/municipal jurisdictions." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS", "PORTAL"], "sentiment": "suggestion", "text": "Include newer tourism units and rooftop restaurants in the prescribed framework/application process, and provide a facility to view and respond to comments/submissions while an application is pending." },
+        { "source": "fgd", "category": "remarks", "tags": ["CONSULT", "FEES"], "sentiment": "neutral", "text": "One participant reported paying a consultant because of limited knowledge of the required documents; participants discussed the financial impact of delayed licence issuance, including concerns about paying the full annual fee even when the licence is issued later in the year." }
+      ],
+      "quotes": [
+        { "speaker": "Respondent", "quote": "After the fees are deposited, the license should be auto-generated.", "topic": "Auto-generation suggestion", "tags": ["PORTAL", "COMPLY"], "sentiment": "suggestion" },
+        { "speaker": "Respondent", "quote": "There is no timeline decided for one officer to keep the file, so the file remains pending.", "topic": "No file-movement timeline", "tags": ["TIMELINE", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Respondent", "quote": "There should be a specific provision that in this case Fire NOC is not compulsory.", "topic": "Fire NOC exemption", "tags": ["NORMS", "INTERDEP"], "sentiment": "suggestion" },
+        { "speaker": "Respondent", "quote": "The website should clearly show the one-year, five-year and ten-year options.", "topic": "Tenure clarity", "tags": ["CLARITY", "PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Respondent", "quote": "If we know on the website that it will not be issued here, we do not need to go ahead with the process.", "topic": "Location/eligibility clarity", "tags": ["CLARITY", "PORTAL"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official timeline figure was given beyond the one example of an application pending about two months at the CHO/CMHO stage." },
+        { "flag": "VAGUE", "text": "Fee and tenure-specific amounts were not specified, despite the 1-year/5-year/10-year tenure options being referenced." },
+        { "flag": "MISSING", "text": "Deemed-approval status was not addressed by participants." },
+        { "flag": "REFORM", "text": "Participants proposed auto-generating the licence immediately after fee payment, implying no such automatic issuance step exists today." }
+      ]
+    }
+  ]
+}

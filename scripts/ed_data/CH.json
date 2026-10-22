@@ -1,0 +1,250 @@
+{
+  "code": "CH",
+  "name": "Chandigarh",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFile": "CH_ED_CTE.docx",
+      "issuingAuthority": "Chandigarh Pollution Control Committee (CPCC)",
+      "portal": { "name": "CHOCMMS (Online Consent Management & Monitoring System – Chandigarh), transitioning to the centralized single-window UCAMS (Unified Consent & Authorization Management System) portal", "url": null },
+      "timeline": { "minDays": 15, "maxDays": 21, "basis": "Standard applications processed in 15-21 days; statutory limit under Act provisions extends up to 120 days; Green category is auto-granted instantly (0 days).", "text": "Standard CTE applications are processed within 15 to 21 days, against a statutory ceiling of up to 120 days under the relevant Act. Green category applications are auto-granted instantly upon submission." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Registration Details & Identity Proof of the applicant",
+        "Authority Letter (signed by owner/proprietor if filed by an authorized representative)",
+        "Premises/Occupancy Proof (valid property/land documents or Rent Agreement)",
+        "Capital Investment Details (formal declaration of total capital investment)",
+        "Layout Plan & Machinery List (proposed machinery installation slots and list)",
+        "Process Details (manufacturing process flow, raw material inputs, expected waste output/mass balance)",
+        "Pollution Control Proposals (ETP Feasibility Report and/or APCT/stack proposals, as applicable)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Under upcoming guidelines, applications exceeding the stipulated timeline are escalated to a State Level Scrutiny Committee headed by the Secretary (Environment), rather than being automatically deemed approved. The statutory outer limit under Act provisions is up to 120 days." },
+      "validity": { "text": "CTE is granted as a one-time permission required prior to setting up the unit, to verify pollution-control capability before construction/setup commences. No further validity period or expiry is stated." },
+      "fees": { "text": "Fees are calculated strictly on capital investment, by category. Red: up to ₹10 lakh investment = ₹2,400 base fee, scaling to ~₹4,70,000 above ₹200 crore up to ₹1,000 crore. Yellow: ₹1,800 base fee scaling to ~₹3,60,000. Green: ₹1,500 base fee scaling to ~₹2,40,000. A 10% annual escalation applies to standard fee slabs." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Create account on CHOCMMS portal and select industry type", "automated": true, "note": "System automatically assigns pollution category (Red, Orange, Green, or White)." },
+        { "n": 2, "phase": "apply", "title": "Fill online application form with business details and capital investment declaration", "automated": true },
+        { "n": 3, "phase": "apply", "title": "Upload mandatory supporting documents", "automated": true, "note": "Includes ownership/rent proof, layout plans, manufacturing process details, ETP/APCT proposals." },
+        { "n": 4, "phase": "fee", "title": "Pay application fee online based on capital investment", "automated": true },
+        { "n": 5, "phase": "scrutiny", "title": "Online scrutiny; physical inspection for Red/Orange categories", "automated": "partial", "note": "Green category bypasses site inspection; Red/Orange inspected via geo-tagged, GPS-coordinated photographs." },
+        { "n": 6, "phase": "approve", "title": "CTE certificate generated and downloaded digitally", "automated": true, "note": "Applicant downloads certificate directly from the portal without visiting the office." }
+      ],
+      "ed": { "date": "16th September, 2026", "location": "Paryavaran Bhawan, Chandigarh", "expert": "Vivek Pandey", "designation": "Scientist, Chandigarh Pollution Control Committee (CPCC)" },
+      "remarks": [
+        "Rejections are extremely rare/minimal.",
+        "When queries are raised due to document errors, applicants get a query-return window (typically around 2 days) to re-upload corrected documents without application cancellation.",
+        "Technical support is provided via a dedicated helpdesk at the CPCC office to assist small-scale industrialists with online form filling."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["QUERY","CLARITY"], "sentiment": "issue", "text": "The primary cause of queries or delay is applicant error — uploading incomplete documentation, incorrect data entries, or errors in auto-fetching form fields — due to a lack of technical awareness among small unit owners." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL","POSITIVE"], "sentiment": "positive", "text": "The service is 100% online and paperless; approved certificates are directly downloaded by the applicant without visiting the office." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "White Category units are fully exempted from CTE; restaurants with fewer than 100 seats are classified White, and standalone DG sets up to 1000 KVA do not require a separate CTE." },
+        { "source": "ed", "category": "policy", "tags": ["DUPDOC","NORMS"], "sentiment": "positive", "text": "Units holding Environmental Clearance (EC) are exempt from a separate CTE, as CTE conditions are integrated into the EC." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE","POSITIVE"], "sentiment": "positive", "text": "Green category applications operate under an instant auto-grant system with zero-day processing." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "There is a large gap between actual processing time (15-21 days) and the statutory outer limit under Act provisions (up to 120 days)." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE","GRIEVANCE"], "sentiment": "neutral", "text": "Under upcoming guidelines, applications exceeding the stipulated timeline will automatically escalate to a State Level Scrutiny Committee headed by the Secretary (Environment)." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "Fees are calculated strictly on the capital investment of the unit, with separate slabs for Red, Yellow, and Green categories, plus a 10% annual escalation." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT","POSITIVE"], "sentiment": "positive", "text": "Physical inspection for Red and Orange categories uses geo-tagged and GPS-coordinated photographs, enhancing transparency in site verification." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "neutral", "text": "A transition is underway from the current OCMS/CHOCMMS portal toward the centralized single-window UCAMS portal under federal directives." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL","CLARITY"], "sentiment": "suggestion", "text": "Recommendation to enhance auto-validation features on the portal to catch incorrect data inputs and incomplete document uploads prior to submission." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Recommendation to streamline the transition to the central UCAMS single-window portal to enable single-sign-on access." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Recommendation to provide clearer guidance and templates for small units on calculating capital investment and drafting ETP feasibility reports." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY","POSITIVE"], "sentiment": "positive", "text": "A dedicated in-person technical helpdesk at the CPCC office assists non-tech-savvy small industrialists with online form filling." },
+        { "source": "ed", "category": "redundant", "tags": ["OTHER"], "sentiment": "positive", "text": "The official stated there is no compliance burden or redundant requirement in the CTE approval process." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The validity period of a granted CTE itself (e.g., how long it remains valid before construction must begin) is not stated — it is described only as a one-time permission." },
+        { "flag": "MISSING", "text": "The exact number of days constituting the 'stipulated timeline' that triggers escalation to the State Level Scrutiny Committee is not given, only the 120-day statutory outer limit." },
+        { "flag": "GOOD_PRACTICE", "text": "Instant auto-grant for Green category units (zero-day processing) for low-pollution-risk applicants." },
+        { "flag": "GOOD_PRACTICE", "text": "Dedicated in-person technical helpdesk at the CPCC office specifically to assist small-scale industrialists with online filing." },
+        { "flag": "REFORM", "text": "Transition from the CHOCMMS/OCMS portal to a centralized single-window UCAMS portal under federal directives, intended to enable single-sign-on access." },
+        { "flag": "INCONSISTENT", "text": "The document uses 'Orange' category in the risk-classification and process-flow sections but 'Yellow' category in the Statutory Fee section's slab table — it is unclear whether these denote the same category, since the fee section lists only Red/Yellow/Green (no separate Orange or White fee figures)." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFile": "CH_ED_CTO.docx",
+      "issuingAuthority": "Chandigarh Pollution Control Committee (CPCC)",
+      "portal": { "name": "CHOCMMS (Online Consent Management & Monitoring System – Chandigarh) / single-window portal", "url": null },
+      "timeline": { "minDays": 0, "maxDays": 21, "basis": "Statutory/service timeline is 21 days for Red/Orange categories; Green category is auto-granted instantly (0 days).", "text": "Processing for Red and Orange category units occurs within 21 days. Green Category applications are auto-granted instantly upon submission." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Final Capital Investment Proof (actual final project cost, proposed vs. actual comparison)",
+        "Installed Machinery List (machinery actually installed on site)",
+        "TSDF Tie-up Agreement (with an authorized Treatment, Storage and Disposal Facility or authorized recyclers, if hazardous waste is generated)",
+        "Effluent/Service Station Agreements (tie-ups with authorized recyclers for oil/sludge handling)",
+        "DG Set Noise/Emission Test Reports from an approved/empaneled lab, if applicable",
+        "Post-grant: Effluent/Air Monitoring Test Reports, to be submitted within 1 month of the trial run"
+      ],
+      "documentsNote": "The last item is a post-grant compliance submission rather than an application-stage document.",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed approval exists for Red and Orange categories, which follow statutory SLA processing limits. Green category applications are auto-approved instantly upon submission, which the ED describes separately from deemed approval." },
+      "validity": { "text": "Historically, validity was category-wise: Red = 5 years, Orange = 10 years, Green = 15 years. Under new central guidelines, validity can be granted from a minimum of 5 years up to 25 years upon fee payment, eliminating periodic renewals in favor of validity extension." },
+      "fees": { "text": "Fees are calculated strictly on the final capital investment of the unit. Red: up to ₹10 lakh investment = ₹2,400 base fee, scaling to ~₹4,70,000 above ₹200 crore up to ₹1,000 crore. Yellow: ₹1,800 base fee scaling to ~₹3,60,000. Green: ₹1,500 base fee scaling to ~₹2,40,000. A 10% annual escalation applies to standard fee slabs." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Access CHOCMMS/single-window portal and select the CTO service", "automated": true },
+        { "n": 2, "phase": "apply", "title": "Enter actual project details: final capital investment incurred and actual machinery installed", "automated": true },
+        { "n": 3, "phase": "apply", "title": "Upload required supporting documents (TSDF agreements, recycler tie-ups, DG set noise/emission test reports)", "automated": true },
+        { "n": 4, "phase": "fee", "title": "Pay CTO fee online based on final capital investment", "automated": true },
+        { "n": 5, "phase": "inspect", "title": "Inspection for Red and Orange category units using geo-tagged and GPS-coordinated photographs", "automated": "partial" },
+        { "n": 6, "phase": "approve", "title": "CTO certificate generated digitally and downloaded online", "automated": true }
+      ],
+      "ed": { "date": "16th September, 2026", "location": "Paryavaran Bhawan, Chandigarh", "expert": "Vivek Pandey", "designation": "Scientist, Chandigarh Pollution Control Committee (CPCC)" },
+      "remarks": [
+        "Mandatory inspection frequency: Red category inspected twice a year, Orange once a year, Green once every 2 years.",
+        "Red category units must submit self-monitoring test reports twice annually from certified laboratories; third-party certified auditors are also authorized to perform compliance audits.",
+        "Effluent/Air Monitoring test reports must be submitted within 1 month of initiating trial operations to confirm ongoing compliance with discharge standards."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "positive", "text": "New central guidelines allow validity to be extended from a minimum of 5 years up to 25 years upon fee payment, eliminating periodic renewals in favor of validity extension." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE","POSITIVE"], "sentiment": "positive", "text": "Green category applications are auto-granted instantly upon submission." },
+        { "source": "ed", "category": "pain", "tags": ["QUERY","CLARITY"], "sentiment": "issue", "text": "Discrepancies primarily arise from incorrect entries in document forms or incomplete uploads due to applicant unfamiliarity with technical parameters." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Mandatory inspection frequency is tied to risk category: Red inspected twice a year, Orange once a year, Green once every 2 years." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Red category units must submit self-monitoring test reports twice annually from certified laboratories; third-party certified auditors are also authorized to perform compliance audits." },
+        { "source": "ed", "category": "redundant", "tags": ["OTHER"], "sentiment": "positive", "text": "The official stated there is no compliance burden or redundant requirement in the CTO approval process." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "CTO fees are calculated on the capital investment of the unit, with slabs for Red, Yellow and Green categories, plus a 10% annual escalation." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "There is no deemed approval for Red and Orange categories, which follow statutory SLA limits; only Green category is auto-approved instantly." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "A mandatory TSDF tie-up agreement (or authorized recycler agreement) is required if the unit generates hazardous waste." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Recommendation to automate reminders for post-grant compliance filings, e.g., submitting the 30-day trial-run effluent test reports." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Recommendation to streamline third-party compliance audit uploads directly onto the portal." },
+        { "source": "ed", "category": "remarks", "tags": ["INSPECT","POSITIVE"], "sentiment": "positive", "text": "Geo-tagged, GPS-coordinated site audits are used to verify physical inspections, improving transparency." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY","POSITIVE"], "sentiment": "positive", "text": "A dedicated helpdesk at CPCC premises provides direct technical guidance to applicants." },
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Effluent/Air Monitoring test reports must be submitted within 1 month of initiating trial operations to confirm ongoing compliance with discharge standards." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS","POSITIVE"], "sentiment": "positive", "text": "Testing is standardized through certified and empaneled environmental laboratories." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No escalation or deemed-approval mechanism is described if the 21-day processing timeline is exceeded for Red/Orange categories (unlike the CTE ED, which names a State Level Scrutiny Committee)." },
+        { "flag": "VAGUE", "text": "The 21-day figure is described as both the 'statutory/service timeline' and the 'actual processing time' with no separate statutory outer limit given, so it is unclear what recourse exists if this is missed." },
+        { "flag": "GOOD_PRACTICE", "text": "Validity extension up to 25 years, reducing recurring administrative renewal submissions." },
+        { "flag": "GOOD_PRACTICE", "text": "Geo-tagged, GPS-coordinated photographic site audits for inspection transparency." },
+        { "flag": "REFORM", "text": "Shift toward self-monitoring test reports and third-party certified audits as part of ongoing compliance, as described by the official." },
+        { "flag": "MISSING", "text": "The White Category is stated as 'exempted' from CTO but the document does not describe what this exemption procedurally entails (e.g., any residual intimation requirement)." }
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFile": "CH_ED_RCTO.docx",
+      "issuingAuthority": "Chandigarh Pollution Control Committee (CPCC)",
+      "portal": { "name": "CHOCMMS (Online Consent Management & Monitoring System – Chandigarh) — service for \"Extension in Validity of Consent\"", "url": null },
+      "timeline": { "minDays": 0, "maxDays": null, "basis": "Fast-tracked / instant auto-grant upon fee payment, provided no standing enforcement actions or violations exist.", "text": "Processing is fast-tracked, with instant auto-grant options upon fee payment. Actual processing occurs instantly or within a few days, depending on automated compliance validation." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Self-Declaration confirming no change in production capacity, raw material consumption, or manufacturing process",
+        "Environmental Test Reports (latest ETP/APCT output monitoring parameters)",
+        "TSDF/Recycler Agreement (active agreement copy for hazardous waste management)",
+        "Fee Payment Proof for the selected extended validity period"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "yes", "days": null, "text": "A fast-tracked auto-grant system is operationalized for validity extension, provided there are no unrectified violations or pending legal notices. No specific day-count is given beyond \"instantly or within a few days.\"" },
+      "validity": { "text": "Flexible extension options ranging from 5 years up to 25 years, based on applicant choice and fee payment." },
+      "fees": { "text": "The standard CTO fee schedule is applied according to the capital investment slab, for the requested duration of validity, subject to the 10% annual escalation rule. This document does not restate the specific rupee figures." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Log into CHOCMMS portal and select the Extension in Validity of Consent service", "automated": true },
+        { "n": 2, "phase": "apply", "title": "Submit self-declaration confirming no change in production capacity, raw materials, or manufacturing process", "automated": true },
+        { "n": 3, "phase": "apply", "title": "Upload latest environmental compliance test reports and active TSDF/recycler agreements", "automated": true },
+        { "n": 4, "phase": "fee", "title": "Select desired validity duration (up to 25 years) and pay the corresponding statutory fee online", "automated": true },
+        { "n": 5, "phase": "scrutiny", "title": "System processes the extension under a fast-track/auto-grant workflow", "automated": true, "note": "Conditional on no standing enforcement actions or violations." },
+        { "n": 6, "phase": "approve", "title": "Extended Consent Certificate generated digitally and downloaded by the applicant", "automated": true },
+        { "n": 7, "phase": "inspect", "title": "Post-grant random scrutiny conducted by CPCC officers", "automated": false, "note": "If discrepancies, fake reports, or parameter mismatches are found, formal notices, re-inspection, or consent revocation may follow." }
+      ],
+      "ed": { "date": "16th September, 2026", "location": "Paryavaran Bhawan, Chandigarh", "expert": "Vivek Pandey", "designation": "Scientist, Chandigarh Pollution Control Committee (CPCC)" },
+      "remarks": [
+        "Traditional manual/periodic 'Renewal of CTO' is being phased out in accordance with central guidelines and statutory amendments (Water/Air Acts), shifting to 'Extension in Validity of Consent.'",
+        "Ongoing departmental surveillance and periodic inspection schedules remain fully active even when a unit holds a long-term (up to 25 years) validity extension."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "Traditional manual/periodic renewal of CTO is being phased out per central guidelines and statutory amendments to the Water/Air Acts, replaced by 'Extension in Validity of Consent.'" },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE","POSITIVE"], "sentiment": "positive", "text": "A fast-tracked auto-grant system processes validity extensions upon fee payment, provided no standing enforcement actions or violations exist." },
+        { "source": "ed", "category": "redundant", "tags": ["RENEWAL"], "sentiment": "positive", "text": "Elimination of frequent renewal filings has significantly reduced administrative friction." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "positive", "text": "Validity extension can be chosen flexibly from 5 years up to 25 years based on applicant choice and fee payment." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY","GRIEVANCE"], "sentiment": "neutral", "text": "Post-grant random scrutiny by CPCC officers can detect discrepancies such as fake reports or unrealistic BOD/COD parameter mismatches, triggering formal notices, re-inspection, or consent revocation." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Ongoing inspection regime tied to risk category continues regardless of long-term validity extension: Red twice a year, Orange once a year, Green once every 2 years." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Recommendation to introduce automated cross-verification of laboratory test report IDs to prevent submission of falsified environmental parameters." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Recommendation to maintain centralized digital tracking of unit inspection histories on the portal." },
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Ongoing departmental surveillance and periodic inspection schedules remain fully active even when a unit holds a long-term (up to 25 years) validity extension." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE","POSITIVE"], "sentiment": "positive", "text": "The fast-track workflow provides an automated grant upon fee clearance and a no-change self-declaration." },
+        { "source": "ed", "category": "procedural", "tags": ["CLARITY"], "sentiment": "positive", "text": "A self-declaration mechanism (confirming no change in production capacity, raw materials, or process) substitutes for a full renewal documentation process." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "The standard CTO fee schedule applies per the capital investment slab for the requested validity duration, subject to the 10% annual escalation rule." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No exact deemed-approval/processing timeframe (number of days) is specified for the fast-track auto-grant — only described as 'instantly or within a few days.'" },
+        { "flag": "VAGUE", "text": "This document does not restate specific fee amounts for the extension — only that the 'standard CTO fee schedule' and '10% annual escalation rule' apply." },
+        { "flag": "GOOD_PRACTICE", "text": "Self-declaration-based fast-track renewal (where production capacity, raw materials, and process are unchanged) replacing a full renewal documentation process." },
+        { "flag": "GOOD_PRACTICE", "text": "Post-grant random scrutiny model that allows long validity periods while still catching violations (e.g., falsified BOD/COD data) after the fact." },
+        { "flag": "REFORM", "text": "Abolition of periodic CTO renewal, replaced by a one-time long-term validity extension up to 25 years, per central guidelines and statutory amendments to the Water/Air Acts." },
+        { "flag": "MISSING", "text": "The process/criteria for verifying 'no standing enforcement actions or violations' before the fast-track grant is issued is not detailed." }
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFile": "CH_ED_RSE.docx",
+      "issuingAuthority": "Labour Department, UT Administration, Chandigarh — the designated Labour Inspector is the sole reviewing, approving, and signing authority",
+      "portal": { "name": "Online e-services portal managed centrally by the Labour Department, integrated under the UT Administration's State Single Window System umbrella", "url": null },
+      "timeline": { "minDays": 0, "maxDays": 1, "basis": "Statutory enforcement within 24 hours under the Right to Service (RTS) framework.", "text": "Statutory timeline is enforced within 24 hours under the RTS framework. Actual processing typically occurs within a few hours to 1 day if documents are complete." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Identity Proof (Aadhaar card or identity proof of owner/proprietor/authorized signatory)",
+        "PAN Card (individual or company)",
+        "Premises/Occupancy Proof (Possession letter/Allotment letter, Transfer letter, or Rent agreement)",
+        "Entity Proof (Memorandum/Articles of Association or Partnership Deed, where applicable)",
+        "Employee List (total strength and gender classification, uploaded in PDF or Excel format)"
+      ],
+      "documentsNote": "An official checklist and dynamic form fields are embedded within the portal.",
+      "deemedApproval": { "status": "yes", "days": 1, "text": "Operationalized under a 24-hour auto-approval system: if the reviewing officer does not act on or query an application within 24 hours of submission, it is automatically deemed approved." },
+      "validity": { "text": "Lifetime validity / one-time registration — annual renewal requirements have been completely removed as an Ease of Doing Business (EoDB) reform. Re-application is only required for amendments (e.g., change of management, relocation of premises, or addition/deletion of workers)." },
+      "fees": { "text": "A maximum capped statutory fee of up to ₹5,000, depending on the worker slab/category, deposited directly into official government accounts via Bharatkosh." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Access online e-services portal, create account, and select Registration under the Shops and Commercial Establishments Act", "automated": true },
+        { "n": 2, "phase": "apply", "title": "Select establishment category and specify new registration or amendment", "automated": true },
+        { "n": 3, "phase": "apply", "title": "Enter business details and upload the required list of employees", "automated": true },
+        { "n": 4, "phase": "fee", "title": "Upload mandatory supporting documents (identity, address/occupancy, entity proof) and pay applicable fees", "automated": true },
+        { "n": 5, "phase": "scrutiny", "title": "Application routed directly to the designated Labour Inspector, the sole reviewing/approving/signing authority", "automated": "partial", "note": "No multi-layered physical or departmental file movement is required." },
+        { "n": 6, "phase": "approve", "title": "Upon approval by the Labour Inspector, registration is completed and certificate is downloadable online", "automated": true }
+      ],
+      "ed": { "date": "16th September, 2026", "location": "Office of Labour Department, UT Administration, Chandigarh", "expert": "Prem Sagar", "designation": "Labour Inspector, Labour Department, UT Administration, Chandigarh" },
+      "remarks": [
+        "Establishments with fewer than 20 employees are deregulated and only require intimation/registration, whereas establishments with 20 or more employees complete full registration.",
+        "Technical support is provided via phone, AnyDesk, or in-person guidance if required.",
+        "Worker grievances regarding pay or service conditions are handled through separate designated authorities (e.g., Assistant Labour Commissioner / Equal Remuneration Authority), not through this registration process."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL","POSITIVE"], "sentiment": "positive", "text": "The service is 100% online, paperless, and faceless; no physical document submission or office visit is required." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "Establishments with fewer than 20 employees are deregulated and only require intimation/registration, while those with 20 or more complete full registration." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE","POSITIVE"], "sentiment": "positive", "text": "The statutory timeline under the Right to Service (RTS) framework is 24 hours, with actual processing typically within a few hours to 1 day." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE","POSITIVE"], "sentiment": "positive", "text": "A 24-hour deemed-approval mechanism applies: if the reviewing officer does not act on or query the application within 24 hours, it is automatically deemed approved." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "positive", "text": "Annual renewal requirements have been completely removed in favor of lifetime one-time registration, as an EoDB reform." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "A maximum capped statutory fee of up to ₹5,000, depending on worker slab/category, is deposited via Bharatkosh." },
+        { "source": "ed", "category": "pain", "tags": ["QUERY","CLARITY"], "sentiment": "issue", "text": "The primary cause of query or rejection is applicant error — uploading blurry/unreadable documents or applying for commercial activity within designated residential areas." },
+        { "source": "ed", "category": "redundant", "tags": ["OTHER"], "sentiment": "positive", "text": "No redundant documentation or overlapping inter-departmental hurdles were reported." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY","POSITIVE"], "sentiment": "positive", "text": "A dedicated Department IT personnel assists non-tech-savvy applicants remotely via AnyDesk or telephone to ensure document completion without relying on third-party agents." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Proactive industry outreach includes interactive periodic discussions with market associations to collect feedback and simplify procedures." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "An online intimation mechanism allows registered commercial units (e.g., IT, food services) to operate 24/7." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL","CLARITY"], "sentiment": "suggestion", "text": "Recommendation to enhance automated portal validation to instantly reject blurry uploads or incorrect document formats before submission." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Recommendation to provide pre-submission zoning alerts to prevent applicants from applying under non-commercial/residential address classifications." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Recommendation to continue strengthening integration with the central State Single Window System for single-sign-on access." },
+        { "source": "ed", "category": "remarks", "tags": ["TIMELINE","QUERY"], "sentiment": "neutral", "text": "When a query is raised, the 24-hour SLA clock pauses until the applicant submits the required clarification, after which the inspector reviews it within 24 hours." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE"], "sentiment": "neutral", "text": "Worker grievances regarding pay or service conditions are handled through separate designated authorities (e.g., Assistant Labour Commissioner / Equal Remuneration Authority), not through this registration process." }
+      ],
+      "gaps": [
+        { "flag": "GOOD_PRACTICE", "text": "24-hour deemed approval with automatic approval if the reviewing officer does not act — described as ensuring zero application backlog." },
+        { "flag": "GOOD_PRACTICE", "text": "Dedicated Department IT personnel providing remote AnyDesk/phone support to avoid dependence on third-party agents." },
+        { "flag": "REFORM", "text": "Abolition of annual renewal in favor of lifetime one-time registration, explicitly framed as an Ease of Doing Business (EoDB) reform." },
+        { "flag": "MISSING", "text": "The specific brand/name of the online e-services portal is not given — it is described only generically as an 'online e-services portal.'" },
+        { "flag": "VAGUE", "text": "Rejection rate is stated only as 'under 5%' with no exact figure, time period, or sample size given." },
+        { "flag": "MISSING", "text": "Exact fee amounts per worker slab/category are not broken down — only a maximum cap of ₹5,000 'depending on the worker slab/category' is given." }
+      ]
+    }
+  ]
+}

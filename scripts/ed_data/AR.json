@@ -1,0 +1,258 @@
+{
+  "code": "AR",
+  "name": "Arunachal Pradesh",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFile": "AR_ED_CTE.docx",
+      "issuingAuthority": "Arunachal Pradesh State Pollution Control Board (APSPCB)",
+      "portal": { "name": "Unified Consent Mechanism (central-government online platform); offline/hard-copy applications through the district officers also remain common", "url": null },
+      "timeline": {
+        "minDays": 9,
+        "maxDays": 90,
+        "basis": "Statutory outer limit of 90 days under the Arunachal Pradesh Water (Prevention and Control of Pollution) Rules, 2000, for a complete application",
+        "text": "The rules allow 90 days from receipt of a complete application, but the Board's own processing stage typically takes only 9-15 days; the time applicants take to collect NOCs from forest, district and village authorities is not tracked and falls outside the Board's control."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Proof of land: Land Possession Certificate, land allotment order, or lease deed",
+        "NOC from the Divisional Forest Officer",
+        "NOC from the district administration (usually EAC or ADC)",
+        "NOC from the Gaon Bura or village head",
+        "Detailed Project Report",
+        "Environment Management Plan (for some projects)",
+        "Emergency Response Plan (for some projects)",
+        "Rent or lease deed (if unit is on rented premises)"
+      ],
+      "documentsNote": "The full checklist totals around 14-15 documents; only the core mandatory ones named above are individually specified in the ED.",
+      "deemedApproval": {
+        "status": "yes",
+        "days": null,
+        "text": "A deemed-approval provision exists in the rules for files left pending too long, but the expert said it has never really been used because applications are normally disposed of long before that point."
+      },
+      "validity": {
+        "text": "Validity depends on category: 2 years for Red, 3 years for Orange, and 5 years for Green. White-category industries are exempt and do not need consent at all."
+      },
+      "fees": {
+        "text": "Fees follow Schedule II of the AP Water (Prevention and Control of Pollution) (Amendment) Rules, 2020 (gazetted 27 November 2020), based on capital investment and Red/Orange/Green category. Example slabs: up to ₹5 lakh investment pays ₹2,500 (Red)/₹2,000 (Orange)/₹1,500 (Green); above ₹1,000 crore pays ₹16,00,000 (Red)/₹12,00,000 (Orange)/₹8,00,000 (Green), with several slabs in between. No hidden costs; an extra amount is due only at renewal if capacity has increased."
+      },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Collect CTE application form and document checklist from the Board", "automated": "partial", "note": "Available via the online Unified Consent Mechanism or offline from the Board." },
+        { "n": 2, "phase": "apply", "title": "Arrange supporting land and NOC documents", "automated": false, "note": "Land proof plus Forest, district administration and village-head NOCs, collected by the applicant from other offices." },
+        { "n": 3, "phase": "apply", "title": "Submit Detailed Project Report (and EMP/ERP for some projects) with the application", "automated": "partial", "note": null },
+        { "n": 4, "phase": "fee", "title": "Board categorises the unit (Red/Orange/Green) and computes the fee from capital investment; applicant pays by DD, RTGS or online", "automated": "partial", "note": null },
+        { "n": 5, "phase": "scrutiny", "title": "File routed to the officer in charge of the applicant's zone (Siang, Eastern, Western, Central or Subansiri)", "automated": false, "note": null },
+        { "n": 6, "phase": "scrutiny", "title": "Incomplete or unclear files are returned; applicant phoned and asked to correct and resubmit", "automated": false, "note": null },
+        { "n": 7, "phase": "inspect", "title": "Site visit for bigger units such as factories; skipped for very small establishments", "automated": false, "note": null },
+        { "n": 8, "phase": "approve", "title": "Consent issued within the prescribed time once the file is in order", "automated": false, "note": null }
+      ],
+      "ed": { "date": "7 October 2026", "location": "Arunachal Pradesh Innovation & Investment Park (APIIP), O.T Building, Niti Vihar, Itanagar", "expert": "Shri Jumli Kato", "designation": "Scientist-B, Arunachal Pradesh State Pollution Control Board (APSPCB)" },
+      "remarks": [
+        "There is a live dispute in Rukshin over a ferro silicon unit (Aether Alloys LLP); local residents oppose the plant over smoke, air/water pollution and falling agricultural production, which has already led to public protests including a road blockade.",
+        "The expert has been with the pollution control board for 22 years.",
+        "Complaints are usually settled in 10-15 days, well inside the 90-day outer limit, though the expert was not aware of a fixed timeline for grievances.",
+        "The Board has advertised for third-party inspection and certification agencies to take on smaller units, though units with legal complications will not be taken up under it.",
+        "Risk categories were recently expanded from three (Red/Orange/Green) to five, adding White (exempt) and Blue."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "Filling the online Unified Consent Mechanism form is difficult for many applicants since it is one common form for every industry type and they are often unsure which parts apply to them." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "OTHER"], "sentiment": "issue", "text": "Weak internet connectivity and late-arriving OTPs make the online application process harder for applicants." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Three separate NOCs (Forest, district administration, village head) must be collected one by one from different offices, with no single window bringing them together." },
+        { "source": "ed", "category": "procedural", "tags": ["CLARITY", "POSITIVE"], "sentiment": "positive", "text": "The Land Possession Certificate, land allotment order and lease deed have already been consolidated into a single requirement, per the expert." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "While the statutory limit is 90 days, the Board's own processing typically takes only 9-15 days; time spent by applicants obtaining NOCs is outside the Board's tracking." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Only five officers cover the entire state, so site inspections are clubbed together by area to cover four or five units in a single trip." },
+        { "source": "ed", "category": "policy", "tags": ["INSPECT"], "sentiment": "issue", "text": "There is no regular post-approval monitoring schedule, which the expert said makes it hard to confirm whether a consented unit remains compliant." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "issue", "text": "Nothing moves forward automatically after CTE is granted; applicants must separately approach the Factory/Industries department (and Geology & Mining where relevant) and hand over the same documents again." },
+        { "source": "ed", "category": "pain", "tags": ["INSPECT", "INTERDEP"], "sentiment": "issue", "text": "The Fire department runs its own checks separately from the Board's, so a unit is looked at from more than one side." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Deemed approval exists in the rules, but the expert said it has effectively never been invoked since files are normally disposed of well before the limit." },
+        { "source": "ed", "category": "procedural", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "There is no online grievance system; a complainant must write a letter or travel to Itanagar. No applicant has raised a grievance so far — the few complaints received each year are from outsiders with political or business-rivalry motives." },
+        { "source": "ed", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "The expert suggested that if applications are complete at filing, the 90-day limit could be reduced to somewhere between 20 and 30 days." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "More staff was recommended to ease the load carried by just five officers covering the entire state." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "The expert recommended introducing regular post-consent monitoring as the only way to catch and fix compliance slippage." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "A simpler form, or separate forms by industry type, was suggested to make the application easier for applicants." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "A fully online process with clear status tracking and a dependable OTP service was suggested to reduce dependence on cyber cafes and district offices." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The Unified Consent Mechanism lets applicants file, upload documents, pay and track their application entirely online with no hard copies at all." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "A live dispute over a ferro silicon unit (Aether Alloys LLP) in Rukshin has drawn public protest, including a road blockade, over pollution concerns." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "The Board is stretched thin with only five officers for the whole state; although regional offices are being opened (e.g., Namsai), most of the work still runs from Itanagar." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "Fees are based on capital investment and Red/Orange/Green category under Schedule II of the 2020 Amendment Rules, with no hidden costs beyond the category-based slabs." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No precise day count is given for how long applicants typically take to obtain the Forest/district/village NOCs — explicitly stated as unknown to the expert." },
+        { "flag": "VAGUE", "text": "Office-visit frequency for offline applicants is given only as 'usually just one or two,' without further precision, and differs from the online route where no visit is needed." },
+        { "flag": "GOOD_PRACTICE", "text": "Clubbing site inspections by zone lets a five-officer team cover a large area more efficiently." },
+        { "flag": "REFORM", "text": "The Board has advertised a third-party inspection/certification scheme for smaller units (excluding those with legal complications) to ease its inspection load, though a rollout date is not given." },
+        { "flag": "MISSING", "text": "No specific deemed-approval day threshold is stated in the document." },
+        { "flag": "VAGUE", "text": "No fixed grievance-resolution timeline exists; the expert said he was not aware of one, only that complaints are 'usually' settled in 10-15 days." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFile": "AR_ED_CTO.docx",
+      "issuingAuthority": "Arunachal Pradesh State Pollution Control Board (APSPCB)",
+      "portal": { "name": "No online portal exists for CTO; the process is entirely offline (in person, by mail, WhatsApp or post)", "url": null },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": 14,
+        "basis": "No statutory day-limit was cited for CTO in this ED; figures are the expert's own practical estimates",
+        "text": "Once documents are complete, processing usually wraps up within about seven days, with the field inspection taking one to two weeks depending on officer availability; delays increase due to only five officers covering 28 districts, officers' court commitments, and incomplete applicant submissions."
+      },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Land document and site map",
+        "Land Possession Certificate, or lease agreement if the land is leased",
+        "Detailed Project Report (DPR)",
+        "NOC from the district administration",
+        "NOC from the Divisional Forest Officer"
+      ],
+      "documentsNote": "The same form and documents used for CTE carry forward to CTO, so no additional NOC is required at this stage. The Panchayat NOC is explicitly not mandatory.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "The expert agreed in principle that a file could be treated as deemed approved if all documents are in and the officer does not act, but could not point to any case where this has actually happened."
+      },
+      "validity": {
+        "text": "How long a Consent to Operate stays valid was not covered in this discussion."
+      },
+      "fees": {
+        "text": "The fee schedule, last revised in 2020 (originally notified in 2000), is based on capital investment and Red/Orange/Green category. Example: a hotel with about ₹80 lakh investment would pay roughly ₹40,000/year if Orange, or around ₹30,000/year if Green. Scrutiny, inspection and testing are included in the consent fee with no separate site-visit charge; a small ₹100 application fee is charged on top."
+      },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Unit obtains Consent to Establish (CTE) from the Board before the CTO process begins", "automated": false, "note": null },
+        { "n": 2, "phase": "pre", "title": "Unit completes construction, machinery installation, and pollution control equipment setup per CTE terms and conditions", "automated": false, "note": null },
+        { "n": 3, "phase": "apply", "title": "Applicant applies for CTO using the same form and format as CTE, with supporting documents attached", "automated": false, "note": "Submitted offline." },
+        { "n": 4, "phase": "scrutiny", "title": "File checked for completeness; applicant phoned and asked to come in and fix anything missing, e.g. a signature", "automated": false, "note": null },
+        { "n": 5, "phase": "inspect", "title": "Field officer visits to verify pollution control equipment is installed and CTE conditions are being followed", "automated": false, "note": null },
+        { "n": 6, "phase": "scrutiny", "title": "Officer writes up a report and sends it to the higher authority at the Board", "automated": false, "note": null },
+        { "n": 7, "phase": "approve", "title": "Higher authority orders the Board to grant the Consent to Operate", "automated": false, "note": null }
+      ],
+      "ed": { "date": "7 October 2026", "location": "Arunachal Pradesh Innovation & Investment Park (APIIP), O.T Building, Niti Vihar, Itanagar", "expert": "Shri Thana Manlong", "designation": "Assistant Environmental Engineer, Arunachal Pradesh State Pollution Control Board (APSPCB)" },
+      "remarks": [
+        "Shri Manlong has 21 years of experience in the department.",
+        "The Board's website has a public grievance redressal facility, though it is not meant for individual applications; no grievance was registered in the last financial year. A grievance would go to the Chairman and is given priority, but there is no fixed timeline.",
+        "One case was held up over the Forest department's NOC because of a nearby sanctuary.",
+        "Applicants who are called in to the office travel at their own time and cost, which the expert saw as part of running a business."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "No online portal exists for CTO in Arunachal Pradesh; not a single online application has been received so far." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "About 90 percent of applicants submit papers in person, though the Board also accepts documents by mail, WhatsApp and post, and someone can submit on the applicant's behalf." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Accepting documents via mail, WhatsApp and post, not just in person, saves some applicants a trip." },
+        { "source": "ed", "category": "delay", "tags": ["CAPACITY", "TIMELINE"], "sentiment": "issue", "text": "Only five officers cover all 28 districts; officer and higher-authority travel or unavailability adds to processing delay." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Officers' court commitments before the High Court, Supreme Court or NGT take priority over CTO files, adding to delays." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "The biggest hold-up, in the expert's view, comes from the applicants' side, since documents are often submitted incomplete." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Every NOC and supporting document must be produced in physical form, which the expert said means the process cannot currently be called paperless." },
+        { "source": "ed", "category": "policy", "tags": ["FEES", "NORMS"], "sentiment": "neutral", "text": "Under the polluter-pays principle, the unit must buy and install its own pollution control equipment — an added cost carried on top of the consent fee." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT", "NORMS"], "sentiment": "issue", "text": "Inspections are triggered by complaints rather than by any risk assessment, even though industries are already classified Red, Orange or Green." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Two people typically conduct each inspection, and travel between locations adds to the time it takes." },
+        { "source": "ed", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "neutral", "text": "A public grievance facility exists on the Board's website but is not meant for individual applications; no grievance was filed in the last financial year." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "The expert suggested a state online portal or mobile app for filing new and renewal applications, agreeing this would be a real convenience for applicants." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "More manpower, both in the field and at the senior level, was recommended to reduce delays caused by such a small team." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "issue", "text": "If an applicant does not respond after being told a document is missing, the file simply stays pending with no other follow-up step described." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Officers call applicants directly to explain exactly what is missing rather than rejecting the file outright." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "A CTO approval does not trigger approvals in other departments; each department looks after its own clearances independently." },
+        { "source": "ed", "category": "remarks", "tags": ["INTERDEP"], "sentiment": "issue", "text": "One case was caught up over the Forest department's NOC because of a nearby wildlife sanctuary." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "Scrutiny, inspection and testing costs are bundled into the consent fee; a flat ₹100 application fee is charged separately." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "E-office is used only for the Board's internal mail and correspondence, not for the CTO application process itself." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "positive", "text": "The Board received 100-plus CTO applications in the last financial year, and all were processed and granted; none were rejected." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Validity period of the Consent to Operate was not discussed in this ED — no duration figure is given." },
+        { "flag": "VAGUE", "text": "Deemed approval is described only as possible 'in principle,' with no specific day threshold and no cited instance of it occurring." },
+        { "flag": "VAGUE", "text": "Inspection counts are given as '40 to 50' last year and 'roughly half the applications,' without a precise total application figure to anchor the ratio." },
+        { "flag": "GOOD_PRACTICE", "text": "Accepting applications via mail, WhatsApp and post, not just in person, reduces travel burden for some applicants." },
+        { "flag": "MISSING", "text": "No specific grievance-resolution timeline is given; described only as having 'no fixed timeline.'" },
+        { "flag": "REFORM", "text": "Expert recommended a dedicated online portal or mobile app for CTO filing, which does not currently exist for this service." }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFile": "AR_ED_FAL.docx",
+      "issuingAuthority": "Department of Industries (Factories & Boilers Cell), Government of Arunachal Pradesh; approval granted by the Chief Inspector of Factories",
+      "portal": { "name": "EODB portal (Planning & Investment Department's Ease of Doing Business portal)", "url": null },
+      "timeline": {
+        "minDays": 10,
+        "maxDays": 12,
+        "basis": "Expert's own estimate for new online applications from submission to decision",
+        "text": "Average processing time is around 10 to 12 days from submission to decision, though site visits to some remote districts (e.g. Anini) can take up to 2 days each way. Files spend the longest time pending after being returned to the applicant for corrections, since there is no automated SMS/email notification and applicants often don't check the portal promptly."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Form 6 (prescribed under the Arunachal Pradesh Factories Rules 2012)",
+        "Factory layout",
+        "Factory site plan",
+        "Detailed Project Report (DPR)",
+        "Pollution control certificate/license (required for most categories of industry)"
+      ],
+      "documentsNote": "A total of 14 documents must be uploaded along with Form 6; only five are individually named in the ED, the rest referred to collectively as 'all 14 required documents.'",
+      "deemedApproval": {
+        "status": "yes",
+        "days": null,
+        "text": "A deemed-approval provision was envisaged when the EODB portal was first introduced, but the expert indicated it has rarely, if ever, actually been triggered, since decisions have generally been issued before any such timeline would apply."
+      },
+      "validity": {
+        "text": "Factory license validity is 3 years, and renewal validity is also 3 years."
+      },
+      "fees": {
+        "text": "Fees are set under the Arunachal Pradesh Factories Rules 2012 (Schedules A, B and C), based on the number of workers employed and the power load installed. The fee is auto-calculated by the portal once these parameters are entered, and only a nominal registration fee is charged, with no additional or undisclosed costs."
+      },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Applicant obtains a Unique Business Identification Number (UBIN) via the Planning & Investment Department's EODB portal", "automated": true, "note": null },
+        { "n": 2, "phase": "apply", "title": "Applicant logs into the portal and selects the Factory License service under the Department of Industries", "automated": true, "note": null },
+        { "n": 3, "phase": "apply", "title": "Applicant fills Form 6 (AP Factories Rules 2012) and uploads all 14 required documents online", "automated": true, "note": null },
+        { "n": 4, "phase": "scrutiny", "title": "Application is received by the Nodal Officer and forwarded to the dealing assistant for scrutiny", "automated": "partial", "note": null },
+        { "n": 5, "phase": "scrutiny", "title": "Dealing assistant flags any missing or invalid document/data directly to the applicant for rectification and resubmission", "automated": false, "note": null },
+        { "n": 6, "phase": "scrutiny", "title": "Once verified complete, file is forwarded to the Branch Officer, who reviews technicalities and recommends a site inspection", "automated": false, "note": null },
+        { "n": 7, "phase": "inspect", "title": "Site/field visit scheduled and carried out to verify the factory unit physically exists and is operational", "automated": false, "note": null },
+        { "n": 8, "phase": "approve", "title": "Inspection findings go to the Chief Inspector of Factories, who approves or rejects based on documents and inspection report", "automated": false, "note": null },
+        { "n": 9, "phase": "fee", "title": "On approval, the file is sent back to the applicant for payment of the nominal statutory fee through the portal", "automated": true, "note": null },
+        { "n": 10, "phase": "approve", "title": "After payment, file returns to the Chief Inspector for final sign-off, and the factory license is delivered to the applicant", "automated": "partial", "note": null }
+      ],
+      "ed": { "date": "6 October 2026", "location": "Arunachal Pradesh Innovation & Investment Park (APIIP), O.T Building, Niti Vihar, Itanagar", "expert": "Shri Kabom Nada", "designation": "DDI cum Deputy Chief Inspector (Factories), Department of Industries, Government of Arunachal Pradesh" },
+      "remarks": [
+        "Renewal of factory licenses remains entirely offline, chiefly due to a shortage of manpower in the Factories & Boilers Cell to bring renewal onto the same online system used for new registrations.",
+        "A single sanctioned factory inspector position exists for the whole state and is currently vacant, being additionally handled by the Deputy Director himself.",
+        "The expert's assessment was that the earlier, fully offline/manual process was in some respects simpler for both applicants and the department than the current online system, largely due to the difficulty of uploading bulky technical drawings and limited digital literacy support in remote areas.",
+        "Additional NOCs sometimes sought from the Forest Department, Panchayat, or district authorities were described as a protective measure to safeguard the unit's own land against future disputes, rather than purely as a regulatory hurdle.",
+        "Since the online system began in 2022, only 12 applications have been received and approved; a further 23 were flagged for missing information and remain undisposed because the applicants never responded."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "New factory registration is entirely online via the EODB portal; there is currently no offline or hybrid route for new applications." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "CAPACITY"], "sentiment": "issue", "text": "Renewal of an existing factory license remains entirely offline, processed via hard-copy/postal submission, due to a shortage of manpower in the Factories & Boilers Cell." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY", "OTHER"], "sentiment": "issue", "text": "Required submissions — factory layout, site plan and DPR — are described as bulky and difficult to compress or upload, particularly for applicants without technical support." },
+        { "source": "ed", "category": "redundant", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "issue", "text": "A pollution control certificate/license is required for most industry categories in addition to the factory license, functioning as a parallel compliance requirement." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Average processing time is about 10-12 days from submission to decision, though site visits to remote districts like Anini can take up to 2 days each way." },
+        { "source": "ed", "category": "delay", "tags": ["QUERY", "PORTAL"], "sentiment": "issue", "text": "Files spend the longest time pending after being sent back to the applicant for corrections, since there is no automated SMS/email notification and applicants often don't check the portal promptly." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "Since the online system began in 2022, only 12 applications have been approved; 23 more were flagged for missing information and remain undisposed because applicants never responded." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "positive", "text": "Fees are auto-calculated by the portal based on number of workers and power load under AP Factories Rules 2012 Schedules A, B and C; only a nominal registration fee is charged with no hidden costs." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "A deemed-approval provision was envisaged when the EODB portal launched, but has rarely if ever been triggered since decisions are usually issued before the timeline would apply." },
+        { "source": "ed", "category": "pain", "tags": ["INSPECT", "CAPACITY"], "sentiment": "issue", "text": "With only a single factory inspector covering the whole state and difficult terrain, a given unit may be physically inspected only once every four to five years absent a complaint." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No formal risk-based classification applies to factory licensing; inspection and process requirements are applied uniformly rather than being risk-differentiated." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "The EODB/single-window portal was described as under-developed relative to portals used by other states, lacking clear staging visibility on which stage an application is at." },
+        { "source": "ed", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "There is no built-in grievance-redressal mechanism within the portal for applicants whose license is delayed or rejected." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL", "OTHER"], "sentiment": "issue", "text": "Occasional technical errors, such as an 'Error 404,' occur during document submission without a clear resolution path communicated to the applicant." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE", "CAPACITY"], "sentiment": "positive", "text": "Despite a heavily manpower-constrained team (effectively two to three persons covering the entire factories and boilers charge), the department has maintained nil rejections and nil departmental backlog." },
+        { "source": "ed", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "The expert recommended automated SMS/email notifications tied to the applicant's registered contact details whenever a file requires action." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "CLARITY"], "sentiment": "suggestion", "text": "Recommended improving portal staging visibility so both applicants and the department can clearly see which stage an application is at and how long it has been there." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Recommended introducing a formal, accessible grievance-redressal mechanism within the EODB portal." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Recommended increasing departmental manpower, particularly additional factory inspector positions, since a single officer currently covers inspection for the entire state." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Recommended simplifying bulky technical submission requirements (layout, site plan, DPR) to be more accessible for applicants without specialised technical support." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No exact deemed-approval day threshold is given — only described as 'rarely if ever' triggered." },
+        { "flag": "VAGUE", "text": "Post-registration inspection frequency is given only as an estimate ('roughly once every four to five years'), not a formal schedule." },
+        { "flag": "GOOD_PRACTICE", "text": "Despite severe staffing constraints, the department reports nil rejections and nil departmental backlog, attributing pending cases to applicant non-response rather than processing delay." },
+        { "flag": "REFORM", "text": "The department has repeatedly raised portal limitations with the Planning & Investment Department during review meetings, though no formal written complaint has been filed to date." },
+        { "flag": "MISSING", "text": "The precise manpower count in the Factories & Boilers Cell is not given beyond 'two to three persons,' and the single factory inspector position is noted as vacant without a fill date." },
+        { "flag": "VAGUE", "text": "Whether renewal applications have any deemed-approval or notification mechanism is not addressed; renewal is described only as 'entirely offline.'" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,899 @@
+{
+  "code": "AS",
+  "name": "Assam",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": ["Assam_FGD_CTE.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "The total consent fee structure for CTE for a capital investment of Rs 10 crore is Rs 1,00,000 for a healthcare unit, which participants called unfavorable." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC", "TIMELINE"], "sentiment": "issue", "text": "The application needs jamabandi, trace/type map, non-encumbrance certificate, revenue clearance certificate, and (for agricultural land) a non-agricultural land certificate from the Circle Officer; getting an up-to-date jamabandi and trace map from the Circle Office was described as a separate exercise of several weeks by itself." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "NORMS"], "sentiment": "issue", "text": "A healthcare unit does not discharge industrial effluent, only bio-medical waste, but is charged on the same basis as industrial effluent." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "TIMELINE"], "sentiment": "issue", "text": "The local authority (e.g. village panchayat) NOC has no fixed time; participants said this is the item most likely to hold up the whole file, with no way for the applicant to push it." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Queries come in installments rather than as one consolidated list of shortfalls; each objection means another visit, another document and another few weeks." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "issue", "text": "The fee is linked to capital investment (including land and building), not pollution load, so a low-emission unit on expensive Guwahati land pays more than a dirtier unit on cheaper land elsewhere in the state." },
+        { "source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "There is no deemed approval for CTE." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "There is no settled practice of issuing one complete shortfall letter within a fixed number of days of receipt — queries are not consolidated." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "issue", "text": "Site inspection is not scheduled transparently: no advance notice to the applicant, no published calendar, and no facility to propose dates." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "There is no pre-application guidance — no counter or facility where a first-time applicant can have the site and category checked before spending on documents and consultants." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The DPR is prepared separately for the bank, for the Industries department and for PCB Assam, in three formats, with the same underlying content." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Documents cleared at CTE stage are examined again at Consent to Operate stage without reference back to the CTE file." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Kamrup (Metro) has a dense concentration of units against limited technical staff at the regional office." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY", "TIMELINE"], "sentiment": "issue", "text": "Query cycles restart the clock — the notified timeline can be met on paper while the applicant waits months in practice." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Show live status on the portal: current desk, days elapsed, days remaining against the notified timeline." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "suggestion", "text": "Auto-fetch land records from the state land records system instead of asking the applicant for a physical jamabandi and trace map." },
+        { "source": "fgd", "category": "remarks", "tags": ["CONSULT"], "sentiment": "neutral", "text": "Engaging a consultant is near-universal and is not seen as optional — a measure of how difficult the process is to navigate directly." }
+      ],
+      "quotes": [],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED describes a single deficiency-query mechanism (20 days to respond, timeline restarts once from the date clarification is received). FGD participants instead describe queries arriving 'in installments' — objections come one after another, each requiring another visit, another document and another few weeks — a materially different experience of the query process than a single consolidated query." },
+        { "flag": "MISSING", "text": "ED's documented fee structure does not address sector-specific treatment for healthcare/biomedical-waste units; FGD participants say they are charged on the same consent-fee basis as industrial effluent dischargers despite discharging bio-medical waste, not industrial effluent." },
+        { "flag": "VAGUE", "text": "ED's timeline breakdown does not give a time limit for the local-authority (panchayat/urban body) NOC sub-step; FGD participants say this item 'has no fixed time' and is the single item most likely to hold up the file, with no way to escalate it." },
+        { "flag": "GOOD_PRACTICE", "text": "No FGD-specific good practice beyond what ED already documents (e.g. OCMMS upload discipline) was independently corroborated by this FGD session." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": ["Assam_FGD_CTO.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY", "FEES"], "sentiment": "issue", "text": "Since March 2025, every CTO application must carry environmental monitoring reports (effluent, stack emission, air quality); units must pay for lab testing and wait for reports before they can even apply." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "Information is spread over more than one place (Sewa Setu/EODB portal, the Board's own consent portal, and the Board website), so owners are not always sure where to apply and what to attach." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The stated time limits are long for Red category units (70 to 120 working days), making it difficult to plan a start or a renewal." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "The monitoring-report condition applies to all categories of industry — a Green unit must meet the same condition as a more polluting unit." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "issue", "text": "CTO fee is fixed on total capital investment, not on how much a unit actually pollutes." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP", "FEES"], "sentiment": "issue", "text": "Under the November 2024 central notifications, some projects are exempt from Consent to Establish if they take an Environmental Clearance, but they still need CTO and the Board still raises the applicable CTE fee." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Application is online with an SMS/email acknowledgement, but the work is split between the Sewa Setu/EODB portal and the Board's own consent portal." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Instructions are not the same everywhere: some older Board pages describe fee payment by demand draft, while the Sewa Setu service page says online payment; participants said they do online payment only." },
+        { "source": "fgd", "category": "procedural", "tags": ["FEES", "COMPLY"], "sentiment": "issue", "text": "The unit has to arrange its own effluent, stack emission and ambient air reports before applying, adding extra cost." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same documents (unit details, pollution control device details) are given again at Consent to Establish, initial CTO, and every renewal." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Monitoring reports are now needed with each CTO application, over and above the pollution-control-system details already given." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Units that needed Environmental Clearance must attach a copy of it again at the first CTO." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Time depends on category: 30 working days for Green, 40 for Orange, and 70 to 120 for Red, with the longest time for Red projects under the EIA guideline." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "The application is complete only after monitoring reports are attached, so time is lost first in arranging lab testing." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT"], "sentiment": "issue", "text": "A physical visit is often needed to hasten the process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "CLARITY"], "sentiment": "suggestion", "text": "One portal and one checklist for CTO, listed category-wise (Green/Orange/Red), with the Board website and Sewa Setu showing the same instructions." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS", "COMPLY"], "sentiment": "suggestion", "text": "For Green and Orange units, keep monitoring reports simple and ask for them at fixed intervals instead of with every application." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Show application status and remaining days online, with SMS alerts at each stage." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive", "text": "Moving the process online is seen as a good step, but since it is still under development, and lack of awareness among users, delay still occurs." }
+      ],
+      "quotes": [
+        { "speaker": "Tirap Talukdar (Participant)", "quote": "They have introduced CCA (consolidated consent and authorisation) that comprises of all certificates covering waste (solid, municipal, biomedical) approval. But this has not been communicated to users. Not even on the portal. So it creates big confusion.", "topic": "Uncommunicated consolidated-consent scheme", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "ED's CTO record does not mention a 'CCA' (Consolidated Consent and Authorisation) scheme covering solid/municipal/biomedical waste certificates; an FGD participant describes this as newly introduced but not communicated to users or shown on the portal." },
+        { "flag": "INCONSISTENT", "text": "ED describes the CTO process as online for submission, payment, tracking and download. FGD participants report that some of the Board's own older pages still describe fee payment by demand draft, while Sewa Setu's service page says online payment only — an inconsistency in the official information itself that the ED record does not flag for CTO (though it is flagged for FNO)." },
+        { "flag": "MISSING", "text": "Neither the ED record nor this FGD session's timeline fully explains the November 2024 central-notification exemption from CTE for projects holding an Environmental Clearance, or why the Board reportedly still raises the CTE fee component for such projects when they apply for CTO." },
+        { "flag": "VAGUE", "text": "ED's documents list for CTO does not state an effective date for the environmental-monitoring-report requirement; FGD participants date this requirement to March 2025 and describe it as applying uniformly across all pollution categories, which is not elaborated in the ED record." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": ["Assam_FGD_FNO.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The seven-day promise does not match what happens: the clock starts only after a satisfactory inspection report, and the wait for the inspection itself ran from one to four months in cases participants described, with nothing in the published standard covering that period." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY", "RENEWAL"], "sentiment": "issue", "text": "Nobody can tell the applicant how long the NOC stays valid; participants held certificates described variously as valid for one year, two years, or with no expiry written on them at all, and most learned the NOC had lapsed only when a GMC or factory inspector asked for it." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Files come back because the wrong form was used; the NOC is issued on separate forms by activity, and participants said they were told only weeks after submission that a different form applied, losing a month each time." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "One office at Panbazar handles the whole state; participants travel to Guwahati headquarters repeatedly even for a routine query, with no counter in the industrial belt." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Rule 18(2) of the Assam Fire Service Rules, 1989 fixes seven working days from a satisfactory inspection report, but fixes no time limit for carrying out the inspection itself — the longest, least certain stage sits outside any service standard." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY", "RENEWAL"], "sentiment": "issue", "text": "The validity period of the NOC is not prescribed in the rules or on the service page, even though a renewal form (Form XII) and a fourteen-day renewal timeline exist." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Choosing the right form is left entirely to the applicant, with no guidance note and no scrutiny at the counter; the error surfaces only after the file has sat for weeks." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Offline submission is the real route: the service is listed on Sewa Setu, but industrial applications do not run through to inspection online, so the paper file remains operative with no reliable tracking number." },
+        { "source": "fgd", "category": "procedural", "tags": ["NORMS"], "sentiment": "issue", "text": "Inspection observations differ from officer to officer on the same kind of premises (hydrant pressure, staircase width, extinguisher placement) — what one officer accepts, the next does not." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Shortfalls are communicated verbally at the site with no standard written deficiency memo, so the unit does not know precisely what to rectify and no re-inspection date is given." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "The GMC-approved building plan, ownership/lease papers and identity proof are filed again with the fire application although GMC already holds the identical set." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same drawings go in twice — once for the provisional NOC at plan stage, and again for the final NOC after construction." },
+        { "source": "fgd", "category": "redundant", "tags": ["COMPLY"], "sentiment": "issue", "text": "Any change of trade, partner or internal layout voids the existing NOC under its own printed conditions and requires a fresh application with new drawings, however minor the change." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT", "CAPACITY"], "sentiment": "issue", "text": "The inspection is the bottleneck: one office covers the whole state and visits are scheduled by officer availability, so the date depends on how hard the applicant follows up rather than when he applied." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT", "TIMELINE"], "sentiment": "issue", "text": "Re-inspection restarts the clock, since the seven working days run from a satisfactory report — every round of observations resets the timeline to the beginning." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Fix a time limit in the Rules for the inspection itself (e.g. within fifteen days of a complete application) so the published standard covers the whole process, not only the last step." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Publish a form-selection guide and a threshold table (building height, floor area, Class A/B/C industrial definitions) and make scrutiny of the form compulsory at the counter before the file is accepted." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "issue", "text": "The NOC itself is free of cost, so the burden is time and consultancy rather than fee; participants reported paying roughly Rs 50,000 to Rs 2 lakh to consultants for an industrial fire NOC." },
+        { "source": "fgd", "category": "remarks", "tags": ["INTERDEP"], "sentiment": "issue", "text": "The clearance blocks others: without the fire NOC, the GMC occupancy certificate and the factory licence do not move, so a delay here compounds across departments." }
+      ],
+      "quotes": [
+        { "speaker": "Nalin Jain (Participant)", "quote": "Seven days, they say. Seven days after the inspection. The inspection took three months.", "topic": "Inspection wait vs stated 7-day timeline", "tags": ["TIMELINE"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED states the hazard-based validity date is 'printed as a valid-up-to date on the certificate'; FGD participants report holding certificates 'with no expiry written on them at all,' directly contradicting the ED's description that every certificate carries a printed validity date." },
+        { "flag": "INCONSISTENT", "text": "ED states a fee was introduced on the EoDB portal in 2024 for the Fire Safety Recommendation, NOC, temporary structures and Fire Attendance Certificate. FGD participants describe 'the NOC itself is free of cost,' with the only cost being consultancy and equipment — a direct contradiction on whether a statutory NOC fee currently applies (though ED's own remarks separately flag this cross-platform inconsistency)." },
+        { "flag": "VAGUE", "text": "ED's timeline text acknowledges cases 'of nearly 2 months' for the compliance-report-to-NOC stage; FGD participants describe the earlier inspection-wait stage alone (after the initial application, before any recommendation) commonly running one to four months — a longer, more specific range than the ED record states, suggesting real experienced delay may be understated." },
+        { "flag": "MISSING", "text": "ED does not quantify the real cost burden to applicants; FGD gives a concrete anecdotal range of roughly Rs 50,000 to Rs 2 lakh in consultant and equipment costs for an industrial fire NOC, which is useful data the ED record lacks." }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFiles": ["Assam_FGD_LEM.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "A weighbridge or fixed platform scale in a factory cannot be moved, so an officer has to come to the site; the site visit is hard to get scheduled and no visit date is given in advance." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "CAPACITY"], "sentiment": "issue", "text": "For verification of a weighbridge, the unit has to arrange standard test weights and the vehicle to carry them; this arrangement, plus production stoppage during testing, costs more than the departmental fee, after which the weighbridge is left idle." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Several participants said that due to lack of awareness, they learned about registration as a packer of pre-packed commodities only when an officer visited, not at the time they started packing." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Inspections have no fixed time limit and are carried out on a regular, and sometimes surprise, basis." },
+        { "source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "There is no deemed approval provision for verification or for licence renewal, so a unit with a lapsed stamp has no legal cover until the process is completed." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL", "FEES"], "sentiment": "issue", "text": "A licence can be issued or renewed for one to five years, but participants said they generally renew every year, so the paperwork and the visit repeat annually." },
+        { "source": "fgd", "category": "policy", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Labelling requirements under the Packaged Commodities Rules overlap with FSSAI labelling — the same label gets examined by two different authorities against two different checklists." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Sewa Setu lists the service but redirects the applicant to the Assam EODB portal, which needs a separate registration and login, causing confusion about where to check status." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "The date of the verification visit is not communicated on the portal or by SMS/email, so the unit has to keep someone free and follow up by phone." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "There is no single point of contact for an application, and participants get different answers on status from different people at the office." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Trade licence, PAN and GST details are asked for again at every renewal, even though the department already holds them from the original licence." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The model approval certificate issued by the Government of India is asked for repeatedly, although it is a central document that does not change for the same model." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same firm and premises details are submitted separately for the dealer licence and for the packer registration, as two unconnected applications." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "The number of Legal Metrology officers covering Kamrup Metro is limited, and the load peaks in the renewal months." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Files move between the district office and the Controller's office, which adds time the applicant cannot see." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Send the scheduled verification visit date to the applicant by SMS within a few working days of the application, the same way the acknowledgement is sent." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Allow one consolidated application covering all instruments at one premises, so a single site visit clears everything instead of separate visits on separate dates." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Link the Sewa Setu and EODB logins so the applicant registers once and can track status in one place." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Actively offer the multi-year licence option of up to five years at renewal, so units are not repeating the same paperwork every year." }
+      ],
+      "quotes": [],
+      "gaps": [
+        { "flag": "MISSING", "text": "ED's LEM record does not discuss overlap between Legal Metrology labelling requirements under the Packaged Commodities Rules and FSSAI labelling checks; FGD participants raise this as a distinct duplicative-compliance burden not covered in the ED interview." },
+        { "flag": "INCONSISTENT", "text": "ED's process description (step 2) treats metrology.eodbassam.in and Sewa Setu as interchangeable access points. FGD participants instead describe Sewa Setu as redirecting them to a separate Assam EODB portal requiring its own registration and login, which they say causes real confusion — a more friction-laden picture than ED's process description suggests." },
+        { "flag": "REFORM", "text": "FGD participants suggest a single consolidated application covering all instruments at one premises with one site visit — an additional reform idea not among the ED's suggested reforms (which covered slot booking, third-party verification, longer re-verification cycles, and a composite multi-year fee)." },
+        { "flag": "VAGUE", "text": "Neither ED nor this FGD session gives a specific figure for how many Legal Metrology officers actually serve Kamrup Metro; FGD independently corroborates ED's capacity-constraint finding but adds no further quantification." }
+      ]
+    },
+    {
+      "serviceCode": "ELD",
+      "serviceName": "Electrical Drawings",
+      "sourceFiles": ["Assam_FGD_ELD.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Applicants apply online on the Sewa Setu portal, but still have to go to the Inspectorate office at Dispur again and again to follow up — online does not save the visit." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Applicants do not get proper status updates and cannot tell whether the file is with the Inspector, waiting for a reply, or simply pending." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "TIMELINE"], "sentiment": "issue", "text": "Objections come one by one rather than all at once: the drawing is corrected and resubmitted, then a new objection comes, and each round adds more days of delay." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Approval is needed for installations above 650 volts, and the process is the same for a small unit and a big plant — a small MSME with a modest load faces the same paperwork as a large factory." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY", "TIMELINE"], "sentiment": "issue", "text": "The service is nominally under the Assam Right to Public Services Act, but in practice nobody tells applicants the date by which they will get the approval." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "There is no simple checklist or sample drawing format; different officials ask for different corrections, so the drawing cannot be prepared correctly the first time." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Even after online application, printed copies and signed letters are often asked for at the office." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "There is no tracking of the file after submission, and no clear person to contact if it is stuck." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The building permission or approved plan from the local authority is asked for again at the drawing stage, even though the factory already has it from earlier approvals." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "The same electrical layout and load details are submitted separately to APDCL for the power connection and to the Inspectorate for approval." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "If load is added or the machine layout changed later, a fresh set of documents is asked for again." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "The Inspectorate has few officers for the whole state, with several posts reported vacant; one officer covers many files and inspections." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Files move manually, and the Inspectorate and APDCL do not share information with each other, so applicants run between the two offices." },
+        { "source": "fgd", "category": "delay", "tags": ["CONSULT"], "sentiment": "issue", "text": "Because of the repeat visits, many units hire a consultant or contractor to follow the file, adding cost." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP", "PORTAL"], "sentiment": "suggestion", "text": "Electrical drawing approval, APDCL connection and local authority permissions should be on one window, with one application and one set of documents." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE", "PORTAL"], "sentiment": "suggestion", "text": "Show a fixed number of days on the portal with SMS/email at each stage, and give a sample drawing format and checklist." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY", "NORMS"], "sentiment": "suggestion", "text": "Give all objections together in one go, not in rounds; simplify the process for small and low-risk loads." },
+        { "source": "fgd", "category": "remarks", "tags": ["INTERDEP"], "sentiment": "issue", "text": "For a new unit, the power connection and production cannot start until the drawing is approved — delay means machines lying idle while loan instalments and rent continue." },
+        { "source": "fgd", "category": "remarks", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Going to Dispur from industrial areas in and around Guwahati costs a working day each time, plus transport cost." }
+      ],
+      "quotes": [
+        { "speaker": "Prasant Salkia (Participant)", "quote": "We submitted the building approval again for the drawing, though we had already given it earlier. Also, nobody tells us how many days it will take. We cannot plan our machine installation.", "topic": "Duplicate documents and unknown timeline", "tags": ["DUPDOC", "TIMELINE"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official ED record exists for Electrical Drawings approval in Assam to cross-check this FGD-only record against; no notified processing-day figure is given by participants despite the service being nominally covered by the Assam Right to Public Services Act." },
+        { "flag": "VAGUE", "text": "No specific fee figure is given by participants for this service; only indirect consultant/contractor costs from repeat visits are mentioned without being quantified." },
+        { "flag": "MISSING", "text": "No specific number of vacant Inspectorate posts or officer-to-file ratio is given; participants only describe the shortage qualitatively." }
+      ],
+      "issuingAuthority": "Electrical Inspectorate, Government of Assam (Inspectorate office at Dispur) — approval for electrical installations above 650 volts",
+      "portal": { "name": "Sewa Setu portal for online application", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "Participants state the service is nominally covered by the Assam Right to Public Services Act, but say in practice nobody communicates the notified number of days.", "text": "No specific timeline figure is known to participants; the service is nominally under ARTPS Act timelines, but no date by which approval is due is communicated to applicants." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Building permission/approved plan from the local authority (already held by the factory from earlier approvals, but asked again)",
+        "Electrical layout and load details (also submitted separately to APDCL for the power connection)",
+        "Printed copies and signed letters (sometimes requested even after online application)",
+        "Fresh document set required for any later change in load or machine layout"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants; no mention of a deemed-approval mechanism one way or the other." },
+      "validity": { "text": "Not stated by participants in this document." },
+      "fees": { "text": "Not quantified by participants; indirect costs include consultant/contractor charges to follow up on files due to repeat visits (amount not given)." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply online via Sewa Setu portal for electrical drawing approval (installations above 650 volts)", "automated": true, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Submit drawing/documents; sometimes also required to bring printed copies and signed letters to the Inspectorate office at Dispur", "automated": "partial", "note": "" },
+        { "n": 3, "phase": "scrutiny", "title": "Inspectorate reviews drawing; objections raised one by one rather than consolidated, each round adding delay", "automated": false, "note": "" },
+        { "n": 4, "phase": "scrutiny", "title": "Same electrical layout/load details separately submitted to APDCL for power connection; Inspectorate and APDCL do not share information", "automated": false, "note": "" },
+        { "n": 5, "phase": "approve", "title": "Approval issued by Inspectorate; power connection and production cannot start until the drawing is approved", "automated": "partial", "note": "" }
+      ],
+      "remarks": [
+        "FGD-only record, not yet verified against an official ED.",
+        "The transcript does not give a notified timeline figure for this service, which the gaps above flag as a MISSING data point.",
+        "The Inspectorate (Power Department, lift/electrical matters) and APDCL do not share information, forcing applicants to run between two offices for what is functionally one underlying load/layout dataset."
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFiles": ["Assam_FGD_FAL.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL", "FEES"], "sentiment": "issue", "text": "Renewal falls due every single year, with the full fee again and thirty days of processing, for a factory where nothing has changed; participants said the licence year now governs their calendar more than production does." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The dates do not work together: the department says apply at least fifteen days before the factory is taken into use, but allows itself thirty days to process the application — participants said it is simply not possible to comply with both, so a unit either starts late or starts unlicensed." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "The penalty runs only one way: 25% extra is charged if renewal is not applied for thirty days before expiry, but nothing follows if the department itself takes longer than thirty days to issue." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "COMPLY"], "sentiment": "issue", "text": "Fees still go through a treasury challan under a particular head of account, with the original receipt to be produced, even though online payment through eGRAS exists; a wrong head or a photocopy sends the file back." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Two timelines apply and neither fits the third rule: the Citizen's Charter allows thirty days for registration and licensing, the Assam Factories (Amendment) Rules, 2017 prescribe forty-five, and neither is reconciled with the requirement to apply only fifteen days before the premises are used." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Assam provides auto-renewal for the Shops and Establishment licence and for contract labour licences, but not for the factory licence, although the factory has already been inspected and holds an approved plan and an accepted stability certificate." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "COMPLY"], "sentiment": "issue", "text": "An amendment of the licence is required merely to increase the number of workers or the installed horsepower — ordinary growth, such as taking on extra hands for a season, is treated as a regulatory event needing prior permission." },
+        { "source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "A duplicate licence requires an FIR receipted by the local police station — losing a paper certificate is treated as a police matter rather than an administrative one." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The file depends on documents the same office issued earlier (plan approval letter, accepted stability certificate), but these are not drawn from the department's own record and have to be filed again by the applicant." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Scrutiny is not consolidated: objections on the occupier nomination, the board resolution and the fee schedule came one after another rather than together." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Partnership deed, articles of association, memorandum, list of directors and the board resolution nominating the occupier are filed at plan approval and filed again at registration and licensing a few weeks later." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "The same set goes in afresh at every transfer, every amendment and, for most units, at every annual renewal, even where none of it has changed." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Trade licence, land documents and identity proof already held by GMC are filed again here, and again with the fire and pollution authorities." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Annual renewals for every registered factory in the state are processed through one head office, producing a predictable backlog in the renewal months." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Vacant inspector posts shown in the department's own charter mean a file waits for an officer to be available rather than for a decision to be taken." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "The licence cannot issue until the stability certificate has been accepted and the plan approval is on record, so a gap in either stops the licence file entirely." },
+        { "source": "fgd", "category": "delay", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Participants said informal payments are expected at renewal, when a unit has no choice but to get the licence before expiry; four of six described the renewal month as the point of greatest exposure." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Extend the licence term to three or five years with an annual self-declaration and risk-based inspection, removing most paperwork volume without reducing oversight." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Introduce auto-renewal for the factory licence on the same basis Assam already uses for Shops and Establishment and contract labour licences, on a declaration that premises, plan and machinery are unchanged." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "issue", "text": "The real cost is time: participants reported two to six weeks of staff effort every year on renewal alone, besides consultant charges of roughly Rs 20,000 to Rs 60,000." }
+      ],
+      "quotes": [
+        { "speaker": "Arnab Bipari (Participant)", "quote": "Every year the same papers, the same fee, for the same factory. Nothing has changed in the building since 2019.", "topic": "Unchanged annual renewal burden", "tags": ["RENEWAL", "DUPDOC"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official ED record exists for Factory Licence in Assam to cross-check this FGD-only record against; no single reconciled timeline figure is available, only the three conflicting figures (15-day pre-use window, 30-day Citizen's Charter, 45-day Rules) participants describe." },
+        { "flag": "VAGUE", "text": "Specific rupee figures for the annual licence fee by worker-count/horsepower slab are not given; participants describe the fee only as 'modest' but recurring and rising with expansion." },
+        { "flag": "MISSING", "text": "No figure is given for how many inspector posts are vacant, only that the department's own citizen's charter shows vacancies." }
+      ],
+      "issuingAuthority": "Office of the Chief Inspector of Factories, Assam (department handling factory licensing and renewal; file moves through a single head office for the state)",
+      "portal": { "name": "Online application process referenced, with fees payable via treasury challan or online through eGRAS", "url": null },
+      "timeline": { "minDays": 15, "maxDays": 45, "basis": "Participants cite three figures: apply at least 15 days before the premises are taken into use; the Citizen's Charter allows 30 days for registration/licensing; the Assam Factories (Amendment) Rules, 2017 prescribe 45 days — the FGD notes none of the three is reconciled with the others.", "text": "Three different timelines apply without reconciliation: a 15-day pre-use application window, a 30-day Citizen's Charter standard, and a 45-day statutory Rules standard; participants say it is not possible to comply with all three, so a unit either starts late or starts unlicensed." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Plan approval letter and accepted stability certificate issued earlier by the same department (not auto-pulled from the department's own record; must be filed again)",
+        "Partnership deed, articles of association, memorandum, list of directors and board resolution nominating the occupier",
+        "Trade licence, land documents and identity proof (already held by GMC)",
+        "Treasury challan for the licence fee under a particular head of account, with original receipt (or proof of online payment through eGRAS)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED; participants describe document requirements narratively rather than as a formal checklist.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not explicitly discussed; participants only describe a one-sided penalty structure (25% surcharge on the applicant for late renewal) with no corresponding consequence for departmental delay, implying no deemed-approval protection exists for the applicant." },
+      "validity": { "text": "Licence is annual, renewed every year with no risk-based differentiation; renewal must be applied for at least 30 days before expiry, with a 25% penalty for late application." },
+      "fees": { "text": "Fee recalculated each year based on number of workers and installed horsepower; described by participants as 'modest' individually but recurring annually and rising with expansion; no specific rupee figures given. A separate amendment fee is implied for mid-year changes to worker count/horsepower (not quantified)." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Factory obtains plan approval and stability certificate acceptance from the same department (precondition)", "automated": false, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Apply for registration/licensing at least 15 days before taking the factory into use, submitting constitution documents (partnership deed/MOA/board resolution nominating occupier) afresh", "automated": false, "note": "" },
+        { "n": 3, "phase": "fee", "title": "Deposit licence fee via treasury challan under specified head of account (or online via eGRAS), with original receipt required", "automated": "partial", "note": "" },
+        { "n": 4, "phase": "scrutiny", "title": "Department scrutinises file; objections on occupier nomination, board resolution and fee schedule raised one after another rather than together", "automated": false, "note": "" },
+        { "n": 5, "phase": "approve", "title": "Licence issued/renewed by department head office for the state, subject to vacant inspector posts and renewal-season backlog", "automated": false, "note": "" },
+        { "n": 6, "phase": "renew", "title": "Annual renewal required even with no change; duplicate licence (if lost) requires a police FIR", "automated": false, "note": "" }
+      ],
+      "remarks": [
+        "FGD-only record; findings reflect business participant testimony about Factory Licence experience in the Guwahati industrial belt and have not been cross-checked against an official ED interview for this service in Assam."
+      ]
+    },
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFiles": ["Assam_FGD_BPA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "CLARITY"], "sentiment": "issue", "text": "Two offices approve one building: GMDA issues the planning permit and GMC then issues the building permit. Participants did not know the planning permit was not the final permission; two had begun work on it and received notices." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC", "PORTAL"], "sentiment": "issue", "text": "The process is called online but still runs on paper: after online approval the applicant hands in four hard copies of the plans to GMDA, and three further sets travel from GMDA to GMC; every revision means reprinting all seven sets." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "GRIEVANCE"], "sentiment": "issue", "text": "Nobody informs the applicant of anything: the bye-laws put the burden on the applicant to visit the counter within thirty days of submission to find out what is happening, with no call, letter or message when an objection is raised." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE", "CLARITY"], "sentiment": "issue", "text": "Timelines quoted differ wildly: the GMC page says the whole procedure usually takes forty-five days, officials have quoted thirty, and consultants advertise ten to fifteen, while participants reported three to nine months for an industrial or commercial building." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY", "NORMS"], "sentiment": "issue", "text": "The master plan against which GMDA checks land use ran only to 2025 and has expired, with a revised plan still being prepared; zoning answers now turn on individual interpretation rather than a current notified plan." },
+        { "source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Permission lapses and is deemed cancelled if construction does not begin within the validity period, but no corresponding time limit binds the authority to decide — the entire time risk rests on the applicant." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY", "DUPDOC"], "sentiment": "issue", "text": "Nineteen separate documents are needed across the planning and building permit checklist, and neither authority publishes a single consolidated list, so the requirement is learnt in instalments." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "The file passes from the Town Planner to the CEO at GMDA, then to the Associate Planner and the Commissioner at GMC; participants could see the file had moved but never what was holding it." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY", "CLARITY"], "sentiment": "issue", "text": "GMC attributes most delay to incorrect or faulty documents filed by the architect, while applicants say the requirement was never stated at the outset; there is no pre-scrutiny at the counter when the file is accepted." },
+        { "source": "fgd", "category": "procedural", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Backlogs are cleared through special camps rather than routine processing; a GMC camp ran up to 31 December to clear pending building permissions and occupancy certificates, taken by participants as proof the normal channel does not work." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same drawings and land documents go to GMDA and are then sent again to GMC — seven hard-copy sets in all, besides the online upload." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Land documents are examined separately by GMDA for the planning permit, by the Deputy Commissioner for land sale permission, and once more by GMC at the building permit stage." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "For industrial buildings, the same drawings and land papers go again to the Chief Inspector of Factories for factory plan approval and to the Fire Service for the NOC, each in multiple copies." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE", "INTERDEP"], "sentiment": "issue", "text": "Approval is sequential, not parallel: the GMC clock starts only when GMDA forwards the file, so any delay at the first stage pushes the second back with no overall limit." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "Objections are raised one at a time and only on a visit, so each round of correction costs a fortnight or more before the next objection surfaces." },
+        { "source": "fgd", "category": "delay", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Participants said informal payments are expected at the scrutiny stage in both offices; four of the six described this as routine for commercial and industrial files." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP", "TIMELINE"], "sentiment": "suggestion", "text": "Make it one application and one decision: GMDA and GMC should scrutinise the same drawings in parallel through a single window, with one permission and one overall statutory time limit." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Notify the revised master plan and publish one consolidated version of the bye-laws, withdrawing the superseded 2006 and 2014 texts." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY", "PORTAL"], "sentiment": "suggestion", "text": "Issue every objection in writing as a single consolidated list, with a reply date for the applicant and a decision date for the authority; complete the digital process, accept digitally signed drawings and end the seven-hard-copy requirement." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "GMC collected only about Rs 2.5-3 crore against a target of Rs 16 crore from building permissions in 2024-25, read by participants less as a collection failure than as a sign of how many buildings go up without permission because the process is unworkable." },
+        { "source": "fgd", "category": "remarks", "tags": ["INTERDEP"], "sentiment": "issue", "text": "This approval is the gateway clearance: factory plan approval, the fire NOC, the water connection and the occupancy certificate all depend on it, so delay here holds up every other approval in the chain." }
+      ],
+      "quotes": [
+        { "speaker": "Ajay Gurung (Participant)", "quote": "I had the planning permit in hand. I thought that was the permission. The notice came after the plinth was done.", "topic": "Confusion between planning permit and building permit", "tags": ["CLARITY", "INTERDEP"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No single reliable notified timeline figure exists in this FGD-only record: GMC's own page states 45 days, officials quote 30, consultants advertise 10-15, and actual experience reported by participants is 3-9 months. No official ED exists for this service/state pair to reconcile these." },
+        { "flag": "VAGUE", "text": "The FGD references a 19-document checklist across GMDA and GMC but the transcript does not itemize all 19 documents individually." },
+        { "flag": "MISSING", "text": "No specific validity period (in days/months/years) for the building permission is stated by participants, only that it 'lapses and is deemed cancelled' if construction does not begin within an unspecified validity window." }
+      ],
+      "issuingAuthority": "Guwahati Metropolitan Development Authority (GMDA) for the planning permit, and Guwahati Municipal Corporation (GMC) for the building permit — two separate sequential approvals for the same building",
+      "portal": { "name": "Described by participants as nominally online, but the operative process is hard-copy submission of plan sets (four to GMDA, three onward to GMC); no specific portal name is given in this transcript", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "Participants cite conflicting official and informal figures: GMC's own service page states 45 days, officials have quoted 30 days, and consultants advertise 10-15 days, while actual experience reported is 3 to 9 months for an industrial or commercial building.", "text": "No single reliable timeline figure exists. The GMC page says 45 days, officials say 30, consultants advertise 10-15 days — and participants report the real experience is 3 to 9 months for an industrial or commercial building, with approval running sequentially (GMC's clock starts only once GMDA forwards the file) and no overall statutory limit covering both stages." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "A checklist of 19 separate documents is referenced across the GMDA planning-permit and GMC building-permit stages, but neither authority publishes a single consolidated list and this transcript does not itemize all 19",
+        "Architectural drawings/plans — seven hard-copy sets in total (four to GMDA, three onward to GMC), beyond the online upload",
+        "Land documents — examined separately by GMDA (planning permit), the Deputy Commissioner (land sale permission) and GMC (building permit stage)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. The transcript references a 19-document checklist but does not itemize each document individually.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Permission lapses and is deemed cancelled if construction does not begin within the validity period, but no corresponding time limit binds the authority to decide — participants said the entire time risk rests on the applicant, implying no deemed-grant mechanism protects the applicant against official delay." },
+      "validity": { "text": "Permission lapses and is deemed cancelled if construction does not begin within the validity period; the specific validity duration (in days/months/years) is not stated by participants in this document." },
+      "fees": { "text": "No definite statutory fee figure is given in this document. Participants reported paying roughly Rs 1 lakh to Rs 4 lakh in architect and liaison charges for an industrial or commercial building, over and above unspecified statutory fees, while carrying land and interest cost through the waiting period." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Prepare drawings and documents against the roughly 19-item checklist spanning GMDA (planning permit) and GMC (building permit) requirements", "automated": false, "note": "No single consolidated published checklist exists; requirements are learnt in instalments." },
+        { "n": 2, "phase": "apply", "title": "Apply online for the planning permit at GMDA, then submit four hard-copy sets of plans", "automated": "partial", "note": "Process is 'called online but still runs on paper.'" },
+        { "n": 3, "phase": "scrutiny", "title": "File moves from Town Planner to CEO at GMDA; applicant must visit the counter within 30 days of submission to learn status (burden placed on applicant by the bye-laws)", "automated": false, "note": "" },
+        { "n": 4, "phase": "apply", "title": "Three further hard-copy sets travel from GMDA to GMC; GMC's clock starts only once GMDA forwards the file (sequential, not parallel, processing)", "automated": false, "note": "" },
+        { "n": 5, "phase": "scrutiny", "title": "File moves from Associate Planner to Commissioner at GMC; objections raised one at a time at a visit rather than as a consolidated list, each revision requiring all seven hard-copy sets to be reprinted", "automated": false, "note": "" },
+        { "n": 6, "phase": "approve", "title": "Building permit issued by GMC", "automated": "partial", "note": "" }
+      ],
+      "remarks": [
+        "FGD-only record; not yet verified against an official ED interview for Building Plan Approval in Assam.",
+        "This approval is described by participants as the gateway clearance on which factory plan approval, the fire NOC, the water connection and the occupancy certificate all depend."
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFiles": ["Assam_FGD_FBPA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "issue", "text": "The same building plan must be approved twice, once by the Chief Inspector of Factories and once by GMC; each office asks for a reference or NOC from the other, and participants described months of going back and forth between the two." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "One office at Betkuchi approves plans for the entire state, and several inspector posts shown in the department's own charter are lying vacant; participants said their file was waiting for an officer to be available rather than for a decision." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP", "CLARITY"], "sentiment": "issue", "text": "Rule 3A requires simultaneous application to the Chief Inspector and to GMC/local body for the same building; two authorities approve the same drawings under different standards and neither is bound by the other's decision." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "The plan application needs an NOC from the local authority while that authority's own plan approval runs in parallel; the order in which the two are to be taken is not settled anywhere, so the applicant is told after the fact that he chose wrongly." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "No deviation of any kind from approved plans is allowed without fresh written permission — ordinary changes during construction (shifting a machine, moving a partition, adding a panel) require going back to the Chief Inspector." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY", "CLARITY"], "sentiment": "issue", "text": "No acknowledgement carrying a file number is given at the counter; follow-up is by telephone to a named officer or by travelling to the office, and the numbers listed on the department's charter no longer correspond to the person holding the post." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Objections on the drawings come one at a time instead of as a single list — participants were asked first about aisle width, then on the next visit about ventilation, then about the electrical panel position." },
+        { "source": "fgd", "category": "procedural", "tags": ["FEES"], "sentiment": "issue", "text": "Fees for the connected licence must be deposited by treasury challan under a specific head of account with the original receipt produced; a wrong head or missing original sends the file back." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same drawings, land documents and ownership/lease deed go separately to GMC and to the Chief Inspector of Factories, in multiple hard copies to each." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Form No. 1 with the complete site plan and machinery layout must be filed again merely for a change in the name and style of the factory, even when nothing physical has changed." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Hazardous units file fifteen sets of documents to the Site Appraisal Committee and then substantially the same material again with the plan application." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "The land NOC, the fire NOC and the GMC approval all have to be in hand, and the factory file simply stops whenever any one of them is pending." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Vacant inspector and certifying surgeon posts shown in the department's own charter, combined with a single point of approval for the whole state, drive delay." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "For hazardous units, the Site Appraisal Committee sits irregularly, so the thirty days allowed effectively runs from the date it meets rather than from the date the file was received." },
+        { "source": "fgd", "category": "delay", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Participants said informal payments are expected to get drawings scrutinised and the file put up for signature; three of six said this decides whether a file takes two months or six." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Reconcile the three timelines through a single notification and state one enforceable period for plan approval, counted from a complete application." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Move Form No. 1 and the drawings online with a tracked application number and digital submission of plans." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Integrate factory plan approval with GMC building permission through the state single window, so one set of drawings and land documents serves both, and fix the NOC sequence in the rules." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "issue", "text": "There is no definite fee for plan approval itself, so the entire cost is time, drawings and consultancy — participants reported Rs 60,000 to Rs 2.5 lakh on architects/consultants and six months to a year of lost production." }
+      ],
+      "quotes": [
+        { "speaker": "Bhulesh Naharia (Participant)", "quote": "Seven days is written in the charter. My plan took five months. Nobody can explain the difference.", "topic": "Charter timeline vs actual experience", "tags": ["TIMELINE", "CLARITY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "A participant quote states the department's own charter figure is 'seven days,' while the Pain Points section separately references the broader Citizen's Charter/Rules figures discussed for the related Factory Licence service (30/45 days); the FGD transcript itself does not reconcile which charter figure governs plan approval specifically, beyond the single quoted case of five months." },
+        { "flag": "MISSING", "text": "No official ED record exists for Factory Building Plan Approval in Assam to cross-check this FGD-only record against." },
+        { "flag": "VAGUE", "text": "No specific fee figure for the plan-approval step itself is given; only the downstream treasury-challan fee for the 'connected licence' is mentioned, without naming which licence or the amount." }
+      ],
+      "issuingAuthority": "Chief Inspector of Factories, Assam (state-wide plan-approval office at Betkuchi), with simultaneous, separately-standards approval required from GMC or the local body under Rule 3A",
+      "portal": { "name": "Form No. 1 and drawings are described as filed on paper at the Betkuchi office; no online portal is named by participants for this specific service", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "A participant quote cites a departmental charter figure of seven days against an actual case of five months; for hazardous units, a 30-day period is described as running from whenever the Site Appraisal Committee next meets (which sits irregularly), not from file receipt.", "text": "The department's own citizen's charter is quoted as stating seven days, but a participant reported a case taking five months. For hazardous units, the 30-day period allowed for Site Appraisal Committee review effectively runs from whenever the Committee next meets, which participants describe as irregular." },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Drawings, land documents and ownership/lease deed — filed separately and in multiple hard copies to both GMC and the Chief Inspector of Factories",
+        "Form No. 1 with complete site plan and machinery layout",
+        "NOC from the local authority (GMC or local body) as a supporting document for the plan application",
+        "Partnership deed, articles of association, list of directors (also filed again later at registration/licensing)",
+        "For hazardous units: fifteen sets of documents to the Site Appraisal Committee"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Not described as having any deemed-approval mechanism; participants describe only a vacant-post-driven wait with no automatic relief if the department is slow." },
+      "validity": { "text": "Not stated by participants in this document. No deviation from the approved plan is allowed without fresh written permission, and Form No. 1 must be refiled for even a name/style change with no physical change." },
+      "fees": { "text": "Participants say there is no definite fee for plan approval itself, so the cost is entirely time, drawings and consultancy — roughly Rs 60,000 to Rs 2.5 lakh on architects/consultants. A separate treasury-challan fee under a specific head of account applies to the connected factory licence, with the original receipt required." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply simultaneously to the Chief Inspector of Factories (Betkuchi, state-wide single office) and to GMC/local body under Rule 3A for the same building", "automated": false, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Submit plan application with NOC from local authority as supporting document, while that authority's own approval runs in parallel; sequencing is not settled in the rules", "automated": false, "note": "Applicants report being told after the fact that they chased the wrong office first." },
+        { "n": 3, "phase": "scrutiny", "title": "Objections on drawings raised one at a time across multiple visits (aisle width, then ventilation, then electrical panel placement) rather than as one consolidated list", "automated": false, "note": "" },
+        { "n": 4, "phase": "scrutiny", "title": "For hazardous units, Site Appraisal Committee review required; committee sits irregularly so review timing depends on its meeting schedule", "automated": false, "note": "" },
+        { "n": 5, "phase": "approve", "title": "Plan approved by the Chief Inspector of Factories; no deviation from the approved plan allowed thereafter without fresh written permission", "automated": false, "note": "" }
+      ],
+      "remarks": [
+        "FGD-only record, not yet verified against an official ED.",
+        "This approval is described as the gateway step: without it there is no registration, no factory licence and no stability certificate."
+      ]
+    },
+    {
+      "serviceCode": "LA",
+      "serviceName": "Land Allotment",
+      "sourceFiles": ["Assam_FGD_LA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "It is difficult to know which plots are actually vacant; most plots in Bamunimaidam and Chaygaon are already taken, and land in undivided Kamrup is given by bidding 'as and when available,' with applicants finding out only when a notice comes out." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "QUERY"], "sentiment": "issue", "text": "After applying, the file goes between many offices (AIDC/ASIDC/AIIDC, GMC, Circle/DC office) with no status update, so applicants keep visiting offices to find where the file is." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "Land near Guwahati is costly and the final rate is not known until the bid result, making it hard to plan project cost and bank loan." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES", "CAPACITY"], "sentiment": "issue", "text": "Plots in Kamrup district are given through bidding; small units find it hard to compete with bigger units, and the final price cannot be known in advance." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY", "INTERDEP"], "sentiment": "issue", "text": "Land is given by different agencies (AIDC, ASIDC, AIIDC), each with its own form, rate and process; the Land Management Policy 2021 (amended 2022) exists but most small units do not know its details." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "The rule says production must start within 3 years of allotment, which is difficult when power connection, bank loan or machinery gets delayed, and extension needs separate approval." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Application and documents are mostly submitted in person at the AIDC office with no online acknowledgement or tracking." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "There is no fixed date by which the allotment decision will be given, and different officials sometimes give different document lists." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "After allotment, lease agreement, payment, possession and demarcation are separate, untimed steps, and no one explains the full sequence at the start." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same basic papers (Udyam, PAN, DPR, ID and firm documents) are asked for again by each office." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Land papers and NOCs are checked again at different offices even after the allotment letter is issued." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Small changes such as change of partner or name, or a lease NOC for the bank, need a fresh set of documents." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "Files wait on one table for a long time; no one is clearly responsible for moving the file and there is no time limit." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP", "INFORMAL"], "sentiment": "issue", "text": "Offices work separately and do not share documents or status; allotment committee meetings are not held on a fixed schedule. Some participants said 'speed money' is expected at some stages, while others said they have not faced this." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Some old plots/sheds are still with units that have closed or are not working, so they are not available for new units." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "CLARITY"], "sentiment": "suggestion", "text": "One online list of vacant plots and sheds (size, rate, location) for AIDC, ASIDC and AIIDC, updated regularly, with bid or allotment dates." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE", "DUPDOC"], "sentiment": "suggestion", "text": "One common application with a trackable file number and a fixed decision time limit (e.g. 30-45 days); documents once verified should not be asked again by other offices." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Review unused or closed units' plots/sheds regularly and reclaim them for new units, keeping a small share for micro and small units." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The State has announced plans to create land banks and new industrial estates; participants welcome this but want enough new land near Guwahati/Kamrup with road, power and water." }
+      ],
+      "quotes": [
+        { "speaker": "Shahjahan Kaji (Participant)", "quote": "File remain stagnant between GMC, AIIDC, ASIDC, CO office, DC office. Also some old units are closed but the plots are still with them. New units are waiting.", "topic": "Interdepartmental file stagnation and plot hoarding", "tags": ["INTERDEP", "CAPACITY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official ED record exists for Land Allotment in Assam to cross-check this FGD-only record against; Land Allotment was not among the services the Assam ED pass covered." },
+        { "flag": "MISSING", "text": "No notified decision timeline is cited by participants; the 30-45 day figure appears only as a participant suggestion for reform, not as a current official standard." },
+        { "flag": "VAGUE", "text": "The exact bidding mechanism and how the final land rate is determined for Kamrup-district plots is described only generally ('bidding, as and when available'), without the detailed process, minimum notice period, or rate-disclosure timing." }
+      ],
+      "issuingAuthority": "Multiple state industrial agencies — AIDC (Assam Industrial Development Corporation), ASIDC and AIIDC — with land verification also routed through GMC and the Circle/DC office",
+      "portal": { "name": "No dedicated online portal is described; application and documents are mostly submitted in person at the AIDC office", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No official notified timeline is cited by participants; a 30-45 day limit is proposed only as a suggested reform, not a current standard.", "text": "No fixed decision date exists today according to participants. Files 'wait on one table for a long time' with no one clearly responsible and no time limit, and allotment committee meetings are not held on a fixed schedule." },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Udyam registration",
+        "PAN",
+        "Detailed Project Report (DPR)",
+        "ID and firm/constitution documents"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants describe the document list narratively; a formal checklist is not available in this transcript.",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed-approval or fixed decision timeline is described. Files wait on one table for a long time with no one clearly responsible and no time limit, and allotment committee meetings are not held on a fixed schedule." },
+      "validity": { "text": "Allotted land must see production start within 3 years of allotment per policy; extension requires separate approval when power connection, loan or machinery is delayed." },
+      "fees": { "text": "For Kamrup-district plots, the final rate is determined by bidding and is not known until the bid result, making project-cost and loan planning difficult; no fixed rate card exists. Pricing mechanisms for other areas are not detailed in this transcript." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Check vacant-plot availability across AIDC/ASIDC/AIIDC — no consolidated public list exists; Kamrup-district plots are allotted by bidding 'as and when available,' announced by notice", "automated": false, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Submit application and documents mostly in person at the AIDC office; no online acknowledgement or tracking", "automated": false, "note": "" },
+        { "n": 3, "phase": "scrutiny", "title": "File moves between AIDC/ASIDC/AIIDC, GMC and the Circle/DC office for verification, with no shared status visibility between offices", "automated": false, "note": "" },
+        { "n": 4, "phase": "approve", "title": "Allotment Committee decides — meetings are not held on a fixed schedule", "automated": false, "note": "" },
+        { "n": 5, "phase": "apply", "title": "Post-allotment: lease agreement, payment, possession and demarcation handled as separate, untimed steps with no stated sequence communicated to the applicant upfront", "automated": false, "note": "" }
+      ],
+      "remarks": [
+        "FGD-only record, not yet verified against an official ED (Land Allotment was not among the services covered in Assam's ED pass).",
+        "Participants note the state has announced plans for land banks and new industrial estates but want sufficient new land near Guwahati/Kamrup with road, power and water."
+      ]
+    },
+    {
+      "serviceCode": "LR",
+      "serviceName": "Lift Registration",
+      "sourceFiles": ["Assam_FGD_LR.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "INTERDEP"], "sentiment": "issue", "text": "Lift registration is not one step: applicants apply for permission to install, then for inspection and licence to operate, and again for renewal, with each stage needing separate follow-up." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "After applying online, applicants still have to follow up with the Inspectorate office for the inspection date and licence; file status is sometimes updated on the portal but sometimes not." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Applicants depend on the lift company's authorised person for most of the paperwork and testing — if the agency is slow, the applicant's work also waits." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Licence to operate is given for 3 years only and must be renewed every time, even when nothing has changed in the lift." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Lift registration is handled by the Power Department (Inspectorate of Electricity), while the factory licence is with the Factories department — two departments deal with the same premises separately." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Application can be made online on the Inspectorate portal, but inspection and follow-up still need office visits." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Separate forms are used for new installation, alteration of an installed lift, and licence to operate, with no simple checklist of documents for each stage." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL"], "sentiment": "issue", "text": "No reminder is given before the 3-year licence expires; applicants must track the date themselves, with no notification at all." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same building, owner and lift details are filled in again in each application (installation, licence and renewal)." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Copy of the lift agency's authorisation and the electrical contractor licence is asked again with new applications, though already submitted earlier." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Inspection depends on the inspector's availability; participants feel the number of inspectors is limited compared to the number of lifts." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "File movement between offices is manual, and no one is clearly answerable for the delay." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "The licence application needs a completion declaration from the lift agency — if the agency is late, the whole process waits." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE", "PORTAL"], "sentiment": "suggestion", "text": "Fix a time limit for inspection and licence, and show status with SMS/email updates." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Send a renewal reminder before 3 years and allow simple online renewal when there is no change in the lift." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "One common inspection or better coordination between the Power and Factories departments, and one clear document checklist." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE", "OTHER"], "sentiment": "neutral", "text": "Participants agree lift licensing is needed for safety; their concern is the repeated follow-up and time taken, not the rule itself. The main cost is staff time, repeated visits and delay in starting use of the lift, along with the lift agency's charges." }
+      ],
+      "quotes": [
+        { "speaker": "Rakhi Baruah (Participant)", "quote": "The lift company needs to give a completion declaration. If they are late, our licence is also late.", "topic": "Dependence on lift agency's completion declaration", "tags": ["INTERDEP"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "This service code (LR — Lift Registration) was not covered in the Assam ED pass, so there is no official record to cross-check against; no specific processing-day figure for installation permission, inspection or licence issuance is given by participants." },
+        { "flag": "VAGUE", "text": "Participants say inspector numbers are 'limited compared to the number of lifts' but no specific count of inspectors or lifts is given." },
+        { "flag": "MISSING", "text": "No fee figures are given by participants for any stage (installation permission, inspection, licence to operate, renewal)." }
+      ],
+      "issuingAuthority": "Inspectorate of Electricity, Power Department, Government of Assam",
+      "portal": { "name": "Inspectorate online portal (not specifically named in this transcript)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No notified processing-day figure is given by participants; the only time figure stated is the 3-year validity of the licence to operate.", "text": "No specific processing-day figure is given. Participants describe multi-stage follow-up (installation permission, inspection/licence-to-operate, renewal), each needing separate, untimed follow-up, with inspection timing dependent on inspector availability." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Lift agency's authorisation copy",
+        "Electrical contractor licence copy",
+        "Building, owner and lift details (filed afresh at each of the three stages — installation, licence, renewal)",
+        "Completion declaration from the lift installation agency (precondition for the licence-to-operate application)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not explicitly addressed by participants; the absence of any renewal reminder before the 3-year licence expires and the lack of any notification system implies no automatic or deemed renewal exists." },
+      "validity": { "text": "Licence to operate is valid for 3 years and must be renewed each time even if nothing has changed in the lift." },
+      "fees": { "text": "Not quantified by participants. The main cost described is staff time, repeated visits, delay in starting use of the lift, and the lift agency's own charges." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply for permission to install (online on Inspectorate portal)", "automated": "partial", "note": "" },
+        { "n": 2, "phase": "apply", "title": "Lift agency carries out installation and testing; the licence-to-operate application depends on the agency's completion declaration", "automated": false, "note": "Delay by the lift agency directly delays the applicant." },
+        { "n": 3, "phase": "inspect", "title": "Inspection scheduled by inspector availability; follow-up for inspection date and licence still requires office visits despite online application", "automated": "partial", "note": "" },
+        { "n": 4, "phase": "approve", "title": "Licence to operate issued, valid 3 years", "automated": "partial", "note": "" },
+        { "n": 5, "phase": "renew", "title": "Renewal required every 3 years with no reminder sent; applicant must track the expiry date independently", "automated": false, "note": "" }
+      ],
+      "remarks": [
+        "This service code (LR — Lift Registration) was not covered in the Assam ED pass; this FGD-only record documents business testimony and has not been verified against an official source.",
+        "Two departments (Power/Inspectorate for the lift, Factories for the factory licence) regulate the same premises separately with no coordination noted by participants."
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFiles": ["Assam_FGD_RCTO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC", "PORTAL"], "sentiment": "issue", "text": "Every renewal has to be filed again on the online consent portal (Sewa Setu or EODB); the same unit details and documents are uploaded again even when nothing has changed." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "COMPLY"], "sentiment": "issue", "text": "Before applying, fresh effluent and stack/air emission test reports have to be arranged from a lab again at the unit's own cost, a bigger burden for small units." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "After applying, it is not always clear where the file is, whether an inspection is planned, or what query is pending, so units follow up at the Board office multiple times." },
+        { "source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Renewal must be applied before consent expires; if missed, a fresh application is needed, with no clear protection for a unit whose renewal is still pending." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "The Board's order of 17 June 2026 allows a 1-year or 5-year renewal only for stone crushers and coke oven units; other compliant units want the same choice." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "issue", "text": "Fee depends on investment and is paid again at every renewal; units exempted from CTE still pay the CTE fee while applying for CTO (per Board notification, 18 March 2025)." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Power to renew is split between Regional Offices and the Head Office by industry category and investment size; units are not always sure which office is handling their file." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Queries are often raised after scrutiny or inspection, sometimes one by one, so the file goes back and forth." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "No simple checklist is given at the start; documents asked for can differ from one official to another." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Basic papers (land/ownership documents, earlier consent, registration proofs) are uploaded again at each renewal." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same plant details are given in the consent application, the test reports and the yearly returns to the Board." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Even a small change, such as a change in name or ownership, brings a request for a fresh set of documents." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT"], "sentiment": "issue", "text": "Renewal depends on a physical inspection by Board officials, and the date is not fixed or told in advance." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "Each query-and-reply cycle adds days, mainly when test reports or documents are not in the expected format." },
+        { "source": "fgd", "category": "delay", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "There is no single place to see who is holding the file and for how long, and no grievance portal to raise a query." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Automatic renewal on self-declaration for units with a good compliance record and no change in process or capacity, as the Board already has for CTE." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Extend the 5-year renewal option to all compliant units, not only stone crushers and coke oven units." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "DUPDOC"], "sentiment": "suggestion", "text": "If documents are already on the portal or in government archive, retrieve them instead of asking again; only changed documents should be uploaded, with SMS/email alerts for query, inspection date and decision." },
+        { "source": "fgd", "category": "remarks", "tags": ["CONSULT"], "sentiment": "neutral", "text": "The online system has helped with submission and fee payment, but scrutiny, inspection and queries are still largely manual; small units often depend on consultants to file renewals." }
+      ],
+      "quotes": [
+        { "speaker": "Tirap Talukdar (Participant)", "quote": "Renewal needs the same documents and test reports every time, even if nothing in the unit has changed. Also We do not know where the file is or when the inspection will happen; we have to keep visiting the office.", "topic": "Repeated documentation and lack of file visibility", "tags": ["DUPDOC", "QUERY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "RCTO (Renewal of Consent to Operate) is a distinct canonical service code with no corresponding ED record for Assam — only CTO (first consent) was covered in the ED pass. No official renewal timeline figure exists to cross-check this FGD-only record." },
+        { "flag": "VAGUE", "text": "No specific day-count is given by participants for the renewal process; only the fact that physical inspection scheduling and query-reply cycles (especially around test-report format issues) drive delay." },
+        { "flag": "MISSING", "text": "The exact criteria and procedure for the 1-year vs 5-year renewal option under the Board's 17 June 2026 order (currently limited to stone crushers and coke oven units) are referenced but not detailed." }
+      ],
+      "issuingAuthority": "Pollution Control Board, Assam — renewal authority split between Regional Offices and Head Office by industry category and investment size",
+      "portal": { "name": "Online consent portal — Sewa Setu or the EODB portal", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No specific notified renewal timeline figure is given by participants in this document.", "text": "No specific day-count is stated by participants; delay drivers described are physical inspection scheduling (date not fixed or told in advance) and query-reply cycles, particularly around test-report format issues." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Land/ownership documents",
+        "Earlier consent order (previous CTO)",
+        "Registration proofs",
+        "Fresh effluent and stack/air emission test reports, arranged at the unit's own cost before applying"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. The ED pass recorded a structured entry for CTO (first consent) but RCTO (renewal) is a distinct canonical code with no corresponding ED record for Assam.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Participants say there is 'no clear protection for a unit whose renewal is still pending' if the renewal deadline is missed before consent expiry, implying no deemed or automatic extension exists; a fresh application is then required." },
+      "validity": { "text": "Renewal must be applied for before the existing consent expires. The Board's order of 17 June 2026 allows a 1-year or 5-year renewal option, but currently only for stone crushers and coke oven units; other compliant units do not have this choice." },
+      "fees": { "text": "Fee depends on capital investment and is paid afresh at every renewal; units otherwise exempted from CTE under the Board's 18 March 2025 notification reportedly still pay the CTE-linked fee component when applying for CTO/renewal." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Arrange fresh effluent and stack/air emission test reports from a lab at own cost before applying", "automated": false, "note": "" },
+        { "n": 2, "phase": "apply", "title": "File renewal application again on Sewa Setu/EODB portal, re-uploading unit details and documents even where nothing has changed", "automated": true, "note": "" },
+        { "n": 3, "phase": "scrutiny", "title": "File routed to Regional Office or Head Office depending on industry category/investment size; queries raised after scrutiny or inspection, sometimes one at a time", "automated": "partial", "note": "" },
+        { "n": 4, "phase": "inspect", "title": "Physical inspection by Board officials; date not fixed or communicated in advance", "automated": false, "note": "" },
+        { "n": 5, "phase": "approve", "title": "Renewal granted — 1-year renewal is standard, with a 5-year option currently limited to stone crushers and coke-oven units under the 17 June 2026 Board order", "automated": false, "note": "" }
+      ],
+      "remarks": [
+        "FGD-only record, not yet verified against an official ED; the ED pass covered CTO (first consent) for Assam but not RCTO (renewal) as a separate entry.",
+        "Participants note the Board already has auto-renewal for CTE and want the same extended to CTO renewal for units with a good compliance record."
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory Licence",
+      "sourceFiles": ["Assam_FGD_RFAL.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE", "COMPLY"], "sentiment": "issue", "text": "The original licence must be handed in with the renewal application, and the department then takes up to thirty days; for that whole period the factory runs with no licence document in hand, while GMC, fire and pollution inspectors continue to ask to see one." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Applying thirty days before expiry plus a thirty-day processing time means the renewed licence routinely arrives on or after the expiry date; participants carry a photocopy of the acknowledgement and hope it is accepted." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "QUERY"], "sentiment": "issue", "text": "The fee is recalculated each year on the number of workers and installed horsepower, so the renewal is also an assessment; a dispute over the worker figure holds up the renewal itself." },
+        { "source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "The penalty is one-sided: 25% over the original fee is charged if the application is not received thirty days before expiry, but nothing follows if the department exceeds its own thirty days." },
+        { "source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "The protection that premises 'shall be held duly licensed' applies only where the application was filed in time, but nothing requires the department to issue any interim document evidencing that protection." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Assam already allows auto-renewal for Shops and Establishment, contract labour and interstate migrant workmen licences; the factory licence is excluded, although the premises, approved plan and accepted stability certificate are all on the department's own record." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "The licence is annual with no risk differentiation; a low-risk unit with an unchanged plan and clean record renews on the same cycle, with the same paperwork, as any other factory." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL"], "sentiment": "issue", "text": "No reminder is issued before expiry; tracking the thirty-day deadline is left entirely to the unit, and missing it by a single day costs 25%." },
+        { "source": "fgd", "category": "procedural", "tags": ["COMPLY"], "sentiment": "issue", "text": "Where a unit has taken on more workers or added horsepower during the year, a separate amendment of licence is required, and the amendment and the renewal are not processed together even when filed together." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Documents like partnership deed, articles of association, list of directors and occupier nomination are filed again at renewal although the department already holds them from registration." },
+        { "source": "fgd", "category": "redundant", "tags": ["COMPLY"], "sentiment": "issue", "text": "The original licence issued by the department has to be surrendered back to the department to obtain the next one." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The fee working on worker strength and horsepower is submitted afresh each year, although the department receives the same figures through annual and half-yearly returns." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Renewals for registered factories across the state are handled by one head office within the same season, so the queue is longest exactly when every unit needs its licence." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Vacant inspector posts shown in the department's own citizen's charter mean a renewal file waits for an officer to be free rather than for a decision." },
+        { "source": "fgd", "category": "delay", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Participants said informal payments are expected at renewal, because a unit cannot afford to be without a licence; four of six described renewal as the point of least bargaining room." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Make renewal automatic on a self-declaration that premises, plan, machinery and worker strength are unchanged, on the same basis Assam already applies to Shops and Establishment and contract labour licences." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Extend the licence term to three or five years, with fee payable annually if required, separating the paperwork cycle from the payment cycle." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL", "PORTAL"], "sentiment": "suggestion", "text": "Send an automatic reminder sixty and thirty days before expiry, and allow the fee to be paid fully online." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "issue", "text": "Participants reported two to six weeks of staff time each year on renewal, besides consultant charges of roughly Rs 20,000 to Rs 60,000, recurring every year regardless of any change in the factory." }
+      ],
+      "quotes": [
+        { "speaker": "Imran Das (Participant)", "quote": "I give them my original licence and wait a month with nothing in hand. If an inspector comes in that month, what do I show him?", "topic": "Licence-document gap during renewal processing", "tags": ["TIMELINE", "COMPLY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "RFAL (Renewal of Factory Licence) is a distinct canonical code with no official ED record for Assam to cross-check this FGD-only record against; the ED pass did not cover this service for Assam." },
+        { "flag": "GOOD_PRACTICE", "text": "No specific good practice beyond general online fee payment availability (eGRAS, noted in the related Factory Licence FGD) is independently documented in this session." },
+        { "flag": "REFORM", "text": "Participants' suggestion to extend the licence term to three or five years with annual fee payment, separating the paperwork cycle from the payment cycle, is a specific reform idea not otherwise documented." }
+      ],
+      "issuingAuthority": "Office of the Chief Inspector of Factories, Assam (same department as the initial Factory Licence; head office processes renewals statewide)",
+      "portal": { "name": "Not specifically named; fee paid via treasury challan, with applicants carrying a photocopy of the acknowledgement during the processing gap", "url": null },
+      "timeline": { "minDays": null, "maxDays": 30, "basis": "Applicant must apply at least 30 days before expiry; the department then takes up to thirty days to process after the original licence is surrendered.", "text": "Applicant must apply 30 days before expiry, and the department then takes up to 30 days to process — participants say this routinely means the renewed licence arrives on or after the expiry date, leaving the unit without a licence document in hand during that gap." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Original licence (physically surrendered to the department to obtain the renewed one)",
+        "Partnership deed, articles of association, list of directors, occupier nomination (refiled even though the department already holds them from registration)",
+        "Fee computation based on worker strength and installed horsepower (refiled afresh each year despite being reported via annual/half-yearly returns)",
+        "Amendment approval letter, if an amendment was taken during the year"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": { "status": "no", "days": null, "text": "The statutory protection that premises 'shall be held duly licensed' applies only where the renewal application was filed in time, but nothing requires the department to issue any interim document evidencing that protection — participants said this leaves them unable to show proof of compliance to inspectors during the processing gap." },
+      "validity": { "text": "Annual licence, renewed every year with no risk-based differentiation regardless of compliance record or absence of change." },
+      "fees": { "text": "Fee is recalculated annually based on worker strength and installed horsepower; a 25% penalty applies if the renewal application is filed less than 30 days before expiry, with no corresponding penalty on the department for exceeding its own 30-day processing window. Consultant charges of roughly Rs 20,000 to Rs 60,000 are reported annually, plus two to six weeks of staff time." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply for renewal at least 30 days before expiry, surrendering the original licence document to the department", "automated": false, "note": "" },
+        { "n": 2, "phase": "scrutiny", "title": "Fee recomputed based on current worker count and horsepower; disputes over the worker figure can hold up the renewal", "automated": false, "note": "" },
+        { "n": 3, "phase": "scrutiny", "title": "Any mid-year amendment (extra workers/horsepower) must be filed and approved separately — not processed together with renewal even if submitted together", "automated": false, "note": "" },
+        { "n": 4, "phase": "approve", "title": "Renewal processed through the single statewide head office within the renewal season, subject to vacant inspector posts", "automated": false, "note": "Department allows itself up to 30 days; renewed licence routinely arrives on or after expiry." }
+      ],
+      "remarks": [
+        "FGD-only record, not yet verified against an official ED.",
+        "Participants say the exposure is not the fee but the gap: operating without a current licence (even when the application was filed on time) leaves the occupier technically liable and complicates insurance claims and buyer audits."
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": ["Assam_FGD_RFNO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT", "TIMELINE"], "sentiment": "issue", "text": "Inspection scheduling is the single biggest bottleneck: several participants submitted the renewal application 6 to 8 weeks before NOC expiry, but an officer did not visit for 3 to 5 weeks after that, and by the time the certificate came the existing NOC had already lapsed, risking insurance claim issues." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Units are left operating on an expired NOC while waiting for renewal, creating insurance risks and leaving them technically non-compliant." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "When issues are noted at inspection, the written report is not always given to the facility the same day; a few participants had to follow up separately to get the deficiency list, delaying the start of rectification." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Some participants are asked to get a fresh site plan or building drawing at renewal even where nothing has changed in the premises, adding cost and time." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "The annual maintenance cost for fire equipment is on the higher side — roughly Rs 20,000 to 30,000 annually depending on equipment." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT", "NORMS"], "sentiment": "issue", "text": "No inspector checks the fire equipment's working condition — they check only whether it is installed, not whether it works, which participants linked to major fires in recent years." },
+        { "source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "There is no deemed approval or auto-renewal provision in the Rules." },
+        { "source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "The Rules do not clearly specify what happens when a NOC lapses solely because of departmental delay or intradepartmental inefficiency." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "A new circular says certificates dated before 24 December 2025 must apply for a fresh certificate with no renewal done from then on, while certificates dated after 24 December 2025 are no longer liable to renewal and are auto-renewed." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Application is online on Sewasetu, but the process effectively goes offline once submitted — inspection scheduling, the visit, deficiency communication and the final certificate are not tracked or issued visibly through the portal." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Inspection reports are not shared through the portal — the applicant gets only approved/not-approved, not the detailed finding sheet." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The certificate is available on the Assam EODB portal as a digitally signed document, but some banks/insurance providers still ask for a physical stamped copy, requiring an additional visit to the Fire Office for an attested printout." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "There is no single point of contact assigned to an application; participants speak to a different person each call and often cannot get a straight answer on status." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "For renewal, a copy of the previous NOC is asked for again, although the department issued it and holds it in its own records." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "A fresh site plan or layout drawing is sometimes asked for at renewal even when the applicant declares on a self-declaration form that there has been no structural or layout change." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The 14-day statutory timeline from a complete application is not met; actual time from application to issue of the renewed NOC is 4-8 weeks, and sometimes longer in the March peak period." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Files sometimes get delayed in an official desk-to-desk movement." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "TIMELINE"], "sentiment": "suggestion", "text": "Publish inspection dates on the portal; send an SMS or email with the scheduled inspection date within 3-4 working days of submission, removing unavoidable office visits." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Issue the deficiency/issue list in writing on the portal on the same day as the inspection." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Assign a single named contact person or a dedicated helpline per application reference number." },
+        { "source": "fgd", "category": "remarks", "tags": ["INTERDEP"], "sentiment": "issue", "text": "A lapsed Fire NOC can void an industrial insurance policy, pause trade licence renewal, and in some cases affect bank loan documentation." }
+      ],
+      "quotes": [],
+      "gaps": [
+        { "flag": "MISSING", "text": "RFNO (Renewal of Fire NOC) has no ED record of its own in Assam, so there is no official source to cross-check this FGD-only record against. However, Assam's ED record for Fire NOC (FNO) separately states that Renewal of Fire NOC was discontinued effective 25/12/2025, which aligns with what FGD participants describe as a new circular to the same effect — this FGD session (dated 15-09-2026) describes the renewal process as it existed shortly before that cutover." },
+        { "flag": "GOOD_PRACTICE", "text": "Digitally signed certificates available on the Assam EODB portal is a positive practice, though undermined by banks/insurers still demanding physical stamped copies." },
+        { "flag": "MISSING", "text": "No specific fee figure for RFNO renewal itself is given by participants; only the separate annual fire-equipment maintenance cost (Rs 20,000-30,000) is quantified." },
+        { "flag": "VAGUE", "text": "The precise mechanics of the 24 December 2025 cutover (what exactly 'auto-renewed' means for certificates dated after that date, and what specific process applies to certificates dated before it) are described only at a high level by participants." }
+      ],
+      "issuingAuthority": "Assam Fire and Emergency Service — Directorate (Panbazar) for final NOC renewal; district fire office handles inspection",
+      "portal": { "name": "Sewasetu portal for online application; the renewed certificate is also available on the Assam EODB portal as a digitally signed document", "url": null },
+      "timeline": { "minDays": 14, "maxDays": 56, "basis": "The statutory timeline cited by participants is 14 days from receipt of a complete application; participants report actual time from application to issue of renewed NOC is 4-8 weeks (28-56 days), sometimes longer during the March peak period.", "text": "The 14-day statutory timeline (from a complete application) is described as routinely missed. Participants report the actual time taken is 4 to 8 weeks, sometimes more during the March peak period, with inspection scheduling (3 to 5 weeks before an officer visits) as the single biggest bottleneck — in several cases the existing NOC lapsed before the renewed certificate arrived." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Copy of the previous (existing) Fire NOC, which the department itself issued and already holds on record",
+        "Self-declaration form on structural/layout change",
+        "Fresh site plan or building drawing (sometimes asked for even when nothing has changed in the premises)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Note: Assam's ED record for Fire NOC (FNO) separately states that Renewal of Fire NOC was removed effective 25/12/2025 — licences expiring before that date must apply afresh, while those expiring on or after that date are deemed approved without renewal; this FGD session (held 15-09-2026) describes the renewal process largely as it existed prior to that change.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Participants state there is no deemed-approval or auto-renewal provision in the Rules, and the Rules do not clearly specify what happens when a NOC lapses solely due to departmental delay." },
+      "validity": { "text": "Not stated in day/year terms beyond the renewal cycle itself. A new circular (per participants) says certificates dated before 24 December 2025 must apply afresh with no further renewal, while certificates dated on or after 24 December 2025 are auto-renewed and not liable to renewal — consistent with what the Assam FNO ED record separately describes as the 25/12/2025 removal of Fire NOC renewal." },
+      "fees": { "text": "Not quantified by participants in rupee terms for the renewal fee itself. Separately, annual maintenance cost of fire equipment is reported at roughly Rs 20,000 to Rs 30,000 depending on equipment, borne by the unit regardless of the NOC renewal fee." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit renewal application online via Sewasetu portal, sometimes 6-8 weeks before NOC expiry", "automated": true, "note": "" },
+        { "n": 2, "phase": "inspect", "title": "Officer inspection scheduled informally; participants report a 3-5 week wait after submission before a visit, often causing the NOC to lapse before renewal completes", "automated": false, "note": "" },
+        { "n": 3, "phase": "inspect", "title": "Deficiencies noted at inspection are not always given in writing the same day; applicants sometimes have to follow up separately to get the list", "automated": false, "note": "" },
+        { "n": 4, "phase": "apply", "title": "Applicant rectifies deficiencies, sometimes including a fresh site plan/drawing even without any actual change", "automated": false, "note": "" },
+        { "n": 5, "phase": "approve", "title": "Renewed certificate issued, available as a digitally signed document on the Assam EODB portal — though some banks/insurers still demand a physical attested printout", "automated": "partial", "note": "" }
+      ],
+      "remarks": [
+        "FGD-only record, not yet verified against an official ED for RFNO specifically; Assam's ED interview for Fire NOC (FNO) separately documents that Renewal of Fire NOC was discontinued effective 25/12/2025, which aligns with what FGD participants describe as a new circular to the same effect.",
+        "Participants say a lapsed Fire NOC can void an industrial insurance policy, pause trade-licence renewal, and in some cases affect bank loan documentation."
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License Approval",
+      "sourceFiles": ["Assam_FGD_TLA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Many papers are needed at the start, including tenancy agreement, rent receipt, landlord's property tax receipt, plus ID proof, address proof and registration certificate; participants said this list can be reduced." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "The fee is not easy to know in advance: a Rs 100 application fee plus a licence fee that depends on business type and size, which is too high for smaller stakeholders." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT", "RENEWAL"], "sentiment": "issue", "text": "A GMC team visits the premises before the licence is issued, and the licence has to be taken again every year." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL", "FEES"], "sentiment": "issue", "text": "The licence is valid for one financial year only (1 April to 31 March); the same process repeats every year, and late renewal costs 20% of the licence fee." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Health-related trades need an NOC from the police and from GMC before the licence is issued." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY", "PORTAL"], "sentiment": "issue", "text": "Application can be made online or at one of six GMC zone offices; the GMC checklist says to collect the renewal form from the office while the online portal also offers new/renewal, and it is not clear which route to follow." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "For online filing, all documents must be scanned and ready at submission, sometimes also required in physical form." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "The GMC portal does not describe how an applicant can track the file after submission." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Tenancy agreement, rent receipt and landlord's property tax receipt are asked for, although GMC itself collects property tax." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "A consultant noted renewal needs the form, documents and fee again, almost like a fresh application." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Delay is sometimes attributed to departmental inefficiency." },
+        { "source": "fgd", "category": "delay", "tags": ["CLARITY"], "sentiment": "issue", "text": "Delay is sometimes due to lack of information among users, and perpetual document-submission queries." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "FEES"], "sentiment": "suggestion", "text": "Put one fee list and one document list for each trade type in one place." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE", "PORTAL"], "sentiment": "suggestion", "text": "Fix a number of days for approval and show application status online." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Allow renewal fully online, without collecting a form from the office." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "issue", "text": "Besides the official fee, participants spent on consultants, travel, photocopying and notarization, and carried idle rent, salaries and loan interest while waiting — a high indirect cost." }
+      ],
+      "quotes": [
+        { "speaker": "Rohit Kumar Sah (Participant)", "quote": "Why government is not retrieving the documents from their archive, if they already having the users documents in their database. Set up a help desk kind of facility for first time MSME applicant.", "topic": "Document re-use and MSME helpdesk", "tags": ["DUPDOC"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official ED record exists for Trade License Approval in Assam to cross-check this FGD-only record against; no notified processing-day figure is given by participants." },
+        { "flag": "VAGUE", "text": "The exact licence-fee structure by trade type/size is not quantified beyond the Rs 100 application fee; participants describe it only as 'too high for smaller stakeholders.'" },
+        { "flag": "MISSING", "text": "No specific document list or online/offline procedural conflict resolution is given beyond participants' observation that the GMC checklist and the online portal give differing guidance on which route to follow." }
+      ],
+      "issuingAuthority": "Guwahati Municipal Corporation (GMC) — application via GMC zone offices or online portal",
+      "portal": { "name": "GMC online portal, plus six GMC zone offices for in-person filing", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No notified number of days is cited by participants for approval processing; a suggestion calls for GMC to 'fix a number of days for approval.'", "text": "No specific processing-day figure is stated by participants for Trade Licence approval itself; they note GMC does not describe how to track a filed application." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Tenancy agreement",
+        "Rent receipt",
+        "Landlord's property tax receipt (though GMC itself already collects property tax)",
+        "ID proof",
+        "Address proof",
+        "Registration certificate"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not explicitly discussed by participants; no mention of an automatic-grant mechanism either way." },
+      "validity": { "text": "Licence is valid for one financial year only (1 April to 31 March); the same process repeats every year, with a 20% late-renewal fee if missed." },
+      "fees": { "text": "Rs 100 application fee, plus a licence fee that varies by business type and size — described by participants as 'too high' for smaller stakeholders and not easy to know in advance. Indirect costs (consultants, travel, photocopying, notarisation, idle rent/salaries/loan interest while waiting) also reported as high." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply online or at one of six GMC zone offices; GMC's own checklist and the online portal give differing guidance on which route to use", "automated": "partial", "note": "" },
+        { "n": 2, "phase": "apply", "title": "Scan and submit all required documents (sometimes also required in physical form even for online filing)", "automated": "partial", "note": "" },
+        { "n": 3, "phase": "inspect", "title": "GMC team visits the premises before the licence is issued", "automated": false, "note": "" },
+        { "n": 4, "phase": "approve", "title": "Licence issued for the financial year (1 April-31 March); health-related trades additionally require NOC from police and GMC before issue", "automated": false, "note": "" }
+      ],
+      "remarks": [
+        "FGD-only record, not yet verified against an official ED.",
+        "Participants ask why GMC does not retrieve documents it already holds (e.g. property tax records) from its own archive instead of asking applicants to resubmit them."
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License Renewal",
+      "sourceFiles": ["Assam_FGD_TLR.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL", "FEES"], "sentiment": "issue", "text": "Renewal has to be done every year since the licence runs only from 1 April to 31 March; a late fee of 20% of the licence fee is added if late." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "CAPACITY"], "sentiment": "issue", "text": "In April 2025 the GMC trade licence system was under upgrade just when renewals were due; GMC had to issue a notice asking agencies to accept licences valid till 31 March 2025 for some time." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "Licence fee depends on the type of business; participants want a clear fee list for each category to be easy to find before applying." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The rules give the last date and the late fee, but no time limit is stated for GMC to issue the renewed licence." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "issue", "text": "For renewal on the GMC portal, applicants must enter their old trade licence registration number; if lost, a duplicate must first be obtained via an application to the DC of the zone with affidavit and address proof (Rs 200)." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY", "PORTAL"], "sentiment": "issue", "text": "The GMC checklist says the form can be collected from the office and submitted, while online application is also possible; both systems running together can confuse a first-time applicant." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "GMC checklist lists tenancy agreement, rent receipt and landlord's property tax receipt with the application; the same papers are given again each year." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "GMC already has holding and property tax records, so the landlord's receipt should not be required again for a routine renewal." },
+        { "source": "fgd", "category": "delay", "tags": ["PORTAL", "CAPACITY"], "sentiment": "issue", "text": "System downtime or upgrade during March-April, the busiest renewal period, causes delay." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Renewal can get stuck when the landlord's property tax or holding details are not up to date, which is outside the trader's control." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "No stated time limit exists for issue of the renewed licence, so there is no clear date by which to follow up." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "RENEWAL"], "sentiment": "suggestion", "text": "Send SMS/email reminder before 31 March, and give a simple one-click renewal if nothing has changed since last year." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Do not ask for tenancy, rent and landlord tax papers again if already submitted — take them from GMC's own records archive." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive", "text": "Online renewal for FY 2025-26 is available on the GMC portal (gmconline.in), a good step that works well only if the portal stays stable and papers are not repeated." }
+      ],
+      "quotes": [
+        { "speaker": "Rohit Kumar Sah (Participant)", "quote": "Link GMC with single window clearance system, and for newer applicant a helpdesk is necessary.", "topic": "Integration and helpdesk suggestion", "tags": ["INTERDEP", "CLARITY"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official ED record exists for Trade License Renewal in Assam to cross-check this FGD-only record against; no notified issuance timeline is stated by participants." },
+        { "flag": "GOOD_PRACTICE", "text": "Online renewal via gmconline.in for FY 2025-26 is a positive development noted by participants, though undermined by the April 2025 system-upgrade disruption during peak renewal season." },
+        { "flag": "VAGUE", "text": "Participants note GMC issued a notice extending acceptance of licences valid till 31 March 2025 during the 2025 system upgrade, but the exact duration of that extension/notice is not given." }
+      ],
+      "issuingAuthority": "Guwahati Municipal Corporation (GMC)",
+      "portal": { "name": "GMC online portal", "url": "gmconline.in" },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "Participants say the rules state the last date for renewal and the late fee but could not find any stated time limit for GMC to issue the renewed licence.", "text": "No stated time limit exists for GMC to issue the renewed licence, so there is no clear date for applicants to follow up against; the only firm date is the 31 March expiry and the 20% late fee if missed." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Old trade licence registration number (required for online renewal)",
+        "If licence is lost: duplicate application to the DC of the zone with affidavit and address proof (Rs 200 fee)",
+        "Tenancy agreement, rent receipt, landlord's property tax receipt (GMC checklist lists these again each year)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not explicitly discussed; the absence of any stated time limit for GMC to issue the renewal implies no deemed-approval fallback exists." },
+      "validity": { "text": "Licence runs only from 1 April to 31 March each year; a 20% late fee of the licence fee is added if renewal is filed late." },
+      "fees": { "text": "Licence fee depends on type of business (participants want a clear fee list per category); Rs 200 fee for a duplicate-licence affidavit process if the original is lost. A 20% late fee applies if renewal is filed after the due date." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Renew online on the GMC portal (gmconline.in) using the old trade licence registration number, or submit the collected renewal form at a GMC office — both routes coexist and confuse first-time applicants", "automated": "partial", "note": "" },
+        { "n": 2, "phase": "scrutiny", "title": "GMC checks landlord's property tax/holding details; renewal can get stuck if these records are not up to date (outside the trader's control)", "automated": false, "note": "" },
+        { "n": 3, "phase": "approve", "title": "Renewed licence issued — no stated time limit governs this step; system downtime/upgrades during the March-April peak period have caused delays (e.g. an April 2025 system upgrade required GMC to issue a notice accepting licences valid till 31 March 2025 for some time)", "automated": "partial", "note": "" }
+      ],
+      "remarks": [
+        "FGD-only record, not yet verified against an official ED.",
+        "Participants note this process should be linked with the single window clearance system, and a helpdesk is needed for first-time applicants."
+      ]
+    },
+    {
+      "serviceCode": "WAC",
+      "serviceName": "Water Connection",
+      "sourceFiles": ["Assam_FGD_WAC.docx", "Assam_FGD_WAC_1.docx"],
+      "sessionCount": 2,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "CLARITY"], "sentiment": "issue", "text": "For most industrial locations a piped connection is simply not available — the Guwahati Jal Board is commissioning the network area by area, and an application can only be made once the unit's area appears on the list; unit owners in non-commissioned areas said the service does not exist for them yet." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "COMPLY"], "sentiment": "issue", "text": "Because piped supply is absent or undependable, almost every unit runs on its own borewell/tubewell, shifting the real regulatory burden to the groundwater NOC from the Central Ground Water Authority, which is a central process with no office in Assam to walk into." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "There is no fixed time attached to the survey and estimate stage." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "There is no published rate card for a non-domestic or bulk industrial connection." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "The applicant has to arrange the right of way himself, and any road cutting needs a separate permission, handled entirely outside the water connection application." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "(Session 2) Industrial applicants are told to come to the Executive Engineer's office with all required details, unlike household connections which go through the online portal; once filed, there is no way to know where the file is, requiring three to four visits just to check whether the feasibility inspection had been done." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE", "INSPECT"], "sentiment": "issue", "text": "(Session 2) The feasibility stage is where everything stops — waiting of two to five months for the engineer's site visit was common." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "(Session 2) Even after the connection is released, supply is irregular because of shutdowns and pipe bursts, with water pressure too low or too high and irregular timing." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Water supply programmes for Guwahati are planned around household connections; industrial and bulk demand is not separately planned for, which is why units end up on groundwater by default." },
+        { "source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "There is no deemed approval provision for this service, even though it is notified under the Assam Right to Public Services Act." },
+        { "source": "fgd", "category": "policy", "tags": ["CAPACITY"], "sentiment": "issue", "text": "The requirement of a digital flow meter and a hydrogeological report under CGWA guidelines pushes even small units towards hiring a consultant." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY", "INTERDEP"], "sentiment": "issue", "text": "(Session 2) Connection is tied to the phased commissioning of the JICA-funded Guwahati water supply network; a unit in a non-commissioned zone has no route to a connection, and zone-wise status is not published. Two authorities (GMC Water Works Wing and the Jal Board, which charges a metered tariff) supply water under different rules, and participants were unclear which applies to them." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "The application is online (Sewa Setu or the GJB mobile app), but everything after submission — survey, estimate, deposit, actual laying of the line — is offline and not visible on the portal." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "The applicant is not told the site survey date in advance, so someone from the unit must be available without notice or follow up repeatedly; there is no single point of contact." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "issue", "text": "(Session 2) Documents already submitted are re-verified in original at the field feasibility visit; where that visit comes months later, applicants are asked to bring a fresh set, and the document list requested varies by official (e.g. trade licence/GST asked by some, not others)." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "(Session 2) The service line usually needs road cutting, requiring separate permission and restoration charges from GMC or PWD with no joint process, so the applicant runs between offices while the water file waits." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Land documents, holding number and the GMC property tax receipt are asked for again even though the same records sit with GMC; in session 2, the GMC property tax receipt is reportedly demanded up to three times (application, feasibility visit, and fee payment)." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "The water requirement and water balance details prepared for the CGWA NOC are asked for again by the Pollution Control Board in a different format." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "(Session 2) A change of firm name, partner or ownership requires the entire document set to be filed again as a fresh application, with no short amendment route for a connection already sanctioned." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The 21 working-day timeline is counted from a complete application, but in practice the survey and estimate stage sits outside any timeline and is where most of the waiting happens." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Applications from areas not yet commissioned under the ongoing water supply project stay pending until the area is ready, with no indication of when that will be." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "(Session 2) Feasibility inspection depends on a single engineer for the zone; inspections are clubbed and carried out only once enough applications collect in one area." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "(Session 2) Files move physically between the section clerk, Assistant Engineer, Executive Engineer and accounts branch with no register or receipt the applicant can see; rejections on technical grounds (wrong pipe size, missing signature) come late, after months, restarting the process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES", "CLARITY"], "sentiment": "suggestion", "text": "Publish a rate card for non-domestic and bulk connections, so a unit knows the likely deposit and monthly charge before applying." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Show the survey date and the estimate on the portal, with an SMS to the applicant, the same way the application acknowledgement is sent; (session 2) give SMS updates and visible file status exactly as already done for household connections." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Have one application point that routes the file to GMC, the Jal Board or PHED based on location, so the unit does not have to work out which agency it falls under." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE", "GRIEVANCE"], "sentiment": "suggestion", "text": "(Session 2) Fix a timeline in the Regulations for each stage (acknowledgement, feasibility inspection, sanction, release) and make a written, reasoned order compulsory for every rejection or query, so a refusal can be questioned." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "(Session 2) Bring road cutting permission and restoration into a single window with the Jal Board, and publish zone-wise commissioning status; accept AIIDC/GMDA allotment letters, registered lease deeds and trade licence as valid proof of property where a GMC tax receipt does not exist." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Participants said the practical choice for an industrial unit in Guwahati today is a borewell, not a piped connection, so the real cost of regulation for this service is mostly the cost of the groundwater NOC and its compliance conditions." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "issue", "text": "(Session 2) Participants compared the process unfavourably with the electricity connection from APDCL, which they said at least gives an acknowledgement and a date to work against." }
+      ],
+      "quotes": [
+        { "speaker": "Juri Das (Participant)", "quote": "I applied in February. The engineer came in August. In between, nobody could tell me anything.", "topic": "Feasibility-visit delay", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official ED record exists for Water Connection in Assam to cross-check this FGD-only record against." },
+        { "flag": "INCONSISTENT", "text": "Session 1 cites a 21 working-day notified timeline counted from a complete application; session 2 describes industrial applications as following an entirely offline, untimed paper route through the Executive Engineer's office with 'no acknowledgement slip, no application number and no status tracking' — it is not clear from the transcripts whether the 21-day notified timeline (apparently referring to the online/household route) applies at all to the industrial/offline route described in session 2, or how the two relate." },
+        { "flag": "VAGUE", "text": "Neither session gives the specific validity period or amendment process for an installed water connection beyond noting that any change of firm name, partner or ownership requires a complete fresh application." },
+        { "flag": "GOOD_PRACTICE", "text": "No independently documented good practice beyond the existence of SMS/status features for household connections, which session 2 participants want extended to industrial connections." }
+      ],
+      "issuingAuthority": "Guwahati Jal Board (GJB) for household connections; GMC Water Works Wing and PHED also referenced as parallel water-supply authorities depending on location; industrial connections are handled in person through the Executive Engineer's office rather than the online household route",
+      "portal": { "name": "Sewa Setu portal or GJB mobile app for household connections; industrial connections are handled offline/in-person at the Executive Engineer's office", "url": null },
+      "timeline": { "minDays": 21, "maxDays": null, "basis": "A 21 working-day timeline is cited as counted from a complete application (session 1), but both sessions agree the survey/feasibility stage sits outside this timeline and is where most delay occurs — session 2 reports 2 to 5 months commonly for the feasibility/engineer site-visit stage alone.", "text": "A 21-working-day timeline is notified from a complete application, but the feasibility/survey stage — which precedes that clock in practice — has no fixed time and commonly took 2 to 5 months in cases described by participants. One participant said they applied in February and the engineer visited in August." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Land documents",
+        "Holding number",
+        "GMC property tax receipt (asked for again at the feasibility visit, and sometimes a third time at fee payment)",
+        "Identity and address proof (already filed with GMC for trade licence/property tax but asked again)",
+        "Trade licence and GST registration (asked for by some officials, not others — inconsistent across officials)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Document requirements are described as varying by which official receives the file.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Participants state there is no deemed-approval provision for this service, even though it is notified under the Assam Right to Public Services Act." },
+      "validity": { "text": "Not stated in this document (no expiry/validity period for an installed connection is discussed); a change of firm name, partner or ownership requires the entire document set to be refiled as a fresh application with no short amendment route." },
+      "fees": { "text": "No published rate card exists for a non-domestic/bulk industrial connection, so the likely deposit and monthly charge are not known to applicants in advance. The Jal Board charges a metered tariff; the GMC Water Works Wing operates under different (unspecified) rules — participants were unclear which authority and charge structure applies to them." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Check whether the unit's area/zone has been commissioned under the phased JICA-funded Guwahati water supply network rollout — zone-wise status is not published, and non-commissioned areas cannot apply at all", "automated": false, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Household connections apply online via Sewa Setu/GJB app; industrial applicants instead go in person to the Executive Engineer's office with required details — a separate, parallel paper route with no acknowledgement slip, application number or status tracking", "automated": "partial", "note": "" },
+        { "n": 3, "phase": "inspect", "title": "Feasibility/site survey by the zone engineer — no advance notice of survey date; inspections are clubbed and conducted only once enough applications collect in one area; this stage has no fixed timeline and was the main source of delay (commonly 2-5 months)", "automated": false, "note": "" },
+        { "n": 4, "phase": "scrutiny", "title": "Originals of already-submitted documents are re-verified in person at the feasibility visit; the document list requested varies by official", "automated": false, "note": "" },
+        { "n": 5, "phase": "fee", "title": "Estimate and deposit raised after feasibility; applicant separately arranges right-of-way and any road-cutting permission (outside the water department, from GMC/PWD) before the line can be laid", "automated": false, "note": "" },
+        { "n": 6, "phase": "approve", "title": "Connection released; files move physically between section clerk, Assistant Engineer, Executive Engineer and accounts branch with no applicant-visible register", "automated": false, "note": "Supply is reported as irregular after release (shutdowns, pipe bursts, pressure fluctuation, irregular timing)." }
+      ],
+      "remarks": [
+        "This FGD-only record combines two separate sessions (16-09-2026 and 09-10-2026) covering overlapping but complementary ground — the first session focuses on availability (piped vs groundwater/borewell default) and policy framing, the second on the industrial application process and feasibility-stage delay; findings are synthesized across both per the extraction spec.",
+        "Not yet verified against an official ED for Water Connection in Assam.",
+        "Session 1 participants frame the real regulatory burden for Guwahati industrial units as the groundwater/CGWA NOC rather than the piped water connection itself, since piped supply is largely unavailable to them."
+      ]
+    }
+  ]
+}

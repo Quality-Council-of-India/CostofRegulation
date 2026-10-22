@@ -1,0 +1,1644 @@
+{
+  "code": "KA",
+  "name": "Karnataka",
+  "licenses": [
+    {
+      "serviceCode": "BMPA",
+      "serviceName": "Boilers Manufacturer Permission Approval",
+      "sourceFile": "KA_ED_BMPA.docx",
+      "issuingAuthority": "Department of Factories, Boilers, Industrial Safety and Health (DFBISH), Karnataka — Head Office, Bangalore, with jurisdictional field officers across 12 administrative divisions",
+      "portal": {
+        "name": "E-Suraksha portal (integrated with NSWS)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 21,
+        "maxDays": 21,
+        "basis": "Sakala (Karnataka Guarantee of Services to Citizens Act) SLA, reduced from a previous 30-day timeline",
+        "text": "The mandated SLA is 21 days under Sakala, down from a previous 30-day timeline. The ED states actual processing is completed well within this window, with internal routing and reporting generally taking ~7 days."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Premises / Location Proof: ownership deed or lease/rental agreement of the workshop or shed",
+        "Machinery & Equipment Details: list and specifications of fabrication, hoisting, and handling equipment",
+        "Power Sanction / Load Proof: documentation of sanctioned electrical power for workshop machinery",
+        "Technical Manpower Credentials: details, resumes, and qualification proofs of design engineers",
+        "Skilled Personnel & Welder Certificates: valid certificates of IBR-qualified welders",
+        "Testing & Quality Facilities: list of in-house testing equipment and credentials of testing personnel",
+        "Form N Declarations: self-declarations on technical capabilities, workshop layout, and facilities"
+      ],
+      "documentsNote": "",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Deemed approval is not currently implemented in the E-Suraksha portal. It is seen as feasible only for renewals where infrastructure, machinery, and manpower are unchanged; for fresh recognitions it is constrained by the statutory requirement to verify physical manufacturing and safety capability."
+      },
+      "validity": {
+        "text": "Current validity is 2 years for both fresh recognition and renewals. Proposed central amendments (draft Indian Boiler Regulations 2026) seek to extend this to 5 years."
+      },
+      "fees": {
+        "text": "Statutory recognition fee is ₹20,000 (flat, under Karnataka Boiler Rules), and the renewal fee is identical at ₹20,000. The fee does not vary with boiler capacity, factory size, or headcount. Optional/demand-driven testing costs ₹1,000 per equipment for departmental calibration/witnessing versus ~₹15,000 per man-day for third-party agencies."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Online application filing (Form N) via E-Suraksha portal",
+          "automated": true,
+          "note": "Applicant attaches required technical credentials."
+        },
+        {
+          "n": 2,
+          "phase": "fee",
+          "title": "Online fee payment of ₹20,000",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Application routed to jurisdictional field officer (1 of 12 divisions)",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Physical assessment of workshop by field officer (fresh applications only)",
+          "automated": false,
+          "note": "Renewals with unchanged infrastructure/machinery/manpower are processed as desk work with no site visit."
+        },
+        {
+          "n": 5,
+          "phase": "scrutiny",
+          "title": "Field officer uploads assessment report to Head Office",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 6,
+          "phase": "scrutiny",
+          "title": "Scrutiny with one rectification opportunity for discrepancies",
+          "automated": "partial",
+          "note": "One chance given to rectify/re-upload before rejection and fee loss."
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Head Office approves and issues Recognition Certificate within the portal",
+          "automated": true,
+          "note": null
+        }
+      ],
+      "ed": {
+        "date": "7-September-2026",
+        "location": "Bangalore",
+        "expert": "KM Pratham",
+        "designation": "Additional Director"
+      },
+      "remarks": [
+        "The department relies on a general labour department helpline that does not support boiler-specific technical queries; applicants interface directly with assigned divisional officers.",
+        "The E-Suraksha portal currently lacks an integrated appeal or grievance redressal mechanism; this is slated for inclusion in a forthcoming portal upgrade.",
+        "Broader departmental services are being realigned under the Occupational Safety, Health and Working Conditions (OSH) Code, while boiler technical regulation continues under the specialized Boilers framework."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "delay",
+          "tags": [
+            "FEES",
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants risk losing the ₹20,000 statutory fee outright if minor data errors are found at inspection, creating unnecessary financial penalties for inadvertent clerical discrepancies."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "RENEWAL",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Long-standing manufacturers operating in the same premises for 10-15 years must still be re-evaluated and pay the full ₹20,000 fee every 2 years under the Karnataka Boiler Rules."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Manufacturing of each boiler order requires 3 to 4 mandatory physical departmental stage inspections, creating production halts, scheduling delays, and inspector burden."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "RENEWAL",
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Welder certificates expire every 2 years, creating an operational verification gap if the proposed 5-year manufacturer recognition validity is adopted without synchronizing welder renewal cycles."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Adopt the updated draft Indian Boiler Regulations 2026 to replace the 2-year recognition cycle with 5-year validity, which is estimated to cut recurring renewal applications and fee expenditure by 60% over a decade."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Formally execute a risk-shared inspection model allowing manufacturer self-certification for intermediate manufacturing stages, restricting physical checks to critical initial and final testing — estimated to cut inspection load and turnaround delays by 50%."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE",
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Complete the ongoing software upgrade to incorporate Aadhaar/e-Sign verification and an automated online grievance/appeal redressal mechanism."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "RENEWAL",
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Enable one-click auto-renewal for manufacturers who submit verified non-change declarations on facility, machinery, and manpower."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The Sakala SLA for recognition was reduced from 30 to 21 days, with full internal tracking across 12 field divisions."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "RENEWAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Renewals where technical facilities, machinery, and personnel are unchanged are processed with zero offline steps via paperless desk scrutiny, eliminating physical inspection."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "INSPECT",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Full contact details, mobile numbers, email IDs, and scheduled visit dates of inspecting officers are shared transparently with applicants ahead of site inspections."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Departmental calibration/witnessing is offered at a nominal ₹1,000 per equipment, well below third-party market rates of roughly ₹15,000 per man-day."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "There is no dedicated technical helpline for boiler-specific queries; the department relies on a general labour department helpline instead."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "GRIEVANCE",
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The E-Suraksha portal lacks an integrated appeal or grievance redressal mechanism, though one is planned in a forthcoming upgrade."
+        },
+        {
+          "source": "ed",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Broader departmental services are being realigned under the Occupational Safety, Health and Working Conditions (OSH) Code, while boiler-specific technical regulation continues to operate under the specialized Boilers framework."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "positive",
+          "text": "Component-level risk differentiation already exists during manufacturing: specialized components like valves and pressure parts require physical stage inspection, while basic raw materials fall under a 'well-known' scheme permitting 5-year self-certification."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No appeal or grievance redressal process is described for BMPA beyond a single rectification opportunity before rejection; applicants' recourse if a rejection is contested is not stated."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The 'Application Assignment' step routing applications to one of 12 administrative divisions is not described as automatic (system-routed) or manually assigned."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Deemed approval for renewals is only a proposed future 'operationalization roadmap' (auto-generated e-signed certificate on SLA expiry), not yet implemented — contingent on the pending E-Suraksha software upgrade."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Officers proactively share contact details and scheduled inspection dates with applicants ahead of site visits, and the department offers calibration services far below private market rates."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No aggregate/average actual turnaround figure is given for BMPA recognition — only a qualitative statement that it finishes 'well within' the 21-day SLA, with internal routing cited at ~7 days."
+        }
+      ]
+    },
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFile": "KA_ED_CTE.docx",
+      "issuingAuthority": "Karnataka State Pollution Control Board (KSPCB), through regional board officers and competent board authorities",
+      "portal": {
+        "name": "KSPCB online consent portal (exact name not stated in ED)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 90,
+        "basis": "Sakala (Karnataka Guarantee of Services to Citizens Act) SLA, differentiated by pollution risk category",
+        "text": "Mandated timelines by category are Green 30 days, Orange 60 days, Red 90 days, and White exempted (0 days). Actual processing runs 30-90 days and is strictly monitored against these Sakala SLA timelines. Applicant form-filling takes about 30 minutes if documents are ready."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Detailed Project Report (DPR): pollution handling proposals for water, air, solid and hazardous waste, including ETP/STP plans",
+        "Site Location & Distance Proof: layout plan verifying distance from protected areas, eco-sensitive zones, and rivers/lakes",
+        "Gross Capital Investment Certificate: CA certificate declaring total gross value (land, building, plant & machinery, or rental terms)",
+        "Ownership / Lease Documents: proof of site ownership or a registered rent/lease agreement",
+        "Environmental Clearance (EC) copy, if the project falls under the EIA notification schedule"
+      ],
+      "documentsNote": "The EC copy is required only where applicable under the EIA notification schedule.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Deemed approval is not currently available for CTE. Board officials stated no scope was discussed, as physical site inspection is legally mandated under the Water Act to verify distance from protected areas/rivers and environmental feasibility before establishment."
+      },
+      "validity": {
+        "text": "CTE is valid for 5 years or until project construction/commissioning is complete, whichever is earlier. It is a one-time clearance for construction with no regular renewal; once construction ends and equipment is installed, the applicant must apply for Fresh CTO before commencing operations."
+      },
+      "fees": {
+        "text": "Fee is calculated strictly on Gross Capital Investment (land, building, machinery, or rental value) as certified by a CA, combined with industry sector. White category pays ₹0. Sample slabs: up to ₹1 lakh = ₹400; >₹1 lakh-₹5 lakhs = ₹1,000; >₹50 lakhs-₹1 crore = ₹12,000; >₹10 crores-₹25 crores = ₹60,000; >₹100 crores-₹250 crores = ₹25,00,000. Employee count and validity duration do not affect the fee."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Registration and login on the online portal",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Application and document submission (pollution handling details, Project Report, site details, CA certificate)",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Fee calculation and online payment based on gross capital investment",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Scrutiny and query resolution by board officers",
+          "automated": "partial",
+          "note": "Queries for incomplete details are sent via email/portal for resubmission."
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Site inspection by regional board officer",
+          "automated": false,
+          "note": "Verifies location suitability and plan feasibility."
+        },
+        {
+          "n": 6,
+          "phase": "scrutiny",
+          "title": "Inspection report uploaded into the software",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 7,
+          "phase": "scrutiny",
+          "title": "Evaluation by competent authorities against Sakala SLA timelines",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "phase": "approve",
+          "title": "Grant of CTE — e-signed certificate issued online with conditions",
+          "automated": true,
+          "note": null
+        }
+      ],
+      "ed": {
+        "date": "21-July-2026",
+        "location": "Bangalore",
+        "expert": "Ambikan",
+        "designation": "Environment Officer"
+      },
+      "remarks": [
+        "Application processing timelines are tracked under Sakala, but the system lacks an automated appeal mechanism or auto-escalation trigger for SLA breaches, relying instead on manual email queries.",
+        "The department operates without an active dedicated telephone helpline for software or process troubleshooting; dedicated email monitoring is the primary technical support channel."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants must submit identical project details, layout plans, and CA investment certificates separately under the Water Act and Air Act, duplicating document filing effort by an estimated 30-40%."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Mandatory physical site inspections of vacant land are required even for low-risk Green/Orange category projects before any construction exists."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "FEES",
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Micro-units are evaluated against outdated internal PCB investment limits (<₹25 lakhs) instead of the central MSME norm (<₹1 crore), causing units between ₹25 lakhs and ₹1 crore to be overcharged as 'Small Industries'."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Physical site visits to vacant land for Green/Orange categories prior to construction cause processing delays and backlogs before any physical facility exists."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY",
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants are heavily dependent on third-party consultants to complete technical forms, increasing indirect compliance costs for small businesses and leading to report errors."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Implement a single integrated Combined Consent Order (CCO) form merging Water Act and Air Act filings, estimated to reduce document preparation and filing effort by 30-40%."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Replace mandatory pre-construction site inspections for Green/Orange categories with self-declarations or third-party certification, shifting inspection to post-construction audits — estimated to cut processing SLA from 30-60 days to 1-3 days and inspector workload by 50%."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "FEES",
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Harmonize state PCB fee slabs with the central MSME investment threshold (<₹1 crore), reducing CTE fee burden on micro-enterprises by an estimated 60-80%."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Shift the fee basis from Gross Capital Investment to Net Capital Value (accounting for depreciation), reducing financial burden during expansions."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Finalize and deploy the Single Window System grievance module with automated escalation pathways and auto-appeal mechanisms for SLA breaches."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL",
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Enhance the portal with auto-fetching of land/corporate data, pre-filled form templates, and step-by-step guidance wizards to reduce dependence on third-party consultants."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The entire process — registration, document submission, fee payment, real-time status tracking, and e-signed consent issuance — is fully online with complete transparency and no physical visits required of the applicant."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Consent orders and status details are freely accessible on the public domain for scrutiny, unlike states that require login credentials, mobile registration, or OTPs to view records."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "CTE processing timelines are legally bound and monitored under Karnataka's Sakala Act, establishing clear accountability and strict SLA tracking on departmental dashboards."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "White category industries are fully exempted from CTE, and micro-enterprises (investment <₹25 lakhs) are granted lifetime consents, reducing administrative overhead."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "The system lacks an automated appeal mechanism or auto-escalation trigger for SLA breaches, relying on manual email queries; there is also no dedicated telephone helpline."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "The exact name of the CTE online portal is not stated in the ED — only referred to generically as 'the portal' / 'software'."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The 'competent authorities' who conduct the Evaluation step (step 7) are not named by designation."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The precise criteria defining which projects fall into the exempted 'White' category are not detailed beyond the category label itself."
+        },
+        {
+          "flag": "REFORM",
+          "text": "The Combined Consent Order (CCO) merging Water and Air Act filings, and the Net Capital Value fee basis, are recommended reforms, not yet implemented."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Full public-domain accessibility of consent orders without login/OTP requirements, and lifetime consent for micro-enterprises, are cited as notable practices."
+        }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFile": "KA_ED_CTO.docx",
+      "issuingAuthority": "Karnataka State Pollution Control Board (KSPCB), through regional board pollution inspectors and Regional/Head Office authorities",
+      "portal": {
+        "name": "KSPCB online consent portal (exact name not stated in ED)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 90,
+        "basis": "Sakala (Karnataka Guarantee of Services to Citizens Act) SLA, differentiated by pollution risk category",
+        "text": "Mandated timelines by category are Green 30 days, Orange 60 days, Red 90 days, and White exempted (0 days). Actual processing runs 30-90 days, monitored via departmental dashboard against Sakala SLAs. Applicant form-filling takes about 30 minutes if compliance records and test reports are ready."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "CTE Compliance Report: proof of fulfilment of conditions stipulated in the Consent to Establish order",
+        "STP/ETP & Pollution Control Plans: technical details, capacity specifications, photographs/drawings of installed treatment plants",
+        "Gross Capital Investment Certificate: CA certificate declaring total gross investment value",
+        "Effluent / Emission Test Reports showing parameters meet required standards, where applicable",
+        "Hazardous / Solid Waste Agreements: proof of ties with board-authorized dealers/recyclers"
+      ],
+      "documentsNote": "Effluent/emission test reports are required where applicable.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Deemed approval is not currently implemented for CTO/CFO. Board officials stated physical verification of installed STPs/ETPs and pollution standards is legally mandated under the Water Act before operational activities can be allowed, to prevent environmental contamination."
+      },
+      "validity": {
+        "text": "Validity is set by risk category: Red 5 years, Orange 10 years, Green 15 years, Micro (<₹25 lakhs investment) lifetime, White exempted. Applicants must apply for renewal prior to expiry; Orange category units can extend validity by paying 3-year upfront fee packages."
+      },
+      "fees": {
+        "text": "Fee is calculated strictly on Gross Capital Investment as declared in the CA certificate, alongside sector-specific classification (e.g., coffee pulping, infrastructure, DG sets). White category pays ₹0. Sample slabs: up to ₹1 lakh = ₹400; >₹1 lakh-₹5 lakhs = ₹1,000; >₹50 lakhs-₹1 crore = ₹12,000; >₹10 crores-₹25 crores = ₹60,000; >₹100 crores-₹250 crores = ₹25,00,000. Employee count and validity duration do not alter the fee."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Application submission (Fresh or Renewal) before commercial/trial operations",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Document and compliance upload (CFE/CTE compliance report, CA certificate, STP/ETP details)",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Online fee payment based on gross capital investment",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Scrutiny and query resolution by board officers",
+          "automated": "partial",
+          "note": "Missing/incomplete details trigger a query via email/portal."
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Physical site inspection to verify STP/ETP and pollution control machinery against the original CFE plan",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "phase": "scrutiny",
+          "title": "Inspecting officer uploads official inspection report into the software",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 7,
+          "phase": "scrutiny",
+          "title": "Evaluation by Regional/Head Office authorities against Sakala SLA timelines",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 8,
+          "phase": "approve",
+          "title": "Grant of CTO — e-signed certificate with discharge/emission standards issued online",
+          "automated": true,
+          "note": null
+        }
+      ],
+      "ed": {
+        "date": "21-July-2026",
+        "location": "Bangalore",
+        "expert": "Ambikan",
+        "designation": "Environment Officer"
+      },
+      "remarks": [
+        "CTO processing is tracked under Sakala, but no automated appeal or auto-escalation trigger exists for SLA breaches.",
+        "Software and CTO processing issues are handled via monitored section email addresses, as no active dedicated telephone helpline is available."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "FEES",
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Micro-units are evaluated against outdated internal PCB investment limits (<₹25 lakhs) instead of the central MSME norm (<₹1 crore), causing them to be charged higher 'Small Industry' fees."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants seeking operational expansion must re-enter existing facility baseline data rather than the system reusing pre-existing records, only modified capacity data should need entry."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Consent renewal fees are calculated strictly on Gross Capital Investment without accounting for depreciation, increasing recurring operational renewal costs for older plants."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY",
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Heavy dependence on consultants to file annual environmental statements (Form 5) and CTO renewals adds indirect recurring costs for small enterprises."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "FEES",
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Formally adopt the ₹1 crore micro-industry investment threshold across all board fee notifications, reducing CTO fee burden on micro-enterprises by an estimated 60-80%."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Allow consent renewal fees to be computed on Net Capital Value accounting for asset depreciation, reducing recurring regulatory costs for established industries."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Finalize the Single Window System grievance module to provide automated auto-appeal routing for SLA breaches."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC",
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Ensure expansion applications auto-populate existing master data so applicants only input incremental capacity changes."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL",
+            "COMPLY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Introduce pre-filled Form 5 templates and automated system prompts to lower compliance costs and cut annual environmental statement submission time to under 15 minutes."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "RENEWAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Micro-enterprises (<₹25 lakhs investment) are granted lifetime operational consent, drastically reducing administrative paperwork."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "RENEWAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Orange (10-year) and Green (15-year) category validity periods minimize recurring renewal friction."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "All consent orders and status details are downloadable directly from the public domain without login OTPs or restricted registration."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Annual environmental statements (Form 5) are filed directly through the software portal, eliminating physical filings."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "No automated appeal or auto-escalation trigger exists for SLA breaches, and dedicated support is limited to monitored section email addresses with no active telephone helpline."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "NORMS",
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "The Red category (covering 17 identified polluting categories) is subject to the longest 90-day timeline, 5-year validity, and the most frequent physical testing and stringent inspection."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "The exact name of the CTO online portal is not stated in the ED — only referred to generically as 'the portal' / 'software'."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The 17 specific 'Red Category' polluting categories referenced for CTO are named only as a count, not individually listed."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The Regional/Head Office authorities performing the Evaluation step (step 7) are not identified by designation."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Net Capital Value-based fee calculation and automated auto-appeal tracking are recommended reforms, not yet implemented."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Lifetime validity for micro-units and long (10-15 year) validity for Orange/Green categories are cited as reducing recurring renewal friction."
+        }
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFile": "KA_ED_FBPA.docx",
+      "issuingAuthority": "Department of Factories, Boilers & Industrial Safety and Health, Karnataka — jurisdictional area officer (inspection/recommendation), with Joint Director / Deputy Director (or higher appellate authority) approving",
+      "portal": {
+        "name": "Online portal integrated with NSWS (exact portal name not stated in ED)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 14,
+        "maxDays": 14,
+        "basis": "Sakala Act SLA, reduced from the Factories Act's original 90-day statutory timeline",
+        "text": "The mandated SLA is 14 days, down from a 90-day statutory timeline under the Factories Act. The SLA clock pauses for up to 7 days to let applicants respond to queries; appeals against rejections are resolved in approximately 7 days."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Building & Machinery Layout Plans: architectural and plant layout drawings showing machinery placement, gangways, lighting, ventilation",
+        "Welfare & Safety Infrastructure Drawings: layout of workers' facilities (toilets, lunch rooms, canteens, crèches)",
+        "Building Stability Certificate from an empanelled structural engineer recognized by the department or local planning authorities/BBMP",
+        "Fire Safety Layout / Fire NOC: fire safety installation layouts; formal Fire NOC required if building height exceeds 21 meters",
+        "Pollution Clearances (CTE/NOC): KSPCB Consent to Establish / environmental clearance if hazardous or polluting processes are involved",
+        "Land Use / Non-Agricultural (NA) Conversion proof of industrial land use or revenue conversion order",
+        "On-Site Emergency Plan: mandatory disaster management plan for units handling hazardous processes or classified as Major Accident Hazard (MAH)"
+      ],
+      "documentsNote": "Fire NOC, pollution clearances, and the On-Site Emergency Plan are conditional, applying only where height, process hazard, or MAH classification thresholds are met.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Deemed approval is not provided and is opposed by the department. Officials note that 7-day deemed approvals used in other states rely purely on unverified paper drawings, creating safety risks and threats of post-construction cancellation; physical inspection is considered vital to structural integrity and worker safety."
+      },
+      "validity": {
+        "text": "Validity is perpetual/lifetime with no regular renewal as long as premises, machinery layout, and structural boundaries remain unchanged. On average every 3 years, industries undergo modernization, machinery replacement, or capacity/workforce changes that trigger an amendment/re-approval of the building plan."
+      },
+      "fees": {
+        "text": "The plan approval fee is nominal, ranging around ₹500 to ₹1,000 based on the prescribed schedule, and is independent of horsepower/worker scale (unlike licensing fees)."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Online submission of factory details, layout drawings, and statutory fee payment",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Jurisdictional routing to local area officer based on factory location",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Desk scrutiny and query resolution",
+          "automated": "partial",
+          "note": "SLA clock pauses up to 7 days for rectification; unaddressed queries lead to auto-fetch for rejection by day 7."
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Physical site inspection verifying layout plans against physical reality",
+          "automated": false,
+          "note": "Checks machinery placement, ventilation, toilets, fire egress, etc."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Recommendation and final order by second-level higher authority (e.g., Joint/Deputy Director)",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Online right of appeal to next higher appellate authority on rejection",
+          "automated": "partial",
+          "note": "Handled one rank higher, resolved within ~7 days."
+        }
+      ],
+      "ed": {
+        "date": "13-October-2026",
+        "location": "Bangalore",
+        "expert": "Navaneeth Mohan N",
+        "designation": "Joint Director"
+      },
+      "remarks": [
+        "The department has ceased unannounced raids or arbitrary site audits; inspections are strictly confined to post-registration verification when formally requested by the user.",
+        "Out-of-state entities (from Delhi, Andhra Pradesh, etc.) can process secondary standard verifications remotely through the integrated NSWS gateway without physically traveling to Karnataka.",
+        "The Recommendations and Other Remarks content recorded for this ED largely mirrors KIADB/Panchayat land-allotment topics (E-Khata integration, GIS vacant land dashboard, Form N) rather than being specific to Factory Building Plan Approval; see the corresponding gap flag."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Local panchayat clearances are required alongside comprehensive technical scrutiny by the Factories Directorate in rural industrial zones, duplicating scrutiny and adding 2-3 weeks of processing delay."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants often submit AI-generated or substandard layouts placing heavy machinery on mezzanine floors or omitting mandatory welfare spaces, leading to plan rejections, structural hazards, or capital loss if machinery is ordered prematurely."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "TIMELINE",
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Applications are auto-fetched for outright rejection if structural modifications are not re-uploaded within the rigid 7-day query window, penalizing applicants who need time to procure revised structural drawings."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Clarify that technical factory planning overrides local panchayat permits to eliminate duplicate scrutiny, reducing processing delays by 2 to 3 weeks."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Publish standard sector-specific architectural layout templates and checklist builders on the portal, estimated to cut plan rejection/query rates by 30-40%."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE",
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Provide a 15-day extension upon request for complex structural/architectural modifications instead of auto-rejecting at 7 days."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Develop a dedicated online dispute and grievance resolution portal to replace unstructured email appeals to senior leadership."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Decoupling building plan approval from factory registration prevents financial loss of registration fees if plans require redesign."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Complex architectural factory plans are processed within a 14-day Sakala SLA, with the clock paused for user queries."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "CLARITY",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Rejections use standardized, codified primary/secondary dropdown grounds rather than open-ended arbitrary text, improving clarity."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "GRIEVANCE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "A transparent, one-rank-higher hierarchical online appeal system resolves grievances within approximately 7 days."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Factories are classified into three hazard tiers — Major Accident Hazard (MAH), Hazardous, and Non-Hazardous — with MAH and Hazardous units required to submit an emergency preparedness plan and obtain KSPCB environmental consent before approval."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The department has ceased unannounced raids or arbitrary site audits; inspections are now confined to post-registration verification on formal request."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Out-of-state entities can complete secondary standard verifications remotely through the integrated NSWS gateway without traveling to Karnataka."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "The exact name of the online portal used for FBPA is not stated in the ED, beyond its integration with NSWS."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The Recommendations and Other Remarks sections recorded in this ED (KIADB-Panchayat land record integration, GIS vacant land dashboard, Form N) read as land-allotment-specific content rather than Factory Building Plan Approval reforms, suggesting possible cross-document duplication in the source transcript rather than FBPA-specific detail."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Exact criteria distinguishing Major Accident Hazard, Hazardous, and Non-Hazardous classification tiers are not detailed beyond the tier names."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The '3 years' amendment trigger is described as an average ('on average every 3 years') rather than a defined rule-based period."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Decoupling building plan approval from factory registration, standardized dropdown rejection grounds, and the one-rank-higher appeal system are cited as notable practices."
+        }
+      ]
+    },
+    {
+      "serviceCode": "LA",
+      "serviceName": "Land Allotment",
+      "sourceFile": "KA_ED_LA.docx",
+      "issuingAuthority": "Karnataka Industrial Areas Development Board (KIADB), with District/State Level Single Window Clearance Committees (DLSWCC/SLSWCC) appraising and the KIADB CEO approving plot allocation",
+      "portal": {
+        "name": "Karnataka Udyog Mitra (KUM) / KIADB portal",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 60,
+        "maxDays": 60,
+        "basis": "Karnataka Single Window Clearance Act / KIADB Regulations",
+        "text": "Once an industrial layout is notified, committee review and allotment are targeted within 2 months (60 days). Downstream applicant payment and execution timelines follow: 30 days for the initial deposit, 90 days for the balance 70% payment, and 30 days for Lease-cum-Sale execution after the Possession Certificate."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Detailed Project Report (DPR): project overview, operational plans, and technical specifications",
+        "Rough Land Utilization Sketch: proposed layout of production shed, administrative office, pantry, utilities",
+        "Income Tax Returns (ITR): past 3 years of audited tax filings",
+        "Financial Net Worth Certificate: individual or audited corporate net worth statement",
+        "Investment Details & Funding Proof: documented proof of project investment capability",
+        "Caste Certificate (mandated for SC/ST entrepreneurs claiming concessions and the 75% rebate)",
+        "Entity Registration & Tax IDs: Company/Proprietor PAN, GST Registration, identity proofs"
+      ],
+      "documentsNote": "The Caste Certificate is required only for SC/ST applicants claiming fee concessions.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Deemed approval is not applicable and was described as not feasible. Land is a finite, scarce physical resource subject to complex legal verification, land acquisition compensation hurdles (minimum 60% settlement), and local litigation; discretionary CEO allotment and site inspection cannot be automated via deemed approval."
+      },
+      "validity": {
+        "text": "In-principle committee approval is valid for 2 years from issuance; if allotment is not taken up within that period, the entrepreneur must re-apply to DLSWCC/SLSWCC for renewal and must complete the transaction within 1 year post-renewal. Plots are allotted under a 10-year Lease-cum-Sale model, reduced from the historical 99-year lease model."
+      },
+      "fees": {
+        "text": "Application/processing fee is ₹35,000 for General category and ₹13,500 for SC/ST category; renewal fees are identical. Construction extension surcharges apply beyond the 3-year deadline: 2% of total allotment cost for the first extension, 5% for the second. Statutory processing fees are flat by social category, while total land cost depends on plot size and location."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Online application filing via Karnataka Udyog Mitra portal",
+          "automated": true,
+          "note": "Includes project details, investment proof, and a rough land utilization sketch."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Committee appraisal and approval by DLSWCC or SLSWCC",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Demand letter auto-generation and initial deposit (30% General / 10% SC/ST) within 30 days",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Internal scrutiny through KIADB's four internal tables and CEO allotment of specific plot",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Allotment letter generated and e-signed via OTP by Assistant Secretary and JD/Secretary",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 6,
+          "phase": "fee",
+          "title": "Balance remittance (70% within 90 days General; SC/ST 75% rebate with 15% paid over 8 annual installments) and issuance of Confirmatory Letter",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 7,
+          "phase": "inspect",
+          "title": "Physical demarcation and Possession Certificate issuance",
+          "automated": false,
+          "note": "Executive Engineers escort the applicant to measure physical boundaries within 30 days of the Confirmatory Letter."
+        },
+        {
+          "n": 8,
+          "phase": "approve",
+          "title": "E-Khata issuance via coordination with the local Panchayat office",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 9,
+          "phase": "approve",
+          "title": "Lease-cum-Sale Agreement (LCSA) execution for a mandatory 10-year lease",
+          "automated": false,
+          "note": "Executed within 30 days of the Possession Certificate and after E-Khata receipt."
+        },
+        {
+          "n": 10,
+          "phase": "apply",
+          "title": "Online Building Plan Approval (OBPS) application with layout drawings and fee",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 11,
+          "phase": "approve",
+          "title": "Construction and commissioning within 3 years (MSMEs)",
+          "automated": false,
+          "note": "Subject to utilization audits; extended completion capped at 5 years before land resumption proceedings."
+        }
+      ],
+      "ed": {
+        "date": "13-October-2026",
+        "location": "Bangalore",
+        "expert": "Manjunath T",
+        "designation": "Superintendent"
+      },
+      "remarks": [
+        "The department has ceased unannounced raids or arbitrary site audits; inspections are strictly confined to post-registration verification when formally requested by the user.",
+        "Out-of-state entities can process secondary standard verifications remotely through the integrated NSWS gateway without physically traveling to Karnataka."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "INTERDEP",
+            "DELAY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants must separately obtain a Gram Panchayat E-Khata despite KIADB being the statutory planning and development authority, delaying Lease-cum-Sale execution beyond the prescribed 30-day window."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants seeking allotment after the 2-year in-principle approval lapses face a full DLSWCC/SLSWCC re-appraisal despite an unchanged business model."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "INTERDEP",
+            "DELAY"
+          ],
+          "sentiment": "issue",
+          "text": "Entrepreneurs must independently navigate local Panchayat offices to secure an E-Khata before registering their lease agreement, creating administrative bottlenecks and delaying lease execution beyond the mandated 30-day SLA."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Compounding construction-delay penalties (2% on first extension, 5% on second extension of total land cost) followed by eviction/land resumption after 5 years financially strain MSMEs facing market downturns or external utility delays."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Hundreds to thousands of applications compete for limited plots in Bengaluru's peripheral areas, lowering allotment transparency and leaving genuine industrial units without land."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Integrate Panchayat E-Khata issuance directly into the KIADB single-window portal, or grant KIADB deemed planning authority to issue equivalent digital Khatas — estimated to shorten post-allotment registration timelines by 30-45 days."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Introduce objective extension criteria accounting for external delays (e.g., pending power connections or litigation) instead of levying blanket percentage surcharges for construction delays."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY",
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Implement a dynamic GIS-based public industrial land bank with transparent scoring and automated ranking to reduce application backlog and curb speculative land grabbing."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Develop a dedicated online dispute and grievance resolution portal to replace unstructured email appeals to senior leadership."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP",
+            "DELAY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Harmonize building plan approvals and utility connections into an integrated post-allotment tracking module to help units meet the 3-year commissioning deadline."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "SC/ST entrepreneurs receive a 75% land cost rebate, a lowered 10% initial deposit, and the remaining 15% spread across 8 equal annual installments with interest, lowering barriers for affirmative-action industrialization."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No industrial layout is notified for allotment until at least 60% compensation is disbursed to land owners and basic infrastructure (roads, drains, electricity) is established."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Appraisal committees are tiered (DLSWCC for projects ≤₹15 crore; SLSWCC for ₹15-250 crore), preventing executive gridlock at the state level."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "File progression across KIADB's four internal tables is fully digital, with OTP-based e-signing for allotment letters."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Land allotment itself does not apply Red/Orange/Green/White risk categorization; environmental/pollution categorization is handled downstream by KSPCB during the Environmental Clearance/Consent phase, with KIADB layouts obtaining overarching ECs that stipulate permissible zoning."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "The current mechanism for allocating plots when demand exceeds supply (e.g., around Bengaluru, described as having 'hundreds to thousands' of competing applications) is not described — no lottery, merit-scoring, or queue system is detailed."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "What formally closes out the process after the 3-year (or extended 5-year) construction/commissioning window, beyond Executive Engineer utilization audits, is not clearly specified."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No figure is given for actual (as opposed to targeted) time from layout notification to allotment; only the 60-day target is stated."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Direct KIADB-Panchayat E-Khata integration and the GIS-based public land bank are recommended future reforms, not yet implemented."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "The SC/ST concessionary structure (75% rebate, lower deposit, installment plan) and the pre-development infrastructure guarantee (60% compensation disbursed before notification) are cited as notable practices."
+        }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFile": "KA_ED_LEM.docx",
+      "issuingAuthority": "Department of Legal Metrology, Government of Karnataka",
+      "portal": {
+        "name": "KUM / Seva One / departmental portal (e-Maapana)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 21,
+        "maxDays": 21,
+        "basis": "Sakala (Karnataka Guarantee of Services to Citizens Act) SLA, reduced from a previous 30-day timeline under Ease of Doing Business guidelines",
+        "text": "The mandated SLA is 21 days, and the system auto-approves within this window if no discrepancies exist. If defects are found post-issuance, an Improvement Notice gives the applicant 15 to 30 days to rectify without cancelling the filing."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "PAN Card (mandatory; submission is blocked if omitted)",
+        "Aadhaar Card (proof of personal identity)",
+        "Business Registration / Tax Proof: GST Registration Certificate or BBMP Trade License/Trade Certificate, if available/applicable",
+        "Manufacturing / Instrument Specifications: technical details of weights, measures, or weighing instruments to be manufactured or handled"
+      ],
+      "documentsNote": "Business registration proof (GST or BBMP trade certificate) is required where applicable/available for the premise.",
+      "deemedApproval": {
+        "status": "yes",
+        "days": 21,
+        "text": "Deemed approval is fully operationalized: if an application passes system document validation checks, it is auto-approved by the software within the 21-day Sakala timeline without requiring physical scrutiny or manual officer signatures."
+      },
+      "validity": {
+        "text": "Validity is perpetual/lifetime — the previous 2-year renewal cycle was abolished in 2024, so no renewal applications or renewal fees are required. Operational changes (adding equipment, modifying premises, workforce changes) are handled through an online amendment form costing ₹100."
+      },
+      "fees": {
+        "text": "Fixed fee schedule by category: Manufacturer Registration ₹6,000, Dealer Registration ₹4,000, Repairer Registration ₹3,000, Packaged Commodities (PC) Registration ₹500 (centrally prescribed), Amendment to Registration ₹100. Fees do not vary by investment size, turnover, or headcount, and no scrutiny, processing, or inspection surcharges are charged."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Online application filing via KUM, Seva One, or departmental portal",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Document and detail upload (equipment specs, PAN, Aadhaar, GST/BBMP trade certificate)",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Mandatory field validation by the portal",
+          "automated": true,
+          "note": "e.g., PAN integration blocks submission if missing."
+        },
+        {
+          "n": 4,
+          "phase": "fee",
+          "title": "Online fee payment through integrated gateway",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "System scrutiny and auto-approval within 21 days under Sakala",
+          "automated": true,
+          "note": "No manual officer intervention."
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Certificate issuance and immediate download from the dashboard",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 7,
+          "phase": "inspect",
+          "title": "Post-issuance verification / calibration",
+          "automated": "partial",
+          "note": "Scheduled subsequently upon user application or during annual cycles."
+        }
+      ],
+      "ed": {
+        "date": "13-October-2026",
+        "location": "Bangalore",
+        "expert": "Govindappa C",
+        "designation": "Deputy Controller of Legal Metrology"
+      },
+      "remarks": [
+        "The department has ceased unannounced raids or arbitrary site audits; inspections are strictly confined to post-registration verification when formally requested by the user.",
+        "Out-of-state entities can process secondary standard verifications remotely through the integrated NSWS gateway without physically traveling to Karnataka."
+      ],
+      "dataGaps": [],
+      "findings": [
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "GRIEVANCE",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Certain low-literacy users, particularly repairers, must physically visit local departmental offices when facing portal or operational queries, incurring travel time and logistical inconvenience for micro-service providers."
+        },
+        {
+          "source": "ed",
+          "category": "pain",
+          "tags": [
+            "INSPECT",
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Genuine commercial dealers face the threat of immediate cancellation or heavy penalties upon detection of minor field calibration drifts/defects."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE",
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Enhance regional helpdesks and deploy assisted digital kiosks / field-level guidance, targeting resolution of applicant queries within 2-3 days against a 7-day SLA limit."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "COMPLY",
+            "INSPECT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Institutionalize the Improvement Notice protocol under the Jan Vishwas framework, offering 15-30 days' extension for equipment re-testing instead of immediate penalties."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Finalize and notify rules under Section 24 of the Legal Metrology Act to operationalize Government Approved Test Centres (GATC) for decentralized third-party testing and stamping."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Complete cabinet clearance of draft amendments aligning all state metrology regulations with the Jan Vishwas decriminalization framework."
+        },
+        {
+          "source": "ed",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE",
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Complete the ongoing software upgrade to incorporate a digital appeal tracking system within the e-Maapana portal."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "NORMS",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "7 to 8 statutory sections involving criminal penalties and imprisonment have been fully decriminalized, eliminating fear of arbitrary detention."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "RENEWAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Recurring license validity periods were replaced with lifetime registration, with simple ₹100 online amendments for operational changes."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "INSPECT",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Full trust-based auto-approval based on digital identification (PAN validation) operates without any physical premise inspection before registration."
+        },
+        {
+          "source": "ed",
+          "category": "remarks",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The state engine is linked directly with NSWS, allowing interstate applicants to obtain model approvals and secondary standard verification remotely."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Pre-issuance premise inspections under earlier state enforcement procedures were eliminated, which the ED cites as having reduced processing delays to zero manual touchpoints and enabled instant/auto-approval."
+        },
+        {
+          "source": "ed",
+          "category": "redundant",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Routine biennial re-registration previously required for unchanged businesses was eliminated in 2024, removing recurring compliance overhead for over 7,000 businesses statewide."
+        },
+        {
+          "source": "ed",
+          "category": "procedural",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Rules are actively being framed under Section 24 of the Legal Metrology Act for Government Approved Test Centres (GATC) to authorize accredited third-party centers to conduct verification and stamping of select instruments."
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No timeline or target date is given for finalizing the GATC (Government Approved Test Centres) rules under Section 24 — only that rules are 'actively being framed'."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The exact criteria for when a BBMP Trade Certificate versus a GST Registration Certificate is required ('if available/applicable') are not specified."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No average actual processing-time figure is given versus the 21-day SLA — only that the system auto-approves 'within' the timeline."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Jan Vishwas state rule alignment (pending cabinet approval) and the e-Maapana digital appeal tracking module are described as in-progress, not yet completed."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Full decriminalization of 7-8 statutory sections and a zero pre-approval inspection, trust-based auto-approval model are cited as notable practices."
+        }
+      ]
+    }
+  ]
+}

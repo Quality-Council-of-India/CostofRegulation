@@ -1,0 +1,1240 @@
+{
+  "code": "PB",
+  "name": "Punjab",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": [
+        "PB_FGD_CTE.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named by participants; the discussion references the Invest Punjab portal and the Right to Business (RTB) Act generally, without naming the specific sanctioning department/officer.",
+      "portal": {
+        "name": "Invest Punjab portal (referenced generally by participants; no further detail given)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "No statutory day-count was stated by participants.",
+        "text": "No official timeline figure was given. One participant (R1) said CTE 'is very fast... provided you have clarity about your project' and that 'if you have clarity and you provide all information correctly... approval comes within 7 days' — but this is anecdotal best-case testimony, not a confirmed statutory timeline."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No itemized document checklist was described by participants; they referred only generally to 'all required documents' being uploaded online.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Deemed approval was not discussed by participants."
+      },
+      "validity": {
+        "text": "Not discussed by participants."
+      },
+      "fees": {
+        "text": "No official government fee figure was given. Only consultant charges were mentioned: R3 suggested a fair range of ₹5,000-₹7,000 for empanelled consultants, while R2 reported paying ₹1,25,000 to a consultant for a bundled package covering CTE and other services."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Obtain CLU (Change of Land Use) approval if land is outside designated industrial areas",
+          "automated": "unclear",
+          "note": "Described as cumbersome and time-consuming; participants say this is often the real bottleneck before CTE can even be applied for, and CTE applications are sometimes rejected solely for lack of CLU approval."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Apply for CTE via the online portal, uploading required documents",
+          "automated": "partial",
+          "note": "One participant said the online process is straightforward when all required documents are uploaded correctly; others described a complete lack of clarity on procedure."
+        },
+        {
+          "n": 3,
+          "phase": "approve",
+          "title": "Application reviewed; approved if information/category is clear and complete",
+          "automated": "unclear",
+          "note": "Per R1, approval can come within about 7 days when the applicant has clarity and submits correct information; delays/rejections occur when the applicant lacks clarity, applies in the wrong category, or submits incomplete information."
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B — no corresponding ED entry exists for CTE in Punjab); it has not been verified against an official source.",
+        "Single session, 5 participants, Ludhiana, 17-08-2026."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Lack of Clarity: the respondent faced significant difficulty due to a complete lack of clarity on procedures; there is no proper tutorial or guidance available for CTE application, leading to confusion."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "No 'Open Window' for Information: there is no central, accessible point of contact or help desk where a new entrepreneur can get clear, step-by-step guidance on the CTE procedure."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "A major challenge is the limited availability of land in designated industrial areas, compelling entrepreneurs to set up in other zones; obtaining CLU for such land is cumbersome and time-consuming, becoming a critical bottleneck before CTE can even be applied for."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Category Misclassification: a respondent's shot blast machine was incorrectly placed in the Red category when it should be Orange, affecting the CTE application process and fees."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "No Panel of Empanelled Consultants: the government does not provide a list of authorized consultants with fixed, transparent fees, leading to exploitation by unauthorized consultants."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Lack of Awareness Campaigns: despite the online portal and the RTB Act, common entrepreneurs are not aware of these resources — a procedural failure in communication and outreach."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE",
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Document duplication was not highlighted as a major issue specifically for CTE; the respondent said the online process is straightforward when all required documents are uploaded correctly."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Dependency on Third Parties: the respondent had to rely on third-party consultants and CAs because he did not have sufficient knowledge of the procedure."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "CLARITY",
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Most delays in CTE happen when the applicant lacks clarity about the project, applies in the wrong category, or submits incomplete information."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INTERDEP",
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Industrial land is scarce, forcing entrepreneurs into non-industrial areas; CTE gets delayed or even rejected because CLU approval for such land takes months, making CLU — not CTE itself — the real bottleneck."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CONSULT",
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Create a panel of government-empanelled consultants with fixed, transparent fees (e.g., ₹5,000-₹7,000) listed on the official portal, to protect entrepreneurs from being overcharged and misled."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Create a single 'Open Window' help desk (physical/digital) where entrepreneurs can get all information on CTE procedures, required documents and timelines for their industry category."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL",
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Launch awareness campaigns educating entrepreneurs about the Invest Punjab portal, the RTB Act, and the CTE application process, so they can apply directly without consultants."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS",
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Ensure industries are correctly classified (Green/Orange/Red) based on their actual processes, to avoid unnecessary fees and objections during CTE application."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "CONSULT",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "A respondent paid ₹1,25,000 to a consultant for a package that included CTE and other services — a significant financial burden, especially for startups and small entrepreneurs."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Participants note CTE approval can come within about 7 days when the applicant has clarity about the project and submits complete, correct information."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "R1 (Participant)",
+          "quote": "Consent to Establish is very fast... provided you have clarity about your project. If you have clarity and you provide all information correctly... approval comes within 7 days.",
+          "topic": "Fast approval when application is clear",
+          "tags": [
+            "TIMELINE",
+            "CLARITY"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "R2 (Participant)",
+          "quote": "I paid ₹1,25,000... I had no knowledge; I just kept trusting [him].",
+          "topic": "Consultant cost and knowledge gap",
+          "tags": [
+            "CONSULT",
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R3 (Participant)",
+          "quote": "There should be a panel of government-empaneled consultants with their fees clearly mentioned on the portal, for example, ranging from ₹5,000 to ₹7,000 depending on the scope of work.",
+          "topic": "Empanelled consultants suggestion",
+          "tags": [
+            "CONSULT",
+            "FEES"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "R4 (Participant)",
+          "quote": "There should be an open window... where we can go and ask what is required for industry.",
+          "topic": "Help desk / open window",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R5 (Participant)",
+          "quote": "My business was placed in the Red category... whereas it should be in Orange.",
+          "topic": "Category misclassification",
+          "tags": [
+            "NORMS",
+            "FEES"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific statutory timeline for CTE was given by participants; only an anecdotal 'within 7 days' best case was mentioned (R1) when the application is clear and complete."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No itemized document checklist for CTE was described by participants beyond general references to 'all required documents'."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No official government fee schedule for CTE is given; only consultant charges were mentioned (₹5,000-₹7,000 suggested fair range; ₹1,25,000 paid by one applicant for a bundled package)."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Deemed approval status for CTE was not discussed by participants."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The specific issuing authority for CTE was not named by participants; only the Invest Punjab portal and the RTB Act were referenced generally."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Participants did not clarify whether a physical office visit is required to apply for CTE itself (as distinct from the CLU prerequisite); the discussion centers on lack of guidance rather than process mechanics."
+        }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFiles": [
+        "PB_FGD_FAL.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named by participants; Labour Department is referenced as having discretion over document requirements, and PPCB, Fire, Investment Punjab and GST are all mentioned as separately-involved departments, without specifying which single authority issues the Factory License itself.",
+      "portal": {
+        "name": "Online submission portal (referred to by participants as 'the online portal' / 'Investment Punjab'; no further detail given)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 30,
+        "basis": "Participants refer to a statutory 30-day timeline for Factory License approval.",
+        "text": "Participants report that Factory License approvals take 1 year or more in practice, against the statutory 30-day timeline they cite."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No itemized document checklist was given; participants said the complete document list is 'not available upfront' and requirements vary by officer discretion (notably in the Labour Department), with checklists existing only offline, with consultants.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Participants report there is no automatic/deemed approval if the department does not respond within 30 days, leaving applicants with no recourse; they note deemed approval is an accepted practice in other states."
+      },
+      "validity": {
+        "text": "Not discussed by participants."
+      },
+      "fees": {
+        "text": "No official government fee figure was given. Participants mention paying consultants around ₹5,000 due to process complexity, plus a separate third-party certificate for Fire NOC costing around ₹10,000; informal payments were also described as common."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit Factory License application online",
+          "automated": "partial",
+          "note": "Described as a 'Digital-Manual Hybrid': online submission is followed by manual verification, so the digital process does not remove in-person checks."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Manual verification and physical file movement between departments",
+          "automated": false,
+          "note": "Files move physically between departments with risk of loss/misplacement; no digital tracking within government system and no automated status updates to applicants."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Parallel requirements across Labour, PPCB, Fire, Investment Punjab and GST",
+          "automated": false,
+          "note": "Each department has separate requirements with no integration; there is no single-window clearance, so applicants coordinate manually, including repeated office visits to check status and meet officials."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Approval granted (no deemed-approval fallback)",
+          "automated": false,
+          "note": "No automatic approval if there is no response within 30 days; applicants report approvals actually taking 1 year or more, with files sometimes blocked on minor technicalities (format, signature) requiring resubmission."
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B — no corresponding ED entry exists for FAL in Punjab); it has not been verified against an official source.",
+        "Single session, 5 participants, Institute for Auto Parts & Hand Tools Technology, Ludhiana, 22-09-2026.",
+        "R4 and R5 agreed with the points raised by R1, R2 and R3 on repeated visits, lack of status clarity, tracking, helpdesk support and consultant dependency, without adding new points."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Approval Delays: Factory License approvals take 1 year or more against the statutory 30-day timeline, disrupting business plans and delaying investments."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL",
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Unclear Application Status & Poor Communication: no online tracking, file movement is opaque, and the department does not communicate pending requirements, so applicants don't know whether an application is under review, pending or blocked."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Repeated Office Visits: despite the online portal, multiple in-person visits are needed to check status and meet officials, who are often unavailable, adding travel burden and cost."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Digital-Manual Hybrid: online submission is followed by manual verification, so the digital process does not remove in-person checks."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS",
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "No Deemed Approval: there is no automatic approval if the department does not respond within 30 days, so applicants have no recourse; deemed approval is described as an accepted practice in other states."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "COMPLY",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Document Retention Rules Unclear: originals are still required after digital submission, and retention/maintenance requirements for licence holders are unclear; periodic verification is not transparent."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC",
+            "CLARITY",
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "No Standardised Checklist: the complete document list is not available upfront, and requirements vary by officer discretion (notably in the Labour Department); checklists exist only offline, with consultants."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Manual File Handling & No Digital Tracking: files move physically between departments with a risk of loss or misplacement; there is no digital tracking and no automated status updates to applicants."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Departmental Coordination Gaps: Labour, PPCB, Fire, Investment Punjab and GST each have separate requirements with no integration; there is no single-window clearance, so applicants coordinate manually."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Multiple departments ask for the same supporting documents; Investment Punjab and the department portal request overlapping documents, and address/company registration are verified separately by each department."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Documents already approved by PPCB and Fire are required again for the main licence; secondary unit applications repeat the primary unit's supporting documents."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Officer Availability: reviewing officers are not consistently available, and there is no backup system, so applicants must follow up repeatedly; physical file movement with closures/holidays creates further gaps with no clear owner."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Technicality-Based Rejections: files are blocked on minor issues (format, signature) with no grace period, and small errors require resubmission."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "No Accountability: no official is responsible for overall progress; there is no escalation path and no compensation if the timeline is exceeded."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Single-Window Clearance & Inter-Departmental Coordination: one nodal department coordinating with PPCB, Fire, Labour and others, backed by a formal liaison mechanism with regular meetings to resolve policy conflicts upfront."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Automated Status Tracking: real-time tracking with SMS/email notifications at each stage; publish the complete document checklist online upfront."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Deemed Approval System: automatic approval if there is no response within 30 days; also specify a clear document retention policy and provide an applicant helpdesk with awareness sessions in Hinglish to reduce consultant dependency."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "CONSULT",
+            "FEES",
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Consultant Dependency: consultants charge around ₹5,000 due to process complexity, and a third-party certificate for Fire NOC costs around ₹10,000; participants indicated informal payments are common."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "neutral",
+          "text": "The Single-Window Portal is viewed positively, but its effectiveness is limited by incomplete inter-departmental integration."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "R1 (Participant)",
+          "quote": "Applicants have to visit the concerned department multiple times just to find out the status of their application.",
+          "topic": "Repeated office visits",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R2 (Participant)",
+          "quote": "There should be a helpdesk to assist applicants in understanding the complete application procedure.",
+          "topic": "Helpdesk suggestion",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "R3 (Participant)",
+          "quote": "The absence of a transparent tracking system forces applicants to make multiple physical visits to the department just to know the status.",
+          "topic": "No status tracking",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No itemized document checklist for Factory License is given; participants describe only that a complete list 'is not available upfront' and varies by officer discretion."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No official government fee figure for Factory License is given; only consultant charges (~₹5,000) and a third-party Fire NOC certificate cost (~₹10,000) are mentioned."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No validity or renewal period for Factory License is discussed by participants."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The precise issuing authority is not singled out by name; Labour Department, PPCB, Fire, Investment Punjab and GST are all mentioned as separately-involved departments without specifying which issues the Factory License itself."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No portal name or URL is specified beyond generic references to 'the online portal' and 'Investment Punjab'."
+        }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFiles": [
+        "PB_FGD_LEM.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC",
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Repeated effort at every step: a separate registration is needed for every model, and a separate licence and set of documents for every state and licence type, slowing time to market and making expansion harder."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL",
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Unreliable online process: portal errors, failed uploads and lost data push applicants into in-person visits, with no way to see where an application stands."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Slow and costly testing and approval: models must be physically submitted at one of only a few testing labs, and model approval takes at least 45 days."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Uneven fees hurting sales: Punjab manufacturers lose customers in other states because the stamping fee in Punjab (~₹300) is higher than in some other states (~₹150)."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY",
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Compliance cost without clear value: re-stamping after a broken seal and equipment bought only to meet a requirement add cost without helping the business; dealers end up avoiding the formal process."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS",
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "State-wise manufacturing licence: a separate licence is needed in every state even though model approval is centralised; validity differs by state (1, 2 or 5 years) so renewals fall on different dates, and a licence from one state is not recognised in another; there is no national portal to apply once."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES",
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Different stamping fees across states (about ₹300 in Punjab vs about ₹150 in some other states); participants want one national fee structure."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS",
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Model registration rules: every model must be registered separately, and even a colour change is treated as a new model; model approval depends on physically submitting the model at a regional lab, with no third-party certificate option."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Hybrid online-offline process: applications are made online, but model submission, hard copies and clarifications still require an in-person visit."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Portal errors, upload failures and data loss: on the Investment Punjab portal, uploaded documents often do not show up at the department end; the upload limit is only 2 KB, so a multi-page document (e.g. a 4-page lease agreement) cannot fit, and compressing it makes it unreadable; if the network/site goes down midway, everything uploaded is wiped with no draft-save option. Participants said the same is true of the Delhi and Himachal portals."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY",
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "No application tracking: applicants cannot see the status of an application online or know which department holds it; they must visit the office or call."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY",
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Document queries: the department usually asks for clarification rather than rejecting outright, but the full list of documents is not given at once, so the same applicant is asked again later."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT",
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Enforcement depends on inspectors: checks in the market are left to inspectors, so unlicensed operators continue to operate while compliant businesses carry the cost."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Same identity documents again and again: PAN, Aadhaar, GST certificate and photos of the owner/company are asked for each licence type (dealer, manufacturing, etc.) and in each state, even when nothing has changed; there is no linked profile, so each application starts from zero."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Re-upload at renewal: documents are uploaded again at renewal; one participant was not sure whether this is still required when ownership or directors have not changed."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "CAPACITY",
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Few testing labs: only 4 regional labs serve the whole country (e.g. Bangalore and Odisha); even from the state capital the lab can be 2 to 2.5 hours away, and every new model has to be taken there, adding to approval time along with rework from portal failures and repeated document queries."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS",
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "National portal and one manufacturing licence: apply once on a national portal, get one central manufacturing licence with state endorsement, and keep the same validity/renewal date everywhere."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Reusable documents: one Aadhaar-linked profile per applicant; documents uploaded once and reused across licences, states and renewals."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Better portal: a draft-save option so data is not lost on network failure, and a higher file size limit so multi-page documents go through without being compressed; also, online status tracking showing which department holds the file, with fixed timelines."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY",
+            "INSPECT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Regional testing labs at least in every state capital, and acceptance of a third-party certificate in place of physical submission; also a standard national stamping fee."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Informal market: dealers avoid re-stamping and registration due to cost and paperwork, pushing business into the informal market; some manufacturers sell machines without stamping to avoid the burden, leaving the customer with a non-compliant machine — a quality-assurance risk. Different licences/rules/fees per state and dealing with a different department in each also discourage manufacturers from expanding into other states."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "R1 (Participant)",
+          "quote": "Every product model requires separate and individual registration.",
+          "topic": "Per-model registration burden",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R2 (Participant)",
+          "quote": "The 2 KB file size limit is not feasible – a 4-page lease agreement cannot fit into 2 KB.",
+          "topic": "Portal upload limit",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R3 (Participant)",
+          "quote": "Only 4 regional testing laboratories exist across India; the lab can be 2 to 2.5 hours away from the state capital.",
+          "topic": "Scarce testing labs",
+          "tags": [
+            "CAPACITY",
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R4 (Participant)",
+          "quote": "Portal does not have a draft-save feature; network failure mid-upload results in total data loss; the entire process must restart.",
+          "topic": "No draft-save on portal",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R5 (Participant)",
+          "quote": "The portal has issues – documents upload but do not reflect across the system; we must visit the department in person.",
+          "topic": "Portal sync failures force office visits",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED states document requirements have been 'significantly reduced' and repetitive documents 'eliminated,' with affidavits replaced by self-declarations; FGD participants instead report ongoing heavy duplication — the same identity documents (PAN, Aadhaar, GST certificate, owner/company photos) are required again for each licence type and in each state, with 'no linked profile,' so 'each application starts from zero.'"
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED states licences are 'auto-renewed without human intervention, eliminating the need for repeated renewal applications'; FGD participants report documents are re-uploaded at every renewal, implying an active renewal application is still required."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED portrays the e-Mapan/Invest Punjab portal integration positively (applications 'auto-fetched... with an auto-generated ID'); FGD participants report the Investment Punjab portal has only a 2 KB upload limit, causing documents not to reflect at the department end, and data loss on network failure with no draft-save option, forcing in-person visits — the same issue is said to affect the Delhi and Himachal portals too."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The ED record does not address the 'Model Approval' sub-process that FGD participants describe at length: only 4 regional testing labs exist nationally, model approval takes a minimum of 45 days per model, and physical submission of each model (even for a colour change) is required with no third-party certificate option."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "FGD participants give a specific stamping fee figure (~₹300 in Punjab vs ~₹150 in some other states); it is unclear whether this corresponds to the 'verification fees' the ED left unspecified ('vary by instrument type, accuracy level, and capacity... exact figures were not given'), so the two cannot be reconciled with confidence."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFiles": [
+        "PB_FGD_RCTO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Pollution Control Board (referred to by participants as 'the Pollution Control Board office'; full official name and specific officer/authority not given).",
+      "portal": {
+        "name": "Online renewal portal (referred to generically by participants; not specifically named)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "Participants refer to unspecified 'government timelines' for CTO renewal without giving a day count.",
+        "text": "No specific statutory day-count was given. One case (a poultry farm applicant) applied for RCT in 2024 and had still not received approval at the time of the FGD — described as non-operational for 1.5 years due to the delay."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "CA certificate",
+        "Capital investment certificate",
+        "Project report",
+        "DTP certificate",
+        "Building plan"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. The documents listed are those participants said must be resubmitted in full for every renewal (same as a fresh CTO application); this is described as a partial, illustrative list ('etc.'), not a confirmed complete official checklist.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Participants report that despite government timelines, there is no effective deemed-approval provision in practice; applications can remain pending indefinitely without automatic approval or explanation."
+      },
+      "validity": {
+        "text": "Participants report CTO validity is only 3-5 years; they suggest extending it to 10 years for compliant green/orange category industries, with auto-renewal if there is no change in operations."
+      },
+      "fees": {
+        "text": "No official government fee figure was given. Participants report consultant charges ranging from ₹12,000 to ₹1,00,000 for CTO/RCT services; one applicant paid ₹1,00,000 in a lump sum to a consultant."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Obtain login ID/password for the Pollution Control Board's online renewal portal",
+          "automated": false,
+          "note": "Described as a major hurdle: applicants are forced to make 4-6 physical visits to the Pollution Control Board office just to obtain credentials."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Submit renewal application online with full resubmission of original CTO documents",
+          "automated": "partial",
+          "note": "All documents required for the first-time CTO (CA certificate, capital investment certificate, project report, DTP certificate, building plan, etc.) must be resubmitted; there is no simplified 'renewal' process — it is treated as identical to a fresh application."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Obtain fresh NOCs from DTP, Municipality and other departments",
+          "automated": false,
+          "note": "Required even if land/building are unchanged; involves separate air- and water-related clearances."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Application review and decision (no deemed-approval fallback)",
+          "automated": false,
+          "note": "No effective deemed approval; applications can remain pending indefinitely with no communication, rejection letter, or specific reason given for delay."
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B — no corresponding ED entry exists for RCTO/CTO in Punjab); it has not been verified against an official source.",
+        "Single session, 5 participants, Ludhiana, 18-08-2026.",
+        "A respondent cited Karnataka's single-window system (company establishment within 30 days) as a best practice Punjab should consider adopting."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Severe Delays in RCT: one poultry farm applicant applied for RCT in 2024 and has still not received approval; their electricity meter was disconnected due to the delay, severely impacting operations."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "ID/Password Issuance is a Major Hurdle: applicants are forced to make 4-6 physical visits to the Pollution Control Board office just to obtain their login ID and password for the online portal."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC",
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Repeated Document Submission: all documents required for the first-time CTO must be resubmitted for every renewal; there is no concept of a 'renewal' process — it is identical to a fresh application."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "No Communication/Rejection Letters: the poultry farm applicant received no communication, rejection letter, or specific reason for the delay; the department simply says 'we will do it' without action."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "High Consultant Dependency: most applicants are forced to hire third-party consultants or agents due to the complexity of the process; one applicant paid ₹1,00,000 in lump sum fees to a consultant for RCO."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "No Auto-Renewal Provision: there is no provision for auto-renewal or simplified renewal if there is no change in business operations or machinery; each renewal requires the same full process as a fresh application."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL",
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Short Validity Period: the validity period for CTO is only 3-5 years, forcing industries to repeat the cumbersome process; applicants suggest extending validity to 10 years for compliant green/orange category industries."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "No Deemed Approval: despite government timelines, there is no effective 'deemed approval' provision; applications remain pending indefinitely without action."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP",
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Multiple Clearances for Renewal: the renewal process involves obtaining separate air- and water-related clearances, including in cases of limited change in underlying operations, increasing compliance burden and cost."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Digital Access and Credential Generation: applicants reported difficulties obtaining portal login credentials, including instances where multiple visits were required."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CLARITY",
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "Limited Applicant Support: applicants reported limited access to timely guidance and support for understanding procedural requirements, resulting in reliance on departmental visits or intermediaries."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY",
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "Inadequate Communication and Status Transparency: applicants reported limited information on application status and reasons for delays, with some cases remaining pending without clear communication on next steps or expected timeline."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Repeated Submission of Unchanged Information: all documents (CA certificate, capital investment certificate, project report, DTP certificate, building plan, etc.) must be resubmitted for every renewal, even when there is no change in the business, land, or building; the process lacks a mechanism to distinguish changed from unchanged information."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Fresh NOCs for Unchanged Land/Building: applicants must obtain fresh NOCs from DTP, Municipality, and other departments for every renewal, even if the land and building are unchanged."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The manual, opaque process of issuing login credentials is a primary source of delay, forcing applicants to visit the office multiple times just to get their ID/password."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "Lack of Accountability: there is no accountability for file movement or delays; officials repeatedly say the matter will be done but give no specific reason, and department staff do not provide timely responses or clear guidance."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Increase validity period to 10 years for compliant green/orange category industries, with auto-renewal if there is no change in operations; simplify renewal so only changed information is required."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Auto-generate login credentials and send them to the applicant's registered mobile/email, eliminating the need for physical visits; improve the portal's user interface to reduce physical visits generally."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Implement a robust single-window system (like Karnataka) where all approvals and NOCs are obtained from one platform, eliminating multiple department visits; publish a standardized, comprehensive document checklist online."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Enforce strict timelines with deemed-approval provisions: if approval is not granted within the prescribed period, it should be automatically considered approved; documents submitted in the previous CTO application should remain valid for renewal if there is no change."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Economic Impact: due to CTO delays, the poultry farm applicant had his electricity meter disconnected; he is running a generator, incurring additional diesel costs of ₹30,000 per month, and the business has been non-operational for 1.5 years."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "INTERDEP",
+            "POSITIVE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Karnataka Best Practice: a respondent highlighted Karnataka's single-window system as a best practice, where a company can be established within 30 days, and suggested Punjab adopt similar practices."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "R1 (Participant)",
+          "quote": "One poultry farm applicant applied for RCT in 2024 and has still not received approval. His electricity meter has been disconnected because of this delay.",
+          "topic": "Multi-year pending renewal",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R2 (Participant)",
+          "quote": "Applicants are forced to make 4-6 visits to the Pollution Control Board office just to get their ID and password for the online portal.",
+          "topic": "Credential issuance burden",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R3 (Participant)",
+          "quote": "Even for renewal, all documents must be submitted again—the same CA certificate, project report, DTP certificate—everything is repeated.",
+          "topic": "Full document resubmission at renewal",
+          "tags": [
+            "DUPDOC",
+            "RENEWAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R4 (Participant)",
+          "quote": "The government should extend CTO validity to 10 years. If my process is clean, why should I go to the department again and again for renewal.",
+          "topic": "Longer validity suggestion",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "R5 (Participant)",
+          "quote": "ID and password should be auto-generated and sent to the mobile phone. Why should I travel 10-15 km just to get a password?",
+          "topic": "Auto-generated credentials suggestion",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific statutory timeline (day count) for CTO renewal is given by participants; only a reference to unspecified 'government timelines' and one case pending since 2024 (1.5+ years non-operational)."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No official government fee figure for CTO renewal is given; only consultant charges are mentioned (₹12,000 to ₹1,00,000)."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Deemed approval status is described only as 'no effective deemed approval' without specifying whether a legal deemed-approval provision exists on paper but is unenforced, or does not exist at all."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The document list given (CA certificate, capital investment certificate, project report, DTP certificate, building plan) is explicitly illustrative ('etc.') rather than a confirmed complete official checklist."
+        }
+      ]
+    }
+  ]
+}

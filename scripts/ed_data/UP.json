@@ -1,0 +1,260 @@
+{
+  "code": "UP",
+  "name": "Uttar Pradesh",
+  "licenses": [
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFile": "UP_ED_ECL.docx",
+      "issuingAuthority": "UPPCL (Uttar Pradesh Power Corporation Limited) — concerned Division/SDO processes the application; Government of Uttar Pradesh",
+      "portal": { "name": "Nivesh Mitra (Single Window Portal)", "url": "niveshmitra.up.nic.in" },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No fixed day-based statutory timeline was stated; processing time depends on the feasibility check, estimate preparation, and when the applicant pays the estimate/consolidated fee.", "text": "The application is tracked at every stage on the Nivesh Mitra dashboard; overall duration depends on UPPCL's feasibility check and estimate preparation and on how quickly the applicant pays the estimate fee, rather than a fixed day count." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Property ownership/lease proof",
+        "Identity proof (Aadhar, PAN, applicant photo)",
+        "Site drawing plan",
+        "Load details"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed-approval mechanism currently applies; the expert recommended that complete deemed approval would not be appropriate for the final connection (given public safety/network security) but suggested it could be considered for intermediate administrative stages such as document scrutiny or file movement, subject to conditions." },
+      "validity": { "text": "No validity period once the connection is released; it continues subject to timely bill payment, maintaining the sanctioned load, and compliance with applicable safety regulations." },
+      "fees": { "text": "Processing fee paid online at the time of application, based on electricity load, ranging from INR 25 to INR 50,000. Processing fee for line shifting ranges from INR 1,000 to INR 25,000, and the security deposit ranges from INR 100 to INR 5,000." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Register on Nivesh Mitra portal", "automated": true, "note": "Enterprise name, entrepreneur details, email, mobile; verified via email link and OTP." },
+        { "n": 2, "phase": "apply", "title": "Fill Common Application Form (CAF) and create Unit", "automated": true, "note": "Connection type, load (kW), address, plot area." },
+        { "n": 3, "phase": "apply", "title": "Apply for Permission — select UPPCL / Power Connection", "automated": true, "note": null },
+        { "n": 4, "phase": "apply", "title": "Upload required documents", "automated": true, "note": null },
+        { "n": 5, "phase": "fee", "title": "Pay processing fee online", "automated": true, "note": "Routes the application to the concerned Division/SDO login." },
+        { "n": 6, "phase": "scrutiny", "title": "Division/SDO reviews application", "automated": "partial", "note": "A query is raised online for the applicant if a discrepancy is found." },
+        { "n": 7, "phase": "inspect", "title": "Feasibility check and technical feasibility report (TFR)", "automated": false, "note": "UPPCL prepares the TFR and connection estimate." },
+        { "n": 8, "phase": "scrutiny", "title": "Estimate uploaded; applicant notified", "automated": true, "note": null },
+        { "n": 9, "phase": "fee", "title": "Pay estimate/consolidated fee", "automated": true, "note": "Paid via online payment gateway on the dashboard." },
+        { "n": 10, "phase": "approve", "title": "Line/meter installation and connection release", "automated": false, "note": "UPPCL processes the paid application and carries out physical installation work." },
+        { "n": 11, "phase": "approve", "title": "Notification of connection release", "automated": true, "note": "Via portal and SMS/email; status trackable at any stage using the application number." }
+      ],
+      "ed": { "date": "28 July 2026", "location": "Invest UP Office, 4th Floor, Block A, PICUP Bhawan, Lucknow, Uttar Pradesh 226010", "expert": "Brij Mohan", "designation": "Superintending Engineer (SE) Commercial-I, UPPCL, Government of Uttar Pradesh" },
+      "remarks": [
+        "Loads above a certain threshold are handled separately through the Jhatpat portal rather than Nivesh Mitra; the specific threshold value was not given.",
+        "Expert held that complete deemed approval would not be appropriate for the final electricity connection itself, only possibly for intermediate administrative stages, given public-safety and network-security considerations."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The process is fully online, end-to-end, on the Nivesh Mitra single window portal for commercial, industrial and institutional users; no offline steps were flagged by the expert." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "No fixed day-based timeline is given for the overall connection process; duration depends on the feasibility check, estimate preparation, and when the applicant pays the estimate fee." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "Processing fee is based on electricity load and ranges from INR 25 to INR 50,000; line-shifting processing fee ranges from INR 1,000 to INR 25,000; security deposit ranges from INR 100 to INR 5,000." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Expert suggested deemed approval could be considered for intermediate administrative stages (e.g., document scrutiny, file movement) while keeping final energization subject to technical verification and safety compliance." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP", "OTHER"], "sentiment": "neutral", "text": "Connections above a load threshold are routed through a separate portal (Jhatpat) rather than Nivesh Mitra." },
+        { "source": "ed", "category": "pain", "tags": ["DUPDOC", "COMPLY"], "sentiment": "issue", "text": "Major challenges arise from incomplete applications and submission of incorrect or insufficient documents." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE", "OTHER"], "sentiment": "issue", "text": "Delays occur in fulfilling technical requirements such as infrastructure augmentation in certain locations." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "Higher connected loads require detailed technical examination to ensure network reliability and safety, as distinct from standard low-load connections." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Expert recommended improved applicant awareness and standardized document checklists to reduce incomplete submissions." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion", "text": "Recommended complete digital processing and better integration of departmental systems to cut down repeat queries." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Recommended online scheduling of inspections/feasibility visits." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended greater automation of internal workflows and strengthened GIS-based planning and digital monitoring." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Risk-based classification was recommended: standard commercial and low-load industrial connections processed through simplified procedures, while high-load consumers continue to undergo detailed technical examination." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Uttar Pradesh has already implemented many digital-service-delivery reforms seen in other leading states (end-to-end online processing, real-time tracking, automated workflow management)." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "There is scope to reduce duplication in document submission and further digitize compliance reporting wherever feasible." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Post-approval, consumers must maintain installations per safety standards, pay bills on time, maintain the sanctioned load, obtain approval before increasing load, permit inspections, and comply with the Electricity Act, Supply Code, and safety regulations." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended expanding GIS-based network planning and predictive load assessment to strengthen service delivery." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No specific day-based processing timeline is given for the electricity connection process, unlike the other UP licenses (FAL, FNO, RSE), which each cite explicit statutory day figures." },
+        { "flag": "VAGUE", "text": "Deemed approval status for this service is not an existing legal provision per the discussion — only a recommendation by the expert for intermediate stages; the current status is effectively 'no deemed approval.'" },
+        { "flag": "MISSING", "text": "No specific day counts given for how long the feasibility check (Step 7) or estimate preparation (Step 7-8) typically take." },
+        { "flag": "GOOD_PRACTICE", "text": "Fully digital, end-to-end Nivesh Mitra process already in place for new electricity connections, cited by the expert as a best practice relative to other states." },
+        { "flag": "REFORM", "text": "Multiple reforms recommended but not yet implemented: risk-based simplified processing for standard/low-load connections, GIS-based planning, deemed approval at intermediate stages, and AI-enabled scrutiny." },
+        { "flag": "VAGUE", "text": "The specific load threshold above which applications are routed to the separate Jhatpat portal instead of Nivesh Mitra is not specified." }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFile": "UP_ED_FAL.docx",
+      "issuingAuthority": "Chief Inspector of Factories / Labour Commissioner Organisation (UP Labour Department) approves and issues the license; Government of Uttar Pradesh",
+      "portal": { "name": "Nivesh Mitra (Single Window Portal)", "url": "niveshmitra.up.gov.in" },
+      "timeline": { "minDays": 15, "maxDays": 30, "basis": "Factories Act, 1948 (Section 2(cb)) / Manufacture, Storage and Import of Hazardous Chemical Rules, 1989 (Rule 2(ja)) — statutory period for plan disposal by the Chief Inspector.", "text": "The plan of a factory must be disposed of within 15 working days of online receipt by the Chief Inspector's office; this extends to 30 working days for factories carrying out hazardous processes. Where defects/deviations are found at inspection, the applicant is typically given 15 days to rectify and upload a compliance report." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Site/building plan",
+        "Structural stability certificate from an approved architect/engineer",
+        "Sale deed or rent agreement of premises",
+        "CA certificate showing capital investment",
+        "Other documents as specified"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "yes", "days": 15, "text": "Plans not rejected within 15 working days (30 for hazardous-process factories) are deemed approved, and the licence is also deemed approved; the site plan approval letter and licence are then issued by the Chief Inspector immediately, with the applicant informed by e-mail and registered mobile number." },
+      "validity": { "text": "Valid for up to 10 years at a time, depending on the category of the factory, as provided under the U.P. Factories Rules, 1950." },
+      "fees": { "text": "Statutory fee is based entirely on number of employees, payable online (Internet Banking, RajKosh, or other online modes). The document gives two different figures for this fee: the process-flow (Step 6) states INR 150 to 35,000, while the separate Statutory Fee section states INR 100 to 7,000 — see gaps." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Register on Nivesh Mitra portal", "automated": true, "note": null },
+        { "n": 2, "phase": "apply", "title": "Fill CAF and create Unit for the factory", "automated": true, "note": null },
+        { "n": 3, "phase": "apply", "title": "Apply for Permission — select Labour / Factory License", "automated": true, "note": null },
+        { "n": 4, "phase": "apply", "title": "Fill service-specific application form", "automated": true, "note": "Nature of manufacturing process, plant/machinery, number of workers, power load, layout plan; most fields auto-populate from the CAF." },
+        { "n": 5, "phase": "apply", "title": "Upload required documents", "automated": true, "note": null },
+        { "n": 6, "phase": "fee", "title": "Pay prescribed processing fee online", "automated": true, "note": "Stated here as INR 150 to 35,000 based on number of employees." },
+        { "n": 7, "phase": "apply", "title": "Submission starts tracker", "automated": true, "note": null },
+        { "n": 8, "phase": "scrutiny", "title": "Labour Department scrutinizes application", "automated": "partial", "note": "Query raised online if discrepancies exist." },
+        { "n": 9, "phase": "inspect", "title": "Site inspection by inspection team", "automated": false, "note": "At least two inspectors (e.g., Assistant Labour Commissioner, Labour Enforcement Officer, Assistant Director Factories) verify safety/health/welfare compliance under the Factories Act." },
+        { "n": 10, "phase": "inspect", "title": "Inspection report uploaded; defects rectified", "automated": "partial", "note": "If defects/deviations are found, applicant typically has 15 days to rectify and upload a compliance report." },
+        { "n": 11, "phase": "approve", "title": "Competent authority approves and uploads digitally signed license", "automated": true, "note": "Chief Inspector of Factories / Labour Commissioner Organisation." },
+        { "n": 12, "phase": "approve", "title": "Applicant downloads digitally signed Factory License", "automated": true, "note": "No physical department visit required at any stage." }
+      ],
+      "ed": { "date": "28 July 2026", "location": "Invest UP Office, 4th Floor, Block A, PICUP Bhawan, Lucknow, Uttar Pradesh 226010", "expert": "Gurav Kumar", "designation": "Engineer, UP Labour Department, Government of Uttar Pradesh" },
+      "remarks": [
+        "Expert explicitly confirmed no physical department visit is required at any stage of the Factory License process.",
+        "The document states two different processing-fee ranges for the same fee (INR 150–35,000 in the process flow vs INR 100–7,000 in the Statutory Fee section) — treated as an internal inconsistency rather than resolved fact."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The process is fully online, end-to-end, on the Nivesh Mitra single window portal; the expert confirmed no physical department visit is required at any stage." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Factory plans must be disposed of within 15 working days of online receipt (30 working days for factories carrying out hazardous processes)." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "positive", "text": "Deemed approval applies: plans not rejected within the statutory 15/30 working-day window are deemed approved and the licence is deemed approved, with the applicant informed by e-mail and registered mobile number." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "issue", "text": "The document gives two different ranges for the same processing/statutory fee — INR 150 to 35,000 in the application process flow (Step 6) and INR 100 to 7,000 in the separate Statutory Fee section." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Site inspection is conducted by a team of at least two inspectors (e.g., Assistant Labour Commissioner, Labour Enforcement Officer, Assistant Director Factories) to verify compliance with safety, health and welfare provisions of the Factories Act." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT", "COMPLY"], "sentiment": "neutral", "text": "Where the inspection team finds defects or deviations, the applicant is typically given 15 days to rectify and upload a compliance report." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY", "DUPDOC"], "sentiment": "issue", "text": "Major burdens include incomplete documentation and lack of clarity on compliance requirements, which also cause delays." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "Related points on repeated document submission and repeated information required at the time of renewal were noted as burdens." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive", "text": "Uttar Pradesh has already implemented the Nivesh Mitra 3.0 digital platform for this service." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Expert suggested deeper integration of departmental systems, predictive network planning, AI-enabled application scrutiny, and further automation of approvals." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "Factory License validity is up to 10 years at a time, depending on the category of factory, under the U.P. Factories Rules, 1950." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Post-license, factory occupiers/managers must maintain statutory registers, keep machinery/safety equipment updated, and comply with periodic inspection and reporting requirements." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "Most service-specific application form fields auto-populate from the Common Application Form (CAF), reducing re-entry of data already provided." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "No physical department visit is required at any stage, including final download of the digitally signed license." }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "The portal URL is given as niveshmitra.up.nic.in in Step 1 but as niveshmitra.up.gov.in in the Application Process summary, within the same document." },
+        { "flag": "INCONSISTENT", "text": "The processing fee is stated as INR 150–35,000 in Step 6 of the process flow but as INR 100–7,000 in the separate Statutory Fee section, for what appears to be the same fee." },
+        { "flag": "MISSING", "text": "Step 5 references 'other documents as specified' without enumerating what those other documents are." },
+        { "flag": "VAGUE", "text": "The Compliance Burden / Redundant Requirements theme is explicitly marked as 'not addressed as a distinct theme' in this discussion, so no dedicated assessment of redundant post-approval requirements exists for this license." },
+        { "flag": "GOOD_PRACTICE", "text": "Fully digital Nivesh Mitra 3.0 process with no physical office visit required at any stage, from registration through license download." },
+        { "flag": "MISSING", "text": "No data is given on how often inspections turn up defects/deviations requiring the 15-day rectification step, i.e. no scale behind the 'burdensome activities' claim." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFile": "UP_ED_FNO.docx",
+      "issuingAuthority": "Fire Department (UP Police – Fire Service Headquarters), Government of Uttar Pradesh — competent authority approves the Fire NOC",
+      "portal": { "name": "Nivesh Mitra (Single Window Portal)", "url": "niveshmitra.up.gov.in" },
+      "timeline": { "minDays": 15, "maxDays": 15, "basis": "Statutory timelines under the Uttar Pradesh Fire Services process.", "text": "Provisional NOC (prior to construction), Completion/Final NOC (post-construction/installation), and Renewal of Fire NOC are each to be processed within 15 working days." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Site/building plan",
+        "Ownership or lease proof",
+        "Occupancy certificate (if available)",
+        "Fire-fighting system details"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "The expert confirmed deemed approval is not possible for Fire NOC: if the concerned official does not respond within the stipulated 15 working days, action is instead taken against the responsible officer for the delay, rather than the NOC being deemed granted." },
+      "validity": { "text": "Under Rule 43 (unless sooner cancelled): 5 years for residential buildings (other than hotels); 3 years for non-residential buildings except hotels, hospitals, assembly buildings, hazardous storage and high-hazard industrial occupancies; 1 year for hotels, hospitals, assembly buildings, hazardous storage and high-hazard industrial occupancies. The State Government may, by order and after recording reasons, reduce or increase this period." },
+      "fees": { "text": "The Statutory Fee section states there is no processing fee for Fire NOC; however, Step 6 of the process flow states the applicant pays a prescribed processing fee online — these two statements are inconsistent within the same document (see gaps)." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Register on Nivesh Mitra portal", "automated": true, "note": null },
+        { "n": 2, "phase": "apply", "title": "Fill CAF and create Unit for the establishment", "automated": true, "note": null },
+        { "n": 3, "phase": "apply", "title": "Apply for Permission — select Fire / Fire NOC", "automated": true, "note": null },
+        { "n": 4, "phase": "apply", "title": "Fill service-specific application form", "automated": true, "note": "Building/plot details, occupancy, built-up area, height, fire-fighting arrangements; most fields auto-populate from the CAF." },
+        { "n": 5, "phase": "apply", "title": "Upload required documents", "automated": true, "note": null },
+        { "n": 6, "phase": "fee", "title": "Pay prescribed processing fee online", "automated": true, "note": "Stated here, though the Statutory Fee section separately says there is no processing fee for Fire NOC." },
+        { "n": 7, "phase": "apply", "title": "Submission starts tracker", "automated": true, "note": null },
+        { "n": 8, "phase": "scrutiny", "title": "Fire Department scrutinizes application", "automated": "partial", "note": "Query raised online if discrepancies exist; otherwise file moves to inspection." },
+        { "n": 9, "phase": "inspect", "title": "Site inspection for fire-safety compliance", "automated": false, "note": null },
+        { "n": 10, "phase": "approve", "title": "Competent authority approves and uploads digitally signed Fire NOC", "automated": true, "note": null },
+        { "n": 11, "phase": "approve", "title": "Applicant downloads digitally signed Fire NOC", "automated": true, "note": "No physical department visit required at any stage; a similar flow applies for Renewal of Fire NOC on the same portal." }
+      ],
+      "ed": { "date": "28 July 2026", "location": "Invest UP Office, 4th Floor, Block A, PICUP Bhawan, Lucknow, Uttar Pradesh 226010", "expert": "Surya Kant Tripathi", "designation": "DIG, UP Police – Fire Service HQRS, Government of Uttar Pradesh" },
+      "remarks": [
+        "Expert stated deemed approval is not applied to Fire NOC; instead, delay beyond the stipulated time triggers action against the responsible officer.",
+        "A similar process flow applies to Renewal of Fire NOC on the same Nivesh Mitra portal, per the expert."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The process is fully online, end-to-end, on the Nivesh Mitra single window portal; the expert confirmed no physical department visit is required at any stage." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Provisional NOC, Final/Completion NOC, and Renewal of Fire NOC are each to be processed within 15 working days under the statutory timeline." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "Deemed approval does not apply to Fire NOC; instead, failure to respond within the stipulated time results in action against the responsible officer." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "issue", "text": "The process flow (Step 6) states the applicant pays a prescribed processing fee online, while the Statutory Fee section separately states there is no processing fee for Fire NOC — the document contradicts itself on this point." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Validity is risk-tiered under Rule 43: 5 years for residential (other than hotels), 3 years for most non-residential, and 1 year for hotels, hospitals, assembly buildings, hazardous storage and high-hazard industrial occupancies." },
+        { "source": "ed", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Incomplete applications and missing documents cause delays." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Repeated submission of documents increases applicant burden." },
+        { "source": "ed", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "Multiple clarification rounds delay the approval process." },
+        { "source": "ed", "category": "delay", "tags": ["INSPECT"], "sentiment": "issue", "text": "Inspections are delayed when applicants are not fully prepared." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Limited awareness of fire-safety requirements among applicants leads to repeated compliance gaps." },
+        { "source": "ed", "category": "delay", "tags": ["INSPECT"], "sentiment": "issue", "text": "Repeat inspections increase time and cost for applicants." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE", "INSPECT"], "sentiment": "positive", "text": "The department has implemented third-party inspections on a quarterly basis, which can further enhance transparency, efficiency and accountability." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended deeper integration of departmental systems, AI-enabled application scrutiny, further automation of approvals, and improved digital tracking." },
+        { "source": "ed", "category": "remarks", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Clearer guidance and better applicant preparedness could help reduce queries, delays, and repeat inspections." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Post-approval, registers must be maintained, fire-fighting equipment kept updated, and periodic testing carried out; the department also runs periodic safety-measures awareness training for occupants/users." }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "Step 6 of the process flow states the applicant pays a prescribed processing fee online, but the Statutory Fee section separately states there is no processing fee for Fire NOC — a direct contradiction within the same document." },
+        { "flag": "MISSING", "text": "Risk-Based Classification is explicitly noted as 'not specifically elaborated by the expert' beyond the existing validity-tier structure." },
+        { "flag": "MISSING", "text": "Compliance Burden / Redundant Requirements theme explicitly states it was not addressed and no redundant post-approval requirements were identified, so no assessment of removal impact exists." },
+        { "flag": "GOOD_PRACTICE", "text": "Quarterly third-party inspections implemented by the department, cited as improving transparency, efficiency and accountability." },
+        { "flag": "VAGUE", "text": "The exact criteria/threshold distinguishing 'high-hazard industrial occupancies' from standard non-residential buildings for validity-period purposes is not elaborated beyond the category list given." },
+        { "flag": "REFORM", "text": "Expert recommends deeper system integration, AI-enabled scrutiny, further automation and improved digital tracking — described as future steps, not yet implemented." }
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFile": "UP_ED_RSE.docx",
+      "issuingAuthority": "Competent authority in the UP Labour Department approves the registration; Government of Uttar Pradesh",
+      "portal": { "name": "Nivesh Mitra (Single Window Portal), also accessible via the UP Labour Department portal", "url": "niveshmitra.up.gov.in" },
+      "timeline": { "minDays": 1, "maxDays": 30, "basis": "Section 4-B(1), Uttar Pradesh Shops and Commercial Establishments Act, 1962 — deemed registration if the Registering Officer takes no action within 30 days; same-day grant possible if documents are complete and correct.", "text": "The stated application timeline is 30 days. Under Section 4-B(1), if a complete application receives no approval, rejection or objection within 30 days it is deemed registered; if all documents are complete and correct, registration may also be granted the same day." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Proof of ownership/lease of premises",
+        "Identity proof (Aadhar, PAN, applicant photo)",
+        "Photograph of the shop front prominently showing the name board",
+        "Employee details"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "yes", "days": 30, "text": "Section 4-B(1) of the Uttar Pradesh Shops and Commercial Establishments Act, 1962 provides for deemed registration: if a complete application is not approved, rejected, or objected to within 30 days, registration is deemed granted. If all documents are complete and correct, registration may also be granted the same day." },
+      "validity": { "text": "The registration certificate is valid for the lifetime of the shop/commercial establishment or until it ceases to exist; no renewal is required." },
+      "fees": { "text": "A one-time registration fee based on the category of the shop/establishment and, in certain categories, the number of employees, ranging from INR 2,250 to INR 75,000." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Register on Nivesh Mitra portal", "automated": true, "note": null },
+        { "n": 2, "phase": "apply", "title": "Fill CAF and create Unit for the establishment", "automated": true, "note": null },
+        { "n": 3, "phase": "apply", "title": "Apply for Permission — select Labour / Registration under Shops & Establishment Act", "automated": true, "note": null },
+        { "n": 4, "phase": "apply", "title": "Fill service-specific application form", "automated": true, "note": "Nature of business, number of employees, working hours, address, name-board photograph; most fields auto-populate from the CAF." },
+        { "n": 5, "phase": "apply", "title": "Upload required documents", "automated": true, "note": null },
+        { "n": 6, "phase": "fee", "title": "Pay prescribed registration fee online", "automated": true, "note": null },
+        { "n": 7, "phase": "apply", "title": "Submission starts tracker", "automated": true, "note": null },
+        { "n": 8, "phase": "scrutiny", "title": "Labour Department scrutinizes application", "automated": "partial", "note": "Query raised online if discrepancies exist." },
+        { "n": 9, "phase": "approve", "title": "Competent authority approves and uploads digitally signed Registration Certificate", "automated": true, "note": null },
+        { "n": 10, "phase": "approve", "title": "Applicant downloads digitally signed Registration Certificate", "automated": true, "note": "No physical department visit required at any stage." }
+      ],
+      "ed": { "date": "28 July 2026", "location": "Invest UP Office, 4th Floor, Block A, PICUP Bhawan, Lucknow, Uttar Pradesh 226010", "expert": "Riyaz Ahmad", "designation": "Team Leader, UP Labour Department, Government of Uttar Pradesh" },
+      "remarks": [
+        "Same-day registration is possible if all submitted documents are complete and correct, even though the formal deemed-registration backstop is 30 days under Section 4-B(1).",
+        "The portal is accessible both via Nivesh Mitra (niveshmitra.up.gov.in) and the UP Labour Department's own portal (uplabour.gov.in)."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The process is fully online, end-to-end, on the Nivesh Mitra single window portal, also accessible via the UP Labour Department portal; the expert confirmed no physical department visit is required at any stage." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "positive", "text": "Deemed registration applies under Section 4-B(1) if the Registering Officer takes no action within 30 days; same-day grant is possible if documents are complete and correct." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "One-time registration fee is based on category of shop/establishment and, in certain categories, number of employees, ranging from INR 2,250 to INR 75,000." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "positive", "text": "The registration certificate is valid for the lifetime of the establishment, with no renewal required." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants may face a compliance burden from submitting information/documents that may already be available with other government departments or databases; repeated submission and manual verification increase processing time and administrative effort." },
+        { "source": "ed", "category": "pain", "tags": ["DUPDOC", "QUERY"], "sentiment": "issue", "text": "The key burden identified was submission of incomplete documents and incorrect information, which results in queries, re-submission of documents, and delays in registration." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Nivesh Mitra Portal 3.0 is integrated with PAN, GST, MCA and Udyam databases for auto-population of applicant details and online service delivery." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC", "OTHER"], "sentiment": "suggestion", "text": "Recommended further strengthening interoperability with other government databases and expanding auto-verification of documents." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Recommended enhancing real-time status updates and grievance redressal to improve user experience." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Recommended periodic stakeholder awareness programmes to reduce incomplete or incorrect submissions." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Post-registration, establishments must maintain prescribed employee records, display the registration certificate, comply with provisions on working hours, weekly holidays, leave, wages, and employment of women and young persons, and notify the Labour Department of any change in ownership, address, or business nature." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "Required documentation includes a photograph of the shop front prominently showing the name board, in addition to ownership/lease proof, identity proof, and employee details." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "The Application Timeline field is stated simply as '30 Days' without elaboration, while the Deemed Approval section separately notes same-day grant is possible if documents are complete — the two statements are not reconciled into one clear process duration." },
+        { "flag": "MISSING", "text": "No specific examples are given of which 'other government departments or databases' already hold applicant information referenced in the compliance-burden discussion." },
+        { "flag": "GOOD_PRACTICE", "text": "Nivesh Mitra Portal 3.0's database interoperability with PAN, GST, MCA and Udyam for auto-population of applicant details, cited as a best practice." },
+        { "flag": "REFORM", "text": "Recommendations for expanded auto-verification of documents, real-time status updates, and grievance redressal are described as not yet fully implemented." },
+        { "flag": "VAGUE", "text": "The 'Other Remarks' field contains no additional content ('-'), so no closing caveats or observations beyond the structured sections were recorded for this license." }
+      ]
+    }
+  ]
+}

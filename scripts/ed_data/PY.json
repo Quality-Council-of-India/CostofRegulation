@@ -1,0 +1,804 @@
+{
+  "code": "PY",
+  "name": "Puducherry",
+  "licenses": [
+    {
+      "serviceCode": "APW",
+      "serviceName": "Authorization for Plastic Waste",
+      "sourceFile": "PY_ED_APW.docx",
+      "issuingAuthority": "Puducherry Pollution Control Committee (application routed via CPCB, Delhi)",
+      "portal": { "name": "EPR portal (epr.cpcb.gov.in)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No fixed timeline shared by the department; processing moves through scrutiny, inspection (for Processor/Recycler units only) and approval, then certificate issuance.", "text": "The department stated there is no fixed timeline for processing APW applications; the application moves through scrutiny, inspection (only for Plastic Waste Processor/Recycler units) and approval before certificate issuance." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": ["PAN card and Aadhaar card", "Company PAN and CIN", "MSME certificate", "DIC (District Industries Centre) certificate", "Process flow chart", "GPS coordinates and process videos of the unit", "Geo-tagged photos of raw material storage and dispatch area", "Electricity bill", "Signed covering letter", "Purchase and sales data for the last 2 years", "GST data", "Consent under the Water/Air Act from the Pollution Control Board (for Consent to Operate)"],
+      "documentsNote": "",
+      "deemedApproval": { "status": "yes", "days": null, "text": "Deemed approval is applicable for importers; the ED does not specify the exact day threshold or trigger mechanism." },
+      "validity": { "text": "One-time registration; validity continues until Consent to Operate and is renewed along with it." },
+      "fees": { "text": "Minimum ₹5,000, maximum ₹50,000, based on the quantity of product manufactured by the unit; no other statutory fee is applicable." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Online application on the EPR portal (epr.cpcb.gov.in)", "automated": true, "note": null },
+        { "n": 2, "phase": "apply", "title": "Application forwarded to CPCB, Delhi", "automated": true, "note": null },
+        { "n": 3, "phase": "apply", "title": "Routed to Puducherry Pollution Control Committee", "automated": true, "note": null },
+        { "n": 4, "phase": "scrutiny", "title": "Application scrutiny", "automated": "partial", "note": null },
+        { "n": 5, "phase": "inspect", "title": "Inspection (only for Plastic Waste Processor/Recycler units)", "automated": false, "note": "Other categories are processed without a site visit." },
+        { "n": 6, "phase": "approve", "title": "Routed to higher authority", "automated": "partial", "note": null },
+        { "n": 7, "phase": "approve", "title": "Approval/rejection", "automated": "partial", "note": null },
+        { "n": 8, "phase": "approve", "title": "Digital signature and certificate download", "automated": true, "note": null }
+      ],
+      "ed": { "date": "14-Oct-2026", "location": "Pondicherry Chamber of Industries, First Main Road, PIPDIC Industrial Estate, Mettupalayam, Puducherry 605008", "expert": "Selvanayagi; Vimal raj", "designation": "Scientist; Junior scientific asst." },
+      "remarks": [
+        "Most applicants file the application themselves; very few use consultants or intermediaries.",
+        "Department is planning to make the EPR portal the only mode of application.",
+        "Waste-quantity data (recycled/disposed) must be updated on the EPR portal as part of post-approval compliance."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["DUPDOC", "COMPLY"], "sentiment": "issue", "text": "The application requires a long list of documents (PAN, Aadhaar, MSME certificate, DIC certificate, process flow chart, geo-tagged photos, purchase/sales data, GST data, etc.), and applications are often delayed due to missing or invalid documents." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "No fixed timeline is shared by the department for processing APW applications; the process moves through scrutiny, inspection (for Processor/Recycler units) and approval before certificate issuance." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Deemed approval is available for importers under the Plastic Waste Authorization process." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The process is entirely online and paperless, with data auto-fetched from other linked applications." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Site inspection applies only to Plastic Waste Processor (Recycler) units; other categories are processed without a site visit." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "The statutory fee ranges from ₹5,000 to ₹50,000 based on the quantity of product manufactured by the unit, with no other statutory fee applicable." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "The department is planning to make the EPR portal the only mode of application, moving away from any offline/physical submission." },
+        { "source": "ed", "category": "remarks", "tags": ["INFORMAL", "POSITIVE"], "sentiment": "positive", "text": "Most applicants file the application themselves; very few use consultants or intermediaries." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY", "DUPDOC"], "sentiment": "suggestion", "text": "The expert recommended sharing a clear document checklist with applicants to cut down rejections caused by missing documents." },
+        { "source": "ed", "category": "procedural", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "Registration is one-time and its validity continues until the unit's Consent to Operate, with renewal happening alongside that Consent." },
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Waste-quantity data (recycled/disposed) must be updated on the EPR portal as part of post-approval compliance." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "The application is routed from the EPR portal to CPCB, Delhi, and then to the Puducherry Pollution Control Committee before scrutiny, adding an inter-agency routing step." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No fixed timeline for APW processing is stated by the department — minDays/maxDays could not be determined from the ED." },
+        { "flag": "VAGUE", "text": "Deemed approval applicability is stated only for 'importers' without specifying the exact trigger, day-threshold, or operational mechanism." },
+        { "flag": "GOOD_PRACTICE", "text": "Entirely online, paperless process with auto-fetch of data from other linked applications." },
+        { "flag": "REFORM", "text": "Department is planning to make the EPR portal the sole mode of application, reducing reliance on offline channels." },
+        { "flag": "MISSING", "text": "Exact physical verification checklist/criteria used during inspection for Plastic Waste Processor (Recycler) units is not detailed." }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFile": "PY_ED_FAL.docx",
+      "issuingAuthority": "Chief Inspectorate of Factories & Boilers (Inspector → Joint Chief Inspector of Factories (JCF) → Chief Inspector of Factories (CAF))",
+      "portal": { "name": "Government of India e-Factory licensing portal, customised for Puducherry", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 30, "basis": "20 days for Inspector's physical inspection + 5 days JCF review + 5 days CAF final approval, for a fresh licence.", "text": "The fresh-licence timeline is 30 days in total (20 days including inspection, plus two 5-day review stages); in practice approvals generally meet this timeline." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": ["Duly filled application, submitted online", "Statutory fee, auto-calculated (by HP rating/workforce) and paid online", "List of proposed workers", "Land ownership proof, or valid lease deed if leased", "Pollution Control clearance for hazardous processes (obtained separately, not linked to this application)"],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed approval provision exists for fresh licenses, mainly because the fee-payment (GRAS) portal and the licensing portal are not integrated, and because physical verification of machinery/layout/safety cannot be auto-cleared." },
+      "validity": { "text": "Granted for a period chosen by the applicant, up to 10 years; fee scales proportionately (e.g., ₹7,200/year, ₹14,400/2 years, for the slab discussed)." },
+      "fees": { "text": "No flat fee; slab-based, auto-calculated by machinery HP rating and workforce size, levied annually with multi-year payment allowed, paid via the online GRAS (Government Receipt Accounting System); no separate fee for site inspection." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant files the application online via the government portal", "automated": true, "note": null },
+        { "n": 2, "phase": "scrutiny", "title": "Application reaches the Inspector (Level 1), who verifies attachments/documents", "automated": "partial", "note": null },
+        { "n": 3, "phase": "fee", "title": "Statutory fee auto-calculated and paid online", "automated": true, "note": null },
+        { "n": 4, "phase": "inspect", "title": "Inspector physically inspects the premises within 20 days (fresh license only)", "automated": false, "note": "Not required for renewals." },
+        { "n": 5, "phase": "inspect", "title": "Inspector records findings in an offline inspection report", "automated": false, "note": null },
+        { "n": 6, "phase": "approve", "title": "Inspector forwards application and report to the Joint Chief Inspector of Factories", "automated": "partial", "note": null },
+        { "n": 7, "phase": "approve", "title": "JCF forwards the case to the Chief Inspector of Factories (CAF)", "automated": "partial", "note": null },
+        { "n": 8, "phase": "approve", "title": "CAF grants final approval and issues the license", "automated": "partial", "note": "Overall timeline: 30 days (20 + 5 + 5)." }
+      ],
+      "ed": { "date": "15-Oct-2026", "location": "Conference Hall, District Industries Centre, Thattanchavady, Industrial Estate, Puducherry-605003", "expert": "R. Murali", "designation": "Sr. Inspector of Labour, Boilers" },
+      "remarks": [
+        "The portal is a GoI platform used by multiple states, with a Puducherry-customised interface.",
+        "Roughly 30–40 fresh applications were processed annually over the last couple of years (approximate).",
+        "No formal inter-departmental coordination is required, except Pollution Control clearance for hazardous processes, furnished at the application stage.",
+        "The OSH Code, 2020 will replace the Factories Act; Puducherry's rules are being finalised, with notification expected around December and implementation around the following April, followed by central portal integration.",
+        "Resource and budgetary constraints limit independent development of advanced IT systems, even where desirable in principle.",
+        "The Central Government is not building a dedicated factory-licensing system, as this is a State/UT subject; each State/UT develops its own."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "The pre-license physical inspection is viewed as necessary despite adding to processing time, since it is the only stage at which safety risk can be eliminated rather than merely managed." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL", "INTERDEP"], "sentiment": "issue", "text": "No deemed approval exists for fresh licenses mainly due to a systems limitation — the fee-payment (GRAS) portal and the licensing portal are not integrated, so fee payment cannot be auto-verified." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "A cost-efficient, centralised IT system from the Government of India (covering plan approval and document cross-verification) could be adopted by Puducherry and similarly placed States/UTs given their resource constraints." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Integrating the GRAS fee-payment portal with the licensing portal would enable in-system fee verification, currently an obstacle to deemed approval." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "The documentation currently required is viewed as more extensive than necessary and could be rationalised going forward." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The entire process — filing, fee calculation and payment — is conducted online through a single portal; all queries/deficiencies are raised only via portal remarks." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Inspecting smaller units is comparatively harder, given limited inspection staff." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No risk-based classification currently exists; it may be introduced within about a year once the department adopts the digital inspection system being jointly developed with the Union Ministry of Labour & Employment under the new Labour Codes." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "The OSH Code, 2020 will replace the Factories Act; Puducherry's rules are being finalised, with notification expected around December and implementation around the following April." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "The fee is slab-based by HP rating and workforce size, levied annually, with multi-year payment allowed (e.g., ₹7,200/year, ₹14,400/2 years)." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "No formal inter-departmental coordination is required, except Pollution Control clearance for hazardous processes, furnished at the application stage." },
+        { "source": "ed", "category": "remarks", "tags": ["QUERY", "POSITIVE"], "sentiment": "positive", "text": "No fixed timeline applies to applicant responses to queries; the application proceeds once the applicant replies, and delay alone does not cause rejection." },
+        { "source": "ed", "category": "remarks", "tags": ["QUERY", "CLARITY"], "sentiment": "neutral", "text": "Queries mainly relate to (i) minor typographical errors and (ii) documents not in proper order — the latter being the more significant recurring issue." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Roughly 30–40 fresh applications were processed annually over the last couple of years." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Exact fee slab table (by HP rating/workforce band) not given beyond example figures (₹7,200/year, ₹14,400/2 years)." },
+        { "flag": "GOOD_PRACTICE", "text": "Statutory fee is auto-calculated by the system based on HP rating and workforce size." },
+        { "flag": "REFORM", "text": "Planned risk-based classification via a digital inspection system under the new Labour Codes, expected within roughly a year." },
+        { "flag": "VAGUE", "text": "Deemed approval is said to be 'revisited once portal integration is resolved,' but no committed timeline is given." },
+        { "flag": "MISSING", "text": "Exact number/composition of inspection staff and the current inspection backlog for smaller units are not quantified." }
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFile": "PY_ED_FBPA.docx",
+      "issuingAuthority": "Chief Inspectorate of Factories and Boilers (Factory Inspector → Joint Chief → Chief)",
+      "portal": { "name": "State Single Window portal", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 30, "basis": "Factory Inspector scrutiny 20 days + Joint Chief verification 5 days + Chief approval 5 days, per the officer's stated process.", "text": "Total time for approval is 1 month, divided into inspection (Factory Inspector) 20 days, forwarding (Joint Chief) 5 days, and approval (Chief) 5 days." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": ["Fee payment challan (proof of application fee paid online)", "Building plans and layout (layout needs approval from an Engineer or Architect)", "Land documents", "Partnership deed (where the factory is a partnership)", "CTE NOC from the Pollution Control Board (only for hazardous industries)", "Process description", "Closure report of the previous factory"],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "The service has no deemed approval provision; if the time limit passes, the applicant has to wait for the officers." },
+      "validity": { "text": "Not explicitly discussed in the ED; the officer flagged this as something to confirm with the department." },
+      "fees": { "text": "Charged according to the scale of the industry: ₹250 for small scale, ₹2,000 for medium industries, ₹5,000 for large industries, paid online at submission." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant fills the form, uploads documents and pays the fee online", "automated": true, "note": null },
+        { "n": 2, "phase": "scrutiny", "title": "Factory Inspector scrutinises the submitted documents (20 days)", "automated": "partial", "note": "If a query is raised, the applicant responds." },
+        { "n": 3, "phase": "scrutiny", "title": "Joint Chief does the next-level verification (5 days)", "automated": "partial", "note": null },
+        { "n": 4, "phase": "approve", "title": "Chief gives the final approval (5 days)", "automated": "partial", "note": null },
+        { "n": 5, "phase": "approve", "title": "Application is approved or, where required, rejected", "automated": "partial", "note": null }
+      ],
+      "ed": { "date": "29-09-2026", "location": "Pondicherry Chamber of Industries, First Main Road, PIPDIC Industrial Estate, Mettupalayam, Puducherry 605008", "expert": "R. Murali", "designation": "Inspector of Boilers/ Factories" },
+      "remarks": [
+        "The process is as stated by the officer and is subject to confirmation against official rules.",
+        "The officer flagged five items needing confirmation with the department: validity and renewal of the approval, post-approval compliance, escalation route for delays, whether the 1-month clock stops during a query, and composition of the scrutiny team."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "There is no deemed approval or escalation route for delays; if the time limit passes, the applicant simply has to wait for the officers." },
+        { "source": "ed", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Add deemed approval or an escalation route for delays." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY", "QUERY"], "sentiment": "suggestion", "text": "Clarify whether the 1-month processing clock stops during queries, and set a reply time limit for applicants." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY", "DUPDOC"], "sentiment": "suggestion", "text": "Publish the full document checklist on the portal." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY", "NORMS"], "sentiment": "suggestion", "text": "Define 'hazardous industry' clearly for the purpose of the CTE NOC requirement." },
+        { "source": "ed", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Review the Joint Chief verification stage to cut processing time." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Send SMS or email alerts to applicants at each stage of processing." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY", "RENEWAL"], "sentiment": "suggestion", "text": "Publish the approval validity and renewal rules, since these were not clearly stated in the discussion." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Share a post-approval compliance checklist covering returns, inspections and amendments." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP", "PORTAL"], "sentiment": "suggestion", "text": "Fetch the CTE NOC and layout approval through the portal instead of requiring separate submission." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The entire process is online through the State Single Window, with no physical visit required by the applicant; an Application Tracking System lets the applicant follow status." },
+        { "source": "ed", "category": "remarks", "tags": ["QUERY", "POSITIVE"], "sentiment": "positive", "text": "There is no application rejection outright; if a query is raised, the applicant responds instead." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "The application fee is scaled by industry size (₹250 small, ₹2,000 medium, ₹5,000 large), so small units pay less." },
+        { "source": "ed", "category": "remarks", "tags": ["CLARITY"], "sentiment": "neutral", "text": "The officer explicitly flagged several items as unconfirmed and needing verification with the department, including validity/renewal rules, post-approval compliance, escalation routes, the query clock-stop question, and the composition of the scrutiny team." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Validity period for Factory Building Plan Approval was not explicitly discussed in the ED." },
+        { "flag": "MISSING", "text": "No deemed approval or escalation mechanism exists if the 1-month, three-stage timeline is exceeded." },
+        { "flag": "VAGUE", "text": "Definition of 'hazardous industry' for the CTE NOC requirement is not given." },
+        { "flag": "VAGUE", "text": "Whether the 1-month processing clock pauses during a query/clarification request is not specified." },
+        { "flag": "MISSING", "text": "Composition of the scrutiny team is only loosely described (\"3 persons plus 1\") without clear roles." },
+        { "flag": "MISSING", "text": "Post-approval compliance checklist is stated as not applicable, but the officer flagged this as an item still needing confirmation with the department." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFile": "PY_ED_FNO.docx",
+      "issuingAuthority": "Fire Services Department, Government of Puducherry (Chief Fire Officer → jurisdictional Fire Officer)",
+      "portal": { "name": "EoDB portal (eodb.py.gov.in)", "url": null },
+      "timeline": { "minDays": 15, "maxDays": 30, "basis": "15 to 30 days as per the citizen's charter; extended mainly when the applicant delays installing required firefighting equipment.", "text": "The citizen's charter prescribes 15 to 30 days, and about 75–80% of applications are cleared within this period." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": ["Application form with applicant name, premises address and contact number", "Registration letter (for initial processing)", "Copy of the approved building plan", "Building stability certificate", "Floor-wise occupancy details of the building", "Details of the material handled or stored on the premises (for industrial units)"],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "Not applicable — every application is cleared only after physical inspection of the premises; there is no automatic or deemed approval." },
+      "validity": { "text": "One year from the date of issue. A proposal to extend this to three years is under consideration as part of ease-of-doing-business reforms." },
+      "fees": { "text": "No fee is charged by the Fire Department; the NOC itself is issued free of cost. Empanelled third-party agencies, where engaged for equipment inspection, charge their own fees with no fixed cap yet." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Application submitted (online/offline)", "automated": "partial", "note": "About 80% filed online via the EoDB portal; the rest come offline via Planning Authority/Municipality offices or empanelled agencies." },
+        { "n": 2, "phase": "scrutiny", "title": "Received by the Chief Fire Officer", "automated": false, "note": null },
+        { "n": 3, "phase": "scrutiny", "title": "Forwarded to the jurisdictional Fire Officer", "automated": false, "note": null },
+        { "n": 4, "phase": "inspect", "title": "Site inspection", "automated": false, "note": null },
+        { "n": 5, "phase": "approve", "title": "Inspection report sent back to the Chief Fire Officer", "automated": false, "note": null },
+        { "n": 6, "phase": "approve", "title": "NOC approved and issued", "automated": "partial", "note": null }
+      ],
+      "ed": { "date": "15-Oct-2026", "location": "Conference Hall, District Industries Centre, Thattanchavady, Industrial Estate, Puducherry-605003", "expert": "A. Suresh; M. Vimalraj", "designation": "Asst. Divisional fire officer; LF(SG)" },
+      "remarks": [
+        "The department pointed to past incidents of fire-safety lapses leading to loss of life, to stress why consistent enforcement matters.",
+        "Its stated priority order is life safety first, then protection of property.",
+        "A dedicated state Fire Act is still being drafted."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "There is no cap on fees charged by empanelled third-party agencies engaged for equipment inspection, leading to inconsistent charges across applicants." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The timeline gets extended mainly when the applicant delays installing the required firefighting equipment, not due to department-side delay." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Fire NOC is not mandatory for most industries, so only about 35–40% of eligible industrial units actually apply, usually when a buyer or another department asks for it." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "About 80% of applications now move through the online EoDB portal, cutting down physical visits." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Equipment recommendations (sprinkler coverage, detector spacing, number of staircases) are worked out from the actual building plan, floor area and height, not applied generically." },
+        { "source": "ed", "category": "policy", "tags": ["OTHER"], "sentiment": "positive", "text": "Third-party applications were enabled from September 2025, and inspection requirements were eased in line with the updated National Building Construction Standards." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "Puducherry's Fire Prevention, Protection and Life Safety Rules for buildings were notified recently (around August 2026)." },
+        { "source": "ed", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Fix a capped, uniform fee for empanelled third-party inspection agencies." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Finalise and notify the state Fire Act to give the safety requirements clear legal backing." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Widen awareness so more eligible industrial units apply for Fire NOC, beyond the 35–40% that do today." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Buildings are classified into 8 categories under the National Building Code/National Building Construction Standards, and fire safety recommendations depend on the category." },
+        { "source": "ed", "category": "remarks", "tags": ["RENEWAL", "POSITIVE"], "sentiment": "positive", "text": "A proposal to extend Fire NOC validity from 1 year to 3 years is under consideration as part of ease-of-doing-business reforms." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The department's stated priority order is life safety first, then protection of property, citing past incidents of fire-safety lapses leading to loss of life." },
+        { "source": "ed", "category": "pain", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Deemed approval is not applicable, since every application is cleared only after physical inspection of the premises." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "A dedicated state Fire Act is still being drafted, with no clear timeline given for finalisation." },
+        { "flag": "GOOD_PRACTICE", "text": "Equipment recommendations are calculated from actual building plan, floor area and height, not applied generically." },
+        { "flag": "REFORM", "text": "Proposal to extend Fire NOC validity from 1 year to 3 years is under consideration." },
+        { "flag": "MISSING", "text": "No fixed cap on fees charged by empanelled third-party agencies; a regulating amendment is 'under process' with no stated timeline." },
+        { "flag": "VAGUE", "text": "The exact split of the ~20% offline applications between Planning Authority/Municipality offices and empanelled agencies is not quantified." }
+      ]
+    },
+    {
+      "serviceCode": "GST",
+      "serviceName": "GST Registration",
+      "sourceFile": "PY_ED_GST.docx",
+      "issuingAuthority": "Commercial Tax Department (jurisdiction auto-allocated 50:50 between State and Central GST authorities)",
+      "portal": { "name": "Common GST portal (gst.gov.in)", "url": null },
+      "timeline": { "minDays": 3, "maxDays": 30, "basis": "3 working days for Aadhaar-authenticated automatic registration; 7 working days for normal process with successful Aadhaar authentication; 30 working days where Aadhaar authentication fails and physical verification is required.", "text": "Automatic (Aadhaar-authenticated) registration is completed within 3 working days with no officer involved; normal processing with successful Aadhaar authentication takes 7 working days; where authentication fails, requiring physical verification, it takes up to 30 working days." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": ["PAN, Aadhaar, mobile number and email ID of the proprietor/director", "Business details — trade name, nature of business and principal place of business", "Proof of business premises — ownership document, or rent/lease agreement if rented", "Photograph of the applicant"],
+      "documentsNote": "",
+      "deemedApproval": { "status": "yes", "days": 7, "text": "If the officer takes no action within the applicable 7-day or 30-day window, the system automatically grants deemed approval without manual intervention." },
+      "validity": { "text": "No fixed validity — registration remains valid until the taxpayer surrenders or cancels it; there is no annual or periodic renewal requirement." },
+      "fees": { "text": "No fee is charged for GST registration." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant fills the registration form on the portal, generating an Application Reference Number (ARN)", "automated": true, "note": null },
+        { "n": 2, "phase": "scrutiny", "title": "Aadhaar authentication check", "automated": true, "note": "Successful authentication moves directly to approval; failed authentication requires physical verification of the business premises." },
+        { "n": 3, "phase": "inspect", "title": "Physical verification of business premises (only where Aadhaar authentication fails)", "automated": false, "note": null },
+        { "n": 4, "phase": "approve", "title": "Approval (manual, deemed, or automatic depending on route)", "automated": "partial", "note": null }
+      ],
+      "ed": { "date": "14-Oct-2026", "location": "Conference Hall, District Industries Centre, Thattanchavady, Industrial Estate, Puducherry-605003", "expert": "Bhuvaneswaran; V. Punitha Valli", "designation": "Deputy Commercial Tax Officer" },
+      "remarks": [
+        "Puducherry recorded about 4,000 GST applications in FY 2025–26, split roughly evenly between State and Central jurisdiction.",
+        "No state-specific recommendation was offered, as eligibility criteria and process are centrally governed by the GST Council."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The process is fully online and faceless, through the common GST portal shared by State and Central GST authorities, with new applications auto-allocated 50:50 between the two." },
+        { "source": "ed", "category": "policy", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Deemed approval is automatically granted if the officer takes no action within the applicable 7-day or 30-day window, without manual intervention." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "The system automatically classifies applicants as low, medium or high risk based on PAN-linked data such as income tax filing history and any past defaults." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE", "INSPECT"], "sentiment": "neutral", "text": "Applications where Aadhaar authentication fails require physical verification of the business premises, extending the timeline to 30 working days." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "No fee is charged for GST registration." },
+        { "source": "ed", "category": "remarks", "tags": ["INTERDEP", "POSITIVE"], "sentiment": "positive", "text": "No separate inter-departmental clearance (such as a trade license) is required for GST registration." },
+        { "source": "ed", "category": "remarks", "tags": ["INFORMAL"], "sentiment": "positive", "text": "Engaging a consultant or chartered accountant is optional, not mandatory; the process is simple and largely self-serviceable, with step-by-step guidance available online." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "Government of India's SOP for GST registration is followed uniformly across the process." },
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY"], "sentiment": "neutral", "text": "KYC must be completed within 30 days of registration, including submission of bank account details." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Puducherry recorded about 4,000 GST applications in FY 2025–26, split roughly evenly between State and Central jurisdiction." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "No state-specific recommendation was offered, as eligibility criteria and process are centrally governed by the GST Council." },
+        { "source": "ed", "category": "procedural", "tags": ["QUERY", "TIMELINE"], "sentiment": "neutral", "text": "A reply to any query raised by the officer is required within 7 working days of the query." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The Application Reference Number (ARN) allows applicants to track status through verification, query (if any) and approval." }
+      ],
+      "gaps": [
+        { "flag": "GOOD_PRACTICE", "text": "Deemed approval is automatically granted after the 7-day or 30-day window lapses without manual intervention." },
+        { "flag": "GOOD_PRACTICE", "text": "Automatic risk classification using PAN-linked income tax filing history, rather than manual assessment." },
+        { "flag": "MISSING", "text": "The exact physical verification process/criteria used for failed-Aadhaar-authentication cases is not detailed." },
+        { "flag": "VAGUE", "text": "The split of ~4,000 applications between State and Central jurisdiction is described only as 'roughly evenly,' with no precise figures." }
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFile": "PY_ED_RFAL.docx",
+      "issuingAuthority": "Chief Inspectorate of Factories & Boilers (Inspector → Joint Chief Inspector of Factories (JCF) → Chief Inspector of Factories (CAF))",
+      "portal": { "name": "Same online portal used for a fresh factory license (GoI platform, Puducherry-customised)", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 30, "basis": "Same fixed 30-day timeline as a fresh license; renewal is generally completed sooner in practice since there is no inspection stage.", "text": "The timeline fixed for renewal is the same 30 days as for a fresh license, though in practice it is usually completed faster since there is no physical inspection involved." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": ["Signed application, filed online under the renewal option", "Copy of the fee-paid receipt (chalan)", "Copy of the existing factory license for which renewal is sought", "Valid lease deed, where the premises is leased"],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed approval provision currently exists for renewal either; mainly a system limitation, since the fee-payment (GRAS) portal and the factory-licensing portal are not integrated." },
+      "validity": { "text": "Same as for a fresh license — granted for a period chosen by the applicant, up to a maximum of 10 years, with the fee scaling in proportion to the number of years chosen." },
+      "fees": { "text": "Same slab-based fee structure as a fresh license, calculated by HP rating of machinery and number of workers, paid online through GRAS; the applicant can pay for more than one year at a time." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant selects the renewal option on the same online portal used for a fresh license and submits documents", "automated": true, "note": null },
+        { "n": 2, "phase": "scrutiny", "title": "Application lands with the Inspector, who checks that documents are complete and in order", "automated": "partial", "note": "No physical inspection is carried out at this stage." },
+        { "n": 3, "phase": "approve", "title": "Inspector forwards the application to the Joint Chief Inspector of Factories (JCF), who examines it again", "automated": "partial", "note": null },
+        { "n": 4, "phase": "approve", "title": "JCF forwards the case to the Chief Inspector of Factories (CAF)", "automated": "partial", "note": null },
+        { "n": 5, "phase": "approve", "title": "CAF approves the application and the license is renewed", "automated": "partial", "note": "Fixed timeline is the same 30 days as for a fresh license." }
+      ],
+      "ed": { "date": "15-Oct-2026", "location": "Conference Hall, District Industries Centre, Thattanchavady, Industrial Estate, Puducherry-605003", "expert": "R. Murali", "designation": "Sr. Inspector of Labour, Boilers" },
+      "remarks": [
+        "Unlike a fresh license, pollution control clearance is not sought again at renewal; the applicant is presumed to remain compliant, with enforcement left to the pollution control department except in rare cases involving a major complaint.",
+        "The Factory License process does not require inter-departmental coordination at the renewal stage, since different departments follow different timelines and linking them would complicate and delay renewal."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Renewal is simpler and quicker than the fresh license process, since it needs fewer documents and no inspection." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "issue", "text": "No deemed approval currently exists for renewal either, mainly a system limitation since the GRAS portal and the factory-licensing portal are not integrated for fee verification." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Better integration between the GRAS portal and the factory-licensing portal would help verify fee payment within the system, supporting deemed approval for renewal as well." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Any change in a factory's operations after a license is issued, such as more workers or new machinery, is not reviewed as part of renewal; such changes need a separate amendment application or get picked up only during a later inspection." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Pollution control clearance is not re-sought at renewal; the applicant is presumed compliant, with enforcement left to the pollution control department except for major complaints." },
+        { "source": "ed", "category": "remarks", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Inter-departmental clearances are not linked at the renewal stage since different departments follow different timelines (annual, financial year, etc.), and linking them would complicate and delay the process." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Compliance burden for renewal is low — only a few documents (application, fee receipt, old license copy, lease deed where applicable) are needed and there is no inspection stage." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No risk-based classification currently exists for the Factory License process, including renewal; it is under consideration once the department moves to an online inspection system with the Union Ministry of Labour & Employment." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The process follows the same pattern as the rest of the country, with no major State/UT-specific variation." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "Fee is paid online through the GRAS portal, and the applicant can pay for more than one year at a time." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "No burdensome activity specific to renewal was identified; since renewal needs fewer documents and no physical inspection, it is considered simple and quick compared to a fresh license." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Deemed approval remains unavailable for renewal due to the same GRAS/licensing-portal integration gap as for fresh licenses, with no committed resolution timeline." },
+        { "flag": "MISSING", "text": "There is no mechanism to capture mid-cycle operational changes (new machinery/workforce) at renewal; this is flagged only as requiring a separate amendment application." },
+        { "flag": "GOOD_PRACTICE", "text": "Renewal is limited to document verification by the Inspector, JCF and CAF with no site inspection, making it faster than a fresh license." }
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFile": "PY_ED_RFNO.docx",
+      "issuingAuthority": "Fire Department, Government of Puducherry (local fire official → CFO/DFO office)",
+      "portal": { "name": "Same portal used for the original Fire NOC", "url": null },
+      "timeline": { "minDays": 15, "maxDays": 30, "basis": "15 to 30 days from inspection to issue of the renewed NOC.", "text": "Renewal takes 15 to 30 days from inspection to issue of the renewed NOC." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": ["Updated building plan, if the premises has been extended", "Building stability certificate", "Details of firefighting equipment installed"],
+      "documentsNote": "",
+      "deemedApproval": { "status": "yes", "days": null, "text": "Deemed approval is meant for delays on the department's side, but officials are reluctant to use it when fire-safety arrangements are not yet in place, since that would put people in the building at risk." },
+      "validity": { "text": "One year from the date of issue." },
+      "fees": { "text": "No fee is charged for renewal." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant applies online on the same portal used for the original NOC", "automated": true, "note": null },
+        { "n": 2, "phase": "scrutiny", "title": "Department forwards the application to the local fire official", "automated": "partial", "note": null },
+        { "n": 3, "phase": "inspect", "title": "Local fire official inspects the site, checking firefighting equipment and any building extension/updated plan", "automated": false, "note": null },
+        { "n": 4, "phase": "approve", "title": "Inspection report sent to the CFO/DFO office for review and approval", "automated": "partial", "note": null }
+      ],
+      "ed": { "date": "15-Oct-2026", "location": "Conference Hall, District Industries Centre, Thattanchavady, Industrial Estate, Puducherry-605003", "expert": "A. Suresh; M. Vimalraj", "designation": "Asst. Divisional fire officer; LF(SG)" },
+      "remarks": [
+        "An NOC alone does not stop a fire from happening.",
+        "Proper safety measures and regular upkeep are what protect life and property, with the fire department acting as first responder."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Deemed approval exists for departmental delays, but officials are reluctant to use it when fire-safety arrangements are not yet in place, prioritising safety over automatic clearance." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Yearly renewal keeps a regular check on firefighting equipment, since chemical extinguishers can lose effectiveness if not checked." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Some premises keep water-storage capacity above the recommended level as an extra safety margin." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Buildings are classified by fire-hazard risk — low, medium and high — based on the type of industry, and inspected accordingly." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "If the building has added a floor or expanded since the last NOC, the updated building plan is checked as part of renewal." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Any department issuing an NOC should first check with the fire department that fire-safety measures are in place, for the safety of everyone in the building." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "An NOC alone does not stop a fire from happening; proper safety measures and regular upkeep are what protect life and property, with the fire department acting as first responder." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "No redundant requirement was flagged; renewal largely repeats the checks done for the original NOC, with any building expansion added to the inspection." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "No major reform was suggested beyond existing requirements; officials felt more public awareness about fire risk and precautions is needed." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "The exact day-threshold or trigger for deemed approval on renewal is not specified — it is described only qualitatively." },
+        { "flag": "MISSING", "text": "Unlike the fresh-NOC ED, this document does not address any fee cap for third-party agencies used during renewal inspections." },
+        { "flag": "GOOD_PRACTICE", "text": "Yearly renewal functions as a built-in check on firefighting equipment effectiveness, since chemical extinguishers degrade over time." }
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFile": "PY_ED_RSE.docx",
+      "issuingAuthority": "Labour Department – Factories & Boilers Organisation / Chief Inspectorate of Factories and Boilers",
+      "portal": { "name": "Online RSE portal, migrating to the Shram Suvidha portal", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 7, "basis": "Approval takes 7 days as stated by the officer, though the officer himself flagged uncertainty that the figure may actually be 9 days.", "text": "The approval timeline is 7 days, though the expert noted this should be verified as it may read 9." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": ["Fee challan (proof of fee paid through GRAS)", "Proof of place of running business", "GST certificate/details", "Trade licence", "Rent agreement", "Water or electricity bill"],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "There is no deemed approval under the Shops and Establishment Rules and Act; the application is approved only after scrutiny by the department." },
+      "validity": { "text": "The approval is valid for 3 years." },
+      "fees": { "text": "Paid through the GRAS portal, depending on number of employees: ₹1,000 per year for up to 50 employees, ₹2,000 per year for above 50, and ₹2,500 per year for above 100." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant completes the RSE application online", "automated": true, "note": "Users can do this themselves, with no intermediary." },
+        { "n": 2, "phase": "apply", "title": "Upload required documents (fee challan, proof of place, GST, trade licence, rent agreement, utility bill)", "automated": true, "note": null },
+        { "n": 3, "phase": "fee", "title": "Pay the fee through the GRAS portal", "automated": true, "note": null },
+        { "n": 4, "phase": "apply", "title": "Submit the form", "automated": true, "note": null },
+        { "n": 5, "phase": "scrutiny", "title": "Scrutiny by the department", "automated": "partial", "note": "No physical inspection." },
+        { "n": 6, "phase": "approve", "title": "Approval or return", "automated": "partial", "note": "Approval takes 7 days (verify, as it may read 9) and is valid for 3 years." }
+      ],
+      "ed": { "date": "29-09-2026", "location": "Pondicherry Chamber of Industries, First Main Road, PIPDIC Industrial Estate, Mettupalayam, Puducherry 605008", "expert": "Tamijarasan", "designation": "Assistant Inspector of Labour" },
+      "remarks": [
+        "The officer noted that there is no deemed approval, as per the Shops and Establishment Rules and Act.",
+        "Establishments below the employee threshold (likely 10, to be verified) can run without registration."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The process is fully online, with no physical inspection and no physical document submission." },
+        { "source": "ed", "category": "remarks", "tags": ["INFORMAL", "POSITIVE"], "sentiment": "positive", "text": "Applicants can fill in the form themselves, without any intermediary." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "There is no deemed approval under the Shops and Establishment Rules and Act, so the application is not treated as approved automatically if the timeline passes." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "The approval timeline is stated as 7 days, but the officer himself flagged uncertainty about this figure, noting it may actually be 9 days." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Bulk employer details can now be uploaded in Excel format, and this feature is integrated into the portal." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "neutral", "text": "The service is migrating from the existing online system to the Shram Suvidha portal, in alignment with the OSH & Social Security Code." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "The fee is tiered by number of employees (₹1,000/₹2,000/₹2,500 per year), putting a lower fee on smaller establishments." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "Establishments below the employee threshold (likely 10, to be verified) can run without registration." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Continue the fully online process, since it removes the need for visits and intermediaries." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Complete the migration to the Shram Suvidha portal in line with the OSH & Social Security Code." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Keep the Excel bulk-upload feature integrated, so establishments with many employees can submit data easily." },
+        { "source": "ed", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Keep the 3-year validity, since it reduces how often establishments need to go through the process." },
+        { "source": "ed", "category": "remarks", "tags": ["RENEWAL", "POSITIVE"], "sentiment": "positive", "text": "Approval is valid for 3 years, reducing the frequency of re-registration." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "The approval timeline is stated as '7 days' but the expert flagged this figure as uncertain, possibly '9 days' — needs verification against official rules." },
+        { "flag": "VAGUE", "text": "The employee-count exemption threshold for registration is stated as 'likely 10, to be verified' — not confirmed." },
+        { "flag": "MISSING", "text": "No post-approval compliance checklist was identified ('not applicable' per the ED), with no detail on any ongoing obligations after registration." },
+        { "flag": "REFORM", "text": "Migration from the existing online system to the Shram Suvidha portal under the OSH & Social Security Code is in progress but not yet complete." }
+      ]
+    },
+    {
+      "serviceCode": "TFG",
+      "serviceName": "GST Tax Filing",
+      "sourceFile": "PY_ED_TFG.docx",
+      "issuingAuthority": "Commercial Tax Department (common GST portal, shared by State and Central GST)",
+      "portal": { "name": "Common GST portal (www.gst.gov.in)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "Monthly statutory filing deadlines, not an application-processing timeline: GSTR-1 due by the 11th of the following month, GSTR-3B due by the 20th of the following month.", "text": "A GST-registered taxpayer must file GSTR-1 by the 11th of the following month (sales details) and GSTR-3B by the 20th of the following month (net tax payable, computed automatically by the portal)." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [],
+      "documentsNote": "No documents are needed to file the monthly returns; the 15-digit GSTIN is generated automatically using the PAN details already submitted at registration.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Not applicable — there is no separate approval stage in return filing." },
+      "validity": { "text": "No fixed validity period for GST registration; registration is suspended only if returns are not filed for 6 continuous months in a row, and filing the pending returns makes it active again." },
+      "fees": { "text": "No fee for filing the monthly returns; a late fee of ₹50 per day applies for delayed filing, capped at ₹10,000." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "File GSTR-1 (sales details: invoice number, value, tax rate, amount) by the 11th of the following month", "automated": true, "note": null },
+        { "n": 2, "phase": "fee", "title": "File GSTR-3B (net tax payable after adjusting purchases against sales) by the 20th of the following month", "automated": true, "note": "The portal works out the net tax payable automatically." }
+      ],
+      "ed": { "date": "14-Oct-2026", "location": "Conference Hall, District Industries Centre, Thattanchavady, Industrial Estate, Puducherry-605003", "expert": "Bhuvaneswaran; V. Punitha Valli", "designation": "Deputy Commercial Tax Officer" },
+      "remarks": [
+        "Puducherry has about 25,000 registered taxpayers, of which around 16,000 file returns under the state limit.",
+        "Detailed year-on-year filing numbers are not maintained locally, as GST is centrally managed."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Filing is entirely online through the common GST portal, which is the same for every state; there is no offline filing option." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "GSTR-3B's net tax payable is computed automatically by the portal after adjusting purchases against sales." },
+        { "source": "ed", "category": "pain", "tags": ["FEES"], "sentiment": "neutral", "text": "A late fee of ₹50 per day applies for delayed filing, capped at ₹10,000." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Registration is suspended if returns are not filed for 6 continuous months in a row; filing the pending returns reactivates it." },
+        { "source": "ed", "category": "procedural", "tags": ["QUERY"], "sentiment": "neutral", "text": "A mismatch between GSTR-1 and GSTR-3B figures can lead to scrutiny." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY"], "sentiment": "neutral", "text": "No separate tracking tool is provided by the department — taxpayers rely on their own accounting or billing software to track sales." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Correctly filed returns usually do not raise any query; scrutiny mainly checks whether GSTR-1 and GSTR-3B figures match." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "SOPs issued by the Government of India are followed uniformly for processing." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Puducherry has about 25,000 registered taxpayers, of which around 16,000 file returns under the state limit." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Detailed year-on-year filing numbers are not maintained locally, as GST is centrally managed." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No state-specific recommendation was offered for tax filing — reforms are decided centrally by the GST Council, limiting what Puducherry can change independently." },
+        { "flag": "MISSING", "text": "No reconciliation or tracking tool is provided to taxpayers for matching GSTR-1 against GSTR-3B beyond their own accounting software." },
+        { "flag": "GOOD_PRACTICE", "text": "The portal automatically computes the net tax payable (GSTR-3B) after adjusting purchases against sales." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFile": "PY_ED_TLA.docx",
+      "issuingAuthority": "Local Administration Department (LAD) – Municipality (Revenue Inspector scrutiny, Commissioner approval)",
+      "portal": { "name": "LGRAMS portal", "url": null },
+      "timeline": { "minDays": 0, "maxDays": 7, "basis": "Earlier, approval took up to 7 days; an instant auto-approval scheme has since been introduced for trade licence applications.", "text": "Previously approval took up to 7 days; an instant auto-approval scheme has since been introduced, and separately a 5-day deemed approval applies if the Commissioner does not act." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": ["Up to 27 possible documents depending on the nature of the business (only 3–4 mandatory for most applicants)", "NOC from the concerned line department, mandatory for specific businesses (e.g. Health for hospitals, Food for hotels, Fire, Police for spas/guest houses)"],
+      "documentsNote": "All documents are submitted online as scanned copies; there is no offline submission.",
+      "deemedApproval": { "status": "yes", "days": 5, "text": "If the Commissioner does not approve the application within 5 days of the fee being paid, it is automatically treated as deemed approved and the licence is generated." },
+      "validity": { "text": "Valid for one financial year, from April to March. If the application is made after the financial year has started, the applicant still pays the fee for the full year plus a 25% penalty on the licence fee." },
+      "fees": { "text": "Based on the type/category of business (164 categories), not on size or area; calculated automatically by the portal and paid online." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant creates a login ID on the LGRAMS portal and submits the application online with required documents", "automated": true, "note": null },
+        { "n": 2, "phase": "scrutiny", "title": "Application is scrutinised by the Revenue Inspector", "automated": "partial", "note": "Physical inspection before approval has been removed under a new by-law." },
+        { "n": 3, "phase": "fee", "title": "Fee is worked out automatically and paid online", "automated": true, "note": null },
+        { "n": 4, "phase": "approve", "title": "Application goes to the Commissioner for approval (e-signature)", "automated": "partial", "note": "Deemed approval applies after 5 days of fee payment if not acted on." },
+        { "n": 5, "phase": "approve", "title": "Licence is generated and sent to the applicant by SMS", "automated": true, "note": null }
+      ],
+      "ed": { "date": "15-Oct-2026", "location": "Conference Hall, District Industries Centre, Thattanchavady, Industrial Estate, Puducherry-605003", "expert": "M. Ravi; P. Gunasekaran; D. Saalemaraj", "designation": "Revenue Inspector; Bill Collector; Bill Collector" },
+      "remarks": [
+        "The LGRAMS portal itself works fine; most of the delay comes from coordination with line departments and other agencies (PPA/Electricity Board), not from the system."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["INSPECT"], "sentiment": "positive", "text": "Physical inspection before approval has been removed under a new by-law; the system now runs on document scrutiny and automatic fee calculation." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "positive", "text": "An instant auto-approval scheme has been introduced for trade licence applications, which earlier took up to 7 days." },
+        { "source": "ed", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "NOC from line departments (Police, Fire, Health, Food and Drug) takes 2–3 months to come, even though only 15 days is allowed for their reply." },
+        { "source": "ed", "category": "pain", "tags": ["INTERDEP", "CAPACITY"], "sentiment": "issue", "text": "Delay in getting an occupancy certificate from the Planning Authority/Electricity Board, due to staff shortage there, also holds up licences that need it." },
+        { "source": "ed", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "No fresh trade licence approval has been issued in the region since January; only renewals are being processed, mainly due to these NOC and occupancy-certificate delays." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Of the 27 documents listed, only 3–4 are actually used for most applications." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Issue the licence first and send a copy to the line department for record, instead of withholding the licence while waiting for their NOC." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Let the line department raise any objection directly with the licence holder afterwards, and inspect as often as needed." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Address the staff shortage at the Planning Authority/Electricity Board so that occupancy certificates are not delayed." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Trim the document list to the 3–4 documents that are actually used, instead of asking for all 27." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "INTERDEP"], "sentiment": "neutral", "text": "The LGRAMS portal itself works fine; most of the delay comes from coordination with line departments and other agencies, not from the system." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "Deemed approval in 5 days and automatic SMS alerts keep the process moving even if there is a delay at the department's end." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "A late application made after the financial year has started still requires payment of the full-year fee plus a 25% penalty on the licence fee." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE"], "sentiment": "neutral", "text": "If a complaint is received after a licence is issued under instant auto-approval, the licence is kept under review." }
+      ],
+      "gaps": [
+        { "flag": "GOOD_PRACTICE", "text": "Physical pre-approval inspection has been removed, and deemed approval kicks in automatically 5 days after fee payment." },
+        { "flag": "MISSING", "text": "No fresh trade licence approvals have been issued in the region since January (only renewals), due to NOC/occupancy-certificate delays, with no stated resolution timeline." },
+        { "flag": "REFORM", "text": "Suggested reform to issue the licence first and route line-department NOC review afterward, rather than holding up issuance — not yet adopted." },
+        { "flag": "MISSING", "text": "No cap or SLA is stated for how long the Planning Authority/Electricity Board occupancy-certificate delay (due to staff shortage) may run." }
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License — Renewal",
+      "sourceFile": "PY_ED_TLR.docx",
+      "issuingAuthority": "Municipality (Local Administration Department) — implied from context; not explicitly named in this document (header fields were left blank in the source).",
+      "portal": { "name": "Elgrams portal (as stated in the document; possibly the same system as the 'LGRAMS' portal named in the companion Trade License Approval ED)", "url": null },
+      "timeline": { "minDays": 0, "maxDays": 0, "basis": "Auto-approved instantly on payment of the renewal fee; no document scrutiny step. Renewal is expected to be completed before March each year.", "text": "Renewal is auto-approved instantly on payment of the renewal fee, with the licence available for download the same day; renewal is expected before March each year, and a late renewal attracts a 25% late fee." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [],
+      "documentsNote": "No documents are required at renewal, since these were already submitted and verified when the factory's/business's licence was first issued.",
+      "deemedApproval": { "status": "no", "days": null, "text": "There is no separate deemed-approval provision for renewal; renewal is auto-approved instantly on payment of the fee, so the need for deemed approval does not arise." },
+      "validity": { "text": "Renewal can be granted for a period chosen by the owner, from a minimum of 1 year up to a maximum of 5 years, and can be kept continuously renewed up to 5 years at a stretch." },
+      "fees": { "text": "Renewal fee depends on the type/category of business, under a 164-category fee structure; a late renewal after the due date attracts a 25% late fee on the licence fee." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Owner submits the renewal application online through the Elgrams portal", "automated": true, "note": null },
+        { "n": 2, "phase": "fee", "title": "Renewal fee is generated automatically, based on the type/category of the business", "automated": true, "note": null },
+        { "n": 3, "phase": "fee", "title": "Fee is paid online", "automated": true, "note": null },
+        { "n": 4, "phase": "approve", "title": "System auto-approves the renewal at once; renewed licence is available for download the same day", "automated": true, "note": "No scrutiny or document upload is needed." }
+      ],
+      "ed": { "date": null, "location": null, "expert": null, "designation": "" },
+      "remarks": [
+        "ED document header fields (date, location, expert name, designation, organization) were left blank in the source file; content below is grounded in the body text only.",
+        "Portal name given in the source as 'Elgrams' — possibly the same system as the 'LGRAMS' portal referenced in the Trade License Approval ED for Puducherry; this is not clarified in the source.",
+        "If a complaint (for example, noise) is received against a running factory, an inspection can be ordered and a report sent to the Commissioner, after which the licence may be suspended; this suspension process is separate from renewal/approval."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Renewal is fully online and instantly auto-approved on payment, with no scrutiny or document upload needed." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "No visit to the municipal office is needed at any stage, including for factory owners; renewal can be completed online or through a Common Service Centre." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Ward-wise bill collectors regularly check business premises and report any change in size or type of business to the Revenue Officer, keeping fee records updated even if the owner does not report the change." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE", "POSITIVE"], "sentiment": "positive", "text": "Owner queries are resolved directly over phone by the Revenue Officer, keeping grievance handling quick and simple." },
+        { "source": "ed", "category": "remarks", "tags": ["INFORMAL"], "sentiment": "neutral", "text": "Factories and larger companies typically engage an advocate/legal consultant to handle the online renewal on their behalf, though this is not mandatory and there is no empanelled or listed consultant requirement." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT", "GRIEVANCE"], "sentiment": "neutral", "text": "If a complaint (for example, noise) is received against a running factory, an inspection can be ordered and the licence may be suspended; this is a separate process from renewal." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Around 3,000 trade licence renewals (across categories, including factories) were processed last year, separate from fresh/new licence approvals." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "A renewal done after the due date attracts a late fee of 25% of the licence fee." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "No specific changes were suggested for the renewal process, as the current online, auto-approved system was considered to already be working well." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Document header (date, location, expert name/designation, organization) is blank in the source file — cannot confirm when or by whom this ED was conducted." },
+        { "flag": "VAGUE", "text": "Issuing authority/department is not explicitly named in this document; inferred to be the Municipality/Local Administration Department based on context and the companion Trade License Approval document." },
+        { "flag": "GOOD_PRACTICE", "text": "Renewal is auto-approved instantly on fee payment, with the licence downloadable the same day and no document re-verification needed." },
+        { "flag": "MISSING", "text": "No clarification is given on whether the 'Elgrams' portal named here is the same system as the 'LGRAMS' portal referenced in the Trade License Approval ED, or a distinct spelling/system." }
+      ]
+    },
+    {
+      "serviceCode": "TRG",
+      "serviceName": "GST Tax Refund",
+      "sourceFile": "PY_ED_TRG.docx",
+      "issuingAuthority": "Commercial Tax Department (jurisdictional officer — State or Centre, generally at Assistant Commissioner level)",
+      "portal": { "name": "Common GST portal (gst.gov.in)", "url": null },
+      "timeline": { "minDays": null, "maxDays": 60, "basis": "The officer must sanction or reject a refund claim within 60 days of filing; a delay beyond that means the department pays 6% interest to the applicant. Claims must be made within 2 years of the relevant date.", "text": "A refund claim must be made within 2 years from the relevant date, after which it lapses. Once filed, the officer has 60 days to sanction or reject it, and a delay beyond that triggers 6% interest payable by the department." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": ["Purchase and sales invoices (needed in every case)", "Export invoice and bill of lading (for export refunds)"],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "Not available — every application is examined by the officer, who passes a sanction order before the refund is released." },
+      "validity": { "text": "Not applicable — a refund is a one-time transaction, not a licence or registration that needs periodic renewal." },
+      "fees": { "text": "No fee is charged for filing a refund application on the GST portal." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Taxpayer applies online through the GST portal (gst.gov.in)", "automated": true, "note": null },
+        { "n": 2, "phase": "scrutiny", "title": "Application reaches the jurisdictional officer (State or Centre, generally Assistant Commissioner level), who checks the claim", "automated": "partial", "note": null },
+        { "n": 3, "phase": "approve", "title": "Officer sanctions the refund", "automated": "partial", "note": "Refund amount is worked out by the portal itself." }
+      ],
+      "ed": { "date": "14-Oct-2026", "location": "Conference Hall, District Industries Centre, Thattanchavady, Industrial Estate, Puducherry-605003", "expert": "V. Punitha Valli; Bhuvaneswaran", "designation": "Deputy Commercial Tax Officer" },
+      "remarks": [
+        "Refunds mostly come from exporters and inverted duty structure cases. In Puducherry, it is largely the pharmaceutical and automobile industries applying for these, more because of their business mix than the region being coastal.",
+        "Reform-related inputs are not decided at the field level, per the officer."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The process is largely automated — the GST portal works out the refund amount itself, which cuts down manual involvement and keeps things quick so businesses aren't short of working capital." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "A 60-day sanction window is backed by a 6% interest penalty payable by the department to the applicant for late decisions." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "A refund claim lapses and cannot be filed if not made within 2 years from the relevant date." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Refund mostly arises in two situations — exporters claiming back GST paid on inputs, and businesses under an inverted duty structure where input GST exceeds output GST." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "In Puducherry, refund claims are driven largely by the pharmaceutical and automobile industries, more because of their business mix than the region being coastal." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The officer said reform-related inputs for this service are not decided at the field level but at the policy level." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "There is no deemed approval for refunds — every application is examined by the officer, who must pass a sanction order before release." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Once the refund is sanctioned and credited, there is nothing further for the applicant to file." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "No fee is charged for filing a refund application." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "No risk-based classification was mentioned for refund applications." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No detail is given on exactly how the jurisdictional officer (State vs Centre) is assigned for a given applicant, beyond 'generally Assistant Commissioner level.'" },
+        { "flag": "GOOD_PRACTICE", "text": "A 6% interest penalty is payable by the department to the applicant if the sanction decision exceeds the 60-day window — an in-built accountability mechanism." },
+        { "flag": "MISSING", "text": "No data is given on actual average processing time against the 60-day statutory window." }
+      ]
+    },
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFile": "PY_ED_CTE.pdf",
+      "issuingAuthority": "Puducherry Pollution Control Committee / Department of Science, Technology & Environment (Section Officer scrutiny; higher/concerned authority approval)",
+      "portal": { "name": "OCMMS (Online Consent Management System); new UCAMS (Unified Consent and Authorization Management System) under development", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 21, "basis": "Government Order prescribes category-wise timelines: Green 7 days, Orange 15 days, Red 21 days.", "text": "The approval timeline varies by risk category: 7 days for Green, 15 days for Orange and 21 days for Red, as prescribed in a Government Order." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": ["Relevant particulars as per the application checklist", "Water breakup details (where applicable)", "Wastewater generation details (where applicable)", "Stack-related information (where applicable)", "Audit format/certificate for Gross Fixed Assets (GFA), submitted by the auditor"],
+      "documentsNote": "The discussion states that approximately 5–6 documents are required for CTE overall.",
+      "deemedApproval": { "status": "yes", "days": null, "text": "Deemed approval is not available in the current OCMMS system. An amendment published in January 2026 provides deemed approval for industries proposed to be set up in an industrial estate, covering small, medium and large industries, to be implemented through the new UCAMS portal (currently under development)." },
+      "validity": { "text": "One year's fee is charged, but CTE validity is generally given for 5 years in Puducherry; the ED does not specify a separate renewal date/period." },
+      "fees": { "text": "Automatically calculated through the portal based on Gross Fixed Assets (GFA) and water requirement; paid online; no separate inspection fee; exact fee amount/slab not specified in the discussion." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits the CTE application online through OCMMS with particulars/documents per checklist", "automated": true, "note": null },
+        { "n": 2, "phase": "scrutiny", "title": "Application forwarded to the Section Officer for scrutiny, within 7 days", "automated": "partial", "note": null },
+        { "n": 3, "phase": "scrutiny", "title": "If information/documents are missing, application returned online for rectification", "automated": "partial", "note": null },
+        { "n": 4, "phase": "apply", "title": "Applicant rectifies deficiencies and resubmits", "automated": true, "note": null },
+        { "n": 5, "phase": "fee", "title": "Applicable CTE fee calculated through the portal based on GFA and water requirement; applicant pays online", "automated": true, "note": null },
+        { "n": 6, "phase": "inspect", "title": "Site inspection conducted wherever applicable to assess suitability of the site", "automated": false, "note": null },
+        { "n": 7, "phase": "scrutiny", "title": "For Red-category cases, inspection findings/remarks placed before a committee for decision", "automated": false, "note": null },
+        { "n": 8, "phase": "approve", "title": "Department prepares the draft consent incorporating conditions for air, water pollution and waste management", "automated": "partial", "note": null },
+        { "n": 9, "phase": "approve", "title": "Draft consent submitted to the higher level/concerned authority for approval", "automated": "partial", "note": null },
+        { "n": 10, "phase": "approve", "title": "CTE consent issued after completion of the approval process", "automated": "partial", "note": "Timelines: 7 days Green, 15 days Orange, 21 days Red." }
+      ],
+      "ed": { "date": "23-07-2026", "location": "Conference Hall, District Industries Centre, Thattanchavady, Industrial Estate, Puducherry-605003", "expert": "Poogajendy; Devanand", "designation": "Junior Engineer; Executive Engineer" },
+      "remarks": [
+        "CTE applications are currently processed through OCMMS, while the department is developing a new Unified Consent and Authorization Management System (UCAMS).",
+        "No specific best practice was identified under the CTE service for consideration of replication in other States/UTs."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Risk-based classification (Red/Orange/Green/White) determines inspection requirement and approval timeline; Green-category units are normally not inspected while Orange and Red undergo inspection." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY", "CAPACITY"], "sentiment": "issue", "text": "Industries are required to maintain manual registers/records of water drawn, wastewater generated and wastewater treated, which may be a burden; shifting to digital monitoring may be financially difficult for smaller industries." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Explore online/digital monitoring and data transfer as an alternative to manual record-keeping." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Consider the financial feasibility for smaller industries while implementing digital monitoring." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Implement the deemed-approval provision through the new UCAMS portal once the system is operational." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "neutral", "text": "Deemed approval is not currently available in OCMMS; a January 2026 amendment introduces it for industrial-estate units (small/medium/large), pending the new UCAMS portal." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "No separate inspection fee is charged for CTE." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "Where the department feels an industry has been placed in an incorrect risk category, CPCB's calculation mechanism can be used to reassess parameters and update the category." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "Red-category CTE applications are placed before a committee for decision, with inspection carried out in applicable cases." },
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Highly polluting industries must install Continuous Emission/Effluent Monitoring Systems (CEMS/CEEMS) connected online to the department/CPCB." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The applicable fee is automatically calculated through the portal based on GFA and water requirement entered by the applicant." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "No specific best practice was identified under the CTE service for replication in other States/UTs." },
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY"], "sentiment": "neutral", "text": "The current manual process involves using a manual meter and recording readings, described as taking around 5 minutes each morning." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "neutral", "text": "The department is developing a new Unified Consent and Authorization Management System (UCAMS) to replace OCMMS." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Exact fee amount/slab for CTE based on GFA and water requirement is not specified in the discussion." },
+        { "flag": "VAGUE", "text": "CTE 'validity is generally 5 years' while the fee is charged on a one-year basis — the relationship between annual fee and 5-year validity is not fully clarified." },
+        { "flag": "REFORM", "text": "The January 2026 amendment introduces deemed approval for industrial-estate units, to be operationalised via the new UCAMS portal, which is currently under development with no stated go-live date." },
+        { "flag": "MISSING", "text": "No measurable impact or benefit is quantified for shifting from manual to digital water/wastewater record-keeping." },
+        { "flag": "GOOD_PRACTICE", "text": "Risk-based categorisation (Red/Orange/Green/White) ties the inspection requirement and approval timeline directly to pollution potential." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFile": "PY_ED_CTO.pdf",
+      "issuingAuthority": "Puducherry Pollution Control Committee / Department of Science, Technology & Environment (Section Officer scrutiny, Inspecting Officer inspection, concerned officer approval)",
+      "portal": { "name": "OCMMS (Online Consent Management System); new UCAMS under development/testing", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 21, "basis": "Same category-based timeline as CTE: Green 7 days, Orange 15 days, Red 21 days; non-compliance found during inspection can add delay.", "text": "The CTO process typically follows the same category-wise timelines as CTE (Green 7, Orange 15, Red 21 days); non-compliance observed during inspection causes additional delay since directions must be issued and rectified first." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": ["Details and compliance data, including laboratory and monitoring reports submitted by industries, provided through the online application"],
+      "documentsNote": "Submitted data is verified against available monitoring data held by the department.",
+      "deemedApproval": { "status": "yes", "days": null, "text": "Currently there is no deemed approval process for CTO. A recent amendment provides for deemed approval for industries proposed to be set up in industrial estates (small, medium, large), to be implemented through the new UCAMS portal, currently under development/testing." },
+      "validity": { "text": "Minimum validity 5 years, maximum 25 years; the applicant chooses the validity period based on the fee they are willing to pay. The department cannot grant CTO validity beyond 25 years, as specified by CPCB." },
+      "fees": { "text": "Charged year-wise based on the validity period selected; calculated automatically on the portal based on relevant parameters; no variation mentioned by number of employees or size; no separate inspection fee." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits the CTO application online and pays the applicable fee", "automated": true, "note": null },
+        { "n": 2, "phase": "scrutiny", "title": "Application scrutinised by the Section Officer", "automated": "partial", "note": null },
+        { "n": 3, "phase": "scrutiny", "title": "If clarification/deficiency is identified, application returned to the applicant", "automated": "partial", "note": null },
+        { "n": 4, "phase": "inspect", "title": "Inspecting Officer conducts the inspection of the industry after clarification", "automated": false, "note": null },
+        { "n": 5, "phase": "approve", "title": "Draft CTO prepared based on inspection findings and put up to the concerned officer", "automated": "partial", "note": null },
+        { "n": 6, "phase": "scrutiny", "title": "If non-compliance is observed, directions issued and industry must rectify deficiencies", "automated": false, "note": "Can result in additional processing time." },
+        { "n": 7, "phase": "approve", "title": "CTO processed for approval after required compliance/processing is completed", "automated": "partial", "note": null }
+      ],
+      "ed": { "date": "23-07-2026", "location": "Conference Hall, District Industries Centre, Thattanchavady, Industrial Estate, Puducherry-605003", "expert": "Poogajendy; Devanand", "designation": "Junior Engineer; Executive Engineer" },
+      "remarks": [
+        "Third-party inspections are not currently followed; inspections are presently conducted by departmental officials.",
+        "The respondent did not identify any specific CPCB requirement as redundant and stated there were no such requirements from their perspective ('Nothing like that')."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Risk classification into Red, Orange, Green and White determines monitoring frequency — Red highest, White generally no routine monitoring unless complaint-based." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY", "CAPACITY"], "sentiment": "issue", "text": "Industries must maintain manual registers/ledgers for water drawn, wastewater generated and treated; digital shift could simplify this but may not be financially viable for smaller industries." },
+        { "source": "ed", "category": "delay", "tags": ["COMPLY"], "sentiment": "issue", "text": "Non-compliance observed during inspection triggers directions to rectify deficiencies, causing additional delay in CTO processing." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS", "POSITIVE"], "sentiment": "positive", "text": "The respondent explicitly stated no CPCB requirement is seen as redundant, when asked ('Nothing like that')." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The online portal has an in-built fee calculator, allowing applicants to calculate the applicable fee by entering GFA and water requirement values." },
+        { "source": "ed", "category": "remarks", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Third-party inspections are not currently followed; inspections are presently conducted by departmental officials only." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "No specific Puducherry best practice was identified for replication in other states; when asked, the response was 'Not as such.'" },
+        { "source": "ed", "category": "remarks", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "No separate inspection fee is charged." },
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Highly polluting/17-category industries must install online continuous emission/effluent monitoring systems connected to the department/CPCB." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Promote digital record-keeping where feasible to reduce the burden of maintaining manual registers." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Continue and strengthen online monitoring for highly polluting industries, including continuous emission/effluent monitoring linked to the department/CPCB." },
+        { "source": "ed", "category": "suggestions", "tags": ["DELAY", "QUERY"], "sentiment": "suggestion", "text": "Minimise delays from non-compliance by ensuring timely communication of inspection observations and directions to industries." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "The applicant chooses the CTO validity period based on the fee they are willing to pay, up to the CPCB-capped maximum of 25 years." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Exact fee slabs/rates for CTO year-wise charges are not specified." },
+        { "flag": "GOOD_PRACTICE", "text": "The online portal includes a built-in fee calculator letting applicants compute the applicable fee themselves using GFA and water-requirement inputs." },
+        { "flag": "REFORM", "text": "Deemed approval for industrial-estate units was introduced by a recent amendment, pending the new UCAMS portal's go-live (currently under development/testing, no date given)." },
+        { "flag": "MISSING", "text": "No quantified measure of how much non-compliance-driven rectification typically delays CTO processing." }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFile": "PY_ED_LEM.pdf",
+      "issuingAuthority": "Department of Legal Metrology, Government of Puducherry",
+      "portal": { "name": "Ministry of Rural Development portal (external, no dedicated state portal yet); a standalone state portal is under development", "url": null },
+      "timeline": { "minDays": 2, "maxDays": 90, "basis": "Ideal turnaround if all documents are complete: 2 to 3 days. Actual turnaround: 2 to 3+ months, due to document gaps or portal development delays.", "text": "Ideal processing is 2–3 days, but actual turnaround currently runs 2 to 3+ months due to document gaps or portal limitations. The target future SLA under the new portal is within minutes, via auto-approval and self-certification." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": ["Fresh License: Proof of premise location (Rental Agreement/Property documents)", "Municipal Trade License", "Verification Certificate for test weights/test rigs", "Previous work experience proof & employee details", "Model details of equipment (for manufacturers)"],
+      "documentsNote": "Renewal requires only 3 mandatory documents: Municipal Trade License, Rental Agreement (proof of operating premise), and Verification Certificate for test weights.",
+      "deemedApproval": { "status": "yes", "days": null, "text": "Not currently operational in the system, but fully incorporated into the newly notified Puducherry Legal Metrology Rules. Once the standalone state portal goes live, applicants uploading self-declarations and paying fees online will receive instant, system-generated auto-approval within minutes, without manual intervention or pre-inspection." },
+      "validity": { "text": "Current validity is 1 year on a fixed calendar cycle (1 January to 31 December); mid-year applicants get a license valid only up to 31 December so all renewals align on 1 January. Renewal is required annually by December. Under the central Jan Vishwas Act, licensing is being replaced by One-Time Perpetual Registration, eliminating annual renewals." },
+      "fees": { "text": "Fixed statutory fees by license type: Manufacturer License/Renewal ₹500 per annum; Dealer License/Renewal ₹100 per annum; Repairer License/Renewal ₹100 per annum. Stamping/verification costs range from ₹100–₹500 for normal shop equipment up to ₹20,000–₹30,000 for storage tanks." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits the application (LMR forms) online via the portal or physically at the office", "automated": "partial", "note": null },
+        { "n": 2, "phase": "apply", "title": "Supporting documents are uploaded/attached (work experience, employee details, premise proof, model details)", "automated": "partial", "note": null },
+        { "n": 3, "phase": "fee", "title": "Applicant pays the prescribed statutory fee online", "automated": true, "note": null },
+        { "n": 4, "phase": "inspect", "title": "A Legal Metrology Inspector visits the premise to inspect equipment, test weights, standards and premise size using a checklist", "automated": false, "note": null },
+        { "n": 5, "phase": "scrutiny", "title": "Inspector submits an inspection report based on field verification", "automated": false, "note": null },
+        { "n": 6, "phase": "approve", "title": "License approval and issuance, manually or digitally generated", "automated": "partial", "note": "Currently taking 2–3 days to over 2–3 months." }
+      ],
+      "ed": { "date": "23-07-2026", "location": "Conference Hall, District Industries Centre, Thattanchavady, Industrial Estate, Puducherry-605003", "expert": "Mathankumar; Naresh", "designation": "Tahsildar; Asst." },
+      "remarks": [
+        "Legal vs. practical implementation gap: rule amendments enabling instant auto-approval are legally notified but practically unimplemented due to software development delays.",
+        "Portal development and compliance reduction in Legal Metrology are actively monitored bi-weekly at the Cabinet Secretary level."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Actual turnaround runs 2–3+ months against an ideal of 2–3 days, due to document gaps or portal development delays." },
+        { "source": "ed", "category": "pain", "tags": ["INSPECT", "TIMELINE"], "sentiment": "issue", "text": "Mandatory pre-licensing premise inspection extends approval timelines from days to 2–3+ months." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Lack of a dedicated Legal Metrology portal means services are onboarded onto an external Ministry of Rural Development portal, limiting automated features, auto-renewals and end-to-end digital processing." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "COMPLY"], "sentiment": "issue", "text": "Manufacturers can repair equipment in other states without a repair license, but must obtain a separate repairer license in their home state — a dual fee/filing burden driven by State Legal Metrology Rules vs. the Central Act." },
+        { "source": "ed", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Fixed calendar-year expiry (31 December) means a mid-year applicant, e.g. one applying in July, gets only about 6 months of validity but pays the full annual fee." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Move to trust-based self-certification for low-risk items with auto-approval on fee payment, cutting the SLA from 2–3 months to minutes." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Expedite deployment of a standalone state digital portal to achieve 100% digital processing and enable auto-renewals." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Eliminate the dual repairer license requirement, allowing registered manufacturers to carry out repair work in their home state without a secondary license." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "Puducherry's statutory fees (₹100–₹500) are significantly lower than neighbouring states." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "Rule amendments have been notified to replace annual licensing with perpetual one-time registration under the Jan Vishwas Act." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "positive", "text": "Rules are being framed to empower accredited private agencies (Government Approved Test Centres) for high-risk verification, such as CNG/petrol pumps." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Rule amendments enabling instant auto-approval are legally notified but practically unimplemented due to software development delays." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "positive", "text": "Portal development and compliance reduction in Legal Metrology are actively monitored bi-weekly at the Cabinet Secretary level." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "The current system classifies units into Low Risk (transitioning to self-certification/auto-approval) and High Risk (petrol stations, CNG dispensing units, requiring GATC/third-party verification)." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Operationalise the Jan Vishwas registration framework fully, rolling out one-time registration to replace annual renewals." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No exact go-live date is given for the standalone state portal that would enable deemed approval." },
+        { "flag": "REFORM", "text": "One-Time Perpetual Registration under the Jan Vishwas Act has been notified but is not yet operational; annual renewal is still required in practice." },
+        { "flag": "GOOD_PRACTICE", "text": "Puducherry's statutory LEM fees (₹100–₹500/annum) are stated as significantly lower than neighbouring states." },
+        { "flag": "REFORM", "text": "Rules are being framed to authorise GATC/accredited third-party agencies for high-risk (petrol/CNG) verification, but this is not yet operational." },
+        { "flag": "INCONSISTENT", "text": "The document states deemed approval is 'not currently operational' while also describing it as 'fully incorporated' into notified rules; the respondent themselves flagged this as a legal-vs-practical implementation gap within the same discussion." }
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFile": "PY_ED_RCTO.pdf",
+      "issuingAuthority": "Puducherry Pollution Control Committee / Department of Science, Technology & Environment",
+      "portal": { "name": "OCMMS (Online Consent Management System); new UCAMS under development", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "Generally follows the same timeline as CTO applications; scrutiny is completed within approximately 7 days, and where deficiencies are identified the applicant is normally given 7 days to rectify. Actual overall timeline and statutory/Right to Services timeline are not specifically stated in the transcription.", "text": "Renewal of CTO generally follows the same timeline as CTO applications, with scrutiny (~7 days) and a 7-day rectification window where deficiencies are found; the overall actual timeline is not specifically stated." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": ["Online Renewal of CTO Application", "Relevant particulars as per the prescribed checklist", "Auditor's certificate/format showing Gross Fixed Assets (GFA)", "Applicable Air and Water consent fee details/payment", "Monitoring/Test Reports, wherever applicable", "Compliance records/reports, wherever applicable", "Previous CTO details/consent conditions for compliance verification"],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed approval provision is specified for renewal of CTO under the current OCMMS process. Deemed approval introduced through the proposed new UCAMS portal relates to industries proposed to be set up in industrial estates and does not specifically cover CTO renewal; no mechanism for operationalising it for renewal is given." },
+      "validity": { "text": "CTO validity depends on the category and the period selected/paid for by the applicant; CTO can be granted for a minimum of 5 years and up to a maximum of 25 years. The applicant must apply for renewal before expiry of the existing CTO." },
+      "fees": { "text": "Air Consent Fee (based on GFA) and Water Consent Fee (based on water requirement) are both payable for renewal; the total fee varies by number of years of validity chosen and is automatically calculated by the portal. No separate inspection fee is charged." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits the Renewal of CTO application online through OCMMS", "automated": true, "note": null },
+        { "n": 2, "phase": "apply", "title": "Applicant submits required particulars/documents as per the checklist", "automated": true, "note": null },
+        { "n": 3, "phase": "fee", "title": "Applicable Air and Water consent fees are calculated and paid online", "automated": true, "note": null },
+        { "n": 4, "phase": "scrutiny", "title": "Application is scrutinised by the Section Officer", "automated": "partial", "note": null },
+        { "n": 5, "phase": "scrutiny", "title": "If information/documents are missing, application returned for clarification/rectification", "automated": "partial", "note": null },
+        { "n": 6, "phase": "inspect", "title": "Inspection conducted by the inspecting officer, wherever applicable", "automated": false, "note": "Compliance with existing CTO conditions and pollution-control measures is verified." },
+        { "n": 7, "phase": "inspect", "title": "Monitoring/testing conducted where applicable (air, stack, water/effluent)", "automated": false, "note": null },
+        { "n": 8, "phase": "scrutiny", "title": "If non-compliance observed, directions issued and industry required to rectify deficiencies", "automated": false, "note": null },
+        { "n": 9, "phase": "approve", "title": "Renewal application processed by the department after satisfactory inspection/compliance", "automated": "partial", "note": null },
+        { "n": 10, "phase": "approve", "title": "Application put up to the concerned/competent officer for approval", "automated": "partial", "note": null },
+        { "n": 11, "phase": "approve", "title": "Renewed Consent to Operate (CTO) is issued", "automated": "partial", "note": null }
+      ],
+      "ed": { "date": "23-07-2026", "location": "Conference Hall, District Industries Centre, Thattanchavady, Industrial Estate, Puducherry-605003", "expert": "Poogajendy; Devanand", "designation": "Junior Engineer; Executive Engineer" },
+      "remarks": [
+        "The proposed UCAMS portal is expected to further streamline and standardise the consent process.",
+        "Renewal applications may take longer where non-compliance, monitoring requirements or additional clarifications are involved."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "issue", "text": "Deemed approval under the new UCAMS portal relates to industries proposed to be set up in industrial estates, and does not specifically cover CTO renewal." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY", "CAPACITY"], "sentiment": "issue", "text": "Manual ledgers for water consumption and wastewater generation are required for compliance monitoring; digital shift could reduce this burden but may not be financially viable for smaller industries." },
+        { "source": "ed", "category": "delay", "tags": ["COMPLY"], "sentiment": "issue", "text": "Non-compliance observed during inspection triggers directions and required corrective measures/capital investment, extending renewal processing." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS", "POSITIVE"], "sentiment": "positive", "text": "The transcription does not identify any specific requirement as redundant or duplicate for CTO renewal." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Application submission, fee calculation/payment, scrutiny, communication of clarifications and processing are all carried out through OCMMS." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Automatic fee calculation via the portal is based on GFA and water requirement." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Risk classification (Red/Orange/Green/White) determines monitoring frequency: 3 months for red/17-category industries, 1 year for orange, 2 years for green, and no routine testing for white category unless complaint-driven." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Strengthen end-to-end online processing for CTO renewal." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC", "CLARITY"], "sentiment": "suggestion", "text": "Simplify and standardise the document checklist for renewal." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL", "COMPLY"], "sentiment": "suggestion", "text": "Integrate online monitoring data with the consent processing system to reduce duplication." },
+        { "source": "ed", "category": "suggestions", "tags": ["DELAY", "QUERY"], "sentiment": "suggestion", "text": "Ensure timely communication and rectification of deficiencies to reduce delays from non-compliance and repeated clarifications." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "No separate inspection fee is charged for renewal inspections." },
+        { "source": "ed", "category": "delay", "tags": ["DELAY"], "sentiment": "neutral", "text": "Renewal applications may take longer where non-compliance, monitoring requirements or additional clarifications are involved." },
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The proposed UCAMS portal is expected to further streamline and standardise the consent renewal process." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Actual/average renewal processing timeline is not stated beyond the 7-day scrutiny and 7-day rectification windows; no overall statutory SLA is given." },
+        { "flag": "VAGUE", "text": "Deemed approval under UCAMS is described as covering 'industries proposed to be set up in industrial estates' without confirming whether it extends to CTO renewal at all." },
+        { "flag": "MISSING", "text": "Exact fee amounts/slabs for Air and Water consent renewal fees are not specified." },
+        { "flag": "GOOD_PRACTICE", "text": "Automatic fee calculator on the OCMMS portal computes Air and Water consent fees from GFA and water-requirement inputs entered by the applicant." }
+      ]
+    }
+  ]
+}

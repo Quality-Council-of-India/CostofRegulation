@@ -1,0 +1,178 @@
+{
+  "code": "KL",
+  "name": "Kerala",
+  "licenses": [
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFile": "KL_ED_ECL.docx",
+      "issuingAuthority": "KSEBL (Kerala State Electricity Board Limited) via local electrical section office (Assistant Executive Engineer level); HT connections additionally require approval from the Deputy Chief Engineer / Electrical Inspectorate",
+      "portal": { "name": "Multi-channel access: online web portal, mobile app, WhatsApp service, cloud telephony/IVR, and physical section offices (no single named portal given)", "url": null },
+      "timeline": { "minDays": null, "maxDays": 30, "basis": "Statutory maximum under Central/State electricity regulations", "text": "Maximum statutory processing time is up to 30 days under Central/State regulations. Initial field verification is scheduled within 7 days of application submission." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Proof of Ownership (property deed/certificate)",
+        "Proof of Identity (driving license, passport, etc.)",
+        "Certified schematic diagram of internal wiring prepared by a licensed electrical contractor",
+        "(HT/high-end consumers) Additional approvals and certified schematics from the Electrical Inspectorate",
+        "(HT/high-end consumers) Deputy Chief Engineer authorization"
+      ],
+      "documentsNote": "Standard LT requirements apply to low-tension connections; HT/high-end consumers require the additional approvals/authorizations listed.",
+      "deemedApproval": { "status": "yes", "days": 7, "text": "Deemed load sanction clauses apply if initial field verification or processing is not completed within regulatory timeframes, e.g., the 7-day inspection window." },
+      "validity": { "text": "Connection remains in continuous service upon regular bill payment; disconnections exceeding 6 months due to non-payment require a fresh application rather than reconnection." },
+      "fees": { "text": "Application Fee: ₹50. LT Connection Cost: ₹1,500–₹1,700 for basic low-tension setups. HT Connection Cost: scaled cost (up to several lakhs) depending on dedicated transformer, overhead line, or underground cable/RMU installation. Reconnection Fee: ₹120 (for LT disconnections due to unpaid dues). BPL domestic consumers get a free connection." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit application and upload documents", "automated": "partial", "note": "Available via web portal, mobile app, WhatsApp, IVR, or physical section offices." },
+        { "n": 2, "phase": "inspect", "title": "Field verification under 'Service at Doorsteps' scheme", "automated": "partial", "note": "Application auto-assigned to local section office; officer visits applicant's premises for on-site verification." },
+        { "n": 3, "phase": "approve", "title": "Load sanctioning and demand note/cost estimate issuance", "automated": "partial", "note": "HT connections require Deputy Chief Engineer/Electrical Inspectorate approval." },
+        { "n": 4, "phase": "fee", "title": "Payment, installation, meter setup and pre-energization work", "automated": "partial", "note": "Payment is online; installation and final line work are executed physically." }
+      ],
+      "ed": { "date": "27-07-2026", "location": "KSIDC Head office, Conference Hall, Kowdiar, Thiruvananthapuram", "expert": "Kunjunni P.S", "designation": "Assistant Executive Engineer (AEE)" },
+      "remarks": [
+        "Risk-based classification by voltage/load: Single-Phase (LT) below 5 kW (240V); Three-Phase (LT) 5 kW to under 100 kW (415V/450V); High Tension (HT/EHT) above 100 kW.",
+        "Industrial consumers must maintain prescribed power factor levels to prevent power distortion penalties.",
+        "Unauthorized load additions or purpose alterations (e.g., domestic vs. commercial) remain key compliance risks, monitored via routine anomaly inspections and periodic field audits."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "positive", "text": "Multi-channel application access (web portal, mobile app, WhatsApp, cloud telephony/IVR, and physical section offices) is available, including a 'Service at Doorsteps' scheme that sends a field officer to the applicant's premises for verification." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Maximum statutory processing time is up to 30 days under Central/State regulations, with initial field verification scheduled within 7 days of application." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE", "INTERDEP"], "sentiment": "issue", "text": "Delays primarily occur due to consumer-side payment delays of estimated demand notes, missing licensed wiring certificates, or complex multi-department approval cycles for high-tension infrastructure." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Manual estimation and site visits for cost calculations slow down load sanctioning for new connections." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "A regulatory proposal is under review with the State Electricity Regulatory Commission to introduce a standardized per-kVA/kW slab system to automate demand estimates." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Recommended integrating DigiLocker for instant verification of ID and ownership documents." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Recommended completing software revamping for end-to-end digital processing of HT connections." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "positive", "text": "BPL domestic consumers are eligible for a free electricity connection." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "HT connection cost is a scaled cost, potentially several lakhs, depending on whether a dedicated transformer, overhead line, or underground cable/RMU installation is needed." },
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Industrial consumers must maintain prescribed power factor levels to prevent power distortion penalties, and routine anomaly inspections verify that usage purpose or connected load has not been modified without authorization." },
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY"], "sentiment": "issue", "text": "Unauthorized load additions or purpose alterations remain a key compliance risk, monitored via periodic field audits." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "Connections disconnected for non-payment for more than 6 months require a fresh application rather than simple reconnection." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "HT connections require additional approval from the Deputy Chief Engineer or Electrical Inspectorate beyond standard LT processing." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Multi-channel service integration (WhatsApp, IVR, doorstep execution) is reported to ensure high SLA compliance (~99.9%) across divisions." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Deemed load sanction provisions apply if initial field verification or processing is not completed within the regulatory 7-day inspection window." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No specific named online portal (e.g., a website name) is given for electricity connection applications, only a general description of multiple channels (web portal, app, WhatsApp, IVR, section offices)." },
+        { "flag": "VAGUE", "text": "HT connection cost is described only as a 'scaled cost... up to several lakhs' without the underlying slab, formula, or cost table." },
+        { "flag": "VAGUE", "text": "No minimum/fastest-case timeline is stated for connection processing — only the 30-day statutory maximum and the 7-day field-verification window are given." },
+        { "flag": "GOOD_PRACTICE", "text": "'Service at Doorsteps' scheme, where a field officer visits the applicant's premises for verification rather than requiring the applicant to visit an office, is highlighted as reducing physical office visits." },
+        { "flag": "REFORM", "text": "A proposed standardized per-kVA/kW slab system (under review with the State Electricity Regulatory Commission) aims to automate demand estimates and reduce manual site-visit-based cost-calculation delays; not yet implemented per the ED." },
+        { "flag": "MISSING", "text": "Validity/renewal cycle and the detailed multi-department approval steps for high-tension (HT) infrastructure connections are not described beyond being called 'complex multi-department approval cycles.'" }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFile": "KL_ED_LEM.docx",
+      "issuingAuthority": "Controller of Legal Metrology (or Zonal/State Office), with initial scrutiny/inspection by the Flying Squad Office, Department of Legal Metrology",
+      "portal": { "name": "LMOMS portal (also accessible via Akshaya centers)", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 60, "basis": "Processing time for fresh applications, primarily driven by inspection workflows", "text": "Processing fresh applications currently takes up to 30–60 days, primarily due to inspection workflows. The official suggested reducing this timeline by 20–25% for better efficiency." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Building License (from Local Self-Government)",
+        "Rent/Ownership Certificate",
+        "Partnership Certificate / Proprietary Certificate",
+        "Trade License"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "no", "days": null, "text": "There is currently no provision for deemed approval under the present framework." },
+      "validity": { "text": "Manufacturer, Repairer, and Dealer licenses are valid for 1 year and require annual renewal. Packer and Importer registrations carry lifetime validity with a one-time fee and no renewal requirement." },
+      "fees": { "text": "Manufacturer/Dealer License: ₹5,500/year. Repairer License: ₹2,000/year. Packer and Importer Registration: ₹750 (one-time fee). Amendment Fee: ₹50. Late renewal attracts a double fee penalty (e.g., ₹5,500 x 2)." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit application and upload documents via LMOMS portal or Akshaya centers", "automated": "partial", "note": "Online via LMOMS, or assisted via Akshaya Common Service Centres." },
+        { "n": 2, "phase": "inspect", "title": "Routing to Flying Squad Office for scrutiny and inspection", "automated": false, "note": "Applicant must book an online slot for date/time verification." },
+        { "n": 3, "phase": "approve", "title": "Approval by Controller of Legal Metrology (or Zonal/State Office)", "automated": "partial", "note": "" },
+        { "n": 4, "phase": "fee", "title": "Online fee payment and digital certificate/license generation", "automated": true, "note": "No physical office visit required." }
+      ],
+      "ed": { "date": "27-07-2026", "location": "KSIDC Head office, Conference Hall, Kowdiar, Thiruvananthapuram", "expert": "Manoj V.R", "designation": "IT Manager" },
+      "remarks": [
+        "No formal risk-based classification (Low/Medium/High) exists at present; all applicants follow uniform inspection and approval protocols.",
+        "Unregulated local headload union disruptions during equipment setup, and delayed State Entrepreneur Subsidies, remain operational hurdles for new MSME applicants."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Processing fresh applications currently takes up to 30–60 days, primarily due to inspection workflows." },
+        { "source": "ed", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "It is suggested that the processing timeline be reduced by 20–25% for better efficiency." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "issue", "text": "The 60-day timeline and mandatory Flying Squad field inspections before approval add burden to the licensing process." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "QUERY"], "sentiment": "issue", "text": "Redundancies occur when physical slot bookings or re-verifications overlap with online filings." },
+        { "source": "ed", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Delays frequently stem from external Akshaya Common Service Centre processing." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "Late renewal attracts a double fee penalty (e.g., ₹5,500 x 2)." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "Manufacturer, Repairer, and Dealer licenses are valid for 1 year and require annual renewal, while Packer and Importer registrations carry lifetime validity with a one-time fee and no renewal requirement." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "No formal risk-based classification (Low/Medium/High) exists at present; all applicants follow uniform inspection and approval protocols." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Licensees must submit quarterly revenue reports to the District Flying Squad Controller and undergo mandatory periodic re-verification/calibration, e.g., dispensing pumps verified every 2 years." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "There is currently no provision for deemed approval under the present framework." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Recommended implementing automated WhatsApp status alerts for applicants." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Recommended streamlining Akshaya Common Service Centre submission timelines." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Recommended relaxing physical inspection norms for low-risk renewals and introducing deemed approval provisions." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Recommended simplified document renewal if the applicant's line-of-trade remains unchanged." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "issue", "text": "Unregulated local headload union disruptions during equipment setup and delayed State Entrepreneur Subsidies remain operational hurdles for new MSME applicants." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Fully digitized issuance of certificates via LMOMS with online payment integration eliminates physical office visits and enables seamless digital amendments for nominal fees." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "Issuing authority is given only generically as 'Controller of Legal Metrology (or Zonal/State Office)' and the 'Flying Squad Office,' without a single named designated authority or office location." },
+        { "flag": "MISSING", "text": "No timeline or process description is given for Amendment applications beyond the ₹50 fee figure." },
+        { "flag": "GOOD_PRACTICE", "text": "Fully digital issuance of certificates/licenses via the LMOMS portal with online payment, requiring no physical office visit, is cited as a best practice." },
+        { "flag": "REFORM", "text": "Recommended reforms — reducing the 30–60 day timeline by 20–25%, automated WhatsApp status alerts, relaxed physical inspection for low-risk renewals, and introducing deemed approval provisions — are proposed but not yet implemented per the ED." },
+        { "flag": "MISSING", "text": "The online slot-booking mechanism and inspection scheduling process are not described beyond 'applicants must book an online slot for date/time verification.'" },
+        { "flag": "VAGUE", "text": "Periodic re-verification/calibration intervals are specified only for dispensing pumps (every 2 years); intervals for other equipment types (e.g., weighbridges) are referenced but not detailed." }
+      ]
+    },
+    {
+      "serviceCode": "WAC",
+      "serviceName": "Water Connection",
+      "sourceFile": "KL_ED_WAC.docx",
+      "issuingAuthority": "Kerala Water Authority (KWA), via the respective Assistant Engineer (AE) office; Assistant Executive Engineer (Nodal Officer) oversight",
+      "portal": { "name": "E-TAP web portal", "url": null },
+      "timeline": { "minDays": 2, "maxDays": 15, "basis": "Standard KWA internal processing target; can extend significantly if external road-cutting permissions are needed", "text": "Standard processing time is 15 days total at the KWA end, and can be as few as 2–3 days if no road cutting is required. Field verification itself takes approximately 3 days. External Right of Way (ROW)/PWD road cutting permissions can extend the overall timeline from 15 days to over 1 month." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Proof of Identity: Government ID (e.g., PAN Card, Driving License)",
+        "Proof of Ownership: Ownership Certificate"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "unclear", "days": 15, "text": "A standardized 15-day timeline target applies to KWA's own processing, but it is not stated whether a connection is automatically deemed approved if this target is missed; external inter-departmental road-cutting clearances are explicitly stated to be outside automated deemed approval mechanisms." },
+      "validity": { "text": "Lifetime connection upon regular bill payment, with no periodic renewal required. Service is subject to disconnection if payments are delayed by 1.5 to 2 months, following a mandatory 30-day notice period." },
+      "fees": { "text": "Application Fee: ₹15. Domestic Connection Fee: ₹500. Non-Domestic/Industrial/Special Connection Fee: ₹1,000. Installation Costs (Plumbing/Material): ₹10,000 for domestic; ₹9,000–₹39,000+ for industrial/commercial. Road Cutting Fee (PWD): ₹20,000, varies by authority and extent of work. Reconnection Fee: ₹65 (plus clearing outstanding dues). Temporary Disconnection Maintenance: ₹250/year, applicable after 1 year of continuous temporary disconnection." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Register and submit application online via E-TAP", "automated": true, "note": "Minimum required details and documents uploaded online." },
+        { "n": 2, "phase": "scrutiny", "title": "Auto-routing to Assistant Engineer office and field officer assignment", "automated": "partial", "note": "Field officer conducts field verification and a feasibility check." },
+        { "n": 3, "phase": "fee", "title": "Feasibility report and consolidated demand note generation", "automated": "partial", "note": "Demand note covers application fee + connection fee + pipe laying estimate, sent via the portal." },
+        { "n": 4, "phase": "fee", "title": "Unified online payment via E-TAP", "automated": true, "note": "" },
+        { "n": 5, "phase": "approve", "title": "Licensed plumber installation, KWA inspection and commissioning", "automated": "partial", "note": "Plumber auto-selected or chosen by user; installation is physical, followed by KWA inspection." }
+      ],
+      "ed": { "date": "27-07-2026", "location": "KSIDC Head office, Conference Hall, Kowdiar, Thiruvananthapuram", "expert": "Shanti V.P", "designation": "Assistant Executive Engineer (Nodal Officer)" },
+      "remarks": [
+        "Reconnection after disconnection for non-payment requires full settlement of arrears alongside the prescribed ₹65 reconnection fee via the E-TAP portal."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "policy", "tags": ["PORTAL"], "sentiment": "positive", "text": "Water connection applications are processed completely online via the E-TAP portal with zero physical contact required for application submission." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Standard processing time is 15 days total at the KWA end, and can be as few as 2–3 days if no road cutting is required; field verification itself takes approximately 3 days." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE", "INTERDEP"], "sentiment": "issue", "text": "External Right of Way (ROW)/PWD road cutting permissions can extend the timeline from 15 days to over 1 month." },
+        { "source": "ed", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Manual coordination and delays are associated with obtaining external Right of Way (ROW)/Road Cutting permissions from PWD and local road authorities." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Physical coordination for road cutting permissions creates significant project bottlenecks." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Ongoing efforts focus on integrating API-level data sharing between KWA and PWD/road authorities to automate ROW permissions." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Recommended accelerating direct API integration between KWA, PWD, and local government bodies to automate road-cutting estimates and permissions." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Recommended integrating DigiLocker for seamless verification of property ownership and identity documents." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "Fee structure includes a ₹15 application fee, ₹500 domestic connection fee, ₹1,000 non-domestic/industrial connection fee, and installation costs ranging from ₹10,000 (domestic) to ₹9,000–₹39,000+ (industrial/commercial)." },
+        { "source": "ed", "category": "policy", "tags": ["FEES"], "sentiment": "issue", "text": "Road cutting fee (PWD) is ₹20,000 and varies based on authority and extent of work, adding an external, variable cost on top of KWA's own charges." },
+        { "source": "ed", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "Connection is a lifetime connection upon regular bill payment with no periodic renewal, but is subject to disconnection if payments are delayed 1.5 to 2 months, following a mandatory 30-day notice period." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "KWA's own processing has a standardized 15-day target, but external inter-departmental clearances for road cutting are currently outside automated deemed approval mechanisms." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Licensed plumber allocation is automated end-to-end via the portal, which also provides transparent tracking and online fee payment, cited as a best practice." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Reconnection after disconnection for non-payment requires full settlement of arrears alongside the prescribed ₹65 reconnection fee via the E-TAP portal." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Post-approval compliance requires timely clearance of water bills to avoid disconnection and adherence to authorized usage categories and pipe sizing." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The 'Risk-Based Classification' theme in the source document repeats the exact same text as 'Checklist Required (Post-Approval Compliance)' ('Timely clearance of water supply bills... pipe sizing'), so no actual risk-tier (Low/Medium/High) classification for water connections is described." },
+        { "flag": "VAGUE", "text": "Deemed-approval status is ambiguous: a 15-day standardized target is mentioned for KWA processing, but the document does not state whether a connection is automatically deemed approved if KWA misses this target, only that external road-cutting clearances are 'outside automated deemed approval mechanisms.'" },
+        { "flag": "VAGUE", "text": "Road Cutting Fee (₹20,000) is described only as 'varies based on authority and extent of work' without a clear slab or formula." },
+        { "flag": "GOOD_PRACTICE", "text": "End-to-end digital processing through the E-TAP portal — including automated licensed-plumber allocation, transparent tracking, and online fee payment — is cited by the official as a best practice." },
+        { "flag": "REFORM", "text": "An ongoing initiative to integrate API-level data sharing between KWA and PWD/road authorities aims to automate Right of Way (ROW) permissions, currently a major source of delay (extending timelines from 15 days to over 1 month); not yet completed per the ED." },
+        { "flag": "MISSING", "text": "No specific designated officer/title is given for final sanction/approval of the connection beyond 'Assistant Engineer (AE) office' and 'Kerala Water Authority' generally." }
+      ]
+    }
+  ]
+}

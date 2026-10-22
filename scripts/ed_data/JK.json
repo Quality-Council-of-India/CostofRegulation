@@ -1,0 +1,420 @@
+{
+  "code": "JK",
+  "name": "Jammu and Kashmir",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFile": "JK_ED_CTE.docx",
+      "issuingAuthority": "Pollution Control Committee — District Officer (Green category), escalating to Regional Director, Member Secretary and Chairman for Orange/Red category units",
+      "portal": { "name": "JKOCMMS (J&K Online Consent Management & Monitoring System)", "url": null },
+      "timeline": { "minDays": 2, "maxDays": 120, "basis": "Statutory maximum of 120 days under J&K Pollution Control Committee rules for a decision on Consent to Establish", "text": "The statutory ceiling is 120 days, but complete, straightforward applications are usually cleared much faster — around 8 to 10 days, sometimes 2 to 5 days. The clock effectively pauses once a query is raised, and the file auto-closes if the applicant does not respond within 45 days." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Registration with the District Industries Centre (DIC)",
+        "Detailed Project Report (DPR) describing manufacturing process and scale",
+        "Site plan of the proposed unit",
+        "Land papers (from SIDCO/industrial-area authority for industrial land; Deputy Commissioner's change-of-land-use approval for activities like brick kilns on agricultural land)"
+      ],
+      "documentsNote": "PAN and Aadhaar are explicitly not required at this stage.",
+      "deemedApproval": { "status": "yes", "days": 120, "text": "J&K PCC rules technically provide for deemed approval once the 120-day statutory period lapses, but the officer (with ~26-27 years of service) said this has practically never happened, since a query is almost always raised before the deadline." },
+      "validity": { "text": "Consent to Establish is typically granted for around 1 to 2 years — enough time to construct and set up the unit — rather than a long-term validity like Consent to Operate." },
+      "fees": { "text": "One-time fee based on capital investment (project cost) and pollution category, per a notified slab. Illustrative examples given verbally: ~₹14,000 for a ₹50 lakh–₹1 crore unit; ~₹38,000 (Green) to ₹55,000 (Red) for a ₹10–25 crore unit. These figures should be cross-checked against the department's currently notified fee schedule." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply online via JKOCMMS filling 'Schedule I'", "automated": true, "note": "Fully online; no physical/offline filing." },
+        { "n": 2, "phase": "scrutiny", "title": "Application routed to the concerned District Officer", "automated": "partial" },
+        { "n": 3, "phase": "inspect", "title": "Site inspection and 'Schedule II' report filed (most categories)", "automated": false, "note": "White category units skip inspection entirely." },
+        { "n": 4, "phase": "approve", "title": "Category-based approval routing (DO for Green; RD → Member Secretary → Chairman for Orange/Red)", "automated": "partial" },
+        { "n": 5, "phase": "approve", "title": "Consent to Establish order issued online ('Schedule III')", "automated": true }
+      ],
+      "ed": { "date": "25-08-2026", "location": "Ground Floor Conference Hall, JLN Udyog Bhawan, Jammu", "expert": "Anil Kumar Sharma", "designation": "Assistant Executive Engineer, Pollution Control Committee" },
+      "remarks": [
+        "The officer felt there is no major structural bottleneck from the department's side; most friction is on the applicant's side (form-filling difficulty, delayed query responses).",
+        "Zoning of industrial areas by pollution category and activity type was raised as a good long-term idea, though the officer was not aware of any state that has fully implemented it.",
+        "Policy changes in this space happen only occasionally, not frequently."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The portal does not carry forward documents from Consent to Establish to the later Consent to Operate stage, so applicants often end up resubmitting largely similar documents." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY", "INFORMAL"], "sentiment": "issue", "text": "First-time or less tech-savvy applicants often find the online form's language and structure difficult, leading many to depend on cyber cafés or consultants to fill it out." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "A deemed-approval provision technically exists after the 120-day statutory period, but in the officer's 26-27 years of service it has practically never been invoked since a query is almost always raised first." },
+        { "source": "ed", "category": "procedural", "tags": ["QUERY", "COMPLY"], "sentiment": "issue", "text": "If the applicant does not respond to a department query within 45 days, the application is automatically closed and must be filed afresh — this works against the applicant rather than in their favour." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "Actual processing time is usually much faster than the 120-day statutory ceiling, with complete straightforward applications cleared in about 8-10 days, sometimes 2-5 days." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT", "POSITIVE"], "sentiment": "positive", "text": "Low-pollution 'White' category trades (e.g., tailoring shops, beauty parlours) are exempted from inspection altogether, avoiding unnecessary delay for genuinely low-risk businesses." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT", "POSITIVE"], "sentiment": "positive", "text": "Where inspections are required, they are fairly quick — typically about 15 to 30 minutes — regardless of category." },
+        { "source": "ed", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Land documentation can get complicated depending on the type of land and activity — for example, brick kilns need a separate Deputy Commissioner's change-of-land-use approval since they are typically set up on agricultural land." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "The officer recommended building a shared document repository so documents already submitted at the Establish stage do not need to be resubmitted at the Operate stage." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Make the online application form simpler and more user-friendly in its language, so applicants need less help from intermediaries." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Strengthen the single-window system so applicants can clearly track status and expected timelines online." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Develop clearer written guidance on land-related documentation across different activity types (industrial-area land vs. agricultural land needing change-of-use approval)." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "The officer noted the statutory fee is not the main cost for a business — pollution-control equipment that must be installed is usually a bigger financial burden than the government fee itself." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "A unit's pollution category can shift over time if it changes fuel or process — for example, switching from coal/firewood to electricity can move it to a lower category." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Exact fee figures were given verbally during the discussion as illustrative examples only; the complete, currently notified fee schedule by capital-investment slab and category was not captured." },
+        { "flag": "VAGUE", "text": "No single average processing time was given — the officer cited both '2 to 5 days' and '8 to 10 days' for straightforward cases without clarifying what distinguishes the two." },
+        { "flag": "GOOD_PRACTICE", "text": "Entirely online, end-to-end process through JKOCMMS with a clear pollution-category-based escalation hierarchy, and White category units exempted from inspection altogether." },
+        { "flag": "REFORM", "text": "Officer-recommended shared document repository across the Establish-Operate-Renewal stages to avoid resubmission of the same documents." },
+        { "flag": "MISSING", "text": "No detail was given on how real-time application status/timeline information is (or isn't) currently surfaced to applicants on the portal, beyond the officer noting it 'does not always work smoothly'." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFile": "JK_ED_CTO.docx",
+      "issuingAuthority": "Pollution Control Committee — District Officer (Green category), escalating to Regional Director, Member Secretary and Chairman for Orange/Red category units",
+      "portal": { "name": "JKOCMMS (J&K Online Consent Management & Monitoring System)", "url": null },
+      "timeline": { "minDays": 8, "maxDays": 120, "basis": "Statutory maximum of 120 days under J&K Pollution Control Committee rules, same as Consent to Establish", "text": "Statutory maximum is 120 days. Straightforward, complete applications are typically processed in about 8 to 10 days, sometimes taking one to two weeks where lab-based effluent/water sample testing is involved. The clock pauses once a query/show-cause notice is raised, and the file closes automatically if the applicant does not respond within 45 days." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "DIC registration",
+        "Detailed Project Report (DPR)",
+        "Site plan",
+        "Land papers"
+      ],
+      "documentsNote": "Essentially the same document set as Consent to Establish; the portal does not automatically carry these forward, so they are effectively resubmitted. No PAN/Aadhaar required.",
+      "deemedApproval": { "status": "yes", "days": 120, "text": "A deemed-approval provision technically exists after 120 days without a decision, but the officer has not seen it happen in ~26-27 years of service, since a query is almost always raised first. Non-response to a query within 45 days instead leads to automatic file closure." },
+      "validity": { "text": "Category-based: about 15 years for Green, 10 years for Orange, and 5 years for Red category units. An option to extend Green validity to 25 years (linked to an undertaking plus an upfront lump-sum 10-year compliance fee) is under departmental consideration but not yet notified." },
+      "fees": { "text": "Slab-based on capital investment and pollution category. Approximate verbal examples: a few thousand rupees for ₹1-5 crore capital investment depending on category; around ₹38,000 (Green) to ₹55,000 (Red) for ₹10-25 crore investment. Figures should be verified against the department's current notified schedule." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply online via JKOCMMS ('Schedule I') after construction under a valid CTE is complete", "automated": true },
+        { "n": 2, "phase": "scrutiny", "title": "Application routed to concerned District Officer", "automated": "partial" },
+        { "n": 3, "phase": "inspect", "title": "Physical inspection of the now-ready unit; inspection report ('Schedule II') filed", "automated": false },
+        { "n": 4, "phase": "approve", "title": "Category-based approval routing (DO for Green; RD → Member Secretary → Chairman for Orange/Red)", "automated": "partial" },
+        { "n": 5, "phase": "approve", "title": "Consent to Operate order issued online ('Schedule III'); unit permitted to start operations", "automated": true },
+        { "n": 6, "phase": "apply", "title": "Where ownership/occupier changes, the new occupier applies afresh in their own name", "automated": "partial", "note": "Usually granted quickly once Schedule I is submitted correctly." }
+      ],
+      "ed": { "date": "25-08-2026", "location": "Ground Floor Conference Hall, JLN Udyog Bhawan, Jammu", "expert": "Anil Kumar Sharma", "designation": "Assistant Executive Engineer, Pollution Control Committee" },
+      "remarks": [
+        "Rule and policy changes in this space happen only gradually; the process was described as fairly settled overall.",
+        "The officer felt there is no major bottleneck from the department's side; most friction is on the applicant's side around form-filling and process understanding.",
+        "No state currently follows a fully implemented zoning model by pollution category, though special economic zones practice some form of it."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants must resubmit largely the same documents at the Operate stage as at the Establish stage, because the system does not carry these forward automatically." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Physical inspection is a standard part of Consent to Operate for all categories except White, since this is the stage where actual pollution-generating operations begin." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Self-Monitoring Reports place responsibility on the unit itself for pollution-parameter testing, reducing the department's manpower burden while still building in accountability through a 6-month reporting requirement." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Hazardous waste, where generated, cannot be stored for more than 90 days and must be disposed of through the proper forms/inventory process." },
+        { "source": "ed", "category": "pain", "tags": ["NORMS", "OTHER"], "sentiment": "issue", "text": "There is no formal zoning policy keeping Green, Orange and Red category units separated from each other and from residential areas, occasionally leading to complaints and, in rare cases, litigation." },
+        { "source": "ed", "category": "suggestions", "tags": ["POSITIVE"], "sentiment": "suggestion", "text": "A shared industrial-area facility such as a common Effluent Treatment Plant (as done in estates like Samba) was suggested as a good policy direction, rather than every unit building its own." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Introduce a shared document repository so documents submitted at the Establish stage automatically carry forward to the Operate stage." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Simplify the application form's language to reduce dependence on intermediaries." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Consider a formal zoning policy for industrial areas by pollution category and activity type to reduce future land-use conflicts." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Provide clearer written guidance on how category changes linked to fuel or process changes should be handled procedurally." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "A deemed-approval provision technically exists after 120 days, but has not been seen invoked in ~26-27 years of service, since a query is almost always raised first." },
+        { "source": "ed", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Non-response to a query within 45 days leads to automatic closure of the file rather than any approval, mirroring the Consent to Establish process." },
+        { "source": "ed", "category": "remarks", "tags": ["RENEWAL", "POSITIVE"], "sentiment": "positive", "text": "Category-linked long validity periods (5 to 15 years) reduce how often businesses need to reapply." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Applicants sometimes perceive the fee as a bigger burden than it actually is in proportion to capital investment; pollution-control equipment expense is the real cost driver." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The full capital-investment/category fee schedule was not captured — only a few illustrative, approximate verbal examples were given." },
+        { "flag": "VAGUE", "text": "The proposed 25-year Green category validity extension is 'under consideration' but no timeline, eligibility criteria, or notification date was given." },
+        { "flag": "GOOD_PRACTICE", "text": "Self-Monitoring Report framework shifts testing responsibility to the unit (with 6-month reporting) and category-linked long validity periods (5-15 years) reduce reapplication frequency." },
+        { "flag": "REFORM", "text": "Officer-recommended shared document repository plus common/shared pollution-control infrastructure (e.g., common ETPs) for industrial estates." },
+        { "flag": "MISSING", "text": "The officer noted there is 'no strong day-to-day mechanism' to catch a unit whose category or activity has materially changed unless it is flagged during an inspection — no described monitoring process fills this gap." }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFile": "JK_ED_FAL.docx",
+      "issuingAuthority": "Chief Inspector of Factories (charge currently held by the Labour Commissioner), Labour Department, Jammu & Kashmir",
+      "portal": { "name": "JK Single Window portal (for Factory Registration, earlier a separate departmental portal)", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 30, "basis": "Prescribed 30-day processing timeline under the Public Services Guarantee Act, 2018", "text": "The prescribed processing timeline is 30 days; the clock stops when a query is raised and restarts on resubmission. In practice, applications can remain pending at the applicant's end for 2-3 months without action when applicants/service providers do not respond to queries promptly." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Pollution (No Objection) Certificate",
+        "Authorised manager/authority letter",
+        "Power sanction load document",
+        "Fire NOC",
+        "Site plan/building plan",
+        "Lease deed",
+        "Constitution documents depending on entity type (MOA + directors list + Board Resolution for Private Limited; proprietorship declaration; partnership deed)",
+        "Aadhaar and bank details",
+        "Form 23 (details of workers and power load)"
+      ],
+      "documentsNote": "On average 12-13 documents are required; the exact number varies with the size/category of the factory. No additional/special documents unless a specialised activity (e.g., fertiliser manufacturing) is involved.",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed-approval mechanism currently exists. A penal/automatic-approval provision under the Public Services Guarantee Act, 2018 is monitored periodically (reviewed by the Chief Secretary) but is not yet in force." },
+      "validity": { "text": "The discussion did not separately address the validity period for the initial factory licence; validity terms were discussed primarily in the context of renewal (1-5 years, independent of risk category, at the applicant's choice)." },
+      "fees": { "text": "The discussion did not provide the numerical fee structure for factory licence registration." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply online via the JK Single Window portal for Factory Registration (with Building Plan Approval where applicable)", "automated": true },
+        { "n": 2, "phase": "apply", "title": "Upload prescribed documents (pollution certificate, manager letter, power sanction, fire NOC, site plan, lease deed, constitution docs, Aadhaar/bank details, Form 23)", "automated": true },
+        { "n": 3, "phase": "scrutiny", "title": "Dealing Assistant checks completeness; incomplete applications reverted with a query", "automated": "partial" },
+        { "n": 4, "phase": "inspect", "title": "Factory Inspector reviews documents and conducts a physical site inspection where required (hazardous/high-risk units)", "automated": false },
+        { "n": 5, "phase": "approve", "title": "Forwarded to Chief Inspector of Factories (Labour Commissioner) for final approval", "automated": "partial" }
+      ],
+      "ed": { "date": "25-08-2026", "location": "Ground Floor Conference Hall, JLN Udyog Bhawan, Jammu", "expert": "Mohammad Youmis", "designation": "Jr. Assistant, Labour Department, Jammu & Kashmir" },
+      "remarks": [
+        "Factory licence and building plan approval processes are closely linked; applicants typically require both.",
+        "J&K's Single Window system is described as being in a 'transformation phase,' with further changes expected once new Labour Codes are implemented and integration with the central Shram Suvidha portal takes place.",
+        "Reference was made to Gujarat having already implemented the new Labour Codes with its own prepared state rules, and to Maharashtra having discretionary powers for senior officers in hazardous categories."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "There is no inter-departmental document verification (e.g., auto-fetch of Pollution Board or Fire NOC status), so applicants must separately obtain and re-upload documents already held by other departments on the same Single Window platform." },
+        { "source": "ed", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Use of intermediaries/service providers to file applications — often using the service provider's own mobile number/email rather than the applicant's — reduces applicant accountability and traceability; the expert called it a system 'hijacked' by service providers." },
+        { "source": "ed", "category": "procedural", "tags": ["QUERY", "TIMELINE"], "sentiment": "neutral", "text": "The 30-day processing clock stops when a query/clarification is raised and is pending with the applicant, and restarts only once the applicant resubmits." },
+        { "source": "ed", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Delays commonly arise where applicants or their service providers do not respond to queries promptly; in some cases applications remain pending at the applicant's end for 2-3 months without action." },
+        { "source": "ed", "category": "procedural", "tags": ["QUERY"], "sentiment": "neutral", "text": "Common queries relate to incorrect worker-count or power-load details entered in Form 23." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Services fall under the Public Services Guarantee Act, 2018, which requires an explanatory note where processing exceeds the prescribed timeline; no deemed approval or penal provision currently applies." },
+        { "source": "ed", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "The expert suggested that low-risk, document-complete applications could move toward a deemed or same-day (tatkal-style) approval model, similar to systems used for other licences." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Staff shortage relative to application volume contributes to inspection and processing delays." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The Single Window platform has faced periodic technical issues over the past year." },
+        { "source": "ed", "category": "suggestions", "tags": ["INFORMAL"], "sentiment": "suggestion", "text": "Mandate the applicant's own (Aadhaar-linked) mobile number/email for registration and communication, to reduce dependence on intermediaries." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Introduce watermarking of issued certificates and QR-code-based verification to prevent unauthorised editing/fraud." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Deepen integration across the roughly 24 departments on the JK Single Window so documents/approvals from other departments (pollution, fire) can be auto-verified rather than re-uploaded." },
+        { "source": "ed", "category": "procedural", "tags": ["OTHER"], "sentiment": "issue", "text": "A clear amendment provision (e.g., change in occupier or premises) is currently missing from the online system, as it was not carried over from the earlier manual process." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "positive", "text": "Risk-based (colour-coded) categorisation adopted from the Pollution Control Board's classification informs inspection intensity, with physical inspection more likely for hazardous/Red-category units." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The statutory/numerical fee structure for factory licence registration was not discussed in the ED." },
+        { "flag": "MISSING", "text": "Validity period for the initial (fresh) factory licence was not separately addressed — only renewal validity (1-5 years, applicant's choice) was described." },
+        { "flag": "VAGUE", "text": "Even White/Green-category units are said to be inspected in 'around 90%' of registration cases, but no criteria were given for when the remaining ~10% skip inspection." },
+        { "flag": "GOOD_PRACTICE", "text": "Three-tier internal review (Dealing Assistant → Factory Inspector → Chief Inspector of Factories) and risk-based categorisation adopted from the Pollution Control Board's classification." },
+        { "flag": "REFORM", "text": "Recommended reforms: mandatory applicant-specific mobile/email, certificate watermarking/QR verification, deeper inter-departmental integration, and a formal amendment provision for change of occupier/premises." },
+        { "flag": "MISSING", "text": "A clear amendment provision (change of occupier, premises, or name) is explicitly flagged by the expert as missing from the online system, with no interim workaround described." }
+      ]
+    },
+    {
+      "serviceCode": "GST",
+      "serviceName": "GST Registration",
+      "sourceFile": "JK_ED_GST.docx",
+      "issuingAuthority": "State Taxes Department, Government of Jammu & Kashmir (State Tax Officer, or system-driven approval under Rule 14A)",
+      "portal": { "name": "GST portal (gst.gov.in), a centralised national portal managed by Infosys", "url": "https://www.gst.gov.in" },
+      "timeline": { "minDays": 1, "maxDays": 30, "basis": "Statutory 30-day maximum for a decision, with automatic deemed approval if the officer takes no action within that period", "text": "Statutory maximum is 30 days. If Aadhaar is authenticated and the application is complete, registration is typically granted in about 3-4 days; applications routed through the automated Rule 14A path are often approved the same day. Where a query is raised, the process can take 15-25 days, and physical verification (when Aadhaar is not authenticated) can take about one to two weeks." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "PAN card",
+        "Applicant's full name (as per PAN), mobile number and email",
+        "Proof of principal place of business (electricity bill, ownership document, municipal khata copy, property tax receipt, rent/lease agreement, or rent receipt with NOC, depending on ownership status)",
+        "Passport-size photograph of the applicant/promoter",
+        "Latitude and longitude of the business location",
+        "HSN codes for goods / SAC codes for services",
+        "Details of authorised signatory (if different from promoter) and authorised representative, mainly for large/multi-state businesses"
+      ],
+      "documentsNote": "Each uploaded document is currently capped at 500 KB.",
+      "deemedApproval": { "status": "yes", "days": 30, "text": "If a complete application (including a satisfactory reply to any query) is not decided by the officer within 30 days, it is automatically deemed approved. This is viewed internally as a lapse on the officer's part, since the officer is expected to take some action within the timeline." },
+      "validity": { "text": "GST registration has no fixed expiry date and continues indefinitely once granted; it ends only on cancellation (by the taxpayer's own application or suo-motu by the department). The only registration with a built-in time limit is that of a 'casual taxable person' (e.g., for a fair or exhibition), valid for a maximum of about three months." },
+      "fees": { "text": "No government fee for GST registration was mentioned; the process is free of monetary charge. Any cost to the applicant is indirect, mainly intermediary/consultant charges for filling the form and preparing documents." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Visit GST portal and select 'New Registration'", "automated": true },
+        { "n": 2, "phase": "apply", "title": "Enter PAN, name, mobile and email; OTP verification", "automated": true },
+        { "n": 3, "phase": "apply", "title": "Temporary Reference Number (TRN) generated, completing Part A", "automated": true },
+        { "n": 4, "phase": "apply", "title": "Login with TRN and complete Form GST REG-01 (business details, Aadhaar authentication, document upload) — Part B", "automated": true },
+        { "n": 5, "phase": "apply", "title": "Submit form; Application Reference Number (ARN) generated", "automated": true },
+        { "n": 6, "phase": "inspect", "title": "If Aadhaar authenticated, generally no site visit; otherwise a field inspector verifies the business premises", "automated": "partial" },
+        { "n": 7, "phase": "approve", "title": "Officer (or the system under Rule 14A) approves, queries, or lets the timeline lapse into deemed approval; GSTIN and certificate issued", "automated": "partial" }
+      ],
+      "ed": { "date": "24-08-2026", "location": "Ground Floor Conference Hall, JLN Udyog Bhawan, Jammu", "expert": "Waseem Chaudhry", "designation": "Senior Officer, State Taxes Department, Jammu & Kashmir" },
+      "remarks": [
+        "The centralised GST portal is managed by Infosys; the department can raise service requests/feedback but cannot directly modify the portal's features.",
+        "The introduction of Aadhaar authentication and the Rule 14A automated route were described as the most significant recent improvements, reducing processing time for most applicants.",
+        "The automated Rule 14A route is viewed internally as a growing operational challenge (fraud risk) even though it clearly benefits applicants through faster turnaround.",
+        "Jurisdiction (which local circle/office an application falls under) is auto-suggested by PIN code but can be manually corrected by the assigned officer without issue to the applicant."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "GST registration is completely online, PAN-based, and run through the centralised, Infosys-managed GST portal with no offline component." },
+        { "source": "ed", "category": "policy", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Under Rule 14A (introduced a few months before the discussion), around 70% of new applications now receive fast-track, system-generated registration based on a risk score, without any officer reviewing documents." },
+        { "source": "ed", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "The document upload limit is only 500 KB, which is too small to keep multi-page documents such as rent agreements legible after compression." },
+        { "source": "ed", "category": "policy", "tags": ["COMPLY"], "sentiment": "issue", "text": "Because Rule 14A grants registration automatically on a risk score without officer verification, it has increased the risk of fraudulent registrations obtained using someone else's PAN and Aadhaar." },
+        { "source": "ed", "category": "procedural", "tags": ["QUERY", "TIMELINE"], "sentiment": "neutral", "text": "If the officer raises a query (a show-cause type notice), the 30-day timeline pauses until a satisfactory reply is submitted, and the overall process can then take 15-25 days." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY", "QUERY"], "sentiment": "issue", "text": "The most common officer query relates to incomplete or vague addresses in the application, where applicants do not specify the exact mohalla, lane, or building." },
+        { "source": "ed", "category": "pain", "tags": ["GRIEVANCE", "OTHER"], "sentiment": "issue", "text": "The physical 'welcome letter' is delivered by post; if it is not delivered, the registration is suspended even though the process is otherwise fully online." },
+        { "source": "ed", "category": "remarks", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive", "text": "The statutory 30-day timeline comes with a deemed-approval safeguard; a lapse into deemed approval is treated internally as the officer's own failure to act in time." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "The nature/category of business declared at registration (e.g., trader, manufacturer, warehouse) is not binding — a taxpayer can later operate a completely different business without needing a new registration." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Increase the document upload file-size limit from 500 KB to roughly 2-5 MB so proofs such as rent agreements remain legible." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Introduce automated or AI-based verification/cross-checking of documents uploaded under the Rule 14A route, rather than relying only on a risk score." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Improve real-time visibility of postal delivery status for the 'welcome letter', or consider a digital alternative, so registrations aren't suspended for reasons outside the taxpayer's control." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Continue improving applicant guidance on address entry (locality, lane/mohalla, building, floor, shop number) to reduce the most common category of queries." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Strengthen post-registration monitoring and data analytics (using already-available sales/purchase data) to detect fraud patterns, given pre-registration verification is largely absent under the automated route." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Officer-side manpower for review and follow-up is limited, especially relative to the growing volume of automated Rule 14A registrations." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "Businesses registered through the automated Rule 14A route are capped at passing on ₹2.5 lakh of Input Tax Credit per month 'until the registration is reviewed after a few months' — the exact review timeline and criteria were not specified." },
+        { "flag": "GOOD_PRACTICE", "text": "Aadhaar-based e-KYC, OTP verification, the Rule 14A risk-based fast-track route (same-day approval for ~70% of applicants), and a statutory 30-day deemed-approval safeguard." },
+        { "flag": "REFORM", "text": "Raising the 500 KB document upload limit to 2-5 MB, and introducing AI-based verification of documents submitted under the Rule 14A automated route." },
+        { "flag": "MISSING", "text": "The exact composition/weighting of the Rule 14A risk-score model (beyond 'PAN, Aadhaar, income tax, banking, GST history, NCLT and credit databases') was not detailed." },
+        { "flag": "GOOD_PRACTICE", "text": "The earlier requirement for a manual site map was removed and replaced with mandatory latitude-longitude capture." }
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFile": "JK_ED_RCTO.docx",
+      "issuingAuthority": "Pollution Control Committee — Regional Director route for Green category; higher approval levels for Orange/Red",
+      "portal": { "name": "J&K Pollution Control Board portal / JKOCMMS (referred to in this ED as 'JKOCCM')", "url": null },
+      "timeline": { "minDays": 3, "maxDays": 120, "basis": "120 days was cited as the stated renewal timeline, consistent with the fresh-consent statutory period", "text": "The discussion referred to 120 days as the stated renewal timeline, but the expert indicated many cases are completed much earlier — sometimes within a few days to around 8-10 days, depending on scrutiny and file movement. No separate quantified average for renewal was provided." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Core documents similar to those used in the earlier CTE/CTO process",
+        "Current compliance / self-monitoring information",
+        "Applicable line-of-activity-specific permissions and environmental compliance documents"
+      ],
+      "documentsNote": "DPR is generally not required again at renewal unless there is a change.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "The expert did not describe an effective deemed-approval mechanism for renewal. The 120-day figure was treated as the stated processing timeline rather than as an automatic-approval trigger." },
+      "validity": { "text": "Renewal follows the same category-based validity structure as fresh Consent to Operate: Green 15 years, Orange 10 years, Red 5 years — a category-based rather than single uniform period." },
+      "fees": { "text": "Renewal fees are lower than fresh-consent fees and vary by capital cost/category. One example given: a Green-category fresh fee of about ₹14,000 reducing to about ₹9,800 at renewal. Other category/capital-cost examples were discussed but not clearly enough to capture a complete fee schedule." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit renewal application online via the J&K Pollution Control Board portal/JKOCMMS", "automated": true },
+        { "n": 2, "phase": "apply", "title": "Provide current/revalidated information and compliance documents", "automated": "partial" },
+        { "n": 3, "phase": "inspect", "title": "Where applicable, inspection of operational pollution-control systems; inspection report submitted", "automated": false },
+        { "n": 4, "phase": "approve", "title": "Category-based approval routing (Green via Regional Director; Orange/Red via higher levels)", "automated": "partial" },
+        { "n": 5, "phase": "renew", "title": "Consent to Operate renewed/revalidated online", "automated": true }
+      ],
+      "ed": { "date": "25-08-2026", "location": "Ground Floor Conference Hall, JLN Udyog Bhawan, Jammu", "expert": "Anil Kumar Sharma", "designation": "Assistant Executive Engineer, Pollution Control Committee" },
+      "remarks": [
+        "Changes in fuel/process/raw material can alter pollution category and compliance burden even at renewal.",
+        "New environmental guidelines can require industries to modify treatment or pollution-control arrangements even after they were originally compliant.",
+        "Exact renewal fee slabs beyond the examples captured in the discussion were not fully recorded."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["RENEWAL", "POSITIVE"], "sentiment": "positive", "text": "DPR is generally not required again at renewal unless there has been a change, reducing the documentation burden compared to a fresh consent." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Documents submitted at the establishment/operation stages are not automatically carried forward through a common repository, adding a digital burden at renewal." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS", "RENEWAL"], "sentiment": "neutral", "text": "If a change in line of activity, fuel, raw material or pollution category has occurred, a fresh consent may be required rather than a simple renewal." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "Renewal fees are lower than corresponding fresh-consent fees — e.g., a Green-category fresh fee of about ₹14,000 reduces to about ₹9,800 at renewal." },
+        { "source": "ed", "category": "pain", "tags": ["CLARITY", "INFORMAL"], "sentiment": "issue", "text": "Applicants may need help completing online renewal forms because of technical/government terminology." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Changes in environmental guidelines can require additional compliance or modifications to existing pollution-control systems even for previously compliant units." },
+        { "source": "ed", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Create a common document repository/auto-fetch system across CTE, CTO and renewal." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Simplify the renewal form and make instructions more applicant-friendly." },
+        { "source": "ed", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Display timelines and application status clearly on the portal." },
+        { "source": "ed", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Provide a helpline/support mechanism for applicants going through renewal." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Develop clearer industrial zoning and buffer arrangements to reduce conflicts between different pollution categories." },
+        { "source": "ed", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Exact renewal fee slabs beyond the examples captured in the discussion were not fully recorded or reconciled into a complete schedule." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No separate quantified average renewal-processing time was provided; the expert only indicated it is 'much earlier' than 120 days in many cases." },
+        { "flag": "MISSING", "text": "The full renewal fee schedule by category/capital-cost slab was not captured — only one worked example (Green: ₹14,000 fresh → ₹9,800 renewal) was clearly recorded." },
+        { "flag": "VAGUE", "text": "Deemed-approval status for renewal is not clearly described — it is unclear whether the same technical 120-day deemed-approval provision described for fresh CTE/CTO also applies to renewal." },
+        { "flag": "GOOD_PRACTICE", "text": "DPR is not repeated at renewal unless there is a change, and renewal fees are lower than fresh-consent fees." },
+        { "flag": "REFORM", "text": "Recommended common document repository/auto-fetch system across CTE, CTO and renewal stages." }
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFile": "JK_ED_RFAL.docx",
+      "issuingAuthority": "Chief Inspector of Factories (charge currently held by the Labour Commissioner), Labour Department, Jammu & Kashmir",
+      "portal": { "name": "JK Single Window portal", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 30, "basis": "No separate renewal-specific timeline was given; the general 30-day factory licence processing benchmark was referenced", "text": "No separate average renewal-processing time was provided; the general 30-day timeline applicable to factory licence processing was referenced as the broader benchmark. Volume-driven delays are common during the concentrated October renewal season due to staff capacity constraints." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Revalidated pollution certificate",
+        "Fire NOC",
+        "Authorised manager/authority letter",
+        "Power sanction load document",
+        "Form 23",
+        "Sector-specific licence where applicable (e.g., drug licence for pharmaceutical units, food licence for food units)"
+      ],
+      "documentsNote": "Fewer documents are required than at initial registration — approximately 6-7, versus 12-15 at registration.",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed-approval mechanism currently exists for renewal. No penal provision for delay currently exists, though timeliness of services is monitored periodically at senior departmental level." },
+      "validity": { "text": "Validity ranges from a minimum of 1 year to a maximum of 5 years, at the applicant's choice, independent of risk category (Red, Orange, White or Green units may all opt for any validity period within this range)." },
+      "fees": { "text": "The discussion does not provide the numerical renewal fee or a category-wise fee structure." },
+      "steps": [
+        { "n": 1, "phase": "renew", "title": "Renewal application filed online via JK Single Window, before/at expiry of existing licence", "automated": true },
+        { "n": 2, "phase": "apply", "title": "Applicant re-submits revalidated documents (pollution certificate, fire NOC, manager letter, power sanction, Form 23, sector-specific licence)", "automated": true },
+        { "n": 3, "phase": "scrutiny", "title": "Documents checked — fewer required than at registration", "automated": "partial" },
+        { "n": 4, "phase": "inspect", "title": "Physical inspection may occur depending on category; generally more limited than at registration", "automated": "partial" },
+        { "n": 5, "phase": "renew", "title": "Licence renewed/revalidated for the applicant's chosen validity period", "automated": true }
+      ],
+      "ed": { "date": "25-08-2026", "location": "Ground Floor Conference Hall, JLN Udyog Bhawan, Jammu", "expert": "Mohammad Youmis", "designation": "Jr. Assistant, Labour Department, Jammu & Kashmir" },
+      "remarks": [
+        "Renewal volumes spike sharply in specific months (October for factories), unlike the more evenly spread flow of new registrations.",
+        "J&K is not yet integrated with the central Shram Suvidha portal or other state systems; integration is expected once new Labour Codes are implemented.",
+        "A draft of new Labour Code-based state rules has been floated for public objections but remains pending finalisation and official notification."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["RENEWAL", "POSITIVE"], "sentiment": "positive", "text": "Fewer documents are required at renewal (approximately 6-7) than at initial registration (12-15), reflecting existing streamlining of the renewal process." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Renewal applications are seasonally concentrated around October, with daily applications rising to around 300 compared with roughly 100-150 on a normal day, straining limited staff capacity." },
+        { "source": "ed", "category": "redundant", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "issue", "text": "No inter-departmental auto-fetch mechanism yet exists to verify the current validity of related licences (e.g., pollution certificate) without re-submission." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT", "CLARITY"], "sentiment": "suggestion", "text": "Publish a clear, standardised position on inspection requirements at renewal by risk category, to remove ambiguity." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Build auto-fetch integration for prerequisite documents (pollution certificate, fire NOC) to reduce duplicate submission at renewal." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Plan staffing/process capacity specifically around the seasonal renewal peak to avoid bottlenecks." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Expedite finalisation and official notification of updated state rules aligned with the new Labour Codes." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT", "NORMS"], "sentiment": "suggestion", "text": "Continue and formalise risk-based inspection at renewal so low-risk/compliant units face a lighter-touch process." },
+        { "source": "ed", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "In some states (cited example: Maharashtra), senior officers have a discretionary — though uncodified — power to call for additional documents in hazardous-category renewals." },
+        { "source": "ed", "category": "remarks", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "J&K is not yet integrated with the central Shram Suvidha portal; integration is expected once new Labour Codes are implemented." },
+        { "source": "ed", "category": "remarks", "tags": ["RENEWAL", "POSITIVE"], "sentiment": "positive", "text": "Validity choice at renewal is independent of risk category — units of any colour category can choose any validity period from 1 to 5 years." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No numerical renewal fee or category-wise fee structure was provided for factory licence renewal." },
+        { "flag": "MISSING", "text": "No separate renewal-processing timeline/average was given beyond the general 30-day factory licence benchmark." },
+        { "flag": "INCONSISTENT", "text": "The discussion contains two differing statements on renewal-stage inspection: one indicating inspection may not occur in every renewal case regardless of category, and another indicating physical inspection remains a legal requirement under the Factories Act even at renewal; the ED does not reconcile this distinction." },
+        { "flag": "GOOD_PRACTICE", "text": "Document count reduced at renewal compared to registration (12-15 down to 6-7)." },
+        { "flag": "REFORM", "text": "Auto-fetch integration for prerequisite documents plus a standardised, risk-based inspection policy at renewal." },
+        { "flag": "MISSING", "text": "No detailed post-renewal compliance checklist was provided beyond items already listed for registration." }
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFile": "JK_ED_RSE.docx",
+      "issuingAuthority": "Labour Department, Jammu & Kashmir — Labour Inspector (scrutiny/decision), Assistant Labour Commissioner (compounding of delayed applications)",
+      "portal": { "name": "JK Single Window portal", "url": null },
+      "timeline": { "minDays": 15, "maxDays": 22, "basis": "15 working days for the Labour Inspector to scrutinise and decide/report deficiency, plus a further 7 days for the applicant to respond if a deficiency is flagged", "text": "The concerned Labour Inspector must scrutinise the application within 15 working days of submission and either issue the registration or report a deficiency. If a deficiency is reported, the applicant has 7 days to respond, during which the processing clock effectively pauses." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Self-declaration (primary basis for registration)",
+        "Geo-tagged photograph of the shop/establishment",
+        "Sector-specific permission/licence where relevant (e.g., drug licence for medical shops, health department clearance)"
+      ],
+      "documentsNote": "No Aadhaar or PAN is currently sought as part of the registration process.",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed-approval mechanism currently exists; registration is based on departmental review of the self-declaration rather than an automatic/deemed process. The expert recommended introducing deemed approval, paired with a post-registration risk-based verification safeguard." },
+      "validity": { "text": "Validity ranges from 1 year to 3 years, at the applicant's choice; this was independently reconfirmed by the expert during the discussion. Renewal is required once the chosen validity period lapses." },
+      "fees": { "text": "Fees range from approximately ₹50 to ₹2,000 per year, depending on business category and/or number of employees. Cited examples: self-employed grocery (kirana) shop with no employees — ₹50; self-employed beauty parlour with no employees — ₹500; self-employed medical agency with no employees — ₹1,000." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply online for registration under the Shops & Establishment Act", "automated": true },
+        { "n": 2, "phase": "apply", "title": "Submit self-declaration (now the primary basis for registration)", "automated": true },
+        { "n": 3, "phase": "apply", "title": "For certain categories (e.g., clinics, medical shops), submit a sector-specific permission/licence", "automated": "partial" },
+        { "n": 4, "phase": "apply", "title": "Upload a geo-tagged photograph of the premises", "automated": true },
+        { "n": 5, "phase": "scrutiny", "title": "Officer reviews self-declaration, documents and photograph for completeness and consistency", "automated": "partial" },
+        { "n": 6, "phase": "approve", "title": "Registration certificate (Form C) issued; no mandatory physical inspection built into the process", "automated": "partial" }
+      ],
+      "ed": { "date": "25-08-2026", "location": "Ground Floor Conference Hall, JLN Udyog Bhawan, Jammu", "expert": "Shivika Sharma", "designation": "Labour Officer, Jammu & Kashmir" },
+      "remarks": [
+        "The Shops & Establishment Act provides four services: Registration, Renewal, Amendment, and Closure.",
+        "Registration/renewal timelines are seasonally concentrated (March-April), similar to the October concentration seen for factory licence renewal.",
+        "Confusion around a supposed 'ADS tax' (likely a separate, municipal scheme) reflects a broader awareness/clarity gap among applicants about which department a given requirement belongs to; the expert clarified no such provision exists under the J&K Shops & Establishment Act."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY", "POSITIVE"], "sentiment": "positive", "text": "Registration has shifted from a document-heavy process to a largely self-declaration-based model following a recent departmental circular, reducing documentation burden." },
+        { "source": "ed", "category": "remarks", "tags": ["COMPLY", "POSITIVE"], "sentiment": "positive", "text": "A geo-tagged photograph requirement was recently introduced as a light-touch verification tool to confirm the shop's location, existence, and approximate age." },
+        { "source": "ed", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Following integration with the JK single-window portal, the online application has reportedly become more complex than under the department's earlier standalone portal, now requiring a separate user profile and project-creation step." },
+        { "source": "ed", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "A high daily volume of applications (approximately 150-320) is processed by only 2 officers against 8 sanctioned posts." },
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE", "QUERY"], "sentiment": "neutral", "text": "The Labour Inspector must scrutinise and decide within 15 working days; if a deficiency is reported, the applicant has 7 days to respond before the clock resumes." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES", "COMPLY"], "sentiment": "neutral", "text": "If an applicant delays completing registration, the application is 'compounded' by the Assistant Labour Commissioner (a late-fee mechanism) rather than simply rejected, and returned for resubmission after the fee is paid." },
+        { "source": "ed", "category": "remarks", "tags": ["GRIEVANCE", "POSITIVE"], "sentiment": "positive", "text": "Applicants are permitted to raise a grievance directly on the Single Window portal if approval is not granted within the specified timeline." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Applicants availing certain government loan/employment schemes (e.g., Mission Yuva, PMEGP) are sometimes required by banks to produce a Shops & Establishment registration certificate before the shop is actually operational, mismatching the Act's requirement that registration follows an operational business." },
+        { "source": "ed", "category": "pain", "tags": ["COMPLY", "NORMS"], "sentiment": "issue", "text": "Category mis-declaration (e.g., a beauty parlour registering under a lower-fee category such as grocery) is a compliance/revenue-leakage risk arising from the self-declaration model." },
+        { "source": "ed", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "A large share of applications are filed using a service provider's/intermediary's mobile number and email rather than the applicant's own, reducing departmental accountability — a single ID has reportedly been used for 200-400 different applications." },
+        { "source": "ed", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "The department currently lacks a mechanism to prevent editing of issued certificates by service providers and lacks QR-code-based verification of certificates." },
+        { "source": "ed", "category": "redundant", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "issue", "text": "The JK single-window portal covers around 24 departments but does not yet let one department verify another's records directly (e.g., checking pollution or fire NOC status); applicants must still upload such documents manually." },
+        { "source": "ed", "category": "suggestions", "tags": ["INFORMAL"], "sentiment": "suggestion", "text": "Mandate applicant-specific (Aadhaar-linked) mobile number and email at registration, with stronger field-level validation to reject duplicate or intermediary-linked numbers." },
+        { "source": "ed", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Introduce certificate watermarking and QR-code verification to prevent unauthorised editing of issued certificates." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Review the interaction between scheme-linked bank requirements (Mission Yuva/PMEGP) and the Act's registration eligibility criteria, to avoid requiring registration before a business is operational." },
+        { "source": "ed", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Introduce a deemed-approval mechanism, paired with post-registration risk-based verification (e.g., periodic checks on declared business category), to reduce manual review without widening mis-declaration risk." },
+        { "source": "ed", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Extend JK single-window integration to allow inter-departmental verification (e.g., pollution or fire NOC status) rather than requiring applicants to manually upload documents another department already issued." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No formal risk-based classification system was described for Shops & Establishment registration; verification is currently uniform regardless of business type or scale." },
+        { "flag": "VAGUE", "text": "The expert's recommended deemed-approval safeguard (periodic risk-based sample checks of declared category) was proposed but not described as implemented or planned with any timeline." },
+        { "flag": "GOOD_PRACTICE", "text": "Shift to a self-declaration-based registration model with a geo-tagged photograph as a light-touch verification tool, and four clearly defined services (Registration, Renewal, Amendment, Closure)." },
+        { "flag": "REFORM", "text": "Recommended reforms: Aadhaar-linked ID mandate with field validation, certificate watermarking/QR verification, deemed approval paired with risk-based post-registration checks, and extended inter-departmental verification." },
+        { "flag": "MISSING", "text": "Only 2 of 8 sanctioned officer posts are filled, flagged as a core operational constraint, with no stated timeline for filling the vacancies." },
+        { "flag": "VAGUE", "text": "The source/scheme behind the 'ADS tax' misconception among applicants (described as 'likely municipal in nature') was not specifically identified in the discussion." }
+      ]
+    }
+  ]
+}

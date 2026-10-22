@@ -1,0 +1,2869 @@
+{
+  "code": "KL",
+  "name": "Kerala",
+  "licenses": [
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFiles": [
+        "KL_FGD_ECL.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants report rude and unhelpful behavior from local KSEB staff; minor errors lead to immediate application rejection or power disconnection rather than corrective guidance."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INFORMAL",
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Officials conduct unannounced post-installation inspections, and minor site modifications (e.g., fitting an unlisted motor) trigger heavy fines unless informal payments of a minimum ₹500 are made."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Local employee and trade unions exercise disproportionate control over field-level operations, creating artificial delays applicants say can only be bypassed through direct follow-ups or informal payments."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "KSEB provides no prior notification of scheduled or unscheduled power cuts, causing direct material loss for commercial establishments dependent on continuous refrigeration or processing equipment."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "Direct self-application is almost non-existent due to an unguided and rigid system; even applicants who engage a private licensed consultant find the process must still route through local Akshaya Centers."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants bear the full financial and operational burden of extending the physical grid line, including purchasing and installing electric posts, with no clear policy on shared or subsidized infrastructure cost."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants opting for 3-phase commercial connections report inconsistent treatment — some pay standard charges, others significantly higher and seemingly arbitrary fees, and some are denied a connection despite paying the required deposit."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "There is no stated policy requiring advance communication of scheduled or unscheduled power cuts to commercial connection holders."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "The official stipulated timeline for issuing a commercial connection is reported as 7 to 22 days, but applicants report actual execution taking 2 to 3 months."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC",
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Officials do not flag document errors or missing requirements (e.g., ownership certificates, photo proofs) all at once; items are requested sequentially over multiple weeks, prolonging approval."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Despite online filing through Akshaya Centers or consultants, the portal lacks functional real-time status updates, requiring four to eight physical visits to KSEB offices to check status."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Online portal payment failures reportedly result in immediate account deduction without invoice generation, with automated refunds taking three to four months, and in some cases up to eight months."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "Even when an applicant engages a private licensed consultant directly, the application still needs to be routed through local Akshaya Centers, adding a duplicate processing layer."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Piecemeal scrutiny of documents over multiple weeks, instead of a single upfront checklist, was cited as a central driver of the gap between stated SLA and actual connection timelines."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The absence of real-time status tracking means applicants must rely on repeated physical visits to KSEB offices to move their application forward."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Field-level union interference was reported as a further source of delay resolvable only through direct follow-up or informal payment."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Implement a single-pass document verification protocol where officers issue a comprehensive checklist of missing items within 48 hours of submission."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Introduce automated SMS alerts for power cuts along with real-time, step-by-step application tracking on a mobile-friendly portal."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Integrate direct payment gateways so failed online transactions are auto-refunded within 48 hours, alongside an automated tracking module for security deposit returns after six months."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Establish an independent grievance cell to review arbitrary fines and complaints related to surprise field inspections and trade union interference."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "While official application and setup fees are estimated at ₹14,000 to ₹22,000, total upfront costs reached around ₹36,000 for a single applicant once security deposits are included, with consultant fees of ₹2,000 or more on top."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Security deposits intended to be refunded within six months to a year are reported as routinely withheld, with some applicants waiting up to three years without receiving their refund."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "Formal complaints submitted through the online portal are reported to remain unaddressed for over three months without written or digital follow-up."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "User",
+          "quote": "Unannounced power cuts, given without prior notice, led to continuous product spoilage, destroying over 10 kg of bread dough and other perishable items during unexpected load shedding.",
+          "topic": "Unannounced outages & commercial loss",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "To obtain a commercial connection, we have to bear the full cost of extending the physical grid line, purchasing and installing five separate electric posts.",
+          "topic": "Infrastructure cost burden",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "An uninterrupted power setup was urgently needed to run a solar battery backup for oxygen recovery equipment for a critically ill family member, and approval and installation delays were reported to pose serious health risks.",
+          "topic": "Approval delay & health risk",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "For 3-phase commercial connections faced inconsistent treatment. Paid standard charges. Paid significantly higher fees, and were denied a connection despite paying the required deposit.",
+          "topic": "Inconsistent 3-phase allocation",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED states the maximum statutory processing time is up to 30 days (with field verification within 7 days); FGD participants report an official stipulated timeline of only 7 to 22 days for a commercial connection, but actual execution taking 2 to 3 months — a materially larger real-world gap than the ED's stated SLA suggests."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED states deemed load sanction clauses apply if the 7-day field verification window is missed; FGD participants describe no automatic consequence for missed timelines — applications instead face piecemeal document requests and multi-month delays with no deemed connection materializing in practice."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED gives an Application Fee of ₹50 and LT Connection Cost of ₹1,500–₹1,700; FGD participants report cumulative official fees of ₹14,000–₹22,000, rising to about ₹36,000 total including security deposit for a single (commercial, likely 3-phase) connection — markedly higher than the ED's LT figures, though the FGD does not clarify whether this reflects a different (commercial/3-phase) connection category than the ED's LT example."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The ED record does not mention infrastructure costs borne by applicants for grid-line extension (e.g., purchasing/installing electric posts), security deposit refund timelines/delays, trade union interference, or informal payments during inspections — all raised as significant pain points in the FGD."
+        }
+      ]
+    },
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": [
+        "KL_FGD_CTE.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Kerala State Pollution Control Board (KSPCB); a separate Panchayat Trade License is required afterward from the local self-government body",
+      "portal": {
+        "name": "KSPCB online portal, with references to state single-window platforms (K-SWIFT transitioning to K-Smart at the Panchayat level)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 90,
+        "maxDays": 180,
+        "basis": "Participant-reported range for CTE issuance from application submission to grant",
+        "text": "Obtaining a CTE reportedly takes 3 to 6 months from application submission, despite official SLAs specifying shorter turnarounds (participants reference a 30-day statutory target and suggest a 7–30 day SLA)."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Property deed/ownership certificate",
+        "Land tax receipt",
+        "Site layout diagram",
+        "(Panchayat stage) building permit/building tax documentation"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants report property deeds, ownership certificates, land tax receipts, and site layout diagrams must be re-submitted separately across KSPCB, Village Office, Taluk Office, and Panchayat.",
+      "deemedApproval": {
+        "status": "no",
+        "days": 30,
+        "text": "Although statutory timelines exist (e.g., a 30-day target), deemed approval is reported as effectively non-functional because operational licenses require sequential manual checks and physical site clearances."
+      },
+      "validity": {
+        "text": "CTE validity is stated by one participant as 5 years."
+      },
+      "fees": {
+        "text": "KSPCB CTE fee: ₹4,000 to ₹15,000, scaled to farm area/capacity. Panchayat building tax: ₹45,000 (one-time), cited in the context of farm/agricultural units."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit CTE application to KSPCB",
+          "automated": "partial",
+          "note": "Portal is not considered self-service friendly; farmers/small entrepreneurs often travel to physical KSPCB helpdesks or Akshaya/CSC centers to file."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Document scrutiny across multiple departments",
+          "automated": false,
+          "note": "Property deeds, ownership certificates, land tax receipts and site layout diagrams are checked/re-checked across KSPCB, Village Office, Taluk Office and Panchayat."
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "Physical site clearance",
+          "automated": false,
+          "note": "Physical checks are required before consent is granted; no automated/deemed shortcut reported."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "CTE grant (3–6 months)",
+          "automated": "partial",
+          "note": "Construction may only begin once CTE is fully granted; CTO inspection is triggered only after construction is complete, followed by a separate Trade License application to the Panchayat, with no automatic linkage between stages."
+        }
+      ],
+      "remarks": [
+        "This is a Mode B (FGD-only) record; no Expert Discussion (ED) exists for CTE in Kerala in the source ED dataset, so findings/structure here are drawn solely from business-owner testimony and have not been verified against an official source.",
+        "Bio-gas plants, septic tanks, and secondary treatment/soak pits are described as mandatory pollution-control requirements for livestock and farm units before CTO clearance is given.",
+        "Participants describe local-level interference from informal intermediaries/cartels (e.g., around food-waste disposal for pig/poultry farms) and bureaucratic inertia at the Panchayat as a major bottleneck after KSPCB consent is obtained."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Obtaining a CTE takes 3 to 6 months from the date of application submission, despite official SLAs specifying shorter turnarounds."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants face severe financial stress due to delayed approvals after investing heavily in infrastructure (e.g., ₹14–45 lakh in land and farm-building development); loan interest accumulates on idle capital before any operational revenue can begin."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Securing the Panchayat Trade License after KSPCB Consent to Establish/Operate is a major hurdle, with local-level interference from informal intermediaries/cartels and bureaucratic inertia blocking operations even in remote areas with no nearby residences."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The KSPCB online portal is not considered self-service friendly; farmers and small entrepreneurs are forced to travel to physical KSPCB helpdesks or Akshaya/Common Service Centres to fill out and submit applications."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Although statutory timelines exist (e.g., 30-day targets), deemed approval is effectively non-functional because operational licenses require sequential manual checks and physical site clearances."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Compliance requirements create an uneven playing field: farmers who go fully through the legal route face severe delays and high costs, while unlicensed operators run unhindered."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Even minor capacity increases (e.g., additional livestock heads or expanded farm area) require applicants to file a full CTE amendment/modification application through KSPCB — the same lengthy process as a fresh application — with no simplified route for incremental changes."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "CTE must be fully granted (3–6 months) before construction begins; only after construction is complete does the CTO inspection get triggered, followed by a separate Trade License submission to the Panchayat, each stage requiring independent processing with no automatic linkage."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Property deeds, ownership certificates, land tax receipts, and site layout diagrams must be re-submitted across multiple departments (KSPCB, Village Office, Taluk Office, and Panchayat)."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "KSPCB and the local Panchayat process CTE, CTO, and the Trade License as entirely separate stages with no automatic linkage or data handoff; obtaining KSPCB consent does not automatically clear Panchayat requirements."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants receive no automated status alerts or clear feedback during the multi-month waiting period; files remain pending without clear reasons until formal emails or manual queries are triggered."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Confusion among users and local bodies regarding state single-window platforms (e.g., transition from K-SWIFT to K-Smart at the Panchayat level) is reported as contributing to delay."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Enforce a strict SLA target, processing CTE and CTO applications within a maximum time frame of 7 to 30 days."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Automatically link KSPCB consent issuance with Panchayat trade-license processing (single-window integration) to remove manual resubmissions."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Simplify the KSPCB digital portal so small business owners can apply directly without relying on physical office helpdesks or third-party intermediaries."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Station specialized DIC/K-SWIFT executives at local district offices to assist young entrepreneurs and farmers in navigating multi-department clearances."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "neutral",
+          "text": "Bio-gas plants, septic tanks, and secondary treatment/soak pits are mandatory pollution-control requirements for livestock and farm units before CTO clearance is given."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Complex regulatory hurdles discourage educated youth from establishing local agricultural and farming ventures, driving overseas migration and pushing some businesses to operate informally without licenses."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "User",
+          "quote": "Initial submission requires visiting the KSPCB physical helpdesk or Akshaya centers, due to complex portal requirements. Inspection visits occur prior to Consent to Operate (CTO).",
+          "topic": "Digital governance / inspection sequencing",
+          "tags": [
+            "PORTAL",
+            "INSPECT"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "Deemed approvals are not practically operational — physical checks and multi-agency approvals are required before trade licenses are granted.",
+          "topic": "Deemed approval not functional",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "CTE validity: 5 years. KSPCB fee: ₹4,000 to ₹15,000 (scaled to farm area/capacity). Panchayat building tax: ₹45,000 (one-time).",
+          "topic": "Validity and fee structure",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No day-wise or stage-wise breakdown of the 3–6 month CTE timeline is given beyond the overall range and a reference to a 30-day statutory target."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The KSPCB CTE fee is described only as '₹4,000 to ₹15,000, scaled to farm area/capacity' without the underlying slab or formula."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The exact online application steps on the KSPCB portal are not described beyond participants noting it is not self-service friendly."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested reforms — a strict 7–30 day SLA, single-window integration between KSPCB and Panchayat, a simplified self-service portal, and dedicated agricultural/MSME help desks — are proposed but not implemented per the FGD."
+        }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": [
+        "KL_FGD_CTO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Kerala State Pollution Control Board (PCB)",
+      "portal": {
+        "name": "KSPCB online Consent to Operate application portal (name not specified by participants)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": 180,
+        "basis": "Government-stated timeline for green-category approval, reported by participants as frequently exceeded",
+        "text": "The government timeline for green-category approval is six months, but participants reported not receiving approval within that period despite being in the green category. Around three of the six months is typically spent awaiting review at the Pollution Control Board stage."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "License",
+        "Tax records",
+        "Drainage documentation",
+        "Water connection proof",
+        "Land tax records"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants report these documents were communicated one at a time rather than shared as a complete checklist at the start.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Participants say they are not informed of a specific number of days for processing at the outset, even though a time-bound period is expected to apply under the terms and conditions; no explicit deemed-approval mechanism is described."
+      },
+      "validity": {
+        "text": "Five-year validity is implied — a participant advises tracking renewal 'ahead of the five years validity period' — but validity is not otherwise detailed in this session."
+      },
+      "fees": {
+        "text": "Consent to Operate license fee: approximately ₹25,000 to ₹40,000 depending on category (green category falls within this range). Overall process cost: around ₹12,000, including online application charges, apart from the license fee itself."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit Consent to Operate application online",
+          "automated": "partial",
+          "note": "Filed online, but participants are not confident their online submission was received."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Sequential document requests",
+          "automated": false,
+          "note": "Document requirements (license, tax, drainage, water connection, land tax records) communicated one at a time rather than as a single upfront checklist."
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "Unannounced site inspection",
+          "automated": false,
+          "note": "Inspections are carried out at the inspecting officer's convenience without advance notice to the applicant."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "PCB review and approval",
+          "automated": "partial",
+          "note": "Review period of roughly three of the six total months is typically spent at the PCB stage, with no specific day-wise timeline communicated."
+        },
+        {
+          "n": 5,
+          "phase": "renew",
+          "title": "Renewal (5-year cycle)",
+          "automated": false,
+          "note": "No advance renewal notification is sent by the department; applicants are responsible for tracking and initiating renewal themselves."
+        }
+      ],
+      "remarks": [
+        "This is a Mode B (FGD-only) record; no Expert Discussion (ED) exists for CTO in Kerala in the source ED dataset, so findings/structure here are drawn solely from business-owner testimony and have not been verified against an official source.",
+        "Participants in this session reported completing the process themselves without engaging agents or consultants, and therefore did not incur intermediary-related costs — a contrast with several other Kerala FGD sessions."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC",
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Document requirements, including license, tax, drainage, water connection and land tax records, were communicated one at a time rather than shared as a complete checklist at the start."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Although the Consent to Operate application is filed online, applicants still visited the office in person about fifteen times within six months, partly because they were not confident their online submission had been received."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "The government timeline for green-category approval is six months, but participants reported not receiving approval within that period despite being in the green category."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Around three of the six months is typically spent awaiting review at the Pollution Control Board stage, with repeated follow-up visits over that period."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants are not informed of a specific number of days for processing at the outset, even though a time-bound period is expected to apply under the terms and conditions."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Site inspections are carried out at the inspecting officer's convenience without advance notice; applicants have had to repeatedly visit the site to check whether an officer had come by, and officers reportedly do not wait or return if the applicant is unavailable."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "When an online application is rejected, the specific reason is not clearly indicated in the system, requiring a personal office visit and a meeting with the concerned officer."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Some staff engage with applicants helpfully while others reportedly do not, and the conduct of some junior staff was described as not courteous."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Overall cost of around ₹12,000 toward the Consent to Operate process, including online application charges, apart from a license fee ranging from around ₹25,000 to ₹40,000 depending on category."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Although an overall six-month period is associated with green-category approval, no specific stage-wise or day-wise timeline is communicated to applicants during processing."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "There is a need for clearer criteria distinguishing the Green, Yellow, Orange, White and Red categories, indicating some uncertainty in how classification is understood or applied."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Rainwater harvesting and water connection provisions are mandatory architectural requirements for manufacturing units, while this requirement does not apply to service-based units."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Any modification during the validity period, such as expanding operations or adding equipment, follows largely the same process as a new application, though only the specific changed document needs to be resubmitted."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Even after submitting the application online, a physical office visit is still needed to confirm the submission has been registered, effectively duplicating part of the process both online and in person."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Share a complete list of required documents at the time of application rather than requesting them sequentially."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "When an application is rejected, state the specific reason clearly within the online system itself."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Commit to and communicate a specific, shorter processing period, such as 30 to 45 days for the green category, rather than a general six months."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Publish or explain clearer criteria for the Green, Yellow, Orange, White and Red classifications."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Make a step-by-step user manual or guidance document available to help applicants complete the online application form, since none is currently provided."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Renewal notifications are not proactively sent by the department; applicants are responsible for tracking and initiating renewal themselves ahead of the five-years validity period."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Participants in this session completed the process themselves without engaging agents or consultants, and therefore did not incur intermediary-related cost."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "User",
+          "quote": "I apply online, but I still have to visit the office many times. They ask for the documents one by one, not all together.",
+          "topic": "Documents and office visits",
+          "tags": [
+            "DUPDOC",
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "My approval takes 6 months or more, and I have to keep visiting the office. They do not give me a clear timeline.",
+          "topic": "Approval delay & timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "The inspection happens without telling me first. I may not be there when the officer comes.",
+          "topic": "Inspection without notice",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No stage-wise or day-wise breakdown of the six-month timeline is given beyond the overall figure and the note that roughly three months is spent at the PCB stage."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The license fee of ₹25,000–₹40,000 is given only as category-dependent, without a precise fee slab or table."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Exact criteria distinguishing the Green/Yellow/Orange/White/Red categories are not detailed by participants — they note the lack of clarity itself as a problem rather than describing the actual criteria."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested reforms — a consolidated document checklist, clearer rejection reasons, a defined shorter timeline (30–45 days for green), category-classification clarity, and a user manual — are proposed but not implemented per the FGD."
+        }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFiles": [
+        "KL_FGD_FAL.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Department of Factories & Boilers (FAB Kerala), with linked prerequisite clearances from KSPCB, Fire & Safety, Local Panchayat/Corporation, and Electrical Inspectors",
+      "portal": {
+        "name": "K-SWIFT single-window platform (concept referenced; physical inter-department coordination still reported as necessary)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 90,
+        "maxDays": 120,
+        "basis": "Participant-reported average time from building-plan preparation to final approval for a fresh factory license",
+        "text": "Obtaining a fresh factory license, from initial building-plan preparation to final approval, takes 3 months on average, driven substantially by rejection cycles during scrutiny and the need to sequence approvals across multiple departments. One participant cited 'three months, four months' as the typical range."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Blueprint building plans",
+        "Structural integrity certificates",
+        "Land deeds",
+        "Local body permits"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Documents must reportedly be repeatedly uploaded or submitted separately across KSPCB, Local Panchayat, Fire & Safety, and FAB Kerala.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Standard Factory and Boilers licenses do not have operational deemed approval, per participants."
+      },
+      "validity": {
+        "text": "Not stated by participants in this session; renewal-cycle validity details (1, 2, or 3 years depending on hazard classification) were captured separately in the Renewal of Factory License (RFAL) FGD, not this fresh-license session."
+      },
+      "fees": {
+        "text": "No single government statutory fee figure for the Factory License itself is stated in this session. Ancillary costs mentioned: hazardous waste disposal (via PCB norms) approximately ₹25,000–₹30,000 per load depending on weight; licensed engineer/outsourcing agency charges for structural plans approximately ₹60,000–₹70,000."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Engage licensed engineer/agency for structural plan and blueprint preparation",
+          "automated": false,
+          "note": "Small applicants cannot apply directly due to strict technical specifications and layout requirements; outsourced licensed engineers/agencies are engaged, reportedly costing ₹60,000–₹70,000."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Submit application and plans across departments (FAB Kerala, KSPCB, Fire & Safety, Local Panchayat/Corporation, Electrical Inspectors)",
+          "automated": "partial",
+          "note": "Despite the K-SWIFT single-window concept, physical coordination and approvals across isolated individual department offices are still necessary."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Administrative scrutiny of blueprint/structural plans",
+          "automated": false,
+          "note": "Applications are frequently rejected up to 3 times for minor technical or layout discrepancies, increasing total processing time."
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Joint departmental inspection",
+          "automated": "partial",
+          "note": "Joint/combined inspection mechanisms exist where officials from different departments inspect the premises simultaneously, reducing separate visit hassles; inspections occur approximately every 6 months post-issuance."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Final factory license approval",
+          "automated": false,
+          "note": ""
+        }
+      ],
+      "remarks": [
+        "This is a Mode B (FGD-only) record; no Expert Discussion (ED) exists for FAL in Kerala in the source ED dataset, so findings/structure here are drawn solely from business-owner testimony and have not been verified against an official source.",
+        "No statutory government fee figure for the Factory License itself was captured in this session; only ancillary costs (hazardous waste disposal, engineer/agency charges) were discussed."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "While the factory license itself is reported to be relatively straightforward, applicants cannot operate without procuring multiple prerequisite licenses across separate departments (Factories & Boilers, KSPCB, Fire & Safety, Local Panchayat/Corporation, and Electrical Inspectors)."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Non-governmental quality and testing certifications (e.g., ISO, BIS, CTPTDC, PGA, ITSS) impose massive recurring costs; testing and re-testing fees for minor defects add significant unexpected expenses."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "Due to strict technical specifications, factory layout blueprint requirements, and complex safety norms, small applicants cannot apply directly on their own and are forced to engage outsourced licensed engineers or agencies."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Scrutiny procedures cause delays; applications are frequently rejected up to 3 times for minor technical or layout discrepancies, increasing total processing time."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Standard Factory and Boilers licenses do not have operational deemed approval."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Obtaining a fresh factory license, from initial building-plan preparation to final approval, takes 3 months on average, driven substantially by rejection cycles during scrutiny and the need to sequence approvals across multiple departments."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Blueprint building plans, structural integrity certificates, land deeds, and local body permits must be repeatedly uploaded or submitted separately across KSPCB, Local Panchayat, Fire & Safety, and FAB Kerala."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Despite the single-window concept (K-SWIFT), physical coordination and approvals across isolated individual department offices are still necessary."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Drafting structural factory plans to meet statutory safety codes requires expert iterations, leading to multiple rejection cycles during initial administrative scrutiny."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "True end-to-end integration across FAB Kerala, KSPCB, Fire & Safety, and Local Bodies (Panchayat/Corporation) so that a single application automatically triggers all sub-clearances."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "Ensure prior documentation and approved plans automatically fetch into renewal/modification forms so applicants do not need to re-upload unchanged baseline files."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Strengthen government-operated Akshaya Centers to handle complex factory layout submissions at lower cost, reducing reliance on expensive private agencies."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Authorised hazardous waste disposal arranged through Pollution Control Board norms costs approximately ₹25,000 to ₹30,000 per load depending on weight, for which a disposal compliance certificate is issued."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "INSPECT",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Joint/combined inspection mechanisms exist where officials from different departments inspect the premises simultaneously, reducing separate visit hassles; inspections occur approximately every 6 months."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "User",
+          "quote": "We have factory license, factories and boilers license, and PCB fire and safety. Each department we have to go everywhere.",
+          "topic": "Inter-departmental burden",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "If you have everything in hand, then you fill in the application, three months, four months it takes.",
+          "topic": "Processing delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "We have licensed engineers. First ensure permit time, we need to contact the outsourcing agency. they charge around 60000 to 70,000 rupees.",
+          "topic": "Compliance cost / agency dependence",
+          "tags": [
+            "CONSULT",
+            "FEES"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific government statutory fee figure for the Factory License itself is given — only ancillary costs (hazardous waste disposal, engineer/agency charges) are mentioned."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Validity/renewal period for the Factory License is not stated in this session (renewal cycle details were captured separately in the RFAL discussion)."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The process is described only in general terms ('relatively straightforward'); no step-level timeline breakdown (e.g., how long scrutiny vs. inspection takes) is given beyond the overall ~3-month average."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Joint/combined departmental inspections (officials from different departments inspecting simultaneously, approximately every 6 months) are cited as reducing separate visit hassle."
+        }
+      ]
+    },
+    {
+      "serviceCode": "LA",
+      "serviceName": "Land Allotment",
+      "sourceFiles": [
+        "KL_FGD_LA.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "KINFRA (Kerala Industrial Infrastructure Development Corporation) / DIC, for industrial park land allotment; Chief Town Planner (CTP) rules govern amenity-space norms",
+      "portal": {
+        "name": "DIC/KINFRA land allotment application, referenced as processed via K-SWIFT/Single Window",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 90,
+        "maxDays": 120,
+        "basis": "Participant-reported average from initial land application to final allotment/possession; application filing itself is near-instant",
+        "text": "Application submission itself takes less than an hour, but the total time elapsed from initial DIC/KINFRA land application to final allotment/possession averages 3 to 4 months."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Land application (via DIC/KINFRA)",
+        "(for registration/lease) proof of full land-cost payment"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants do not enumerate a detailed document checklist for the land application itself beyond noting that official registration/lease documents are withheld until 100% of the land cost is paid, and that separate permissions/building plans are later required from local Panchayats for utility connections.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed-approval or statutory allotment timeline is described by participants; only the observed average of 3–4 months from application to possession is given."
+      },
+      "validity": {
+        "text": "Not stated; lease/allotment duration for the allotted industrial land is not specified by participants beyond references to ongoing 'balance land payments' and long-term occupancy."
+      },
+      "fees": {
+        "text": "Land cost cited at approximately ₹1.5 lakh per cent, with an aggressive 12% per annum interest rate charged on deferred balance payments."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit land application to DIC/KINFRA",
+          "automated": "partial",
+          "note": "Application submission itself takes less than an hour, reportedly via K-SWIFT/Single Window."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Allotment processing",
+          "automated": false,
+          "note": "Total time from application to final allotment/possession averages 3 to 4 months — a mismatch between the fast filing step and the slow allotment process."
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Payment of land cost (balance with 12% annual interest)",
+          "automated": false,
+          "note": "Official registration/lease documents are withheld until 100% of the land cost is paid up front, blocking full bank loan disbursement for machinery packages."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Land possession handed over",
+          "automated": false,
+          "note": "Essential promised utilities (3-phase industrial electricity, water connections, functional drainage) are frequently not provided for months or even over a year after possession."
+        },
+        {
+          "n": 5,
+          "phase": "post",
+          "title": "Separate utility and building-plan approvals from local Panchayats",
+          "automated": false,
+          "note": "Even after securing park land allotment via K-SWIFT/Single Window, unit owners are redirected by external utility bodies (Water Authority/KSEB) to obtain separate permissions and building plans from local Panchayats."
+        }
+      ],
+      "remarks": [
+        "This is a Mode B (FGD-only) record; no Expert Discussion (ED) exists for LA in Kerala in the source ED dataset, so findings/structure here are drawn solely from business-owner testimony and have not been verified against an official source.",
+        "The source file labels this service 'Land Allotment (LAN)'; mapped here to the canonical service code LA per the service-codes legend."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "KINFRA functions akin to a commercial real estate vendor rather than a developmental agency, charging high market rates for land (e.g., ₹1.5 lakh per cent) and imposing an aggressive 12% per annum interest rate on deferred balance payments."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Entrepreneurs are allotted land and forced to pay dues/interest, but essential promised utilities such as 3-phase industrial electricity, water connections, and functional drainage are not provided for months or even over a year."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "Rather than supporting entrepreneurs during initial utility delays, agencies routinely issue eviction notices for unpaid dues."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Full loan disbursement for machinery packages (from KFC/KSIDC) is blocked because official registration/lease documents are withheld until 100% of the land cost is paid up front."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "State Entrepreneur Subsidy Scheme and other government-backed financial support remain unpaid for 2 to 3 years despite formal approval orders."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Under Chief Town Planner (CTP) rules, 20% of industrial land must be reserved for common amenities; however, agencies have commercialised/sold nearly all space, refusing to allocate even 5 cents for shared facility/security centers."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Lease contracts contain open-ended Land Acquisition compensation clauses, allowing agencies to retroactively pass additional land acquisition liabilities onto unit owners at any point in the future."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Lease agreements rigidly restrict unit owners from changing product lines, sharing warehouse/office space, or adopting joint ventures without heavy administrative hurdles or penalty fees."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Application submission itself takes less than an hour, but the total time elapsed from initial DIC/KINFRA land application to final allotment/possession averages 3 to 4 months."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Even after securing park land allotment via K-SWIFT/Single Window, unit owners are redirected by external utility bodies (Water Authority/KSEB) to obtain separate permissions and building plans from local Panchayats."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "The 'Single Window Clearance' system fails to streamline utility connections; water and electricity authorities operate independently of KINFRA schedules."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Officials focus solely on revenue collection rather than verifying whether industrial sites possess basic operational utilities."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Automatically waive accrued interest charges (12% per annum) for periods when promised basic infrastructure (3-phase power, water) was unavailable."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Reduce KINFRA interest rates on balance land payments from 12% to nominal developmental/concessional rates."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Update lease agreements to allow flexible business pivots, space sharing, and sub-contracting without imposing appreciated land value premiums."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Allocate mandatory common amenity spaces (minimum 5 cents per park) for security checks, CV collection, and public reception."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Unregulated local headload union workers disrupt material unloading on day one, demanding payment without performing labour."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Delays in land utility connections force entrepreneurs to lease secondary private premises at extra cost, doubling operational expenses while paying interest on unused park plots."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "User",
+          "quote": "KINFRA is charging 12% per annum. KINFRA is just like a real estate agent. they don't want to know the issues and problems that entrepreneurs face.",
+          "topic": "High costs & financial burden",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "I put foundation stone, then I came to know there is no electricity at all. No water provided. But as per their records, they have provided everything.",
+          "topic": "Delays & infrastructure deficit",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "One lady from KINFRA called me and said your last letter was an eviction letter. This is their approach.",
+          "topic": "Threat of eviction / bureaucracy",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "Exact document checklist for the land allotment application itself is not detailed by participants beyond general references to lease/registration documents."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval or statutory allotment timeline is mentioned; only the observed average of 3–4 months from application to possession."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Lease/validity duration for allotted industrial land is not stated."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Proposed interest-rate rationalization, waiver of penal interest during utility blackouts, and mandatory shared-facility allocation are suggestions, not yet implemented per the FGD."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFiles": [
+        "KL_FGD_RCTO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Kerala Pollution Control Board (PCB); hotel/resort consent files must additionally be signed off at the Chairman's level at the state headquarters regardless of the unit's location",
+      "portal": {
+        "name": "PCB online portal, described by participants as roughly 15 years old, slow, and consisting of two disconnected websites built for staff/internal workflows rather than applicants",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 60,
+        "maxDays": 730,
+        "basis": "Stated statutory turnaround (~2 months) versus participant-reported actual range (6 months to 2 years, one case 2 years)",
+        "text": "Approvals meant to take about two months instead reportedly take 6 months to 2 years; one manufacturing unit reportedly waited two years for its license. Verification/inspection itself typically happens within about 10 days without issue — the problems begin after inspection, in getting the certificate issued and delivered."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Position certificates",
+        "Location sketches/surveys",
+        "Board resolutions",
+        "Authorizations",
+        "CA valuation certificates",
+        "Land/survey correlation certificates (for changed survey numbers)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants report the full original document set is demanded again at renewal even when nothing about the unit has changed since the last approval.",
+      "deemedApproval": {
+        "status": "no",
+        "days": 60,
+        "text": "Despite a stated statutory turnaround (around two months), there is no deemed-approval provision if the PCB fails to act within the timeline, so delay carries no consequence for the department, per participants."
+      },
+      "validity": {
+        "text": "Not stated in this renewal-focused session; the underlying Consent to Operate's validity period before this renewal was due is not specified by participants."
+      },
+      "fees": {
+        "text": "Fees are based on asset valuation using criteria participants describe as not transparent; one figure cited was around ₹14 lakh. Once a payment demand is raised, applicants must pay within 2 days, but 'short payment' demands are reported months later (e.g., an applicant paid ₹2.8 lakh and was later told there was a shortfall of ₹40,000)."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit renewal application (online, via PCB portal)",
+          "automated": "partial",
+          "note": "Portal described as outdated with recurring login/password issues and no visibility into application/certificate status."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Land/survey record scrutiny",
+          "automated": false,
+          "note": "PCB officials repeatedly reopen historical land survey numbers (changed over time due to Revenue Department resurveys) instead of focusing on environmental compliance, triggering 'mismatch' objections even on multiply-renewed units."
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "Verification/inspection",
+          "automated": "partial",
+          "note": "Typically happens within about 10 days without issue; no pre-inspection checklist is given, and site-visit notifications sometimes arrive a day or more after the scheduled visit."
+        },
+        {
+          "n": 4,
+          "phase": "fee",
+          "title": "Payment of demand note (asset-valuation based)",
+          "automated": "partial",
+          "note": "Payment must be made within 2 days of demand being raised; no receipt/confirmation is issued for online payments, and 'short payment' demands recur months later."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Certificate issuance and delivery",
+          "automated": false,
+          "note": "Certificate is often neither emailed nor made visible on the portal even after inspection and payment are completed; applicants must visit the PCB office in person, sometimes more than once, to obtain a printed copy."
+        }
+      ],
+      "remarks": [
+        "This is a Mode B (FGD-only) record; no Expert Discussion (ED) exists for RCTO in Kerala in the source ED dataset, so findings/structure here are drawn solely from business-owner testimony and have not been verified against an official source.",
+        "Some offices reportedly have only 2 to 3 staff members handling the entire renewal caseload; established agents/intermediaries are said to resist proposed third-party inspection reforms that would otherwise speed up processing.",
+        "Renewal fees are remitted to a bank based in Mumbai, which participants found hard to trace.",
+        "Field notes from this discussion record that one user, dealing with renewal difficulties even for a small-scale unit, described having had thoughts of suicide — flagged here as a serious indicator of the human toll of prolonged compliance delays, distinct from the administrative findings above."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "PCB officials repeatedly reopen historical land survey numbers (changed over time due to Revenue Department resurveys and digital surveys) instead of focusing on environmental compliance, triggering 'mismatch' objections on units that have already been renewed multiple times."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "One participant visited a single office more than 17 times for one Consent to Operate matter, almost all solely to clarify a land-record discrepancy."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Inspection and payment were completed on time, but the certificate was neither emailed nor visible on the portal; applicants had to visit the PCB office in person, sometimes more than once, to obtain a printed copy."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "No receipt or confirmation is issued for online payments; months after paying the demanded amount (e.g., ₹2.8 lakh), applicants are told there was a shortfall (e.g., ₹40,000) and asked to pay again, stretching renewal to about a year."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Two disconnected websites; the portal is described as roughly 15 years old, slow, and built for staff/internal workflows rather than applicants, with recurring login and password-saving issues and no visibility into application/certificate status."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Consent files for hotels and resorts must be signed off at the Chairman's level at the state headquarters regardless of the unit's location."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Approvals meant to take about two months are instead taking 6 months to 2 years; one manufacturing unit reportedly waited two years for its license."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Local elements reportedly pressure panchayat members to act against units, with panchayat members themselves facing multiple cases and describing it as targeted 'revenge' for supporting applicants."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Despite a stated statutory turnaround (around two months), there is no deemed-approval provision if the PCB fails to act within the timeline, so delay carries no consequence for the department."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Local self-government bodies direct even small trade establishments, such as a small cafe, to obtain Consent to Operate citing a vague central circular, with no clear, binding guidance on which categories actually require it."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "The full original document set is demanded again at renewal even when nothing about the unit has changed since the last approval."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Land/survey documents accepted by the Revenue Department are not automatically recognized by PCB; applicants must separately obtain correlation certificates for changed survey numbers, with no shared inter-departmental record."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Verification/inspection typically happens within about 10 days without issue; the problems begin after inspection, in getting the certificate issued and delivered."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Once a payment demand is raised, applicants must pay within 2 days, yet the consent/certificate itself may still take months to a year to be issued afterward."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants are given no checklist ahead of inspection, and site-visit notifications sometimes arrive a day or more after the scheduled visit."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Fees are based on asset valuation using criteria that are not transparent to applicants (one figure cited was around ₹14 lakh)."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Position certificates, location sketches and location surveys are demanded at every renewal cycle even though the unit's location is unchanged and was verified in prior renewals."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Board resolutions, authorizations and CA valuation certificates are re-scrutinized each renewal cycle even where there has been no change in company structure or ownership."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Some offices reportedly have only 2 to 3 staff members handling the entire renewal caseload."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Established agents/intermediaries are said to resist proposed third-party inspection reforms that would otherwise speed up processing."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Tag each unit's location with a fixed geo-coordinate so PCB records no longer depend on Revenue Department survey numbers that change with resurveys and digital surveys."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Introduce a checklist-based inspection by an approved third-party agency, with PCB's environmental engineers reviewing submitted reports rather than always inspecting personally."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Process hotel consents at the district level instead of requiring Chairman-level sign-off at the state office."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Build a simplified, customer-facing landing page solely for renewals, separate from the general staff-oriented website, with digital delivery of certificates and payment confirmations."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "At renewal, verify only that the unit continues to function per PCB norms rather than re-examining all historical land and ownership records afresh."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "The real cost of delay — lost time, effort, stress, informal payments — does not show up in formal accounting and is difficult to express as a rupee figure."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "Experience varies significantly by individual officer; some exercise discretion constructively, others do not, and one participant with a longstanding working relationship at the department reported a comparatively smooth process."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Renewal fees are remitted to a bank based in Mumbai, which participants found hard to trace."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "User",
+          "quote": "But this was a change made by the Government of Kerala, not something we did. We should not be blamed or penalized for that.",
+          "topic": "Land record mismatch & unnecessary scrutiny",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "The inspection happened on time, the payment happened on time, but we did not get the certificate on time.",
+          "topic": "Certificate non-issuance / website failure",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "Why not have an approved, third-party agency carry out unit inspections, rather than relying solely on officers who may come at their own convenience?",
+          "topic": "Suggestion — third-party inspection",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "User",
+          "quote": "After six months, another communication arrives saying there has been a short payment... we pay again, and the consent is finally issued after a year in total.",
+          "topic": "Recurring short-payment demands",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific validity period for the underlying Consent to Operate (how many years before this renewal was due) is stated in this transcript."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The asset-valuation fee basis is described only via one example figure (~₹14 lakh) without the underlying valuation formula or slab."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Verification/inspection itself is reported to typically happen within about 10 days without issue — the delay is concentrated in post-inspection certificate issuance, not the inspection step."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested reforms (geo-tagging, third-party valuation/inspection, decentralized hotel approvals, a dedicated renewal portal, lighter-touch review) are proposed but not implemented per the FGD."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFiles": [
+        "KL_FGD_RFAL.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Department of Factories & Boilers, with Pollution Control Board (PCB) clearance additionally required for renewal in many cases",
+      "portal": {
+        "name": "Web portals (unnamed) for renewal filing; Akshaya facilitation also used",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 90,
+        "maxDays": 180,
+        "basis": "Standard renewal range reported for 'Green' category industries, up to a minimum when Pollution Control Board clearance is required; extreme cases reported to extend to years",
+        "text": "Standard renewal takes 3 to 4 months for 'Green' category industries, and 5 to 6 months minimum if Pollution Control Board (PCB) clearance is needed. Extreme cases drag on for years — one example cited an application submitted in 2021, paper clearance in 2023, with renewal still pending after 6 years."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "8 to 9 core structural and operational documents (re-submitted in full for any layout modification)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Exact document names beyond 'structural and operational documents' are not individually listed by participants.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Deemed approval mechanisms exist on paper but remain non-functional in practice, leaving applicants stranded without legal remedy, per participants."
+      },
+      "validity": {
+        "text": "Renewal cycles are set for 1, 2, or 3 years depending on industry hazard classification (e.g., quarries classified under 'Orange' category)."
+      },
+      "fees": {
+        "text": "Statutory application fees range between ₹2,000 and ₹3,000. Akshaya facilitation charges cost around ₹8,000 for 5 years. Private consultant/agency charges range from ₹50,000–₹60,000 initially, up to ₹15 lakh over 6 years, without guaranteed license issuance."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit renewal application (online/Akshaya)",
+          "automated": "partial",
+          "note": "Non-user-friendly online portals force reliance on expensive consultants or intermediaries."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Incremental official querying",
+          "automated": false,
+          "note": "Government inspectors identify errors in fragments — pointing out 2 out of 10 errors initially, waiting 6 months, then identifying 2 more — causing endless approval cycles."
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "PCB/factory official physical inspection",
+          "automated": false,
+          "note": "PCB document clearances, which previously took 2 days, now face administrative delays spanning years; lack of timely inspections leads to non-approval of certificates."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Renewal license issuance",
+          "automated": false,
+          "note": "Can take years in extreme cases (example: application 2021, paper clearance 2023, renewal still pending after 6 years)."
+        },
+        {
+          "n": 5,
+          "phase": "renew",
+          "title": "Layout modification handling",
+          "automated": false,
+          "note": "Any structural layout change requires factory owners to restart the licensing process completely from scratch, submitting 8 to 9 core documents afresh."
+        }
+      ],
+      "remarks": [
+        "This is a Mode B (FGD-only) record; no Expert Discussion (ED) exists for RFAL in Kerala in the source ED dataset, so findings/structure here are drawn solely from business-owner testimony and have not been verified against an official source.",
+        "Basic SMS and email notifications are currently functional, per participants, but overall system responsiveness remains blocked at the departmental verification level."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Government inspectors identify errors in fragments — pointing out 2 out of 10 errors initially, waiting 6 months, and then identifying 2 more — causing endless approval cycles."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INSPECT",
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Pollution Control Board (PCB) document clearances, which previously took 2 days, now face administrative delays spanning years."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Lack of timely inspections leads to non-approval of certificates, resulting in multi-crore losses (e.g., projects worth ₹6 to 7 crore failing completely)."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Merchants reported facing intense pressure and threats from trade unions, including unauthorized demands for 'wages for looking-on,' while local police reportedly remained passive; combined with bureaucratic pressure, this has taken a heavy toll with severe stress and sleepless nights."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Web portals remain complex and unintuitive for self-application, forcing applicants to hire expensive consultants or intermediaries."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Deemed approval mechanisms exist on paper but remain non-functional in practice, leaving applicants stranded without legal remedy."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Any structural layout change requires factory owners to restart the licensing process completely from scratch, submitting 8 to 9 core documents afresh."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "Business owners refrain from filing tribunal appeals or official grievances because government authorities stall procedures with perpetual promises."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Absence of strict enforcement against trade union malpractices and lack of police protection increases substantive compliance risk."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Standard renewal takes 3 to 4 months for 'Green' category industries, and 5 to 6 months minimum if PCB clearance is needed; extreme cases drag on for years."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral",
+          "text": "Renewal cycles are set for 1, 2, or 3 years depending on industry hazard classification (e.g., quarries classified under 'Orange' category)."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Business owners pay massive consultant charges ranging from ₹50,000 to ₹60,000 initially, up to ₹15 lakhs over 6 years to private agencies without guaranteed license issuance."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Even minor physical alterations trigger the requirement to re-upload 8 to 9 structural and operational documents from scratch."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Delay or complete absence of physical inspections by Pollution Control Board and factory officials stalls final clearance issuance."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Officials delay files by issuing queries sequentially across long intervals rather than consolidating objections."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Mandate that officials issue all objections/queries at once during the initial review instead of raising them in piecemeal stages over several months."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Implement auto-approval mechanisms where licenses are deemed issued if the department fails to act within the stipulated statutory timeline."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Enforce law-enforcement action against illegal demands of trade union interference in factory operations."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Establish a streamlined amendment pathway for minor facility layout changes without forcing a complete re-application."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Statutory application fees range between ₹2,000 and ₹3,000, whereas Akshaya facilitation charges cost around ₹8,000 for 5 years, apart from heavy private consultant fees."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Basic SMS and email notifications are currently functional, but overall system responsiveness remains blocked at the departmental verification level."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "User",
+          "quote": "If there are 10 mistakes, officials find 2, wait 6 months, and then point out another 2. This process goes on indefinitely.",
+          "topic": "Official inspection lags",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "Industry in Kerala causes sleepless nights to users because of the pressure from government officials.",
+          "topic": "Operational stress & bureaucracy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "One user gave ₹15 lakhs to agencies over 6 years, and still hasn't received the renewal license.",
+          "topic": "Intermediary cost & delay",
+          "tags": [
+            "CONSULT",
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "User",
+          "quote": "Projects worth ₹6 to ₹7 crore fail completely simply because PCB approval isn't received due to lack of inspection.",
+          "topic": "Financial loss & PCB delays",
+          "tags": [
+            "FEES",
+            "INSPECT"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No single issuing-authority office/designation is named beyond 'government inspectors' and the Pollution Control Board generally."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Deemed-approval provisions are said to exist 'on paper' but no statutory day-count figure is given for when they would trigger."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Exact document names beyond '8 to 9 core structural and operational documents' are not individually listed by participants."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested reforms (consolidated single-stage review, operational deemed approval, enforcement against union extortion, simplified layout-modification amendment) are proposed but not implemented per the FGD."
+        }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFiles": [
+        "KL_FGD_TLA.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Local Self-Government body (Municipality/Corporation/Panchayat), for the trade license itself; downstream approvals are separately issued by FSSAI (food outlets), Motor Vehicles Department/State Transport Authority (auto/vehicle-based businesses)",
+      "portal": {
+        "name": "Online trade license application portal (unnamed), available only in English",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": 30,
+        "basis": "Trade license itself reported issued within 30 days; downstream approvals (e.g., Motor Vehicles Department clearance) reported separately at 6 months to 1 year",
+        "text": "The trade license itself is generally issued within the stated thirty-day window, but further approvals a business actually needs to operate — such as Motor Vehicles Department (MVD) clearance — take six months to a year to come through, leaving the business only partially functional in the meantime."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "GST registration",
+        "PAN",
+        "Aadhaar",
+        "Property owner's consent/agreement (for building-based registration)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants do not provide a full enumerated checklist beyond these core identity/ownership documents.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed-approval provision is mentioned by participants for the trade license process."
+      },
+      "validity": {
+        "text": "Not stated in this session; a separate Trade License Renewal (TLR) FGD indicates an annual renewal cycle, but this approval-focused session does not state license validity directly."
+      },
+      "fees": {
+        "text": "The government fee for the trade license itself is relatively low, cited at around ₹1,000. Total costs via third-party agents range from about ₹10,000 to ₹50,000, given as one combined figure with no breakdown of government fee versus agent charge. Separate industry setup costs are cited in the range of ₹25,000 to ₹50,000."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit trade license application online",
+          "automated": "partial",
+          "note": "Portal is difficult to use and available only in English; most applicants go through third-party agents as a result. Login locks out after three failed attempts."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Document check",
+          "automated": false,
+          "note": "Applications are sometimes turned down for missing documents that were, in fact, already attached, and no specific rejection reason is given in the system."
+        },
+        {
+          "n": 3,
+          "phase": "approve",
+          "title": "Trade license issuance",
+          "automated": "partial",
+          "note": "Generally issued within 30 days."
+        },
+        {
+          "n": 4,
+          "phase": "post",
+          "title": "Downstream clearances (FSSAI, MVD, State Transport Authority)",
+          "automated": false,
+          "note": "Processed as entirely separate applications through different systems; MVD clearance can take six months to a year, and State Transport Authority clearance requires a minimum of three in-person meetings, each requiring travel to Trivandrum."
+        }
+      ],
+      "remarks": [
+        "This is a Mode B (FGD-only) record; no Expert Discussion (ED) exists for TLA in Kerala in the source ED dataset, so findings/structure here are drawn solely from business-owner testimony and have not been verified against an official source.",
+        "The difficulty of the process was described as affecting educated professionals and established businesses, not only first-time or small applicants."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Applications are turned down for missing documents that were, in fact, already attached, pointing to inadequate checking on the receiving end rather than any error by the applicant."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "A trade license by itself is not enough to run several kinds of business — food outlets cannot begin operating without a separate FSSAI certificate, and auto or vehicle-based businesses such as scooter rental cannot fully operate without a Motor Vehicles Department clearance."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "The trade license itself is generally issued within 30 days, but further approvals a business actually needs, such as MVD clearance, take six months to a year, leaving the business only partially functional in the meantime."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Most applicants go through third-party agents because the online portal is difficult to use; total costs range from about ₹10,000 to ₹50,000, given as one combined figure with no breakdown of government fee versus agent charge."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The application manual and interface are available only in English, so users including those from a Malayalam-medium background either translate the process themselves or depend entirely on an agent."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The login system locks users out after three failed attempts, adding friction on top of an already difficult process."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "A minor mistake on a PAN card requires the physical document to be posted to a central office in Delhi or Pune for correction, a process that takes a long time."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Businesses that need State Transport Authority clearance must attend a minimum of three meetings, each requiring travel to Trivandrum."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Some participants described having to make informal payments to move applications along within government agencies."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The trade license, FSSAI certification, and other approvals a business actually needs are handled as entirely separate applications through different systems rather than one combined submission."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "A change to a business's location or infrastructure currently requires the entire original document set to be resubmitted, instead of only the specific document affected by that change."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no clear guidance on whether a business that has modified or expanded its operations after approval continues to count as the same registered entity or needs a fresh application."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants with a market-ready prototype report pursuing government seed funding for years without success, leading to doubts about how such schemes are actually administered."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Even licenses with an online application option, such as FSSAI, still require a manual paper-based application in some locations."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "When an online application or document upload is rejected, applicants are not told the specific reason, leaving them to guess what needs correction."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Third-party agents collect the required documents over WhatsApp instead of through a secure, trackable channel."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "GST, PAN, and Aadhaar records are resubmitted for related licenses even where the underlying business details have not changed."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Land or rent lease agreements and owner consents are collected afresh for each related registration on the same premises rather than being reused across linked applications."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Process the trade license together with other mandatory approvals such as FSSAI and Motor Vehicles Department clearance under one combined submission."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Offer the application form and a user manual in regional languages, not English only, to reduce dependence on translators and agents."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Show applicants exactly how much of a payment is the statutory government fee and how much is third-party service charge."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Bring the Motor Vehicles Department clearance timeline closer to the trade license timeline so businesses can become fully operational without a long gap."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "The government fee for the trade license itself is relatively low, cited at around ₹1,000, while the larger cost burden comes from third-party intermediary charges and delays in related approvals."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Separate industry setup costs, cited in the range of ₹25,000 to ₹50,000, sit as a significant cost layered on top of the licensing process itself."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "The main issue is that the application is not user friendly, and users are not aware of what documents are required for a trade license.",
+          "topic": "Portal usability & documentation awareness",
+          "tags": [
+            "PORTAL",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "They got the trade license, but to get approval from the Motor Vehicles Department, it takes about six months to a year.",
+          "topic": "Downstream approval delay",
+          "tags": [
+            "INTERDEP",
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "They do not have a specific breakup of how much is going to intermediate costs versus government statutory fees. They just pay a total of fifteen to twenty thousand rupees as instructed.",
+          "topic": "Opaque fee structure",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Even if there is a minor issue on the PAN card, they are asked to post it to the main Delhi office or Pune office for correction, which takes a lot of time.",
+          "topic": "Document correction delay",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision is mentioned for the trade license process in this transcript."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Validity/renewal period is not stated in this transcript (the separate Trade License Renewal FGD covers annual renewal, but this approval-focused session does not state validity itself)."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The intermediary cost range (₹10,000–₹50,000) is given only as a lump sum, with no document-level or step-level fee breakdown."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested reforms (combined submissions across licenses, a regional-language portal, fee-breakdown transparency, aligned MVD timelines) are proposed but not implemented per the FGD."
+        }
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License — Renewal",
+      "sourceFiles": [
+        "KL_FGD_TLR.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Local Self-Government body (municipal/corporation office), with allied clearances from Pollution Control Board, Labor Board, and Health Department",
+      "portal": {
+        "name": "K-Smart (state portal), alongside separate Pollution Control Board and Labor Board portals",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": 30,
+        "basis": "Standard trade license renewal processing time reported by participants, once prerequisite departmental clearances are in hand",
+        "text": "Standard trade license renewal processing takes anywhere from one week to thirty days, but gathering requisite departmental clearances beforehand creates significant operational delay. Renewal activities are also compressed into a narrow seasonal period between February and April, causing portal bottlenecks and local office crowding."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Property tax receipts",
+        "Professional tax slips",
+        "Waste management receipts",
+        "Staff payment proofs",
+        "Sign board approvals",
+        "Building layout details"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants report 8 to 9 separate documents are demanded each renewal cycle, with the same core document set re-collected annually across multiple portals even when unchanged.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed-approval provision is mentioned by participants for trade license renewal."
+      },
+      "validity": {
+        "text": "Implied annual, based on participants describing renewal as a recurring yearly requirement ('every year'); an exact validity-period figure in days/months is not separately stated."
+      },
+      "fees": {
+        "text": "Statutory renewal fees range from ₹500 up to ₹15,000 depending on business scale. Akshaya center facilitation fees add around ₹200 per application submission. Pollution Control Board renewals for small manufacturing or jewelry units can cost up to ₹1.5 lakh every five years."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Gather prerequisite departmental clearances (Health, PCB, Labor) and resubmit documents",
+          "automated": false,
+          "note": "Trade license renewal requires logging into separate platforms such as K-Smart, Pollution Control Board portals, and Labor Board systems to manage different clearances."
+        },
+        {
+          "n": 2,
+          "phase": "fee",
+          "title": "Pay statutory and facilitation fees",
+          "automated": "partial",
+          "note": "Statutory fees ₹500–₹15,000 plus Akshaya facilitation ~₹200/application."
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "Physical document inspection/verification",
+          "automated": false,
+          "note": "Time-consuming manual verification by inspectors from various departments delays the overall processing timeline."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Renewal issuance",
+          "automated": "partial",
+          "note": "Takes 1 week to 30 days once all prerequisite clearances are assembled."
+        },
+        {
+          "n": 5,
+          "phase": "renew",
+          "title": "Annual repeat cycle",
+          "automated": false,
+          "note": "Merchants receive limited or no automated notifications regarding impending license expiration, placing the entire burden of tracking deadlines on the applicant."
+        }
+      ],
+      "remarks": [
+        "This is a Mode B (FGD-only) record; no Expert Discussion (ED) exists for TLR in Kerala in the source ED dataset, so findings/structure here are drawn solely from business-owner testimony and have not been verified against an official source.",
+        "Compliance complexity affects established merchants across diverse sectors including hotel, pharmacy, jewelry, advertising, and printing industries."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants are forced to collect and re-upload almost the exact same core document set every year across multiple portals during renewal."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Trade license renewal requires logging into separate platforms such as K-Smart, Pollution Control Board portals, and Labor Board systems to manage different clearances."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "Complex digital processes and unintuitive interfaces compel business owners to rely on Akshaya centers to upload eight to nine supporting documents."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Merchants receive limited or no automated notifications regarding impending license expiration, placing the entire burden of tracking deadlines on the applicant."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Merchants report that local government officials often lack a user-friendly approach when handling physical visits or queries."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Requiring full annual renewal submissions creates recurring operational friction and administrative overhead for established businesses."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Heavy financial compliance burdens exist for certain sectors, such as Pollution Control Board renewals for small manufacturing or jewelry units costing up to ₹1.5 lakh every five years."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Separate clearances from the Health Department, Local Self Government Department, and Pollution Control Board operate in silos rather than as integrated regulatory frameworks."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "Standard trade license renewal processing takes anywhere from one week to thirty days, but gathering requisite departmental clearances beforehand creates significant operational delay."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Despite online platforms being operational, applicants still visit local municipal or corporation offices two to four times annually to resolve clearance issues."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Each renewal cycle demands eight to nine separate documents, including property tax receipts, professional tax slips, waste management receipts, staff payment proofs, and sign board approvals."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Renewal activities are compressed into a narrow seasonal period between February and April, causing portal bottlenecks and local office crowding."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Property tax receipts, professional tax receipts, and building layout details must be submitted repeatedly across different local body and departmental portals."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Staff salary proofs and daily/monthly waste collection slips are required afresh each year even when operational details remain unchanged."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Trade license renewal cannot conclude until all prerequisite departmental documents (such as health NOCs and waste disposal agreements) are individually obtained."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Heavy seasonal volume between February and March leads to local office backlogs and slower response times."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Time-consuming manual verification by inspectors from various departments delays the overall processing timeline."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Unify multi-departmental clearances under one single-window platform (such as K-Smart or K-SWIFT) to eliminate logging into multiple portals."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Implement regular SMS and email alerts informing merchants well in advance of upcoming license expiration dates."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Allow one-click renewal for businesses whose operational status and physical layout have not changed since the last filing."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Provide transparent breakdowns separating statutory local body fees from processing and facilitation charges."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Statutory renewal fees range from ₹500 up to ₹15,000 depending on business scale, while Akshaya center facilitation fees add around ₹200 per application submission."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "Compliance complexity affects established merchants across diverse sectors including hotel, pharmacy, jewelry, advertising, and printing industries."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "The primary pain point is that apart from the main trade renewal license, applicants have to log into multiple different portals to submit required documents and fees.",
+          "topic": "Portal fragmentation",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "They have to resubmit almost all the same documents every year across different portals.",
+          "topic": "Redundant documentation",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "When users try to do it themselves, they find the portals unintuitive, experience delays, and end up having to visit local municipal offices 3 to 4 times a year.",
+          "topic": "Portal usability & office visits",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "They go to Akshaya centers, where they spend hours getting 8 to 9 documents uploaded.",
+          "topic": "Intermediary dependence",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision is mentioned for trade license renewal in this transcript."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The statutory renewal fee range (₹500–₹15,000) is given only as scale-dependent, without a precise fee slab table."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No single issuing-authority designation/office is named beyond 'local municipal or corporation offices' generally."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested reforms (single-portal integration, automated renewal alerts, one-click renewal, fee transparency) are proposed but not implemented per the FGD."
+        }
+      ]
+    }
+  ]
+}

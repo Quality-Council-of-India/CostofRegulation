@@ -1,0 +1,208 @@
+{
+  "code": "MN",
+  "findings": [
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL", "INSPECT"],
+      "sentiment": "neutral",
+      "text": "The application flows through six steps: online submission, document verification, forwarding for physical inspection, the inspection itself, preparation of the inspection report, and finally approval/issuance of the Factory Licence."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL"],
+      "sentiment": "neutral",
+      "text": "The Factory Licence process recently transitioned from a manual/physical process to an online application system, but is only 'partially online' since physical inspection remains mandatory for new applications."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["COMPLY"],
+      "sentiment": "neutral",
+      "text": "A new Factory Licence application requires 17 distinct documents, including building plan approval, machinery/HP details, manufacturing process flow chart, worker details, and (where applicable) Fire NOC, Pollution Control Board consent, stability and electrical safety certificates."
+    },
+    {
+      "source": "ed",
+      "category": "delay",
+      "tags": ["TIMELINE", "CLARITY"],
+      "sentiment": "issue",
+      "text": "The official schedule cited in the discussion states 90 days, but this figure is explicitly tied to approval of the factory plan and permission to construct/extend/take into use a building as a factory, not clearly a dedicated Factory Licence processing timeline."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["RENEWAL"],
+      "sentiment": "neutral",
+      "text": "The Factory Licence is valid for 10 years with an auto-renewal provision under the Manipur Factories Rules, 2021."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["FEES", "CLARITY"],
+      "sentiment": "issue",
+      "text": "The Factory Licence fee is variable, based on number of workers employed and maximum installed horsepower under the Manipur Factories Rules 2021, but the actual fee schedule/amounts were not detailed in the discussion."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["CLARITY"],
+      "sentiment": "issue",
+      "text": "Although the Manipur Factories Rules, 2021 and the Manipur Public Services Delivery Guarantee Act, 2021 were cited as applicable frameworks, no official Manipur source establishing a deemed-approval provision for Factory Licence was identified."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["COMPLY"],
+      "sentiment": "neutral",
+      "text": "A detailed post-approval compliance checklist was not discussed in full, though officials mentioned obligations such as maintenance of registers, periodic testing, and equipment upkeep."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["NORMS", "INSPECT"],
+      "sentiment": "suggestion",
+      "text": "Officials discussed a risk-based classification (low/medium/high risk) that could reduce physical inspections for low-risk establishments, allow greater self-certification, and increase third-party verification, though no specific risk-classification criteria for Factory Licence were given."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["INSPECT", "TIMELINE"],
+      "sentiment": "issue",
+      "text": "The principal compliance burden identified is the mandatory physical inspection before approval of a new Factory Licence, which adds to processing time and creates a dependency on inspection scheduling."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["INTERDEP", "CLARITY"],
+      "sentiment": "issue",
+      "text": "Factory Licence is part of a sequence of interconnected approvals (Building Plan Approval, Factory Building Plan Approval, Factory Licence, Consent to Establish, Consent to Operate, occupancy-related approvals), and no specific Act or Rule driving the individual requirements was identified during the discussion."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["INSPECT", "NORMS"],
+      "sentiment": "suggestion",
+      "text": "Proposed reform: introduce a risk-based inspection approach so eligible low-risk establishments can undergo simplified verification instead of full physical inspection."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["COMPLY"],
+      "sentiment": "suggestion",
+      "text": "Self-certification is described as a regulatory reform under implementation; the proposal is to operationalize it fully for eligible categories so applicants can demonstrate compliance without departmental intervention at every stage."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["INSPECT"],
+      "sentiment": "suggestion",
+      "text": "Third-party inspection was discussed as part of the emerging regulatory framework, with a proposal to increase use of accredited third-party agencies to reduce the burden on departmental inspection teams."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["PORTAL", "RENEWAL", "POSITIVE"],
+      "sentiment": "positive",
+      "text": "Best practices noted include the recent shift to online application and online renewal, with renewal generally not requiring routine physical inspection."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["PORTAL"],
+      "sentiment": "suggestion",
+      "text": "Recommendation: strengthen end-to-end online processing of Factory Licence applications wherever physical verification is not essential."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["INTERDEP", "DUPDOC"],
+      "sentiment": "suggestion",
+      "text": "Recommendation: integrate factory-related approvals to reduce multiple departmental interactions and repeated submission of the same information."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["CLARITY", "QUERY"],
+      "sentiment": "suggestion",
+      "text": "Recommendation: provide comprehensive online checklists so applicants can submit complete applications and reduce clarification-related delays."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["INTERDEP"],
+      "sentiment": "suggestion",
+      "text": "Recommendation: improve inter-departmental coordination since Factory Licence is linked with several other approvals required for establishment and operation of a factory."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["OTHER"],
+      "sentiment": "neutral",
+      "text": "The discussion emphasized balancing Ease of Doing Business with regulatory compliance and safety requirements."
+    },
+    {
+      "source": "secondary",
+      "category": "remarks",
+      "tags": ["CLARITY"],
+      "sentiment": "neutral",
+      "text": "The issuing authority is plausibly the Directorate of Trade, Commerce & Industries, Govt. of Manipur, whose Director holds the ex-officio post of both Registrar of Firms and Chief Inspector of Factories & Boilers — this likely explains the ED document's anomalous 'Organization/Department' field, which appears to list a private company name instead."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["PORTAL"],
+      "sentiment": "neutral",
+      "text": "A Chief Inspector of Factories & Boilers notice dated 26 March 2026 made online-only filing mandatory for Factory Permit/License/Renewal applications from 1 April 2026."
+    },
+    {
+      "source": "secondary",
+      "category": "procedural",
+      "tags": ["CLARITY"],
+      "sentiment": "neutral",
+      "text": "Secondary research confirms a more granular two-step sequence than the ED described: applicants must first obtain a Factory Permit, and only then apply for the Factory License once the permit is granted."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["RENEWAL", "CLARITY"],
+      "sentiment": "issue",
+      "text": "One weak, unconfirmed secondary source states licences are valid only to 31 December of the grant year with annual renewal under a cited 'Manipur Factories Rules 2016,' which is tentatively at odds with the ED's claim of 10-year validity with auto-renewal; this conflict is unresolved pending the primary Rules text."
+    }
+  ],
+  "quotes": [],
+  "gaps": [
+    {
+      "flag": "MISSING",
+      "text": "The exact Factory Licence fee schedule/amounts are not stated anywhere; the ED only notes the fee is variable based on number of workers and maximum installed horsepower under the Manipur Factories Rules 2021, without giving figures, and secondary research did not surface the schedule either."
+    },
+    {
+      "flag": "VAGUE",
+      "text": "The ED's cited processing timeline of '90 days for approval of the factory plan and permission to construct/extend/take into use a building as a factory' is ambiguous — it is not clearly established as the Factory Licence's own processing timeline rather than a Building Plan Approval timeline."
+    },
+    {
+      "flag": "MISSING",
+      "text": "Deemed-approval status for Factory Licence is not established by any official Manipur source; the Manipur Factories Rules 2021 and the Manipur Public Services Delivery Guarantee Act, 2021 are referenced as applicable frameworks only, with no confirming provision cited."
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "ED states: 'The Factory Licence is valid for 10 years, with an auto-renewal provision under the Manipur Factories Rules, 2021.' A weak secondary source instead states licences are valid only to 31 December of the grant year with annual renewal under a cited 'Manipur Factories Rules 2016.' Source quality for the secondary claim is low and the conflict is unresolved."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "The ED document's anomalous 'Organization/Department' field (listing what appear to be private company names) is plausibly resolved by secondary research: the Directorate of Trade, Commerce & Industries, Govt. of Manipur is the likely issuing authority, its Director holding the ex-officio posts of Registrar of Firms and Chief Inspector of Factories & Boilers."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "Secondary research (a 26 March 2026 Chief Inspector of Factories & Boilers notice) refines the ED's single-stage application description into a two-step sequence — Factory Permit first, then Factory License — and confirms online-only filing became mandatory from 1 April 2026."
+    },
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "A Factory-License-specific processing timeline remains unconfirmed. Secondary research did not find a citable figure to resolve the ED's ambiguous 90-day figure, which the ED itself ties to Building Plan Approval rather than clearly to the Factory Licence."
+    },
+    {
+      "flag": "MISSING",
+      "text": "No specific Act or Rule driving each individual documentation/compliance requirement (e.g., Fire NOC, Pollution Control Board consent, stability certificate) was identified during the Expert Discussion, per the 'Compliance Burden / Redundant Requirements' section."
+    }
+  ]
+}

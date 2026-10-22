@@ -1,0 +1,215 @@
+{
+  "code": "JK",
+  "findings": [
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["PORTAL"],
+      "sentiment": "neutral",
+      "text": "The application flows entirely through the JK Single Window portal: applicant applies and uploads documents, a Dealing Assistant checks completeness (returning queries on incomplete applications), a Factory Inspector reviews documents and inspects where required, and the Chief Inspector of Factories (currently the Labour Commissioner) gives final approval."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["COMPLY"],
+      "sentiment": "neutral",
+      "text": "On average 12-13 documents are required for a new factory licence, with the exact number varying by the size and category of the factory; no additional documents are needed unless the activity is specialised (e.g. fertiliser manufacturing)."
+    },
+    {
+      "source": "ed",
+      "category": "delay",
+      "tags": ["TIMELINE", "QUERY"],
+      "sentiment": "neutral",
+      "text": "The prescribed processing timeline is 30 days; the clock stops when a query is raised and pending with the applicant, and restarts only once the applicant resubmits."
+    },
+    {
+      "source": "ed",
+      "category": "delay",
+      "tags": ["TIMELINE", "CONSULT"],
+      "sentiment": "issue",
+      "text": "Delays commonly arise because applicants (or their service providers) do not respond to queries promptly; in some cases applications remain pending at the applicant's end for 2-3 months without action."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["QUERY", "CLARITY"],
+      "sentiment": "issue",
+      "text": "The most common cause of queries is incorrect worker-count or power-load details entered in Form 23."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["TIMELINE", "GRIEVANCE"],
+      "sentiment": "neutral",
+      "text": "Factory licensing falls under the Public Services Guarantee Act, which requires an explanatory note when processing exceeds the prescribed timeline, but no deemed-approval or penal provision currently applies in practice."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["RENEWAL"],
+      "sentiment": "neutral",
+      "text": "The validity period for the initial factory licence was not separately addressed; validity was discussed mainly in the context of renewal, where applicants may choose any period from 1 to 5 years regardless of risk category."
+    },
+    {
+      "source": "ed",
+      "category": "remarks",
+      "tags": ["FEES"],
+      "sentiment": "neutral",
+      "text": "The expert did not provide a numerical fee structure for factory licence registration."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["TIMELINE"],
+      "sentiment": "suggestion",
+      "text": "The expert suggested that low-risk, document-complete applications could move toward a deemed or same-day (tatkal-style) approval model, similar to systems used for certain other licences."
+    },
+    {
+      "source": "ed",
+      "category": "procedural",
+      "tags": ["NORMS", "INSPECT"],
+      "sentiment": "neutral",
+      "text": "Factories are categorised Red/Orange/White/Green based on the Pollution Control Board's classification, with Red covering hazardous activities such as pesticide manufacturing; physical inspection is more likely for hazardous/Red-category units."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["INSPECT", "NORMS"],
+      "sentiment": "issue",
+      "text": "Despite the risk-based classification, even White/Green-category units (lowest risk) are physically inspected in around 90% of registration cases, suggesting the colour-coding does not yet meaningfully reduce inspection load for low-risk units."
+    },
+    {
+      "source": "ed",
+      "category": "redundant",
+      "tags": ["DUPDOC", "INTERDEP", "PORTAL"],
+      "sentiment": "issue",
+      "text": "A key inefficiency is the absence of inter-departmental document verification (e.g. auto-fetch of Pollution Board or Fire NOC status): applicants must separately obtain and upload documents that other departments on the same Single Window platform already hold."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["CONSULT", "GRIEVANCE"],
+      "sentiment": "issue",
+      "text": "Intermediaries/service providers often file applications using their own mobile number and email rather than the applicant's; the expert called this system \"hijacked by the service provider,\" reducing applicant accountability and traceability."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["CAPACITY"],
+      "sentiment": "issue",
+      "text": "Staff shortage relative to application volume contributes to inspection and processing delays."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["PORTAL"],
+      "sentiment": "issue",
+      "text": "The JK Single Window platform has faced periodic technical issues over the past year."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["CONSULT", "GRIEVANCE"],
+      "sentiment": "suggestion",
+      "text": "Recommendation: mandate use of the applicant's own Aadhaar-linked mobile number and email for registration and communication, to reduce dependence on and control by intermediaries."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["OTHER"],
+      "sentiment": "suggestion",
+      "text": "Recommendation: introduce watermarking of issued certificates and QR-code-based verification to prevent unauthorised editing and enable fraud checks, since no such mechanism currently exists."
+    },
+    {
+      "source": "ed",
+      "category": "suggestions",
+      "tags": ["INTERDEP", "PORTAL", "DUPDOC"],
+      "sentiment": "suggestion",
+      "text": "Recommendation: deepen integration across the roughly 24 departments on the JK Single Window so documents/approvals from other departments (pollution, fire) can be auto-verified rather than re-uploaded; the system is not yet integrated with the National Single Window either."
+    },
+    {
+      "source": "ed",
+      "category": "pain",
+      "tags": ["PORTAL", "CLARITY"],
+      "sentiment": "issue",
+      "text": "A clear amendment provision (e.g. change in occupier or premises) is currently missing from the online system, as it was not carried over from the earlier manual process."
+    },
+    {
+      "source": "ed",
+      "category": "policy",
+      "tags": ["POSITIVE"],
+      "sentiment": "positive",
+      "text": "Best practice: the process is fully online through the JK Single Window and passes through a three-tier internal review (Dealing Assistant, then Factory Inspector, then Chief Inspector of Factories)."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["TIMELINE"],
+      "sentiment": "neutral",
+      "text": "The 30-day processing timeline is confirmed by two independent legal bases: a June 2018 amendment to the J&K Factories Rules (licence within 30 days of application) and SRO-467 of October 2018, which separately lists 30 days for the Factories Act registration certificate."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["NORMS", "POSITIVE"],
+      "sentiment": "positive",
+      "text": "Risk-based colour classification has exact, citable thresholds (Red: Pollution Index ≥60; Orange: 41-59; Green: 21-40; White: ≤20), and a 28 Feb 2025 order adopting the CPCB's January 2025 classification exempts the White category entirely from Consent to Establish/Operate -- a recent reform not reflected in the ED discussion."
+    },
+    {
+      "source": "secondary",
+      "category": "remarks",
+      "tags": ["CLARITY"],
+      "sentiment": "neutral",
+      "text": "The ED referred to the \"Public Services Guarantee Act, 2018,\" but secondary sources indicate the parent statute is actually the J&K Public Services Guarantee Act, 2011 (Act IX of 2011); 2018 appears to be the year of the SRO/Rules amendment that operationalised it for Factories, not the Act's own year."
+    },
+    {
+      "source": "secondary",
+      "category": "remarks",
+      "tags": ["GRIEVANCE"],
+      "sentiment": "neutral",
+      "text": "While the ED described the Public Services Guarantee Act's penal/automatic-approval provision as monitored but not yet in force for factory licensing, secondary research found the Act's officer-penalty mechanism (fines deducted from the responsible officer's honorarium, compensation to the applicant) reportedly actively enforced elsewhere in J&K government, e.g. penalty proceedings against 55 Revenue Department officers."
+    },
+    {
+      "source": "secondary",
+      "category": "policy",
+      "tags": ["DUPDOC", "NORMS"],
+      "sentiment": "neutral",
+      "text": "The official JK Single Window portal publishes a detailed 15-item document checklist for Factory Registration -- more granular than the ED's '12-13 documents' estimate -- including Form 1, combined Form 2 & 3, Pollution Board Consent to Establish/Operate, a conditionally-required NOC (only for sawmills, wood-peeling, explosives, arms & ammunition, drug/pharma, brick kilns, and stone crushers), manager's authorisation letter, power sanction certificate, safety certificate, manager/occupier photo, applicant ID, one of four alternative tenure-proof documents, DIC registration copy, machinery list, process flow chart, project report, and a triplicate site plan."
+    }
+  ],
+  "quotes": [],
+  "gaps": [
+    {
+      "flag": "SECONDARY_OPEN",
+      "text": "The statutory fee amount for factory licence registration is not stated in the ED transcript, and secondary (web) research also did not turn up a numerical fee schedule for J&K -- this remains unresolved."
+    },
+    {
+      "flag": "MISSING",
+      "text": "The validity period of the initial factory licence (as distinct from renewal) is not stated anywhere in the ED transcript or secondary research; only the renewal validity (1-5 years, applicant's choice, independent of risk category) is documented."
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "ED (Mohammad Youmis) names the governing law as the \"Public Services Guarantee Act, 2018.\" Secondary research instead finds the parent statute is the J&K Public Services Guarantee Act, 2011 (Act IX of 2011), with 2018 being the year of the SRO/Rules amendment that applied it to Factories -- the ED's year appears to conflate the amendment date with the Act's enactment date."
+    },
+    {
+      "flag": "INCONSISTENT",
+      "text": "ED states the PSGA's penal/automatic-approval provision is \"monitored periodically... but not yet in force\" for factory licence delays. Secondary research finds the Act's officer-penalty mechanism (fines deducted from the responsible officer's honorarium, compensation paid to the applicant) reportedly actively enforced elsewhere in J&K government (e.g. penalty proceedings against 55 Revenue Department officers), suggesting the mechanism may be live state-wide even if not yet applied specifically within the Factories Department."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "ED gave only a vague '12-13 documents, varies by size/category' estimate for documentation. Secondary research (the official JK Single Window SOP) resolves this with a specific, citable 15-item checklist, including which NOC is conditional and which four tenure-proof documents are mutually exclusive alternatives."
+    },
+    {
+      "flag": "SECONDARY_RESOLVED",
+      "text": "ED stated the 30-day processing timeline without citing a legal basis. Secondary research confirms it from two independent legal sources: a June 2018 amendment to the J&K Factories Rules and SRO-467 of October 2018."
+    },
+    {
+      "flag": "GOOD_PRACTICE",
+      "text": "A 28 Feb 2025 order adopting the CPCB's January 2025 pollution classification exempts the White risk category entirely from Consent to Establish/Operate -- a recent deregulatory reform, found only via secondary research, worth flagging as a model for other states' risk-based regulation."
+    },
+    {
+      "flag": "REFORM",
+      "text": "The expert's own suggestion -- that low-risk, document-complete applications should move toward deemed or same-day (tatkal-style) approval -- is a concrete, officer-endorsed simplification that is not yet implemented in J&K."
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "code": "AP",
+  "name": "Andhra Pradesh",
+  "licenses": [
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFile": "AP_ED_FAL.docx",
+      "issuingAuthority": "Department of Factories, Government of Andhra Pradesh — Deputy Chief Inspector of Factories (DCIF) for hazardous industries at district level, or the concerned nodal Inspector of Factories for general category industries",
+      "portal": { "name": "Single Desk Portal (Common Application Form CAF-2)", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 7, "basis": "Statutory timeline of 7 working days for disposal of the factory license application, uniformly applicable to hazardous, non-hazardous and general category industries", "text": "The factory license must be issued within a statutory 7 working days of application, applied uniformly across hazardous, non-hazardous and general category industries." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Common Application Form (CAF-2) for factory license",
+        "Approved factory building plan carried forward from the earlier plan-approval stage (CAF-1)",
+        "Stability Certificate issued by a competent person empanelled/approved by the Director of Factories"
+      ],
+      "documentsNote": "About 50-60% of the factory building plan information is auto-populated into CAF-2 from the earlier CAF-1 plan-approval stage; the remainder must be submitted afresh.",
+      "deemedApproval": { "status": "no", "days": null, "text": "No deemed-approval provision is actively invoked; however, if the application is not disposed of within the prescribed 7 working days, the concerned Inspector must submit an explanation to the Commissioner of Industries. Per the expert, no situation requiring deemed approval has arisen so far." },
+      "validity": { "text": "License is valid for one year; renewal fee has to be paid online every year before 31st December." },
+      "fees": { "text": "License fee is charged as per a slab-based schedule linked to the horsepower installed and the number of workers employed in the factory, paid online; exact slab figures are not given in this discussion." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Obtain factory building plan approval (CAF-1)", "automated": null, "note": "Entrepreneur obtains this before commencement of manufacturing activity." },
+        { "n": 2, "phase": "apply", "title": "Apply for factory license via Single Desk Portal (CAF-2)", "automated": true, "note": "" },
+        { "n": 3, "phase": "scrutiny", "title": "Application routed by category", "automated": true, "note": "Hazardous industries go to the DCIF at district level; general category industries go to the concerned nodal Inspector of Factories." },
+        { "n": 4, "phase": "fee", "title": "Pay license fee online", "automated": true, "note": "Fee schedule is based on installed horsepower and number of workers employed." },
+        { "n": 5, "phase": "inspect", "title": "Inspector conducts site visit", "automated": false, "note": "Verifies premises, sheds, machinery halls and shop-floor areas against the approved plan." },
+        { "n": 6, "phase": "scrutiny", "title": "Deviations handled if found", "automated": "partial", "note": "Minor deviations: license issued subject to submitting a revised plan within a stipulated period; major deviations: revised plan must be approved first." },
+        { "n": 7, "phase": "approve", "title": "License issued", "automated": null, "note": "Statutory timeline of 7 working days for all categories." },
+        { "n": 8, "phase": "renew", "title": "Annual renewal", "automated": true, "note": "Renewal fee paid online before 31 December; no fresh physical inspection unless there is an amendment to activity, which requires a Revision License (RVL) with revised plan approval." }
+      ],
+      "ed": { "date": "06-08-2026", "location": "Vijayawada", "expert": "Sri. T. Raju", "designation": "Inspector of Factories" },
+      "remarks": [
+        "Boilers are regulated by a separate Boilers Department, independent of the Factories Department.",
+        "No labour court involvement in factory licensing; only Occupational Safety and Health provisions under the Factories Act apply.",
+        "Factories, Pollution Control and Labour departments each conduct separate inspections/certifications for the same establishment; the expert views integrating these into a single joint inspection or license as not feasible since each department evaluates a distinct technical aspect."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Factory license applications must be disposed of within a statutory 7 working day timeline, uniformly applied across hazardous, non-hazardous and general category industries." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Site inspection by the Inspector of Factories remains an offline, physical process; virtual/digital inspection is not currently used because physical inspection is considered a more value-added exercise." },
+        { "source": "ed", "category": "pain", "tags": ["DUPDOC","CLARITY"], "sentiment": "issue", "text": "The Stability Certificate requirement is frequently a point of deficiency — some applicants assume it is not required for new buildings and do not submit it, leading to a deficiency/query (NCS) on the application." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "The expert suggested improving applicant awareness and guidance on mandatory documents, including the Stability Certificate, at the application stage to reduce deficiency queries and processing delays." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "All inspection observations and field-visit findings are uploaded to the public domain through the Central Inspection System portal, giving complete transparency and making reports accessible to the public." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "Factories employing more than 20 workers require a license; those with fewer than 20 are generally exempt, except specified hazardous categories notified under Section 85(1) (e.g. rice mills, dal mills, saw mills/timber-cutting units, small engineering works) which require a license even with fewer than 10 workers." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Selection for random inspection follows a risk/capital-based allocation under the Central Inspection System (CIS)." },
+        { "source": "ed", "category": "redundant", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Factories, Pollution Control and Labour departments each conduct separate inspections/certifications for the same establishment; the expert considers integrating these into a single joint inspection infeasible since each evaluates a distinct technical aspect." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "License fee is charged per a slab-based schedule linked to installed horsepower and number of workers employed, paid online." },
+        { "source": "ed", "category": "procedural", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "Renewal requires annual online fee payment before 31 December; no fresh physical inspection is required unless there is an amendment to activity (e.g. additional manufacturing line, increase in horsepower), which requires a Revision License (RVL) with revised plan approval." },
+        { "source": "ed", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "The expert recommended exploring the feasibility of digital/virtual inspection for low-risk renewal cases, while retaining physical inspection for high-risk or first-time cases." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "The expert recommended improving applicant guidance on which documents carry forward from the plan-approval stage (CAF-1) versus what must be freshly submitted for the license (CAF-2), to reduce document deficiencies." },
+        { "source": "ed", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "If an application is not disposed of within the 7 working day statutory timeline, the concerned Inspector is required to submit an explanation to the Commissioner of Industries." },
+        { "source": "ed", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "positive", "text": "About 50-60% of the information in the factory building plan (CAF-1) is auto-populated into the license application (CAF-2), reducing duplicate data entry, though the remainder must still be submitted afresh." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "Compliance with siting norms (factory should not be near water bodies, schools, colleges or residential areas) and stack-emission norms (monitored by the Pollution Control Board and cross-checked during inspection) is checked at the plan-approval stage." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No exact fee figures or slab thresholds (horsepower/worker ranges and corresponding fee amounts) are given for the factory license fee." },
+        { "flag": "VAGUE", "text": "The correction period for minor deviations is given inconsistently as 'a stipulated period (e.g., 15 days/1 week)' without one definitive figure." },
+        { "flag": "GOOD_PRACTICE", "text": "Complete public disclosure of all inspection observations and field-visit findings via the Central Inspection System portal." },
+        { "flag": "REFORM", "text": "Expert recommended improving applicant guidance on mandatory documents (e.g. Stability Certificate) and on which CAF-1 items carry forward versus need fresh submission in CAF-2, to reduce deficiency queries." },
+        { "flag": "MISSING", "text": "The document does not explicitly state whether the applicant must visit any government office in person; it only states application/fee submission is online and that the Inspector conducts a physical site visit." },
+        { "flag": "VAGUE", "text": "The frequency/rate of deficiency queries (NCS) relating to the Stability Certificate is described only as 'frequently' with no actual figure." }
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFile": "AP_ED_FBPA.docx",
+      "issuingAuthority": "Department of Factories, Government of Andhra Pradesh — competent authority tiered by fee slab: Deputy Chief Inspector of Factories (district level, fee up to ₹500), Joint Chief Inspector of Factories (fee ₹500–₹2,000), or Chief Inspector of Factories / Directorate of Factories (fee above ₹2,000)",
+      "portal": { "name": "Single Desk Portal (single window system)", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 7, "basis": "Statutory timeline of 7 working days from receipt of the application, within which the Department is required to grant approval", "text": "The Department of Factories must grant Factory Plan Approval within 7 working days of receiving the application." },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Land documents (e.g., sale deed / land allotment document)",
+        "Non-Agricultural (NA) land conversion record",
+        "Site plan, drawn to scale (1:800 or 1:1200)",
+        "Detailed plan, drawn to scale (1:100, 1:200 or 1:400), showing elevation, cross-sectional view and top view",
+        "Index of machinery, specification of each machine to be installed, along with its corresponding horsepower (HP)"
+      ],
+      "documentsNote": "",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by the expert during this session." },
+      "validity": { "text": "Not discussed by the expert during this session." },
+      "fees": { "text": "A nominal processing fee applies — reported as approximately ₹100 for lower-capacity plants and ₹1,000 for higher-capacity plants. The approving authority is tiered by the applicable fee/connected-load slab (DCIF up to ₹500; JCIF ₹500–₹2,000; CIF/Directorate above ₹2,000); the expert noted audio quality made the exact slab boundaries difficult to confirm, and recommended verifying against the AP Factories Rules." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Complete land acquisition", "automated": null, "note": "Entrepreneur completes land acquisition for the proposed factory." },
+        { "n": 2, "phase": "apply", "title": "Submit Factory Plan Approval application online via Single Desk Portal", "automated": true, "note": "Filed in parallel with the Consent to Establish (CTE) application to the Pollution Control Board, not as a later sequential step." },
+        { "n": 3, "phase": "apply", "title": "Upload prescribed documents", "automated": true, "note": "Site plan and detailed plan (both to scale) with an index of machinery, along with land/site documents." },
+        { "n": 4, "phase": "scrutiny", "title": "Technical scrutiny by Department of Factories", "automated": false, "note": "Checks setbacks, accessibility, elevation, cross-section and top view." },
+        { "n": 5, "phase": "approve", "title": "Application approved by competent authority", "automated": null, "note": "DCIF / JCIF / Chief Inspector of Factories, depending on the applicable fee slab." },
+        { "n": 6, "phase": "approve", "title": "Approved Factory Plan issued", "automated": null, "note": "Within 7 working days of receipt of the application." }
+      ],
+      "ed": { "date": "06-08-2026", "location": "Vijayawada", "expert": "Sri. T. Raju", "designation": "Inspector of Factories" },
+      "remarks": [
+        "Discussion conducted virtually on 6 August 2026 (approx. 15 minutes).",
+        "The Andhra Pradesh Factories (draft) Rules came into force on the same date as this discussion (6 August 2026).",
+        "CTE (Consent to Establish, from the Pollution Control Board) and Factory Plan Approval are processed in parallel, not sequentially — a point specifically clarified by the expert.",
+        "Immediately following this session, the discussion continued on to cover the Factory License service."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The Department of Factories is required to grant Factory Plan Approval within a statutory 7 working day timeline from receipt of the application." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Application filing, document upload and approval are all carried out fully online through the Single Desk Portal; no offline steps were reported by the expert for this service." },
+        { "source": "ed", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "The Factory Plan Approval application is filed in parallel with the Consent to Establish (CTE) application to the Pollution Control Board, not as a sequential, later step — a point the expert specifically clarified." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "A nominal processing fee applies, tiered by slab from roughly ₹100 for lower-capacity plants to ₹1,000 for higher-capacity plants, with the approving authority also tiered by the fee/connected-load slab." },
+        { "source": "ed", "category": "remarks", "tags": ["CLARITY"], "sentiment": "issue", "text": "The expert noted that audio quality during the discussion made the exact fee slab boundaries difficult to confirm, and recommended verifying the figures against the AP Factories Rules." },
+        { "source": "ed", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "No colour-coded (white/green/orange/red) risk classification applies to Factory Plan Approval; instead, machinery load determines scrutiny level — plants using machinery above 30 HP require Department of Factories approval, while those below 30 HP do not." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "The expert did not identify any redundant or duplicate requirements; the documentation sought (site plan, detailed plan, index of machinery) was described as the essential minimum needed." },
+        { "source": "ed", "category": "pain", "tags": ["NORMS"], "sentiment": "neutral", "text": "The expert views existing technical requirements (spacing/setback norms, fire-safety provisions, ventilation/window norms per the National Building Code) as basic minimum safety requirements rather than a burden, cautioning that removing them could increase the accident rate." },
+        { "source": "ed", "category": "policy", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "The Department is in the process of empanelling architects, planners and developers, which is expected to reduce the time the Department spends on plan scrutiny once operational." },
+        { "source": "ed", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "The expert recommended expediting and operationalising the empanelment system for architects, planners and developers to reduce departmental time spent on plan scrutiny." },
+        { "source": "ed", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "The expert recommended clearly publishing the fee slabs and corresponding approving authority (DCIF / JCIF / CIF) to improve transparency for applicants." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "The expert recommended continuing to align technical scrutiny norms with the National Building Code, the OSH Code 2020, and the newly notified AP Factories Rules." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The ongoing empanelment of architects, planners and developers in Andhra Pradesh was highlighted by the expert as a forthcoming improvement that could be considered by other states." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The Andhra Pradesh Factories (draft) Rules came into force on the same date as this discussion (6 August 2026)." }
+      ],
+      "gaps": [
+        { "flag": "VAGUE", "text": "Exact fee slab boundaries (connected-load / fee ranges tied to DCIF/JCIF/CIF approval authority) are uncertain; the expert's own note states audio quality made the exact slab boundaries difficult to confirm and recommended verifying against the AP Factories Rules." },
+        { "flag": "MISSING", "text": "Validity period for the Factory Plan Approval was not discussed by the expert." },
+        { "flag": "MISSING", "text": "The deemed approval provision was not discussed by the expert for this service." },
+        { "flag": "MISSING", "text": "Post-approval compliance checklist was not covered in this discussion; the session moved directly to the Factory License service." },
+        { "flag": "GOOD_PRACTICE", "text": "The Department of Factories is in the process of empanelling architects, planners and developers, expected to reduce departmental time spent on plan scrutiny, and was highlighted as a forthcoming improvement other states could consider." },
+        { "flag": "REFORM", "text": "Expert recommended expediting/operationalising the architect-planner-developer empanelment system and clearly publishing fee slabs and approving-authority tiers for transparency." },
+        { "flag": "INCONSISTENT", "text": "The expert's name is given as 'Sri. T. Raju' in the document header but as 'Shri Raju Tanali' in the Other Remarks section — the same document gives two different forms of the expert's name." }
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFile": "AP_ED_RCTO.docx",
+      "issuingAuthority": "Andhra Pradesh Pollution Control Board (APPCB), Government of Andhra Pradesh — regional office",
+      "portal": { "name": "Single Desk/Single Window portal, linked to the APPCB website", "url": "ap.mms.nic.in" },
+      "timeline": { "minDays": 7, "maxDays": 21, "basis": "Service Level Agreement (SLA) timelines by CPCB risk category: Red 21 days, Orange 14 days, Green 7 days; auto-renewal for eligible White/Green units via self-declaration is faster, around 3 days of scrutiny", "text": "Renewed Consent to Operate is issued within applicable SLA timelines that vary by risk category — 21 days for Red, 14 days for Orange and 7 days for Green category units — with auto-renewal for eligible White/Green units completing in roughly 3 days." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Site plan",
+        "Process description",
+        "Details of raw materials, products and effluent/emission generation",
+        "Hazardous waste generation and disposal mode details",
+        "Environmental Management Plan",
+        "Condition-wise compliance report against the previous consent",
+        "Self-declaration confirming continued compliance with existing consent conditions (for White/Green auto-renewal)",
+        "6-monthly compliance report (where applicable)",
+        "NABL-accredited laboratory analysis report (where applicable)"
+      ],
+      "documentsNote": "Where there is no change in process, products or production since the earlier consent cycle, previously submitted data/documents are auto-fetched on the portal for the renewal application, reducing the burden of resubmission.",
+      "deemedApproval": { "status": "no", "days": null, "text": "There is no formal 'deemed approval' clause as such, but APPCB has operationalised an equivalent through auto-renewal of CTO for White and Green category units: on submission of a self-certificate declaring compliance with all existing consent conditions, renewal is granted without a fresh inspection." },
+      "validity": { "text": "Validity varies by risk category. Green category units are granted Consent to Operate valid for 15 years, with no mandatory auto-renewal requirement within that period (renewal thereafter is based on the unit's own self-application). Red/Orange category units renew on a shorter cyclical basis linked to their existing consent period, with auto-renewal available for White/Green category units before expiry via self-declaration." },
+      "fees": { "text": "Fee is based on the project cost/category (and, for mining activity, on the extent of mining/production) as stipulated by government/CPCB norms, paid online through the single window portal. There is no separate inspection fee; the fee covers processing of the application only." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply online through Single Desk/Single Window portal", "automated": true, "note": "Minimum required data entered flows through to the APPCB portal (ap.mms.nic.in)." },
+        { "n": 2, "phase": "apply", "title": "Upload required documents/data", "automated": true, "note": "Raw material and product details, effluent/emission particulars, hazardous waste generation, treatment/disposal mode, and compliance report against earlier consent conditions." },
+        { "n": 3, "phase": "fee", "title": "Pay statutory fee online", "automated": true, "note": "" },
+        { "n": 4, "phase": "scrutiny", "title": "APPCB scrutinises the application", "automated": "partial", "note": "Red/Orange category units are inspected; White/Green category units eligible for auto-renewal require only a self-declaration, with no inspection." },
+        { "n": 5, "phase": "inspect", "title": "Inspection for Red/Orange category units", "automated": false, "note": "Board officials inspect the unit and verify compliance/pollution-control system status." },
+        { "n": 6, "phase": "approve", "title": "Renewed Consent to Operate issued", "automated": null, "note": "Within the applicable SLA timeline (Red 21 days; Orange 14 days; Green 7 days)." }
+      ],
+      "ed": { "date": "05-08-2026", "location": "APPCB Regional Office (Jurisdiction: Eluru and Krishna districts)", "expert": "P. Srinivasa Rao", "designation": "Environmental Engineer" },
+      "remarks": [
+        "The Consent to Operate renewal process is independent of the Factory License; the two are separate applications with no interlinkage, APPCB processes only the pollution-control consent.",
+        "Where groundwater is used, the industry additionally needs to obtain separate permission for its extraction/use.",
+        "There is no separate inspection fee; the statutory fee covers processing of the application only, not inspection."
+      ],
+      "dataGaps": [],
+      "findings": [
+        { "source": "ed", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "APPCB strictly follows SLA timelines by risk category: Red 21 days, Orange 14 days, Green 7 days, with auto-renewal for White/Green units completing faster, around 3 days of scrutiny." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE","TIMELINE"], "sentiment": "positive", "text": "The expert noted an applicant satisfaction level of around 85% against the SLA timelines." },
+        { "source": "ed", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "The renewal application, supporting documents and fee payment are submitted only through the Single Desk/Single Window portal; manual/offline submission of consent renewal applications is not accepted." },
+        { "source": "ed", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "Where there is no change in process or products since the previous consent cycle, APPCB auto-fetches the same previously submitted data for the renewal application instead of requiring fresh resubmission, which the expert noted reduces duplication." },
+        { "source": "ed", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Red/Orange category units are physically inspected by board officials to verify compliance; White/Green category units eligible for auto-renewal require only a self-declaration, with no inspection." },
+        { "source": "ed", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Units are classified Red/Orange/Green/White based on CPCB's industrial-sector classification, driven purely by the nature/activity of the industry (pollution potential) rather than geographical location; this classification determines the SLA timeline and whether inspection is required." },
+        { "source": "ed", "category": "pain", "tags": ["QUERY","DUPDOC"], "sentiment": "issue", "text": "Applications get stuck or delayed where the applicant does not pay the requisite fee or does not upload the full set of required documents on the portal; APPCB then raises a clarification and processing halts until the deficiency is corrected." },
+        { "source": "ed", "category": "remarks", "tags": ["CAPACITY","POSITIVE"], "sentiment": "positive", "text": "APPCB has set up a help desk at the regional office to assist entrepreneurs with documentation and the application process, which the expert felt has eased this difficulty considerably." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Real-time/online continuous emission and effluent monitoring systems (OCEMS) for major industries are integrated with APPCB's central server, with automatic deviation alerts, enabling close oversight without relying solely on periodic inspection." },
+        { "source": "ed", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Major industries are required to maintain a real-time online effluent/emission monitoring system (OCEMS) connected to APPCB's central server, along with periodic calibration of the monitoring equipment, and must submit a compliance report every 6 months with a NABL-accredited laboratory analysis report." },
+        { "source": "ed", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "The expert recommended continuing and considering extending the auto-renewal (self-certification, no-inspection) model currently available to White/Green category units to more categories where risk profile permits, to further reduce processing time and administrative burden." },
+        { "source": "ed", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Active promotion of circular economy and zero-waste/zero-discharge approaches by government was cited by the expert as a positive direction for industry." },
+        { "source": "ed", "category": "remarks", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "The Consent to Operate renewal process is independent of the Factory License; the two are separate applications with no interlinkage, as APPCB processes only the pollution-control consent." },
+        { "source": "ed", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Where groundwater is used, the industry additionally needs to obtain separate permission for its extraction/use, beyond the Consent to Operate." },
+        { "source": "ed", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "Fee is based on project cost/category (and, for mining activity, on extent of mining/production) per government/CPCB norms; there is no separate inspection fee, the fee covers processing of the application only." }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No exact fee figures or slab amounts for the CTO renewal fee (tied to project cost/category) are given, beyond stating the basis is government/CPCB norms." },
+        { "flag": "VAGUE", "text": "The '85% applicant satisfaction' figure against SLA timelines is given without a stated source, survey methodology, or time period." },
+        { "flag": "GOOD_PRACTICE", "text": "Dedicated help desk at the APPCB regional office to assist applicants with documentation and the application process." },
+        { "flag": "GOOD_PRACTICE", "text": "Real-time online continuous emission/effluent monitoring (OCEMS) integrated with APPCB's central server, with automatic deviation alerts and periodic equipment calibration." },
+        { "flag": "REFORM", "text": "Expert recommended extending the auto-renewal (self-certification, no-inspection) model currently limited to White/Green category units to more categories where the risk profile permits." },
+        { "flag": "MISSING", "text": "The document does not state what happens, if anything, when APPCB itself misses an SLA timeline (no escalation or accountability mechanism is described, unlike the FAL discussion's Commissioner-of-Industries explanation requirement)." }
+      ]
+    }
+  ]
+}
