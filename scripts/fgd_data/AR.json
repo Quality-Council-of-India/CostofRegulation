@@ -1,0 +1,119 @@
+{
+  "code": "AR",
+  "name": "Arunachal Pradesh",
+  "licenses": [
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License Approval",
+      "sourceFiles": ["AR_FGD_TLA_1.docx", "AR_FGD_TLA_2.docx", "AR_FGD_TLA_3.docx", "AR_FGD_TLA_4.docx"],
+      "sessionCount": 4,
+      "hasED": false,
+      "issuingAuthority": "District administration / Deputy Commissioner's (DC) office, with the Itanagar Municipal Council (IMC) handling applications in its own jurisdiction in Papum Pare — as described by FGD participants; not independently verified against an official source.",
+      "portal": {
+        "name": "An online trade-license application route was described in all four sessions and named explicitly as the EODB/UBIN portal in the Basar session; other sessions referred to the same online route without naming it. An offline/in-person route continues alongside it in some areas (e.g. the IMC-administered part of Papum Pare, per the Itanagar-area session).",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": 90,
+        "basis": "FGD testimony only; no statutory basis cited by participants, and figures vary sharply by district/session.",
+        "text": "Reported timelines differed widely by location: Daporijo participants said the application itself takes about a week to clear once the Land Possession Certificate (LPC) is in hand; Pasighat participants said it takes about a month whether applying online or offline; Itanagar-area (Papum Pare) participants reported 21 days where the process is online versus about 56 days in the IMC-administered offline area; and Basar participants reported a stated 30-day timeline stretching to 60-90 days in practice with no explanation given for the delay."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Land Possession Certificate (LPC) from the Land Department, or a rent agreement (usually renewable yearly) if the premises are rented",
+        "NOCs from multiple departments as required locally — reported variously as Urban, PWD, Power, Fire, Forest, Police and Health/Agriculture (Basar); an NOC from the applicant's business association, open only to registered members (Daporijo); and an NOC from the bank confirming financial soundness plus a police clearance certificate (Pasighat)",
+        "PRC or ST certificate",
+        "Aadhaar, photographs and photocopies",
+        "Electricity bill, where an LPC is not available (Pasighat)",
+        "Signatures from a local representative (gaon bura/GPM), and separately from the executive magistrate's office and/or ward office, in some areas (Itanagar-area session)",
+        "An unemployment certificate (Basar session only) — flagged by participants as having no clear bearing on a trade license application"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. The document/NOC list differs materially between the four sessions/districts, suggesting there is no single, consistently applied statewide checklist rather than a reporting gap.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No session described a deemed-approval provision. Basar participants said the stated 30-day timeline carries no enforcement or penalty when exceeded, and Daporijo and Pasighat participants said they knew of no process to escalate or appeal if a license remained stuck even with complete documents."
+      },
+      "validity": {
+        "text": "Trade license validity is one year in every session, with no current option for a longer term. Participants in all four sessions asked for an optional multi-year license (commonly 3 or 5 years, with one Pasighat participant suggesting up to 10 years), while wanting annual renewal to remain available for those who prefer it."
+      },
+      "fees": {
+        "text": "No session gave a specific application or renewal fee amount. Pasighat participants said fee receipts clearly itemize the office charge and GST. A per-day fine applies once renewal is late (amount not stated, Daporijo session); separately, one Itanagar-area participant recalled a roughly 5% fine for operating a business before the formal license had come through, found during a compliance check."
+      },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Obtain a Land Possession Certificate (LPC) from the Land Department, or arrange a rent agreement if the premises are rented", "automated": false, "note": "Described as the foundational step; once the LPC is in hand, participants in Daporijo said 'about half the work is done.'" },
+        { "n": 2, "phase": "apply", "title": "Submit the application online (self, or via a cyber café) through the portal, or offline in person at the DC office/IMC", "automated": "partial", "note": "Both routes coexist; in areas where it is online, applicants reported filling the online form taking about ten minutes (Daporijo)." },
+        { "n": 3, "phase": "apply", "title": "Individually collect and submit/upload NOCs from the departments relevant in that district (e.g. Urban, PWD, Power, Fire, Forest, Police, Health/Agriculture; bank NOC and police clearance; or business-association NOC)", "automated": false, "note": "No department routes requests to another automatically; each is approached separately." },
+        { "n": 4, "phase": "apply", "title": "Obtain required signatures, e.g. from a local representative (gaon bura/GPM) and separately from the executive magistrate's office or ward office", "automated": false, "note": "Reported in the Itanagar-area session as adding extra, sequential trips." },
+        { "n": 5, "phase": "fee", "title": "Pay the prescribed fee online or at the office; a provisional/interim receipt can be generated after payment to begin operating while the formal license is still processed", "automated": "partial", "note": "Provisional-slip provision reported only in the Itanagar-area session." },
+        { "n": 6, "phase": "scrutiny", "title": "Office checks the file for completeness; a missing or mismatched document is returned to the applicant for correction and resubmission, restarting the wait", "automated": false, "note": null },
+        { "n": 7, "phase": "inspect", "title": "Officers (sometimes joined by staff from other departments such as medical or land) visit the premises to verify them in person", "automated": false, "note": "Participants in Daporijo and Pasighat said inspecting officers do not ask for money." },
+        { "n": 8, "phase": "approve", "title": "License is issued once documents and inspection are in order", "automated": false, "note": null },
+        { "n": 9, "phase": "renew", "title": "Renew using the earlier license as the base document", "automated": "partial", "note": "Some NOCs carry their own validity period and may need to be obtained again at renewal (Pasighat); Basar participants reported sometimes being asked to resubmit NOCs already approved previously." }
+      ],
+      "remarks": [
+        "The four sessions were held in four different districts (Leparada/West Siang area at Basar on 3 Oct; Papum Pare at Itanagar/APIIP on 6 Oct; Upper Subansiri at Daporijo on 15 Oct; East Siang at Pasighat on 16 Oct), and the process they describe differs materially by location — this record synthesizes across all four rather than describing one uniform process.",
+        "The Itanagar-area session noted the process is inconsistent even within a single district: of three areas in Papum Pare, one and the Capital Complex region are online while the IMC-administered area remains offline.",
+        "One Basar participant referenced a separate trade-licensing experience outside Arunachal Pradesh (Chennai/Vellore), citing roughly a 7-month wait and an annual renewal fee of about ₹70,000-77,000, offered only as a comparison point rather than a feature of the Arunachal Pradesh process.",
+        "In the Daporijo session, some participants raised a broader concern that scheme benefits and support tend to reach people with influence rather than small businesses that pay taxes every year — this is a general grievance rather than a specific finding about the trade license process itself.",
+        "This record is FGD-only and has not been cross-checked against an official ED interview, since no AR_ED_TLA record exists; confirm the issuing authority, portal name, exact fees, deemed-approval rule and documents against an official source before treating any figure here as authoritative."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Even where applications can be filed online, participants across all four sessions said at least one in-person visit to the DC office remains necessary to complete the process, collect NOCs, or resolve queries." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Trade license validity is capped at one year in every session, and annual renewal was repeatedly described as the single most burdensome, most frequently raised complaint." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Reported processing timelines vary sharply by district: about a week in Daporijo once the LPC is in hand, about a month in Pasighat, 21 days online versus 56 days offline in the Itanagar-area/Papum Pare session, and 60-90 days against a stated 30-day target in Basar." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Basar participants said they must separately obtain NOCs from a long list of departments (Urban, PWD, Power, Fire, Forest, Police, Health/Agriculture), some of which they felt had no clear relevance to their specific business." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "An unemployment certificate was described in the Basar session as a mandatory supporting document with no clear bearing on trade license approval." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "Participants in Basar and Pasighat said the portal does not clearly show an application's live status or the reason for a hold, so a missing requirement (e.g. a pending fire NOC, a police NOC problem) is often discovered only by visiting the office in person." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Weak internet connectivity was cited in both Basar (at the e-office) and Daporijo (delaying the rollout of a usable online application process) as a recurring cause of delay." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL", "QUERY"], "sentiment": "issue", "text": "No SMS, email or phone reminder is sent before a license is due to expire — raised independently in the Itanagar-area, Daporijo and Pasighat sessions, with participants saying they usually find out only by chance." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "A per-day fine is added once renewal is late (Daporijo), described as adding up quickly for a small business; no participant in any session could state the exact fine amount." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "No participant in the Daporijo or Pasighat sessions knew of any process to appeal or complain if a license was stuck or refused even with complete documents; Basar participants similarly described waits of up to a year with no clear way to escalate." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "One Daporijo participant said they attempted the online application about ten times because the payment step would not complete and the page kept returning to the start, eventually switching to the offline route." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Pasighat participants said the business name entered at first application cannot later be corrected or changed, and no process exists for it." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Renewal applicants in Basar reported sometimes being asked to resubmit NOCs that had already been furnished and approved during the original application." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "Pasighat participants said the same mandatory documents (LPC, bank NOC, police clearance) are required whether applying online or offline, so going online does not reduce the paperwork burden." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "In the Itanagar-area session, even a routine signature required separate trips — to the executive magistrate's office and then to the ward office — since staff are not always available at either." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "A document checklist is generally not published on the portal; applicants in the Itanagar-area and Basar sessions said they must visit the office to learn what is needed, though Daporijo participants said online applicants do get a full checklist through the portal." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Bank and police NOCs were described in Pasighat as the most time-consuming part of the process, needed before the file can move forward; in Daporijo the LPC was described similarly as the step everything else waits on, with no predictable timeframe." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "No single, consistent processing timeline or document checklist applies across the state — Papum Pare district alone has three areas with different online/offline status, and different sessions named different sets of required NOCs." },
+        { "source": "fgd", "category": "policy", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Daporijo and Pasighat participants both said inspecting officers do not ask for money, and Pasighat participants said fee receipts clearly itemize the office charge and GST." },
+        { "source": "fgd", "category": "procedural", "tags": ["POSITIVE"], "sentiment": "positive", "text": "An interim/provisional receipt can be generated after applying and paying the fee, letting a business start operating while the formal license is still processed (Itanagar-area session)." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "A dedicated mobile application, instead of relying on a desktop, website or cyber café, was requested in three of the four sessions (Itanagar-area, Daporijo, Pasighat); Pasighat participants additionally asked for short in-app videos explaining required documents and the process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Participants in all four sessions asked for an optional multi-year license (commonly 3 or 5 years, with one Pasighat participant suggesting up to 10 years) instead of mandatory annual renewal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "A renewal reminder sent 15-30 days before expiry, by SMS, phone call or portal notification, was requested in the Itanagar-area, Daporijo and Pasighat sessions." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Basar participants suggested a single-window portal that triggers NOC requests to all relevant departments in parallel rather than sequentially, in line with the Ease of Doing Business initiative." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Publishing a clear document checklist, separately for new applications and renewals, directly on the portal was suggested in the Basar, Itanagar-area and Daporijo sessions to cut down on office visits made just to find out what is needed." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Benchmarking against faster-performing states, such as a reported 5-day approval timeline in Bihar (Basar session), and reducing the inconsistency between areas within Papum Pare itself (Itanagar-area session), were both raised." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "One Basar participant compared the Arunachal Pradesh process to a separate licensing experience outside the state (Chennai/Vellore), citing a roughly 7-month wait and an annual renewal fee of about ₹70,000-77,000, as a benchmark rather than a description of the AR process." }
+      ],
+      "quotes": [
+        { "speaker": "Business Owner Representative", "quote": "Even when the application is filed online, we still have to come to the DC office multiple times to get it completed.", "topic": "Multiple Visits / Online-Offline Gap", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Business Owner Representative", "quote": "A license that is valid for only one year means we are back in the renewal process almost every year; two or three years would be far more practical.", "topic": "License Validity / Renewal Frequency", "tags": ["RENEWAL"], "sentiment": "issue" },
+        { "speaker": "Business Owner Representative", "quote": "We are asked for NOCs from departments that have nothing to do with our actual business, and a lot of these NOCs are simply not necessary.", "topic": "Unnecessary NOC Requirements", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Business Owner Representative", "quote": "The approval that was supposed to take thirty days ended up taking around ninety, with no clear explanation given for the delay.", "topic": "Processing Delay vs Stated Timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Business Owner Representative", "quote": "There is no way to check what stage our application is at online — we only find out there is a problem, like a missing fire NOC, once we go to the office ourselves.", "topic": "Application Status Tracking", "tags": ["PORTAL", "QUERY"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "Our offline process can take close to 56 days, while the online route elsewhere in the district is closer to 21 days.", "topic": "Processing Timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "Businesses commonly run by women, like salons and restaurants, seem to go through the longest and most complicated process.", "topic": "Process Burden - Women-led Businesses", "tags": ["OTHER"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "An auto-payment option linked to our account would mean we never risk missing a renewal or paying a late fee.", "topic": "Suggestion - Auto-Renewal", "tags": ["RENEWAL"], "sentiment": "suggestion" },
+        { "speaker": "Industry User", "quote": "Renewing every single year is a hassle; we would prefer a license that lasts three or five years.", "topic": "License Validity", "tags": ["RENEWAL"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "I tried online about ten times, but the payment would not go through and kept bringing me back to the first page, so in the end I went to the office.", "topic": "Portal Reliability", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "If a license gets stuck, we are not aware of any process to complain or appeal.", "topic": "Grievance Mechanism", "tags": ["GRIEVANCE"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "Most of us go to a cyber café for the online application; there is no way to apply directly from our phones.", "topic": "No Mobile App", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "We forget the date; if the license were valid for ten years, it would be so much easier.", "topic": "License Validity", "tags": ["RENEWAL"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "Once the name is registered, there is no option to change it.", "topic": "Name Change", "tags": ["OTHER"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No session gives a specific fee amount for the trade license application or renewal; only that a per-day late-renewal fine applies (amount unstated) and one case of a roughly 5% fine for operating before the license was issued." },
+        { "flag": "VAGUE", "text": "Reported timelines vary widely and inconsistently by district/session (about a week in Daporijo, about a month in Pasighat, 21 vs 56 days in the Itanagar-area/Papum Pare session, 60-90 days against a 30-day target in Basar), with no single statewide figure participants could agree on." },
+        { "flag": "MISSING", "text": "No participant in any session could describe a deemed-approval provision or confirm whether the stated timelines carry any automatic consequence when exceeded." },
+        { "flag": "VAGUE", "text": "The exact document/NOC checklist differs by session and district (Urban/PWD/Power/Fire/Forest/Police/Health-Agriculture in Basar; LPC/bank NOC/police clearance in Pasighat; LPC/business-association NOC in Daporijo), so no single consistent statewide list could be confirmed." },
+        { "flag": "GOOD_PRACTICE", "text": "Daporijo and Pasighat participants both said inspecting officers do not ask for money, and Pasighat participants said fee receipts clearly itemize the office charge and GST." },
+        { "flag": "REFORM", "text": "A provisional/interim receipt letting a business begin operating while the formal license is processed was described only in the Itanagar-area session; participants in the other three districts did not mention any equivalent provision." },
+        { "flag": "MISSING", "text": "Issuing authority and portal name are inferred from incidental references (DC office; EODB/UBIN portal named once in the Basar session) rather than stated explicitly and consistently across sessions, and have not been verified against an official source." }
+      ]
+    }
+  ]
+}

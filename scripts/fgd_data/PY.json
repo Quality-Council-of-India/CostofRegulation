@@ -1,0 +1,554 @@
+{
+  "code": "PY",
+  "name": "Puducherry",
+  "licenses": [
+    {
+      "serviceCode": "APW",
+      "serviceName": "Authorization for Plastic Waste",
+      "sourceFiles": ["PY_FGD_APW.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "No fixed timeline for approval; the process is reported to take around 6-12 months in practice." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "No proper mechanism to track the application status or identify the stage at which it is pending." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Approval from other departments is required, creating dependency, with no effective single-window mechanism." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Application guidelines and document requirements are not clearly communicated to applicants." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants are required to submit duplicate documents at different stages of the application process." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "CLARITY"], "sentiment": "issue", "text": "Applications may be rejected without a clear reason being communicated to the applicant." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Renewal of approval is also reported to be difficult, involving procedural difficulties similar to the fresh application process." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Suitable/authorised vendors for waste collection are not readily available." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Documents submitted for one departmental approval may need to be submitted again for approvals from other departments." },
+        { "source": "fgd", "category": "remarks", "tags": ["INFORMAL"], "sentiment": "neutral", "text": "Applicants may rely on consultants to understand and complete the approval process, adding an additional layer to the process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Provide an online mechanism to track application status and notify applicants when the application moves between stages." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Establish a fixed, clearly communicated timeline for processing and approval." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Integrate approvals from different departments through a single-window mechanism." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Avoid repeated submission of documents already available with the department, and enable reuse of previously submitted documents at renewal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY", "CLARITY"], "sentiment": "suggestion", "text": "Provide applicants with clear reasons for rejection and specify corrections needed for resubmission." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "There is no proper mechanism to track the application status.", "topic": "No Application Tracking", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Approval depends on clearances/approvals from other departments.", "topic": "Interdepartmental Dependency", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "There is no fixed timeline for approval and the process can take 6-12 months", "topic": "Long Approval Timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Duplicate documents have to be submitted during the process", "topic": "Duplicate Documentation", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "If the application is rejected, the reason is not clearly communicated", "topic": "Unclear Rejection Reason", "tags": ["QUERY", "CLARITY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED states that 'no fixed timeline for processing is shared by the department' without giving a concrete duration; FGD participants independently report actual processing taking roughly 6-12 months in practice - a specific range the ED interview did not provide." },
+        { "flag": "MISSING", "text": "FGD participants report no mechanism to track application status/stage, which the ED's 'entirely online, paperless' description does not address from the applicant's visibility perspective." },
+        { "flag": "VAGUE", "text": "FGD mentions fees 'vary depending on category of industry', broadly consistent with the ED's quantity-based fee slab (₹5,000-₹50,000), but adds no further specificity." }
+      ]
+    },
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFiles": ["PY_FGD_BPA.pdf"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Applicants may require architects/engineers to prepare and submit applications, creating an additional professional cost." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Both online and offline application modes are available; multiple modes may create uncertainty and a lack of process uniformity." },
+        { "source": "fgd", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Applicants may be unable to independently complete the application, leading to dependence on consultants." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Applicants may have limited visibility of the application status and progress, resulting in additional follow-ups." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Limited departmental manpower may increase application processing time and contribute to delays in approvals." },
+        { "source": "fgd", "category": "policy", "tags": ["PORTAL"], "sentiment": "issue", "text": "Lack of a standardised application mode (online vs offline) may create inconsistencies during the application process." },
+        { "source": "fgd", "category": "policy", "tags": ["COMPLY"], "sentiment": "issue", "text": "Participants reported that the department may not consistently follow the prescribed process, resulting in inconsistencies in handling and execution." },
+        { "source": "fgd", "category": "policy", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Participants highlighted the absence of a local forum for grievance redressal; applicants may need to approach courts in Madras/Tamil Nadu for specific grievances." },
+        { "source": "fgd", "category": "procedural", "tags": ["COMPLY"], "sentiment": "issue", "text": "Complex application procedure involving multiple stages and approvals before sanction, requiring assistance to understand and complete." },
+        { "source": "fgd", "category": "procedural", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Departmental processing is constrained by limited manpower and multiple procedural steps, increasing overall processing time." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "Participants reported no significant issues related to duplicate document submission; no requirement for repeated submission of the same documents was identified." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Delays in related approvals/services (such as electricity connections) may affect the overall building-plan approval process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Streamline the online process to reduce manual intervention and provide timely application status updates." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Ensure adequate departmental manpower for timely scrutiny and approval, including additional resources during peak periods." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Standardise the approval procedure and clearly communicate the process and expected timelines to applicants." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "Applicants may require architect/engineer assistance to complete the application process.", "topic": "Dependence on Technical Professionals", "tags": ["CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Both online and offline application modes are available.", "topic": "Multiple Application Modes", "tags": ["PORTAL"], "sentiment": "neutral" },
+        { "speaker": "Business Participant", "quote": "The department may not always follow the prescribed procedure.", "topic": "Non-Adherence to Prescribed Process", "tags": ["COMPLY"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Limited departmental manpower may cause delays in application processing.", "topic": "Manpower Constraints", "tags": ["CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Certain grievances may require applicants to approach courts outside Puducherry.", "topic": "Grievance Redressal", "tags": ["GRIEVANCE"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No Expert Discussion (ED) exists for Building Plan Approval in Puducherry; none of the structured process fields below (issuing authority, portal, timeline, fees, validity, documents, deemed approval, steps) are confirmed against an official source and are left unspecified where the FGD did not give concrete figures." },
+        { "flag": "MISSING", "text": "The FGD transcript did not name a specific portal, issuing authority, or itemised document checklist; the discussion stayed largely at a thematic level (manpower, process clarity, grievance redressal) rather than giving concrete operational figures." },
+        { "flag": "GOOD_PRACTICE", "text": "Participants reported no significant redundant or duplicate-document requirement in the current process." }
+      ],
+      "issuingAuthority": "Not explicitly named in the FGD transcript; building plan approval in Puducherry is understood to fall under the Local Planning Authority/Municipality, but this was not confirmed by participants.",
+      "portal": { "name": "Online application portal (name not specified in the FGD transcript); an offline submission mode is also available", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No specific day figures were given by participants; the discussion focused on manpower constraints and process inconsistency as drivers of delay rather than a stated timeline.", "text": "No concrete processing timeline was stated in the FGD; participants described the process as taking longer than expected due to manpower constraints and non-adherence to the prescribed process, without giving a specific day range." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not itemise a document checklist; they noted dependence on architects/engineers to prepare and submit the required building plans and supporting paperwork.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not addressed in the FGD transcript." },
+      "validity": { "text": "Not stated in the FGD transcript." },
+      "fees": { "text": "Not stated in the FGD transcript; professional (architect/engineer) costs were raised as a burden, but no statutory fee figure was given by participants." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Applicant engages an architect/engineer to prepare the building plan and supporting documentation", "automated": false, "note": "Raised as a cost burden by participants." },
+        { "n": 2, "phase": "apply", "title": "Application submitted online or, in some cases, offline", "automated": "partial", "note": "Lack of a standardised mode was flagged as a source of inconsistency." },
+        { "n": 3, "phase": "scrutiny", "title": "Department scrutinises the application through multiple stages/approvals before sanction", "automated": null, "note": "Exact stages not detailed by participants." },
+        { "n": 4, "phase": "approve", "title": "Final sanction/approval", "automated": null, "note": "No specific timeline given." }
+      ],
+      "remarks": [
+        "This is an FGD-only record; no Expert Discussion (ED) exists for Building Plan Approval in Puducherry, so none of the structured fields above have been cross-verified against an official source.",
+        "The FGD did not provide concrete figures for timeline, fees, validity or a document checklist; these fields are left unspecified rather than inferred or guessed.",
+        "Participants noted the absence of a local grievance-redressal forum, requiring some disputes to be taken to courts in Madras/Tamil Nadu."
+      ]
+    },
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": ["PY_FGD_CTE.docx", "PY_FGD_CTE_1.pdf"],
+      "sessionCount": 2,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Fresh CTE clearance through OCMMS often takes around 6 months to clear, against the stated 30-day rule cited by participants." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Site inspections are delayed by 4-5 months after the application is filed." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Businesses in Karaikal have no Junior Engineer posted locally and must travel to Puducherry for any issue." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Officials at the local office level are often not fully clear on the CTE process and document requirements." },
+        { "source": "fgd", "category": "policy", "tags": ["PORTAL"], "sentiment": "issue", "text": "No single, clearly published checklist of documents required for CTE is available online, and no formal application tracker exists." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Final approval needs chairman-level sign-off and clearance depends on coordination across several departments, adding layers to the process." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The OCMMS portal faces server issues at times." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Participants reported that a 60-day deemed approval provision exists but is not implemented in practice." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL", "DUPDOC"], "sentiment": "issue", "text": "The CTE renewal process is reported to be more complex than the fresh application, with documents needing resubmission." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Limited mechanism for tracking application status; the portal provides limited status visibility and no automatic notifications or alerts for key updates." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Participants suggested merging Consent to Establish (CTE) and Consent to Operate (CTO) into a single service." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "Applicable fees vary by industry category, identified as a factor increasing the overall establishment cost." },
+        { "source": "fgd", "category": "remarks", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Participants mentioned that informal payments sometimes speed up approvals." },
+        { "source": "fgd", "category": "remarks", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Participants highlighted the inadequate availability of hazardous waste disposal facilities in Puducherry." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "issue", "text": "Several participants said they have shifted operations to Tamil Nadu because of processing delays." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Train local office staff on the CTE process and document requirements; introduce an application tracker and fix recurring OCMMS server issues." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "Getting a fresh CTE cleared in Chennai takes more than six months, even though the rule says thirty days.", "topic": "Approval Delay", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "There is no Junior Engineer in Karaikal, so we have to go to Puducherry for every issue.", "topic": "Staff Shortage", "tags": ["CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Inspections only happen four to five months after we apply.", "topic": "Inspection Delay", "tags": ["INSPECT"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "The portal does not clearly tell us which documents are needed.", "topic": "Lack of Clarity", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "We end up visiting the department several times before we get approval.", "topic": "Procedural Burden", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "There is no proper mechanism for tracking the application.", "topic": "Application Tracking", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "The 60-day deemed approval provision is not implemented in practice.", "topic": "Deemed Approval", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "CTE and CTO should be merged into a single service.", "topic": "Service Integration", "tags": ["NORMS"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "FGD participants describe a general '60-day deemed approval provision' that exists but is not honoured in practice; the ED instead states no deemed approval currently exists in OCMMS at all (only a January 2026 amendment introduces it, and only for industrial-estate units, pending the new UCAMS portal) - the two accounts differ both on whether a general deemed-approval rule exists today and on the number of days cited (60 vs none/industrial-estate-only)." },
+        { "flag": "INCONSISTENT", "text": "One FGD session refers to 'the rule says thirty days' for CTE approval, while the ED's actual category-wise timeline is 7/15/21 days (Green/Orange/Red) - participants' reference point for 'the rule' does not match the ED's stated norm." },
+        { "flag": "MISSING", "text": "The ED does not address the lack of a Junior Engineer posted in Karaikal or the resulting travel burden on businesses there - the FGD adds this ground-level staffing detail." },
+        { "flag": "MISSING", "text": "Neither FGD session quantifies the status of the new UCAMS portal rollout that the ED says will operationalise deemed approval for industrial-estate units." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": ["PY_FGD_CTO.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Applications can take around 4.5-5 months for approval." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Applicants do not have a clear mechanism to track the current status or stage of their application." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Even after submitting documents online, physical document scrutiny is still required, creating a two-stage submission burden." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "The required documents are not clearly mentioned on the portal, creating uncertainty for applicants." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Applicants may not receive a proper or timely response from the department regarding their applications or queries." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Applications may be rejected repeatedly at the JE level, with a need for escalation to a senior authority after repeated rejection." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The existing process does not provide for deemed approval when the application remains pending beyond the prescribed period." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "The CTO fee is determined based on the company's asset value (GFA), forming part of the regulatory requirement." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "The validity period of the CTO approval varies according to industry category, with validity generally reported as ranging between 3-5 years." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "The process involves coordination with other departments for certain requirements before the application can proceed." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "When queries are raised during scrutiny, applicants have to respond and resubmit required information/documents for further processing." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "A single-window approach is available for handling the regulatory process, and applicants can directly submit and process the application without an intermediary." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Consider providing deemed approval where the application is not decided within the prescribed timeframe." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "PORTAL"], "sentiment": "suggestion", "text": "Display a complete and updated document checklist on the portal, and enable end-to-end digital verification to minimise physical scrutiny." },
+        { "source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Provide a defined escalation channel for applications that face repeated observations or rejection at the initial scrutiny level." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "The CTO application takes around 4.5-5 months for approval.", "topic": "Long Processing Time", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "There is no proper mechanism to track the status of the application.", "topic": "Lack of Application Tracking", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Even after submitting the documents online, physical scrutiny is still required.", "topic": "Physical Scrutiny After Online Submission", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "The documents required for the application are not clearly mentioned on the portal.", "topic": "Unclear Document Requirements", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "There is dependency on other departments during the process", "topic": "Inter-Departmental Dependency", "tags": ["INTERDEP"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "FGD participants describe CTO validity as 'generally ranging between 3-5 years,' while the ED states a minimum validity of 5 years and a maximum of 25 years chosen by the applicant - the FGD's lower bound (3 years) is below the ED's stated 5-year minimum." },
+        { "flag": "MISSING", "text": "The ED does not quantify actual processing time against the category-wise 7/15/21-day timeline; FGD adds a concrete business-reported range of ~4.5-5 months." },
+        { "flag": "VAGUE", "text": "FGD does not specify at what stage or why physical document scrutiny duplicates the online submission already made." }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFiles": ["PY_FGD_FAL.pdf"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Applicants may need to interact with multiple departments for the same process; absence of a single-window system increases applicant effort." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Applicants may have limited clarity on the expected approval timeline, requiring multiple follow-ups to check status." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants are required to prepare 7 sets of documents, increasing paperwork and effort." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "The licensing process lacks clear procedural guidance; limited transparency may make the application process unclear to applicants." },
+        { "source": "fgd", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "A participant reported being approached by officials seeking informal payments during the application process." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "The license has a short validity period; participants suggested increasing the validity to 5 years." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "issue", "text": "No single-window system exists; applicants need to coordinate with multiple departments for licensing requirements." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Applicants may need to follow up with multiple departments repeatedly; queries from different departments may require additional follow-ups." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants are required to prepare 7 copies of documents for submission to different departments; multiple sets create unnecessary burden." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Introduce a single-window system to reduce repeated departmental visits and standardise procedures, including requirements and timelines." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Minimise multiple hard copies and enable sharing of soft copies across departments." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Consider extending the license validity to five years, as suggested by participants." },
+        { "source": "fgd", "category": "remarks", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Participants reported informal inquiries regarding payments across various departments." },
+        { "source": "fgd", "category": "remarks", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Participants emphasized the need for effective inter-departmental coordination and a one-stop approach for convenience." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "We have to visit different departments repeatedly for follow-up", "topic": "Multiple Department Visits", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Seven copies of documents have to be prepared and submitted.", "topic": "Redundant/Duplicate Documents", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "There is no clear timeline for when the approval will be received.", "topic": "Unclear Approval Timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Each department asks for a separate payment/bribe during the process.", "topic": "Informal Payment Concerns", "tags": ["INFORMAL"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "There is no single-window facility and proper procedures are not clear.", "topic": "Lack of Single-Window & Clear Procedures", "tags": ["CLARITY", "INTERDEP"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "FGD participants suggest 'increasing the validity to 5 years,' implying they understand the current maximum to be shorter; the ED states validity can already be chosen for 'up to a maximum of 10 years' with fee scaling (e.g. ₹7,200/year, ₹14,400/2 years) - participants' request suggests either limited awareness of the existing option or that in practice applicants are not being offered/informed of the longer multi-year choice." },
+        { "flag": "MISSING", "text": "FGD does not independently confirm the ED's stated 30-day processing figure; participants instead describe the timeline simply as 'unclear', without citing a number." },
+        { "flag": "MISSING", "text": "Informal-payment reports from FGD participants are not addressed anywhere in the ED record." }
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFiles": ["PY_FGD_FBPA.pdf", "PY_FGD_FBPA_1.docx"],
+      "sessionCount": 2,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Approval has taken anywhere from a week to nearly two years for different applicants; average is around 40 days but full clearance can take up to a year." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Application is filed online, but applicants must visit the department in person to learn what is pending or queried - the tracker does not reflect real status ('online in name only')." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Existing license, architect-approved plan, challan and plot layout are all required together, with officials often asking for more details beyond the checklist." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Vacant officer posts (one approving officer had retired) slow down processing further." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Businesses often hire consultants (reported cost ~₹20,000) just to manage the paperwork for the application." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "issue", "text": "Some units are reportedly shifting or considering shifting operations to Tamil Nadu because of processing delays." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Long application form that is not easily understandable; applicants need more time to understand the terms and conditions." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "The process requires the consent of several departments; applicants may need to follow up with various departments." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "3 copies of documents are submitted to the department, which provides 1 copy back to the applicant, creating extra printing and paperwork." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Fees are levied based on plot/land area, and applicants are unsure about the exact cost since it keeps changing." },
+        { "source": "fgd", "category": "policy", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion", "text": "Need for a more integrated single-window approval mechanism and a reduction in the number of departments from which approvals are required." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Approval procedures should be standardised across departments, with requirements clearly defined and communicated." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Application fee was described as nominal by participants in one session." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Provisional approval lets a unit start work early, though final validity depends on the project and any later change to the factory." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Move query resolution and follow-up online so applicants don't need to visit in person; keep the status tracker updated in real time." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Fill vacant officer posts to clear the backlog." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "It shows online, but we still have to visit the department to know what's pending.", "topic": "Tracker Not Reflecting Real Status", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "We only learn about queries in our file after going to the office ourselves.", "topic": "Query Visibility", "tags": ["PORTAL", "QUERY"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Approval has taken anywhere from a week to almost two years for different units.", "topic": "Unpredictable Timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "We paid a consultant nearly ₹20,000 just to manage the paperwork for our project.", "topic": "Consultant Cost", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Because of the delays here, many of us are thinking of shifting to Tamil Nadu.", "topic": "Business Relocation", "tags": ["OTHER"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Approval is subject to clearances from other departments.", "topic": "Inter-Departmental Dependency", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Fees are based on plot area/size and type of business, affecting the overall approval cost.", "topic": "Fee Structure", "tags": ["FEES"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED states a fixed 30-day timeline (20 days Factory Inspector scrutiny + 5 days Joint Chief + 5 days Chief); FGD participants, across both sessions, instead report actual experience ranging from about a week to nearly two years, with an average of ~40 days and full clearance sometimes taking up to a year - a substantial departure from the ED's stated fixed process." },
+        { "flag": "MISSING", "text": "ED does not address an online status tracker; FGD reports that the existing tracker does not reflect actual file status, forcing applicants to visit in person." },
+        { "flag": "MISSING", "text": "ED does not mention vacant officer posts/staffing shortages as a bottleneck; FGD adds this operational detail (including one approving officer having retired)." },
+        { "flag": "VAGUE", "text": "FGD's fee description ('depending on plot/land area') roughly matches the ED's scale-based fee (₹250/₹2,000/₹5,000 by industry size), but participants report uncertainty/changing costs not reconciled with the ED's fixed figures." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": ["PY_FGD_FNO.docx", "PY_FGD_FNO_1.pdf", "PY_FGD_FNO_2.pdf"],
+      "sessionCount": 3,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Fire NOC's one-year validity is shorter than Pollution Control and Factories approvals (5 years) and the Education department's approval (3 years)." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same full set of documents is resubmitted every year at renewal, even when nothing at the premises has changed." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "High compliance cost: fire exits, sprinklers and extinguishers can cost ₹2-3 lakh the first time, with yearly refilling alone costing close to ₹50,000; for higher-risk units the cost can run up to ₹50 lakh." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "A separate, uncapped third-party inspection fee is paid: reported as ~₹25,000 for small establishments and up to ₹5 lakh for large establishments (e.g. 40-acre sites)." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Applicants are often unsure whether the fire department itself or a private third-party agency is inspecting the premises." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "A file is sometimes sent back or rejected after inspection without the department stating exactly what needs to be fixed." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Deemed approval exists for departmental delays, but most applicants are not aware of it and officials are reluctant to use it when fire-safety arrangements are not yet in place." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "No real status tracking beyond broad labels (initiated, resubmitted, completed); no visibility into which officer is holding the file." },
+        { "source": "fgd", "category": "procedural", "tags": ["OTHER"], "sentiment": "issue", "text": "Process remains manual/visit-based - hard copies submitted in person and queries communicated informally, often by phone, despite the online form." },
+        { "source": "fgd", "category": "procedural", "tags": ["OTHER"], "sentiment": "issue", "text": "Turnaround time and queries raised vary depending on which Fire Officer or zone the unit falls under." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "issue", "text": "Industrial units undergo a two-step inspection - first by a departmental official and again by a third-party agency - before the file reaches the Fire Officer for final approval." },
+        { "source": "fgd", "category": "delay", "tags": ["OTHER"], "sentiment": "issue", "text": "Inspection timing depends on the third-party agency's own availability, adding to the wait." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Mandatory physical inspections increase overall processing time; non-compliance found during inspection requires corrective action before approval." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Application requirements and compliance guidelines are not sufficiently clear for first-time applicants; the portal does not reflect additional consultancy/intermediary costs." },
+        { "source": "fgd", "category": "pain", "tags": ["NORMS"], "sentiment": "issue", "text": "A uniform compliance checklist is followed despite different fire-safety needs across sectors; high-risk industries (plastic, packaging, pharmaceutical) face comparatively higher compliance requirements." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "One session (FNO_1) reports Fire NOC renewal is required every 6 months, conflicting with the other two sessions' and the ED's one-year validity figure." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Extend Fire NOC validity to at least three years, in line with the renewal cycle other departments already follow." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Add a real status tracker showing the actual stage of a file and which officer is holding it." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Give written reasons for queries and clarify up front which part of inspection is departmental vs third-party, along with the applicable fee." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES", "POSITIVE"], "sentiment": "positive", "text": "No statutory fee is charged directly on the portal for submitting the Fire NOC application; most applicants are self-filed without a consultant for the basic process." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "Fire NOC validity is only one year, but other departments give five years.", "topic": "Validity Mismatch", "tags": ["RENEWAL"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "We pay about twenty-five thousand rupees to the third-party agency, apart from the usual process.", "topic": "Third-Party Inspection Fee", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Educational Institution Participant", "quote": "There is no tracking system; we only see initiated, resubmitted or completed.", "topic": "No Status Tracking", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "When our file is sent back, they don't tell us exactly what the problem is.", "topic": "Unclear Query Reasons", "tags": ["QUERY"], "sentiment": "issue" },
+        { "speaker": "Educational Institution Participant", "quote": "Other departments approve for three years; we want the same for fire.", "topic": "Validity Extension Suggested", "tags": ["RENEWAL"], "sentiment": "suggestion" },
+        { "speaker": "Not Specified", "quote": "Participants reported that the inspection process is time-consuming and is conducted twice.", "topic": "Repeated Inspection", "tags": ["INSPECT"], "sentiment": "issue" },
+        { "speaker": "Not Specified", "quote": "The major compliance burden arises from recurring compliance activities, inspection-related timelines, and consultant dependency rather than statutory fees.", "topic": "Compliance Burden", "tags": ["FEES", "COMPLY"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "One FGD session (FNO_1, dated 23-Jul) states 'Fire NOC renewal is required every 6 months,' while the other two FGD sessions (FNO docx, FNO_2) and the ED all state validity is one year - not reconciled in any transcript; may reflect a specific sub-category or be an error in that session's record." },
+        { "flag": "MISSING", "text": "The ED notes no fixed cap exists on third-party inspection fees but gives no amount; FGD quantifies this with concrete figures (~₹25,000 for small establishments, up to ₹5 lakh for large establishments on ~40-acre sites)." },
+        { "flag": "MISSING", "text": "ED does not address repeated/double inspections; one FGD session reports inspection is sometimes conducted twice, adding to delay." },
+        { "flag": "VAGUE", "text": "FGD describes turnaround as officer/zone-dependent but does not quantify the variation." }
+      ]
+    },
+    {
+      "serviceCode": "LA",
+      "serviceName": "Land Allotment",
+      "sourceFiles": ["PY_FGD_LA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Suitable industrial plots are not readily available when applicants require them; some vacant plots may not be available for immediate allotment." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Applicants do not always receive clear or timely updates on their application and have to follow up with the concerned department for progress." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Despite online application submission, applicants may still need to approach the department for follow-up and undergo physical inspection/verification." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Allotment depends on land availability and evaluation against prescribed project criteria, creating uncertainty until the final decision is communicated." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Pending allotment can delay construction, machinery investment and other project activities; subsequent approvals such as electricity connection may depend on allotment documents." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "issue", "text": "Applicants have to undergo physical inspection/verification as part of the land allotment process." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "The process involves application scrutiny, inspection, evaluation and final allotment - multiple stages that can increase the time taken to receive a decision." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants may have to provide project-related information already submitted online again, and may need to carry physical copies of documents despite online submission." },
+        { "source": "fgd", "category": "remarks", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Some industrial plots remain vacant for long periods, while new applicants continue to seek land." },
+        { "source": "fgd", "category": "remarks", "tags": ["CAPACITY"], "sentiment": "issue", "text": "One participant stated that no land allotment is currently taking place in Puducherry, suggesting the process may be effectively stalled." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Create a real-time land availability dashboard clearly displaying available, allotted, vacant and under-process plots." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Provide time-bound application processing with defined timelines for scrutiny, inspection, evaluation and final allotment, with status updates at each stage." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Regularly review long-vacant plots and make eligible plots available for fresh allotment to prospective applicants." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "issue", "text": "Uncertainty regarding land allotment can make applicants hesitant to commit funds towards construction, machinery and other project-related investments." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "The same land remains vacant for a very long time, but we are not getting the land allotted", "topic": "Limited Land Availability", "tags": ["CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "We are not getting proper response from the concerned department regarding the land allotment", "topic": "Lack of Departmental Response", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "There is no clear certainty about when the land will actually be allotted.", "topic": "Allotment Timeline Uncertainty", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "No land allotment is currently taking place in Puducherry.", "topic": "Allotment Process Stalled", "tags": ["CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Even after submitting the application, physical inspection is carried out before the process can move ahead.", "topic": "Physical Inspection Requirement", "tags": ["INSPECT"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No Expert Discussion (ED) exists for Land Allotment in Puducherry; none of the structured process fields below (timeline, fees, validity, documents, issuing authority) are confirmed against an official source." },
+        { "flag": "VAGUE", "text": "The source document's own header field ('Service(s) Discussed: Consent to Operate') does not match its actual Land Allotment content - a labelling inconsistency in the underlying FGD file, not a content issue; this extraction relies on the body content and the quotes table (tagged 'Land Allotment')." },
+        { "flag": "MISSING", "text": "One participant's statement that 'no land allotment is currently taking place in Puducherry' is not quantified or explained further - it is unclear whether this reflects a temporary pause, a policy change, or an exhaustion of available land." }
+      ],
+      "issuingAuthority": "Not explicitly named in the FGD transcript; industrial land allotment in Puducherry is generally understood to fall under the Department of Industries/PIPDIC, but this was not confirmed by participants.",
+      "portal": { "name": "Online application portal (name not specified in the FGD transcript)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No specific day figures were given; allotment is described as contingent on land availability and project evaluation rather than a fixed clock, and one participant stated allotment was not currently taking place at all.", "text": "No concrete timeline was stated by participants; allotment decisions are described as uncertain and dependent on plot availability and committee evaluation." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": ["Project-related details/information submitted online (not itemised further)", "Supporting documents (not itemised further by participants)"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants described needing to resubmit project details already provided online and to carry physical copies for follow-up, but did not itemise a specific document checklist.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not addressed in the FGD transcript." },
+      "validity": { "text": "Not applicable/not discussed - allotment is a one-time land-assignment decision rather than a recurring license, and no renewal cycle was mentioned." },
+      "fees": { "text": "Not discussed in the FGD transcript." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits project details/application online", "automated": "partial", "note": null },
+        { "n": 2, "phase": "scrutiny", "title": "Application scrutiny and evaluation against prescribed project criteria", "automated": false, "note": null },
+        { "n": 3, "phase": "inspect", "title": "Physical inspection/verification of the site", "automated": false, "note": null },
+        { "n": 4, "phase": "approve", "title": "Allotment decision, contingent on land availability and evaluation outcome", "automated": false, "note": "Described by participants as uncertain/undefined in timing." },
+        { "n": 5, "phase": "approve", "title": "Allotment order/documents issued, enabling subsequent approvals such as electricity connection", "automated": "partial", "note": null }
+      ],
+      "remarks": [
+        "This is an FGD-only record; no Expert Discussion (ED) exists for Land Allotment in Puducherry, so none of the structured fields above have been cross-verified against an official source.",
+        "The source file (PY_FGD_LA.docx) header lists 'Service(s) Discussed' as 'Consent to Operate', which appears to be a labelling error in the source document - the entire body content, findings and the quotes table (tagged 'Land Allotment') are unambiguously about industrial land allotment, not Consent to Operate; this extraction treats the file as a Land Allotment FGD.",
+        "One participant stated that 'no land allotment is currently taking place in Puducherry,' suggesting the process may be effectively stalled at the time of the discussion."
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFiles": ["PY_FGD_LEM.pdf"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The payment gateway sometimes experiences technical issues, particularly during renewal payments." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL"], "sentiment": "issue", "text": "The licence is renewed annually, requiring applicants to undertake the renewal application process every year, which requires conscious effort even though the process is online." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Inspection timing depends on inspector workload/availability, reported to take around 30-40 days after application." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "issue", "text": "A Trade Licence is a mandatory prerequisite for the Legal Metrology Licence process, identified as a significant cost (~₹5,000-₹15,000 depending on area/type) and questioned as necessary." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Puducherry's annual renewal requirement contrasts with other states' longer (five-year) validity periods; participants suggested extending to five years." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "Stamping/testing costs for weighing and measuring equipment vary by equipment type and add to the overall compliance expenditure." },
+        { "source": "fgd", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "The application process is reported to take approximately one hour to understand requirements/documents and an additional hour to complete, scan and upload, at an estimated manpower cost of ₹500-₹600 per hour." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "Verification is also carried out during the renewal process; no separate inspection fee is paid as the applicable renewal fee covers it." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same documents must be submitted again during each renewal application even when there is no change in information." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The overall licence process is generally reported to take approximately one to two months, though individual experiences varied with inspection timelines." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants did not report a significant business or financial impact from approval delays, since applicants generally apply well in advance." },
+        { "source": "fgd", "category": "remarks", "tags": ["INFORMAL", "POSITIVE"], "sentiment": "positive", "text": "There was minimal to no reliance on intermediaries; users are comfortable applying directly for the licence." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "The major cost concern raised was not the statutory application fee but the Trade Licence cost, reported to be significantly higher." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Extend the licence renewal period to five years instead of requiring annual renewal, as followed in some other states." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Enable applicants to reuse documents already uploaded in previous applications, with modifications permitted only where required." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Review the requirement for the Trade Licence as a prerequisite for Legal Metrology, given its comparatively higher cost." }
+      ],
+      "quotes": [
+        { "speaker": "Not Specified", "quote": "It approximately takes one hour of time to understand the requirements.", "topic": "Time Cost of Application Requirements", "tags": ["COMPLY"], "sentiment": "neutral" },
+        { "speaker": "Not Specified", "quote": "Participants estimated the manpower cost associated with the application process at approximately ₹500 per hour.", "topic": "Manpower Cost", "tags": ["FEES"], "sentiment": "neutral" },
+        { "speaker": "Not Specified", "quote": "Participants stated that they directly apply for the Legal Metrology licence without intermediaries.", "topic": "Direct Application", "tags": ["INFORMAL"], "sentiment": "positive" },
+        { "speaker": "Not Specified", "quote": "It takes approximately one or two months to get it.", "topic": "Processing Time", "tags": ["TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Not Specified", "quote": "It depends upon the inspectors, so workload.", "topic": "Inspector-Dependent Delay", "tags": ["INSPECT"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "The ED states actual turnaround currently runs '2 to 3+ months' against an ideal of 2-3 days; FGD participants instead describe the overall process as taking approximately 'one to two months', with inspection specifically taking '30-40 days' - a somewhat shorter and more consistent estimate than the ED's '2-3+ months' figure." },
+        { "flag": "MISSING", "text": "ED does not mention the Trade Licence as a cost pain-point beyond listing it as a required document; FGD adds that participants see it as a disproportionately costly (₹5,000-₹15,000) and questionable prerequisite." },
+        { "flag": "VAGUE", "text": "The ED's internal tension between deemed approval being 'not currently operational' yet 'fully incorporated' into notified rules (already flagged as an ED gap) is not independently addressed or resolved in this FGD transcript." }
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFiles": ["PY_FGD_RCTO.docx", "PY_FGD_RCTO.pdf"],
+      "sessionCount": 2,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Renewal reported to take anywhere from ~3-4 months (one session, with some cases longer) to 'well over a year', more than one and a half years for some categories (another session)." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Other departments such as Inspector of Factories, Panchayat and Fire informally keep their own licenses pending until the pollution consent renewal comes through." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Deemed approval is known to exist on paper but is not followed/enforced by the department in practice." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same condition-point compliance details, monitoring reports and company documents must be re-uploaded in full at every renewal." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Applications are sometimes rejected close to the end of the processing window on technical grounds, forcing the applicant to start over with a fresh application." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Pollution-control equipment upgrades (e.g. retrofitting a small backup generator) can cost nearly as much as replacement, disproportionate for rarely-used equipment." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "The application gets a unique login ID and portal tracking, but the file still needs to be picked up by an assigned officer, and progress depends on reaching that person directly." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "No fixed/standard instruction exists on which drawings to upload; the requirement varies by inspector." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Simple detail changes such as a registered email ID cannot be done online, requiring a fresh demand draft and manual follow-up." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The hard-copy count for submission differs by location - 3 sets inside an industrial estate versus 7 outside." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Departmental delay in renewal is sometimes billed back to the applicant as a penalty/regularisation charge despite timely application." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "issue", "text": "CTE and CTO/RCTO are processed as entirely separate systems; CTE data/documents are not automatically carried forward, requiring resubmission for renewal." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "No escalation matrix is available on the website; the plastic waste management portal was reportedly unresponsive." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Waste-management facilities and authorised vendors are limited in Puducherry; industries may need to engage vendors in Tamil Nadu, increasing transportation/logistics costs." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "issue", "text": "One respondent reported making 50-60 visits to the Pollution Control department over 3 years before obtaining a result." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Integrate/converge CTE and CTO compliance procedures, especially in cases of expansion, to avoid repetition." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Rationalise renewal fees and align the fee structure with MSME classification wherever applicable." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "Renewal of consent to operate took more than one and a half years for our category.", "topic": "Long Renewal Timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Deemed approval is there on paper, but it isn't followed in practice.", "topic": "Deemed Approval Not Enforced", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "One department won't give its licence until another one does, so we get stuck in between.", "topic": "Dependent Licenses", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "We have to upload the same condition-point documents again for every renewal.", "topic": "Repeated Paperwork", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Close to the deadline, they reject the file and ask us to apply fresh.", "topic": "Last-Day Rejection", "tags": ["QUERY"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "In the 3 years, I have gone to the pollution control from 50 to 60 times.", "topic": "Excessive Physical Visits", "tags": ["GRIEVANCE"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "CTE and CTO needs to be merged to reduce the time-consuming process, especially for expansion.", "topic": "Process Integration", "tags": ["INTERDEP"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "The two FGD sessions report substantially different renewal timelines - one describes ~3-4 months (with some cases longer), the other describes 'well over a year' and more than 1.5 years for some categories; both exceed anything the ED's stated process (~7-day scrutiny + 7-day rectification window) would suggest, and the ED itself states the actual overall timeline 'is not specifically stated'." },
+        { "flag": "INCONSISTENT", "text": "FGD participants describe a deemed-approval provision 'known to applicants' that exists 'on paper' but isn't enforced, while the ED states no deemed-approval provision is specified for CTO renewal at all under the current OCMMS process - a difference in whether a renewal-specific deemed-approval rule is understood by applicants to exist." },
+        { "flag": "MISSING", "text": "ED does not address the copy-count difference (3 vs 7 hard copies depending on location inside/outside an industrial estate), or the inability to make minor online corrections (e.g. email ID) without a fresh demand draft - both added by FGD." },
+        { "flag": "MISSING", "text": "ED does not mention departmental delay being billed back to applicants as a penalty/regularisation charge; this is a notable FGD-only pain point." }
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFiles": ["PY_FGD_RFAL.pdf"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Renewal includes a required site inspection by an inspector." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "License validity for renewal can be selected for 1, 2, or 3 years, chosen based on need." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Deemed approval is not applicable to renewal applications; approval is generally provided within one month." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The approval process normally takes around 30 days." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The portal has no training module or guidance mechanism for users." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Employee details must be entered manually during application; there is no Excel upload option." },
+        { "source": "fgd", "category": "procedural", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Previous application data is automatically retrieved for renewal, but required information must still be entered manually." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Category classification is based on the number of employees in the firm." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "No redundant or duplicate documents were reported for the renewal process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce a training module on the portal and an Excel upload facility for employee details to reduce manual data entry." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Consider introducing deemed approval to reduce the overall approval time, currently around 30 days." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "Employee details have to be entered manually", "topic": "Manual Data Entry", "tags": ["COMPLY"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "There is no Excel upload facility.", "topic": "Lack of Upload Facility", "tags": ["COMPLY"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Training mechanism is not available on the portal.", "topic": "Lack of Portal Training", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Inspector visits the site for inspection.", "topic": "Site Inspection", "tags": ["INSPECT"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "No deemed approval.", "topic": "No Deemed Approval", "tags": ["TIMELINE"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "FGD participants state that 'renewal includes a site visit by an inspector' and list inspection as a required renewal step; the ED instead describes renewal as proceeding via document checks only, explicitly stating 'no physical inspection is carried out at this stage' for renewal, and that renewal is usually faster than a fresh license precisely because there is no inspection stage." },
+        { "flag": "INCONSISTENT", "text": "FGD states renewal validity can be selected for '1, 2, or 3 years,' while the ED states validity (same as for a fresh license) can be chosen 'for a period chosen by the applicant, up to a maximum of 10 years'." },
+        { "flag": "MISSING", "text": "Neither source quantifies how the category classification (by employee count) maps to specific fee slabs for renewal." }
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFiles": ["PY_FGD_RSE.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The portal is slow during application submission, causing delays for users." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "No dedicated helpdesk is available for users facing issues or queries during the application process." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "If the application is not processed within the expected time, users do not get deemed approval and have to wait for the department's approval." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL"], "sentiment": "issue", "text": "The renewal process is time-consuming, requiring users to spend additional time completing the process after certificate validity ends." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL"], "sentiment": "issue", "text": "No expiry reminder is given before registration lapses, and the process is not integrated with other departmental portals, requiring information/documents to be provided again." },
+        { "source": "fgd", "category": "procedural", "tags": ["COMPLY"], "sentiment": "issue", "text": "Employee-related details must be entered individually instead of being able to upload the complete list at once." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Users may have to submit documents again during renewal even when there is no change, and details already provided earlier may need to be entered again." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The process is largely online, with no physical inspection in normal cases and no physical document submission." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The concerned department is reported to be approachable when users need clarification or assistance." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Users did not consider the basic documentation requirement to be a major difficulty in the process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Improve portal speed and performance, and provide a dedicated helpdesk or online support facility." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Introduce deemed approval where the application is not processed within the prescribed time." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Simplify the renewal process by allowing existing registration details to be carried forward, and introduce expiry reminders (SMS/email)." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Enable document and data integration so that information already available with the government does not have to be submitted again." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "The portal is slow while submitting the application.", "topic": "Portal Performance", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "There is no dedicated helpdesk when we face an issue.", "topic": "User Support", "tags": ["GRIEVANCE"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "We have to wait for departmental approval; there is no deemed approval.", "topic": "Approval Timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Renewal takes additional time as we have to complete the process again", "topic": "Renewal Process", "tags": ["RENEWAL"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "There is no proper reminder when the registration is about to expire.", "topic": "Expiry Notification", "tags": ["RENEWAL"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "The ED states that 'bulk employer details can now be uploaded in Excel format, and this feature is integrated into the portal'; FGD participants instead report having to enter employee-related details 'individually instead of being able to upload the complete list at once' - a direct contradiction on whether bulk Excel upload is actually available/working for users in practice." },
+        { "flag": "MISSING", "text": "FGD does not confirm or dispute the ED's uncertain 7-vs-9-day timeline figure; FGD instead frames the issue purely as 'no deemed approval,' without citing a specific number of days." },
+        { "flag": "GOOD_PRACTICE", "text": "No physical inspection is required in normal cases and the process is considered largely online, consistent with the ED's description of a fully online, faceless process." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFiles": ["PY_FGD_TLA.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Requirement of approvals/NOCs from other departments creates interdepartmental dependency in the TLA process." },
+        { "source": "fgd", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "An informal payment/bribe was reported during the physical inspection process." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Overall process was reported by at least one participant to be okay, with no major problems." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "No policy issues, procedural issues, redundant/duplicate document issues, or specific reasons for delay were reported by respondents in this session." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Streamline the process of obtaining approvals/NOCs from other departments to reduce interdepartmental dependency." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "Approvals/NOCs from other departments are required.", "topic": "Interdepartmental Dependency", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Informal payment/bribe was reported during physical inspection.", "topic": "Informal Payment", "tags": ["INFORMAL"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Overall process was reported to be okay, with no major problems.", "topic": "Overall Process", "tags": ["OTHER"], "sentiment": "positive" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "FGD participants report an informal payment/bribe being sought 'during the physical inspection process' for Trade License Approval, while the ED explicitly states that 'physical inspection before approval has been removed under a new by-law' for this service - raising a question of whether this refers to a different/earlier inspection stage (e.g. occupancy-certificate verification) not reconciled in either transcript." },
+        { "flag": "MISSING", "text": "This FGD session was comparatively thin (6 participants, short discussion), reporting 'no policy issues,' 'no procedural issues,' and 'no reason for delay' - it does not corroborate or contradict most of the ED's detailed findings (e.g. the 2-3 month NOC delays, the 27-vs-3-4 document count) one way or the other." }
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License — Renewal",
+      "sourceFiles": ["PY_FGD_TLR.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The source file's 'Pain Points' table content describes industrial land-allotment/plot-availability issues, not Trade License Renewal; this appears to be a copy-paste error in the underlying transcript file - findings below draw only on the sections and quotes clearly tagged 'Trade License - Renewal'." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "issue", "text": "No clearly communicated timeline for when the renewed licence will be approved; processing time can vary by category of business." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Certain applicants are asked to obtain approvals/NOCs from other departments, increasing compliance burden." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Even after applying online, users still have to submit documents physically." },
+        { "source": "fgd", "category": "pain", "tags": ["PROCEDURAL"], "sentiment": "issue", "text": "Repeated physical follow-up is needed with the department after submitting the application." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Verification and document scrutiny take considerable time before the application moves toward approval." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "No application tracking is available - users cannot see whether the application is under scrutiny, pending a query, or ready for approval." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "A query-resubmission-follow-up cycle exists: queries can require another submission and subsequent follow-up before approval." },
+        { "source": "fgd", "category": "remarks", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Notes mention consultancy cost and, in some cases, informal payment/favour concerns linked to involvement of other departments." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "No specific redundant/duplicate document pain point was confirmed in the notes for this session." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Make the process completely end-to-end online, removing physical submission wherever not essential, and introduce application tracking." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE", "INTERDEP"], "sentiment": "suggestion", "text": "Display a clear approval timeline for each business category and show NOC requirements upfront, before the application is submitted." },
+        { "source": "fgd", "category": "suggestions", "tags": ["QUERY"], "sentiment": "suggestion", "text": "Enable online query resolution so users can respond to queries and upload documents through the portal, reducing physical follow-up." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "Even after applying online, we still have to submit the documents physically.", "topic": "Physical Document Submission", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "The inspection and document checking takes a lot of time", "topic": "Inspection/Document Scrutiny", "tags": ["INSPECT"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "For some cases, we are asked to get NOCs or approvals from other departments.", "topic": "Additional NOCs/Approvals", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "After submitting the application, we have to keep following up with the department.", "topic": "Repeated Follow-up", "tags": ["PROCEDURAL"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "There is no proper tracking, so we do not know where our application is pending.", "topic": "Lack of Application Tracking", "tags": ["PORTAL"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "The ED describes Trade Licence Renewal as 'auto-approved instantly on payment of the renewal fee, with the licence available for download the same day', with no document scrutiny and no in-person visit required. FGD participants instead report that 'even after applying online, we still have to submit the documents physically', that 'inspection and document checking takes a lot of time', and that repeated follow-up is needed - a substantial contradiction on whether renewal is instant/auto-approved or document-scrutinised and visit-based." },
+        { "flag": "VAGUE", "text": "The source FGD document's own 'Pain Points' table (and part of its 'Policy Issues' table) appear to describe industrial land-allotment issues (plot availability, Allotment Committee) rather than Trade Licence Renewal - likely a drafting/copy-paste error in the underlying transcript file; this extraction relies on the sections and the quotes table that are unambiguously tagged 'Trade License - Renewal'." },
+        { "flag": "MISSING", "text": "Neither source quantifies how much longer the 'category-based variation in processing time' actually runs for different business categories." }
+      ]
+    }
+  ]
+}

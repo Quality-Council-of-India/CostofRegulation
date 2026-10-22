@@ -1,0 +1,2872 @@
+{
+  "code": "JH",
+  "name": "Jharkhand",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFiles": [
+        "Jharkhand_FGD_BPA.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named in the transcript; participants describe submission to 'the office'/'the department' and reference several local bodies (Nagar Panchayat, Municipal Council, Municipal Corporation, Development Authority) as the ones who set differing fee rates, plus a departmental 'legal officer' who reviews land-ownership history.",
+      "portal": {
+        "name": "Not named in the transcript; described only as 'the online process'/'the portal' for Building Plan Approval",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "Government's stated timeline is 30 days per scrutiny round, not for the overall process; every resubmission restarts a fresh 30-day round, so the real total can run to several times that, with one file cited as taking well over a year.",
+        "text": "The government's own stated timeline for building plan approval is thirty days, but this is rarely met in practice; cases have taken several months, and one specific file was cited as taking well over a year. The thirty-day rule technically applies to a single round of scrutiny, not the overall time to get a map approved -- every time a file is returned and resubmitted, a fresh thirty-day round starts."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Building/map drawings and the technical layer/report used for scrutiny",
+        "Land ownership documents (older properties require original paper records, explained in person to the legal officer)",
+        "Documents required for regularisation of existing construction, where a regularisation scheme is open (its portal was not functional at the time of this session)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants described drawing/technical scrutiny and land-ownership documentation requirements, but did not give a complete itemized checklist.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Participants did not describe any deemed-approval mechanism either way; they only described repeated non-adherence to the 30-day per-scrutiny-round timeline, with files sometimes taking months or over a year."
+      },
+      "validity": {
+        "text": "Not discussed by participants in this session."
+      },
+      "fees": {
+        "text": "The fee structure for map approval is fragmented: different local bodies (Nagar Panchayat, Municipal Council, Municipal Corporation, Development Authority) and different building-height categories each have separate, complex rates that are hard for an ordinary applicant to work out without help. One participant said fees had gone up compared to a few years ago for the same type of smaller building. No specific rupee figures were given for standard map approval, and there is no clear, software-based way to calculate the fee for regularising an existing building under a regularisation scheme."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Online Submission",
+          "automated": true,
+          "note": "Applicant submits the plan/drawings via the online portal."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Manual Document & Drawing Scrutiny",
+          "automated": false,
+          "note": "Officials manually check drawings; files are frequently returned for small corrections and can go through three to four rounds of review before clearance."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Land Ownership Verification",
+          "automated": false,
+          "note": "For older properties, the applicant must physically produce old paper land records and explain ownership history in person to the department's legal officer, since none of these records are held online."
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Site Verification",
+          "automated": false,
+          "note": "A mandatory physical site visit occurs only after document scrutiny is complete; the applicant or consultant must accompany the inspecting engineer and sometimes arrange/pay for the officer's transport."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Decision / Resubmission",
+          "automated": null,
+          "note": "If a mismatch is found at the site-verification stage, the file is sent back, restarting the 30-day scrutiny-round clock."
+        }
+      ],
+      "remarks": [
+        "A regularisation scheme for already-built houses was announced but its online portal has not been opened, so applicants have no way to apply for it, and no software-based fee calculation exists for such cases.",
+        "The thirty-day rule applies per scrutiny round rather than to the overall process; every resubmission restarts a fresh 30-day period."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Even though the process is called online, scrutiny of drawings is still done manually by a person, not a system."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Files are frequently sent back over small drawing corrections, with the same file checked and returned three to four times before it is finally cleared."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "A physical site visit is required in every case; the applicant or consultant must accompany the inspecting engineer, and sometimes arrange and pay for the officer's transport when the site is far from the office."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP",
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "None of the older land ownership records are available online in Jharkhand; applicants must physically collect old paper records and personally explain the ownership history to the department's legal officer."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "A regularisation scheme for already-built houses was announced, but its online portal has never been opened, leaving genuine applicants with no way to apply."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "There is no clear, software-based way to work out what a building would need to pay to get regularised under such a scheme; it has to be worked out manually."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "The government's own stated timeline for building plan approval is thirty days, but this is rarely met in practice; cases have taken several months, with one file cited as taking well over a year."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "The thirty-day rule technically applies to a single round of scrutiny, not the overall approval time; every resubmission starts a fresh thirty-day round."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Since the process moved online, the earlier offline practice of regularising minor construction deviations by simply paying a penalty is no longer available; applicants must wait for a specific regularisation scheme that does not open consistently."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no requirement for a structural engineer to formally certify and take accountability for a building's structural safety, especially for high-rises; an architect's approval alone is treated as sufficient and nobody verifies if a self-described 'structural engineer' is actually qualified."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The fee structure for map approval is fragmented across different local bodies (Nagar Panchayat, Municipal Council, Municipal Corporation, Development Authority) and building-height categories, making it hard for an ordinary applicant to work out without help."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Scrutiny happens in the wrong order in practice: paper/document scrutiny is completed first and physical site verification only afterward, so any site mismatch sends the file all the way back; participants felt site verification should happen earlier."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "The technical layer/report used to check drawings does not always get finalised in one pass; the same drawing can go through three to four rounds of review and correction."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Coordination for the site inspection depends on informal, manual contact between the applicant/consultant and the department, including arranging transport, rather than a fixed system-scheduled visit."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants suggested a mandatory structural engineer sign-off with clear accountability for building safety, particularly for high-rise buildings."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants suggested making technical drawing scrutiny genuinely automated so a drawing is checked and finalised in a single pass instead of going back and forth three to four times."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Overall the participant felt most of the building plan approval process works reasonably well; the suggestions raised were about closing specific gaps rather than a complete redesign."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Nashib Chauhan (Civil/Structural Engineering Consultant)",
+          "quote": "Government says the timeline is thirty days, but thirty days almost never actually happens.",
+          "topic": "Stated vs actual timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Rambali Chauhan (Civil/Structural Engineering Consultant)",
+          "quote": "The scrutiny is manual, not automatic, someone has to check every drawing by hand, even though we call it an online process.",
+          "topic": "Manual scrutiny",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Pramod Kumar (Civil/Structural Engineering Consultant)",
+          "quote": "A regularisation scheme was announced for already-built houses, but the portal for it still hasn't opened, so there is nowhere to even apply.",
+          "topic": "Regularisation portal not opened",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Vivek Kumar (Civil/Structural Engineering Consultant)",
+          "quote": "None of our old land papers are online in Jharkhand. We have to collect them physically and explain the whole ownership history in person before the file can move.",
+          "topic": "Offline land records",
+          "tags": [
+            "INTERDEP",
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Rishabh Gupta (Civil/Structural Engineering Consultant)",
+          "quote": "For any building above three or four floors, a structural engineer should have to sign off and be accountable for it. Right now that accountability simply does not exist.",
+          "topic": "Structural engineer accountability",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Shamshad Alam (Civil/Structural Engineering Consultant)",
+          "quote": "Site inspection should happen right after submission, not right at the end, that way problems are caught early instead of the file being sent all the way back.",
+          "topic": "Reordering site inspection",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No issuing authority/department name is given in the transcript; participants only refer to 'the office'/'the department' and to different local bodies (Nagar Panchayat, Municipal Council, Municipal Corporation, Development Authority) without specifying which one issues Building Plan Approval."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No portal name is given for Building Plan Approval; participants only refer to 'the online process'/'the portal'."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Whether a deemed-approval mechanism exists is not addressed either way; participants only describe repeated non-adherence to the 30-day per-round timeline."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No specific rupee fee figures are given for standard map approval; fees are only described qualitatively as fragmented and complex across local-body categories and height slabs."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Participants suggested moving site verification earlier (right after submission) so site mismatches are caught before detailed paper scrutiny, and bringing old land/ownership records online so applicants need not physically track down historical paper records."
+        }
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFiles": [
+        "Jharkhand_FGD_FBPA.docx",
+        "Jharkhand_FGD_FBPA_1.docx"
+      ],
+      "sessionCount": 2,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The single-window portal frequently runs slow or goes down, and document uploads fail without warning, sometimes for two to three days at a stretch."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "There is no working online grievance redressal option; complaints and clarifications are mostly sorted out through phone calls or in-person visits, not a tracked portal ticket."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Different departments (Pollution, Forest, Factory/Labour) sometimes give contradictory instructions on the same case, leaving the applicant confused about what to submit."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "A certificate uploaded and approved by one department was not visible on the single window for nearly two to three weeks, so the applicant could not download or use it."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "New or additional document demands are sometimes raised after the applicant believes the submission is complete, forcing another round of collection and resubmission."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "A few participants referred cautiously, without specifics, to informal payments they felt could help move a stuck file faster."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "The 30-day statutory disposal window is often not met in practice; participants in one session reported an average turnaround of two to three months."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no consistent policy on whether a Pollution Department NOC is a mandatory pre-requisite for Factory Building Plan approval; different officials gave contradictory answers."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Every fresh query on an application effectively restarts the clock; even a small correction means the 30-day timeline begins again from zero."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Queries and clarifications do not always come through the single-window portal; several participants said they received these over phone calls, making it hard to track what is pending."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Site plan, building layout, and ownership documents are demanded separately by more than one department (Factory/Boiler, Pollution) for the same project, even though nothing about the property changed."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Most participants could not manage the online process alone; creating the user ID and filling Form 1 was itself a problem, so they ended up hiring a consultant or agent."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "After documents are uploaded, the applicant has no idea where the file is; participants either keep calling the office or depend on the agent, and often even the agent does not know."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "The inspection report is supposed to come in 30 days but practically takes 70 to 90 days; one participant had been trying for about three years with the approval still not through."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Objections come in rounds: a first set is corrected, then a second, a third, and sometimes a fourth, each round adding more days."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Informal demands were mentioned openly: participants cited roughly Rs 1.5-2 lakh to get a plan cleared, and about Rs 2.5 lakh paid at junior-engineer level before an electricity line was connected."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Stability certificates, now restricted to Factory-Inspectorate-listed engineers, have become very costly (about Rs 7-10 per sq ft, e.g. roughly Rs 2.5 lakh for a 21,000 sq ft building) versus a few thousand rupees earlier when any chartered engineer could certify; participants felt this reduced competition and hit small units hardest."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Only about seven factory inspectors cover the whole state, so site-inspection scheduling depends heavily on inspector availability and travel between districts."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Participants said they had not seen deemed approval work on the ground, even though the single window framework and the 2021 Industrial and Investment Promotion Policy speak of time-bound approvals and deemed approval."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "The joint single-window sitting, where officers of all departments used to sit together with industry to discuss pending files, has stopped; applicants now go office to office."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "Participants who also operate in Bihar, Gujarat, Maharashtra or Delhi felt comparable approvals move faster in those states than in Jharkhand."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Shamshad Iqbal",
+          "quote": "In Bihar the same process moves much faster; here in Jharkhand it takes longer even though we are following the same kind of documentation.",
+          "topic": "Cross-state comparison",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Shubham Prasad",
+          "quote": "We went to the Pollution Department after our building plan was approved, and they told us pollution clearance wasn't needed for our category, but the building approval office had already asked us for it. Nobody agrees on what is actually required.",
+          "topic": "Pollution NOC contradiction",
+          "tags": [
+            "INTERDEP",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Amit Singh",
+          "quote": "One department had already approved and uploaded our license, but it did not show up on the single window for two to three weeks, we couldn't even download our own approved document.",
+          "topic": "Portal visibility lag",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Mrinal Chauhan",
+          "quote": "The 30-day window is what the rules say, but by the time a query comes, gets answered, and the file is resubmitted, it easily takes two to three months on average.",
+          "topic": "Actual vs stated timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Rajesh Kumar",
+          "quote": "Officially the report should come in 30 days, but in practice it takes 70 to 90 days.",
+          "topic": "Actual vs stated timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Rahul Sharma",
+          "quote": "We never know where the file is stuck. There is no transparency, so we have to depend on the agent.",
+          "topic": "No file tracking",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Shrinjay Kumar",
+          "quote": "Objections come one by one. First one, then a second, then a third, then a fourth. Give the whole list at one time.",
+          "topic": "Piecemeal objections",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Dhananjay Jha",
+          "quote": "For the stability test of a 21,000 sq ft building I have to think of about Rs 2.5 lakh. Earlier it used to be five, ten, twenty thousand.",
+          "topic": "Stability certificate cost",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "The ED record describes Factory Plan Approval as 'entirely digital via the Jharkhand Single Window System,' with only site inspections as a physical component; FGD participants across both sessions report mandatory physical office visits (to prove document uploads, collect/deliver certificates, follow up on stuck files) and server downtime/failed uploads lasting days, which contradicts the 'entirely digital' characterization."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "The ED record states the official processing timeline is 30 days; FGD participants report an actual average turnaround of two to three months (session 1) and typically 70-90 days with one case taking about three years (session 2), and say they have 'not seen deemed approval work on the ground' despite the stated policy of time-bound approvals."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "The ED's FBPA document list does not include a Pollution Department NOC; FGD participants report contradictory official guidance on whether a Pollution NOC is a mandatory prerequisite for Factory Building Plan approval, with different officials giving different answers on the same case."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The ED record does not mention a stability-certificate requirement or its cost; FGD (session 2) reports stability certificates can now only be given by Factory-Inspectorate-listed engineers at roughly Rs 7-10 per sq ft (versus a few thousand rupees earlier when any chartered engineer could certify) -- a cost driver not covered in the official ED record."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The ED record does not mention factory-inspector staffing levels; FGD participants (session 2) say there are only about seven factory inspectors for the whole state, which they identify as a key cause of inspection-scheduling delay."
+        }
+      ]
+    },
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": [
+        "Jharkhand_FGD_CTE.docx",
+        "Jharkhand_FGD_CTE_1.docx"
+      ],
+      "sessionCount": 2,
+      "hasED": false,
+      "issuingAuthority": "Jharkhand State Pollution Control Board (JSPCB), with sequential NOCs from the Forest, Water Resources and Health (Bio-medical) departments feeding into the CTE process, as described by participants; not independently verified.",
+      "portal": {
+        "name": "State single-window portal, with JSPCB consent services integrated into it",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": 180,
+        "basis": "Participants described a nominal 10-day per-authority expectation that is not enforced in practice; actual reported total processing commonly extends to about six months, with one case described as taking a year to a year and a half before the applicant began planning for 'at least six months'.",
+        "text": "Securing CTE approval can extend up to six months according to participants, driven by multiple departmental visits and opaque file movement. Each authority is supposed to have a fixed turnaround (10 days was mentioned) with an escalation route if crossed, but this is not enforced; actual cases have reportedly taken a year to a year and a half."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Online CTE application (JSPCB / single-window portal)",
+        "Forest NOC supporting documents (where applicable)",
+        "Water NOC supporting documents (where applicable)",
+        "Bio-medical waste authorisation documents (for healthcare establishments)",
+        "Site/layout and pollution-control information (varies by department query)",
+        "Proof of capital investment (used by JSPCB to calculate the consent fee)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not provide a single consolidated checklist; they said the department does not give new applicants a clear list of papers upfront, and documents are communicated across multiple stages instead.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed-approval mechanism for CTE was described by participants in either session; they instead report standard per-authority timelines that are stated on paper but not enforced in practice."
+      },
+      "validity": {
+        "text": "Participants referenced JSPCB's own FAQ/reference material stating CTE validity is generally up to five years; their complaint was with how long approval itself takes, not with the fee or validity rule."
+      },
+      "fees": {
+        "text": "The JSPCB fee for consent is based on the capital investment of the project (revised in 2019); participants did not dispute the fee amount, only the time taken. After a rejection, the applicant must reapply within 30 days or the fee already paid is lost and must be paid again; two rejections mean paying the fee twice."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Online CTE Application",
+          "automated": true,
+          "note": "Applicant submits the CTE application via the JSPCB/single-window portal."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Sequential Department NOCs",
+          "automated": "partial",
+          "note": "Forest NOC, Water NOC, Bio-medical authorisation and other clearances are obtained one after another; the CTE file does not move until the prior NOC clears, with no parallel-processing provision."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Query Cycles",
+          "automated": false,
+          "note": "Queries are raised one at a time rather than consolidated; some queries come by phone call rather than through the portal."
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Site Inspection",
+          "automated": false,
+          "note": "Physical inspection visits (e.g., Forest team) occur, with the applicant sometimes arranging transport; geo-tagged photographs are taken at site."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Manual Sign-off and Upload",
+          "automated": "partial",
+          "note": "For Forest NOC, the DFO signs on paper and the document is uploaded only afterward; the portal shows nothing until this manual step is complete. CTE decision follows once all sequential NOCs are in."
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record; it has not been verified against an official ED interview for Jharkhand CTE.",
+        "Participants said the JSPCB policy on paper (fixed per-authority timelines, escalation routes) is sound but not enforced in practice; Odisha was cited by participants as a state that follows its stated policy more strictly."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "Participants characterized the CTE process as cumbersome and time-consuming, often requiring multiple departmental visits for information-gathering and status follow-up; securing approval can extend up to six months."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Participants raised proportionality concerns about uniform environmental/green-belt requirements applied across very different sectors, e.g., healthcare facilities compared with manufacturing or chemical industries."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Participants reported opaque file movement, repeated physical follow-ups, multiple interactions with officials, and limited visibility into which desk holds the file."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Participants described submitting documentation and then being asked for additional or repeated documents and clarifications, communicated across multiple stages rather than one consolidated checklist."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Reported causes of delay included staff shortages, repeated inspections/site visits, documentation gaps, manual coordination, and unclear file ownership; no informal-payment allegations were raised in this session specifically for CTE."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Although the service is called online, participants said work does not happen without going to the office; several visits are needed after online submission, more so for Forest, Water and Bio-medical related clearances."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "An ordinary applicant cannot manage the process alone; participants said a consultant, accountant or advocate is effectively required."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants do not know what will be asked next; queries only become known when the officer writes them after submission."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Rejection is expensive: the applicant must reapply within 30 days or the fee already paid is lost; two rejections mean paying the fee twice."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES",
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "The time lost directly costs money; one participant's project budget rose by about Rs 7-8 lakh while the file waited, and the department talks of 10-20 days but in practice it took a year to a year and a half."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Third-party test/inspection reports are not shared with the applicant except if the department uploads them on the portal; nothing comes by email."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Each authority is supposed to have a fixed time (10 days was mentioned) with an escalation route if crossed, but nothing of that kind happens in practice."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Clearances are sequential -- Forest NOC, Water NOC, Bio-medical authorisation and others must be completed one after another, with no provision to run them in parallel."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Banks and loan portals now insist on pollution consent before processing a proposal, pushing the unit to chase CTE first and then wait roughly six months more for the bank."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Online filing is followed by completely manual file movement; for Forest NOC the DFO signs on paper and only then is it uploaded, so the portal shows nothing until the manual step is done."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Queries are raised one at a time rather than consolidated; the Water department reportedly asks for the same file twice."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no pre-checklist for new applicants; the department says a checklist and nodal officer exist, but first-time applicants do not get a clear paper list before starting."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The portal does not show the current holder of the file; one participant's file was shown with an official who had left three months earlier."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Amit Kumar",
+          "quote": "maximum time ek month hona chaahiye",
+          "topic": "Timeline / SLA",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Aishwarya Sarkar",
+          "quote": "file kiske pass hai... tracking ka system",
+          "topic": "File tracking",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Praveen Gupta",
+          "quote": "multiple time... department bhee jana padta hai",
+          "topic": "Physical follow-up",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Khurshid Alam",
+          "quote": "Concern that requirements differ in practical suitability for healthcare versus manufacturing",
+          "topic": "Policy proportionality",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Chandan Kumar",
+          "quote": "After applying online everything else is manual. You have to go to the office anyway.",
+          "topic": "Manual follow-up despite online filing",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Mukesh Kumar",
+          "quote": "Ask us everything at one time. Every time we answer one query, another one comes.",
+          "topic": "Piecemeal queries",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Azad Singh",
+          "quote": "If it is rejected we have to apply again within 30 days. After that the money already paid is gone and we pay again.",
+          "topic": "Fee loss on rejection",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "H.N Singh",
+          "quote": "Our project budget went up by seven to eight lakh while the file was waiting.",
+          "topic": "Cost of delay",
+          "tags": [
+            "FEES",
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific issuing-authority title or portal name beyond 'JSPCB' and the 'state single-window portal' reached the participants; no office or designation to contact is named."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No single overall statutory timeline figure is confirmed; participants cite a 10-day per-authority norm that is 'not enforced,' alongside reports of six months to a year-and-a-half in practice."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The full list of CTE documents is not itemized; participants describe document categories (Forest, Water, Bio-medical, pollution-control) without a complete checklist."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "JSPCB services being integrated with the state single-window portal, which in principle makes timelines visible and enforceable there, was noted by participants as a sound policy design even though it is not realized in practice."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Participants suggested making the process work like the GST portal -- papers submitted once with queries answered directly online -- and having all queries raised together in one go instead of piecemeal."
+        }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": [
+        "Jharkhand_FGD_CTO.docx",
+        "Jharkhand_FGD_CTO_1.docx"
+      ],
+      "sessionCount": 2,
+      "hasED": false,
+      "issuingAuthority": "Jharkhand State Pollution Control Board (JSPCB), as described by participants and corroborated by JSPCB's own official FAQ referenced in the transcript; not independently verified.",
+      "portal": {
+        "name": "JSPCB consent portal, accessed via the state single-window system",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": 210,
+        "basis": "CTO application is to be filed within about 30 days of construction completion/operations starting, with a 30-day departmental decision period; participants said the clock effectively restarts with every query, stretching the total to many months and in some cases up to six or seven months.",
+        "text": "The CTO application is to be filed within about 30 days of construction being completed and operations starting, and the department also has a 30-day period to decide. Participants said the clock effectively restarts every time a query is raised, so the period stretches to many months, and approval delays extending up to six to seven months were reported in certain instances."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Online CTO application (JSPCB/single-window portal)",
+        "Layout, machinery and production details",
+        "Company incorporation certificate and director documents",
+        "Approximately 25 supporting documents reported for a manufacturing unit, varying by nature of business"
+      ],
+      "documentsNote": "FGD-only; participants said the complete document list is revealed only at the end of the portal flow (after basic details and the fee page), so no full official checklist was confirmed in this session.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not described by participants; they report the processing clock effectively restarting with each query rather than any confirmed deemed-grant mechanism."
+      },
+      "validity": {
+        "text": "The first CTO is reportedly given for one year and then must be renewed; participants wanted a longer multi-year term with an option to add items later."
+      },
+      "fees": {
+        "text": "Even a minor change (adding/dropping a product, or shifting quantities between products with the same total) triggers a full amendment with the same fee; one case was estimated at about Rs 1.5 lakh, and a director-change/product-mix amendment fee of Rs 22,000 was mentioned. One participant reported paying about Rs 44,000 for a two-year consent but receiving consent for one year only, with the excess meant to be adjusted later -- which participants said is not practical."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Portal Application",
+          "automated": true,
+          "note": "Applicant proceeds through basic-details and fee pages before the document list even opens; the list changes with the nature of business."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Document Upload",
+          "automated": true,
+          "note": "Roughly 25 documents are uploaded for a manufacturing unit, including layout, machinery/production details, incorporation certificate and director documents."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Multi-level File Movement",
+          "automated": false,
+          "note": "The file moves from dealing assistant to supervisor to officer to director; one such cycle takes about a month to a month and a half."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Query Cycles",
+          "automated": false,
+          "note": "Queries raised after submission restart the wait each time, pushing the total well beyond the stated 30 days."
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "NOC-linked Physical Visits",
+          "automated": false,
+          "note": "For related NOCs (e.g., Forest/Wildlife), documents must be shown physically and the department calls the applicant for a visit even though the application is online; Forest and Wildlife NOCs are sequential steps."
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Decision and Issuance",
+          "automated": "partial",
+          "note": "Consent is issued once scrutiny and any linked NOCs are complete."
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record; it has not been verified against an official ED interview for Jharkhand CTO.",
+        "Participants said they had no personal complaint against any department; their concern was with the time and cost of the process."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The list of required documents is seen only at the end of the portal process, after the applicant has filled basic details and the fee page; first-time applicants cannot prepare in advance and make mistakes."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Around 25 documents are needed for a manufacturing unit, including layout, machinery/production details, incorporation certificate and director documents."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Upload size is a problem -- the portal accepts a fixed size (participants mentioned 100 MB), long drawings have to be compressed, and officers then reject them as not clearly visible."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "When the portal runs slow or does not update, an approval that normally takes less time can stretch to 20-25 days."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Even a minor change (adding/dropping a product, or shifting quantities between products with the same total) triggers a full amendment with the same fee; one case was estimated at about Rs 1.5 lakh."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "A participant paid about Rs 44,000 for a two-year consent but received consent for one year only; the extra amount is meant to be adjusted later, which participants said is impractical."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Tracking a file means visiting the zonal office and waiting; after a ticket is generated, applicants wait days and then call the single window, which calls the department."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "CTO must be filed within about 30 days of construction completion/operations starting, and the department has a 30-day decision period, but the clock effectively restarts with each query, stretching the total to many months and in some cases up to six months."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "No distinction is made between a basic and a technical change -- a director change or a small product-mix shift goes through the same amendment process and fee (Rs 22,000 was mentioned)."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "First CTO is given for one year and then must be renewed; participants wanted a longer term with an option to add items later."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "For plants in rural areas (where most water/juice plants are located) it is unclear who approves the building map -- Gram Panchayat, RRDA or Nagar Nigam -- leaving the rule confusing."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Forest/Wildlife NOC is linked to the CTO; the NOC takes one to two months and renewals can take up to six months."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The portal flow is long -- three or four pages of basic details/fees before the document list even opens, and the list changes by business type."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "The file moves through four levels (dealing assistant, supervisor, officer, director); one such cycle takes about a month to a month and a half."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "For NOCs, documents must be shown physically and the department calls the applicant in for a visit even though the application is online; Forest and Wildlife NOCs are sequential steps."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Transfer of officers mid-process caused a case to restart -- a new officer said the file would have to be checked again from scratch."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The same papers are asked for CTO that were already given for CTE and for other licences (factory licence, food licence); participants felt papers already with the Board should not be re-asked at renewal."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Sachin Kumar Sahu",
+          "quote": "We get to see the list of documents only on the last page, after filling the basic details and the fees.",
+          "topic": "Hidden document list",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Rajveer Raumiyar",
+          "quote": "We paid for two years, but the consent we have is only for one year.",
+          "topic": "Fee/validity mismatch",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Santosh Kumar",
+          "quote": "If I only change the quantity between two products and the total stays the same, I still have to go through the amendment and pay the same Rs 22,000.",
+          "topic": "Amendment fee for minor change",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Bipin Kumar",
+          "quote": "The file goes from dealing assistant to supervisor to officer to director. That one round takes a month to a month and a half.",
+          "topic": "Multi-level file movement",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Kaushik Biswas",
+          "quote": "The officer got transferred, the new officer said he will have to check the file, and the process started again.",
+          "topic": "Officer transfer resets process",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Md. Ali",
+          "quote": "There is no way to track the file. You have to go to the zonal office and sit for an hour to ask.",
+          "topic": "No file tracking",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "Issuing authority is not explicitly named in the transcript beyond 'the Board'/'single window'; JSPCB is inferred from context but not stated verbatim for CTO specifically in this session."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No single confirmed statutory timeline is given beyond the ~30-day filing/decision windows; actual reported durations range from a stretched 20-25 days (portal slowness) up to six or seven months (query restarts and Forest/Wildlife NOC dependency)."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The full 25-document checklist for a manufacturing unit is not itemized beyond layout, machinery/production details, incorporation certificate and director documents."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Participants suggested a GST-style tiered product list with a fixed fee up to a limit (extra charge only for additional items), and allowing multi-year consent with an add-on facility and adjustment of any excess fee already paid."
+        }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": [
+        "Jharkhand_FGD_FNO.docx",
+        "Jharkhand_FGD_FNO_1.docx"
+      ],
+      "sessionCount": 2,
+      "hasED": false,
+      "issuingAuthority": "Fire Department (State Fire Officer / local Fire Station Officer), reportedly under the Home Department, Government of Jharkhand, as described by participants; not independently verified.",
+      "portal": {
+        "name": "Single-window portal (Fire Advisory / Fire NOC application module)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 2,
+        "maxDays": 60,
+        "basis": "A 30-day policy timeline exists; participants in one session reported an actual range from about 2 days to 40-50 days, and in the other session an actual typical turnaround of around two months, with one smooth case completed in 15-16 days.",
+        "text": "A 30-day timeline exists on paper but participants said it is not binding in practice. Some applications get done in 2 days while others take 40 to 50 days; a separate session described the combined Advisory-plus-final-NOC process as typically taking around two months, with one case completed in about 15-16 days when everything went smoothly."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Key plan, floor plan and site plan (Advisory stage)",
+        "Approved building layout plan",
+        "Checklist and affidavit (NOC stage)",
+        "Detailed drawings: sprinkler layout, machinery layout, internal layout (as applicable)",
+        "Equipment-compliance affidavit with a compliance date (where firefighting equipment is pending installation)"
+      ],
+      "documentsNote": "FGD-only; not yet verified against an official ED. Document names are as described by participants for the two-stage Advisory-plus-NOC process.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed-approval mechanism was described by participants; they said the 30-day timeline 'is not binding in practice' and nothing happens if it is crossed."
+      },
+      "validity": {
+        "text": "Validity was reported as 1 year and is said to be moving to up to 3 years under a central/state change, with buildings to be categorised as ordinary or high-risk; participants were unsure how categorisation will work and said the state was awaiting Home Department approval to implement it. Participants also said Jharkhand does not yet have its own Fire Act."
+      },
+      "fees": {
+        "text": "No official fee figures were discussed by participants in either session. Informal consultant fees of roughly Rs 5,000 for straightforward cases were mentioned (second session), with higher costs where firefighting equipment/installation work was also involved."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Portal Login / Application",
+          "automated": "partial",
+          "note": "First-time applicants struggle to create a login ID and password on the single window without outside help."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Document Upload",
+          "automated": true,
+          "note": "Plans/drawings are uploaded online; server and internet issues sometimes block uploads for two to three days, particularly for larger drawing/layout files."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Advisory-stage Forwarding",
+          "automated": "partial",
+          "note": "Application is forwarded from the State Fire Officer (SFO) to the local Fire Station Officer (FSO)."
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Advisory-stage Site Visit",
+          "automated": false,
+          "note": "Physical site inspection scheduled via manual, telephonic coordination between applicant and department."
+        },
+        {
+          "n": 5,
+          "phase": "apply",
+          "title": "NOC-stage Application",
+          "automated": true,
+          "note": "A separate application (layout plan, checklist, affidavit) is filed for the final NOC after the Advisory stage."
+        },
+        {
+          "n": 6,
+          "phase": "inspect",
+          "title": "NOC-stage Verification Visit",
+          "automated": false,
+          "note": "A second site visit verifies compliance; it is not guaranteed to be conducted by the same officer as the Advisory-stage visit."
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Certificate Issuance",
+          "automated": "partial",
+          "note": "NOC issued following the second inspection; the portal shows status updates but not the reason for any delay."
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record; it has not been verified against an official ED interview for Jharkhand Fire NOC.",
+        "Participants said Jharkhand does not yet have its own Fire Act, which they linked to weak enforcement of both the 30-day timeline and renewal.",
+        "No authorised/empanelled list of fire-fighting contractors exists in Jharkhand, unlike some other states participants compared it to (Madhya Pradesh, Gujarat, Rajasthan, Maharashtra)."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Applications often stay pending well beyond the 30-day timeline; participants said some cases get done in 2 days while others take 40-50 days, with no explanation for the difference."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Files get put on hold without any remark; the applicant just sees the status stuck with no idea what to correct."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Applications are rejected because an uploaded plan is 'not clearly visible'; the applicant only learns after rejection and must rescan/re-upload everything."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "If the inspecting officer cannot reach the applicant, a non-contact report is filed and the applicant may have to reapply."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Where the fire office is far (about 20 km in one example), applicants arrange and pay for transport to bring the officer to the site and back, including refreshments."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Urgent cases (e.g., schools needing the NOC for CBSE) must visit the department physically to get the file moved within 4-5 days."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "First-time applicants struggle to create a login ID and password on the single window without outside help."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Many required documents (detailed layout drawings, sprinkler plans, machinery layout) are technical and an ordinary applicant cannot prepare them without a consultant."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Older buildings often cannot meet current guideline requirements (e.g., static water tank space), and there is no clear, consistent process for seeking relaxation."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "A 30-day timeline exists but is not binding in practice; nothing happens if it is crossed, and there is no separate timeline for small vs large buildings."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Validity was 1 year and is reportedly moving to up to 3 years under a central change, but participants were unsure how buildings will be categorised or when the state will start applying it; they were waiting on Home Department approval."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Jharkhand still does not have its own Fire Act, which participants linked to weak enforcement of renewal -- a lapsed NOC carries no penalty."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no authorised or empanelled list of fire-fighting contractors in Jharkhand, unlike some other states, so applicants cannot verify if a hired contractor is genuinely qualified."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "The process runs in two rounds -- Advisory then NOC -- each with its own application, SFO-to-FSO forwarding, site inspection and report; inspections at the two stages are not guaranteed to be done by the same officer."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The portal shows status (submitted, forwarded to FSO, inspection report submitted) but does not show where the delay is or why."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Hold and send-back remarks are not written on the application, so the applicant has to chase by phone or in person."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The layout/building plan is uploaded for the Advisory stage and again at the NOC stage, along with the checklist and affidavit; the plan is already approved by the local body (RMC/RRDA/Smart City) but checked again by the fire department at both stages."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Files sit with the SFO or FSO without being forwarded; participants mentioned files lying more than 10 days with no movement even though the FSO-level timeline is said to be 5-7 days."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Fariana Begum",
+          "quote": "The timeline is 30 days, but it is not that every application gets done in 30 days. Some go beyond that.",
+          "topic": "Timeline not binding",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Om Prakash",
+          "quote": "If a file is on hold, there should be a comment saying why. Right now there is no comment at all, and that is wrong.",
+          "topic": "No hold reason given",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Manoj Kumar",
+          "quote": "Someone gets it in two days, someone takes forty or fifty. Either reject it or approve it, but within the timeline.",
+          "topic": "Inconsistent turnaround",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Subodh Kumar",
+          "quote": "I am saying the government bodies should be strict about renewal. In one hospital the NOC had lapsed and the extinguisher was not refilled.",
+          "topic": "Weak renewal enforcement",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Dilip Kumar Jha",
+          "quote": "Our Fire NOC advisory and final approval together took about 15 to 16 days when everything went smoothly and the officers were cooperative.",
+          "topic": "Fast case when smooth",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Ram Balak Verma",
+          "quote": "In other states like Madhya Pradesh, Gujarat and Rajasthan there are authorised contractors for this work. Here in Jharkhand, anyone can claim to be a contractor and we have no way to check.",
+          "topic": "No empanelled contractor list",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Deepak Kumar Singh",
+          "quote": "Our building is old, and matching the current guideline for the water tank size and space is genuinely difficult, there needs to be some relaxation process for such cases.",
+          "topic": "Old-building relaxation",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Ashwarya Sarkar (representing Heart Center Hospital)",
+          "quote": "Overall the process took close to two months for us, most of it going into coordinating the site visits.",
+          "topic": "Inspection-coordination delay",
+          "tags": [
+            "TIMELINE",
+            "INSPECT"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "Issuing authority/department is not formally named beyond 'State Fire Officer'/'Fire Station Officer' and a reference to the Home Department; no statutory citation is given by participants."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No official fee figure is confirmed for Fire Advisory/NOC in either session; only informal consultant charges (roughly Rs 5,000 for straightforward cases) were mentioned."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The new 1-to-3-year validity change and its risk categorisation (ordinary vs high-risk) are referenced but not detailed -- participants themselves said they were unsure how categorisation will work or when it takes effect."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No Jharkhand Fire Act citation or current status is confirmed beyond participants saying the state 'still does not have its own Fire Act' and that a senior official reportedly moved a file for it."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Participants suggested requiring a written reason whenever a file is put on hold or sent back, and having the same officer inspect at both the Advisory and NOC stages."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": [
+        "Jharkhand_FGD_RFNO.docx",
+        "Jharkhand_FGD_RFNO_1.docx"
+      ],
+      "sessionCount": 2,
+      "hasED": false,
+      "issuingAuthority": "Fire Department (State Fire Officer / local Fire Station Officer), reportedly under the Home Department, Government of Jharkhand, as described by participants; not independently verified.",
+      "portal": {
+        "name": "Single-window portal (Fire NOC renewal module)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 12,
+        "maxDays": 35,
+        "basis": "Participants said inspection reports are typically ready within about 12 days, but the certificate itself can take 30-35 days or more to actually be issued.",
+        "text": "Inspection reports are often ready quickly, within about 12 days, but the renewal certificate itself takes considerably longer -- sometimes 30 to 35 days or more -- to actually be issued."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Complete original document set re-submitted every year (even if unchanged)",
+        "PAN card, Aadhaar, approved site plan (previously verified documents)",
+        "Physical hard copy of the previous year's Fire NOC certificate"
+      ],
+      "documentsNote": "FGD-only; renewal is described as requiring the complete original document set to be resubmitted each year, with no itemized official checklist confirmed in the transcript.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not described by participants; they report no risk-based or automatic renewal mechanism, only the standard annual cycle with no penalty for a lapsed NOC."
+      },
+      "validity": {
+        "text": "Fire NOC renewal currently operates on a uniform annual (1-year) cycle regardless of establishment risk; participants suggested two to three years for low-risk premises (schools, small offices) as more reasonable."
+      },
+      "fees": {
+        "text": "The renewal fee is currently free of cost from the government side; participants noted that intermediary/consultant charges still apply, and questioned whether a paid, faster-track option should exist for genuine cases."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "renew",
+          "title": "Online Renewal Application",
+          "automated": true,
+          "note": "The renewal form is auto-filled from the prior record, which participants appreciated."
+        },
+        {
+          "n": 2,
+          "phase": "renew",
+          "title": "Full Document Re-upload",
+          "automated": true,
+          "note": "The complete document set (PAN, Aadhaar, site plan, affidavit, checklist, hard copy of previous certificate) must be re-uploaded even when nothing has changed."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Query / Clarification Handling",
+          "automated": "partial",
+          "note": "Clarifications sometimes arrive by phone call rather than through the portal, making them hard to track."
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Renewal Site Inspection",
+          "automated": false,
+          "note": "Inspection is scheduled through informal, telephonic coordination with the local Fire Station Officer rather than a fixed system-generated appointment."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Certificate Issuance",
+          "automated": "partial",
+          "note": "Certificate issuance is reported to lag well behind completion of the inspection report."
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record; it has not been verified against an official ED interview for Jharkhand Renewal of Fire NOC.",
+        "The Pain Points/Policy/Procedural/Suggestions narrative text in both RFNO session write-ups (dated 14-10-2026 and 24-09-2026) is worded almost identically, differing mainly in the respondent names and dates in the quotes tables; findings below are merged rather than duplicated, and representative quotes from both sessions are included."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The complete set of documents has to be submitted again every year for renewal, even when nothing has changed in the building or plant since the last approval."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "There is no working online grievance or complaint-escalation option; a complaint ID can be raised but does not appear to reach senior officers or get a tracked response."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "A minor clerical mistake (e.g., wrong designation on a certificate) required a fresh round of correspondence and a physical visit to correct, even though the underlying facts were never in dispute."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Some participants felt moving the process online has, in their experience, increased the number of visits rather than reducing them, compared to the earlier fully manual system where a single signature closed the file."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Renewal applicants are still required to physically visit the office in some cases, even though the process is meant to be entirely online."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "There is no categorisation of establishments by risk; a school and a hazardous unit are both currently required to renew on the same annual cycle."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "There is no risk-based categorisation for renewal; low-risk premises (schools, offices) renew annually, the same as higher-risk units."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The renewal fee is free of cost from government, but intermediary/consultant charges still apply; participants questioned whether a paid, faster-track option should exist."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "There is no clear policy on validity duration for lower-risk categories; participants suggested two to three years rather than the current annual cycle."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Documents already verified in an earlier cycle (PAN, Aadhaar, approved site plan) have to be re-uploaded in full for every annual renewal instead of being carried forward from a saved profile."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants cannot see which desk their file is sitting at -- local station, district office, or awaiting forwarding to the state office."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no simple online option to self-correct small errors (name, designation, spelling) on an issued certificate; the applicant must write in, follow up by phone, and often visit in person."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Queries and clarifications do not always come through the portal; several participants said they received these over phone calls, making it hard to track what is pending."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Inspection reports are often ready quickly (about 12 days), but the certificate itself takes considerably longer -- sometimes 30-35 days or more -- to actually be issued."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "A physical hard copy of the previous year's certificate has to be additionally submitted at renewal, on top of the same set of documents already held on file."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Sanjay Kr Sinha (Hospital representative)",
+          "quote": "We submit the same set of documents every single year for renewal, even though nothing in our building has changed since the last approval.",
+          "topic": "Redundant annual documents",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Wasim Raja",
+          "quote": "The certificate that came back had my designation wrong, it said Manager instead of Principal. To get that one word corrected, I had to write in, wait, and then go to the office in person.",
+          "topic": "No self-correction option",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Ms. Shidra Rahman",
+          "quote": "After everything is online, our visits have not reduced, in some ways they've increased. Earlier there was one office, one signature, and the work was done.",
+          "topic": "Digitisation did not reduce visits",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Dheeraj Kukreja",
+          "quote": "Inspection reports are ready within about 12 days, but the certificate itself sometimes takes 30 to 35 days or more to actually be issued.",
+          "topic": "Issuance lag after inspection",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Anmol Kumar",
+          "quote": "There should be a proper complaint option linked to senior officers on the portal. Right now, if you write in, it just sits there, there is no real grievance mechanism.",
+          "topic": "No grievance mechanism",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Subodh Kumar",
+          "quote": "All fire and safety norms should be followed strictly and not relaxed, this is about people's safety, not paperwork.",
+          "topic": "Safety-first view",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "Issuing authority/department is not formally named beyond the Fire Department (SFO/FSO); no statutory citation for renewal is given by participants."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No official statutory renewal fee figure is given beyond 'free of cost from the government side'; intermediary/consultant charge amounts are not specified."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No itemized official document checklist is confirmed for renewal beyond PAN, Aadhaar, approved site plan and a hard copy of the previous certificate."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "The renewal application form being auto-filled from the applicant's prior record was noted positively by participants, even though the full document set still has to be re-uploaded."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Participants suggested risk-based categorisation giving low-risk establishments a two-to-three-year validity, auto-carry-forward of previously verified documents, a real online grievance/appeal option, and self-service correction of minor clerical errors."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFiles": [
+        "Jharkhand_FGD_RCTO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Jharkhand State Pollution Control Board (JSPCB), which officially distinguishes Consent to Establish, Consent to Operate and Renewal of Consent to Operate as separate consent stages, per participants/JSPCB's own FAQ referenced in the transcript.",
+      "portal": {
+        "name": "JSPCB / state single-window portal (Renewal of Consent to Operate)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 15,
+        "maxDays": 180,
+        "basis": "Participants reported RCTO timelines ranging from about 15 days when documentation is complete up to roughly six months in complex cases (e.g., mining projects needing multi-department coordination with land and forest authorities).",
+        "text": "Getting a renewal can be long and complicated, especially for mining projects, with delays of around six months because applicants must coordinate with multiple departments (land, forest) before reaching the pollution-control stage. The timeline varies by case; renewals can be completed in as little as about 15 days if all paperwork is properly prepared from the beginning."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Land, lease and forest documents (as applicable)",
+        "Clearances from multiple departments (land, forest, pollution-control)",
+        "Renewal application materials for Consent to Operate"
+      ],
+      "documentsNote": "FGD-only; participants described document categories rather than a full itemized checklist. A consolidated master document list separating standard RCTO documents from sector-specific ones was a key suggestion raised in the session.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not described by participants; delays are attributed to multi-department dependency rather than any confirmed automatic-grant provision."
+      },
+      "validity": {
+        "text": "Participants cited JSPCB's FAQ confirming that consent is issued for a stipulated period and that longer CTO periods can be paid for across multiple terms; specific RCTO validity figures were not given by participants themselves."
+      },
+      "fees": {
+        "text": "Not discussed with specific rupee figures in this session; participants' concern was the renewal lead time and inter-departmental process rather than the fee amount."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "renew",
+          "title": "Renewal Application Submission",
+          "automated": true,
+          "note": "Renewal application submitted via JSPCB/single window."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Land and Forest Authority Coordination",
+          "automated": false,
+          "note": "For mining and similar projects, applicants must coordinate with land and forest authorities before reaching the pollution-control stage."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Document Verification",
+          "automated": "partial",
+          "note": "Verification spans multiple departments; records are not always integrated across them."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Clarification Cycles",
+          "automated": false,
+          "note": "Deficiencies are reportedly communicated through repeated cycles rather than a single consolidated notice."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Renewal Decision and Issuance",
+          "automated": "partial",
+          "note": "Renewal is issued once all departmental clearances and verification are complete."
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record; it has not been verified against an official ED interview for Jharkhand RCTO.",
+        "Participants' reported changing mining-to-forest distance requirement (from 250m to 400m, linked to court orders and legacy leases) was not confirmed as current law during the discussion and is recorded only as a stated on-ground policy concern, not verified law."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Getting a renewal can be long and complicated, especially for mining projects; applicants often face delays of around six months because they must coordinate with multiple departments (land, forest) before reaching the pollution-control stage."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "The timeline varies by case; renewals can be completed much faster (participants cited around 15 days) if all paperwork is properly prepared from the beginning."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Mining participants noted that a changing distance rule (reportedly moving from 250m to 400m between mining operations and forest areas, linked to court orders and legacy leases) makes it difficult for older sites to get licences renewed; the exact legal basis was not confirmed in the discussion."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Because applicants deal with multiple departments and offices, they face repeated paperwork and follow-ups, and want a clear way to track where their file is and which official currently holds it."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Gathering all required documents can be overwhelming -- land, lease and forest documents plus clearances from several departments -- making it hard to manage when dealing with multiple offices at once."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Reported delay causes include multiple departmental dependencies, legacy cases affected by changed requirements, document verification, and the need for physical follow-up; where documentation is complete, processing can be much faster."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants suggested integrating land, forest, and pollution-control dependencies where legally feasible, or at minimum providing a dependency map and status visibility."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants suggested a single clarification window so all deficiencies identified during scrutiny are communicated together rather than through repeated cycles."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants suggested a renewal-specific checklist separating standard RCTO documents from documents required only for particular sectors/cases."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants suggested longer validity periods where legally and environmentally appropriate, noting that JSPCB's FAQ confirms longer CTO periods can be available across multiple terms."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "neutral",
+          "text": "JSPCB officially distinguishes Consent to Establish, Consent to Operate, and Renewal of Consent to Operate as separate consent stages."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "Participants reported different processing experiences, from around six months in complex cases to much shorter periods when documentation was complete; this variation was not independently investigated in the session."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Ajay Patel",
+          "quote": "sabse bada CTO mil hi nahi raha (renewal affected by the distance requirement discussed in the session)",
+          "topic": "Legacy case / policy concern",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Utkarsh Pandey",
+          "quote": "chhah mahine lage",
+          "topic": "Delay / timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Riya Chakravarty",
+          "quote": "pandrah din maximum (where documentation is proper)",
+          "topic": "Fast case with complete documentation",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Raju Kumar Tiwari",
+          "quote": "Request for visibility of where the file is and who currently holds it",
+          "topic": "Tracking / accountability",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No issuing authority is explicitly stated beyond 'JSPCB'; no specific office/designation contact is named for RCTO."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The reported change in mining-to-forest distance requirement (250m to 400m) is explicitly flagged in the session write-up as unconfirmed law, not a verified legal fact."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No rupee fee figures are given for RCTO in this session."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Where documentation is complete, participants reported renewal being completed in as little as about 15 days, suggesting the underlying process can work quickly when paperwork is in order."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Participants suggested a dependency map/status visibility across land, forest, and pollution-control departments, and a single consolidated clarification window instead of repeated query cycles."
+        }
+      ]
+    },
+    {
+      "serviceCode": "LR",
+      "serviceName": "Lift Registration",
+      "sourceFiles": [
+        "Jharkhand_FGD_LR.docx",
+        "Jharkhand_FGD_LR_1.docx"
+      ],
+      "sessionCount": 2,
+      "hasED": false,
+      "issuingAuthority": "Energy Department, Government of Jharkhand, via the Electrical Inspectorate, under the Jharkhand Lift and Escalators Act, 2017 and the Jharkhand Lift and Escalators Rules, 2018, as referenced by participants and the session notes; the Act's commencement/notification status was not independently verified in the transcript.",
+      "portal": {
+        "name": "Not clearly named by participants; referred to only as 'the online portal' for the Energy Department, described as working only some of the time",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 90,
+        "maxDays": 120,
+        "basis": "Participants said delivery and installation of a lift take about three months from order, with the licence following roughly a month after inspection; a second session separately reported an end-to-end installation/registration cycle of around two to three months.",
+        "text": "Delivery and installation take about three months from order; if a buyer is in a hurry, an extra payment is expected to speed this up. After inspection, the licence takes roughly another month. A separate session described the reported end-to-end installation/registration cycle as around two to three months."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Application for lift registration (typically filed by the installer/consultant rather than the owner directly)",
+        "Insurance document (around Rs 700 per participant report)",
+        "Building/installation-related approvals (e.g., building approval from RRDA/Nagar Nigam, trade licence of the lift company, company handing-over letter)"
+      ],
+      "documentsNote": "FGD-only; participants said owners rarely see or hold the full document set because the lift installer or consultant files the application on their behalf, so no complete official checklist was confirmed in either session. A one-time, complete document checklist was repeatedly requested by participants as the single most useful fix.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed-approval provision for Lift Registration was described by participants in either session."
+      },
+      "validity": {
+        "text": "Not clearly stated by participants; periodic inspection/renewal exists but is handled by the maintenance company, and owners said they typically learn only when something is about to expire."
+      },
+      "fees": {
+        "text": "No confirmed statutory application fee was identified by participants -- one said the application itself is free, another guessed Rs 5,000, and GST at 18% was mentioned, but nobody had a document showing the official fee. Total participant-reported spend per lift at registration/renewal was roughly Rs 20,000-25,000, of which only a small part (insurance about Rs 700, plus Rs 1,000-2,000 in other receipted items) came with a receipt; the remainder (about Rs 18,000-20,000) was described as unreceipted 'other charges.' These figures were explicitly characterized by participants and the session note-taker as variable, third-party package costs rather than confirmed government fees."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Lift Order and Installation",
+          "automated": null,
+          "note": "Handled by the installer, typically taking about three months from order; precedes formal registration."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Application Filing",
+          "automated": "partial",
+          "note": "Typically filed by the installer/consultant on the owner's behalf rather than by the owner directly."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Document Submission",
+          "automated": false,
+          "note": "The initial document list is often found incomplete, requiring follow-up visits/submissions."
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Physical Inspection",
+          "automated": false,
+          "note": "Inspection occurs after installation is complete."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Licence/Registration Issuance",
+          "automated": "partial",
+          "note": "Issued roughly a month after inspection."
+        },
+        {
+          "n": 6,
+          "phase": "renew",
+          "title": "Periodic Inspection and Renewal",
+          "automated": false,
+          "note": "Handled by the maintenance company; owners often remain unaware of renewal status until something is about to expire."
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record; Jharkhand has no ED record for Lift Registration, so this has not been verified against an official source.",
+        "There is confusion among participants themselves about the legal basis: some said Bihar, Jharkhand and Chhattisgarh have no elevator law at all, while others pointed to the Jharkhand Lift and Escalators Act, 2017 (Act 18 of 2017) and the Jharkhand Lift and Escalators Rules, 2018; the Act's commencement/notification status should be checked directly with the Energy Department.",
+        "Participants estimated that about 90% of people servicing lifts on the ground operate with no registration, licence or office, and that only about 2% of users ever check if a lift or service provider is licensed."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Owners and building managers never deal with the Energy Department themselves; the lift installer or a consultant files the application and collects the money, so the owner has no idea what the actual process or fee is."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Total spend per lift at registration/renewal was put at roughly Rs 20,000-25,000; only a small part (insurance about Rs 700, and Rs 1,000-2,000 in other receipted items) comes with a receipt, with the rest (about Rs 18,000-20,000) described as unreceipted 'other charges.'"
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "When asked about a statutory application fee, participants could not name one -- one said it is free, another guessed Rs 5,000 with 18% GST, but nobody had a document showing the official fee."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Delivery and installation take about three months from order, with an extra payment expected for a faster timeline; after inspection, the licence takes roughly another month."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Payment terms are lopsided outside the big cities -- suppliers in districts such as Dhanbad reportedly ask for full payment before commissioning and become hard to reach afterward; Ranchi was called 'better than other districts.'"
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "After installation the owner is tied to the installer for yearly maintenance; monthly service visits were quoted at Rs 2,000-3,000 and the AMC usually excludes major parts, which are billed separately."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "A large number of small operators service lifts with no registration, licence or office -- one participant put this at about 90% of people doing the work on the ground."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Document requirements are not given in full at the start; applicants submit what they believe is the list, then find several more documents are needed, leading to repeat visits."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "There is confusion about the legal basis -- some participants said Bihar, Jharkhand and Chhattisgarh have no elevator law at all, while others pointed to the Jharkhand Lift and Escalators Act, 2017; participants themselves did not know what the Act requires of an owner."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "No published fee schedule or timeline reached the participants; unlike some other states (e.g., Assam publishes fees by lift speed), owners here are told a figure only verbally."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Liability is unclear -- participants asked who pays compensation if a lift breaks down or someone is hurt, feeling the installer should carry it but government should also share some burden since owners pay a registration charge."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Registration is easy to avoid in practice -- participants said about half of lifts in homes/small buildings run without a licence, and only about 2% of users ever ask whether a lift or service provider is licensed."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Several approvals sit side by side without a clear link -- building approval (RRDA/Nagar Nigam), trade licence of the lift company, insurance, and Energy Department registration -- and it is unclear whether builders' NOC requests are mandated by the Act or just habit."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "The owner is not the applicant in practice; the installer/consultant files everything, meaning no direct tracking, no receipt trail, and no way for the owner to verify what was paid to government."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Online portals for departments in Jharkhand work only some of the time; participants said a private third-party operator sits in many government offices and work moves faster through that person than through the portal."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Participants generally described the lift process as handled by the installer/manufacturer or a consultant rather than directly by the owner; the reported end-to-end installation/registration cycle was around two to three months."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Participants questioned the basis and transparency of certain registration-related charges, including whether there is a clearly defined statutory fee for the registration component."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Participants reported that online portals do not always function consistently and that applicants may still need to visit offices or rely on third parties."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Mukul Kumar Mishra",
+          "quote": "They get no receipt for most of it. About Rs. 700 to 2,000 comes with a receipt, the rest, around 20,000, is other charges that nobody records.",
+          "topic": "Unreceipted charges",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Amrendra Kumar",
+          "quote": "About 90% of the people doing this work have no registration. No licence, no office, nothing.",
+          "topic": "Unregistered operators",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Avinash M. Choudhary",
+          "quote": "Only 2% of people even ask whether you have a licence or an office. The other 98% just want it done cheap.",
+          "topic": "Low consumer awareness",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Sanjeeo Kr Singh",
+          "quote": "If a lift breaks down or there is an accident, who pays compensation? The government should bear some part, not only the installer.",
+          "topic": "Unclear liability",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Pravin Raj",
+          "quote": "The online portal works sometimes and sometimes it does not. In the office there is a private person sitting, a third party, and the work happens through him.",
+          "topic": "Portal unreliability / third-party operator",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "RK Tiwari",
+          "quote": "Khud se nahi karte... consultant ya installer... wahi karvate hai sara process.",
+          "topic": "Installer-led process",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Gambhir Rajak",
+          "quote": "Concern that some amounts are paid without a clear receipt while statutory/insurance amounts are separately identified",
+          "topic": "Fee transparency",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific issuing-authority office or portal name reached the participants; the Energy Department/Electrical Inspectorate and the Jharkhand Lift and Escalators Act, 2017/Rules, 2018 are the best available references, but their current commencement/notification status was not confirmed in the session and should be checked with the Department."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No confirmed statutory application fee figure exists; participant estimates range from 'free' to Rs 5,000 plus 18% GST, with none able to produce an official document."
+        },
+        {
+          "flag": "MISSING",
+          "text": "A full, itemized official document checklist for Lift Registration was not obtained; participants described only partial document categories and said the list is incomplete at first submission."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Deemed-approval status, validity period and renewal-cycle length for Lift Registration are not described by participants; renewal is reportedly handled entirely by the maintenance company with the owner uninformed until something is about to expire."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Participants suggested letting the owner apply directly with a receipt for every payment made to the department, publishing the full fee schedule and document checklist, and registering/regulating installers and maintenance companies while acting against unregistered operators."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFiles": [
+        "Jharkhand_FGD_RSE.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Labour Department, Government of Jharkhand, administering the Bihar Shops and Establishments Act, 1953 as adapted for Jharkhand (with the Jharkhand Shops & Establishment Rules, 2001 and the 2017 amendment), via the Shramadhan portal, as described by participants and session notes.",
+      "portal": {
+        "name": "Shramadhan portal (shramadhan.jharkhand.gov.in)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 0,
+        "maxDays": 1,
+        "basis": "Participants said fresh online registration is fast -- a certificate can be downloaded the same day when details are correct, and the establishment is deemed registered on submission under the 2017 Rules amendment; amendment/correction cases have no confirmed timeline and were described as the most confusing and slowest part.",
+        "text": "Most participants agreed that online registration itself has become easier since the Shramadhan portal came in, and a certificate can be downloaded the same day when details are correct. The frustration is concentrated in amendments, corrections, cancellation and grievance cases, which have no confirmed turnaround and sometimes still require an office visit."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "PAN, Aadhaar, address proof",
+        "Rent agreement or ownership paper",
+        "Partnership deed or incorporation document (as applicable)",
+        "Photograph of the employer",
+        "Landlord's consent/NOC (for rented premises)"
+      ],
+      "documentsNote": "FGD-only; participants said the same document set is asked again at registration, renewal and amendment even when nothing has changed, and that documents already available via GST, Udyam, ESIC/EPFO or the municipal trade licence are asked for again as physical papers rather than being verified online.",
+      "deemedApproval": {
+        "status": "yes",
+        "days": 0,
+        "text": "The Jharkhand Shops & Establishment (Amendment) Rules, 2017 provide that an establishment is deemed registered when the online application is made, and that renewal applied for 30 days before expiry is also deemed granted; participants said this provision is not well known and is not always honoured at field level."
+      },
+      "validity": {
+        "text": "The 2017 amendment to the Rules sets validity at up to 10 years, but participants said several private websites and some officials still speak of yearly renewal, creating major confusion; participants wanted a clear departmental notice stating the validity and renewal date."
+      },
+      "fees": {
+        "text": "The fee is based on a slab tied to number of employees, so it changes when headcount changes; participants were unsure when a fee difference has to be paid for seasonal/contract staff. A penalty/fine applies for operating without registration, on top of the registration fee; participants wanted a notice-and-grace-period for first-time defaulters before any fine."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Online Registration",
+          "automated": true,
+          "note": "Application is filed via the Shramadhan portal; deemed registered on submission, with the certificate downloadable the same day if details are correct."
+        },
+        {
+          "n": 2,
+          "phase": "fee",
+          "title": "Fee Payment",
+          "automated": "partial",
+          "note": "Both online payment and an offline treasury-challan route coexist, and participants found it unclear which to use and how payment is matched to the application."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Amendment Processing",
+          "automated": false,
+          "note": "Changes of address, name, nature of business or employee count are described as the most confusing part; some cases still require a labour-office visit for verification."
+        },
+        {
+          "n": 4,
+          "phase": "renew",
+          "title": "Renewal",
+          "automated": "partial",
+          "note": "Renewal applied for 30 days before expiry is deemed granted under the 2017 Rules amendment, but participants said this is not consistently honoured at field level."
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Field Labour Inspection",
+          "automated": false,
+          "note": "Inspectors are not required to give prior notice; there is no published checklist, and the inspection report is not given to the owner or uploaded online."
+        }
+      ],
+      "remarks": [
+        "This is an FGD-only record; it has not been verified against an official ED interview for Jharkhand RSE.",
+        "Participants were unsure what will happen to Shops & Establishments registration after the Labour Codes / OSH Code (Shram Suvidha 'one establishment-one registration'); Uttar Pradesh has already announced it will replace its Shop Act with the OSH Code (per participants, effective July 2026), and nobody in the group knew if Jharkhand will follow.",
+        "Two participants said field-level labour officials sometimes 'settle' matters informally when something is found missing during inspection; other participants said they had heard similar accounts from fellow traders."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Many small shopkeepers did not know registration is compulsory within 30 days of starting business; they learned only when a bank, landlord, licence or labour inspector asked for the certificate."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Portal problems were mentioned by almost everyone -- OTP not arriving, session timing out mid-form, slow loading on mobile, and payment going through without the status changing -- pushing many owners to a cyber cafe or consultant at extra cost."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Amendments (change of address, name, nature of business, employee count) were described as the most confusing part -- less clear than fresh registration, with owners unsure whether to amend, re-register, or renew."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Two participants said field-level labour officials visit and ask for the certificate, registers and notices, and that matters are sometimes 'settled' informally when something is missing; other participants said they had heard similar from fellow traders."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Owners who closed or shifted their shop found no clear way to cancel or surrender the registration and said they continue to worry about notices."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Certificate details (name, address, nature of business) sometimes do not match GST, Udyam or the trade licence, and then a bank or other office does not accept it."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "The governing law (Bihar Shops and Establishments Act, 1953 as adapted, with 2001 Rules) is old and its wording does not clearly cover present-day businesses such as cloud kitchens, co-working spaces, online sellers, home-based services and IT/ITES offices."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The Act and rules are quoted under different years/names on different websites (1953, 1954, 2015, 'Shops and Commercial Establishments Act'); participants wanted the official portal/notified text to be the only reference."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Validity is a major confusion -- the 2017 amendment sets validity at up to 10 years, but several private websites and some officials still speak of yearly renewal."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "The 2017 amendment provides deemed registration on online application and deemed renewal if applied 30 days before expiry, but participants said this good provision is not visible to users and is not always honoured at field level."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Registration is compulsory for every shop/establishment irrespective of employee count; owner-run shops with no worker felt they should be exempted or given a lighter category, as some other states do."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The fee is based on an employee-count slab, so it changes with headcount; seasonal/contract staff make it difficult to decide the slab and when a fee difference must be paid."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Penalty for working without registration is a fine on top of the registration fee; participants wanted a notice and grace period before any fine on a first-time defaulter."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Participants were unsure what will happen to Shops & Establishments registration after the Labour Codes; the OSH Code works on 'one establishment-one registration' via Shram Suvidha, and Uttar Pradesh has already announced replacing its Shop Act with the OSH Code, but nobody knew Jharkhand's position."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "There are separate logins and separate data entry on the Shramadhan portal and the Advantage Jharkhand single window; the same owner/premises details must be typed again with nothing flowing between them."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "The portal does not send a reminder (SMS/email) before renewal is due or when an application is approved/returned; people remember only after the date has passed."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "There is no published checklist or standard inspection procedure; inspectors are not required to give prior notice, and the inspection report is not given to the owner or uploaded online."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "There is no proper helpdesk or ticket system; grievances sent through the portal are not acknowledged, and participants did not know whom to approach at the district level."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The same set of PAN, Aadhaar, address proof, rent agreement/ownership paper, partnership deed/incorporation document and employer photograph is asked for again at registration, renewal and amendment, even when nothing has changed; documents already available with GST, Udyam and the municipal trade licence are asked again as physical papers rather than verified online."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant 1 - Owner, retail (garment) shop",
+          "quote": "Registration online is easy if it works. The problem is OTP, payment and nobody to ask. I went to the cyber cafe three times.",
+          "topic": "Portal reliability",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant 2 - Proprietor, restaurant/eating house",
+          "quote": "Some people say renew every year and some say ten years. Tell us officially, once, and send a message before the date.",
+          "topic": "Validity confusion",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant 3 - Director, IT/services office",
+          "quote": "We shifted the office and changing the address was harder than getting a new registration. Nobody could tell us what to click.",
+          "topic": "Amendment difficulty",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant 4 - Partner, coaching/training establishment",
+          "quote": "Aadhaar, PAN, rent agreement, partnership deed, same papers every time, even for a small change. GST and Udyam already have them.",
+          "topic": "Redundant documents",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant 5 - Manager, multi-branch retail establishment",
+          "quote": "For each branch we upload the same set again. Why can't the branches come under one owner login?",
+          "topic": "No multi-branch consolidation",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Participant 6 - Owner, small grocery/general store (no employee)",
+          "quote": "I work alone in my shop. Why should I take the same registration as a big showroom? Give us a simple intimation.",
+          "topic": "No light-touch category for owner-run shops",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Participant 7 - Clinic/diagnostic centre administrator",
+          "quote": "The officer came for inspection, found one register missing and then it was a matter of settling. If a checklist and notice are there, nobody will fear.",
+          "topic": "Informal settlement at inspection",
+          "tags": [
+            "INFORMAL",
+            "INSPECT"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Online registration is reportedly fast and largely working -- participants said the certificate downloads the same day when details are correct, and deemed registration on submission plus deemed renewal exist under the 2017 Rules amendment."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The exact citation/year of the governing Act and Rules is inconsistently referenced across sources cited by participants (1953/1954/2015, differing names); the session could not resolve which is the current notified text."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No specific rupee fee figures by employee-slab are given by participants, only that the fee 'changes with headcount'; the penalty/fine amount for unregistered operation is also not specified."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Amendment processing has no confirmed timeline or automated/manual breakdown; participants describe it as 'the most confusing part' without stating a turnaround."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Participants suggested a single common application across Shops & Establishment, trade licence and other registrations pre-filled from GST/Udyam/PAN, a simple online option to cancel/surrender registration, and a separate amendment workflow with a fixed time limit and auto-approval."
+        }
+      ]
+    }
+  ]
+}

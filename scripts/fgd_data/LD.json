@@ -1,0 +1,125 @@
+{
+  "code": "LD",
+  "name": "Lakshadweep",
+  "licenses": [
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFiles": ["LK_FGD_LEM.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Legal Metrology Department, UT of Lakshadweep — Legal Metrology Inspectors operating from three units (Kavaratti, Kadmat and Andrott), each covering multiple islands",
+      "portal": { "name": "No online portal exists for Legal Metrology verification; the process is entirely offline/manual. A website was described by the Inspector as 'under process' (not yet live).", "url": null },
+      "timeline": { "minDays": 1, "maxDays": 30, "basis": "Participants and the Inspector gave two different figures that were not reconciled with each other: an average processing time of 30 days for initial verification and re-verification, versus certificate issuance within 1-2 days once an inspection has actually taken place.", "text": "Both initial verification and re-verification for manufacturers, dealers and repairers have an average processing time of 30 days. Separately, participants said there is no delay in obtaining the certificate once inspected — it is issued within about 1-2 days of the inspection." },
+      "automationLevel": "manual",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "None required for initial verification — the Inspector checks the weighing machine on-site and issues the certificate directly",
+        "For re-verification: the instrument itself plus the previous verification certificate must be produced again"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "No deemed-approval provision was mentioned by participants or the Legal Metrology Inspector. Annual renewal instead depends on a manual notice sent by the Inspector or on the shopkeeper proactively coming forward, with no formal reminder system described." },
+      "validity": { "text": "The verification certificate is valid for one year, per both participants and the Legal Metrology Inspector." },
+      "fees": { "text": "₹300 is paid per weighing machine; participants said no other payment is taken for the licence and reported no intermediaries or informal payments." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Inspection scheduling / Inspector visit", "automated": false, "note": "The Legal Metrology Inspector visits the shop directly to inspect the weighing machine; one participant said the Inspector comes without advance notice. No application step requiring the shopkeeper to travel to an office was described." },
+        { "n": 2, "phase": "inspect", "title": "Machine inspection and sealing", "automated": false, "note": "The Inspector checks and seals the weighing machine on-site." },
+        { "n": 3, "phase": "fee", "title": "Fee payment", "automated": false, "note": "₹300 is paid per machine; participants did not specify the payment mode or exact point in the process at which it is collected." },
+        { "n": 4, "phase": "approve", "title": "Certificate issuance", "automated": false, "note": "A hard-copy certificate is issued, typically within about 1 day of the inspection; no SMS, email or other digital acknowledgement is sent." },
+        { "n": 5, "phase": "renew", "title": "Annual renewal", "automated": false, "note": "Renewal is prompted by a manual notice from the Inspector, or by the shopkeeper proactively coming forward; there is no formal reminder system, which participants said results in missed renewal dates." },
+        { "n": 6, "phase": "renew", "title": "Re-verification", "automated": false, "note": "The instrument must be produced again along with the previous verification certificate; average processing time is 30 days." }
+      ],
+      "remarks": [
+        "This record is FGD-only business testimony for Legal Metrology in Lakshadweep and has not been verified against an official ED interview for this service/state.",
+        "Participants flagged the Trade Licence, not Legal Metrology, as the main compliance difficulty they face — the legal metrology process itself was described as easy with no major complaints.",
+        "The moderator spoke directly with the Legal Metrology Inspector during the session and a follow-up call was planned for further questions."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "COMPLY"], "sentiment": "issue", "text": "The entire process — application, payment and certificate issuance — is offline and manual, with no online system, increasing paperwork and time involved." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Both initial verification and re-verification for manufacturers, dealers and repairers have an average processing time of 30 days, adding to compliance time." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Legal Metrology has only three Inspector units (Kavaratti, Kadmat, Andrott), each covering multiple islands, creating logistical and scheduling constraints for businesses on islands without an Inspector's office." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "No digital acknowledgement is given — participants receive only a hard-copy certificate, with no SMS or email confirmation or record." },
+        { "source": "fgd", "category": "policy", "tags": ["PORTAL"], "sentiment": "issue", "text": "The offline-centric regulatory framework, with licence applications relying on physical submission, reflects a policy gap in digital delivery of regulatory services." },
+        { "source": "fgd", "category": "policy", "tags": ["CAPACITY"], "sentiment": "issue", "text": "The limited number of Legal Metrology Inspector units across the islands creates accessibility and coordination constraints." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "issue", "text": "Verification depends on the Inspector physically visiting the shop to inspect the weighing machine, creating a dependency on the Inspector's availability that can delay completion." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL", "DUPDOC"], "sentiment": "issue", "text": "For re-verification, the instrument must be produced again along with the previous verification certificate, resulting in recurring physical compliance." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Annual renewal is dependent on manual communication from the Inspector or proactive follow-up by shopkeepers, with no formal reminder system, resulting in missed renewal dates." },
+        { "source": "fgd", "category": "procedural", "tags": ["CAPACITY"], "sentiment": "issue", "text": "A limited number of Inspectors are responsible for multiple islands, requiring them to cover geographically dispersed locations, which increases the time required to complete physical verification." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "No duplicate or redundant documents are reported for initial verification — the Inspector checks the machine and issues the certificate directly with no documents asked for." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "positive", "text": "Participants reported no delay in obtaining the certificate itself — it is issued within about 1-2 days of the inspection." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce online application and renewal: enable digital submission of licence applications, supporting documents, fees and renewal requests to reduce physical visits." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce digital certificate issuance — digitally signed certificates after approval, reducing dependence on physical certificates." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants were largely satisfied: the process was described as easy, the one-year validity and ₹300-per-machine fee as clear, with no intermediaries or informal payments reported." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Shopkeepers flagged the Trade Licence, not Legal Metrology, as the main compliance issue they face." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "The Inspector comes for inspection without telling shopkeepers in advance, per at least one participant." }
+      ],
+      "quotes": [
+        { "speaker": "Shopkeeper (Participant)", "quote": "The legal metrology process is easy and we have no complaints or problems with it.", "topic": "Ease of Process", "tags": ["POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Repairer (Participant)", "quote": "The Inspector visits the shop, checks and seals the machine, and gives the certificate after about one day.", "topic": "Efficient Processing", "tags": ["TIMELINE", "INSPECT"], "sentiment": "positive" },
+        { "speaker": "Shopkeeper (Participant)", "quote": "₹300 is paid per weighing machine; no other payment is taken for the licence.", "topic": "Fee Structure", "tags": ["FEES"], "sentiment": "neutral" },
+        { "speaker": "Shopkeeper (Participant)", "quote": "We have no idea where or how to apply; the Inspector comes to the shop.", "topic": "Digital Governance", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Shopkeeper (Participant)", "quote": "The Inspector comes for inspection without telling us in advance.", "topic": "Inspection", "tags": ["INSPECT"], "sentiment": "issue" },
+        { "speaker": "Legal Metrology Inspector", "quote": "There is no website at present; it is under process. Certificates are issued as hard copies.", "topic": "Digital Governance", "tags": ["PORTAL"], "sentiment": "neutral" },
+        { "speaker": "Legal Metrology Inspector", "quote": "The certificate is valid for one year; we send a notice or shopkeepers come to renew it.", "topic": "Renewal", "tags": ["RENEWAL"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No participant specified at what point in the process the ₹300 fee is actually paid (e.g., at or before inspection) or how payment is made (cash, challan, etc.)." },
+        { "flag": "VAGUE", "text": "It is unclear whether 'producing the instrument again' for re-verification requires the applicant to bring the weighing machine to an office, or whether the Inspector visits the shop again as in initial verification." },
+        { "flag": "MISSING", "text": "No reason or expected timeline was given for why the Legal Metrology website is still 'under process' rather than live." },
+        { "flag": "VAGUE", "text": "The 30-day average processing time cited for verification/re-verification is not reconciled with the separate statement that certificates are issued within 1-2 days of inspection; what accounts for the gap (e.g., time to schedule the inspection itself) is not explained." },
+        { "flag": "GOOD_PRACTICE", "text": "No documents are required for verification — the Inspector checks the machine directly and issues the certificate, with no duplicate/redundant document requests reported, unlike other services discussed in Lakshadweep." },
+        { "flag": "MISSING", "text": "No consequence or penalty for missed renewal dates is described beyond manual follow-up from the Inspector or the shopkeeper." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFiles": ["LK_FGD_TLA.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY", "DUPDOC"], "sentiment": "issue", "text": "The department asks for different documents at different times (ownership certificate, possession certificate, other land documents), and requirements are not clearly specified on the portal; applicants who submitted the required documents still experienced rejection or delay." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "CLARITY"], "sentiment": "issue", "text": "Applications are rejected or left pending without clear reasons — participants said applications were rejected for a missing ownership certificate even when they had submitted it along with the challan." },
+        { "source": "fgd", "category": "pain", "tags": ["NORMS", "INTERDEP"], "sentiment": "issue", "text": "Non-availability of land diversion/land-use conversion certificates, and the absence of a notification permitting conversion of agricultural land to commercial use, prevents businesses on private land from obtaining a trade licence." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Participants said trade licences are approved only in special cases (e.g., a petroleum outlet on land under an agreement between the oil company and the UT administration), while private applicants on their own property are reportedly not given licences." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "There is no QR code or online payment option; fees must be paid through a challan at the bank." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "There is no portal or helpline for trade licence grievances and no option to meet the administrator; repeated visits to offices have not resolved issues, and Aashraya Kendras are of no help." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Businesses on islands other than Kavaratti face additional coordination and travel difficulties when physical interaction or document clarification is required." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Participants said the earlier manual system through the panchayat/village extension officer was easier for local people, and that difficulties have increased with the move online." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Participants claimed no notification exists for converting agricultural land to commercial use; since a trade licence requires commercial premises, licences cannot be issued in these cases." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Participants stated the administration has cancelled diversion certificates issued under the 2013 diversion rules, affecting both new applicants and existing holders, including building and construction permissions." },
+        { "source": "fgd", "category": "policy", "tags": ["COMPLY"], "sentiment": "issue", "text": "Participants were unsure whether a penalty applies for delayed renewal; one said none has been levied so far, while another mentioned an unspecified five-year delay under the earlier panchayat system." },
+        { "source": "fgd", "category": "policy", "tags": ["COMPLY"], "sentiment": "issue", "text": "Participants said most traders run without a trade licence because approvals are not being granted, indicating a gap between the regulation and its practical enforceability." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC", "CLARITY"], "sentiment": "issue", "text": "Different documents are requested at different stages of scrutiny, and these are not listed on the portal, leading to repeated submissions." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Participants are not told clearly why applications are rejected, and it is unclear whether a rejected application can be corrected and resubmitted; one participant said reapplication after correction is possible." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Applicants need to obtain supporting NOCs/clearances from other departments depending on the nature of the business, and these supporting approvals are not integrated into a single-window Trade Licence workflow." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Applicants who have already uploaded ownership, possession and land documents are asked again for the same or other land documents (ownership certificate, possession certificate, diversion certificate) at different times." },
+        { "source": "fgd", "category": "delay", "tags": ["CLARITY", "INTERDEP"], "sentiment": "issue", "text": "Applications are stalled or rejected because the department gives no clear position on required documents, and because non-availability of diversion certificates and the absence of a commercial land-use notification prevent approval on private land." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Publish a clear checklist of required documents on the portal so applicants are not asked for new documents after submission, and give clear written reasons for rejection with the ability to correct and resubmit." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES", "GRIEVANCE"], "sentiment": "suggestion", "text": "Introduce online/QR-code payment instead of bank challans, and set up a dedicated grievance redressal portal or helpline for trade licence complaints." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The Trade Licence process is being rationalised under the 'One Activity, One Licence' framework, aimed at reducing overlapping licences and simplifying business compliance; participants also reported no informal payments beyond the ₹150 government fee." },
+        { "source": "fgd", "category": "remarks", "tags": ["CONSULT"], "sentiment": "issue", "text": "The moderator noted officials said awareness sessions are held about twice a month, but participants said these are not happening and officials do not act on issues raised in meetings; some participants are reluctant to attend such meetings." }
+      ],
+      "quotes": [
+        { "speaker": "Participant (Petroleum dealer)", "quote": "I applied directly on the portal without any consultant and got the licence in about 3 days; only the ₹150 government fee was paid.", "topic": "Efficient Processing (isolated case)", "tags": ["TIMELINE", "POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Participant", "quote": "The department asks for the ownership certificate, then the possession certificate, then other land documents; there is no clarity.", "topic": "Unclear Requirements", "tags": ["CLARITY", "DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Even after submitting all documents and the challan, the application was rejected saying the ownership certificate was missing.", "topic": "Rejection without Reason", "tags": ["QUERY", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Diversion certificates have been cancelled by the administration, so we cannot get the trade licence on our land.", "topic": "Land Diversion / Conversion", "tags": ["NORMS", "INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Moderator (relaying participants)", "quote": "There is no notification for converting agricultural land to commercial land, so licences cannot be issued.", "topic": "Land Use Policy", "tags": ["NORMS"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Only the licence in our name is pending; many traders run their business without any trade licence.", "topic": "Non-compliance / Pendency", "tags": ["COMPLY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "There is no portal for trade licence grievances like CM Grams for GST; we have no option to meet the administrator.", "topic": "Grievance Redressal", "tags": ["GRIEVANCE"], "sentiment": "issue" },
+        { "speaker": "Participant (Petroleum dealer)", "quote": "The portal is user-friendly, but there is no QR code payment; payment has to be made through a challan at the bank.", "topic": "Payment Facility", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Earlier the panchayat / village extension officer gave the licence easily; after it went online we are facing more difficulties.", "topic": "Manual vs Online System", "tags": ["OTHER"], "sentiment": "issue" },
+        { "speaker": "Moderator (relaying participants)", "quote": "Officials say awareness sessions are held twice a month, but users say they are not being conducted.", "topic": "Awareness", "tags": ["CONSULT"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED says trade licenses are issued within an average of 7 days with no office visit required; FGD participants report widespread rejection and indefinite pendency, with most traders in the group operating without any licence because approvals are not being granted — a typical 7-day issuance does not match the lived experience described by most participants (one petroleum-outlet operator on UT-administration land being the exception)." },
+        { "flag": "INCONSISTENT", "text": "ED's remarks state a land-use 'diversion certificate' is not mandatory for obtaining a Trade Licence and that the official flagged a need to communicate this clearly to avoid applicant confusion; FGD participants consistently report that diversion-certificate/land-conversion issues are the central, recurring reason licences are refused or left pending on private land — the two accounts directly conflict on whether this is a practical precondition." },
+        { "flag": "INCONSISTENT", "text": "ED's step record and applicantOfficeVisit value state no office visit is required at any stage apart from fee payment; FGD participants report making 'repeated visits to offices' to try to resolve grievances, with no option to meet the administrator and no resolution." },
+        { "flag": "VAGUE", "text": "Participants gave differing, unreconciled accounts of whether a penalty applies for delayed renewal — one said none has been levied so far, another mentioned an unspecified five-year delay under the earlier panchayat system — beyond the ED's own remark that no specific penalty was reported." },
+        { "flag": "MISSING", "text": "No participant gave a count of how many businesses in their group are currently operating without a trade licence due to the diversion-certificate/land-conversion impasse, beyond the qualitative description 'many traders'." },
+        { "flag": "MISSING", "text": "No timeline or process was described for how or when the cancelled 2013-rules diversion certificates, or a commercial land-use conversion notification, might be reinstated or issued." }
+      ]
+    }
+  ]
+}

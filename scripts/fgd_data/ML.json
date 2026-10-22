@@ -1,0 +1,297 @@
+{
+  "code": "ML",
+  "name": "Meghalaya",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": ["ML_FGD_CTE.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Meghalaya State Pollution Control Board (referred to in the discussion as the 'Pollution Control Board office')",
+      "portal": { "name": "Online Pollution Control Board portal (not named in the discussion); participants distinguished it from the Invest Meghalaya portal used for municipal/business licences, where queries are raised and resolved online, whereas in the pollution process the officer generally calls the applicant", "url": null },
+      "timeline": {
+        "minDays": null,
+        "maxDays": 30,
+        "basis": "Participants' informal estimates only ('within a month, approximately'; 'approval came within about a month'); no statutory figure was cited",
+        "text": "Most participants said CTE approval came within about a month; verification after submission takes about a month. One outlier case (a small restaurant, tied to an Effluent Treatment Plant requirement) took about six months following execution. Two CTE experiences cited were from about 10-11 years ago, before the online process, and have limited bearing on current timelines."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Compliance papers (general)",
+        "Municipal trading licence",
+        "Water test report (drainage water, for pollution)",
+        "Trade licence"
+      ],
+      "documentsNote": "Participants said the full list (about seven to eight documents, including the water test report and the trade licence) depends on the category selected on the portal and is published on the website; a complete enumerated list was not given in this session. FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not discussed by participants."
+      },
+      "validity": {
+        "text": "Not discussed for CTE itself. A five-year validity was mentioned only for a related Consent to Operate renewal across two properties, not for Consent to Establish."
+      },
+      "fees": {
+        "text": "No fee figures specific to CTE were given; one participant said they paid 'government fees only' with no other costs. Figures cited (about ₹50,000 for an orange-category unit and about ₹40,000 for a green-category unit, plus taxes, totalling roughly ₹1 lakh) related to a five-year Consent to Operate renewal across two properties, not to CTE itself."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Create account and submit application online", "automated": true, "note": "Applicant creates a user account, logs in and uploads documents; the document list depends on the category selected. Pollution Control Board support staff guide applicants who apply online and assist those who prefer to apply manually." },
+        { "n": 2, "phase": "scrutiny", "title": "Document verification", "automated": "partial", "note": "Takes about a month; some applicants received no queries, others had to follow up to correct documents/compliance remarks raised by phone call rather than online notification." },
+        { "n": 3, "phase": "inspect", "title": "Establishment inspection", "automated": false, "note": "Participants generally visited the office/establishment once for inspection or to follow up; status shows only 'under process' with no stage detail." },
+        { "n": 4, "phase": "approve", "title": "Certificate issuance", "automated": false, "note": "Certificate is sent by post or must be collected, rather than being available on the portal." }
+      ],
+      "remarks": [
+        "This record is Mode B (hasED: false); Meghalaya's ED pass did not include a Consent to Establish interview, so this record has not been cross-checked against an official source.",
+        "Participants described CTE itself as generally simple and manageable; most pain points concerned the wider web of interdependent licences surrounding CTE (municipal, shop establishment, labour, FSSAI, fire) rather than CTE specifically.",
+        "Status tracking on the pollution portal is reported as weaker than on the Invest Meghalaya portal used for municipal/business licences."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "neutral", "text": "Most participants who had applied for Consent to Establish described the process itself as simple and manageable; pain points raised were mainly about the effort of gathering documents and the wider licensing workload surrounding CTE rather than CTE specifically." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Document gathering was the main effort cited for CTE: one participant took about 15 days to collect required documents (including compliance papers and the municipal trading licence) and filed both online and offline; another spent about 6 hours gathering documents and checking the checklist, without hiring a consultant." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY", "TIMELINE"], "sentiment": "issue", "text": "A small restaurant operator described the Effluent Treatment Plant (ETP) requirement as difficult to meet in a small establishment with limited space, and reported the licence came only after about six months following execution." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY", "RENEWAL"], "sentiment": "issue", "text": "Hospitality participants described the combined load of licences around CTE: a restaurant typically needs six to seven licences (municipal trading, business, shop establishment, labour, pollution, FSSAI, fire), each with a different office/department/website. Renewals cluster around March; one participant keeps 2-3 staff dedicated to licensing and another said a whole week goes into renewals each year." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Licences are interdependent: the shop establishment licence requires proof of the business licence, and the pollution consent requires the existing municipal licence and shop establishment licence; the lack of a single point of application was raised as the main structural issue." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL", "FEES"], "sentiment": "issue", "text": "Participants questioned the need for repeated renewals of pollution consents with repeated payment, contrasting this with the fire NOC which they said is now issued once and rechecked periodically." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "One participant said the business licence must be renewed every year and suggested a renewal cycle of two to three years would be more reasonable; this relates to the municipal licence rather than CTE itself." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "Application is made on an online portal: the applicant creates a user account, logs in and uploads documents; the document list depends on the category selected and is published on the website. Pollution Control Board support staff guide applicants who apply online and help those who prefer to apply manually." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE", "QUERY"], "sentiment": "neutral", "text": "Verification takes about a month after submission. Experiences of queries differed: some participants received none, while another had to follow up to correct documents and compliance remarks; queries on the Invest Meghalaya portal are raised/resolved online, whereas in the pollution process the officer generally calls the applicant." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "GRIEVANCE"], "sentiment": "issue", "text": "Status tracking is weak at the pollution stage: participants said the application showed only 'under process' with no stage detail, and that unlike other licences the pollution approval is not visible online; the certificate is sent by post or must be collected rather than appearing on the portal." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "Participants generally visited the office only once, for the establishment inspection or to follow up. At renewal, an application is made about 30 days before expiry and the full document set is submitted again." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Participants said very similar documents are required by different departments because licences depend on one another's documents, so the same papers are submitted repeatedly across portals; one participant gave the example of a water test report needed separately for FSSAI (potable water) and pollution (drainage water), even though both are tested at the same laboratory." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "At renewal, participants said the complete document set has to be submitted again even though the government already holds these details." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Participants did not report serious delay in CTE itself: most said approval came within about a month; delay mostly came from document verification/site-visit time and from follow-ups to fix compliance remarks." },
+        { "source": "fgd", "category": "delay", "tags": ["PORTAL"], "sentiment": "issue", "text": "Lack of visibility into the application stage (status showing only 'under process') was cited as a source of uncertainty and extra follow-up effort; occasional portal issues forced applicants to return another day." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion", "text": "Introduce a single window for all licences so a new business can apply for municipal, shop establishment, labour, pollution, FSSAI and other licences together with one set of documents and one portal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Move pollution consents toward a one-time approval with periodic inspection and a notice route for non-compliance, along the lines of the fire NOC, instead of repeated renewals with repeated payment." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "GRIEVANCE"], "sentiment": "suggestion", "text": "Provide real-time tracking of each application's stage in the pollution process, with queries raised and certificates issued online rather than by phone or post." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Allow a single water test report to serve both pollution and FSSAI requirements, and reuse details already held by government at renewal instead of requesting the same documents again." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive", "text": "Participants viewed the shift to online applications positively, describing the process as more transparent and easier to apply for since it moved online; pollution office staff were described as helpful in guiding applicants." }
+      ],
+      "quotes": [
+        { "speaker": "Industry user", "quote": "It doesn't take much time in the process of pollution. They have an online website also. If you want to apply for the consent by yourself, they can guide you there, or if you want to go manually, they'll help you out in their own system.", "topic": "Pollution process support", "tags": ["PORTAL"], "sentiment": "positive" },
+        { "speaker": "Industry user", "quote": "Why can't we have a single window for all these licenses? Like we can apply all this together.", "topic": "Single window request", "tags": ["INTERDEP"], "sentiment": "suggestion" },
+        { "speaker": "Industry user", "quote": "We need to dedicate a particular department in our firm, [2-3] people all together involved just to get these licenses to be done fast and properly.", "topic": "Dedicated licensing staff", "tags": ["CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "Both the water are being tested in one lab only. Labs are not different for the testing, so why not have it in one time and in one go?", "topic": "Duplicate water testing", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "After it came online, things became more transparent and it's easy to apply for the license.", "topic": "Online shift positive", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive" },
+        { "speaker": "Industry user", "quote": "The process is online, but it is not really digital. (Translated from Hindi; application kept showing 'under process' with no indication of stage.)", "topic": "Status opacity", "tags": ["PORTAL", "GRIEVANCE"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "If the fire NOC can be given once and only rechecked later, why can't we do the same for pollution? The licence is made once and need not be renewed again and again. (Translated from Hindi)", "topic": "Fire NOC comparison", "tags": ["RENEWAL"], "sentiment": "suggestion" },
+        { "speaker": "Industry user", "quote": "For sure, I will not be able to tell you exactly, but within a month, approximately.", "topic": "Approval time estimate", "tags": ["TIMELINE"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "Validity period for Consent to Establish itself was not discussed; a five-year validity was mentioned only for a related Consent to Operate renewal." },
+        { "flag": "MISSING", "text": "Specific CTE fee amounts were not given; cited figures (~₹50,000/₹40,000 plus taxes) related to a five-year Consent to Operate renewal rather than CTE itself." },
+        { "flag": "MISSING", "text": "Deemed approval provision for CTE was not discussed by participants." },
+        { "flag": "VAGUE", "text": "The exact document count for CTE is unclear: participants referenced 'about seven to eight documents' depending on category, without a complete enumerated list." },
+        { "flag": "GOOD_PRACTICE", "text": "Pollution Control Board support staff reportedly guide applicants through the online application and assist those who prefer to apply manually." },
+        { "flag": "REFORM", "text": "Participants suggested moving pollution consents to a one-time approval with periodic inspection (on the model of the fire NOC) and introducing a single-window application covering all related licences — these are proposed reforms, not yet implemented." }
+      ]
+    },
+    {
+      "serviceCode": "ELD",
+      "serviceName": "Electrical Drawings",
+      "sourceFiles": ["ML_FGD_ELD.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "There is no way to track an application online: participants said they have to go to the office or contact a particular person to find out where the application stands, as the portal shows nothing about status." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "COMPLY"], "sentiment": "issue", "text": "Applications can be rejected for incomplete details or missing signatures, after which the applicant must correct and resubmit; one participant confirmed facing this." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The application is entirely offline: applicants submit the application and equipment details at the Inspectorate office, and fee payment is also offline." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "The document checklist is not part of the application form; participants said it is given at the office when they visit and were unclear whether it is available online." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "CAPACITY"], "sentiment": "issue", "text": "Some participants hire a consultant to prepare the installation design, with fees running into lakhs (about ₹1-2 lakh depending on business size) and about a month taken for the design before the application can even be filed." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Satisfying the site inspection can require improvements to the installation: if values at site are not up to the inspector's satisfaction, lines or equipment must be improved before approval is given." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "Participants were unsure about the fee structure; charges vary with load and equipment rating, and one participant said the Inspectorate would need to clarify applicable fees." },
+        { "source": "fgd", "category": "policy", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Approval of charges/estimates follows a hierarchy of financial powers — smaller amounts approved at a lower level, larger ones routed up to Managing Director/General Manager level — which lengthens processing time (raised by a distribution company participant)." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "Fees are notified and linked to equipment rating and installed capacity; participants cited approximate figures such as about ₹1.5 per kVA as a basic inspection fee and ₹2.5 to ₹3.15 per kVA at higher ratings." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Some participants said documents such as a land NOC from the village and a pollution control NOC for certain industries were also needed for load sanction — this differs from what the ED expert described for the Inspectorate and should be confirmed." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Participants described visiting the office twice — once for submission, once for testing/site inspection — with approval collected from the office or sent by post; queries and updates are communicated only by phone since there is no online status check." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "Participants did not name any specific document submitted more than once to the Inspectorate; one noted that documents submitted with the application are checked again in the field during the site visit, which is verification rather than a second submission." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Participants said approval takes about 10 to 15 days when everything is in order, and up to 15 to 20 days in some cases, and did not describe the timeline as difficult." },
+        { "source": "fgd", "category": "delay", "tags": ["DELAY"], "sentiment": "issue", "text": "Rejection for incomplete details or missing signatures, followed by resubmission, adds to the time, as do re-inspections when site values are not satisfactory and multi-level approval of higher-value estimates." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Introduce an online portal for the entire process — application, document upload, fee payment and approval — in place of the current offline process, with online tracking so applicants need not call or visit to check status." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "FEES"], "sentiment": "suggestion", "text": "Publish the document checklist, process and inspection fees on the website before the applicant visits the office, and make the fee structure clear with charges communicated in advance by equipment rating/capacity." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "Documents typically number five to six: application, total connected load of plant, equipment details with manufacturer and third-party test reports, and a Single Line Diagram; several participants represented distribution companies applying on behalf of utility-line users." }
+      ],
+      "quotes": [
+        { "speaker": "Industry user", "quote": "There is no way to see the status of an application on the portal; applicants have to go to the office or call someone to find where it stands.", "topic": "No online status tracking", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "The process is entirely offline, and the application and details are submitted at the Inspectorate office.", "topic": "Fully offline process", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "If everything is in order, approval takes about 10 to 15 days, and up to 15 to 20 days in some cases.", "topic": "Timeline", "tags": ["TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Industry user", "quote": "Applications have been rejected for incomplete details or missing signatures, and the applicant then has to correct them and resubmit.", "topic": "Rejection/resubmission", "tags": ["QUERY"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "Some applicants use a consultant for the design, at a cost of about ₹1 to 2 lakh and roughly a month, depending on the size of the business.", "topic": "Consultant dependence", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "The list of documents is given at the office when the applicant visits, and is not part of the application form.", "topic": "Checklist only at office", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "During the site visit the inspector checks the equipment against the submitted test reports, such as transformer rating, voltage rating and installation resistance.", "topic": "Site inspection", "tags": ["INSPECT"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED record states the maximum reported approval time is about two weeks (14 days); FGD participants report approval can take 'up to 15 to 20 days in some cases,' a somewhat longer outer bound than the ED's stated maximum." },
+        { "flag": "INCONSISTENT", "text": "ED record states 'No referral to any other department is needed for this service'; FGD participants (for load sanction) described needing a land NOC from the village and a pollution control NOC for certain industries, and the transcript itself notes this 'differs from what the expert described for the Inspectorate and should be confirmed' — it may reflect the distribution company's separate load-sanction step rather than the Inspectorate's ELD inspection itself." },
+        { "flag": "VAGUE", "text": "ED record states specific inspection fee amounts 'were not quoted'; FGD participants gave approximate figures (~₹1.5/kVA base rate, ₹2.5-3.15/kVA at higher ratings) that were not independently confirmed with the department and may not be precise." },
+        { "flag": "GOOD_PRACTICE", "text": "FGD participants, like the ED expert, did not identify any document as redundant or submitted more than once, consistent with the ED's description of a light, five-document requirement." },
+        { "flag": "MISSING", "text": "Neither the FGD nor the ED record gives a confirmed validity period for the approval." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": ["ML_FGD_FNO.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "CAPACITY"], "sentiment": "issue", "text": "Fire safety equipment is expensive and hard to source locally: participants said there are no empanelled or licensed fire safety vendors in Shillong, so they buy from Guwahati (~200 km away) at higher, inconsistent prices (quotes ranging roughly ₹2 lakh to ₹9 lakh for similar work, a reported 50-60% difference for the same item), with no way to confirm products are genuine or approved." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Equipment costs can be very high: one participant said total equipment spend for a building under construction was around ₹78 lakh, and another said a vendor quote for a small guest house was unaffordable, leading her to reduce the property to three or four rooms." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "For new hospitality entrants, the Fire NOC sits within a long chain of other approvals (municipal/trading licence, tourism department, Deputy Commissioner and Superintendent of Police offices, occupancy certificate from MUDA); one participant said the wait for other NOCs, not the fire department, cost her months of revenue, so she rented out part of the property meanwhile." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Compliance requirements can emerge after approval: one participant said that after installing equipment as advised and receiving the certificate, a further comment was raised on the assembly area, and felt the required area should have been communicated before applying." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Participants described difficulty complying with fire exit and layout requirements in older and converted-residential buildings, where compliance may mean giving up rooms or breaking walls, and noted a building owner may not allow a tenant to make structural changes." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Several participants said fire engines reach hotels slowly due to narrow roads and traffic (e.g. Police Bazar), even where the property has its own sprinkler, hydrant and pump systems." },
+        { "source": "fgd", "category": "pain", "tags": ["NORMS"], "sentiment": "issue", "text": "A participant applying for the NOC felt the requirement falls unevenly, since many guest houses operate without fire equipment because residential buildings can be converted to commercial use without the same scrutiny, expressing frustration at bearing the cost when others do not." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Fire safety requirements appear to apply unevenly between buildings built as commercial and those converted from residential use; participants said many guest houses/homestays/hostels in Shillong are residential conversions without fire compliance, and asked that conversion require a fitness/fire safety certificate with intended use stated at the building-plan stage." },
+        { "source": "fgd", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Responsibility for compliance in rented properties falls on the tenant, although structural changes depend on the owner." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL", "FEES"], "sentiment": "neutral", "text": "Participants said the NOC used to be renewed every year and is now on a three-year cycle, with a renewal fee of ₹2,000 reported by two participants; one participant said an annual electrical safety certificate is still needed separately." },
+        { "source": "fgd", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "Vendor/equipment arrangements: a safety certification (OSHA) is required to get a vendor licence, fire safety courses are not offered in local colleges, and there are no guidelines on specific brands or prices." },
+        { "source": "fgd", "category": "procedural", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants who applied recently described a fully online process — learned of the requirement via press release, found the checklist on the website, filled a user-friendly form, uploaded documents, paid online and received the certificate online, with the fire service itself (no third party) carrying out inspection; several said the department's coordination and guidance were good." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "Participants listed about five to six documents: ID proof (Aadhaar/driving licence), building plan and layout, fire and emergency exit layout, an undertaking on fire safety measures, a certificate from an authorised electrician, and some licences; a school participant also needed a headman NOC and an exit/entry layout." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Reported timelines varied: about 5 days for submission/approval followed by inspection a week later, 10-15 days for the certificate, 20 days for a school application, and a few weeks overall; several participants used an accountant/assistant to upload documents." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "After inspection, deficiencies were communicated at the site visit; applicants fixed them, sent photos to the department, and the department visited again before issuing the certificate." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Some participants said the portal asks for the fire layout at application, but the fire installation is done only after the department advises, so an applicant cannot always provide the fire layout upfront; a participant with a certificate since 1990 said renewal required a fresh application and fresh fees." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Payment accounts differed: one participant said the portal accepts only SBI with no UPI or other banks, while another said payment through a digital wallet had worked; the two accounts were not reconciled." },
+        { "source": "fgd", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Make fire safety requirements part of the building plan approval and change-of-use stage, with intended use clearly stated so layout/exits are provided from day one; issue clear written instructions to building owners when a property is rented out as a guest house/hotel." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Provide guidance and a list of approved/empanelled vendors with fixed or reference equipment rates through the department's service desk; participants also suggested a fire safety audit by the disaster management department and orientation sessions with the fire department for new entrepreneurs." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Add more payment options to the portal (UPI, QR code, other banks) and publish the same checklist for offline applicants; give inspection reports with recommendations alongside the certificate so applicants can act before renewal." }
+      ],
+      "quotes": [
+        { "speaker": "Industry user", "quote": "The process was user friendly: uploading documents was easy, the form was easy to fill and coordination with the fire services department was good.", "topic": "User-friendly process", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Industry user", "quote": "There are no companies in Shillong who provide fire safety. Equipment is bought from Guwahati at much higher and widely varying prices, with no assurance that it is genuine or approved.", "topic": "No local vendors", "tags": ["FEES", "CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "Residential buildings are being converted to guest houses without fire compliance, while those applying as commercial buildings bear the full cost.", "topic": "Uneven enforcement", "tags": ["NORMS"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "The wait for other NOCs (tourism, district offices, MUDA) was the main cause of delay and lost revenue for a new guest house, not the fire department.", "topic": "Lost revenue from other NOCs", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "The fee for renewal was ₹2,000, and the NOC is now renewed every three years, whereas earlier it was every year.", "topic": "Renewal fee and cycle", "tags": ["RENEWAL", "FEES"], "sentiment": "neutral" },
+        { "speaker": "Industry user", "quote": "The portal accepts payment only through SBI; more payment options such as UPI or other banks are needed.", "topic": "Payment method gap", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "After installing as advised and getting the certificate, a further comment on the assembly area was raised, and the applicant wanted the required area to be known beforehand.", "topic": "Post-approval compliance surprise", "tags": ["QUERY"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "Fire engines take a long time to reach hotels in congested areas such as Police Bazar, even though the properties have their own sprinklers, pumps and generators.", "topic": "Fire engine access", "tags": ["OTHER"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED record (14-09-2026) describes the three-year validity period as a proposed framework still 'under review,' alongside a perennial-model alternative, with 'the final determination remains under review.' FGD participants (30-09-2026) describe the NOC as 'now on a three year cycle,' speaking of it as an already-implemented change rather than one under review — the two accounts of the policy's status do not fully align." },
+        { "flag": "INCONSISTENT", "text": "ED record lists only two required documents (building plan/fire layout plan and an identity document); FGD participants described five to six documents including an undertaking on fire safety measures, a certificate from an authorised electrician, and (for a school) a headman NOC and exit/entry layout — a materially fuller list than the ED's two-item summary." },
+        { "flag": "VAGUE", "text": "FGD fee figures (₹2,000 renewal fee) and ED fee figures (₹2-10 per sq m for the original application) describe different stages (renewal vs. fresh application) and were not cross-verified against each other or against a published fee schedule." },
+        { "flag": "MISSING", "text": "The high cost and unavailability of fire safety equipment locally (no empanelled/licensed vendors in Shillong, prices varying 50-60% for similar work) is a substantial burden described by FGD participants that the ED record does not address at all." },
+        { "flag": "GOOD_PRACTICE", "text": "Both the ED and FGD accounts describe the fire department's own processing (application, payment, certificate) as smooth and user-friendly, with the two-stage inspection/compliance process working as designed; the main bottleneck participants describe is applicant-side equipment sourcing and compliance implementation, not departmental delay." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFiles": ["ML_FGD_TLA.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["POSITIVE", "PORTAL"], "sentiment": "positive", "text": "Participants said the online application is much easier than the earlier offline process, when they had to travel, deal with traffic and stand in queues; no process-related issue with applying online was reported." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "For some activities, especially homestays, gathering NOCs and supporting papers from different offices before applying was identified as the main burden; one homestay participant said the delay lies in preparing these papers and the process becomes easy once they are uploaded." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "A consultant was not considered necessary, but participants said business owners with limited computer knowledge may find the online form difficult at first and may need some technical help." },
+        { "source": "fgd", "category": "pain", "tags": ["POSITIVE"], "sentiment": "neutral", "text": "The group did not report any major time or cost burden for the service." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "neutral", "text": "Fee depends on business size (micro to large); the FGD records fees of about ₹4,000 to ₹9,000, with the inspection officer playing a role in assessing the applicable fee." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The application is fully online: the portal lists required papers so applicants check the list and apply directly, fresh applicants do not need to visit the office, and the portal sends a notification if a document must be added or corrected." },
+        { "source": "fgd", "category": "procedural", "tags": ["POSITIVE"], "sentiment": "neutral", "text": "Where documents are ready, an application takes about 15 minutes and a single person can complete it without a consultant; about five to six documents are needed, including Photo ID, Aadhaar Card, rent agreement, rent receipt, and a Consent to Establish (CTE) if the business falls under the Pollution Control Board's purview." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "Participants reported no unnecessary or duplicated documents for fresh approval; the repetitive-submission issue they raised occurs only at renewal (covered separately under Trade License Renewal)." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "The main delay reported was in collecting activity-specific NOCs and other supporting papers before filing, particularly for homestays; once uploaded, officials reportedly check and issue the licence without difficulty." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Approval takes about 15 to 30 days, and within 15 days if documents are in order." },
+        { "source": "fgd", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Participants said everything is working well and suggested nothing specific to fresh approval; the expert input noted the experts were unaware of best practices followed in other cities and suggested arranging visits/interactions with better-performing departments elsewhere." },
+        { "source": "fgd", "category": "remarks", "tags": ["CLARITY"], "sentiment": "neutral", "text": "Documentation indicates fees range from about ₹4,000 to ₹9,000 depending on category, with a specific homestay operator citing roughly ₹5,000; because this fee figure was raised specifically in renewal discussions, the exact pricing model for a fresh application needs further validation." }
+      ],
+      "quotes": [
+        { "speaker": "Industry user", "quote": "If all the paper is ready, then 15 minutes.", "topic": "Application speed", "tags": ["OTHER"], "sentiment": "positive" },
+        { "speaker": "Industry user", "quote": "Before we have to come and stand in queue during peak month and all, but now it's very simple like there is no confusion with it.", "topic": "Online vs offline queues", "tags": ["POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Industry user", "quote": "The papers required for the licence are listed on the portal, so applicants check them and apply directly online.", "topic": "Document checklist on portal", "tags": ["CLARITY"], "sentiment": "positive" },
+        { "speaker": "Industry user", "quote": "For homestay applications, many NOCs and papers have to be collected from different offices, and the delay is in preparing them before upload.", "topic": "Homestay NOC burden", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Industry user", "quote": "When a document is missing or wrong, the portal sends a notification asking the applicant to provide it, so there is no need to run around.", "topic": "Portal notification for corrections", "tags": ["PORTAL"], "sentiment": "positive" },
+        { "speaker": "Industry user", "quote": "The fee for the homestay is about ₹5,000, and participants said the fee depends on the size of the business.", "topic": "Homestay fee", "tags": ["FEES"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "ED record states an average end-to-end approval time of about 10 days ('no statutory figure was cited'); FGD participants describe approval taking 'about 15 to 30 days, and within 15 days if the documents are in order' — the FGD's best-case figure (15 days) already exceeds the ED's stated average (10 days), a genuine discrepancy between the two accounts' central estimate." },
+        { "flag": "INCONSISTENT", "text": "ED record lists a 'Consent to Operate from the Pollution Control Board' as a document needed for certain businesses (e.g. food service); FGD participants instead named a 'Consent to Establish (CTE)' as the Pollution-Control-Board-related document needed for Trade License Approval — CTE and CTO are different approvals at different stages, so the two sources name different documents for what appears to be the same requirement." },
+        { "flag": "VAGUE", "text": "ED's single cited fee figure (₹6,000 for one trade category) and FGD's broader range (₹4,000-₹9,000) are not necessarily contradictory (₹6,000 falls within the range), but neither source gives a fee schedule covering all trade categories, so the complete fee structure remains unconfirmed by either source." },
+        { "flag": "GOOD_PRACTICE", "text": "Both ED and FGD describe the Trade License Approval process as now fully online with no routine applicant office visit; FGD participants added that a straightforward application takes only about 15 minutes once documents are ready." },
+        { "flag": "MISSING", "text": "Neither the ED nor the FGD record specifies a validity period for the Trade License; both note only that a 'renewal approval' step exists without detailing its cycle (detailed further in the Trade License Renewal FGD)." }
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License — Renewal",
+      "sourceFiles": ["ML_FGD_TLR.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named in this discussion; participants describe renewal as handled through the same municipal licensing system referenced for Trade License Approval (Shillong Municipal Board, per the ED record for TLA), but this was not independently confirmed in the TLR session itself.",
+      "portal": { "name": "Online portal (not named in the discussion); based on continuity of process this is presumably the same municipal portal described for Trade License Approval, though not independently confirmed", "url": null },
+      "timeline": {
+        "minDays": 15,
+        "maxDays": 30,
+        "basis": "Participants' estimate: completed within 15 days if documents are in order; about one month during the peak renewal period around March",
+        "text": "Renewal is completed within 15 days if documents are in order. During the peak period around March, when many licences expire simultaneously, processing can take about one month; participants considered this peak-period wait acceptable."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Previous year's renewal certificate",
+        "A recent photograph",
+        "KYC documents"
+      ],
+      "documentsNote": "Participants named these three document categories for renewal; a fuller enumerated list (as described for Trade License Approval — Photo ID, Aadhaar, rent agreement/receipt, Consent to Establish where relevant) was not independently itemized for renewal in this session. FGD-only record, not yet verified against an official ED (Meghalaya's ED pass did not cover Trade License Renewal).",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed-approval provision was discussed. Participants did note that when a licence expired in March and renewal was filed in May or June, no penalty was currently applied for the delay, but this is distinct from any approval-on-silence mechanism, which was not described."
+      },
+      "validity": {
+        "text": "Licences must be renewed annually, before 31 March. Participants suggested extending validity to three to five years (one said 'at least two or three years') with payment for the whole period, so established businesses would not need to renew every year; this is a suggestion, not current policy."
+      },
+      "fees": {
+        "text": "Fees cited ranged from about ₹4,000 to ₹9,000 a year depending on business size, with about ₹4,500 and about ₹5,000 (for a homestay) quoted as specific examples. No significant time or cost burden beyond this was reported."
+      },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit renewal application online", "automated": true, "note": "Entirely online, done by the business itself without a consultant; applicant enters the licence number/details and attaches required documents (previous year's certificate, recent photo, KYC documents). Takes about 15 minutes if documents are ready." },
+        { "n": 2, "phase": "scrutiny", "title": "Portal notification for missing/incorrect documents", "automated": "partial", "note": "If a document is incomplete or incorrect, the portal sends a notification and the applicant must attach the missing document before the application can proceed." },
+        { "n": 3, "phase": "inspect", "title": "Field verification visit", "automated": false, "note": "Staff visit shops door-to-door during renewal to verify the business exists; participants noted some shops that no longer exist still get renewed, adding to staff time." },
+        { "n": 4, "phase": "fee", "title": "Online payment", "automated": true, "note": "Payment is made online; a payment problem occasionally occurred and was resolved by clearing the record and trying again (details unclear in the recording)." },
+        { "n": 5, "phase": "renew", "title": "Licence renewed and issued", "automated": true, "note": "Completed within about 15 days if documents are in order; about one month during the March peak period when many renewals are filed simultaneously." }
+      ],
+      "remarks": [
+        "This record is Mode B (hasED: false) — Meghalaya's ED pass did not include a Trade License Renewal interview, so this record has not been cross-checked against an official source.",
+        "This TLR session shares the same date (29 September 2026), location, participant count (7), moderators and duration (22m 22s) as the ML_FGD_TLA session, indicating both reports likely derive from a single combined FGD discussing Trade License Approval and Renewal together, split into two service-specific reports rather than being two independently run sessions.",
+        "Participants were generally satisfied with the current online renewal process and did not feel a dedicated consultant was necessary."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL"], "sentiment": "issue", "text": "Licences have to be renewed every year, before 31 March; participants whose businesses have run for a long time said the yearly renewal is a recurring effort and they sometimes forget it." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "At each renewal, applicants have to fill in details and submit documents again, even though the earlier licence record already exists." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Many shops in Shillong renew in the same month, so staff workload increases and processing can take about a month; participants considered this acceptable." },
+        { "source": "fgd", "category": "pain", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants said renewal is easier online than the earlier offline system, when they had to travel, deal with traffic and stand in queues; a payment problem occasionally occurred and was resolved by clearing the record and trying again." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Participants suggested a validity of three to five years (one said at least two or three years) with payment for the whole period, so established businesses would not need to renew annually." },
+        { "source": "fgd", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "One participant said that when a licence expired in March and renewal was filed in May or June, no penalty was applied; there is currently no penalty for delay, and the input suggests introducing a minimum penalty for delays beyond five to six months." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Renewal is entirely online, done by the business itself without a consultant; required papers are listed on the portal, the portal sends a notification when a document must be added or corrected, payment is made online, and no office visit is needed." },
+        { "source": "fgd", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "Where documents were ready, an application takes about 15 minutes; participants named the previous year's certificate, a recent photo and KYC documents as the documents needed." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "issue", "text": "Staff also visit shops door-to-door during renewal to verify the business exists; some shops that no longer exist still get renewed, which takes staff time." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Renewal is completed within 15 days if documents are in order, and takes about a month in the peak period around March when licences expire." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Renewal requires applicants to re-enter details and resubmit documents even where the earlier licence record is already available." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "High renewal volume concentrated around March, when licences expire, can extend processing to about one month; staff verification visits during this peak also take time." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Allow renewal for three to five years instead of one, with payment for the full period." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "On entering the licence number, the portal should automatically bring up the earlier application data so only documents needing an update have to be attached." },
+        { "source": "fgd", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Consider a small, clearly communicated penalty for missing the renewal deadline, with a minimum penalty for delays beyond five to six months, if appropriate after reviewing the rule." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Fees cited ranged from about ₹4,000 to ₹9,000 a year depending on business size, with about ₹4,500 and about ₹5,000 (homestay) quoted as examples; no significant time or cost burden was reported, and participants were generally satisfied with the online process." }
+      ],
+      "quotes": [
+        { "speaker": "Industry user", "quote": "So within one month we are getting all the things and there is no hesitation.", "topic": "Peak period acceptable", "tags": ["TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Industry user", "quote": "One month is okay. (Because thousands of people apply at the same time during renewal, the wait is reasonable.)", "topic": "Peak wait reasonable", "tags": ["TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Industry user", "quote": "Licences must be renewed every year; participants suggested paying once for three or five years, as established businesses sometimes forget the yearly renewal.", "topic": "Annual renewal burden", "tags": ["RENEWAL"], "sentiment": "suggestion" },
+        { "speaker": "Industry user", "quote": "I will insert the license number and all the details is already fill up and just the documents which you are required we can fill up just attach it and save it.", "topic": "Prefill suggestion", "tags": ["PORTAL"], "sentiment": "suggestion" },
+        { "speaker": "Industry user", "quote": "My license expired on March and I am applying on May or June, then there is no any penalty.", "topic": "No penalty for late renewal", "tags": ["OTHER"], "sentiment": "neutral" },
+        { "speaker": "Industry user", "quote": "During renewal, staff visit shops door to door to verify them, and some shops that no longer exist still get renewed, which adds to staff time.", "topic": "Door-to-door verification", "tags": ["INSPECT"], "sentiment": "neutral" },
+        { "speaker": "Industry user", "quote": "Payment occasionally hits a problem, which is solved by clearing the record and trying again.", "topic": "Payment glitch", "tags": ["PORTAL"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The issuing authority for Trade License Renewal was not explicitly named in this session; it is presumed to be the same authority as Trade License Approval (Shillong Municipal Board), but this was not independently confirmed." },
+        { "flag": "MISSING", "text": "No deemed-approval provision was discussed for renewal." },
+        { "flag": "VAGUE", "text": "The full document list for renewal is only partially described (previous year's certificate, recent photo, KYC documents); it is unclear whether additional documents (e.g. rent agreement/receipt, CTE) are also required at renewal as they are at fresh approval." },
+        { "flag": "GOOD_PRACTICE", "text": "Renewal is entirely online with portal notifications for missing/incorrect documents and no applicant office visit required." },
+        { "flag": "REFORM", "text": "Participants suggested extending validity to 3-5 years and auto-prefilling renewal data from the licence number — proposed improvements, not yet implemented." },
+        { "flag": "MISSING", "text": "No confirmed penalty structure exists for late renewal; participants noted no penalty is currently applied even for a 2-3 month delay (March to May/June), and suggested introducing a minimum penalty only beyond 5-6 months, but this is a participant suggestion, not confirmed policy." }
+      ]
+    }
+  ]
+}

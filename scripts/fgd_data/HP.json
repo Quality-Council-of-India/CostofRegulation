@@ -1,0 +1,148 @@
+{
+  "code": "HP",
+  "name": "Himachal Pradesh",
+  "licenses": [
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": ["HP_FGD_RFNO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named in the transcript; participants refer generically to 'the Fire Department' (which issues the NOC and approves technical vendors) and to the Department of Industries/Single Window system as an adjoining portal.",
+      "portal": { "name": "Not explicitly named by participants; reference is made only generically to 'multiple government departments/portals' and to the Department of Industries/Single Window system as a place where existing records could potentially be reused.", "url": null },
+      "timeline": {
+        "minDays": 1,
+        "maxDays": 30,
+        "basis": "Participant estimates, not an official norm",
+        "text": "Filling the application form takes about 30 minutes; the renewal application itself takes 1-2 days once proper documents are ready. After submission, comments/queries raised by the department are addressed, and inspection is then completed within roughly a week. Separately, under 'Other Remarks' the same respondent stated the overall renewal process 'takes 30 days.' These figures are not fully reconciled within the transcript (see gaps)."
+      },
+      "automationLevel": "unclear",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants described the pain of 'the same documents' being resubmitted at every renewal but did not enumerate the specific document list beyond referencing fire-safety infrastructure items (smoke detectors, fire pipes, secondary exits, dedicated fire-water arrangement, generator space) that trigger extra steps when changed.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "No deemed-approval provision was mentioned by participants at any point in the discussion." },
+      "validity": { "text": "Current validity period is not clearly stated and the transcript contains two different framings from the same discussion: suggestions refer to premises undergoing 'a full renewal every year' (implying an annual cycle), while a quote separately references 'an average of five years… at least five, 10 years' as the renewal cycle being discussed, with a suggestion to extend validity to 5-10 years. See gaps." },
+      "fees": { "text": "No statutory/government fee is charged for Fire NOC renewal itself ('Renewal is free, complications add on to cost'). However, respondents cited non-statutory renewal/refilling-related expenditure (technical vendor and, where structural change is needed, an architect paid on a commission basis) of approximately ₹10,000–₹15,000. One respondent also extrapolated that regulatory processing across all NOCs (not Fire NOC renewal alone) amounts to roughly 100 non-productive days a year — the respondent's own estimate, not a verified figure specific to this service." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Fill and submit the renewal application with supporting documents", "automated": null, "note": "Filling the form takes about 30 minutes; full application submission takes 1-2 days once documents are ready." },
+        { "n": 2, "phase": "scrutiny", "title": "Department raises comments/queries on the submitted documents", "automated": null, "note": "Occurs 'in some cases', per the respondent." },
+        { "n": 3, "phase": "scrutiny", "title": "Applicant addresses the comments/queries raised", "automated": null, "note": "May involve engaging a fire-department-approved technical vendor for equipment servicing/refilling, or an architect (paid on commission) where structural fire-safety changes are needed." },
+        { "n": 4, "phase": "inspect", "title": "Physical inspection of the premises", "automated": false, "note": "Completed within roughly a week after comments are addressed, per the respondent." },
+        { "n": 5, "phase": "approve", "title": "Completion/approval of the renewal", "automated": null, "note": "" }
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Renewal becomes burdensome specifically when premises require changes/upgrades to fire-safety infrastructure, rather than routine equipment replacement/refilling." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY", "NORMS"], "sentiment": "issue", "text": "Physical/technical requirements (smoke detectors, fire pipes, secondary exits, dedicated fire-water arrangements, generator space) create significant compliance and infrastructure cost whenever changes are required." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The same documents have to be resubmitted at every renewal even where premises, purpose, and physical structure are unchanged." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT", "CAPACITY"], "sentiment": "issue", "text": "Inspection and processing requirements keep establishment personnel occupied, reducing productive working time." },
+        { "source": "fgd", "category": "pain", "tags": ["NORMS"], "sentiment": "issue", "text": "Frequent changes in fire-safety norms create difficulty for establishments even where the premises have not materially changed." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Fire-safety requirements do not account for the geographical and infrastructural realities of hilly areas, per participants." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "RENEWAL"], "sentiment": "suggestion", "text": "Renewal requirements should distinguish between unchanged premises and cases involving new construction, major alteration, or change of use." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "A longer Fire NOC validity period (5-10 years) was suggested so establishments with no material change are not put through full renewal repeatedly." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Process flow described as application -> document submission -> departmental scrutiny/comments -> inspection -> completion/approval; filling the form takes ~30 minutes and the renewal application 1-2 days once documents are ready, with inspection completed within roughly a week once comments are addressed." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Multiple government departments/portals add administrative burden during renewal." },
+        { "source": "fgd", "category": "procedural", "tags": ["CONSULT"], "sentiment": "neutral", "text": "Depending on the nature of the work, applicants engage a fire-department-approved technical vendor for equipment servicing/refilling and, separately, an architect (paid on a commission/percentage basis) where structural fire-safety changes are needed." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "No document was identified as entirely unnecessary or non-statutory; the specific concern raised was repetition of the same document set at every renewal cycle rather than a one-time verification confirming 'no change.'" },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Document scrutiny/comments followed by inspection scheduling were cited as the main sequential steps adding processing time, estimated at roughly a week for a routine case." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE", "INTERDEP"], "sentiment": "issue", "text": "Repeated documentation and movement between departments/professionals (vendor, architect) increase turnaround time." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Respondent estimated any single NOC requirement can take approximately 4-5 days to fulfil, and extrapolated regulatory processing across all NOCs to roughly 100 non-productive days a year — the respondent's own cross-NOC estimate, not verified or specific to Fire NOC renewal alone." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS", "INSPECT"], "sentiment": "suggestion", "text": "Introduce a self-declaration/'no-change' route for renewal (ownership, use, structure, fire-safety layout unchanged), backed by risk-based spot verification instead of full document resubmission and inspection each cycle." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "suggestion", "text": "Allow reuse of documents already on record with the Fire Department or accessible via the Department of Industries/Single Window system, instead of resubmitting unchanged records at every renewal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["RENEWAL", "NORMS"], "sentiment": "suggestion", "text": "Extend Fire NOC validity so unchanged premises are not required to undergo full renewal on a fixed short cycle; trigger fresh scrutiny specifically on material change, major construction, or change of use." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Provide advance notice and a defined transition period whenever fire-safety norms are revised, instead of applying new requirements retroactively to unaltered premises — flagged as one of the biggest hassles." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Renewal itself is free of statutory fee; cost burden instead comes from compliance-related expenditure (~₹10,000-15,000 for refilling/servicing) and from infrastructure changes when required." },
+        { "source": "fgd", "category": "remarks", "tags": ["NORMS"], "sentiment": "issue", "text": "Buildings constructed in the 1990s face difficulty meeting current fire-safety norms designed with newer construction in mind, suggesting a case for differentiated treatment of older/existing structures versus new construction." }
+      ],
+      "quotes": [
+        { "speaker": "Business respondent", "quote": "The same documents have to be submitted again during renewal.", "topic": "Duplicate documentation", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Business respondent", "quote": "Where the premises, purpose and structure remain the same, repeated documentation and scrutiny should be reduced.", "topic": "No-change renewal route", "tags": ["DUPDOC", "NORMS"], "sentiment": "suggestion" },
+        { "speaker": "Business respondent", "quote": "Frequent changes in norms are a major hassle for establishments.", "topic": "Regulatory uncertainty", "tags": ["NORMS"], "sentiment": "issue" },
+        { "speaker": "Business respondent", "quote": "It can go up to 10 to 15,000 fees for renewal, 10 to 15,000 for just getting that filled up.", "topic": "Compliance cost", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Business respondent", "quote": "Any NOC you require, you have to put that four or five days into… imagine about four days to this, 100 days of the year, you are non-productive.", "topic": "Economic impact of NOC processing", "tags": ["TIMELINE", "CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Business respondent", "quote": "Average of five years… at least five, 10 years.", "topic": "Suggested validity extension", "tags": ["RENEWAL"], "sentiment": "suggestion" },
+        { "speaker": "Business respondent", "quote": "Ninety's construction, not eighty-nineteen, 90s construction, it's norms.", "topic": "Legacy building compliance", "tags": ["NORMS"], "sentiment": "issue" },
+        { "speaker": "Business respondent", "quote": "Once you have given a NOC to same premises with the same purpose… structure, everything is same, 100% same.", "topic": "Procedural simplification", "tags": ["DUPDOC"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The transcript never names the issuing authority (presumably the Fire Department) or the application portal explicitly — only generic references to 'the Fire Department' and 'multiple government departments/portals.'" },
+        { "flag": "MISSING", "text": "No specific document list is given; participants describe the pain of resubmission generically ('the same documents') without naming individual documents required." },
+        { "flag": "VAGUE", "text": "Timeline figures are not reconciled within the transcript itself: the Procedural Issues section describes a cycle of ~30 min (form) + 1-2 days (application) + ~1 week (post-comment inspection), while the Other Remarks section separately states the renewal process 'takes 30 days.'" },
+        { "flag": "VAGUE", "text": "Current validity period is unclear and internally inconsistent in the transcript: suggestions reference premises undergoing 'a full renewal every year,' while a quote separately frames the discussed renewal cycle as 'an average of five years… at least five, 10 years.'" },
+        { "flag": "MISSING", "text": "No deemed-approval provision is mentioned anywhere in the transcript for Fire NOC renewal." },
+        { "flag": "MISSING", "text": "No application fee figure (government/statutory) is given beyond the statement that 'renewal is free'; only non-statutory compliance expenditure (~₹10,000-15,000) is quantified." },
+        { "flag": "REFORM", "text": "Participants proposed a concrete self-declaration/'no-change' renewal route with risk-based spot verification in place of full document resubmission and inspection each cycle, applicable where ownership, use, structure and fire-safety layout are unchanged." },
+        { "flag": "REFORM", "text": "Participants proposed extending Fire NOC validity (suggested 5-10 years) with renewal triggered by material change/major construction/change of use rather than a fixed short calendar cycle." }
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishments",
+      "sourceFiles": ["HP_FGD_RSE.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named by participants; the discussion situates registration/renewal under the Himachal Pradesh Shops and Commercial Establishments Rules, routed through the Single Window portal, but no specific department or officer title is stated in the transcript.",
+      "portal": { "name": "Single Window Portal (referenced by participants as 'the Single Window portal'; the Other Remarks fee table cites 'National Single Window System H.P.' as its source)", "url": null },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "",
+        "text": "No specific number of days is given for registration or renewal processing. Participants referenced only a qualitative 'time gap' between complete application submission and receipt of the approval e-mail, and separately noted that the renewal step specifically carries processing delay (distinct from the initial registration step), without quantifying either."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Rent agreement",
+        "Registration application/paperwork (full itemized list not described by participants)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. The rent agreement was the only document specifically named, flagged as requiring resubmission for departmental verification whenever there is a change of address or a change in the constitution of the business; no other document was identified as duplicative or unnecessary.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "No deemed-approval provision was mentioned by participants. Approval is instead communicated by e-mail after an unstated processing period." },
+      "validity": { "text": "A validity/expiry period exists (renewal is applied for 'on expiry of the registration certificate'), but its exact duration is not stated by participants. Under the Himachal Pradesh Shops and Commercial Establishments Rules, a certificate renewed after expiry of its validity period is chargeable at 50% above the ordinary registration fee, per the Policy Issues section." },
+      "fees": { "text": "Application fee scales with establishment size per the National Single Window System H.P. fee table cited in the document: INR 50 (no employees), INR 200 (up to 5 persons), INR 300 (6-10 persons), INR 500 (11-25 persons), INR 2,000 (more than 25 persons). A certificate renewed after expiry is chargeable at 50% above the ordinary registration fee. Separately, one respondent cited a recurring CA/professional cost of ₹1,000/month for routine filings (including quarterly GST returns), and another cited a roughly ₹30,000 compliance cost over a three-year period — closely matching three years of the stated monthly CA retainer, though the document notes this needs follow-up confirmation." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit registration/renewal application through the Single Window portal", "automated": "partial", "note": "Respondents still engage a CA or visit a cyber café to complete the online submission, indicating the digital front-end alone does not remove the need for third-party filing assistance." },
+        { "n": 2, "phase": "scrutiny", "title": "Departmental scrutiny of the application", "automated": null, "note": "Not described in detail; a 'time gap' between submission and the approval e-mail was referenced." },
+        { "n": 3, "phase": "inspect", "title": "Physical inspection of the establishment", "automated": false, "note": "Described by one respondent as unannounced rather than pre-scheduled/notified; records on employment of minors and unregistered labour are checked during inspection in addition to registration paperwork." },
+        { "n": 4, "phase": "approve", "title": "Approval intimation communicated by e-mail", "automated": true, "note": "" },
+        { "n": 5, "phase": "renew", "title": "Renewal applied for on expiry of the registration certificate", "automated": null, "note": "Respondent stated the renewal step specifically carries regulatory delay, distinct from initial registration. A certificate renewed after expiry is chargeable at 50% above the ordinary fee." }
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Respondent retains a Chartered Accountant on an ongoing basis for routine filings (including quarterly GST returns) at a stated cost of ₹1,000 per month." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "A compliance-related cost of approximately ₹30,000 over a three-year period was separately cited, referenced alongside the registration validity cycle." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The rent agreement specifically becomes an issue on a change of address or change in business constitution, requiring resubmission for departmental verification." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT", "COMPLY"], "sentiment": "issue", "text": "Records on employment of minors and unregistered labour must be actively maintained and are examined during inspection, in addition to the registration paperwork itself." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Inspections were described as unannounced, distinguishing them from a scheduled or notified inspection process." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL", "FEES"], "sentiment": "issue", "text": "Under the Himachal Pradesh Shops and Commercial Establishments Rules, a certificate renewed after expiry of its validity period is chargeable at 50% above the ordinary registration fee." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "The statutory registration/renewal fee (up to ~₹6,000 for larger establishments, per public reporting) and the recurring professional/CA cost (₹1,000/month) are two distinct cost lines that the current framework does not appear to separately track or publish, limiting businesses' ability to budget compliance cost in advance." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "CONSULT"], "sentiment": "issue", "text": "Registration and renewal filings are routed through the Single Window portal, but the respondent still engages a CA or visits a cyber café to complete the submission — the digital front-end alone does not remove the need for third-party filing assistance." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Approval intimation is communicated by e-mail; respondent referenced a time gap between application submission and the approval e-mail as a distinct step, separate from inspection." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL", "TIMELINE"], "sentiment": "issue", "text": "Renewal is applied for on expiry of the registration certificate; the respondent stated this renewal step specifically carries regulatory delay, distinguishing it from the initial registration step." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "The rent agreement has to be resubmitted specifically on a change of address or constitution, even though a version is already on file with the department from original registration; no other document was flagged as a duplicate resubmission point." },
+        { "source": "fgd", "category": "delay", "tags": ["RENEWAL", "TIMELINE"], "sentiment": "issue", "text": "The renewal step specifically carries processing delay, distinguishing it from the initial registration step." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "A gap between application submission and receipt of the approval e-mail was cited as a distinct point in the process where time is added, separate from any inspection step." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE", "CLARITY"], "sentiment": "suggestion", "text": "Publish a defined turnaround time between complete document submission and the approval e-mail for both registration and renewal, so applicants can track whether a case has exceeded the norm." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "suggestion", "text": "For renewal cases with no change of address or constitution, allow the existing rent agreement already on departmental record to be reused via a short confirmation step instead of resubmission." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Move from unannounced inspections to pre-scheduled or notified inspections for establishments with a clean prior compliance record, reserving unannounced inspection for specific risk triggers." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "COMPLY"], "sentiment": "suggestion", "text": "Provide a single consolidated checklist covering registration paperwork together with the statutory registers checked at inspection (e.g., employment of minors, labour records), so applicants are aware of these requirements before inspection, not only at inspection time." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Application fee scales with establishment size, from INR 50 (no employees) to INR 2,000 (more than 25 persons), per the National Single Window System H.P. fee table cited in the document." }
+      ],
+      "quotes": [
+        { "speaker": "Business Participant", "quote": "Regular CA, minimum 1000 rupees per month.", "topic": "Recurring compliance cost", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "One time, last three years… I think 30,000.", "topic": "Three-year compliance cost", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Rent agreement over… changes.", "topic": "Documentation on renewal", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Single window portal… third party use… cyber café.", "topic": "Intermediary dependence in a digital process", "tags": ["PORTAL", "CONSULT"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Because this is a renewal, we impact… regulatory delays.", "topic": "Renewal-stage delay", "tags": ["RENEWAL", "TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Business Participant", "quote": "Inspection surprise.", "topic": "Unannounced inspection", "tags": ["INSPECT"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The transcript never names the specific issuing department/authority for Shops & Establishments registration — only the Single Window portal and the Himachal Pradesh Shops and Commercial Establishments Rules are referenced." },
+        { "flag": "MISSING", "text": "No number of processing days is given for registration or renewal; only a qualitative 'time gap' between submission and the approval e-mail is mentioned." },
+        { "flag": "MISSING", "text": "No deemed-approval provision is mentioned anywhere in the transcript." },
+        { "flag": "VAGUE", "text": "The exact validity period (in years) of the registration certificate is not stated — only that renewal is applied for 'on expiry' and that late renewal attracts a 50% surcharge." },
+        { "flag": "VAGUE", "text": "Beyond the rent agreement, no full itemized list of registration documents is given by participants." },
+        { "flag": "VAGUE", "text": "The ₹30,000 three-year compliance cost figure is flagged by the document's own annotation as 'cited once — needs follow-up confirmation,' and only loosely reconciled against the separately stated ₹1,000/month CA retainer." },
+        { "flag": "REFORM", "text": "Participants proposed publishing a defined turnaround time between complete submission and the approval e-mail, and allowing reuse of an on-file rent agreement via a short confirmation step for no-change renewals instead of resubmission." },
+        { "flag": "REFORM", "text": "Participants proposed moving from unannounced to pre-scheduled/notified inspections for establishments with a clean compliance record, and providing a single consolidated checklist covering both registration paperwork and inspection-time statutory registers." }
+      ]
+    }
+  ]
+}

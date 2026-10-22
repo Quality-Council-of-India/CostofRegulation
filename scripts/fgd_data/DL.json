@@ -1,0 +1,389 @@
+{
+  "code": "DL",
+  "name": "Delhi",
+  "licenses": [
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": ["Delhi_FGD_CTO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Delhi Pollution Control Committee (DPCC), as referred to throughout by participants (name not independently verified against an official ED source for CTO, since the DL ED dataset currently covers only CTE and Fire NOC)",
+      "portal": { "name": "DPCC online CTO application portal — participants describe it as nominally online but still requiring physical office visits, undermining the intent of the digital system", "url": null },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "No participant stated an actual achieved approval duration in days. Delay was instead attributed to informal payments/connections, frequent officer transfers, and repeated inspection objections. A suggestion was made to enforce a clear 30-60 day service-level timeline, implying no such enforced timeline currently exists.",
+        "text": "Participants did not report a concrete timeline for CTO approval; instead they described DPCC processing speed as being driven less by procedural complexity than by informal payments and departmental connections. A suggested reform was to enforce a clear 30-60 day SLA for CTO applications."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": ["Staff ID proofs", "Police Clearance Certificates (PCC)", "Building area details", "Declared seating capacity details"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not give a complete CTO application checklist; these are the items they said are re-verified separately across DPCC, Fire, MCD and Police licensing processes (i.e. redundant/duplicate documentation), not a full documents list.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants." },
+      "validity": { "text": "Not discussed in day/year terms. Participants only noted that CTO renewal is roughly 50% easier than a first-time application, once documentation is in place and departmental familiarity exists." },
+      "fees": { "text": "The DPCC statutory/government fee itself is described by participants as fixed and considered reasonable. However, consultants consolidate this statutory fee with undisclosed informal facilitation costs into a single opaque total, so applicants have limited visibility into the real cost breakup. Separately, a newly introduced requirement mandating meters on borewells carries a penalty of ₹1 lakh per non-compliant borewell (a penalty, not the CTO fee itself)." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit CTO application via DPCC portal", "automated": "partial", "note": "Businesses overwhelmingly rely on consultants/liaison agents rather than self-filing, because self-filed applications submitted directly through the DPCC portal are frequently rejected (one participant cited 'rejected 10 times')." },
+        { "n": 2, "phase": "fee", "title": "Pay consolidated fee to consultant/DPCC", "automated": "partial", "note": "Consultants bundle the statutory DPCC fee with informal facilitation costs into one undisclosed total." },
+        { "n": 3, "phase": "scrutiny", "title": "Physical office visit to DPCC", "automated": false, "note": "Required despite the application being nominally online; officers reportedly prioritise files informally by seniority/connections before general applicants." },
+        { "n": 4, "phase": "inspect", "title": "Physical inspection", "automated": false, "note": "Frequently surfaces numerous minor/technical objections that are difficult to fully resolve even where documentation requirements have been met." },
+        { "n": 5, "phase": "approve", "title": "Approval issued", "automated": "partial", "note": "Timing reported as influenced by informal payments/connections and by frequent transfer of handling officers." }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B): DL's ED dataset currently has entries only for Consent to Establish (CTE) and Fire NOC (FNO), not CTO, so no official ED cross-check was possible.",
+        "Session covered the hospitality sector specifically (small hotels and guest houses); findings on CTO's proportionality to scale reflect that sector's perspective.",
+        "Participants flagged overlapping requirements across CTE, CTO, MCD Trade License, Fire NOC and Delhi Police licensing as a cross-cutting issue."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "Businesses overwhelmingly depend on consultants and liaison agents to manage CTO, citing time and technical expertise needed to navigate the requirements independently." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "INFORMAL"], "sentiment": "issue", "text": "Consultants consolidate statutory fees with informal facilitation costs into a single amount, giving applicants limited visibility into the actual cost breakup." },
+        { "source": "fgd", "category": "pain", "tags": ["INFORMAL", "TIMELINE"], "sentiment": "issue", "text": "Participants observed that DPCC processing timelines are influenced less by procedural complexity and more by informal payments and departmental connections." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Physical inspections frequently surface numerous minor or technical objections that prove difficult to fully resolve, even where applicants have complied with documentation requirements." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Applications submitted directly by businesses through the DPCC portal are frequently rejected on multiple occasions, reinforcing reliance on consultants to secure approval." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "CTO clearance is mandated uniformly regardless of establishment scale; small guest houses and lodges without restaurants or generators face the same pollution-control requirements as larger, genuinely polluting units." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Effluent Treatment Plant (ETP) norms are described as impractical for small units." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "COMPLY"], "sentiment": "issue", "text": "Some establishments reported deliberately keeping their declared seating capacity below 100 to avoid triggering mandatory ETP/STP compliance, indicating the threshold itself creates an incentive for under-declaration." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES", "NORMS"], "sentiment": "issue", "text": "A newly introduced requirement mandating meters on borewells carries a penalty of ₹1 lakh per non-compliant borewell, adding a further compliance burden on small operators." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Requirements under CTE, CTO, MCD Trade License, Fire NOC, and the Delhi Police license overlap significantly and should be minimised." },
+        { "source": "fgd", "category": "procedural", "tags": ["CAPACITY", "DELAY"], "sentiment": "issue", "text": "Frequent transfer of officers makes the approval process take much longer." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Physical office visits are still required despite the DPCC application being nominally online, undermining the intent of the digital system." },
+        { "source": "fgd", "category": "procedural", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Officers reportedly prioritise files informally — first by seniority/pressure from superiors, then personal contacts, and lastly general applicants — due to heavy individual caseloads." },
+        { "source": "fgd", "category": "procedural", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "While the DPCC government fee itself is fixed and considered reasonable, the total amount payable via consultants (who add informal costs) remains opaque to applicants." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "The same underlying details — staff ID proofs, Police Clearance Certificates, building area, and seating capacity — are re-verified separately across DPCC, Fire, MCD, and Police licensing processes." },
+        { "source": "fgd", "category": "delay", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Informal payments and connections are cited by participants as causing more time taken and deliberate delay in approval." },
+        { "source": "fgd", "category": "delay", "tags": ["PORTAL"], "sentiment": "issue", "text": "Manual, inconsistent file handling and lack of end-to-end digital integration between portal submission and physical file movement contribute to delay." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Vacancy or reassignment of the Regional Officer stalls files, with no clear reassignment protocol communicated to applicants." },
+        { "source": "fgd", "category": "delay", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "Self-filed applications are repeatedly rejected (one participant cited 'rejected 10 times') without clear guidance on the specific deficiency." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Exempt small lodging/guest-house establishments with no commercial kitchen or generator from full DPCC (CTO) requirements; an MCD Health Trade License should suffice for such low-impact units." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "TIMELINE"], "sentiment": "suggestion", "text": "Enhance the portal to show the assigned officer and processing stage, and enforce a clear 30-60 day service-level timeline for CTO applications." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Increase departmental staffing to reduce individual officer caseloads and reduce informal, contact-based prioritisation of files." },
+        { "source": "fgd", "category": "remarks", "tags": ["RENEWAL"], "sentiment": "positive", "text": "Renewal is described as roughly 50% easier than a first-time application, once documentation is done and departmental familiarity exists." },
+        { "source": "fgd", "category": "remarks", "tags": ["CONSULT"], "sentiment": "neutral", "text": "Participants noted that 'time has become more valuable than money' — consultants are engaged primarily to save time and effort, not only to navigate paperwork." }
+      ],
+      "quotes": [
+        { "speaker": "Participant (R1)", "quote": "The agents include all costs in their quote over-the-table and under-the-table expenses. In plain terms, that's what it is.", "topic": "Consultant pricing opacity", "tags": ["CONSULT", "FEES", "INFORMAL"], "sentiment": "issue" },
+        { "speaker": "Participant (R2)", "quote": "If we try to fill it out ourselves online, the application won't move forward — it gets rejected 10 times.", "topic": "Self-filing rejected repeatedly", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant (R4)", "quote": "Our primary contention is that small lodging houses without commercial kitchens or generators should be exempted from DPCC requirements altogether.", "topic": "Scale-based exemption", "tags": ["NORMS"], "sentiment": "suggestion" },
+        { "speaker": "Participant (R1)", "quote": "We kept our declared seating capacity under 100 to avoid mandatory ETP/STP norms. If you honestly declare more than 100 seats, you get trapped in compliance requirements you can never fulfil.", "topic": "Under-declaration to dodge ETP/STP norms", "tags": ["NORMS", "COMPLY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No participant gave an actual achieved CTO approval timeline in days; only a suggested 30-60 day SLA target was mentioned, implying no enforced timeline currently exists." },
+        { "flag": "MISSING", "text": "No specific CTO fee amount is stated; participants described the statutory fee as 'fixed and reasonable' without giving a figure, and the only concrete number given (₹1 lakh) is a borewell-meter non-compliance penalty, not the CTO fee itself." },
+        { "flag": "VAGUE", "text": "'Frequent transfer of officers' is cited as a cause of delay without specifics on frequency or typical impact in days." },
+        { "flag": "REFORM", "text": "Suggested reform: exempt small lodging/guest-house establishments without a commercial kitchen or generator from full DPCC CTO requirements, with an MCD Health Trade License sufficing instead." }
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFiles": ["Delhi_FGD_FAL.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named by participants in this transcript.",
+      "portal": { "name": "Not named in this transcript", "url": null },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "The report explicitly states participants did not discuss approval timelines in detail; delays and uncertainty were instead linked to unclear document requirements and informal payment demands.",
+        "text": "Participants did not discuss approval timelines in detail. Delay and uncertainty were attributed to unclear document requirements causing repeated submissions, and to informal payment demands."
+      },
+      "automationLevel": "unclear",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No explicit document checklist was given — participants instead described a lack of a clear, standard checklist as a pain point ('unclear document requirements, leading to repeated submissions').",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants." },
+      "validity": { "text": "Not discussed by participants in this transcript." },
+      "fees": { "text": "Participants described the overall cost of compliance in obtaining and maintaining a Factory License as substantial and a significant financial burden, but gave no specific statutory fee figure. One participant separately reported demands for unofficial payments of ₹2-3 lakh, including a case where a DPCC-related license was not received." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Apply for Factory License (typically via consultant)", "automated": "unclear", "note": "Industries remain largely dependent on consultants to navigate the licensing and compliance process; lack of a clear checklist leads to repeated submissions." },
+        { "n": 2, "phase": "inspect", "title": "Inspection(s)", "automated": false, "note": "Inspections continue even after a license has been obtained, with no clear policy limit on post-license inspections; inspections are not reported as transparent and no assurance exists that they are free from demands for unofficial payments." }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B): DL's ED dataset currently has entries only for CTE and FNO, not Factory License, so no official ED cross-check was possible.",
+        "The companion Delhi_FGD_RFAL.docx (Renewal of Factory License) transcript separately lists a fresh-application document checklist and a renewal fee formula as background context in its report; those details were not repeated by participants in this FAL session and are recorded under the RFAL entry instead."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "COMPLY"], "sentiment": "issue", "text": "The cost of compliance incurred in obtaining and maintaining a Factory License is substantial and constitutes a significant financial burden on industrial units." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "issue", "text": "Industrial units expressed apprehension regarding the imposition of penalties and the conduct of repeated inspections, even after the requisite licenses have been obtained." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "Industries remain largely dependent on consultants to navigate the licensing and compliance process." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "INSPECT"], "sentiment": "issue", "text": "Industries are subject to multiple licenses and repeated inspections, with overlapping requirements across the Fire NOC and the Factory License." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Uniform regulatory norms are applied across industries irrespective of scale, despite significant differences between large and small factories — a one-size-fits-all approach." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Requirements such as water treatment plants are not proportionate to the scale and nature of the factory; the same requirement applies to a small unit and a large facility." },
+        { "source": "fgd", "category": "policy", "tags": ["INSPECT"], "sentiment": "issue", "text": "Inspections continue even after licenses have been obtained, with no clear policy limit on post-license inspections." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Lack of a clear, standard checklist leads to repeated submissions and uncertainty for applicants." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT", "INFORMAL"], "sentiment": "issue", "text": "Inspections are not transparent, and there is no assurance that they are free from demands for unofficial payments." },
+        { "source": "fgd", "category": "procedural", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "No defined mechanism exists for raising grievances or correcting compliance-related issues." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "Licenses, approvals, renewals, checklists and inspection status are scattered across departments, with no single point of visibility." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Similar requirements are asked for under multiple licenses, such as Fire NOC and Factory License, leading to overlapping compliance." },
+        { "source": "fgd", "category": "delay", "tags": ["CLARITY"], "sentiment": "issue", "text": "Unclear document requirements lead to repeated submissions, which in turn causes delay." },
+        { "source": "fgd", "category": "delay", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Informal payment demands may cause further delay in approval of the license." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Reimbursement of compliance costs could be considered after the license is obtained, potentially on a percentage basis." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "A single-window compliance dashboard should consolidate licenses, approvals, renewals, checklists and inspection status." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "NORMS"], "sentiment": "suggestion", "text": "Clear and standardised checklists should be provided, with requirements differentiated by the scale and type of industry." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Inspections should be transparent and free from any demand for unofficial payments." },
+        { "source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "A defined grievance and correction mechanism should be put in place for compliance-related issues." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Pre-compliant industrial land/industrial zones, with key approvals and compliances already in place, could significantly reduce the compliance burden for industries." },
+        { "source": "fgd", "category": "remarks", "tags": ["NORMS", "INTERDEP"], "sentiment": "issue", "text": "Fire NOC requirements were observed to vary by location and factory, indicating inconsistency in how norms are applied on the ground." },
+        { "source": "fgd", "category": "remarks", "tags": ["NORMS"], "sentiment": "issue", "text": "Smaller units feel disproportionately affected by norms designed for large facilities." }
+      ],
+      "quotes": [
+        { "speaker": "Participant (R_1)", "quote": "Compliance costs are high; reimbursement could be considered after the license is obtained, perhaps on a percentage basis.", "topic": "Compliance cost burden", "tags": ["FEES"], "sentiment": "suggestion" },
+        { "speaker": "Participant (R_2)", "quote": "Even after obtaining the licenses, we continue to face the fear of penalties and repeated inspections.", "topic": "Post-license inspection fear", "tags": ["INSPECT"], "sentiment": "issue" },
+        { "speaker": "Participant (R_3)", "quote": "Demands for unofficial payments of ₹2-3 lakh were reported, including a case where the DPCC-related license was not received.", "topic": "Informal payment demands", "tags": ["INFORMAL"], "sentiment": "issue" },
+        { "speaker": "Participant (R_4)", "quote": "Similar norms are applied to large and small factories; requirements like a water treatment plant should be proportionate to scale.", "topic": "Scale-proportionate norms", "tags": ["NORMS"], "sentiment": "suggestion" },
+        { "speaker": "Participant (R_5)", "quote": "A single compliance dashboard and pre-compliant industrial zones would significantly reduce our compliance burden.", "topic": "Single-window dashboard suggestion", "tags": ["PORTAL"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No issuing authority or portal name is stated in this transcript for Factory License." },
+        { "flag": "MISSING", "text": "No approval timeline was discussed by participants — explicitly noted in the report itself." },
+        { "flag": "MISSING", "text": "No document checklist is given; only the absence of a clear, standard checklist is described as a pain point." },
+        { "flag": "VAGUE", "text": "The ₹2-3 lakh 'demands for unofficial payments' figure is reported as a single respondent's account and is not clearly tied to a specific stage of the Factory License process." }
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFiles": ["Delhi_FGD_RCTO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Delhi Pollution Control Committee (DPCC), as referred to throughout by participants (not independently verified against an official ED source, since DL's ED dataset currently covers only CTE and FNO).",
+      "portal": { "name": "DPCC online renewal portal/process — not described in detail; participants emphasise difficulty tracking the application and knowing whom to meet in person when handling officers are transferred", "url": null },
+      "timeline": {
+        "minDays": null,
+        "maxDays": 45,
+        "basis": "Participants stated they are aware that approval should be given within 45 days, but reported delay occurs during checklist preparation and from informal payment demands prior to that clock completing.",
+        "text": "Participants are aware of a 45-day timeline within which approval should be given, but reported that delay occurs while preparing the checklist, and that informal payment demands can cause further delay."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants stated that for renewal, existing data is fetched from the prior CTO and CTE records, so there is no requirement for many additional documents — but no specific checklist was given.",
+      "deemedApproval": { "status": "unclear", "days": 45, "text": "Participants describe a 45-day figure within which 'approval should be given', but it is not clear from the transcript whether this is a formal deemed-approval provision or simply an internally understood processing target." },
+      "validity": { "text": "Not discussed in this transcript." },
+      "fees": { "text": "Not discussed in this transcript — no fee figures were given." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Attempt self-filed renewal application", "automated": "partial", "note": "Participants initially try to fill the application themselves, but find it very painful that DPCC always finds some issue in their application, so they end up taking help from a consultant." },
+        { "n": 2, "phase": "scrutiny", "title": "Checklist preparation", "automated": false, "note": "Delay occurs during this stage even though participants are aware of a 45-day target for approval." },
+        { "n": 3, "phase": "approve", "title": "Approval issued", "automated": "partial", "note": "Targeted within 45 days per participants' understanding." },
+        { "n": 4, "phase": "inspect", "title": "Post-approval inspection", "automated": false, "note": "DPCC engineers visit after approval has been issued and can issue notices and hefty fines — one participant described this as a case of the department issuing a fine after the approval was already granted." }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B): DL's ED dataset currently has entries only for CTE and FNO, not RCTO, so no official ED cross-check was possible.",
+        "This transcript contains no 'Key Statements & Quotes' table/section — unlike the other five Delhi FGD files, no direct participant quotes were recorded in this report, so the quotes array below is empty.",
+        "The suggestions section contains a truncated sentence in the source ('Inspections should be transparent and free from any demand for unofficial payments. Also it should be done for' — sentence ends there in the document); recorded as-is without completing the thought."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT", "QUERY"], "sentiment": "issue", "text": "Participants initially try to fill the application themselves, but find it very painful that DPCC always finds some issue in their application, so industries find it better to take help from a consultant." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT", "FEES"], "sentiment": "issue", "text": "Once the approval has been issued, DPCC engineers come for inspection and issue notices and hefty fines — one industry described a case where, after the approval was granted, the department still issued a fine." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT", "CLARITY"], "sentiment": "issue", "text": "Small industries are not very aware of the process and checklist; when asked how they ensure compliance, they said they wholly depend on a consultant for this." },
+        { "source": "fgd", "category": "policy", "tags": ["INSPECT"], "sentiment": "issue", "text": "Participants said inspection should be done before the approval certificate is issued; they find it very difficult to comply with issues raised afterward." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "issue", "text": "Large fines on small industry units can disturb the day-to-day activities of the industry." },
+        { "source": "fgd", "category": "policy", "tags": ["INSPECT", "INFORMAL", "TIMELINE"], "sentiment": "issue", "text": "There should be a strict timeline for field visits/inspections, as engineers reportedly come for inspection more often during the festival season, highlighting compliance issues and asking for unofficial payment to settle them." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Lack of a clear, standard checklist leads to repeated submissions." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT", "INFORMAL"], "sentiment": "issue", "text": "Inspections are not transparent, and there is no assurance that they are free from demands for unofficial payments." },
+        { "source": "fgd", "category": "procedural", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "No defined mechanism exists for raising grievances or correcting compliance-related issues." },
+        { "source": "fgd", "category": "procedural", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Engineers often get transferred, which makes it very difficult to track the application and know whom to meet in the office." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "For renewal of the service, existing data is fetched from the prior CTO and CTE records, so there is no requirement for many additional documents." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Participants are aware that approval should be given within 45 days, but there is delay while preparing the checklist." },
+        { "source": "fgd", "category": "delay", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Informal payment demands may cause further delay in approval of the license." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INSPECT", "INFORMAL"], "sentiment": "suggestion", "text": "Inspections should be transparent and free from any demand for unofficial payments." },
+        { "source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "A defined grievance and correction mechanism should be put in place for compliance-related issues." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Pre-compliant industrial land/industrial zones, with key approvals and compliances already in place, could significantly reduce the compliance burden for industries." },
+        { "source": "fgd", "category": "remarks", "tags": ["NORMS"], "sentiment": "issue", "text": "Smaller units feel disproportionately affected by norms designed for large facilities." },
+        { "source": "fgd", "category": "remarks", "tags": ["GRIEVANCE", "CAPACITY"], "sentiment": "issue", "text": "No appointment is available from the department for a long time when an issue appears and the business wants to clarify something with the department." }
+      ],
+      "quotes": [],
+      "gaps": [
+        { "flag": "MISSING", "text": "No fee figures are given anywhere in this transcript for RCTO." },
+        { "flag": "VAGUE", "text": "It is unclear whether the 45-day figure participants cite is a formal deemed-approval/statutory provision or simply an internally understood processing target." },
+        { "flag": "GOOD_PRACTICE", "text": "For renewal, existing data is fetched from the prior CTO and CTE records rather than requiring a fresh full document set — reducing the renewal documentation burden." },
+        { "flag": "MISSING", "text": "The suggestions section's sentence 'Inspections should be transparent and free from any demand for unofficial payments. Also it should be done for' is cut off mid-thought in the source document; the intended completion is not available." }
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFiles": ["Delhi_FGD_RFAL.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named in this transcript; described only as 'the department' administering Factory License renewal, which has now been merged with Property Tax collection in Delhi.",
+      "portal": { "name": "Not explicitly named — merged into the Property Tax payment application/process in Delhi", "url": null },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "All seven participants reported that no delay happened while availing the renewal service; no day-count figure was given.",
+        "text": "Participants (all seven) reported no delay in availing the renewal service. No specific timeline in days was stated."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": ["DPCC consent", "Fire NOC (if premises area is greater than 250 sq. m)"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. This report additionally lists a fresh/first-time Factory License document checklist as background context (ownership/registered occupancy proof or lease deed with owner NOC; copy of electricity bill; sanctioned building plan & site/key plan; Aadhar Card; DPCC consent; certificate of safety of explosives; Fire NOC if premises exceed 250 sq. m) — those pertain to the initial license, not renewal, so are not included in the renewal documents list above.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants." },
+      "validity": { "text": "Not stated in explicit days/years; renewal appears to follow an annual cycle, referenced via a 'grace period i.e. April every year' for renewal charges and the merger with annual Property Tax payment." },
+      "fees": { "text": "Renewal of Factory License has been merged with Property Tax in Delhi: licensees can pay the Factory License fee, equal to 5% of the property tax amount, alongside their property tax. Some participants were not aware of this change. For renewal specifically, charges during the grace period (April each year) are reported as: Total Amount = Permission Fee + Processing Fee + Transaction Fee + Convenience Fee, where License Fee = H.P. rate x Total H.P + Permission Fee + Processing Fee; Permission Fee = Unit Charge + License Fee (as recorded in the report — this definition is circular as written and may reflect a transcription error, see gaps); Processing Fee = ₹1,000 (fixed); Transaction Fee = ₹10 (fixed)." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Awareness of property-tax merger", "automated": null, "note": "Factory License renewal fee (5% of property tax) can now be paid alongside Property Tax; some participants were not aware of this change." },
+        { "n": 2, "phase": "fee", "title": "Pay renewal charges during April grace period", "automated": "partial", "note": "Charges follow the formula: Total Amount = Permission Fee + Processing Fee (₹1,000 fixed) + Transaction Fee (₹10 fixed) + Convenience Fee." },
+        { "n": 3, "phase": "apply", "title": "Submit supporting documents (DPCC consent; Fire NOC if area > 250 sq.m)", "automated": "unclear", "note": "No duplication of documents was observed by participants for renewal." }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B): DL's ED dataset currently has entries only for CTE and FNO, not RFAL, so no official ED cross-check was possible.",
+        "Sector covered was Manufacturing and Hospitality; the only pain point raised (lack of water supply despite paying water taxes/connection) is tangential to the Factory License renewal process itself but is recorded as a participant-raised finding.",
+        "The fee formula as recorded ('Permission Fee = Unit Charge + License Fee' while 'License Fee = H.P. rate x Total H.P + Permission Fee + Processing Fee') is circular as written in the source document; it is reproduced here exactly as reported rather than corrected or reinterpreted."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Despite paying water taxes and connection charges, there is no water supply availability for a long time in this area." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "Renewal of factory license has been merged with Property Tax in Delhi, requiring 5% of the property tax amount to be paid as the license fee — but some users were not aware of this change." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Most participants are not familiar with the process that has to be followed for the new property-tax merger with the existing factory license service." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "No duplication of documents was observed for renewal of Factory License." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "positive", "text": "No delay happened while availing the service, as all seven participants said." },
+        { "source": "fgd", "category": "suggestions", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The department has already eased out service delivery by merging the factory license fee payment with Property Tax." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "There should be greater clarity and awareness about the changes done in policies and procedures." },
+        { "source": "fgd", "category": "remarks", "tags": ["NORMS"], "sentiment": "neutral", "text": "Factory License (and its renewal) now applies to three categories merged with Property Tax: Conforming Industrial Area; DDA/DSIDC/DI Built-up auction/allotted sheds; and Industries Outside Industrial Area." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Renewal charges in the April grace period follow a formula of Permission Fee + Processing Fee (₹1,000 fixed) + Transaction Fee (₹10 fixed) + Convenience Fee." }
+      ],
+      "quotes": [
+        { "speaker": "Participant (R1)", "quote": "The process should be informed if there are changes.", "topic": "Need for change communication", "tags": ["CLARITY"], "sentiment": "suggestion" },
+        { "speaker": "Participant (R2)", "quote": "Pani ka connection hai but pani hai hai.", "topic": "Water supply issue despite paying connection charges (Hindi, as recorded: 'There is a water connection, but [there's] no water')", "tags": ["OTHER"], "sentiment": "issue" },
+        { "speaker": "Participant (R3)", "quote": "Policy change hone ke baad inform bhi krna hota hai", "topic": "Need for notification after policy change (Hindi, as recorded)", "tags": ["CLARITY"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No explicit issuing authority or portal name is given for Factory License renewal in this transcript, beyond the merger with Property Tax." },
+        { "flag": "MISSING", "text": "No explicit validity period in days/years is stated for the renewed license." },
+        { "flag": "VAGUE", "text": "The renewal fee formula as recorded in the source is circular ('Permission Fee = Unit Charge + License Fee' while 'License Fee' itself is defined using 'Permission Fee') — likely a reporting/transcription error that could not be resolved from the transcript alone." },
+        { "flag": "GOOD_PRACTICE", "text": "Merging the Factory License renewal fee payment with the annual Property Tax payment was described by participants/the report as the department having already eased service delivery, with no delay reported by any of the seven participants." }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFiles": ["Delhi_FGD_TLA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Municipal Corporation of Delhi (MCD) — inferred from the suggestion that 'MCD officials should organise awareness programmes', the only explicit naming of an authority in this transcript.",
+      "portal": { "name": "House/property tax payment portal, with the Trade License approval fee payment section embedded within the house tax form; participants report this section was not functioning properly", "url": null },
+      "timeline": {
+        "minDays": 2,
+        "maxDays": 3,
+        "basis": "Participants stated that within 2 to 3 days the trade license gets issued from the concerned department, with a digital certificate copy downloadable from the portal itself.",
+        "text": "Within 2 to 3 days the trade license gets issued from the concerned department, and a digital certificate copy can be downloaded from the portal itself. No delay was reported by participants."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No document checklist was given — participants only noted that no duplication of documents was observed.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants." },
+      "validity": { "text": "Not stated precisely, but the pain point about a 'full-year fee charged for half-year service' implies the license/approval can be granted for a half-year period in some cases, alongside a full-year option; exact validity terms were not detailed." },
+      "fees": { "text": "No specific fee amount is given. Participants reported that even where approval is granted for only half a year, the full annual fee is being charged, which they said disproportionately increases the cost burden on applicants for a shorter period of validity." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Pay trade license approval fee via house tax (property tax) payment form", "automated": "partial", "note": "The section of the house tax form meant for this payment was reported as not functioning properly on the portal." },
+        { "n": 2, "phase": "apply", "title": "Submit trade license application", "automated": "unclear", "note": "Mostly self-filed by the business itself; participants said no intermediary is typically required, though one suggested identifying a common intermediary to save owners' time." },
+        { "n": 3, "phase": "approve", "title": "License issued and digital certificate generated", "automated": true, "note": "Issued within 2-3 days from the concerned department; digital certificate copy can be downloaded directly from the portal." }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B): DL's ED dataset currently has entries only for CTE and FNO, not Trade License Approval, so no official ED cross-check was possible.",
+        "In the source transcript's quotes table, the rows for respondents R2 (Pain Points), R3 (Policy Issues) and R4 (Other Remarks) have blank/empty quote cells — only R1's quote is populated. This is recorded as a data gap rather than invented content.",
+        "Sector covered: Hospitality, Chemicals and Retail."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "The trade license service has been merged with property tax, but no clear instructions or guidelines have been issued regarding this integration; the portal is also not functioning properly, adding to the confusion." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Even where approval is granted for only half a year, the full annual fee is being charged, disproportionately increasing the cost burden on applicants for a shorter period of validity." },
+        { "source": "fgd", "category": "policy", "tags": ["FEES"], "sentiment": "issue", "text": "The policy of charging full-year fees for half-year approval periods creates a financial burden on industries and requires attention." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "issue", "text": "Most participants are not aware of the process that must be followed for the new property-tax merger with the existing trade license service." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "No duplication of documents is observed for Trade License Approval." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "positive", "text": "No delay happened while availing the service, as participants said." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Greater clarity and awareness are required regarding the changes introduced in the relevant policies and procedures." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Proper and timely communication should be disseminated to all concerned stakeholders regarding such changes." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "MCD officials should organise awareness programmes to inform stakeholders of the approval process and the amendments made to the relevant bye-laws." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The Trade License application is mostly filed by businesses themselves, with no intermediary typically required, though a common intermediary could be identified to ease the work and let businesses focus on operations." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE", "TIMELINE"], "sentiment": "positive", "text": "Within 2 to 3 days the trade license gets issued from the concerned department, and a digital certificate copy can be downloaded from the portal itself." }
+      ],
+      "quotes": [
+        { "speaker": "Participant (R1)", "quote": "The house tax form was supposed to include a section to pay the trade license approval fee, but that part was not functioning properly on the portal.", "topic": "Portal payment malfunction", "tags": ["PORTAL"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No specific fee amount is stated; only that the full annual fee is charged even for half-year validity periods." },
+        { "flag": "MISSING", "text": "No document checklist is given beyond the statement that no duplication of documents was observed." },
+        { "flag": "MISSING", "text": "In the source transcript's Key Statements & Quotes table, respondent rows R2, R3 and R4 (tagged Pain Points, Policy Issues and Other Remarks respectively) have empty quote cells — the intended quotes are not available in this document." },
+        { "flag": "GOOD_PRACTICE", "text": "Trade license issuance within 2-3 days with a digital certificate downloadable directly from the portal, and no delay reported by participants." }
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License — Renewal",
+      "sourceFiles": ["Delhi_FGD_TLR.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named as 'MCD' in this transcript's own text, but inferred to be the Municipal Corporation of Delhi based on the house/property tax merger referenced here and the explicit MCD reference in the companion Delhi_FGD_TLA.docx transcript for the same license family.",
+      "portal": { "name": "Municipal (house tax / property tax) payment portal, with the Trade License renewal fee payment section embedded within it; reported as prone to malfunction, lacking corporate net banking/current account payment support, and no longer offering an offline payment counter", "url": null },
+      "timeline": {
+        "minDays": 90,
+        "maxDays": 120,
+        "basis": "Participants stated that online generation of a renewed license does not equate to final approval; physical file movement and departmental objections can extend the process by three to four months (approximately 90-120 days) or longer, with no fixed timeline binding this stage.",
+        "text": "Online generation of a renewed license can happen quickly, but this does not equate to final approval — physical file movement and discretionary departmental objections after online generation can extend the process by three to four months or longer, and are not bound to a fixed timeline."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Registered lease deed (for Health Trade License, food establishments)",
+        "Site plan (for Health Trade License, food establishments)",
+        "Structural safety certificate (for Health Trade License, food establishments)",
+        "Key plan documentation (for Health Trade License, food establishments)",
+        "Entity and premises information already filed under the Shops & Establishments Act, GST, and Companies Act (re-requested for renewal)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants specifically flagged these as redundant/duplicate requirements relative to information or certificates (e.g. a central FSSAI certificate) they already hold — not a complete renewal checklist.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Participants indicated online generation of a renewed license does not equate to final approval; subsequent physical file movement and departmental objections are described as not bound to a fixed timeline, implying no deemed-approval mechanism is currently in effect." },
+      "validity": { "text": "Described as an annual renewal: participants referenced a 'twelve-month fee' and the loss of the unused portion of an already-paid annual fee when a business vacates or relocates before the full licensed period ends (e.g. a twelve-month fee paid but the premises vacated after only three months)." },
+      "fees": { "text": "No standard renewal fee figure is given beyond references to 'the substantial annual fee'. A Health Trade License fee of approximately ₹50,000 was cited by one participant who questioned why it is also levied on holders of a central FSSAI license. A payment-gateway surcharge of roughly 1.8% to 2.08% applies and is undisclosed on the municipal receipt (visible only as a separate bank-statement deduction); one participant (from Reliance Trends) reported this added up to roughly ₹3 lakh over a year. Participants also cited overall annual municipal compliance costs (including signage/advertising levies) of approximately ₹27-28 lakh in Delhi versus approximately ₹10 lakh in Uttar Pradesh for comparable operations." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Pay trade license renewal fee via house tax (property tax) payment form", "automated": "partial", "note": "A malfunction in this section prevented several participants from completing their renewal online despite house tax having been paid." },
+        { "n": 2, "phase": "fee", "title": "Make payment via portal", "automated": "partial", "note": "Portal does not support corporate net banking or corporate current account payments, pushing businesses to personal banking channels or cards with higher transaction charges; offline payment counters have been discontinued; an undisclosed 1.8-2.08% gateway surcharge applies." },
+        { "n": 3, "phase": "approve", "title": "Online generation of renewed license", "automated": true, "note": "Generation itself can happen online, but this is not equivalent to final approval." },
+        { "n": 4, "phase": "scrutiny", "title": "Physical file movement and departmental review/objections", "automated": false, "note": "Can extend the process by three to four months or longer; not bound to a fixed timeline." }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B): DL's ED dataset currently has entries only for CTE and FNO, not Trade License Renewal, so no official ED cross-check was possible.",
+        "Sector covered: Retail. A long-pending, tangential policy issue (DSIIDC industrial shed transfer pending over 8 years since a 2011 policy change) was also raised by participants as a broader example of policy inaction affecting formalisation/credit access — included here as reported context, not as a TLR-process fact.",
+        "Participants questioned the relevance of the trade license itself, noting it is mandated only in Delhi, Karnataka, and Telangana/Andhra Pradesh, and suggested reviewing this national inconsistency."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "Businesses continue to rely heavily on consultants and agents for annual renewal even where the procedural requirement is minimal, largely out of habit and to avoid navigating portal issues directly." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Businesses that vacate or relocate rented premises before the full licensed period ends have no mechanism to recover or transfer the unused portion of an already-paid annual fee, resulting in a direct financial loss." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES", "CLARITY"], "sentiment": "issue", "text": "An undisclosed payment gateway surcharge of approximately 1.8% to 2.08% does not appear on the municipal receipt and is only visible as a separate deduction on the bank statement; one participant reported this added up to ₹3 lakh in a year." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "FEES"], "sentiment": "issue", "text": "The portal does not support corporate net banking or corporate current account payments, pushing businesses toward personal banking channels or cards with the highest transaction charges; offline payment counters have also been discontinued." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Participants question the relevance of the trade license, as it operates only in Delhi, Karnataka, and Telangana/Andhra Pradesh, and is not mandated in other states; they find there is no need for a trade-license-type service." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "The merger of Trade License renewal with property tax remains a transitional, partially implemented policy, with no formal guidance for existing licensees on how to proceed under the new structure." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Following digitisation, the section for paying trade license renewal fees was moved into the house tax payment form; a malfunction in this section prevented several participants from completing their renewal online despite house tax having been paid." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Online generation of a renewed license does not equate to final approval; physical file movement and departmental objections can extend the process by three to four months or longer." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Health Trade License applications for food establishments require a registered lease deed, site plan, structural safety certificate, and key plan documentation similar in scope to factory licensing requirements, even where the establishment already holds a central FSSAI certificate." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Businesses already compliant under the Shops & Establishments Act, GST, and Companies Act are asked to furnish largely the same entity and premises information again for trade license renewal." },
+        { "source": "fgd", "category": "delay", "tags": ["PORTAL"], "sentiment": "issue", "text": "Lack of digital integration between the house tax and trade license payment modules on the portal results in failed or blocked renewals." },
+        { "source": "fgd", "category": "delay", "tags": ["CLARITY"], "sentiment": "issue", "text": "Absence of clear transition guidance for existing licensees under the property-tax merger creates ambiguity on how and where to pay, delaying renewals." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Manual, file-based movement and discretionary departmental objections after online generation are not bound to a fixed timeline." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Long-pending policy vacuums in adjacent processes (e.g. DSIIDC industrial shed transfers pending since a 2011 policy change) indirectly affect business formalisation and access to credit; one participant could not transfer the shed to his name despite meeting with a minister, who reportedly had no answer." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Introduce a refund or fee-transfer mechanism for businesses that vacate or relocate licensed premises before the full paid period lapses." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES", "DUPDOC"], "sentiment": "suggestion", "text": "Waive or reduce the Health Trade License fee for establishments that already hold a valid central FSSAI license, to eliminate duplicate levy for the same compliance objective." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "FEES", "CLARITY"], "sentiment": "suggestion", "text": "Enable corporate net banking and current account payment options on the municipal portal, disclose payment gateway surcharges upfront on the receipt, and consider restoring an offline payment option." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Issue clear transition guidelines for existing licensees under the trade license-property tax merger." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Review the national inconsistency in trade license applicability across states and consider aligning Delhi's framework with simplified regimes in states that do not mandate a separate license for standard commercial establishments." },
+        { "source": "fgd", "category": "suggestions", "tags": ["FEES"], "sentiment": "suggestion", "text": "Reassess signage/advertising tax to distinguish between public hoarding space usage and self-identification signage mounted on a business's own premises." },
+        { "source": "fgd", "category": "remarks", "tags": ["FEES"], "sentiment": "neutral", "text": "Participants cited a wide disparity in overall annual municipal compliance costs between Delhi (approximately ₹27-28 lakh across establishments) and Uttar Pradesh (approximately ₹10 lakh) for comparable operations, attributing much of the difference to Delhi's signage and advertising levies." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "issue", "text": "A long-pending DSIIDC industrial shed transfer (over eight years, despite fees having been paid) was raised as a broader example of policy inaction constraining participants' ability to access credit or formalise operations." },
+        { "source": "fgd", "category": "remarks", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Recurring disputes arise between landlords and tenants when a trade license renewal triggers a property inspection, as landlords may under-declare commercial tenancy to avoid a higher municipal tax slab, creating friction for the tenant seeking renewal." }
+      ],
+      "quotes": [
+        { "speaker": "Participant (R1)", "quote": "The house tax form was supposed to include a section to pay the trade license renewal fee, but that part was not functioning properly on the portal.", "topic": "Portal payment malfunction", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant (R2)", "quote": "If I vacate the godown before the year is up, the substantial annual fee already paid goes completely to waste.", "topic": "No fee refund/transfer on early vacation", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Participant (R3)", "quote": "If a business already holds a central FSSAI license, why should MCD levy another ₹50,000 health trade license fee?", "topic": "Duplicate levy vs FSSAI", "tags": ["DUPDOC", "FEES"], "sentiment": "issue" },
+        { "speaker": "Participant (R4)", "quote": "How can programs like 'Make in India' succeed under such administrative delays?", "topic": "Administrative delay impact", "tags": ["TIMELINE"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No standard trade license renewal fee amount is given; only the Health Trade License figure (~₹50,000) and the gateway surcharge percentage are quantified." },
+        { "flag": "MISSING", "text": "The issuing authority is not explicitly named as MCD within this transcript's own text — inferred from context and the companion TLA transcript." },
+        { "flag": "VAGUE", "text": "'Online generation does not equate to final approval' is stated, but no maximum timeline or deemed-approval rule is given for the subsequent physical-file-movement/objection stage, which participants describe as open-ended ('not bound to a fixed timeline')." },
+        { "flag": "REFORM", "text": "Suggested reforms: a refund/fee-transfer mechanism for early vacation; waiver of the Health Trade License fee for FSSAI holders; corporate banking payment support with upfront surcharge disclosure; clear transition guidance for the property-tax merger; review of cross-state trade-license applicability inconsistency." }
+      ]
+    }
+  ]
+}

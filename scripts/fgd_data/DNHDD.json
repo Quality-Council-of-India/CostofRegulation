@@ -1,0 +1,4092 @@
+{
+  "code": "DNHDD",
+  "name": "Dadra and Nagar Haveli and Daman and Diu",
+  "licenses": [
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFiles": [
+        "DD_FGD_FAL.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES",
+            "TIMELINE",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Where an enterprise depends on institutional bank loans or government tender based supply contracts, delays in obtaining the factory licence carry a direct financial cost, since loan disbursement or billing cannot begin until the licence and pollution clearance are in place, adding to the interest cost burden while the applicant waits."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Smaller enterprises without dedicated technical staff often need to engage a consultant for factory layout drawings and technical paperwork, at a cost of roughly ₹30,000, specifically to avoid documentation errors and repeated queries."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Beyond the consultant's fee, machinery and equipment must meet specifications required under the factory licence, so units incur purchase cost to meet the compliance standard, separate from what they would otherwise spend to build production capacity."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Local telecom and internet infrastructure in industrial belts can occasionally stall online submissions, particularly during heavy monsoons."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Statutory obligations such as ambulance or crèche provisions apply only once workforce thresholds are crossed (e.g., above 500 workers); participants felt Daman/DNH does not offer the kind of graduated, tiered compliance timeline that some other states extend to newer or lower-risk units to phase in such obligations."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CONSULT",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Consultants engaged for factory licensing are not officially empanelled or registered with the department, unlike architects (OBPS portal) or water-compliance auditors in the same regulatory ecosystem, leaving service quality and accountability inconsistent."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "The application process is almost entirely online; participants did not report using an offline route."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "The department publishes a clear checklist on its portal, and once listed documents are ready, completing and submitting the application takes about 30-45 minutes."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT",
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Physical inspection is not required for standard, self-declaration based (typically Green category) factory licensing; inspection becomes necessary only for higher-risk (Orange/Red) categories."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Participants described a deemed-approval provision for factory licensing: if the department neither raises a query nor takes any action within 25 days of submission, the application is treated as approved by default."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Related industry services — Factory Licensing, Pollution Control Clearance, Town Planning, and Power — are accessible through the National Single Window Portal."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "positive",
+          "text": "No redundant or duplicate documentation was reported; participants described the checklist (building layout drawings, land ownership/title records, rent or purchase agreement, fire department permission) as clear and non-repetitive."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY",
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "Delays occur mainly when the department raises a query due to incomplete documentation; the processing clock pauses until the applicant responds."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INSPECT",
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "Categories where physical inspection is mandated (Orange/Red) take slightly longer — up to around 25 days — compared with standard self-declaration applications not subject to a site visit."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Introduce a transition period along the lines of Gujarat's practice, where green/low-risk category units may commence operations on self-declaration/intimation, with up to two to three years to complete peripheral compliances after operations start."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Strengthen telecom and internet infrastructure in industrial belts to prevent monsoon-related connectivity outages from stalling online submissions."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Consider formal empanelment or registration of consultants engaged for factory licensing, comparable to the registration required of architects or certified water-compliance auditors."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Participants described the department's officers and online portals as responsive and supportive, communicating via SMS, email, and dedicated departmental WhatsApp groups."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "CAPACITY",
+            "CONSULT"
+          ],
+          "sentiment": "neutral",
+          "text": "Larger organisations with dedicated HR/admin teams tend to process applications in-house, while smaller enterprises more often rely on consultants to avoid clerical errors and repeated queries."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Statutory fees are calculated automatically on the portal based on connected electrical load (HP/KW), number of workers, and pollution category (Green/Orange/Red); participants cited an example fee of roughly ₹22,000, with no hidden charges reported."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "R1",
+          "quote": "Delays typically happen only if the department raises a query due to incomplete documentation. If a query is raised, the clock pauses until the applicant responds.",
+          "topic": "Delay driver",
+          "tags": [
+            "QUERY",
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R2",
+          "quote": "I engaged a consultant to get it expedited for the factory layout designs and technical paperwork, so it could be processed quickly without errors, but the fee is high for the service.",
+          "topic": "Consultant cost",
+          "tags": [
+            "CONSULT",
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R1",
+          "quote": "In regions like Gujarat, green/low risk category industries are given a transition period of up to two to three years to complete peripheral compliances after starting operations.",
+          "topic": "Cross-state benchmark",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "R1",
+          "quote": "The online portals and staff in Dadra & Nagar Haveli and Daman are extremely responsive and supportive.",
+          "topic": "Portal and staff responsiveness",
+          "tags": [
+            "POSITIVE",
+            "PORTAL"
+          ],
+          "sentiment": "positive"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED states there is no deemed approval provision for the Factory License, with approval granted only after departmental scrutiny and a safety officer site inspection are actually completed. FGD participants instead describe a deemed-approval provision applying if the department neither raises a query nor takes action within 25 days of submission, after which the application is treated as approved by default."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "FGD participants corroborate the ED's positive picture of the EODB portal: fully online application, a clear non-repetitive document checklist, portal-automated fee calculation, and no hidden charges reported."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "FGD does not confirm the ED's full 7-document checklist or the ~Rs. 1 lakh fee ceiling/validity-slab details that the ED itself flagged as unconfirmed; participants instead cited a different, smaller example fee (~₹22,000) tied to connected load, without addressing the ceiling question directly."
+        }
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License — Approval",
+      "sourceFiles": [
+        "DD_FGD_TLA.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY",
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "The checklist requires little more than a photo ID and a lease/rent agreement; in practice, however, applications can drop into a 'pending' status over document issues and need to be resubmitted."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Businesses whose activity falls outside standard retail trade need more than the trade license to open: petroleum-related outlets, food service establishments, and salons were all cited as requiring additional clearances."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Trade license fees vary by category rather than a flat rate: the Daman Municipal Council's schedule ranges from roughly ₹1,000 for a hair-cutting salon up to ₹40,000 for higher-risk categories such as a distillery, with restaurants, petrol/CNG dealers, and cafes each positioned at their own point on that scale."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Food service businesses are subject to a second layer of approval, requiring Health Department/Food Inspector clearance in addition to the municipal trade license itself."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE",
+            "CLARITY"
+          ],
+          "sentiment": "neutral",
+          "text": "The 'deemed approval' concept raised in the discussion aligns with the UT's own time-bound service delivery framework under the Public Service Guarantee Act / Samay Sudhini Seva provisions."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The process runs partly offline in practice; participants' comments suggest an offline component still exists alongside the online channel."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY",
+            "GRIEVANCE"
+          ],
+          "sentiment": "neutral",
+          "text": "On rejection, applicants are notified of a stated reason by SMS/email and are required to correct the issue and resubmit."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "The process includes an inspection step for at least some applications, as referenced in the discussion."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral",
+          "text": "Renewal is due by 31 March each year, with a penalty applicable for filing after that date."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "neutral",
+          "text": "The discussion did not yield anything specific or reliable on redundant or duplicate documents; the base document list (photo ID, lease/rent agreement) is short, leaving little scope for duplication."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Applications go into a 'pending' state when flagged as incomplete, leaving the applicant to notice, correct, and resubmit the issue."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Sector-specific clearances, such as Health Department sign-off for food businesses, sit outside the municipal process and can hold up a business's ability to open even once the trade license itself is in hand."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY",
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Sharpen rejection messaging and status visibility, so applicants have clarity on what 'pending' status means and exactly what needs correction."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP",
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Combine the municipal and Health Department requirements into a single checklist for food service, personal care, and other sector-linked trades."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Publicise the time-bound/deemed-approval protections already provided under the UT's service guarantee rules, so applicants know the option exists."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "In one case, the business was a petroleum-related outlet, which aligns with the municipal fee schedule's distinct, higher fee bracket for that category of trade."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "The license is basically applied for an online rent or lease agreement plus basic ID and contact details for the shop — that's really all that's needed.",
+          "topic": "Minimal checklist",
+          "tags": [
+            "PORTAL",
+            "CLARITY"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "If documents come up incomplete, the application just sits as 'pending'; you have to notice it yourself and resubmit.",
+          "topic": "Pending status ambiguity",
+          "tags": [
+            "QUERY",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant (service/salon)",
+          "quote": "Food service and personal care businesses need separate health department or food inspector clearance on top of the standard trade license.",
+          "topic": "Additional sector clearance",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Renewal is due by 31 March, and there's a penalty if you file after that date.",
+          "topic": "Renewal deadline",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Ours is a petroleum outlet, so we sit in our own, higher fee bracket under the municipal schedule.",
+          "topic": "Category-based fee",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED describes the Trade License service as delivered end to end through the EODB Single Window Portal with automationLevel 'full' and 'no step flagged as requiring offline submission.' FGD participants instead describe the process as running 'partly offline in practice,' with an offline component existing alongside the online channel."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "ED flagged the deemed-approval status for Trade License approval as unclear (whether the 7-working-day window produces automatic deemed approval or is only a service-delivery target). FGD participants likewise did not resolve this specifically for TLA, only noting that the concept aligns with a general UT-wide time-bound service guarantee framework (Public Service Guarantee Act / Samay Sudhini Seva)."
+        },
+        {
+          "flag": "REFORM",
+          "text": "FGD-side suggestions supplementing the ED record: sharpen rejection messaging/status visibility for 'pending' applications; combine municipal and Health Department requirements into a single sector checklist; publicise the deemed-approval/service-guarantee protections that already exist."
+        }
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License — Renewal",
+      "sourceFiles": [
+        "DD_FGD_TLR.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC",
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants are required to repeat the same paperwork every year even where nothing in the business has changed: the rent/lease agreement and basic property details must be resubmitted annually."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Participants who compared fee amounts across seemingly similar trades found no shared logic, with figures cited as different as roughly ₹2,000 and ₹5,000 for what appeared to be comparable businesses."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Whether a premise is licensed correctly can turn on whether it counts as commercial or residential use, an assessment one respondent suggested is not always straightforward."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY",
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "Deemed approval remains largely unknown among participants; one respondent had not heard of the safeguard until it was explained during the discussion — a general 30-day rule applies under the UT's Public Service Guarantee Act/Samay Sudhini Seva provisions, but the respondent showed no confidence in invoking it independently."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The fee category logic remains opaque to applicants: charges vary by trade (jewellery and education were both named) and reportedly by shop size, but no participant could say where the schedule is published or how brackets are set; jewellery establishments fall in a roughly ₹10,000-13,000 bracket."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "One participant's renewal fee rose from roughly ₹3,000 to ₹5,500 over two to three years, with no reason communicated for the increase."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY",
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Trade-specific requirements (a fire NOC for one participant's business, mandatory equipment for jewellery-type trades) remain uncompiled in a single checklist, applying only to the categories directly affected."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "neutral",
+          "text": "The process is routed entirely online through the DMC/municipal portal, with no offline option currently available."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Approval confirmation typically takes roughly four to five days when documentation is in order, though timelines were also said to stretch to fifteen or twenty days, and sometimes close to a month, during busier periods such as April."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "neutral",
+          "text": "Rejected or incomplete submissions are flagged back to the applicant, typically by message and sometimes by phone call, leaving the applicant to correct and resubmit."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Field inspections fall on an unpredictable schedule (one participant linked visits to the period after Republic Day rather than a fixed calendar) and can surface issues such as a lapsed licence."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "neutral",
+          "text": "The same documentation is carried over at renewal where business name, ownership, and location are unchanged; a change in ownership or registered name requires fresh documentation."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants resubmit essentially the same rent/property paperwork at every annual renewal for an unchanged business, a recurring source of friction even though the underlying facts had not changed."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Turnaround can stretch from a matter of days to several weeks during specific periods (April among them) due to backlog, with document rejections requiring correction and resubmission."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Inspections can surface related issues, such as a licence found to have lapsed at the time of a field visit, which participants connected to penalty exposure."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Publish a transparent, category- and size-based fee schedule so businesses understand upfront how their renewal charge is calculated."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Reintroduce or formalise an offline channel alongside the online portal for applicants less comfortable with a fully digital filing process."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY",
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Communicate the deemed-approval safeguard proactively so applicants know they have recourse if DMC doesn't act within its own stated timeline."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY",
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Provide a single, sector-specific checklist of NOCs and supporting documents (e.g., fire NOC or equipment-related requirements) so businesses know what applies to their trade category before they begin."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC",
+            "RENEWAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Consider a simplified renewal path for businesses with no change in ownership or premises, skipping re-upload of identical property documentation every year."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry user",
+          "quote": "Approval confirmation message typically arrives within four to five days of applying, though timelines were also described as stretching to fifteen to twenty days or even a month depending on backlog.",
+          "topic": "Timeline variability",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user (jewellery trade)",
+          "quote": "Referred to the renewal charge as falling in the approximate range of ten to thirteen thousand rupees, depending on shop size and business category.",
+          "topic": "Jewellery fee bracket",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Said they were not aware that a deemed approval safeguard exists for cases where the municipal timeline is missed.",
+          "topic": "Deemed approval awareness",
+          "tags": [
+            "CLARITY",
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Note their annual fee had gone up from about three thousand rupees to about fifty five hundred rupees within two to three years, with no reason communicated for the rise.",
+          "topic": "Unexplained fee increase",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Suggested that the government reintroduce an offline filing option alongside the online portal for applicants who find the fully digital process difficult.",
+          "topic": "Offline channel suggestion",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED states the notified timeline for this service (single entry on the EODB portal) is 7 working days. FGD participants describe actual turnaround as typically 4-5 days when documentation is in order, but stretching to 15-20 days or close to a month during busy periods such as April — a materially wider and slower range than the ED's single notified figure."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED states 'no deemed approval provision is notified for Trade License registration or renewal; approval is granted only on active departmental clearance.' FGD participants instead describe a general 30-day deemed-approval-like safeguard under the UT's Public Service Guarantee Act/Samay Sudhini Seva provisions, after which DMC's inaction is meant to let the process proceed — though most participants were unaware of it and had no confidence invoking it."
+        },
+        {
+          "flag": "REFORM",
+          "text": "FGD-side suggestions supplementing the ED record: publish a transparent category/size-based fee schedule; reintroduce an offline filing channel; proactively communicate the deemed-approval safeguard; provide a single sector-specific NOC/document checklist; introduce a simplified no-change renewal path."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Unlike the ED session for this service, which the ED document itself noted had leaned toward fresh registration/name approval rather than renewal specifically, this FGD session substantively covered renewal-specific business experience (annual repeat paperwork, fee opacity, deemed-approval awareness), partly filling the gap the ED record flagged for follow-up."
+        }
+      ]
+    },
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": [
+        "DD_FGD_CTE.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Pollution Control Committee (PCC), Dadra and Nagar Haveli and Daman and Diu",
+      "portal": {
+        "name": "Online application portal for CTE (specific name not stated in this session)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": 45,
+        "basis": "Participant testimony; no official statutory timeline was cited",
+        "text": "Participants described CTE as typically granted within roughly 30-45 days (one to 1.5 months) once the mandatory site inspection and portal-based query resolution cycle is complete; one participant specifically cited 30-35 days."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No concrete document checklist was enumerated by participants beyond a general reference to bylaws-prescribed equipment, machinery and record-keeping requirements attached to the CTE checklist.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Participants indicated a deemed-approval provision exists by design but 'does not function automatically in practice; clearances require explicit sign-off from the department.' No specific day count was cited."
+      },
+      "validity": {
+        "text": "Not specified in the discussion; participants noted that CTE renewal requires a fresh sample analysis, separate from what was submitted at the original establishment stage, but no specific validity duration was stated."
+      },
+      "fees": {
+        "text": "Consultant fees for CTE-related filings were cited at roughly ₹20,000-25,000 as a composite package inclusive of GST and allied paperwork, described as lower than metro rates. Statutory fees scale with the capital investment slab of the unit; participants cited approximately ₹25,000 per year (or ₹1,25,000 for a five-year consent tenure) for smaller units, rising proportionately for larger capital brackets."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant submits CTE application online via the portal",
+          "automated": true,
+          "note": "A well-prepared applicant can complete the upload in about two hours without consultant assistance; MSMEs without in-house compliance capacity typically engage a consultant found through informal/word-of-mouth referral."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "PCC classifies the unit by pollution potential (Green/White/Orange/Red category)",
+          "automated": "partial",
+          "note": "Classification determines which compliance obligations apply, e.g., exemption from Effluent Treatment Plant requirement for zero-discharge units."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "PCC reviews documents against the bylaws-based checklist and logs any queries online",
+          "automated": "partial",
+          "note": "Queries must be resolved on the portal before the application can proceed."
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "PCC conducts a mandatory physical inspection of the site",
+          "automated": false,
+          "note": "Applies irrespective of pollution category; lower-risk (Green/White) units are not inspected any faster than higher-risk units, so procedural timelines end up comparable across categories."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Department issues CTE on explicit sign-off",
+          "automated": false,
+          "note": "Deemed-approval provisions were described as not functioning automatically in practice; clearance requires explicit departmental sign-off."
+        }
+      ],
+      "remarks": [
+        "This record is FGD-only and has not been verified against an official ED source; the Expert Discussion pass did not reach Consent to Establish for this state.",
+        "Participants referenced the differential between DNH's power tariffs and those in neighbouring Maharashtra and Gujarat, and noted that recent tariff revisions combined with rising land costs are seen as narrowing DNH's earlier locational advantage — raised as a broader cost-of-doing-business factor rather than one tied specifically to the CTE process.",
+        "Participants also raised operational challenges outside CTE itself, including local labour retention and workforce stability, as factors affecting overall ease of doing business."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "For MSME participants, obtaining CTE in practice leaves little alternative to hiring an external consultant, since most small units have no dedicated in-house compliance function; one participant's consultant was found through informal, word-of-mouth referral."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Beyond the consultant's fee, the bylaws attached to the checklist prescribe specific equipment, machinery, and record-keeping, so units incur cost simply to satisfy the compliance standard, independent of what the plant would otherwise need for production."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "A related cost is the salary paid to technical and managerial staff engaged ahead of commissioning to prepare and pursue the application; this cost accrues from hiring through to approval, even though the staff's time is not yet contributing to production."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS",
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Specific equipment, machinery, and documentation items prescribed by the bylaws attached to the CTE checklist are mandatory — a unit cannot substitute a lower-cost alternative even where one exists."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "Participants referred to the differential between DNH's power tariffs and those in neighbouring Maharashtra and Gujarat, and to how recent tariff revisions combined with rising land costs are narrowing DNH's earlier locational advantage."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "CTE is granted by the Pollution Control Committee (PCC); the process includes a mandatory physical inspection in addition to document review, with queries logged and resolved online before the application can proceed."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "neutral",
+          "text": "At the renewal stage, a fresh sample analysis is required as part of consent renewal, separate from what is submitted at the original establishment stage."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "positive",
+          "text": "Units are classified by pollution potential (Green/White/Orange/Red); a zero-discharge unit with no liquid effluent was exempted from the Effluent Treatment Plant requirement applicable to units generating liquid effluent."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "NORMS",
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Lower-risk (White category) units are not processed any faster: the same sequence of document review, portal-based query resolution, and mandatory site inspection applies irrespective of category, so procedural timelines end up comparable to higher-risk units despite a materially lighter environmental review burden."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Participants described having to respond to repeated document requests as applications moved through the portal, though no specific duplicate document or resubmission instance was named."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY",
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Delay was attributed less to any single step and more to the cumulative effect of sequential requirements: the mandatory field inspection, portal-based queries each needing resolution, and for MSMEs, added turnaround from routing documentation through an external consultant."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Land carrying cost, machinery investment, and pre-commissioning staff salaries continue to accrue regardless of how quickly regulatory steps clear, making the inspection/query cycle a meaningful driver of pre-operational cost even though CTE itself was typically granted within roughly 30-45 days."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE",
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Ensure deemed-approval provisions function automatically as designed, rather than still requiring a separate explicit sign-off from the department."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Introduce differentiated, faster processing for lower-risk (Green/White category) units so procedural timelines reflect their comparatively lighter environmental review burden."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE",
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "The online application portal was described as intuitive enough that a well-prepared applicant could complete the upload in about two hours without consultant assistance."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES",
+            "CONSULT"
+          ],
+          "sentiment": "neutral",
+          "text": "Consultant fees for CTE filings were cited at roughly ₹20,000-25,000 (composite, inclusive of GST/paperwork), lower than metro rates; statutory fees scale with capital investment, roughly ₹25,000/year or ₹1,25,000 for a five-year consent tenure for smaller units."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "CONSULT",
+            "CAPACITY"
+          ],
+          "sentiment": "neutral",
+          "text": "Fear of non-compliance was cited as the reason smaller entrepreneurs continue to rely on external consultants, whereas larger corporates absorb this function through dedicated in-house legal and compliance teams."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "Participants also raised operational challenges outside CTE itself, including local labour retention and workforce stability, as factors affecting overall ease of doing business."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry user",
+          "quote": "CTE was granted within 1 to 1.5 months. However, obtaining Consent to Operate (CTO) often takes considerable time, sometimes up to a year or more.",
+          "topic": "CTE timeline vs CTO delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Deemed approvals do not function automatically in practice; clearances require explicit sign-off from the department.",
+          "topic": "Deemed approval gap",
+          "tags": [
+            "TIMELINE",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "While CTE clearances come through in 30-35 days, repeated documentation requisitions remain a friction point for MSMEs; post commissioning CTO bottlenecks are a separate, later stage issue.",
+          "topic": "Documentation friction",
+          "tags": [
+            "DUPDOC",
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Fear of regulatory non compliance leads smaller entrepreneurs to rely on external intermediaries, whereas large corporations manage filings via dedicated in-house compliance and legal divisions.",
+          "topic": "Consultant reliance driver",
+          "tags": [
+            "CONSULT",
+            "CAPACITY"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific document checklist was enumerated in the discussion beyond a general reference to bylaws-prescribed equipment, machinery and record-keeping requirements."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Exact validity period/duration of the CTE was not stated; only that renewal requires a fresh sample analysis."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Whether a deemed-approval provision formally exists on paper (with a specific day count) but fails to function automatically, or whether no deemed-approval provision exists at all, was not clarified — participants only described that explicit department sign-off is practically required."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Whether the applicant is required to visit any office in person beyond the PCC's own site inspection was not addressed."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "The online application portal was described as intuitive enough for a well-prepared applicant to complete the upload in about two hours without consultant assistance."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested: ensure deemed-approval functions automatically as designed; introduce differentiated, faster processing for lower-risk (Green/White) category units."
+        }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": [
+        "DD_FGD_CTO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named in this session (presumed Pollution Control Committee, consistent with the related CTE/renewal-of-CTO sessions for this state, but not confirmed here).",
+      "portal": {
+        "name": "Online Single Window System (specific portal name not stated)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": null,
+        "basis": "Participants cited a stated 30-day processing timeline, with deemed approval applying only where no query is raised during that period",
+        "text": "A stated 30-day processing timeline was cited, with deemed approval applying only if no query is raised in that window. In the case discussed, a query was raised, extending the overall approval timeline to approximately eight months; participants referenced other instances where approval had still not been granted after a year."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No concrete document checklist for the CTO application itself was enumerated; participants instead described recurring compliance activities (environmental audit, air/water monitoring) as standard ongoing requirements.",
+      "deemedApproval": {
+        "status": "yes",
+        "days": 30,
+        "text": "A 30-day deemed-approval mechanism was described, but it functions only in the absence of a department query; once a query is raised, the clock pauses with no defined outer limit on resolution and any subsequent re-processing."
+      },
+      "validity": {
+        "text": "Not specified in this session (see the Renewal of Consent to Operate FGD for renewal-cycle length by category)."
+      },
+      "fees": {
+        "text": "Statutory fees are tiered by Gross Capital Investment (GCI) slabs — below ₹5 crore, ₹5-10 crore, and above — for a five-year consent period. Recurring compliance costs include an environmental audit report at approximately ₹35,000-40,000 per audit, with annual air/water testing and monitoring totalling roughly ₹50,000-75,000; a Sewage Treatment Plant was cited at around ₹6-8 lakh (5-10 KLD capacity), rising to ₹10-12 lakh for a 25 KLD setup."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Business prepares and files the CTO application via the online Single Window System",
+          "automated": true,
+          "note": "Larger firms with experienced staff prepare and submit entirely in-house; less experienced/first-time applicants rely on consultants."
+        },
+        {
+          "n": 2,
+          "phase": "fee",
+          "title": "Applicant uploads documents and pays fees digitally",
+          "automated": true
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Department reviews the application and may raise a query",
+          "automated": "partial",
+          "note": "Raising a query pauses the 30-day deemed-approval clock."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Applicant resolves any query; re-processing follows",
+          "automated": "partial",
+          "note": "No defined outer limit on resolution/re-processing time; in the case discussed this stage extended the total timeline to roughly eight months, and other cases remained unresolved beyond a year."
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Department conducts inspections, including unannounced site visits, as standard ongoing monitoring",
+          "automated": false
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "CTO is granted — by deemed approval if no query is raised within 30 days, or on active departmental clearance once any query is resolved",
+          "automated": "partial"
+        }
+      ],
+      "remarks": [
+        "For listed companies, a material CTO-related regulatory non-compliance (refusal, suspension, cancellation, or material operational impact) may trigger disclosure obligations under SEBI LODR; participants felt monetary penalties are often modest but the associated disclosure and market-standing scrutiny are the more significant consequence.",
+        "Larger, multi-state corporations described using internal compliance tracking software or a legal register generating renewal alerts three to six months ahead of expiry; the cost of maintaining such systems was placed in participants' own substantive cost category rather than treated as a feature of the government-side process.",
+        "One participant referenced Tamil Nadu as having a notable CTO administration practice worth examining as a benchmark, though it was not elaborated upon.",
+        "This record is FGD-only and has not been verified against an official ED source; the Expert Discussion pass did not reach Consent to Operate for this state."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Even where Daman follows a stated 30-day CTO processing timeline, the deemed-approval mechanism applies only where no query is raised; in the case discussed, a query extended the overall approval timeline to approximately eight months."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Environmental audit and monitoring costs are recurring and substantial: an audit report at approximately ₹35,000-40,000 per audit, with annual air/water testing and monitoring totalling roughly ₹50,000-75,000."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Pollution control infrastructure represents a significant one-time capital outlay: a Sewage Treatment Plant of 5-10 KLD capacity was cited at around ₹6-8 lakh, rising to ₹10-12 lakh for a 25 KLD setup."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "neutral",
+          "text": "For listed companies, a material CTO-related regulatory non-compliance may trigger disclosure obligations under SEBI LODR, adding securities-law, reputational and market-standing implications on top of environmental and operational risk."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE",
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "The 30-day deemed-approval mechanism functions only in the absence of a query; once raised, the clock pauses, with no defined outer limit on how long query resolution and any subsequent re-processing may take."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "neutral",
+          "text": "Filing capability for CTO varies with company size: larger firms represented in the discussion prepared and submitted entirely in-house, while less experienced or first-time applicants continue to depend on consultants."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "For Red category industries, renewal typically involves a technical committee review plus an environmental compliance audit; in Daman, a clean compliance history is processed with comparatively less additional scrutiny, though participants cautioned this may not apply uniformly across all State Pollution Control Boards."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Inspections by the environment department, including unannounced site visits, are a standard part of monitoring compliance under CTO."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No redundant or duplicate documentation issues were raised; participants indicated the application process, since digitisation, has not felt repetitive the way it may have prior to the online system."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "The primary reason cited for delay was that once a query is raised, the 30-day deemed-approval clock stops, and resolution/re-processing is subject to no defined outer limit; in the case discussed this extended the overall timeline to approximately eight months, with other instances still pending after a year."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE",
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants pointed to the need for a defined outer time limit on query resolution and re-processing, so the deemed-approval mechanism functions as intended rather than being effectively negated once a query is raised."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "One participant referenced Tamil Nadu as having a notable CTO administration practice that could be examined as a benchmark, though not elaborated upon."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Statutory fees for CTO are tiered by Gross Capital Investment (GCI) slabs (below ₹5 crore, ₹5-10 crore, and above) for a five-year consent period."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "neutral",
+          "text": "Maintaining full compliance is treated as critical since any regulatory violation or penalty for a listed company must be disclosed to SEBI; the disclosure and resulting scrutiny of share price/market standing can outweigh the monetary penalty itself."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE",
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "The transition to the online Single Window System standardised the application form, enabled digital document uploads and fee payments, and shifted query notifications to SMS/email, removing the need for physical department visits and cutting follow-up costs/delays."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "neutral",
+          "text": "Larger, multi-state corporations use internal compliance tracking software or a legal register generating renewal alerts three to six months ahead of expiry; participants treat the cost of maintaining such systems as their own, not a feature of the government-side process."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "neutral",
+          "text": "Recurring compliance activities — emissions monitoring, ambient air monitoring, wastewater analysis, and an annual environmental audit — are standard ongoing requirements under CTO rather than one-time steps."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "R1",
+          "quote": "It took around 8 months in our case because queries were raised.",
+          "topic": "Deemed approval defeated by query",
+          "tags": [
+            "TIMELINE",
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R1",
+          "quote": "Daman has a 30 day timeline rule for processing after submission; if no query is raised within that period, it can be considered deemed approval, but practically, if a query is raised, the clock stops.",
+          "topic": "Deemed approval mechanics",
+          "tags": [
+            "TIMELINE",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R1",
+          "quote": "The online portal has significantly streamlined things. It has eliminated the need to visit departments physically, drastically cutting down unnecessary delays and physical follow up costs.",
+          "topic": "Portal benefit",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "R2",
+          "quote": "An environmental audit report usually costs around ₹35,000 to ₹40,000 per audit. Annual testing and monitoring expenses come to roughly ₹50,000 to ₹75,000.",
+          "topic": "Recurring compliance cost",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "R2",
+          "quote": "Ensuring 100% compliance is critical because any regulatory violation or penalty for a listed company must be disclosed to SEBI, which negatively impacts company reputation and market standing.",
+          "topic": "SEBI disclosure risk",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "The specific issuing authority (department/designation) for Consent to Operate was not named in this session."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Validity period and renewal cycle length for the initial CTO were not detailed in this session (renewal-specific cadence is covered separately in the Renewal of Consent to Operate FGD)."
+        },
+        {
+          "flag": "MISSING",
+          "text": "A concrete document checklist for the CTO application itself was not enumerated."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Whether the 30-day deemed-approval mechanism has any outer limit on query resolution and re-processing was not clarified — participants described it as open-ended, with at least one case still pending after a year."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Transition to the online Single Window System was described as standardising the application form, enabling digital document uploads/fee payments, and eliminating the need for physical department visits."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested: define a bounded outer time limit on query resolution and re-processing so the deemed-approval mechanism functions as intended."
+        }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": [
+        "DD_FGD_FNO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named in the discussion (presumed Fire Department, but not confirmed by title).",
+      "portal": {
+        "name": "State and/or National Single Window Portal (not precisely named; integration described as a work in progress rather than fully seamless)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 13,
+        "maxDays": 30,
+        "basis": "Participant testimony; no single stated statutory figure — timeline reported to vary by risk category",
+        "text": "Approval timelines appeared to vary by category: one figure cited was roughly thirteen days for at least one category, while other references pointed to a much longer window, closer to a month."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. This session was reported by the note-taker as difficult to follow in parts; no concrete document list, fee figures, or firm deemed-approval status could be reliably extracted. A roughly nine-to-ten point checklist was referenced but not itemized.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not discussed as a formal deemed-approval provision in this session; only the category-based approval timeline (roughly 13 days to about a month) was referenced."
+      },
+      "validity": {
+        "text": "Renewal periodicity sounded inconsistent in the conversation; both three-year and five-year renewal cycles were referenced at different points, without a clear reconciliation of which applies when."
+      },
+      "fees": {
+        "text": "No fee figures (government fee, consultant fee, or equipment/AMC cost) were cited by participants in this session."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Application filed online through a state and/or national single window portal",
+          "automated": "partial",
+          "note": "Integration across portals described as still a work in progress."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Department evaluates the application against a checklist and risk-based category",
+          "automated": "partial",
+          "note": "A 'high risk' category was referenced as carrying a more demanding fire compliance track."
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "Compliance verification activities referenced, including fire extinguisher usage training/demonstration and AMC-tied documentation",
+          "automated": false,
+          "note": "Specific sequencing of a formal pre-approval inspection step was not clearly described in this session."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Approval granted, with timelines reported to vary by category (roughly 13 days to about a month)",
+          "automated": "partial"
+        },
+        {
+          "n": 5,
+          "phase": "renew",
+          "title": "Renewal due on a cycle described inconsistently as either three or five years",
+          "automated": null,
+          "note": "Participants could not reconcile which cycle applies."
+        }
+      ],
+      "remarks": [
+        "This record is FGD-only and has not been verified against an official ED source; the Expert Discussion pass did not reach Fire NOC for this state.",
+        "Much of this session's exchange was reported as hard to follow; findings below reflect only what could be clearly extracted from the transcript.",
+        "No participant in the room had visited or compared practices with any other state, limiting the discussion's ability to surface state-level best-practice comparisons."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Compliance responsibility for firefighting equipment often sits with a third-party AMC (Annual Maintenance Contract) vendor, described as a recurring, ongoing cost rather than a one-time expense tied to the original NOC."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "The cost of fire safety equipment itself came through as a major compliance driver, alongside the space needed to house and maintain that equipment on the premises."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Multiple inspection cadences were referenced together: quarterly checks, a six-month emergency drill, and an annual equipment compliance requirement."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "RENEWAL",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Renewal periodicity sounded inconsistent — both three-year and five-year renewal cycles were referenced at different points, without a clear reconciliation of which applies when."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Industries appear to be placed on a risk-based category, with participants referencing a 'high risk' category that carries its own, more demanding fire compliance track."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "A checklist referenced in the discussion (roughly nine to ten points) appears to define baseline documentation and compliance requirements, but was not described as being consistently or clearly communicated upfront."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "No participant in the room had visited or compared practices with any other state, limiting the discussion's ability to surface state-level best-practice comparisons."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The process was described as filed online through a state and/or national single window portal, though the discussion suggested this integration is still a work in progress rather than fully seamless."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Approval timelines appeared to vary by category: roughly thirteen days for at least one category, while other references pointed to a much longer window, closer to a month."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Applications are tracked through the portal, and participants seemed to value that visibility."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "neutral",
+          "text": "Fire extinguisher usage training and demonstration was referenced as part of the compliance routine, alongside documentation tied to the AMC arrangement."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "neutral",
+          "text": "Nothing specific could be reliably drawn out on duplication given how much of the exchange was hard to follow; participants referenced mandatory AMC-specific documentation and a broader checklist without directly flagging repeat submission."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Category-based timeline differences from around thirteen days up to roughly a month suggest higher-risk or more complex categories take meaningfully longer, though the discussion didn't fully explain why."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Document-related issues were referenced as a source of difficulty for at least one participant, though specifics were hard to make out from the recording."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "RENEWAL",
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Clarify and publish the renewal cycle clearly; the discussion left ambiguity between three-year and five-year cycles so businesses know exactly when renewal falls due."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Continue building out the single window portal so fire clearance sits alongside other approvals in one place, rather than on a separate track."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Make application tracking consistently available and visible at every stage, since participants appeared to see this as valuable where it currently exists."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Publish the compliance checklist (the roughly nine-to-ten point list referenced) clearly upfront, so businesses know what's expected before they begin."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry user",
+          "quote": "Fire safety equipment maintenance is generally handled through a third-party AMC arrangement, with the vendor responsible for upkeep and compliance.",
+          "topic": "AMC dependency",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "The approval timeline is roughly thirteen days for some categories, while other categories may take closer to a month.",
+          "topic": "Category-based timeline variance",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "There are overlapping inspection requirements, including quarterly checks, a six month emergency drill, and annual equipment compliance requirements.",
+          "topic": "Multiple inspection cadences",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "The renewal period has been described as both three years and five years, creating some uncertainty about the applicable renewal cycle.",
+          "topic": "Renewal cycle ambiguity",
+          "tags": [
+            "RENEWAL",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Businesses are classified into risk-based categories, with the 'high risk' category having a more demanding fire compliance process.",
+          "topic": "Risk-based categorization",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No fee figures (government fee, consultant fee, or equipment/AMC cost range) were cited in this session."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Issuing authority was not explicitly named."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Renewal cycle length is unclear — both three-year and five-year cycles were referenced without reconciliation."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "A document checklist was referenced (roughly nine to ten points) but not itemized or consistently described as communicated upfront."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Much of the discussion on documentation/duplication was reported by the note-taker as hard to follow; no reliable conclusion could be drawn on redundant documents."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Participants valued being able to track application status through the portal where available."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested: clarify and publish the renewal cycle; continue single-window portal integration for fire clearance; make tracking consistently visible; publish the compliance checklist upfront."
+        }
+      ]
+    },
+    {
+      "serviceCode": "GST",
+      "serviceName": "GST Registration",
+      "sourceFiles": [
+        "DD_FGD_GST.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "GST Department (jurisdictional office administering registration via the Daman GST portal); specific designation not named in the discussion.",
+      "portal": {
+        "name": "GST Portal (Daman jurisdiction)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 5,
+        "maxDays": 8,
+        "basis": "Participant testimony, measured against a government norm of 3-6 working days (excluding holidays) referenced in the discussion",
+        "text": "Registration was received within roughly five to eight days of filing, which participants viewed as acceptable against the government norm of about three to six days (excluding holidays). Document collection/arrangement ahead of filing (around twenty days to nearly a month) was a separate, applicant-side time cost, not part of government processing time."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Rent agreement",
+        "Udyam certificate",
+        "Bank details",
+        "Photographs",
+        "Proof of principal place of business (rent agreement / electricity bill / gram panchayat receipt)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants described needing roughly six to ten documents in total; only a subset was individually named. The complete formal list was not fully enumerated.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed-approval provision was discussed; participants described typical processing of 5-8 days against a referenced government norm of 3-6 working days, with no default-approval mechanism described."
+      },
+      "validity": {
+        "text": "GST registration was described as a one-time process with lifetime validity, so there is no renewal cycle and no recurring registration requirement."
+      },
+      "fees": {
+        "text": "Participants did not cite any government fee for registration. The overall outlay for registration, including a CA/consultant's fee, was put at roughly ₹4,000-5,000 (one reference closer to ₹3,000). Recurring consultant charges for return filing were cited at roughly ₹2,000-3,000, around ₹5,000 where monthly accounting is bundled in, and higher where a plant visit is involved."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant (or CA/consultant) files GST registration online, scanning and uploading supporting documents as PDFs",
+          "automated": true,
+          "note": "Self-filers took about four to five days to complete the application; most participants used a CA/consultant instead."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Department reviews the application; a query may be raised, mostly on the principal place of business",
+          "automated": "partial"
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Applicant uploads additional address-related documents in response to the query",
+          "automated": "partial",
+          "note": "Clarification was typically resolved within about two days."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Registration is granted",
+          "automated": true,
+          "note": "Typically within five to eight days of filing."
+        },
+        {
+          "n": 5,
+          "phase": "fee",
+          "title": "No government fee is charged for registration itself",
+          "automated": true,
+          "note": "Applicant pays only intermediary/consultant fees where used, not a statutory government fee."
+        }
+      ],
+      "remarks": [
+        "Participants drew a cross-state comparison with Gujarat, where UPI and card payments are available for GSTR-3B payments but are not active in Daman, pointing to a gap in parity between the two portals.",
+        "The documentation norm does not appear to account for common ground realities such as premises held in an ancestor's name, family businesses that have been divided, or utility bills standing in a name different from the applicant's.",
+        "This record is FGD-only and has not been verified against an official ED source; the Expert Discussion pass did not reach GST Registration for this state."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Most participants described getting GST registration done through a CA or consultant rather than filing themselves; the overall outlay, including consultant's fee, was put at roughly ₹4,000-5,000."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "The application needs roughly six to ten documents; collecting and arranging them (not government processing) was the most time-consuming stage, cited at around twenty days to nearly a month."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Proof of the principal place of business is the hardest requirement — an electricity bill or gram panchayat receipt is often unavailable or stands in a forefather's/relative's/partner's name, leaving only the rent agreement as a usable document."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Minor mismatches across documents (house/survey/gala numbers, name spelling variations between Aadhaar and other documents) were flagged repeatedly during verification, driving reliance on consultants."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Payment options on the Daman GST portal are limited to net banking and offline bank payment; UPI, debit card and credit card options, available for GSTR-3B payments in Gujarat, are not yet active."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Recurring consultant charges for return filing were cited at roughly ₹2,000-3,000, around ₹5,000 where monthly accounting is bundled in, and higher where a plant visit is involved."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Registration is a one-time process with lifetime validity; participants did not cite any government fee and reported no delay cost on account of the registration itself."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The documentation norm does not appear to account for common ground realities such as premises held in an ancestor's name, divided family businesses, or utility bills standing in a name different from the applicant's."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Verification was described as strict even on minor variations in names and address details, with no described tolerance or quick-correction route."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue",
+          "text": "Cross-state comparison: Gujarat offers UPI and card payments for GSTR-3B, not active in Daman."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Participants reported no extra payment required beyond the consultant fee/document-arranging effort to meet GST regulatory requirements."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "The application is filed entirely online on the GST portal, with supporting documents scanned/uploaded as PDFs; self-filers took about four to five days."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "Registration was received within roughly five to eight days of filing, against a referenced government norm of about three to six working days."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "neutral",
+          "text": "A query raised mainly on the principal place of business was resolved within about two days by uploading additional address-related documents."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "No office visit was needed since the application is online and often consultant-handled; one participant noted officials visiting the business premises for verification instead."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "A user manual and video tutorials are available and described as understandable, but participants still relied on consultants for filing; no department-led training was described."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "No duplicate submission was specifically flagged, but participants pointed to the rent agreement/electricity bill/gram panchayat receipt all serving the same address-proof purpose and felt any one valid proof should be enough."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "neutral",
+          "text": "Most elapsed time sits on the applicant's side, in gathering and organising required documents (around twenty days to nearly a month), rather than in waiting for government approval."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Net banking session time-outs on the payment stage were described as a source of repeat payment attempts."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CONSULT",
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Create wider awareness that GST registration can be self-filed online, supported by training/guidance, so businesses depend less on CAs and consultants."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY",
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Accept any one valid proof of the principal place of business and provide clear guidance for premises where a utility bill or panchayat receipt is unavailable or stands in a relative's/forefather's name."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Introduce flexibility or a simple correction route for minor mismatches in name spellings and house/survey/gala numbers between documents."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Activate UPI, debit card and credit card payment options on the Daman GST payment page, in line with Gujarat."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry user",
+          "quote": "Most businesses get their GST registration done through a CA or consultant, and the total comes to roughly ₹4,000 to ₹5,000 including the consultant's fee.",
+          "topic": "Consultant cost",
+          "tags": [
+            "CONSULT",
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "The application needs around six to ten documents, and collecting and arranging them takes considerable time, with around twenty days being cited.",
+          "topic": "Document collection time",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Proof of the principal place of business is the hardest part, because the electricity bill or gram panchayat receipt is often unavailable or stands in someone else's name, leaving only the rent agreement.",
+          "topic": "Address proof difficulty",
+          "tags": [
+            "CLARITY",
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "House number, survey number and gala number often do not match across documents, and even small spelling differences in a name between Aadhaar and other documents get picked up.",
+          "topic": "Document mismatches",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "In Gujarat, GST can be paid through UPI, debit card or credit card, but this option is not active in Daman, where only net banking and offline bank payment are available.",
+          "topic": "Payment option gap vs Gujarat",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "No office visit was needed for registration, since the application is online and was handled through the consultant.",
+          "topic": "No office visit needed",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "No extra payment had to be made to meet regulatory requirements, and registration is a one time process with lifetime validity and no delay cost.",
+          "topic": "Lifetime validity, no extra cost",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "If businesses were told that GST can be filled in online and were given training and guidance on the application, many could do it themselves.",
+          "topic": "Self-filing awareness suggestion",
+          "tags": [
+            "CONSULT",
+            "CLARITY"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "Government fee for GST registration was not cited by any participant (consistent with registration being fee-free, but worth confirming against statute)."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Full formal document list (beyond the ~6-10 referenced) was not itemized; only rent agreement, Udyam certificate, bank details, photographs and address-proof documents were individually named."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Exact designation/office of the issuing GST authority was not stated."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Entirely online process with no office visit required in most cases; one-time, lifetime-valid registration with no renewal cycle and no reported government fee."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested: accept any one valid address-proof document; build in a correction route for minor name/number mismatches; activate UPI/card payment in Daman to match Gujarat; raise awareness/training for self-filing."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFiles": [
+        "DD_FGD_RCTO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not stated in this session; renewals are filed through the OCMMS portal under the Water Act/Air Act framework (presumed to be the Pollution Control Committee, consistent with related CTE/CTO sessions for this state, but not confirmed here).",
+      "portal": {
+        "name": "OCMMS portal",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 15,
+        "maxDays": 90,
+        "basis": "Published 90-day statutory disposal timeline for renewal applications filed via the OCMMS portal, against a shorter practical turnaround reported by participants for complete, straightforward cases",
+        "text": "Participants work against a published 90-day disposal timeline for renewal applications, though they reported a shorter practical turnaround of roughly 15-30 days for complete, straightforward cases; individual cases were pushed toward the 90-day outer limit mainly through incomplete document sets."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Form No. XIII (under the Water Act)",
+        "Form I (under the Air Act — White Category industries exempt)",
+        "Notarised affidavit on capital investment (land, building, plant & machinery, without depreciation)",
+        "Copies of prior 'operate or renewal' consent orders under both the Water Act and Air Act",
+        "Six-monthly ETP analysis report",
+        "Six-monthly stack/ambient air monitoring report",
+        "Annual Environment Statement (Form V)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants described these as required to be compiled before a complete application can be filed via the OCMMS portal; no verbatim quotes were captured in this session's source transcript (unlike the other sessions for this state).",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not explicitly discussed; only the 90-day statutory disposal window was referenced, with no mention of a default/deemed-approval consequence if that window lapses."
+      },
+      "validity": {
+        "text": "CTO validity in the UT runs 5 years for Category I & II industries and up to 15 years for Category III (lower-risk/White category) industries, determining renewal frequency and therefore cumulative compliance cost."
+      },
+      "fees": {
+        "text": "Renewal consent fees are computed on the same capital-investment-based schedule used for fresh consent, rather than a separate, lighter schedule for renewals. Consultant fees for filing a CTO renewal ranged from approximately ₹5,000 to ₹10,000 per case, on top of statutory renewal fees."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Arrange documentation and manpower well ahead of the consent's expiry",
+          "automated": false
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Compile supporting technical reports (six-monthly ETP analysis, six-monthly stack/ambient air monitoring, annual Environment Statement Form V)",
+          "automated": "partial",
+          "note": "Most participants said this necessitated hiring a consultant."
+        },
+        {
+          "n": 3,
+          "phase": "apply",
+          "title": "Notarise a fresh affidavit on capital investment and resubmit copies of prior 'operate or renewal' consent orders under the Water Act and Air Act",
+          "automated": false,
+          "note": "Required even where the same investment particulars or prior orders were already furnished at the original CTE/CTO stage — flagged by participants as redundant."
+        },
+        {
+          "n": 4,
+          "phase": "apply",
+          "title": "File the renewal online via the OCMMS portal using Form No. XIII (Water Act) and Form I (Air Act, except White Category)",
+          "automated": true
+        },
+        {
+          "n": 5,
+          "phase": "scrutiny",
+          "title": "Department reviews the application against the published 90-day statutory disposal timeline",
+          "automated": "partial",
+          "note": "Practical turnaround reported at 15-30 days for complete, straightforward cases; incomplete document sets push cases toward the 90-day outer limit."
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Renewal consent is issued",
+          "automated": "partial"
+        }
+      ],
+      "remarks": [
+        "Participants appreciated the digitisation initiatives undertaken by the Government of Dadra and Nagar Haveli and Daman and Diu overall, while still flagging the operational bottlenecks above as ongoing drivers of compliance cost.",
+        "This record is FGD-only and has not been verified against an official ED source; the Expert Discussion pass did not reach Renewal of Consent to Operate for this state.",
+        "Unlike the other FGD sessions for this state, this document's source transcript did not include a 'Key Statements & Quotes' table, so no verbatim quotes are available for this service."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Documentation and manpower must be arranged well ahead of the consent's expiry to prepare a renewal application, experienced primarily as a time cost."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "Most industry users turn to a paid consultant for renewals, since the process and its technical requirements remain unfamiliar to most, adding an intermediary cost on top of the government fee."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Production or labour risk standing idle if renewal approval is delayed beyond the existing consent's expiry, described directly as a delay cost."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Statutory renewal fees are paid on top of consultant charges, adding further to the overall statutory cost of the service."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral",
+          "text": "Renewal frequency, and therefore cumulative cost, varies by industry category: CTO validity runs 5 years for Category I & II industries and up to 15 years for Category III (White category) industries."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Renewal consent fees are computed on the same capital-investment-based schedule used for fresh consent, rather than a separate, lighter schedule for renewals."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Substantive/technical compliance obligations — mandatory checks, equipment maintenance, and any needed upgrades — repeat afresh at every renewal cycle, linked directly to substantive cost."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "neutral",
+          "text": "Renewals are filed online through the OCMMS portal, using Form No. XIII under the Water Act and Form I under the Air Act, with White Category industries exempt from the Air Act form."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "A published 90-day disposal timeline applies, though participants reported a shorter practical turnaround of roughly 15-30 days for complete, straightforward cases."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "Compiling a full set of supporting technical reports (six-monthly ETP analysis, six-monthly stack/ambient air monitoring, annual Environment Statement Form V) was described by most participants as necessitating a consultant."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "A fresh affidavit on capital investment must be notarised at every renewal, even where the same investment particulars were already furnished at the original CTE/CTO stage."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Copies of prior 'operate or renewal' consent orders under both the Water Act and Air Act must be resubmitted with every renewal application."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "Filing time is extended by compiling consultant-prepared technical reports (ETP analysis, stack monitoring) before a complete application can go in."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Individual cases are pushed toward the outer end of the 90-day statutory window mainly through incomplete document sets, even though most approvals come through in 15-30 days."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Simplify the renewal-specific document checklist so information unchanged since the original consent, such as capital investment particulars, doesn't need renotarising and resubmitting each cycle."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Consider category- or risk-based simplification of the renewal fee and document schedule for lower-risk (Category III/White) industries, in line with their longer validity period."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Strengthen portal-based guidance and self-service filing support so straightforward renewals depend less on paid consultants."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Publish the 90-day statutory disposal timeline alongside typical actual turnaround data on the portal, to improve predictability for applicants."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Reported consultant fees for filing a CTO renewal ranged from approximately ₹5,000 to ₹10,000 per case."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Participants appreciated the digitisation initiatives undertaken by the Government of DNH&DD overall, while still flagging the operational bottlenecks above as ongoing drivers of compliance cost."
+        }
+      ],
+      "quotes": [],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No verbatim participant quotes were captured in this session's source document (unlike other sessions for this state, which include a dedicated quotes table); findings above are paraphrased from the report's thematic summary."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Issuing authority/designation was not stated in this session."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Whether a deemed-approval provision applies if the 90-day disposal window lapses was not discussed."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Practical turnaround for complete, straightforward renewal cases (15-30 days) runs well inside the published 90-day statutory window."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested: simplify the renewal document checklist to avoid renotarising/resubmitting unchanged capital-investment particulars each cycle; consider category/risk-based simplification for lower-risk industries; strengthen self-service guidance; publish both statutory and typical actual turnaround data."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFiles": [
+        "DD_FGD_RFAL.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Factory Inspectorate/Department, Daman.",
+      "portal": {
+        "name": "Single window portal (name not explicitly stated in this session; likely the EODB Single Window Portal used for fresh Factory License applications)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 8,
+        "maxDays": 15,
+        "basis": "Participant testimony; two slightly different figures were cited in the same session — approvals generally described as 10-15 days, and separately an 8-10-day approval window after the physical hard-copy submission step",
+        "text": "No procedural delays were reported; approvals in Daman were described as being granted within 10 to 15 days without administrative hurdles. A separate reference in the same session described an 8-to-10-day approval window beginning after the physical hard-copy submission step."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Online renewal application (filed first)",
+        "Physical hard copy of the application plus a covering letter (submitted to the department after online filing)",
+        "CGWA No Objection Certificate — mandatory only for units drawing groundwater/using borewells, via the separate CGWA portal"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not enumerate a full renewal document checklist; only the mandatory post-filing hard-copy/covering-letter step and the conditional CGWA NOC requirement were specifically described.",
+      "deemedApproval": {
+        "status": "yes",
+        "days": null,
+        "text": "A deemed-approval provision applies if the department does not act within the stipulated timeline (not quantified in this session): a unit may provisionally proceed with certain preparatory activities, though not actual production or product testing, while formal approval remains pending."
+      },
+      "validity": {
+        "text": "The licence can be renewed for up to 10-15 years at a time, though an online payment cap of ₹1,00,000 per transaction effectively restricts larger units (with higher annual fee slabs of ₹30,000-50,000) to shorter, more frequent renewal cycles; a smaller unit renewing for a full 10-year term was cited at a fee of roughly ₹10,000, well within the cap."
+      },
+      "fees": {
+        "text": "Renewal fees are tiered by unit classification (micro/small/medium/large), based on sanctioned power load and number of workers. A ₹1,00,000 per-transaction online payment cap constrains the renewal term larger units can select in a single transaction. Consultant fees for related Pollution Control Committee (PCC) compliance work were cited at roughly ₹20,000-25,000, separate from the factory licence renewal fee itself."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "File the renewal application online",
+          "automated": true
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Submit a physical hard copy of the application plus a covering letter to the department",
+          "automated": false,
+          "note": "A manual step required even though filing starts online."
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Pay renewal fee online, subject to a ₹1,00,000 per-transaction payment cap",
+          "automated": true,
+          "note": "The cap constrains the renewal term larger units can select in one transaction, pushing medium/large units toward shorter, more frequent renewals."
+        },
+        {
+          "n": 4,
+          "phase": "apply",
+          "title": "Obtain a CGWA No Objection Certificate separately via the CGWA portal, if the unit draws groundwater or uses borewells",
+          "automated": "partial",
+          "note": "A separate registration requirement alongside factory licence renewal; a digital flow meter is additionally required above roughly 200-300 feet extraction depth."
+        },
+        {
+          "n": 5,
+          "phase": "scrutiny",
+          "title": "Department reviews the renewal application",
+          "automated": "partial",
+          "note": "Inspection/compliance intensity scales with pollution category (Green/Orange/Red); lower-risk categories face comparatively lighter requirements."
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Approval granted, reported within about 8-15 days without administrative hurdles",
+          "automated": "partial",
+          "note": "Deemed approval applies if the department doesn't act within the stipulated timeline, allowing provisional preparatory (non-production) activity."
+        }
+      ],
+      "remarks": [
+        "The respondent, renewing factory licences since 1999 (with past renewals in 2004 and 2015), noted the system is significantly more efficient and digitised now compared to earlier years.",
+        "Daman's portal and inter-departmental coordination were described as notably smoother compared to neighbouring states such as Gujarat and Maharashtra.",
+        "The Factory Inspectorate/Department was described as supportive, with officials calling directly to help resolve queries.",
+        "The respondent rated the Factory License Renewal service in Daman 10 out of 10, citing a smoothly functioning single window system with clearly accessible information.",
+        "This record is FGD-only and has not been verified against an official ED source; the Expert Discussion pass did not reach Renewal of Factory License for this state."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The ₹1,00,000 online payment cap per transaction restricts larger units with higher annual fee slabs (₹30,000-50,000) from opting for longer multi-year renewals (5-10 years), pushing them into shorter, more frequent renewal cycles; a smaller unit renewing for a full 10-year term at a fee of roughly ₹10,000 was unaffected."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "A physical copy of the application, along with a covering letter, still has to be submitted to the department after the online filing, adding a manual step to an otherwise digital process."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "neutral",
+          "text": "Engaging a consultant for Pollution Control Committee (PCC) related compliance can cost roughly ₹20,000-25,000, owing to frequent follow-ups, physical visits and complex documentation — a cost separate from the factory licence renewal itself."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The payment cap interacts directly with how renewal fees are structured: fees are tiered by unit classification (micro, small, medium, large) based on sanctioned power load and workers, making the cap a binding constraint specifically for medium and large units."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "neutral",
+          "text": "CGWA No Objection Certificates become mandatory for units drawing groundwater or using borewells, adding a separate registration requirement via the dedicated CGWA portal; a digital flow meter is additionally required above roughly 200-300 feet extraction depth."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "A physical hard copy of the submission, along with a covering letter, is still required after online filing — a separate manual step in an otherwise digital process."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "positive",
+          "text": "A deemed-approval provision applies if the department does not act within the stipulated timeline: a unit may provisionally proceed with certain preparatory activities, though not actual production or product testing, while formal approval is pending."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "The intensity of inspection and compliance requirements under renewal scales with the unit's pollution category (Green/Orange/Red), with lower-risk categories facing comparatively lighter requirements."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No redundant or duplicate documentation issues were reported for the renewal process."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No procedural delays were reported; approvals in Daman were described as being granted within 10 to 15 days without administrative hurdles."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "neutral",
+          "text": "The physical hard-copy submission stage adds a brief manual step before the 8-to-10-day approval window begins."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Raise the ₹1,00,000 online payment cap so large-scale industries with higher annual fees can opt for multi-year (5 to 10 year) renewals instead of being restricted to shorter cycles."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "A long-time respondent (renewing since 1999, with past renewals in 2004 and 2015) noted the system is significantly more efficient and digitised now compared to earlier years."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Daman's portal and inter-departmental coordination were described as notably smoother compared to neighbouring states such as Gujarat and Maharashtra."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The Factory Inspectorate/Department was described as supportive, with officials calling directly to help resolve queries."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "neutral",
+          "text": "A consultant is generally unnecessary for a straightforward renewal filing; where consultants are engaged, it is typically for adjacent, higher follow-up compliance work such as PCC-related matters."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The respondent rated the Factory License Renewal service in Daman 10 out of 10, citing a smoothly functioning single window system with clearly accessible information."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry user",
+          "quote": "The government has set an online payment cap of ₹1,00,000 per transaction; they cannot select a 3 year term because it exceeds ₹1,00,000.",
+          "topic": "Payment cap restricting renewal term",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "A consultant is completely unnecessary for factory license renewal. The portal UI is straightforward and provides step by step guidance.",
+          "topic": "Self-service renewal",
+          "tags": [
+            "PORTAL",
+            "CONSULT"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Large scale industries with annual fees of ₹30,000 to ₹50,000 are restricted by the ₹1 Lakh cap and cannot opt for multi year renewals.",
+          "topic": "Cap disproportionately affects large units",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "10 out of 10. The single window system operates smoothly, and all necessary information is clearly accessible.",
+          "topic": "Overall rating",
+          "tags": [
+            "POSITIVE",
+            "PORTAL"
+          ],
+          "sentiment": "positive"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "The exact 'stipulated timeline' that triggers the deemed-approval provision was not quantified."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Two slightly different approval-time figures were cited in the same session (10-15 days generally, and an '8 to 10-day approval window') without reconciliation."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "No redundant/duplicate documentation reported; renewals processed within 10-15 days without administrative hurdles; a deemed-approval provision allows provisional preparatory activity if the department doesn't act in time; consultant described as unnecessary for straightforward renewal."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested: raise the ₹1,00,000 online payment cap so larger units can opt for multi-year (5-10 year) renewal terms instead of being restricted to shorter cycles."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": [
+        "DD_FGD_RFNO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named in the discussion (presumed Fire Department; renewal is administered via an online portal plus physical inspection, but the issuing authority's title was not confirmed).",
+      "portal": {
+        "name": "Online portal (not precisely named in this session)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 60,
+        "maxDays": null,
+        "basis": "Participants cited a 60-day government norm for renewal, but reported actual turnaround commonly runs longer",
+        "text": "The renewal is expected to be granted within about 60 days as per the government norm, but participants said it often takes longer than that; the sequence is application, then inspection by officials, then payment of fees, with the final certificate issued only after payment. Follow-up visits were reported recurring at roughly two-month intervals while approval remains pending."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Third-party AMC (Annual Maintenance Contract) certificate — mandatory per the checklist/terms and conditions; in-house certification from qualified staff not accepted"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants said most supporting documents are already on hand for a renewal (the remainder take about a week to obtain), but did not itemize the full checklist beyond the mandatory third-party AMC certificate, which was the specific document flagged as contentious.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not explicitly discussed as a deemed-approval provision; participants referenced only the 60-day expected norm, which was frequently exceeded, without describing any default-approval consequence."
+      },
+      "validity": {
+        "text": "Validity was described as inconsistent between renewal cycles: one participant's renewal was granted for two years in the previous cycle but only one year in the most recent cycle, with no explanation given for the difference; participants felt validity should be at least two years."
+      },
+      "fees": {
+        "text": "Fee details beyond general reference to the renewal cost were not detailed; a question on whether any inspection charge is collected did not get a clear response during the discussion."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Submit renewal application online through the portal",
+          "automated": true,
+          "note": "Self-filed with most documents already on hand (remainder take about a week to obtain, preparation then one to two days), or via a consultant who handles the entire application."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Obtain a mandatory third-party AMC certificate",
+          "automated": false,
+          "note": "Required by the checklist even where the industry has qualified in-house staff; internal certification is not accepted. Participants felt this duplicates in-house capability and that vendors often rely on the industry's own data."
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "Department conducts an inspection, intimated one to two days in advance",
+          "automated": false
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Queries raised at the time of inspection (usually together, in one go)",
+          "automated": "partial",
+          "note": "Applicant given about 15 days to respond by uploading documents online."
+        },
+        {
+          "n": 5,
+          "phase": "fee",
+          "title": "Fee paid only after inspection",
+          "automated": true
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Final renewal certificate issued after fee payment",
+          "automated": "partial",
+          "note": "Participants reported this often takes longer than the 60-day norm."
+        }
+      ],
+      "remarks": [
+        "Even after applying online, participants described needing two to four physical visits to the government office, with follow-up visits at roughly two-month intervals while approval is pending.",
+        "Applying current fire-safety guidelines to plants 15-20 years old was raised as a major cost driver, demanding heavy upgradation and high capital expenditure that participants felt is not feasible for smaller companies.",
+        "Fire protection system requirements were described as not always matching actual process risk — e.g., a water-based system may be unsuitable where water could worsen a hazard.",
+        "Certification and inspection currently rest with a single government focal point; participants suggested that the industry's own declaration, supported by competent third-party audit, would be an added advantage.",
+        "This record is FGD-only and has not been verified against an official ED source; the Expert Discussion pass did not reach Renewal of Fire NOC for this state."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Renewal is expected within about 60 days per the government norm but often takes longer; the sequence is application, then inspection, then fee payment, with the certificate issued only after payment."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT",
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "A third-party AMC certificate is mandatory even where the industry has qualified in-house staff; internal certification is not accepted. Participants described paying the vendor 'for the sake of formality,' noting vendors often lack expertise for complex machinery and rely on data supplied by the industry itself."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "NORMS",
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Applying current fire-safety guidelines to plants 15-20 years old at renewal drives heavy upgradation and high capex, felt infeasible for smaller companies."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INSPECT",
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Despite online filing, two to four physical office visits are still needed, with follow-ups at roughly two-month intervals while approval is pending."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "RENEWAL",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Validity was described as inconsistent between cycles: a renewal granted for two years last cycle versus one year this cycle, with no explanation given."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "positive",
+          "text": "Most documents are already available for a renewal; the few remaining take around a week to obtain, and preparation itself then takes only one to two days once ready."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Fire protection system requirements should follow actual plant risk — e.g., a water-based system may be unsuitable or hazardous for some processes."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Applying current regulatory standards to facilities constructed 15-20 years ago is a policy misalignment, mandating substantial capex during renewal that smaller enterprises lack the financial capacity to absorb."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "The third-party AMC requirement is embedded in the terms/conditions and checklist (also cited in query letters); the application cannot proceed without it, and participants want in-house certification accepted where that skill exists."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Certification and inspection currently rest with a single government focal point; participants felt the industry's own declaration, supported by competent third-party audit, would be an added advantage."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Applications are filed online; the portal works smoothly, a user manual is available, real-time tracking is available, and a normal user can apply without difficulty (brief mention of a session time-out)."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Process runs from submission per checklist, to inspection (intimated 1-2 days in advance), to fee payment only after inspection, then final issuance; whether an inspection charge is collected did not get a clear response."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "positive",
+          "text": "Queries are raised together at inspection time; applicants are given about 15 days to respond online, and officers are reachable by phone for technical queries."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The third-party AMC certificate was viewed as unnecessary for industries with qualified in-house teams; participants indicated renewal should be possible without it, or with an in-house certificate accepted instead."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Approvals often take more than the 60-day expected norm; the inspection-then-fee-then-issuance sequence adds waiting time at each stage."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "For older plants, the demand for upgradation to present-day norms was linked by a participant to delay in approval."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Query rounds (15-day response window) plus follow-up office visits at roughly two-month intervals add to the overall wait while the renewal is pending."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Accept in-house certification by qualified personnel in place of the mandatory third-party AMC certificate, so industries with their own skilled teams do not pay twice for the same upkeep."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Set fire protection requirements according to actual industry/process risk instead of applying the same system requirements (e.g., water-based systems) everywhere."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Keep renewal validity consistent, with a minimum of two years, and explain the basis where a shorter period is granted."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE",
+            "INSPECT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Adhere to the 60-day timeline and reduce the need for repeated physical visits to the office, since the application is already online."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Explore a system where the industry's own declaration is supported by audit/certification from competent third-party persons, alongside departmental inspection, so certification does not depend on a single focal point."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry user",
+          "quote": "The renewal is expected within about 60 days as per the government norm, but it often takes longer than that.",
+          "topic": "Timeline exceeds norm",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Even after applying online, two to four visits to the government office are needed, with follow-ups at roughly two month intervals.",
+          "topic": "Persistent office visits",
+          "tags": [
+            "INSPECT",
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "A third party AMC certificate is required for renewal even where the industry has qualified in-house staff, and the internal certificate is not considered.",
+          "topic": "Mandatory AMC certificate",
+          "tags": [
+            "COMPLY",
+            "CONSULT"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Third party AMC vendors often lack the expertise for complex machinery and take their data from the industry itself, so the payment is made for the sake of formality.",
+          "topic": "AMC vendor value questioned",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Plants that are 15 to 20 years old are assessed against current norms at renewal, which means heavy upgradation and high capital cost that smaller companies cannot afford.",
+          "topic": "Retrofitting burden on old plants",
+          "tags": [
+            "NORMS",
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Fire protection requirements should follow the actual risk of the plant, since a water based system may not be suitable for every process.",
+          "topic": "Risk-based fire system design",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "The renewal last year was granted for two years, but this year it was granted for only one year, without any explanation.",
+          "topic": "Inconsistent validity period",
+          "tags": [
+            "RENEWAL",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Industry declaration backed by an audit from competent third party persons would be better than relying on a single government focal point.",
+          "topic": "Third-party audit alternative",
+          "tags": [
+            "GRIEVANCE",
+            "NORMS"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "Issuing authority's precise designation was not named; whether an inspection charge is collected was asked but not clearly answered."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No specific fee figures were cited for the renewal itself."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No deemed-approval mechanism was described; only a 60-day expected norm that participants said is often exceeded."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The reason validity shrank from two years to one year between consecutive renewals was not explained to, or known by, participants."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Online application with a user manual, real-time tracking, and generally responsive officers reachable by phone for technical queries."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested: accept in-house AMC-equivalent certification; set fire-system requirements by actual process risk; phase in current norms for older plants; keep validity at a consistent minimum of two years; reduce repeated physical office visits; supplement departmental inspection with competent third-party audit."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFiles": [
+        "DD_FGD_RSE.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Labour Department, Dadra and Nagar Haveli and Daman and Diu (Labour Inspector conducts document/premises verification).",
+      "portal": {
+        "name": "Single Window Portal (swp.dddgov.in)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 1,
+        "maxDays": 7,
+        "basis": "Participant testimony",
+        "text": "Turnaround is typically within a week, and as fast as 1 to 2 days where documents are uploaded correctly."
+      },
+      "automationLevel": "full",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Basic entity/address information",
+        "Ownership documents",
+        "Rent/lease deed",
+        "Employee list"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Described by participants as basic and non-repetitive; no fuller formal checklist was enumerated.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not explicitly discussed as a formal provision; participants described a fast administrative turnaround (1-2 days to about a week) rather than a deemed-approval clause."
+      },
+      "validity": {
+        "text": "The registration transitioned from mandatory annual renewal (due every 31 December) to a one-time, lifetime-valid registration roughly 1 to 1.5 years prior to this discussion, applicable to all categories of establishments under the Act. If manpower or scale grows beyond the registered slab, an amendment or re-registration is required."
+      },
+      "fees": {
+        "text": "No fee figures were cited by participants in this session."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Register via the Single Window Portal (swp.dddgov.in), submitting basic entity information, address, ownership documents, rent/lease deed, and employee list",
+          "automated": true
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Labour Inspector verifies uploaded documents, premises photos, GST details, and business proof online",
+          "automated": "partial",
+          "note": "Daman is a compact industrial area; officers are already familiar with most operating units."
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Where uploaded documents have deficiencies, officials proactively call applicants to guide re-upload",
+          "automated": false,
+          "note": "Rather than issuing an outright rejection."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Registration/Intimation issued",
+          "automated": true,
+          "note": "Typically within a week, 1-2 days if documents are correct; establishments with 10+ employees receive a full Registration Certificate, those with fewer than 10 receive an Intimation and acknowledgement receipt."
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Further verification typically occurs during routine post-issuance departmental visits",
+          "automated": "partial",
+          "note": "Rather than a dedicated field inspection at the time of registration."
+        }
+      ],
+      "remarks": [
+        "Businesses are preparing for the upcoming Labour Codes (Code on Wages, OSH Code, etc.); Central policies set the overarching framework while UT/State level guidelines add localized operational detail, which units will need to track closely as these come into effect.",
+        "Most companies manage Shops and Establishment registration entirely in-house; participants described the portal as self-explanatory and the department's helpdesk/officers as approachable, reducing reliance on paid intermediaries.",
+        "Participants welcomed the government's direct outreach to industry through this survey exercise, describing it as a positive step toward understanding ground-level compliance issues.",
+        "This record is FGD-only and has not been verified against an official ED source; the Expert Discussion pass did not reach Registration under Shops & Establishment for this state."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "neutral",
+          "text": "If manpower or scale grows beyond the registered slab, an amendment or re-registration is required, even though the base registration is now lifetime valid."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "Businesses are preparing for the upcoming Labour Codes (Code on Wages, OSH Code, etc.); Central policies set the overarching framework while UT/State level guidelines add localized operational detail that units will need to track closely."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The registration process transitioned from mandatory annual renewal (due every 31 December) to a one-time, lifetime-valid registration roughly 1 to 1.5 years ago, applicable to all categories of establishments — a significant reduction in recurring compliance burden."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Fee slabs are structured by manpower count (e.g., 1-20, 21-100, 100+ employees); establishments with 10 or more employees receive a full Registration Certificate, while those with fewer than 10 employees only need to submit an Intimation and receive an acknowledgement receipt."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Registration is processed via the Single Window Portal (swp.dddgov.in) and was described as straightforward, requiring only basic entity information, address, ownership documents, rent/lease deed, and employee list."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "positive",
+          "text": "Turnaround is quick, typically within a week, and as fast as 1 to 2 days if documents are uploaded correctly."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "positive",
+          "text": "Where uploaded documents have deficiencies, department officials proactively call applicants to guide re-upload rather than issuing an outright rejection."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "positive",
+          "text": "For initial registrations, the Labour Inspector verifies uploaded documents, premises photos, GST details, and business proof online; since Daman is a compact industrial area, officers are already familiar with most operating units, and further verification typically occurs during routine post-issuance visits rather than a dedicated field inspection."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No redundant or duplicate documentation issues were raised; the required information (address, ownership documents, rent/lease deed, employee list) was described as basic and non-repetitive."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No significant delays were reported; the process was described as fast under normal circumstances (1-2 days to about a week), with delays arising only from applicant-side document deficiencies, which the department proactively helps resolve."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "CONSULT",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Most companies manage Shops and Establishment registration entirely in-house; participants described the portal as self-explanatory and the department's helpdesk and officers as approachable, reducing reliance on paid intermediaries or consultants."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Participants welcomed the government's direct outreach to industry through this survey exercise, describing it as a positive step toward understanding ground-level compliance issues."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "R1",
+          "quote": "Previously, annual renewals were mandatory every year by December 31st. But now, it has transitioned into a one time registration with lifetime validity.",
+          "topic": "Shift to lifetime validity",
+          "tags": [
+            "RENEWAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "R2",
+          "quote": "If there is a change in manpower or scale exceeding the registered slab, an amendment/re registration is required. Otherwise, for ongoing operations within the approved slab, there is no recurring renewal hassle.",
+          "topic": "Amendment trigger",
+          "tags": [
+            "RENEWAL",
+            "COMPLY"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "R1",
+          "quote": "It is very quick, typically within a week. If all documents are uploaded correctly, it can even happen within 1 to 2 days.",
+          "topic": "Fast turnaround",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "R2",
+          "quote": "Even if there is any deficiency or blur in uploaded documents, the department officials proactively call and guide us to re-upload.",
+          "topic": "Proactive department support",
+          "tags": [
+            "GRIEVANCE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "R2-R4",
+          "quote": "No, most companies manage this entirely in-house. The portal is completely self explanatory... eliminating the need for paid intermediaries.",
+          "topic": "Self-service registration",
+          "tags": [
+            "CONSULT",
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No fee figures were cited for Shops & Establishment registration in this session."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Issuing authority's precise departmental designation (beyond 'Labour Inspector' for verification) was not fully stated."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No deemed-approval provision was explicitly discussed; participants described a fast administrative process instead."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Fully online, fast (1-2 days to a week) registration via the Single Window Portal; shift to lifetime validity removed the prior annual renewal burden; proactive department follow-up on document deficiencies instead of outright rejection; no redundant documentation and minimal reliance on paid intermediaries."
+        },
+        {
+          "flag": "REFORM",
+          "text": "No specific reform suggestions were raised by participants — they felt the recent shift to lifetime registration had already resolved the primary compliance friction in this service."
+        }
+      ]
+    },
+    {
+      "serviceCode": "TFG",
+      "serviceName": "GST Tax Filing",
+      "sourceFiles": [
+        "DD_FGD_TFG.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "GST Department (Central-State joint GST framework, administered via the GST portal); specific local designation not named in this filing-focused session.",
+      "portal": {
+        "name": "GST Portal",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "Not an approval timeline; this is a recurring monthly/annual filing cycle rather than a licence approval",
+        "text": "GST return filing is a recurring monthly obligation: GSTR-1 around the 11th, GSTR-2B reflecting on the 14th, and GSTR-3B (with tax payment) due by the 20th; an annual return (GSTR-9) is filed after the financial year end. This service is a filing rather than an approval, so no approval delay applies; no delay cost was reported for filing within due dates."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Sales data (uploaded via Excel templates into filing software)",
+        "Purchase invoice data (for ITC reconciliation against GSTR-2B)",
+        "E-way bills (generated per invoice)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. This is a recurring filing process rather than a one-time documentary application; no formal submission checklist was described beyond the sales/purchase data and e-way bills referenced.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not applicable; GST return filing is a self-assessed recurring filing process, not an approval subject to a deemed-approval clause."
+      },
+      "validity": {
+        "text": "Not applicable; this is a recurring monthly/annual filing obligation rather than a licence with a validity period."
+      },
+      "fees": {
+        "text": "No government fee or delay cost was reported for filing. Manpower cost was described as a hidden compliance cost: larger businesses (turnover up to roughly ₹1,000 crore was mentioned) may need four to five dedicated staff across dispatch/invoicing (including e-way bills), accounts/purchase entry, and return filing/reconciliation, while a small business can manage with one. Where used, consultant fees were described as all-inclusive of amendments, though no specific consultant fee figure was cited in this session."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "File GSTR-1 (sales return) around the 11th of the month, via software (e.g., ClearTax) with Excel-uploaded sales data, or through a consultant",
+          "automated": true
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "GSTR-2B (auto-drafted ITC statement) reflects on the 14th; business reconciles purchase invoices manually against it",
+          "automated": false,
+          "note": "The portal does not auto-reconcile; for businesses with thousands of invoices from around a thousand suppliers this is a manual check done under time pressure — as little as 3 working days where a weekend falls before the due date."
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "File GSTR-3B and pay the tax liability by the 20th, after ITC reconciliation and set-off",
+          "automated": true
+        },
+        {
+          "n": 4,
+          "phase": "renew",
+          "title": "File the annual return (GSTR-9) after the financial year end",
+          "automated": "partial",
+          "note": "Data such as Table 8A frequently doesn't auto-populate correctly; support tickets raised are often closed as resolved without an actual fix, sometimes near the due date with penalty exposure."
+        },
+        {
+          "n": 5,
+          "phase": "apply",
+          "title": "Generate e-way bills alongside invoices from billing software",
+          "automated": true,
+          "note": "A separate e-way bill is required per invoice, and per job-work consignment regardless of value."
+        }
+      ],
+      "remarks": [
+        "Participants felt the law keeps changing (ITC eligibility, reversals, rates), making compliance more complicated even though filing mechanics have become easier; GST was seen as having moved away from its original promise of one tax, one return, one simple process.",
+        "A key policy concern was that the recipient bears the consequence of a supplier's default; participants argued the department should recover tax from a defaulting supplier rather than reverse the buyer's credit with interest and penalty — this point was reportedly expected to be taken up at the last GST Council meeting but was not decided.",
+        "Participants suggested extending the e-way bill distance-limit exemption for local movement of goods between Daman and Dadra and Nagar Haveli.",
+        "This record is FGD-only and has not been verified against an official ED source; the Expert Discussion pass did not reach GST Tax Filing for this state."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "GSTR-2B reflects only on the 14th while GSTR-3B is due on the 20th, leaving about six days (sometimes around three working days where a weekend falls before the due date) to reconcile purchases, a manual check for businesses with thousands of monthly invoices."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "ITC can be claimed only to the extent it shows in GSTR-2B; credit shown in the books as receivable is lost to the buyer if a supplier files GSTR-1 late or not at all, even where the invoice is genuine and the supplier has been paid."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY",
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "Notices arrive months, and in one reference about two years later, asking the buyer to reverse ITC with interest and penalty because the supplier did not deposit the tax, felt unfair to a buyer who had paid in full."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Correcting an invoice is difficult: cancellation is possible only within 24 hours; after that the only route is a credit note, and if the recipient does not accept it, the supplier still has to pay the tax even though the value can be reversed in the accounts."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "neutral",
+          "text": "Manpower is a hidden compliance cost: larger businesses (turnover up to around ₹1,000 crore mentioned) may need four to five dedicated staff for dispatch/invoicing (including e-way bills), accounts/purchase entry, and return filing/reconciliation, while a small business can manage with one."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Recurring portal problems: the portal is slow at times, and during annual return (GSTR-9) filing, data (e.g., Table 8A) does not auto-populate properly, so tickets have to be raised repeatedly and are often closed as resolved without a fix, sometimes close to the due date with penalty exposure; ITC on imports was also said not to reflect at times."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "E-way bill generation is repetitive: a separate bill has to be created for every invoice even to the same party, and product-wise invoicing on customer request (ten to fifteen items becoming ten to fifteen invoices) multiplies e-way bills."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "The law keeps changing — ITC eligibility, reversals and rates revised often — making compliance more complicated even though filing itself is easier; new joiners may not know requirements such as reverse charge (RCM), and several participants felt GST has moved away from its original 'one tax, one return, one process' promise."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "A key policy concern: the recipient bears the consequence of a supplier's default. Participants argued the department should recover tax from the defaulting supplier rather than reverse the buyer's credit with interest and penalty — reportedly expected to be taken up at the last GST Council meeting but not decided."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "ITC is allowed only once goods are received, so an invoice dated at month-end for goods still in transit shifts to the following month's credit, creating month-to-month mismatches that participants found hard to manage."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Where a business pays input tax at a higher rate than output tax (inverted duty structure), credit accumulates in the ledger and can only be recovered through a refund, described as the sole option."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Job work movements need an e-way bill regardless of the ₹50,000 value threshold that applies to other goods; participants suggested extending the distance limit for local movement of goods between Daman and Dadra and Nagar Haveli."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No government fee or delay cost was reported for filing, and no other substantive cost was reported for the filing process itself."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Returns are filed online on the GST portal in a monthly cycle (GSTR-1 ~11th, GSTR-2B 14th, GSTR-3B with payment by 20th; GSTR-9 annually); filed in-house via software (e.g., ClearTax) or through consultants, and the mechanics of filing were described as having become easier."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Because the portal does not reconcile purchases against GSTR-2B automatically, matching is done manually or via third-party software, and a supplier's late GSTR-1 filing leaves the corresponding credit missing from GSTR-2B at the time of filing."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "When a supplier amends a GSTIN on an invoice, the amended entry shows only in the next month's GSTR-2B, and the buyer is not alerted to the change; participants must identify and explain such amendments later, including during a government audit."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Reconciling the same purchase data recurs monthly and again at the annual return stage; supplier amendments must be explained afresh during an audit even though the department already holds the data."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Support tickets often need several attempts before a problem is actually resolved, which becomes critical when it coincides with a due date."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Allow ITC to a buyer who holds a valid invoice and has genuinely paid the supplier, and recover tax directly from the supplier who has not deposited it, rather than reversing the buyer's credit with interest and penalty."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Provide more time for ITC reconciliation (e.g., earlier GSTR-2B availability or a wider 14th-to-20th window) and introduce an auto-reconciliation facility on the portal."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Reduce the frequency of changes in ITC eligibility, reversal and rate rules, and simplify the law to move closer to one tax, one return, one process."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Allow one e-way bill to cover multiple invoices to the same party, review the e-way bill requirement for job work, and extend the distance limit for local movement of goods between Daman and Dadra and Nagar Haveli."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry user",
+          "quote": "GSTR-2B reflects only on the 14th while GSTR-3B is due on the 20th, leaving about six days, or three working days, to reconcile thousands of invoices.",
+          "topic": "ITC reconciliation window",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "ITC cannot be claimed if the supplier does not file GSTR-1 on time, even when the invoice is genuine and the payment has been made.",
+          "topic": "ITC tied to supplier compliance",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Notices come months or even two years later asking the buyer to reverse ITC with interest and penalty because the supplier did not pay tax to the government.",
+          "topic": "Delayed ITC-reversal notices",
+          "tags": [
+            "COMPLY",
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "An invoice can be cancelled only within 24 hours, and after that a credit note is needed, but if the buyer does not accept it the supplier still has to pay the tax.",
+          "topic": "Invoice correction limits",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "The portal is slow at times and annual return data such as Table 8A does not auto populate properly, with support tickets closed as resolved without a fix.",
+          "topic": "Portal/GSTR-9 reliability",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Filing has become easier, but the law keeps changing on ITC eligibility, reversals and rates, which has made compliance more complicated than before.",
+          "topic": "Frequent rule changes",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Under the inverted duty structure, credit keeps accumulating and can be recovered only through a refund.",
+          "topic": "Inverted duty structure",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "No government fee or delay cost was incurred for filing, and no other substantive cost was reported for the filing itself.",
+          "topic": "No filing fee",
+          "tags": [
+            "FEES",
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific consultant fee figure was cited for GST return filing assistance in this session (only that fees are 'all inclusive of amendments' where used)."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Precise issuing/administering authority designation was not stated (this is a Central-State joint GST framework)."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Whether the point on supplier-default/buyer-ITC-reversal was ultimately resolved at the GST Council was unclear — participants said it was expected to be taken up but had not been decided as of the discussion."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Filing mechanics described as having become easier, with no government fee or delay cost reported for the filing process itself."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested: allow ITC to a buyer holding a valid invoice who has genuinely paid, recovering tax from a defaulting supplier instead; widen/auto-reconcile the ITC window; simplify frequently-changing ITC/rate rules; allow one e-way bill per party rather than per invoice; improve GSTR-9/Table 8A auto-population and ticket resolution; alert recipients to supplier GSTIN amendments."
+        }
+      ]
+    },
+    {
+      "serviceCode": "TRG",
+      "serviceName": "GST Tax Refund",
+      "sourceFiles": [
+        "DD_FGD_TRG.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "GST Department (jurisdictional GST refund-processing authority); specific designation not named in this session.",
+      "portal": {
+        "name": "GST Portal",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": null,
+        "basis": "Participants referenced a statutory window of approximately 7 days inconsistently, alongside separate references to 15-20 days and a few months for larger or capital-linked claims",
+        "text": "Participants referenced refund timelines inconsistently over the course of the discussion: a statutory window of approximately 7 days, alongside separate references to 15-20 days, and to a few months for larger or capital-linked claims."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No specific document list was enumerated; participants described needing to compile supporting data for the claim (often requiring a CA/consultant) but did not name individual documents.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not explicitly discussed as a deemed-approval clause; participants referenced a cited statutory processing window (~7 days) without describing a default-approval consequence if it lapses."
+      },
+      "validity": {
+        "text": "Not applicable; this is a transaction-specific refund claim rather than a licence with a validity period."
+      },
+      "fees": {
+        "text": "No government fee was mentioned; the cost burden described is the consultant fee (approximately ₹20,000, rising with the size of the claim) layered on top of the refund amount itself."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Business compiles supporting data for the refund claim",
+          "automated": false,
+          "note": "Most businesses lack in-house capacity and engage a Chartered Accountant or consultant; consultant fees ~₹20,000, scaling with claim size."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "File the refund claim through the GST portal",
+          "automated": true
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "Physical visit by a department officer, required the first time a business files a claim",
+          "automated": false,
+          "note": "Subsequent visits described as discretionary rather than a fixed requirement."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Departmental queries communicated by SMS",
+          "automated": "partial",
+          "note": "A limited response window (cited as a few days) applies before further processing can proceed."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Refund processed",
+          "automated": "partial",
+          "note": "Statutory window cited at approximately 7 days, but reported ranges from 15-20 days to a few months for larger/capital-linked or deemed-export claims."
+        }
+      ],
+      "remarks": [
+        "Participants from the textile sector identified the inverted duty structure (GST paid on inputs at approximately 18 percent against output supplies taxed at approximately 5 percent) as a recurring, structural driver of refund claims.",
+        "On deemed-export transactions, the associated input tax credit is not fully available, raising the effective cost of such transactions.",
+        "One participant raised, briefly, the possibility of a single, uniform GST rate across inputs and outputs.",
+        "This record is FGD-only and has not been verified against an official ED source; the Expert Discussion pass did not reach GST Tax Refund for this state."
+      ],
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "Most businesses lack the in-house capacity to compile the supporting data required for a GST refund claim, making it necessary to engage a Chartered Accountant or consultant to complete the filing."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Reliance on external professionals adds a further financial burden: consultant fees of approximately ₹20,000, rising in proportion to the size of the claim, layered on top of the tax amount itself."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "The transition from PDF-based annexures to JSON-based uploads was experienced as an added compliance burden, particularly for businesses that do not use invoicing or accounting software."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Delays in refund processing tie up working capital, with a pending or blocked refund directly straining business cash flow and reducing funds available for day-to-day operations."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Participants from the textile sector identified the inverted duty structure — GST paid on inputs at approximately 18 percent against output supplies taxed at approximately 5 percent — as a recurring, structural driver of refund claims."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "On deemed-export transactions, the associated input tax credit is not fully available, which raises the effective cost of such transactions."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Input Tax Credit on capital investment is restricted for building and construction-related expenditure: only the machinery component of a capital project is claimable, while the construction cost is treated as a blocked cost."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "suggestion",
+          "text": "One participant raised, briefly, the possibility of a single, uniform GST rate across inputs and outputs."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "neutral",
+          "text": "Refund filing takes place entirely through the GST portal; participants did not describe the National Single Window Portal as a route used for tax refund filing."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Refund timelines were referenced inconsistently: a statutory window of approximately 7 days, alongside separate references to 15-20 days, and to a few months for larger or capital-linked claims."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "neutral",
+          "text": "Departmental queries are communicated by SMS, with a limited response window (cited as a few days) before further processing can proceed."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "A physical visit by a department officer is required the first time a business files a claim; participants described subsequent visits as discretionary rather than a fixed requirement."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "The discussion did not surface any specific or consistent instance of duplicate document submission."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Larger or more complex claims, particularly those linked to capital goods or deemed-export categories, were reported to take considerably longer to process, at times extending to a few months rather than the shorter statutory window."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "The time required to prepare documentation was identified as a further contributor to delay, distinct from the department's own processing time."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Query-and-response cycles were reported to extend the overall approval timeline, as any delay on the applicant's part in responding adds directly to the time taken for approval."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Address the inverted duty structure directly, so businesses in affected sectors are not repeatedly required to go through the refund cycle to correct a structural gap."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Extend Input Tax Credit eligibility to construction-linked capital costs, not only to machinery, so refunds and credit are not blocked for genuine property investment."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Clarify and standardise refund processing timelines across claim categories, so businesses can rely on a consistent expectation rather than a range spanning about a week to several months."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Simplify invoice and annexure filing requirements for businesses that do not use dedicated accounting software, so the JSON-based upload does not become a bottleneck for smaller enterprises."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry user",
+          "quote": "Filed GST refund claims through a Chartered Accountant or consultant, citing the complexity of compiling supporting data as the reason for doing so.",
+          "topic": "Consultant reliance",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Referenced consultant fees of approximately ₹20,000, scaling with the size of the refund claim being filed.",
+          "topic": "Consultant cost",
+          "tags": [
+            "FEES",
+            "CONSULT"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Described refund timelines as varying widely from approximately one week under the stated norm to a few months for larger or capital linked claims.",
+          "topic": "Timeline variability",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user (textile sector)",
+          "quote": "Identified the inverted duty structure in the textile sector — 18 percent GST on inputs against 5 percent on outputs — as a recurring driver of refund claims.",
+          "topic": "Inverted duty structure",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Noted that Input Tax Credit on building and construction costs is not claimable in the way it is for machinery, leaving that portion as a blocked cost.",
+          "topic": "Blocked construction ITC",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry user",
+          "quote": "Stated that refund delays tie up working capital, affecting business cash flow while a claim remains pending.",
+          "topic": "Cash-flow impact of delay",
+          "tags": [
+            "FEES",
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific document checklist for the refund claim was enumerated."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Issuing/processing authority's precise designation was not named."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The statutory processing timeline was cited inconsistently (~7 days vs 15-20 days vs a few months), without participants reconciling which applies to which claim type."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Whether any deemed-approval/default consequence applies if the processing window lapses was not discussed."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "No duplicate-document submission issues surfaced; entirely online filing via the GST portal."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Suggested: address the inverted duty structure directly; extend ITC eligibility to construction-linked capital costs; standardise/clarify refund timelines across claim categories; simplify JSON-based invoice/annexure filing for smaller businesses."
+        }
+      ]
+    }
+  ]
+}

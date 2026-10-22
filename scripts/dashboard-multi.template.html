@@ -230,7 +230,16 @@ table.dt td.n,table.dt th.n{text-align:right;font-family:var(--mono);font-varian
 .finding .fmeta{display:flex;gap:6px;align-items:center;margin-bottom:5px;flex-wrap:wrap}
 .fcat{font-size:9px;text-transform:uppercase;letter-spacing:.06em;font-weight:800;color:var(--muted)}
 .ftag{font-size:9px;font-weight:700;padding:2px 7px;border-radius:999px;background:var(--bg);color:var(--muted);border:1px solid var(--border)}
+.ftag.src-ed{background:#1E293B;color:#fff;border-color:transparent}
+.ftag.src-fgd{background:var(--violet-light);color:#5B21B6;border-color:transparent}
 .finding .ftext{color:var(--body)}
+
+.quote-card{background:linear-gradient(160deg,#fff,#FAFBFF);border:1px solid var(--border);border-radius:14px;padding:16px 18px;position:relative;height:100%}
+.quote-card .qmark{font-family:var(--display,inherit);font-size:38px;color:var(--border-2);position:absolute;top:2px;left:12px;line-height:1}
+.quote-card .qtext{font-style:italic;font-size:13.5px;color:var(--ink);padding-left:16px;line-height:1.5;position:relative}
+.quote-card .qmeta{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding-top:10px;border-top:1px solid var(--border-2);font-size:10.5px;color:var(--faint)}
+.quote-card .qtopic{font-weight:700;color:var(--muted)}
+.quotegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
 
 .gapbadge{display:inline-flex;align-items:center;gap:5px;font-size:9.5px;font-weight:800;padding:4px 10px;border-radius:999px;border:1px solid;letter-spacing:.02em;white-space:nowrap}
 .gapbadge.gf-MISSING{background:var(--bg);color:var(--muted);border-color:var(--border)}
@@ -364,6 +373,7 @@ function statesWithService(svcCode){
 
 const CATEGORY_LABEL = {pain:'Pain point', policy:'Policy', procedural:'Procedure', redundant:'Redundancy', delay:'Delay', suggestions:'Suggestion', remarks:'Remark'};
 const SENT_CLASS = {issue:'sent-issue', neutral:'sent-neutral', positive:'sent-positive', suggestion:'sent-suggestion'};
+const SRC_LABEL = {ed:'ED', fgd:'FGD'};
 const GAP_META = {
   MISSING:{label:'Missing', icon:'dash'}, VAGUE:{label:'Vague', icon:'alert'},
   INCONSISTENT:{label:'Inconsistent', icon:'scale'}, GOOD_PRACTICE:{label:'Good practice', icon:'award'},
@@ -427,9 +437,13 @@ function portalLink(lic){
 }
 function findingItem(f){
   return `<div class="finding ${SENT_CLASS[f.sentiment]||''}">
-    <div class="fmeta"><span class="fcat">${esc(CATEGORY_LABEL[f.category]||f.category)}</span>${(f.tags||[]).map(t=>`<span class="ftag">${esc(t)}</span>`).join('')}</div>
+    <div class="fmeta">${f.source?`<span class="ftag src-${f.source}">${SRC_LABEL[f.source]||f.source}</span>`:''}<span class="fcat">${esc(CATEGORY_LABEL[f.category]||f.category)}</span>${(f.tags||[]).map(t=>`<span class="ftag">${esc(t)}</span>`).join('')}</div>
     <div class="ftext">${esc(f.text)}</div>
   </div>`;
+}
+function quoteCard(q){
+  return `<div class="quote-card"><div class="qmark">&ldquo;</div><div class="qtext">${esc(q.quote)}</div>
+    <div class="qmeta"><span class="qtopic">${esc(q.topic||'')}</span><span>${esc(q.speaker||'')}</span></div></div>`;
 }
 function gapBadge(flag){ const m = GAP_META[flag]||{label:flag,icon:'dash'}; return `<span class="gapbadge gf-${flag}">${icon(m.icon)}${esc(m.label)}</span>`; }
 function gapItem(g, showState){
@@ -452,7 +466,7 @@ function buildNav(){
   document.getElementById('railnav').innerHTML = NAV.map(n=>
     `<button class="navbtn" data-view="${n.k}" onclick="goView('${n.k}')">${icon(n.icon)}<span><span class="t">${esc(n.t)}</span><span class="d">${esc(n.d)}</span></span></button>`
   ).join('');
-  document.getElementById('railfoot').innerHTML = `<b>Scope</b><br>${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licenses · ${esc(AGG.totalLicenses)} ED reports<br>FGD &amp; secondary research on hold for this pass<br><br><b>This file</b><br>Single self-contained HTML, no server, no database — open it, email it, host it anywhere.`;
+  document.getElementById('railfoot').innerHTML = `<b>Scope</b><br>${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licenses · ${esc(AGG.totalLicenses)} license records (ED + FGD)<br>Secondary (web) research on hold for this pass<br><br><b>This file</b><br>Single self-contained HTML, no server, no database — open it, email it, host it anywhere.`;
 }
 function goView(v){ F.view=v; render(); }
 function goState(code){ F.state=code; F.license=null; F.view='state'; render(); }
@@ -477,7 +491,7 @@ function buildFilters(){
     bar.innerHTML = `<div class="fld"><label>Process stage</label><select id="selPhase">${STAGES.map(p=>`<option value="${p.k}" ${F.phase===p.k?'selected':''}>${esc(p.n)}</option>`).join('')}</select></div>`;
     document.getElementById('selPhase').onchange = e=>{ F.phase=e.target.value; render(); };
   } else {
-    bar.innerHTML = `<div class="fld"><label>Dataset</label><select disabled><option>${esc(AGG.totalLicenses)} ED reports · ${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licenses</option></select></div>`;
+    bar.innerHTML = `<div class="fld"><label>Dataset</label><select disabled><option>${esc(AGG.totalLicenses)} license records · ${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licenses</option></select></div>`;
   }
 }
 
@@ -490,14 +504,14 @@ function renderOverview(){
 
   let h = `<div class="pagehead"><div><h2>${icon('grid')}National overview</h2>
     <div class="lede">${esc(DATA.meta.sourcesNote)}</div></div>
-    <span class="stamp live">${AGG.totalLicenses} ED reports tagged</span></div>`;
+    <span class="stamp live">${AGG.totalLicenses} license records tagged</span></div>`;
 
-  h += `<div class="banner info">${icon('alert')}<span><b>Where this stands.</b> This pass covers every license QCI has a completed Expert Discussion for — Focused Group Discussion (business-side) and secondary (web) research are on hold while this scope expands, and will be layered back in per State/license. See Method &amp; Data Quality.</span></div>`;
+  h += `<div class="banner info">${icon('alert')}<span><b>Where this stands.</b> This pass covers every license QCI has a completed Expert Discussion and/or Focused Group Discussion for — ${AGG.licensesWithFGD} of ${AGG.totalLicenses} license records now carry FGD-sourced findings and quotes alongside (or in place of) the official ED record. Secondary (web) research is on hold while this scope expands, and will be layered back in per State/license. See Method &amp; Data Quality.</span></div>`;
 
   h += `<div class="grid g5" style="margin-bottom:16px">
-    ${kpiIcon('acc-primary','grid','States/UTs covered', AGG.totalStates+' / '+STATE_UNIVERSE.length, 'at least one license with ED')}
-    ${kpiIcon('acc-primary','layers','Licenses covered', AGG.totalServices+' / '+SERVICES.length, 'service types with at least one ED')}
-    ${kpiIcon('acc-primary','book','ED reports processed', String(AGG.totalLicenses), AGG.totalFindings+' tagged findings')}
+    ${kpiIcon('acc-primary','grid','States/UTs covered', AGG.totalStates+' / '+STATE_UNIVERSE.length, 'at least one license with ED or FGD')}
+    ${kpiIcon('acc-primary','layers','Licenses covered', AGG.totalServices+' / '+SERVICES.length, 'service types with at least one ED or FGD')}
+    ${kpiIcon('acc-primary','book','License records processed', String(AGG.totalLicenses), AGG.totalFindings+' tagged findings · '+AGG.totalQuotes+' FGD quotes')}
     ${kpiIcon('acc-danger','alert','Gaps logged', String(AGG.totalGaps), (AGG.gapFlagCounts.MISSING||0)+' missing · '+(AGG.gapFlagCounts.VAGUE||0)+' vague · '+(AGG.gapFlagCounts.INCONSISTENT||0)+' inconsistent')}
     ${kpiIcon('acc-violet','award','Good practice logged', String(AGG.gapFlagCounts.GOOD_PRACTICE||0), (AGG.gapFlagCounts.REFORM||0)+' reform ideas also flagged')}
   </div>`;
@@ -542,7 +556,7 @@ function renderOverview(){
       const lics = s ? s.licenses.length : 0;
       const findings = s ? s.licenses.reduce((a,l)=>a+l.findings.length,0) : 0;
       const gaps = s ? s.licenses.reduce((a,l)=>a+l.gaps.length,0) : 0;
-      return `<tr><td ${s?`class="state-link" onclick="goState('${su.code}')"`:''}>${esc(su.name)}${!s?' <span class=\"tag t-mute\">no ED yet</span>':''}</td><td class="n">${lics}</td><td class="n">${findings}</td><td class="n">${gaps}</td></tr>`;
+      return `<tr><td ${s?`class="state-link" onclick="goState('${su.code}')"`:''}>${esc(su.name)}${!s?' <span class=\"tag t-mute\">no ED or FGD yet</span>':''}</td><td class="n">${lics}</td><td class="n">${findings}</td><td class="n">${gaps}</td></tr>`;
     }).join('')+
     '</tbody></table></div></div></div>';
 
@@ -556,7 +570,7 @@ function renderState(){
   const lic = licOf(s.code, F.license);
 
   let h = `<div class="pagehead"><div><h2>${icon('user')}${esc(s.name)}</h2>
-    <div class="lede">${s.licenses.length} license${s.licenses.length===1?'':'s'} on file with a completed Expert Discussion.</div></div>
+    <div class="lede">${s.licenses.length} license${s.licenses.length===1?'':'s'} on file from a completed Expert Discussion and/or Focused Group Discussion.</div></div>
     <span class="stamp live">${AGG.totalStates} States in dataset</span></div>`;
 
   h += `<div class="tabset">`+
@@ -565,12 +579,17 @@ function renderState(){
 
   if(!lic) return h + '<div class="empty"><b>No license selected</b></div>';
 
-  h += `<div class="lede" style="margin:-6px 0 16px">${esc(lic.issuingAuthority||'')}${lic.ed&&lic.ed.expert?' · '+esc(lic.ed.expert)+(lic.ed.designation?', '+esc(lic.ed.designation):''):''} ${portalLink(lic)}</div>`;
+  h += `<div class="lede" style="margin:-6px 0 10px">${esc(lic.issuingAuthority||'')}${lic.ed&&lic.ed.expert?' · '+esc(lic.ed.expert)+(lic.ed.designation?', '+esc(lic.ed.designation):''):''} ${portalLink(lic)}</div>`;
+  h += `<div style="margin:0 0 16px;display:flex;gap:6px;flex-wrap:wrap">
+    <span class="ftag src-ed" style="${lic.hasED===false?'opacity:.35':''}">${lic.hasED===false?'No ED on file':'Expert Discussion'}</span>
+    <span class="ftag src-fgd" style="${!lic.hasFGD?'opacity:.35':''}">${lic.hasFGD?('FGD — '+(lic.fgdSessionCount||1)+' session'+((lic.fgdSessionCount||1)===1?'':'s')):'No FGD on file'}</span>
+    ${lic.hasED===false?'<span class="ftag" title="This record was built entirely from business-side FGD testimony, not an official interview">FGD-only record — not verified against an official source</span>':''}
+  </div>`;
 
   const bd = {online:lic.steps.filter(x=>x.automated===true).length, site:lic.steps.filter(x=>x.phase==='inspect').length};
   const nonInspectCount = lic.steps.filter(x=>x.phase!=='inspect').length;
   h += `<div class="grid g4" style="margin-bottom:16px">
-    ${kpiIcon('acc-primary','layers','Steps recorded', String(lic._stepCount), 'exactly as the Expert Discussion describes them')}
+    ${kpiIcon('acc-primary','layers','Steps recorded', String(lic._stepCount), lic.hasED===false?'best-effort, from FGD testimony — not ED-verified':'exactly as the Expert Discussion describes them')}
     ${kpiIcon(lic._timeMid==null?'acc-warn':'acc-success','grid','Timeline', fmtDays(lic.timeline), (lic.timeline&&lic.timeline.basis)||'')}
     ${kpiIcon('acc-primary','check','Digitisation', lic._autoShare==null?'n/a':Math.round(lic._autoShare*100)+'%', bd.online+' of '+nonInspectCount+' non-inspection steps online'+(bd.site?' · '+bd.site+' on-site visit':''))}
     ${kpiIcon(lic.deemedApproval&&lic.deemedApproval.status==='yes'?'acc-success':'acc-danger','award','Deemed approval', lic.deemedApproval?({yes:'Yes',no:'No',unclear:'Not confirmed'}[lic.deemedApproval.status]||'Not confirmed'):'Not confirmed', (lic.deemedApproval&&lic.deemedApproval.days)?(lic.deemedApproval.days+' days'):'')}
@@ -600,7 +619,12 @@ function renderState(){
       <ul style="margin:0;padding-left:18px;font-size:12.5px;color:var(--muted);line-height:1.7">${lic.remarks.map(r=>`<li>${esc(r)}</li>`).join('')}</ul></div></div>`;
   }
 
-  h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>${icon('book')}Tagged findings</h3><span class="note">${lic.findings.length} total — category, topic tags, sentiment, all traced to the ED transcript</span></div>
+  if(lic.quotes && lic.quotes.length){
+    h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>${icon('user')}Quotes from the Focused Group Discussion</h3><span class="note">${lic.quotes.length} verbatim/lightly-trimmed quotes from participants</span></div>
+      <div class="card-b"><div class="quotegrid scroll-y" style="max-height:420px">${lic.quotes.map(quoteCard).join('')}</div></div></div>`;
+  }
+
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>${icon('book')}Tagged findings</h3><span class="note">${lic.findings.length} total — category, topic tags, sentiment, each traced to its source transcript (ED or FGD)</span></div>
     <div class="card-b"><div class="scroll-y" style="max-height:600px">${lic.findings.map(findingItem).join('')||'<div class="hint">No findings extracted.</div>'}</div></div>`;
 
   h += `<div class="card"><div class="card-h"><h3>${icon('flask')}Gaps</h3><span class="note">${lic.gaps.length} flags for this license</span></div><div class="card-b">${lic.gaps.map(g=>gapItem(g,false)).join('')||'<div class="hint">None logged.</div>'}</div></div>`;
@@ -707,9 +731,9 @@ function renderBest(){
 
 function renderReconcile(){
   const items = AGG.inconsistencies;
-  let h = `<div class="pagehead"><div><h2>${icon('scale')}Flagged inconsistencies</h2><div class="lede">Every <code>INCONSISTENT</code> flag raised while tagging — a report contradicting itself (header vs. body, one section vs. another). Genuine ED-vs-business-experience contradictions will appear here once FGD data is reintegrated.</div></div></div>`;
+  let h = `<div class="pagehead"><div><h2>${icon('scale')}Flagged inconsistencies</h2><div class="lede">Every <code>INCONSISTENT</code> flag raised while tagging — either a report contradicting itself (header vs. body, one section vs. another), or a genuine contradiction between what an official described in the Expert Discussion and what businesses reported in the Focused Group Discussion, with both sides quoted or closely paraphrased.</div></div></div>`;
   h += `<div class="grid g4" style="margin-bottom:16px">
-    ${kpiIcon('acc-danger','alert','Inconsistencies logged', String(items.length), 'across '+AGG.totalLicenses+' ED reports')}
+    ${kpiIcon('acc-danger','alert','Inconsistencies logged', String(items.length), 'across '+AGG.totalLicenses+' license records')}
     ${kpiIcon('acc-primary','book','Reports affected', String(new Set(items.map(g=>g.state+'/'+g.serviceCode)).size), 'of '+AGG.totalLicenses+' total')}
   </div>`;
   h += `<div class="card"><div class="card-h"><h3>Logged inconsistencies</h3></div><div class="card-b">`+
@@ -721,7 +745,7 @@ function renderReconcile(){
 function renderGaps(){
   const missing = (F.gapsSvc==='all') ? AGG.missing : AGG.missing.filter(g=>g.serviceCode===F.gapsSvc);
   const vague = (F.gapsSvc==='all') ? AGG.vague : AGG.vague.filter(g=>g.serviceCode===F.gapsSvc);
-  let h = `<div class="pagehead"><div><h2>${icon('flask')}Data gaps</h2><div class="lede">Facts the Expert Discussion never states (<code>MISSING</code>) or states too vaguely to use (<code>VAGUE</code>) — filter by license to see exactly what's missing where. These are the gaps FGD and secondary research will be asked to close once that work resumes.</div></div></div>`;
+  let h = `<div class="pagehead"><div><h2>${icon('flask')}Data gaps</h2><div class="lede">Facts neither the Expert Discussion nor the Focused Group Discussion states (<code>MISSING</code>) or states too vaguely to use (<code>VAGUE</code>) — filter by license to see exactly what's missing where. These are the gaps secondary (web) research will be asked to close once that work resumes.</div></div></div>`;
   h += `<div class="grid g4" style="margin-bottom:16px">
     ${kpiIcon('acc-danger','dash','Missing entirely', String(AGG.gapFlagCounts.MISSING||0), 'no source states this fact')}
     ${kpiIcon('acc-warn','alert','Vague / unmeasurable', String(AGG.gapFlagCounts.VAGUE||0), 'stated but not usable as data')}
@@ -738,8 +762,8 @@ function renderMethod(){
   let h = `<div class="pagehead"><div><h2>${icon('book')}Method &amp; data quality</h2><div class="lede">What this dashboard is built from, how findings are tagged, and what is honestly not yet known.</div></div></div>`;
 
   h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Current scope</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">
-    <p>This pass covers <b style="color:var(--ink)">${AGG.totalLicenses} Expert Discussion (ED) reports</b> — ${AGG.totalStates} States/UTs × up to ${AGG.totalServices} license types — built strictly from the real ED transcript for each State/license pair. <b style="color:var(--ink)">Focused Group Discussion (FGD, business-owner experience) and secondary (web) research are on hold</b> for this expanded scope: they existed for the original Factory License pilot (11 States) and will be re-layered in, state by state and license by license, as that work resumes.</p>
-    <p>Because this is ED-only right now, every finding's source is the Expert Discussion, and the only gap flags in play are <code>MISSING</code>, <code>VAGUE</code>, <code>GOOD_PRACTICE</code>, <code>REFORM</code>, and <code>INCONSISTENT</code> (limited to a report genuinely contradicting itself — e.g. two different fee figures in the same document — not yet ED-vs-business-experience, which needs FGD).</p>
+    <p>This pass covers <b style="color:var(--ink)">${AGG.totalLicenses} license records</b> — ${AGG.totalStates} States/UTs × up to ${AGG.totalServices} license types — built from the real Expert Discussion (ED, official-side) transcript and/or Focused Group Discussion (FGD, business-owner experience) transcript for each State/license pair. <b style="color:var(--ink)">${AGG.licensesWithFGD} of these license records now include FGD-sourced findings and quotes</b>: where an ED record already existed, FGD findings, quotes and any genuine ED-vs-FGD contradictions are layered onto it without altering the ED's own structured facts (timeline, fees, steps, etc.); where no ED existed for that State/license, a best-effort record is built entirely from FGD testimony and marked as FGD-only, unverified against an official source. <b style="color:var(--ink)">Secondary (web) research is on hold</b> for this expanded scope: it existed for the original Factory License pilot (11 States) and will be re-layered in, state by state and license by license, as that work resumes.</p>
+    <p>Every finding carries an explicit source tag (<span class="ftag src-ed" style="display:inline">ED</span> or <span class="ftag src-fgd" style="display:inline">FGD</span>). Gap flags are <code>MISSING</code>, <code>VAGUE</code>, <code>GOOD_PRACTICE</code>, <code>REFORM</code>, and <code>INCONSISTENT</code> — the last covers both a report genuinely contradicting itself (e.g. two different fee figures in the same document) and a genuine factual contradiction between what an official said in the ED and what businesses reported in the FGD, with both sides quoted or closely paraphrased. A difference in tone or emphasis alone is never flagged as inconsistent.</p>
   </div></div>`;
 
   h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Tagging taxonomy</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">

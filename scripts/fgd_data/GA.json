@@ -1,0 +1,432 @@
+{
+  "code": "GA",
+  "name": "Goa",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": ["GA_FGD_CTE.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not named explicitly by participants; Consent to Establish is processed through Goa's online, state single-window system (the specific department was not identified in the transcript).",
+      "portal": { "name": "Online, state single-window system (specific portal name not given)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "", "text": "No specific day-count figure was given for Consent to Establish itself. Participants described it as quick when documentation is complete, in contrast to downstream approvals such as Environment Clearance, which was cited as taking 6-7 months." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": ["Project report and supporting data (described generally as relevant and proportionate; no itemized checklist given)"],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not provide a detailed document checklist for Consent to Establish itself.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed in the transcript." },
+      "validity": { "text": "Not stated directly. Renewal of Consent to Establish is described as a manual process (not automatic) required approximately every three years, implying this as the operative cycle." },
+      "fees": { "text": "The fee is linked to investment size and industry category and is stated to be available on the department portal; no specific figures were given." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits Consent to Establish application via the state's online single-window system", "automated": true, "note": "" },
+        { "n": 2, "phase": "scrutiny", "title": "Deficiencies communicated electronically (portal/message)", "automated": "partial", "note": "In-person clarification occasionally still needed." },
+        { "n": 3, "phase": "renew", "title": "Renewal of Consent to Establish, required approximately every three years", "automated": false, "note": "Described as a manual process, not automatic renewal." }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B); no official ED interview exists for Consent to Establish in Goa to cross-check against.",
+        "Participants used the discussion to raise broader ease-of-doing-business concerns (power, water, land infrastructure, environment clearance, NOC processes) beyond Consent to Establish specifically; several findings below concern these parallel/downstream approvals rather than CTE itself, but are retained because participants raised them in the CTE session."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Industrial plots allotted for setting up units may lack basic infrastructure such as power, water supply and street lighting at the time of allotment." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Establishing a dedicated transformer connection can involve a high upfront cost to the industry, with the asset later transferring to the electricity department without a corresponding rebate." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE", "INTERDEP"], "sentiment": "issue", "text": "Obtaining a new power connection (e.g., 33 KV) to a plot can remain pending for several months without departmental action." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Water availability at newly allotted industrial plots may be limited, requiring dependence on tankers pending pipeline connectivity." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE", "DUPDOC"], "sentiment": "issue", "text": "Environment Clearance for an individual unit can take several months, as each company must obtain it separately even where the land was developed by the industrial estate authority." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "TIMELINE"], "sentiment": "issue", "text": "Sequential, multi-department clearance requirements (e.g., for diesel storage NOC) can extend timelines where department confirmations are not sought in parallel." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY", "NORMS"], "sentiment": "issue", "text": "Differing interpretation of construction-area thresholds (e.g., built-up area definitions) across departments can create inconsistent Environment Clearance requirements for the same project." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "CLARITY"], "sentiment": "issue", "text": "A conflict was noted between a central government notification exempting certain industry categories from mandatory rainwater harvesting and the continuing requirement imposed by state pollution control and environment clearance processes for the same categories." },
+        { "source": "fgd", "category": "policy", "tags": ["PORTAL", "INTERDEP"], "sentiment": "issue", "text": "No overarching single-window policy currently mandates that all approvals required to set up an industry (power, water, environment, fire, etc.) be integrated under one system; each departmental clearance is governed separately, of which Consent to Establish is only one." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "Consent to Establish is processed through an online, state single-window system, reducing the need for physical visits in most cases." },
+        { "source": "fgd", "category": "procedural", "tags": ["RENEWAL"], "sentiment": "neutral", "text": "Renewal of Consent to Establish is a manual process rather than an automatic renewal, required approximately every three years." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Approvals granted on one department's portal are not automatically recognized by other, related departments, requiring the same file/information to be re-submitted separately at each department." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "issue", "text": "At a later approval stage (Consent to Operate), sequential review by multiple officials was cited as a source of processing delay." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "No specific redundant or duplicate document was identified by participants for the Consent to Establish checklist itself; the required project report and supporting data were generally considered relevant and proportionate." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "PORTAL"], "sentiment": "issue", "text": "Once an approval is obtained from one department, the same supporting information sometimes has to be resubmitted afresh to other, related departments due to lack of file-sharing between department portals." },
+        { "source": "fgd", "category": "delay", "tags": ["COMPLY"], "sentiment": "issue", "text": "Incomplete or non-compliant documentation was cited as the main reason for delay in the Consent to Establish process itself, requiring correction and resubmission." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "At the Consent to Operate stage, sequential review by a large number of officials was identified as contributing to backlog, with increased caution following a fire-related incident." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Move towards a unified single-window clearance system covering all approvals needed to establish an industry, rather than separate departmental portals and fees." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Have the industrial estate authority obtain Environment Clearance for a developed plot in advance, rather than requiring each individual unit to obtain it separately." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Consent to Establish itself was consistently described as simple, transparent and quick when documentation is complete, in contrast to more time- and coordination-intensive downstream approvals (Consent to Operate, Environment Clearance, utility connections)." }
+      ],
+      "quotes": [
+        { "speaker": "Industry User", "quote": "You do not get any rebate because you put your own transformer.", "topic": "Transformer Cost Burden", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "There is no single window portal.", "topic": "Lack of Unified Clearance System", "tags": ["PORTAL", "INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "Every department has different interpretation.", "topic": "Inconsistent Departmental Interpretation", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "It almost takes 6 to 7 months to get the environment clearance.", "topic": "Environment Clearance Delay", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "There was not much document required.", "topic": "No Redundant Documentation Identified", "tags": ["DUPDOC", "POSITIVE"], "sentiment": "positive" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No specific day-count timeline was given for Consent to Establish itself; the transcript only characterizes it as 'quick' relative to downstream approvals." },
+        { "flag": "MISSING", "text": "No itemized document checklist was given for Consent to Establish; participants described the project report/supporting data only generally." },
+        { "flag": "MISSING", "text": "No fee figures were given; only that the fee depends on investment size and industry category, available on the portal." },
+        { "flag": "VAGUE", "text": "The specific issuing department/authority for Consent to Establish was not named by participants; only a general 'online, state single-window system' was referenced." },
+        { "flag": "GOOD_PRACTICE", "text": "Consent to Establish was consistently described as simple, transparent and quick when documentation is complete, via the online single-window system, in contrast to downstream approvals." },
+        { "flag": "MISSING", "text": "The conflict described between a central rainwater-harvesting exemption notification and continuing state-level requirements was not specified in detail (no notification numbers or categories given)." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": ["GA_FGD_CTO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not named explicitly by participants; processed online via the department portal (department not identified by name in the transcript).",
+      "portal": { "name": "Online departmental portal (name not specified by participants)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "", "text": "No specific day-count timeline was given. Participants explicitly flagged the absence of clearly defined stage-wise turnaround times as a policy gap, which itself prevents applicants from knowing whether an application has exceeded the expected processing period." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants stated documentation requirements are primarily managed through the online application system with prescribed checklists, but did not list specific documents; no redundant/duplicate document requirement was identified.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed in the transcript." },
+      "validity": { "text": "Not discussed in the transcript." },
+      "fees": { "text": "No fee figures given; participants noted that major payments were handled through online mode." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits Consent to Operate application online", "automated": true, "note": "" },
+        { "n": 2, "phase": "scrutiny", "title": "Portal provides general status updates (e.g. 'in progress', 'under approval')", "automated": "partial", "note": "Limited stage-wise visibility or notifications of movement between processing stages." },
+        { "n": 3, "phase": "scrutiny", "title": "Applicant follows up physically with concerned authorities for status updates", "automated": false, "note": "Required despite online submission and tracking." },
+        { "n": 4, "phase": "apply", "title": "Related waste authorization processed separately, offline", "automated": false, "note": "Does not provide equivalent online tracking; may require physical visits." }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B); no official ED interview exists for Consent to Operate in Goa to cross-check against.",
+        "Waste authorization, a related authorization, is reported to follow a separate offline process distinct from the online CTO process itself."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "Although the Consent to Operate application is processed online, physical follow-up with the concerned authorities may still be required to obtain updates on the progress of the application." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "The online system provides visibility of application status, but limited information on the specific stage through which the application is progressing; status may show only 'in progress' or 'under approval' without stage-wise detail." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "INTERDEP"], "sentiment": "issue", "text": "Certain related authorizations, particularly waste authorization, continue to be processed through offline mechanisms, without equivalent online tracking, possibly requiring physical visits." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE", "CLARITY"], "sentiment": "issue", "text": "The current Consent to Operate process lacks clearly defined turnaround times for individual stages, creating unpredictability and preventing timely identification/escalation of applications that exceed the prescribed processing period." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "The portal provides procedural and checklist information, but clearer visibility of individual processing stages would help clarify application movement." },
+        { "source": "fgd", "category": "policy", "tags": ["POSITIVE"], "sentiment": "positive", "text": "No major policy-level difficulty with the Consent to Operate process was identified; the overall process was described as online and smooth." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "Notifications are not consistently available for movement of the application from one processing stage to another, making it difficult to identify exact status without follow-up." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "issue", "text": "While Consent to Operate is processed online, related authorizations such as waste authorization follow an offline process, resulting in different tracking and follow-up mechanisms." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "No specific requirement for repeated, duplicate, or re-submission of the same documents was identified in relation to the Consent to Operate process." },
+        { "source": "fgd", "category": "delay", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "Limited visibility of application movement and absence of stage-wise notifications may result in the need for follow-up with concerned authorities to ascertain status." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The absence of clearly defined turnaround times for individual stages may make it difficult to determine whether an application has exceeded the expected processing period." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Define and publish stage-wise turnaround times for each stage of the Consent to Operate process on the portal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "CLARITY"], "sentiment": "suggestion", "text": "Enhance stage-wise application tracking so applicants can identify the stage where an application may be pending beyond the prescribed timeframe." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "GRIEVANCE"], "sentiment": "suggestion", "text": "Strengthen online notifications for important status changes and instances where processing exceeds the defined timeframe, reducing the need for repeated follow-up." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion", "text": "Extend online status-tracking facilities to related authorizations currently processed offline, particularly where absence of tracking requires physical visits." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The Consent to Operate process was generally described as smooth, with online application and status facilities supporting the overall process; expansion/renovation changes were accommodated without significant procedural difficulty." },
+        { "source": "fgd", "category": "remarks", "tags": ["CONSULT"], "sentiment": "neutral", "text": "Some entities engage consultants to manage renewals, testing, compliance requirements and related periodic filings, including activities related to water treatment and pollution compliance." }
+      ],
+      "quotes": [
+        { "speaker": "Industry User", "quote": "No significant pain point was reported in the overall Consent to Operate process.", "topic": "Pain Point", "tags": ["POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Industry User", "quote": "The process was considered transparent, with major payments handled through online mode.", "topic": "Transparency", "tags": ["PORTAL", "FEES", "POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Industry User", "quote": "The Consent to Operate application was processed online with portal-based status visibility.", "topic": "Online Processing", "tags": ["PORTAL"], "sentiment": "neutral" },
+        { "speaker": "Industry User", "quote": "Follow-up with the concerned authorities was required despite online processing.", "topic": "Physical Follow-up", "tags": ["QUERY"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "A defined turnaround time for each processing stage was identified as a requirement for improving process predictability.", "topic": "Turnaround Time Suggestion", "tags": ["TIMELINE"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No specific day-count timeline is given for Consent to Operate anywhere in the transcript; participants explicitly note the absence of defined stage-wise turnaround times." },
+        { "flag": "MISSING", "text": "The issuing authority/department name is not stated in the transcript." },
+        { "flag": "MISSING", "text": "No document checklist or fee figures are given beyond general statements that payments are made online." },
+        { "flag": "VAGUE", "text": "Waste authorization is described as a 'related authorization' processed offline, but it is not clear whether it is a formal prerequisite/component of Consent to Operate or a separate, parallel approval." },
+        { "flag": "GOOD_PRACTICE", "text": "No duplicate/redundant document resubmission was identified, and the process was described overall as smooth, transparent and digitally enabled, with expansions/renovations accommodated without significant difficulty." },
+        { "flag": "REFORM", "text": "Publishing stage-wise turnaround times and strengthening online notifications are suggested but not-yet-implemented reforms." }
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFiles": ["GA_FGD_ECL.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Electricity Department/Board (referred to in the transcript as 'the electricity board'); not named more specifically by participants.",
+      "portal": { "name": "Official departmental website (name not further specified by participants)", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 30, "basis": "FGD testimony: one participant's case, from commencement of process to connection, including delay in obtaining a Panchayat/local-authority supporting letter", "text": "The electricity connection was obtained within approximately 30 days from commencement of the process, based on the experience described by one participant." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Ownership documents (as applicable)",
+        "Identity documents (as applicable)",
+        "Panchayat/local-authority supporting letter (required for certain connections, depending on connection type and business activity)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants indicated exact document requirements vary by connection category (Low Tension vs High Tension) and by business activity; no complete, itemized checklist was given.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed in the transcript." },
+      "validity": { "text": "Not discussed in the transcript." },
+      "fees": { "text": "No fee figures were given; participants noted that major payments were made online directly to the electricity board." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Gather required documentation, including Panchayat/local-authority letter where applicable", "automated": false, "note": "Reported as delay-prone due to limited availability of the local authority office and intervening holidays." },
+        { "n": 2, "phase": "apply", "title": "Submit initial application", "automated": false, "note": "First-time application processed manually and required assistance from an experienced person due to limited familiarity with the process; subsequent applications expected to be manageable independently." },
+        { "n": 3, "phase": "fee", "title": "Pay fee online directly to the electricity board", "automated": true, "note": "" },
+        { "n": 4, "phase": "approve", "title": "Connection granted", "automated": null, "note": "Obtained within approximately 30 days from commencement in the case reported." }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B); no official ED interview exists for Electricity Connection in Goa to cross-check against."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "TIMELINE"], "sentiment": "issue", "text": "Obtaining the required supporting letter from the Panchayat/local authority resulted in delays, particularly due to limited availability of the concerned local office and intervening holidays." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY", "CAPACITY"], "sentiment": "issue", "text": "The initial application was processed manually and required familiarity with the application procedure, resulting in additional effort for first-time applicants." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Documentation requirements vary based on the type of electricity connection and the nature of the business activity, with ownership, identity and applicable local-authority documentation required, as applicable." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Applicable requirements vary by connection category, including the distinction between Low Tension (LT) and High Tension (HT) connections." },
+        { "source": "fgd", "category": "procedural", "tags": ["CAPACITY", "POSITIVE"], "sentiment": "positive", "text": "The initial application required assistance from an experienced person due to limited familiarity with the process; with experience from the first application, subsequent applications were expected to be manageable independently. Overall, no significant procedural issues were reported, and the service experience was generally described as smooth." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "positive", "text": "No significant duplication of documentation was identified; documentation requirements were reported to vary by connection category and business activity, with only relevant documents required." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP", "TIMELINE"], "sentiment": "issue", "text": "The primary delay identified is related to obtaining a Panchayat/local-authority letter, affected by local office availability and intervening holidays. Despite this, the connection was obtained within approximately 30 days from commencement." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Continue to clearly display required documents, applicable fees and prescribed procedure on the official website to facilitate applicant preparedness." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "INTERDEP"], "sentiment": "suggestion", "text": "Where a Panchayat/local-authority document is required, communicate this requirement at the beginning of the process so applicants can arrange it in advance." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Greater familiarity with the application process through the initial application can help applicants independently manage subsequent applications and reduce reliance on external assistance." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE", "FEES"], "sentiment": "positive", "text": "The electricity connection service experience was reported as transparent and generally smooth, with major payments made online directly to the electricity board; no significant issue with departmental support was identified." }
+      ],
+      "quotes": [
+        { "speaker": "Industry User", "quote": "No significant pain point was identified in the electricity connection process.", "topic": "Pain Point", "tags": ["POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Industry User", "quote": "Delay was experienced in obtaining the required Panchayat/local-authority supporting document.", "topic": "Delay / Supporting Document", "tags": ["INTERDEP", "TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "The electricity connection process was found to be highly transparent.", "topic": "Transparency", "tags": ["POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Industry User", "quote": "Major payments were made online directly to the electricity board.", "topic": "Digital Payment", "tags": ["FEES", "PORTAL"], "sentiment": "positive" },
+        { "speaker": "Industry User", "quote": "The electricity connection was obtained within approximately 30 days from commencement of the process.", "topic": "Approval Timeline", "tags": ["TIMELINE"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "The specific issuing authority/department name is not given beyond 'the electricity board'." },
+        { "flag": "MISSING", "text": "No fee figures or document checklist are itemized; only general categories (ownership, identity, local-authority documentation) are mentioned, varying by connection type." },
+        { "flag": "VAGUE", "text": "The approximately 30-day timeline is based on a single reported case and is not stated as a general SLA or average." },
+        { "flag": "GOOD_PRACTICE", "text": "The process was described as transparent, smooth and well-supported by online information and online payment, with no significant duplication of documents." },
+        { "flag": "MISSING", "text": "No deemed-approval, validity, or renewal information is discussed for Electricity Connection." }
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFiles": ["GA_FGD_FBPA.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Factories & Boilers Department, Government of Goa (processes the Factory Building Plan Approval via the Goa Online Portal); approval requires coordination with Goa Industrial Development Corporation (IDC), Fire, Health, Pollution Control and sector-specific regulators.",
+      "portal": { "name": "Goa Online Portal (Factories & Boilers)", "url": null },
+      "timeline": { "minDays": 90, "maxDays": 90, "basis": "FGD testimony: standard timeline described as around 90 days when documents are complete and no queries arise", "text": "The standard approval timeline was described as around 90 days when documents are complete and no queries arise. Delays occur from repeated departmental queries, technical discrepancies in supporting certificates, reassignment of online files and sequential approvals across departments; one participant reported a delay of nearly 6-7 months due to a single unresolved query (DG set details missing from a Pollution Control certificate)." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Digitally signed building plans (prepared by empanelled architects or structural consultants)",
+        "Supporting technical certificates (e.g., White Category Pollution Control certificate, including DG set details)",
+        "Hard-copy sets of approved plans (submitted separately to different departments: IDC, Fire, Factories & Boilers, etc.)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Pharmaceutical and alcohol industries additionally require approvals from FDA, CDSCO and Excise authorities depending on sector.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed in the transcript." },
+      "validity": { "text": "Not discussed in the transcript." },
+      "fees": { "text": "No statutory government fee figures were given; participants noted architect/structural-consultant fees of around 1% of project cost for plan preparation." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Building plans prepared and digitally signed by an empanelled architect or structural consultant", "automated": false, "note": "" },
+        { "n": 2, "phase": "apply", "title": "Application submitted via the Goa Online Portal (Factories & Boilers)", "automated": true, "note": "" },
+        { "n": 3, "phase": "apply", "title": "Approved plans additionally submitted in hard-copy sets separately to each relevant department (IDC, Fire, Factories & Boilers, etc.)", "automated": false, "note": "Process is partly digital, partly physical; results in duplication across departments." },
+        { "n": 4, "phase": "scrutiny", "title": "Departmental queries communicated via portal; technical issues often require in-person visits to resolve", "automated": "partial", "note": "" },
+        { "n": 5, "phase": "approve", "title": "Plan approved after queries resolved", "automated": false, "note": "~90 days standard; one case took 6-7 months due to a single unresolved query." }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B); no official ED interview exists for Factory Building Plan Approval in Goa to cross-check against.",
+        "Participants noted the Fire Department does not issue a certified approved building plan parallel to IDC and Factories & Boilers, which contributes to lack of integration."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Factory expansion requires approvals from multiple departments including IDC, Factories & Boilers, Fire, Health, Pollution Control and sector-specific regulators, resulting in significant coordination effort." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "issue", "text": "A major challenge is the lack of integration with the Fire Department, as applicants must separately obtain Initial and Final Fire NOCs despite IDC forwarding technical clearance requests." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue", "text": "One participant experienced a delay of nearly 6-7 months because a DG (Diesel Generator) set detail was not reflected in the White Category Pollution Control certificate, resulting in repeated queries." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Although applications are submitted online, approved plans still need to be submitted in multiple hard-copy sets for different departments." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY", "NORMS"], "sentiment": "issue", "text": "Inconsistent interpretation of White Category requirements was highlighted, particularly regarding DG set details that were not explicitly prescribed but later raised as a query." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Pharmaceutical and alcohol industries require additional approvals from FDA, CDSCO and Excise authorities depending on sector." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "The service is primarily processed through the Goa Online Portal (Factories & Boilers) using digitally signed plans prepared by empanelled architects or structural consultants." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Although submitted online, approved plans still have to be submitted in hard copy to the Factories & Boilers Department, making the process partly digital and partly physical." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Queries are communicated through the portal; however, applicants often need to personally visit departments to resolve technical issues." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Revised building plans require resubmission of previously approved drawings even for relatively small additions, resulting in duplication of effort." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "The same building plans are separately prepared and submitted for IDC, Fire, Factories & Boilers and other applicable departments because approvals are not fully integrated." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The standard approval timeline was described as around 90 days when documents are complete and no queries arise." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY", "INTERDEP"], "sentiment": "issue", "text": "Delays occur due to repeated departmental queries, technical discrepancies in supporting certificates, reassignment of online files and sequential approvals across departments." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL", "INTERDEP"], "sentiment": "suggestion", "text": "Introduce a genuine unified single-window clearance integrating IDC, Fire, Factories & Boilers, Pollution Control, Health and other relevant departments." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE", "QUERY"], "sentiment": "suggestion", "text": "Reduce online query turnaround time and enable direct departmental coordination within the system instead of repeated applicant follow-ups." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Fire Department should issue certified approved building plans similar to IDC and Factories & Boilers, with digital certification by all departments." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Despite specific issues, participants generally appreciated the digitisation of the Factory Building Plan Approval process and considered Goa significantly more organised than the earlier manual system." }
+      ],
+      "quotes": [
+        { "speaker": "Industry User", "quote": "Consultant Cost (Architect fee around 1% of project)", "topic": "Consultant Cost", "tags": ["FEES", "CONSULT"], "sentiment": "neutral" },
+        { "speaker": "Industry User", "quote": "Digital Process through Goa Online Portal", "topic": "Digital Process", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Industry User", "quote": "Inter-department Coordination with Fire Department", "topic": "Inter-department Coordination", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "Approval Delay due to repeated queries (6-7 months)", "topic": "Approval Delay", "tags": ["TIMELINE", "QUERY"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "Online Workflow causing reassignment & repeated follow-ups", "topic": "Online Workflow Issues", "tags": ["PORTAL", "QUERY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No statutory government fee figure is given for Factory Building Plan Approval; only the architect/consultant fee (~1% of project) is mentioned." },
+        { "flag": "VAGUE", "text": "The ~90-day standard timeline is described only as 'around 90 days'; no minimum/maximum range or statutory basis is given, and no deemed-approval provision is discussed." },
+        { "flag": "MISSING", "text": "Deemed approval, validity period, and renewal details are not discussed for Factory Building Plan Approval." },
+        { "flag": "GOOD_PRACTICE", "text": "Participants appreciated the digitisation of the process via the Goa Online Portal (Factories & Boilers) and considered it significantly more organised than the earlier manual system." },
+        { "flag": "REFORM", "text": "A genuine unified single-window clearance integrating IDC, Fire, Factories & Boilers, Pollution Control and Health, and Fire Department issuance of certified approved plans, are suggested but not-yet-implemented reforms." },
+        { "flag": "MISSING", "text": "No figures are given on how often the 6-7 month worst-case delay scenario (query-driven) occurs versus the 90-day standard case." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": ["GA_FGD_FNO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Goa Fire and Emergency Services Department, processed via the Goa Online Single Window system.",
+      "portal": { "name": "Goa Online Single Window", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 30, "basis": "FGD testimony: one case reported NOC received within 30 days after compliance requirements following inspection were completed", "text": "No general SLA figure was given. One participant reported the NOC was received within 30 days after compliance requirements identified during inspection were completed. Participants separately flagged a lack of clarity on expected response timelines generally, leading to repeated follow-up." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Application with drawings and technical details of fire-safety installations (e.g. sprinklers, alarms, beam detectors)",
+        "Photographs/reports evidencing corrective compliance (where inspection deficiencies are identified)",
+        "Updated drawings, details and supporting documents for modifications or additional floors/areas"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed in the transcript." },
+      "validity": { "text": "One participant described validity as 'extended to five years' (specific statutory basis not detailed in the transcript)." },
+      "fees": { "text": "No statutory government fee figures were given. Participants cited illustrative costs: a consultant fee of about ₹25,000 for a 40-room hotel (turnkey basis), and a fire-safety installation/project cost of ₹15.5 lakh reported in one case." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit Fire NOC application via the Goa Online Single Window system", "automated": true, "note": "" },
+        { "n": 2, "phase": "inspect", "title": "Mandatory inspection of fire-safety installations (sprinklers, alarms, beam detectors and other prescribed systems)", "automated": false, "note": "" },
+        { "n": 3, "phase": "scrutiny", "title": "Deficiencies identified require corrective measures and submission of photographs/reports as compliance evidence", "automated": "partial", "note": "" },
+        { "n": 4, "phase": "approve", "title": "Initial NOC issued for new construction, followed by a Final NOC after completion of construction and fire-safety system installation, with subsequent inspection", "automated": false, "note": "" },
+        { "n": 5, "phase": "apply", "title": "Modifications/additional floors or areas require an additional application and updated drawings/documents", "automated": false, "note": "" }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B); no official ED interview exists for Fire NOC in Goa to cross-check against."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "CLARITY"], "sentiment": "issue", "text": "Lack of clarity regarding the expected response timeline after submission contributed to repeated follow-up by applicants seeking updates on the status of the Fire NOC." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT", "COMPLY"], "sentiment": "issue", "text": "Identification of deficiencies during inspection may require corrective measures, followed by submission of photographs, reports or other evidence of compliance before issuance of the NOC." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Modifications or additions to existing premises, including additional areas or floors, may require an additional application and submission of updated drawings, details and supporting documents." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "The prescribed power-supply arrangement for fire pumps was identified as a technical regulatory concern; an alternative diesel-powered arrangement was suggested for consideration." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Fire-safety norms and requirements were reported to vary across States, with Goa having State-specific requirements that may differ from other States." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The Fire NOC application process is facilitated through the Goa Online Single Window system, providing online submission of documents and tracking of application status." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Inspection is an integral component of the approval process, covering fire-safety installations such as sprinklers, alarms, beam detectors and other prescribed systems." },
+        { "source": "fgd", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "For new construction, the process involves an initial NOC followed by a final NOC after completion of construction and installation of required fire-safety systems, along with subsequent inspection." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "CLARITY"], "sentiment": "positive", "text": "The online portal provides service-specific information on applicable fees, procedures, checklists, documentation requirements and timelines." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Modifications or extensions involving additional floors, rooms, areas or fire-safety installations may require updated or resubmitted drawings, technical details and supporting documents, along with an additional application." },
+        { "source": "fgd", "category": "delay", "tags": ["CLARITY", "QUERY"], "sentiment": "issue", "text": "Lack of clarity on expected response timelines after submission may lead to repeated follow-ups by applicants; absence of clearly communicated timelines at different stages creates uncertainty." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE", "CLARITY"], "sentiment": "suggestion", "text": "Clearly communicate response and service timelines at each stage of the process, enabling applicants to understand the expected processing period." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "PORTAL"], "sentiment": "suggestion", "text": "Provide comprehensive service-related information on the official portal, including applicable fees, procedures, checklists, documentation requirements and timelines, in an easily accessible format." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Examine technically appropriate alternative arrangements for fire-pump power supply, including diesel-powered backup systems, within applicable fire-safety requirements." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Simplify the process for modifications and additional areas by streamlining application and documentation requirements while retaining necessary inspection and fire-safety compliance checks." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The Fire NOC process was generally reported as smooth, straightforward and convenient, with no significant difficulties or procedural hurdles during application and processing." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Interactions with the Fire Department were reported to be supportive, with officials providing guidance and clarification wherever required." }
+      ],
+      "quotes": [
+        { "speaker": "Industry User", "quote": "Repeated follow-up after submitting documents for an update on the NOC.", "topic": "Follow-up / Response Timeline", "tags": ["QUERY", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "Online process described as transparent and convenient.", "topic": "Digital Process", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive" },
+        { "speaker": "Industry User", "quote": "Consultant support used for application, documentation and compliance.", "topic": "Consultant / Intermediary", "tags": ["CONSULT"], "sentiment": "neutral" },
+        { "speaker": "Industry User", "quote": "Consultant fee of ₹25,000 reported for a 40-room hotel on a turnkey basis.", "topic": "Consultant Cost", "tags": ["FEES", "CONSULT"], "sentiment": "neutral" },
+        { "speaker": "Industry User", "quote": "Fire-safety installation/project cost of ₹15.5 lakh reported in one case.", "topic": "Substantive Cost", "tags": ["FEES"], "sentiment": "neutral" },
+        { "speaker": "Industry User", "quote": "NOC received within 30 days after compliance requirements were completed.", "topic": "Approval Timeline", "tags": ["TIMELINE"], "sentiment": "positive" },
+        { "speaker": "Industry User", "quote": "Validity described as extended to five years.", "topic": "Validity", "tags": ["RENEWAL"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No general SLA/turnaround figure is stated for Fire NOC; the 30-day figure is from a single reported case measured from completion of inspection compliance, not from initial submission." },
+        { "flag": "VAGUE", "text": "Validity is described only as 'extended to five years' by one participant, with no statutory basis or conditions given." },
+        { "flag": "MISSING", "text": "No statutory government fee schedule is given; only illustrative consultant fees and installation costs from individual cases." },
+        { "flag": "GOOD_PRACTICE", "text": "The process was generally reported as smooth, straightforward, convenient and well-supported by the Fire Department, with online application and status tracking via the Goa Online Single Window." },
+        { "flag": "MISSING", "text": "Deemed approval is not discussed; it is unclear whether any deemed-approval mechanism exists for Fire NOC." }
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFiles": ["GA_FGD_RFAL.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY", "CLARITY"], "sentiment": "issue", "text": "Clarifying the applicability of factory regulations to a research-oriented establishment required significant time, with approximately six months spent establishing the nature of the organization and its activities in relation to applicable requirements." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY", "FEES"], "sentiment": "issue", "text": "Compliance involves multiple external audits, including electrical, HVAC, laboratory and fire-safety audits, resulting in a significant recurring compliance cost." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The online application portal has a 2 MB file-upload limitation, creating difficulty in uploading large layouts, drawings and related technical documentation." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC", "PORTAL"], "sentiment": "issue", "text": "The process may require submission of the complete file and layouts in hard copy even after online submission, creating an additional administrative step." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Obtaining approval for factory layout modifications involves considerable documentation and may create a burden where machinery, automation or production processes undergo changes." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY", "NORMS"], "sentiment": "issue", "text": "Participants highlighted a need for clearer definitions of risk, hazard and other compliance criteria to reduce uncertainty in determining applicable requirements." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS", "CLARITY"], "sentiment": "issue", "text": "Variation was reported in the practical handling of renewal requirements, including cases where renewal was subject to compliance requirements and cases involving conditional licensing." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Clearly incorporating applicable requirements into the statutory framework was suggested as a means of providing greater certainty and consistency in implementation." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "issue", "text": "Some licenses were reported to specify only the year of validity without indicating the specific month or date, creating uncertainty regarding the exact expiry date." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The renewal process is facilitated through the Goa Online single-window platform, enabling online submission and scrutiny of applications, with provision for additional documents to be requested where required." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "FEES", "POSITIVE"], "sentiment": "positive", "text": "The platform provides online status tracking and visibility of pending actions, along with an integrated payment facility, supporting transparency." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY", "CONSULT"], "sentiment": "positive", "text": "Document requirements were described as relatively clear, with authorized persons and approved consultants available to provide assistance." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "An additional physical submission requirement exists alongside the online application process, with the complete file, including layouts and related documents, required to be submitted in hard copy." },
+        { "source": "fgd", "category": "delay", "tags": ["PORTAL", "TIMELINE"], "sentiment": "issue", "text": "Software glitches following a system update were reported to have affected online processing for approximately two months, contributing to delays in the renewal process." },
+        { "source": "fgd", "category": "delay", "tags": ["COMPLY", "CLARITY"], "sentiment": "issue", "text": "A specific case involved approximately six months of engagement to establish the applicability of relevant regulatory requirements to the organization's activities." },
+        { "source": "fgd", "category": "delay", "tags": ["COMPLY"], "sentiment": "issue", "text": "Renewal of the factory license may remain on hold until specified compliance requirements are fulfilled, resulting in delays where required compliances are not completed within the expected timeframe." },
+        { "source": "fgd", "category": "delay", "tags": ["CAPACITY"], "sentiment": "issue", "text": "The availability of external vendors for compliance-related activities was identified as a potential source of delay where vendor availability affects completion of the required process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Establish an organization-specific digital repository for regulatory records and previously submitted information, enabling efficient retrieval of historical records." },
+        { "source": "fgd", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Simplify and streamline the factory layout approval process to reduce procedural complexity and the time required for modifications to existing layouts." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The renewal process was generally described as smooth and well-defined, with the online portal described as clear and easy to navigate, and the department described as supportive." }
+      ],
+      "quotes": [
+        { "speaker": "Industry User", "quote": "Compliance audit cost", "topic": "Compliance Cost", "tags": ["COMPLY", "FEES"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "Six-month effort to establish regulatory applicability", "topic": "Regulatory Applicability", "tags": ["CLARITY", "TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "2 MB file-upload capacity limits submission of layouts and drawings", "topic": "Portal File-Size Limitation", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "Organization-specific repository suggested for historical documents", "topic": "Document Repository", "tags": ["OTHER"], "sentiment": "suggestion" },
+        { "speaker": "Industry User", "quote": "Layout approval can be simplified and made faster", "topic": "Layout Approval", "tags": ["COMPLY", "TIMELINE"], "sentiment": "suggestion" },
+        { "speaker": "Industry User", "quote": "Online renewal process described as clear and smooth", "topic": "Digital Process", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "The ED states renewals are 'generally processed within 7 to 15 days' in actual practice, with best-case ~1 week; FGD participants report that software glitches following a system update affected online processing for approximately two months in one period, which is not reflected in the ED's fast-turnaround framing. Both describe genuine experiences but the FGD surfaces a slower episode the ED record does not mention." },
+        { "flag": "MISSING", "text": "The ED's documentation list for renewal (Form 3, old license copy, Stability Certificate, offline industrial drawings) does not mention the recurring external compliance audits (electrical, HVAC, laboratory, fire-safety) that FGD participants described as a significant cost burden tied to maintaining the license." },
+        { "flag": "MISSING", "text": "The ED does not mention a 2 MB file-upload limitation on the GL portal; FGD participants cited this as a specific, concrete technical bottleneck for submitting layouts and drawings." },
+        { "flag": "MISSING", "text": "The ED's 'Return to Inbox' good-practice mechanism is not independently corroborated or mentioned by FGD participants, who instead describe general 'variation in the practical handling of renewal requirements' without detail." },
+        { "flag": "MISSING", "text": "The ED's validity discussion (occupier chooses 1-10 year renewal duration) does not address FGD participants' concern that some licenses specify only the year of validity without a specific month/date, creating uncertainty about exact expiry." },
+        { "flag": "GOOD_PRACTICE", "text": "FGD testimony corroborates the ED's description of the Goa Online single-window renewal platform as providing online status tracking, visibility of pending actions, and integrated payment, with relatively clear document requirements and available consultant assistance." }
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": ["GA_FGD_RFNO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Goa Fire and Emergency Services Department (Fire Department).",
+      "portal": { "name": "Goa Online (single-window platform, acknowledgement-based status tracking); procedural information is also separately available on the Fire Department's EODB website section", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "", "text": "No official average timeline was stated. Participants described unpredictable inspection timelines, with some applications pending for several months, and proposed a one-month timeframe for inspection and NOC issuance as a reform suggestion (not the current practice). One individual case involved an approximately six-month period between application and renewal, linked to compliance requirements following a fire incident." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Annual self-declaration (format submitted/available online)",
+        "Third-party audit report (auditing agency selected via the portal)",
+        "Supporting letter/communication for name or organizational changes (submitted directly to the Fire Department, outside the standard online renewal flow)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": { "status": "no", "days": null, "text": "Not confirmed explicitly, but participants' suggestion to 'consider deemed release for complete applications beyond the prescribed period' implies no deemed-approval mechanism currently exists for Fire NOC renewal." },
+      "validity": { "text": "Not stated explicitly; renewal is a periodic requirement that runs alongside annual self-declaration and third-party audit obligations. The specific periodicity of the renewal cycle itself is not given in the transcript." },
+      "fees": { "text": "Not discussed in the transcript." },
+      "steps": [
+        { "n": 1, "phase": "renew", "title": "Renewal application submitted via Goa Online", "automated": true, "note": "" },
+        { "n": 2, "phase": "scrutiny", "title": "Annual self-declaration submitted and third-party audit report uploaded; auditing agency selected via the portal", "automated": "partial", "note": "Subsequent steps after submission are not clearly presented through a defined flow or timeline." },
+        { "n": 3, "phase": "inspect", "title": "Inspection conducted", "automated": false, "note": "No consistently predictable timeframe; some applications reportedly pending for months." },
+        { "n": 4, "phase": "approve", "title": "NOC renewed", "automated": false, "note": "Errors in issued NOC (e.g. names, room count) can be difficult to correct without repeated office visits." },
+        { "n": 5, "phase": "renew", "title": "Name or organizational changes handled via direct coordination/letter to the Fire Department", "automated": false, "note": "Online system does not provide a dedicated option for such changes." }
+      ],
+      "remarks": [
+        "This is an FGD-only record (Mode B); no official ED interview exists for Renewal of Fire NOC in Goa to cross-check against.",
+        "Participants raised a potential policy overlap between periodic renewal and infrastructure-triggered provisional/final NOC approvals, and suggested the renewal framework be reviewed given parallel annual self-declaration and third-party audit requirements."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "The online renewal system does not provide an adequate facility to update certain name or organizational changes; such changes require direct coordination with the Fire Department and a separate supporting letter." },
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT", "TIMELINE"], "sentiment": "issue", "text": "The inspection process does not have a consistently predictable timeframe, with some applications reportedly pending for several months, requiring repeated follow-up with the department." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY", "CLARITY"], "sentiment": "issue", "text": "Errors in issued NOCs, particularly regarding names and room-related details, may not be readily corrected through the existing system, requiring repeated office visits." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY", "CLARITY"], "sentiment": "issue", "text": "The annual self-declaration and third-party audit requirements have created uncertainty regarding applicable formats, subsequent procedural steps and timelines after submission." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP", "NORMS"], "sentiment": "issue", "text": "The existing renewal framework may result in overlapping compliance requirements where fire-safety approvals are already obtained during infrastructure expansion, while a separate periodic renewal requirement continues to apply." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "suggestion", "text": "The need for periodic renewal may be examined in cases where compliance is already demonstrated through annual self-declarations, third-party verification and infrastructure-change approvals, to reduce overlapping compliance requirements." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "The online renewal system does not provide a dedicated option for name changes, requiring direct coordination with the Fire Department." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT", "CLARITY"], "sentiment": "issue", "text": "The inspection process does not provide a clearly visible stage-wise workflow indicating the expected sequence and status of inspection after submission." },
+        { "source": "fgd", "category": "procedural", "tags": ["COMPLY", "CLARITY"], "sentiment": "issue", "text": "Although third-party audit reports can be submitted online and the auditing agency selected through the portal, subsequent steps after submission are not clearly presented through a defined flow or timeline." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "Procedural information and relevant service links may be available across both the department website and the Goa Online portal, requiring users to navigate between sources." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Where an application is rejected after the processing period and subsequently re-applied, the same supporting documents are required to be uploaded again, resulting in duplication of documentation." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "INTERDEP"], "sentiment": "issue", "text": "Where renewal, infrastructure changes and related fire-safety approvals are undertaken at different stages, separate applications and supporting submissions may be required for the same premises across the regulatory cycle." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT", "TIMELINE"], "sentiment": "issue", "text": "The lack of a clearly defined timeframe for completion of inspection may result in applications remaining pending for extended periods and necessitate repeated follow-up." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE", "DUPDOC"], "sentiment": "issue", "text": "Applications remaining pending at the end of the processing period may be rejected and require fresh application and re-submission of documents, extending the overall processing cycle." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "One reported case involved an approximately six-month period between application and renewal, with continuous follow-up and compliance-related changes, linked to compliance requirements following a fire incident." },
+        { "source": "fgd", "category": "suggestions", "tags": ["TIMELINE", "REFORM"], "sentiment": "suggestion", "text": "Define a one-month timeframe for inspection and NOC issuance, consider deemed release for complete applications beyond the prescribed period, and enable online correction of name and other NOC errors." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY", "PORTAL"], "sentiment": "suggestion", "text": "Provide a standard stage-wise flowchart and timelines for third-party audits and make the prescribed annual self-declaration format clearly available online." },
+        { "source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE", "PORTAL"], "sentiment": "suggestion", "text": "Provide online contact and appointment facilities to enable clarification and follow-up without repeated physical visits." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The renewal process was reported to be relatively simple where there were no changes in business or NOC details, enabling entities to complete the process directly with limited departmental visits." },
+        { "source": "fgd", "category": "remarks", "tags": ["PORTAL", "CLARITY"], "sentiment": "positive", "text": "The Fire Department's EODB section provides information on applicable fees, procedures, checklists, required documents and indicative approval timelines, supporting clarity." }
+      ],
+      "quotes": [
+        { "speaker": "Industry User", "quote": "A defined timeframe of up to one month was suggested for inspection and issuance of the renewal NOC.", "topic": "Suggested Inspection Timeframe", "tags": ["TIMELINE"], "sentiment": "suggestion" },
+        { "speaker": "Industry User", "quote": "Rejected applications may require the same documents to be re-uploaded, resulting in additional procedural effort.", "topic": "Redundant Documentation on Rejection", "tags": ["DUPDOC", "TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "Errors in NOC details, particularly names and number of rooms, can be difficult to rectify through the existing process.", "topic": "NOC Error Correction", "tags": ["QUERY", "CLARITY"], "sentiment": "issue" },
+        { "speaker": "Industry User", "quote": "The post-audit process does not provide a clearly defined stage-wise flow or timeline for subsequent steps.", "topic": "Post-Audit Process Clarity", "tags": ["CLARITY", "COMPLY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official SLA or average renewal-processing timeline is given; inspection timelines are described only as unpredictable, with a proposed (not current) one-month target." },
+        { "flag": "MISSING", "text": "No fee figures or validity/periodicity figures are given for Renewal of Fire NOC." },
+        { "flag": "VAGUE", "text": "It is not clear whether a deemed-approval mechanism currently exists; the suggestion to 'consider deemed release' implies none does, but this is not explicitly confirmed." },
+        { "flag": "MISSING", "text": "No document checklist is itemized beyond annual self-declaration, third-party audit report, and (for name/org changes) a separate supporting letter." },
+        { "flag": "REFORM", "text": "A defined one-month inspection/issuance timeframe, deemed release for complete applications beyond the prescribed period, and online correction of NOC errors are suggested but not-yet-implemented reforms." },
+        { "flag": "GOOD_PRACTICE", "text": "The renewal process was reported as relatively simple with limited departmental visits where there are no changes in business or NOC details, supported by Goa Online's acknowledgement-based tracking and the Fire Department's EODB informational section." }
+      ]
+    }
+  ]
+}

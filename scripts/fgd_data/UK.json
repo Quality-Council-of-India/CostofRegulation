@@ -1,0 +1,1308 @@
+{
+  "code": "UK",
+  "name": "Uttarakhand",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": [
+        "UK_FGD_CTE.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Single Window is not really single: after applying, the unit still has to call or visit each department to get the file moving; participants said they phone departments just to ask them to \"OK\" the application."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY",
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Queries come late, often on the last day of the 15-day limit; the unit replies, then waits another 15 days."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY",
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Queries are sometimes raised on papers already attached (\"this paper is not enclosed\")."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "It is not clear which documents are needed, and in what format; Single Window has no document list or process flow."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "First-time applicants find it difficult and need a consultant to supply the technical values required by the portal."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "CTE takes 1.5-2 months; a participant said it should take only a few weeks since it is just the initial stage."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Banks do not release payment or the CC limit until CTE/CTO is in place, so delay in consent stops funding."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Labour cess notices are arriving for old construction (a 2005 case mentioned for a unit bought in 2013); the fixed rate of ₹17,000 per sq m was notified later and applied retroactively."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "There is no overall time limit across all departments involved in CTE; each department has its own limit, so the total time adds up."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Fire NOC is needed at the building plan stage and again at CTE."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no standard document list, format or process flow on Single Window, and officers do not give a clear answer on how many documents are needed."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Queries are raised in parts and late rather than being raised together on day 1-2."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Physical inspection by the Pollution Control Board is done, and the portal shows the schedule and inspector's name, though some phone follow-up is still needed."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The same building plan/drawing, certified by the architect, is submitted separately to the building plan, fire and CTE processes."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "There is no accountability on officers if the time limit is missed."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "One participant said delay is sometimes created on purpose so money can be made - described as one participant's personal view, with no specific CTE case given."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE",
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Fix one total time (30 working days was suggested, some wanted less) for the whole process across all departments, and make the Industries department and all departments accountable for the time limit."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "neutral",
+          "text": "Participants said speaking openly against a department can cause problems later, and asked for feedback to go through an official channel; they also felt long surveys bring little change."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry Representative",
+          "quote": "Single Window is only a name. We still have to go to every department.",
+          "topic": "Single window not single",
+          "tags": [
+            "PORTAL",
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Queries come on the last day. Then we wait another 15 days.",
+          "topic": "Late queries, repeat delay",
+          "tags": [
+            "QUERY",
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Government should fix 30 days for the whole process and make departments accountable.",
+          "topic": "Fixed total timeline suggestion",
+          "tags": [
+            "TIMELINE",
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Bank will not release money until CTE/CTO is done.",
+          "topic": "Financing tied to consent",
+          "tags": [
+            "FEES",
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Fire document has to be taken twice.",
+          "topic": "Duplicate Fire NOC",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Not clear exactly how many documents are needed.",
+          "topic": "Document clarity",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Notice came for cess of 2005, charged at ₹17,000 per sq m.",
+          "topic": "Retroactive labour cess",
+          "tags": [
+            "COMPLY",
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Industry gets ready faster in Tamil Nadu, Maharashtra, Gujarat.",
+          "topic": "Inter-state comparison",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED record: \"Deemed approval mechanisms exist within the automated online system if the department fails to respond or process the file within stipulated statutory timelines without raising queries.\" FGD participants instead report \"No accountability on officers if the time limit is missed\" and describe queries routinely landing late (often the last day of a 15-day window) with each round adding another 15 days - businesses do not describe deemed approval ever actually taking effect."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED record states CTE validity is 10 years for Green category and 5 years for Orange/Red. One FGD participant instead stated (self-flagged '[confirm]' in the source transcript) that \"CTE is valid for 1-2 years. First CTO is for 1 year, renewals 3-5 years\" - a shorter validity period than the ED's figures, though the participant's own account carries an unresolved-confidence tag in the source."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The FGD session gives no CTE-specific fee figures to check against the ED's stated Rs 10,000 baseline fee; participants only asked generally that fee details be made clear by category and investment size, with small investments not paying high fees."
+        }
+      ]
+    },
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFiles": [
+        "UK_FGD_BPA.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Labour cess dispute with the Labour Department: the unit says it paid cess earlier through its contractors but has no proof in its own books, while the department raised a notice on a standard rate of about ₹17,000 per sq m that the unit says is too high for the earlier period."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The department does not accept the evidence shown for past labour cess payment, and neither side has clear records to resolve the dispute."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "A payment gateway failure meant the portal showed neither success nor failure for the ₹3,000 submission fee; the unit paid again, so it was paid twice, and no refund had come by the time of the session."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "GRIEVANCE",
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "A complaint was raised with NPCI through the app over the failed/duplicate payment; NPCI said 15 days, and 10 days had already passed with no resolution."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The portal has no place to report a failed payment and no \"payment in process\" status."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "A NOC application was rejected 6 times and approved only on the 7th, because drawings had been clubbed into one file; they were resubmitted separately with proper names."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Costs the unit bears include the architect, structural engineer, application/approval charge, and BOCW (labour) cess."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Labour cess has two conflicting bases - 1% of construction cost, and a fixed rate of about ₹17,000 per sq m; if actual cost is lower, the fixed rate means paying more than the cost justifies."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "neutral",
+          "text": "A participant felt policy-level change is hard because laws overlap, and which law applies depends on the nature of the industry."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Government has set fixed timelines for building plan approval - examples given were reply or reject within 15 days, and forward to the regional office within 1 month."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "DUPDOC",
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Labour cess is paid once but demanded again because online receipts and contractor payments are not accepted as proof."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "neutral",
+          "text": "Cess cost is checked again at the CTO stage by the labour officer."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "The unit has to hire the architect and structural engineer, and still has to check their submission itself."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "POSITIVE",
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "The process is fully online (application, upload, fee, status, officer remarks), and the inspection schedule also shows on the portal."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "No major delay reported on building plan approval itself; timelines are fixed and followed, and participants said officers cannot delay on purpose now because a delay shows as a red flag."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Earlier, files could sit for 2-3 months; time-bound rules changed this."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "PORTAL",
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Delays and extra work instead come from payment failure with no refund, repeated rejections/queries, and the labour cess evidence dispute."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "positive",
+          "text": "No informal payment or pressure was reported for Building Plan Approval."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Add a grievance/button on the portal for failed payments, allow upload of manual transaction proof so the application can proceed, and show a \"payment pending/in process\" status."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Accept receipts and payment evidence for labour cess, and resolve old cess disputes on clear records."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry Representative",
+          "quote": "Payment failed, I paid ₹3,000 twice. No refund yet. NPCI said 15 days and it is already over.",
+          "topic": "Duplicate payment, no refund",
+          "tags": [
+            "PORTAL",
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "The portal does not show whether payment is failed or pending.",
+          "topic": "No payment status",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "We paid labour cess through contractors. The department does not accept the evidence and says no record.",
+          "topic": "Cess proof not accepted",
+          "tags": [
+            "DUPDOC",
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "1% of cost and ₹17,000 per sq m both exist, and they conflict.",
+          "topic": "Conflicting cess formulas",
+          "tags": [
+            "NORMS",
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "NOC was rejected 6 times, and approved the 7th time.",
+          "topic": "Repeated rejection",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Everything is online. Status and remarks are visible. Officers take calls.",
+          "topic": "Positive on online process",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "This session does not explicitly name the issuing authority for Building Plan Approval; participants only say officers are reachable 'at both Dehradun and SIIDCUL.' The companion UK OC FGD session states OC 'is given by SIIDCUL, the same body that gives building plan approval,' which is used here as the best-available inference, not a direct confirmation within this session."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Timeline is described only via two sub-limits - reply/reject within 15 days, and forwarding to the regional office within 1 month - with no stated total/maximum end-to-end approval duration."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Participants credited fixed, followed timelines and said officers 'cannot delay on purpose now, because a delay shows as a red flag,' contrasted with an earlier era when files could sit for 2-3 months - a concrete reported reform."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No refund or reconciliation process for a failed/duplicate portal payment is described; the participant's duplicate ₹3,000 payment remained unresolved at session time, with only a 15-day NPCI complaint window (10 days elapsed) as the available recourse."
+        }
+      ],
+      "issuingAuthority": "Not explicitly named by participants in this session; they describe officers as reachable 'at both Dehradun and SIIDCUL.' Inferred, from the companion UK OC FGD session's statement that OC 'is given by SIIDCUL, the same body that gives building plan approval,' to likely be SIIDCUL - not directly confirmed in this session.",
+      "portal": {
+        "name": "Online application portal (referred to only as 'the portal'/'online system'; companion UK CTE and FBPA sessions name the linked system the Single Window/SIIDCUL system)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 15,
+        "maxDays": 30,
+        "basis": "FGD testimony only (not a verified statutory citation): participants cited fixed sub-timelines of reply/reject within 15 days of application and forwarding to the regional office within 1 month.",
+        "text": "Participants described fixed timelines - reply or reject within 15 days, and forward to the regional office within 1 month - and said no major delay occurs on building plan approval itself; this followed a prior period when files could sit for 2-3 months without time-bound rules."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Plan layout",
+        "Cost of construction details",
+        "Structural drawings",
+        "CGWA documentation (where applicable)",
+        "Pollution Control Board documentation (where applicable)",
+        "Fire NOC",
+        "Factory licence (where applicable)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. This document list reflects participants' general description of documents needed 'across departments' during the Building Plan Approval process (Redundant/Duplicate Documents theme), not a single official checklist for BPA alone.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed-approval mechanism is described by participants. They describe fixed reply/reject (15 days) and forwarding (1 month) timelines being generally met, but no automatic/deemed approval is mentioned if those limits are missed."
+      },
+      "validity": {
+        "text": "Not stated by participants. Building Plan Approval is described as a one-time prerequisite before construction/operation can proceed, with no renewal referenced in this session."
+      },
+      "fees": {
+        "text": "Participants cited a submission fee of about ₹3,000 (one participant paid it twice after a payment-gateway failure, with no refund as of the session), plus separate payments to the architect and structural engineer, and a Labour Department BOCW cess calculated either at roughly ₹17,000 per sq m or at 1% of construction cost - participants noted these two cess bases conflict with each other."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Engage architect and structural engineer",
+          "automated": false,
+          "note": "Unit must hire and pay an architect and structural engineer to prepare the plan; no government panel exists, so selection is by experience, past approvals, references and 3-4 quotes, with fees negotiated."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Submit application and supporting documents online",
+          "automated": "partial",
+          "note": "Application filed online, but documents are required across multiple departments (plan layout, cost of construction, structural drawings, CGWA, Pollution Control Board, fire NOC, factory licence per participants)."
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Pay application/submission fee online",
+          "automated": true,
+          "note": "Participants describe a roughly ₹3,000 submission fee paid via the portal; a payment-gateway failure led one participant to be charged twice with no refund by session date."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Departmental review and queries on document format",
+          "automated": "partial",
+          "note": "Rejections were cited over document formatting, e.g. clubbed drawings; one NOC application was rejected 6 times before approval on the 7th attempt."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Reply/reject and forward to regional office within fixed timelines",
+          "automated": "partial",
+          "note": "Participants cited statutory sub-timelines of reply/reject within 15 days and forwarding to the regional office within 1 month; no major delay was reported at this stage."
+        }
+      ],
+      "remarks": [
+        "This session discussed Building Plan Approval together with related labour cess (BOCW) and payment-gateway issues; several findings concern the broader project lifecycle rather than the plan-approval step itself.",
+        "Issuing authority is not explicitly named in this session; it is inferred as likely SIIDCUL based on the companion UK OC FGD session, which states OC 'is given by SIIDCUL, the same body that gives building plan approval.'"
+      ]
+    },
+    {
+      "serviceCode": "FBPA",
+      "serviceName": "Factory Building Plan Approval",
+      "sourceFiles": [
+        "UK_FGD_FBPA.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The same documents are asked again in each service, even after they were uploaded once at CAF ID registration."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Queries are sometimes not clear, and the unit has to get them clarified."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "A file stays with the officer for about 4 days, though a participant said the stated time limit is 48/24 hours."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "An electricity bill is needed to apply, but it only comes after construction starts, so the unit has to take a temporary connection first."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Labour cess notices are coming for old buildings (2006 and 2008 mentioned), with interest and penalty; one participant had bought a company whose building was built earlier by someone else."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES",
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Labour cess of 1% is charged on circle rate (about ₹13,500 mentioned); a participant said actual construction cost is much lower."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Green area and open-space norms are not practical for small plots (a 500 sq m factory was mentioned), leaving not enough space to run the factory."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Large payments sometimes need RTGS, followed by head-office verification."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "At production start, documents like sale invoice, purchase invoice and occupancy certificate are asked; a participant questioned why the map is asked again."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Outside SIIDCUL areas, there is not much clarity on who passes the map; the rule came after a recent cabinet meeting and is still not clear."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "neutral",
+          "text": "Approval sequence described: CAF ID first (project report and GST come before it), then CTE, then building plan approval; Fire NOC is given only after the building plan is approved; CTO comes after building, fire and factory licence."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "neutral",
+          "text": "An architect is needed to make the map and sign it, and cannot be removed from the process."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Physical inspection is held once, with the schedule told in advance and done in 2-4 days after filing; no problem was reported with this step."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "neutral",
+          "text": "The application form takes 2-4 hours to fill if the data is ready in Excel (longer the first time), and sitting with the architect takes 1-2 days."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Labour cess is paid first; map processing starts only after it is paid."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "No fixed time is known; it depends on queries, which participants said mostly arise because not all documents were submitted at the start, in order to get the work moving."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Example given: the Kashipur plant took about a month with queries; without queries, 10-15 days."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC",
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Do not ask for the same document again once given at CAF ID; give an option to upload CTE/pollution certificate inside CAF ID so a repository is built; CAF ID should show which approvals are pending and which are received."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry Representative",
+          "quote": "Once documents are given at CAF ID, they should not be asked again.",
+          "topic": "Stop re-asking documents",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "File stays at the officer's end about 4 days, though limit is 48/24 hours.",
+          "topic": "Stated vs actual review time",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Labour cess is charged on circle rate, but actual cost is much lower.",
+          "topic": "Cess basis mismatch",
+          "tags": [
+            "FEES",
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Notices are coming for old construction cess, with interest and penalty.",
+          "topic": "Retroactive cess notices",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Green area norm is not practical for small plots.",
+          "topic": "Norms vs small plots",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Time depends on queries. Without queries it takes 10-15 days.",
+          "topic": "Query-driven delay",
+          "tags": [
+            "TIMELINE",
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "Issuing authority is not explicitly named in this session. Participants mention SIIDCUL registration being needed for the electricity connection and describe the approval chain (CAF ID/CTE → building plan approval → Fire NOC → factory licence → CTO), but do not directly state which body issues Factory Building Plan Approval itself."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The statutory file-review time limit is given only approximately, as '48/24 hours' by one participant, with no single clear statutory figure, while actual reported practice is about 4 days."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Fee and cess figures are mostly illustrative examples (e.g. a roughly ₹13,500 circle-rate-based labour cess figure) tied to specific participants' plot sizes (1,500-2,000 sq m factories), not a general fee schedule."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Physical inspection is held once, scheduled in advance, and completed within 2-4 days of filing, with participants reporting no problem with this step."
+        }
+      ],
+      "issuingAuthority": "Not explicitly named by participants. The session describes building plan processing occurring after CAF ID/CTE within the Single Window-linked system, with SIIDCUL registration separately required for the electricity connection - consistent with SIIDCUL being the likely plan-approving body named directly in the companion UK OC FGD session, but not confirmed within this session itself.",
+      "portal": {
+        "name": "CAF ID / Single Window portal (application and payment described as being on 'the same portal')",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 10,
+        "maxDays": 30,
+        "basis": "FGD testimony and a single named example only (Kashipur plant), not a verified statutory citation.",
+        "text": "Participants said no fixed time is known and it depends on queries: without queries the process takes 10-15 days, but with queries (as in the Kashipur plant example) it took about a month. A file is reported to sit with the reviewing officer for about 4 days, against a participant-cited 48/24-hour limit, and physical inspection is completed in 2-4 days after filing."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Project report (submitted at CAF ID stage)",
+        "GST registration details (submitted at CAF ID stage)",
+        "Building/factory map and structural drawings prepared and signed by an architect",
+        "Labour cess (BOCW) payment proof (required before map processing starts)",
+        "Sale invoice, purchase invoice and occupancy certificate (asked again at production-start stage)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Document list is assembled from participants' description of the CAF ID stage, the map/drawing requirement, and the production-start stage, not a single official checklist.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No deemed-approval mechanism is described. One participant cited a statutory file-review limit of '48/24 hours,' which is reportedly often exceeded (about 4 days in practice) with no automatic consequence mentioned."
+      },
+      "validity": {
+        "text": "Not stated by participants. Factory Building Plan Approval is one step in a fixed approval sequence (CAF ID/CTE first, then building plan approval, then Fire NOC and factory licence, then CTO), with no renewal referenced."
+      },
+      "fees": {
+        "text": "Fee is described as one-time, based on covered area, with no separate inspection fee (participants' factories were 1,500-2,000 sq m). Costs mentioned include the application fee, architect fee, and labour cess (1% of circle rate, about ₹13,500 in one example); large payments sometimes require RTGS plus head-office verification."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "CAF ID registration (project report, GST)",
+          "automated": "partial",
+          "note": "Occurs before CTE and building plan approval in the sequence participants described."
+        },
+        {
+          "n": 2,
+          "phase": "pre",
+          "title": "Engage architect to prepare and sign factory building map",
+          "automated": false,
+          "note": "Architect cannot be removed from the process; sitting with the architect takes 1-2 days."
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Pay labour cess (BOCW)",
+          "automated": "partial",
+          "note": "Map processing starts only after labour cess is paid; cess is 1% of circle rate (about ₹13,500 in one example)."
+        },
+        {
+          "n": 4,
+          "phase": "apply",
+          "title": "Submit application form online",
+          "automated": true,
+          "note": "Takes 2-4 hours to fill if data is ready in Excel; longer the first time."
+        },
+        {
+          "n": 5,
+          "phase": "scrutiny",
+          "title": "Officer review and queries",
+          "automated": "partial",
+          "note": "File reportedly held by the officer for about 4 days versus a cited 48/24-hour limit; queries are sometimes unclear and must be clarified."
+        },
+        {
+          "n": 6,
+          "phase": "inspect",
+          "title": "Physical inspection",
+          "automated": "partial",
+          "note": "Conducted once, schedule given in advance, completed 2-4 days after filing; no problem reported."
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Approval, enabling subsequent Fire NOC, factory licence and CTO",
+          "automated": "partial",
+          "note": "Fire NOC is issued only after building plan approval; factory licence and then CTO follow in sequence."
+        }
+      ],
+      "remarks": [
+        "Issuing authority is not explicitly named in this session; inferred as likely SIIDCUL-linked based on the companion UK BPA and OC sessions, not directly confirmed here.",
+        "Participants described the approval sequence as: CAF ID (project report, GST) → CTE → Factory Building Plan Approval → Fire NOC (only after building plan approval) → Factory Licence → CTO."
+      ]
+    },
+    {
+      "serviceCode": "OC",
+      "serviceName": "Occupancy Certificate",
+      "sourceFiles": [
+        "UK_FGD_OC.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL",
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "The online application accepts building height only up to 30 m; a participant's building is 46 m, requiring a separate offline application for the extra height as a special case."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "The first (30 m) approval took 2-3 months, and the special-case application for extra height had not been completed by the time of the session, doubling the overall time."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Status shows only \"forwarded\" and does not say to whom (fire, pollution, legal metrology); the applicant has to ask manually."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "There is no processing time or expected time shown on the portal."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "No fixed timeline: one application was done in a day, while another has been pending for a year, still in \"forwarded\" status."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Queries are raised again and again."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Office visits are still needed even after the online application."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Delay affects bank finance; the bank does not finance without the formalities. A participant's project was cited as about ₹100 crore (own money about ₹30 crore, ₹70 crore from the bank) - the source transcript itself marks these figures '[confirm figures]'."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The map fee is the highest fee in the project."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "A CAF ID must be made first on Single Window, and the application is then filed separately on SIIDCUL's own portal; the two portals are separate."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "SIIDCUL generates a challan by area; the payment receipt is uploaded, and participants said all departments have separate fees."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral",
+          "text": "Occupancy Certificate has no renewal; it is one-time."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Physical inspection is done at several stages - at application (fire), during construction for progress and safety, and at completion."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "POSITIVE",
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "Applications can be tracked online by login, with updates coming through."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The DPR submitted for CAF ID is uploaded again on SIIDCUL, and the map/layout is uploaded twice; SIIDCUL said the map was not per norms and asked for it to be uploaded again, though the CAF ID and SIIDCUL maps ended up different and OC was still granted."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "The project report is asked again for OC, and again for extension of the building; fees are paid again for a building extension."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Show to whom the file is forwarded and the expected time, and send notifications with a daily status update."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES",
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Give a provisional/pre-approval so the bank loan can start, since OC otherwise takes 3-6 months by this account."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry Representative",
+          "quote": "Online accepts only 30 m. Our building is 46 m, so we had to apply again offline.",
+          "topic": "Portal height cap",
+          "tags": [
+            "PORTAL",
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Status only says \"forwarded\". We have to ask manually to whom.",
+          "topic": "Opaque status tracking",
+          "tags": [
+            "CLARITY",
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "No fixed time. One application took a day, another is pending for a year.",
+          "topic": "No fixed timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Same DPR and map are uploaded again on the SIIDCUL portal.",
+          "topic": "Duplicate document upload",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Bank will not finance until formalities are done. Delay holds the project.",
+          "topic": "Financing tied to OC",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Give a provisional approval so the bank loan can start.",
+          "topic": "Provisional approval suggestion",
+          "tags": [
+            "FEES",
+            "PORTAL"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "VAGUE",
+          "text": "Two different overall duration figures are given within the same session: the Pain Points theme states \"OC takes 1-2 months,\" while the Suggestions theme separately states \"OC takes 3-6 months\" when proposing a provisional/pre-approval for bank financing - the transcript does not reconcile the two."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No statutory processing limit or deemed-approval mechanism is described; one application was reported pending for a full year in \"forwarded\" status with no stated escalation path or automatic resolution."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Applications can reportedly be tracked online by login with status updates, and physical inspections occur at defined stages (application, during construction, at completion)."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The online portal's 30 m building-height cap has no described resolution path for taller buildings beyond an unresolved offline 'special case' process - the participant's own taller-building (46 m) case remained pending at the time of discussion, with total time already doubled."
+        }
+      ],
+      "issuingAuthority": "SIIDCUL - participants state OC 'is given by SIIDCUL, the same body that gives building plan approval.'",
+      "portal": {
+        "name": "CAF ID is created first on the Single Window portal; the OC application itself is then filed separately on SIIDCUL's own portal",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "Participants gave two different overall duration figures in different parts of the same session (see text), with no reconciliation or indication which applies generally.",
+        "text": "The Pain Points theme states \"OC takes 1-2 months\"; the Suggestions theme separately states \"OC takes 3-6 months\" when proposing a provisional/pre-approval so bank financing can start. No fixed timeline is otherwise described: one application was completed in a day while another remained pending for a year in \"forwarded\" status with no visibility into which department was holding it."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "DPR (Detailed Project Report) - first submitted at CAF ID, re-uploaded on SIIDCUL's portal",
+        "Map/layout - uploaded both at CAF ID and again on SIIDCUL's portal",
+        "Pollution documents (CTE, CTO) for some industries",
+        "Project report (asked again for OC, and again for building extension)",
+        "Payment receipt for SIIDCUL-generated challan"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Participants describe no fixed time limit and said it is \"not clear when to approve or reject\"; one application was reported pending a full year in \"forwarded\" status with no automatic resolution described."
+      },
+      "validity": {
+        "text": "One-time certificate; participants state OC has no renewal requirement."
+      },
+      "fees": {
+        "text": "Application fee depends on size - about ₹10,000 for the participant's (large) unit, about ₹1,000 for a small unit. The map fee, linked to 1%, is described as the highest fee; participants said OC and building plan approval have different fees, and all departments charge separate fees."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Create CAF ID on the Single Window portal",
+          "automated": true,
+          "note": "Prerequisite step before the OC application itself can be filed."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "File OC application separately on SIIDCUL's own portal",
+          "automated": "partial",
+          "note": "DPR and map/layout, already submitted at CAF ID, are re-uploaded on the separate SIIDCUL portal."
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Pay SIIDCUL-generated challan",
+          "automated": "partial",
+          "note": "Challan generated by covered area; payment receipt is uploaded."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Height-based routing: standard online processing up to 30 m, offline special case above",
+          "automated": "partial",
+          "note": "Buildings above 30 m (e.g. 46 m in one participant's case) must apply again offline as a special case, which can double the overall time."
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Physical inspection at multiple stages",
+          "automated": false,
+          "note": "Inspections occur at application (fire), during construction (progress and safety), and at completion."
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Certificate issued by SIIDCUL",
+          "automated": "partial",
+          "note": "No fixed timeline is described; status shows only as \"forwarded\" without naming the department currently holding the file."
+        }
+      ],
+      "remarks": [
+        "Issuing authority (SIIDCUL) is explicitly confirmed in this session, unlike the companion UK BPA and FBPA sessions where it could only be inferred.",
+        "The ₹100 crore project / ₹30 crore own-money / ₹70 crore bank-financing example is carried here with the same '[confirm figures]' caveat the source transcript itself applied to it."
+      ]
+    }
+  ]
+}

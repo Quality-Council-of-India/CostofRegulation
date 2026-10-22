@@ -1,0 +1,354 @@
+{
+  "code": "MN",
+  "name": "Manipur",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFiles": ["MN_FGD_BPA.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Participants viewed the online BPA process as an improvement over the earlier fully offline process in terms of convenience, but said the website/software still needs to be more user-friendly." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "COMPLY"], "sentiment": "issue", "text": "Repeated technical problems were reported while uploading architectural drawings — DFX/DXF-type files not uploading, applications failing to submit, and system error messages even when the applicant/architect believed the drawings were correct." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Technical difficulty was significant enough that applicants sought help from friends/other technical persons when they could not submit an application; this assistance did not always resolve the issue." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "One participant said an application could not be submitted at the user end, while others reported that submitted applications could receive a response relatively quickly, indicating the main bottleneck occurs before successful submission rather than after." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "The process involves multiple stakeholders/approvals for a building project — fire, pollution/environment, waste management, lift permission and other linked clearances — creating coordination complexity." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "INTERDEP"], "sentiment": "neutral", "text": "Participants indicated the system is moving toward/has a single-window arrangement, but applicants may still have to deal with requirements or approvals associated with different departments." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Applicants may have to undertake follow-up calls or visits when the digital process does not work; the earlier offline interaction was described as generally smooth/helpful in some cases, especially where staff assisted." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "A clear grievance/complaint redressal mechanism was not known to participants; the discussion concluded a proper response mechanism should be available when a query is not resolved." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Architectural/technical capacity is a constraint — only a limited number of architects are comfortable with the relevant software/online approval process." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Land-use classification and restrictions emerged as a policy-level issue — agricultural land cannot simply be used for commercial purposes, and land-use/master-plan restrictions affect building proposals." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Building height restrictions were discussed in the context of the State's conditions, including seismic considerations; participants indicated government-level changes to the existing framework may be under consideration." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "A completion-stage inspection by a small team was described — the team visited the site, took photographs and required additional photographs to be submitted." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "Physical presence is generally reduced after digitisation, but physical visits/follow-up remain relevant when online submission or other parts of the process do not work." },
+        { "source": "fgd", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "Payment is linked to the approval process and was discussed as being based on parameters such as area/square feet, made through an online unified payment arrangement via the Government e-GRAS system for the single-window setup." },
+        { "source": "fgd", "category": "procedural", "tags": ["FEES"], "sentiment": "neutral", "text": "The sequencing described was approval followed by payment and then issuance of the relevant permission/approval." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "The discussion did not establish a clear case of the same document being repeatedly submitted to multiple departments." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Technical failure during drawing upload/submission can prevent an application from moving forward; some early-stage problems were attributed to the newness/bugs in the online system, possibly since fixed." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Improve the BPA website and software so it is more user-friendly and reliably accepts the required architectural drawing formats, with stronger validation/checkpoint features before final submission." },
+        { "source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Provide a clear and easily accessible complaint/grievance redressal mechanism with a defined response process." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "No clear evidence of unofficial payments or hidden charges was reported; participants specifically stated they had not paid hidden charges in the instances discussed, and some described departmental staff as helpful during office interactions." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "The site has to be more user friendly.", "topic": "Portal usability", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Architectural drawings were not getting uploaded/submitted and the system sometimes showed an error in the drawing.", "topic": "Drawing upload failures", "tags": ["PORTAL", "COMPLY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Very smooth — describing the earlier office-based process.", "topic": "Offline experience recalled positively", "tags": ["OTHER"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "Help from friends/other technical persons was sought when the application could not be submitted online.", "topic": "Informal fallback support", "tags": ["CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "A proper complaint/redressal system should be there.", "topic": "Grievance redressal", "tags": ["GRIEVANCE"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "The software used by architects was described as not very user friendly.", "topic": "Architect software usability", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Only a few architects were described as being able to handle the relevant software/approval process effectively.", "topic": "Architect capacity bottleneck", "tags": ["CAPACITY"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "ED gives a 10-15 day (up to 30-day) processing timeline for BPA, but FGD participants gave no specific day-count of their own — only that response is 'relatively quick' once successfully submitted — so the ED's specific day-range could not be independently cross-verified by business testimony." },
+        { "flag": "MISSING", "text": "The ED record contains no mention of a grievance/complaint redressal process for BPA at all, but FGD participants explicitly raised its absence as a pain point ('a proper complaint/redressal system should be there') — a gap the ED discussion did not surface." },
+        { "flag": "GOOD_PRACTICE", "text": "FGD corroborates the ED's architect-capacity bottleneck finding: both sources independently describe only a small pool of architects able to handle the OBPS-linked drawing software, reinforcing this as a verified bottleneck rather than an isolated official claim." },
+        { "flag": "VAGUE", "text": "Neither ED nor FGD specifies an exact BPA fee amount; FGD adds that payment is linked to area/square footage and made via the e-GRAS unified payment system for the single-window setup, but gives no concrete figures." },
+        { "flag": "REFORM", "text": "Both sources reference possible future change to land-use/building-height norms — ED discussed a risk-based classification proposal from officials, while FGD participants separately noted 'government-level changes to the existing framework may be under consideration' — converging on anticipated reform not yet finalized." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": ["MN_FGD_FNO.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Physical verification of fire-safety arrangements remains an essential step before approval." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Clarifications are sought whenever applications are incomplete, leading to additional communication between applicants and the department." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "CLARITY"], "sentiment": "issue", "text": "Participants indicated the document upload process could be simplified and application guidance could be improved." },
+        { "source": "fgd", "category": "policy", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Physical verification continues to be the primary method of ensuring compliance before approval." },
+        { "source": "fgd", "category": "policy", "tags": ["COMPLY"], "sentiment": "neutral", "text": "Complete documentation is necessary to avoid additional scrutiny during processing." },
+        { "source": "fgd", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "Processing generally involves fewer procedural formalities than fresh applications — raised in a session nominally about fresh Fire NOC, so it is unclear whether this reflects a participant discussing renewal specifically." },
+        { "source": "fgd", "category": "delay", "tags": ["QUERY"], "sentiment": "issue", "text": "Delays may occur when applications are incomplete or require clarification." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT", "TIMELINE"], "sentiment": "issue", "text": "Scheduling and completion of physical inspections may extend processing time." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Provide clearer instructions and guidance within online application forms, including help text for application fields." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Simplify the document upload process to reduce applicant effort, and display comprehensive checklists before submission to minimize deficiencies." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Improve transparency by providing application status updates through the online portal." },
+        { "source": "fgd", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Strengthen awareness among applicants regarding documentation requirements before submission, and reduce repetitive communication by making requirements more explicit." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants expressed overall satisfaction with the current approval timelines, and reported that applications are generally processed efficiently when submitted with complete documentation." },
+        { "source": "fgd", "category": "remarks", "tags": ["PORTAL", "POSITIVE"], "sentiment": "positive", "text": "The transition from manual processing to online systems has significantly improved service delivery." },
+        { "source": "fgd", "category": "remarks", "tags": ["CONSULT"], "sentiment": "positive", "text": "Direct communication with departmental officials helps resolve application-related issues promptly." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Overall administrative burden was perceived to be limited for the services discussed." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Representative", "quote": "The document upload process could be made simpler.", "topic": "Document upload", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Additional help text should be provided while filling the application.", "topic": "Form guidance", "tags": ["CLARITY"], "sentiment": "suggestion" },
+        { "speaker": "Industry Representative", "quote": "The timelines prescribed by the government are generally sufficient.", "topic": "Timeline adequacy", "tags": ["TIMELINE"], "sentiment": "positive" },
+        { "speaker": "Industry Representative", "quote": "If all the required documents are available, the application can be completed without much difficulty.", "topic": "Compliance ease with complete documents", "tags": ["COMPLY"], "sentiment": "positive" },
+        { "speaker": "Industry Representative", "quote": "The approval was received within about one week.", "topic": "Actual turnaround experienced", "tags": ["TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Industry Representative", "quote": "The online process is much better than the earlier manual system.", "topic": "Digitisation improvement", "tags": ["PORTAL"], "sentiment": "positive" }
+      ],
+      "gaps": [
+        { "flag": "GOOD_PRACTICE", "text": "FGD corroborates the ED's claimed ~7-day prescribed Fire NOC timeline — a participant reported approval 'within about one week,' aligning with the ED's stated seven-day benchmark (with the ED record separately noting faster ~2-day outcomes for fully compliant cases)." },
+        { "flag": "MISSING", "text": "Fee levels for Fire NOC — which the ED describes as varying by plinth area, height and occupancy type — were not discussed at all by FGD participants; no cost-related pain points or figures were raised, so FGD provides no independent check on the ED's fee description." },
+        { "flag": "MISSING", "text": "FGD does not address deemed approval, leaving the ED's finding (no deemed approval currently exists for Fire NOC) unconfirmed and uncontested by business testimony." },
+        { "flag": "VAGUE", "text": "One Policy Issues bullet states processing 'generally involves fewer procedural formalities than fresh applications,' which is unclear in a session nominally about fresh Fire NOC — it is not clear whether this reflects a participant actually describing renewal, or a generalization in the FGD write-up." },
+        { "flag": "GOOD_PRACTICE", "text": "Both ED and FGD independently describe the shift from manual to online processing as a genuine improvement in service delivery, reinforcing this as a verified positive change rather than an isolated claim from either side." }
+      ]
+    },
+    {
+      "serviceCode": "GST",
+      "serviceName": "GST Registration",
+      "sourceFiles": ["MN_FGD_GST.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "GST welcome-kit delivery was reported as problematic in some cases because the address was not recognised/matched correctly; affected participants had to approach the GST office and show departmental communication before the matter could be resolved." },
+        { "source": "fgd", "category": "pain", "tags": ["INFORMAL"], "sentiment": "issue", "text": "Two participants described a similar experience in which an additional/unofficial amount was sought in connection with the welcome-kit/address issue." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "The GST application portal was reported to have a location/address selection or matching problem, particularly where detailed address information such as a floor number was entered." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Awareness of the GST complaint process is weak — some participants did not know where or how to complain, and one described difficulty finding a responsive contact and receiving useful guidance." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "issue", "text": "Users who depend on consultants/CA professionals incur consultation charges; participants noted that users with fewer financial resources may find this additional cost burdensome." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "During periods of business shutdown/disruption, participants raised concerns about continuing GST return-filing obligations and associated charges/penalties even with little or no business activity." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "One participant obtained GST registration for a government tender but had not received the tender; the discussion raised concern about continuing compliance obligations despite the business opportunity not materialising." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Participants suggested GST compliance should provide a practical relaxation or nil-filing mechanism for periods when a business is genuinely shut down or has no activity." },
+        { "source": "fgd", "category": "policy", "tags": ["COMPLY"], "sentiment": "issue", "text": "A policy-level concern was raised about continued GST compliance costs/penalties where registration was obtained for a proposed tender/activity that does not materialise." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Participants implicitly called for a more accessible system for users who cannot afford or do not have access to professional consultants." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Address/location matching on the GST portal can create downstream problems in delivery/verification of the GST welcome kit, sometimes requiring a physical visit to the GST office." },
+        { "source": "fgd", "category": "procedural", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "The complaint/redressal process was not sufficiently visible or usable — users were unsure whom to contact, and available contacts did not always provide a solution." },
+        { "source": "fgd", "category": "procedural", "tags": ["CONSULT"], "sentiment": "neutral", "text": "GST filing is often delegated to CAs, consultants or accounts teams; this reduces the burden for some organisations but creates dependence on intermediaries for others." },
+        { "source": "fgd", "category": "procedural", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Registration processing itself was generally viewed positively and faster than before; the principal procedural concerns were around exceptions, address problems, grievance handling and return compliance rather than basic registration speed." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "positive", "text": "Where GST registration was straightforward, participants reported very quick processing, including same-day or approximately two-hour issuance in some cases." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE", "PORTAL"], "sentiment": "issue", "text": "In problem cases, delay was associated with address/location mismatch and non-delivery of the GST welcome kit, which required a visit to the GST office." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "One participant reported a filing/application experience of roughly 3-7 days, while another described an approximately 10-minute completion time for the application itself — variation attributed to user-side preparation and intermediary involvement." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "The basic GST registration process has improved materially compared with earlier experiences; several participants described it as quick, simple and well organised." },
+        { "source": "fgd", "category": "remarks", "tags": ["INFORMAL"], "sentiment": "neutral", "text": "The experience of informal extra payment was reported only in connection with particular welcome-kit/address cases; the discussion does not establish that such payments are routine across GST registration." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "GST registration is now very quick; a GST number can sometimes be obtained within about two hours.", "topic": "Fast registration", "tags": ["TIMELINE"], "sentiment": "positive" },
+        { "speaker": "Participant", "quote": "A welcome-kit delivery/address problem required a visit to the GST office and was associated with an extra payment.", "topic": "Welcome-kit address issue and informal cost", "tags": ["PORTAL", "INFORMAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The portal can have difficulty matching the detailed address/location entered by the applicant.", "topic": "Portal address matching", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "There is little awareness of the complaint process, and available contacts may not provide a solution.", "topic": "Grievance redressal awareness", "tags": ["GRIEVANCE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Consultant/CA charges add to the cost for users who cannot complete GST filing themselves.", "topic": "Intermediary cost burden", "tags": ["CONSULT"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "When business activity stops, there should be a provision for nil filing or relaxation rather than continued charges/penalties.", "topic": "Nil-filing for shutdown periods", "tags": ["NORMS", "COMPLY"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "GST compliance continue even when GST was obtained for a government tender that was not ultimately received.", "topic": "Compliance burden tied to unmaterialised tender", "tags": ["COMPLY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The basic GST process was reported as generally smooth, with no major issue for several participants.", "topic": "Overall positive experience", "tags": ["POSITIVE"], "sentiment": "positive" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official government fee figures were discussed; only intermediary/consultant charges and an alleged informal payment in exception cases were referenced." },
+        { "flag": "MISSING", "text": "Validity/renewal requirements for GST Registration were not addressed by participants." },
+        { "flag": "MISSING", "text": "Deemed approval status for GST Registration was not discussed by participants." },
+        { "flag": "VAGUE", "text": "The issuing authority and specific portal name were not precisely identified — referred to generically as 'the GST office'/'the portal.'" },
+        { "flag": "VAGUE", "text": "No concrete document checklist was provided by participants; the only document-adjacent detail given was address/location information entered on the portal." },
+        { "flag": "GOOD_PRACTICE", "text": "Participants described the basic registration process as now fast (minutes to a few hours in straightforward cases) and a marked improvement over earlier experience." },
+        { "flag": "REFORM", "text": "Participants proposed a nil-filing/relaxation mechanism for genuine shutdown periods and clearer treatment of GST obligations tied to tenders that do not materialise — both offered as suggested reforms, not yet implemented." }
+      ],
+      "issuingAuthority": "Not specified in the discussion — referred to generally as 'the GST office'/GST department responsible for registration processing and welcome-kit issuance.",
+      "portal": { "name": "GST registration portal (not further named by participants — presumably the central GST Common Portal, though not explicitly identified)", "url": null },
+      "timeline": { "minDays": 0, "maxDays": 7, "basis": "Participant testimony only, not an official timeline. Figures ranged from same-day/~2-hour issuance in straightforward cases to a reported 3-7 day filing/application experience, with one participant describing ~10-minute application completion time.", "text": "Straightforward GST registration was described as very fast — sometimes same-day or within about two hours. One participant reported a filing/application experience of roughly 3-7 days; variation was attributed to user-side preparation and intermediary involvement. Delays beyond this were concentrated in address-mismatch/welcome-kit exception cases, not routine processing." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Business/applicant address and location details entered on the GST portal (including floor/unit information, cited as a source of frequent address-matching problems)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants were asked whether irrelevant or unnecessary documents had been demanded and did not identify any specific document; no complete, authoritative document checklist was given in this session.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants; the FGD session did not address whether deemed approval applies to GST Registration." },
+      "validity": { "text": "Not discussed; GST Registration is understood as an ongoing registration rather than a periodically renewed licence, but participants did not specifically address validity or renewal in this session." },
+      "fees": { "text": "No official government fee amounts were discussed. Participants referenced out-of-pocket intermediary/consultant charges for those who could not file independently, and two participants described an alleged additional/unofficial amount sought in connection with the welcome-kit/address issue, but no official fee was quantified." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits GST registration application online, entering business and address details", "automated": true, "note": "" },
+        { "n": 2, "phase": "scrutiny", "title": "Application processed/verified by GST authorities", "automated": "partial", "note": "Processing reported as fast in straightforward cases (minutes to about two hours); longer (3-7 days) in some cases depending on preparation/intermediary involvement." },
+        { "n": 3, "phase": "approve", "title": "GSTIN/registration certificate issued", "automated": true, "note": "Some participants received registration same-day or within about two hours when address details matched correctly." },
+        { "n": 4, "phase": "approve", "title": "Physical GST welcome kit dispatched to the registered address", "automated": false, "note": "Delivery depends on the portal's address/location matching; detailed addresses (e.g. floor number) were reported to cause matching failures." },
+        { "n": 5, "phase": "scrutiny", "title": "If the welcome kit fails to deliver due to an address mismatch, applicant visits the GST office with departmental communication to resolve it", "automated": false, "note": "Reported as the primary source of delay in problem cases and, in two instances, associated with an alleged additional/unofficial payment." }
+      ],
+      "remarks": [
+        "FGD-only record (Mode B) — Manipur's ED pass did not cover GST Registration; this structured record is derived solely from business testimony and has not been verified against an official source.",
+        "Basic registration speed was generally viewed positively by participants; the principal issues raised were about exception handling (address mismatch/welcome kit), grievance redressal, and continuing compliance obligations in specific circumstances (business shutdown, non-materialised tenders)."
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": ["MN_FGD_RFNO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Renewal requires repeated data entry: a participant reported that information and documents already entered in the portal had to be entered again for renewal, described as time-consuming, especially where premises/details had not changed." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "DUPDOC"], "sentiment": "suggestion", "text": "Limited reuse of prior online applications: participants suggested the portal should retrieve the previous application and allow users to update only changed information rather than re-entering all details." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Portal usability and guidance gaps: the online portal was new/unfamiliar to some users, and clearer instructions or a step-by-step guide would help." },
+        { "source": "fgd", "category": "pain", "tags": ["GRIEVANCE"], "sentiment": "issue", "text": "Difficulty resolving issues without visiting the office: applicants located away from the fire office need to be able to resolve queries remotely." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Multiple branches/units under the same business details: a participant described difficulties when one company has multiple factories or brands sharing company/PAN details, with constraints around repeated entry and the portal/user account." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP", "NORMS"], "sentiment": "issue", "text": "Risk of mismatch between submitted plans and actual construction: participants raised concern that the building/layout submitted for approval may differ materially from what is ultimately constructed, potentially undermining fire-safety assessment." },
+        { "source": "fgd", "category": "policy", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Coordination between fire-safety clearance and building approvals: participants discussed whether fire-safety requirements should be linked with building-plan approval and/or occupancy certification so the approved plan and the physical building are aligned." },
+        { "source": "fgd", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "Need for a clearer approach to pre- and post-construction checks was raised, but the discussion did not establish a final policy position or confirmed change." },
+        { "source": "fgd", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "Responsibility for deviations from approved plans was debated as a safety/regulatory-coordination concern, not resolved during the meeting." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "neutral", "text": "Participants discussed possible changes to certificate validity and third-party inspection; one speaker advised applicants to follow prevailing state guidelines." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Reported sequence: apply online, undergo a site inspection, receive the certificate after inspection — several comments suggested inspection may occur in approximately 7-10 days, reported in discussion and not an official service standard." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Renewal workflow does not adequately reuse existing records; a previous-application retrieval and update function was proposed." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Participants proposed that a newly introduced portal should include clear guidance explaining how to fill in forms and which requirements apply to different establishment types." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Need for better support for multi-unit applicants, since the workflow may be difficult where the same company operates several factories/branches or holds multiple brands/certificates." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "suggestion", "text": "Participants suggested inspection should verify whether the physical site corresponds with the submitted layout, potentially supported by evidence such as photographs." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "A participant estimated inspection could take around 7-10 days after submission — a participant-reported estimate, not a verified or prescribed timeline." },
+        { "source": "fgd", "category": "delay", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Repeated entry of previously submitted details was identified as time-consuming, particularly during renewal." },
+        { "source": "fgd", "category": "delay", "tags": ["INTERDEP"], "sentiment": "issue", "text": "The mismatch between submitted building plans and the actual constructed site was raised as a risk that could complicate verification and coordination between authorities." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants generally described the online application as manageable, and some said they had obtained an electronic certificate." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The meeting did not conclude with a confirmed decision on changes to rules, certificate validity, third-party inspections, or portal integration." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "For renewal, we have to update the same information again; a facility to retrieve the previous application would save time.", "topic": "Repeated data entry at renewal", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The portal is new for users; there should be guidance on how to fill in the form and which requirements apply.", "topic": "Portal guidance gap", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The same company details are used for multiple factories or brands, so entering them repeatedly creates difficulty.", "topic": "Multi-unit duplicate data entry", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "If there is an issue, it should be possible to resolve it without travelling to the fire office.", "topic": "Remote grievance resolution", "tags": ["GRIEVANCE"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "The plan submitted may differ from what is actually built; the site should be checked against the approved layout.", "topic": "Plan-versus-site mismatch safety risk", "tags": ["INSPECT", "NORMS"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "If the fire and building-plan processes are connected, the approved information can be checked more conveniently.", "topic": "Inter-departmental integration proposal", "tags": ["INTERDEP"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "Inspection is generally expected within about 7-10 days.", "topic": "Reported inspection timeline estimate", "tags": ["TIMELINE"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official fee figures for Fire NOC renewal were discussed by participants." },
+        { "flag": "MISSING", "text": "Issuing authority not explicitly named — referred to only as 'the fire office.'" },
+        { "flag": "VAGUE", "text": "The inspection timeline of 'about 7-10 days' is explicitly described in the transcript as a participant estimate, not confirmed as an official SLA." },
+        { "flag": "MISSING", "text": "Deemed approval status for Fire NOC renewal was not addressed." },
+        { "flag": "VAGUE", "text": "Certificate validity period was discussed as potentially changing, but no specific figure was confirmed; advice given was to 'follow prevailing state guidelines.'" },
+        { "flag": "GOOD_PRACTICE", "text": "The reported sequence (apply online, site inspection, certificate issued — some electronically) suggests the renewal process is largely digitised apart from the repeated-data-entry issue." },
+        { "flag": "REFORM", "text": "Participants proposed retrieval/reuse of prior application data for renewal, support for multi-unit applicants, and stronger coordination between fire-safety and building-plan approvals — suggested but not yet implemented." }
+      ],
+      "issuingAuthority": "Not explicitly named in the discussion — referred to only as 'the fire office' (consistent with the Fire Department / Manipur Fire Service that the Manipur ED record names as the authority for fresh Fire NOC, though Renewal of Fire NOC itself has no corresponding ED record).",
+      "portal": { "name": "Online application portal for Fire NOC renewal, described by participants as newly introduced; not given a specific name", "url": null },
+      "timeline": { "minDays": 7, "maxDays": 10, "basis": "Participant-reported estimate only ('around 7-10 days' for inspection after submission); the transcript explicitly notes this was reported in discussion and not established as an official service standard.", "text": "Participants described applying online, undergoing a site inspection, and receiving the certificate after inspection. Several comments suggested inspection may occur in approximately 7-10 days after submission, but this is a participant estimate, not a verified or prescribed timeline." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Layout/building plan (referenced in the context of verifying it against actual construction)",
+        "Identity/business details, including PAN card",
+        "Company letterhead",
+        "Details from the previously submitted application/certificate (for renewal reference)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants mentioned a layout plan and identity/business details (PAN card, letterhead) only in passing while discussing application requirements; they did not provide a complete, authoritative documentary checklist.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not established in the discussion; renewal is described as requiring an online application plus site inspection before a certificate is issued, but no automatic/deemed-approval mechanism was mentioned." },
+      "validity": { "text": "Not confirmed; participants discussed 'possible changes to certificate validity' without resolution, and one speaker advised following prevailing state guidelines rather than citing a specific validity period." },
+      "fees": { "text": "No fee amounts were discussed by participants for Fire NOC renewal." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant submits renewal application online", "automated": "partial", "note": "Participants reported having to re-enter information and documents already available in the portal from the original/previous application, rather than the portal retrieving prior records." },
+        { "n": 2, "phase": "inspect", "title": "Site inspection conducted", "automated": false, "note": "Participants estimated inspection occurs roughly 7-10 days after submission (participant estimate, not an official SLA); participants wanted inspection to also verify the site against the approved layout." },
+        { "n": 3, "phase": "approve", "title": "Renewal certificate issued following inspection", "automated": "partial", "note": "Some participants reported receiving an electronic certificate." }
+      ],
+      "remarks": [
+        "FGD-only record (Mode B) — Manipur's ED pass did not cover Renewal of Fire NOC; this structured record is derived solely from business testimony and has not been verified against an official source.",
+        "The most significant concern raised was a potential mismatch between the building/layout submitted for fire approval and what is actually constructed, which participants felt fire-safety and building-approval processes should jointly address.",
+        "Participants represented a mix of hospital, food-manufacturing, commercial and residential/retail establishments, reflecting differing contexts for fire-safety compliance."
+      ]
+    },
+    {
+      "serviceCode": "TFG",
+      "serviceName": "GST Tax Filing",
+      "sourceFiles": ["MN_FGD_TFG.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "neutral", "text": "The discussion did not establish a major or repeated problem with GST filing itself; one participant stated they had not faced issues so far." },
+        { "source": "fgd", "category": "pain", "tags": ["CONSULT"], "sentiment": "neutral", "text": "Some participants indicated they do not personally handle GST-related work and depend on an accountant, consultant, or staff member who handles accounts." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "neutral", "text": "Because GST work is often handled by accountants/consultants rather than the business owner directly, some participants appeared to have limited direct knowledge of the filing process and any detailed difficulties." },
+        { "source": "fgd", "category": "policy", "tags": ["OTHER"], "sentiment": "neutral", "text": "No specific complaint about a GST rule, notification, statutory provision, or policy requirement was clearly established in the discussion." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "GST-related work was described as being undertaken online." },
+        { "source": "fgd", "category": "procedural", "tags": ["CONSULT"], "sentiment": "neutral", "text": "Reliance on accountants or consultants for GST-related compliance suggests the practical process is often mediated through professional/accounting support." },
+        { "source": "fgd", "category": "procedural", "tags": ["CLARITY"], "sentiment": "neutral", "text": "The discussion did not provide sufficient evidence to identify a specific procedural step as consistently difficult, delayed, or unclear." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "neutral", "text": "No specific instance of duplicate, repeated, or redundant documentation was clearly reported in the discussion." },
+        { "source": "fgd", "category": "delay", "tags": ["OTHER"], "sentiment": "neutral", "text": "No specific approval delay or cause of delay — manual file movement, informal payments, technical rejection, departmental coordination, or otherwise — was established in the discussion." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Greater awareness or briefing for business owners on GST-related responsibilities may help even where accountants or consultants undertake the filing." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CONSULT"], "sentiment": "suggestion", "text": "Where GST work is handled by accountants or consultants, clear communication between the business owner and the filer may help ensure issues are identified and addressed promptly." },
+        { "source": "fgd", "category": "remarks", "tags": ["CONSULT"], "sentiment": "neutral", "text": "GST compliance is commonly handled by accountants, consultants, or designated accounts staff for some participants; one explicitly stated no issues had been faced so far, while others indicated limited personal knowledge of GST matters." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "No GST-related issue had been faced so far.", "topic": "No issues reported", "tags": ["OTHER"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "GST work is handled by an accountant or consultant rather than directly by the participant.", "topic": "Reliance on intermediaries", "tags": ["CONSULT"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "GST-related filing is done online.", "topic": "Online filing", "tags": ["PORTAL"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "The person handling accounts would be better placed to identify and discuss GST-related issues.", "topic": "Role of accounts staff", "tags": ["CONSULT"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "No specific extra cost related to the discussed GST process was clearly established.", "topic": "No cost complaint", "tags": ["FEES"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No timeline/turnaround figures for GST tax filing were given by participants." },
+        { "flag": "MISSING", "text": "No document checklist or filing requirements were discussed." },
+        { "flag": "MISSING", "text": "No fee/cost figures were discussed beyond a general statement that no specific extra cost was clearly established." },
+        { "flag": "MISSING", "text": "Issuing/responsible authority and specific portal name were not identified." },
+        { "flag": "VAGUE", "text": "Because several participants delegate GST filing to accountants/consultants, the session yielded limited first-hand procedural detail; business-owner-level pain points, if any, may not have surfaced in this group." },
+        { "flag": "GOOD_PRACTICE", "text": "No major or repeated problems were reported for GST tax filing in this session, a comparatively positive signal relative to Manipur's GST Registration and Refund FGDs." }
+      ],
+      "issuingAuthority": "Not identified in the discussion — participants described GST tax filing as largely handled by accountants/consultants/accounts staff rather than naming a specific department or office.",
+      "portal": { "name": "GST filing described as conducted online; specific portal not named by participants (presumably the GST Common Portal)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "No specific timeline was discussed by participants.", "text": "Participants did not provide any days-to-complete figures for GST tax filing; the session did not surface a defined turnaround time." },
+      "automationLevel": "unclear",
+      "applicantOfficeVisit": "unclear",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not identify any specific documents, let alone duplicate/redundant ones, for GST tax filing — this session was notably thin on procedural detail because most participants delegate filing to accountants/consultants.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed by participants." },
+      "validity": { "text": "Not applicable/not discussed — GST tax filing is a recurring compliance filing rather than a one-time approval with a validity period; participants did not address filing periodicity." },
+      "fees": { "text": "No fee or cost figures were discussed; one finding states no specific extra cost related to the GST filing process was clearly established in the discussion." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "GST return/tax filing undertaken online", "automated": true, "note": "Participants described GST-related work as conducted online; procedural detail beyond this was not provided." },
+        { "n": 2, "phase": "apply", "title": "Filing typically carried out by an accountant, consultant, or designated accounts staff on behalf of the business owner", "automated": null, "note": "Several participants said they do not personally handle GST filing and have limited direct knowledge of the process." }
+      ],
+      "remarks": [
+        "FGD-only record (Mode B) — Manipur's ED pass did not cover GST Tax Filing; this structured record is derived solely from business testimony and has not been verified against an official source.",
+        "This session was unusually thin: participants did not report any major or repeated problem with GST tax filing, largely because filing is commonly delegated to accountants/consultants/accounts staff who were not present to describe the process in detail.",
+        "No specific policy complaint, documentation issue, or cause of delay was established in the discussion — unlike other Manipur GST-related services (Registration, Refund), this FGD did not surface a clear pain point or procedural bottleneck."
+      ]
+    },
+    {
+      "serviceCode": "TRG",
+      "serviceName": "GST Tax Refund",
+      "sourceFiles": ["MN_FGD_TRG.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Participants described the GST refund process as lengthy, particularly where refunds are subject to verification, scrutiny or risk profiling." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Refund amounts can remain blocked for a considerable period, affecting the ability to rotate working capital in the business." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "positive", "text": "Participants generally viewed the GST portal as substantially online and easier than earlier processes, but indicated refund settlement time remains the main concern." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Uncertainty exists regarding GST charged on logistics services and whether the related GST can be claimed back as ITC/refund; logistics providers were not uniformly clear on this issue." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "Participants suggested the prescribed/standard refund processing period should be reduced so eligible funds return to businesses faster." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "A specific suggestion was to reduce the stated 90-day refund period to approximately 45-60 days, preferably through an all-India policy change rather than a state-specific arrangement." },
+        { "source": "fgd", "category": "policy", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Participants sought clearer policy-level guidance on the treatment/claimability of GST paid on logistics services." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "positive", "text": "The refund process is largely online, and participants indicated they generally do not need to visit the department unless a notice, query or issue arises." },
+        { "source": "fgd", "category": "procedural", "tags": ["NORMS"], "sentiment": "neutral", "text": "Where a refund is subjected to risk profiling/audit-type scrutiny of potentially risky/export cases, additional processing time can arise." },
+        { "source": "fgd", "category": "procedural", "tags": ["GRIEVANCE"], "sentiment": "positive", "text": "Grievance/complaint mechanisms can work when the concerned issue is clearly taken to the department; one participant reported personally approaching the office and receiving assistance." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "The overall concern was less about availability of an online portal and more about the time taken after filing/acknowledgement for the refund to be completed." },
+        { "source": "fgd", "category": "delay", "tags": ["NORMS"], "sentiment": "issue", "text": "Risk profiling and scrutiny of refund/export cases were identified as factors that can extend processing time." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Participants referred to a standard processing window after filing/acknowledgement and felt this period should be shortened." },
+        { "source": "fgd", "category": "delay", "tags": ["OTHER"], "sentiment": "neutral", "text": "Broader, all-India requirements may constrain a state-only reduction in the refund timeline." },
+        { "source": "fgd", "category": "suggestions", "tags": ["GRIEVANCE"], "sentiment": "suggestion", "text": "Maintain and strengthen the online GST process and grievance mechanism, as participants generally found the portal convenient and departmental support available when issues were raised." },
+        { "source": "fgd", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Where risk-based scrutiny is necessary, keep the process predictable and minimise avoidable waiting time so working capital is not blocked for extended periods." },
+        { "source": "fgd", "category": "remarks", "tags": ["POSITIVE"], "sentiment": "positive", "text": "Participants did not describe the GST refund system in Manipur as fundamentally inaccessible; they viewed it as comparatively smooth and online, with processing time the principal area for improvement." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "The working-capital impact of delayed refunds was emphasised; one participant referred to amounts in the range of ₹1-2 crore being potentially significant when blocked in the business." }
+      ],
+      "quotes": [
+        { "speaker": "Participant", "quote": "The GST refund process is lengthy and the processing period should be shortened.", "topic": "Refund delay", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "A large amount of GST/ITC can remain blocked in the business, affecting working-capital rotation.", "topic": "Working-capital impact", "tags": ["OTHER"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "The GST portal is largely online and the process is generally smooth, but refund turnaround time remains an issue.", "topic": "Portal positive, turnaround negative", "tags": ["PORTAL", "TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Risk profiling/audit of refund or export cases can cause additional processing time.", "topic": "Risk-based scrutiny delay", "tags": ["NORMS"], "sentiment": "neutral" },
+        { "speaker": "Participant", "quote": "The refund period discussed as 90 days should ideally be reduced to around 45-60 days.", "topic": "Suggested timeline reduction", "tags": ["TIMELINE"], "sentiment": "suggestion" },
+        { "speaker": "Participant", "quote": "There is uncertainty about whether GST paid on logistics can be claimed back, and logistics providers are not always clear about the treatment.", "topic": "Logistics GST ITC ambiguity", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Participant", "quote": "Grievance redressal can be effective when the issue is taken to the concerned GST office.", "topic": "Effective grievance escalation", "tags": ["GRIEVANCE"], "sentiment": "positive" },
+        { "speaker": "Participant", "quote": "Faster refund release would allow businesses to keep capital circulating in their operations.", "topic": "Working-capital benefit of faster refunds", "tags": ["OTHER"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official fee figure for filing a refund claim was discussed — only the working-capital cost of blocked refunds was raised." },
+        { "flag": "MISSING", "text": "Issuing authority and specific portal name were not precisely identified." },
+        { "flag": "VAGUE", "text": "The '90-day' refund window referenced by participants is described as the currently discussed/experienced period, not confirmed against an official source in this session." },
+        { "flag": "MISSING", "text": "Deemed approval was not discussed for GST Tax Refund." },
+        { "flag": "GOOD_PRACTICE", "text": "Participants described the refund portal as largely online and grievance redressal as effective when escalated directly to the concerned office — a comparatively positive procedural assessment." },
+        { "flag": "REFORM", "text": "Participants proposed reducing the refund window to approximately 45-60 days (preferably nationally) and clearer logistics-GST ITC guidance — both offered as suggested reforms, not yet implemented." }
+      ],
+      "issuingAuthority": "Not explicitly named in the discussion — referred to generally as 'the concerned GST office'/the department responsible for processing refund claims, including risk profiling/scrutiny of export cases.",
+      "portal": { "name": "GST refund processed via the online GST portal, described as 'largely online'; specific portal name not given by participants (presumably the GST Common Portal)", "url": null },
+      "timeline": { "minDays": 45, "maxDays": 90, "basis": "Participant testimony only. Participants referenced a currently discussed/experienced '90-day' standard refund processing window and proposed shortening it to approximately 45-60 days; these are participant-reported figures, not confirmed against an official source in this session.", "text": "Participants described the GST refund process as lengthy, especially where subject to verification/risk profiling, with a standard processing window discussed as around 90 days; they suggested shortening this to roughly 45-60 days, preferably via an all-India policy change." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No document checklist was given by participants; the discussion established only that no specific instance of repeated or duplicate documents being demanded was reported.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Not discussed; participants referenced a standard processing window (currently ~90 days, suggested reduction to 45-60 days) but did not describe this as a deemed-approval mechanism." },
+      "validity": { "text": "Not applicable/not discussed — GST refund is a transactional claim process rather than a licence with a validity period; participants did not address this." },
+      "fees": { "text": "No official fee was discussed for filing a GST refund claim. The financial concern raised was the working-capital impact of refund amounts (reportedly in the range of ₹1-2 crore in one case) remaining blocked during processing, not a filing fee." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Applicant files GST refund claim online", "automated": true, "note": "Participants described the refund process as largely online." },
+        { "n": 2, "phase": "scrutiny", "title": "Refund claim subject to risk profiling/scrutiny, particularly for export-type or 'risky' cases", "automated": "partial", "note": "Risk profiling was identified as a factor extending processing time before refund release." },
+        { "n": 3, "phase": "scrutiny", "title": "Department may raise a notice or query, requiring applicant response/visit", "automated": false, "note": "Participants indicated they generally do not need to visit the department unless a notice, query or issue arises; grievance redressal was described as effective when the issue is taken directly to the concerned GST office." },
+        { "n": 4, "phase": "approve", "title": "Refund released/settled", "automated": "partial", "note": "Discussed as currently taking around a standard 90-day window; participants proposed reducing this to roughly 45-60 days." }
+      ],
+      "remarks": [
+        "FGD-only record (Mode B) — Manipur's ED pass did not cover GST Tax Refund; this structured record is derived solely from business testimony and has not been verified against an official source.",
+        "Participants did not describe the Manipur GST refund system as fundamentally inaccessible; the online portal and grievance channel were viewed positively, with processing/turnaround time as the principal area for improvement.",
+        "A separate, unresolved concern was raised about whether GST paid on logistics services can be claimed back as ITC/refund, with logistics providers reportedly not uniformly clear on the applicable treatment — a cross-cutting ambiguity rather than one specific to Manipur's refund procedure."
+      ]
+    }
+  ]
+}

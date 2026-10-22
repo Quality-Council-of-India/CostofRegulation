@@ -1,0 +1,291 @@
+{
+  "code": "LA",
+  "name": "Ladakh",
+  "licenses": [
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": ["LA_FGD_CTE.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named by participants; multiple departments (PDD/PHE, PWD, forest, wildlife, noise, revenue, fire and others) are involved in granting the various NOCs required before CTE can be processed.",
+      "portal": { "name": "Online application system (not named by participants); process has transitioned from offline to online", "url": null },
+      "timeline": { "minDays": 60, "maxDays": 90, "basis": "Participant-reported experience, not an official average; one participant reported approximately 2-3 months, while another indicated some hotel-related cases remained pending 1-2 years because required formalities were not completed", "text": "Participants reported the CTE process can take several months, with one estimate of approximately 2-3 months; hotel-related cases were in some instances reported pending for 1-2 years due to incomplete formalities." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "NOCs/clearances from multiple departments including PDD/PHE, PWD, forest, wildlife, noise, revenue and fire",
+        "Environmental compliance infrastructure documentation (e.g., dust collector, STP) described by participants as part of CTE compliance"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants described departmental NOC requirements and compliance infrastructure rather than giving an itemised document checklist.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Deemed approval for CTE was not discussed by participants." },
+      "validity": { "text": "Not discussed by participants." },
+      "fees": { "text": "No formal CTE application fee figure was given. Participants described substantive compliance costs instead: a dust collector costing approximately ₹40,000-₹50,000 (occupying around 25% of a small shop's space), and an STP costing approximately ₹10-15 lakh / ₹10-12 lakh for some hotel installations (participant estimates, not official costs)." },
+      "steps": [
+        { "n": 1, "phase": "pre", "title": "Identify Applicable NOCs/Documents", "automated": false, "note": "Participants reported that required NOCs/documents are not clearly laid out at the outset; applicants may be told of one requirement at one stage and asked for different or additional documents later, due to the lack of a consolidated checklist." },
+        { "n": 2, "phase": "apply", "title": "Visit Multiple Government Departments for NOCs", "automated": false, "note": "Applicants must approach several departments (PDD/PHE, PWD, forest, wildlife, noise, revenue, fire and others) to obtain required NOCs and complete formalities; described as one of the major sources of time burden." },
+        { "n": 3, "phase": "apply", "title": "Submit Documentation Online", "automated": "partial", "note": "Process has moved from offline to online; however, documents and formalities already completed offline reportedly had to be resubmitted through the online system." },
+        { "n": 4, "phase": "inspect", "title": "Site/Compliance Inspection", "automated": false, "note": "Participants reported difficulties coordinating inspection visits, including instances where officials indicated they would visit but did not arrive as expected." },
+        { "n": 5, "phase": "approve", "title": "Consent to Establish Issued", "automated": null, "note": "Final issuance was not described in detail by participants; overall process reported to take approximately 2-3 months typically, with some hotel-related cases pending 1-2 years due to incomplete formalities." }
+      ],
+      "remarks": [
+        "This record is based solely on FGD testimony from business participants (6 participants, 1-hour session, 22-09-26) and has not been verified against an official ED interview.",
+        "Hotel-related cases reportedly pending 1-2 years were described as unusual, incomplete-formality cases, not a typical timeline."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Lack of clarity regarding applicable documents: applicants may be told about one requirement at one stage and then asked for additional or different documents when they return with the file." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Multiple visits to government offices to obtain various NOCs and complete required formalities were identified as one of the major sources of time burden." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "The CTE process can take several months; one participant reported approximately 2-3 months, while another indicated some hotel-related cases have remained pending for one to two years because required formalities were not completed." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL", "DUPDOC"], "sentiment": "issue", "text": "Transition from offline to online created additional burden: documents and formalities already completed offline had to be submitted again through the online system." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "High substantive cost of environmental compliance: e.g. a dust collector costing approximately ₹40,000-₹50,000 and occupying around 25% of a shop's space." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Regulations not sufficiently aligned with Ladakh's geographical and climatic conditions: STP systems requiring specific temperatures for biological processes may not perform effectively in the local environment." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Participants suggested the government first assess which STP technology is technically viable for Ladakh before prescribing a particular system." },
+        { "source": "fgd", "category": "policy", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Need for phased compliance: establishments should not be required to fulfil a large number of requirements simultaneously; a phased approach increasing compliance requirements progressively over several years was suggested." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Requirements should consider the size and nature of the establishment; the applicability of multiple NOCs to very small units was questioned." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Multiple departments involved: applicants may need to approach several departments for different NOCs/approvals, including PDD/PHE, PWD, forest, wildlife, noise, revenue, fire and other authorities." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC", "CLARITY"], "sentiment": "issue", "text": "Lack of a consolidated checklist: applicants may initially submit documents and subsequently be told to provide additional documents or make changes." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "issue", "text": "Inspection-related coordination difficulties were reported, including instances where officials indicated they would visit but did not arrive as expected." },
+        { "source": "fgd", "category": "procedural", "tags": ["CAPACITY"], "sentiment": "neutral", "text": "Limited use of intermediaries: some applicants manage the process themselves, while others may require assistance because of documentation complexity; applicants with limited familiarity may find the process particularly difficult." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Multiple NOCs for the same establishment: participants questioned the need to obtain multiple NOCs where some permissions/documents may already have been obtained during another approval process." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Repetition of documentation: documents submitted earlier may have to be submitted again during subsequent stages." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Excessive documentation for small establishments: small establishments may be required to provide a large number of documents even where some requirements may not be directly relevant to their activity." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Introduce a consolidated, establishment-specific checklist showing all applicable documents/NOCs at the beginning of the process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Avoid duplication across approvals: where a document/NOC has already been verified during another government approval, it should not be repeatedly requested unless there is a specific regulatory requirement." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Develop Ladakh-specific STP solutions by assessing existing STPs operating in Ladakh and identifying technologies that perform effectively under local climatic conditions." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Consider centralised or decentralised wastewater treatment infrastructure rather than requiring every establishment to install an individual STP system." }
+      ],
+      "quotes": [
+        { "speaker": "FGD Participant - Hotel/Industry", "quote": "There is a documentation burden for hotels, with multiple NOCs such as fire, wildlife, forest, noise pollution, revenue and other departmental approvals required before the process can proceed.", "topic": "Documentation Burden / Multiple NOCs", "tags": ["INTERDEP", "DUPDOC"], "sentiment": "issue" },
+        { "speaker": "FGD Participant - Small Enterprise", "quote": "For a small shop, the dust collector can cost around ₹40,000-₹50,000 and may occupy nearly 25% of the shop space.", "topic": "Substantive Compliance Cost / Infrastructure Requirement", "tags": ["COMPLY"], "sentiment": "issue" },
+        { "speaker": "FGD Participant - Industry", "quote": "Different departments sometimes provide different information about which NOCs are required, and requirements may change when the applicant visits again.", "topic": "Lack of Clarity / Inter-departmental Coordination", "tags": ["CLARITY", "INTERDEP"], "sentiment": "issue" },
+        { "speaker": "FGD Participant - Industry", "quote": "The requirements should consider Ladakh's geographical and climatic conditions, particularly for STPs, because systems designed for other conditions may not function effectively here.", "topic": "Local Context / Technical Feasibility", "tags": ["NORMS"], "sentiment": "suggestion" },
+        { "speaker": "FGD Participant - Industry", "quote": "The online transition also required documents that had already been submitted offline to be uploaded again.", "topic": "Digital Transition / Duplicate Documentation", "tags": ["PORTAL", "DUPDOC"], "sentiment": "issue" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No specific CTE application fee figure is given; only substantive compliance costs (dust collector, STP) were mentioned by participants." },
+        { "flag": "VAGUE", "text": "No single issuing authority is named; participants describe multiple departments (PDD/PHE, PWD, forest, wildlife, noise, revenue, fire) involved without specifying which department issues the final CTE." },
+        { "flag": "MISSING", "text": "No validity period for CTE was discussed by participants." },
+        { "flag": "VAGUE", "text": "Timeline figures (2-3 months typically; 1-2 years for some hotel cases) are participant estimates, not derived from an official source; the FGD itself cautions these should not be presented as an official average." },
+        { "flag": "VAGUE", "text": "The online portal introduced during the offline-to-online transition is not named." },
+        { "flag": "REFORM", "text": "Participants suggested introducing a consolidated, establishment-specific checklist of applicable documents/NOCs at the start of the process, and avoiding re-requesting documents/NOCs already verified in another approval." }
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": ["LA_FGD_CTO.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named by participants; the application is processed through approvals at different levels of officers within the concerned department(s).",
+      "portal": { "name": "Online application system (not named by participants); CTO was previously processed offline and has now moved online", "url": null },
+      "timeline": { "minDays": 30, "maxDays": 90, "basis": "Participant-reported experience, not an official/statutory timeline; policy issues noted there is no clearly defined CTO processing timeline", "text": "Participants reported that CTO can take approximately one to three months after paperwork is completed, because the application requires approval at different officer levels. Participants separately suggested that a defined processing period of approximately 10-15 days after completion of documentation would be preferable, but this is a recommendation, not an existing timeline." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Project reports",
+        "Tourism-related NOCs",
+        "Category certificates",
+        "Fire-related documents",
+        "Building/site plans",
+        "Land documents",
+        "PDD/PHE-related NOCs",
+        "Land valuation/ownership documents",
+        "Wildlife, forest, noise, revenue and trade-related documents",
+        "STP-related details"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Document list compiled from participants' description of CTO requirements, particularly for hotels, not an official checklist.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Deemed approval for CTO was not discussed by participants." },
+      "validity": { "text": "Participant-reported: CTO is initially issued for one year, after which renewal can be granted for up to five years. Subject to verification." },
+      "fees": { "text": "A participant reported an annual fee of approximately ₹3,000-₹10,000, apparently varying by property/establishment size. Participant-reported and subject to verification." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit Documentation (various departmental NOCs)", "automated": "partial", "note": "Online system has replaced the earlier offline process; documentation includes project reports, tourism-related NOCs, category certificates, fire-related documents, building/site plans, land documents, PDD/PHE-related NOCs, land valuation/ownership documents, wildlife, forest, noise, revenue and trade-related documents, and STP-related details." },
+        { "n": 2, "phase": "scrutiny", "title": "Document Review Across Officer Levels", "automated": false, "note": "Application is reviewed and approved at different levels of officers; participants attributed part of the delay (1-3 months after paperwork completion) to this multi-level approval process." },
+        { "n": 3, "phase": "scrutiny", "title": "Online Status Tracking", "automated": "partial", "note": "The online system lets applicants identify incomplete documentation and see an 'under process' status once documentation is complete, but approval/collection notifications are not consistently communicated proactively." },
+        { "n": 4, "phase": "approve", "title": "Collection of CTO", "automated": false, "note": "Applicants may still need to visit the office in person to collect the approved CTO and often must enquire themselves about whether it is ready, since no proactive notification is given." }
+      ],
+      "remarks": [
+        "This record is based solely on FGD testimony from business participants (6 participants, 1-hour session, 22-09-26) and has not been verified against an official ED interview.",
+        "Participants questioned why previously obtained registrations/certificates (e.g., J&K-related registrations, BIS certificates) are not checked/reused more efficiently in the CTO compliance process."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "High documentation burden: the CTO process involves a large number of documents and NOCs; for hotels this can include project reports, tourism-related NOCs, category certificates, fire-related documents, building/site plans, land documents, PDD/PHE-related NOCs, land valuation/ownership documents, wildlife, forest, noise, revenue and trade-related documents, along with STP-related details." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Long processing time after documentation: CTO can take approximately one to three months after paperwork is completed because the application requires approval at different officer levels." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC", "RENEWAL"], "sentiment": "issue", "text": "Repetition of documents: participants highlighted the repetition of documentation in CTO and renewal, and requested that previously submitted documents not be repeatedly requested." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Lack of proactive communication: applicants may not receive a phone call or notification when the CTO is ready and sometimes have to contact or visit the office themselves to check." },
+        { "source": "fgd", "category": "pain", "tags": ["RENEWAL", "DUPDOC"], "sentiment": "issue", "text": "Short-validity documents create additional burden: some documents have approximately six months' validity; when they expire, applicants may need to renew and upload them again." },
+        { "source": "fgd", "category": "policy", "tags": ["TIMELINE"], "sentiment": "suggestion", "text": "No clearly defined CTO processing timeline exists; participants suggested that once documentation is complete, a defined processing period of approximately 10-15 days should apply." },
+        { "source": "fgd", "category": "policy", "tags": ["RENEWAL"], "sentiment": "suggestion", "text": "Renewal should be simplified: participants suggested a simple renewal procedure instead of requiring extensive documentation again." },
+        { "source": "fgd", "category": "policy", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Need for Ladakh-specific water-testing infrastructure: water samples currently have to be sent outside Ladakh for testing; participants suggested establishing a suitable water-testing laboratory within Ladakh." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "suggestion", "text": "STP requirements should reflect local conditions: participants suggested identifying STP systems that are actually performing well in Ladakh and using those experiences to guide future requirements." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "neutral", "text": "Online system has replaced the earlier offline process for CTO." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL", "QUERY"], "sentiment": "issue", "text": "Limited real-time status communication: the online system shows incomplete documentation and an 'under process' status once complete, but approval/collection notifications are not consistently communicated proactively." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "issue", "text": "Physical collection of CTO: applicants may still need to visit the office to collect the approved CTO and may have to enquire themselves whether it is ready." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Multiple approval levels: delays were partly attributed to CTO applications moving through different levels of officers for approval." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Repetition of documents submitted earlier: participants explicitly requested that documents already submitted should not be requested again during CTO or renewal." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC", "PORTAL"], "sentiment": "issue", "text": "Re-uploading documents after transition to online: documents previously submitted offline had to be uploaded again when the online process began." },
+        { "source": "fgd", "category": "redundant", "tags": ["RENEWAL", "DUPDOC"], "sentiment": "issue", "text": "Short-validity documents (approximately six months) may need to be renewed and submitted again, creating recurring documentation burden." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Previously obtained registrations/certificates such as J&K-related registrations and BIS certificates were questioned as not subsequently checked/used more efficiently in the compliance process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Minimise documentation: reduce the number of documents and eliminate repeated submission of documents already available with government departments." },
+        { "source": "fgd", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Establish a water-testing laboratory in Ladakh so samples do not need to be sent outside the UT for testing." }
+      ],
+      "quotes": [
+        { "speaker": "FGD Participant - Industry", "quote": "Redundant documents should be minimised because documents already submitted should not have to be submitted repeatedly during renewal.", "topic": "Redundant Documentation", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "FGD Participant - Industry", "quote": "Once the required paperwork is completed, the CTO process can still take around one to three months because approvals are required at different officer levels.", "topic": "Processing Time / Multiple Approval Levels", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "FGD Participant - Industry", "quote": "A simple renewal procedure should be introduced so that documents already submitted do not have to be repeatedly submitted.", "topic": "Renewal Simplification", "tags": ["RENEWAL", "DUPDOC"], "sentiment": "suggestion" },
+        { "speaker": "FGD Participant - Industry", "quote": "A water-testing laboratory is needed in Ladakh, as samples currently have to be sent outside Ladakh for testing.", "topic": "Testing Infrastructure / Geographic Constraint", "tags": ["OTHER"], "sentiment": "suggestion" },
+        { "speaker": "FGD Participant - Industry", "quote": "Even when a CTO is issued for five years, inspection or sample collection may take place once or twice every year.", "topic": "Inspection / Periodic Compliance", "tags": ["INSPECT"], "sentiment": "neutral" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No official/prescribed CTO processing timeline exists per participants; only a participant estimate (1-3 months after documentation) and a suggested target (10-15 days) were given." },
+        { "flag": "VAGUE", "text": "The annual fee (~₹3,000-₹10,000) is reported as a participant estimate varying by property/establishment size, without precise criteria, and flagged by participants themselves as subject to verification." },
+        { "flag": "MISSING", "text": "No issuing authority or the designations of the approving officers at different levels are specified beyond 'different officer levels'." },
+        { "flag": "VAGUE", "text": "The online portal that replaced the earlier offline CTO process is not named." },
+        { "flag": "REFORM", "text": "Participants suggested minimising documentation and reusing previously obtained registrations/certificates (e.g., BIS, J&K-related) instead of re-verifying them during CTO/renewal." }
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFiles": ["LA_FGD_ECL.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Entirely offline, in-person application process: participants stated the connection process, from application to release, must be carried out in person at the department office, with no facility to apply, track, or pay online." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Obtaining a new electricity connection becomes especially difficult during winter because the application process remains entirely offline, requiring physical visits to the department at a time when movement is most constrained." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Limited assistance/guidance during the application process: applicants often have to manage documentation and the application themselves, with limited assistance available to guide them." },
+        { "source": "fgd", "category": "pain", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Longer processing time for three-phase load connections: applications requiring three-phase connections/load involve a longer process than other connection requirements." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "Higher substantive costs associated with three-phase load connections, including additional expenditure on connection requirements and related infrastructure." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Limited transport and commute options make it difficult to visit the department office as many times as the process requires." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Low awareness of online services: participants stated they are largely unaware of any online services offered by the Union Territory in relation to electricity connections or allied processes." },
+        { "source": "fgd", "category": "pain", "tags": ["OTHER"], "sentiment": "issue", "text": "Physical bills not received to date; consumers must visit the office both to collect the bill and to make payment; consumers are also required to photograph and submit their own meter reading each month for the next bill to be generated, indicating a manually run billing cycle." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Shortage of electricity poles in outskirts/periphery areas makes it difficult for consumers there to obtain a connection at all." },
+        { "source": "fgd", "category": "pain", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Shortage of electricity meters locally requires applicants to travel to Jammu or other towns to procure a meter themselves; those who cannot afford this travel/cost must wait months until a meter becomes available through the department." },
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Close to half of applicants did not possess an Udyam certificate, which is sought as part of the connection process for relevant categories of consumers." },
+        { "source": "fgd", "category": "policy", "tags": ["PORTAL"], "sentiment": "issue", "text": "Electricity connection remains excluded from the UT's digital-services push: although some services are being moved online, electricity connection continues to be processed entirely offline, with no stated policy timeline for digitisation." },
+        { "source": "fgd", "category": "policy", "tags": ["OTHER"], "sentiment": "issue", "text": "No differentiated policy or investment plan addresses the absence of basic infrastructure (e.g., poles) for periphery/outskirt consumers." },
+        { "source": "fgd", "category": "procedural", "tags": ["OTHER"], "sentiment": "neutral", "text": "Meter reading is submitted manually by the consumer via photograph each month, in the absence of any departmental reading mechanism." },
+        { "source": "fgd", "category": "procedural", "tags": ["CAPACITY"], "sentiment": "issue", "text": "Self-procurement of the meter by the applicant: due to local shortage, applicants are required to travel outside the Union Territory to purchase a meter themselves before the connection process can be completed." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Move the entire service online through a single window, from application to final payment, so a consumer does not need to visit the office at multiple stages." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Improve local awareness of existing and upcoming online services so consumers know what is available and how to use it." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Address the meter shortage locally by maintaining adequate local stock so applicants are not required to travel to procure one themselves." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CAPACITY"], "sentiment": "suggestion", "text": "Extend pole infrastructure to outskirt and periphery areas so consumers there are not excluded from obtaining a connection." },
+        { "source": "fgd", "category": "suggestions", "tags": ["OTHER"], "sentiment": "suggestion", "text": "Introduce digital billing and automated meter reading to replace the manual, photograph-based meter-reading submission." }
+      ],
+      "quotes": [
+        { "speaker": "Local Consumer", "quote": "There are no meters available here; we have to go to Jammu and buy one ourselves.", "topic": "Infrastructure Gap", "tags": ["CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Local Consumer", "quote": "Those who cannot afford to travel for a meter just keep waiting for months.", "topic": "Substantive Cost", "tags": ["CAPACITY"], "sentiment": "issue" },
+        { "speaker": "Local Consumer", "quote": "Many of us did not have an Udyam certificate, so that created a problem too.", "topic": "Documentation Burden", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Local Consumer", "quote": "Everything should be online in one place - application, payment, all of it.", "topic": "Digital Governance", "tags": ["PORTAL"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "The ED record states that from 1 September 2026 an online application process with status tracking was introduced for electricity connections in Ladakh (field activities remaining offline). FGD participants, discussed on 23 September 2026 (shortly after that date), instead describe the process as 'entirely offline, in-person,' with 'no facility to apply, track, or pay online,' and report being 'largely unaware of any online services' - directly contradicting whether an online application channel currently exists and is in use by applicants." },
+        { "flag": "INCONSISTENT", "text": "The ED's document list for electricity connection (Aadhaar/ID proof, land/ownership document, photograph, affidavit where required) does not mention an Udyam certificate. FGD participants stated that 'close to half of the applicants did not possess an Udyam certificate, which is sought as part of the connection process for relevant categories of consumers' - indicating a document requirement not captured in the ED record." },
+        { "flag": "REFORM", "text": "FGD participants identified operational infrastructure gaps not addressed in the ED record: a local shortage of electricity meters (requiring applicants to travel to Jammu to procure one themselves) and an absence of electricity poles in outskirt/periphery areas; participants suggested the department maintain local meter stock and extend pole infrastructure to these areas." },
+        { "flag": "VAGUE", "text": "The ED record leaves applicantOfficeVisit as 'unclear'; FGD testimony strongly indicates in-person visits are required throughout (application, bill collection, payment, meter procurement, CTO/connection release), suggesting this should be resolved toward 'yes', though this record does not overwrite the ED field per the Mode A rule." }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": ["LA_FGD_FNO.docx"],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Offline application process: the Fire NOC application process involves offline submission, requiring applicants to visit the concerned department." },
+        { "source": "fgd", "category": "pain", "tags": ["INTERDEP"], "sentiment": "issue", "text": "Multiple departmental visits: applicants may need to visit different departments to collect supporting documents/NOCs, increasing the time and effort involved." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Long documentation process: collecting the required documents from different departments can take considerable time." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Longer processing time for some cases: while a timeline of around 7 days was mentioned in the discussion, participants also indicated that actual cases can take around 1 month and, in some cases, up to 5 months, depending on requirements and other departmental clearances." },
+        { "source": "fgd", "category": "delay", "tags": ["INSPECT"], "sentiment": "issue", "text": "Dependence on departmental availability: inspection and processing can depend on the availability of the concerned department/officials." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "High compliance cost: cost involved in fulfilling fire-safety requirements, including installation of required equipment and modifications to existing buildings." },
+        { "source": "fgd", "category": "pain", "tags": ["NORMS"], "sentiment": "issue", "text": "Difficulty for older buildings: existing/older buildings may face difficulties complying with newer fire-safety requirements because the original structure may not have been designed for them." },
+        { "source": "fgd", "category": "pain", "tags": ["COMPLY"], "sentiment": "issue", "text": "Multiple fire-safety requirements such as fire extinguishers, smoke detectors, emergency exits and other safety measures increase the compliance burden." },
+        { "source": "fgd", "category": "pain", "tags": ["QUERY"], "sentiment": "issue", "text": "Difficulty in tracking the application: although a tracker was mentioned as available, the offline nature of the process and departmental coordination can make follow-up difficult." },
+        { "source": "fgd", "category": "pain", "tags": ["CLARITY"], "sentiment": "issue", "text": "Limited awareness of deemed approval: participants indicated they were not aware of the provision of deemed approval." },
+        { "source": "fgd", "category": "policy", "tags": ["PORTAL"], "sentiment": "neutral", "text": "Proposed single-window integration: Fire NOC is proposed to be integrated into a single-window system under the Ease of Doing Business initiative, with implementation still in progress at the time of discussion - consistent with the ED's note that transition to the single-window and the 2025 rules were still being clarified." },
+        { "source": "fgd", "category": "policy", "tags": ["NORMS"], "sentiment": "issue", "text": "Applicability of newer fire-safety requirements to older buildings was raised as a concern by participants." },
+        { "source": "fgd", "category": "procedural", "tags": ["INTERDEP"], "sentiment": "neutral", "text": "Documentation referenced by participants includes land-related documentation/allotment, PWD-related documents/clearances, electricity-related documentation, and other departmental NOCs depending on the building/project." },
+        { "source": "fgd", "category": "procedural", "tags": ["INSPECT"], "sentiment": "neutral", "text": "Inspection may be conducted depending on the case; its timing depends on departmental availability." },
+        { "source": "fgd", "category": "procedural", "tags": ["QUERY"], "sentiment": "neutral", "text": "A tracker was indicated as available, but applicants may still need to follow up with departments given the multi-stage, multi-department nature of the process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Implement the single-window online system, bringing application, document submission, tracking and approval into one digital platform." },
+        { "source": "fgd", "category": "suggestions", "tags": ["INTERDEP"], "sentiment": "suggestion", "text": "Improve inter-departmental coordination so departments can share/verify documents electronically instead of requiring applicants to collect multiple NOCs physically." },
+        { "source": "fgd", "category": "suggestions", "tags": ["CLARITY"], "sentiment": "suggestion", "text": "Improve awareness of deemed approval by clearly communicating the applicable provision, eligibility and timeline to applicants." },
+        { "source": "fgd", "category": "suggestions", "tags": ["NORMS"], "sentiment": "suggestion", "text": "Provide appropriate mechanisms/guidelines for older buildings that face structural limitations in implementing newer fire-safety requirements." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Representative", "quote": "Applicants have to visit different departments to collect the required documents and clearances.", "topic": "Documentation Burden", "tags": ["INTERDEP"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "The approval process may take around one month or longer, depending on the requirements.", "topic": "Approval Timeline", "tags": ["TIMELINE"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "The applicant was unaware of the provision of deemed approval.", "topic": "Awareness Gap", "tags": ["CLARITY"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "An application tracking facility is available.", "topic": "Digital Governance", "tags": ["PORTAL"], "sentiment": "neutral" },
+        { "speaker": "Industry Representative", "quote": "The inspection process depends on the availability of the concerned department.", "topic": "Inspection Process", "tags": ["INSPECT"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Older buildings face difficulties in complying with newer fire safety requirements due to structural limitations.", "topic": "Compliance Burden", "tags": ["NORMS"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Fire safety requirements involve substantial expenditure on equipment installation and structural modifications.", "topic": "Substantive Cost", "tags": ["COMPLY"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "The proposed single-window system is expected to integrate the entire process online.", "topic": "Digital Governance", "tags": ["PORTAL"], "sentiment": "positive" }
+      ],
+      "gaps": [
+        { "flag": "INCONSISTENT", "text": "The ED states the department's processing timeline is 20 days (with a further 20 days possible after rejection/resubmission). FGD participants referenced a timeline of around 7 days in the discussion, while separately reporting that actual cases typically take around 1 month and, in some cases, up to 5 months - both the 7-day figure mentioned and the 1-5 month actual-case range differ materially from the ED's stated 20-day timeline." },
+        { "flag": "VAGUE", "text": "Both sources independently indicate unclear awareness/operational status of the deemed-approval provision: the ED calls its operational status 'unclear' and states it 'requires clarification', while FGD participants report being unaware the provision exists at all - a corroboration of an awareness/clarity gap rather than a factual contradiction." },
+        { "flag": "VAGUE", "text": "FGD participants describe document types (land-related documentation/allotment, PWD-related documents/clearances, electricity-related documentation) not listed in the ED's documented list (building plan, site plan, fire safety drawings) for the provisional stage. This may correspond to the final-stage Fire NOC requirements the ED record explicitly said it could not itemise, but the FGD does not clarify this precisely enough to resolve the ED's documented gap." }
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License - Renewal",
+      "sourceFiles": ["LA_FGD_TLR.docx"],
+      "sessionCount": 1,
+      "hasED": false,
+      "issuingAuthority": "Not explicitly named by participants.",
+      "portal": { "name": "Online portal used for document upload during renewal (not named by participants)", "url": null },
+      "timeline": { "minDays": null, "maxDays": null, "basis": "Only the document scrutiny duration was given by participants (approximately one week); no overall end-to-end renewal processing timeline was stated", "text": "Document scrutiny reportedly takes approximately one week. No total renewal processing timeline (from application to issuance) was given by participants." },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "PAN card",
+        "Site plan",
+        "Relevant permissions"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. These are the documents participants specifically cited as being resubmitted at every renewal, not a complete checklist.",
+      "deemedApproval": { "status": "unclear", "days": null, "text": "Deemed approval for Trade License Renewal was not discussed by participants." },
+      "validity": { "text": "Not discussed by participants; the FGD covered the renewal process, documentation and fee, not the license's validity period." },
+      "fees": { "text": "Participant-reported renewal fee of approximately ₹37,000-₹38,000, with the applicable amount reportedly varying depending on the establishment's requirements." },
+      "steps": [
+        { "n": 1, "phase": "apply", "title": "Submit Renewal Documents via Online Portal", "automated": "partial", "note": "Applicants submit documents (PAN card, site plan, relevant permissions) through the online portal; technical difficulties uploading documents were reported as making the process inconvenient." },
+        { "n": 2, "phase": "scrutiny", "title": "Document Scrutiny", "automated": false, "note": "Submitted documents undergo scrutiny, which reportedly takes approximately one week." },
+        { "n": 3, "phase": "approve", "title": "Renewal Issuance", "automated": null, "note": "Issuance was not described in detail by participants beyond the fee payment and document-scrutiny steps." }
+      ],
+      "remarks": [
+        "This record is based solely on FGD testimony from business participants (5 participants, 44-minute session, 23-09-26) and has not been verified against an official ED interview."
+      ],
+      "findings": [
+        { "source": "fgd", "category": "pain", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Repeated documentation: applicants are required to submit the same documents, such as PAN cards, site plans and relevant permissions, during every renewal, even if they were already submitted during the previous application." },
+        { "source": "fgd", "category": "pain", "tags": ["FEES"], "sentiment": "issue", "text": "High renewal fee: the renewal fee, reported to be approximately ₹37,000-₹38,000, places a financial burden on applicants; the applicable amount may vary depending on the establishment's requirements." },
+        { "source": "fgd", "category": "pain", "tags": ["PORTAL"], "sentiment": "issue", "text": "Technical difficulties in document uploading: applicants may face difficulties while uploading documents through the online portal, making the renewal process inconvenient." },
+        { "source": "fgd", "category": "remarks", "tags": ["OTHER"], "sentiment": "neutral", "text": "No specific policy-level issues were clearly identified during the discussion; concerns raised primarily related to repeated documentation, the renewal fee structure and difficulties in the online application process." },
+        { "source": "fgd", "category": "procedural", "tags": ["DUPDOC"], "sentiment": "issue", "text": "Repeated document submission: applicants are required to submit the same supporting documents during each renewal, even if they have already been submitted previously." },
+        { "source": "fgd", "category": "procedural", "tags": ["TIMELINE"], "sentiment": "neutral", "text": "Document scrutiny: the submitted documents undergo scrutiny, which reportedly takes approximately one week." },
+        { "source": "fgd", "category": "procedural", "tags": ["PORTAL"], "sentiment": "issue", "text": "Technical difficulties: applicants reported difficulties uploading documents through the online portal, creating inconvenience during the application process." },
+        { "source": "fgd", "category": "redundant", "tags": ["DUPDOC"], "sentiment": "issue", "text": "PAN cards, site plans and relevant permissions are required to be submitted again during every renewal, even if these were already submitted during the previous application." },
+        { "source": "fgd", "category": "delay", "tags": ["TIMELINE"], "sentiment": "issue", "text": "Document verification may take approximately one week, which can extend the approval process." },
+        { "source": "fgd", "category": "delay", "tags": ["PORTAL"], "sentiment": "issue", "text": "Technical issues uploading documents through the online portal may affect the application process." },
+        { "source": "fgd", "category": "suggestions", "tags": ["COMPLY"], "sentiment": "suggestion", "text": "Simplify the renewal process by reducing unnecessary procedural requirements to make renewal more convenient for applicants." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Introduce document reuse: allow applicants to reuse previously submitted documents wherever they remain valid and applicable." },
+        { "source": "fgd", "category": "suggestions", "tags": ["PORTAL"], "sentiment": "suggestion", "text": "Improve portal functionality by addressing technical issues associated with document uploading to ensure smoother online applications." },
+        { "source": "fgd", "category": "suggestions", "tags": ["DUPDOC"], "sentiment": "suggestion", "text": "Streamline documentation by reviewing existing document requirements to eliminate unnecessary repetition." }
+      ],
+      "quotes": [
+        { "speaker": "Industry Representative", "quote": "The same documents are required to be submitted again during every renewal, even if they were submitted previously.", "topic": "Documentation Burden", "tags": ["DUPDOC"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "The renewal fee is approximately ₹37,000-₹38,000, depending on applicable requirements.", "topic": "Compliance Cost", "tags": ["FEES"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Document scrutiny generally takes approximately one week.", "topic": "Approval Timeline", "tags": ["TIMELINE"], "sentiment": "neutral" },
+        { "speaker": "Industry Representative", "quote": "Technical difficulties while uploading documents can inconvenience applicants.", "topic": "Digital Accessibility", "tags": ["PORTAL"], "sentiment": "issue" },
+        { "speaker": "Industry Representative", "quote": "Previously submitted documents should be reused wherever applicable to simplify renewal.", "topic": "Process Simplification", "tags": ["DUPDOC"], "sentiment": "suggestion" }
+      ],
+      "gaps": [
+        { "flag": "MISSING", "text": "No issuing authority/department name is given for Trade License Renewal." },
+        { "flag": "MISSING", "text": "No overall end-to-end renewal processing timeline is given; only the approximately one-week document scrutiny duration is stated." },
+        { "flag": "VAGUE", "text": "The online portal used for document upload is not named." },
+        { "flag": "MISSING", "text": "The validity period of the trade license itself was not discussed by participants." },
+        { "flag": "VAGUE", "text": "The renewal fee (~₹37,000-38,000) is reported as varying 'depending on applicable requirements' without specifying what factors drive the variation." },
+        { "flag": "REFORM", "text": "Participants suggested allowing reuse of previously submitted, still-valid documents (PAN card, site plan, relevant permissions) instead of resubmission at every renewal." }
+      ]
+    }
+  ]
+}

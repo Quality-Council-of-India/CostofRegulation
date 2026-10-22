@@ -1,0 +1,2559 @@
+{
+  "code": "AN",
+  "name": "Andaman and Nicobar Islands",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFiles": [
+        "AN_FGD_BPA.docx",
+        "AN_FGD_BPA_1.docx"
+      ],
+      "sessionCount": 2,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "TIMELINE",
+          "sentiment": "issue",
+          "text": "Approval can take six months, one year or longer in practice, well beyond the ED's prescribed timeline; applicants must follow up repeatedly with offices and officials to move applications forward."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "The online system shows an application as 'returned' without displaying the specific objection, forcing applicants to contact offices to find out what correction is needed."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "FEES",
+          "sentiment": "issue",
+          "text": "Prolonged approval affects project finances; one participant cites a ₹60,000 monthly liability resulting in a loss of more than ₹7 lakh over a year."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Applicants depend on architects and consultants to prepare plans, understand requirements and handle the approval process, adding professional expenditure."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "NORMS",
+          "sentiment": "issue",
+          "text": "Rainwater harvesting is treated as mandatory for approval; a participant suggests making it optional so applicants who skip it are not charged for it."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "INTERDEP",
+          "sentiment": "issue",
+          "text": "The defence/airport-clearance radius is seen as too wide; a participant suggests reducing it."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "NORMS",
+          "sentiment": "issue",
+          "text": "There is no single standard set of requirements followed consistently during inspections — different inspectors ask for different changes, creating confusion."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "TIMELINE",
+          "sentiment": "suggestion",
+          "text": "Participants propose a fixed processing time of 3, 5 or 7 days at each officer level, with the application automatically moving to the next level if the limit is exceeded."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": "DUPDOC",
+          "sentiment": "positive",
+          "text": "In the renewal process, some documents already available from the earlier licence/application (including previously submitted certificates) remain in the system, reducing the need to resubmit."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "INTERDEP",
+          "sentiment": "issue",
+          "text": "Applications involving defence clearance take additional time; one case had the defence-related part alone take around 3-4 months."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "INTERDEP",
+          "sentiment": "issue",
+          "text": "Files remain pending at the Commanding Officer's office for around two months, extending the overall approval timeline."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CLARITY",
+          "sentiment": "issue",
+          "text": "Applicants face uncertainty about whether documents beyond those submitted online are required, with additional document requests arising mid-process."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "INSPECT",
+          "sentiment": "neutral",
+          "text": "The approval process includes physical site inspection and checks related to land-use zoning, plot area and permitted building floors."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "INTERDEP",
+          "sentiment": "issue",
+          "text": "Buildings in areas surrounding the airport are subject to additional NOC and height-permission requirements."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": "POSITIVE",
+          "sentiment": "positive",
+          "text": "The online application process provides real-time tracking and is described as more convenient than the offline process."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "CLARITY",
+          "sentiment": "suggestion",
+          "text": "The portal should show the exact objection on a returned application, and the same building requirements should be followed by all inspecting officers."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "PORTAL",
+          "sentiment": "suggestion",
+          "text": "The online system should provide clear information on application status, applicable fees and other details so applicants do not have to depend on office visits."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "TIMELINE",
+          "sentiment": "suggestion",
+          "text": "Establish a clear timeline for completing the approval process, including departmental review and site verification."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "The objection is not visible; only the application is shown as returned.",
+          "topic": "Application Status",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "It should be clear from the beginning where the process has to go.",
+          "topic": "Process Clarity",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "A time frame of three, five or seven days is suggested for each officer to process the application.",
+          "topic": "Processing Timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The difference is the biggest, where approval takes around six months.",
+          "topic": "Approval Delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Online policy, 3 to 4 months.",
+          "topic": "Approval Timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Offline, 6 months aur one year.",
+          "topic": "Offline Approval Delays",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The file remains at the Commanding Officer's office for around two months.",
+          "topic": "Departmental Delays",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Real time tracking is available through the online process.",
+          "topic": "Online Tracking",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "The ED states the prescribed timeline is 60 days, with eligible low/medium-risk buildings (plot area up to 500 sq m) getting instant self-certified approval. FGD participants across both sessions instead report actual total approval times of 3-4 months (online) up to six months to over a year (offline/overall), with no participant describing receiving instant approval — the lived timeline businesses report is far beyond what the ED's 60-day figure (or the self-certification fast-track) would suggest."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "The ED describes the fee basis as per-square-metre rates, land-area/land-use charges, a percentage of construction cost, and rainwater-harvesting charges, without quoting exact figures. FGD session 2 participants instead describe a flat recurring charge of 'every year 500' (₹500/year) plus unclear additional renewal-related costs — a different, specific figure that doesn't map cleanly onto the ED's stated fee basis, and FGD participants themselves say the exact fee structure is unclear."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "FGD session 2 participants independently corroborate the ED's description of real-time online application tracking as a genuine, convenience-improving feature over the earlier offline process."
+        }
+      ]
+    },
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": [
+        "AN_FGD_CTE.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "The CTE portal does not show all required documents at the outset; applicants must upload documents step by step to discover the next requirement."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CLARITY",
+          "sentiment": "issue",
+          "text": "The user manual and examples do not clearly explain which requirements apply to each industry, making the application difficult to complete correctly."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "COMPLY",
+          "sentiment": "issue",
+          "text": "Applicants struggle with technical questions on construction, water pollution and air pollution, and with identifying the documents required for specific clearances."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "QUERY",
+          "sentiment": "issue",
+          "text": "Applicants need guidance from the Pollution Control Board or customer support to clarify technical requirements and the correct ownership/entity category, which involves waiting and additional effort."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "CLARITY",
+          "sentiment": "issue",
+          "text": "The applicability of regulatory conditions and documentation requirements is not clear across different sectors, creating uncertainty about which requirements apply to a given establishment."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "The portal requires documents to be uploaded one by one, with the next requirement visible only after proceeding to the next step."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "QUERY",
+          "sentiment": "issue",
+          "text": "Applicants contact customer support to resolve difficulty selecting the correct ownership/entity category."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "CLARITY",
+          "sentiment": "issue",
+          "text": "The portal's user manual and the practical application process differ, making the manual hard to follow while completing the form."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": "DUPDOC",
+          "sentiment": "issue",
+          "text": "Applicants cannot identify all required documents in advance and must check each application stage to find out which additional documents are needed."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "CLARITY",
+          "sentiment": "issue",
+          "text": "Step-by-step disclosure of document requirements, plus differences between the manual and the actual process, cost applicants additional time identifying and collecting documents."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "QUERY",
+          "sentiment": "issue",
+          "text": "Delays occur while applicants wait for clarification from customer support on technical requirements and the correct ownership/entity category."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "CLARITY",
+          "sentiment": "suggestion",
+          "text": "Provide a complete list of required documents at the start of the CTE process so applicants can prepare in advance."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "CLARITY",
+          "sentiment": "suggestion",
+          "text": "Update the user manual with clear, practical examples showing which requirements and dropdown options apply to different industries."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "COMPLY",
+          "sentiment": "suggestion",
+          "text": "Provide clear explanations of technical construction/water-pollution/air-pollution requirements, including documents needed for specific clearances."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "QUERY",
+          "sentiment": "suggestion",
+          "text": "Strengthen customer support to give timely clarification on technical queries and help with ownership/entity category selection."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "CLARITY",
+          "sentiment": "suggestion",
+          "text": "Provide sector-wise details of applicable documents and requirements before applicants submit their applications."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "POSITIVE",
+          "sentiment": "positive",
+          "text": "Participants found the daily online clarification session (12:00 noon to 1:00 PM) helpful and recommend continuing it."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": "CLARITY",
+          "sentiment": "issue",
+          "text": "A water clearance certificate is shown as a portal requirement, but the specific document and issuing authority were unclear to participants."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "We can't know at once what all the documents are needed to be uploaded.",
+          "topic": "Document Requirements",
+          "tags": [
+            "DUPDOC",
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "It is totally difficult because of the pattern in which the form is being prepared.",
+          "topic": "Portal Usability",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "While applying, only we can understand that.",
+          "topic": "Application Process Clarity",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "I don't understand what kind of document is required.",
+          "topic": "Clearance Requirements",
+          "tags": [
+            "CLARITY",
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "If sector-wise, that can be mentioned … that would be better.",
+          "topic": "Sector-wise Requirements",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific processing timeline (in days) for Consent to Establish is given anywhere in the FGD."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No fee figures for Consent to Establish are mentioned by participants."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision is discussed by participants."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The issuing/approving authority for CTE is not named — participants only refer to the (local) Pollution Control Board as a source of guidance, not as the stated approving authority."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "The daily online clarification session (12:00 noon to 1:00 PM) is explicitly valued by participants for resolving doubts."
+        }
+      ],
+      "issuingAuthority": "Not explicitly named by participants; the (local) Pollution Control Board is referenced as the body providing guidance/clearances relevant to Consent to Establish, but no formal issuing-authority designation is stated.",
+      "portal": {
+        "name": "CTE online application portal (specific name not given in the FGD)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "No specific day-count given by participants",
+        "text": "Participants did not state a specific number of days for CTE processing; delays are instead described in terms of step-by-step document disclosure on the portal and waiting for technical clarification from the Pollution Control Board or portal customer support."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Documents determined by the application's industry/sector and ownership/entity category, revealed step by step on the portal",
+        "Water-pollution and air-pollution clearance-related documents (e.g., a 'water clearance certificate' referenced on the portal, whose issuing authority was unclear to participants)",
+        "Documentation requirements vary by ownership/entity category, which the applicant selects during the application"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. The document list above reflects only what participants described as revealed step by step on the portal; no complete, itemised list was available to them.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not discussed by participants; no deemed-approval mechanism is mentioned anywhere in the FGD."
+      },
+      "validity": {
+        "text": "Not discussed by participants in this FGD."
+      },
+      "fees": {
+        "text": "Not discussed by participants in this FGD; no fee figures were mentioned."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Applicant identifies the ownership/entity category and industry type relevant to the application",
+          "automated": "partial",
+          "note": "Portal dropdowns and user manual were reported as unclear for this step"
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Applicant begins the online CTE application and uploads documents step by step as each next requirement becomes visible",
+          "automated": "partial",
+          "note": "Full document list is not shown upfront"
+        },
+        {
+          "n": 3,
+          "phase": "apply",
+          "title": "Applicant seeks guidance from the local Pollution Control Board or portal customer support on unclear technical or category questions",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "apply",
+          "title": "Applicant uses the daily online clarification session (12:00 noon-1:00 PM) when doubts arise",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Application proceeds once required sector-specific clearances/documents are furnished",
+          "automated": null,
+          "note": "The FGD does not describe the scrutiny/approval mechanics beyond document submission"
+        }
+      ],
+      "remarks": [
+        "This is a Mode B (FGD-only) record — no ED interview covers Consent to Establish for Andaman and Nicobar Islands, so this record has not been verified against an official source.",
+        "Participants did not describe the approval/decision step itself (inspection, sanction, issuance) in any detail — only the application and clarification stages."
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": [
+        "AN_FGD_CTO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CLARITY",
+          "sentiment": "issue",
+          "text": "Applicants find it difficult to understand the portal's technical terminology, identify required documents, and determine next steps while a profile remains under process or approval."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "INTERDEP",
+          "sentiment": "issue",
+          "text": "Hotel operators near coastal areas struggled to determine whether their properties fell under CRZ or non-CRZ areas and to identify which department issues the required clearance."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CLARITY",
+          "sentiment": "issue",
+          "text": "Some portal questions were not relevant to certain establishments (e.g. hotels, hospitals), making the application harder to complete."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CLARITY",
+          "sentiment": "issue",
+          "text": "Applicants found it difficult to understand rejection messages and identify the exact issues with their applications."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "DUPDOC",
+          "sentiment": "issue",
+          "text": "Following portal changes, some applicants had to arrange documents again, including hard copies of previously uploaded files."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "Applicants experienced inconsistent portal functioning and a lack of clear updates on application status and progress."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "INTERDEP",
+          "sentiment": "issue",
+          "text": "Determining CRZ/non-CRZ status and the responsible department for the clearance was unclear to hotel applicants."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "CLARITY",
+          "sentiment": "issue",
+          "text": "Certain portal requirements/questions were not applicable to some establishment types, creating difficulty meeting category-relevant requirements."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "Applicants struggled to navigate the changed portal, identify next steps and understand application status, as updates/notifications were not consistently received."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "INTERDEP",
+          "sentiment": "issue",
+          "text": "Applicants had to approach different government departments for required letters/documents, with confusion over the responsible office and officials."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "DUPDOC",
+          "sentiment": "issue",
+          "text": "Portal changes required some applicants to resubmit or rearrange previously uploaded/verified documents, including preparing hard copies."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "CLARITY",
+          "sentiment": "issue",
+          "text": "When applications were returned or rejected, applicants struggled to identify the exact issue and the corrections required."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "INTERDEP",
+          "sentiment": "issue",
+          "text": "Delays in obtaining required clearances and letters from different government departments, particularly CRZ-related issues for hotels."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "Portal changes and inconsistent functioning affected application submission and further processing."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "DUPDOC",
+          "sentiment": "suggestion",
+          "text": "Provide a clear checklist of required documents and compliance requirements before applicants begin the application."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "CLARITY",
+          "sentiment": "suggestion",
+          "text": "Categorise the application form by business type so hotels, hospitals and manufacturing units see only relevant questions."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "CLARITY",
+          "sentiment": "suggestion",
+          "text": "Display rejection reasons in simple language and clearly specify the corrections required."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "QUERY",
+          "sentiment": "suggestion",
+          "text": "Provide a single point of contact or help desk to guide applicants on departmental requirements and documents."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "OTHER",
+          "sentiment": "suggestion",
+          "text": "Provide an offline assistance facility alongside the online portal for applicants who face difficulties."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": "INSPECT",
+          "sentiment": "neutral",
+          "text": "Physical verification of properties is carried out by government officials, with reports obtained from the Pollution Control and Forest Departments where applicable."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "We are not able to apply or not able to proceed further.",
+          "topic": "Portal Navigation",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "We can't still say it is CRZ or it's a non-CRZ.",
+          "topic": "CRZ Clearance",
+          "tags": [
+            "INTERDEP",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "It took a week for me to get the right person.",
+          "topic": "Departmental Coordination",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "There is no much required and they are asking for the problem.",
+          "topic": "Irrelevant Form Requirements",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "There should be some provision for offline also other than online.",
+          "topic": "Offline Assistance",
+          "tags": [
+            "PORTAL",
+            "OTHER"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific processing timeline (in days) for Consent to Operate is given anywhere in the FGD."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No fee figures for Consent to Operate are mentioned by participants."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision is discussed by participants."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The specific issuing/approving authority for CTO is not named — only that 'different government departments' and the Pollution Control/Forest Departments are involved for clearances and verification."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Training sessions on pollution-control requirements and STP-plant operation/maintenance were suggested by participants but are not described as implemented."
+        }
+      ],
+      "issuingAuthority": "Not explicitly named by participants; multiple government departments (including Pollution Control and Forest Departments) are referenced for clearances and verification.",
+      "portal": {
+        "name": "CTO online application portal (specific name not given in the FGD)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "No specific day-count given by participants",
+        "text": "Participants did not give an overall day-count for CTO processing; one case mentions it took a week just to find the right department contact for CRZ-clearance coordination, but no end-to-end timeline figure is stated."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Letters/NOCs from various government departments depending on establishment type (e.g. CRZ clearance for coastal hotels)",
+        "Documents/responses to portal questions tailored to business category, though participants report some questions as irrelevant for their sector",
+        "Previously uploaded or verified documents, sometimes required again (including in hard copy) after portal changes"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not discussed by participants."
+      },
+      "validity": {
+        "text": "Not discussed by participants in this FGD."
+      },
+      "fees": {
+        "text": "Not discussed by participants in this FGD; no fee figures were mentioned."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant fills the CTO application on the portal, including some generic/technical questions not always relevant to their sector",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Applicant determines CRZ/non-CRZ or other applicability status, often contacting the relevant department for clarification",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "apply",
+          "title": "Applicant obtains required letters/NOCs from different government departments",
+          "automated": false,
+          "note": "Confusion over the responsible office/officials adds time"
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Physical verification of the property carried out by government officials, with reports from Pollution Control/Forest Departments where applicable",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 5,
+          "phase": "scrutiny",
+          "title": "Applicant responds to portal status updates and, where issued, rejection messages — though rejection reasons were often unclear",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Final approval/issuance step",
+          "automated": null,
+          "note": "Not described in detail by participants"
+        }
+      ],
+      "remarks": [
+        "This is a Mode B (FGD-only) record — no ED interview covers Consent to Operate for Andaman and Nicobar Islands, so this record has not been verified against an official source.",
+        "A portal change during the period discussed required some applicants to resubmit/rearrange previously verified documents, including hard copies; participants did not specify exact dates."
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFiles": [
+        "AN_FGD_ECL.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "TIMELINE",
+          "sentiment": "issue",
+          "text": "The electricity connection process lacks a clear, predictable timeline; applications take longer than expected with limited visibility into status or reasons for delay."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "Online submission does not eliminate the need for physical follow-up — applicants may still need to visit the electricity office to check progress or get updates."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Non-availability of required infrastructure (cables, wires, meters) forces applicants to arrange these themselves, increasing overall cost."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "DUPDOC",
+          "sentiment": "issue",
+          "text": "Additional documents and requirements, particularly NOCs and property-related documents for commercial premises, can arise mid-process rather than being known upfront."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "A shortage of line staff affects execution of connection-related work, contributing to delays."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "FEES",
+          "sentiment": "issue",
+          "text": "A manufacturing unit's billing category was changed from industry to hotel/resort — raising its electricity rate — without the applicant being informed; the matter remained under grievance after a complaint was filed."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "QUERY",
+          "sentiment": "issue",
+          "text": "After online submission and payment, applicants lack clear online visibility of subsequent status, pending stage or expected timeline, making office visits necessary for updates."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "DUPDOC",
+          "sentiment": "issue",
+          "text": "Documents or NOCs are requested during processing, after the initial application, particularly for commercial properties."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Shortage of line staff affects execution of electricity-connection-related work."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Non-availability of required meters, cables or line infrastructure affects completion of the connection."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "TIMELINE",
+          "sentiment": "suggestion",
+          "text": "Electricity connections should be provided within a clearly specified period, such as 15, 40 or 45 days."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "CLARITY",
+          "sentiment": "suggestion",
+          "text": "All required documents, NOCs and inspection-related requirements should be communicated upfront instead of being requested later."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "QUERY",
+          "sentiment": "suggestion",
+          "text": "Applicants should receive clear updates on processing status and pending stage instead of having to visit the office."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": "OTHER",
+          "sentiment": "neutral",
+          "text": "Electricity fluctuation affects equipment and is linked to maintenance, testing and certification requirements."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": "OTHER",
+          "sentiment": "neutral",
+          "text": "Distance between the premises and the transformer is raised as a factor in providing a connection."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participants",
+          "quote": "The timeline should be clearly defined so that the applicant knows when the electricity connection will be provided.",
+          "topic": "Time-bound Service Delivery",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Participants",
+          "quote": "After the application is submitted, there should be clear information on the stage of processing and the expected time for approval.",
+          "topic": "Application Tracking & Transparency",
+          "tags": [
+            "QUERY",
+            "PORTAL"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Participants",
+          "quote": "All requirements should be communicated at the beginning itself, rather than asking for additional requirements at a later stage.",
+          "topic": "Upfront Requirements",
+          "tags": [
+            "CLARITY",
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Participants",
+          "quote": "Shortage of line staff affects the availability and timely provision of electricity connections.",
+          "topic": "Manpower Availability",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "The ED records applicantOfficeVisit as 'no' (the process is described as fully online). FGD participants, however, report that online submission does not eliminate the need for physical follow-up — they say they still had to visit the electricity office to check progress and obtain status updates, since the online system does not show the pending stage or expected timeline."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The ED record does not address billing-category reclassification disputes (e.g. industry reclassified to hotel/resort, raising the tariff); FGD participants describe this happening without notice and remaining stuck in grievance — a real pain point outside what the ED documents."
+        }
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": [
+        "AN_FGD_FNO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "INSPECT",
+          "sentiment": "issue",
+          "text": "Delays in inspection, followed by rectification and a further inspection, increase the time required to obtain the Fire NOC; one case records an inspection alone taking around 43 days."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "NORMS",
+          "sentiment": "issue",
+          "text": "Different inspection visits involve different requirements, leading to repeated modifications in the premises and additional compliance effort."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "For inter-island applications, the time needed to arrange and transport fire-safety equipment adds to the overall completion time, with such cases taking around 3-4 months."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "When trained employees leave, new staff have to be retrained to manage fire-safety requirements."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "NORMS",
+          "sentiment": "issue",
+          "text": "Different inspectors apply different requirements during inspection instead of one clear, standardised set of norms, resulting in changes being asked for at different stages."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "COMPLY",
+          "sentiment": "issue",
+          "text": "New fire-safety rules are not implemented immediately at the operational level — one new regulation remained on hold for around two months pending departmental instructions."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "INSPECT",
+          "sentiment": "neutral",
+          "text": "The application goes through physical inspection; where deficiencies are found, the applicant completes corrections before re-inspection."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "QUERY",
+          "sentiment": "positive",
+          "text": "Applicants coordinate directly with the concerned inspector regarding inspection findings and required changes."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "RENEWAL",
+          "sentiment": "neutral",
+          "text": "During renewal, documents are submitted again and rectifications identified during inspection are completed as part of the process."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "INSPECT",
+          "sentiment": "issue",
+          "text": "Delay in conducting the physical inspection increases the time taken for Fire NOC approval; one case records an inspection taking around 43 days."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "INTERDEP",
+          "sentiment": "issue",
+          "text": "A change in the inspecting officer results in fresh inspection requirements and additional clearance work."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "For inter-island applications, required fire-safety equipment has to be purchased and transported from outside, extending the process to around 3-4 months."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "NORMS",
+          "sentiment": "suggestion",
+          "text": "A single, clear set of fire-safety norms should be followed by all inspectors so applicants get the same requirements at every inspection."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "INSPECT",
+          "sentiment": "suggestion",
+          "text": "Required corrections and safety measures should be identified clearly at the first inspection to avoid repeated modifications and inspections."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "COMPLY",
+          "sentiment": "suggestion",
+          "text": "New rules and regulatory changes should reach concerned officers and applicants without delay, so applications aren't held pending implementation instructions."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "RENEWAL",
+          "sentiment": "suggestion",
+          "text": "The validity period should be increased from the existing one year, with a longer renewal period discussed in the range of 3-5 years."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "TIMELINE",
+          "sentiment": "suggestion",
+          "text": "Inspection should be carried out within a defined period after application so approval does not remain pending for long periods."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": "POSITIVE",
+          "sentiment": "positive",
+          "text": "Fire Department officers and staff are generally described as helpful; applicants coordinate directly with the concerned inspector or technician to resolve fire-safety requirements."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "The norms should be clear.",
+          "topic": "Regulatory Clarity",
+          "tags": [
+            "NORMS",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "One inspection should tell us everything that needs to be done.",
+          "topic": "Inspection Process",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Different inspectors provide different requirements during inspection.",
+          "topic": "Standardisation of Norms",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "A change of inspector resulted in fresh requirements and further clearance work.",
+          "topic": "Change of Inspector",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Inter-island cases take 'around 3 to 4 months' to complete.",
+          "topic": "Approval Delay",
+          "tags": [
+            "CAPACITY",
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "'Practical training' is necessary for staff to properly handle fire-safety requirements.",
+          "topic": "Staff Training",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "The fresh Fire NOC ED states 'no specific validity period or renewal requirement... is stated,' while FGD participants (in this same fresh-NOC session) refer to 'the existing one year' validity and suggest extending it to '3-5 years' — a figure that matches neither the fresh-NOC ED's silence on validity nor the companion Renewal-of-Fire-NOC ED, which documents a 5-year validity (with an annual undertaking)."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Neither the ED nor the FGD gives a single day-count for how long a standard (non-inter-island) Fire NOC application typically takes end to end; FGD only cites individual case figures (43 days for one inspection; 3-4 months for inter-island cases)."
+        }
+      ]
+    },
+    {
+      "serviceCode": "GST",
+      "serviceName": "GST Registration",
+      "sourceFiles": [
+        "AN_FGD_GST.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "Poor internet connectivity in Andaman and Nicobar Islands disrupted online GST filing and led to late-fee payments."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "GRIEVANCE",
+          "sentiment": "issue",
+          "text": "Small hotels reportedly received large GST payment notices despite disputing the amounts and submitting supporting documents, including bank statements, which were not accepted as sufficient evidence."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "GRIEVANCE",
+          "sentiment": "issue",
+          "text": "Businesses experienced delays in receiving responses after filing appeals, prolonging resolution of GST disputes."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "TIMELINE",
+          "sentiment": "issue",
+          "text": "GST registration approvals took varying amounts of time, with some cases taking one to two months and another receiving approval within three days."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "GRIEVANCE",
+          "sentiment": "issue",
+          "text": "Difficulties were reported in resolving disputed GST demands when businesses said their supporting documents and financial records were not adequately considered."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "CAPACITY",
+          "sentiment": "neutral",
+          "text": "Businesses relied on chartered accountants or consultants for GST registration and return filing."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "GRIEVANCE",
+          "sentiment": "issue",
+          "text": "Businesses reported receiving no response after filing appeals, making it difficult to follow up on pending cases."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "PORTAL",
+          "sentiment": "suggestion",
+          "text": "Improve internet connectivity to support uninterrupted online GST filing in Andaman and Nicobar Islands."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "GRIEVANCE",
+          "sentiment": "suggestion",
+          "text": "Ensure timely hearings and responses for businesses filing GST appeals."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "GRIEVANCE",
+          "sentiment": "suggestion",
+          "text": "Review disputed GST demands carefully and consider supporting financial records before taking further action."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": "RENEWAL",
+          "sentiment": "positive",
+          "text": "GST registration was described as having lifetime validity, with no renewal requirement mentioned — consistent with the ED's account."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "We had very poor internet connectivity.",
+          "topic": "Internet Connectivity",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "We used to pay that late fees because we don't get this connection.",
+          "topic": "Filing Delays and Late Fees",
+          "tags": [
+            "PORTAL",
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Businesses reported that supporting documents and bank statements were not accepted as sufficient evidence in disputed GST payment cases.",
+          "topic": "Dispute Resolution",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "GST registration approval reportedly took different amounts of time, from three days to one or two months.",
+          "topic": "Registration Timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "The ED states the prescribed registration processing window is 30 days, extendable to 45 days if a query is raised. FGD participants report cases taking 'one to two months' — up to roughly 60 days — beyond even the extended ED window, while another case cleared in just three days; the slow end of the range businesses report runs past what the ED describes as the maximum."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The ED's GST Registration record does not cover post-registration compliance disputes (disputed demand notices, evidence not accepted, slow appeal responses) that FGD participants raised as a significant concern — this falls outside the registration process the ED describes."
+        }
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFiles": [
+        "AN_FGD_LEM.docx",
+        "AN_FGD_LEM_1.docx",
+        "AN_FGD_LEM_2.docx"
+      ],
+      "sessionCount": 3,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Businesses travel for Legal Metrology work, especially from distant or remote areas — 'it takes one full day' for such work — resulting in lost working time and transportation costs."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "FEES",
+          "sentiment": "issue",
+          "text": "Apart from government fees, businesses incur costs for equipment maintenance, calibration, testing, monitoring and certification."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "Poor or unstable network connectivity creates difficulty completing online application and document-related work."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "RENEWAL",
+          "sentiment": "issue",
+          "text": "Delayed renewal attracts additional charges, increasing the financial burden on businesses."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "RENEWAL",
+          "sentiment": "issue",
+          "text": "A one-year validity period requires businesses to renew their licence every year; the discussion raises extending this to five years."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "FEES",
+          "sentiment": "issue",
+          "text": "An annual renewal fee of ₹3,000 creates a recurring financial obligation for businesses, with additional (not clearly established) charges for delayed renewal."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "RENEWAL",
+          "sentiment": "issue",
+          "text": "Validity differs by instrument type — two years for mechanical instruments, one year for electronic instruments — making renewal more frequent for electronic instruments."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "COMPLY",
+          "sentiment": "issue",
+          "text": "The application process still includes offline/form-based document submission, while payment is available online — described by participants as a 'digitalisation gap'."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "INSPECT",
+          "sentiment": "neutral",
+          "text": "The application and submitted details are checked by the concerned officer, with physical verification carried out as part of the process."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "INTERDEP",
+          "sentiment": "issue",
+          "text": "Applications undergo departmental verification, which involves visiting the concerned office."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": "DUPDOC",
+          "sentiment": "positive",
+          "text": "No specific redundant or duplicate document requirements were identified across any of the three sessions."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "Network problems affect completion of online application and document-related work."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "COMPLY",
+          "sentiment": "issue",
+          "text": "Offline steps in the application and document process increase the time taken, even though payment is available online."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "QUERY",
+          "sentiment": "issue",
+          "text": "Missing or incorrect documents result in additional time needed to resolve application issues."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "CAPACITY",
+          "sentiment": "suggestion",
+          "text": "Conduct Legal Metrology camps regularly in remote and island areas so businesses do not have to travel long distances."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "PORTAL",
+          "sentiment": "suggestion",
+          "text": "Move the remaining offline application and document steps online to simplify the process."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "PORTAL",
+          "sentiment": "suggestion",
+          "text": "Strengthen network connectivity in areas where online application/document work is affected."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "RENEWAL",
+          "sentiment": "suggestion",
+          "text": "Extend the validity period for electronic measuring instruments from one year to two years to reduce frequent renewal."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "RENEWAL",
+          "sentiment": "suggestion",
+          "text": "Simplify the renewal process to reduce the time and effort required from businesses."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": "CAPACITY",
+          "sentiment": "neutral",
+          "text": "Maintenance and servicing of equipment involve service centres located outside the immediate area, adding to compliance effort."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "It takes one full day for work involving distant locations.",
+          "topic": "Travel/Time Burden",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Payment is online, but the document process is not fully online.",
+          "topic": "Digitalisation Gap",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Network issues affect completion of online application-related work.",
+          "topic": "Connectivity",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Maintenance, calibration, testing, monitoring plus certification involve recurring compliance-related work and cost.",
+          "topic": "Compliance Cost",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The licence has a one-year validity period, with an annual renewal fee of ₹3,000.",
+          "topic": "Renewal and Fees",
+          "tags": [
+            "RENEWAL",
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Mechanical instruments have a two-year validity period, while electronic instruments have a one-year validity period.",
+          "topic": "Validity Period",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Renewal delays can affect business when the validity period expires before renewal is completed.",
+          "topic": "Renewal Delays/Business Impact",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Online payment is available, while the application process also involves offline interactions.",
+          "topic": "Digitalisation Gap",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "The ED states that Legal Metrology registration 'is granted on a one-time basis with lifetime validity (no renewal required, post-deregulation)', while separately noting that the weighing/measuring-instrument verification certificate is valid '1, 2 or 5 years depending on category'. Across two FGD sessions, participants instead describe 'the licence' itself as having a one-year validity with an annual ₹3,000 renewal fee (plus a late-renewal penalty), and a two-year/one-year split for mechanical vs electronic instruments (no 5-year category mentioned) — conflating what the ED frames as a lifetime, one-time registration with a recurring annual-renewal obligation, and citing validity bands that only partly match the ED's 1/2/5-year instrument-certificate figures."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "FGD sessions give several different fee figures for Legal Metrology (₹200 for a 10 kg instrument, ₹400 for a 50 kg instrument, a ₹3,000 annual renewal fee, and a ₹500-per-quarter late-renewal charge) that are plausible within the ED's stated ₹10-₹5,000 range but are not cross-referenced against the ED's own fee schedule, so it is unclear whether these are the same fees the ED describes or additional charges."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "All three FGD sessions report no redundant or duplicate document requirements for Legal Metrology, corroborating the ED's statement that redundant documents were removed following deregulation."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RFAL",
+      "serviceName": "Renewal of Factory License",
+      "sourceFiles": [
+        "AN_FGD_RFAL.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "DUPDOC",
+          "sentiment": "issue",
+          "text": "Formal documentation requirements create difficulties for applicants during the renewal process."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "COMPLY",
+          "sentiment": "issue",
+          "text": "The involvement of both online and offline steps makes completing the application process challenging."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Applicants face additional transportation or logistics expenses associated with the process."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "OTHER",
+          "sentiment": "issue",
+          "text": "Technical issues create challenges during the application or renewal process."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "FEES",
+          "sentiment": "issue",
+          "text": "Applications submitted after the prescribed period attract an additional charge of 25% of the applicable licence fee, increasing renewal cost for late factories."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "COMPLY",
+          "sentiment": "issue",
+          "text": "The renewal process involves both online and offline activities, requiring applicants to complete formalities through different modes."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "OTHER",
+          "sentiment": "issue",
+          "text": "Technical issues affect the application process and create difficulties completing required formalities."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "OTHER",
+          "sentiment": "issue",
+          "text": "Technical issues affect completion of application and document-related formalities."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "COMPLY",
+          "sentiment": "issue",
+          "text": "Offline steps in the application process increase the time required to complete formalities."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "COMPLY",
+          "sentiment": "suggestion",
+          "text": "Streamline the renewal procedure by reducing offline formalities and making the application process easier."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "OTHER",
+          "sentiment": "suggestion",
+          "text": "Address technical issues affecting online applications and document-related work to ensure smoother processing."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "CLARITY",
+          "sentiment": "suggestion",
+          "text": "Provide clear information on the documents required for renewal to help applicants complete formalities correctly."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "FEES",
+          "sentiment": "suggestion",
+          "text": "Clearly communicate the applicable renewal fee and late-renewal charges to applicants."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "The renewal process involves both online and offline formalities.",
+          "topic": "Application Process",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Formal documentation requirements are part of the renewal process.",
+          "topic": "Documentation",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Technical difficulties were raised during the discussion.",
+          "topic": "Technical Issues",
+          "tags": [
+            "OTHER"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The discussion included renewal periods, fees and additional charges.",
+          "topic": "Renewal Fees",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific processing timeline (in days) is given anywhere in the FGD for Renewal of Factory Licence."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The base renewal fee amount is not quantified by participants — only the 25% late-surcharge figure is given."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision is discussed by participants."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Which specific steps of the renewal process are 'online' versus 'offline' is not detailed by participants."
+        }
+      ],
+      "issuingAuthority": "Not explicitly named by participants.",
+      "portal": {
+        "name": "Factory licence renewal system (specific portal name not given; described as part online, part offline)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "No specific day-count given by participants",
+        "text": "Participants did not state a specific number of days for Renewal of Factory Licence; delays are attributed to offline steps and technical issues rather than a quantified timeline."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Formal renewal application documents (specific list not itemised by participants)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED; participants describe 'formal documentation requirements' and 'offline activities' without itemising specific documents.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not discussed by participants."
+      },
+      "validity": {
+        "text": "Not stated; participants discuss the renewal fee and a late penalty but not the licence's validity period itself."
+      },
+      "fees": {
+        "text": "Applications submitted after the prescribed renewal period attract an additional charge of 25% of the applicable licence fee; the base licence-fee amount itself is not quantified by participants."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant completes the online portion of the renewal application",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Applicant completes offline/paper formalities and submits formal documents",
+          "automated": false,
+          "note": ""
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Applicant pays the applicable renewal fee; a 25% late surcharge applies if submitted after the prescribed period",
+          "automated": "partial",
+          "note": ""
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Renewal reviewed and approved",
+          "automated": null,
+          "note": "FGD does not describe how the renewal is reviewed or finally approved"
+        }
+      ],
+      "remarks": [
+        "This is a Mode B (FGD-only) record — no ED interview covers Renewal of Factory Licence for Andaman and Nicobar Islands, so this record has not been verified against an official source.",
+        "Participants describe the process as involving 'both online and offline' steps without detailing which specific parts are online versus offline."
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": [
+        "AN_FGD_RFNO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "FEES",
+          "sentiment": "issue",
+          "text": "High expenditure on fire-safety equipment, including fire hydrants, pumps and smoke detectors, creates a financial burden for hotels and other businesses."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "TIMELINE",
+          "sentiment": "issue",
+          "text": "Delays in obtaining renewed Fire NOCs create uncertainty for businesses whose existing clearances have expired."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "COMPLY",
+          "sentiment": "issue",
+          "text": "Pending fire clearance affects normal business operations and creates concerns about continued operations and possible penalties."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "COMPLY",
+          "sentiment": "issue",
+          "text": "Compliance with new fire-safety requirements creates additional financial pressure for businesses in buildings constructed under earlier norms."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "RENEWAL",
+          "sentiment": "issue",
+          "text": "The one-year validity period described by participants results in recurring renewal-related costs and effort."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "RENEWAL",
+          "sentiment": "issue",
+          "text": "The existing one-year validity period and the possibility of extending it to five years were discussed."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "NORMS",
+          "sentiment": "issue",
+          "text": "Concerns were raised about applying new fire-safety requirements to existing buildings constructed under earlier norms."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "The online portal has a reported document-upload limit of 500 KB, creating difficulties submitting renewal documents."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "TIMELINE",
+          "sentiment": "issue",
+          "text": "Applicants face delays in obtaining renewal approval, with processing durations ranging from 15-30 days to several months in the cases discussed."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "QUERY",
+          "sentiment": "issue",
+          "text": "Applicants need to contact the department themselves to learn about pending applications, status and reasons for delay."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "DUPDOC",
+          "sentiment": "neutral",
+          "text": "Changes to fire-safety equipment or premises require updated documents to be submitted during renewal."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "TIMELINE",
+          "sentiment": "issue",
+          "text": "Pending applications remain unresolved for extended periods, with some cases reportedly taking several months."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "CLARITY",
+          "sentiment": "issue",
+          "text": "Applicants lack clarity on why applications are kept on hold and the expected time for approval."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "RENEWAL",
+          "sentiment": "suggestion",
+          "text": "Extend the Fire NOC validity period from one year to five years to reduce recurring renewal formalities."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "PORTAL",
+          "sentiment": "suggestion",
+          "text": "Increase the permitted document-upload size on the online portal to make submission easier."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "QUERY",
+          "sentiment": "suggestion",
+          "text": "Provide clear information on application status, reasons for pending approvals and expected processing timelines."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "NORMS",
+          "sentiment": "suggestion",
+          "text": "Introduce suitable transition arrangements when new fire-safety norms are applied to existing buildings and businesses."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": "COMPLY",
+          "sentiment": "neutral",
+          "text": "Fire-safety compliance involves equipment such as fire hydrants, pumps and smoke detectors, along with staff training and safety checks; costs vary by property size."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "Renewal processing can extend from 15-30 days to several months in the cases discussed.",
+          "topic": "Renewal Delays",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Fire safety equipment, including fire hydrants and pumps, involves substantial expenditure for hotels and other businesses.",
+          "topic": "Fire Safety Compliance Cost",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Applying new fire safety requirements to buildings constructed under earlier norms creates concerns for existing businesses.",
+          "topic": "Revised Safety Norms",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Businesses face difficulties when existing clearances expire before renewed approvals are obtained.",
+          "topic": "Expired Clearance and Business Continuity",
+          "tags": [
+            "TIMELINE",
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Participants discussed extending the Fire NOC validity period from one year to five years.",
+          "topic": "Validity Period",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "The RFNO ED states the Fire NOC 'is valid for five years' (with an annual undertaking submitted in the interim), but FGD participants describe 'the existing one-year validity period' and discuss extending it to five years — i.e. participants' lived understanding of the current validity (one year) directly contradicts the ED's stated five-year validity figure."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The ED's RFNO record does not mention the reported ~500 KB document-upload limit on the renewal portal, which FGD participants raise as a concrete submission difficulty."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "One row of the FGD transcript's own quotes table pairs a 'Document Upload Limit' topic with a quote about 'establishments employing 20 or more workers' — content that belongs to the Shops & Establishment service, not Fire NOC renewal, suggesting a table-formatting/data-entry error in the source document; that row's content was not used as a Fire NOC finding or quote here."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RSE",
+      "serviceName": "Registration under Shops & Establishment",
+      "sourceFiles": [
+        "AN_FGD_RSE.docx",
+        "AN_FGD_RSE_1.docx"
+      ],
+      "sessionCount": 2,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "PAN-verification issues are reported for some applicants while registering through the NSWS portal, affecting completion of the online application."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Applicants from Northern and Middle Andaman face connectivity difficulties, with access to the registration service requiring travel in some cases."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "RENEWAL",
+          "sentiment": "issue",
+          "text": "When registration is renewed after the validity period has expired, using the additional one-month renewal window, the registration number changes — creating problems updating the new number across other documents and records."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "DUPDOC",
+          "sentiment": "issue",
+          "text": "Multiple documents, including education-related certificates, are required during registration."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "FEES",
+          "sentiment": "issue",
+          "text": "Concerns were raised regarding registration fees and the validity period."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "Difficulties were reported completing the online renewal process."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Office visits are required for registration-related formalities, resulting in additional time and effort."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "NORMS",
+          "sentiment": "neutral",
+          "text": "Establishments become subject to registration once they employ 20 or more workers, consistent with the ED's stated threshold."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "RENEWAL",
+          "sentiment": "issue",
+          "text": "A registration-number change on delayed renewal creates difficulties in updating the revised number across other documents and official records."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "INTERDEP",
+          "sentiment": "neutral",
+          "text": "The application is electronically forwarded to the Assistant Labour Commissioner for scrutiny and registration; processing time is linked to the officer's response."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Offline application and document-related steps, plus required office visits, increase the time needed to complete the process."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Network and connectivity problems, particularly in Northern and Middle Andaman, disrupt access to online registration services and delay application work."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "CLARITY",
+          "sentiment": "suggestion",
+          "text": "Provide clear requirements for document quality and file size to reduce applications being returned for correction."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "PORTAL",
+          "sentiment": "suggestion",
+          "text": "Move the remaining offline application and document steps online to simplify the process."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "CAPACITY",
+          "sentiment": "suggestion",
+          "text": "Strengthen network connectivity, particularly in Northern and Middle Andaman."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "RENEWAL",
+          "sentiment": "suggestion",
+          "text": "Keep the registration number the same when a shop or establishment changes location, updating only the address in the record."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "RENEWAL",
+          "sentiment": "suggestion",
+          "text": "Make registration validity lifetime so businesses do not have to go through renewal-related formalities."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": "POSITIVE",
+          "sentiment": "positive",
+          "text": "The registration process has become much smoother since moving online; before 2023 it was largely offline and involved lengthy paperwork."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": "CLARITY",
+          "sentiment": "positive",
+          "text": "Documentation requirements are clearly defined and applicable norms are clearly communicated to applicants."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": "RENEWAL",
+          "sentiment": "positive",
+          "text": "A notification is sent to the applicant before registration validity expires, reminding them about renewal."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "The registration process has become much smoother after moving online.",
+          "topic": "Digital Process Improvement",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The documentation requirements are clear.",
+          "topic": "Documentation Clarity",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "A notification is received before the validity ends.",
+          "topic": "Renewal Reminder",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The applicant gets one month after expiry for renewal.",
+          "topic": "Renewal Window",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Registration requirements apply to establishments employing 20 or more workers.",
+          "topic": "Registration Eligibility",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Offline application and document-related steps increase the time required to complete the process.",
+          "topic": "Offline Process Burden",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Connectivity problems affect access to online registration services, particularly in Northern and Middle Andaman.",
+          "topic": "Digital Connectivity Issues",
+          "tags": [
+            "CAPACITY",
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Renewal after the validity period and the additional one-month renewal period results in a change of registration number.",
+          "topic": "Renewal and Registration Number Change",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "The ED states registration validity 'is now valid for lifetime with no renewal required (amended from an earlier one-year validity)'. Across both FGD sessions, however, participants describe an active validity-expiry-and-renewal cycle: a notification is sent before 'the validity' expires, an additional one-month renewal window applies after expiry, and completing renewal in that window changes the registration number (creating the downstream problem of updating the new number across other documents/records). This describes a live renewal requirement that directly contradicts the ED's claim that renewal is no longer required."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Both FGD sessions independently confirm the ED's described shift to a fully online process (via NSWS) as a significant, positive improvement over the pre-2023 offline, paperwork-heavy process."
+        }
+      ]
+    },
+    {
+      "serviceCode": "TFG",
+      "serviceName": "GST Tax Filing",
+      "sourceFiles": [
+        "AN_FGD_TFG.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Staff unavailability, weekends, holidays and meetings with senior officials affect timely completion of GST filing-related work."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "FEES",
+          "sentiment": "issue",
+          "text": "Businesses face additional compliance costs due to late-filing charges and other expenses associated with the filing process."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Businesses rely on consultants for assistance with GST filing, documentation and submission of required information."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "COMPLY",
+          "sentiment": "issue",
+          "text": "GST return filing involves multiple compliance steps, including preparing and submitting GSTR-1 and GSTR-3B, requiring accurate filing information."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "CAPACITY",
+          "sentiment": "neutral",
+          "text": "Businesses may need to coordinate with consultants to complete filing-related documentation and submission requirements."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "COMPLY",
+          "sentiment": "issue",
+          "text": "Filing-related financial transactions can involve additional formalities, such as obtaining signatures on challans and ensuring documents meet bank-acceptance requirements."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": "DUPDOC",
+          "sentiment": "neutral",
+          "text": "Businesses upload bills and supporting information during online GST filing, which is then verified before further processing."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Absence or unavailability of staff affects timely completion of filing-related work."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "OTHER",
+          "sentiment": "issue",
+          "text": "Weekends and consecutive holidays interrupt the regular processing schedule."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Meetings with senior officials reduce staff availability for handling pending work."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "CAPACITY",
+          "sentiment": "suggestion",
+          "text": "Improve staff availability to ensure GST filing-related work is completed on time, particularly around holidays and official meetings."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "CLARITY",
+          "sentiment": "suggestion",
+          "text": "Provide clear guidance on GST return filing requirements, including GSTR-1 and GSTR-3B."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "FEES",
+          "sentiment": "suggestion",
+          "text": "Ensure applicable late-filing charges and additional costs are communicated clearly to businesses."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "PORTAL",
+          "sentiment": "suggestion",
+          "text": "Strengthen online portal support so businesses can easily access filing details and monitor submission status."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "Approval may be affected if a staff member is unavailable or absent.",
+          "topic": "Staff Availability",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The entire process has to be completed online.",
+          "topic": "Online Filing Process",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The filing details can be viewed through the login dashboard.",
+          "topic": "Portal Access",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "If the monthly filing deadline is missed, an additional late charge applies.",
+          "topic": "Late-Filing Charges",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "The ED describes GST tax filing as 'entirely online' through the GST portal, with physical visits 'not required for routine filing.' FGD participants, however, describe filing-related financial formalities — obtaining signatures on challans and ensuring documents meet bank-acceptance requirements — that sit outside the pure online-portal flow the ED describes, suggesting the process is not purely digital end-to-end for every business."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "FGD participants corroborate the ED's description of entirely-online dashboard access for viewing filing details and monitoring submission status."
+        }
+      ]
+    },
+    {
+      "serviceCode": "WAC",
+      "serviceName": "Water Connection",
+      "sourceFiles": [
+        "AN_FGD_WAC.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "Portal downtime and network connectivity problems occur during the application process."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "TIMELINE",
+          "sentiment": "issue",
+          "text": "Delays in receiving the commercial water connection, sometimes taking 20-30 days or longer."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Additional time and effort are required to visit the department for application-related work."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "FEES",
+          "sentiment": "issue",
+          "text": "Financial burden due to registration, installation and labour charges."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "INTERDEP",
+          "sentiment": "issue",
+          "text": "Lack of a single-window system to complete the application process through one channel."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": "TIMELINE",
+          "sentiment": "issue",
+          "text": "Uncertainty about the time required to obtain the final connection."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "INTERDEP",
+          "sentiment": "issue",
+          "text": "Lack of a single-window system limits the ability to complete the commercial water-connection process through one integrated channel."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": "TIMELINE",
+          "sentiment": "issue",
+          "text": "No clear and consistent timeline for completing the connection process is evident, creating uncertainty for applicants."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "Technical issues and network connectivity problems interrupt the online application process."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "CAPACITY",
+          "sentiment": "issue",
+          "text": "Applicants need to visit the department for application-related formalities, resulting in additional time and effort."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": "INSPECT",
+          "sentiment": "neutral",
+          "text": "The connection process involves physical inspection and government verification before completion."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "PORTAL",
+          "sentiment": "issue",
+          "text": "Portal downtime and network connectivity problems interrupt the online application process and affect timely processing."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": "INSPECT",
+          "sentiment": "neutral",
+          "text": "The commercial water-connection process involves physical inspection and government verification, which form part of the approval process."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "PORTAL",
+          "sentiment": "suggestion",
+          "text": "Address portal downtime and network connectivity issues to ensure smoother online submission and processing."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "INTERDEP",
+          "sentiment": "suggestion",
+          "text": "Establish a single-window system to simplify the application process and reduce the need to visit the department."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": "TIMELINE",
+          "sentiment": "suggestion",
+          "text": "Streamline application processing, physical inspection and government verification to provide connections within a defined timeframe."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "Network connectivity was identified as a challenge during the online application process.",
+          "topic": "Technical Issues",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The connection process takes approximately 20-30 days.",
+          "topic": "Approval Timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The single-window system is not currently available.",
+          "topic": "Process Simplification",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The connection involves registration fees, installation expenses and labour charges.",
+          "topic": "Clearance Requirements",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Physical verification is part of the connection process.",
+          "topic": "Inspection and Verification",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "The ED's fee description states water-connection charges are a flat ₹50/month (one connection) or ₹60/month (two connections), with 'no separate application fee based on connection size... stated.' FGD participants instead describe commercial connection costs as a combination of 'registration fees, installation charges and labour costs' that vary 'according to the applicable category and work involved' — a more complex, variable fee structure than the flat monthly rate the ED described."
+        },
+        {
+          "flag": "MISSING",
+          "text": "The ED gives no fixed timeline for water-connection processing ('no fixed departmental timeline... is specified'); FGD participants fill this gap with a specific lived figure — connections reportedly taking '20-30 days or longer' for commercial applicants — though this has not been confirmed against an official departmental target."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The ED leaves applicantOfficeVisit as 'unclear'; FGD participants resolve this ambiguity by confirming that visits to the department are in fact required for application-related formalities."
+        }
+      ]
+    }
+  ]
+}

@@ -2,19 +2,19 @@
 
 The Cost of Regulation project: Quality Council of India's (QCI) assessment, for DPIIT, of the regulatory cost burden on businesses across India's 36 States/UTs and 24+ licenses/services, under the CoR 2.0 framework (five cost types — time, substantive, intermediary, delay, statutory).
 
-**Current scope: 162 Expert Discussion (ED) reports — 35 States/UTs × 24 license types** (every license QCI has a completed ED for). Focused Group Discussion (FGD, business-owner experience) and secondary (web) research are **on hold** for this expanded scope: they exist for the original Factory License pilot (11 States, 5 with FGD, all 11 with secondary research) and will be re-layered in per State/license as that work resumes.
+**Current scope: 335 license records — 35 States/UTs × up to 25 license types — built from Expert Discussion (ED, official-side) and/or Focused Group Discussion (FGD, business-owner experience).** 255 of these 335 records now carry FGD-sourced findings and quotes alongside (or, where no ED exists for that State/license, in place of) the official ED record; genuine ED-vs-FGD contradictions are flagged with both sides quoted. Secondary (web) research is **on hold** for this expanded scope: it exists for the original Factory License pilot (11 States) and will be re-layered in per State/license as that work resumes.
 
 ## The primary deliverable: `cor-dashboard.html`
 
-**Open `cor-dashboard.html` directly in a browser — no server, no install, no setup.** It's a single self-contained file (2,459 tagged findings and 937 gap flags across 162 ED reports are embedded in it, ~1.8MB) that you can open locally, email, or host anywhere as a static file.
+**Open `cor-dashboard.html` directly in a browser — no server, no install, no setup.** It's a single self-contained file (6,910 tagged findings, 1,582 FGD quotes and 2,053 gap flags across 335 license records are embedded in it) that you can open locally, email, or host anywhere as a static file.
 
-Every ED finding is tagged (category, topic tags, sentiment) rather than left as prose, and every State/license pair carries explicit gap flags (`MISSING`, `VAGUE`, `INCONSISTENT` — a report contradicting itself — `GOOD_PRACTICE`, `REFORM`). The **National overview** leads with a full State × license coverage matrix (click any cell to jump straight to that profile), a sidebar license switcher scopes the Compare/Stage-comparison views to whichever license you're looking at, and dedicated **Good Practices & Reform Ideas** / **Flagged Inconsistencies** / **Data Gaps** views aggregate across the whole dataset with a per-license filter. See the **Method & data quality** tab inside the dashboard for the full taxonomy and current scope caveats.
+Every finding is tagged (category, topic tags, sentiment, source — ED or FGD) rather than left as prose, and every State/license pair carries explicit gap flags (`MISSING`, `VAGUE`, `INCONSISTENT` — a report contradicting itself, or a genuine ED-vs-FGD factual contradiction — `GOOD_PRACTICE`, `REFORM`). The **National overview** leads with a full State × license coverage matrix (click any cell to jump straight to that profile), a sidebar license switcher scopes the Compare/Stage-comparison views to whichever license you're looking at, and dedicated **Good Practices & Reform Ideas** / **Flagged Inconsistencies** / **Data Gaps** views aggregate across the whole dataset with a per-license filter. See the **Method & data quality** tab inside the dashboard for the full taxonomy and current scope caveats.
 
-To rebuild it after any data change: `node scripts/build-multi-dashboard.js` — reads `scripts/ed_data/<STATE>.json` (one file per State, every license's ED extraction) + `scripts/services.json` + `scripts/states.json` + `scripts/phase-template.json`, injects into `scripts/dashboard-multi.template.html`, writes `cor-dashboard.html`. See "Extending `cor-dashboard.html`" below for how to add a State or license.
+To rebuild it after any data change: `node scripts/build-multi-dashboard.js` — reads `scripts/ed_data/<STATE>.json` and `scripts/fgd_data/<STATE>.json` (one file per State, every license's ED and/or FGD extraction) + `scripts/services.json` + `scripts/states.json` + `scripts/phase-template.json`, merges FGD onto the matching ED record where one exists (or adds a new FGD-only record where it doesn't), injects into `scripts/dashboard-multi.template.html`, writes `cor-dashboard.html`. See "Extending `cor-dashboard.html`" below for how to add a State or license.
 
 ### The earlier Factory-License-only pilot
 
-The original 11-State Factory License pilot — with FGD quotes and secondary (web) research already baked in — is a separate, still-valid build: `node scripts/build-dashboard.js` (reads `scripts/tagged/*.json` + `server/db/seed-data.json`, injects into `scripts/dashboard.template.html`). It is **not** what `cor-dashboard.html` currently is (the multi-license ED-only build above has superseded it as the main file at the repo root), but its richer per-state data for those 11 States is preserved in the repo and is the basis for re-layering FGD/secondary back into the full multi-license dataset.
+The original 11-State Factory License pilot — with secondary (web) research already baked in — is a separate, still-valid build: `node scripts/build-dashboard.js` (reads `scripts/tagged/*.json` + `server/db/seed-data.json`, injects into `scripts/dashboard.template.html`). It is **not** what `cor-dashboard.html` currently is (the multi-license build above has superseded it as the main file at the repo root), but its richer per-state secondary-research data for those 11 States is preserved in the repo and is the basis for re-layering secondary research back into the full multi-license dataset.
 
 ## The web app (parked, not the active deliverable)
 
@@ -143,21 +143,21 @@ scripts/phase-template.json   (7-stage process taxonomy)
 cor-dashboard.html  (self-contained, data embedded)
 ```
 
-`scripts/ed-extraction-spec.md` defines the exact per-license JSON shape (steps, timeline, fees, validity, deemed approval, documents, tagged findings, gap flags) and `scripts/service-codes.md` defines every license abbreviation. Both were written for this pass, so they describe the ED-only taxonomy currently in force (no `source: "fgd"` or `source: "secondary"` findings, and `INCONSISTENT` is limited to a report contradicting itself).
+`scripts/ed-extraction-spec.md` defines the exact per-license JSON shape for ED records (steps, timeline, fees, validity, deemed approval, documents, tagged findings, gap flags). `scripts/fgd-extraction-spec.md` defines the FGD extraction rules: cross-check against the matching `scripts/ed_data/<CODE>.json` entry first — if an ED record exists for that State/license (Mode A), add only `findings`/`quotes`/`gaps` alongside it (never overwrite ED's structured fields) and flag any genuine ED-vs-FGD factual contradiction as `INCONSISTENT` with both sides quoted; if no ED record exists (Mode B), produce a full best-effort structured record from FGD testimony alone, marked `hasED: false`. `scripts/service-codes.md` defines every license abbreviation (now 25, including LR/Lift Registration).
 
-To add a State's ED for a license it doesn't yet have, or a State that isn't in the dataset at all:
+To add a State's ED or FGD for a license it doesn't yet have, or a State that isn't in the dataset at all:
 
-1. Get the real ED transcript (`.docx` → `pandoc <file> -t plain -o <file>.txt`, or `.pdf` read directly).
-2. Add (or extend) `scripts/ed_data/<CODE>.json` for that State: one object with `code`, `name`, and a `licenses[]` array — add a new entry to `licenses[]` for the new license, following `scripts/ed-extraction-spec.md` exactly. Have Claude read the real ED transcript directly and produce this — do not derive it from a summary or from another State's entry; ground every fact, figure and step in the actual document, and flag genuinely missing/vague information with a gap rather than guessing.
-3. If it's a genuinely new State, add its code/name to `scripts/states.json` too (`scripts/ed_data/<CODE>.json`'s `code` must match).
-4. Run `node scripts/build-multi-dashboard.js` — it rebuilds `cor-dashboard.html` from scratch, picking up every file under `scripts/ed_data/`.
-5. Open the rebuilt file, jump to the new State/license, and spot-check the steps, findings and gaps before sharing it onward.
+1. Get the real ED and/or FGD transcript (`.docx` → `pandoc <file> -t plain -o <file>.txt`, or `.pdf` read directly).
+2. For ED: add (or extend) `scripts/ed_data/<CODE>.json` for that State, following `scripts/ed-extraction-spec.md` exactly. For FGD: add (or extend) `scripts/fgd_data/<CODE>.json`, following `scripts/fgd-extraction-spec.md` exactly (checking the matching ED entry first, per Mode A/Mode B above). Have Claude read the real transcript directly and produce this — do not derive it from a summary or from another State's entry; ground every fact, figure, step and quote in the actual document, and flag genuinely missing/vague/inconsistent information with a gap rather than guessing.
+3. If it's a genuinely new State, add its code/name to `scripts/states.json` too (the `code` in `scripts/ed_data/<CODE>.json` / `scripts/fgd_data/<CODE>.json` must match).
+4. Run `node scripts/build-multi-dashboard.js` — it rebuilds `cor-dashboard.html` from scratch, picking up every file under `scripts/ed_data/` and `scripts/fgd_data/` and merging them.
+5. Open the rebuilt file, jump to the new State/license, and spot-check the steps, findings, quotes and gaps before sharing it onward.
 
 To change the page's layout, styling, or add a new view: edit `scripts/dashboard-multi.template.html` (the actual source — never hand-edit `cor-dashboard.html` itself, since it's a generated file and your edit will be lost on the next rebuild), then re-run the build script.
 
-### Re-integrating FGD and secondary research
+### Re-integrating secondary research
 
-Once FGD transcripts or a fresh secondary-research pass exist for a State/license, the taxonomy already has flags ready for them (`source: "fgd"`, `source: "secondary"`, and `SECONDARY_RESOLVED`/`SECONDARY_OPEN` gap flags — see `scripts/taxonomy.md`, written for the original Factory License pilot and still the right reference). The work is: extend that license's entry in `scripts/ed_data/<CODE>.json` with the new findings/gaps, then rebuild.
+Once a fresh secondary-research pass exists for a State/license, the taxonomy already has flags ready for it (`source: "secondary"`, and `SECONDARY_RESOLVED`/`SECONDARY_OPEN` gap flags — see `scripts/taxonomy.md`, written for the original Factory License pilot and still the right reference). The work is: extend that license's entry in `scripts/ed_data/<CODE>.json` with the new findings/gaps, then rebuild.
 
 ## Extending the parked web app to other licenses (optional)
 
