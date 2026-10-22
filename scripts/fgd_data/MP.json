@@ -1,0 +1,3879 @@
+{
+  "code": "MP",
+  "name": "Madhya Pradesh",
+  "licenses": [
+    {
+      "serviceCode": "BPA",
+      "serviceName": "Building Plan Approval",
+      "sourceFiles": [
+        "MP_FGD_BPA.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Documents already available in other departmental systems - such as property tax payment (visible online) and NOC/registry details - are still demanded afresh for Building Plan Approval."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Remarks returned on BPA files are frequently generic or unexplained (e.g. repeated 'please check again'), with no officer held accountable and no reason recorded."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Participants report an officer-level SLA of thirty days for BPA, but individual files routinely sit three to four days at each desk as they move through multiple officers."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "NORMS",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Authorised architects' approval powers - previously covering both residential and commercial plots up to a prescribed area for ten to twelve years - were narrowed to residential-only through an undocumented software change conveyed verbally, with no gazette notification; the term 'public at large' used in the related notification is undefined."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "A participant's demand draft, prepared over five to six days at a Gurugram head office, was rejected at submission because the department said DDs were no longer accepted, despite the portal showing it as a payment option."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Compliance requirements such as compulsory soil testing can require plan changes and added cost before approval, borne entirely by the owner, who must also engage an architect regardless."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "There is no provision in policy for obtaining building permission for an existing fort or heritage site."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Deemed approval after thirty days is understood by applicants in principle, but a return or comment arriving close to the deadline restarts the clock in practice."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Participants list multiple levies collected on the same plot - construction, water, development and labour welfare charges - and ask why several are collected again, without clarity on whether these duplicate the ABPAS-generated statutory fee."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "In rural areas and Tier III/IV cities the municipal officer is often not technical and simply forwards files to the town and country planning office, while the applicant is asked to pay development-permission and other charges in the meantime."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Approval authority is split by plot size (building officer vs. city planner), but data verification for even very small plots now sits with the city planner, separating the officer who approves from the one who verifies."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Layout and colony details are demanded again even where the town and country planning office has already approved the layout."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Scanned documents submitted online are subsequently asked for again in hard copy, and software scrutiny is followed by a separate round of manual scrutiny."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Queries are raised one at a time rather than together, so each return restarts the applicant's wait even where the rest of the file is in order."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INTERDEP",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Multiple departments and approval levels under one nominal authority, with poor coordination between offices of the same department, and weak technical capacity in smaller municipal bodies, were cited as causes of delay."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "There is no appeal mechanism and no application tracking, so the applicant cannot see where a file is or why it was returned."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Make the process entirely online with no human intervention in checking documents and drawings; confine officers to site verification, which is their stated responsibility."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Have the system auto-fetch records from other departments (property tax, NOC, layout approvals, colony data) rather than asking the applicant for them again."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Provide an appellate officer and an online grievance route so escalation does not depend on personal relationships."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Make the SLA and deemed approval real, with automatic escalation before the deadline and no reset of the clock when a file is returned."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "If the system is online, why should a person intervene? Human intervention is the root cause.",
+          "topic": "Automation vs. manual scrutiny",
+          "tags": [
+            "PORTAL",
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The moment a query is raised, the file is pending, and nobody is accountable for it.",
+          "topic": "Accountability for queries",
+          "tags": [
+            "QUERY",
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Read the remarks and you will see that they are unnecessary remarks.",
+          "topic": "Unreasoned remarks",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "There is no appealing officer where we can raise a grievance. No one really dares.",
+          "topic": "No grievance route",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The portal lists the documents required. Why do you ask for others apart from those?",
+          "topic": "Documents demanded beyond portal list",
+          "tags": [
+            "DUPDOC",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The payment is visible online, so why do you need property tax verified again?",
+          "topic": "Redundant verification",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "If the software has already scrutinised it, why do we need manual scrutiny at every level?",
+          "topic": "Redundant manual scrutiny",
+          "tags": [
+            "PORTAL",
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "There is no head available for a fort or a heritage site. I cannot even apply.",
+          "topic": "No heritage-building provision",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Architects approved commercial plots for ten to twelve years. Now the software says only residential, and nothing is in writing.",
+          "topic": "Informal change to architects' authorisation",
+          "tags": [
+            "NORMS",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED says ABPAS scrutiny happens automatically 'rather than through manual desk review' and holds up MPIDC's digital BPA process as a leading national example; FGD participants directly contradict this in practice, saying 'If the software has already scrutinised it, why do we need manual scrutiny at every level?' and reporting that scanned documents uploaded online are still demanded again in hard copy - corroborating, with concrete specifics, the same gap the ED report's own broader-discussion section already flags."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Participants describe four separate levies (construction, water, development, labour welfare) collected on the same plot but give no amounts, so it is unclear whether or how these overlap with the single ABPAS-generated statutory fee the ED describes."
+        },
+        {
+          "flag": "MISSING",
+          "text": "FGD supplies an informal benchmark the ED interview itself did not state - an 'officer-level SLA' of thirty days - but frames it as an unwritten/unenforced norm, not a displayed rule, and reports it is routinely exceeded per-desk; this fills part of the ED's own MISSING-timeline gap only partially and should not be treated as an official figure."
+        },
+        {
+          "flag": "REFORM",
+          "text": "FGD suggests concrete reforms the ED does not record: fully automate scrutiny with officers confined to site verification, auto-fetch inter-departmental records, publish a fixed document list changeable only by written notification, provide an appellate/grievance officer, and make deemed approval real via auto-escalation that does not reset on a return."
+        }
+      ]
+    },
+    {
+      "serviceCode": "CTE",
+      "serviceName": "Consent to Establish",
+      "sourceFiles": [
+        "MP_FGD_CTE.docx",
+        "MP_FGD_CTE_1.docx",
+        "MP_FGD_CTE_2.docx"
+      ],
+      "sessionCount": 3,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants found little guidance online on how to apply for CTE and had to learn the process by asking others who had already been through it."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Even though application and certificate are online, applicants reported needing three to four in-person office visits to complete the CTE process."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "No participant across the three CTE sessions was aware of a prescribed or displayed timeline; reported actual experience ranged from about one week to roughly three months for broadly similar applications."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INFORMAL",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Because requirements are not clearly stated by official sources, applicants engage private consultants - no government-empanelled panel exists - who can expedite the process but add cost."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Queries raised by reviewing officers are often framed in technical/regulatory language that hospital administrative staff must route to a technical person before responding, adding coordination time."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "One participant's CTE application took close to three months to clear, with most of the added time in the review/approval stage; a separate, more recent application by a similar applicant was completed in about twenty-one days, entirely online."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "RENEWAL",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "A hospital must keep roughly ten to twelve separate licences alive at once (CTE among them), each expiring on its own schedule, requiring a dedicated person just to track renewals."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP",
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "A delay in one dependent certificate (NABH, received three to four months after assessment) held up the facility's ability to claim an unrelated government scheme benefit (Ayushman), costing roughly three months of lost incentive eligibility."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "Multiple departments - police, fire and trade licence among them - inspect the same establishment separately rather than jointly."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The online CTE application form has a word-count limit and the portal reportedly glitches while an application is being filed."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Applicants cannot see which stage an application has reached or with which officer it is lying."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Requirements do not scale with the size of the unit: a small dispensary and a large hospital, or a small and large restaurant, face materially the same CTE requirements, with no explicit scaling by investment, pollution potential or bed count."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Fire, pollution and food-safety regulators each issue separate licences/approvals with separate fees rather than a single combined licence per business type."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Different licences held by the same establishment run on different validity periods, so some renewal is always pending; a licence on a shorter cycle requires a fresh form each time."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Eligibility criteria are not explained before an applicant applies; participants felt the department should state upfront what makes a unit eligible and how to obtain the licence, rather than checking only after submission."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no fixed service-level mandate for how many days a raised query or grievance should take to resolve, and training/orientation sessions on regulatory changes are held only infrequently."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "At renewal, the same documents submitted at the original CTE stage are required again even where nothing has changed, and a consultant's representative returns to re-verify machinery that was already checked at the first stage."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "The same supporting papers are submitted separately to each regulator (fire, pollution, health and safety) rather than collected once and shared between them."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CONSULT",
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Publish a complete step-by-step application guide with a document checklist on the board's website to reduce dependence on word-of-mouth and consultants."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP",
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Create a single window and a single combined licence per business type (fire, pollution and health-and-safety as checklist items within it), make requirements proportionate to investment/scale, and align renewals so they happen together."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Healthcare Representative",
+          "quote": "We looked for it online but could not find much. We had to ask others who had already been through it.",
+          "topic": "Information access",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Healthcare Representative",
+          "quote": "We did it through a consultant. On our own we did not know what was needed.",
+          "topic": "Consultant dependence",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "There was a three-month delay... when I applied for the first time.",
+          "topic": "Approval delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "If that query is conveyed in simple language, things will be much better.",
+          "topic": "Technical language in queries",
+          "tags": [
+            "CLARITY",
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "It's happening within 21 days, and it's all being done online.",
+          "topic": "Faster recent processing",
+          "tags": [
+            "TIMELINE",
+            "PORTAL"
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "speaker": "Hospital Representative",
+          "quote": "In a hospital there are about ten to twelve licences. One expires at one time and another at another, and each has to be applied for again.",
+          "topic": "Licence proliferation",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Hospital Representative",
+          "quote": "Our NABH certificate came three or four months after the assessment. We could not submit it under Ayushman and so lost the incentive.",
+          "topic": "Dependent clearances",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Hospital Representative",
+          "quote": "Let them take all the papers once, look at them, and give one licence, so that the time we lose again and again is saved.",
+          "topic": "Single-window suggestion",
+          "tags": [
+            "INTERDEP",
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No participant in any of the three CTE sessions could state a statutory or displayed timeline; this record relies entirely on experiential estimates (one week to three months) and should not be treated as an official figure."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Fee is described only as 'slab-based on capital investment, auto-generated' with no numeric slabs given across any of the three sessions."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "Within the FGD testimony itself, reported CTE processing time ranges from about one week to roughly three months for broadly similar applicants, with one account describing both a three-month delay on an earlier application and a ~21-day turnaround on a more recent one - suggesting inconsistent practice rather than a single reliable benchmark."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Validity period for CTE specifically is not clearly established - participants mention five years for consent 'depending on category' but also describe other licences on shorter cycles, and the two were not clearly distinguished in the discussion."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Participants recommend a single combined licence per business type covering fire, pollution and health-and-safety as checklist items, proportionate (investment/scale-based) requirements, a published timeline, and use of AI to speed up the inspection/scrutiny bottleneck."
+        }
+      ],
+      "issuingAuthority": "Madhya Pradesh Pollution Control Board (MPPCB) - inferred from the slab-based capital-investment fee and single-window description, which match the MPPCB process documented for CTO/RCTO elsewhere in this state's record; not independently named by FGD participants, though one session lists 'consent from the pollution control board' among establishment-stage clearances.",
+      "portal": {
+        "name": "MPPCB online/single-window portal (same family as used for CTO per other MP sessions; not independently named by participants)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": 90,
+        "basis": "No participant across three sessions cited a statutory or displayed timeline; figures are experiential and ranged from about one week to roughly three months for similar applicants, with one case completed in about 21 days.",
+        "text": "No statutory timeline was known to any participant. Reported actual experience varied enormously: about one week in one case, close to three months in another from the same broad applicant pool, and about 21 days in a more recent, similar case - with no official benchmark to measure any of them against."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Fire clearance",
+        "Electricity department permission",
+        "Consent from the Pollution Control Board (cited as a co-requirement at the establishment stage)",
+        "Project cost and generator details",
+        "For hospitals: hospital registration, doctors' licences, biomedical-waste certificate",
+        "CA certification supporting capital investment (implied by slab-based fee)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No session gave an exhaustive, itemised document checklist; the above is assembled from scattered references across three separate FGD groups.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No participant across any of the three sessions reported a deemed-approval provision for CTE; one participant said no period at all is prescribed or displayed, so there is nothing to measure a lapse against."
+      },
+      "validity": {
+        "text": "Participants said consent is typically granted for five years depending on category (facilities discussed fell mostly in the Orange category). Some participants also referred to other licences held by the same establishment running on shorter (e.g. three-year) cycles, but it is unclear from the discussion whether this refers to CTE itself or an allied licence."
+      },
+      "fees": {
+        "text": "Fee is linked to capital investment and slab-based; the portal auto-generates the payable amount once investment details are entered. Additional cost is incurred separately for CA certification used to support the investment figure. No specific fee figures were given in any session."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Applicant engages a private consultant in most cases (no government-empanelled panel exists)",
+          "automated": false,
+          "note": "One participant applied independently without a consultant and reported no difficulty."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Online application filed on the portal with capital-investment and project details",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Slab-based fee auto-generated from declared capital investment and paid online",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Reviewing officer raises queries, sometimes in technical/regulatory language",
+          "automated": "partial",
+          "note": "Applicant must log into the portal to see queries; no proactive stage-wise push update beyond an alert."
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Physical inspection carried out, generally at the final stage before approval",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "CTE granted and notified via SMS/WhatsApp/phone",
+          "automated": "partial",
+          "note": null
+        }
+      ],
+      "remarks": [
+        "This record is synthesised from three independently held FGD sessions for CTE in MP (Ujjain - healthcare/recycling; Indore - chemical/hospital; Bhopal - mixed), each with distinct participants and dates - these are treated as separate real sessions, not duplicate recordings of one discussion, per the spec's default assumption.",
+        "No ED record exists for CTE in Madhya Pradesh to cross-check against; this record is FGD-only and has not been verified against an official source."
+      ]
+    },
+    {
+      "serviceCode": "CTO",
+      "serviceName": "Consent to Operate",
+      "sourceFiles": [
+        "MP_FGD_CTO.docx",
+        "MP_FGD_CTO_1.docx"
+      ],
+      "sessionCount": 2,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no help desk or reception that can walk a first-time applicant through the CTO process; participants said nobody tells them what to submit, and no manual, format or checklist exists."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INFORMAL",
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "Consultants have become a practical necessity rather than a choice - they take the applicant's login credentials, fill the online form and return with the approval, because applicants do not feel they can manage the file themselves."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The portal and its instructions are technical and in English; participants said they can read Hindi comfortably but find the digital language hard to follow, and that Hindi content would remove the need for a consultant."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Participants cannot track an application once filed; one asked the consultant whether tracking exists and was told it does not, leaving applicants to phone the office and, when calls go unanswered, visit in person."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Approval takes anywhere from thirty to sixty days in most accounts, and in one case has still not come after four years, with no explanation given when the office was asked."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Conditions such as an effluent treatment plant (ETP) can turn up midway through processing without being stated anywhere beforehand; one oil-refining participant was required to install an ETP costing about two lakh rupees despite a process that does not use water."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "No timeline for deciding a CTO application has been made known to applicants, so there is nothing to hold a long-pending application against."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Category-wise requirements (Red/Orange/Green/White) are not explained to applicants until they are already in the process."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Plant photographs and ETP records have to be sent repeatedly while an application is being processed."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INSPECT",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Inspection is a major bottleneck because the regional officer or inspection team has limited availability; staff shortages were specifically cited as a reason applications wait at this stage."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Overall processing was described as around thirty to forty days, with one experience extending to roughly forty to forty-three days."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Online tracking does not remove the need for follow-up; participants said they sometimes have to call officials or visit the office personally when a stage does not move."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP",
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Inter-departmental clearances can hold up CTO; Central Ground Water Authority (CGWA) permission was cited as a particularly lengthy process for units involving groundwater extraction, with one participant describing a wait of several months."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Information and compliance details already submitted at the CTE stage are required again for CTO, even where there has been no material change."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL",
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants questioned the need for frequent renewal where the activity and its environmental risk remain substantially unchanged, and suggested longer validity for stable operations and a more direct route for units already ready to operate."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants suggested risk- and category-based regulation, with greater reliance on self-compliance and environmental audits to reduce routine inspection visits while retaining oversight."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants asked for a transparent fee adjustment/refund mechanism for cases where the validity period granted is shorter than the period for which the fee was paid."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "CTO was generally viewed as comparatively simpler than CTE once establishment-stage information and compliance are already in place."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry Representative (Healthcare)",
+          "quote": "There is no help desk. Nobody tells you what to submit or whom to go to.",
+          "topic": "No help desk",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "If this were in Hindi, we would not need a consultant.",
+          "topic": "Language barrier",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "We cannot track the application. I asked the consultant if there is any tracking and he said there is none.",
+          "topic": "No tracking",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "It has been four years and the approval has still not come.",
+          "topic": "Extreme approval delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative (Oil Refining)",
+          "quote": "Our process has nothing to do with water, but we have to put up an ETP. It is only because the regulation says so, and about two lakh rupees went into it.",
+          "topic": "Undisclosed conditions with real cost",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "The regional officer is limited and the inspection team is small, so inspection becomes time-taking.",
+          "topic": "Inspection capacity bottleneck",
+          "tags": [
+            "INSPECT",
+            "CAPACITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "We submit information at the CTE stage and then have to repeat the same information again for CTO.",
+          "topic": "Redundant documentation",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "For groundwater extraction, the permission process itself can take several months.",
+          "topic": "Inter-departmental delay (CGWA)",
+          "tags": [
+            "INTERDEP",
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED states the CTO process has been fully online and faceless since 2011 with 'no physical visit... needed even for scrutiny or certificate collection'; FGD participants across both MP CTO sessions contradict this, reporting no working help desk, no published manual/checklist, and online tracking that 'does not remove the need for follow-up' - one participant said 'I asked the consultant whether any tracking exists and he said there is none,' and others describe having to call or visit the office personally when a stage does not move."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED gives a statutory ceiling of 30 working days for Red-category CTO (21 for Green/Orange) with actual disposal typically in 15-20 days; FGD participants report typical experience of 30-60 days, a case of 40-43 days, and one case still pending after four years with no explanation given despite being asked - well beyond the ED's stated statutory and practical benchmarks."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED describes the applicant proposing the pollution-control arrangement (e.g. ETP) as part of the CTO application itself; FGD participants report that such conditions can 'come up during processing' and are 'not stated anywhere beforehand,' with one participant required to install an ETP costing about two lakh rupees despite a process that does not use water."
+        },
+        {
+          "flag": "MISSING",
+          "text": "FGD raises a fee-adjustment scenario the ED record does not address: where the validity period ultimately granted is shorter than the period for which the fee was paid, participants say there is no clear, consistently applied mechanism for adjustment or refund - distinct from the ED's documented treatment of fees on applicant-side rejection."
+        }
+      ]
+    },
+    {
+      "serviceCode": "ECL",
+      "serviceName": "Electricity Connection",
+      "sourceFiles": [
+        "MP_FGD_ECL.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The consumer portal goes down without warning and options present on one screen are missing on the next; participants felt it has stayed in a development stage from the start, with a developer team but no proper testing, so the consumer ends up testing it."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Payment options and receipts do not work reliably: a payment option did not appear for a corporate consumer though it appeared for retail consumers (took developers two to three days to fix), and in another case payment was made but no receipt was generated."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Nothing reaches applicants by email or WhatsApp, there is no single reference number running through the application, and applicants have to ask at each step what happens next."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "The application is submitted at the operation and maintenance office, which says the rest lies with the IT cell; the IT cell in turn asks the applicant to sit with the developers, requiring repeated travel (one participant's unit is about 25 km from the office)."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "A first connection applied for in 2019 took about six months; load enhancement, in the group's experience, takes two to three months; no number of days is communicated and actual time is often about three times what is expected."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Payment options such as an instalment facility are not explained at the counter; one participant made four visits before learning of the instalment option, having been pressed to deposit the full amount."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "No revival period is given before or after a connection is declared PDC (permanently disconnected), unlike a bank's ninety-day window before an account is classified non-performing, even when the unit is willing to pay in full."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS",
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Authorised contractors are effectively compulsory even for firms with their own licensed electrical engineers; one participant, an electrical engineer with a degree, diploma and licence, said a less-educated contractor can certify his factory while his own sign-off carries no weight."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Contractor classes (A1-A5) determine what work a contractor may perform, but participants said this is applied by practice rather than by circular, differs from district to district, and that Jabalpur has no contractor category at all."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Electricity connection is understood by participants not to fall under the Lok Seva Guarantee Act, so no statutory timeline binds the department as it does for other services with a thirty-day limit."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Subsidies promised jointly by MPEB and MPIDC are left for the industry to chase, because the two bodies have not reconciled the amount between themselves."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Materials such as transformers must be bought only from vendors registered with the electricity company, and are then sent to the department's lab for testing (three to four days), with some material rejected even when sourced from a registered vendor."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Three to four sets of documents already uploaded online must still be submitted again physically after the online application."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "Compliance is certified more than once: the electrical inspector's approval is followed by a further declaration through an authorised contractor covering the same compliances a second time."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INTERDEP",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "No officer owns the application end to end; handoffs between the O&M office and the IT cell, each pointing to the other, were cited as a cause of delay, along with objections raised in instalments rather than all together."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Fix and publish a timeline, consider bringing electricity connection under the Lok Seva Guarantee Act, and build auto-escalation so a stage running beyond seven days moves automatically to the next officer."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Make contractor certification optional rather than compulsory, so a firm with its own qualified engineers can certify and proceed without a contractor."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Accept every normal mode of payment (demand draft, RTGS, online) and announce any change in accepted mode by circular before it takes effect."
+        },
+        {
+          "source": "fgd",
+          "category": "remarks",
+          "tags": [
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Participants spoke well of the operation and maintenance team, describing it as helpful, in contrast with other offices such as the electrical inspector's, where they found no one to hear a grievance."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry Representative",
+          "quote": "The server is down sometimes, and sometimes the application moves ahead and the payment option just disappears.",
+          "topic": "Unreliable portal",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "It always seems to be in the development stage. They have a developer, but no testing team.",
+          "topic": "Immature digital system",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "I submitted to the O&M office, and they said talk to the IT cell. The IT cell said sit with the developers.",
+          "topic": "No accountable owner for the file",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "I am an electrical engineer with a degree, a diploma and a licence, yet a contractor with less education certifies my factory.",
+          "topic": "Compulsory contractor despite in-house expertise",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "In four visits nobody told me there was an instalment option. They kept pressing me to deposit everything.",
+          "topic": "Payment options not disclosed",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "For a simple matter we had to bring in our CEO, and then the Chief Minister. A small unit cannot do that.",
+          "topic": "Escalation only works for the well-connected",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "I applied online, and still I give the same documents offline, and the payment receipt too.",
+          "topic": "Redundant documentation",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No participant could state a statutory timeline for a new electricity connection or load enhancement; reported figures (about six months for a first connection, two to three months for load enhancement) are experiential, not official, and should not be read as a benchmark the department has committed to."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "No specific fee figures were given; the department prepares a cost estimate after application that the consumer must pay, with no breakdown described."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Participants singled out the operation and maintenance (O&M) team as comparatively helpful and responsive, unlike other offices in the same ecosystem (e.g. the electrical inspector's office) where they found no one to hear a grievance."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Recommended reforms: a published, enforceable timeline (potentially under the Lok Seva Guarantee Act) with auto-escalation past seven days per stage, a defined PDC revival window mirroring a bank's ninety-day norm, optional rather than compulsory contractor certification, acceptance of every normal payment mode with changes announced by circular, and regular stakeholder consultations between industry, the department and developers."
+        }
+      ],
+      "issuingAuthority": "Madhya Pradesh Electricity Board (MPEB) / the local discom's operation and maintenance (O&M) office and IT cell - implied by participant references; no single formal authority name was given.",
+      "portal": {
+        "name": "MPEB/discom consumer portal",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "No statutory timeline was cited by any participant; electricity connection is understood by participants not to fall under the Lok Seva Guarantee Act.",
+        "text": "No number of days is communicated to applicants. One participant who applied for a first connection in 2019 said it took about six months; the group's experience of load enhancement is two to three months; actual time is described as often about three times what applicants expect going in."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Online application filed on the consumer portal",
+        "Materials (e.g. transformers) procured only from vendors registered with the electricity company, subject to department lab testing",
+        "Payment proof (demand draft, RTGS, or online, mode reportedly inconsistent)",
+        "Physical/hard copies of documents already uploaded online (three to four sets, per participants)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No exhaustive document checklist was given by participants.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "Participants understand electricity connection does not fall under the Lok Seva Guarantee Act, so no statutory timeline - and therefore no deemed-approval consequence - applies, unlike other services they named with a thirty-day legal limit."
+      },
+      "validity": {
+        "text": "Not discussed; electricity connection is not described by participants as having a renewal/validity cycle in the ordinary licence sense."
+      },
+      "fees": {
+        "text": "No specific fee figures were given. The department prepares a cost estimate after the application is filed, which the consumer must pay; participants said the accepted payment mode (demand draft, RTGS, online) shifts without notice, and payment verification by letter to the accounts office can take a week to fifteen days even where that office sits on the same premises."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant logs into the consumer portal and files the connection application online",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 2,
+          "phase": "fee",
+          "title": "Department prepares a cost estimate; consumer pays by demand draft, RTGS or online",
+          "automated": "partial",
+          "note": "Accepted mode reportedly shifts without notice; payment verification via letter to the accounts office can take up to a week or two."
+        },
+        {
+          "n": 3,
+          "phase": "apply",
+          "title": "Required materials (e.g. transformer) procured only from vendors registered with the electricity company",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Materials sent to the department's lab for testing",
+          "automated": false,
+          "note": "Reported to take three to four days; some material has been rejected even when sourced from a registered vendor."
+        },
+        {
+          "n": 5,
+          "phase": "inspect",
+          "title": "Electrical inspector's approval obtained",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "phase": "approve",
+          "title": "Separate compliance declaration made through an authorised (Class A) contractor",
+          "automated": false,
+          "note": "Covers largely the same compliances the electrical inspector already certified."
+        }
+      ],
+      "remarks": [
+        "No ED record exists for Electricity Connection in Madhya Pradesh to cross-check against; this record is FGD-only and has not been verified against an official source.",
+        "Note on a separate file: the FGD quotes table in MP_FGD_BPA.docx (Building Plan Approval) mislabels every row's 'Service Tagged' column as 'Electricity Connection,' apparently a copy-paste/template error from this ECL session's document rather than evidence those quotes concern electricity connection - the content of those quotes (remarks, redundant documents, heritage buildings, architects' authorisation) clearly concerns BPA and has been treated as BPA testimony there."
+      ]
+    },
+    {
+      "serviceCode": "ELD",
+      "serviceName": "Electrical Drawings",
+      "sourceFiles": [
+        "MP_FGD_ELD.docx",
+        "MP_FGD_ELD_1.docx"
+      ],
+      "sessionCount": 2,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CONSULT",
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Participants described a strong dependence on private consultants and certified vendors to prepare and submit electrical drawings; one said it is difficult to manage the process without such support."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Although application tracking is available on the portal, users still need to follow up by phone and personal visits, including cases where the concerned inspector/officer was unavailable when they visited."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "The portal does not clearly provide a time-bound approval period; reported processing varied considerably - around two to three days in one session, but ten, thirty or even forty days in the other, with cases of one to three months also mentioned."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "A shortage of inspectors and licensed electricians was repeatedly highlighted as a bottleneck, linked to infrequent licensing examinations for electricians."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "The process can involve a large documentation burden - one session cited roughly forty to fifty documents depending on the case, including layout/location and land-related records, OEM and factory test certificates."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The list of documents required is not published on the website; an experienced contractor knows what is needed, but a new applicant finds it very difficult and faces repeated rejection."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Inspection carries its own separate application and a higher fee - reported at roughly 1.8 to 2 times the drawing-approval fee - with a yearly re-inspection following."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY",
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "There is no way to track which stage an application has reached or why it was rejected, and no grievance mechanism specific to this service; an appellate officer exists on paper but does not resolve matters in practice."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The approved drawing is not issued with a digital signature on the platform; approval is conveyed by letter/application number over WhatsApp or email, so contractors must print the letter and hand it to the customer or inspector."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "There is no module specific to solar installations; the existing format, built around generators, treats the inverter as a generator while the panel is not, which a solar contractor called technically incorrect."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Fees and structure differ from state to state, based on capacity bands (e.g. transformer capacity, cable length), with no all-India standardisation."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "No published guidelines on equipment ratings and protection exist against which a drawing can be checked, so a drawing cannot be prepared with confidence it will pass."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "There is no integrated or single-window mechanism for related approvals; applicants deal separately with multiple departments and vendors (electrical, fire, boiler, pollution control)."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "FEES",
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The fee is collected again on resubmission and separately for inspection; the full drawing and document set must be resubmitted afresh after a rejection or for an expansion, even where an earlier approval number exists."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Where an uploaded file is not legible, the department asks for the same documents again by email, effectively duplicating submission."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Drawing approval and inspection are two separate steps: the department informs the applicant once the drawing is approved, inspection is then applied for separately after the work is complete, and the department re-inspects every year."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue",
+          "text": "A healthcare representative reported that yearly inspections arrive without any prior notice; participants asked that hospitals in particular be told in advance."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Publish the document list and technical guidelines (equipment ratings, protection) on the portal, and commit that a drawing prepared to those guidelines will not be rejected."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Issue the approved drawing with a digital signature on the platform itself, so it can be downloaded directly rather than printed from a letter."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Create a government-empanelled pool of certified consultants/contractors with transparent eligibility and fees, conduct electrician licensing exams at least twice a year, and move toward a single-window process across electrical, fire, boiler and pollution-control approvals."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "There is no in-panel consultant.",
+          "topic": "No empanelled consultant list",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "The user's manual is absent on the portal.",
+          "topic": "No portal guidance",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Some people reported one and a half month, some people reported 3 months.",
+          "topic": "Inconsistent approval timelines",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "40 to 50 documents.",
+          "topic": "Heavy documentation burden",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Electrical Contractor",
+          "quote": "There is no timeline given. A timeline should be there, but none is given.",
+          "topic": "No published timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Electrical Contractor",
+          "quote": "The list of documents is not mentioned on the website.",
+          "topic": "No published document list",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Solar Contractor",
+          "quote": "The inverter is treated as a generator and the panel is not, which is technically incorrect.",
+          "topic": "No solar-specific module",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Electrical Contractor",
+          "quote": "We get a letter that it is approved, but the final signed copy does not come.",
+          "topic": "No digitally signed approval",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Healthcare Representative",
+          "quote": "They come for the yearly check without any prior information. For a hospital, we should be told in advance.",
+          "topic": "Unannounced inspections",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "The fees and the structure are different in every state. It should be centralised at the all-India level.",
+          "topic": "Lack of fee standardisation",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "Reported approval timelines are sharply inconsistent even within the FGD evidence itself: one session described a normal two-to-three-day turnaround (occasionally stretching to ten, thirty or forty days), while the other session described a typical range of one-and-a-half to three months - these cannot both be the normal case, and no participant in either session cited an official published timeline to reconcile them against."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Fee is described only in relative terms (inspection roughly 1.8-2 times the drawing-approval fee; fee depends on capacity band and cable length) with no actual fee table or numeric slabs given in either session."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No participant stated a validity period for an approved electrical drawing itself; only the fact of a separate, recurring yearly re-inspection requirement after approval is established."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Recommended reforms: publish the document list and technical guidelines, issue digitally signed approvals online, create a solar-specific drawing module, standardise fees nationally, empanel certified consultants, hold electrician licensing exams more frequently, and move toward a single window across electrical, fire, boiler and pollution-control approvals."
+        }
+      ],
+      "issuingAuthority": "Electrical Inspectorate / the department responsible for electrical drawing approval and inspection in Madhya Pradesh - referred to by participants only as 'the department' and 'the electricity inspector/officer'; no single formal authority name was given.",
+      "portal": {
+        "name": "Online Electrical Drawings approval portal (fee payable via SBI online route, bank branch, UPI or card)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "No official timeline is published on the portal per either session; reported figures are purely experiential and conflict between sessions (see INCONSISTENT gap).",
+        "text": "One session reported approval usually within two to three days, occasionally stretching to ten, thirty or forty days. The other session reported typical processing of one-and-a-half to three months. No statutory or displayed benchmark exists in either account."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Single line diagram and earlier approval number (for an expansion)",
+        "OEM test certificate and factory test certificate for equipment such as breakers",
+        "Layout/location and land-related records",
+        "Drawing prepared and countersigned by an A-class electrical contractor or consultant"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. One session cited a documentation load of roughly 40-50 documents in some cases; no single itemised checklist was given by either session, and participants said none is published on the portal.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "No participant in either session described a deemed-approval provision for Electrical Drawings; one session explicitly said no timeline at all is prescribed or shown."
+      },
+      "validity": {
+        "text": "Not clearly stated. A drawing approval is followed by a separate inspection step and then a yearly re-inspection cycle, but no participant gave a validity period for the drawing approval itself."
+      },
+      "fees": {
+        "text": "Fee is based on capacity (e.g. transformer capacity band, cable length); inspection carries a separate, higher fee (reported at roughly 1.8 to 2 times the drawing-approval fee). The fee is also collected again on resubmission, which participants objected to. No numeric fee table was given, and participants said fees and structure differ state to state."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Drawing prepared by an A-class electrical contractor or consultant (treated as compulsory)",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Application filed online; fee paid via SBI online route, bank, UPI or card based on capacity band",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Department reviews and approves (or rejects) the drawing",
+          "automated": "partial",
+          "note": "Reported turnaround ranges from two-to-three days to several weeks or months depending on session; drawings are sometimes rejected even when prepared by experienced hands."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Approval conveyed via letter/application number over WhatsApp or email",
+          "automated": "partial",
+          "note": "Final approved copy is not digitally signed or downloadable on the platform; contractor must print and hand it over."
+        },
+        {
+          "n": 5,
+          "phase": "apply",
+          "title": "Inspection applied for separately, with a separate (higher) fee, after installation is complete",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 6,
+          "phase": "inspect",
+          "title": "Government inspection carried out; recurs as a yearly re-inspection",
+          "automated": false,
+          "note": "Can arrive without prior notice, per a healthcare participant."
+        }
+      ],
+      "remarks": [
+        "This record is synthesised from two independently held FGD sessions for Electrical Drawings in MP (Indore - Education/Pharma/Agriculture/Medical/Tech; Bhopal - Mixed), with different participants and dates - treated as separate real sessions, not duplicate recordings, per the spec's default assumption.",
+        "No ED record exists for Electrical Drawings in Madhya Pradesh to cross-check against; this record is FGD-only and has not been verified against an official source.",
+        "The two sessions' reported timelines conflict sharply (days vs. months); both are retained here as reported, with the discrepancy flagged in gaps rather than resolved by guesswork."
+      ]
+    },
+    {
+      "serviceCode": "FAL",
+      "serviceName": "Factory License",
+      "sourceFiles": [
+        "MP_FGD_FAL.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Applications can remain in 'verification' without being clearly accepted or rejected; one participant's renewal application submitted in September was still pending with no indication of when it would be resolved."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY",
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Documents were rejected more than once and had to be re-prepared and re-uploaded; file-size restrictions and compression requirements were reported to affect document quality and add time."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The portal and upload process were described as not sufficiently user-friendly, particularly around document upload limits."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Significant time is spent on follow-up - checking status, calling and visiting offices - adding to the applicant's own and employees' time cost."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Participants sought clarity on the basis for the Factory Licence fee calculation, indicating that power/electricity-related parameters and employee-related information are relevant but not easy to understand."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Prolonged pendency was linked to staff shortages and workload at the concerned office, with no clear indication given to applicants of when a pending case will be resolved."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Participants said a clear service timeline is needed so applicants can understand the expected time for verification, approval or rejection."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "Where an application remains pending for an extended period, there is no clear channel for escalation, leaving applicants to repeatedly follow up merely to learn the status."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "neutral",
+          "text": "Online application with document-based verification is available and can, in principle, be completed by the applicant without engaging a consultant."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "Consultant support can become necessary where documents are repeatedly rejected; one participant had to involve a consultant only after that happened."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "Physical inspection is not required in every case - one participant's licence was processed online, without an inspector visit, where documents were in order."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "No specific document was conclusively identified as redundant, but the overall burden of preparing, compressing and repeatedly uploading documents was the stronger concern, particularly on resubmission after correction."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE",
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Define clear responsibility and an escalation channel for pending cases rather than leaving applicants to repeatedly check status themselves."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Make the fee-calculation basis (power/electricity and employee-related parameters) clear and easy for applicants to understand upfront."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry Representative",
+          "quote": "The application is still in verification; it has neither been accepted nor rejected.",
+          "topic": "Stuck in verification",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "The renewal application was submitted in September, but it is still pending.",
+          "topic": "Long-pending renewal",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "The file had to be compressed for uploading, which affected its quality.",
+          "topic": "Portal upload limitations",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "There is a shortage of staff, and applications can remain pending for a long time.",
+          "topic": "Staff capacity constraint",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "The website and the online process should be more user-friendly.",
+          "topic": "Portal usability",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "A consultant had to be involved after repeated rejection of the application.",
+          "topic": "Consultant dependence after rejection",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "The fee calculation should be clear, including the basis linked to power/electricity and employee-related parameters.",
+          "topic": "Fee transparency",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No participant stated a prescribed or displayed timeline for Factory Licence verification, approval or rejection; one renewal application had been pending since September with no resolution date in sight."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The fee basis is described only as linked to 'power/electricity-related parameters and employee-related information,' with no actual fee formula or figures given."
+        },
+        {
+          "flag": "MISSING",
+          "text": "Validity period and deemed-approval provisions for Factory Licence were not discussed by participants in this session."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Recommended reforms: a defined escalation channel for long-pending applications, a published timeline for verification/approval/rejection, a clearer fee-calculation basis, and a more usable document-upload process (format/size limits that do not degrade document quality)."
+        }
+      ],
+      "issuingAuthority": "Factories Department, Madhya Pradesh (implied - participants refer only to 'the department' and 'the office'; no single formal authority name was given).",
+      "portal": {
+        "name": "Online Factory Licence application portal (not independently named by participants)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "No timeline was communicated to applicants in this session; one renewal application had been pending since September with no resolution in sight at the time of the discussion.",
+        "text": "Participants expected the application status to move within a defined period but currently do not have one; verification can remain open indefinitely without being clearly accepted or rejected."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "unclear",
+      "documents": [
+        "Documents uploaded per prescribed guidelines on the online portal (not itemised by participants)",
+        "Power/electricity-related details and employee-related information (relevant to the fee basis)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants did not conclusively identify any document as redundant, but described a general burden around preparing, compressing and repeatedly re-uploading documents after rejection.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not discussed by participants in this session."
+      },
+      "validity": {
+        "text": "Not discussed in this session."
+      },
+      "fees": {
+        "text": "Fee basis is linked to power/electricity-related parameters and employee-related information, but participants said the calculation is not easy to understand; no specific fee figures or formula were given."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant files online, following prescribed document guidelines",
+          "automated": true,
+          "note": "Participants said this can be completed without a consultant in straightforward cases."
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Department verifies documents; file-size/compression limits can affect document quality on upload",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Documents rejected are returned for correction and re-upload, sometimes more than once",
+          "automated": false,
+          "note": "A consultant may be engaged at this point if rejections repeat."
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Physical inspection (not required in every case)",
+          "automated": false,
+          "note": "One participant's licence was processed without any inspector visit."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Licence issued once documents are in order",
+          "automated": "partial",
+          "note": "No detail given on how approval is conveyed."
+        }
+      ],
+      "remarks": [
+        "No ED record exists for Factory Licence in Madhya Pradesh to cross-check against; this record is FGD-only and has not been verified against an official source.",
+        "This was a comparatively short, thinner session (five participants, 40 minutes); findings and quotes are fewer in number accordingly, per the spec's guidance not to pad thin sessions."
+      ]
+    },
+    {
+      "serviceCode": "FNO",
+      "serviceName": "Fire NOC",
+      "sourceFiles": [
+        "MP_FGD_FNO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CAPACITY",
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Rural applications still run largely on paper: the file moves from the collector to the SDM, then to the tehsildar and the patwari, with the consultant or client carrying hard copies and chasing each office; participants said the patwari often does not answer the phone."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Hard copies are demanded after applicants have already filled everything in online."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY",
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Documents are asked for that the portal itself does not require - for example an electrical NOC insisted on where the portal asks only for an electrical audit, and a CSR report called for as an additional document."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Changes such as a different staircase, a ramp or an emergency exit are sometimes demanded at inspection in a building already constructed to the approved plan, at substantial cost and sometimes requiring structural alteration."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INSPECT",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Inspection is delayed where a committee has to be formed and waits until every member is available; one consultant said notice is sometimes given only half an hour before the visit, when the consultant may be two hundred kilometres away."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The portal is tied to a property ID whose linked mobile number does not always match the applicant; where a client holds several plots or has combined two parts of a family property, the process must be repeated for each property ID."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Approvals issued before 2022 were offline and are not on the portal, so a unit with an earlier NOC must apply afresh, paying the fee and going through the full procedure again."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "There is no route on the portal through which a grievance is actually resolved."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The compliance checklist offers only yes/no answers with no 'Not Applicable' option, and the same checklist is used for a hospital, a hotel and an industry alike, producing queries on points that do not apply to a given building."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no uniform framework for rural applications; practice depends on the collector and the district and keeps changing as officers are transferred every couple of years."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Building classification under the new rules is inconsistent with the National Building Code in at least one instance: a hotel, which the NBC places under residential, is treated by the department as mercantile because it is used for business."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Rural applications require the owner's Samagra ID, which an owner domiciled elsewhere or a government establishment does not have; the NOC then carries the name of whoever the ID belongs to, even after that person leaves."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "The portal recognises only a property ID from the urban local body, so tax paid to MPIDC by units in industrial areas is not recognised, and two parts of one family property cannot be given separate building permission (bringing two property IDs and two taxes into one application)."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "neutral",
+          "text": "The application goes to the nagar nigam, gram panchayat or nagar palika/parishad depending on the area, with the approved sanction plan, permission letter, land documents and a fire plan prepared by a registered fire consultant in line with Indian Standards and the NBC."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral",
+          "text": "Fire plan approval is valid for two months, linked to the commencement certificate for construction; the fire safety certificate is applied for after construction with an affidavit, electrical safety certificate and the fire plan approval, followed by inspection."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "suggestion",
+          "text": "Add a 'Not Applicable' option to the checklist and tailor it to the type of building instead of using the same checklist for a hospital, hotel and industry."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Create a single designated channel for rural applications with a uniform process across districts, rather than leaving practice to change with each transfer."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC",
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Stop asking for hard copies of documents already filed online, accept Aadhaar alongside the Samagra ID in rural areas, and let the mobile number against a property ID be updated."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL",
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Issue the NOC with a downloadable, verified digital signature, and provide a working helpdesk, an SOP and a genuine grievance route."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Fire Consultant",
+          "quote": "The checklist gives only yes or no. There is no Not Applicable option.",
+          "topic": "Rigid checklist design",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Fire Consultant",
+          "quote": "It goes from the collector to the SDM, then to the tehsildar and the patwari, and the patwari does not pick up the phone.",
+          "topic": "Rural process chain",
+          "tags": [
+            "CAPACITY",
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Fire Consultant",
+          "quote": "We fill it in online, so why do they want the hard copy?",
+          "topic": "Redundant hard copy demand",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Fire Consultant",
+          "quote": "The officers do not know their own scope. After the plan is approved they ask us to change the staircase or add a ramp.",
+          "topic": "Late-stage design changes",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Fire Consultant",
+          "quote": "The unit has paid its tax to MPIDC, so it has no property ID from the nagar palika and cannot even apply.",
+          "topic": "Property ID blocks application entirely",
+          "tags": [
+            "PORTAL",
+            "INTERDEP"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Fire Consultant",
+          "quote": "The earlier approvals were offline, so the portal does not have them and we have to apply afresh.",
+          "topic": "Legacy records missing from portal",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Fire Consultant",
+          "quote": "The NOC shows that the signature is not verified, so we have to collect it physically.",
+          "topic": "No verified digital signature",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Fire Consultant",
+          "quote": "One client's case took a year and six letters, and every time they raised fresh queries.",
+          "topic": "Repeated query cycles",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific fee figure was stated in this session for a fresh Fire NOC; the companion RFNO session names a renewal rate of five rupees per square foot plus a separate inspection fee and says renewal is charged 'at the same rate as the original approval' - which implies but does not confirm the fresh-FNO figure, since this was not independently stated in the FNO session itself."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The urban thirty-day timeline participants describe as 'generally met' is not stated as an official, displayed figure, and no timeline at all was described for rural applications."
+        },
+        {
+          "flag": "GOOD_PRACTICE",
+          "text": "Participants said that in urban bodies they have not faced significant problems and the thirty-day timeline is generally met, in contrast with the difficulties concentrated in rural areas and MPIDC-held industrial land."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Recommended reforms: a checklist with a 'Not Applicable' option tailored by building type, a single uniform channel for rural applications, acceptance of Aadhaar alongside the Samagra ID, migration of pre-2022 approvals onto the portal, a digitally signed downloadable NOC, and a working helpdesk/SOP/grievance route."
+        }
+      ],
+      "issuingAuthority": "Local body depending on area - nagar nigam, gram panchayat, or nagar palika/nagar parishad; rural files additionally route through the Collector, SDM, tehsildar and patwari. No single named authority was given.",
+      "portal": {
+        "name": "Online Fire NOC application portal (approvals before 2022 were issued offline and have not been migrated onto it)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 30,
+        "maxDays": null,
+        "basis": "Participants described a roughly thirty-day timeline as 'generally met' in urban bodies; no equivalent figure exists for rural applications, which have no uniform framework.",
+        "text": "In urban bodies the thirty-day timeline is generally met, per participants. In rural (gram panchayat) areas there is no uniform process or stated timeline; files move through the collector, SDM, tehsildar and patwari and can stall indefinitely at any one of these offices."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Approved sanction plan",
+        "Permission letter",
+        "Land documents",
+        "Fire plan prepared by a registered fire consultant per Indian Standards and the National Building Code",
+        "For the fire safety certificate stage: affidavit, electrical safety certificate, and the fire plan approval",
+        "Samagra ID (rural applications)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants reported documents being demanded beyond the portal's stated list (e.g. an electrical NOC where only an electrical audit was required, and a CSR report) with no consistent explanation.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not described as such by participants; no deemed-approval consequence was mentioned for a lapsed timeline, in either urban or rural applications."
+      },
+      "validity": {
+        "text": "Fire plan approval is valid for two months, linked to the commencement certificate for construction. A validity period for the fire safety certificate/NOC itself was not stated in this session (the companion RFNO session states three years for the fire safety certificate, extendable, but this was not independently confirmed here)."
+      },
+      "fees": {
+        "text": "Not quantified by participants in this session. The companion RFNO session states a renewal rate of five rupees per square foot plus a separate inspection fee, 'at the same rate as the original approval' - suggesting but not confirming this is also the fresh-FNO fee."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Application filed to the relevant local-body authority (urban) or routed through the rural administrative chain (collector/SDM/tehsildar/patwari)",
+          "automated": "partial",
+          "note": "Urban applications are largely online; rural applications depend heavily on physical file movement."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Sanction plan, permission letter, land documents and fire plan (by a registered fire consultant) submitted",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Checklist-based review against a fixed yes/no checklist (not varied by building type)",
+          "automated": false,
+          "note": "No 'Not Applicable' option; can generate queries on inapplicable points."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Fire plan approval issued, valid two months, linked to the commencement certificate",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 5,
+          "phase": "apply",
+          "title": "After construction, fire safety certificate applied for with affidavit, electrical safety certificate and fire plan approval",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 6,
+          "phase": "inspect",
+          "title": "Inspection committee formed and inspection carried out",
+          "automated": false,
+          "note": "Waits until every member is available; notice can be as short as half an hour."
+        },
+        {
+          "n": 7,
+          "phase": "approve",
+          "title": "Fire NOC/safety certificate issued",
+          "automated": "partial",
+          "note": "Signature not digitally verified; must be collected physically."
+        }
+      ],
+      "remarks": [
+        "No ED record exists for Fire NOC in Madhya Pradesh to cross-check against; this record is FGD-only and has not been verified against an official source.",
+        "Participants were consistent that difficulties are concentrated in rural areas and in industrial areas where land is held through MPIDC, with urban applications generally working within the stated timeline."
+      ]
+    },
+    {
+      "serviceCode": "LEM",
+      "serviceName": "Legal Metrology",
+      "sourceFiles": [
+        "MP_FGD_LEM.docx",
+        "MP_FGD_LEM_1.docx"
+      ],
+      "sessionCount": 2,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The portal limits re-verification applications to six instruments at a time; units with ten to fifteen or more instruments must split a single re-verification exercise into multiple applications, although the concerned officer indicated all instruments should ideally go in one application."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES",
+            "INFORMAL"
+          ],
+          "sentiment": "issue",
+          "text": "Third-party verification by an authorised vendor adds a separate layer of cost and effort before government stamping and certification; the additional payment is seen as avoidable where direct government verification is possible."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "The government fee is visible online, but the third-party verification charge is separate with no clear standard rate, vendor list or service timeline displayed on the portal."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Document upload functionality creates avoidable difficulty around attachment size, format and number of files, including cases where required PDF attachments could not be uploaded."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "A fee increase for manufacturer, dealer and retailer licences is expected but has not been notified; participants named this the biggest challenge, since a unit cannot plan a renewal around a figure it does not have, and unconfirmed rumoured figures (fifty thousand for retailers, one lakh for dealers, one and a half lakh for manufacturers) were circulating against a current portal fee of five hundred rupees."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "A new entrepreneur cannot tell how many permissions a business needs; this is usually learnt only by asking the department or someone who has already been through the process."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "issue",
+          "text": "Where documents are submitted physically rather than online, applicants have to visit the office simply to learn whether the file is being checked or is lying untouched."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Participants raised police department involvement in the process as an obstacle, though no specific instance was described."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "Participants asked for a transparent framework specifying when third-party verification is mandatory, who is authorised, what charges apply, and how verification is to be carried out."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Land conversion has not become easier despite a stated policy allowing a unit to be set up on any land; panchayat permission alone was reported to take one to two months."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "In industrial areas, participants reported paying both the industrial-area authority and the municipal corporation for what amounts to the same property tax/charge."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive",
+          "text": "The online application process itself was described as convenient and time-saving where third-party verification is not involved, with a standard seven-day timeline referred to for processing."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral",
+          "text": "Licences are of three kinds - manufacturer, dealer and repairer - each available as new or renewal, with packaged commodities as a separate category; the licence is valid for five years while weighing instruments must be verified and stamped every year."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "PORTAL",
+            "POSITIVE"
+          ],
+          "sentiment": "positive",
+          "text": "Applicants who applied online did so themselves without a consultant and without visiting the office for approval or tracking, receiving status messages through the portal."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Multiple verification records are generated for the same compliance outcome - prior calibration records, a third-party report, then government verification and stamping - and participants questioned whether every step is necessary in every case."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Allow all eligible instruments to be included in a single re-verification application rather than capping it at six."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES",
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Publish the authorised third-party vendor framework (vendors, scope, charges, turnaround) on the portal, and integrate the vendor charge into the same online payment as the government fee."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "suggestion",
+          "text": "Notify any revised Legal Metrology fee, for new and renewal licences, with its effective date, well before it takes effect, and list every permission a product needs on the portal upfront."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Bring offline/physical file submissions under the same time limit as the online portal route, and make their status visible without requiring an office visit."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry Representative",
+          "quote": "The portal allows only six instruments in one application, so larger sets have to be split into multiple applications.",
+          "topic": "Instrument cap on re-verification",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "The vendor charge should be known upfront and should not remain outside the online process.",
+          "topic": "Opaque third-party charges",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "The reason for rejection should be clearly communicated so that the applicant knows exactly what needs to be corrected.",
+          "topic": "Unclear rejection reasons",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Licence Holder",
+          "quote": "The biggest challenge is the fee. The department says it will be increased, but nobody knows from when.",
+          "topic": "Fee uncertainty",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Licence Holder",
+          "quote": "We have heard fifty thousand for retailers, one lakh for dealers and one and a half lakh for manufacturers, but it is not confirmed.",
+          "topic": "Unconfirmed fee rumours",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "A new person does not know how many permissions his product needs. He finds out only when he asks the department.",
+          "topic": "No upfront permission checklist",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "We already pay property tax and a maintenance charge for the road, and then the corporation also asks for property tax.",
+          "topic": "Dual taxation in industrial areas",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Licence Holder",
+          "quote": "Online is much easier than the previous process.",
+          "topic": "Positive view of online route",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "positive"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "VAGUE",
+          "text": "Participants themselves describe the anticipated fee increase and its figures (fifty thousand / one lakh / one-and-a-half lakh rupees by category) as unconfirmed rumours, not official information; these are retained only as reported sentiment, not as a factual fee figure, alongside the confirmed current portal fee of five hundred rupees."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No timeline exists for physical/offline file submissions, unlike the seven-day timeline referenced for the online route; participants had no way to estimate when an offline file would be decided."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "One session reports the online application route clears 'within the timeline' with no delay, while the other session's dominant theme is uncertainty and delay tied to third-party verification, the six-instrument cap and document-upload failures - these describe two different sub-processes (fresh/renewal licensing vs. re-verification of weighing instruments) rather than a true contradiction, but the overall service experience is uneven depending on which sub-process an applicant needs."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Recommended reforms: remove or raise the six-instrument cap, publish and integrate the third-party verification framework and charges into the online payment flow, announce fee changes with advance notice, list all required permissions upfront for new entrepreneurs, and bring offline submissions under the same timeline and visibility as the online route."
+        }
+      ],
+      "issuingAuthority": "Legal Metrology Department, Madhya Pradesh (implied by participant references to 'the department'; not independently named). The service is understood by participants to fall under the Lok Seva Guarantee Act.",
+      "portal": {
+        "name": "Legal Metrology online portal (licensing and instrument re-verification; not independently named)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": 7,
+        "basis": "A standard seven-day timeline was referred to by participants for the online route, though not confirmed as an official statutory figure distinct from the Lok Seva Guarantee Act coverage noted by the moderator.",
+        "text": "Participants who applied online for a licence said the application was cleared within the referenced timeline, with no reported delay. For instrument re-verification, the government-side steps are reported to fit within about seven days, but the add-on third-party verification step (vendor availability, reporting) can extend the overall time beyond that. No timeline exists for physical/offline file submissions."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "no",
+      "documents": [
+        "Online application with instrument/licence details (manufacturer, dealer, repairer, or packaged commodities)",
+        "Third-party vendor verification report (for re-verification of weighing instruments, up to six per application)",
+        "Calibration/prior verification records"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No exhaustive document checklist was given in either session.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "The service is noted (by the moderator) to sit under the Lok Seva Guarantee Act, but no participant described a breach of its timelines or a specific deemed-approval consequence for the online applications discussed."
+      },
+      "validity": {
+        "text": "Licence is valid for five years; weighing instruments must be verified and stamped every year regardless of the licence's own validity cycle."
+      },
+      "fees": {
+        "text": "Current online application/portal fee is five hundred rupees. A fee increase is anticipated but has not been formally notified; figures circulating among participants (fifty thousand for retailers, one lakh for dealers, one and a half lakh for manufacturers) are explicitly described by participants themselves as unconfirmed. Third-party verification charges for re-verification are separate, not displayed on the portal, and not standardised."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Applicant files online for a manufacturer/dealer/repairer licence (new or renewal), or for re-verification of weighing instruments (up to six per application)",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "For re-verification: an authorised third-party vendor verifies the instrument and issues a report",
+          "automated": false,
+          "note": "Charged and arranged separately from the government fee/process."
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Government fee paid online (five hundred rupees referenced for the licence route)",
+          "automated": true,
+          "note": "Vendor charge for third-party verification paid separately, outside the portal."
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Application reviewed against a standard seven-day timeline (licence route) or following vendor report submission (re-verification route)",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Licence issued, or instrument stamped/certified following verification",
+          "automated": "partial",
+          "note": "Status updates for the licence route come through the portal without requiring an office visit, per participants who applied online."
+        }
+      ],
+      "remarks": [
+        "This record is synthesised from two independently held FGD sessions for Legal Metrology in MP (Ujjain - manufacturing, focused on instrument re-verification; Bhopal - mixed, focused on fresh/renewal licensing), with different participants and dates - treated as separate real sessions, not duplicate recordings, per the spec's default assumption.",
+        "No ED record exists for Legal Metrology in Madhya Pradesh to cross-check against; this record is FGD-only and has not been verified against an official source.",
+        "The anticipated fee-increase figures participants mentioned are explicitly flagged by the participants themselves as unconfirmed rumours; they are retained in this record only as reported sentiment about uncertainty, not as verified fee data."
+      ]
+    },
+    {
+      "serviceCode": "RCTO",
+      "serviceName": "Renewal of Consent to Operate",
+      "sourceFiles": [
+        "MP_FGD_RCTO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": true,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC",
+            "RENEWAL"
+          ],
+          "sentiment": "issue",
+          "text": "Renewal was described as starting almost from scratch in some cases, with applicants having to re-submit documents already available from the earlier CTE/CTO process."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "The process is online but applicants still need physical follow-up, including visits to the concerned office and, in some cases, travel to Bhopal."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY",
+            "CONSULT"
+          ],
+          "sentiment": "issue",
+          "text": "The portal and compliance requirements are complicated for non-technical applicants; participants said there is no clear manual or easily accessible guidance, increasing dependence on consultants."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Availability of technical/domain experts, particularly for chemical industries, was a major concern; suitable experts may have to be brought in from Gujarat or Maharashtra, increasing both time and cost."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "INSPECT",
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Delays around inspection scheduling and submission of inspection reports, along with staff/manpower constraints at the department, were identified as sources of delay."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Delay was repeatedly linked to business costs - bank interest, labour cost, and resources or land kept tied up - while approval is pending."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CONSULT",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "There is no government-authorised panel of industry-specific experts and no prescribed or displayed fee structure for them; applicants, especially in chemicals, depend on private consultants whose fees are unregulated and often high."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue",
+          "text": "Expertise for sectors like chemicals is not available near industrial clusters, and departmental officials have limited domain understanding, so applicants bring in experts from Gujarat or Maharashtra."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CAPACITY",
+            "CLARITY"
+          ],
+          "sentiment": "issue",
+          "text": "There is no help desk or user manual to guide applicants on the application, technical terms, documents and the concerned officer, making the process hard for non-technical promoters."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "Engagement between the DIC and industries is limited and irregular; some participants had never interacted with the DIC, and there is no forum to raise recurring sector-specific problems."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "CAPACITY",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Reliable testing facilities are not available at the DIC or industrial-area level; applicants rely on private labs charging high, unregulated rates, and heavily loaded labs can take around twenty days to issue reports."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "issue",
+          "text": "There is no coordination among departments on compliance requests; MSMEs receive repeated, separate requests and visits that take time away from running the business."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "neutral",
+          "text": "Renewal is generally initiated well before expiry - one participant said the application is usually made around six months in advance - but the approval itself may still take around one to two months."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Where a minor document shortfall is identified, participants suggested the renewal process should, where appropriate, continue with a defined period given to submit the additional document rather than stalling entirely."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Explore a shorter, time-bound renewal route, with straightforward cases potentially completed in around fifteen to twenty days."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Create a government-authorised, industry-wise panel of technical experts with a displayed, fixed fee structure, and set up a clear help desk/facilitation centre with FAQs and a simple user manual."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Strengthen local processing and support through DIC/Indore so routine renewal follow-up does not require repeated travel to Bhopal, and improve testing-facility availability with transparent charges at the district/industrial-area level."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Auto-fetch documents already available from the earlier CTE/CTO approval rather than requiring re-upload, and limit updates at renewal to only the information that has actually changed."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Participant",
+          "quote": "In renewal... we have already uploaded it before.",
+          "topic": "Document reuse / renewal simplification",
+          "tags": [
+            "DUPDOC",
+            "RENEWAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "It takes two months.",
+          "topic": "Processing time",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Renewal... has to be started again from zero.",
+          "topic": "Duplicate documentation at renewal",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "It's online, but we still have to go to the office.",
+          "topic": "Physical follow-up despite online process",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Technical expert... is very necessary.",
+          "topic": "Technical expertise dependence",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "There should be a panel of experts... available.",
+          "topic": "Authorised expert panel suggestion",
+          "tags": [
+            "CONSULT"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "Help desk... it's not there.",
+          "topic": "No help desk/facilitation",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Participant",
+          "quote": "It should be handled within Indore itself, at the DIC too.",
+          "topic": "Local-level support suggestion",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED's documentsNote states Green-category units can avail an auto-renewal facility 'with minimal fresh documentation' and that the same CTO document set 'need not be resubmitted where there is no change'; FGD participants directly contradict this in practice, describing renewal as having 'to be started again from zero' with documents re-uploaded and re-verified even where nothing has changed."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED records applicantOfficeVisit as 'no' for RCTO, describing the process as fully online/faceless since 2011 with certificate delivery via WhatsApp/SMS requiring no physical visit; FGD participants contradict this, saying 'it's online, but we still have to go to the office,' including travel to Bhopal for routine renewal follow-up."
+        },
+        {
+          "flag": "INCONSISTENT",
+          "text": "ED attributes RCTO delay primarily to the applicant's own preparedness (pollution-control proposals not finalised); FGD participants instead emphasise departmental-side causes - inspection scheduling, staff/manpower shortages at the department, and the unavailability of domain experts and testing labs near industrial clusters - as significant, possibly larger, drivers of delay."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Recommended reforms beyond what the ED record covers: a government-authorised, industry-wise expert panel with a displayed fee structure; a help desk/user manual; stronger local (DIC/Indore-level) processing to avoid travel to Bhopal; improved local testing-facility availability; and a defined compliance window for minor document shortfalls instead of stalling the renewal entirely."
+        }
+      ]
+    },
+    {
+      "serviceCode": "RFNO",
+      "serviceName": "Renewal of Fire NOC",
+      "sourceFiles": [
+        "MP_FGD_RFNO.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Renewal needs the same documents as the first application plus a fire audit and the fire plan approval, but the owner rarely keeps the original plan approval, it is not downloadable on the portal, and in some cases the department itself cannot trace it."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Government-sector buildings face the same problem more sharply - in one case (an airport) the plan approval could not be found by anyone, and the consultant could not say where it was to be obtained from."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "DUPDOC",
+            "FEES"
+          ],
+          "sentiment": "issue",
+          "text": "Approvals issued before 2022 were offline and have not been carried onto the portal, so a unit with an earlier NOC must apply fresh, paying the fee and going through the full procedure again; in some cases there is no physical record either."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Renewal takes longer than the first approval: the first NOC generally comes in thirty days in urban/industrial areas while renewal is allowed sixty days; applicants are told to apply two months before expiry, and a transfer of the SDM can further slow the file."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CAPACITY",
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "There is no helpdesk, call centre or manual; when the OTP does not arrive or nothing shows on screen there is nothing to address it except a slow email channel, and no SOP exists for taking up a grievance."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The NOC does not download with a verified signature - signing in to download fails and the certificate carries a mark that its signature is not verified, so it has to be obtained physically."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "A lost plan-approval record is treated as the applicant's problem: where the department's own record is lost, the applicant is asked to produce it or start again, although the building itself was approved and built."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS",
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "No SOP exists for renewal or for taking up grievances; no procedure has been laid down for helping applicants."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "issue",
+          "text": "Validity periods do not line up across related approvals: building permission runs for five years while the fire safety certificate is valid for three (extendable)."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral",
+          "text": "Renewal follows the same route as the first application with two documents added (fire audit and fire plan approval); the fee is charged at the same rate as the original approval, reported as five rupees per square foot, with an inspection fee charged in addition."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Everything submitted the first time has to be submitted again at renewal, although it is already on the department's record, including the fire plan approval the department itself issued."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Keep plan approvals and earlier NOCs on the portal and downloadable, and bring records from before 2022 onto it."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CAPACITY",
+            "GRIEVANCE"
+          ],
+          "sentiment": "suggestion",
+          "text": "Provide a working helpdesk and call centre, lay down an SOP for renewal and for grievances, and designate a named officer for follow-up so it does not depend on personal contacts."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Issue the renewed NOC with a verified digital signature so it can be downloaded rather than collected physically."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Fire Consultant",
+          "quote": "Nobody keeps the plan approval, and it is not on the portal either.",
+          "topic": "Original approval unavailable",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Fire Consultant",
+          "quote": "The record was submitted to the department. Now where do I get the document from?",
+          "topic": "Department cannot trace its own record",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Fire Consultant",
+          "quote": "The records from before 2022 are gone. After that the record is there.",
+          "topic": "Legacy records gap",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Fire Consultant",
+          "quote": "Renewal is sixty days, so we have to apply two months before.",
+          "topic": "Renewal timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Fire Consultant",
+          "quote": "There is no SOP, no call centre, nobody to help.",
+          "topic": "No support mechanism",
+          "tags": [
+            "CAPACITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Fire Consultant",
+          "quote": "There is no designated person to follow up with. We follow up with whoever's number we have.",
+          "topic": "No accountable contact for follow-up",
+          "tags": [
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Fire Consultant",
+          "quote": "The NOC shows that the signature is not verified, so we have to take it physically.",
+          "topic": "No verified digital signature",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "The inspection fee charged in addition to the five-rupees-per-square-foot renewal rate was not quantified by participants."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "Validity periods across related approvals are described as misaligned (five-year building permission vs. three-year, extendable fire safety certificate) but the practical consequence of this misalignment, and how extension works, was not detailed."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No deemed-approval provision or consequence for a lapsed renewal timeline was described by any participant."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Recommended reforms: keep plan approvals and earlier NOCs downloadable on the portal (including pre-2022 records), provide a working helpdesk/call centre and a renewal/grievance SOP, designate an accountable officer for follow-up, and issue the renewed NOC with a verified digital signature."
+        }
+      ],
+      "issuingAuthority": "Local body/fire department depending on area, with SDM involvement in file movement - same general structure described in the companion FNO session; no single named authority given.",
+      "portal": {
+        "name": "Online Fire NOC renewal portal (same family as the fresh-NOC portal; pre-2022 approvals not migrated onto it)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 60,
+        "maxDays": 60,
+        "basis": "Participants describe a sixty-day renewal window (double the roughly thirty-day window they describe for a first approval in urban/industrial areas), with applications made about two months ahead of expiry.",
+        "text": "Renewal is allowed sixty days, and applicants are told to apply two months before expiry. A renewal made in good time is usually completed within that period, per participants, though a transfer of the SDM can slow the file further."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Same document set as the original Fire NOC application",
+        "Fire audit report",
+        "Original fire plan approval (often unavailable - not retained by the owner, not downloadable from the portal, and sometimes untraceable even by the department)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. The requirement to produce the original fire plan approval - a document the department itself issued - was the single most emphasised pain point in this session.",
+      "deemedApproval": {
+        "status": "no",
+        "days": null,
+        "text": "No deemed-approval provision was described by participants; no SOP exists for renewal at all, per participants, let alone a consequence for a lapsed timeline."
+      },
+      "validity": {
+        "text": "Building permission is described as running for five years, while the fire safety certificate is valid for three years and can be extended; participants noted the two periods do not line up."
+      },
+      "fees": {
+        "text": "Renewal fee is charged at the same rate as the original approval - reported as five rupees per square foot - with a separate inspection fee charged in addition (amount not specified)."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "pre",
+          "title": "Applicant/consultant begins roughly two months before expiry, within the sixty-day renewal window",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Renewal filed following the same route as the original application, with the fire audit and the original fire plan approval attached",
+          "automated": "partial",
+          "note": "Locating the original fire plan approval is frequently the practical bottleneck."
+        },
+        {
+          "n": 3,
+          "phase": "fee",
+          "title": "Fee paid at five rupees per square foot (same as the original approval) plus a separate inspection fee",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 4,
+          "phase": "scrutiny",
+          "title": "Application reviewed; can be slowed by SDM transfers",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "NOC renewed",
+          "automated": "partial",
+          "note": "Not issued with a verified digital signature; must be collected physically."
+        }
+      ],
+      "remarks": [
+        "No ED record exists for Renewal of Fire NOC in Madhya Pradesh to cross-check against; this record is FGD-only and has not been verified against an official source.",
+        "This session shares substantial thematic overlap with the companion FNO (fresh Fire NOC) FGD session - no helpdesk, no SOP, unverified digital signatures, and a pre-2022 records gap recur in both - but is recorded here as its own canonical-code entry (RFNO) per the spec."
+      ]
+    },
+    {
+      "serviceCode": "TLA",
+      "serviceName": "Trade License - Approval",
+      "sourceFiles": [
+        "MP_FGD_TLP.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "The process still requires physical visits despite an online application, particularly for renewal and for submitting the required receipt/form."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "An office visit can take around three to four hours, adding materially to the overall cost of obtaining or renewing the licence."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "The online system faces server-related issues that can affect the online process and make it harder to complete the service smoothly."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "RENEWAL",
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Renewal is not fully online: approval of a fresh application may be obtained online, but renewal still requires an office visit and physical submission of documents/receipt."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "RENEWAL",
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants suggested renewal should be fully integrated with the existing website so applicants do not have to visit the office for routine renewal."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "issue",
+          "text": "Participants indicated the approval process generally takes around seven to fifteen days but felt this timeline should be clearly stated and consistently followed rather than just experienced."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants suggested self-inspection could be permitted where appropriate, reducing the need for a separate physical inspection visit."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "neutral",
+          "text": "Documents include basic business and premises records - GST details, rent agreement, and electricity/property-related records - along with the previous receipt where renewal is involved."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "The old receipt/document from the previous approval is required again at renewal, suggesting information already available with the department could be used directly through the online system instead."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Server and website issues, and the offline step still required after online application, were cited as the main reasons the process takes longer than it should."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Improve the website and resolve server issues to make the online system more reliable and user-friendly, with the process clearly explained to applicants."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Clearly display the required documents, applicable fee, expected processing time and steps involved on the website before an applicant applies."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "suggestion",
+          "text": "Carry forward information already available from the previous licence/receipt instead of requiring the applicant to submit it again."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry Representative",
+          "quote": "The approval process takes around seven to fifteen days.",
+          "topic": "Reported approval timeline",
+          "tags": [
+            "TIMELINE"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "For renewal, we still have to go to the office.",
+          "topic": "Renewal not fully online",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Three to four hours are spent in the office for the process.",
+          "topic": "Time cost of office visits",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "The server issue creates problems in the online process.",
+          "topic": "Server reliability",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Renewal should also be possible online.",
+          "topic": "End-to-end online renewal suggestion",
+          "tags": [
+            "RENEWAL",
+            "PORTAL"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Self-inspection can be done.",
+          "topic": "Self-inspection suggestion",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "suggestion"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "The old receipt is required for the renewal process.",
+          "topic": "Redundant documentation at renewal",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "The website should clearly show what is required and make the process simpler.",
+          "topic": "Need for clearer portal guidance",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "No specific fee figure was stated in this session for a fresh Trade Licence approval (the companion TLR/renewal session separately names a five-hundred-rupee renewal fee, but that is not confirmed here as the fresh-approval fee)."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The seven-to-fifteen-day timeline is described by participants as a general experience, not a figure the website states or guarantees; participants explicitly called for it to be 'clearly stated and followed.'"
+        },
+        {
+          "flag": "MISSING",
+          "text": "Validity period and deemed-approval provisions for Trade Licence Approval were not discussed by participants in this session."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Recommended reforms: make renewal fully online end-to-end, resolve server reliability issues, publish documents/fee/timeline clearly on the website upfront, allow self-inspection where appropriate, and carry forward information already available from a previous licence instead of requiring resubmission."
+        }
+      ],
+      "issuingAuthority": "Local municipal body (nagar nigam/nagar palika) issuing trade licences - not independently named by participants in this session.",
+      "portal": {
+        "name": "Online Trade Licence application website (not independently named; renewal not fully integrated with it)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": 7,
+        "maxDays": 15,
+        "basis": "Participant-reported typical experience for the approval process, not confirmed by participants as an official, displayed statutory figure.",
+        "text": "Participants indicated the approval process generally takes around seven to fifteen days, but felt this was not experienced as sufficiently clear or predictable and asked that it be clearly stated and followed."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "GST details",
+        "Rent agreement",
+        "Electricity/property-related records",
+        "Previous receipt (for renewal)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. No exhaustive document checklist was given by participants.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not discussed by participants in this session."
+      },
+      "validity": {
+        "text": "Not discussed in this session; only the fact that a renewal cycle exists is established, not its length."
+      },
+      "fees": {
+        "text": "Not stated by participants for a fresh Trade Licence approval in this session. (The companion renewal/TLR session separately mentions a renewal fee of about five hundred rupees - see remarks.)"
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "apply",
+          "title": "Application submitted online with GST details, rent agreement and electricity/property-related records",
+          "automated": true,
+          "note": null
+        },
+        {
+          "n": 2,
+          "phase": "scrutiny",
+          "title": "Application processed, reportedly within about seven to fifteen days",
+          "automated": "partial",
+          "note": "Can be interrupted by server issues."
+        },
+        {
+          "n": 3,
+          "phase": "inspect",
+          "title": "Physical inspection currently required",
+          "automated": false,
+          "note": "Participants suggested self-inspection could substitute for this in appropriate cases."
+        },
+        {
+          "n": 4,
+          "phase": "approve",
+          "title": "Licence/certificate issued",
+          "automated": "partial",
+          "note": null
+        },
+        {
+          "n": 5,
+          "phase": "renew",
+          "title": "Renewal requires a physical office visit to submit the previous receipt/form, even though the process begins online",
+          "automated": false,
+          "note": null
+        }
+      ],
+      "remarks": [
+        "Naming-oddity resolution (per spec): Madhya Pradesh's file MP_FGD_TLP.docx uses the code 'TLP,' which is not part of the canonical 26-code legend. The document's own header states the service discussed is 'Trade License Approval (TLP)', and its content - GST/rent/property documents, a seven-to-fifteen-day approval window, and renewal requiring a physical office visit despite an online application - closely matches the trade-licence process described in the companion MP_FGD_TLR.docx (Trade License Renewal) session. This record has therefore been mapped to the canonical code TLA (Trade License - Approval), treating 'TLP' as this state team's own shorthand for the fresh/approval leg of the trade licence process rather than a distinct service; the discrepancy is flagged here rather than inventing a new code.",
+        "No ED record exists for Trade License Approval in Madhya Pradesh to cross-check against; this record is FGD-only and has not been verified against an official source."
+      ]
+    },
+    {
+      "serviceCode": "TLR",
+      "serviceName": "Trade License - Renewal",
+      "sourceFiles": [
+        "MP_FGD_TLR.docx"
+      ],
+      "sessionCount": 1,
+      "hasED": false,
+      "findings": [
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Online payment and server issues during renewal mean the online process does not always progress smoothly, a practical difficulty in completing it."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue",
+          "text": "A physical office visit remains necessary for renewal even though the service is discussed as an online process, reducing the benefit of online submission."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "CLARITY",
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "There is uncertainty about whether the same documents must be submitted again at renewal, and whether additional documents or display/print requirements apply in individual cases; the exact document list was not established in the discussion."
+        },
+        {
+          "source": "fgd",
+          "category": "pain",
+          "tags": [
+            "INFORMAL",
+            "GRIEVANCE"
+          ],
+          "sentiment": "issue",
+          "text": "A participant described police visits to a hotel premises - checking fire clearance, trade licence, electricity and water connections - followed by additional charges collected without a receipt, with no clarity on the authority for such charges."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "NORMS"
+          ],
+          "sentiment": "neutral",
+          "text": "The discussion clarified that an exemption being discussed for certain pollution-related requirements/categories should not be understood as a blanket exemption from the trade licence requirement itself."
+        },
+        {
+          "source": "fgd",
+          "category": "policy",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Participants were encouraged to suggest how the government can make licensing and renewal more predictable and reduce time spent navigating different offices and websites."
+        },
+        {
+          "source": "fgd",
+          "category": "procedural",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "neutral",
+          "text": "No uniform requirement for a fresh inspection at every renewal was established; one participant indicated inspection was not necessarily repeated for renewal."
+        },
+        {
+          "source": "fgd",
+          "category": "redundant",
+          "tags": [
+            "DUPDOC"
+          ],
+          "sentiment": "issue",
+          "text": "Participants questioned whether documents already available with the department need to be submitted again at renewal, indicating a need for clearer guidance on what can be carried forward."
+        },
+        {
+          "source": "fgd",
+          "category": "delay",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue",
+          "text": "Online payment/server problems can interrupt the renewal process and make completion difficult, while needing physical follow-up when the online process does not work smoothly adds further time."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Stabilise the online payment system and ensure the renewal portal and payment gateway work reliably without requiring repeated visits to resolve payment issues."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "RENEWAL",
+            "PORTAL"
+          ],
+          "sentiment": "suggestion",
+          "text": "Enable end-to-end online renewal so applicants do not need to visit the office for routine renewals."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Provide a clear, service-specific document checklist for renewal, stating exactly what is required and what, once valid, need not be submitted again."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "INTERDEP"
+          ],
+          "sentiment": "suggestion",
+          "text": "Strengthen single-window integration across licensing services, and clarify the role and authority of agencies conducting inspections at business premises so any additional charge is supported by an official receipt."
+        },
+        {
+          "source": "fgd",
+          "category": "suggestions",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion",
+          "text": "Use WhatsApp or a similar official messaging channel to communicate renewal-related instructions, updates and requirements directly to applicants."
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Industry Representative",
+          "quote": "Renewal ke liye... ek bar bhee karna padta hai.",
+          "topic": "Renewal process burden",
+          "tags": [
+            "RENEWAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Server mein issue aa raha tha... renewal mein problem aa raha hai.",
+          "topic": "Server issues during renewal",
+          "tags": [
+            "PORTAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Renewal... paanch sau rupaye...",
+          "topic": "Renewal fee",
+          "tags": [
+            "FEES"
+          ],
+          "sentiment": "neutral"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Laga bhaga mein jaana padta hai... paise dene ke liye.",
+          "topic": "Physical visit required to pay",
+          "tags": [
+            "COMPLY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Document kya same hi laga hai ya alag kuchh rahta hai.",
+          "topic": "Uncertain document requirements",
+          "tags": [
+            "CLARITY"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Police... fire... trade licence... electricity, water connection...",
+          "topic": "Multi-department premises checks",
+          "tags": [
+            "INSPECT"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "Additional charges... without receipt or anything.",
+          "topic": "Unofficial charges collected at inspection",
+          "tags": [
+            "INFORMAL"
+          ],
+          "sentiment": "issue"
+        },
+        {
+          "speaker": "Industry Representative",
+          "quote": "WhatsApp group... message",
+          "topic": "Suggested communication channel",
+          "tags": [
+            "QUERY"
+          ],
+          "sentiment": "suggestion"
+        }
+      ],
+      "gaps": [
+        {
+          "flag": "MISSING",
+          "text": "The exact document checklist for Trade Licence renewal was not established in this session - participants themselves were uncertain whether the same documents, or additional ones, are required."
+        },
+        {
+          "flag": "MISSING",
+          "text": "No statutory or displayed timeline for Trade Licence renewal was stated by participants in this session (contrast the companion TLA/TLP session, which reports a seven-to-fifteen-day figure for fresh approval)."
+        },
+        {
+          "flag": "VAGUE",
+          "text": "The authority and legal basis for additional charges collected during a multi-department premises check (police, fire, trade licence, electricity, water) was not established; participants described these charges as collected without a receipt, and no participant could name the authority responsible."
+        },
+        {
+          "flag": "REFORM",
+          "text": "Recommended reforms: a stable online payment system, fully online end-to-end renewal, a clear published document checklist distinguishing what can be carried forward, stronger single-window integration, and a requirement that any additional charge collected during inspection be backed by an official receipt."
+        }
+      ],
+      "issuingAuthority": "Local municipal body (nagar nigam/nagar palika) issuing trade licences - same general authority described in the companion TLA/TLP session; not independently named here.",
+      "portal": {
+        "name": "Online Trade Licence renewal portal and payment gateway (server/payment issues reported)",
+        "url": null
+      },
+      "timeline": {
+        "minDays": null,
+        "maxDays": null,
+        "basis": "Not stated by participants in this session; server/payment delays were reported without a clear overall timeframe being given.",
+        "text": "No specific day-range was stated for Trade Licence renewal in this session. Participants described server and payment problems interrupting the process and a physical visit often still being needed, but did not quantify an overall turnaround time."
+      },
+      "automationLevel": "partial",
+      "applicantOfficeVisit": "yes",
+      "documents": [
+        "Documents from the original Trade Licence application (exact renewal list not established - uncertainty reported by participants about whether the same or additional documents apply)",
+        "Renewal payment (about five hundred rupees, per one participant)"
+      ],
+      "documentsNote": "FGD-only record, not yet verified against an official ED. Participants explicitly raised uncertainty about the renewal document list as a problem in itself, rather than being able to state it definitively.",
+      "deemedApproval": {
+        "status": "unclear",
+        "days": null,
+        "text": "Not discussed by participants in this session."
+      },
+      "validity": {
+        "text": "Not discussed numerically in this session; only the existence of a recurring renewal requirement is established."
+      },
+      "fees": {
+        "text": "One participant cited a renewal fee of about five hundred rupees ('paanch sau rupaye'); not corroborated by other participants or confirmed as the current official figure."
+      },
+      "steps": [
+        {
+          "n": 1,
+          "phase": "renew",
+          "title": "Renewal initiated through the online process, with online payment",
+          "automated": true,
+          "note": "Payment/server issues can interrupt this step."
+        },
+        {
+          "n": 2,
+          "phase": "apply",
+          "title": "Physical office visit often still required, particularly to complete payment or submit documents",
+          "automated": false,
+          "note": null
+        },
+        {
+          "n": 3,
+          "phase": "scrutiny",
+          "title": "Document check at renewal - uncertain whether a full fresh set or only updates are required",
+          "automated": "partial",
+          "note": "Not established in the discussion."
+        },
+        {
+          "n": 4,
+          "phase": "inspect",
+          "title": "Inspection not necessarily repeated at every renewal, per one participant",
+          "automated": false,
+          "note": "No uniform requirement was established either way."
+        },
+        {
+          "n": 5,
+          "phase": "approve",
+          "title": "Renewal completed",
+          "automated": "partial",
+          "note": "No detail given on certificate/receipt delivery."
+        }
+      ],
+      "remarks": [
+        "No ED record exists for Trade License Renewal in Madhya Pradesh to cross-check against; this record is FGD-only and has not been verified against an official source.",
+        "This session and the companion TLA/TLP session describe the same underlying trade-licence ecosystem (same municipal authority, same online-portal-plus-office-visit pattern) but are recorded as separate canonical-code entries (TLA and TLR) per the spec.",
+        "Quotes in the source transcript were given partly in Hindi/English code-switched form; they are reproduced here verbatim as recorded rather than translated, per the spec's guidance to pull real, lightly-trimmed quotes."
+      ]
+    }
+  ]
+}
