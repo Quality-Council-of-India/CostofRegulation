@@ -381,7 +381,7 @@ const GAP_META = {
 };
 
 const DEFAULT_SERVICE = SERVICES.find(s=>s.code==='FAL') ? 'FAL' : (SERVICES[0]?SERVICES[0].code:null);
-const F = { view:'overview', state:null, license:null, service:DEFAULT_SERVICE, cmp:[], search:'', sort:{col:null,dir:1}, bestSvc:'all', gapsSvc:'all' };
+const F = { view:'overview', state:null, license:null, service:DEFAULT_SERVICE, cmp:[], search:'', sort:{col:null,dir:1}, bestSvc:'all', bestState:'all', gapsSvc:'all' };
 
 /* ---------- formatting helpers ---------- */
 const fmtDays = t => { if(!t || t.minDays==null) return 'Not specified'; if(t.minDays===t.maxDays) return t.minDays+' days'; return t.minDays+'–'+t.maxDays+' days'; };
@@ -592,6 +592,9 @@ function renderState(){
     ${kpiIcon('acc-primary','check','Digitisation', lic._autoShare==null?'n/a':Math.round(lic._autoShare*100)+'%', bd.online+' of '+nonInspectCount+' non-inspection steps online'+(bd.site?' · '+bd.site+' on-site visit':''))}
     ${kpiIcon(lic.deemedApproval&&lic.deemedApproval.status==='yes'?'acc-success':'acc-danger','award','Deemed approval', lic.deemedApproval?({yes:'Yes',no:'No',unclear:'Not confirmed'}[lic.deemedApproval.status]||'Not confirmed'):'Not confirmed', (lic.deemedApproval&&lic.deemedApproval.days)?(lic.deemedApproval.days+' days'):'')}
   </div>`;
+  if(lic.timeline && lic.timeline.text){
+    h += `<div class="lede" style="margin:-10px 0 16px;font-size:12.5px"><b style="color:var(--ink)">Timeline, in full:</b> ${esc(lic.timeline.text)}</div>`;
+  }
 
   if(lic.steps.length){
     h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>${icon('layers')}Process — official record</h3></div>
@@ -715,15 +718,25 @@ function serviceDropdown(id, current, allLabel){
   const withData = SERVICES.filter(sv=>AGG.byService[sv.code] && AGG.byService[sv.code].states.length);
   return `<select id="${id}"><option value="all">${esc(allLabel)}</option>${withData.map(sv=>`<option value="${sv.code}" ${current===sv.code?'selected':''}>${esc(sv.name)}</option>`).join('')}</select>`;
 }
+function stateDropdown(id, current, allLabel, pool){
+  const codes = new Set(pool.map(g=>g.state));
+  const withData = STATE_UNIVERSE.filter(su=>codes.has(su.code));
+  return `<select id="${id}"><option value="all">${esc(allLabel)}</option>${withData.map(su=>`<option value="${su.code}" ${current===su.code?'selected':''}>${esc(su.name)}</option>`).join('')}</select>`;
+}
 
 function renderBest(){
-  const items = (F.bestSvc==='all') ? [...AGG.goodPractices, ...AGG.reforms] : [...AGG.goodPractices, ...AGG.reforms].filter(g=>g.serviceCode===F.bestSvc);
-  const byCount = {};
-  [...AGG.goodPractices, ...AGG.reforms].forEach(g=>{ byCount[g.serviceCode]=(byCount[g.serviceCode]||0)+1; });
+  const all = [...AGG.goodPractices, ...AGG.reforms];
+  const items = all.filter(g=>(F.bestSvc==='all'||g.serviceCode===F.bestSvc) && (F.bestState==='all'||g.state===F.bestState));
 
-  let h = `<div class="pagehead"><div><h2>${icon('award')}Good practices &amp; reform ideas</h2><div class="lede">Every <code>GOOD_PRACTICE</code> and <code>REFORM</code> flag raised while tagging the real ED record — filter by license, or see all ${AGG.gapFlagCounts.GOOD_PRACTICE||0} good practices and ${AGG.gapFlagCounts.REFORM||0} reform ideas at once.</div></div></div>`;
-  h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="fld" style="max-width:340px"><label>Filter by license</label>${serviceDropdown('bestSvcSel', F.bestSvc, 'All licenses ('+((AGG.gapFlagCounts.GOOD_PRACTICE||0)+(AGG.gapFlagCounts.REFORM||0))+')')}</div></div></div>`;
-  h += `<div class="card"><div class="card-h"><h3>${F.bestSvc==='all'?'All licenses':esc(SVC_BY_CODE[F.bestSvc]?SVC_BY_CODE[F.bestSvc].name:F.bestSvc)}</h3><span class="note">${items.length} items</span></div><div class="card-b scroll-y" style="max-height:900px">${items.map(g=>gapItem(g,true)).join('')||'<div class="hint">None for this license.</div>'}</div></div>`;
+  let h = `<div class="pagehead"><div><h2>${icon('award')}Good practices &amp; reform ideas</h2><div class="lede">Every <code>GOOD_PRACTICE</code> and <code>REFORM</code> flag raised while tagging the real ED record — filter by license and/or State, or see all ${AGG.gapFlagCounts.GOOD_PRACTICE||0} good practices and ${AGG.gapFlagCounts.REFORM||0} reform ideas at once.</div></div></div>`;
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="grid g2">
+    <div class="fld"><label>Filter by license</label>${serviceDropdown('bestSvcSel', F.bestSvc, 'All licenses ('+((AGG.gapFlagCounts.GOOD_PRACTICE||0)+(AGG.gapFlagCounts.REFORM||0))+')')}</div>
+    <div class="fld"><label>Filter by State/UT</label>${stateDropdown('bestStateSel', F.bestState, 'All States/UTs', all)}</div>
+  </div></div></div>`;
+  const titleBits = [];
+  if(F.bestSvc!=='all') titleBits.push(esc(SVC_BY_CODE[F.bestSvc]?SVC_BY_CODE[F.bestSvc].name:F.bestSvc));
+  if(F.bestState!=='all') titleBits.push(esc(ST_BY_CODE[F.bestState]?ST_BY_CODE[F.bestState].name:F.bestState));
+  h += `<div class="card"><div class="card-h"><h3>${titleBits.length?titleBits.join(' · '):'All licenses, all States/UTs'}</h3><span class="note">${items.length} items</span></div><div class="card-b scroll-y" style="max-height:900px">${items.map(g=>gapItem(g,true)).join('')||'<div class="hint">None for this filter.</div>'}</div></div>`;
   return h;
 }
 
@@ -800,6 +813,7 @@ function render(){
   window.scrollTo(0,0);
   animateBars();
   const bestSel = document.getElementById('bestSvcSel'); if(bestSel) bestSel.onchange = e=>{ F.bestSvc=e.target.value; render(); };
+  const bestStateSel = document.getElementById('bestStateSel'); if(bestStateSel) bestStateSel.onchange = e=>{ F.bestState=e.target.value; render(); };
   const gapsSel = document.getElementById('gapsSvcSel'); if(gapsSel) gapsSel.onchange = e=>{ F.gapsSvc=e.target.value; render(); };
 }
 
