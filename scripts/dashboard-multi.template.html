@@ -506,8 +506,6 @@ function renderOverview(){
     <div class="lede">${esc(DATA.meta.sourcesNote)}</div></div>
     <span class="stamp live">${AGG.totalLicenses} license records tagged</span></div>`;
 
-  h += `<div class="banner info">${icon('alert')}<span><b>Where this stands.</b> This pass covers every license QCI has a completed Expert Discussion and/or Focused Group Discussion for — ${AGG.licensesWithFGD} of ${AGG.totalLicenses} license records now carry FGD-sourced findings and quotes alongside (or in place of) the official ED record. Secondary (web) research is on hold while this scope expands, and will be layered back in per State/license. See Method &amp; Data Quality.</span></div>`;
-
   h += `<div class="grid g5" style="margin-bottom:16px">
     ${kpiIcon('acc-primary','grid','States/UTs covered', AGG.totalStates+' / '+STATE_UNIVERSE.length, 'at least one license with ED or FGD')}
     ${kpiIcon('acc-primary','layers','Licenses covered', AGG.totalServices+' / '+SERVICES.length, 'service types with at least one ED or FGD')}
