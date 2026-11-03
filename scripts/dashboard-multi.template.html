@@ -361,6 +361,12 @@ const PHASES = DATA.phases;
 const STAGE_MAP = Object.fromEntries(PHASES.map(p=>[p.code,{k:p.code,n:p.label}]));
 const STAGES = Object.values(STAGE_MAP);
 const AGG = DATA.aggregates;
+const STEP_EQUIV = DATA.stepEquivalence || {};
+function subStageLabel(licenseCode, code){
+  const d = STEP_EQUIV[licenseCode];
+  const s = d && d.canonicalSubStages.find(x=>x.code===code);
+  return s ? s.label : code;
+}
 const COVERAGE = DATA.coverage;
 
 function licOf(stateCode, svcCode){
@@ -587,8 +593,9 @@ function renderState(){
 
   const bd = {online:lic.steps.filter(x=>x.automated===true).length, site:lic.steps.filter(x=>x.phase==='inspect').length};
   const nonInspectCount = lic.steps.filter(x=>x.phase!=='inspect').length;
+  const se = lic.stepEquivalence;
   h += `<div class="grid g4" style="margin-bottom:16px">
-    ${kpiIcon('acc-primary','layers','Steps recorded', String(lic._stepCount), lic.hasED===false?'best-effort, from FGD testimony — not ED-verified':'exactly as the Expert Discussion describes them')}
+    ${se ? kpiIcon('acc-primary','layers','Steps recorded', lic._stepCount+' raw / '+se.canonicalSubStageCount+' comparable', 'cross-state comparable count — see note below'+(se.stepSourceConfidence?' · '+se.stepSourceConfidence:'')) : kpiIcon('acc-primary','layers','Steps recorded', String(lic._stepCount), lic.hasED===false?'best-effort, from FGD testimony — not ED-verified':'exactly as the Expert Discussion describes them')}
     ${kpiIcon(lic._timeMid==null?'acc-warn':'acc-success','grid','Timeline', fmtDays(lic.timeline), (lic.timeline&&lic.timeline.basis)||'')}
     ${kpiIcon('acc-primary','check','Digitisation', lic._autoShare==null?'n/a':Math.round(lic._autoShare*100)+'%', bd.online+' of '+nonInspectCount+' non-inspection steps online'+(bd.site?' · '+bd.site+' on-site visit':''))}
     ${kpiIcon(lic.deemedApproval&&lic.deemedApproval.status==='yes'?'acc-success':'acc-danger','award','Deemed approval', lic.deemedApproval?({yes:'Yes',no:'No',unclear:'Not confirmed'}[lic.deemedApproval.status]||'Not confirmed'):'Not confirmed', (lic.deemedApproval&&lic.deemedApproval.days)?(lic.deemedApproval.days+' days'):'')}
@@ -598,15 +605,24 @@ function renderState(){
   }
 
   if(lic.steps.length){
+    const seByStep = {}; if(se) se.mappings.forEach(m=>{ seByStep[m.stepN]=m; });
     h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>${icon('layers')}Process — official record</h3></div>
       <div class="card-b"><div class="stepper">`+
-      lic.steps.map(st=>`<div class="step-v"><div class="rail-col">${stepDot(st)}<div class="line"></div></div>
+      lic.steps.map(st=>{
+        const m = seByStep[st.n];
+        const subBadges = m ? m.subStages.map(code=>`<span class="ftag" title="${m.confidence==='low'?'Lower-confidence mapping — see Compare States for reasoning':'Evidence: '+esc(m.evidence)}" style="${m.confidence==='low'?'opacity:.6':''}">${esc(subStageLabel(lic.serviceCode,code))}</span>`).join('') : '';
+        return `<div class="step-v"><div class="rail-col">${stepDot(st)}<div class="line"></div></div>
         <div class="body"><div class="sp">${esc(STAGE_MAP[st.phase]?.n||st.phase)}</div>
         <div class="st">${esc(st.title)}${stepBadge(st)}</div>
         ${st.note?`<div class="sd">${esc(st.note)}</div>`:''}
+        ${subBadges?`<div style="margin-top:6px;display:flex;gap:5px;flex-wrap:wrap">${subBadges}</div>`:''}
         ${st.documents&&st.documents.length?`<div class="step-docs"><b>Documents required here (${st.documents.length})</b><ul>${st.documents.map(d=>`<li>${esc(d)}</li>`).join('')}</ul></div>`:''}
-        </div></div>`).join('')+
+        </div></div>`;
+      }).join('')+
       '</div></div></div>';
+    if(se){
+      h += `<div class="lede" style="margin:-10px 0 16px;font-size:12px"><b style="color:var(--ink)">Step-equivalence (pilot, Factory License only):</b> the purple tags above show which of this license's ${STEP_EQUIV[lic.serviceCode].canonicalSubStages.length} shared cross-state sub-stages each step actually covers — built from the real step text of all 22 pilot states, not assumed. One raw step can cover more than one sub-stage (e.g. "upload documents and pay the fee" in one step); a faded tag means the mapping is lower-confidence (the step text didn't clearly state it). This is what makes "${lic._stepCount} steps" comparable to another state's different step count. See Compare States to line this up against another state.</div>`;
+    }
   }
 
   h += `<div class="grid g3" style="margin-bottom:16px">
@@ -643,19 +659,30 @@ function renderCompare(){
   h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="statepick">${pool.map(s=>`<button class="${F.cmp.includes(s.code)?'on':''}" onclick="toggleCmp('${s.code}')">${esc(s.name)} <span class="n">${s.code}</span></button>`).join('')}</div><div class="hint">Select up to 4. Selecting a 5th replaces the first pick.</div></div></div>`;
   const chosen = F.cmp.map(c=>({s:ST_BY_CODE[c], lic:licOf(c, svc)})).filter(x=>x.s && x.lic);
   if(chosen.length<2) return h+'<div class="empty"><b>Pick at least two States</b></div>';
+  const hasStepEquiv = !!STEP_EQUIV[svc];
   h += `<div class="grid" style="grid-template-columns:repeat(${chosen.length},minmax(0,1fr));margin-bottom:16px">`+
     chosen.map(({s,lic})=>`<div class="cmp-col"><div class="cc-h"><div class="n">${esc(s.name)}</div><div class="s">${esc((lic.ed&&lic.ed.date)||'')}</div></div>
-      <div class="cmp-row"><div class="l">Steps</div>${lic._stepCount}</div>
+      <div class="cmp-row"><div class="l">Steps</div>${lic.stepEquivalence?`${lic._stepCount} raw / <b>${lic.stepEquivalence.canonicalSubStageCount} comparable</b>`:lic._stepCount}</div>
       <div class="cmp-row"><div class="l">Timeline</div>${fmtDays(lic.timeline)}</div>
       <div class="cmp-row"><div class="l">Digitisation</div>${autoLevelTag(lic)}</div>
       <div class="cmp-row"><div class="l">Deemed approval</div>${deemedBadge(lic.deemedApproval)}</div>
       <div class="cmp-row" style="border-bottom:0"><div class="l">Portal</div>${portalLink(lic)}</div>
       </div>`).join('')+'</div>';
+  if(hasStepEquiv){
+    h += `<div class="lede" style="margin:-10px 0 16px;font-size:12px"><b style="color:var(--ink)">Why "raw" and "comparable" differ (pilot, this license only):</b> one State's single step can cover more than one shared cross-state sub-stage (e.g. "upload documents and pay the fee" in one step), so raw step counts alone aren't a fair comparison. The comparable figure counts actual sub-stages covered, fact-checked against each State's real step text — see the sub-stage tags in the process view below.</div>`;
+  }
   h += `<div class="card"><div class="card-h"><h3>Process, side by side</h3></div><div class="card-b tight">
     <div class="grid" style="grid-template-columns:repeat(${chosen.length},minmax(0,1fr))">`+
-    chosen.map(({s,lic})=>`<div style="padding:11px 13px;border-right:1px solid var(--border-2)"><div style="font-weight:700;font-size:12.5px;margin-bottom:9px;cursor:pointer" onclick="goStateService('${s.code}','${svc}')">${esc(s.name)}</div><div class="stepper">`+
-      lic.steps.map(st=>`<div class="step-v"><div class="rail-col">${stepDot(st)}<div class="line"></div></div><div class="body" style="padding-bottom:16px"><div class="sp">${esc(STAGE_MAP[st.phase]?.n||st.phase)}</div><div class="st" style="font-size:12px">${esc(st.title)}</div></div></div>`).join('')+
-      '</div></div>').join('')+'</div></div></div>';
+    chosen.map(({s,lic})=>{
+      const seByStep = {}; if(lic.stepEquivalence) lic.stepEquivalence.mappings.forEach(m=>{ seByStep[m.stepN]=m; });
+      return `<div style="padding:11px 13px;border-right:1px solid var(--border-2)"><div style="font-weight:700;font-size:12.5px;margin-bottom:9px;cursor:pointer" onclick="goStateService('${s.code}','${svc}')">${esc(s.name)}</div><div class="stepper">`+
+      lic.steps.map(st=>{
+        const m = seByStep[st.n];
+        const subBadges = m ? m.subStages.map(code=>`<span class="ftag" style="font-size:8px;${m.confidence==='low'?'opacity:.6':''}">${esc(subStageLabel(svc,code))}</span>`).join('') : '';
+        return `<div class="step-v"><div class="rail-col">${stepDot(st)}<div class="line"></div></div><div class="body" style="padding-bottom:16px"><div class="sp">${esc(STAGE_MAP[st.phase]?.n||st.phase)}</div><div class="st" style="font-size:12px">${esc(st.title)}</div>${subBadges?`<div style="margin-top:4px;display:flex;gap:3px;flex-wrap:wrap">${subBadges}</div>`:''}</div></div>`;
+      }).join('')+
+      '</div></div>';
+    }).join('')+'</div></div></div>';
   return h;
 }
 function toggleCmp(code){ const i=F.cmp.indexOf(code); if(i>=0) F.cmp.splice(i,1); else { if(F.cmp.length>=4) F.cmp.shift(); F.cmp.push(code); } render(); }
@@ -802,6 +829,13 @@ function renderMethod(){
   h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Tagging taxonomy</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">
     <p>Every finding has a <b>category</b> (pain / policy / procedural / redundant / delay / suggestions / remarks), 0 or more <b>topic tags</b> (e.g. PORTAL, CONSULT, FEES, TIMELINE, INTERDEP), and a <b>sentiment</b> (issue / neutral / positive / suggestion). Every step carries a <b>phase</b> tag (pre / apply / fee / scrutiny / inspect / approve / renew), applied consistently across all ${AGG.totalLicenses} reports, which is what makes the Stage Comparison view genuinely cross-State comparable rather than just a list.</p>
   </div></div>`;
+
+  if(Object.keys(STEP_EQUIV).length){
+    const se = STEP_EQUIV.FAL;
+    h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Step-equivalence analysis (pilot)</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">
+      <p>A raw step count isn't a fair cross-State comparison — one State's single step can cover what another State splits into two or three. For <b style="color:var(--ink)">Factory License, across the ${Object.keys(se.stateMappings).length} States with FAL data</b>, every State's real step text was read and mapped to a shared set of ${se.canonicalSubStages.length} cross-State sub-stages (e.g. online application, document upload, fee payment, deficiency notice, inspection, approval), built bottom-up from the actual step text — never assumed from a generic idea of how factory licensing "should" work. A mapping is only made where the step's own wording supports it; where the text is too thin to be sure, the mapping is kept but flagged low-confidence rather than guessed. This gives a <b style="color:var(--ink)">comparable sub-stage count</b> alongside the raw step count, visible on State Profile and Compare States for this license. Currently scoped to Factory License only (the license used in the pilot demo); extending to other licenses is the next step.</p>
+    </div></div>`;
+  }
 
   h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Format — why a single file</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">
     <p>This is one self-contained HTML file — every finding and gap is embedded directly in it. No server, no database, no login: open it in a browser, email it, or host it anywhere as a static file. The build pipeline (<code>scripts/build-multi-dashboard.js</code>) is reproducible: adding a State's ED for a new license means adding one file under <code>scripts/ed_data/</code> and re-running the build, not redoing this by hand.</p>

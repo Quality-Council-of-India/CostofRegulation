@@ -1,0 +1,1871 @@
+{
+  "license": "FAL",
+  "canonicalSubStages": [
+    {
+      "code": "PORTAL_REGISTRATION",
+      "label": "Portal/account registration and Unit creation on a single-window EODB-type portal, prior to filing the service-specific application",
+      "evidenceStates": [
+        "AR",
+        "DNHDD",
+        "UP"
+      ]
+    },
+    {
+      "code": "APPLY_ONLINE",
+      "label": "Online submission of the Factory Licence application",
+      "evidenceStates": [
+        "AR",
+        "HP",
+        "JH",
+        "MN",
+        "NL",
+        "TG",
+        "WB",
+        "AP",
+        "CG",
+        "DNHDD",
+        "JK",
+        "PY",
+        "RJ",
+        "UP",
+        "AS",
+        "DL",
+        "GJ",
+        "HR",
+        "KL",
+        "MH",
+        "MP",
+        "PB"
+      ]
+    },
+    {
+      "code": "DOCUMENT_UPLOAD",
+      "label": "Upload/submission of supporting documents (forms, plans, certificates, NOCs, etc.)",
+      "evidenceStates": [
+        "AR",
+        "HP",
+        "JH",
+        "RJ",
+        "CG",
+        "DNHDD",
+        "JK",
+        "UP",
+        "AS",
+        "GJ",
+        "HR",
+        "KL",
+        "MH",
+        "MP"
+      ]
+    },
+    {
+      "code": "FEE_PAYMENT",
+      "label": "Payment of the statutory/prescribed Factory Licence fee",
+      "evidenceStates": [
+        "JH",
+        "TG",
+        "AP",
+        "DNHDD",
+        "PY",
+        "NL",
+        "UP",
+        "AS",
+        "HR"
+      ]
+    },
+    {
+      "code": "ANTECEDENT_APPROVAL",
+      "label": "A separate antecedent approval (Building Plan/Factory Drawing Approval, or plan/stability-certificate acceptance) bundled into or preceding the same Factory Licence flow",
+      "evidenceStates": [
+        "HP",
+        "AP",
+        "CG",
+        "DNHDD",
+        "AS",
+        "JK",
+        "KL"
+      ]
+    },
+    {
+      "code": "SCRUTINY",
+      "label": "Departmental review/verification of the submitted application and documents",
+      "evidenceStates": [
+        "AR",
+        "JH",
+        "MN",
+        "NL",
+        "TG",
+        "WB",
+        "AP",
+        "CG",
+        "DNHDD",
+        "JK",
+        "PY",
+        "RJ",
+        "UP",
+        "AS",
+        "GJ",
+        "HR",
+        "KL",
+        "MH",
+        "MP",
+        "PB"
+      ]
+    },
+    {
+      "code": "DEFICIENCY_NOTICE",
+      "label": "Department flags missing/incorrect documents or raises a query/objection/show-cause notice to the applicant",
+      "evidenceStates": [
+        "AR",
+        "JH",
+        "WB",
+        "RJ",
+        "JK",
+        "CG",
+        "AS",
+        "GJ",
+        "HR",
+        "UP",
+        "MP",
+        "KL"
+      ]
+    },
+    {
+      "code": "RESUBMISSION",
+      "label": "Applicant corrects, clarifies, or resubmits in response to a deficiency/query/objection",
+      "evidenceStates": [
+        "AR",
+        "JH",
+        "WB",
+        "RJ",
+        "CG",
+        "UP",
+        "HR",
+        "MP",
+        "PB"
+      ]
+    },
+    {
+      "code": "INTERNAL_ROUTING",
+      "label": "File forwarded/routed between offices or officials with no independently described review or decision content",
+      "evidenceStates": [
+        "JH",
+        "MN",
+        "PY",
+        "AP"
+      ]
+    },
+    {
+      "code": "INSPECTION",
+      "label": "Physical/site/field verification of the factory premises",
+      "evidenceStates": [
+        "AR",
+        "HP",
+        "JH",
+        "MN",
+        "TG",
+        "WB",
+        "AP",
+        "CG",
+        "DNHDD",
+        "JK",
+        "PY",
+        "UP",
+        "DL",
+        "KL",
+        "MH",
+        "MP"
+      ]
+    },
+    {
+      "code": "THIRD_PARTY_CERTIFICATION",
+      "label": "Tests, certifications or sign-offs obtained from empanelled third-party agencies/auditors as an explicit step in the licensing flow",
+      "evidenceStates": [
+        "GJ",
+        "MH"
+      ]
+    },
+    {
+      "code": "APPROVAL",
+      "label": "Decision by the competent authority to approve/grant/sanction the Factory Licence",
+      "evidenceStates": [
+        "AR",
+        "HP",
+        "JH",
+        "MN",
+        "NL",
+        "TG",
+        "WB",
+        "AP",
+        "CG",
+        "DNHDD",
+        "JK",
+        "PY",
+        "RJ",
+        "UP",
+        "AS",
+        "GJ",
+        "HR",
+        "KL",
+        "MH",
+        "MP",
+        "PB"
+      ]
+    },
+    {
+      "code": "ISSUANCE",
+      "label": "Generation, delivery, or download of the Factory Licence certificate",
+      "evidenceStates": [
+        "AR",
+        "HP",
+        "JH",
+        "MN",
+        "NL",
+        "TG",
+        "WB",
+        "AP",
+        "CG",
+        "DNHDD",
+        "PY",
+        "RJ",
+        "UP",
+        "AS",
+        "HR",
+        "MH",
+        "MP"
+      ]
+    },
+    {
+      "code": "RENEWAL",
+      "label": "A periodic renewal requirement described as part of or adjoining the Factory Licence flow",
+      "evidenceStates": [
+        "AP",
+        "AS"
+      ]
+    }
+  ],
+  "stateMappings": {
+    "AR": {
+      "hasED": true,
+      "rawStepCount": 10,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Applicant obtains a Unique Business Identification Number (UBIN) via the Planning & Investment Department's EODB portal",
+          "subStages": [
+            "PORTAL_REGISTRATION"
+          ],
+          "evidence": "obtains a Unique Business Identification Number (UBIN) via the Planning & Investment Department's EODB portal",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Applicant logs into the portal and selects the Factory License service under the Department of Industries",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "logs into the portal and selects the Factory License service",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Applicant fills Form 6 (AP Factories Rules 2012) and uploads all 14 required documents online",
+          "subStages": [
+            "APPLY_ONLINE",
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "fills Form 6 (AP Factories Rules 2012) and uploads all 14 required documents online",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Application is received by the Nodal Officer and forwarded to the dealing assistant for scrutiny",
+          "subStages": [
+            "SCRUTINY"
+          ],
+          "evidence": "forwarded to the dealing assistant for scrutiny",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Dealing assistant flags any missing or invalid document/data directly to the applicant for rectification and resubmission",
+          "subStages": [
+            "DEFICIENCY_NOTICE",
+            "RESUBMISSION"
+          ],
+          "evidence": "flags any missing or invalid document/data directly to the applicant for rectification and resubmission",
+          "confidence": "high"
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "Once verified complete, file is forwarded to the Branch Officer, who reviews technicalities and recommends a site inspection",
+          "subStages": [
+            "SCRUTINY"
+          ],
+          "evidence": "Branch Officer, who reviews technicalities and recommends a site inspection",
+          "confidence": "high"
+        },
+        {
+          "stepN": 7,
+          "stepTitle": "Site/field visit scheduled and carried out to verify the factory unit physically exists and is operational",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Site/field visit scheduled and carried out to verify the factory unit physically exists",
+          "confidence": "high"
+        },
+        {
+          "stepN": 8,
+          "stepTitle": "Inspection findings go to the Chief Inspector of Factories, who approves or rejects based on documents and inspection report",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "who approves or rejects based on documents and inspection report",
+          "confidence": "high"
+        },
+        {
+          "stepN": 9,
+          "stepTitle": "On approval, the file is sent back to the applicant for payment of the nominal statutory fee through the portal",
+          "subStages": [
+            "FEE_PAYMENT"
+          ],
+          "evidence": "sent back to the applicant for payment of the nominal statutory fee through the portal",
+          "confidence": "high"
+        },
+        {
+          "stepN": 10,
+          "stepTitle": "After payment, file returns to the Chief Inspector for final sign-off, and the factory license is delivered to the applicant",
+          "subStages": [
+            "APPROVAL",
+            "ISSUANCE"
+          ],
+          "evidence": "final sign-off, and the factory license is delivered to the applicant",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 10,
+      "stepSourceConfidence": null
+    },
+    "HP": {
+      "hasED": true,
+      "rawStepCount": 7,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Submit Factory Building Plan Approval (BPA) application through the departmental online portal",
+          "subStages": [
+            "ANTECEDENT_APPROVAL"
+          ],
+          "evidence": "Submit Factory Building Plan Approval (BPA) application through the departmental online portal",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Upload required documents and building drawings online",
+          "subStages": [
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "Upload required documents and building drawings online",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Assistant Director (Factory) conducts field verification and forwards the case to the Chief Inspector of Factories",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "conducts field verification",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Building plan approved; applicant becomes eligible to apply for a Factory License",
+          "subStages": [
+            "ANTECEDENT_APPROVAL"
+          ],
+          "evidence": "Building plan approved; applicant becomes eligible to apply for a Factory License",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Factory License application submitted through the same online portal",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Factory License application submitted through the same online portal",
+          "confidence": "high"
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "Assistant Director undertakes field verification for the licensing application",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "undertakes field verification for the licensing application",
+          "confidence": "high"
+        },
+        {
+          "stepN": 7,
+          "stepTitle": "Verified application forwarded to the competent authority for approval and issuance of the Factory License",
+          "subStages": [
+            "APPROVAL",
+            "ISSUANCE"
+          ],
+          "evidence": "forwarded to the competent authority for approval and issuance of the Factory License",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 6,
+      "stepSourceConfidence": null
+    },
+    "JH": {
+      "hasED": true,
+      "rawStepCount": 7,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Login & Selection",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Applicant logs into the Jharkhand Single Window/Shramadhan portal and selects Factory Act registration and grant of license",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Application Submission",
+          "subStages": [
+            "APPLY_ONLINE",
+            "DOCUMENT_UPLOAD",
+            "FEE_PAYMENT"
+          ],
+          "evidence": "Applicant completes Form No. 2, uploads documents, and pays the license fee online",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Scrutiny & Deficiency",
+          "subStages": [
+            "SCRUTINY",
+            "DEFICIENCY_NOTICE",
+            "RESUBMISSION"
+          ],
+          "evidence": "Receiving office scrutinizes the application; deficiencies communicated electronically for resubmission",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Forwarding",
+          "subStages": [
+            "INTERNAL_ROUTING"
+          ],
+          "evidence": "Complete application forwarded electronically to the Inspector of Factories",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Review & Inspection",
+          "subStages": [
+            "SCRUTINY",
+            "INSPECTION"
+          ],
+          "evidence": "Inspector reviews the application and conducts a site inspection",
+          "confidence": "high"
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "Recommendation",
+          "subStages": [
+            "INTERNAL_ROUTING"
+          ],
+          "evidence": "Inspector records findings/recommendations and forwards the case to the Deputy Chief Inspector",
+          "confidence": "high"
+        },
+        {
+          "stepN": 7,
+          "stepTitle": "Approval & Issuance",
+          "subStages": [
+            "APPROVAL",
+            "ISSUANCE"
+          ],
+          "evidence": "Competent authority approves; license issued electronically",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 10,
+      "stepSourceConfidence": null
+    },
+    "MN": {
+      "hasED": true,
+      "rawStepCount": 6,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Applicant submits Factory Licence application through the online system",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "submits Factory Licence application through the online system",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Department verifies application and supporting documents",
+          "subStages": [
+            "SCRUTINY"
+          ],
+          "evidence": "verifies application and supporting documents",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "If documents are correct, application forwarded for physical inspection",
+          "subStages": [
+            "INTERNAL_ROUTING"
+          ],
+          "evidence": "forwarded for physical inspection",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Inspection team conducts physical inspection of factory/site",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Inspection team conducts physical inspection of factory/site",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Inspection report prepared and submitted for further processing",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Inspection report prepared and submitted for further processing",
+          "confidence": "high"
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "Factory Licence approved/issued after verification and inspection",
+          "subStages": [
+            "APPROVAL",
+            "ISSUANCE"
+          ],
+          "evidence": "Factory Licence approved/issued after verification and inspection",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 6,
+      "stepSourceConfidence": null
+    },
+    "NL": {
+      "hasED": true,
+      "rawStepCount": 5,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Apply online through the Labour Department's single digital portal",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Apply online through the Labour Department's single digital portal",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Inspector verifies the application",
+          "subStages": [
+            "SCRUTINY"
+          ],
+          "evidence": "Inspector verifies the application",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Inspector obtains approval from District Officer/Assistant Labour Commissioner (ALC)",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "obtains approval from District Officer/Assistant Labour Commissioner (ALC)",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Factory registered/licensed through the portal",
+          "subStages": [
+            "ISSUANCE"
+          ],
+          "evidence": "Factory registered/licensed through the portal",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Applicant pays fee and downloads licence certificate",
+          "subStages": [
+            "FEE_PAYMENT",
+            "ISSUANCE"
+          ],
+          "evidence": "pays fee and downloads licence certificate",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 5,
+      "stepSourceConfidence": null
+    },
+    "TG": {
+      "hasED": true,
+      "rawStepCount": 7,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Applicant logs into TS-iPASS with the same credentials used at CTE stage",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "logs into TS-iPASS with the same credentials used at CTE stage",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Incremental details submitted and fee paid online",
+          "subStages": [
+            "APPLY_ONLINE",
+            "FEE_PAYMENT"
+          ],
+          "evidence": "Incremental details submitted and fee paid online",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Document scrutiny",
+          "subStages": [
+            "SCRUTINY"
+          ],
+          "evidence": "Document scrutiny",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Joint inspection team assigned at random; applicant informed in advance by SMS",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Joint inspection team assigned at random",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Physical site inspection against approved plan and trial-production readiness",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Physical site inspection against approved plan and trial-production readiness",
+          "confidence": "high"
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "Pending cases taken up in weekly case-by-case review meeting with nodal commissioner",
+          "subStages": [
+            "TG_PENDING_CASE_ESCALATION"
+          ],
+          "evidence": "Pending cases taken up in weekly case-by-case review meeting with nodal commissioner",
+          "confidence": "high"
+        },
+        {
+          "stepN": 7,
+          "stepTitle": "Licence issued online",
+          "subStages": [
+            "ISSUANCE"
+          ],
+          "evidence": "Licence issued online",
+          "confidence": "high"
+        },
+        {
+          "stepN": 7,
+          "stepTitle": "Licence issued online",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "Licence issued online",
+          "confidence": "low",
+          "confidenceReason": "No step in TG's record uses explicit 'approve/approval' wording; APPROVAL is inferred from the fact a licence was issued, which presupposes a departmental approval decision."
+        }
+      ],
+      "canonicalSubStageCount": 6,
+      "stepSourceConfidence": null
+    },
+    "WB": {
+      "hasED": true,
+      "rawStepCount": 5,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Submit Factory Licence application",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Submit Factory Licence application; Through the digitised/online process",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Departmental scrutiny at multiple levels",
+          "subStages": [
+            "SCRUTINY"
+          ],
+          "evidence": "Departmental scrutiny at multiple levels",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Deficiency correction",
+          "subStages": [
+            "DEFICIENCY_NOTICE",
+            "RESUBMISSION"
+          ],
+          "evidence": "If deficiencies/discrepancies are identified, the applicant may need to provide additional documents/corrections",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Physical inspection",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Physical inspection; Conducted by the competent departmental authority before licence issuance",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Licence issued",
+          "subStages": [
+            "ISSUANCE"
+          ],
+          "evidence": "Licence issued; Following scrutiny and inspection",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Licence issued",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "Licence issued; Following scrutiny and inspection",
+          "confidence": "low",
+          "confidenceReason": "No step in WB's record uses explicit 'approve/approval' wording; APPROVAL is inferred from the fact a licence was issued, which presupposes a departmental approval decision."
+        }
+      ],
+      "canonicalSubStageCount": 7,
+      "stepSourceConfidence": null
+    },
+    "AP": {
+      "hasED": true,
+      "rawStepCount": 8,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Obtain factory building plan approval (CAF-1)",
+          "subStages": [
+            "ANTECEDENT_APPROVAL"
+          ],
+          "evidence": "Obtain factory building plan approval (CAF-1)",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Apply for factory license via Single Desk Portal (CAF-2)",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Apply for factory license via Single Desk Portal (CAF-2)",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Application routed by category",
+          "subStages": [
+            "INTERNAL_ROUTING"
+          ],
+          "evidence": "Application routed by category; Hazardous industries go to the DCIF at district level; general category industries go to the concerned nodal Inspector of Factories",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Pay license fee online",
+          "subStages": [
+            "FEE_PAYMENT"
+          ],
+          "evidence": "Pay license fee online",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Inspector conducts site visit",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Inspector conducts site visit",
+          "confidence": "high"
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "Deviations handled if found",
+          "subStages": [
+            "DEFICIENCY_NOTICE",
+            "RESUBMISSION"
+          ],
+          "evidence": "Minor deviations: license issued subject to submitting a revised plan within a stipulated period; major deviations: revised plan must be approved first",
+          "confidence": "low",
+          "confidenceReason": "Text describes plan-deviation handling, not a generic document deficiency notice/resubmission; mapped by functional analogy rather than matching wording."
+        },
+        {
+          "stepN": 7,
+          "stepTitle": "License issued",
+          "subStages": [
+            "ISSUANCE"
+          ],
+          "evidence": "License issued; Statutory timeline of 7 working days for all categories",
+          "confidence": "high"
+        },
+        {
+          "stepN": 7,
+          "stepTitle": "License issued",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "License issued; Statutory timeline of 7 working days for all categories",
+          "confidence": "low",
+          "confidenceReason": "No step in AP's record (for the FAL stage itself, as distinct from the CAF-1 building-plan approval) uses explicit 'approve' wording; APPROVAL is inferred from issuance."
+        },
+        {
+          "stepN": 8,
+          "stepTitle": "Annual renewal",
+          "subStages": [
+            "RENEWAL"
+          ],
+          "evidence": "Annual renewal; Renewal fee paid online before 31 December",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 10,
+      "stepSourceConfidence": null
+    },
+    "CG": {
+      "hasED": true,
+      "rawStepCount": 7,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Submit Factory Licence application completely online through the Labour Department portal",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Submit Factory Licence application completely online through the Labour Department portal",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Obtain Factory Drawing Approval before construction of the factory can commence",
+          "subStages": [
+            "ANTECEDENT_APPROVAL"
+          ],
+          "evidence": "Obtain Factory Drawing Approval before construction of the factory can commence",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Submit prescribed application and supporting documents/NOCs applicable to the factory",
+          "subStages": [
+            "APPLY_ONLINE",
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "Submit prescribed application and supporting documents/NOCs applicable to the factory",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Inspection conducted as applicable; random inspection is computer-generated and selected through software",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Inspection conducted as applicable; random inspection is computer-generated and selected through software",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Inspection observations and show-cause notices, where applicable, communicated electronically",
+          "subStages": [
+            "DEFICIENCY_NOTICE"
+          ],
+          "evidence": "Inspection observations and show-cause notices, where applicable, communicated electronically",
+          "confidence": "high"
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "Applicant submits compliance/clarification electronically",
+          "subStages": [
+            "RESUBMISSION"
+          ],
+          "evidence": "Applicant submits compliance/clarification electronically",
+          "confidence": "high"
+        },
+        {
+          "stepN": 7,
+          "stepTitle": "After fulfilment of applicable requirements and approvals, the Factory Licence is granted",
+          "subStages": [
+            "APPROVAL",
+            "ISSUANCE"
+          ],
+          "evidence": "the Factory Licence is granted",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 8,
+      "stepSourceConfidence": null
+    },
+    "DNHDD": {
+      "hasED": true,
+      "rawStepCount": 10,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Register on EODB Single Window Portal, create Unit",
+          "subStages": [
+            "PORTAL_REGISTRATION"
+          ],
+          "evidence": "Register on EODB Single Window Portal, create Unit",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Apply for Factory Building Plan Approval",
+          "subStages": [
+            "ANTECEDENT_APPROVAL",
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "Apply for Factory Building Plan Approval; Uploads structural drawings, site plans, and manufacturing process flowcharts",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Department reviews plan and issues plan clearance",
+          "subStages": [
+            "SCRUTINY",
+            "ANTECEDENT_APPROVAL"
+          ],
+          "evidence": "Department reviews plan and issues plan clearance",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Apply for Registration of License under the Factories Act, 1948",
+          "subStages": [
+            "APPLY_ONLINE",
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "Apply for Registration of License under the Factories Act, 1948; Submits ownership/lease deed, list of directors, safety clearances",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Upload balance documents per prescribed 7-document checklist",
+          "subStages": [
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "Upload balance documents per prescribed 7-document checklist",
+          "confidence": "high"
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "Pay prescribed processing and license fee online via digital challan",
+          "subStages": [
+            "FEE_PAYMENT"
+          ],
+          "evidence": "Pay prescribed processing and license fee online via digital challan",
+          "confidence": "high"
+        },
+        {
+          "stepN": 7,
+          "stepTitle": "Department verifies application against checklist",
+          "subStages": [
+            "SCRUTINY"
+          ],
+          "evidence": "Department verifies application against checklist",
+          "confidence": "high"
+        },
+        {
+          "stepN": 8,
+          "stepTitle": "Safety officer conducts on-site inspection",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Safety officer conducts on-site inspection",
+          "confidence": "high"
+        },
+        {
+          "stepN": 9,
+          "stepTitle": "Department approves application on completion of scrutiny and inspection",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "Department approves application on completion of scrutiny and inspection",
+          "confidence": "high"
+        },
+        {
+          "stepN": 10,
+          "stepTitle": "Applicant downloads digitally signed Factory License certificate from portal",
+          "subStages": [
+            "ISSUANCE"
+          ],
+          "evidence": "downloads digitally signed Factory License certificate from portal",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 9,
+      "stepSourceConfidence": null
+    },
+    "JK": {
+      "hasED": true,
+      "rawStepCount": 5,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Apply online via the JK Single Window portal for Factory Registration (with Building Plan Approval where applicable)",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Apply online via the JK Single Window portal for Factory Registration",
+          "confidence": "high"
+        },
+        {
+          "stepN": 1,
+          "stepTitle": "Apply online via the JK Single Window portal for Factory Registration (with Building Plan Approval where applicable)",
+          "subStages": [
+            "ANTECEDENT_APPROVAL"
+          ],
+          "evidence": "(with Building Plan Approval where applicable)",
+          "confidence": "low",
+          "confidenceReason": "Building Plan Approval bundling is explicitly conditional ('where applicable'), not a universal part of JK's flow as described."
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Upload prescribed documents (pollution certificate, manager letter, power sanction, fire NOC, site plan, lease deed, constitution docs, Aadhaar/bank details, Form 23)",
+          "subStages": [
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "Upload prescribed documents",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Dealing Assistant checks completeness; incomplete applications reverted with a query",
+          "subStages": [
+            "SCRUTINY",
+            "DEFICIENCY_NOTICE"
+          ],
+          "evidence": "Dealing Assistant checks completeness; incomplete applications reverted with a query",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Factory Inspector reviews documents and conducts a physical site inspection where required (hazardous/high-risk units)",
+          "subStages": [
+            "SCRUTINY"
+          ],
+          "evidence": "Factory Inspector reviews documents",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Factory Inspector reviews documents and conducts a physical site inspection where required (hazardous/high-risk units)",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "conducts a physical site inspection where required (hazardous/high-risk units)",
+          "confidence": "low",
+          "confidenceReason": "Inspection is explicitly conditional ('where required'), limited to hazardous/high-risk units, not a universal step for all JK applicants."
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Forwarded to Chief Inspector of Factories (Labour Commissioner) for final approval",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "Forwarded to Chief Inspector of Factories (Labour Commissioner) for final approval",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 7,
+      "stepSourceConfidence": null
+    },
+    "PY": {
+      "hasED": true,
+      "rawStepCount": 8,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Applicant files the application online via the government portal",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "files the application online via the government portal",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Application reaches the Inspector (Level 1), who verifies attachments/documents",
+          "subStages": [
+            "SCRUTINY"
+          ],
+          "evidence": "verifies attachments/documents",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Statutory fee auto-calculated and paid online",
+          "subStages": [
+            "FEE_PAYMENT"
+          ],
+          "evidence": "Statutory fee auto-calculated and paid online",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Inspector physically inspects the premises within 20 days (fresh license only)",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Inspector physically inspects the premises within 20 days",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Inspector records findings in an offline inspection report",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "records findings in an offline inspection report",
+          "confidence": "high"
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "Inspector forwards application and report to the Joint Chief Inspector of Factories",
+          "subStages": [
+            "INTERNAL_ROUTING"
+          ],
+          "evidence": "forwards application and report to the Joint Chief Inspector of Factories",
+          "confidence": "high"
+        },
+        {
+          "stepN": 7,
+          "stepTitle": "JCF forwards the case to the Chief Inspector of Factories (CAF)",
+          "subStages": [
+            "INTERNAL_ROUTING"
+          ],
+          "evidence": "JCF forwards the case to the Chief Inspector of Factories (CAF)",
+          "confidence": "high"
+        },
+        {
+          "stepN": 8,
+          "stepTitle": "CAF grants final approval and issues the license",
+          "subStages": [
+            "APPROVAL",
+            "ISSUANCE"
+          ],
+          "evidence": "CAF grants final approval and issues the license",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 7,
+      "stepSourceConfidence": null
+    },
+    "RJ": {
+      "hasED": true,
+      "rawStepCount": 5,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Submit Factory Licence application online",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Submit Factory Licence application online",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Upload required documents online",
+          "subStages": [
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "Upload required documents online",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Department reviews and verifies submitted information and documents online",
+          "subStages": [
+            "SCRUTINY"
+          ],
+          "evidence": "reviews and verifies submitted information and documents online",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Applicant informed online of incomplete/incorrect documents and resubmits",
+          "subStages": [
+            "DEFICIENCY_NOTICE",
+            "RESUBMISSION"
+          ],
+          "evidence": "informed online of incomplete/incorrect documents and resubmits",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Factory Licence approved/issued online",
+          "subStages": [
+            "APPROVAL",
+            "ISSUANCE"
+          ],
+          "evidence": "Factory Licence approved/issued online",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 7,
+      "stepSourceConfidence": null
+    },
+    "UP": {
+      "hasED": true,
+      "rawStepCount": 12,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Register on Nivesh Mitra portal",
+          "subStages": [
+            "PORTAL_REGISTRATION"
+          ],
+          "evidence": "Register on Nivesh Mitra portal",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Fill CAF and create Unit for the factory",
+          "subStages": [
+            "PORTAL_REGISTRATION"
+          ],
+          "evidence": "Fill CAF and create Unit for the factory",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Apply for Permission — select Labour / Factory License",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Apply for Permission — select Labour / Factory License",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Fill service-specific application form",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Fill service-specific application form",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Upload required documents",
+          "subStages": [
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "Upload required documents",
+          "confidence": "high"
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "Pay prescribed processing fee online",
+          "subStages": [
+            "FEE_PAYMENT"
+          ],
+          "evidence": "Pay prescribed processing fee online",
+          "confidence": "high"
+        },
+        {
+          "stepN": 7,
+          "stepTitle": "Submission starts tracker",
+          "subStages": [
+            "UP_TRACKER_INITIATION"
+          ],
+          "evidence": "Submission starts tracker",
+          "confidence": "low",
+          "confidenceReason": "No distinct departmental action is described beyond starting an applicant-facing tracker; does not clearly correspond to any canonical sub-stage."
+        },
+        {
+          "stepN": 8,
+          "stepTitle": "Labour Department scrutinizes application",
+          "subStages": [
+            "SCRUTINY",
+            "DEFICIENCY_NOTICE"
+          ],
+          "evidence": "Labour Department scrutinizes application; Query raised online if discrepancies exist",
+          "confidence": "high"
+        },
+        {
+          "stepN": 9,
+          "stepTitle": "Site inspection by inspection team",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Site inspection by inspection team",
+          "confidence": "high"
+        },
+        {
+          "stepN": 10,
+          "stepTitle": "Inspection report uploaded; defects rectified",
+          "subStages": [
+            "INSPECTION",
+            "RESUBMISSION"
+          ],
+          "evidence": "Inspection report uploaded; defects rectified; applicant typically has 15 days to rectify and upload a compliance report",
+          "confidence": "high"
+        },
+        {
+          "stepN": 11,
+          "stepTitle": "Competent authority approves and uploads digitally signed license",
+          "subStages": [
+            "APPROVAL",
+            "ISSUANCE"
+          ],
+          "evidence": "Competent authority approves and uploads digitally signed license",
+          "confidence": "high"
+        },
+        {
+          "stepN": 12,
+          "stepTitle": "Applicant downloads digitally signed Factory License",
+          "subStages": [
+            "ISSUANCE"
+          ],
+          "evidence": "Applicant downloads digitally signed Factory License",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 10,
+      "stepSourceConfidence": null
+    },
+    "AS": {
+      "hasED": false,
+      "rawStepCount": 6,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Factory obtains plan approval and stability certificate acceptance from the same department (precondition)",
+          "subStages": [
+            "ANTECEDENT_APPROVAL"
+          ],
+          "evidence": "Factory obtains plan approval and stability certificate acceptance from the same department (precondition)",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Apply for registration/licensing at least 15 days before taking the factory into use, submitting constitution documents (partnership deed/MOA/board resolution nominating occupier) afresh",
+          "subStages": [
+            "APPLY_ONLINE",
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "Apply for registration/licensing at least 15 days before taking the factory into use, submitting constitution documents (partnership deed/MOA/board resolution nominating occupier) afresh",
+          "confidence": "low",
+          "confidenceReason": "Step marked automated:false and references a treasury-challan-based fee process elsewhere in this record; the submission channel is not clearly described as online, so APPLY_ONLINE/DOCUMENT_UPLOAD are the closest fit but not confidently confirmed as a digital action."
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Deposit licence fee via treasury challan under specified head of account (or online via eGRAS), with original receipt required",
+          "subStages": [
+            "FEE_PAYMENT"
+          ],
+          "evidence": "Deposit licence fee via treasury challan under specified head of account (or online via eGRAS)",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Department scrutinises file; objections on occupier nomination, board resolution and fee schedule raised one after another rather than together",
+          "subStages": [
+            "SCRUTINY",
+            "DEFICIENCY_NOTICE"
+          ],
+          "evidence": "Department scrutinises file; objections on occupier nomination, board resolution and fee schedule raised one after another",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Licence issued/renewed by department head office for the state, subject to vacant inspector posts and renewal-season backlog",
+          "subStages": [
+            "ISSUANCE"
+          ],
+          "evidence": "Licence issued/renewed by department head office for the state",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Licence issued/renewed by department head office for the state, subject to vacant inspector posts and renewal-season backlog",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "Licence issued/renewed by department head office for the state",
+          "confidence": "low",
+          "confidenceReason": "No step in AS's record uses explicit 'approve/approval' wording for the FAL decision itself; APPROVAL is inferred from the fact a licence was issued."
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "Annual renewal required even with no change; duplicate licence (if lost) requires a police FIR",
+          "subStages": [
+            "RENEWAL"
+          ],
+          "evidence": "Annual renewal required even with no change",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 9,
+      "stepSourceConfidence": "business-testimony, not officially verified"
+    },
+    "DL": {
+      "hasED": false,
+      "rawStepCount": 2,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Apply for Factory License (typically via consultant)",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Apply for Factory License (typically via consultant)",
+          "confidence": "low",
+          "confidenceReason": "Automation marked 'unclear' and step text does not itself state the application is filed online; mapped to APPLY_ONLINE as the closest fit for an application-filing action, not confirmed as digital."
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Inspection(s)",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Inspection(s); Inspections continue even after a license has been obtained",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 2,
+      "stepSourceConfidence": "business-testimony, not officially verified"
+    },
+    "GJ": {
+      "hasED": false,
+      "rawStepCount": 4,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Agent/consultant collects documents and submits application via portal",
+          "subStages": [
+            "APPLY_ONLINE",
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "Agent/consultant collects documents and submits application via portal",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Department reviews application and raises queries",
+          "subStages": [
+            "SCRUTINY",
+            "DEFICIENCY_NOTICE"
+          ],
+          "evidence": "Department reviews application and raises queries",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Tests and sign-offs obtained from empanelled agencies (stability, air-compressor, lift, etc.)",
+          "subStages": [
+            "THIRD_PARTY_CERTIFICATION"
+          ],
+          "evidence": "Tests and sign-offs obtained from empanelled agencies (stability, air-compressor, lift, etc.)",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Licence approval, subject to no fixed turnaround time",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "Licence approval, subject to no fixed turnaround time",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 6,
+      "stepSourceConfidence": "business-testimony, not officially verified"
+    },
+    "HR": {
+      "hasED": false,
+      "rawStepCount": 6,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "New/transferred staff learn documentation requirements (e.g., board resolution format)",
+          "subStages": [
+            "HR_INTERNAL_KNOWLEDGE_GAP"
+          ],
+          "evidence": "New joiners in a company do not know the expected format of documents and upload samples that are then queried",
+          "confidence": "low",
+          "confidenceReason": "Describes an applicant-side organisational/knowledge issue, not a department process step; does not correspond to any canonical licensing sub-stage, kept as a state-specific label."
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Complete and submit application on the Invest Haryana portal; OTP-verify the generated form",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Complete and submit application on the Invest Haryana portal; OTP-verify the generated form",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Complete and submit application on the Invest Haryana portal; OTP-verify the generated form",
+          "subStages": [
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "a signed copy still has to be printed, signed and re-uploaded",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Pay fee (calculated automatically on horsepower/manpower) via online payment or e-GRAS challan",
+          "subStages": [
+            "FEE_PAYMENT"
+          ],
+          "evidence": "Pay fee (calculated automatically on horsepower/manpower) via online payment or e-GRAS challan",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Application reviewed sequentially by three to four authority levels",
+          "subStages": [
+            "SCRUTINY"
+          ],
+          "evidence": "Application reviewed sequentially by three to four authority levels",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Respond to objections/comments (e.g., document format queries, labour welfare payment comment)",
+          "subStages": [
+            "DEFICIENCY_NOTICE",
+            "RESUBMISSION"
+          ],
+          "evidence": "Respond to objections/comments (e.g., document format queries, labour welfare payment comment)",
+          "confidence": "high"
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "License issued",
+          "subStages": [
+            "ISSUANCE"
+          ],
+          "evidence": "License issued",
+          "confidence": "high"
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "License issued",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "License issued",
+          "confidence": "low",
+          "confidenceReason": "No step in HR's record uses explicit 'approve/approval' wording; APPROVAL is inferred from the fact a licence was issued."
+        }
+      ],
+      "canonicalSubStageCount": 8,
+      "stepSourceConfidence": "business-testimony, not officially verified"
+    },
+    "KL": {
+      "hasED": false,
+      "rawStepCount": 5,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Engage licensed engineer/agency for structural plan and blueprint preparation",
+          "subStages": [
+            "ANTECEDENT_APPROVAL"
+          ],
+          "evidence": "Engage licensed engineer/agency for structural plan and blueprint preparation",
+          "confidence": "low",
+          "confidenceReason": "Describes private engagement of an engineer for plan preparation, not submission/approval of a Building Plan by the department itself; mapped by analogy to the antecedent-plan cluster seen in other states, but this step is pre-application private-sector preparation rather than a department-facing approval action."
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Submit application and plans across departments (FAB Kerala, KSPCB, Fire & Safety, Local Panchayat/Corporation, Electrical Inspectors)",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Submit application and plans across departments",
+          "confidence": "low",
+          "confidenceReason": "Step explicitly describes physical/offline coordination across multiple department offices despite a nominal single-window (K-SWIFT) portal; automated flagged 'partial', so the 'online' character of this submission is uncertain."
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Submit application and plans across departments (FAB Kerala, KSPCB, Fire & Safety, Local Panchayat/Corporation, Electrical Inspectors)",
+          "subStages": [
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "Submit application and plans across departments (FAB Kerala, KSPCB, Fire & Safety, Local Panchayat/Corporation, Electrical Inspectors)",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Administrative scrutiny of blueprint/structural plans",
+          "subStages": [
+            "SCRUTINY",
+            "DEFICIENCY_NOTICE"
+          ],
+          "evidence": "Administrative scrutiny of blueprint/structural plans; Applications are frequently rejected up to 3 times for minor technical or layout discrepancies",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Joint departmental inspection",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Joint departmental inspection",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Final factory license approval",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "Final factory license approval",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 7,
+      "stepSourceConfidence": "business-testimony, not officially verified"
+    },
+    "MH": {
+      "hasED": false,
+      "rawStepCount": 6,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Applicant/consultant compiles documents including Consent to Operate, safety audit report and HIRA from an empanelled auditor",
+          "subStages": [
+            "THIRD_PARTY_CERTIFICATION"
+          ],
+          "evidence": "compiles documents including Consent to Operate, safety audit report and HIRA from an empanelled auditor",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Application filed online via the LMS portal (through MAITRI/MAITRI 2.0); documents compressed to meet file-size limits",
+          "subStages": [
+            "APPLY_ONLINE",
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "Application filed online via the LMS portal (through MAITRI/MAITRI 2.0); documents compressed to meet file-size limits",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Department raises queries about 15 days after submission, typically over 4-6 rounds, communicated by phone call and message",
+          "subStages": [
+            "SCRUTINY",
+            "DEFICIENCY_NOTICE"
+          ],
+          "evidence": "Department raises queries about 15 days after submission, typically over 4-6 rounds",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Provisional licence issued at around the 15-day stage",
+          "subStages": [
+            "ISSUANCE"
+          ],
+          "evidence": "Provisional licence issued at around the 15-day stage",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Provisional licence issued at around the 15-day stage",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "Provisional licence issued at around the 15-day stage",
+          "confidence": "low",
+          "confidenceReason": "No step in MH's record uses explicit 'approve/approval' wording at this point; APPROVAL is inferred from the fact a provisional licence was issued."
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Inspecting officer visits and conveys compliance requirements orally, not in writing",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Inspecting officer visits and conveys compliance requirements orally",
+          "confidence": "high"
+        },
+        {
+          "stepN": 6,
+          "stepTitle": "Full licence granted after queries and inspection are completed, about 40-50 days from submission; validity one year",
+          "subStages": [
+            "APPROVAL",
+            "ISSUANCE"
+          ],
+          "evidence": "Full licence granted after queries and inspection are completed",
+          "confidence": "high"
+        }
+      ],
+      "canonicalSubStageCount": 8,
+      "stepSourceConfidence": "business-testimony, not officially verified"
+    },
+    "MP": {
+      "hasED": false,
+      "rawStepCount": 5,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Applicant files online, following prescribed document guidelines",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Applicant files online, following prescribed document guidelines",
+          "confidence": "high"
+        },
+        {
+          "stepN": 1,
+          "stepTitle": "Applicant files online, following prescribed document guidelines",
+          "subStages": [
+            "DOCUMENT_UPLOAD"
+          ],
+          "evidence": "following prescribed document guidelines",
+          "confidence": "low",
+          "confidenceReason": "Step text references 'document guidelines' but does not explicitly describe an upload action separate from filing; mapped at low confidence."
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Department verifies documents; file-size/compression limits can affect document quality on upload",
+          "subStages": [
+            "SCRUTINY"
+          ],
+          "evidence": "Department verifies documents",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Documents rejected are returned for correction and re-upload, sometimes more than once",
+          "subStages": [
+            "DEFICIENCY_NOTICE",
+            "RESUBMISSION"
+          ],
+          "evidence": "Documents rejected are returned for correction and re-upload, sometimes more than once",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Physical inspection (not required in every case)",
+          "subStages": [
+            "INSPECTION"
+          ],
+          "evidence": "Physical inspection (not required in every case)",
+          "confidence": "low",
+          "confidenceReason": "Step note explicitly states inspection is not required in every case, so this is weaker/conditional evidence for a universal inspection sub-stage in MP."
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Licence issued once documents are in order",
+          "subStages": [
+            "ISSUANCE"
+          ],
+          "evidence": "Licence issued once documents are in order",
+          "confidence": "high"
+        },
+        {
+          "stepN": 5,
+          "stepTitle": "Licence issued once documents are in order",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "Licence issued once documents are in order",
+          "confidence": "low",
+          "confidenceReason": "No step in MP's record uses explicit 'approve/approval' wording; APPROVAL is inferred from the fact a licence was issued."
+        }
+      ],
+      "canonicalSubStageCount": 8,
+      "stepSourceConfidence": "business-testimony, not officially verified"
+    },
+    "PB": {
+      "hasED": false,
+      "rawStepCount": 4,
+      "mappings": [
+        {
+          "stepN": 1,
+          "stepTitle": "Submit Factory License application online",
+          "subStages": [
+            "APPLY_ONLINE"
+          ],
+          "evidence": "Submit Factory License application online",
+          "confidence": "high"
+        },
+        {
+          "stepN": 2,
+          "stepTitle": "Manual verification and physical file movement between departments",
+          "subStages": [
+            "SCRUTINY"
+          ],
+          "evidence": "Manual verification and physical file movement between departments",
+          "confidence": "high"
+        },
+        {
+          "stepN": 3,
+          "stepTitle": "Parallel requirements across Labour, PPCB, Fire, Investment Punjab and GST",
+          "subStages": [
+            "PB_MULTI_DEPARTMENT_COORDINATION"
+          ],
+          "evidence": "Each department has separate requirements with no integration; there is no single-window clearance, so applicants coordinate manually",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Approval granted (no deemed-approval fallback)",
+          "subStages": [
+            "APPROVAL"
+          ],
+          "evidence": "Approval granted (no deemed-approval fallback)",
+          "confidence": "high"
+        },
+        {
+          "stepN": 4,
+          "stepTitle": "Approval granted (no deemed-approval fallback)",
+          "subStages": [
+            "RESUBMISSION"
+          ],
+          "evidence": "files sometimes blocked on minor technicalities (format, signature) requiring resubmission",
+          "confidence": "low",
+          "confidenceReason": "Resubmission is mentioned only incidentally in the note on approval delays, not as a clearly delineated separate step."
+        }
+      ],
+      "canonicalSubStageCount": 4,
+      "stepSourceConfidence": "business-testimony, not officially verified"
+    }
+  },
+  "notes": [
+    "Delhi (DL) is the thinnest record in the dataset: its FGD-only reconstruction has only 2 raw steps ('Apply for Factory License' and 'Inspection(s)'), with no explicit scrutiny, fee-payment, approval or issuance step described by participants, so its canonicalSubStageCount of 2 almost certainly understates DL's real process rather than reflecting an unusually lean one; its ED dataset currently has no Factory License entry to cross-check against.",
+    "Punjab (PB) is similarly thin for a 4-step record: participants described application, manual file movement, uncoordinated parallel department requirements, and an eventual approval, but no explicit document-upload, fee-payment, inspection or certificate-issuance step, so its canonicalSubStageCount of 4 should be read as a floor, not a precise count.",
+    "Madhya Pradesh (MP) self-flagged in its own source record as 'a comparatively short, thinner session (five participants, 40 minutes)'; its mapping is accordingly treated with extra caution and several low-confidence flags (document upload, inspection, and inferred approval).",
+    "ANTECEDENT_APPROVAL (a bundled Building Plan/Factory Drawing Approval, or an equivalent plan/stability-certificate acceptance) was only included where a state's actual step text describes it as part of or a precondition to the same Factory Licence flow (HP, AP, CG, DNHDD, AS; lower-confidence for JK, whose text makes it explicitly conditional, and KL, whose step is private plan-preparation rather than a department approval). It was deliberately NOT added for states where a stability or building-plan certificate appears only in a documents list but not in any step text (e.g. MN, UP), per the instruction not to invent a sub-stage from a document checklist alone.",
+    "THIRD_PARTY_CERTIFICATION (tests/sign-offs from empanelled agencies or auditors) is supported by only two states' explicit step text (GJ's stability/air-compressor/lift testing step, MH's Consent-to-Operate/safety-audit/HIRA compilation step). It was not extended to other states that merely list a stability certificate as a required document without describing the certification process as a step.",
+    "Many states' terminal step uses only the word 'issued' or 'granted' without separately using 'approve/approval' anywhere in the record (TG, WB, AP, AS, HR, MH's provisional-licence step, MP). In each such case APPROVAL was still mapped, since issuance necessarily implies an approval decision was taken, but every one of these mappings was explicitly flagged confidence:low with a stated reason, rather than treated as directly evidenced the way RJ, HP, JH, MN, CG, DNHDD, PY and UP's explicit 'approved/issued' or 'approves...issues' wording was.",
+    "Two 'scrutiny'-tagged steps were never treated as automatically equivalent just because both carry a scrutiny-type phase. For example, AP's 'Deviations handled if found' step is about handling deviations from an already-approved building plan after inspection, not generic document scrutiny, and was mapped to DEFICIENCY_NOTICE/RESUBMISSION at low confidence (functional analogy) rather than high confidence, since the described activity differs from a typical document-completeness check.",
+    "Steps whose text contains no independently described review or decision content beyond moving a file between offices (JH's 'Forwarding'/'Recommendation', PY's two JCF/CAF forwarding steps, AP's category-based routing, MN's inspection referral) were kept as a distinct INTERNAL_ROUTING sub-stage rather than folded into SCRUTINY or APPROVAL, since the source text does not describe any review or decision activity at those specific steps.",
+    "A few steps described real, state-specific activity that did not fit the shared taxonomy and were deliberately left as state-specific labels rather than forced into a canonical code: TG's weekly pending-case review meeting with the nodal commissioner, UP's 'Submission starts tracker' system event, HR's note about new/transferred staff not knowing documentation formats, and PB's description of uncoordinated parallel requirements across five separate departments (Labour, PPCB, Fire, Investment Punjab, GST).",
+    "NL and RJ explicitly state that no physical inspection is required for standard processing (RJ: 'No physical inspection is required for this process, per the expert'; NL: inspection 'generally not required' except for big establishments), so neither was mapped to INSPECTION, even though most other states in the taxonomy do include that sub-stage.",
+    "Verification pass: every evidence quote above was re-checked against the extracted source step title/note text for a faithful match (not invented); scrutiny-tagged steps across different states were re-checked individually rather than assumed equivalent by phase tag alone; and every mapping carrying an inference beyond the literal step wording (conditional bundling, inferred approval, thin/ambiguous text) was confirmed to carry confidence:'low' with a stated reason rather than being silently treated as certain."
+  ]
+}

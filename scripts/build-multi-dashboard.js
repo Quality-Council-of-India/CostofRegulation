@@ -23,6 +23,7 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const ED_DIR = path.join(__dirname, 'ed_data');
 const FGD_DIR = path.join(__dirname, 'fgd_data');
+const STEP_EQUIV_DIR = path.join(__dirname, 'step_equivalence');
 const SERVICES = JSON.parse(fs.readFileSync(path.join(__dirname, 'services.json'), 'utf8'));
 const STATE_UNIVERSE = JSON.parse(fs.readFileSync(path.join(__dirname, 'states.json'), 'utf8'));
 const PHASES = JSON.parse(fs.readFileSync(path.join(__dirname, 'phase-template.json'), 'utf8')).phases;
@@ -102,6 +103,23 @@ states.forEach(d => {
   });
 });
 
+// ---- step-equivalence (pilot: Factory License only, 22 states) ----
+// Fact-based cross-state step mapping, built by a dedicated analysis pass
+// (see scripts/step-equivalence-spec.md in the scratchpad history). Attaches
+// a canonical, comparable sub-stage count alongside each license's raw step
+// count, since one state's single step can equal several in another.
+const stepEquivFiles = fs.existsSync(STEP_EQUIV_DIR) ? fs.readdirSync(STEP_EQUIV_DIR).filter(f => f.endsWith('.json')) : [];
+const stepEquivalence = {};
+stepEquivFiles.forEach(f => {
+  const data = JSON.parse(fs.readFileSync(path.join(STEP_EQUIV_DIR, f), 'utf8'));
+  stepEquivalence[data.license] = data;
+  states.forEach(s => {
+    const m = data.stateMappings[s.code];
+    const lic = m && s.licenses.find(l => l.serviceCode === data.license);
+    if (lic) lic.stepEquivalence = { canonicalSubStageCount: m.canonicalSubStageCount, mappings: m.mappings, stepSourceConfidence: m.stepSourceConfidence };
+  });
+});
+
 // ---- coverage matrix: for each state, which service codes have data ----
 const coverage = {}; // coverage[stateCode][serviceCode] = {findings, gaps}
 states.forEach(s => {
@@ -162,6 +180,7 @@ const DATA = {
   phases: PHASES,
   states,
   coverage,
+  stepEquivalence,
   aggregates: {
     totalStates: states.length,
     totalServices: SERVICES.length,
