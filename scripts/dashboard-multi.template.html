@@ -381,7 +381,7 @@ const GAP_META = {
 };
 
 const DEFAULT_SERVICE = SERVICES.find(s=>s.code==='FAL') ? 'FAL' : (SERVICES[0]?SERVICES[0].code:null);
-const F = { view:'overview', state:null, license:null, service:DEFAULT_SERVICE, cmp:[], search:'', sort:{col:null,dir:1}, bestSvc:'all', bestState:'all', gapsSvc:'all' };
+const F = { view:'overview', state:null, license:null, service:DEFAULT_SERVICE, cmp:[], search:'', sort:{col:null,dir:1}, bestSvc:'all', bestState:'all', gapsSvc:'all', painSvc:'all', painState:'all' };
 
 /* ---------- formatting helpers ---------- */
 const fmtDays = t => { if(!t || t.minDays==null) return 'Not specified'; if(t.minDays===t.maxDays) return t.minDays+' days'; return t.minDays+'–'+t.maxDays+' days'; };
@@ -457,6 +457,7 @@ const NAV = [
   {k:'state', icon:'user', t:'State profile', d:'Every license for one State, tagged findings per step'},
   {k:'compare', icon:'columns', t:'Compare States', d:'Line up 2–4 States for the selected license'},
   {k:'phase', icon:'layers', t:'Stage comparison', d:'One process stage, across every State (selected license)'},
+  {k:'pain', icon:'alert', t:'Pain points', d:'Every pain point recorded, by license and State/UT'},
   {k:'best', icon:'award', t:'Good practices & reform ideas', d:'Flagged in the real record, across all licenses'},
   {k:'reconcile', icon:'scale', t:'Flagged inconsistencies', d:'Where a report contradicts itself'},
   {k:'gaps', icon:'flask', t:'Data gaps', d:'What is missing or too vague to use — by license'},
@@ -724,6 +725,27 @@ function stateDropdown(id, current, allLabel, pool){
   return `<select id="${id}"><option value="all">${esc(allLabel)}</option>${withData.map(su=>`<option value="${su.code}" ${current===su.code?'selected':''}>${esc(su.name)}</option>`).join('')}</select>`;
 }
 
+function painItem(f){
+  return `<div class="gap-item"><div class="gi-head"><span class="gi-state" onclick="goState('${f.state}')">${esc(f.stateName||f.state)}</span><span class="gi-svc">${esc(f.serviceName||f.serviceCode||'')}</span>${f.source?`<span class="ftag src-${f.source}">${SRC_LABEL[f.source]||f.source}</span>`:''}${(f.tags||[]).map(t=>`<span class="ftag">${esc(t)}</span>`).join('')}</div>
+    <div class="gi-text">${esc(f.text)}</div></div>`;
+}
+
+function renderPain(){
+  const all = AGG.painPoints;
+  const items = all.filter(f=>(F.painSvc==='all'||f.serviceCode===F.painSvc) && (F.painState==='all'||f.state===F.painState));
+
+  let h = `<div class="pagehead"><div><h2>${icon('alert')}Pain points</h2><div class="lede">Every finding tagged <code>pain</code> while tagging the real ED and FGD record — filter by license and/or State, or see all ${all.length} at once.</div></div></div>`;
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="grid g2">
+    <div class="fld"><label>Filter by license</label>${serviceDropdown('painSvcSel', F.painSvc, 'All licenses ('+all.length+')')}</div>
+    <div class="fld"><label>Filter by State/UT</label>${stateDropdown('painStateSel', F.painState, 'All States/UTs', all)}</div>
+  </div></div></div>`;
+  const titleBits = [];
+  if(F.painSvc!=='all') titleBits.push(esc(SVC_BY_CODE[F.painSvc]?SVC_BY_CODE[F.painSvc].name:F.painSvc));
+  if(F.painState!=='all') titleBits.push(esc(ST_BY_CODE[F.painState]?ST_BY_CODE[F.painState].name:F.painState));
+  h += `<div class="card"><div class="card-h"><h3>${titleBits.length?titleBits.join(' · '):'All licenses, all States/UTs'}</h3><span class="note">${items.length} pain points</span></div><div class="card-b scroll-y" style="max-height:900px">${items.map(painItem).join('')||'<div class="hint">None for this filter.</div>'}</div></div>`;
+  return h;
+}
+
 function renderBest(){
   const all = [...AGG.goodPractices, ...AGG.reforms];
   const items = all.filter(g=>(F.bestSvc==='all'||g.serviceCode===F.bestSvc) && (F.bestState==='all'||g.state===F.bestState));
@@ -806,12 +828,15 @@ function render(){
   else if(F.view==='state') c.innerHTML = renderState();
   else if(F.view==='compare') c.innerHTML = renderCompare();
   else if(F.view==='phase') c.innerHTML = renderPhase();
+  else if(F.view==='pain') c.innerHTML = renderPain();
   else if(F.view==='best') c.innerHTML = renderBest();
   else if(F.view==='reconcile') c.innerHTML = renderReconcile();
   else if(F.view==='gaps') c.innerHTML = renderGaps();
   else if(F.view==='method') c.innerHTML = renderMethod();
   window.scrollTo(0,0);
   animateBars();
+  const painSel = document.getElementById('painSvcSel'); if(painSel) painSel.onchange = e=>{ F.painSvc=e.target.value; render(); };
+  const painStateSel = document.getElementById('painStateSel'); if(painStateSel) painStateSel.onchange = e=>{ F.painState=e.target.value; render(); };
   const bestSel = document.getElementById('bestSvcSel'); if(bestSel) bestSel.onchange = e=>{ F.bestSvc=e.target.value; render(); };
   const bestStateSel = document.getElementById('bestStateSel'); if(bestStateSel) bestStateSel.onchange = e=>{ F.bestState=e.target.value; render(); };
   const gapsSel = document.getElementById('gapsSvcSel'); if(gapsSel) gapsSel.onchange = e=>{ F.gapsSvc=e.target.value; render(); };

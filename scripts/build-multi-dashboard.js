@@ -125,6 +125,7 @@ states.forEach(s => {
 
 // ---- global gap rollups (for Good Practices / Inconsistencies / Data Gaps views) ----
 const allGaps = [];
+const allPain = [];
 let totalFindings = 0, totalLicenses = 0, totalQuotes = 0, licensesWithFGD = 0;
 states.forEach(s => {
   s.licenses.forEach(lic => {
@@ -137,6 +138,13 @@ states.forEach(s => {
       serviceCode: lic.serviceCode, serviceName: lic.serviceName,
       ...g
     }));
+    lic.findings.forEach(f => {
+      if (f.category === 'pain') allPain.push({
+        state: s.code, stateName: s.name,
+        serviceCode: lic.serviceCode, serviceName: lic.serviceName,
+        ...f
+      });
+    });
   });
 });
 const gapFlagCounts = {};
@@ -168,7 +176,8 @@ const DATA = {
     reforms: by('REFORM'),
     inconsistencies: by('INCONSISTENT'),
     missing: by('MISSING'),
-    vague: by('VAGUE')
+    vague: by('VAGUE'),
+    painPoints: allPain
   }
 };
 
