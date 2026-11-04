@@ -1,0 +1,100 @@
+{
+  "state": "MN",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "EoDB Manipur — Ease of Doing Business Manipur Portal",
+      "url": "https://www.eodbmanipur.mn.gov.in/",
+      "whatItIs": "State EoDB/single-window portal home page; body text (via view-source) explicitly describes applying for a Factory Permit and, after that, a Factory License online",
+      "verifiedBy": "curl HTTP 200 (eodbmanipur.mn.gov.in redirects here), meta description and inline page text confirmed real EoDB-Manipur content including the phrase 'Here can apply permit for new factory setup.After having the factory permit, factory owner can apply Factory license'",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "EoDB Manipur — Ease of Doing Business Manipur Portal",
+      "url": "https://www.eodbmanipur.mn.gov.in/ActRules",
+      "whatItIs": "Act & Rules page listing downloadable links to the Manipur Factories Rules 2021, the Manipur Industrial Single Window Clearance Act 2021, and the Central Inspection System orders",
+      "verifiedBy": "curl HTTP 200; page HTML contains working relative links to the specific PDF assets listed separately below, confirmed by following each link",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "EoDB Manipur — Ease of Doing Business Manipur Portal",
+      "url": "https://www.eodbmanipur.mn.gov.in/notifications",
+      "whatItIs": "Notifications/circulars listing page of the EoDB Manipur portal; links to the official notice on mandatory online Factory Permit/License registration and renewal",
+      "verifiedBy": "curl HTTP 200; page HTML contains a working link to the 2026-04-03 Factory Permit/License Renewal notice PDF, confirmed by fetching that PDF",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "EoDB Manipur — Ease of Doing Business Manipur Portal",
+      "url": "https://www.eodbmanipur.mn.gov.in/files/notification/2026/2026-04-03%20084021Notice_for_online_registration_for_Factory_Permit_LicenseRenewal_at_EoDB_online_Portal_notification_2026.pdf",
+      "whatItIs": "Official notice (26 March 2026) from the Chief Inspector of Factories & Boilers cum Director of Trade, Commerce & Industries, Manipur, directing that all Factory Permit/License/Renewal applications be filed only through eodbmanipur.mn.gov.in and nsws.gov.in, with fees via egrassmanipur.nic.in; states no physical applications accepted from 1 April 2026",
+      "verifiedBy": "curl HTTP 200, content-type application/pdf, valid 1-page PDF read and content visually confirmed (signed notice on Government of Manipur letterhead)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "EoDB Manipur — Ease of Doing Business Manipur Portal",
+      "url": "https://www.eodbmanipur.mn.gov.in/assets/Manipur%20Factories%20Rules%202021_Gazette%20Notification.pdf",
+      "whatItIs": "Manipur Gazette Extraordinary No. 65 (24 June 2021) publishing the Manipur Factories Rules, 2021 in full, including the actual licence application/grant/renewal provisions (rules 7-15) under the Factories Act, 1948",
+      "verifiedBy": "curl HTTP 200, content-type application/pdf, valid 172-page PDF; read and visually confirmed title page (Manipur Gazette, Textiles Commerce & Industry Dept notification) and licensing rules text on pages 1-3",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "EoDB Manipur — Ease of Doing Business Manipur Portal",
+      "url": "https://www.eodbmanipur.mn.gov.in/assets/Manipur%20Industrial%20Single%20Window%20Clearance%20Act_2021_s.pdf",
+      "whatItIs": "Manipur Gazette Extraordinary No. 421 (10 March 2021) publishing the Manipur Industrial Single Window Clearance Act, 2021 (Manipur Act No. 9 of 2021), the legal basis for the single-window clearance system that covers factory licensing",
+      "verifiedBy": "curl HTTP 200, content-type application/pdf, valid 10-page PDF; read and visually confirmed Manipur Gazette title page and Act text (Single Window Agency, Governing Body, etc.)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "EoDB Manipur — Ease of Doing Business Manipur Portal",
+      "url": "https://www.eodbmanipur.mn.gov.in/assets/Central_inspection_system_orders.pdf",
+      "whatItIs": "Government of Manipur, Textiles, Commerce & Industry Department order (20 Feb 2021) establishing the Central Inspection System (CIS) that integrates factory/labour/pollution inspections under the EoDB framework",
+      "verifiedBy": "curl HTTP 200, content-type application/pdf, valid 8-page PDF; read and visually confirmed order text and State Level Planning and Monitoring Committee composition (includes Deputy Chief Inspector of Factories)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Government of Manipur — official state portal (manipur.gov.in)",
+      "url": "https://manipur.gov.in/wp-content/uploads/2026/04/Manipur-Industrial-Single-Window-Clearance-Act-2021.pdf",
+      "whatItIs": "Mirror copy of the Manipur Industrial Single Window Clearance Act, 2021 hosted on the main Government of Manipur portal (independent of the EoDB sub-domain)",
+      "verifiedBy": "curl HTTP 200, valid 10-page PDF confirmed via `file`",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "NSWS — National Single Window System (Government of India)",
+      "url": "https://www.nsws.gov.in/",
+      "whatItIs": "Central National Single Window System portal; one of the two online channels (alongside eodbmanipur.mn.gov.in) that the official 26 March 2026 Manipur government notice names as mandatory for filing Factory Permit/License/Renewal applications",
+      "verifiedBy": "curl HTTP 200, confirmed real page title ('India's National Single Window System for Business Approvals | NSWS') and navigation/content text including State Approvals section listing Indian states",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://manipurlabour.mn.gov.in/",
+      "reason": "candidate Manipur Labour Department site (also hosts the Commerce & Industries department page and the OSH Code Manipur Rules 2021 PDF); curl fails this session with 'OpenSSL SSL_connect: SSL_ERROR_SYSCALL' on every attempt (TLS handshake does not complete) — could not independently verify content"
+    },
+    {
+      "url": "https://manipurlabour.mn.gov.in/department/commerce-and-industries",
+      "reason": "same host as above; curl fails with SSL_ERROR_SYSCALL, TLS connection does not complete this session"
+    },
+    {
+      "url": "https://manipurlabour.mn.gov.in/files/2021/notification/2021-11-19%20113113The_Occupational,_Safety,_Health_and_Working_Conditions_Code_(Manipur)_Rules,_2021.pdf",
+      "reason": "same host as above; curl fails with SSL_ERROR_SYSCALL, TLS connection does not complete this session"
+    },
+    {
+      "url": "https://egrassmanipur.nic.in",
+      "reason": "named in the official Manipur government notice as the e-payment gateway for factory license fees; curl via the agent egress proxy returns 'CONNECT tunnel failed, response 502' / connect_rejected (host not reachable/allowed from this session) — could not independently verify"
+    },
+    {
+      "url": "https://www.manipurgovtpress.nic.in/en/eo_gazette_list/?page=25",
+      "reason": "Manipur Government Press official gazette listing page (surfaced in search as hosting the gazette index entry for the Manipur Factories Rules 2021); curl fails with 'SSL certificate problem: unable to get local issuer certificate' — could not independently verify this session"
+    }
+  ],
+  "remarks": [
+    "The eodbmanipur.mn.gov.in site is a server-rendered ASP.NET-style site with some client-side chrome (a 'Loading...' widget and empty [] array appear in the raw HTML on every page), but curl retrieves real, page-specific server-rendered body text and links for each page checked (home, /ActRules, /notifications) — this is not an empty JS-rendering shell, so these pages were included rather than excluded.",
+    "A single official notice PDF (2026-04-03 .../Notice_for_online_registration_for_Factory_Permit_LicenseRenewal...2026.pdf) was the single most load-bearing document found: it is a signed Government of Manipur order naming the exact three portals relevant to this process (eodbmanipur.mn.gov.in, nsws.gov.in, egrassmanipur.nic.in) and stating physical applications were discontinued from 1 April 2026.",
+    "Several non-government aggregator/consultancy sites surfaced prominently in search (simpliance.in, indiafilings.com, wikiprocedure.com, greythr.com, lkslaw.com, dcpsol.com, cleartax.in, kanakkupillai.com, blog.ipleaders.in, professionalutilities.com) and were deliberately not treated as candidates per the spec's exclusion of consultancy blogs/news/non-government aggregators, even though some mirror or quote real notification titles.",
+    "manipurlabour.mn.gov.in (the standalone Labour Department site, distinct from the EoDB sub-domain) could not be reached this session due to a TLS handshake failure (SSL_ERROR_SYSCALL) on every attempt; if that department publishes its own independent Factory License checklist or OSH Rules copy, it was not verifiable via this session's fetch method and is listed under excluded rather than verifiedSources.",
+    "egrassmanipur.nic.in (the e-payment gateway explicitly named in the official notice) was rejected by the agent egress proxy (502/connect_rejected) rather than failing at the TLS layer, so this may be a network/policy-level block specific to this session rather than the site itself being down.",
+    "The NSWS homepage (nsws.gov.in) returned real content but is a generic/login-gated national portal rather than a Manipur- or Factory-License-specific deep link; no state- or service-specific NSWS URL for Manipur factory licensing surfaced in search, so only the homepage is listed."
+  ]
+}

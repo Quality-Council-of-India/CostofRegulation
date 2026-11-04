@@ -1,0 +1,130 @@
+{
+  "state": "UP",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "Nivesh Mitra (V2.0) — Uttar Pradesh Single Window System",
+      "url": "https://niveshmitra.up.nic.in/Default.aspx",
+      "whatItIs": "Home page of UP's industrial single-window clearance portal (Nivesh Mitra), under which Factory License applications (Labour Department) are filed",
+      "verifiedBy": "curl HTTP 200; pandoc text shows real page with title/banner 'Nivesh Mitra — Single Window System, Government of Uttar Pradesh' and full site navigation",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Nivesh Mitra (V2.0) — Uttar Pradesh Single Window System",
+      "url": "https://niveshmitra.up.nic.in/InvAssis.aspx?ID=chklst",
+      "whatItIs": "Official 'Comprehensive List of Approvals, Checklist, Procedures & Timelines' table listing every service on the portal; row #124 is 'Labour Department — Registration and grant of license under The Factories Act 1948' (30-day timeline, Pre-Establishment category, fee required) and row #125 is the renewal service — the core Factory License entry",
+      "verifiedBy": "curl HTTP 200, 563KB HTML; pandoc text confirms the actual table row text 'Registration and grant of license under The Factories Act 1948' with department='Labour Department', timeline=30 days",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Nivesh Mitra (V2.0) — Uttar Pradesh Single Window System",
+      "url": "https://niveshmitra.up.nic.in/services.aspx",
+      "whatItIs": "Department-wise catalog of all 421 services on the portal across 31 departments, including 'Department of Labour' (37 services) which issues the Factory License",
+      "verifiedBy": "curl HTTP 200; pandoc text shows real table 'Services Offered' with department names and service counts, e.g. 'Department of Labour 37'",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Nivesh Mitra (V2.0) — Uttar Pradesh Single Window System",
+      "url": "https://niveshmitra.up.nic.in/InvAssis.aspx?ID=dptlst",
+      "whatItIs": "Department Links page listing each integrated department's own website, including 'Labour Department' (two external links) and 'Pollution Control Board'",
+      "verifiedBy": "curl HTTP 200; pandoc text confirms real table 'Department Links' listing 'Labour Department' with Link1/Link2 entries",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Nivesh Mitra (V2.0) — Uttar Pradesh Single Window System",
+      "url": "https://niveshmitra.up.nic.in/UserManual.aspx",
+      "whatItIs": "User Manual page with downloadable PDFs for Investor Registration, Filling Common Application Form, and Applying for Services on Nivesh Mitra — the process an applicant follows to file a Factory License CAF",
+      "verifiedBy": "curl HTTP 200; pandoc text shows real content: 'User Manual Investor Registration Process (498 KB)', 'User Manual Filling Common Application Form Process (342 KB)', 'User Manual Applying for services in Nivesh Mitra (416 KB)'",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Nivesh Mitra (V2.0) — Uttar Pradesh Single Window System",
+      "url": "https://niveshmitra.up.nic.in/Information.aspx?ID=1",
+      "whatItIs": "Government Orders & Circulars list, including GOs mandating that all services integrated with Nivesh Mitra (including Factory License) be availed only through the Nivesh Mitra portal",
+      "verifiedBy": "curl HTTP 200; pandoc text shows real table with entries such as 'Services Integrated with Nivesh Mitra are to be availed through Nivesh Mitra Portal Only - 2020' and '- 2018'",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Nivesh Mitra (V2.0) — Uttar Pradesh Single Window System",
+      "url": "https://niveshmitra.up.nic.in/Documents/Govt_Orders/G_1.pdf",
+      "whatItIs": "Official Government Order (Shasanadesh), dated 9 April 2018, issuing guidelines/principles for effective implementation of the Single Window Portal (Nivesh Mitra) across the state, under which Factory License applications are routed",
+      "verifiedBy": "curl HTTP 200, valid PDF (confirmed via `file`); extracted Hindi text (pdftotext) is readable and matches: issued by Chief Secretary, UP Govt, re: 'Single Window Portal' guidelines, dated 09 April 2018",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Nivesh Mitra (V2.0) — Uttar Pradesh Single Window System",
+      "url": "https://niveshmitra.up.nic.in/Documents/Govt_Orders/G_2.pdf",
+      "whatItIs": "Scanned official Government Order letter, dated August 2018, from the Chief Secretary, Government of Uttar Pradesh, re: effective implementation of the Single Window Portal (partial amendment to the April 2018 order)",
+      "verifiedBy": "curl HTTP 200, valid 3-page scanned PDF (confirmed via `file`/`pdfinfo`); rendered page 1 to PNG and visually read it — legible official letterhead, signatory 'Anoop Chandra Pandey, Mukhya Sachiv, Uttar Pradesh Shasan', subject re: Single Window Portal implementation guidelines",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Nivesh Mitra 3.0 — Uttar Pradesh Single Window System (newer version)",
+      "url": "https://niveshmitra.up.gov.in/services",
+      "whatItIs": "Services page of the newer Nivesh Mitra 3.0 portal; includes a notice that some services remain on Nivesh Mitra 2.0 (niveshmitra.up.nic.in), relevant for confirming which portal version handles Factory License at the time of filing",
+      "verifiedBy": "curl HTTP 200; pandoc text confirms title 'Nivesh Mitra V3.0 | Services Offered' and real banner text 'Important Notice: Some services may not be available on Nivesh Mitra 3.0. Please use Nivesh Mitra 2.0 for those services.'",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Invest UP — Government of Uttar Pradesh (Infrastructure & Industrial Development Department)",
+      "url": "https://invest.up.gov.in/",
+      "whatItIs": "Official home page of Invest UP, the nodal agency that operates the Nivesh Mitra single-window portal and publishes UP's industrial/investment policies and government orders relevant to factory establishment",
+      "verifiedBy": "curl HTTP 200; pandoc text confirms real page title 'Official Website of Invest UP, Government of Uttar Pradesh, India' and full real navigation menu (Government Orders, Nivesh Mitra, Know Your Approvals, etc.); note: the page's main content panel is a JS-rendered app and did not render body content via curl, but the title/nav/meta confirm this is genuinely the official site and not an empty or wrong page",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "National Single Window System (NSWS) — Government of India",
+      "url": "https://www.nsws.gov.in/",
+      "whatItIs": "Central NSWS portal home page; lists Uttar Pradesh among the states whose state-level approvals (including factory-related licenses) can be discovered/filed through NSWS's 'Know Your Approvals' and state-approvals directory, as a central complement to the state's own Nivesh Mitra portal",
+      "verifiedBy": "curl HTTP 200 (redirected to https://www.nsws.gov.in/); pandoc text confirms real title 'India's National Single Window System for Business Approvals | NSWS' and a real state list including 'Uttar Pradesh'",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://highcourtofuttarakhand.gov.in/files/Uttar-Pradesh-Factory-Rules-1950_.pdf",
+      "reason": "curl returns HTTP 404 (not found) this session — the PDF is no longer at this path on the Uttarakhand High Court site"
+    },
+    {
+      "url": "https://labour.up.nic.in/",
+      "reason": "unreachable this session — curl fails with 'CONNECT tunnel failed, response 502' (proxy/gateway could not reach the host), tried on repeated attempts"
+    },
+    {
+      "url": "https://labour.up.nic.in/labourcommissioner/factorrules.htm",
+      "reason": "unreachable this session — same host (labour.up.nic.in) fails with 'CONNECT tunnel failed, response 502'; this page is cited by secondary sources as the index for the UP Factories Rules 1950 but could not be independently verified"
+    },
+    {
+      "url": "https://uplabour.gov.in/",
+      "reason": "unreachable this session — curl fails with 'Connection reset by peer' (and 'www.uplabour.gov.in' variant times out after 15s)"
+    },
+    {
+      "url": "http://uplabour.gov.in/StaticPages/RRPDList.aspx",
+      "reason": "linked directly from Nivesh Mitra's official checklist page as the Factory License checklist (VIEW1), but the uplabour.gov.in host is unreachable this session ('Connection reset by peer' on https; DNS fails on http)"
+    },
+    {
+      "url": "http://uplabour.gov.in/StaticPages/IPC.aspx",
+      "reason": "linked directly from Nivesh Mitra's official checklist page as a second Factory License reference (VIEW2), but the uplabour.gov.in host is unreachable this session ('Connection reset by peer' on https; DNS fails on http)"
+    },
+    {
+      "url": "https://niveshmitra.up.nic.in/Sitemap.aspx",
+      "reason": "returns HTTP 200 but the page body contains no page-specific content beyond the shared site header/footer navigation (the actual sitemap tree appears to be rendered client-side); not independently verifiable as useful content via this session's fetch method"
+    },
+    {
+      "url": "https://niveshmitra.up.nic.in/NOC_Search.aspx",
+      "reason": "HTTP 200 but curl's effective final URL shows it redirects to Default.aspx (the homepage) rather than showing an actual NOC-search page/form — the real NOC search feature could not be independently verified"
+    },
+    {
+      "url": "https://invest.up.gov.in/wp-content/uploads/2021/09/Nivesh-Mitra1.pdf",
+      "reason": "curl HTTP 200 and a genuine, readable Invest UP press-release PDF, but its content (an August 2021 milestone announcement about clearance volumes) is not a licensing procedure, checklist, or requirement document for obtaining a Factory License, so it was left out of verifiedSources as not directly relevant to the task"
+    }
+  ],
+  "remarks": [
+    "Uttar Pradesh does not appear to have a dedicated Factories Act portal separate from its general industrial single-window system: Factory License ('Registration and grant of license under The Factories Act 1948') is one of 421 services listed on Nivesh Mitra, issued by the Labour Department, with a stated 30-day timeline under the 'Pre-Establishment' category.",
+    "The state's own Labour Department domains (labour.up.nic.in and uplabour.gov.in) — which secondary sources and even Nivesh Mitra's own checklist page cite as the authoritative home for the UP Factories Rules 1950 and the Factory License checklist — were both unreachable from this session (502 gateway error / connection reset). This matches the spec's expectation that some official sites will not be reachable via this fetch method; they are listed in `excluded` rather than fabricated or guessed.",
+    "Two parallel live versions of the state portal were found and verified: Nivesh Mitra 2.0 (niveshmitra.up.nic.in, the fuller/older system with the services catalog and checklist page) and Nivesh Mitra 3.0 (niveshmitra.up.gov.in, newer, but its own banner states some services are still only on 2.0). Both were included since either could be the operative one depending on when this list is used.",
+    "No official UP-government-hosted copy of the Factories Act 1948 / Uttar Pradesh Factories Rules 1950 full text could be independently verified this session; the only full-text copies found via search are on third-party legal-database sites (Indian Kanoon, LegitQuest) or on a Uttarakhand High Court PDF that is now 404. These were not included since they are not the state's own government source and/or failed verification.",
+    "invest.up.gov.in was included despite its main content area being a JS-rendered app shell, because curl still returned substantial real, on-topic static content (title, meta description, and a full genuine navigation menu matching the known structure of the official Invest UP site) — this was judged to be short of the spec's 'empty shell with no visible text' exclusion bar, unlike Sitemap.aspx and NOC_Search.aspx which were excluded.",
+    "All PDF candidates were opened and inspected beyond just HTTP 200: G_1.pdf was checked via pdftotext (readable embedded Hindi text), and G_2.pdf (a scanned, non-text PDF) was additionally rendered to a PNG image and visually read to confirm it is a genuine, legible official Government Order letter rather than a corrupt or blank scan."
+  ]
+}

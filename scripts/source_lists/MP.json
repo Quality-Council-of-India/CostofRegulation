@@ -1,0 +1,107 @@
+{
+  "state": "MP",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "Invest Madhya Pradesh (MPIDC Single Window System) — old portal site",
+      "url": "https://invest.mp.gov.in/old_portal/",
+      "whatItIs": "MPIDC's legacy Invest MP portal homepage, with navigation to EODB/Single Window resources, SOPs, checklists and departmental approval lists",
+      "verifiedBy": "curl HTTP 200, 208576 bytes; pandoc-extracted plain text shows real site navigation (Home, FAQ, How to use Invest Portal, Register Here, NSWS, Central Inspection System, About MP/DIPIP/MPIDC, etc.), not an empty shell",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Invest Madhya Pradesh — Single Window System",
+      "url": "https://invest.mp.gov.in/wp-content/uploads/2024/07/List-of-approvals-under-Act.pdf",
+      "whatItIs": "Official list of departmental approvals routed through the MP Single Window, explicitly naming 'Factory License' (Factories Act 1948) under the Labour Department alongside 'Approval of Factory Plan Layout'",
+      "verifiedBy": "curl HTTP 200, 380818 bytes; `file` confirms valid 3-page PDF; pdftotext shows 'Factory License' and 'Approval of Factory Plan Layout' entries with Factories Act 1948 / Labour Department attribution",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Invest Madhya Pradesh — Single Window System",
+      "url": "https://invest.mp.gov.in/old_portal/wp-content/uploads/2022/02/SINGLE-WINDOW-SYSTEM-.pdf",
+      "whatItIs": "MPIDC's Standard Operating Process (SOP) document for using the Single Window System — covers investor login, filing Intention, Common Application Form (CAF), and applying for departmental services (the channel through which Factory License is applied for)",
+      "verifiedBy": "curl HTTP 200, 1421734 bytes; `file` confirms valid 20-page PDF; pdftotext shows step-by-step SOP text (investor login, apply intention, CAF, apply for services)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Invest Madhya Pradesh — Ease of Doing Business",
+      "url": "https://invest.mp.gov.in/wp-content/uploads/2025/01/Best-Practice-01_Start-Your-Business-in-30-Days.pdf",
+      "whatItIs": "MPIDC 'Best Practice' note on the 30-day business start-up reform, listing Factory License among approvals with a stated 7-day processing timeline",
+      "verifiedBy": "curl HTTP 200, 138934 bytes; `file` confirms valid 7-page PDF; pdftotext shows 'Factory License ... 07 Days' and pre-reform/post-reform description naming Factory License explicitly",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Invest Madhya Pradesh — Ease of Doing Business",
+      "url": "https://invest.mp.gov.in/wp-content/uploads/2025/01/Best-Practice-02_Exemption-to-Industries-from-taking-approvals-for-a-period-of-3-years.pdf",
+      "whatItIs": "MPIDC 'Best Practice' note on the scheme exempting industrial units in notified areas from certain approvals (including Factory License, Factories Act 1948) for 3 years via Intention-to-Invest/Acknowledgement Certificate",
+      "verifiedBy": "curl HTTP 200 (90955 bytes on retry; an earlier attempt hit a transient connection reset); `file` confirms valid 5-page PDF; pdftotext shows 'Approval of Factory Plan Layout' / 'Factory License' under 'Approvals Exempted', Factories Act 1948 (GoI), Madhya Pradesh",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Invest Madhya Pradesh — old portal",
+      "url": "https://invest.mp.gov.in/old_portal/wp-content/uploads/2021/06/Service.pdf",
+      "whatItIs": "Detailed service catalogue document from the Invest MP single-window portal, including the Factory License service entry",
+      "verifiedBy": "curl HTTP 200, 6050349 bytes; `file` confirms valid PDF; pdftotext shows 'Factory License' entry under service listing",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Invest Madhya Pradesh — old portal",
+      "url": "https://invest.mp.gov.in/old_portal/wp-content/uploads/2021/06/List-of-services-availble-in-Invest-Portal.pdf",
+      "whatItIs": "Enumerated list of services available on the Invest MP portal, item 17 is 'Factory License' and item 23 is 'Approval of Factory Plan/Layout'",
+      "verifiedBy": "curl HTTP 200, 115112 bytes; `file` confirms valid 4-page PDF; pdftotext shows numbered list entries '17 Factory License' and '23 Approval of Factory Plan/Layout'",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Invest Madhya Pradesh — Ease of Doing Business",
+      "url": "https://invest.mp.gov.in/wp-content/uploads/2024/07/EODB-Brochure-text.pdf",
+      "whatItIs": "MPIDC Ease of Doing Business brochure describing the approvals process, including 'Factory License' and 'Approval of Factory Plan Layout' under the Labour Department / Factories Act 1948, with process-step descriptions",
+      "verifiedBy": "curl HTTP 200, 5929062 bytes; `file` confirms valid 32-page PDF; pdftotext shows 'Factory License', 'Approval of Factory Plan Layout', Labour Department, and process-step narrative text",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Invest Madhya Pradesh — Ease of Doing Business",
+      "url": "https://invest.mp.gov.in/wp-content/uploads/2023/04/I2I-Aknowledgment-Process-flow-for-Industries.pdf",
+      "whatItIs": "MPIDC process-flow document for the 'Intention to Invest with Acknowledgement Certificate' route, which (per Best-Practice-02 above) is the mechanism by which Factory License approval is exempted for 3 years in notified industrial areas",
+      "verifiedBy": "curl HTTP 200, 1675958 bytes; `file` confirms valid 22-page PDF; pdftotext shows the GIS-2023 exemption announcement, 3-year exemption scope and the Acknowledgement Certificate application process",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://invest.mp.gov.in/ (redirects to https://sws.invest.mp.gov.in/)",
+      "reason": "curl HTTP 200 but content is an empty React SPA shell (<div id=\"root\"></div> only, 1276 bytes) with no server-rendered text — found but not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://invest.mp.gov.in/?p=12384 (Ease of Doing Business page, redirects to https://sws.invest.mp.gov.in/?p=12384)",
+      "reason": "curl HTTP 200 but same empty React SPA shell as the portal root, no visible text — found but not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://labour.mp.gov.in/",
+      "reason": "TLS handshake reset by the remote server (Connection reset by peer at Client Hello) on every attempt — plain curl, with --ciphers DEFAULT:@SECLEVEL=0, with legacy-renegotiation OpenSSL config, and with TLS 1.2 forced; proxy status log confirms this is a tunnel-level failure to the real host, not a proxy policy block. State Labour Department portal cited by secondary sources as handling online factory licence filing, but unreachable this session."
+    },
+    {
+      "url": "https://services.mp.gov.in/eservice/eServices?srvs=4",
+      "reason": "Same TLS handshake reset as labour.mp.gov.in across all retry strategies; proxy status log confirms genuine remote-host failure, not a policy block. This is the MP citizen e-services page listed for 'Shram evam Rozgar' (Labour & Employment) services including factory licence amendment."
+    },
+    {
+      "url": "https://www.mponline.gov.in/portal/",
+      "reason": "curl HTTP 200 with 83KB of real HTML, but no mention of 'factory' or factory-license-specific content found on this generic citizen-services landing page this session; not a confirmed factory-license source"
+    },
+    {
+      "url": "https://www.nsws.gov.in/",
+      "reason": "curl HTTP 200 with real content (National Single Window System homepage), but it is a generic, login-gated national portal with no Madhya-Pradesh- or factory-license-specific content visible at this URL; MP's factory licensing appears to run through its own state Single Window (invest.mp.gov.in / sws.invest.mp.gov.in) rather than NSWS, so this was not included as directly relevant"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/6323/1/factories_act_1948.pdf",
+      "reason": "curl timed out (40s, 0 bytes received) on repeated attempts; central India Code repository for the Factories Act 1948 text could not be reached this session"
+    }
+  ],
+  "remarks": [
+    "No official gazette copy of the Madhya Pradesh Factories Rules, 1962 (or its amendments) could be located on a .gov.in domain via WebSearch this session; only private legal-aggregator sites (Indian Kanoon, Simpliance, greytHR, TeamLease, PRS India) carry the text, and per the spec these non-government sources were excluded entirely rather than listed.",
+    "invest.mp.gov.in's current (new) front-end is a client-side-rendered React SPA at sws.invest.mp.gov.in that returns no server-rendered text via curl; all verified sources above are instead static assets (PDFs) and the 'old_portal' legacy WordPress site under the same invest.mp.gov.in domain, which do render real content via curl.",
+    "Reaching https://invest.mp.gov.in/ at all required working around a server-side 'unsafe legacy renegotiation disabled' TLS error (OpenSSL 3.0 default) by setting OPENSSL_CONF to explicitly allow UnsafeLegacyRenegotiation; this was needed only for the SPA shell pages, which were ultimately excluded anyway since they render no content.",
+    "labour.mp.gov.in and services.mp.gov.in (the MP Labour Department's own site and e-services portal) — which secondary sources repeatedly cite as the actual venue for online Factory License/Form No. 4 filing per the 2021 MP Factories Rules amendment — were both unreachable this session due to TLS handshake resets on the government server side; this is a real gap and these should be re-attempted in a later verification pass or from a different network path.",
+    "No MP-specific Directorate of Industrial Safety and Health (DISH) domain or mponline.gov.in deep link for factory licensing could be found via WebSearch; only consultancy/aggregator pages reference 'DISH' for MP renewals, so no such URL was added as a candidate."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "state": "AR",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "Arunachal Pradesh EoDB / Single Window Clearance Portal",
+      "url": "https://eodb.arunachal.gov.in/",
+      "whatItIs": "State gateway/landing page linking to the Investment Portal, the EoDB Single Window Portal, and the Startup Portal",
+      "verifiedBy": "curl HTTP 200 (3424 bytes); inspected raw HTML, confirmed real Arunachal Pradesh state seal/branding and three working navigation links (not an empty shell)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Arunachal Pradesh EoDB / Single Window Clearance Portal",
+      "url": "https://eodb.arunachal.gov.in/home",
+      "whatItIs": "EoDB Single Window Portal home page (Single Window Clearance Authority, Active Services, dashboards, grievance/FAQ, login)",
+      "verifiedBy": "curl HTTP 200 (59667 bytes); pandoc-extracted text shows real navigation (About/SWCA, Services, EoDB Dashboard, Help & Support) and substantive 'About Ease of Doing Business' body text, not a blank SPA shell",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Arunachal Pradesh EoDB / Single Window Clearance Portal",
+      "url": "https://eodb.arunachal.gov.in/active-services",
+      "whatItIs": "Live services catalogue listing 'Application For Registration And Grant Of Factory Licence And Notice Of Occupation' and 'Application For Renewal Of Registration And Grant Of Factory Licence And Notice Of Occupation', plus links to fee-schedule and policy PDFs",
+      "verifiedBy": "curl HTTP 200 (148228 bytes); pandoc-extracted text directly shows the Factory Licence service titles and 'Requirements'/'Apply' actions",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Arunachal Pradesh EoDB / Single Window Clearance Portal",
+      "url": "https://eodb.arunachal.gov.in/uploads/notifications_and_orders_documents/dc8a0bb46956c0cf4df7d44e4505c4ca.pdf",
+      "whatItIs": "Official fee schedule PDF: 'Fees for the grant of Licences and Annual Renewal of Licences for all Factories' (Schedules A, B, C), a page from the Arunachal Pradesh Extraordinary Gazette of March 6, 2012 (the Factories Rules, 2012 notification)",
+      "verifiedBy": "curl HTTP 200 (480728 bytes); confirmed valid 3-page PDF via `pdfinfo`; visually read all 3 pages with the Read tool and confirmed genuine scanned gazette fee tables for factory licence registration/renewal",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Arunachal Pradesh EoDB / Single Window Clearance Portal",
+      "url": "https://eodb.arunachal.gov.in/uploads/notifications_and_orders_documents/4e1b1fcf71af2096a88e755a2eb47fdb.pdf",
+      "whatItIs": "Official gazette text of 'The Arunachal Pradesh Ease of Doing Business Act, 2021' (Act No. 5 of 2021) — the legal basis for the Single Window Clearance Authority and portal through which the factory licence service is delivered",
+      "verifiedBy": "curl HTTP 200 (2489639 bytes); confirmed valid PDF via `pdfinfo`; visually read page 1 with the Read tool, confirmed genuine Arunachal Pradesh Gazette Extraordinary No.110, April 27, 2021, Law/Legislative & Justice Department notification text",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Arunachal Pradesh EoDB / Single Window Clearance Portal",
+      "url": "https://eodb.arunachal.gov.in/uploads/notifications_and_orders_documents/9b0aa05af8a605c1a321bca3559dbefd.pdf",
+      "whatItIs": "Official gazette notification of the 'Arunachal Pradesh Industrial Development and Investment Policy, 2025' (Department of Industries), linked from the Active Services/Notifications page alongside the factory-licence service",
+      "verifiedBy": "curl HTTP 200 (657079 bytes); `pdfinfo` confirmed 19-page valid PDF; `pdftotext` extracted real text confirming Arunachal Pradesh Gazette Extraordinary No.118, April 9, 2025, Department of Industries notification",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Department of Industries, Government of Arunachal Pradesh",
+      "url": "https://indarun.gov.in/",
+      "whatItIs": "Official Department of Industries, Arunachal Pradesh website (general industries/MSME information, policies, notifications)",
+      "verifiedBy": "curl HTTP 200 (29313 bytes); pandoc-extracted text shows real department homepage content (welcome banner, UNNATI scheme announcement, 'Announcements' sidebar with dated items), not an empty shell",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "National Single Window System (NSWS)",
+      "url": "https://www.nsws.gov.in/",
+      "whatItIs": "Central Government of India National Single Window System homepage (the central portal through which states, including Arunachal Pradesh, can onboard approvals such as factory registration)",
+      "verifiedBy": "curl HTTP 200 (590008 bytes); pandoc-extracted text shows real portal content (profile/project prompts, PAN-verification guidance, contact/helpdesk details), not a blank shell",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://www.eodb.arunachal.gov.in/",
+      "reason": "curl TLS failure: 'SSL: no alternative certificate subject name matches target host name' — the www. subdomain is not covered by the site's certificate (the bare eodb.arunachal.gov.in domain works and is used instead)"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/20381/1/21112024144100.pdf",
+      "reason": "candidate for the Factories (Arunachal Pradesh Amendment) Act, 2020 / Act 1 of 2024 full text on India Code; curl timed out after 15-25s on 4 separate attempts with 0 bytes received, could not be verified this session"
+    },
+    {
+      "url": "https://www.india.gov.in/website-industries-department-arunachal-pradesh",
+      "reason": "curl returned HTTP 404 — the india.gov.in directory listing page for this entry no longer resolves"
+    },
+    {
+      "url": "https://arunachalpradesh.gov.in/",
+      "reason": "curl failed with 'Recv failure: Connection reset by peer' on 2 separate attempts — the official state government homepage could not be reached this session"
+    },
+    {
+      "url": "https://eodb.arunachal.gov.in/factory-license-registration",
+      "reason": "the 'Apply' link for the factory licence service on the active-services page; curl HTTP 200 but the final URL redirects to a generic citizen login page (/signin) with no factory-licence-specific content visible pre-authentication, so it is not independently verifiable as substantive content via this session's fetch method"
+    }
+  ],
+  "remarks": [
+    "Per the spec, non-government aggregator/consultancy sources surfaced by WebSearch (e.g. indiafilings.com, wikiprocedure.com, prsindia.org, simpliance.in, compfie.aparajitha.com, employmentlaw.lkslaw.com, legalitysimplified.com, corpbiz.io, professionalutilities.com) were deliberately NOT curl-verified or included, even though some repeated useful facts (e.g. issuing authority, five-year validity, worker thresholds) — those facts conflicted across sources and are flagged here as unverified, not included as citations.",
+    "The 'Requirements' button for the Factory Licence service on https://eodb.arunachal.gov.in/active-services loads its checklist content via a JS modal (onclick=getRequirementDataFromModal(13)) that calls a backend endpoint; this could not be retrieved with a plain curl GET, so the detailed document checklist for Arunachal Pradesh's Factory Licence specifically could not be independently verified this session beyond what the Active Services page itself states.",
+    "The verified fee-schedule PDF is a scanned page from the Arunachal Pradesh Extraordinary Gazette of March 6, 2012 (the original Factories Rules, 2012 notification), which confirms the regulatory basis for the fee tables; however, a complete, independently-verified consolidated text of the Arunachal Pradesh Factories Rules, 2012 (or any later Factories Amendment Rules, 2025 draft) hosted on a reachable .gov.in domain was not found this session — candidates for it (compfie.aparajitha.com, simpliance.in) are non-government mirrors and were excluded per the spec's aggregator rule rather than curl-checked.",
+    "indarun.gov.in's doing-business checklist page (htm/doingbusiness.htm) was fetched and inspected (HTTP 200, real content) but is a general MSME/NOC setup checklist that does not name 'Factory License' specifically, so it was left out of verifiedSources/excluded as not clearly on-topic rather than as a verification failure.",
+    "www.nsws.gov.in was verified only as the general central homepage; no Arunachal-Pradesh- or factory-license-specific NSWS sub-page could be located and confirmed this session (the site is heavily JavaScript/API-driven beyond the landing page)."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "state": "TG",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "TG-iPASS — Telangana State Industrial Project Approval and Self Certification System",
+      "url": "https://ipass.telangana.gov.in/",
+      "whatItIs": "State single-window industrial clearance portal home page; Factory Plans Approval and factory licence are among the clearances routed through this system",
+      "verifiedBy": "curl HTTP 200 (22MB real HTML, not a shell); pandoc text extraction shows real navigation, Hon'ble CM/Minister names, menu items (Services, Repository of Regulations, Business Regulations, NSWS) and live announcements",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "TG-iPASS — Telangana State Industrial Project Approval and Self Certification System",
+      "url": "https://ipass.telangana.gov.in/Downloads.aspx",
+      "whatItIs": "Downloads page listing the TS-iPASS Act, Timelines/Clearances order, Checklist for Application, and a centralised repository of Acts/Rules/Regulations filterable by department (including Labour, Employment, Training & Factories Department)",
+      "verifiedBy": "curl HTTP 200 (111,676 bytes); pandoc text extraction shows real page content: 'Checklist for Application', 'TS-iPASS ACT', department filter dropdown including Factories dept, and a long table of G.O. links",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "TG-iPASS — Telangana State Industrial Project Approval and Self Certification System",
+      "url": "https://ipass.telangana.gov.in/Checklist.aspx",
+      "whatItIs": "Official 'Check List For TS-iPASS Approvals' page: required documents to get approvals (Common Enclosures, Self Certification, Combined Site Plan, Building Plan, Mutation, Certificate of Incorporation, Process Flow Chart, TSPCB forms, Environment Clearance, Shops & Establishments registration, etc.)",
+      "verifiedBy": "curl HTTP 200 (20,335 bytes; one retry needed after an initial TLS reset); pandoc text extraction shows a genuine 19-row document checklist table with document names and links",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "TG-iPASS — Telangana State Industrial Project Approval and Self Certification System",
+      "url": "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TS-iPASS.pdf",
+      "whatItIs": "The Telangana State Industrial Project Approval and Self Certification System (TS-iPASS) Act, 2014 (Act No. 3 of 2014), as published in the Telangana Gazette, Part IV-B Extraordinary, No. 3, Hyderabad, Thursday 4 December 2014 — the enabling statute under which factory plan approval/licence timelines are mandated",
+      "verifiedBy": "curl HTTP 200 (6,959,797 bytes); `file` confirms valid 12-page PDF v1.7; Read tool rendered pages 1-2 showing the Telangana Gazette masthead, state emblem, and the Act's full title and text",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "TG-iPASS — Telangana State Industrial Project Approval and Self Certification System",
+      "url": "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TSIPASSActs/G.O.Ms.No18,%20dt.04.11.2020%20(1).pdf",
+      "whatItIs": "G.O.Ms.No.18, Industries & Commerce (IP&INF) Dept., dated 04-11-2020 — 'Timelines-Consolidated-Amendment Orders', the official consolidated time-limit schedule for pre-establishment approvals, explicitly listing 'Factory Plans Approval — Factories Department — 7 days' and other factory-relevant clearances",
+      "verifiedBy": "curl HTTP 200 (478,524 bytes); `file` confirms valid 8-page PDF v1.5; Read tool rendered pages 1-2 showing the G.O. header, order text, and the time-limits table naming the Factories Department",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "TG-iPASS — Telangana State Industrial Project Approval and Self Certification System",
+      "url": "https://ipass.telangana.gov.in/UseCommentsOnAmmendments.aspx",
+      "whatItIs": "'Business Regulations' page listing draft and final regulations/amendments to the TS-iPASS Rules and related Acts (e.g. Shops & Establishment Act, Telangana Town Planning Act) open for public comment",
+      "verifiedBy": "curl HTTP 200 (21,564 bytes); pandoc text extraction shows real page content: 'BUSINESS REGULATIONS (ACT/RULES/REGULATIONS/ORDERS)' with Draft/Final regulation tables",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "NSWS — National Single Window System",
+      "url": "https://www.nsws.gov.in/",
+      "whatItIs": "Central Government single-window portal for business approvals/registrations/licences across states, including Telangana; TG-iPASS itself links to NSWS (About NSWS / Approvals List / Login) as an integrated channel for state approvals such as factory licence",
+      "verifiedBy": "curl HTTP 200 (590,008 bytes); pandoc text extraction shows real portal content: profile-completion prompt, PAN/DSC/Digilocker verification notice, Central/State Approvals navigation",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://tsfactories.cgg.gov.in/",
+      "reason": "repeated TLS handshake failure ('Recv failure: Connection reset by peer' at Client Hello, through the session's egress proxy) across 8 attempts over several minutes — could not establish a session with this host this session, even though it is the apparent official Directorate of Factories portal and search snippets describe real content (Acts/GOs/Circulars, Factories Rules 1950 PDF, registration-certificate verification)"
+    },
+    {
+      "url": "https://tsfactories.cgg.gov.in/goViewPage.do",
+      "reason": "same host-level TLS connection failure as tsfactories.cgg.gov.in/ — unreachable this session; this page reportedly lists the Telangana Factories Rules, 1950 PDF and amendment G.O.s per search snippets, but that was never independently confirmed"
+    },
+    {
+      "url": "https://tsfactories.cgg.gov.in/content/circulars/A1-6798-2015-EODB.pdf",
+      "reason": "same host-level TLS connection failure as tsfactories.cgg.gov.in/ — unreachable this session; reportedly the EODB circular listing plan-approval document requirements per search snippets, not independently confirmed"
+    },
+    {
+      "url": "https://labour.telangana.gov.in/",
+      "reason": "HTTP 403 from an F5 WAF ('The requested URL was rejected. Please consult with your administrator') on repeated attempts — site actively blocks this fetch method/session"
+    },
+    {
+      "url": "https://labour.telangana.gov.in/ActServices.do",
+      "reason": "HTTP 403 from the same F5 WAF block as labour.telangana.gov.in/ — page reportedly lists a smaller Factories Rules PDF per search snippets, not independently confirmed"
+    },
+    {
+      "url": "https://cgg.gov.in/it_project/comprehensive-online-application-for-factories-department/",
+      "reason": "HTTP 404 — the CGG (Centre for Good Governance) project page describing the Factories Department's online system no longer exists at this URL"
+    },
+    {
+      "url": "https://services.india.gov.in/service/detail/telangana--grant-of-license-as-a-manufacturer-application-form-1",
+      "reason": "egress proxy refused the connection (CONNECT tunnel failed, HTTP 502 — policy denial) — could not reach services.india.gov.in this session to verify the page"
+    }
+  ],
+  "remarks": [
+    "The apparent primary Directorate-of-Factories portal, tsfactories.cgg.gov.in, was completely unreachable this session (TLS reset on every attempt, 8 tries across several minutes with retries and delays). Given the spec's rule to exclude rather than include on doubt, nothing from that host is in verifiedSources even though search snippets strongly suggest it hosts the consolidated Telangana Factories Rules, 1950 PDF and the official Acts/GOs/Circulars listing. A future session with different network access should re-attempt this host specifically, since it is likely the single most important source for this service and is currently missing from the verified list.",
+    "labour.telangana.gov.in (Dept. of Labour, Employment, Training & Factories) is actively blocked by an F5 WAF for this fetch method/session (HTTP 403), so it could not be verified either, despite appearing to host department-level information.",
+    "Several ipass.telangana.gov.in fetches (Downloads.aspx, Checklist.aspx) returned a transient TLS 'Connection reset by peer' on the first attempt and succeeded on retry (HTTP 200) within the same session — these were verified on the successful retry, consistent with the spec's guidance to actually confirm resolution, not just note the first failure.",
+    "services.india.gov.in is blocked outright by this session's egress proxy policy (502 on CONNECT), so several Telangana-specific service-detail pages listed there (grant of manufacturer's licence, annual licence fee payment, change of occupier, etc.) could not be attempted at all, not just failed verification.",
+    "No separate NSWS state/service-specific deep link for Telangana factory licence could be verified (NSWS approvals for a given service typically sit behind login); only the general NSWS home page was confirmed. It is included because TG-iPASS itself surfaces NSWS as an integrated channel (About NSWS / Approvals List / Login in its own menu).",
+    "Excluded dca.telangana.gov.in manufacturing-licence checklist PDFs and GHMC industrial-GO PDFs found in search results were not tested/listed at all (not merely excluded) because on inspection they concern drug-manufacturing licensing and municipal/industrial-policy GOs respectively, not the Factories Act Factory License (FAL) process, so they were judged out of scope rather than failed candidates."
+  ]
+}

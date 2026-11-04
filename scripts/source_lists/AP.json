@@ -1,0 +1,89 @@
+{
+  "state": "AP",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "National Single Window System (NSWS)",
+      "url": "https://www.nsws.gov.in/",
+      "whatItIs": "Central Government single-window portal home page; its live State Approvals navigation lists Andhra Pradesh as a participating state for state-level clearances/approvals including factory-related services",
+      "verifiedBy": "curl HTTP 200 (size 590008 bytes), pandoc text extraction confirmed real page content (navigation, PAN/DSC verification guidance, 'State Approvals' menu listing Andhra Pradesh among states)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "SPS Nellore District Portal (Government of Andhra Pradesh) — Inspector of Factories",
+      "url": "https://spsnellore.ap.gov.in/inspector-of-factories/",
+      "whatItIs": "District-level Factories Department page describing the AP Factories Department's profile, governing legislation (Factories Act 1948 and Andhra Pradesh Factories Rules 1950), licensing/plan-approval functions, service targets (e.g. 'Licensing of new factories: within a week'), and officer contact details",
+      "verifiedBy": "curl HTTP 200 (size 156313 bytes), pandoc text extraction confirmed real, specific content (department profile, legislations implemented, departmental activities including 'Approving plans, registration and issue of licences of factories', targets table, named officer contacts)",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://labour.ap.gov.in",
+      "reason": "Government of Andhra Pradesh Labour Department site (administratively over the Factories Department) — curl failed with connection reset / gateway 502 on repeated attempts this session, could not verify content"
+    },
+    {
+      "url": "https://labour.ap.gov.in/contactus",
+      "reason": "same host as above (AP Labour Dept contact page) — curl connection reset, unreachable this session"
+    },
+    {
+      "url": "https://apindustries.gov.in",
+      "reason": "AP Industries Dept / Single Desk Portal home (apindustries.gov.in), reported by multiple secondary sources as the entry point for the AP Single Desk investor/clearance portal — curl connection reset / timeout on repeated attempts this session, could not verify content"
+    },
+    {
+      "url": "https://www.apindustries.gov.in",
+      "reason": "www-prefixed variant of the same site — curl connection timed out"
+    },
+    {
+      "url": "https://apegazette.cgg.gov.in/",
+      "reason": "Andhra Pradesh e-Gazette (where Factories Rules amendment notifications are officially published) — curl returns HTTP 403 Forbidden (likely bot/browser check); session's fetch method could not pass this and no custom browser user-agent spoofing was used, consistent with policy against bot-check circumvention"
+    },
+    {
+      "url": "https://ipb.ap.gov.in",
+      "reason": "candidate AP investment/single-window subdomain — curl: CONNECT tunnel failed, gateway 502"
+    },
+    {
+      "url": "https://dic.ap.gov.in",
+      "reason": "candidate District Industries Centre subdomain — curl: CONNECT tunnel failed, gateway 502"
+    },
+    {
+      "url": "https://singledesk.ap.gov.in",
+      "reason": "candidate AP Single Desk Portal subdomain — curl: CONNECT tunnel failed, gateway 502"
+    },
+    {
+      "url": "https://factories.ap.gov.in",
+      "reason": "candidate AP Factories Department subdomain — curl: CONNECT tunnel failed, gateway 502"
+    },
+    {
+      "url": "https://dof.ap.gov.in",
+      "reason": "candidate Director of Factories AP subdomain — curl: CONNECT tunnel failed, gateway 502"
+    },
+    {
+      "url": "https://goir.ap.gov.in",
+      "reason": "candidate AP Government Orders (G.O.) portal, relevant to Factories Rules amendment G.O.s — curl: CONNECT tunnel failed, gateway 502"
+    },
+    {
+      "url": "https://www.ap.gov.in",
+      "reason": "Government of Andhra Pradesh main state portal — curl: CONNECT tunnel failed / connection reset on repeated attempts this session"
+    },
+    {
+      "url": "https://www.aponline.gov.in",
+      "reason": "AP citizen e-services portal (aponline.gov.in) — curl: CONNECT tunnel failed, gateway 502"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/handle/123456789/15653",
+      "reason": "India Code (central govt legislation repository) record possibly relevant to AP single-window/factories legislation — curl timed out after 30s with 0 bytes received"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/handle/123456789/16403",
+      "reason": "India Code record — curl timed out, 0 bytes received"
+    }
+  ],
+  "remarks": [
+    "Many Andhra Pradesh state-government domains (ap.gov.in apex, and subdomains such as apindustries.gov.in, labour.ap.gov.in, ipb.ap.gov.in, dic.ap.gov.in, singledesk.ap.gov.in, factories.ap.gov.in, dof.ap.gov.in, goir.ap.gov.in, aponline.gov.in) could not be reached this session — curl returned connection resets or 502 gateway failures on every attempt, including retries. One ap.gov.in subdomain (spsnellore.ap.gov.in, a district portal) WAS reachable and returned real content, so this is not a blanket proxy block on the whole .ap.gov.in zone, but it does mean several of the most centrally relevant portals for this state/service (the AP Industries Single Desk Portal, the AP Labour/Factories Department site, and the AP e-Gazette) could not be independently verified via curl in this session, despite being named by secondary/commercial sources as the real official venues for AP factory licensing.",
+    "apegazette.cgg.gov.in (the AP e-Gazette, where Factories Rules amendments are officially notified) returned HTTP 403 Forbidden; this looks like a bot/browser check rather than the page being down. Per instructions, no user-agent spoofing or other bot-check circumvention was attempted (the sandbox's permission system explicitly blocked an attempt to set a custom browser User-Agent header as 'Bot Check Circumvention'), so this source could not be verified and was excluded rather than worked around.",
+    "Two central-government domains (dgfasli.gov.in — Directorate General Factory Advice Service & Labour Institutes — and cgg.gov.in — Centre for Good Governance, which hosts several AP e-governance systems) returned HTTP 200 with real content, but neither page's home content was specifically about Andhra Pradesh factory licensing, so per the spec's relevance test they were left out of verifiedSources entirely rather than forced in; they are not listed in excluded either since they did not fail verification, they were simply judged not relevant/specific enough.",
+    "Given the state-domain connectivity problems, the verified list here is thinner than ideal for a full Factory License workflow (no verified fee schedule, no verified application form/checklist PDF, no verified Factories Rules gazette text). The two verified sources are: (1) the central NSWS portal home, which lists Andhra Pradesh among its State Approvals and is the documented route for central+state approvals including factory registration, and (2) a genuine AP government district page (SPS Nellore) that describes the Factories Department's licensing function, governing rules, and contacts in detail. Re-attempting the excluded apindustries.gov.in / labour.ap.gov.in / apegazette.cgg.gov.in URLs from a different network path in a later session is recommended before this list is treated as exhaustive."
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "state": "JK",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "DGFASLI — Directorate General Factory Advice Service & Labour Institutes (Ministry of Labour & Employment, Govt of India)",
+      "url": "https://dgfasli.gov.in/",
+      "whatItIs": "Central DGOSH/DGFASLI homepage (Ministry of Labour & Employment). Site navigation includes OSH Laws section linking the central Factories Act, 1948, the Model Rules under it, and the OSH&WC Code, 2020 — the central legal framework under which J&K's own Factories Rules, 1972 and factory-licensing process operate.",
+      "verifiedBy": "curl HTTP 200; pandoc extraction confirmed real page title \"होम | डीजीओएसएच, मुंबई, श्रम मंत्रालय, भारत सरकार\" (Home | DGOSH, Mumbai, Ministry of Labour, Govt of India) with a full navigation menu (About DGOSH, OSH Laws > Factories Act 1948 / Model Rules / OSHWC Code 2020, OSH Information, downloads, notices) — not an empty shell.",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DGFASLI — Directorate General Factory Advice Service & Labour Institutes (Ministry of Labour & Employment, Govt of India)",
+      "url": "https://dgfasli.gov.in/public/Admin/Cms/AllPdf//667d45ce57e222.11029770.pdf",
+      "whatItIs": "Official central directory \"List of Chief Inspectors of Factories/Director Industrial Safety and Health (Address & Telephone Numbers), As on 05.06.2024\" — lists the statutory Factory License issuing authority for Jammu & Kashmir (Labour Commissioner & Chief Inspector of Factories, J&K, Shram Bhawan, Jammu / Batamaloo, Srinagar seasonal offices) with phone numbers and email (lab.comm@jk.gov.in).",
+      "verifiedBy": "curl HTTP 200, 121646 bytes; `file` confirmed valid PDF; pdftotext confirmed real text content including a \"Jammu & Kashmir\" row with the Labour Commissioner & Chief Inspector of Factories' address, phone numbers (0194-2472524 Srinagar, 0191-2479339 Jammu) and email.",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://singlewindow.jk.gov.in/",
+      "reason": "J&K's own Single Window factory-registration/licensing portal home page, per search results. curl fails with 'Recv failure: Connection reset by peer' immediately after the TLS ClientHello, reproduced on 3 retries (verbose curl shows the proxy CONNECT tunnel succeeds, then the TLS handshake itself is reset) — not independently verifiable via this session's fetch method."
+    },
+    {
+      "url": "https://singlewindow.jk.gov.in/assets/services/procedurechecklist/21/procedurechecklist_file_0184899001648350331.pdf",
+      "reason": "Found via search as the official 'Registration of Factories under the Factories Act, 1948' document checklist PDF on the J&K Single Window portal. Same connection-reset failure as the portal's home page — this entire domain is unreachable this session."
+    },
+    {
+      "url": "https://singlewindow.jk.gov.in/assets/services/sop_file/21/sop_file_0371026001648350331_1.pdf",
+      "reason": "Found via search as the official SOP PDF for factory registration on the J&K Single Window portal. Same connection-reset failure as the portal's home page."
+    },
+    {
+      "url": "https://singlewindow.jk.gov.in/assets/front/mannual_pdf/renewal-factories.pdf",
+      "reason": "Found via search as the J&K Single Window portal's factory-license renewal user manual. Same connection-reset failure as the portal's home page."
+    },
+    {
+      "url": "https://law.jk.gov.in/download.php?id=5172",
+      "reason": "J&K Law Department notification page hosting an amendment to the Jammu and Kashmir Factories Rules, 1972. Same 'Recv failure: Connection reset by peer' pattern as the singlewindow.jk.gov.in domain — all law.jk.gov.in URLs tested failed identically."
+    },
+    {
+      "url": "https://law.jk.gov.in/archive-site/JkLawData/so/2018/sro_632.pdf",
+      "reason": "J&K Law Department archived SRO gazette notification PDF. Same connection-reset failure as other law.jk.gov.in URLs."
+    },
+    {
+      "url": "https://rgp.jk.gov.in/pdf/SRO/SRO-2017/106.pdf",
+      "reason": "J&K Registrar General of Press/Gazette SRO PDF (Factories Rules amendment series). Same 'Recv failure: Connection reset by peer' pattern as the other *.jk.gov.in hosts."
+    },
+    {
+      "url": "https://jk.gov.in/",
+      "reason": "J&K Government main portal. Same connection-reset failure as every other *.jk.gov.in host tested this session (also reproduced for www.jk.gov.in)."
+    },
+    {
+      "url": "https://investjk.in/",
+      "reason": "Investment, Promotion & Facilitation Cell portal referenced in the J&K Single Window (Industrial Investments and Business Facilitation) Rules, 2021 as the integrated e-application (CAF) gateway. curl gets 'CONNECT tunnel failed, response 502' from this session's egress proxy (host not permitted for this session), distinct from the jk.gov.in reset pattern — could not verify this session."
+    },
+    {
+      "url": "https://services.india.gov.in/service/detail/single-window-system-for-investors-jammu-and-kashmir",
+      "reason": "National services directory listing for the 'Single Window System for Investors - Jammu and Kashmir'. curl gets 'CONNECT tunnel failed, response 502' from this session's egress proxy (connect_rejected) on repeated attempts — could not verify this session."
+    },
+    {
+      "url": "https://www.indiacode.nic.in/handle/123456789/16513",
+      "reason": "India Code central legislation repository page (candidate for Factories Act applicability/extension to J&K). curl times out after 40s with 0 bytes received on two attempts — not independently verifiable via this session's fetch method."
+    },
+    {
+      "url": "https://www.nsws.gov.in/",
+      "reason": "Central National Single Window System portal, which secondary sources say J&K's industrial approvals route through. curl returns HTTP 200 with real (non-empty) page text, but the content is a generic login/'complete your profile' shell with PAN-verification instructions — no Jammu & Kashmir-specific or factory-license-specific content is visible without an authenticated account, so it does not pass the 'is in fact what it claims to be' check for this state/service."
+    },
+    {
+      "url": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2026/04/20260427650973687.pdf",
+      "reason": "Surfaced by search as a gazette PDF citing the Jammu and Kashmir Factories Rules, 1972. curl returns HTTP 200 and a valid 20-page PDF, but pdftotext shows it is actually a Labour and Employment Department of Union Territory of Ladakh draft notification (superseding the J&K Factories Rules for Ladakh only) — wrong state/UT for this task, excluded."
+    },
+    {
+      "url": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2026/04/202604201549765010.pdf",
+      "reason": "Same source bucket as above; HTTP 200 valid PDF, but content is again a Labour and Employment Department of Union Territory of Ladakh draft notification, not Jammu & Kashmir — wrong state/UT, excluded."
+    },
+    {
+      "url": "https://labour.gov.in/",
+      "reason": "Central Ministry of Labour & Employment homepage, checked as a possible directly-relevant central page. Same 'Recv failure: Connection reset by peer' pattern as the *.jk.gov.in hosts — not reachable this session."
+    },
+    {
+      "url": "https://shramsuvidha.gov.in/",
+      "reason": "Central Shram Suvidha single-window compliance portal, checked as a possible directly-relevant central page. Same connection-reset failure as labour.gov.in — not reachable this session."
+    }
+  ],
+  "remarks": [
+    "Every *.jk.gov.in host tried this session (singlewindow.jk.gov.in, law.jk.gov.in, rgp.jk.gov.in, jk.gov.in, www.jk.gov.in) failed identically: the proxy's HTTPS CONNECT tunnel succeeds, but the TLS handshake itself is reset ('Recv failure: Connection reset by peer') immediately after the ClientHello, reproduced on repeated retries and confirmed with curl -v. This is the domain actually hosting J&K's Factory License single-window portal, its checklist/SOP/renewal PDFs, and the state's Factories Rules notifications — i.e. almost everything the spec asks this list to prioritize. A WebFetch attempt on the same host failed with a DNS/allowlist-style error, consistent with this being a this-session network restriction rather than the real-world site being down.",
+    "Two separate failure modes were observed and are reflected in the exclusion reasons: (a) 'Recv failure: Connection reset by peer' for *.jk.gov.in, labour.gov.in and shramsuvidha.gov.in (reaches the destination/TLS layer, then resets), vs (b) 'CONNECT tunnel failed, response 502' for investjk.in and services.india.gov.in (the egress proxy itself declines the host before any TLS). Re-running this task after the *.jk.gov.in and investjk.in domains are added to this environment's allowed network domains would very likely raise the verified-source count substantially, since the search step surfaced a plausible official checklist PDF, SOP PDF, renewal manual and Factories Rules amendment notifications that could not be independently confirmed this session purely for network-access reasons, not because they appear fake or wrong.",
+    "Other candidate categories from the spec (state gazette text of the Factories Rules, 1972; the J&K Single Window Act/Rules PDFs; a central NSWS page specific to J&K's factory-license service) were found via search but could not be verified: either the host was unreachable (as above), or (for nsws.gov.in) the only reachable content was a generic login/profile shell with no J&K- or factory-license-specific text.",
+    "Two PDFs discovered on a generic cdnbbsr.s3waas.gov.in bucket that search results associated with 'Jammu and Kashmir Factories Rules, 1972' turned out, on actual inspection, to be Union Territory of Ladakh notifications (Ladakh and J&K share the pre-2019 Factories Rules lineage, which appears to be why search conflated them) — flagged as a reminder that a 200 response and a plausible-looking filename are not sufficient verification; the content must be read."
+  ]
+}

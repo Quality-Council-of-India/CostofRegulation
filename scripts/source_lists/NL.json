@@ -1,0 +1,133 @@
+{
+  "state": "NL",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "DIPR Nagaland — Directorate of Information & Public Relations (press releases)",
+      "url": "https://ipr.nagaland.gov.in/node/8001",
+      "whatItIs": "Official government press release (DC Mokokchung directive) on mandatory re-verification and enforcement of Factories Act, 1948 registration/licensing for industrial units in Nagaland, naming the Chief Inspector of Factories, Govt. of Nagaland as the licensing authority and citing penalty provisions",
+      "verifiedBy": "curl HTTP 200; pandoc-extracted text confirmed real article naming 'Factories Act 1948', 'Chief Inspector of Factories, Govt. of Nagaland', and license/registration enforcement details",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DIPR Nagaland — Directorate of Information & Public Relations (press releases)",
+      "url": "https://ipr.nagaland.gov.in/node/12907",
+      "whatItIs": "Official government press release on a joint DPIIT/Invest India/Dept. of Industries & Commerce workshop familiarizing stakeholders with the Nagaland Single Window System (NSWS) for business approvals and licenses",
+      "verifiedBy": "curl HTTP 200; pandoc-extracted text confirmed real article covering the NSWS familiarization workshop, DPIIT, and Invest India",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Department of Industries & Commerce, Government of Nagaland",
+      "url": "https://industry.nagaland.gov.in",
+      "whatItIs": "Official homepage of the state Industries & Commerce Department, which facilitates industrial/factory setup and licensing in Nagaland",
+      "verifiedBy": "curl HTTP 200; pandoc-extracted text confirmed real department description ('established in 1965...') and live news items",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Department of Industries & Commerce, Government of Nagaland",
+      "url": "https://industry.nagaland.gov.in/policies-acts",
+      "whatItIs": "Department's official index of published policies & acts, listing the Nagaland Trade, Investment & Industrial Policy (NTIIP) 2025 and other industrial policy documents with publish dates and download links",
+      "verifiedBy": "curl HTTP 200; pandoc-extracted text confirmed a real dated table listing NTIIP 2025, National Logistics Policy 2024, Make in India Policy 2022, etc.",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Department of Industries & Commerce, Government of Nagaland",
+      "url": "https://industry.nagaland.gov.in/wp-content/uploads/2025/07/Nagaland-Trade-Investment-and-Industrial-Policy-NTIIP-2025.pdf",
+      "whatItIs": "Official Government of Nagaland notification (Industries and Commerce Department, Kohima, May 2025) notifying the NTIIP 2025 for implementation",
+      "verifiedBy": "curl HTTP 200; `file` confirmed a genuine PDF; pdftotext extracted readable text beginning 'GOVERNMENT OF NAGALAND / INDUSTRIES AND COMMERCE DEPARTMENT ... NOTIFICATION ... NTIIP, 2025 is hereby notified for implementation'",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Department of Industries & Commerce, Government of Nagaland",
+      "url": "https://industry.nagaland.gov.in/wp-content/uploads/2026/08/NTIIP.pdf_compressed.pdf",
+      "whatItIs": "Full 20-page text of the Nagaland Trade, Investment and Industrial Policy (NTIIP) 2025, including provisions on a Single Window Clearance System for approvals/licenses and a checklist of 'valid licenses, registrations and clearances' required for units (relevant to factory setup/licensing requirements)",
+      "verifiedBy": "curl HTTP 200; `file` confirmed a 20-page PDF; pdftotext extracted substantive policy text mentioning licenses, factory shed, and the Single Window Clearance System",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Directorate of Printing & Stationery, Nagaland (Government Press / eGazette)",
+      "url": "https://govtpress.nagaland.gov.in/",
+      "whatItIs": "Official homepage of the Nagaland Directorate of Printing & Stationery, the body that prints and publishes the official Nagaland Gazette (the publication channel for Factories Rules notifications)",
+      "verifiedBy": "curl HTTP 200; pandoc-extracted text confirmed real department description of its mandate to print the 'Nagaland Gazette'",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Directorate of Printing & Stationery, Nagaland (Government Press / eGazette)",
+      "url": "https://govtpress.nagaland.gov.in/egazette-latest/",
+      "whatItIs": "Official eGazette listing page with dated links to downloadable Nagaland Gazette issues (the authoritative publication channel where any Nagaland Factories Rules notification would appear)",
+      "verifiedBy": "curl HTTP 200; pandoc-extracted text confirmed a real, dated list of eGazette issues (e.g. 'eGazette 15 October 2026') with 'Download' links",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DGFASLI — Ministry of Labour & Employment, Government of India",
+      "url": "https://dgfasli.gov.in/",
+      "whatItIs": "Official homepage of the Directorate General Factory Advice Service & Labour Institutes (DGFASLI), the central body under the Ministry of Labour & Employment responsible for factories/OSH regulation support nationwide, including Nagaland",
+      "verifiedBy": "curl HTTP 200; confirmed real rendered homepage content (bilingual Govt. of India header/navigation)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DGFASLI — Ministry of Labour & Employment, Government of India",
+      "url": "https://dgfasli.gov.in/public/Admin/Cms/AllPdf//667d45ce57e222.11029770.pdf",
+      "whatItIs": "Official DGFASLI directory PDF, 'List of Chief Inspectors of Factories / Director Industrial Safety and Health (Address & Telephone Numbers), As on 05.06.2024', listing Nagaland's Joint Labour Commissioner (HoD) & Chief Inspector of Factories & Boilers — the authority who issues the Factory License",
+      "verifiedBy": "curl HTTP 200; `file` confirmed a genuine PDF; pdftotext extracted the Nagaland entry naming the Chief Inspector of Factories & Boilers, Kohima",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://labour.nagaland.gov.in/",
+      "reason": "This is the Nagaland Labour Department's portal — per press reports the home of the state's online factory-license registration/renewal system — but curl fails TLS verification with 'SSL certificate problem: unable to get local issuer certificate' on every attempt (tested with and without explicit --cacert /root/.ccr/ca-bundle.crt). Confirmed this is a real broken certificate chain on the server, not a local/proxy issue, since sibling nagaland.gov.in subdomains (ipr., govtpress., industry.) verified and loaded fine."
+    },
+    {
+      "url": "https://labour.nagaland.gov.in/?p=554",
+      "reason": "Same host as labour.nagaland.gov.in — fails TLS verification (unable to get local issuer certificate)"
+    },
+    {
+      "url": "https://eodb.nagaland.gov.in/",
+      "reason": "Nagaland Ease of Doing Business portal (reportedly lists 'Registration, Grant & Renewal of license under The Factories Act, 1948' as a Labour Dept service) — fails TLS verification with 'SSL certificate problem: unable to get local issuer certificate' on repeated attempts"
+    },
+    {
+      "url": "https://eodb.nagaland.gov.in/about-eodb",
+      "reason": "Same host as eodb.nagaland.gov.in — fails TLS verification"
+    },
+    {
+      "url": "https://eodb.nagaland.gov.in/eodb-in-nagaland",
+      "reason": "Same host as eodb.nagaland.gov.in — fails TLS verification"
+    },
+    {
+      "url": "https://eodb.nagaland.gov.in/focus-sector/plantation-based-industries",
+      "reason": "Same host as eodb.nagaland.gov.in — fails TLS verification"
+    },
+    {
+      "url": "https://ebiz.nagaland.gov.in/",
+      "reason": "Older EoDB portal domain (predecessor of eodb.nagaland.gov.in) — curl returns 'Recv failure: Connection reset by peer', could not be loaded this session"
+    },
+    {
+      "url": "https://www.nsws.gov.in/nagaland",
+      "reason": "National Single Window System's Nagaland page (redirects to /portal/nagaland) returns HTTP 200 but is an empty client-side-rendered Angular/React shell — curl output contains only JS/CSS bootstrap code with no visible Nagaland- or factory-specific text; found but not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://indiacode.nic.in/bitstream/123456789/11385/1/the_factories_extension_to_kohima__mokokchung__zunheboto__wokha_and_phek_districts_act_1980.pdf",
+      "reason": "Old India Code domain — connection repeatedly timed out (4 separate attempts, 20-40s each) with 0 bytes received; the domain itself serves a migration notice redirecting to indiacode.gov.in"
+    },
+    {
+      "url": "https://indiacode.gov.in/bitstream/123456789/11385/1/the_factories_extension_to_kohima__mokokchung__zunheboto__wokha_and_phek_districts_act_1980.pdf",
+      "reason": "New (migrated) India Code domain returns HTTP 200 but serves the Angular/DSpace single-page-app shell rather than the actual PDF/document content — curl cannot render the JS-driven document viewer; found but not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://prsindia.org/files/bills_acts/acts_states/nagaland/1980/1980NL5.pdf",
+      "reason": "Not a government domain (PRS Legislative Research is a private non-profit aggregator) — excluded per spec without a separate fetch, even though it mirrors the same 1980 Act text"
+    },
+    {
+      "url": "https://simpliance.in/download/file/...Nagaland-Code-on-Occupational-Safety-Health-and-Working-Conditions-Rules-2026.pdf",
+      "reason": "Private compliance/aggregator site (simpliance.in), not an official government source — excluded per spec without a separate fetch"
+    }
+  ],
+  "remarks": [
+    "The two most load-bearing candidate portals for actually filing a Factory License in Nagaland — the Labour Department site (labour.nagaland.gov.in) and the EoDB portal (eodb.nagaland.gov.in) that press reports describe as hosting the state's online factory registration/licensing MIS — could not be verified this session because both fail TLS certificate validation ('unable to get local issuer certificate') on every attempt. This was confirmed to be a genuine server-side incomplete certificate chain rather than a local/proxy artifact: the same curl setup, including an explicit --cacert pointing at the session's trusted CA bundle, successfully verified sibling nagaland.gov.in subdomains (ipr., govtpress., industry.) on the same parent domain. These two portals should be re-checked in a later session/phase once (or if) their certificate chains are fixed, since they are very likely the actual application portals for the Factory License itself.",
+    "No official Nagaland-specific 'Factories Rules' gazette notification could be located or verified. The Factories Act, 1948 applies in Nagaland via the Factories (Extension to Kohima, Mokokchung, Zunheboto, Wokha and Phek Districts) Act, 1980 (Nagaland Act No. 5 of 1980), but its only locatable full-text copies (India Code, PRS India) were not independently verifiable this session (see excluded list). Secondary sources (a regulatory-tracking newsletter) describe Nagaland's own Factories Rules as not yet separately framed/notified, with the Labour Department's new online system operating as an interim facilitation mechanism pending that notification — this could not be confirmed against a primary government source this session and should be revisited.",
+    "The Nagaland Government e-Gazette archive (govtpress.nagaland.gov.in/egazette-latest/) was verified and is live/current (listing issues through October 2026), but no specific gazette issue was found in it that is confirmed (by its text/title) to be the Factories Rules notification — it is included as the authoritative channel to check for that notification, not as the notification itself.",
+    "All verifiedSources entries were individually fetched with curl this session (HTTP 200, with content inspected via pandoc for HTML or pdftotext/`file` for PDFs); no URL was included based on a WebSearch snippet alone."
+  ]
+}

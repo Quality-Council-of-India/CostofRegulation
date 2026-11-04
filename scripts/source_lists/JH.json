@@ -1,0 +1,104 @@
+{
+  "state": "JH",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "Government of Jharkhand official state portal — Department of Industries",
+      "url": "https://jharkhand.gov.in/industries",
+      "whatItIs": "Official Department of Industries page on the state government portal; describes the Jharkhand Industries Facilitation and Single Window Clearance Bill and lists Acts & Rules / Citizen Charter / Notifications categories, and links out to the state's Single Window Clearance System (advantage.jharkhand.gov.in) used for factory-related approvals",
+      "verifiedBy": "curl HTTP 200 (155451 bytes); pandoc-extracted plain text confirmed real navigation/department content (not a blank shell), and page's own outbound links to advantage.jharkhand.gov.in were inspected directly in the HTML",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Government of Jharkhand official state portal — Department of Labour, Employment, Training and Skill Development",
+      "url": "https://jharkhand.gov.in/labour",
+      "whatItIs": "Official Labour Department page on the state government portal; the department responsible for factory registration/licensing under the Factories Act 1948 and the Jharkhand Factories Rules 1950, and it links directly to the department's dedicated Shramadhan e-services portal",
+      "verifiedBy": "curl HTTP 200 (153279 bytes); pandoc-extracted plain text confirmed real department description/content, and the page's own HTML links to shramadhan.jharkhand.gov.in were inspected directly",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "National Single Window System (NSWS)",
+      "url": "https://www.nsws.gov.in/",
+      "whatItIs": "Central Government of India single-window portal (Invest India) homepage through which states, including Jharkhand, route investor approvals; a Jharkhand-specific sub-page (/portal/jharkhand) exists and is linked from here but could not itself be verified (see excluded)",
+      "verifiedBy": "curl HTTP 200 (590008 bytes); pandoc-extracted plain text showed real contact/help content, not a blank shell",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DGFASLI (Directorate General Factory Advice Service & Labour Institutes, Ministry of Labour & Employment, Govt of India)",
+      "url": "https://dgfasli.gov.in/public/Admin/Cms/AllPdf//667d45ce57e222.11029770.pdf",
+      "whatItIs": "Official central government list (dated 05.06.2024) of all State/UT Chief Inspectors of Factories / Directors of Industrial Safety & Health, including the address for the Chief Inspector of Factories, Jharkhand (P.O.-Doranda, Distt-Ranchi-834002) — the licensing authority for Factory License under the Factories Act",
+      "verifiedBy": "curl HTTP 200 (121646 bytes); confirmed valid 7-page PDF via `file` and `pdfinfo`; pdftotext extraction confirmed a Jharkhand entry with Chief Inspector of Factories address matching the state",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Jharkhand Industrial and Investment Policy 2021 (published in Jharkhand Gazette Extraordinary, 13 July 2021), mirrored on Department of Chemicals & Petrochemicals, Govt of India portal",
+      "url": "https://chemindia.chemicals.gov.in/Policiespdf/Jharkhand%20Industrial%20and%20Investment%20Policy%202021.pdf",
+      "whatItIs": "Official Jharkhand state industrial policy document (gazette-published) that explicitly names 'Grant and renewal of Factory License', 'Approval of Factory Building Plan' and 'License under the Factories Act, 1948' among the time-bound single-window services and renewal simplifications offered to industrial units",
+      "verifiedBy": "curl HTTP 200 (515443 bytes); confirmed valid 61-page PDF via `file`; pdftotext extraction located multiple passages naming Factory License grant/renewal and Factories Act 1948 licensing explicitly, and confirmed the gazette publication line 'Jharkhand Gazette (Extraordinary), Tuesday, 13th July, 2021'",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://shramadhan.jharkhand.gov.in/",
+      "reason": "This is the Jharkhand Labour Department's own dedicated e-services portal (confirmed linked from the verified jharkhand.gov.in/labour page) and appears to be the actual factory registration/license application system, but curl fails TLS verification this session: 'SSL certificate problem: unable to get local issuer certificate' (broken/incomplete certificate chain from the server), even against the session's CA bundle — could not independently verify content"
+    },
+    {
+      "url": "https://shramadhan.jharkhand.gov.in/factoryRegistrationRenewFeeStructure.action",
+      "reason": "Same TLS certificate chain failure as the shramadhan.jharkhand.gov.in home page — this is the factory license fee-structure page but is unreachable via curl this session"
+    },
+    {
+      "url": "https://shramadhan.jharkhand.gov.in/contactUs.action",
+      "reason": "Same TLS certificate chain failure as the shramadhan.jharkhand.gov.in home page — unreachable via curl this session"
+    },
+    {
+      "url": "https://shramadhan.jharkhand.gov.in/ftp/WebAdmin/documents/The_Factories_(Jharkhand%20Amendment)_Act_2015.pdf",
+      "reason": "Same TLS certificate chain failure as the shramadhan.jharkhand.gov.in domain — the actual Factories (Jharkhand Amendment) Act 2015 PDF could not be fetched due to broken TLS cert"
+    },
+    {
+      "url": "https://jiada.jharkhand.gov.in/",
+      "reason": "Jharkhand Industrial Area Development Authority site; curl fails with 'SSL certificate problem: unable to get local issuer certificate' / connection reset during TLS handshake — could not independently verify content"
+    },
+    {
+      "url": "https://advantage.jharkhand.gov.in/",
+      "reason": "This is the state's official Single Window Clearance System portal (confirmed as the linked destination from the verified jharkhand.gov.in/industries page), but curl could not connect: 'Connection timed out' / 'Recv failure: Connection reset by peer' on repeated attempts — unreachable this session"
+    },
+    {
+      "url": "https://advantage.jharkhand.gov.in/SingleWindow",
+      "reason": "Same connectivity failure as advantage.jharkhand.gov.in home page — 'Recv failure: Connection reset by peer', unreachable this session"
+    },
+    {
+      "url": "https://services.india.gov.in/service/detail/industries-department-jharkhand",
+      "reason": "National services directory entry describing the Jharkhand Industries Department licensing process; curl could not connect — the session's egress proxy explicitly refused the connection as a host not allowed for this session (CONNECT tunnel failed, response 502), confirmed via repeated attempts and the proxy status endpoint"
+    },
+    {
+      "url": "https://www.nsws.gov.in/portal/jharkhand",
+      "reason": "Returns HTTP 200 but curl only retrieves an empty JS-rendering shell (a bare React root div plus bundled scripts) with no visible page text — found but not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://alp.consulting/wp-content/uploads/2025/05/notification-of-jharkhand-factories-amendment-rules-2025.pdf",
+      "reason": "Not a government source — alp.consulting is a private HR-compliance consultancy that has posted a copy of the Jharkhand Factories (Amendment) Rules 2025 gazette notification; per spec, consultancy-hosted documents are excluded even when they purport to reproduce official content and even though curl returns it successfully. No reachable official (.gov.in / jharkhand.gov.in / egazette) copy of this specific 2025 notification could be located or verified this session"
+    },
+    {
+      "url": "https://singlewindow.jk.gov.in/assets/front/mannual_pdf/renewal-factories.pdf",
+      "reason": "Wrong state — jk.gov.in is Jammu & Kashmir's domain, not Jharkhand's (jharkhand.gov.in). This and related singlewindow.jk.gov.in URLs surfaced repeatedly in searches for 'Jharkhand factory license' due to confusable state abbreviations but are J&K government sources, not Jharkhand"
+    },
+    {
+      "url": "https://jharkhandgazette.nic.in/",
+      "reason": "Candidate guess at the state's official e-Gazette domain; curl timed out after 15s with no response — could not confirm this domain is even correct or reachable"
+    },
+    {
+      "url": "https://gad.jharkhand.gov.in/",
+      "reason": "Candidate guess at the General Administration Department (gazette-publishing authority) subdomain; the session's egress proxy refused the connection outright (host not allowed for this session / DNS likely invalid) — could not verify this domain exists"
+    }
+  ],
+  "remarks": [
+    "Several genuinely official Jharkhand government domains (shramadhan.jharkhand.gov.in, jiada.jharkhand.gov.in) are legitimate per cross-reference from verified jharkhand.gov.in pages, but their TLS certificates fail chain validation in this session even against the proxy's full CA bundle — this looks like a server-side misconfiguration on the state's NIC-hosted infrastructure rather than a proxy issue, since other jharkhand.gov.in subpaths verified fine over TLS.",
+    "advantage.jharkhand.gov.in (the state's actual Single Window Clearance System, where the Factory License / Factory Plan Approval application is reportedly filed via a Combined Application Form) is confirmed as the correct, current portal by two independently-verified official pages (jharkhand.gov.in/industries and third-party corroboration), but it was unreachable (connection reset/timeout) from this session on every attempt, so no URL on that domain could be included in verifiedSources.",
+    "A notable false-positive risk found during search: multiple 'Jharkhand factory license checklist' queries returned singlewindow.jk.gov.in results — these belong to Jammu & Kashmir (jk.gov.in), not Jharkhand; verified and excluded.",
+    "services.india.gov.in and gad.jharkhand.gov.in were outright refused by the session's egress proxy as hosts not allowed for this session (not a content issue) — a different fetch environment might reach them.",
+    "No official egazette/jharkhandgazette.* domain could be located or reached this session, so the authoritative gazette text of the Jharkhand Factories Rules 1950 and its various amendments (including the 2025 amendment) could not be directly verified from a government-hosted gazette copy; the closest verified official source discussing factory licensing is the gazette-published Jharkhand Industrial and Investment Policy 2021 PDF (mirrored on a central government chemicals.gov.in domain), included above.",
+    "Given the above gaps, verifiedSources should be treated as a partial but honestly-verified set; the state's primary application portal (advantage.jharkhand.gov.in / shramadhan.jharkhand.gov.in) exists and is well-attested by the sources that WERE verified, but its own pages could not be fetched successfully this session."
+  ]
+}

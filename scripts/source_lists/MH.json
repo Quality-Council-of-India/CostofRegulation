@@ -1,0 +1,165 @@
+{
+  "state": "MH",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "DISH Maharashtra — Directorate of Industrial Safety and Health",
+      "url": "https://mahadish.in/home",
+      "whatItIs": "Official home page (English) of the Directorate of Industrial Safety and Health, the state authority that administers factory registration/licensing under the Factories Act 1948 and Maharashtra Factories Rules 1963",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction shows real nav/news content, govt email dirdish.mum-mh@gov.in, state emblem, linked directly from mahakamgar.maharashtra.gov.in (Labour Commissioner site)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DISH Maharashtra — Directorate of Industrial Safety and Health",
+      "url": "https://mahadish.in/registration_and_grant_of_license",
+      "whatItIs": "Detailed step-by-step procedure page for Registration and Grant of (Factory) Licence, for both Hazardous and Other-Than-Hazardous factories",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction confirms exact step-by-step procedure text (log on to lms.mahaonline.gov.in, MAITRI CAF, Form 1, fees, 7/60-day timelines)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DISH Maharashtra — Directorate of Industrial Safety and Health",
+      "url": "https://mahadish.in/license_renewal",
+      "whatItIs": "Detailed step-by-step procedure page for Factory Licence Renewal",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction confirms real relevant procedure content matching the page title",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DISH Maharashtra — Directorate of Industrial Safety and Health",
+      "url": "https://mahadish.in/approval_site_building_layout",
+      "whatItIs": "Detailed step-by-step procedure page for Approval of Site, Building Plan and Machinery Layout (Rule 3, Maharashtra Factories Rules 1963) — a pre-licensing step",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction confirms real relevant procedure content (MAITRI login, CAF, plan approval service)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DISH Maharashtra — Directorate of Industrial Safety and Health",
+      "url": "https://mahadish.in/marathi/online_services",
+      "whatItIs": "Online Services index page listing all factory-licensing related services (new registration/license, plan approval, renewal, amendment) under the Factories Act/Maharashtra Factories Rules",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction shows real numbered list of the 7 licensing services exactly as claimed",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DISH Maharashtra — Directorate of Industrial Safety and Health",
+      "url": "https://mahadish.in/marathi/acts",
+      "whatItIs": "Laws & Rules (कायदे व नियम) index page listing the Factories Act/Maharashtra Factories Rules and amendment notifications with download links",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction shows 'कायदे व नियम' heading with 'New Legal Framework'/'Old Legal Framework' tables of Subject/Download Link",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DISH Maharashtra — Directorate of Industrial Safety and Health",
+      "url": "https://mahadish.in/marathi/download",
+      "whatItIs": "Forms/Download page hosting the official application forms (Form 1, Form 2, etc.) used for factory registration, licensing and renewal",
+      "verifiedBy": "curl HTTP 200; page confirmed real with links to FORM_1_NEW.pdf, FORM_2.pdf and related forms, each independently fetched and verified below",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DISH Maharashtra — Directorate of Industrial Safety and Health",
+      "url": "https://mahadish.in/media/front/images/download/FORM_1_NEW.pdf",
+      "whatItIs": "Official Form 1 — application for permission to construct/extend a factory, registration, notice of occupation, and grant/renewal of factory licence (Rules 3,5,8,11,14)",
+      "verifiedBy": "curl HTTP 200; `file` confirms valid 1-page PDF; Read tool confirms genuine Form 1 content matching the claimed purpose",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DISH Maharashtra — Directorate of Industrial Safety and Health",
+      "url": "https://mahadish.in/media/front/images/download/FORM_2.pdf",
+      "whatItIs": "Official Form 2 (नमूना २) — application for registration/notice of occupation for grant or renewal of factory licence, bilingual English/Marathi",
+      "verifiedBy": "curl HTTP 200; `file` confirms valid 2-page PDF; Read tool rendered page 1 and confirms genuine Form 2 content matching the claimed purpose",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DISH Maharashtra — Directorate of Industrial Safety and Health",
+      "url": "https://mahadish.in/media/front/images/FEE_SCHEDULE_A.pdf",
+      "whatItIs": "Official Fee Schedule A — factory licence fees by manufacturing-process factories, keyed to worker count/HP, per Notification FAC 2025/CR No.117(Part-2)/Labour-4 dated 3/10/2025",
+      "verifiedBy": "curl HTTP 200; `file` confirms valid 1-page PDF; pdftotext extracts real fee-schedule table text citing the exact gazette notification number and date",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DISH Maharashtra — Directorate of Industrial Safety and Health",
+      "url": "https://mahadish.in/media/front/images/FEE_SCHEDULE_B.pdf",
+      "whatItIs": "Official Fee Schedule B — factory licence fees specifically for Power Generating Stations, keyed to installed MW capacity, same notification as Schedule A",
+      "verifiedBy": "curl HTTP 200; `file` confirms valid 1-page PDF; pdftotext extracts real fee-schedule table text citing the same gazette notification",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DISH Maharashtra — Directorate of Industrial Safety and Health",
+      "url": "https://mahadish.in/media/front/images/Part_I_L_Ext_No_31_Dated_14_May_2025.pdf",
+      "whatItIs": "Official Maharashtra Government Gazette (Extraordinary) notification of the Maharashtra Factories (1st Amendment) Rules, 2025, dated 13 May 2025 — amends reactor/exothermic-reaction safety rules under the Maharashtra Factories Rules 1963",
+      "verifiedBy": "curl HTTP 200; `file` confirms valid 17-page PDF; Read tool rendered page 1-2 showing the actual 'महाराष्ट्र शासन राजपत्र' gazette masthead, state emblem, Industries/Energy/Labour & Mining Dept header and rule text",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DISH Maharashtra — Directorate of Industrial Safety and Health",
+      "url": "https://mahadish.in/media/front/images/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%20%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%96%E0%A4%BE%E0%A4%A8%E0%A5%87%20(%E0%A4%A6%E0%A5%81%E0%A4%B8%E0%A4%B0%E0%A5%80%20%E0%A4%B8%E0%A5%81%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A4%BE)%20%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%202025.pdf",
+      "whatItIs": "Official Maharashtra Government Gazette (Extraordinary) notification of the Maharashtra Factories (2nd Amendment) Rules, 2025, dated 3 October 2025 (electronic Form 1 filing etc.)",
+      "verifiedBy": "curl HTTP 200; `file` confirms valid 10-page PDF; Read tool rendered page 1 showing the actual 'महाराष्ट्र शासन राजपत्र' gazette masthead and 'महाराष्ट्र कारखाने (दुसरी सुधारणा) नियम, 2025' rule text",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Maharashtra Labour Commissioner (Mahakamgar)",
+      "url": "https://mahakamgar.maharashtra.gov.in/",
+      "whatItIs": "Official Government of Maharashtra Labour Department / Labour Commissioner website — parent department overseeing DISH and factory regulation, links out to the DISH (mahadish.in) site",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction shows real nav content 'कामगार आयुक्त महाराष्ट्र शासन' with directorate list including 'औद्योगिक सुरक्षा व आरोग्य संचालनालय' (DISH)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Maharashtra Pollution Control Board (MPCB)",
+      "url": "https://mpcb.gov.in/",
+      "whatItIs": "Official Maharashtra Pollution Control Board home page — Consent to Establish/Operate from MPCB is a standard prerequisite before/alongside factory licensing",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction shows real nav/content (मिशन LiFE, RTS, consent management menu, etc.)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Maharashtra Pollution Control Board (MPCB)",
+      "url": "https://mpcb.gov.in/mr/consentmgt/water-and-air-act",
+      "whatItIs": "MPCB page detailing Consent under the Water and Air (Prevention & Control of Pollution) Acts, including the fee schedule by capital investment — relevant prerequisite consent for a factory",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction shows real page-specific content including a detailed consent-fee table referencing an actual 25/08/2011 Maharashtra Government Resolution",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "National Single Window System (NSWS)",
+      "url": "https://nsws.gov.in/",
+      "whatItIs": "Central Government's National Single Window System portal, through which Maharashtra's state approvals (including DISH/factory licensing services) can also be accessed",
+      "verifiedBy": "curl HTTP 200 (resolves via www.nsws.gov.in); pandoc text extraction shows real portal content (Central/State Approvals menu, PAN verification notice, contact details)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DGOSH / DGFASLI (Directorate General Occupational Safety & Health, Ministry of Labour & Employment)",
+      "url": "https://dgfasli.gov.in/",
+      "whatItIs": "Central Ministry of Labour & Employment body responsible for the Factories Act 1948 nationally (model rules, OSH Code 2020) — the central-law counterpart referenced by Maharashtra's state rules",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction shows real nav content listing 'फैक्ट्रियां अधिनियम, 1948' (Factories Act 1948) and OSHWC Code 2020 sections",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://lms.mahaonline.gov.in/",
+      "reason": "This is the actual application portal named by DISH's own procedure pages (lms.mahaonline.gov.in / MAITRI login), but this session's curl connections to it were repeatedly reset mid-TLS-exchange ('Recv failure: Connection reset by peer', confirmed twice and also visible in the shared agent-proxy failure log) — found via the DISH site itself but not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://maitri.mahaonline.gov.in/",
+      "reason": "Returned HTTP 503 Service Unavailable on repeated attempts (IIS 'Service Unavailable' error page, confirmed twice) — not a real content response"
+    },
+    {
+      "url": "https://mahaonline.gov.in/",
+      "reason": "Connection times out / redirects to an internal /App_ErrorPage/AppError path rather than resolving to real content"
+    },
+    {
+      "url": "https://www.ecmpcb.in/cms",
+      "reason": "curl TLS handshake fails ('SSL certificate problem: unable to get local issuer certificate') — broken/incomplete certificate chain on the server side, not an environment proxy issue (mpcb.gov.in on the same network path verified fine)"
+    },
+    {
+      "url": "https://cia.ecmpcb.in/",
+      "reason": "Same TLS certificate verification failure as www.ecmpcb.in/cms"
+    },
+    {
+      "url": "https://manage.ecmpcb.in/public/dashboard/dist/index.html",
+      "reason": "curl connection reset by peer ('Recv failure: Connection reset by peer') — could not be independently verified this session"
+    }
+  ],
+  "remarks": [
+    "mahadish.in is not a .gov.in domain, but it is the de facto official Directorate of Industrial Safety and Health (DISH) Maharashtra website: it is linked directly from the official Labour Commissioner site mahakamgar.maharashtra.gov.in, carries an official @gov.in contact email (dirdish.mum-mh@gov.in), displays the Government of India/Maharashtra state emblem, and its content (forms, gazette PDFs, procedures) is internally consistent and cites real official notification numbers/dates. Treated as a verified government source for this reason.",
+    "The actual transactional application portal for Maharashtra factory licensing (lms.mahaonline.gov.in, reached via the MAITRI single-window login) could not be fetched from this session despite being the portal DISH's own procedure pages instruct applicants to use — likely a server-side TLS/availability issue rather than content absence; excluded per the spec's rule rather than assumed working.",
+    "www.nsws.gov.in required following an http->https redirect to resolve (curl's initial attempt to the bare host alone timed out quickly before -L followed the redirect to www.nsws.gov.in:443, which returned HTTP 200).",
+    "This environment's egress proxy showed many other Indian state-government hosts failing for other concurrent sessions during this work (per /__agentproxy/status); none of those unrelated hosts were used as MH candidates here, but it indicates these .gov.in/.nic.in sites are broadly flaky to reach from this network path, not unique to Maharashtra."
+  ]
+}

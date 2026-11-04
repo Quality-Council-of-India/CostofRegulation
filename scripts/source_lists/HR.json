@@ -1,0 +1,108 @@
+{
+  "state": "HR",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "Department of Industries & Commerce, Haryana",
+      "url": "https://haryanaindustries.gov.in/",
+      "whatItIs": "State Department of Industries & Commerce homepage (nodal EODB/single-window-coordination department for Haryana; its Services FAQ content references Factory Plan approval and license from the Chief Inspector of Factories under the Factories Act, 1948, though that specific sub-page could not itself be verified at HTTP 200 - see excluded)",
+      "verifiedBy": "curl HTTP 200, confirmed real department navigation, minister/officer names, and services menu content via pandoc text extraction",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "National Single Window System (NSWS)",
+      "url": "https://www.nsws.gov.in/",
+      "whatItIs": "Central Government single-window portal for business approvals; homepage lists Haryana under 'State Approvals' alongside other states, relevant as the central cross-state channel through which state approvals including factory-related licenses can be routed",
+      "verifiedBy": "curl HTTP 200 (final URL https://www.nsws.gov.in:443/), confirmed real navigation, FAQ and state-list text content via pandoc text extraction",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Haryana Government official portal",
+      "url": "https://www.haryana.gov.in/",
+      "whatItIs": "Haryana state government's main official portal (gateway site linking to department sites, e-Services/SARAL, and e-Gazette)",
+      "verifiedBy": "curl HTTP 200, confirmed real homepage navigation/content via pandoc text extraction",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Haryana Government official portal",
+      "url": "https://www.haryana.gov.in/project/e-services-saral-haryana/",
+      "whatItIs": "Official Haryana Government page describing SARAL Haryana (Antyodaya Saral), the state's unified e-Services single-window platform covering 545 services/schemes across 44 departments; general single-window description page, not a factory-license-specific page",
+      "verifiedBy": "curl HTTP 200, confirmed real descriptive text content about the SARAL platform via pandoc text extraction",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Haryana Government official portal",
+      "url": "https://www.haryana.gov.in/?p=5925",
+      "whatItIs": "Official Haryana Government page describing the Haryana Government Gazette (the publication venue for Factories Rules amendment notifications); note: the outbound e-Gazette link this page itself provides (egazettewww.haryana.gov.in) does not resolve - see excluded/remarks",
+      "verifiedBy": "curl HTTP 200, confirmed real e-Gazette description page content (title 'e-Gazette | Haryana Government') via pandoc text extraction",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://hrylabour.gov.in/",
+      "reason": "TLS connection reset by peer (curl error 35) on every attempt across this session (3+ retries, including verbose diagnostic showing handshake reset after ~10s); this is the actual Haryana Labour Department site (the authority for Factory License grant/renewal) but could not be reached"
+    },
+    {
+      "url": "https://hrylabour.gov.in/content/rts",
+      "reason": "same host as above - TLS connection reset by peer, unreachable this session"
+    },
+    {
+      "url": "https://investharyana.in/",
+      "reason": "HTTP 200 but response is an empty Angular SPA shell (ng-app=\"investhryApp\") with no server-rendered text content; found but not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://www.nsws.gov.in/portal/haryana",
+      "reason": "HTTP 200 but page body is an empty JS-rendered shell (only the literal title text present, no navigable content); found but not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://haryanaindustries.gov.in/services",
+      "reason": "server (nginx) returns HTTP 404 Not Found status on repeated direct header checks, despite returning a large HTML body containing real department/FAQ content (including a Factories Act registration Q&A) - fails this methodology's strict HTTP-200 requirement"
+    },
+    {
+      "url": "https://haryanaindustries.gov.in/acts-rules",
+      "reason": "same site - HTTP 404 Not Found status despite non-trivial response body; fails strict HTTP-200 requirement"
+    },
+    {
+      "url": "https://saralharyana.gov.in/",
+      "reason": "TLS connection reset by peer (curl error 35) on repeated attempts; plain-HTTP variant also fails to resolve DNS"
+    },
+    {
+      "url": "https://saralwww.haryana.gov.in/",
+      "reason": "egress proxy returned 502 'connect rejected' (connect_rejected) on the CONNECT tunnel"
+    },
+    {
+      "url": "https://services.india.gov.in/service/detail/haryanaapplication-for-business-licenses-under-section-330",
+      "reason": "egress proxy returned 502 'connect rejected' (connect_rejected) on repeated attempts"
+    },
+    {
+      "url": "https://services.india.gov.in/service/detail/haryanaapplication-for-business-licenses-under-section-331",
+      "reason": "egress proxy returned 502 'connect rejected' (connect_rejected) on the CONNECT tunnel"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/handle/123456789/20951?locale=en",
+      "reason": "connection timed out (30s) on repeated attempts; candidate central legal-database page for the Factories (Haryana Amendment) Act, could not be reached"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/21351/1/hepa_2016_english.pdf",
+      "reason": "connection timed out; candidate official PDF of the Haryana Enterprises Promotion Act 2016, could not be reached"
+    },
+    {
+      "url": "https://labour.gov.in/",
+      "reason": "HTTP 200 but response body is effectively empty (no extractable visible text), consistent with a JS-rendering shell; central Ministry of Labour & Employment homepage could not be independently verified via this session's fetch method"
+    },
+    {
+      "url": "http://www.egazettewww.haryana.gov.in",
+      "reason": "hostname does not resolve (DNS failure); this is the outbound e-Gazette link given by haryana.gov.in's own e-Gazette description page, and it is broken"
+    }
+  ],
+  "remarks": [
+    "The single most important source for this license - the Haryana Labour Department's own site (hrylabour.gov.in), which administers Factory License grant/renewal under the Factories Act 1948 - was unreachable all session (TLS connection reset by peer on every attempt, verified with verbose diagnostics). This significantly limits what could be verified first-hand; the verified list below relies on adjacent official Haryana Government channels (Industries & Commerce department, the state government's main portal/SARAL/e-Gazette pages, and the central NSWS portal) rather than the Labour Department's own checklist/portal pages.",
+    "investharyana.in (the Haryana single-window/HEPC portal commonly cited for factory registration) returned HTTP 200 but is a pure Angular single-page app with no server-rendered content reachable via curl, so it could not be verified as a real content source despite clearly being a live, operating site.",
+    "haryanaindustries.gov.in uses a CMS where only the root '/' path returns HTTP 200; every deeper path tested (including '/services', which contains a genuine FAQ on Factories Act registration/license procedure, and '/acts-rules') returns HTTP 404 from the server itself even though it serves a large, real HTML body. Per the spec's requirement of HTTP 200 (not 403/404), these were excluded rather than included, even though their content looked genuine and directly relevant.",
+    "A Haryana Government Gazette PDF (Right to Service Act notification dated 14 Nov 2022, published on haryanaindustries.gov.in) was fetched and read in full (8 pages, confirmed real gazette content with state emblem, Chief Secretary signature, and a service/timeline schedule) but was excluded from verifiedSources entirely rather than included or logged as a verification failure, because on inspection its schedule covers only Industries & Commerce Department services (Boiler Act, Partnership Act, Societies Act, Lubricating Oils licensing) and does not include the Factories Act/Factory License at all - it is a real, reachable, but topically irrelevant document for FAL.",
+    "services.india.gov.in and saralwww.haryana.gov.in were both rejected by the egress proxy with a 502 connect_rejected, which the proxy's own documentation describes as either a policy denial or an upstream failure - this session could not determine which.",
+    "No candidate 'Haryana Factories Rules' PDF (state-specific rules text or gazette notification) could even be located as a direct .gov.in link via search; secondary sources indicate Haryana largely follows the Punjab Factories Rules 1952 as amended for Haryana, with amendments themselves only found on non-government legal-archive sites (PRS India, Indiacode is official but timed out), so no Factories Rules text source is included here."
+  ]
+}

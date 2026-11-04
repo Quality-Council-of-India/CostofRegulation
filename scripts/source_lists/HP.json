@@ -1,0 +1,97 @@
+{
+  "state": "HP",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "OFRIS — Himachal Pradesh Online Factory Registration Information System",
+      "url": "https://ofris.hp.gov.in/",
+      "whatItIs": "State factory-registration/licensing portal home page (Directorate of Labour & Employment, GoHP)",
+      "verifiedBy": "curl HTTP 200; pandoc text shows real OFRIS navigation, FAQ accordion, and News & Updates content",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "OFRIS — Himachal Pradesh Online Factory Registration Information System",
+      "url": "https://ofris.hp.gov.in/newchecklist.pdf",
+      "whatItIs": "Official document checklist PDF for factory registration/licensing",
+      "verifiedBy": "curl HTTP 200; `file` confirms valid 15-page PDF",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "OFRIS — Himachal Pradesh Online Factory Registration Information System",
+      "url": "https://ofris.hp.gov.in/Guidlines.aspx",
+      "whatItIs": "Step-by-step guidelines page for online Building Plan approval, Factory Registration and Licence renewal",
+      "verifiedBy": "curl HTTP 200; pandoc text shows real guidance text from Directorate of Labour and Employment with numbered steps and office address",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "OFRIS — Himachal Pradesh Online Factory Registration Information System",
+      "url": "https://ofris.hp.gov.in/FAQ.pdf",
+      "whatItIs": "Official FAQ PDF on Approval of Building Plans, Registration & Renewal of Factory Licences, incl. fee basis, timelines (30 days for licence, 3 months for plan approval), and renewal cutoff (31 October)",
+      "verifiedBy": "curl HTTP 200; `file` confirms valid 4-page PDF; Read tool confirmed genuine Q&A content specific to HP factory licensing",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "OFRIS — Himachal Pradesh Online Factory Registration Information System",
+      "url": "https://ofris.hp.gov.in/OFRIS.pdf",
+      "whatItIs": "Official OFRIS User Manual for Online Factory Registration (Directorate of Labour and Employment, GoHP), describing Building Plan Approval (Form 1) and Factory Registration/Licence (Form 3) workflows",
+      "verifiedBy": "curl HTTP 200; `file` confirms valid 10-page PDF; Read tool confirmed genuine department-authored manual content with screenshots",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "OFRIS — Himachal Pradesh Online Factory Registration Information System",
+      "url": "https://ofris.hp.gov.in/elimination.pdf",
+      "whatItIs": "Official Office Order (No. L&E(Lab)/Simplifying Labour Laws/2018, dated 29 June 2019) from the Commissioner, Labour-cum-Chief Inspector of Factories, HP, mandating fully online registration/renewal of factory licence via OFRIS and eliminating physical document submission",
+      "verifiedBy": "curl HTTP 200; `file` confirms valid 1-page PDF; Read tool confirmed genuine signed office order on department letterhead",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "NSWS — National Single Window System",
+      "url": "https://www.nsws.gov.in/",
+      "whatItIs": "Central National Single Window System homepage; the central portal through which some state approvals (incl. states listed as integrated with NSWS) can be applied for, with references to Himachal Pradesh in page content",
+      "verifiedBy": "curl HTTP 200; page <title> confirms 'India's National Single Window System for Business Approvals | NSWS'; page text includes multiple references to Himachal Pradesh",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://rajpatrahimachal.nic.in/",
+      "reason": "Himachal Pradesh e-Gazette (Rajpatra) portal, candidate source for official Factories Rules amendment notifications — but curl could not establish a connection via this session's proxy across 3 attempts (CONNECT tunnel failed, HTTP 502 / policy-or-upstream failure each time), so content could not be independently verified this session"
+    },
+    {
+      "url": "https://labour.hp.gov.in/",
+      "reason": "HP Department of Labour, Employment & Overseas Placement portal (cited by third-party sources as the department's current domain) — curl repeatedly failed (connection timed out / connection reset by peer) across 3 attempts via this session's proxy, so content could not be independently verified this session"
+    },
+    {
+      "url": "https://emerginghimachal.hp.gov.in/",
+      "reason": "HP state Single Window / Emerging Himachal investment portal — curl fails TLS handshake ('unable to get local issuer certificate') even when pointed at the proxy's CA bundle, indicating a genuine certificate-chain problem on the site rather than a local trust-store issue; not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://himachal.nic.in/index.php?lang=1&dpt_id=14",
+      "reason": "Legacy HP Labour & Employment department page URL, cited inside the verified OFRIS FAQ.pdf as the department's website — curl returns HTTP 404 (old NIC department-portal URL scheme has been retired); stale link, not included"
+    },
+    {
+      "url": "https://himachal.nic.in/index1.php?lang=1&dpt_id=14&level=2&sublinkid=624&lid=833",
+      "reason": "Legacy document checklist page URL, cited 3 times inside the verified OFRIS FAQ.pdf as the source of the required-documents checklist — curl returns HTTP 200 but the response is byte-for-byte a different page than a direct fetch of the same check, and is in fact just the generic himachal.nic.in homepage shell (confirmed by title and size match to the plain homepage fetch), not the actual checklist content; stale/redirected link"
+    },
+    {
+      "url": "http://admis.hp.nic.in/ofris",
+      "reason": "Legacy OFRIS domain referenced repeatedly inside the verified OFRIS FAQ.pdf (e.g. 'admis.hp.nic.in/ofris/OFRIS.pdf') as the system's original URL before migrating to ofris.hp.gov.in — curl fails with 'Could not resolve host', domain no longer resolves"
+    },
+    {
+      "url": "https://www.thc.nic.in/Central Governmental Acts/Himachal pradesh single window (investment,promotion and facilitation) act,2018.pdf",
+      "reason": "Himachal Pradesh High Court's hosted copy of the HP Single Window (Investment, Promotion and Facilitation) Act, 2018 — curl fails TLS handshake with 'certificate has expired', a genuine expired certificate on the source site; not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/handle/123456789/21633?locale=hi",
+      "reason": "Central India Code repository page, candidate source for the Factories (Himachal Pradesh Amendment) Act text — curl timed out twice (20s) with zero bytes received via this session's proxy, so content could not be independently verified this session"
+    }
+  ],
+  "remarks": [
+    "All 6 verifiedSources beyond the two seed URLs were discovered by inspecting the actual hyperlinks (href attributes) present in the already-verified ofris.hp.gov.in home page and FAQ.pdf, not from WebSearch snippets — each was then independently curl-fetched and content-inspected per the spec, so they meet the 'personally visited and confirmed' bar even though the discovery method differed from search.",
+    "Three otherwise-plausible .gov.in/.nic.in hosts (rajpatrahimachal.nic.in, labour.hp.gov.in, indiacode.nic.in) could not be reached from this session despite multiple retries with the proxy's CA bundle; the proxy's own failure log shows many other state government hosts (e.g. hrylabour.gov.in, sewasetu.assam.gov.in, services.india.gov.in) failing in the same window, suggesting this may be a broader network/policy condition for this session rather than those specific government sites being down — but per the spec's rule, they were excluded rather than guessed at.",
+    "The OFRIS portal's own official FAQ PDF (now itself a verified source) contains three stale internal links to a retired himachal.nic.in URL scheme and to a dead legacy admis.hp.nic.in domain; these were checked and excluded rather than cited, since the department has since migrated the whole system to ofris.hp.gov.in.",
+    "NSWS (nsws.gov.in) was verified only at its central homepage level; no specific Himachal-Pradesh-factory-license service subpage on NSWS could be found or verified — the platform's service-specific pages appear to require an authenticated session/search rather than being reachable via a direct public URL, so only the homepage is listed, with that caveat.",
+    "No standalone, separately-hosted PDF of the Himachal Pradesh Factories Rules, 1950 (or its 2024/2025 amendments) could be found on a .gov.in/.nic.in domain and verified this session; all search hits for the rules text pointed to private compliance/newsletter sites (comply4hr, simpliance, teamleaseregtech, ksandk, legalitysimplified, lexplosion, greythr), which the spec explicitly excludes as non-government aggregators."
+  ]
+}

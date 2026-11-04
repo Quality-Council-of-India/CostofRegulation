@@ -1,0 +1,69 @@
+{
+  "state": "PB",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "NSWS — National Single Window System (Government of India)",
+      "url": "https://www.nsws.gov.in/",
+      "whatItIs": "Central National Single Window System home/landing page — the Gol-run unified portal through which state-level approvals (including Punjab factory-related services) are in principle routed; state/service-specific search is a client-side app behind login and was not itself fetchable this session",
+      "verifiedBy": "curl HTTP 200 (590008 bytes); inspected HTML confirms real content — <title>India's National Single Window System for Business Approvals | NSWS</title> plus an embedded schema.org GovernmentOrganization block naming \"National Single Window System\" / \"NSWS\"",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://pblabour.gov.in/Service/FactoryLicence",
+      "reason": "Punjab Labour Department's official 'How to Obtain a Factory License?' page, found via WebSearch — curl fails with TLS 'Connection reset by peer' immediately after the Client Hello, reproduced across 4+ attempts (bare host, www. variant, forced TLS1.2, forced HTTP/1.1); the proxy's own relay log independently shows repeated ws_closed_mid_exchange failures for pblabour.gov.in:443 and www.pblabour.gov.in:443 this session. Could not verify."
+    },
+    {
+      "url": "https://pblabour.gov.in/eLabour/LicenceDescriptions/Details/2",
+      "reason": "Punjab eLabour portal licence-description page, found via WebSearch — same pblabour.gov.in TLS-reset failure as the main service page; host unreachable this session."
+    },
+    {
+      "url": "https://pblabour.gov.in/eLabour/Content/documents/SampleFormPdf/BuildingPlan.pdf",
+      "reason": "Sample factory building-plan form PDF on pblabour.gov.in, found via WebSearch — same host-level TLS-reset failure; unreachable this session."
+    },
+    {
+      "url": "https://pblabour.gov.in/eLabour/Static/FormsAndProcedures",
+      "reason": "Forms & procedures index page on pblabour.gov.in, found via WebSearch — same host-level TLS-reset failure; unreachable this session."
+    },
+    {
+      "url": "https://pblabour.gov.in/pbLabourStaticSiteAdmin/uploads/1db793e3-3ee0-403e-99fd-b46265ff2645_The Punjab Factories Rules.pdf",
+      "reason": "Official Punjab Factories Rules, 1952 PDF hosted on pblabour.gov.in, found via WebSearch — request timed out after 15s; host unreachable this session (same pattern as other pblabour.gov.in URLs)."
+    },
+    {
+      "url": "https://pblabour.gov.in/assets/Pdf/RTI/The Punjab Factory Rules 1952.pdf",
+      "reason": "Second copy of the Punjab Factory Rules 1952 PDF, under pblabour.gov.in's RTI section, found via WebSearch — request timed out after 15s; host unreachable this session."
+    },
+    {
+      "url": "https://services.india.gov.in/service/detail/factory-license-from-factory-wing-department-of-labour-in-punjab",
+      "reason": "National Government Services Portal (India.gov.in) listing for 'Factory License from Factory Wing, Department of Labour in Punjab', found via WebSearch — the proxy returns 'CONNECT tunnel failed, response 502' (connect_rejected) on every attempt, indicating this host could not be reached/was not allowed this session. Could not verify."
+    },
+    {
+      "url": "https://services.india.gov.in/service/detail/renewal-of-factory-license-under-punjab-factory-rules-1952-and-the-factories-act-1948-in-punjab",
+      "reason": "Same services.india.gov.in listing portal, this time for licence renewal, found via WebSearch — same connect_rejected/502 failure as above; unreachable this session."
+    },
+    {
+      "url": "https://labour.gov.in/punjab-0",
+      "reason": "Central Ministry of Labour & Employment's state landing page for Punjab — curl returns HTTP 200, but the response body is an empty Next.js JS-rendering shell with no server-rendered <title> or visible text (only analytics/chatbot-debug script payloads); not independently verifiable via this session's fetch method, per spec treated as excluded rather than listed as a real source."
+    },
+    {
+      "url": "https://labour.gov.in/",
+      "reason": "Central Ministry of Labour & Employment homepage — same empty Next.js JS-rendering shell issue as the Punjab subpage (HTTP 200, no readable server-rendered content); not included as a verified source."
+    },
+    {
+      "url": "https://egazette.gov.in/",
+      "reason": "Central e-Gazette portal, a plausible place to locate the official Punjab Factories Rules 1952 / amendment notifications — curl fails with 'SSL certificate problem: unable to get local issuer certificate' even against this session's pre-trusted CA bundle; could not verify this session."
+    }
+  ],
+  "remarks": [
+    "The single most important Punjab-specific source for this service — pblabour.gov.in (the Punjab Labour Department's eLabour portal, which hosts the actual factory-license application process, the Punjab Factories Rules 1952 PDF, the fee schedule, and application forms) — was completely unreachable from this session under every path, TLS version, and HTTP version tried. Failures were a TLS-handshake-level 'Connection reset by peer' (immediately after Client Hello) or outright timeouts, and the agent proxy's own recentRelayFailures log independently corroborates repeated ws_closed_mid_exchange events for pblabour.gov.in:443 and www.pblabour.gov.in:443 this session. This is flagged prominently rather than silently omitted, per the spec's instruction to say so honestly when an official site genuinely isn't reachable this way.",
+    "services.india.gov.in (the national Government Services Portal, which carries India.gov.in's own listing pages for Punjab's factory-license service) failed differently: the proxy reports 'connect_rejected' (502 on CONNECT) on every attempt, which per the proxy README means the destination host was not reachable/allowed for this session, distinct from the TLS-reset pattern seen with pblabour.gov.in.",
+    "Central Ministry of Labour & Employment pages at labour.gov.in (including its Punjab-specific landing page) did return HTTP 200, but both rendered as empty client-side (Next.js) application shells with no server-rendered text, title, or navigation content visible to curl — consistent with the spec's 'empty JS-rendering shell' exclusion case rather than a real verified source.",
+    "Press coverage (Tribune, Outlook Money, GK Today, PPP-in-India best-practice write-up) describes Punjab's investor single-window system under several different names over time — 'Business First Portal', 'Invest Punjab', and the 'FastTrack/Fastrack Punjab Portal' (2nd phase launched November 2025, 173 industrial services) — but no exact gov.in URL for any of these surfaced in WebSearch results. Several plausible domain guesses (investpunjab.gov.in, invest.punjab.gov.in, businessfirst.punjab.gov.in, fastrack.punjab.gov.in, punjab.gov.in, www.punjab.gov.in, dic.punjab.gov.in, pbindustries.gov.in) were tried directly and all failed to connect (timeout or 502) this session; since none were ever confirmed as the real portal address via search, they are not listed as formal 'excluded' candidates (they were never verified WebSearch-sourced candidates to begin with) — this gap should be revisited with a working connection to pblabour.gov.in/punjab.gov.in, or by asking the person for the current correct portal name/URL.",
+    "The only source that could be both identified via WebSearch and positively verified by direct curl fetch + content inspection this session was the central NSWS homepage (www.nsws.gov.in) — real HTML with a confirmed title and schema.org GovernmentOrganization markup. Its Punjab/Factory-License-specific service search is a client-side application requiring login and could not itself be fetched or verified via curl, so only the landing page is listed.",
+    "Given the breadth of failures across many distinct pblabour.gov.in subpaths and several guessed punjab.gov.in-family domains, with multiple TLS versions and retries all failing the same way, this looks like a systemic connectivity problem reaching Punjab state-government domains from this session's egress path specifically (other central .gov.in/.nic.in domains such as nsws.gov.in and indiacode.nic.in's root connected fine), rather than an issue with any one specific page or URL.",
+    "Non-government sources that surfaced prominently in search (services like professionalutilities.com, incorpx.io, advisocompliances.blogspot.com, simpliance.in, lexplosion.in, teamleaseregtech.com, compfie.aparajitha.com, future.indiankanoon.org, scribd.com, greythr.com, wikiprocedure.com) were excluded from candidate consideration entirely per the spec's rule against consultancy blogs, news articles, and non-government aggregators, even where they appeared to host accurate copies of official text (e.g. the Punjab Factories Rules 1952, or the 2020 amendment notification)."
+  ]
+}

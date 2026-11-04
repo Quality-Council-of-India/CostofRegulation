@@ -1,0 +1,77 @@
+{
+  "state": "DNHDD",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "ddd.gov.in — Official portal of the U.T. Administration of Dadra and Nagar Haveli and Daman and Diu",
+      "url": "https://ddd.gov.in/",
+      "whatItIs": "Official UT government home page, confirms this is the real administration site (About UT, Departments, Documents, Services, Acts & Rules menus)",
+      "verifiedBy": "curl HTTP 200, 173793 bytes; pandoc text shows UT header 'U.T. of Dadra and Nagar Haveli and Daman and Diu', navigation menu with Departments/Documents/Citizens Corner",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "ddd.gov.in — Official portal of the U.T. Administration of Dadra and Nagar Haveli and Daman and Diu",
+      "url": "https://ddd.gov.in/document-category/labour-employment/",
+      "whatItIs": "Labour & Employment department document listing page (notifications, draft rules, official gazette entries) — the Labour Dept administers factory licensing/registration for this UT",
+      "verifiedBy": "curl HTTP 200, 151476 bytes; pandoc text shows a real paginated document table (7 pages) with titled entries including 'Draft DNH & DD OSHWC Rules, 2026', 'Draft DNH & DD Industrial Relation Rules, 2026', and dated Official Gazette extraordinary notifications, each with a working PDF download link",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "ddd.gov.in — Official portal of the U.T. Administration of Dadra and Nagar Haveli and Daman and Diu",
+      "url": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/07/20260720663531549.pdf",
+      "whatItIs": "Official notification (No. LE/LI/OSHWC/210539/2026/220, dated 20-07-2026) publishing the Draft Dadra and Nagar Haveli and Daman and Diu Occupational Safety, Health and Working Conditions Rules, 2026, issued by the Commissioner-cum-Secretary (Labour). This draft, in exercise of powers under the OSH Code 2020, explicitly supersedes (among others) 'The Goa, Daman & Diu Factories Rules, 1985 as applicable to Daman and Diu' and 'The Dadra and Nagar Haveli Factories Rules, 1971' — i.e. it is the state's current factories-rules successor regulation text, published for objections/comments",
+      "verifiedBy": "curl HTTP 200, 4490518 bytes; `file` confirms valid PDF, 271 pages; Read tool rendered page 1-2 showing the notification header, list of superseded rules (including the DNH Factories Rules 1971 and Goa/Daman&Diu Factories Rules 1985), and Chapter I Preliminary text of the draft rules, with an objections email secy-labour-dd@ddd.gov.in",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "ddd.gov.in — Official portal of the U.T. Administration of Dadra and Nagar Haveli and Daman and Diu",
+      "url": "https://ddd.gov.in/document-category/district-industries-centre/",
+      "whatItIs": "District Industries Centre (Department of Industries) document listing page — relevant for the Industries-side notifications/schemes that intersect with setting up a factory in the UT",
+      "verifiedBy": "curl HTTP 200, 151727 bytes; pandoc text shows a real document table with dated 2026 entries such as 'Department of Industries: Notification — The UT of DNH & DD (Right of Citizens to Public Services) (Amendment) Rules, 2026' and DIC advertisements, each with a working view/download link",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "ddd.gov.in — Official portal of the U.T. Administration of Dadra and Nagar Haveli and Daman and Diu",
+      "url": "https://ddd.gov.in/services/",
+      "whatItIs": "Citizens Corner 'Services' directory page listing all service categories by department, including a 'Factories & Boilers' category and a 'District Industries Centre' category, confirming these are recognised service verticals of the UT administration",
+      "verifiedBy": "curl HTTP 200, 115617 bytes; pandoc text shows the department/service-category filter list explicitly containing 'Factories & Boilers' and 'District Industries Centre' as selectable categories",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "India Stack Local (NeGD) — state digital-solutions directory, DNH & DD entry",
+      "url": "https://negd.gov.in/isl/Directory/statedata/522",
+      "whatItIs": "National e-Governance Division directory entry for Dadra & Nagar Haveli / Daman & Diu describing 'Single Window Portal for Business Services' and naming investdd.gov.in as the UT's online single-window instrument for industrial clearances/NOCs",
+      "verifiedBy": "curl HTTP 200, 101044 bytes; pandoc text contains the exact passage: 'Single Window Portal for Business Services ... The online single window \"investdd.gov.in\" will be an instrument through which the fast, reliable, efficient and time bound and citizen friendly services/clearances/NOCs will be provided'",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://investdd.gov.in/",
+      "reason": "found via WebSearch and corroborated by the NeGD directory page as the UT's single-window portal name, but the domain does not resolve/connect this session: curl via the session proxy returns 'CONNECT tunnel failed, response 502' (connect_rejected) and plain DNS resolution also fails ('Could not resolve host') — the portal appears to be down or defunct, so it cannot be independently verified"
+    },
+    {
+      "url": "https://www.pccdaman.info/",
+      "reason": "Pollution Control Committee (Daman & Diu / DNH) site found via WebSearch as relevant to the Consent-to-Operate step that often accompanies factory setup, but curl via the session proxy returns 'CONNECT tunnel failed, response 502' (connect_rejected) — host unreachable this session, not verified"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/handle/123456789/15981",
+      "reason": "India Code central legislation page for the Factories Act, 1948 — curl timed out twice (30s) with 0 bytes received; could not verify content this session"
+    },
+    {
+      "url": "https://www.nsws.gov.in/",
+      "reason": "National Single Window System home page returns HTTP 200, but the fetched content is a generic login/profile-completion shell ('Your profile is not completed...') with no DNHDD-specific or Factory-License-specific content visible without authenticating — not independently verifiable as relevant via this session's fetch method"
+    },
+    {
+      "url": "https://ddd.gov.in/service-category/factories-boilers/",
+      "reason": "The UT's own 'Factories & Boilers' service-category page returns HTTP 200 and is a real server-rendered page (not a JS shell), but it lists zero service entries under that category — an empty listing with no actual factory-license service content, so it is not usable as a citable source"
+    }
+  ],
+  "remarks": [
+    "No single dedicated 'factory license portal' (analogous to Himachal Pradesh's OFRIS) could be found or verified for this UT; the most relevant verified regulatory text is the 2026 Draft OSHWC Rules PDF, which is explicitly presented as superseding the older Dadra and Nagar Haveli Factories Rules, 1971 and the Goa, Daman & Diu Factories Rules, 1985 (as applicable to Daman and Diu) — note it is still a DRAFT (open for objections as of its 20-07-2026 notification) and not yet the final gazetted rule text.",
+    "The UT's named single-window portal, investdd.gov.in, could not be reached this session (proxy-level connection refusal and DNS failure both occurred), so its existence is corroborated only indirectly via the NeGD India Stack Local directory entry, not by direct verification of the portal itself.",
+    "The UT administers factory-related functions split across the Labour & Employment department (OSH/Factories rules, licensing authority per the draft rules' 'Commissioner-cum-Secretary (Labour)') and the District Industries Centre / Department of Industries (industrial registration, EODB schemes) — both departments' live document-listing pages on ddd.gov.in were verified.",
+    "ddd.gov.in's document/service listings are filtered by a single flat 'category' taxonomy (no combined department+type filtering via URL), so older, non-recently-dated documents (e.g. an original scanned Dadra and Nagar Haveli Factories Rules, 1971 gazette PDF) may exist on the site but were not surfaced within the pages checked this session; only the first few pages of the Labour & Employment and District Industries Centre listings were inspected."
+  ]
+}

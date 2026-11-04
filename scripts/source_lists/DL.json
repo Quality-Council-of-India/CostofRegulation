@@ -1,0 +1,81 @@
+{
+  "state": "DL",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "Delhi Labour Department — Directorate of Industrial Safety & Health (DISH)",
+      "url": "https://labour.delhi.gov.in/labour/procedure-grant-licence",
+      "whatItIs": "Official page: Procedure for Grant of Licence under the Factories Act, 1948 — documents required (Form No. 2, fee challan, approved plan, Municipal Trade/Power Licence, DPCC consent, nomination of occupier, health & safety policy), scrutiny/inspection process, fee basis, and licence validity",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction confirmed genuine body content (Q11-Q15 of DISH FAQ on licence grant procedure) on Government of NCT of Delhi Labour Commissioner site, not a shell page",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Delhi Labour Department — Directorate of Industrial Safety & Health (DISH)",
+      "url": "https://labour.delhi.gov.in/faqs",
+      "whatItIs": "Official FAQ page on renewal of factory licence — online renewal via e-District Delhi portal, documents to upload, fee schedule by HP installed/workers, renewal timelines, late fee, and district Deputy Director contacts",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction confirmed genuine body content (Q1-Q12 renewal FAQ with fee table) on Government of NCT of Delhi Labour Commissioner site",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Delhi Labour Department — Directorate of Industrial Safety & Health (DISH)",
+      "url": "https://labour.delhi.gov.in/labour/list-online-services",
+      "whatItIs": "Official list of online services of the Labour Department, including item 13 'Registration and Grant of Factory License Under the Factories Act, 1948' (30-day SLA) and item 16 'Renewal of License under the Factories Act, 1948' (30-day SLA), both pointing to the e-District Delhi portal (https://edistrict.delhigovt.nic.in/)",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction confirmed the full numbered services table with SLA days and portal URLs",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Delhi Labour Department — Directorate of Industrial Safety & Health (DISH)",
+      "url": "https://labour.delhi.gov.in/labour/chapter-i",
+      "whatItIs": "Official page hosting text of the Delhi Factories Rules, 1950 (made under the Factories Act, 1948 by the Chief Commissioner/Lt. Governor), including rule provisions and prescribed-form annexures",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction confirmed genuine rules text (e.g. Rule 2A on recognition of Competent Persons and prescribed application/certificate forms), not a shell page",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Delhi Labour Department — Directorate of Industrial Safety & Health (DISH)",
+      "url": "https://labour.delhi.gov.in/labour/notifications",
+      "whatItIs": "Official notifications/downloads page of the Labour Department, including a downloadable gazette notification on the 10-year licence-validity amendment to the Delhi Factories Rules, 1950, and notifications on which processes are covered irrespective of worker count",
+      "verifiedBy": "curl HTTP 200; pandoc text extraction confirmed genuine downloadable-notification listing with file sizes and titles",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Delhi Labour Department — Directorate of Industrial Safety & Health (DISH)",
+      "url": "https://labour.delhi.gov.in/sites/default/files/generic_multiple_files/faq_factory.pdf",
+      "whatItIs": "Official FAQ PDF: 'Procedure for Online Registration and Grant of Licence under the Factories Act, 1948' — definition of factory, who must obtain a licence, conforming-area restriction, step-by-step online application via e-District Delhi portal, full fee schedule (Rule 5), 11-item document checklist, processing/rejection rules, licence validity (1/5/10 years), and nodal officer contact details",
+      "verifiedBy": "curl HTTP 200; file confirms valid 5-page PDF; read and inspected full text content (21 Q&A, fee table, nodal officer details), matches stated subject exactly",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Delhi Labour Department — Directorate of Industrial Safety & Health (DISH)",
+      "url": "https://labour.delhi.gov.in/sites/default/files/generic_multiple_files/renewal_factory_faq.pdf",
+      "whatItIs": "Official FAQ PDF: 'Procedure for Online Renewal of Licence under the Factories Act, 1948' — renewal mandate (Rule 7), online renewal steps for both e-District-granted and manually-granted licences, 13-item document checklist, 1/5/10-year renewal options, filing deadlines, late-fee rule, and district Dy. Director contact list",
+      "verifiedBy": "curl HTTP 200; file confirms valid 3-page PDF; read and inspected full text content (Q1-Q10/13), matches stated subject exactly",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Delhi Labour Department — Directorate of Industrial Safety & Health (DISH)",
+      "url": "https://labour.delhi.gov.in/sites/default/files/generic_multiple_files/notificationdfr.pdf",
+      "whatItIs": "Delhi Gazette Extraordinary (Part IV), No. 190, dated 19 May 2017 — Labour Department Notification No. F.27(07)/CIF/Lab/2016/266 constituting the Delhi Factories (Amendment) Rules, 2017, amending Rules 5 and 7 of the Delhi Factories Rules, 1950 to permit licence/renewal for one, five, or ten years (the official gazette source for the licence-duration rule)",
+      "verifiedBy": "curl HTTP 200; file confirms valid multi-page PDF; read and visually inspected page images showing the Delhi Gazette masthead, registration number D.L.-33002/99, gazette date/part/number, and the amendment text to Rules 5 and 7, signed by Secretary-cum-Commissioner (Labour)",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://edistrict.delhigovt.nic.in/",
+      "reason": "This is the actual Delhi e-District single-window portal where the Factory License application/renewal service is filed (per the verified list-online-services page and both FAQ PDFs), but curl could not establish a TLS connection this session across 4 separate attempts (TLS Client Hello sent, then 'Recv failure: Connection reset by peer' every time, including with --tlsv1.2 forced) — not independently verifiable via this session's fetch method, though it is clearly the real, officially-referenced portal"
+    },
+    {
+      "url": "https://www.mcdonline.gov.in/",
+      "reason": "MCD's property-tax-linked factory-licence-fee module (a separate municipal licence requirement referenced by the Labour Dept.'s list-online-services page for building-plan approval and by secondary reporting) could not be fetched: curl returned a CONNECT tunnel failure (502) and then a TLS connection reset on retry — not independently verifiable via this session's fetch method"
+    }
+  ],
+  "remarks": [
+    "All 8 verified sources are pages/files under the single official domain labour.delhi.gov.in (Office of the Labour Commissioner, Government of NCT of Delhi, Directorate of Industrial Safety & Health), which is the authoritative department for Factory License (FAL) in Delhi under the Delhi Factories Rules, 1950.",
+    "The actual transactional application portal (e-District Delhi, edistrict.delhigovt.nic.in) and the Factories Act, 1948 text itself were identified as the authoritative next steps but could not be fetched this session due to TLS connection resets through the proxy; this is noted honestly in 'excluded' rather than guessed at.",
+    "A Delhi-specific state single-window / EoDB portal (distinct from the national NSWS at nsws.gov.in) was reported in secondary news coverage as being built/planned, but no live, directly-relevant Delhi-specific URL for it surfaced in search results, so it was not pursued as a candidate this session.",
+    "A separate MCD (Municipal Corporation of Delhi) factory-licence/building-plan-approval requirement exists alongside the Labour Department's Factories Act licence (confirmed by the official FAQ PDF, Q6, and by the list-online-services page item 18); its site (mcdonline.gov.in) could not be verified this session (see 'excluded').",
+    "A draft 'Delhi Occupational Safety, Health and Working Conditions Rules, 2025' intended to eventually replace the Delhi Factories Rules, 1950 was mentioned in secondary sources but no official gov.in text of it was found and verified this session, so it is omitted entirely from this list rather than included unverified.",
+    "The scratchpad 'checks' working directory used for initial curl output files is shared across sibling sessions compiling other states' lists in this pilot; this was noticed mid-task (unrelated states' content, e.g. Manipur, appeared in that directory from other sessions' fetches) and had no effect on this file's content — every URL listed above was independently fetched and inspected by this session, and later checks were moved to a session-private 'dl_checks' subdirectory out of caution."
+  ]
+}

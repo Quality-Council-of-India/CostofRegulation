@@ -1,0 +1,111 @@
+{
+  "state": "GJ",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "GIDC (Gujarat Industrial Development Corporation) — e-Governance Portal",
+      "url": "https://gidc.gujarat.gov.in/Pages/Contents/pre-opration",
+      "whatItIs": "Official GIDC 'Pre-Operation' page describing the Gujarat Single Window Clearance Act, 2017 and the Investor Facilitation Portal (IFP) as the mechanism through which licenses, clearances and certificates (the category Factory License falls under) are issued in Gujarat under the state's Ease of Doing Business initiative. Does not itself contain a Factory License-specific checklist.",
+      "verifiedBy": "curl HTTP 200 (direct, no redirect), 41,809 bytes; pandoc-extracted text confirms genuine page content naming the Gujarat Single Window Clearance Act 2017, DPIIT/EODB context, and the Investor Facilitation Portal (IFP) by name, with real GIDC footer/contact details (not a generic/default page)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "NSWS — National Single Window System",
+      "url": "https://nsws.gov.in/",
+      "whatItIs": "Central government single-window platform (DPIIT/Invest India) for identifying and applying for state and central business approvals; the generic national portal Gujarat participates in, not a Gujarat- or Factory-License-specific page.",
+      "verifiedBy": "curl HTTP 200 (direct), 590,008 bytes; pandoc-extracted text shows real live-portal content (profile-completion prompt, mandatory PAN verification notice, Help/FAQs/Guide/Contact/Video Tutorials navigation) rather than an empty shell",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DGFASLI / DGOSH — Directorate General Occupational Safety and Health (Ministry of Labour & Employment, Govt. of India)",
+      "url": "https://dgfasli.gov.in/en",
+      "whatItIs": "Central Ministry of Labour & Employment body responsible for the Factories Act, 1948 and OSH statutes nationally; its 'OSH Statutes' navigation lists the Factories Act, 1948 and Model Rules thereunder. Relevant as the central authority behind the Act that Gujarat's Factory License is issued under.",
+      "verifiedBy": "curl HTTP 200 (direct), 240,615 bytes; pandoc-extracted text shows real English-language site navigation including 'OSH Statutes > Factories Act, 1948 / Model Rules under Factories Act, 1948', not an empty shell",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DGFASLI / DGOSH — Directorate General Occupational Safety and Health (Ministry of Labour & Employment, Govt. of India)",
+      "url": "https://dgfasli.gov.in/public/Admin/Cms/AllPdf//667d45ce57e222.11029770.pdf",
+      "whatItIs": "Official 'Important Addresses' PDF directory published by DGFASLI/DGOSH listing the state Chief Inspector of Factories/factory-safety authorities; its Gujarat entry names the Director, Industrial Safety & Health (DISH), Gujarat, with office address (Shram Bhavan, Khanpur, Ahmedabad) and email (dish-ahd@gujarat.gov.in) — i.e. the actual Factory License-issuing authority in Gujarat.",
+      "verifiedBy": "curl HTTP 200 (direct), 121,646 bytes; `file` confirms valid PDF v1.7; pdftotext extraction confirms a real 'Gujarat' entry naming 'Director, Industrial Safety & Health, Gujarat' with address and dish-ahd@gujarat.gov.in email",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://dish.gujarat.gov.in/",
+      "reason": "Gujarat's Directorate of Industrial Safety & Health portal — the actual factory-license issuing authority's site, repeatedly cited by secondary sources as the application portal — but curl times out / connection reset on every attempt this session; could not reach the server"
+    },
+    {
+      "url": "https://ifp.gujarat.gov.in/",
+      "reason": "Gujarat Investor Facilitation Portal (state single-window system) — curl times out / connection reset on every attempt this session; could not reach the server"
+    },
+    {
+      "url": "https://ic.gujarat.gov.in/",
+      "reason": "Gujarat Industries Commissionerate (hosts checklist/registration PDFs found via search) — curl connection timed out on every attempt this session; could not reach the server"
+    },
+    {
+      "url": "https://ic.gujarat.gov.in/documents/commondoc/2020/CHECK%20LIST%20FOR%20Registration%20Form%20CIS%20-%20New.pdf",
+      "reason": "Same ic.gujarat.gov.in domain as above — connection timed out this session; could not reach the server"
+    },
+    {
+      "url": "https://udhyog.gujarat.gov.in/",
+      "reason": "Industries Commissionerate portal (alternate domain) — curl times out / connection reset on every attempt this session; could not reach the server"
+    },
+    {
+      "url": "https://labour.gujarat.gov.in/",
+      "reason": "Gujarat Labour, Skill Development & Employment Department site (name inferred from department contact-listing pages) — curl connection timed out this session; could not reach the server"
+    },
+    {
+      "url": "https://egazette.gujarat.gov.in/",
+      "reason": "Official Gujarat e-Gazette portal (where the 2025 OSH/Factories rule notifications would be officially published) — curl connection timed out this session; could not reach the server"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/handle/123456789/4555",
+      "reason": "India Code page for the Gujarat Factories Rules, 1963 — curl times out this session; could not reach the server"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/5665/1/singlewindow.pdf",
+      "reason": "India Code copy of the Gujarat Single Window Clearances Act, 2017 — curl times out on the www.indiacode.nic.in domain this session"
+    },
+    {
+      "url": "https://indiacode.gov.in/",
+      "reason": "India Code's migrated domain (indiacode.nic.in now redirects here) loads with HTTP 200 but is an empty Angular single-page-app shell with no readable text via curl — found but not independently verifiable via this session's fetch method; the equivalent bitstream PDF path on this domain also returns the empty app shell instead of the PDF"
+    },
+    {
+      "url": "https://labour.gov.in/",
+      "reason": "Central Ministry of Labour & Employment homepage loads with HTTP 200 but is an empty Next.js JS-rendered shell with no readable text via curl — found but not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://labour.gov.in/state-government-labour-departments",
+      "reason": "Same Ministry of Labour & Employment site as above — HTTP 200 but empty JS-rendered shell with no readable content via curl"
+    },
+    {
+      "url": "https://indextb.com/",
+      "reason": "Industrial Extension Bureau (iNDEXTb), a Govt. of Gujarat industrial investment-promotion body — loads with HTTP 200 but only an accessibility-widget shell renders via curl, with no substantive page text — found but not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://directorit.gujarat.gov.in/InvestorFacilitation",
+      "reason": "Reachable with real content (HTTP 200, genuine text confirmed), but this is the Dept. of Science & Technology's own 'Investor Facilitation' page about its IT/ITeS and startup incentive policies, not the Industries/Labour single-window relevant to a Factory License — excluded as not relevant to FAL rather than for a fetch failure"
+    },
+    {
+      "url": "https://www.india.gov.in/labour-commissionerate-gujarat",
+      "reason": "National Portal of India listing for the Gujarat Labour Commissionerate — returns HTTP 404 (dead/stale listing)"
+    },
+    {
+      "url": "https://www.india.gov.in/official-website-gujarat",
+      "reason": "National Portal of India listing for the Gujarat state government website — returns HTTP 404 (dead/stale listing)"
+    },
+    {
+      "url": "https://services.india.gov.in/service/detail/trade-license-in-gujarat-1",
+      "reason": "National Portal of India services page — this session's egress proxy refuses the connection to services.india.gov.in (connect_rejected), so the page could not be fetched at all"
+    }
+  ],
+  "remarks": [
+    "A striking pattern emerged during verification: nearly every Gujarat state-government subdomain directly tied to industrial/factory licensing (dish.gujarat.gov.in, ifp.gujarat.gov.in, ic.gujarat.gov.in, udhyog.gujarat.gov.in, labour.gujarat.gov.in, egazette.gujarat.gov.in) timed out or reset the connection on repeated attempts this session, while other Gujarat state subdomains on apparently the same gujarat.gov.in infrastructure (gidc.gujarat.gov.in, directorit.gujarat.gov.in, sje.gujarat.gov.in) responded normally. This looks like genuine server-side unavailability/blocking of those specific hosts rather than a client-side or proxy policy issue (the agent proxy's own status log shows plain timeouts/resets for these, not policy-denial codes), but it means the single most relevant source for FAL in Gujarat — the DISH Gujarat portal itself — could not be verified this session despite being named consistently by multiple secondary sources as the actual application channel.",
+    "Multiple secondary/consultancy sources (agileregulatory.com, corpzo.com, professionalutilities.com, etc.) consistently describe the Gujarat Factory License process as: issuing authority = Directorate of Industrial Safety & Health (DISH), Gujarat; application channel = DISH portal and/or the IFP single-window portal; legal basis = Factories Act, 1948 as applied/amended in Gujarat (most recently via the Factories (Gujarat Amendment) Act, 2025 and the Gujarat Occupational Safety, Health and Working Conditions Rules, 2025, which reportedly replaced the Gujarat Factories Rules, 1963). None of these specific claims could be independently confirmed against a live official Gujarat government page this session, since every directly relevant Gujarat domain was unreachable and the only working copies of the 2025 rules/ordinance text found via search were hosted on private law-firm/compliance sites (lawrbit.com, lkslaw.com, simpliance.in), which do not qualify as government sources under this spec and were therefore not fetched/listed at all.",
+    "The one directly useful, independently verified fact about the Gujarat-specific authority came indirectly, via the central DGFASLI/DGOSH 'Important Addresses' PDF, which names the Director, Industrial Safety & Health, Gujarat and an official dish-ahd@gujarat.gov.in contact — corroborating, from an independently-reachable central government source, that DISH Gujarat is indeed the relevant authority, even though its own portal could not be reached directly.",
+    "No independently verifiable official Gujarat government page or document could be confirmed this session for: the current Gujarat Factories Rules/OSH Rules 2025 full text, a Factory-License-specific document checklist, or the fee schedule — all were excluded per the spec's 'when in doubt, exclude' rule rather than included on the strength of search snippets or third-party legal-site copies."
+  ]
+}

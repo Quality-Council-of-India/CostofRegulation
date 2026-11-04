@@ -1,0 +1,102 @@
+{
+  "state": "KL",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "NSWS — National Single Window System",
+      "url": "https://www.nsws.gov.in/",
+      "whatItIs": "Central National Single Window System homepage; lists Kerala among the states whose approvals (including factory/labour licensing categories) are integrated into the platform",
+      "verifiedBy": "curl HTTP 200; page <title> confirms 'India's National Single Window System for Business Approvals | NSWS'; pandoc-extracted text shows the real state-selection list including 'Kerala' alongside other states, not an empty shell",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "KSIDC — Kerala State Industrial Development Corporation",
+      "url": "https://www.ksidc.org/",
+      "whatItIs": "Official homepage of KSIDC, a Government of Kerala undertaking (per the page's own text: 'Government of Kerala Undertaking · Est. 1961'); its navigation includes 'Start Business > Apply for License (K-SWIFT)' and 'Single Window Clearance', i.e. the state's designated investor-facilitation entry point that routes to factory licensing via K-SWIFT",
+      "verifiedBy": "curl HTTP 200; page <title> confirms 'KSIDC – Kerala State Industrial Development Corporation'; pandoc-extracted text shows real navigation menu (About Us, Invest in Kerala, Start Business > Apply for License (K-SWIFT), Single Window Clearance, K-SWIFT, Industrial Parks, etc.) and real leadership/impact content, not an empty JS shell",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://fabkerala.gov.in/eng/",
+      "reason": "Department of Factories & Boilers, Kerala — the primary official portal for Factory License applications in Kerala. Could not be verified: curl fails with 'Recv failure: Connection reset by peer' on every one of 6+ retries across this session (also confirmed with the www. variant and the bare apex domain); the proxy's own failure log records repeated 'ws_closed_mid_exchange' (tunnel to the egress proxy closed before the TLS exchange completed) for this host"
+    },
+    {
+      "url": "https://fabkerala.gov.in/eng/index.php/faq",
+      "reason": "Department FAQ page (describes the online registration/Form 2/permit workflow per WebSearch snippets) — same host-level connection reset as the fabkerala.gov.in home page; not independently verifiable this session"
+    },
+    {
+      "url": "https://fabkerala.gov.in/eng/index.php/downloads/user-guides",
+      "reason": "Department user-guides/downloads page (candidate for an official checklist) — same host-level connection reset; not independently verifiable this session"
+    },
+    {
+      "url": "https://idms.fabkerala.gov.in/fabnet/UserLogin.do",
+      "reason": "FABOS (Factories And Boilers Online System) application/login portal — same connection-reset failure pattern on this subdomain; not independently verifiable this session"
+    },
+    {
+      "url": "https://fabkerala.gov.in/images/act_rules/KFR-1.pdf",
+      "reason": "Candidate official PDF of the Kerala Factories Rules, 1957 — connection reset by peer on every attempt; the actual regulation text could not be independently verified this session"
+    },
+    {
+      "url": "https://fabkerala.gov.in/eng/images/GO/2025/GO-19-2025.pdf",
+      "reason": "Candidate 2025 Government Order PDF (licence-validity amendment) — connection reset by peer; not independently verifiable this session"
+    },
+    {
+      "url": "https://fabkerala.gov.in/images/GO/2025/Fee-notification.pdf",
+      "reason": "Candidate 2025 fee-schedule notification PDF — connection reset by peer; not independently verifiable this session"
+    },
+    {
+      "url": "https://fabkerala.gov.in/eng/images/GO/2025/RTS-Notification-2025.pdf",
+      "reason": "Candidate Right-to-Service notification PDF (statutory processing-timeline commitments) — connection reset by peer; not independently verifiable this session"
+    },
+    {
+      "url": "https://kswift.kerala.gov.in/",
+      "reason": "K-SWIFT (Kerala Single Window Interface for Fast and Transparent Clearance) — the actual single-window application portal through which the Factory License is filed — connection reset by peer on every attempt via this session's proxy; not independently verifiable this session"
+    },
+    {
+      "url": "https://labour.kerala.gov.in/",
+      "reason": "Kerala Department of Labour (parent ministry of the Factories & Boilers directorate) — connection reset by peer; not independently verifiable this session"
+    },
+    {
+      "url": "https://industries.kerala.gov.in/",
+      "reason": "Kerala Department of Industries — proxy returned 'CONNECT tunnel failed, response 502' (policy denial or upstream failure) on this host; not independently verifiable this session"
+    },
+    {
+      "url": "https://compose.kerala.gov.in/",
+      "reason": "Candidate Kerala e-Gazette hosting domain (for the Factories Rules gazette notifications) — connection reset by peer; not independently verifiable this session"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/handle/123456789/21684",
+      "reason": "India Code copy of the Kerala Industrial Single Window Clearance Boards and Industrial Township Area Development Act, 1999 (the legal basis for K-SWIFT) — curl times out with 0 bytes received after 45s on repeated attempts; not independently verifiable this session"
+    },
+    {
+      "url": "https://www.ksidc.org/?p=46713",
+      "reason": "KSIDC's specific 'Apply For License (K-SWIFT)' sub-page — returns HTTP 200, but the fetched content is byte-for-byte the same generic site shell/navigation as the KSIDC homepage (identical <title>, same nav structure, same homepage body), not distinct page-specific content; the query-string routing appears to require client-side JS that curl cannot execute, so the claimed page content could not be confirmed"
+    },
+    {
+      "url": "https://www.ksidc.org/wp-content/uploads/2018/06/SOP-Checklist-for-Licence-for-Industries-Factories-Trades-Entrepreneurship-and-Other-Services.pdf",
+      "reason": "Candidate SOP/checklist PDF for factory and trade licences — curl returns HTTP 404 (page not found); link is dead"
+    },
+    {
+      "url": "https://labour.gov.in/",
+      "reason": "Central Ministry of Labour & Employment homepage — curl returns HTTP 200 but the response is an essentially empty Next.js single-page-app shell (a bare '#__next' div with no rendered text), confirmed by inspecting the raw HTML; not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://legislative.gov.in/",
+      "reason": "Central Ministry of Law & Justice (Legislative Dept.) homepage, candidate source for the central Factories Act, 1948 text — curl returns HTTP 200 but the response is the same empty Next.js JS-rendering shell pattern as labour.gov.in, with no visible text content; not independently verifiable via this session's fetch method"
+    },
+    {
+      "url": "https://oshwc.labour.gov.in/",
+      "reason": "Central OSH Code implementation portal — proxy returned 'CONNECT tunnel failed, response 502'; not independently verifiable this session"
+    }
+  ],
+  "remarks": [
+    "This session's proxy could not reach fabkerala.gov.in (Department of Factories & Boilers, Kerala — the primary authority for the Factory License) on any of 9+ attempts across its home page, FAQ, user-guides, FABOS login portal, Kerala Factories Rules PDF, and four 2025 Government Order/notification PDFs, nor kswift.kerala.gov.in (the actual K-SWIFT filing portal), nor labour.kerala.gov.in, compose.kerala.gov.in, dic.kerala.gov.in, or lc.kerala.gov.in. All failed identically with 'Connection reset by peer', and the proxy's own diagnostic log (recentRelayFailures) recorded these as 'ws_closed_mid_exchange' (tunnel to the egress proxy closed before the TLS handshake completed) for fabkerala.gov.in specifically, alongside many *other* states' equivalent factory/labour-department hosts (e.g. tsfactories.cgg.gov.in, pblabour.gov.in, ciflabour.assam.gov.in, ifp.gujarat.gov.in, singlewindow.jk.gov.in, eodb.py.gov.in) failing the same way in the same time window — indicating this is a broader network/proxy-side condition affecting many Indian state-government NIC-hosted sites from this session, not a deliberate block specific to Kerala's sites. Per the spec, these were excluded rather than guessed at or filled in from WebSearch snippets.",
+    "Because the state's own primary portal was unreachable, only two verified sources could be produced for this pilot: the central NSWS homepage and the KSIDC (Kerala State Industrial Development Corporation) homepage — both of which loaded with real, non-shell content and are legitimate state/central government(-undertaking) properties, but neither is a page dedicated specifically to the Factory License process; they establish that K-SWIFT is Kerala's designated single-window channel for it without directly showing its content.",
+    "Several other central .gov.in candidates (india.gov.in, pib.gov.in, dgfasli.gov.in/DGOSH, prd.kerala.gov.in, www.kerala.gov.in) did load successfully with real content this session, but were deliberately left out of verifiedSources because, on inspection, none of them carried content specific enough to 'getting a Factory License in Kerala' to justify inclusion — they are the state portal, the central Ministry of Labour's central OSH/Factories-Act body, and Kerala's general Public-Relations/Gazette-adjacent department, respectively, none of which surfaced a Kerala-FAL-specific page in this session's fetches.",
+    "A WebSearch snippet also surfaced a Kerala Kaumudi news report (not independently verified, and excluded per the spec's rule against non-government sources) that the Kerala Legislative Assembly passed the 'SARAL Kerala Bill 2026' on 2026-10-30, intended to replace K-SWIFT as the state's business-approval single-window system; if true, this means the K-SWIFT references found in this exercise (and in the briefly-reachable KSIDC homepage) may be mid-transition to a new portal name/URL that could not be confirmed from any government source this session.",
+    "No candidate URL that only returned an empty JS shell or unrelated content was listed as a verified source; two such cases (labour.gov.in, legislative.gov.in) are recorded in `excluded` per the spec's explicit guidance rather than cited as real sources."
+  ]
+}

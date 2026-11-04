@@ -1,0 +1,110 @@
+{
+  "state": "WB",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "WBIDC — West Bengal Industrial Development Corporation",
+      "url": "https://wbidc.com/home/industrial-parks/budge-budge-garment-park/State-Approvals-Clearances-NOC-status",
+      "whatItIs": "Official WBIDC page listing state approvals/clearances/NOCs an enterprise must obtain, explicitly naming 'Approval of Factory Plan under the Factories Act, 1948' (pre-establishment) and 'Factory License under Factories Act 1948' (pre-operation), both from the Directorate of Factories, Department of Labour",
+      "verifiedBy": "curl HTTP 200, confirmed via pandoc-rendered text: real navigation plus a two-part (pre-establishment/pre-operation) approvals table naming Factory License under Factories Act 1948 and the Directorate of Factories as issuing authority",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "WBIDC — West Bengal Industrial Development Corporation",
+      "url": "https://www.wbidc.com/home/industrial-parks/paridhan/State-Approvals-Clearances-NOC-status",
+      "whatItIs": "Same WBIDC state approvals/clearances/NOC checklist, published for a different WBIDC industrial park (Paridhan), independently confirming the Factory License requirement and issuing authority",
+      "verifiedBy": "curl HTTP 200, confirmed via grep on pandoc-rendered text: contains 'Factory License under Factories Act 1948 / Directorate Of Factories, - Department of Labour'",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "WBIDC — West Bengal Industrial Development Corporation",
+      "url": "https://wbidc.com/",
+      "whatItIs": "WBIDC home page — the parent body (under the state's Industry, Commerce & Enterprises Department) that runs the Silpa Sathi Single Window Cell through which West Bengal's Factory License is applied for",
+      "verifiedBy": "curl HTTP 200, confirmed real WBIDC navigation/header content ('West Bengal Industrial Development Corporation, an undertaking of Industry, Commerce and Enterprises Department, Government of West Bengal')",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "DGFASLI — Directorate General Factory Advice Service & Labour Institutes (Ministry of Labour & Employment, Government of India)",
+      "url": "https://dgfasli.gov.in/public/Admin/Cms/AllPdf//667d45ce57e222.11029770.pdf",
+      "whatItIs": "Central Ministry of Labour & Employment document: 'List of Chief Inspectors of Factories/Director Industrial Safety and Health' (as on 05.06.2024), giving the official West Bengal factory-inspectorate (Directorate of Factories) address and phone number used to administer the Factories Act in the state",
+      "verifiedBy": "curl HTTP 200, confirmed valid PDF via `file` (PDF 1.7) and `pdftotext`; text includes a West Bengal, Kolkata-700001 entry with phone '(O) 033-22103274', matching the Directorate of Factories contact reported in secondary sources",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Paschim Medinipur District Administration (NIC-hosted, Government of West Bengal)",
+      "url": "https://paschimmedinipur.gov.in/scheme/silpasathi/",
+      "whatItIs": "District government page (reached via redirect from https://paschimmedinipur.gov.in/?p=28558) describing the state's 'Shilpa Sathi' / Silpasathi single-window scheme — how investors submit a Common Application Form at the WBIDC Single Window Cell to obtain licenses/registrations (including factory-related approvals) from state departments, with step-by-step instructions to register and apply on the portal, and a pointer to https://www.silpasathi.in",
+      "verifiedBy": "curl HTTP 200 (after 301 redirect, confirmed with -L), confirmed via pandoc-rendered text: real 'SilpaSathi' section with scheme description, Single Window Cell address at WBIDC 'Protiti', and a numbered how-to-apply procedure",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://silpasathi.wb.gov.in/",
+      "reason": "WB's official factory-licensing single-window portal home page — connection reset by peer during TLS handshake on every attempt (6+ retries over ~15 minutes); curl never got past 'Client Hello' (OpenSSL: Recv failure: Connection reset by peer)"
+    },
+    {
+      "url": "https://silpasathi.wb.gov.in/sector-specific-approvals-common-view-details/MTU=",
+      "reason": "Silpasathi service-detail page for the Factories Act license — same TLS-handshake connection reset as all other silpasathi.wb.gov.in paths tried"
+    },
+    {
+      "url": "https://silpasathi.wb.gov.in/sop-sip-checklist-timeline/MQ%3D%3D/userguide",
+      "reason": "Silpasathi SOP/checklist/timeline user-guide page — same TLS-handshake connection reset"
+    },
+    {
+      "url": "https://silpasathi.wb.gov.in/eodb-single-window-system-act-2017",
+      "reason": "Silpasathi page on the legal basis (West Bengal Single Window System Act, 2017) — same TLS-handshake connection reset"
+    },
+    {
+      "url": "https://silpasathi.wb.gov.in/read-bytea-file-all/aWQ%3D/MTYw/NDQ%3D/ZW9kYl9zdGF0aWNfcGFnZV9wZGZfbWFuYWdl/cGRmX2NvbnRlbnQ%3D/MS1MaWNlbnNlIHVuZGVyIFRoZSBGYWN0b3JpZXMgQWN0LCAxOTQ4LXVzZXItbWFudWFsLnBkZg%3D%3D",
+      "reason": "Official SilpaSathi user manual PDF for 'License under The Factories Act, 1948' — found via WebSearch, but connection reset by peer on every curl attempt; could not independently verify content this session"
+    },
+    {
+      "url": "https://silpasathi.wb.gov.in/read-bytea-file-all/aWQ%3D/MTgw/NDQ%3D/ZW9kYl9zdGF0aWNfcGFnZV9wZGZfbWFuYWdl/cGRmX2NvbnRlbnQ%3D/Mi1BdXRvIHJlbmV3YWwgb2YgbGljZW5zZSB1bmRlciBUaGUgRmFjdG9yaWVzIEFjdCwgMTk0OC11c2VyLW1hbnVhbC5wZGY%3D",
+      "reason": "Official SilpaSathi user manual PDF for 'Auto renewal of license under The Factories Act, 1948' — same connection-reset failure, not independently verifiable this session"
+    },
+    {
+      "url": "https://silpasathi.wb.gov.in/read-bytea-file-all/aWQ%3D/MTY2/NDQ%3D/ZW9kYl9zdGF0aWNfcGFnZV9wZGZfbWFuYWdl/cGRmX2NvbnRlbnQ%3D/My1BcHByb3ZhbCBvZiBwbGFuIGFuZCBwZXJtaXNzaW9uIHRvIGNvbnN0cnVjdC9leHRlbmQvb3IgdGFrZSBpbnRvIHVzZSBhbnkgYnVpbGRpbmcgYXMgYSBmYWN0b3J5IHVuZGVyIHRoZSBGYWN0b3JpZXMgQWN0LCAxOTQ4LXVzZXItbWFudWFsLnBkZg%3D%3D",
+      "reason": "Official SilpaSathi user manual PDF for 'Approval of plan and permission to construct/extend/take into use any building as a factory' — same connection-reset failure, not independently verifiable this session"
+    },
+    {
+      "url": "https://www.silpasathi.in",
+      "reason": "Alternate/short domain for the Silpasathi portal (pointed to by the Paschim Medinipur district page) — also fails with connection reset by peer during TLS handshake"
+    },
+    {
+      "url": "https://labour.wb.gov.in/node/34",
+      "reason": "Labour Department / Directorate of Factories page — connection reset by peer during TLS handshake"
+    },
+    {
+      "url": "https://www.labour.wb.gov.in/sites/default/files/upload/notice/Gazette_RTPS%20July%202017_0.pdf",
+      "reason": "Labour Department RTPS (Right to Public Services) gazette notification PDF covering Factories Act service timelines — connection reset by peer during TLS handshake"
+    },
+    {
+      "url": "https://wb.gov.in/government-schemes-details-shilpasathi.aspx",
+      "reason": "State government (wb.gov.in) scheme page describing Shilpasathi — connection reset by peer during TLS handshake"
+    },
+    {
+      "url": "https://egiyebangla.gov.in/government-schemes-details-shilpasathi.aspx",
+      "reason": "Mirror of the wb.gov.in Shilpasathi scheme page on a separate West Bengal government domain (egiyebangla.gov.in) — also fails with connection reset by peer"
+    },
+    {
+      "url": "https://bmssy.wblabour.gov.in/downloads/functions.pdf",
+      "reason": "West Bengal Labour Department (wblabour.gov.in) sub-portal document on Directorate of Factories functions — connection reset by peer during TLS handshake"
+    },
+    {
+      "url": "https://lc.wb.gov.in/sites/default/files/important_notification/RIGHT_TO_PUBLIC_SERVICES_NOTIFICATION.pdf",
+      "reason": "Law Dept (wb.gov.in family) RTPS notification PDF — different failure mode: 'OpenSSL SSL routines::tlsv1 alert internal error' during TLS handshake, not independently verifiable this session"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/19074/1/24.pdf",
+      "reason": "Candidate central Factories Act / rules text via India Code (Ministry of Law & Justice legislative repository) — request timed out after 45s with 0 bytes received; separately confirmed indiacode.nic.in now auto-redirects ('Site Migration') to indiacode.gov.in, so this specific old-domain link is likely stale"
+    }
+  ],
+  "remarks": [
+    "Every *.wb.gov.in and *.wblabour.gov.in host tried (silpasathi.wb.gov.in, labour.wb.gov.in, www.labour.wb.gov.in, wb.gov.in, lc.wb.gov.in, bmssy.wblabour.gov.in, comtax.wb.gov.in) failed identically with a TLS-handshake-level connection reset ('Recv failure: Connection reset by peer' right after Client Hello) across 15+ attempts and multiple retries spaced several minutes apart, while unrelated .gov.in domains (dgfasli.gov.in, indiacode.nic.in homepage, nsws.gov.in, india.gov.in) and other West Bengal domains that are NOT on the wb.gov.in suffix (wbidc.com, paschimmedinipur.gov.in) all resolved fine with HTTP 200 in the same session. This points to the wb.gov.in domain family itself being unreachable from this session's egress path (not generic proxy congestion, and not a problem specific to any one candidate URL) — the agent-proxy status endpoint also logged these as 'ws_closed_mid_exchange' on the relay side. This is also the single-window portal (Silpasathi/Silpa Sathi) that is the actual official route for obtaining a Factory License in West Bengal, so the most load-bearing primary source could not be verified this session despite being the right target.",
+    "Because the Silpasathi portal itself was unreachable, verifiedSources instead relies on (a) WBIDC (wbidc.com, a non-wb.gov.in domain) pages that independently and explicitly list 'Factory License under Factories Act 1948' as a required approval and name the Directorate of Factories as issuing authority, (b) a central DGFASLI (Ministry of Labour & Employment) PDF confirming the West Bengal factory-inspectorate contact, and (c) a district-government (NIC-hosted, non-wb.gov.in-suffix) page describing the Silpasathi scheme and application process. None of these are a substitute for fetching the Silpasathi portal and its official checklist/manual PDFs directly, which should be retried in a later session/environment where wb.gov.in is reachable.",
+    "No West Bengal-specific National Single Window System (NSWS, nsws.gov.in) page was found or included: WebSearch results and the WBIDC/Silpasathi material consistently indicate West Bengal routes factory licensing through its own state single-window system (Silpasathi, under the West Bengal Single Window System Act, 2017) rather than through the central NSWS platform, so NSWS was not treated as directly relevant to this state's FAL process.",
+    "Several non-government aggregator/consultancy sources (IndiaFilings, Professional Utilities, WikiProcedure, Greythr, Indian Kanoon, ksandk.com, lexplosion.in, Simpliance, PRS Legislative Research) surfaced useful leads in WebSearch (e.g. document checklists, the West Bengal Factories Rules 1958 text, the West Bengal Single Window System Act 2017 PDF) but were deliberately excluded from both verifiedSources and excluded per the spec's rule against non-government sources, even though some appear accurate."
+  ]
+}

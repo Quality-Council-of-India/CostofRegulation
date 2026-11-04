@@ -1,0 +1,134 @@
+{
+  "state": "PY",
+  "serviceCode": "FAL",
+  "compiledAt": "2026-11-04",
+  "verifiedSources": [
+    {
+      "portal": "Labour Department, Puducherry",
+      "url": "https://labour.py.gov.in/approval-licensing-and-registration-factory",
+      "whatItIs": "Official process/checklist page: 'Approval, Licensing and Registration of a Factory' — lists required documents for Form I-C (site/plan approval under Sec. 6) and Form No. 2 (licence under Rule 4 of the Puducherry Factories Rules, 1964), fees, and process-flow links",
+      "verifiedBy": "curl HTTP 200; pandoc-rendered text shows exact heading 'Approval, Licensing and Registration of a Factory' with the real Form I-C document checklist (scrutiny fee, site plans, Industries Dept registration copy, land/building doc, PPCC NOC, etc.) and Form-2 licensing requirements",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Labour Department, Puducherry",
+      "url": "https://labour.py.gov.in/factory-inspectorate",
+      "whatItIs": "Factory Inspectorate office page listing all factory-related services (registration, plan approval, boiler licensing, FIRMS online system, fee payment via GRAS) and links to the Puducherry Factories Rules amendments",
+      "verifiedBy": "curl HTTP 200; pandoc text confirms heading 'Home » Offices » Factory Inspectorate' with a real menu of factory-licensing-related sub-pages",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Labour Department, Puducherry",
+      "url": "https://labour.py.gov.in/b-easy-ease-doing-business",
+      "whatItIs": "Ease of Doing Business (B-Easy) page listing the online services for 'Approval of Plans under the Factories Act, 1948', 'Registration and renewal of Licence under The Factories Act, 1948', the online-mode-only order, and the ServicePlus step-by-step guideline links",
+      "verifiedBy": "curl HTTP 200; pandoc text confirms heading 'B-Easy (Ease Of Doing Business)' and real bullet list naming Factories Act plan-approval/licence-renewal services and the Puducherry Factories (Amendment) Rules, 2018 reference",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Labour Department, Puducherry",
+      "url": "https://labour.py.gov.in/fees-under-factories-act-1948",
+      "whatItIs": "Fee-schedule listing page for fees payable under the Factories Act, 1948 (links to the downloadable fee schedule document)",
+      "verifiedBy": "curl HTTP 200; pandoc text confirms heading 'Fees Under Factories Act, 1948' with a 'View / Download' document row, department 'What's New' sidebar present and current",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Labour Department, Puducherry",
+      "url": "https://labour.py.gov.in/firms-factories-fees-online-payment-through-gras-puducherry-guidelines",
+      "whatItIs": "Guideline page explaining how to pay Factories Act fees online through GRAS (Government Receipts Accounting System), Puducherry",
+      "verifiedBy": "curl HTTP 200; pandoc text confirms heading 'Firms - Factories Fees - Online Payment Through Gras, Puducherry - Guidelines' with a real downloadable-guide link",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "GRAS Puducherry (Government Receipts Accounting System)",
+      "url": "https://gras.py.gov.in/",
+      "whatItIs": "The actual online payment portal (named in the Puducherry Factories Rules amendments) used to pay scrutiny/licence/renewal fees under the Factories Act",
+      "verifiedBy": "curl HTTP 200; pandoc text shows real portal content — department list including 'Labour Department', e-payment explanation, and payment how-to guides",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Labour Department, Puducherry",
+      "url": "https://labour.py.gov.in/factories-act-1948-0",
+      "whatItIs": "Department explainer page on the (central) Factories Act, 1948 — scope, definition of 'factory', and the administration's notified list of 41 dangerous manufacturing processes",
+      "verifiedBy": "curl HTTP 200; pandoc text confirms heading 'The Factories Act, 1948' with real substantive legal explanation text (Sec. 2(m), Sec. 85, G.O. Ms. No. 35/89-Lab/G)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Labour Department, Puducherry",
+      "url": "https://labour.py.gov.in/highlights-puducherry-factories-rules-1964",
+      "whatItIs": "Summary page of the Puducherry Factories Rules, 1964 (health/safety/welfare/working-hours rule ranges) — the state-specific rules governing the licence",
+      "verifiedBy": "curl HTTP 200; pandoc text confirms heading 'Highlights of The Puducherry Factories Rules, 1964' with real rule-range summaries (Rules 17-54 Health, 55-65(AH) Safety, 66-81(A) Welfare, etc.)",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Gazette of Puducherry (styandptg.py.gov.in)",
+      "url": "https://styandptg.py.gov.in/2019/FEBRUARY/EXTRAORDINARYPART-II/1/11-PART-II%20dated%2026-2-2019.pdf",
+      "whatItIs": "Official Gazette notification (Part II, No.11, dated 26-2-2019; G.O. Ms. No. 04/2018/Lab.) publishing the draft Puducherry Factories (Amendment) Rules, 2018 — introduces Form 1C/Form No.2 submission and fee payment through the Chief Inspectorate of Factories and Boilers' online/GRAS portal",
+      "verifiedBy": "curl HTTP 200, downloaded a genuine 5-page PDF (`file` confirms 'PDF document, version 1.4, 5 page(s)'); Read tool extracted full text matching the amendment to Rules 3-7, 10, 105, 110",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Gazette of Puducherry (styandptg.py.gov.in)",
+      "url": "https://styandptg.py.gov.in/2020/DECEMBER/EXTRAORDINARYPART-II/1/53-PART-II%20dated%204-12-2020.pdf",
+      "whatItIs": "Official Gazette notification (Part II, No.53, dated 4-12-2020; G.O. Ms. No. 11/2020/Lab.) publishing the Puducherry Factories (Amendment) Rules, 2020 — sets factory licence validity at a minimum of 10 years and introduces deemed/auto-renewal",
+      "verifiedBy": "curl HTTP 200, downloaded a genuine 3-page PDF (`file` confirms 'PDF document, version 1.4, 3 page(s)'); Read tool extracted full text confirming the 10-year validity and auto-renewal rule amendment",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Gazette of Puducherry (styandptg.py.gov.in)",
+      "url": "https://styandptg.py.gov.in/2025/AUGUST/EXTRAORDINARYPART-II/1/63-PART-II%20dated%2007-08-2025.pdf",
+      "whatItIs": "Official Gazette notification (Part II, No.63, dated 7-8-2025; G.O. Ms. No. 8/Lab./JCIF/2025) publishing the draft Puducherry Factories (Amendment) Rules, 2025, amending Schedules II/III under Rule 105 (conditions on employment of women/young persons)",
+      "verifiedBy": "curl HTTP 200, downloaded a genuine 6-page PDF (`file` confirms 'PDF document, version 1.7, 6 page(s)'); extracted text confirms 'Puducherry Factories (Amendment) Rules, 2025' notification text",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "Office of the Chief Inspector of Factories & Boilers, Puducherry (hosted on labour.py.gov.in)",
+      "url": "https://labour.py.gov.in/sites/default/files/lrdcifbmandatingsubmissionofannualreturnsunderfactoriesact1948throughonlinemode.pdf",
+      "whatItIs": "Official order from the Chief Inspector of Factories & Boilers mandating submission of Annual Returns under the Factories Act, 1948 through online mode only, per the Business Reforms Action Plan 2022, via the Labour Department website",
+      "verifiedBy": "curl HTTP 200, downloaded a genuine 1-page PDF (`file` confirms 'PDF document, version 1.4, 1 page(s)'); pdftotext confirms header 'GOVERNMENT OF PUDUCHERRY / OFFICE OF THE CHIEF INSPECTOR OF FACTORIES & BOILERS' and the online-mode-only order text",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "portal": "District Industries Centre / Department of Industries and Commerce, Puducherry",
+      "url": "https://dic.py.gov.in/sites/default/files/igb4.doc",
+      "whatItIs": "Government Order (G.O. Ms. No. 11/2016/Ind.A, dated 14-3-2017) establishing the Puducherry Industrial Guidance Bureau (PIGB) single-window clearance system, under which Chief Inspector of Factories clearance/factory-building approval is one of the time-bound clearances routed through the common application form on the Industries Department portal",
+      "verifiedBy": "curl HTTP 200, downloaded a genuine legacy MS Word file (`file` confirms 'CDFV2 Microsoft Word'); UTF-16LE string extraction (`strings -e l`) recovered full readable text confirming the PIGB single-window G.O., including explicit references to Chief Inspector of Factories as a 'Nodal Officer' and factory-building-approval timelines",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://eodb.py.gov.in/ (and all paths under this domain, e.g. /ApplyClearance/ApplyClearencesPublicList, /Welcome/ServicesEnrolled, /Content/PDF/GO Inspection Scheme A5.pdf)",
+      "reason": "Found via WebSearch as the Puducherry EoDB Investor Portal (listed on industry.py.gov.in), but every curl attempt to this domain (6+ attempts, different paths, spaced retries) returned 'Recv failure: Connection reset by peer' this session — could not independently verify any page on this domain"
+    },
+    {
+      "url": "https://industry.py.gov.in/ (and all paths, e.g. /about-ease-doing-business-puducherry, /application-forms-e-submission, /eodb-stakeholders-dept)",
+      "reason": "Found via WebSearch as the Industries Department site hosting the single-window/EODB process pages, but curl consistently fails TLS verification ('SSL certificate problem: unable to get local issuer certificate') against the proxy's standard CA bundle — appears to be a broken/incomplete certificate chain on the origin server, not a proxy misconfiguration (other .py.gov.in and .gov.in sites verified fine through the same proxy)"
+    },
+    {
+      "url": "https://services.india.gov.in/service/detail/factory-information-and-returns-management-system-factory-online-renewal-puducherry",
+      "reason": "Found via WebSearch (national services.india.gov.in listing for Puducherry factory licence renewal), but curl repeatedly returned 'CONNECT tunnel failed, response 502' from the agent proxy this session — could not independently verify"
+    },
+    {
+      "url": "https://services.india.gov.in/service/detail/information-about-labour-department-puducherry",
+      "reason": "Same services.india.gov.in domain as above; same proxy CONNECT-tunnel 502 failure — could not independently verify"
+    },
+    {
+      "url": "https://www.india.gov.in/portal-single-windeows-system-licensing-licensesoft-puducherry",
+      "reason": "curl returned HTTP 404 (confirmed via rendered text: a generic india.gov.in search/landing shell, not the claimed single-window licensing page) — page does not resolve to real content"
+    },
+    {
+      "url": "https://styandptg.py.gov.in/2024/JANUARY/EXTRAORDINARYPART-II/1/03-Part-II%20dated%2018-01-2024.pdf",
+      "reason": "Found via WebSearch as the gazette notification finalizing the Puducherry Factories (Amendment) Rules, 2023, but curl returned HTTP 404 (confirmed by response body being a short HTML error page, not a PDF) — exact file path/name likely differs from the search snippet's guess"
+    },
+    {
+      "url": "https://styandptg.py.gov.in/2023/JANUARY/EXTRAORDINARYPART-I/003-PART-I%20dated%2005-01-2023.pdf",
+      "reason": "curl returned HTTP 200 and a genuine 3-page PDF, but on inspection the notification (G.O. Ms. No. 11/DI&C(SW)/PIPDIC/EODB/2022) is a Department of Industries and Commerce BRAP/PIPDIC reform notice, not relevant to Factory Licensing specifically — excluded for lack of topical relevance despite passing technical verification"
+    }
+  ],
+  "remarks": [
+    "No single dedicated 'factory license portal' equivalent to HP's OFRIS exists for Puducherry that this session could verify as reachable; the licensing workflow is split across the Labour Department's website (labour.py.gov.in, which hosts the checklist, fees, rules, and online-service entry points), the GRAS e-payment portal (gras.py.gov.in), and the Industries Department's PIGB single-window scheme (whose governing G.O. is hosted as a legacy .doc on dic.py.gov.in). The department's own live single-window portals (eodb.py.gov.in, industry.py.gov.in) could not be verified this session for the technical reasons noted in `excluded` — a later session/attempt from a different network path may succeed where this one didn't.",
+    "The two Puducherry Factories (Amendment) Rules PDFs (2019 and 2020) had to be fetched with the filename's embedded spaces percent-encoded (%20) — curl rejects a literal space in the URL ('Malformed input to a URL function'); the space-containing form is the one that appears in search results/links.",
+    "The dic.py.gov.in file is a legacy binary .doc (not .docx); pandoc cannot parse it, so verification used `file` to confirm it's a genuine MS Word binary (CDFV2) plus `strings -e l` (UTF-16LE extraction, the internal text encoding of legacy .doc files) to recover and read the real document text confirming its content and relevance.",
+    "No central Ministry of Labour & Employment / OSH Code page or NSWS page specific to Puducherry's factory-licence service was found to be directly relevant enough (or independently verifiable as state-specific) to include; WebSearch found only generic/commentary pages on NSWS, not an actual Puducherry-specific NSWS service page."
+  ]
+}
