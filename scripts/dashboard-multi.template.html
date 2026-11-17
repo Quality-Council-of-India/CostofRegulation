@@ -1079,15 +1079,59 @@ function renderBest(){
 }
 
 function renderReconcile(){
-  const items = AGG.inconsistencies;
-  let h = `<div class="pagehead"><div><h2>${icon('scale')}Flagged inconsistencies</h2><div class="lede">Every <code>INCONSISTENT</code> flag raised while tagging — either a report contradicting itself (header vs. body, one section vs. another), or a genuine contradiction between what an official described in the Expert Discussion and what businesses reported in the Focused Group Discussion, with both sides quoted or closely paraphrased.</div></div></div>`;
-  h += `<div class="grid g4" style="margin-bottom:16px">
-    ${kpiIcon('acc-danger','alert','Inconsistencies logged', String(items.length), 'across '+AGG.totalLicenses+' license records')}
-    ${kpiIcon('acc-primary','book','Reports affected', String(new Set(items.map(g=>g.state+'/'+g.serviceCode)).size), 'of '+AGG.totalLicenses+' total')}
-  </div>`;
-  h += `<div class="card"><div class="card-h"><h3>Logged inconsistencies</h3></div><div class="card-b">`+
-    (items.length ? items.map(g=>gapItem(g,true)).join('') : '<div class="empty"><b>None logged</b></div>')+
-    '</div></div>';
+  const field = AGG.inconsistencies;                 // ED vs FGD, or a report against itself
+  const rules = AGG.ruleConflicts || [];             // field record vs the published rule
+  const fills = AGG.ruleGapFills || [];              // rules supplying what the field never captured
+  const affected = new Set(field.map(g=>g.state+'/'+g.serviceCode));
+
+  let h = `<div class="crumb">Evidence &amp; method · where sources disagree</div>
+    <div class="pagelede">${field.length} places where our own sources tell different stories${rules.length?`, and ${rules.length} where the published rule disagrees with both`:''}</div>
+    <div class="pagesub">Three things were asked about the same process: the official who issues the licence, the businesses who applied for it, and the State's own published rules. Where they agree, we have a solid fact. Where they do not, this page shows every version rather than quietly picking one.</div>`;
+
+  h += `<div class="takeaway"><div class="tk-h">What this shows</div><div class="tk-b"><ol>
+    <li><b>${field.length}</b> contradictions inside the field record — an official describing the process one way and businesses describing it another, or a single report disagreeing with itself.</li>
+    <li>These touch <b>${affected.size}</b> of ${AGG.totalLicenses} licence records, so the field evidence is mostly internally consistent — the disagreements are concentrated, not everywhere.</li>
+    ${rules.length?`<li>Separately, on <b>${rules.length}</b> specific facts the State's own published rule says something different from what the field record captured. These are the most actionable: the rule is citable.</li>`:''}
+    ${fills.length?`<li><b>${fills.length}</b> facts the field record never captured at all were recovered from published rules — gaps closed after fieldwork had already ended.</li>`:''}
+  </ol></div></div>`;
+
+  if(rules.length){
+    h += `<div class="card" style="margin-bottom:18px"><div class="card-h"><h3>${icon('scale')}The published rule disagrees with the field record</h3><span class="note">${rules.length} fact${rules.length===1?'':'s'}</span></div><div class="card-b">
+      <div class="howto"><b>How to read:</b> each row is one fact where we found an official published rule saying something different from what was recorded in the field. The link goes to the exact document we read. Neither version is assumed correct — but the rule is the one you can cite.</div>`+
+      rules.map(c=>`<details class="vdet"><summary>
+          <span class="vmark v-contradicted">${icon('alert')}Rules disagree</span>
+          <span class="vk" style="min-width:150px;cursor:pointer" onclick="event.preventDefault();goStateService('${c.state}','${c.serviceCode}')">${esc(c.stateName)}</span>
+          <span class="vg">${esc(CHECK_LABEL[c.key]||c.key)} — ${esc(c.serviceName)}</span>
+          <span class="vmore">detail</span></summary>
+        <div class="vbody">
+          <div class="gi-text"><b style="color:var(--ink)">Field record:</b> ${esc(c.primaryClaim||'—')}</div>
+          ${c.sourceSays?`<div class="gi-text" style="margin-top:7px"><b style="color:var(--ink)">Published rule:</b> ${esc(c.sourceSays)}</div>`:''}
+          ${c.citation?`<div style="margin-top:9px"><a class="chip-sm link" href="${esc(c.citation.url)}" target="_blank" rel="noopener">${icon('link')} ${esc((c.citation.title||c.citation.url).slice(0,95))}</a></div>`:''}
+        </div></details>`).join('')+
+      `</div></div>`;
+  }
+
+  if(fills.length){
+    h += `<div class="card" style="margin-bottom:18px"><div class="card-h"><h3>${icon('book')}Gaps the published rules closed</h3><span class="note">${fills.length} fact${fills.length===1?'':'s'}</span></div><div class="card-b">
+      <div class="howto"><b>How to read:</b> the field survey has ended, so these facts could not be recovered by asking again. Each one was found in a published rule instead.</div>`+
+      fills.map(c=>`<details class="vdet"><summary>
+          <span class="vmark v-fills_gap">${icon('book')}Gap filled</span>
+          <span class="vk" style="min-width:150px;cursor:pointer" onclick="event.preventDefault();goStateService('${c.state}','${c.serviceCode}')">${esc(c.stateName)}</span>
+          <span class="vg">${esc(CHECK_LABEL[c.key]||c.key)} — ${esc(c.serviceName)}</span>
+          <span class="vmore">detail</span></summary>
+        <div class="vbody">
+          <div class="gi-text"><b style="color:var(--ink)">The field record said:</b> ${esc(c.primaryClaim||'—')}</div>
+          ${c.sourceSays?`<div class="gi-text" style="margin-top:7px"><b style="color:var(--ink)">The published rule says:</b> ${esc(c.sourceSays)}</div>`:''}
+          ${c.citation?`<div style="margin-top:9px"><a class="chip-sm link" href="${esc(c.citation.url)}" target="_blank" rel="noopener">${icon('link')} ${esc((c.citation.title||c.citation.url).slice(0,95))}</a></div>`:''}
+        </div></details>`).join('')+
+      `</div></div>`;
+  }
+
+  h += `<div class="card"><div class="card-h"><h3>${icon('alert')}Official account vs. business experience</h3><span class="note">${field.length} flagged while tagging the field record</span></div><div class="card-b">
+    <div class="howto"><b>How to read:</b> these come from the field interviews themselves — either an official and a business describing the same process differently, or one report contradicting itself. Both sides are quoted in each entry.</div>
+    <div class="scroll-y" style="max-height:900px">`+
+    (field.length ? field.map(g=>gapItem(g,true)).join('') : '<div class="empty"><b>None logged</b></div>')+
+    '</div></div></div>';
   return h;
 }
 

@@ -1,0 +1,87 @@
+{
+  "state": "UP",
+  "serviceCode": "FAL",
+  "validatedAt": "2026-11-17",
+  "checks": [
+    {
+      "key": "timeline",
+      "primaryClaim": "ED record gives timeline.minDays = 15 and timeline.maxDays = 30, with the operative text: 'The plan of a factory must be disposed of within 15 working days of online receipt by the Chief Inspector's office; this extends to 30 working days for factories carrying out hazardous processes.' The FGD record repeats the same 15/30 split ('Deemed-approval timelines were discussed as 15 days for non-hazardous and 30 days for hazardous industries').",
+      "verdict": "contradicted",
+      "sourceSays": "The official Nivesh Mitra 'Comprehensive List of Approvals, checklist, Procedures & Timelines' table publishes a single, flat figure in the column 'Time Lines (In days)' for the Factory Licence service. Row 124 reads: 'Labour Department | Registration and grant of license under The Factories Act 1948 | 30 | Pre-Establishment'. The related plan-approval service carries the same figure — row 123: 'Labour Department | Approval of plan and permission to constructextendor take into use any building as a factory under the Factories Act 1948 | 30 | Pre-Operation'. Renewal (row 125) is 'Renewal of license under The Factories Act 1948 | 60 | Renewal'. No 15-day figure, and no hazardous/non-hazardous split, appears anywhere in the Labour Department block of the published table.",
+      "citation": {
+        "title": "Comprehensive List of Approvals, checklist, Procedures & Timelines — Nivesh Mitra, Single Window System, Government of Uttar Pradesh",
+        "url": "https://niveshmitra.up.nic.in/InvAssis.aspx?ID=chklst",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "fees",
+      "primaryClaim": "ED record states the statutory fee is 'based entirely on number of employees, payable online', and the ED source document itself carries two irreconcilable ranges for the same fee — 'INR 150 to 35,000' in the process flow (Step 6) versus 'INR 100 to 7,000' in the Statutory Fee section (flagged INCONSISTENT in the primary record). The FGD adds unquantified-in-ED de-facto costs (structural audit, consultant charges).",
+      "verdict": "not_found",
+      "sourceSays": null,
+      "citation": null
+    },
+    {
+      "key": "deemedApproval",
+      "primaryClaim": "ED record sets deemedApproval.status = 'yes' and deemedApproval.days = 15: 'Plans not rejected within 15 working days (30 for hazardous-process factories) are deemed approved, and the licence is also deemed approved; the site plan approval letter and licence are then issued by the Chief Inspector immediately.'",
+      "verdict": "not_found",
+      "sourceSays": null,
+      "citation": null
+    },
+    {
+      "key": "documents",
+      "primaryClaim": "ED record lists five items — site/building plan; structural stability certificate from an approved architect/engineer; sale deed or rent agreement; CA certificate showing capital investment; and 'other documents as specified' (itself flagged MISSING in the primary record because the residual category is never enumerated).",
+      "verdict": "not_found",
+      "sourceSays": null,
+      "citation": null
+    },
+    {
+      "key": "steps",
+      "primaryClaim": "ED record describes a 12-step fully online Nivesh Mitra process with no physical department visit, but its scrutiny step (step 8) is vague on querying: 'Labour Department scrutinizes application — Query raised online if discrepancies exist', with no stated limit on the number of queries and no deadline by which a query must be raised. The FGD flags exactly this gap as a live pain point: 'Queries may sometimes be raised close to the end of the deemed-approval timeline', and recommends introducing 'a transparent query management mechanism with ... defined response timelines'.",
+      "verdict": "fills_gap",
+      "sourceSays": "The Government Order published on Nivesh Mitra as 'Provision of only One Time Query on submitted applications on Nivesh Mitra if any' (Chief Secretary, Government of Uttar Pradesh, No. 3326/77-6-18-08(M)/2012TC-8(Cabinet), Lucknow, August 2018 — a partial amendment of GO No. 1488/77-6-18-08(M)/2012TC-8(Cabinet) dated 09-04-2018) already fixes both limits. Para 2: 'विभाग के जिला स्तरीय नोडल अधिकारी द्वारा ... फार्म को पूर्ण रूप से परीक्षण किया जाएगा। परीक्षण करने के उपरान्त यदि किसी बिन्दु पर कमियां पाई जाती है तो उन कमियों से उद्यमी को पोर्टल पर आवेदन पत्र प्राप्त होने के 07 कार्य दिवस के भीतर अधिकतम 01 (एक बार) रिव्यू हेतु भेजा जाएगा' — i.e. a maximum of ONE query, and it must be raised within 07 working days of the application reaching the portal. Para 4: 'यदि पोर्टल पर आवेदन पत्र प्राप्त होने के 07 कार्य दिवस के भीतर विभाग द्वारा उद्यमी को रिव्यू हेतु फार्म नहीं भेजा जाता है तो यह स्वतः माना जायेगा कि उद्यमी द्वारा भरे गये आवेदन प्रपत्र में कोई कमी नहीं पाई गयी हैं' — if no query is sent within 07 working days, the application is automatically deemed free of deficiency. Para 3 requires the applicant to resubmit within 07 days. Para 5: on the nodal officer clicking 'approve', 'Digitally Signed NOC स्वतः निर्गत हो जाएगी। किसी विभाग द्वारा NOC की स्कैन कापी अपलोड नहीं की जाएगी' (digitally signed NOC issues automatically; no department is to upload a scanned copy). Para 7: from 01 July 2018 all departments are to accept industrial approval applications only through Nivesh Mitra.",
+      "citation": {
+        "title": "Provision of only One Time Query on submitted applications on Nivesh Mitra if any (Government Orders and Circulars, Sr. No. 13) — Nivesh Mitra, Government of Uttar Pradesh",
+        "url": "https://niveshmitra.up.nic.in/Documents/Govt_Orders/G_2.pdf",
+        "transport": "https"
+      }
+    }
+  ],
+  "sourcesRead": [
+    "https://niveshmitra.up.nic.in/InvAssis.aspx?ID=chklst",
+    "https://niveshmitra.up.nic.in/services.aspx",
+    "https://niveshmitra.up.nic.in/Information.aspx?ID=1",
+    "https://niveshmitra.up.nic.in/UserManual.aspx",
+    "https://niveshmitra.up.nic.in/Documents/Govt_Orders/G_1.pdf",
+    "https://niveshmitra.up.nic.in/Documents/Govt_Orders/G_2.pdf",
+    "https://niveshmitra.up.nic.in/Documents/Govt_Orders/G_27.pdf",
+    "https://niveshmitra.up.nic.in/Documents/Govt_Orders/G_63.pdf",
+    "https://niveshmitra.up.gov.in/services",
+    "https://invest.up.gov.in/",
+    "https://invest.up.gov.in/know-your-approvals/",
+    "https://invest.up.gov.in/labour/",
+    "https://www.nsws.gov.in/state-approvals",
+    "https://www.nsws.gov.in/portal/uttarpradesh",
+    "http://uplabour.gov.in/StaticPages/RRPDList.aspx",
+    "http://uplabour.gov.in/StaticPages/IPC.aspx",
+    "https://uplabour.gov.in/StaticPages/RRPDList.aspx",
+    "https://uplabour.gov.in/",
+    "https://www.uplabour.gov.in/StaticPages/RRPDList.aspx",
+    "https://labour.up.nic.in/",
+    "https://upgazette.up.nic.in/",
+    "https://shasanadesh.up.nic.in/",
+    "https://www.indiacode.nic.in/handle/123456789/1362"
+  ],
+  "remarks": [
+    "HEADLINE: the 30-day figure is not a rounding of the ED's '15-30 days' — it is the only figure Uttar Pradesh publishes. The Nivesh Mitra checklist table carries ONE 'Time Lines (In days)' value per service, and for 'Registration and grant of license under The Factories Act 1948' that value is 30. The ED record's 15 working days is not a floor on the published timeline; it is a separate statutory plan-disposal claim, and even the dedicated plan-approval service (row 123, 'Approval of plan and permission to construct/extend/or take into use any building as a factory under the Factories Act 1948') is published at 30 days, not 15. So the 15-day figure — and the non-hazardous/hazardous 15/30 split on which the ED's deemed-approval claim rests — could not be matched to any official UP publication fetched this session.",
+    "deemedApproval was recorded as not_found rather than confirmed or contradicted, deliberately. Two deeming provisions WERE found in the single-window Government Orders, but neither is the one the ED describes. (a) GO 1488/77-6-18-08(M)/2012TC-8(Cabinet) dated 09-04-2018, para 10.9: 'जिन विभागों में डीम्ड एप्रूवल की व्यवस्था लागू है, उनके द्वारा जिन प्रकरणों में डीम्ड एप्रूवल प्रदान की गई है उसकी सूचना उद्योग बन्धु को आन लाइन उपलब्ध करवाई जायेगी' — deemed approval exists only in those departments where such a system is already in force, and the order imposes a reporting duty rather than creating a deemed approval for the Labour Department; it names no number of days. (b) The 07-working-day rule in both 2018 GOs deems only that NO DEFICIENCY was found in the application, not that the licence is granted. Neither source states a 15-day (or any-day) deemed GRANT of the Factory Licence, so the ED's deemedApproval.days = 15 remains unverified against official sources.",
+    "GO 1488/77-6-18-08(M)/2012TC-8(Cabinet) dated 09-04-2018 (https://niveshmitra.up.nic.in/Documents/Govt_Orders/G_1.pdf) independently supports several ED process claims, though not the timeline. Para 4.3: 'औद्योगिक इकाईयों के लिए समस्त विभागीय अनुमतियों, अनापत्तियों, पंजीयन, लाइसेन्स आदि प्राप्त करने हेतु आन लाइन सिंगल विण्डो पोर्टल पर ही आवेदन करना अनिवार्य होगा' (online single-window filing is mandatory). Para 4.5 confirms the ED's auto-population claim: information already entered in the common application form is pre-filled into service forms and need not be re-entered. Para 4.6 provides the document-upload facility. Paras 10.10/10.11 state that service timelines follow the Janhit Guarantee Adhiniyam, 2011 (as amended by notifications of 27-11-2013 and 26-12-2014) and the departments' own Acts and Rules — the Act-specific notification fixing the Factory Licence period was not reachable this session.",
+    "fees: the only official figure found is non-numeric. The Nivesh Mitra checklist row for the Factory Licence sets 'Fee Required' = 'Yes' and 'Fee Discription' = 'Variable Fee (Auto calculated based on inputs)'. That is consistent with the ED's description of a variable, input-driven fee but resolves neither of the ED's two conflicting ranges (INR 150-35,000 vs INR 100-7,000) and does not confirm that number of employees is the sole basis. The single GO on the portal that sounded like a fee schedule — 'Rates and tariff levied by the State and local bodies on the Online Portal' (G_63.pdf) — was fetched and read in full and contains no Labour Department or Factories Act entry at all (only urban local bodies, electricity, transport, excise and stamp/registration). Verdict therefore recorded as not_found.",
+    "documents: the Nivesh Mitra checklist row for the Factory Licence links its checklist ('VIEW1'/'VIEW2') to http://uplabour.gov.in/StaticPages/RRPDList.aspx and http://uplabour.gov.in/StaticPages/IPC.aspx. Both were attempted this session over http and https: http returns HTTP 503 with the body 'upstream connect error or disconnect/reset before headers. retried and the latest reset reason: connection timeout', and https fails with 'Recv failure: Connection reset by peer'. labour.up.nic.in fails with 'CONNECT tunnel failed, response 502'. The UP Labour Department's own hosts were therefore unreachable, exactly as in the earlier source-verification pass, so the official document checklist could not be read and the ED's unenumerated 'other documents as specified' gap could not be filled. No document list was taken from any consultancy or third-party site.",
+    "The one-time-query rule recorded under 'steps' matters for reading the FGD evidence: participants reported queries arriving close to the end of the approval window, but the governing GO requires any query to be raised within 07 working days of the application reaching the portal and permits only one. The FGD complaint is therefore evidence of departure from an existing published rule, not of a missing rule — and the FGD's own suggestion to 'introduce a transparent query management mechanism with ... defined response timelines' is, on paper, already UP policy since August 2018.",
+    "The ED's claim that site inspection is carried out by a team of at least two inspectors (Assistant Labour Commissioner / Labour Enforcement Officer / Assistant Director Factories) could not be checked: no official source fetched this session addresses inspection composition or whether inspection is mandatory for the Factory Licence. Likewise, the ED's validity claim ('up to 10 years at a time ... under the U.P. Factories Rules, 1950') is unverified, since no UP-government-hosted copy of the U.P. Factories Rules, 1950 was reachable (upgazette.up.nic.in and shasanadesh.up.nic.in both failed to connect; indiacode.nic.in timed out). Full-text copies exist only on third-party legal databases and were deliberately not used.",
+    "TLS note for reviewers: niveshmitra.up.nic.in serves an incomplete certificate chain (leaf only, issued by 'Sectigo Public Server Authentication CA DV R36', with the intermediate omitted), which makes a plain curl fail with 'unable to get local issuer certificate'. This was resolved by downloading the intermediate from the AIA URL embedded in the server's own certificate (http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt) and appending it to the trust bundle, so every fetch above still verified fully to a trusted root. Certificate verification was never disabled and no User-Agent was spoofed; all citations are marked transport 'https'.",
+    "The two Government Order PDFs are titled on the portal's own 'Government Orders and Circulars' index (https://niveshmitra.up.nic.in/Information.aspx?ID=1) as 'Services Integrated with Nivesh Mitra are to be availed through Nivesh Mitra Portal Only - 2018' (G_1.pdf, 234 KB) and 'Provision of only One Time Query on submitted applications on Nivesh Mitra if any' (G_2.pdf, 592 KB); the citations above use those official listing titles. G_2.pdf is a scanned document with no extractable text layer, so its pages were rendered to images at 150 dpi and read visually; the Hindi quotations are transcribed from that reading. G_1.pdf has an embedded text layer but one that drops vowel signs on extraction, so its quoted paragraphs (4.3, 6.3-6.6, 10.9) were likewise re-read from 170 dpi page renders to transcribe them accurately.",
+    "G_27.pdf ('Services Integrated with Nivesh Mitra are to be availed through Nivesh Mitra Portal Only - 2020') was fetched successfully (HTTP 200, 753 KB) but is a scanned PDF with no text layer and was not read page by page; nothing in this file's checks relies on it. invest.up.gov.in and www.nsws.gov.in returned JavaScript application shells with no server-rendered approval content, and nsws.gov.in/portal/uttarpradesh yielded only an empty React root, so neither could contribute a verifiable fact."
+  ]
+}

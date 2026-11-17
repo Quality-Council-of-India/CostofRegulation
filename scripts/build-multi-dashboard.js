@@ -128,6 +128,8 @@ stepEquivFiles.forEach(f => {
 const secondaryFiles = fs.existsSync(SECONDARY_DIR) ? fs.readdirSync(SECONDARY_DIR).filter(f => f.endsWith('.json')) : [];
 let secondaryStates = 0, secondaryChecks = 0;
 const verdictCounts = {};
+const ruleConflicts = [];   // facts where the published rule disagrees with the field record
+const ruleGapFills = [];    // facts the field record never stated, which the rules supply
 secondaryFiles.forEach(f => {
   const sd = JSON.parse(fs.readFileSync(path.join(SECONDARY_DIR, f), 'utf8'));
   const st = stateByCode[sd.state];
@@ -138,6 +140,9 @@ secondaryFiles.forEach(f => {
   (sd.checks || []).forEach(c => {
     secondaryChecks++;
     verdictCounts[c.verdict] = (verdictCounts[c.verdict] || 0) + 1;
+    const ctx = { state: sd.state, stateName: st.name, serviceCode: lic.serviceCode, serviceName: lic.serviceName, ...c };
+    if (c.verdict === 'contradicted') ruleConflicts.push(ctx);
+    if (c.verdict === 'fills_gap') ruleGapFills.push(ctx);
   });
 });
 
@@ -220,7 +225,9 @@ const DATA = {
     painPoints: allPain,
     secondaryStates,
     secondaryChecks,
-    verdictCounts
+    verdictCounts,
+    ruleConflicts,
+    ruleGapFills
   }
 };
 
