@@ -1,0 +1,94 @@
+{
+  "state": "HR",
+  "serviceCode": "FAL",
+  "validatedAt": "2026-11-17",
+  "checks": [
+    {
+      "key": "timeline",
+      "primaryClaim": "30 to 45 days for a fresh licence, per the FGD record (participant testimony only; the record itself notes the official time limit was cited inconsistently by participants, 'variously as 30 days and as 45 working days'). No ED record exists for HR FAL.",
+      "verdict": "fills_gap",
+      "sourceSays": "Inaugurated by the Hon'ble Chief Minister of Haryana, Shri Manohar Lal in February 2017, HEPC are committed to providing approvals, clearances & NOCs of all industrial services within 30 days along with facilities to track the stage of the application and support on understanding incentives and policies pertaining to the investors' nature of business.",
+      "citation": {
+        "title": "Services :: Department of Industries & Commerce, Haryana",
+        "url": "https://haryanaindustries.gov.in/services",
+        "transport": "https"
+      },
+      "remarks": "IMPORTANT CAVEAT FOR REVIEWERS: (1) This page returns an anomalous HTTP 404 status header from the server (nginx) while serving a large, genuine department HTML body; it was read for fact-validation despite failing the strict HTTP-200 rule, per explicit instruction. (2) The 30-day figure is a service-charter commitment by the Haryana Enterprise Promotion Centre covering 'all industrial services' routed through the Invest Haryana portal - which is the portal the FGD record names for this licence - NOT a Factories Act, 1948 notified or statutory timeline specific to the Factory Licence. It resolves the direction of the FGD's internal 30-vs-45-day ambiguity toward 30 days as the official commitment, but it must not be read as the notified FAL timeline. No Factories-Act-specific notified timeline could be verified this session because the Labour Department's own site was unreachable (see remarks)."
+    },
+    {
+      "key": "fees",
+      "primaryClaim": "Fee is auto-calculated from horsepower and manpower, payable for the full five-year validity upfront, via online payment or an e-GRAS challan payable at SBI - per the FGD record. No figures or schedule quantified in the primary record.",
+      "verdict": "not_found",
+      "sourceSays": null,
+      "citation": null,
+      "remarks": "The only official statement located and read this session on Factories Act fees is the Labour Department FAQ item 'Q. 2. Is there any fee for registration; if yes what is the schedule of fees. Ans. Yes.' on https://haryanaindustries.gov.in/services - it affirms that a fee exists but states no schedule, no amount and no basis of calculation, so it neither confirms nor contradicts the FGD's horsepower/manpower basis. No official Haryana fee schedule (Punjab Factory Rules 1952 as applicable to Haryana, or any gazette amendment) could be fetched: every hrylabour.gov.in host, where such schedules are published, was unreachable."
+    },
+    {
+      "key": "deemedApproval",
+      "primaryClaim": "No deemed approval and no escalation route exists; files go 'on hold' with no automatic approval or rejection until authority comments are posted - per the FGD record (status: no).",
+      "verdict": "not_found",
+      "sourceSays": null,
+      "citation": null,
+      "remarks": "No official source addressing deemed approval, auto-approval or an appellate/escalation route for the Factory Licence could be fetched. Relevant negative evidence (not proof of absence): the Haryana Right to Service Act notification of 14 November 2022 (Haryana Govt. Gazette Extra., No. 201-2022/Ext.), read in full this session, notifies 37 services with time limits, designated officers and first/second grievance redressal authorities - but every entry belongs to the Industries & Commerce Department (Boilers, Lubricating Oils, Partnership Firms, Societies). It contains no Factories Act, 1948 entry at all, so it establishes no deemed-approval or appeal machinery for FAL."
+    },
+    {
+      "key": "documents",
+      "primaryClaim": "Eleven documents listed in the FGD record (electricity bill, labour welfare payment proof, manpower numbers, canteen/welfare details, rent agreement or chain of title, GST number, appointment letters of welfare and safety officers, list of directors, MCA documents, occupier's resolution, NOC/declaration first time only).",
+      "verdict": "not_found",
+      "sourceSays": null,
+      "citation": null,
+      "remarks": "No official document checklist for the Factory Licence itself could be fetched. The Labour Department FAQ read this session does prescribe the application form - 'an application in Form No.2 ( in triplicate) to the Chief Inspector of Factories Haryana' - but a single form name is not a checklist, so this is recorded here rather than scored as filling the gap; the form point is carried under 'steps'. The only full document list on that page (Form No. 1, Form No. 1A, questionnaire, stability certificate, building plan, flow chart, NOCs from local authorities / Pollution Control Board / Station Officer, safety reports) is for approval of the factory BUILDING PLAN, a different service (FBPA), and must not be mapped onto FAL. The department's published FAL checklist lives on hrylabour.gov.in, which was unreachable."
+    },
+    {
+      "key": "steps",
+      "primaryClaim": "Application is submitted online on the Invest Haryana portal with OTP verification (automationLevel 'partial'); the FGD record could not name the issuing authority, stating only that it was 'Not explicitly named within this session' and inferring the Labour Department from the related FBPA session.",
+      "verdict": "confirmed",
+      "sourceSays": "Q. 1. What is the procedure for registration of a factory under the Factories Act, 1948? Ans. The occupier of every factory shall submit an application in Form No.2 ( in triplicate) to the Chief Inspector of Factories Haryana for the registration of the factory and for the grant of license. Now on-line application can be submitted.",
+      "citation": {
+        "title": "Services :: Department of Industries & Commerce, Haryana",
+        "url": "https://haryanaindustries.gov.in/services",
+        "transport": "https"
+      },
+      "remarks": "Confirms two things the primary record asserts or could not pin down: that the application is made online, and that the receiving/issuing authority is the Chief Inspector of Factories, Haryana. The same page separately identifies that officer as sitting in the Labour Department - 'License from Chief Inspector of Factories (Labour Department) under the Factories Act, 1948' - which corroborates the FGD record's tentative inference. The page also corroborates the portal the FGD names: 'The whole process of getting clearances is online on the Invest Haryana portal which is the official portal for all services related to HEPC.' Two caveats: the page carries an anomalous HTTP 404 status header (see the timeline check); and its 'in triplicate' wording is evidently legacy pre-digital text, superseded by the following sentence. Nothing official was found on the FGD's claim of sequential review by three to four authority levels, or on whether a physical inspection is required.",
+      "supportingSource": {
+        "title": "Services :: Department of Industries & Commerce, Haryana",
+        "url": "https://haryanaindustries.gov.in/services",
+        "transport": "https",
+        "quote": "b. License from Chief Inspector of Factories (Labour Department) under the Factories Act, 1948."
+      }
+    }
+  ],
+  "sourcesRead": [
+    "https://haryanaindustries.gov.in/services",
+    "https://haryanaindustries.gov.in/acts-rules",
+    "https://haryanaindustries.gov.in/",
+    "https://haryanaindustries.gov.in/themes/backend/uploads/pdf/Updated%20RTS%20list.pdf",
+    "https://haryanaindustries.gov.in/themes/backend/uploads/Uploads/14.09.2017%20RTS%20notification.pdf",
+    "https://www.nsws.gov.in/",
+    "https://www.haryana.gov.in/project/e-services-saral-haryana/",
+    "https://www.haryana.gov.in/e-gazette/",
+    "https://investharyana.in/",
+    "https://hrylabour.gov.in/",
+    "http://hrylabour.gov.in/",
+    "https://hrylabour.gov.in/content/rts",
+    "http://hrylabour.gov.in/content/rts",
+    "https://www.hrylabour.gov.in/",
+    "http://www.hrylabour.gov.in/",
+    "https://audit.hrylabour.gov.in/",
+    "https://audit.hrylabour.gov.in/staticdocs/labourActpdfdocs/The_Punjab_Factory_Rule.doc",
+    "https://haryanarts.gov.in/",
+    "http://haryanarts.gov.in/",
+    "https://saralharyana.gov.in/",
+    "https://egazetteharyana.gov.in/",
+    "https://www.egazetteharyana.gov.in/",
+    "https://services.india.gov.in/service/detail/haryanaapplication-for-business-licenses-under-section-330"
+  ],
+  "remarks": [
+    "SCOPE OF WHAT COULD BE VERIFIED: only two of five facts could be touched by an official source at all, and only one ('steps') is a clean confirmation. This is a genuinely thin result, not an under-researched one - see the access failures below.",
+    "THE LICENSING AUTHORITY'S OWN SITE REMAINS UNREACHABLE, NOW FOR A THIRD PASS. hrylabour.gov.in is where Haryana publishes the Factory Licence checklist, fee schedule and Right to Service timeline. This session tested it exhaustively and it failed on every route: https:// resets the connection (curl error 35, 'Recv failure: Connection reset by peer'); http:// returns HTTP 503 with the body 'upstream connect error or disconnect/reset before headers. retried and the latest reset reason: connection timeout' on three consecutive retries at 60s timeout; the www. and audit. subdomains (the latter surfaced as the host of the Punjab Factory Rules as applicable in Haryana) fail identically. The http:// fallback that unlocked Kerala in an earlier pass was specifically re-tested here and does NOT work for Haryana - the origin server itself is timing out upstream, not refusing TLS. No citation in this file comes from that host.",
+    "THE 404 LEAD PAID OFF, AND IS THE ONLY REASON THIS FILE IS NOT ENTIRELY not_found. https://haryanaindustries.gov.in/services returns an HTTP 404 status header from nginx while serving a 175KB genuine HTML body that includes a 'LABOUR DEPARTMENT' FAQ on Factories Act, 1948 registration. Both citations in this file come from that page and both are flagged with the 404 anomaly in their own 'remarks' field so reviewers can weigh them. The companion page /acts-rules behaves the same way but was re-checked this session and contains no Factories Act content.",
+    "NO HARYANA FACTORIES-ACT RIGHT TO SERVICE TIMELINE WAS VERIFIED. Two Right to Service gazette notifications hosted on haryanaindustries.gov.in were fetched at genuine HTTP 200 and read in full as PDFs: the notification of 14 September 2017 (16 pages) and the superseding notification of 14 November 2022 (8 pages, Haryana Govt. Gazette Extra. No. 201-2022/Ext., signed Sanjeev Kaushal, Chief Secretary). Neither contains any Factories Act, 1948 entry - the 2022 schedule covers only Industries & Commerce services. Web search results assert that the Labour Department's own RTS list sets 45 days for 'Registration and grant of licence under the Factories Act, 1948', which would match the upper bound of the FGD's 30-45 day range, but that claim rests entirely on a page (hrylabour.gov.in/content/rts) that could not be fetched. Per the anti-fabrication rule it is NOT recorded as a verified finding and is not cited anywhere in the checks above. It is flagged here only as the single highest-value target for any future pass that gets access to that host.",
+    "OTHER HOSTS THAT YIELDED NOTHING: investharyana.in returns HTTP 200 but is an empty Angular SPA shell (7.6KB, no server-rendered text) - unchanged from the prior pass, so the portal the FGD record names could not itself be read. www.nsws.gov.in returns HTTP 200 and was read, but mentions Haryana only as a state-approvals list entry and carries nothing on the Factory Licence. The two haryana.gov.in pages (SARAL and e-Gazette) were re-read and are generic platform descriptions with no factory-licence content; note haryana.gov.in was intermittent this session, failing over https and succeeding over http before redirecting back to https, so it is listed with its https effective URL. haryanarts.gov.in (Right to Service Commission, a newly tried candidate), saralharyana.gov.in, egazetteharyana.gov.in and services.india.gov.in all failed to connect on both transports.",
+    "FEE DIRECTION OF TRAVEL NOT TESTABLE: the FGD record's most quantifiable economic claims - that the fee is computed from horsepower and manpower, that it 'has increased substantially', and that on amendment/renewal it is charged from the start of the licence period rather than from the year load actually increased - all require the departmental fee schedule, which is published only on the unreachable host. None of these could be tested in either direction this session."
+  ]
+}

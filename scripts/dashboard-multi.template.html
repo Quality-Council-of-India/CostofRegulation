@@ -772,16 +772,25 @@ function renderOverview(){
   const svc = F.service;
   const svcStates = statesWithService(svc).map(s=>({s, lic:licOf(s.code, svc)}));
 
-  let h = `<div class="pagehead"><div><h2>${icon('grid')}National overview</h2>
-    <div class="lede">${esc(DATA.meta.sourcesNote)}</div></div>
-    <span class="stamp live">${AGG.totalLicenses} license records tagged</span></div>`;
+  const pairsPossible = STATE_UNIVERSE.length * SERVICES.length;
+  const covPct = Math.round(AGG.totalLicenses / pairsPossible * 100);
+
+  let h = `<div class="crumb">The big picture · national overview</div>
+    <div class="pagelede">${AGG.totalLicenses} of a possible ${pairsPossible.toLocaleString()} State-and-licence combinations have been surveyed — ${covPct}% of the full map</div>
+    <div class="pagesub">Every one of those records comes from a real field interview, not an estimate. This page shows what has been covered and what has not: the grid below is the honest picture of where the programme has evidence and where it does not yet.</div>`;
+
+  h += `<div class="takeaway"><div class="tk-h">What this shows</div><div class="tk-b"><ol>
+    <li>Field evidence exists for <b>${AGG.totalStates}</b> of ${STATE_UNIVERSE.length} States and UTs, and for <b>${AGG.totalServices}</b> of ${SERVICES.length} licence types.</li>
+    <li>That evidence is <b>${AGG.totalFindings.toLocaleString()}</b> individual findings and <b>${AGG.totalQuotes.toLocaleString()}</b> direct quotes from businesses.</li>
+    <li>We also recorded <b>${AGG.totalGaps.toLocaleString()}</b> places where the evidence is missing, vague or self-contradictory — shown rather than filled in.</li>
+  </ol></div></div>`;
 
   h += `<div class="grid g5" style="margin-bottom:16px">
-    ${kpiIcon('acc-primary','grid','States/UTs covered', AGG.totalStates+' / '+STATE_UNIVERSE.length, 'at least one license with ED or FGD')}
-    ${kpiIcon('acc-primary','layers','Licenses covered', AGG.totalServices+' / '+SERVICES.length, 'service types with at least one ED or FGD')}
-    ${kpiIcon('acc-primary','book','License records processed', String(AGG.totalLicenses), AGG.totalFindings+' tagged findings · '+AGG.totalQuotes+' FGD quotes')}
-    ${kpiIcon('acc-danger','alert','Gaps logged', String(AGG.totalGaps), (AGG.gapFlagCounts.MISSING||0)+' missing · '+(AGG.gapFlagCounts.VAGUE||0)+' vague · '+(AGG.gapFlagCounts.INCONSISTENT||0)+' inconsistent')}
-    ${kpiIcon('acc-violet','award','Good practice logged', String(AGG.gapFlagCounts.GOOD_PRACTICE||0), (AGG.gapFlagCounts.REFORM||0)+' reform ideas also flagged')}
+    ${kpiIcon('acc-primary','grid','States & UTs covered', AGG.totalStates+' / '+STATE_UNIVERSE.length, 'with at least one licence surveyed')}
+    ${kpiIcon('acc-primary','layers','Licence types covered', AGG.totalServices+' / '+SERVICES.length, 'with at least one State surveyed')}
+    ${kpiIcon('acc-primary','book','Licence records', String(AGG.totalLicenses), AGG.totalFindings.toLocaleString()+' findings · '+AGG.totalQuotes.toLocaleString()+' business quotes')}
+    ${kpiIcon('acc-danger','alert','Known gaps', String(AGG.totalGaps), (AGG.gapFlagCounts.MISSING||0)+' missing · '+(AGG.gapFlagCounts.VAGUE||0)+' too vague · '+(AGG.gapFlagCounts.INCONSISTENT||0)+' contradictory')}
+    ${kpiIcon('acc-violet','award','Good practice found', String(AGG.gapFlagCounts.GOOD_PRACTICE||0), (AGG.gapFlagCounts.REFORM||0)+' reform ideas also recorded')}
   </div>`;
 
   // coverage matrix
@@ -1050,9 +1059,25 @@ function renderPain(){
   const all = AGG.painPoints;
   const items = all.filter(f=>(F.painSvc==='all'||f.serviceCode===F.painSvc) && (F.painState==='all'||f.state===F.painState));
 
-  let h = `<div class="pagehead"><div><h2>${icon('alert')}Pain points</h2><div class="lede">Every finding tagged <code>pain</code> while tagging the real ED and FGD record — filter by license and/or State, or see all ${all.length} at once.</div></div></div>`;
+  // what businesses complain about most, by topic tag
+  const tagCount = {};
+  all.forEach(f=>(f.tags||[]).forEach(t=>{ tagCount[t]=(tagCount[t]||0)+1; }));
+  const topTags = Object.entries(tagCount).sort((a,b)=>b[1]-a[1]).slice(0,5);
+  const TAG_PLAIN = {PORTAL:'the online portal itself', TIMELINE:'how long it takes', CONSULT:'having to hire a consultant', DUPDOC:'submitting the same document twice', FEES:'fees and charges', CLARITY:'unclear instructions', INTERDEP:'chasing several departments', INSPECT:'inspections', QUERY:'queries raised on applications', CAPACITY:'staffing and capacity', COMPLY:'ongoing compliance', NORMS:'the rules themselves', RENEWAL:'renewals', GRIEVANCE:'getting a complaint heard', INFORMAL:'informal payments or influence'};
+  const fromBiz = all.filter(f=>f.source==='fgd').length;
+
+  let h = `<div class="crumb">The big picture · pain points</div>
+    <div class="pagelede">${all.length.toLocaleString()} specific things businesses and officials told us go wrong${topTags.length?` — most often, ${esc(TAG_PLAIN[topTags[0][0]]||topTags[0][0].toLowerCase())}`:''}</div>
+    <div class="pagesub">These are not opinions we formed. Each one is a problem stated in a field interview — ${fromBiz.toLocaleString()} of them by businesses who actually went through the process, the rest by the officials who run it. Filter to a licence or State to see what is specific to it.</div>`;
+
+  if(topTags.length){
+    h += `<div class="takeaway"><div class="tk-h">The five commonest complaints</div><div class="tk-b"><ol>`+
+      topTags.map(([t,n])=>`<li><b>${n}</b> about ${esc(TAG_PLAIN[t]||t.toLowerCase())}</li>`).join('')+
+      `</ol></div></div>`;
+  }
+
   h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="grid g2">
-    <div class="fld"><label>Filter by license</label>${serviceDropdown('painSvcSel', F.painSvc, 'All licenses ('+all.length+')')}</div>
+    <div class="fld"><label>Filter by licence</label>${serviceDropdown('painSvcSel', F.painSvc, 'All licences ('+all.length+')')}</div>
     <div class="fld"><label>Filter by State/UT</label>${stateDropdown('painStateSel', F.painState, 'All States/UTs', all)}</div>
   </div></div></div>`;
   const titleBits = [];
@@ -1066,9 +1091,21 @@ function renderBest(){
   const all = [...AGG.goodPractices, ...AGG.reforms];
   const items = all.filter(g=>(F.bestSvc==='all'||g.serviceCode===F.bestSvc) && (F.bestState==='all'||g.state===F.bestState));
 
-  let h = `<div class="pagehead"><div><h2>${icon('award')}Good practices &amp; reform ideas</h2><div class="lede">Every <code>GOOD_PRACTICE</code> and <code>REFORM</code> flag raised while tagging the real ED record — filter by license and/or State, or see all ${AGG.gapFlagCounts.GOOD_PRACTICE||0} good practices and ${AGG.gapFlagCounts.REFORM||0} reform ideas at once.</div></div></div>`;
+  const gp = AGG.gapFlagCounts.GOOD_PRACTICE||0, rf = AGG.gapFlagCounts.REFORM||0;
+  const gpStates = new Set(AGG.goodPractices.map(g=>g.state)).size;
+
+  let h = `<div class="crumb">The big picture · good practice &amp; reform</div>
+    <div class="pagelede">${gp} things already working somewhere in India, and ${rf} fixes proposed by the people who run or use these processes</div>
+    <div class="pagesub">Nothing here is our recommendation. Each good practice is something a State is genuinely doing that an official or a business singled out as working; each reform idea was proposed in a field interview. Because they are already real somewhere, they are the cheapest reforms to argue for — ${gpStates} different States contributed at least one.</div>`;
+
+  h += `<div class="takeaway"><div class="tk-h">Why this page matters</div><div class="tk-b"><ol>
+    <li><b>${gp}</b> good practices are in use right now — so the question for a slower State is not whether something can work, but why it has not been copied.</li>
+    <li><b>${rf}</b> reform ideas came from the field rather than from us, which means each one already has someone inside the system willing to argue for it.</li>
+    <li>Filter by State to build a case for one administration, or by licence to see which approvals attract the most proposals.</li>
+  </ol></div></div>`;
+
   h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="grid g2">
-    <div class="fld"><label>Filter by license</label>${serviceDropdown('bestSvcSel', F.bestSvc, 'All licenses ('+((AGG.gapFlagCounts.GOOD_PRACTICE||0)+(AGG.gapFlagCounts.REFORM||0))+')')}</div>
+    <div class="fld"><label>Filter by licence</label>${serviceDropdown('bestSvcSel', F.bestSvc, 'All licences ('+(gp+rf)+')')}</div>
     <div class="fld"><label>Filter by State/UT</label>${stateDropdown('bestStateSel', F.bestState, 'All States/UTs', all)}</div>
   </div></div></div>`;
   const titleBits = [];
@@ -1138,12 +1175,25 @@ function renderReconcile(){
 function renderGaps(){
   const missing = (F.gapsSvc==='all') ? AGG.missing : AGG.missing.filter(g=>g.serviceCode===F.gapsSvc);
   const vague = (F.gapsSvc==='all') ? AGG.vague : AGG.vague.filter(g=>g.serviceCode===F.gapsSvc);
-  let h = `<div class="pagehead"><div><h2>${icon('flask')}Data gaps</h2><div class="lede">Facts neither the Expert Discussion nor the Focused Group Discussion states (<code>MISSING</code>) or states too vaguely to use (<code>VAGUE</code>) — filter by license to see exactly what's missing where. These are the gaps secondary (web) research will be asked to close once that work resumes.</div></div></div>`;
+  const nMiss = AGG.gapFlagCounts.MISSING||0, nVague = AGG.gapFlagCounts.VAGUE||0;
+  const filled = (AGG.ruleGapFills||[]).length;
+
+  let h = `<div class="crumb">Evidence &amp; method · what we still don't know</div>
+    <div class="pagelede">${(nMiss+nVague).toLocaleString()} facts the field survey never pinned down — and the field phase has now closed</div>
+    <div class="pagesub">This is the deliberately uncomfortable page. Where a fact was never stated, or stated too vaguely to use, we record that rather than estimating it. Since the survey cannot be re-run, the only remaining way to close these is the State's own published rules${filled?` — which has already recovered <b>${filled}</b> of them`:''}.</div>`;
+
+  h += `<div class="takeaway"><div class="tk-h">What this shows</div><div class="tk-b"><ol>
+    <li><b>${nMiss.toLocaleString()}</b> facts no source stated at all — most often an exact fee or a precise timeline.</li>
+    <li><b>${nVague.toLocaleString()}</b> more were mentioned but not in a usable form ("a few weeks", "nominal charges").</li>
+    ${filled?`<li><b>${filled}</b> have since been recovered from published rules — see <span style="color:var(--primary);font-weight:700;cursor:pointer" onclick="goView('reconcile')">where sources disagree</span>.</li>`:''}
+  </ol></div></div>`;
+
   h += `<div class="grid g4" style="margin-bottom:16px">
-    ${kpiIcon('acc-danger','dash','Missing entirely', String(AGG.gapFlagCounts.MISSING||0), 'no source states this fact')}
-    ${kpiIcon('acc-warn','alert','Vague / unmeasurable', String(AGG.gapFlagCounts.VAGUE||0), 'stated but not usable as data')}
+    ${kpiIcon('acc-danger','dash','Never stated', String(nMiss), 'no source gives this fact at all')}
+    ${kpiIcon('acc-warn','alert','Too vague to use', String(nVague), 'mentioned, but not as a usable number')}
+    ${filled?kpiIcon('acc-success','book','Recovered from rules', String(filled), 'closed after fieldwork ended'):''}
   </div>`;
-  h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="fld" style="max-width:340px"><label>Filter by license</label>${serviceDropdown('gapsSvcSel', F.gapsSvc, 'All licenses ('+((AGG.gapFlagCounts.MISSING||0)+(AGG.gapFlagCounts.VAGUE||0))+')')}</div></div></div>`;
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="fld" style="max-width:340px"><label>Filter by licence</label>${serviceDropdown('gapsSvcSel', F.gapsSvc, 'All licences ('+(nMiss+nVague)+')')}</div></div></div>`;
   h += `<div class="grid g2" style="align-items:start">
     <div class="card"><div class="card-h"><h3>${icon('dash')}Missing entirely</h3><span class="note">${missing.length}</span></div><div class="card-b scroll-y" style="max-height:700px">${missing.map(g=>gapItem(g,true)).join('')||'<div class="hint">None.</div>'}</div></div>
     <div class="card"><div class="card-h"><h3>${icon('alert')}Vague / unmeasurable</h3><span class="note">${vague.length}</span></div><div class="card-b scroll-y" style="max-height:700px">${vague.map(g=>gapItem(g,true)).join('')||'<div class="hint">None.</div>'}</div></div>
