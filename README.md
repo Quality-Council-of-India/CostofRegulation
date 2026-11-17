@@ -2,15 +2,28 @@
 
 The Cost of Regulation project: Quality Council of India's (QCI) assessment, for DPIIT, of the regulatory cost burden on businesses across India's 36 States/UTs and 24+ licenses/services, under the CoR 2.0 framework (five cost types — time, substantive, intermediary, delay, statutory).
 
-**Current scope: 335 license records — 35 States/UTs × up to 25 license types — built from Expert Discussion (ED, official-side) and/or Focused Group Discussion (FGD, business-owner experience).** 255 of these 335 records now carry FGD-sourced findings and quotes alongside (or, where no ED exists for that State/license, in place of) the official ED record; genuine ED-vs-FGD contradictions are flagged with both sides quoted. Secondary (web) research is **on hold** for this expanded scope: it exists for the original Factory License pilot (11 States) and will be re-layered in per State/license as that work resumes.
+**Current scope: 344 license records — 35 States/UTs × up to 25 license types.** Three sources sit behind the dashboard, and they are never blended:
+
+| Lane | What it is | Coverage |
+|---|---|---|
+| **ED** — Expert Discussion | Field interviews with the official who issues the licence in that State | the authoritative account of the process as run |
+| **FGD** — Focused Group Discussion | Field sessions with businesses who went through that exact process | 267 records carry FGD evidence |
+| **RULES** — published rules | Independent desk check of specific facts against the State's own gazette notifications, rules and portals, each with the exact URL fetched | Factory License pilot |
+
+The field survey phase is **closed**, so gaps in the ED/FGD record can no longer be resolved by going back to the field. That is why the third lane exists: it verifies specific facts rather than acting as a parallel dataset. Each checked fact gets one of four verdicts — `confirmed`, `contradicted`, `fills_gap`, or `not_found` — and a record with no check at all is shown as *not yet checked*, which is deliberately never the same as *checked and found wrong*.
 
 ## The primary deliverable: `cor-dashboard.html`
 
-**Open `cor-dashboard.html` directly in a browser — no server, no install, no setup.** It's a single self-contained file (6,910 tagged findings, 1,582 FGD quotes and 2,053 gap flags across 335 license records are embedded in it) that you can open locally, email, or host anywhere as a static file.
+**Open `cor-dashboard.html` directly in a browser — no server, no install, no setup.** A single self-contained file (7,118 tagged findings, 1,678 business quotes and 2,102 gap flags embedded in it) that you can open locally, email, or host anywhere as a static file.
 
-Every finding is tagged (category, topic tags, sentiment, source — ED or FGD) rather than left as prose, and every State/license pair carries explicit gap flags (`MISSING`, `VAGUE`, `INCONSISTENT` — a report contradicting itself, or a genuine ED-vs-FGD factual contradiction — `GOOD_PRACTICE`, `REFORM`). The **National overview** leads with a full State × license coverage matrix (click any cell to jump straight to that profile), a sidebar license switcher scopes the Compare/Stage-comparison views to whichever license you're looking at, and dedicated **Good Practices & Reform Ideas** / **Flagged Inconsistencies** / **Data Gaps** views aggregate across the whole dataset with a per-license filter. See the **Method & data quality** tab inside the dashboard for the full taxonomy and current scope caveats.
+It is organised as a portal with chaptered navigation — **Start here**, then *The big picture* (national overview, pain points, good practice & reform), *Compare States* (side-by-side, step equivalence, one stage across every State), *One State in depth*, and *Evidence & method* (where sources disagree, what we still don't know, method & sources). Every page opens with a plain-English finding rather than a label, and visuals carry a "How to read" line, so a non-specialist can follow it without a briefing.
 
-To rebuild it after any data change: `node scripts/build-multi-dashboard.js` — reads `scripts/ed_data/<STATE>.json` and `scripts/fgd_data/<STATE>.json` (one file per State, every license's ED and/or FGD extraction) + `scripts/services.json` + `scripts/states.json` + `scripts/phase-template.json`, merges FGD onto the matching ED record where one exists (or adds a new FGD-only record where it doesn't), injects into `scripts/dashboard-multi.template.html`, writes `cor-dashboard.html`. See "Extending `cor-dashboard.html`" below for how to add a State or license.
+Two things worth knowing about the analysis:
+
+- **Step equivalence.** A raw step count is not a fair comparison — one State writes "upload documents and pay the fee" as one step where another writes three. Every Factory License State's real step text was mapped to a shared 14-stage checklist, so the dashboard can show a *comparable* count alongside the listed one. 12 of 22 States turn out to describe fewer steps than they actually perform.
+- **Gap flags.** `MISSING`, `VAGUE`, `INCONSISTENT`, `GOOD_PRACTICE`, `REFORM` — recorded rather than filled in. Nothing in the dataset is an estimate.
+
+To rebuild after any data change: `node scripts/build-multi-dashboard.js` — reads `scripts/ed_data/<STATE>.json`, `scripts/fgd_data/<STATE>.json`, `scripts/secondary_data/<STATE>.json`, `scripts/step_equivalence/<LICENSE>.json` plus `services.json` / `states.json` / `phase-template.json`, merges them, injects into `scripts/dashboard-multi.template.html`, and writes `cor-dashboard.html`.
 
 ### The earlier Factory-License-only pilot
 

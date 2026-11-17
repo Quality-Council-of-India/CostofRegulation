@@ -559,7 +559,7 @@ const CHAPTERS = [
 const NAV = [
   {k:'start', ch:'start', icon:'book', t:'Start here', d:'What this is, and how to read it'},
   {k:'overview', ch:'picture', icon:'grid', t:'National overview', d:'Who we covered, and the headline numbers'},
-  {k:'pain', ch:'picture', icon:'alert', t:'What businesses struggle with', d:'Every pain point recorded, by licence and State'},
+  {k:'pain', ch:'picture', icon:'alert', t:'What businesses struggle with', d:'Every pain point recorded, by license and State'},
   {k:'best', ch:'picture', icon:'award', t:'What works, and what to fix', d:'Good practice and reform ideas from the record'},
   {k:'compare', ch:'compare', icon:'columns', t:'Two States side by side', d:'Line up 2–4 States, stage by stage'},
   {k:'equiv', ch:'compare', icon:'layers', t:'Is a "step" the same everywhere?', d:'Where one State’s single step equals several elsewhere'},
@@ -579,7 +579,7 @@ function buildNav(){
   });
   document.getElementById('railnav').innerHTML = h;
   const secN = AGG.secondaryStates || 0;
-  document.getElementById('railfoot').innerHTML = `<b>What's in here</b><br>${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licences · ${esc(AGG.totalLicenses)} records<br>Field data (ED + FGD)${secN?` · published rules checked for ${secN} States`:''}<br><br><b>This file</b><br>One self-contained HTML file. No server, no login — open it, email it, host it anywhere.`;
+  document.getElementById('railfoot').innerHTML = `<b>What's in here</b><br>${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licenses · ${esc(AGG.totalLicenses)} records<br>Field data (ED + FGD)${secN?` · published rules checked for ${secN} States`:''}<br><br><b>This file</b><br>One self-contained HTML file. No server, no login — open it, email it, host it anywhere.`;
 }
 function goView(v){ F.view=v; render(); }
 function goState(code){ F.state=code; F.license=null; F.view='state'; render(); }
@@ -606,7 +606,7 @@ function buildFilters(){
   } else if(F.view==='start'){
     bar.innerHTML = `<div class="fld"><label>You are looking at</label><select disabled><option>Cost of Regulation — field data from ${esc(AGG.totalStates)} States/UTs</option></select></div>`;
   } else {
-    bar.innerHTML = `<div class="fld"><label>Dataset</label><select disabled><option>${esc(AGG.totalLicenses)} licence records · ${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licences</option></select></div>`;
+    bar.innerHTML = `<div class="fld"><label>Dataset</label><select disabled><option>${esc(AGG.totalLicenses)} license records · ${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licenses</option></select></div>`;
   }
 }
 
@@ -617,13 +617,13 @@ function renderStart(){
   const inc = AGG.inconsistencies.length;
   let h = `<div class="hero">
     <div class="eyebrow">Start here · how to read this dashboard</div>
-    <h1>What it actually takes a business to get a licence in India — <em>and where the paperwork differs by State</em></h1>
-    <p>The Cost of Regulation programme, run by the Quality Council of India for DPIIT, measures the time, money and effort a business spends on regulatory approvals. This dashboard brings together what the officials who issue those licences told us, what businesses who went through the process told us, and — where we could verify it — what the published rules actually say.</p>
+    <h1>What it actually takes a business to get a license in India — <em>and where the paperwork differs by State</em></h1>
+    <p>The Cost of Regulation programme, run by the Quality Council of India for DPIIT, measures the time, money and effort a business spends on regulatory approvals. This dashboard brings together what the officials who issue those licenses told us, what businesses who went through the process told us, and — where we could verify it — what the published rules actually say.</p>
   </div>`;
 
   h += `<div class="grid g4" style="margin-bottom:18px">
-    ${kpiIcon('acc-primary','grid','States & UTs covered', AGG.totalStates+' / '+STATE_UNIVERSE.length, 'with at least one licence on file')}
-    ${kpiIcon('acc-primary','book','Licence records', String(AGG.totalLicenses), AGG.totalFindings.toLocaleString()+' findings from the field')}
+    ${kpiIcon('acc-primary','grid','States & UTs covered', AGG.totalStates+' / '+STATE_UNIVERSE.length, 'with at least one license on file')}
+    ${kpiIcon('acc-primary','book','License records', String(AGG.totalLicenses), AGG.totalFindings.toLocaleString()+' findings from the field')}
     ${kpiIcon('acc-violet','user','Businesses quoted', AGG.totalQuotes.toLocaleString(), 'in their own words, from focus groups')}
     ${kpiIcon('acc-danger','scale','Where sources disagree', String(inc), 'official account vs. what businesses report')}
   </div>`;
@@ -632,7 +632,7 @@ function renderStart(){
   <div class="startgrid">
     <div class="startcard"><h4>The big picture</h4><p>The national view: who we covered, what businesses struggle with most, and what is already working somewhere.</p><ul>
       <li onclick="goView('overview')">National overview</li><li onclick="goView('pain')">What businesses struggle with</li><li onclick="goView('best')">What works, and what to fix</li></ul></div>
-    <div class="startcard"><h4>Compare States</h4><p>Put States next to each other for the same licence — including whether a "step" even means the same thing in each one.</p><ul>
+    <div class="startcard"><h4>Compare States</h4><p>Put States next to each other for the same license — including whether a "step" even means the same thing in each one.</p><ul>
       <li onclick="goView('compare')">Two States side by side</li><li onclick="goView('equiv')">Is a "step" the same everywhere?</li><li onclick="goView('phase')">One stage, every State</li></ul></div>
     <div class="startcard"><h4>One State in depth</h4><p>A single page carrying everything on file for one State: the process, the numbers, the findings and the quotes.</p><ul>
       <li onclick="goView('state')">State profile</li></ul></div>
@@ -647,7 +647,7 @@ function renderStart(){
     <div class="card"><div class="card-b"><div style="font-weight:800;font-size:13px;margin-bottom:7px">2 · Gaps are shown, not filled in</div>
       <div style="font-size:12.5px;color:var(--muted);line-height:1.65">Where a source never stated a fact, we say so instead of guessing. "Not recorded" and "we checked and it disagrees" are deliberately different things throughout.</div></div></div>
     <div class="card"><div class="card-b"><div style="font-weight:800;font-size:13px;margin-bottom:7px">3 · A "step" is not the same in every State</div>
-      <div style="font-size:12.5px;color:var(--muted);line-height:1.65">One State's single step can be two or three elsewhere. ${eq?`We mapped this properly for Factory Licence across ${Object.keys(eq.stateMappings).length} States — <span style="color:var(--primary);font-weight:700;cursor:pointer" onclick="goView('equiv')">see how</span>.`:''}</div></div></div>
+      <div style="font-size:12.5px;color:var(--muted);line-height:1.65">One State's single step can be two or three elsewhere. ${eq?`We mapped this properly for Factory License across ${Object.keys(eq.stateMappings).length} States — <span style="color:var(--primary);font-weight:700;cursor:pointer" onclick="goView('equiv')">see how</span>.`:''}</div></div></div>
   </div>`;
   return h;
 }
@@ -659,7 +659,7 @@ const VERDICT_META = {
   fills_gap:    {label:'Rules fill the gap', icon:'book',  blurb:'the field record never stated this; the rule does'},
   not_found:    {label:'Could not check',    icon:'dash',  blurb:'no official source addressing this point was reachable'}
 };
-const CHECK_LABEL = {timeline:'Timeline', fees:'Fees', deemedApproval:'Deemed approval', documents:'Documents required', steps:'Process & steps', validity:'Licence validity'};
+const CHECK_LABEL = {timeline:'Timeline', fees:'Fees', deemedApproval:'Deemed approval', documents:'Documents required', steps:'Process & steps', validity:'License validity'};
 
 function renderVerification(lic){
   if(!lic.secondary){
@@ -712,8 +712,8 @@ function renderEquiv(){
   const svc = STEP_EQUIV[F.service] ? F.service : (STEP_EQUIV.FAL ? 'FAL' : null);
   let h = `<div class="crumb">Compare States · step equivalence</div>`;
   if(!svc){
-    return h + `<div class="pagelede">Step equivalence has not been mapped for this licence yet</div>
-      <div class="pagesub">This analysis currently exists for Factory Licence only. Pick that licence in the sidebar to see it.</div>`;
+    return h + `<div class="pagelede">Step equivalence has not been mapped for this license yet</div>
+      <div class="pagesub">This analysis currently exists for Factory License only. Pick that license in the sidebar to see it.</div>`;
   }
   const d = STEP_EQUIV[svc];
   const codes = Object.keys(d.stateMappings);
@@ -749,7 +749,7 @@ function renderEquiv(){
     `</div></div></div>`;
 
   h += `<div class="card"><div class="card-h"><h3>Which States bundle, and which split</h3><span class="note">${d.canonicalSubStages.length} shared stages</span></div><div class="card-b" style="overflow-x:auto">
-    <div class="howto"><b>How to read:</b> each row is one thing that has to happen to get the licence. Each column is a State. The number is how many separate steps that State uses for it — <b>0</b> means that State never records it at all, <b>2</b> or <b>3</b> means it is split across multiple steps.</div>
+    <div class="howto"><b>How to read:</b> each row is one thing that has to happen to get the license. Each column is a State. The number is how many separate steps that State uses for it — <b>0</b> means that State never records it at all, <b>2</b> or <b>3</b> means it is split across multiple steps.</div>
     <table class="eqgrid"><thead><tr><th class="corner">What has to happen</th>`+
     codes.map(c=>`<th>${esc((ST_BY_CODE[c]?ST_BY_CODE[c].name:c).slice(0,22))}</th>`).join('')+
     `</tr></thead><tbody>`+
@@ -776,19 +776,19 @@ function renderOverview(){
   const covPct = Math.round(AGG.totalLicenses / pairsPossible * 100);
 
   let h = `<div class="crumb">The big picture · national overview</div>
-    <div class="pagelede">${AGG.totalLicenses} of a possible ${pairsPossible.toLocaleString()} State-and-licence combinations have been surveyed — ${covPct}% of the full map</div>
+    <div class="pagelede">${AGG.totalLicenses} of a possible ${pairsPossible.toLocaleString()} State-and-license combinations have been surveyed — ${covPct}% of the full map</div>
     <div class="pagesub">Every one of those records comes from a real field interview, not an estimate. This page shows what has been covered and what has not: the grid below is the honest picture of where the programme has evidence and where it does not yet.</div>`;
 
   h += `<div class="takeaway"><div class="tk-h">What this shows</div><div class="tk-b"><ol>
-    <li>Field evidence exists for <b>${AGG.totalStates}</b> of ${STATE_UNIVERSE.length} States and UTs, and for <b>${AGG.totalServices}</b> of ${SERVICES.length} licence types.</li>
+    <li>Field evidence exists for <b>${AGG.totalStates}</b> of ${STATE_UNIVERSE.length} States and UTs, and for <b>${AGG.totalServices}</b> of ${SERVICES.length} license types.</li>
     <li>That evidence is <b>${AGG.totalFindings.toLocaleString()}</b> individual findings and <b>${AGG.totalQuotes.toLocaleString()}</b> direct quotes from businesses.</li>
     <li>We also recorded <b>${AGG.totalGaps.toLocaleString()}</b> places where the evidence is missing, vague or self-contradictory — shown rather than filled in.</li>
   </ol></div></div>`;
 
   h += `<div class="grid g5" style="margin-bottom:16px">
-    ${kpiIcon('acc-primary','grid','States & UTs covered', AGG.totalStates+' / '+STATE_UNIVERSE.length, 'with at least one licence surveyed')}
-    ${kpiIcon('acc-primary','layers','Licence types covered', AGG.totalServices+' / '+SERVICES.length, 'with at least one State surveyed')}
-    ${kpiIcon('acc-primary','book','Licence records', String(AGG.totalLicenses), AGG.totalFindings.toLocaleString()+' findings · '+AGG.totalQuotes.toLocaleString()+' business quotes')}
+    ${kpiIcon('acc-primary','grid','States & UTs covered', AGG.totalStates+' / '+STATE_UNIVERSE.length, 'with at least one license surveyed')}
+    ${kpiIcon('acc-primary','layers','License types covered', AGG.totalServices+' / '+SERVICES.length, 'with at least one State surveyed')}
+    ${kpiIcon('acc-primary','book','License records', String(AGG.totalLicenses), AGG.totalFindings.toLocaleString()+' findings · '+AGG.totalQuotes.toLocaleString()+' business quotes')}
     ${kpiIcon('acc-danger','alert','Known gaps', String(AGG.totalGaps), (AGG.gapFlagCounts.MISSING||0)+' missing · '+(AGG.gapFlagCounts.VAGUE||0)+' too vague · '+(AGG.gapFlagCounts.INCONSISTENT||0)+' contradictory')}
     ${kpiIcon('acc-violet','award','Good practice found', String(AGG.gapFlagCounts.GOOD_PRACTICE||0), (AGG.gapFlagCounts.REFORM||0)+' reform ideas also recorded')}
   </div>`;
@@ -1068,7 +1068,7 @@ function renderPain(){
 
   let h = `<div class="crumb">The big picture · pain points</div>
     <div class="pagelede">${all.length.toLocaleString()} specific things businesses and officials told us go wrong${topTags.length?` — most often, ${esc(TAG_PLAIN[topTags[0][0]]||topTags[0][0].toLowerCase())}`:''}</div>
-    <div class="pagesub">These are not opinions we formed. Each one is a problem stated in a field interview — ${fromBiz.toLocaleString()} of them by businesses who actually went through the process, the rest by the officials who run it. Filter to a licence or State to see what is specific to it.</div>`;
+    <div class="pagesub">These are not opinions we formed. Each one is a problem stated in a field interview — ${fromBiz.toLocaleString()} of them by businesses who actually went through the process, the rest by the officials who run it. Filter to a license or State to see what is specific to it.</div>`;
 
   if(topTags.length){
     h += `<div class="takeaway"><div class="tk-h">The five commonest complaints</div><div class="tk-b"><ol>`+
@@ -1077,7 +1077,7 @@ function renderPain(){
   }
 
   h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="grid g2">
-    <div class="fld"><label>Filter by licence</label>${serviceDropdown('painSvcSel', F.painSvc, 'All licences ('+all.length+')')}</div>
+    <div class="fld"><label>Filter by license</label>${serviceDropdown('painSvcSel', F.painSvc, 'All licenses ('+all.length+')')}</div>
     <div class="fld"><label>Filter by State/UT</label>${stateDropdown('painStateSel', F.painState, 'All States/UTs', all)}</div>
   </div></div></div>`;
   const titleBits = [];
@@ -1101,11 +1101,11 @@ function renderBest(){
   h += `<div class="takeaway"><div class="tk-h">Why this page matters</div><div class="tk-b"><ol>
     <li><b>${gp}</b> good practices are in use right now — so the question for a slower State is not whether something can work, but why it has not been copied.</li>
     <li><b>${rf}</b> reform ideas came from the field rather than from us, which means each one already has someone inside the system willing to argue for it.</li>
-    <li>Filter by State to build a case for one administration, or by licence to see which approvals attract the most proposals.</li>
+    <li>Filter by State to build a case for one administration, or by license to see which approvals attract the most proposals.</li>
   </ol></div></div>`;
 
   h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="grid g2">
-    <div class="fld"><label>Filter by licence</label>${serviceDropdown('bestSvcSel', F.bestSvc, 'All licences ('+(gp+rf)+')')}</div>
+    <div class="fld"><label>Filter by license</label>${serviceDropdown('bestSvcSel', F.bestSvc, 'All licenses ('+(gp+rf)+')')}</div>
     <div class="fld"><label>Filter by State/UT</label>${stateDropdown('bestStateSel', F.bestState, 'All States/UTs', all)}</div>
   </div></div></div>`;
   const titleBits = [];
@@ -1123,11 +1123,11 @@ function renderReconcile(){
 
   let h = `<div class="crumb">Evidence &amp; method · where sources disagree</div>
     <div class="pagelede">${field.length} places where our own sources tell different stories${rules.length?`, and ${rules.length} where the published rule disagrees with both`:''}</div>
-    <div class="pagesub">Three things were asked about the same process: the official who issues the licence, the businesses who applied for it, and the State's own published rules. Where they agree, we have a solid fact. Where they do not, this page shows every version rather than quietly picking one.</div>`;
+    <div class="pagesub">Three things were asked about the same process: the official who issues the license, the businesses who applied for it, and the State's own published rules. Where they agree, we have a solid fact. Where they do not, this page shows every version rather than quietly picking one.</div>`;
 
   h += `<div class="takeaway"><div class="tk-h">What this shows</div><div class="tk-b"><ol>
     <li><b>${field.length}</b> contradictions inside the field record — an official describing the process one way and businesses describing it another, or a single report disagreeing with itself.</li>
-    <li>These touch <b>${affected.size}</b> of ${AGG.totalLicenses} licence records, so the field evidence is mostly internally consistent — the disagreements are concentrated, not everywhere.</li>
+    <li>These touch <b>${affected.size}</b> of ${AGG.totalLicenses} license records, so the field evidence is mostly internally consistent — the disagreements are concentrated, not everywhere.</li>
     ${rules.length?`<li>Separately, on <b>${rules.length}</b> specific facts the State's own published rule says something different from what the field record captured. These are the most actionable: the rule is citable.</li>`:''}
     ${fills.length?`<li><b>${fills.length}</b> facts the field record never captured at all were recovered from published rules — gaps closed after fieldwork had already ended.</li>`:''}
   </ol></div></div>`;
@@ -1193,7 +1193,7 @@ function renderGaps(){
     ${kpiIcon('acc-warn','alert','Too vague to use', String(nVague), 'mentioned, but not as a usable number')}
     ${filled?kpiIcon('acc-success','book','Recovered from rules', String(filled), 'closed after fieldwork ended'):''}
   </div>`;
-  h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="fld" style="max-width:340px"><label>Filter by licence</label>${serviceDropdown('gapsSvcSel', F.gapsSvc, 'All licences ('+(nMiss+nVague)+')')}</div></div></div>`;
+  h += `<div class="card" style="margin-bottom:16px"><div class="card-b"><div class="fld" style="max-width:340px"><label>Filter by license</label>${serviceDropdown('gapsSvcSel', F.gapsSvc, 'All licenses ('+(nMiss+nVague)+')')}</div></div></div>`;
   h += `<div class="grid g2" style="align-items:start">
     <div class="card"><div class="card-h"><h3>${icon('dash')}Missing entirely</h3><span class="note">${missing.length}</span></div><div class="card-b scroll-y" style="max-height:700px">${missing.map(g=>gapItem(g,true)).join('')||'<div class="hint">None.</div>'}</div></div>
     <div class="card"><div class="card-h"><h3>${icon('alert')}Vague / unmeasurable</h3><span class="note">${vague.length}</span></div><div class="card-b scroll-y" style="max-height:700px">${vague.map(g=>gapItem(g,true)).join('')||'<div class="hint">None.</div>'}</div></div>
@@ -1207,12 +1207,12 @@ function renderMethod(){
   h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Current scope</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">
     <p><b style="color:var(--ink)">There are three sources behind this dashboard, and they are never mixed.</b></p>
     <ol style="margin:0 0 10px;padding-left:19px">
-      <li style="margin-bottom:7px"><b style="color:var(--ink)">Expert Discussions (<span class="ftag src-ed" style="display:inline">ED</span>)</b> — structured field interviews with the official who issues the licence in that State. This is the authoritative account of the process as the department runs it.</li>
+      <li style="margin-bottom:7px"><b style="color:var(--ink)">Expert Discussions (<span class="ftag src-ed" style="display:inline">ED</span>)</b> — structured field interviews with the official who issues the license in that State. This is the authoritative account of the process as the department runs it.</li>
       <li style="margin-bottom:7px"><b style="color:var(--ink)">Focused Group Discussions (<span class="ftag src-fgd" style="display:inline">FGD</span>)</b> — field sessions with business owners who went through that exact process, in their own words. This is the only source that captures lived experience rather than stated procedure.</li>
       <li><b style="color:var(--ink)">Published rules (<span class="ftag src-secondary" style="display:inline">RULES</span>)</b> — an independent desk check of specific claims against the State's own gazette notifications, rules and official portals, each with the exact URL we fetched. This lane was added after the field phase closed, because gaps in the field record can no longer be resolved by going back to the field.</li>
     </ol>
-    <p>The field phase covered <b style="color:var(--ink)">${AGG.totalLicenses} licence records</b> across ${AGG.totalStates} States/UTs and up to ${AGG.totalServices} licence types; ${AGG.licensesWithFGD} of them carry FGD evidence. Where both ED and FGD exist, FGD findings and quotes are layered onto the ED record without altering the ED's own structured facts; where only FGD exists, the record is built from business testimony and marked as unverified against an official source.</p>
-    ${AGG.secondaryStates?`<p>The published-rules lane currently covers <b style="color:var(--ink)">${AGG.secondaryStates} licence record${AGG.secondaryStates===1?'':'s'}</b> (${AGG.secondaryChecks} individual facts checked). It is deliberately narrow: it is a verification layer on specific facts, not a parallel dataset. A record with no rules check is shown as <i>not yet checked</i> — which is never the same as <i>checked and found wrong</i>.</p>`:''}
+    <p>The field phase covered <b style="color:var(--ink)">${AGG.totalLicenses} license records</b> across ${AGG.totalStates} States/UTs and up to ${AGG.totalServices} license types; ${AGG.licensesWithFGD} of them carry FGD evidence. Where both ED and FGD exist, FGD findings and quotes are layered onto the ED record without altering the ED's own structured facts; where only FGD exists, the record is built from business testimony and marked as unverified against an official source.</p>
+    ${AGG.secondaryStates?`<p>The published-rules lane currently covers <b style="color:var(--ink)">${AGG.secondaryStates} license record${AGG.secondaryStates===1?'':'s'}</b> (${AGG.secondaryChecks} individual facts checked). It is deliberately narrow: it is a verification layer on specific facts, not a parallel dataset. A record with no rules check is shown as <i>not yet checked</i> — which is never the same as <i>checked and found wrong</i>.</p>`:''}
     <p>Gap flags are <code>MISSING</code>, <code>VAGUE</code>, <code>GOOD_PRACTICE</code>, <code>REFORM</code>, and <code>INCONSISTENT</code> — the last covers both a report contradicting itself and a genuine factual contradiction between sources, with both sides quoted. A difference in tone or emphasis alone is never flagged as inconsistent.</p>
   </div></div>`;
 
