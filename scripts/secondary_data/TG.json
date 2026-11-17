@@ -1,0 +1,89 @@
+{
+  "state": "TG",
+  "serviceCode": "FAL",
+  "validatedAt": "2026-11-17",
+  "checks": [
+    {
+      "key": "timeline",
+      "primaryClaim": "ED record: 10 days total — 'The license is issued online in around 10 days from application — roughly 3 days for scrutiny and another 7 days for inspection.' (timeline.minDays = 10, maxDays = 10, basis says it is 'applied as a fixed standard under TS-iPASS')",
+      "verdict": "contradicted",
+      "sourceSays": "The notified Annexure-VI time limits in G.O.Ms.No.18 carry a separate, explicit entry for the licence itself, distinct from plan approval. Under 'TIME LIMITS FOR PRE-OPERATION': '2  Factory License   Factories Department   7 days'. Under 'TIME LIMITS - PRE-ESTABLISHMENT APPROVALS': '3  Factory Plans Approval   Factories Department   7 days'. Under 'TIME LIMITS FOR RENEWALS': '2  Renewal of Factory License   Factories Department   3 days'. The order states these are issued as 'a revised Annexure-VI consolidating all the services' and that Government 'decides to recognize TS-iPASS Act as Public Service Delivery Guarantee (PSDG) Act for the services/reforms that are co-ordinated by DPIIT'. So the notified statutory limit for the Factory Licence stage (not the plan-approval stage) is 7 days, against the ED's stated 10 days.",
+      "citation": {
+        "title": "G.O.Ms.No. 18, Industries & Commerce (IP & INF) Department, Dated: 04-11-2020 — 'Industries and Commerce Department - TS-iPASS - Rules - Telangana State Industrial Project Approval and Self Certification System (TS-iPASS) Rules, 2015 — Timelines – Consolidated - Amendment —Orders - Issued'",
+        "url": "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TSIPASSActs/G.O.Ms.No18,%20dt.04.11.2020%20(1).pdf",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "fees",
+      "primaryClaim": "ED record: 'The fee is generated automatically by the system based purely on installed power and number of workers, with no separate inspection fee. The amount also moves with the validity period chosen (1 to 5 years).' Exact amounts/formula flagged MISSING in the ED gaps.",
+      "verdict": "not_found",
+      "sourceSays": null,
+      "citation": null
+    },
+    {
+      "key": "deemedApproval",
+      "primaryClaim": "ED record: status 'unclear' — 'Not explicitly confirmed for the Factory Licence specifically in this discussion... he did not directly confirm whether this formally extends to the Factory Licence.' Flagged MISSING in the ED gaps.",
+      "verdict": "fills_gap",
+      "sourceSays": "The TS-iPASS Act, 2014 contains the deemed-approval machinery the ED record could only describe loosely. Section 13, marginal note 'List of Deemed Approvals': '13. (1) While prescribing time limits under Section 12, the State Government may notify the clearances in respect of which failure of the competent authority to pass final orders on the application within the stipulated time shall result in deemed approval. (2) The applicant may proceed to execute the work or take other action following the provisional or deemed approval given at by the Competent Authority, but not so as to contravene any of the provisions of the Acts or rules or bye-laws applicable to such clearances.' Section 14, 'Information of Deemed Approval': 'The appropriate Competent Committee shall inform to the applicant the date on which the application was received by the Competent Authority and the date on which it was deemed to have been approved.' Deemed approval is therefore a real statutory provision, but it is an enabling power that bites only on clearances the State Government separately notifies; no notified list naming the Factory Licence, and no deemed-approval clause at all, appears in G.O.Ms.No.18 (the word 'deemed' does not occur anywhere in that order).",
+      "citation": {
+        "title": "The Telangana State Industrial Project Approval and Self Certification System (TS-iPASS) Act, 2014 (Act No. 3 of 2014) — Telangana Gazette, Part IV-B Extraordinary, No. 3, Hyderabad, Thursday, December 4, 2014 (sections 13 and 14, Gazette p. 9)",
+        "url": "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TS-iPASS.pdf",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "documents",
+      "primaryClaim": "ED record lists only: 'Nothing fresh beyond what was already filed at the CTE stage — data migrates automatically under the same login'; power requirement and worker numbers; a revised layout plan only if machinery deviates. No enumerated checklist for the Factory Licence itself.",
+      "verdict": "fills_gap",
+      "sourceSays": "The portal publishes an enumerated checklist — 'Check List For TS-iPASS Approvals / Required Documents to Get Approvals from TS-iPASS' — of 19 document types: 1 Common Enclosures; 2 Self Certification; 3 Combined Site Plan; 4 Building Plan; 5 Mutation; 6 Certificate of Incorporation; 7 Flow Chart; 8 HMDA Enclosures; 9 C5 for Red category; 10 Comman Application From(CAF); 11 HAZARDOUS WASTE FORM; 12 TSPCB - B1 Form (only for red category); 13 TSPCB - B2 Form (only for red category); 14 Environment Clearance; 15 The Shops & Establishments Act - Registration; 16 The Shops & Establishments Act - Renewal; 17 The Building & Other Construction Workers Act; 18 PrincipalEmployerUnderContractLabourAct-Registration; 19 Principal Employer Registration under Interstate Migrant Workman Act. The linked 'COMMON ENCLOSURES to COMMON APPLICATION FORM (CAF)' document itemises what the factory-relevant plans must contain, e.g. 'Combined Site Plan: 1. Showing topo details of site in a radius of 500 mtr... 2. Showing site plan (1:400) and incorporating Neighborhood, location of all buildings/ sheds, P&M/c, Storages etc., Access road showing width, Front, rear, & Side setbacks... a. Minimum Setbacks : 6 mtrs between building and compound wall b. 3.05 mts(10ft) clear space between shed to shed/building', and 'Building Plan: 1. Showing Detailed Building plan (Scale : 1:100)... 2. Minimum Height of machinery building - 4.27 Mts (14 ft)... 3. Maximum Height of machinery building - 18 mts'. This is the single-window checklist filed once with the Common Application Form covering all TS-iPASS clearances — it is not published as a Factory-Licence-specific list, which is consistent with (but does not by itself prove) the ED's claim that nothing fresh is filed at the licence stage.",
+      "citation": {
+        "title": "Check List For TS-iPASS Approvals — 'Required Documents to Get Approvals from TS-iPASS', TG-iPASS portal",
+        "url": "https://ipass.telangana.gov.in/Checklist.aspx",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "steps",
+      "primaryClaim": "ED record: applied online through TS-iPASS single window with CTE credentials and data carry-forward; fee paid online; 3-day document scrutiny; randomly assigned joint inspection team with advance SMS; mandatory physical site inspection with no remote option; licence issued online. automationLevel 'partial', applicantOfficeVisit 'no'.",
+      "verdict": "confirmed",
+      "sourceSays": "The online single-window architecture and the short front-end handling window are both in official text. G.O.Ms.No.18 records that the amendments are issued 'to authorize the Government for making any changes in the Common Application Form(CAF), for mandating ONLINE application, for modification of the penalty amount and for including additional services in the Annexure VI of TS-iPASS Rules', and that 'Based on the self-certification provided by the Applicant, the State Committee will provide a single point TS-iPASS approval on behalf of all relevant departments instead of individual departmental approvals' (TS-iPASS Act s.4(2)(x)). The Act further provides, at s.6(2): 'Under the superintendence, direction and control of the respective committees, the nodal agency shall acknowledge all applications filed before the Committee and shall forward the applications to the concerned competent authority within three working days', and at s.11(2): 'The self-certification furnished by the entrepreneur shall be accepted by the concerned Departments and authorities for the purpose of issue and granting clearance.' No official source read this session addresses whether a physical site inspection is mandatory before grant of the Factory Licence, so that specific element of the ED's step list remains unverified.",
+      "citation": {
+        "title": "The Telangana State Industrial Project Approval and Self Certification System (TS-iPASS) Act, 2014 (Act No. 3 of 2014) — Telangana Gazette, Part IV-B Extraordinary, No. 3, 4 December 2014 (ss. 4(2)(x), 6(2), 11(2), Gazette pp. 5-8), read with G.O.Ms.No.18 dt. 04-11-2020, para 6",
+        "url": "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TS-iPASS.pdf",
+        "transport": "https"
+      }
+    }
+  ],
+  "sourcesRead": [
+    "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TSIPASSActs/G.O.Ms.No18,%20dt.04.11.2020%20(1).pdf",
+    "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TS-iPASS.pdf",
+    "https://ipass.telangana.gov.in/Checklist.aspx",
+    "https://ipass.telangana.gov.in/Downloads.aspx",
+    "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:TS-iPASSFinal/docs/CommonEnclosures.pdf",
+    "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TSIPASSActs/GO%2033%20dated%2007%20%2011%20%202019.pdf",
+    "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TSIPASSActs/B2.4648.2025%20dated%2018.12.2025%20.pdf",
+    "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TSIPASSActs/G.O.Ms.No.26%20Dt%2006-11-2020.pdf",
+    "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TSIPASSActs/G.O.Ms.No.%2013%20Dated14.07.2020.pdf",
+    "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TSIPASSActs/G.O.Ms.No%2020%20dt%2015.10.2024.pdf",
+    "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TSIPASSActs/G.O.Ms.No.04%20dt%2010,02.2025.pdf",
+    "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TSIPASSActs/G.O.Ms.No43,%20dt.31.10.2022.pdf",
+    "https://ipass.telangana.gov.in/viewpdf.aspx?filepathnew=D:/TS-iPASSFinal/docs/TSIPASSActs/Go.%20Ms.%20No.%2017%20Dt%2003.11.2020.pdf",
+    "https://tsfactories.cgg.gov.in/",
+    "http://tsfactories.cgg.gov.in/",
+    "https://tsfactories.telangana.gov.in/",
+    "https://tsfactories.cgg.gov.in/content/circulars/A1-6798-2015-EODB.pdf"
+  ],
+  "remarks": [
+    "TIMELINE — the key distinction the ED record blurs: G.O.Ms.No.18 of 04-11-2020 has THREE separate Factories Department entries at THREE different stages: 'Factory Plans Approval — 7 days' (pre-establishment), 'Factory License — 7 days' (pre-operation) and 'Renewal of Factory License — 3 days'. The 7-day figure flagged in the brief as plan approval is therefore not the only relevant one — there is a distinct, separately notified 7-day limit for the grant of the licence itself. The ED's 10 days is measured against that 7-day pre-operation entry and exceeds it, which is why the verdict is 'contradicted' rather than a stage mismatch. The ED's internal split (3 days scrutiny + 7 days inspection/issuance) looks like the 3-working-day nodal-agency forwarding window of TS-iPASS Act s.6(2) added on top of the notified 7-day departmental limit; if so, the department may be treating the 7 days as starting only after scrutiny, whereas the G.O. states the limit for the clearance without any such add-on.",
+    "The G.O. explicitly recognises the TS-iPASS Act as the Public Service Delivery Guarantee (PSDG) Act for these DPIIT-coordinated services, so the 7-day Factory Licence figure is a guaranteed-service timeline, not an internal target.",
+    "No deemed-approval clause appears anywhere in G.O.Ms.No.18 — the word 'deemed' occurs zero times in the full 8-page text. The statutory basis (TS-iPASS Act s.13(1)) is only an enabling power to notify which clearances attract deemed approval. The ED's own suggestion that the state should 'clearly confirm and publicise how the deemed-approval safeguard extends to the Factory Licence' is therefore well founded: this pass could not find any published instrument putting the Factory Licence on a deemed-approval list.",
+    "FEES: no official fee schedule could be verified. The Telangana Factories Rules, 1950 fee schedule is hosted on tsfactories.cgg.gov.in, which was again completely unreachable this session — TLS 'Recv failure: Connection reset by peer' on https (both the home page and the EODB circular PDF) and HTTP 503 on http, and tsfactories.telangana.gov.in is refused by the egress proxy (502). labour.telangana.gov.in was not attempted, per instruction (F5 WAF 403). Non-government aggregators (compliance blogs, Scribd, LegitQuest) surfaced in search but are not official sources and were not used. The ED's fee basis (installed power x number of workers, scaled by 1-5 year validity) is plausible and matches the general Indian Factories Rules pattern, but is UNVERIFIED here.",
+    "PORTAL DEFECT worth flagging to the department: of the Labour/Factories and TG-iPASS G.O. PDFs listed on https://ipass.telangana.gov.in/Downloads.aspx, only G.O.Ms.No.18 (04-11-2020) actually downloads. Every other one tried — G.O.Ms.No.33 dt 07-11-2019 (amendments to the Telangana Factories Rules, 1950 for EoDB), Memo No. B2/4648/2025 dt 18-12-2025 (auto-generation of licences under the OSH Code for low- and medium-risk factories), G.O.Ms.No.26 dt 06-11-2020 (Self Certification and Third-Party Certification Scheme, 2020), G.O.Ms.No.13 dt 14-07-2020 (inspections under labour laws), and the later TG-iPASS Rules orders G.O.Ms.No.43 dt 31-10-2022, G.O.Ms.No.20 dt 15-10-2024 and G.O.Ms.No.04 dt 10-02-2025 — redirects to the portal's own ErrorPage.aspx ('Error Occurred...!'), with several filename spellings and with session cookies tried. The listed titles and dates are real (they are rendered by the portal's own repository table), but the documents themselves are not retrievable.",
+    "Because those later TG-iPASS Rules G.O.s (2022, 2024, 2025) could not be opened, it could NOT be ruled out that Annexure-VI has been amended since 04-11-2020 and that the Factory Licence limit is now something other than 7 days. The 7-day figure is the latest one this session could actually read, not provably the current one. A reviewer should treat the 'contradicted' timeline verdict as sound on the 2020 instrument and worth re-checking against the 2024/2025 orders if those PDFs are ever restored.",
+    "Memo No. B2/4648/2025 dt 18-12-2025 — 'Implementation of Auto-Generation of Licences under the Occupational Safety, Health and Working Conditions (OSH) Code for Low and Medium Risk Factories and Regulation of Periodical Inspections' — is listed on the Downloads page but unreadable. Its title alone suggests a material change to exactly the two points the ED record describes as fixed (mandatory physical inspection for every unit, and a 10-day human-processed grant). It post-dates the 04-08-2026 ED only in the sense of being an older instrument than the ED discussion; the ED did not mention it. This is the single highest-value document for a follow-up pass.",
+    "The 19-item checklist at Checklist.aspx is the common TS-iPASS document set filed once with the Common Application Form for all routed clearances, not a Factory-Licence-specific checklist. It is cited as 'fills_gap' because the ED record enumerated no document list at all for this service, but a reviewer should not present it as the statutory Factory Licence document requirement under the Factories Act/Telangana Factories Rules, which remains unverified.",
+    "No FGD record exists for TG/FAL — /home/user/CostofRegulation/scripts/fgd_data/TG.json carries CTE, CTO, FBPA, LEM, RCTO, RFNO and WAC only — so every check here is against the ED record alone.",
+    "Incidental corroboration of two ED claims about the wider regime: G.O.Ms.No.18 para 6 confirms the Rules were amended 'for mandating ONLINE application' and 'for modification of the penalty amount', consistent with the ED's description of mandatory online filing and of a monetary penalty regime for delay (the G.O. does not state the per-day penalty amount or that it falls personally on officers, so that specific ED claim is not verified)."
+  ]
+}

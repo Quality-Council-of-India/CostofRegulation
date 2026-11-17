@@ -1,88 +1,85 @@
 {
   "state": "CG",
   "serviceCode": "FAL",
-  "compiledAt": "2026-11-04",
+  "compiledAt": "2026-11-17",
   "verifiedSources": [
     {
       "portal": "National Single Window System (NSWS)",
       "url": "https://www.nsws.gov.in/",
       "whatItIs": "Central Government of India single-window portal for business approvals/licences (covers state approvals including Chhattisgarh, where Factory License-type approvals can in principle be routed)",
       "verifiedBy": "curl HTTP 200, confirmed real rendered text content (profile/login prompts, PAN verification notice, state/central approval menu listing including 'Chhattisgarh')",
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-17"
     },
     {
       "portal": "CSIDC — Chhattisgarh State Industrial Development Corporation",
       "url": "https://csidc.in/",
       "whatItIs": "State industrial development corporation home page; links out to the state's 'One Click Single Window' investor/approvals portal (invest.cg.gov.in) used for industrial approvals including factory-related clearances",
       "verifiedBy": "curl HTTP 200, confirmed real navigation/menu text content (About CSIDC, Investors, One Click Single Window, Land Allotment etc.)",
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-17"
     },
     {
       "portal": "DGFASLI — Directorate General Factory Advice Service & Labour Institutes (Ministry of Labour & Employment, Govt. of India)",
       "url": "https://dgfasli.gov.in/",
       "whatItIs": "Central nodal government body for occupational safety/health and the Factories Act, 1948 (the central Act under which Chhattisgarh's own Factories Rules and factory-licensing process are framed)",
       "verifiedBy": "curl HTTP 200, confirmed real rendered Hindi-language navigation/content text (About DGFASLI, OSH laws menu including 'Factories Act, 1948' and model rules)",
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-17"
     }
   ],
   "excluded": [
     {
-      "url": "https://industries.cg.gov.in/msme/reports/login.aspx",
-      "reason": "candidate single-window login URL cited by a third-party guide (taxguru.in); curl connection timed out after 15s this session, could not be independently verified"
-    },
-    {
-      "url": "https://industries.cg.gov.in/",
-      "reason": "curl connection reset by peer / timed out across repeated attempts this session; appears to be a retired/unreachable domain (the state's current single-window portal was separately found to be invest.cg.gov.in, linked from csidc.in)"
+      "url": "https://industries.cg.gov.in/ and https://industries.cg.gov.in/msme/reports/login.aspx",
+      "reason": "re-tested this session: curl still returns 'Recv failure: Connection reset by peer' on repeated attempts (proxy status log shows this as a 'ws_closed_mid_exchange' relay failure — the tunnel to the egress proxy closes before the exchange completes). Unchanged from prior attempt."
     },
     {
       "url": "https://invest.cg.gov.in/",
-      "reason": "found independently (not via search) as the 'One Click Single Window' link on csidc.in's own home page, strongly suggesting this is the real Single Window System 2.0 domain — but curl fails with 'SSL certificate problem: unable to get local issuer certificate' (broken/incomplete TLS chain) even against the standard CA bundle, so content could not be verified this session. Per instructions, TLS verification was not disabled to force a look"
+      "reason": "re-tested this session with extended diagnostics: curl (both with the provided CA bundle and with the system CA bundle) and Python's urllib/ssl both fail with 'unable to get local issuer certificate' against the real destination certificate (not a proxy-side cert) — a genuine incomplete TLS chain on the server's own side. (Note: the raw `openssl s_client` binary reports 'Verify return code: 0 (ok)' for this host, apparently via a different default trust-anchor lookup path than curl/Python use; since the spec's sanctioned verification method is curl, and the two independent, properly-configured HTTPS clients both fail cert verification, this is treated as still unverifiable rather than resolved.) Unchanged outcome from prior attempt."
     },
     {
       "url": "http://cglabour.nic.in/ / https://cglabour.nic.in/",
-      "reason": "candidate Chhattisgarh Labour Department domain cited by third-party guides as where the Factory License application is submitted; plain-http lookup failed DNS resolution locally, and https attempts via the session's egress proxy consistently returned 'CONNECT tunnel failed, response 502' (connect_rejected) across multiple retries — domain appears unreachable/non-resolving this session"
+      "reason": "re-tested this session, repeated attempts: 'CONNECT tunnel failed, response 502' (connect_rejected) every time, same as prior attempt. Unchanged."
     },
     {
       "url": "https://cglabour.gov.in/",
-      "reason": "guessed alternate domain for the state Labour Department; curl timed out, unverifiable"
+      "reason": "re-tested this session: curl now returns 'Recv failure: Connection reset by peer' (previously a timeout) — still unreachable, no usable content obtained either time."
     },
     {
-      "url": "https://labour.cg.gov.in/, https://cglabor.nic.in/, https://cglabour.cg.gov.in/, https://labourcg.gov.in/",
-      "reason": "guessed alternate domains for the Chhattisgarh Labour Department, tried after the primary candidates failed; all returned immediate 'CONNECT tunnel failed, response 502' (consistent with non-existent hostnames rather than a transient network issue, since other .nic.in/.gov.in hosts such as cghealth.nic.in resolved fine in the same session)"
-    },
-    {
-      "url": "https://cgstate.gov.in/ and https://www.cgstate.gov.in/",
-      "reason": "candidate general Chhattisgarh state government portal domain; curl connection timed out, unverifiable this session"
+      "url": "https://cgstate.gov.in/ and https://www.cgstate.gov.in/ and https://www.cgstate.gov.in/en",
+      "reason": "re-tested this session: default curl TLS now fails with 'unsafe legacy renegotiation disabled' rather than a timeout (host is reachable now, protocol differs from before). Working around that (enabling legacy TLS renegotiation only, not disabling certificate verification) reaches the real server, which returns HTTP 500 'Server Error' with no usable page content. Still not a valid source, for a different underlying reason than the prior attempt's timeout."
     },
     {
       "url": "https://chips.gov.in/",
-      "reason": "candidate domain for Chhattisgarh's state IT/e-governance society (CHiPS), mentioned as the system integrator behind the Single Window 2.0 case study; curl connection timed out, unverifiable"
+      "reason": "re-tested this session: curl returns 'Recv failure: Connection reset by peer' (proxy log shows 'ws_closed_mid_exchange'). Unchanged from prior attempt's timeout outcome — still unreachable."
     },
     {
       "url": "https://services.india.gov.in/service/detail/chhattisgarh-single-window-portal-of-industries-department",
-      "reason": "National Portal of India service-detail page describing the Chhattisgarh single window portal; curl via the session's egress proxy consistently returned 'CONNECT tunnel failed, response 502' (connect_rejected) across multiple attempts, host unreachable this session"
+      "reason": "re-tested this session: still fails, now explicitly reported by the proxy as 'connect_unreachable' (host allowed for this session, but the egress proxy could not connect to it — no public DNS record or host down). Unchanged outcome."
     },
     {
       "url": "https://egazette.gov.in/",
-      "reason": "candidate source for the official Chhattisgarh Factories Rules gazette notification text; curl fails TLS verification ('unable to get local issuer certificate') against the standard CA bundle, content could not be verified without disabling certificate checking, which was not done"
+      "reason": "re-tested this session with extended diagnostics (same method as invest.cg.gov.in above): curl and Python both fail TLS verification against the real server certificate with 'unable to get local issuer certificate', even when pointed at the system CA bundle instead of the session-provided one. Not resolved; unchanged from prior attempt."
     },
     {
       "url": "https://labour.gov.in/state-government-labour-departments",
-      "reason": "central Ministry of Labour & Employment directory page that should link to the Chhattisgarh Labour Department's official site; curl returns HTTP 200 but the page is an empty client-side-rendered (Next.js) shell with no state names or links present in the fetched HTML/JSON payload (confirmed by searching the raw response for 'Chhattisgarh' — no match), so it is not independently verifiable via this session's fetch method"
+      "reason": "re-tested this session: curl still returns HTTP 200 but the response is still an empty client-side-rendered (Next.js) shell — re-confirmed by grep for 'Chhattisgarh' in the fetched HTML, zero matches. Unchanged from prior attempt."
     },
     {
       "url": "https://www.nsws.gov.in/portal/chhattisgarh",
-      "reason": "NSWS state-specific landing page for Chhattisgarh, linked from the NSWS home page; curl returns HTTP 200 but the response is an empty client-side-rendered React/SPA shell (`<div id=\"root\"></div>` with no server-rendered text), so content could not be confirmed as relevant via this session's fetch method"
+      "reason": "re-tested this session: this time curl returns HTTP 200 (previously got a connection reset on the way to this same conclusion in one of the retries), but the response body is still confirmed to be an empty client-side React SPA shell (bootstrap script only, no server-rendered text; grep for 'Chhattisgarh' or 'factory/factories' in the raw HTML returns zero matches). Still not independently verifiable via this session's fetch method."
     },
     {
       "url": "https://www.indiacode.nic.in/handle/123456789/1407",
-      "reason": "candidate link to the Factories Act, 1948 central legislation text on India Code; curl connection timed out, unverifiable this session"
+      "reason": "re-tested this session: curl still times out after 15s with zero bytes received. Unchanged from prior attempt."
+    },
+    {
+      "url": "https://cg.gov.in/, https://chhattisgarh.gov.in/, https://cggov.nic.in/, https://makeinchhattisgarh.in/, https://cgindustries.gov.in/",
+      "reason": "additional general Chhattisgarh state-portal domain guesses tried fresh this retry (not in the prior attempt's list); all fail this session with connection resets, 502 CONNECT-tunnel failures, or (makeinchhattisgarh.in) a TLS certificate-verification failure against the real destination cert — no new reachable candidate found."
     }
   ],
   "remarks": [
-    "This session's outbound HTTPS goes through a shared, policy-enforcing egress proxy. Several candidate .gov.in/.nic.in hosts (e.g. cglabour.nic.in, services.india.gov.in) consistently returned 'CONNECT tunnel failed, response 502' (connect_rejected) on every retry, which the proxy documentation attributes either to the destination host not being permitted for this session or to the host genuinely being unreachable/non-resolving; other .nic.in/.gov.in hosts (e.g. cghealth.nic.in, dgfasli.gov.in, labour.gov.in) resolved and returned normal 200 responses in the same session, so the failures are host-specific rather than a blanket proxy policy against the TLD.",
-    "The strongest lead for Chhattisgarh's actual Factory-License-relevant single-window system (invest.cg.gov.in, Single Window System 2.0, launched July 2024) was discovered not via a search snippet but by fetching csidc.in directly and reading its own outbound link — however it could not be added to verifiedSources because curl cannot complete TLS verification against it (broken/incomplete certificate chain), and per the session's rules TLS verification was not disabled to work around this.",
-    "No reachable, independently-verifiable copy of the Chhattisgarh Factories Rules, 1962 (or its 2023/2025/2026 amendments) was found this session — only secondary commentary (law-firm/compliance blogs) describes them. The primary candidate official sources for this text (a Chhattisgarh Labour Department site and egazette.gov.in) were both unreachable/unverifiable, as detailed in `excluded`.",
-    "Several third-party consultancy/aggregator sources (taxguru.in, indiafilings.com, professionalutilities.com, etc.) surfaced useful leads on the process and domain names during search, but per the spec none of them were used as sources themselves — only the government URLs they pointed to were tested, and most of those could not be independently verified this session."
+    "RETRY OUTCOME: this retry did NOT improve on the original attempt. Same 3 verifiedSources (nsws.gov.in, csidc.in, dgfasli.gov.in) and the same 0 additional sources became verifiable. Every previously-excluded Chhattisgarh-specific domain (industries.cg.gov.in, invest.cg.gov.in, cglabour.nic.in, cglabour.gov.in, cgstate.gov.in, chips.gov.in, services.india.gov.in, egazette.gov.in, labour.gov.in state-list page, nsws.gov.in/portal/chhattisgarh, indiacode.nic.in) was individually re-tested this session with curl, and in some cases cross-checked with openssl/Python/legacy-TLS workarounds; all remain unverifiable as real, substantive sources, though the specific failure mode shifted for a few hosts (e.g. cgstate.gov.in moved from 'timeout' to 'reachable but HTTP 500'; cglabour.gov.in moved from 'timeout' to 'connection reset'; nsws.gov.in/portal/chhattisgarh moved from 'connection reset' to 'HTTP 200 empty SPA shell'). None of these shifts produced usable content.",
+    "This session's proxy status endpoint (http://127.0.0.1:46877/__agentproxy/status) shows, during this retry, concurrent relay failures ('ws_closed_mid_exchange', 'connect_unreachable') against a broad, unrelated set of other Indian state-government labour/industries domains (e.g. labour.kerala.gov.in, pblabour.gov.in, industries.kerala.gov.in, www.apindustries.gov.in, ipb.ap.gov.in, rajfab.rajasthan.gov.in, labour.assam.gov.in, shramsuvidha.gov.in) even while unrelated domains (dgfasli.gov.in, nsws.gov.in root, csidc.in) succeeded normally. This indicates the instability affecting Chhattisgarh-specific .cg.gov.in/.nic.in hosts is part of a broader, still-ongoing session/network condition affecting many Indian government domains generally, not something specific to CG that has since cleared.",
+    "For invest.cg.gov.in and egazette.gov.in specifically, this retry went further than the original attempt: it confirmed via curl -v that the failing TLS handshake is against the real destination's own certificate chain (not a proxy-re-termination issue), and separately confirmed the same failure independently in Python's ssl/urllib3 stack using both the session-provided CA bundle and the system CA bundle. A raw `openssl s_client` connection to the same hosts reports 'Verify return code: 0 (ok)', but since the spec specifies curl as the verification method and two independently-configured, standards-conformant HTTPS clients (curl, Python) both reject the chain, these two hosts are kept in `excluded` rather than being promoted on the strength of one differently-behaving tool.",
+    "No reachable, independently-verifiable copy of the Chhattisgarh Factories Rules, 1962 (or its later amendments) was found in this retry either — the primary official candidate sources for that text (a Chhattisgarh Labour Department site and egazette.gov.in) remain unreachable/unverifiable for the same reasons as the original attempt.",
+    "Several additional general Chhattisgarh state-portal domain guesses (cg.gov.in, chhattisgarh.gov.in, cggov.nic.in, makeinchhattisgarh.in, cgindustries.gov.in) were tried fresh in this retry as a broader net beyond the original attempt's candidate list; none resolved to usable content, so no new verified source resulted from the wider search either."
   ]
 }

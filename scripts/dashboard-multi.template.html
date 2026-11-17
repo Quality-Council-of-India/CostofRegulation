@@ -262,6 +262,79 @@ table.dt td.n,table.dt th.n{text-align:right;font-family:var(--mono);font-varian
 .tabbtn.on{background:var(--ink);color:#fff;border-color:var(--ink)}
 .tabbtn .n{opacity:.65;font-weight:400;margin-left:4px}
 
+/* ---------- portal chrome: nav groups, hero, takeaways, how-to-read ---------- */
+.navgrp{font-size:9.5px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:rgba(255,255,255,.42);padding:16px 18px 6px}
+.hero{background:linear-gradient(120deg,#131C33,#1E2B4D 55%,#2B3F6B);border-radius:var(--r);padding:30px 34px;margin-bottom:18px;color:#fff}
+.hero .eyebrow{font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#8FB0F0;margin-bottom:10px}
+.hero h1{font-size:30px;line-height:1.22;font-weight:800;margin:0 0 12px;letter-spacing:-.015em}
+.hero h1 em{font-style:normal;color:#8FB0F0}
+.hero p{font-size:13.5px;line-height:1.65;color:rgba(255,255,255,.80);max-width:860px;margin:0}
+.pagelede{font-size:24px;line-height:1.3;font-weight:800;letter-spacing:-.012em;color:var(--ink);margin:0 0 6px;max-width:960px}
+.pagesub{font-size:13px;color:var(--muted);line-height:1.6;max-width:860px;margin-bottom:16px}
+.crumb{font-size:9.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--primary);margin-bottom:9px}
+.takeaway{display:flex;gap:0;border:1px solid var(--border);border-radius:var(--r);overflow:hidden;margin-bottom:18px;background:#fff}
+.takeaway .tk-h{background:var(--ink);color:#fff;padding:16px 18px;font-size:13px;font-weight:800;flex:0 0 165px;display:flex;align-items:center}
+.takeaway .tk-b{padding:14px 18px;flex:1}
+.takeaway ol{margin:0;padding-left:20px}
+.takeaway li{font-size:13px;color:var(--body);line-height:1.6;margin-bottom:7px}
+.takeaway li:last-child{margin-bottom:0}
+.takeaway b{color:var(--primary);font-weight:800}
+.howto{border-left:3px solid var(--primary);padding:2px 0 2px 11px;margin-bottom:14px;font-size:11.5px;color:var(--muted);line-height:1.55}
+.howto b{color:var(--ink);font-weight:800}
+.startgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-bottom:18px}
+.startcard{border:1px solid var(--border);border-top:3px solid var(--primary);border-radius:12px;padding:16px 18px;background:#fff}
+.startcard h4{margin:0 0 8px;font-size:17px;font-weight:800;color:var(--primary)}
+.startcard p{margin:0 0 8px;font-size:12.5px;color:var(--muted);line-height:1.6}
+.startcard ul{margin:0;padding-left:16px}
+.startcard li{font-size:12px;color:var(--body);line-height:1.6;cursor:pointer}
+.startcard li:hover{color:var(--primary);text-decoration:underline}
+
+/* ---------- source lane badges + verification markers ---------- */
+.ftag.src-secondary{background:var(--success-light);color:#065F46;border-color:transparent}
+.vmark{display:inline-flex;align-items:center;gap:5px;font-size:10px;font-weight:700;padding:3px 9px;border-radius:999px;border:1px solid;white-space:nowrap}
+.vmark.v-confirmed{background:var(--success-light);color:#065F46;border-color:#A7E8CB}
+.vmark.v-contradicted{background:var(--danger-light);color:#991B1B;border-color:#F3C2BE}
+.vmark.v-fills_gap{background:var(--info-light);color:#1E40AF;border-color:#BFD4F7}
+.vmark.v-not_found{background:var(--bg);color:var(--faint);border-color:var(--border)}
+.vmark.v-unchecked{background:var(--bg);color:var(--faint);border-color:var(--border);opacity:.75}
+.vdet{border:1px solid var(--border);border-radius:10px;background:#fff;margin-bottom:8px;overflow:hidden}
+.vdet summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:11px;padding:11px 13px;flex-wrap:wrap}
+.vdet summary::-webkit-details-marker{display:none}
+.vdet summary:hover{background:var(--bg)}
+.vdet .vk{font-size:12.5px;font-weight:800;color:var(--ink);min-width:132px}
+.vdet .vg{font-size:12px;color:var(--muted);flex:1;min-width:190px}
+.vdet .vmore{font-size:10px;font-weight:800;color:var(--primary);text-transform:uppercase;letter-spacing:.06em}
+.vdet[open] .vmore{opacity:.5}
+.vdet .vbody{padding:3px 13px 14px;border-top:1px solid var(--border-2)}
+.vdet .vbody .gi-text{font-size:12.5px;color:var(--body);line-height:1.6;margin-top:10px}
+.srcfilter{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.srcfilter .sf{border:1px solid var(--border);background:#fff;border-radius:999px;padding:6px 13px;font-size:11px;font-weight:700;cursor:pointer;color:var(--muted)}
+.srcfilter .sf.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+/* ---------- step-equivalence visuals ---------- */
+.eqbars{display:flex;flex-direction:column;gap:9px}
+.eqrow{display:grid;grid-template-columns:168px 1fr 118px;gap:12px;align-items:center}
+.eqrow .nm{font-size:12.5px;font-weight:700;color:var(--ink);text-align:right;cursor:pointer}
+.eqrow .nm:hover{color:var(--primary)}
+.eqtrack{display:flex;flex-direction:column;gap:3px}
+.eqbar{height:17px;border-radius:4px;display:flex;align-items:center;padding-left:8px;font-size:10px;font-weight:800;color:#fff;white-space:nowrap;min-width:62px}
+.eqbar.raw{background:#94A3B8}
+.eqbar.cmp{background:var(--primary)}
+.eqrow .vs{font-size:11.5px;color:var(--muted);font-weight:600}
+.eqrow .vs b{color:var(--ink)}
+.eqgrid{border-collapse:collapse;width:100%;font-size:11px}
+.eqgrid th,.eqgrid td{border:1px solid var(--border-2);padding:0}
+.eqgrid thead th{background:var(--bg);padding:7px 5px;font-size:9.5px;font-weight:800;color:var(--muted);text-align:center;writing-mode:vertical-rl;transform:rotate(180deg);height:118px;white-space:nowrap}
+.eqgrid thead th.corner{writing-mode:horizontal-tb;transform:none;text-align:left;padding:7px 10px;min-width:215px;height:auto}
+.eqgrid td.sub{text-align:left;padding:7px 10px;font-weight:700;color:var(--ink);font-size:11px;background:#fff}
+.eqgrid td.c{text-align:center;height:30px;font-weight:800;font-size:11px}
+.eqgrid td.c.n0{background:#fff;color:var(--border-2)}
+.eqgrid td.c.n1{background:var(--primary-light);color:var(--primary-dark)}
+.eqgrid td.c.n2{background:#A5B4FC;color:#1E1B4B}
+.eqgrid td.c.n3{background:var(--primary);color:#fff}
+.eqlegend{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:12px;font-size:11px;color:var(--muted)}
+.eqlegend .sw{display:inline-block;width:13px;height:13px;border-radius:3px;margin-right:5px;vertical-align:-2px;border:1px solid var(--border-2)}
+
 /* ---------- aligned stage comparison table ---------- */
 .aligncmp{border-collapse:collapse;width:100%;table-layout:fixed}
 .aligncmp th,.aligncmp td{border:1px solid var(--border-2);vertical-align:top;padding:0}
@@ -405,7 +478,7 @@ const GAP_META = {
 };
 
 const DEFAULT_SERVICE = SERVICES.find(s=>s.code==='FAL') ? 'FAL' : (SERVICES[0]?SERVICES[0].code:null);
-const F = { view:'overview', state:null, license:null, service:DEFAULT_SERVICE, cmp:[], search:'', sort:{col:null,dir:1}, bestSvc:'all', bestState:'all', gapsSvc:'all', painSvc:'all', painState:'all' };
+const F = { view:'start', state:null, license:null, service:DEFAULT_SERVICE, cmp:[], search:'', sort:{col:null,dir:1}, bestSvc:'all', bestState:'all', gapsSvc:'all', painSvc:'all', painState:'all' };
 
 /* ---------- formatting helpers ---------- */
 const fmtDays = t => { if(!t || t.minDays==null) return 'Not specified'; if(t.minDays===t.maxDays) return t.minDays+' days'; return t.minDays+'–'+t.maxDays+' days'; };
@@ -476,22 +549,37 @@ function gapItem(g, showState){
 }
 
 /* ---------- nav ---------- */
+const CHAPTERS = [
+  {id:'start', name:''},
+  {id:'picture', name:'The big picture'},
+  {id:'compare', name:'Compare States'},
+  {id:'deep', name:'One State in depth'},
+  {id:'evidence', name:'Evidence & method'}
+];
 const NAV = [
-  {k:'overview', icon:'grid', t:'National overview', d:'Coverage across all States/UTs and licenses'},
-  {k:'state', icon:'user', t:'State profile', d:'Every license for one State, tagged findings per step'},
-  {k:'compare', icon:'columns', t:'Compare States', d:'Line up 2–4 States for the selected license'},
-  {k:'phase', icon:'layers', t:'Stage comparison', d:'One process stage, across every State (selected license)'},
-  {k:'pain', icon:'alert', t:'Pain points', d:'Every pain point recorded, by license and State/UT'},
-  {k:'best', icon:'award', t:'Good practices & reform ideas', d:'Flagged in the real record, across all licenses'},
-  {k:'reconcile', icon:'scale', t:'Flagged inconsistencies', d:'Where a report contradicts itself'},
-  {k:'gaps', icon:'flask', t:'Data gaps', d:'What is missing or too vague to use — by license'},
-  {k:'method', icon:'book', t:'Method & data quality', d:'Taxonomy, sources, scope, open gaps'}
+  {k:'start', ch:'start', icon:'book', t:'Start here', d:'What this is, and how to read it'},
+  {k:'overview', ch:'picture', icon:'grid', t:'National overview', d:'Who we covered, and the headline numbers'},
+  {k:'pain', ch:'picture', icon:'alert', t:'What businesses struggle with', d:'Every pain point recorded, by licence and State'},
+  {k:'best', ch:'picture', icon:'award', t:'What works, and what to fix', d:'Good practice and reform ideas from the record'},
+  {k:'compare', ch:'compare', icon:'columns', t:'Two States side by side', d:'Line up 2–4 States, stage by stage'},
+  {k:'equiv', ch:'compare', icon:'layers', t:'Is a "step" the same everywhere?', d:'Where one State’s single step equals several elsewhere'},
+  {k:'phase', ch:'compare', icon:'layers', t:'One stage, every State', d:'How each State handles a single stage'},
+  {k:'state', ch:'deep', icon:'user', t:'State profile', d:'Everything on file for one State'},
+  {k:'reconcile', ch:'evidence', icon:'scale', t:'Where sources disagree', d:'Official record vs business experience vs published rules'},
+  {k:'gaps', ch:'evidence', icon:'flask', t:'What we still don’t know', d:'Facts missing or too vague to use'},
+  {k:'method', ch:'evidence', icon:'book', t:'Method & sources', d:'Where every number comes from'}
 ];
 function buildNav(){
-  document.getElementById('railnav').innerHTML = NAV.map(n=>
-    `<button class="navbtn" data-view="${n.k}" onclick="goView('${n.k}')">${icon(n.icon)}<span><span class="t">${esc(n.t)}</span><span class="d">${esc(n.d)}</span></span></button>`
-  ).join('');
-  document.getElementById('railfoot').innerHTML = `<b>Scope</b><br>${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licenses · ${esc(AGG.totalLicenses)} license records (ED + FGD)<br>Secondary (web) research on hold for this pass<br><br><b>This file</b><br>Single self-contained HTML, no server, no database — open it, email it, host it anywhere.`;
+  let h = '';
+  CHAPTERS.forEach(c=>{
+    const items = NAV.filter(n=>n.ch===c.id);
+    if(!items.length) return;
+    if(c.name) h += `<div class="navgrp">${esc(c.name)}</div>`;
+    h += items.map(n=>`<button class="navbtn" data-view="${n.k}" onclick="goView('${n.k}')">${icon(n.icon)}<span><span class="t">${esc(n.t)}</span><span class="d">${esc(n.d)}</span></span></button>`).join('');
+  });
+  document.getElementById('railnav').innerHTML = h;
+  const secN = AGG.secondaryStates || 0;
+  document.getElementById('railfoot').innerHTML = `<b>What's in here</b><br>${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licences · ${esc(AGG.totalLicenses)} records<br>Field data (ED + FGD)${secN?` · published rules checked for ${secN} States`:''}<br><br><b>This file</b><br>One self-contained HTML file. No server, no login — open it, email it, host it anywhere.`;
 }
 function goView(v){ F.view=v; render(); }
 function goState(code){ F.state=code; F.license=null; F.view='state'; render(); }
@@ -515,12 +603,169 @@ function buildFilters(){
   } else if(F.view==='phase'){
     bar.innerHTML = `<div class="fld"><label>Process stage</label><select id="selPhase">${STAGES.map(p=>`<option value="${p.k}" ${F.phase===p.k?'selected':''}>${esc(p.n)}</option>`).join('')}</select></div>`;
     document.getElementById('selPhase').onchange = e=>{ F.phase=e.target.value; render(); };
+  } else if(F.view==='start'){
+    bar.innerHTML = `<div class="fld"><label>You are looking at</label><select disabled><option>Cost of Regulation — field data from ${esc(AGG.totalStates)} States/UTs</option></select></div>`;
   } else {
-    bar.innerHTML = `<div class="fld"><label>Dataset</label><select disabled><option>${esc(AGG.totalLicenses)} license records · ${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licenses</option></select></div>`;
+    bar.innerHTML = `<div class="fld"><label>Dataset</label><select disabled><option>${esc(AGG.totalLicenses)} licence records · ${esc(AGG.totalStates)} States/UTs · ${esc(AGG.totalServices)} licences</option></select></div>`;
   }
 }
 
 /* ========================= VIEWS ========================= */
+
+function renderStart(){
+  const eq = STEP_EQUIV.FAL;
+  const inc = AGG.inconsistencies.length;
+  let h = `<div class="hero">
+    <div class="eyebrow">Start here · how to read this dashboard</div>
+    <h1>What it actually takes a business to get a licence in India — <em>and where the paperwork differs by State</em></h1>
+    <p>The Cost of Regulation programme, run by the Quality Council of India for DPIIT, measures the time, money and effort a business spends on regulatory approvals. This dashboard brings together what the officials who issue those licences told us, what businesses who went through the process told us, and — where we could verify it — what the published rules actually say.</p>
+  </div>`;
+
+  h += `<div class="grid g4" style="margin-bottom:18px">
+    ${kpiIcon('acc-primary','grid','States & UTs covered', AGG.totalStates+' / '+STATE_UNIVERSE.length, 'with at least one licence on file')}
+    ${kpiIcon('acc-primary','book','Licence records', String(AGG.totalLicenses), AGG.totalFindings.toLocaleString()+' findings from the field')}
+    ${kpiIcon('acc-violet','user','Businesses quoted', AGG.totalQuotes.toLocaleString(), 'in their own words, from focus groups')}
+    ${kpiIcon('acc-danger','scale','Where sources disagree', String(inc), 'official account vs. what businesses report')}
+  </div>`;
+
+  h += `<h3 style="font-size:17px;font-weight:800;margin:0 0 12px">How this dashboard is organised</h3>
+  <div class="startgrid">
+    <div class="startcard"><h4>The big picture</h4><p>The national view: who we covered, what businesses struggle with most, and what is already working somewhere.</p><ul>
+      <li onclick="goView('overview')">National overview</li><li onclick="goView('pain')">What businesses struggle with</li><li onclick="goView('best')">What works, and what to fix</li></ul></div>
+    <div class="startcard"><h4>Compare States</h4><p>Put States next to each other for the same licence — including whether a "step" even means the same thing in each one.</p><ul>
+      <li onclick="goView('compare')">Two States side by side</li><li onclick="goView('equiv')">Is a "step" the same everywhere?</li><li onclick="goView('phase')">One stage, every State</li></ul></div>
+    <div class="startcard"><h4>One State in depth</h4><p>A single page carrying everything on file for one State: the process, the numbers, the findings and the quotes.</p><ul>
+      <li onclick="goView('state')">State profile</li></ul></div>
+    <div class="startcard"><h4>Evidence &amp; method</h4><p>The honest part: where our sources disagree, what we still don't know, and where every number came from.</p><ul>
+      <li onclick="goView('reconcile')">Where sources disagree</li><li onclick="goView('gaps')">What we still don't know</li><li onclick="goView('method')">Method &amp; sources</li></ul></div>
+  </div>`;
+
+  h += `<h3 style="font-size:17px;font-weight:800;margin:22px 0 12px">Three things to know before you start</h3>
+  <div class="grid g3" style="margin-bottom:18px">
+    <div class="card"><div class="card-b"><div style="font-weight:800;font-size:13px;margin-bottom:7px">1 · Every fact is tagged with where it came from</div>
+      <div style="font-size:12.5px;color:var(--muted);line-height:1.65">You will see <span class="ftag src-ed" style="display:inline">ED</span> for what the issuing official said, <span class="ftag src-fgd" style="display:inline">FGD</span> for what businesses said, and <span class="ftag src-secondary" style="display:inline">RULES</span> where we checked the published regulation. Nothing in here is an estimate.</div></div></div>
+    <div class="card"><div class="card-b"><div style="font-weight:800;font-size:13px;margin-bottom:7px">2 · Gaps are shown, not filled in</div>
+      <div style="font-size:12.5px;color:var(--muted);line-height:1.65">Where a source never stated a fact, we say so instead of guessing. "Not recorded" and "we checked and it disagrees" are deliberately different things throughout.</div></div></div>
+    <div class="card"><div class="card-b"><div style="font-weight:800;font-size:13px;margin-bottom:7px">3 · A "step" is not the same in every State</div>
+      <div style="font-size:12.5px;color:var(--muted);line-height:1.65">One State's single step can be two or three elsewhere. ${eq?`We mapped this properly for Factory Licence across ${Object.keys(eq.stateMappings).length} States — <span style="color:var(--primary);font-weight:700;cursor:pointer" onclick="goView('equiv')">see how</span>.`:''}</div></div></div>
+  </div>`;
+  return h;
+}
+
+/* ---- Third source lane: checking the field record against the published rules ---- */
+const VERDICT_META = {
+  confirmed:    {label:'Rules agree',        icon:'check', blurb:'the published rule says the same thing'},
+  contradicted: {label:'Rules disagree',     icon:'alert', blurb:'the published rule says something different'},
+  fills_gap:    {label:'Rules fill the gap', icon:'book',  blurb:'the field record never stated this; the rule does'},
+  not_found:    {label:'Could not check',    icon:'dash',  blurb:'no official source addressing this point was reachable'}
+};
+const CHECK_LABEL = {timeline:'Timeline', fees:'Fees', deemedApproval:'Deemed approval', documents:'Documents required', steps:'Process & steps', validity:'Licence validity'};
+
+function renderVerification(lic){
+  if(!lic.secondary){
+    return `<div class="howto" style="margin-bottom:16px"><b>Not yet checked against published rules.</b> This record rests on the field interviews alone — we have not verified it against an official published source. That is a gap, not a verdict: see Method &amp; sources for which States have been checked.</div>`;
+  }
+  const s = lic.secondary;
+  const counts = {};
+  s.checks.forEach(c=>{ counts[c.verdict]=(counts[c.verdict]||0)+1; });
+  const order = ['contradicted','fills_gap','confirmed','not_found'];
+  const SUMMARY_LABEL = {
+    contradicted: n=>`${n} disagree${n===1?'s':''} with the rules`,
+    fills_gap:    n=>`${n} gap${n===1?'':'s'} filled by the rules`,
+    confirmed:    n=>`${n} confirmed by the rules`,
+    not_found:    n=>`${n} could not be checked`
+  };
+  const summary = order.filter(v=>counts[v]).map(v=>`<span class="vmark v-${v}">${icon(VERDICT_META[v].icon)}${esc(SUMMARY_LABEL[v](counts[v]))}</span>`).join(' ');
+
+  let h = `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>${icon('scale')}Checked against the published rules</h3><span class="note">${s.checks.length} fact${s.checks.length===1?'':'s'} checked · ${(s.sourcesRead||[]).length} official source${(s.sourcesRead||[]).length===1?'':'s'} read</span></div><div class="card-b">
+    <div class="howto"><b>How to read:</b> the field interviews are what officials and businesses told us. This card is a separate, independent check of those claims against the State's own published rules and notifications. Where they disagree, both versions are shown — we do not pick a winner.</div>
+    <div style="display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px">${summary}</div>`;
+
+  s.checks.forEach(c=>{
+    const m = VERDICT_META[c.verdict] || VERDICT_META.not_found;
+    const gist = c.verdict==='not_found'
+      ? 'No official source addressing this was reachable.'
+      : (c.verdict==='fills_gap' ? 'The field record did not state this. The published rule does.' : m.blurb.charAt(0).toUpperCase()+m.blurb.slice(1)+'.');
+    h += `<details class="vdet"><summary>
+        <span class="vmark v-${c.verdict}">${icon(m.icon)}${esc(m.label)}</span>
+        <span class="vk">${esc(CHECK_LABEL[c.key]||c.key)}</span>
+        <span class="vg">${esc(gist)}</span>
+        <span class="vmore">detail</span>
+      </summary>
+      <div class="vbody">
+        <div class="gi-text"><b style="color:var(--ink)">What the field record says:</b> ${esc(c.primaryClaim||'—')}</div>
+        ${c.sourceSays?`<div class="gi-text" style="margin-top:7px"><b style="color:var(--ink)">What the published rule says:</b> ${esc(c.sourceSays)}</div>`:''}
+        ${c.citation?`<div style="margin-top:9px"><a class="chip-sm link" href="${esc(c.citation.url)}" target="_blank" rel="noopener">${icon('link')} ${esc((c.citation.title||c.citation.url).slice(0,95))}</a>${c.citation.transport==='http'?`<span class="ftag" style="margin-left:6px" title="Fetched over plain http — content is from the official host but the connection was not transport-authenticated">http only</span>`:''}</div>`:''}
+      </div></details>`;
+  });
+
+  if(s.remarks && s.remarks.length){
+    h += `<details class="vdet" style="margin-top:10px"><summary><span class="vmark v-not_found">${icon('alert')}Caveats</span><span class="vg">${s.remarks.length} note${s.remarks.length===1?'':'s'} a reviewer should read</span><span class="vmore">detail</span></summary>
+      <div class="vbody"><ul style="margin:0;padding-left:17px">${s.remarks.map(r=>`<li style="font-size:12.5px;color:var(--muted);line-height:1.6;margin-bottom:6px">${esc(r)}</li>`).join('')}</ul></div></details>`;
+  }
+  h += `</div></div>`;
+  return h;
+}
+
+/* ---- Step equivalence: the "is a step the same everywhere?" page ---- */
+function renderEquiv(){
+  const svc = STEP_EQUIV[F.service] ? F.service : (STEP_EQUIV.FAL ? 'FAL' : null);
+  let h = `<div class="crumb">Compare States · step equivalence</div>`;
+  if(!svc){
+    return h + `<div class="pagelede">Step equivalence has not been mapped for this licence yet</div>
+      <div class="pagesub">This analysis currently exists for Factory Licence only. Pick that licence in the sidebar to see it.</div>`;
+  }
+  const d = STEP_EQUIV[svc];
+  const codes = Object.keys(d.stateMappings);
+  const rows = codes.map(c=>{
+    const m = d.stateMappings[c];
+    return {code:c, name:(ST_BY_CODE[c]?ST_BY_CODE[c].name:c), raw:m.rawStepCount, cmp:m.canonicalSubStageCount, hasED:m.hasED, diff:m.canonicalSubStageCount-m.rawStepCount};
+  });
+  const bundlers = rows.filter(r=>r.diff>0).sort((a,b)=>b.diff-a.diff);
+  const splitters = rows.filter(r=>r.diff<0).sort((a,b)=>a.diff-b.diff);
+  const maxv = Math.max(...rows.map(r=>Math.max(r.raw,r.cmp)));
+
+  h += `<div class="pagelede">A "step" does not mean the same thing in every State — ${bundlers.length} of ${rows.length} States bundle several things into one step</div>
+    <div class="pagesub">Counting steps is the most natural way to compare how heavy a process is. It is also misleading: one State may write "upload documents and pay the fee" as a single step where another writes three. This page recounts every State's process against one shared checklist of ${d.canonicalSubStages.length} things that actually have to happen, so the comparison is fair.</div>`;
+
+  const topB = bundlers[0], topS = splitters[0];
+  h += `<div class="takeaway"><div class="tk-h">What this shows</div><div class="tk-b"><ol>
+    <li><b>${bundlers.length}</b> of ${rows.length} States describe fewer steps than they actually perform — their process looks leaner on paper than it is.</li>
+    ${topB?`<li>The widest gap is <b>${esc(topB.name)}</b>: <b>${topB.raw}</b> steps on paper, but <b>${topB.cmp}</b> distinct things actually happen.</li>`:''}
+    ${topS?`<li><b>${esc(topS.name)}</b> goes the other way — <b>${topS.raw}</b> listed steps covering only <b>${topS.cmp}</b> distinct stages, i.e. the same stage split across several steps.</li>`:''}
+  </ol></div></div>`;
+
+  h += `<div class="card" style="margin-bottom:18px"><div class="card-h"><h3>Steps on paper vs. things that actually happen</h3><span class="note">${esc(SVC_BY_CODE[svc]?SVC_BY_CODE[svc].name:svc)} · ${rows.length} States</span></div><div class="card-b">
+    <div class="howto"><b>How to read:</b> the grey bar is how many steps the State's own record lists. The blue bar is how many distinct stages of the shared checklist it actually covers. Where blue is longer, the State is packing more than one thing into a step.</div>
+    <div class="eqbars">`+
+    rows.slice().sort((a,b)=>b.diff-a.diff || b.cmp-a.cmp).map(r=>`<div class="eqrow">
+      <div class="nm" onclick="goStateService('${r.code}','${svc}')">${esc(r.name)}</div>
+      <div class="eqtrack">
+        <div class="eqbar raw" style="width:${Math.max(r.raw/maxv*100,7)}%">${r.raw} listed</div>
+        <div class="eqbar cmp" style="width:${Math.max(r.cmp/maxv*100,7)}%">${r.cmp} actual</div>
+      </div>
+      <div class="vs">${r.cmp>r.raw?'<b>+'+(r.cmp-r.raw)+'</b> hidden':r.cmp<r.raw?'<b>'+(r.raw-r.cmp)+'</b> overlapping':'matches'}</div>
+    </div>`).join('')+
+    `</div></div></div>`;
+
+  h += `<div class="card"><div class="card-h"><h3>Which States bundle, and which split</h3><span class="note">${d.canonicalSubStages.length} shared stages</span></div><div class="card-b" style="overflow-x:auto">
+    <div class="howto"><b>How to read:</b> each row is one thing that has to happen to get the licence. Each column is a State. The number is how many separate steps that State uses for it — <b>0</b> means that State never records it at all, <b>2</b> or <b>3</b> means it is split across multiple steps.</div>
+    <table class="eqgrid"><thead><tr><th class="corner">What has to happen</th>`+
+    codes.map(c=>`<th>${esc((ST_BY_CODE[c]?ST_BY_CODE[c].name:c).slice(0,22))}</th>`).join('')+
+    `</tr></thead><tbody>`+
+    d.canonicalSubStages.map(ss=>{
+      return `<tr><td class="sub">${esc(ss.label.length>74?ss.label.slice(0,72)+'…':ss.label)}</td>`+
+        codes.map(c=>{
+          const m = d.stateMappings[c];
+          const n = m.mappings.filter(x=>x.subStages.includes(ss.code)).length;
+          return `<td class="c n${Math.min(n,3)}" title="${esc(ST_BY_CODE[c]?ST_BY_CODE[c].name:c)} — ${n} step${n===1?'':'s'}">${n||'·'}</td>`;
+        }).join('')+'</tr>';
+    }).join('')+
+    `</tbody></table>
+    <div class="eqlegend"><span><span class="sw" style="background:#fff"></span>Never recorded</span><span><span class="sw" style="background:var(--primary-light)"></span>One step</span><span><span class="sw" style="background:#A5B4FC"></span>Two steps</span><span><span class="sw" style="background:var(--primary)"></span>Three or more</span></div>
+    </div></div>`;
+  return h;
+}
 
 function renderOverview(){
   const q = F.search.trim().toLowerCase();
@@ -621,6 +866,8 @@ function renderState(){
   if(lic.timeline && lic.timeline.text){
     h += `<div class="lede" style="margin:-10px 0 16px;font-size:12.5px"><b style="color:var(--ink)">Timeline, in full:</b> ${esc(lic.timeline.text)}</div>`;
   }
+
+  h += renderVerification(lic);
 
   if(lic.steps.length){
     const seByStep = {}; if(se) se.mappings.forEach(m=>{ seByStep[m.stepN]=m; });
@@ -864,8 +1111,15 @@ function renderMethod(){
   let h = `<div class="pagehead"><div><h2>${icon('book')}Method &amp; data quality</h2><div class="lede">What this dashboard is built from, how findings are tagged, and what is honestly not yet known.</div></div></div>`;
 
   h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Current scope</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">
-    <p>This pass covers <b style="color:var(--ink)">${AGG.totalLicenses} license records</b> — ${AGG.totalStates} States/UTs × up to ${AGG.totalServices} license types — built from the real Expert Discussion (ED, official-side) transcript and/or Focused Group Discussion (FGD, business-owner experience) transcript for each State/license pair. <b style="color:var(--ink)">${AGG.licensesWithFGD} of these license records now include FGD-sourced findings and quotes</b>: where an ED record already existed, FGD findings, quotes and any genuine ED-vs-FGD contradictions are layered onto it without altering the ED's own structured facts (timeline, fees, steps, etc.); where no ED existed for that State/license, a best-effort record is built entirely from FGD testimony and marked as FGD-only, unverified against an official source. <b style="color:var(--ink)">Secondary (web) research is on hold</b> for this expanded scope: it existed for the original Factory License pilot (11 States) and will be re-layered in, state by state and license by license, as that work resumes.</p>
-    <p>Every finding carries an explicit source tag (<span class="ftag src-ed" style="display:inline">ED</span> or <span class="ftag src-fgd" style="display:inline">FGD</span>). Gap flags are <code>MISSING</code>, <code>VAGUE</code>, <code>GOOD_PRACTICE</code>, <code>REFORM</code>, and <code>INCONSISTENT</code> — the last covers both a report genuinely contradicting itself (e.g. two different fee figures in the same document) and a genuine factual contradiction between what an official said in the ED and what businesses reported in the FGD, with both sides quoted or closely paraphrased. A difference in tone or emphasis alone is never flagged as inconsistent.</p>
+    <p><b style="color:var(--ink)">There are three sources behind this dashboard, and they are never mixed.</b></p>
+    <ol style="margin:0 0 10px;padding-left:19px">
+      <li style="margin-bottom:7px"><b style="color:var(--ink)">Expert Discussions (<span class="ftag src-ed" style="display:inline">ED</span>)</b> — structured field interviews with the official who issues the licence in that State. This is the authoritative account of the process as the department runs it.</li>
+      <li style="margin-bottom:7px"><b style="color:var(--ink)">Focused Group Discussions (<span class="ftag src-fgd" style="display:inline">FGD</span>)</b> — field sessions with business owners who went through that exact process, in their own words. This is the only source that captures lived experience rather than stated procedure.</li>
+      <li><b style="color:var(--ink)">Published rules (<span class="ftag src-secondary" style="display:inline">RULES</span>)</b> — an independent desk check of specific claims against the State's own gazette notifications, rules and official portals, each with the exact URL we fetched. This lane was added after the field phase closed, because gaps in the field record can no longer be resolved by going back to the field.</li>
+    </ol>
+    <p>The field phase covered <b style="color:var(--ink)">${AGG.totalLicenses} licence records</b> across ${AGG.totalStates} States/UTs and up to ${AGG.totalServices} licence types; ${AGG.licensesWithFGD} of them carry FGD evidence. Where both ED and FGD exist, FGD findings and quotes are layered onto the ED record without altering the ED's own structured facts; where only FGD exists, the record is built from business testimony and marked as unverified against an official source.</p>
+    ${AGG.secondaryStates?`<p>The published-rules lane currently covers <b style="color:var(--ink)">${AGG.secondaryStates} licence record${AGG.secondaryStates===1?'':'s'}</b> (${AGG.secondaryChecks} individual facts checked). It is deliberately narrow: it is a verification layer on specific facts, not a parallel dataset. A record with no rules check is shown as <i>not yet checked</i> — which is never the same as <i>checked and found wrong</i>.</p>`:''}
+    <p>Gap flags are <code>MISSING</code>, <code>VAGUE</code>, <code>GOOD_PRACTICE</code>, <code>REFORM</code>, and <code>INCONSISTENT</code> — the last covers both a report contradicting itself and a genuine factual contradiction between sources, with both sides quoted. A difference in tone or emphasis alone is never flagged as inconsistent.</p>
   </div></div>`;
 
   h += `<div class="card" style="margin-bottom:16px"><div class="card-h"><h3>Tagging taxonomy</h3></div><div class="card-b" style="font-size:12.5px;color:var(--muted);line-height:1.7">
@@ -900,9 +1154,11 @@ function render(){
   document.querySelectorAll('.navbtn').forEach(b=>b.classList.toggle('on', b.dataset.view===F.view));
   buildFilters();
   const c = document.getElementById('canvas');
-  if(F.view==='overview') c.innerHTML = renderOverview();
+  if(F.view==='start') c.innerHTML = renderStart();
+  else if(F.view==='overview') c.innerHTML = renderOverview();
   else if(F.view==='state') c.innerHTML = renderState();
   else if(F.view==='compare') c.innerHTML = renderCompare();
+  else if(F.view==='equiv') c.innerHTML = renderEquiv();
   else if(F.view==='phase') c.innerHTML = renderPhase();
   else if(F.view==='pain') c.innerHTML = renderPain();
   else if(F.view==='best') c.innerHTML = renderBest();

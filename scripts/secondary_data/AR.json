@@ -1,0 +1,81 @@
+{
+  "state": "AR",
+  "serviceCode": "FAL",
+  "validatedAt": "2026-11-17",
+  "checks": [
+    {
+      "key": "timeline",
+      "primaryClaim": "10 to 12 days from submission to decision, per the ED record (basis explicitly recorded as 'Expert's own estimate for new online applications from submission to decision')",
+      "verdict": "contradicted",
+      "sourceSays": "The EoDB Single Window Portal's own service record for 'Application For Registration And Grant Of Factory Licence And Notice Of Occupation' (service_id 13, Department Of Industries, last updated 2024-10-09) states: 'Timeline of Service:- 15 Days'. The same record carries the portal's performance fields '\"average_time\":\"7\",\"median_time\":\"6\",\"minimum_time\":\"1\",\"maximum_time\":\"15\"'. The notified service timeline is therefore 15 days, not 10-12; the portal's own recorded average (7 days) and median (6 days) are in turn faster than the ED's 10-12 day estimate, so neither official figure matches the ED number.",
+      "citation": {
+        "title": "Requirements for Registration and Grant of Factory Licence and Notice of Occupation — EoDB Single Window Portal service record (serviceId=13), Department Of Industries",
+        "url": "https://eodb.arunachal.gov.in/Home/getRequirementDataFromModal",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "fees",
+      "primaryClaim": "Fees are set under the Arunachal Pradesh Factories Rules 2012 (Schedules A, B and C), based on the number of workers employed and the power load installed; auto-calculated by the portal; only a nominal registration fee with no additional costs",
+      "verdict": "confirmed",
+      "sourceSays": "'(2) The fees payable for the registration and grant of license to a factory shall be as specified in the Schedule A, B & C given herein after.' SCHEDULE-A: 'Fees for the grant of Licences and Annual Renewal of Licences for all Factories (Except Power Generating Stations and Electrical Sub-Stations)', a matrix of 'Total Power Installed (Max. H.P. capacity)' (rows: Nil, Upto 10, Above 10 and upto 50, Above 50 and upto 100, Above 100 and upto 500, Above 500 and upto 1000, Above 1000) against 'Maximum number of workers to be employed on any day during the year' (columns: Registered under Section 85 Upto 9 workers, 10 to 20, 21 to 50, 51 to 100, 101 to 200, 201 to 500, 501 to 1000, Above 1000), with fees ranging from Rs. 500 to Rs. 45000. SCHEDULE-B is 'Fees payable for grant of Licences and Annual Renewal of Licences for Electricity Generating Station only' (by installed capacity in KW) and SCHEDULE-C 'for Electricity transforming and transmitting station or Sub-station only' (by installed transformer capacity in KVA). The portal's own Factory Licence service record links to this exact PDF under 'Required Fee:-' and states 'Mode of Payment:- Online'.",
+      "citation": {
+        "title": "Fees for the grant of Licences and Annual Renewal of Licences for all Factories — Schedules A, B & C, The Arunachal Pradesh Extraordinary Gazette, March 6, 2012 (Factories Rules, 2012 notification)",
+        "url": "https://eodb.arunachal.gov.in/uploads/notifications_and_orders_documents/dc8a0bb46956c0cf4df7d44e4505c4ca.pdf",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "deemedApproval",
+      "primaryClaim": "Deemed approval status YES but with NO day count given (ED gap flagged MISSING: 'No exact deemed-approval day threshold is given — only described as rarely if ever triggered')",
+      "verdict": "fills_gap",
+      "sourceSays": "The Arunachal Pradesh Ease of Doing Business Act, 2021, section 9(3): 'If the designated officer does not communicate the approval or rejection of application within a stipulated time, the application shall be considered as deemed approval. This shall be done automatically by SWP.' The Act fixes no number itself; section 9(1) ties the clock to 'the stipulated time as notified for the service under the APRTPS Act, 2016' and section 7 ('Right to Single Window Service') states: 'Every applicant shall have the right to avail services listed by the SWCA within the time notified by Government under relevant provisions of the Arunachal Pradesh Right to Public Services Act (APRTPS Act), 2016.' The stipulated time notified on the SWP for this specific service is 15 days ('Timeline of Service:- 15 Days', EoDB portal service record serviceId=13), so deemed approval on this service attaches after the 15-day service timeline. Section 10 adds: 'The SWCA shall ensure that every Designated Officer who fails to deliver a notified service or communicate reasons of rejection to the concerned applicant within the stipulated time, shall be penalised by way of mandatory payment of compensation at such rates as may be prescribed by notification.'",
+      "citation": {
+        "title": "THE ARUNACHAL PRADESH EASE OF DOING BUSINESS ACT, 2021 (ACT NO. 5 OF 2021), The Arunachal Pradesh Gazette Extraordinary No. 110, Vol. XXVIII, April 27, 2021 — sections 7, 9 and 10",
+        "url": "https://eodb.arunachal.gov.in/uploads/notifications_and_orders_documents/4e1b1fcf71af2096a88e755a2eb47fdb.pdf",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "documents",
+      "primaryClaim": "Form 6 plus 'all 14 required documents'; only five individually named in the ED (Form 6, factory layout, factory site plan, DPR, pollution control certificate/licence), the rest referred to collectively",
+      "verdict": "fills_gap",
+      "sourceSays": "The EoDB portal's Factory Licence service record gives the full checklist: 'Required Documents to avail the service (Upload scanned copies of the original documents) :- 1. UBIN (Unique Business Idenification Number) * 2. Site Plan * 3. Factory Layout * 4. NOC from DC/ADC/EAC/CO/HGB * 5. Process flow chart signed by occupier * 6. Detail project Report (DPR) * 7. Proof of Occupier like PAN/Voter ID/Driving Licence etc * 8. Proof of Manager like PAN/Voter ID/Driving Licence etc * 9. Proof of factory location - UDAYAM Registration * 10. Electricity bill of Factory * 11. Land allotment/ LPC photocopy * 12. NOC from APSPCB (Arunachal Pradesh State Pollution Control Board) * 13. Partnership deed in case of a partnership firm * 14. Any other NOC/Permit from concerned Department * 15. Articles of Association in case of a company along with list of directors/shareholders *' (every item marked with the red asterisk the page uses for mandatory). Fifteen items are listed, of which the first is the UBIN identifier rather than an uploaded document — leaving exactly 14 document uploads, matching the ED's '14 documents'. All four ED-named uploads appear in the list (Site Plan, Factory Layout, DPR, NOC from APSPCB = the pollution control requirement); Form 6 is the application form itself and is not in the upload list.",
+      "citation": {
+        "title": "Requirements for Registration and Grant of Factory Licence and Notice of Occupation — EoDB Single Window Portal service record (serviceId=13), Department Of Industries",
+        "url": "https://eodb.arunachal.gov.in/Home/getRequirementDataFromModal",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "steps",
+      "primaryClaim": "New factory registration is entirely online through the EoDB/Single Window portal with no applicant office visit (applicantOfficeVisit 'no'), online fee payment, and a mandatory physical site inspection before approval by the Chief Inspector of Factories",
+      "verdict": "confirmed",
+      "sourceSays": "Government of Arunachal Pradesh, Department of Finance, Planning & Investment Notification No. PD(Investment)-08/2019-2020 dated 18 January 2021 (effective 31 January 2021): '2. The portal provides the facility for online application submission, payment, tracking and downloading the final signed certificate/ license/ document issued by the concerned Authority. No physical/manual application in addition to the online application shall be required for the notified services. 3. No physical copies of the uploaded documents will be required to be submitted. ... 5. There will be no requirement of any physical touch points between the Applicant and the Department from the time of application till the final decision except in case where inspection/ site visit is required under relevant Acts/ Rules. Applicant need not be physically present for submission/ verification of documents. 6. All clarifications/queries related to applications submitted through the online portal shall be sought with 15 working days of receiving the application by the concerned authority.' This is matched by the EoDB Act, 2021 section 8 ('The applicant seeking any clearance shall register through the SWP. For the purpose and of registration, applicant shall be given a unique ID; ... The application complete in all respects shall be submitted with the prescribed fees, online through the SWP; The applicants can monitor the status of their applications online through the SWP') and section 4 ('The SWCA shall ensure that there is no physical interface between applicant and concerned officers for delivery of the services'), and by the portal service record's 'Mode of Payment:- Online'.",
+      "citation": {
+        "title": "GoAP Notification (Super Order on EoDB) No. PD(Investment)-08/2019-2020, Department of Finance, Planning & Investment, dated Itanagar the 18th January 2021",
+        "url": "https://eodb.arunachal.gov.in/uploads/notifications_and_orders_documents/888297256042754c76daaccf2a4e4627.pdf",
+        "transport": "https"
+      }
+    }
+  ],
+  "sourcesRead": [
+    "https://eodb.arunachal.gov.in/active-services",
+    "https://eodb.arunachal.gov.in/assets/js/home/services.js",
+    "https://eodb.arunachal.gov.in/Home/getRequirementDataFromModal",
+    "https://eodb.arunachal.gov.in/uploads/notifications_and_orders_documents/dc8a0bb46956c0cf4df7d44e4505c4ca.pdf",
+    "https://eodb.arunachal.gov.in/uploads/notifications_and_orders_documents/4e1b1fcf71af2096a88e755a2eb47fdb.pdf",
+    "https://eodb.arunachal.gov.in/uploads/notifications_and_orders_documents/888297256042754c76daaccf2a4e4627.pdf"
+  ],
+  "remarks": [
+    "The single most useful source this session was the EoDB portal's own 'Requirements' data for the Factory Licence service, which the active-services page loads through a JS modal. The previous source-list pass could not retrieve it with a plain GET; it is served by a normal unauthenticated POST to https://eodb.arunachal.gov.in/Home/getRequirementDataFromModal with body 'serviceId=13' (the id hard-coded in the page's own onclick, with the endpoint defined in https://eodb.arunachal.gov.in/assets/js/home/services.js). No user-agent spoofing or WAF workaround was involved. Because the URL is a POST endpoint rather than a browsable page, a reviewer re-checking it must send that POST body; the equivalent human route is the 'Requirements' button next to the Factory Licence service on https://eodb.arunachal.gov.in/active-services.",
+    "The 15-day deemed-approval figure is NOT stated as such in any single document. It is the combination of two fetched official sources: the EoDB Act 2021 s.9(3) (deemed approval triggers automatically once the 'stipulated time' passes, with the stipulated time being whatever is notified for the service) and the portal's own notified 'Timeline of Service:- 15 Days' for this service. A per-service notification under the APRTPS Act, 2016 stating the factory-licence time limit directly could not be located on any reachable .gov.in source this session.",
+    "The timeline verdict is recorded as 'contradicted' on the number, but the substance is not adverse to the ED: the notified limit (15 days) is longer than the ED's 10-12 day estimate, and the portal's own recorded average/median disposal times (7 and 6 days) are shorter than it. The ED's figure was explicitly an expert estimate of actual performance, not a claim about the statutory limit, so the contradiction is between the ED number and the official notified number, not evidence of the department overstating its speed.",
+    "The ED records renewal of factory licences as 'entirely offline' due to manpower shortage. The portal contradicts this on paper: 'Application For Renewal Of Registration And Grant Of Factory Licence And Notice Of Occupation' is listed as a live service under Department Of Industries on https://eodb.arunachal.gov.in/active-services with its own Apply link, a five-document checklist, 'Mode of Payment:- Online' and 'Timeline of Service:- 15 Days' (serviceId=14, record last updated 2023-07-06). Notably its performance fields are all zero ('average_time':'0','median_time':'0','minimum_time':'0','maximum_time':'0'), which is consistent with the ED's account that no renewal is in fact processed through the portal. This is a listed-but-unused service, not a verified online renewal channel.",
+    "Schedules A, B and C are all headed 'grant of Licences and Annual Renewal of Licences', i.e. the 2012 fee schedule is framed as an annual renewal fee. The ED records licence validity as 3 years with 3-year renewal. These were not reconciled by any source fetched this session; a reviewer should treat the validity period as unverified.",
+    "The ED finding that there is 'no built-in grievance-redressal mechanism within the portal' concerns portal functionality, but note that the EoDB Act 2021 Chapter III (ss. 11-13) does create a statutory Appellate Authority for applicants whose application is rejected or not served within the stipulated time, and s.10 provides for mandatory compensation by a defaulting Designated Officer. The legal remedy exists even if the portal does not surface it.",
+    "The fee-schedule PDF is a scanned gazette page with no text layer; it was read by rendering all three pages to images at 170 dpi. The EoDB Act 2021 and the Super Order PDFs are likewise image-only and were read the same way at 150 dpi. Quotations above are transcribed from those page images.",
+    "The EoDB Act PDF fetch failed once mid-transfer ('Recv failure: Connection reset by peer') and succeeded on retry; the host is intermittently flaky but no transport workaround was needed and all citations above are https.",
+    "One WebSearch was run for an APRTPS Act, 2016 per-service notification giving the factory-licence time limit. Nothing official and reachable was found (results were law aggregators, PRS, and other states' portals), so no non-government source was fetched or cited."
+  ]
+}

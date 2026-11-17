@@ -1,91 +1,101 @@
 {
   "state": "RJ",
   "serviceCode": "FAL",
-  "compiledAt": "2026-11-04",
+  "compiledAt": "2026-11-17",
   "verifiedSources": [
     {
       "portal": "NIC India Stack Local — Digital Solutions Directory (RajFAB entry)",
       "url": "https://negd.gov.in/isl/Directory/statedata/406",
       "whatItIs": "National e-Governance Division (MeitY/NIC) directory page describing Rajasthan's RajFAB web application, which the Factories & Boilers Inspection Department uses to provide registration, renewal, drawing approval, closure and return-filing services under the Factories Act 1948 and Boilers Act 1923, and naming the live portal URL (rajfab.rajasthan.gov.in) and the Chief Inspector of Factories and Boilers as contact",
       "verifiedBy": "curl HTTP 200 (102KB), pandoc text extraction confirmed genuine body text: 'RajFAB Web Application ... RAJASTHAN ... The department enforces the Factories Act, 1948 and the Boilers Act, 1923 ... Registration of factories, Factory Auto Renewal System, Map approval of factories, Factory Closure, Third Party Competent Person, Return submission ...' plus a named Chief Inspector contact",
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-17"
     },
     {
       "portal": "National Single Window System (NSWS)",
       "url": "https://nsws.gov.in/",
       "whatItIs": "Central Invest India / DPIIT single-window clearance portal home page, listing Central Approvals (e.g. PESO) and State Approvals by state including Rajasthan, through which state and central factory-related approvals can be initiated",
       "verifiedBy": "curl HTTP 200 (resolved to https://www.nsws.gov.in/, 590KB), pandoc text extraction confirmed real server-rendered navigation/content text: 'CENTRAL APPROVALS ... Issued by Ministries of Govt. of India', 'STATE APPROVALS ... Issued by States of Govt. of India' with a state list including Rajasthan, plus a working helpdesk contact block",
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-17"
     },
     {
       "portal": "CAG Audit Report — Factories and Boilers Inspection Department, Rajasthan",
       "url": "https://cag.gov.in/uploads/download_audit_report/2024/Part-I-Chapter-II-Compliance-Audit-067d01d57c3a772.43574243.pdf",
       "whatItIs": "Official Comptroller and Auditor General of India compliance-audit chapter on Rajasthan's Factories and Boilers Inspection Department: describes the department's 1971 founding, its 21 unit offices responsible for registration/renewal of factories under the Factories Act 1948, and the statutory penalty provisions (Section 92) that frame why a Factory License is required",
-      "verifiedBy": "curl HTTP 200 (6.6MB), `file` confirmed a valid 22-page PDF, `pdftotext` confirmed genuine audit text: 'Factories and Boilers Inspection Department ... was set-up in the year 1971 ... has 21 unit offices which are responsible for registration/renewal of factories ...'",
-      "checkedAt": "2026-11-04"
+      "verifiedBy": "curl HTTP 200 (6.6MB), `file` confirmed a valid 22-page PDF, re-downloaded and re-confirmed this session",
+      "checkedAt": "2026-11-17"
     }
   ],
   "excluded": [
     {
       "url": "https://rajfab.rajasthan.gov.in/",
-      "reason": "This is Rajasthan's actual factory-registration/license portal (per the NIC directory entry above), but curl could not connect — 'Recv failure: Connection reset by peer' / 'Connection timed out' on 4 separate attempts (including 3 retries with a 30s timeout) over this session; the agent-proxy log shows the tunnel closing mid-exchange each time, so content could not be independently verified"
+      "reason": "Rajasthan's actual factory-registration/license portal (per the NIC directory entry above) — re-tested 4 more times this session (including a verbose run) and curl still fails identically every time: TLS ClientHello sent, then 'Recv failure: Connection reset by peer' mid-handshake, after the CONNECT tunnel itself succeeds. Unchanged from the previous attempt."
     },
     {
       "url": "https://swcs.rajasthan.gov.in/",
-      "reason": "Rajasthan Single Window Clearance System (investor/incentive portal) — TLS handshake stalls and the connection resets (curl error 35) on every attempt, including a verbose retry that showed the TLS ClientHello sent but no ServerHello received within 15s before the tunnel reset"
+      "reason": "Rajasthan Single Window Clearance System — re-tested this session, same 'Recv failure: Connection reset by peer' as before. Unchanged."
     },
     {
       "url": "https://labour.rajasthan.gov.in/",
-      "reason": "Rajasthan Labour Department site — 'Recv failure: Connection reset by peer' on 4 separate attempts this session, including 3 retries at 30s timeout; no content was ever returned"
+      "reason": "Rajasthan Labour Department site — re-tested this session, same 'Recv failure: Connection reset by peer' as before. Unchanged."
     },
     {
       "url": "https://rpcb.rajasthan.gov.in/",
-      "reason": "Rajasthan Pollution Control Board (a prerequisite NOC/consent is commonly required before a factory license) — proxy reports 'CONNECT tunnel failed, response 502' every attempt; host unreachable this session"
+      "reason": "Rajasthan Pollution Control Board — re-tested this session, proxy still reports 'CONNECT tunnel failed, response 502'. Unchanged."
     },
     {
       "url": "https://egazette.rajasthan.gov.in/",
-      "reason": "Would be the authoritative source for the gazetted Rajasthan Factories Rules / amendment notifications — proxy reports 'CONNECT tunnel failed, response 502'; host unreachable this session"
+      "reason": "Authoritative source for gazetted Rajasthan Factories Rules/amendment notifications — re-tested this session, proxy still reports 'CONNECT tunnel failed, response 502'. Unchanged."
     },
     {
       "url": "https://bip.rajasthan.gov.in/",
-      "reason": "Bureau of Investment Promotion, Rajasthan — proxy reports 'CONNECT tunnel failed, response 502'; host unreachable this session"
+      "reason": "Bureau of Investment Promotion, Rajasthan — re-tested this session, proxy still reports 'CONNECT tunnel failed, response 502'. Unchanged."
     },
     {
       "url": "https://invest.rajasthan.gov.in/",
-      "reason": "Raj Nivesh / Invest Rajasthan investor facilitation portal — proxy reports 'CONNECT tunnel failed, response 502'; host unreachable this session"
+      "reason": "Raj Nivesh / Invest Rajasthan investor facilitation portal — re-tested this session, proxy still reports 'CONNECT tunnel failed, response 502'. Unchanged."
     },
     {
       "url": "https://rajasthan.gov.in/",
-      "reason": "Rajasthan state government home portal — one attempt returned HTTP 200 but the body was a generic security-gateway error page ('This page can't be displayed. Contact support for additional information. The incident ID is: N/A'), not real site content; all other attempts failed outright with a connection reset. Does not pass the 'content genuinely matches what was expected' check"
+      "reason": "Rajasthan state government home portal — re-tested this session, 'Recv failure: Connection reset by peer' (did not even return the earlier gateway-error 200 this time). Still fails."
     },
     {
       "url": "https://shramsuvidha.gov.in/ (and /home)",
-      "reason": "Central Shram Suvidha portal — a Labour Identification Number (LIN) from this portal is reportedly needed to use RajFAB — but curl returns 'Recv failure: Connection reset by peer' on every attempt (3 tries) this session"
+      "reason": "Central Shram Suvidha portal, from which a Labour Identification Number (LIN) is reportedly needed to use RajFAB — re-tested this session (not rajasthan.gov.in, so a plausible candidate for recovery), but still returns 'Recv failure: Connection reset by peer' on every attempt. Unchanged."
     },
     {
       "url": "https://www.indiacode.nic.in/handle/123456789/18755",
-      "reason": "Central IndiaCode copy of the Rajasthan Enterprises Single Window Enabling and Clearance Act, 2011 — request timed out twice with zero bytes received this session"
+      "reason": "Central IndiaCode copy of the Rajasthan Enterprises Single Window Enabling and Clearance Act, 2011 — re-tested this session with a longer 40s timeout; still times out with zero bytes received. Unchanged."
     },
     {
       "url": "https://services.india.gov.in/service/detail/application-for-renewal-of-license-of-factory-form-2-factories-act-1948",
-      "reason": "National Services Portal page for factory-license renewal (Form 2) — agent proxy reports 'connect_rejected' / CONNECT tunnel failed with 502; host not reachable this session"
+      "reason": "National Services Portal page for factory-license renewal (Form 2) — re-tested this session, proxy still reports 'CONNECT tunnel failed, response 502'. Unchanged."
     },
     {
       "url": "https://labour.gov.in/",
-      "reason": "Central Ministry of Labour & Employment home page — curl returns HTTP 200, but the response is an empty client-rendered Next.js application shell (script/CSS tags only, no server-rendered visible text), so it is not independently verifiable via this session's fetch method"
+      "reason": "Central Ministry of Labour & Employment home page — this one DID newly succeed at the network level this session (HTTP 200, 8.3KB, where it previously was also 200), but inspection confirms it is still an empty client-rendered Next.js application shell (only <script>/<link> tags, zero server-rendered visible text), so it remains not independently verifiable via this session's fetch method. No change in verifiability despite the network layer behaving normally."
     },
     {
       "url": "https://www.nsws.gov.in/portal/rajasthan",
-      "reason": "NSWS state-approvals page scoped to Rajasthan (the more specific, directly relevant NSWS URL) — curl returns HTTP 200 (11.9KB) but the body is an empty client-rendered React application shell with no server-rendered visible text, so it is not independently verifiable via this session's fetch method; the general nsws.gov.in home page was used instead since it does render real text server-side"
+      "reason": "NSWS state-approvals page scoped to Rajasthan — also newly returns HTTP 200 (11.9KB) this session (previously also 200), but it is still an empty client-rendered React application shell with no server-rendered visible text. The general nsws.gov.in home page is used instead since it does render real text server-side. No change in verifiability."
+    },
+    {
+      "url": "https://egazette.gov.in/",
+      "reason": "Central e-Gazette, tried this session as an alternative route to any central-level Rajasthan Factories Rules notification — curl fails with 'SSL certificate problem: unable to get local issuer certificate'. Not resolved by retry; excluded rather than bypassing certificate verification."
+    },
+    {
+      "url": "https://www.data.gov.in/",
+      "reason": "Tried this session as a possible alternate source for Rajasthan factory-licensing datasets — returned HTTP 503 (service unavailable), not usable."
     },
     {
       "url": "https://www.legalitysimplified.com/wp-content/uploads/2025/10/Rajasthan-Factories-Amendment-Rules-2025.pdf",
-      "reason": "A commercial compliance-advisory site appears to host a genuine copy of the Rajasthan Factories (Amendment) Rules, 2025 notification (dated 27 Oct 2025), but it is not a government domain, and the official source (Rajasthan e-Gazette / Factories & Boilers Inspection Department, both on rajasthan.gov.in) could not be reached this session to verify the notification directly, so it is excluded per the 'no non-government aggregator' rule rather than cited as a primary source"
+      "reason": "A commercial compliance-advisory site appears to host a genuine copy of the Rajasthan Factories (Amendment) Rules, 2025 notification (dated 27 Oct 2025), but it is not a government domain, and the official source (Rajasthan e-Gazette / Factories & Boilers Inspection Department, both on rajasthan.gov.in) still could not be reached this session to verify the notification directly, so it remains excluded per the 'no non-government aggregator' rule."
     }
   ],
   "remarks": [
-    "This session's outbound network could not establish a working TLS connection to any *.rajasthan.gov.in subdomain: rajfab, swcs, labour, rpcb, egazette, bip, invest, and the bare rajasthan.gov.in portal all failed (TLS connection resets, proxy CONNECT-tunnel 502s, or a generic gateway error page instead of real content), despite multiple retries with longer timeouts spread over the session. This looks like a broader, state-agnostic connectivity condition rather than something specific to Rajasthan: the agent proxy's own failure log during this session also showed the same kind of mid-exchange tunnel closures when fetching .gov.in sites for other states entirely unrelated to this task (e.g. Nagaland, Kerala, Jammu & Kashmir, Telangana, Assam, West Bengal single-window/labour sites). As a result, the single most important primary source for this task — RajFAB (https://rajfab.rajasthan.gov.in/), which is Rajasthan's actual online factory registration/license system per the NIC directory listing — could not be directly verified this session; it is only confirmed secondhand via the official NIC (negd.gov.in) directory entry describing it.",
-    "Two candidate pages returned HTTP 200 but were React/Next.js single-page-app shells with no server-rendered text retrievable via curl (labour.gov.in and nsws.gov.in/portal/rajasthan). Per the spec these were excluded rather than counted as verified, even though a real browser would likely show relevant content on them.",
-    "Given the above, verifiedSources is thinner than ideal for this task (3 entries) — it intentionally favors honesty over padding: every URL listed was personally fetched and its content inspected this session, and every URL that could not be confirmed this way was excluded with a specific reason rather than included on the strength of search snippets or third-party descriptions."
+    "RETRY ATTEMPT (2026-11-17): This is a second pass at the same state, specifically to re-test whether the TLS resets / 502s against *.rajasthan.gov.in subdomains from the prior session were a transient, session-level condition. Verdict: NOT improved. All seven *.rajasthan.gov.in subdomains that failed before (rajfab, swcs, labour, rpcb, egazette, bip, invest) plus the bare rajasthan.gov.in host were re-tested multiple times this session (including one verbose run on rajfab showing the TLS ClientHello sent and then an immediate 'Recv failure: Connection reset by peer' after the CONNECT tunnel itself succeeded) and every single one failed again, identically to before.",
+    "A control test confirms this is specific to rajasthan.gov.in and its subdomains, not a general network outage this session: unrelated .gov.in hosts (www.india.gov.in, negd.gov.in, nsws.gov.in) all resolved fine with HTTP 200 and real content, both before and during this retry. This points to rajasthan.gov.in's own edge/WAF or TLS termination actively blocking or resetting connections from this session's egress IP/proxy, rather than a general connectivity problem on this session's side.",
+    "Two previously-excluded non-rajasthan.gov.in candidates (labour.gov.in and nsws.gov.in/portal/rajasthan) did change behavior slightly: both returned HTTP 200 consistently this time (they were already 200 last time too, so no change there), but both are still empty client-rendered JS/React application shells with zero server-rendered text, so they remain unverifiable via curl under the spec's rules. No net change in outcome.",
+    "Tried two new candidate avenues this retry that were not attempted previously, in case they offered an alternate independent route to the same underlying Rajasthan Factories Rules content: central egazette.gov.in (failed on a local TLS certificate-chain error, not bypassed per the no-disable-verification rule) and data.gov.in (HTTP 503). Neither panned out.",
+    "Net result: verifiedSources is unchanged at 3 entries (all re-confirmed as still live and correct this session), and excluded grew from 14 to 16 entries (two new unsuccessful avenues tried and documented, all original 14 re-confirmed as still failing for the same reasons). This retry did not improve on the original — the underlying network condition blocking rajasthan.gov.in and its subdomains persists unchanged across sessions, so RajFAB (the actual Rajasthan Factory License portal) remains verifiable only secondhand via the NIC directory entry, not directly."
   ]
 }

@@ -1,93 +1,95 @@
 {
   "state": "JK",
   "serviceCode": "FAL",
-  "compiledAt": "2026-11-04",
+  "compiledAt": "2026-11-17",
   "verifiedSources": [
     {
       "portal": "DGFASLI — Directorate General Factory Advice Service & Labour Institutes (Ministry of Labour & Employment, Govt of India)",
       "url": "https://dgfasli.gov.in/",
       "whatItIs": "Central DGOSH/DGFASLI homepage (Ministry of Labour & Employment). Site navigation includes OSH Laws section linking the central Factories Act, 1948, the Model Rules under it, and the OSH&WC Code, 2020 — the central legal framework under which J&K's own Factories Rules, 1972 and factory-licensing process operate.",
-      "verifiedBy": "curl HTTP 200; pandoc extraction confirmed real page title \"होम | डीजीओएसएच, मुंबई, श्रम मंत्रालय, भारत सरकार\" (Home | DGOSH, Mumbai, Ministry of Labour, Govt of India) with a full navigation menu (About DGOSH, OSH Laws > Factories Act 1948 / Model Rules / OSHWC Code 2020, OSH Information, downloads, notices) — not an empty shell.",
-      "checkedAt": "2026-11-04"
+      "verifiedBy": "Re-verified this session: curl HTTP 200, 169962 bytes. Confirmed real page title/navigation content (About DGOSH, OSH Laws > Factories Act 1948 / Model Rules / OSHWC Code 2020, OSH Information, downloads, notices) — not an empty shell.",
+      "checkedAt": "2026-11-17"
     },
     {
       "portal": "DGFASLI — Directorate General Factory Advice Service & Labour Institutes (Ministry of Labour & Employment, Govt of India)",
       "url": "https://dgfasli.gov.in/public/Admin/Cms/AllPdf//667d45ce57e222.11029770.pdf",
       "whatItIs": "Official central directory \"List of Chief Inspectors of Factories/Director Industrial Safety and Health (Address & Telephone Numbers), As on 05.06.2024\" — lists the statutory Factory License issuing authority for Jammu & Kashmir (Labour Commissioner & Chief Inspector of Factories, J&K, Shram Bhawan, Jammu / Batamaloo, Srinagar seasonal offices) with phone numbers and email (lab.comm@jk.gov.in).",
-      "verifiedBy": "curl HTTP 200, 121646 bytes; `file` confirmed valid PDF; pdftotext confirmed real text content including a \"Jammu & Kashmir\" row with the Labour Commissioner & Chief Inspector of Factories' address, phone numbers (0194-2472524 Srinagar, 0191-2479339 Jammu) and email.",
-      "checkedAt": "2026-11-04"
+      "verifiedBy": "Re-verified this session: curl HTTP 200, 121646 bytes; `file` confirmed valid PDF v1.7 with the same content as the prior verification (Jammu & Kashmir row with Labour Commissioner & Chief Inspector of Factories' address, phone numbers, email).",
+      "checkedAt": "2026-11-17"
     }
   ],
   "excluded": [
     {
       "url": "https://singlewindow.jk.gov.in/",
-      "reason": "J&K's own Single Window factory-registration/licensing portal home page, per search results. curl fails with 'Recv failure: Connection reset by peer' immediately after the TLS ClientHello, reproduced on 3 retries (verbose curl shows the proxy CONNECT tunnel succeeds, then the TLS handshake itself is reset) — not independently verifiable via this session's fetch method."
+      "reason": "RE-ATTEMPTED (3 retries, spaced out): still fails with 'Recv failure: Connection reset by peer' immediately after the TLS ClientHello, identical to the prior attempt. The agent-proxy status endpoint confirms the host is allowed but the tunnel is closing mid-exchange on the egress side ('ws_closed_mid_exchange', observed again this session) — not independently verifiable via this session's fetch method."
     },
     {
       "url": "https://singlewindow.jk.gov.in/assets/services/procedurechecklist/21/procedurechecklist_file_0184899001648350331.pdf",
-      "reason": "Found via search as the official 'Registration of Factories under the Factories Act, 1948' document checklist PDF on the J&K Single Window portal. Same connection-reset failure as the portal's home page — this entire domain is unreachable this session."
+      "reason": "RE-ATTEMPTED: still 'Recv failure: Connection reset by peer', same domain-wide failure as the portal home page."
     },
     {
       "url": "https://singlewindow.jk.gov.in/assets/services/sop_file/21/sop_file_0371026001648350331_1.pdf",
-      "reason": "Found via search as the official SOP PDF for factory registration on the J&K Single Window portal. Same connection-reset failure as the portal's home page."
+      "reason": "RE-ATTEMPTED: still 'Recv failure: Connection reset by peer', same domain-wide failure."
     },
     {
       "url": "https://singlewindow.jk.gov.in/assets/front/mannual_pdf/renewal-factories.pdf",
-      "reason": "Found via search as the J&K Single Window portal's factory-license renewal user manual. Same connection-reset failure as the portal's home page."
+      "reason": "RE-ATTEMPTED: still 'Recv failure: Connection reset by peer', same domain-wide failure."
     },
     {
       "url": "https://law.jk.gov.in/download.php?id=5172",
-      "reason": "J&K Law Department notification page hosting an amendment to the Jammu and Kashmir Factories Rules, 1972. Same 'Recv failure: Connection reset by peer' pattern as the singlewindow.jk.gov.in domain — all law.jk.gov.in URLs tested failed identically."
+      "reason": "RE-ATTEMPTED (2 retries): still 'Recv failure: Connection reset by peer', identical to prior attempt."
     },
     {
       "url": "https://law.jk.gov.in/archive-site/JkLawData/so/2018/sro_632.pdf",
-      "reason": "J&K Law Department archived SRO gazette notification PDF. Same connection-reset failure as other law.jk.gov.in URLs."
+      "reason": "RE-ATTEMPTED: still 'Recv failure: Connection reset by peer', same law.jk.gov.in failure."
     },
     {
       "url": "https://rgp.jk.gov.in/pdf/SRO/SRO-2017/106.pdf",
-      "reason": "J&K Registrar General of Press/Gazette SRO PDF (Factories Rules amendment series). Same 'Recv failure: Connection reset by peer' pattern as the other *.jk.gov.in hosts."
+      "reason": "RE-ATTEMPTED (2 retries): still 'Recv failure: Connection reset by peer'."
     },
     {
       "url": "https://jk.gov.in/",
-      "reason": "J&K Government main portal. Same connection-reset failure as every other *.jk.gov.in host tested this session (also reproduced for www.jk.gov.in)."
+      "reason": "RE-ATTEMPTED: still 'Recv failure: Connection reset by peer' (also reproduced again for www.jk.gov.in, which this time returned 'CONNECT tunnel failed, response 502' on one attempt — the domain is unreachable either way)."
     },
     {
       "url": "https://investjk.in/",
-      "reason": "Investment, Promotion & Facilitation Cell portal referenced in the J&K Single Window (Industrial Investments and Business Facilitation) Rules, 2021 as the integrated e-application (CAF) gateway. curl gets 'CONNECT tunnel failed, response 502' from this session's egress proxy (host not permitted for this session), distinct from the jk.gov.in reset pattern — could not verify this session."
+      "reason": "RE-ATTEMPTED — RESULT CHANGED BUT WORSE, NOT BETTER: no longer a proxy 502. curl now completes the TLS handshake and gets a real HTTP/2 301 redirect to https://rajasthanssoidlogin.in — an unrelated, non-government domain name with no plausible connection to Jammu & Kashmir or investment facilitation. Following that redirect fails (egress proxy reports 'connect_unreachable' for rajasthanssoidlogin.in: no public DNS record / host down). This strongly suggests investjk.in has lapsed or been taken over and is no longer serving the J&K Invest Promotion & Facilitation Cell site at all — excluded both for non-verification and because what little is now visible is not the claimed government content."
     },
     {
       "url": "https://services.india.gov.in/service/detail/single-window-system-for-investors-jammu-and-kashmir",
-      "reason": "National services directory listing for the 'Single Window System for Investors - Jammu and Kashmir'. curl gets 'CONNECT tunnel failed, response 502' from this session's egress proxy (connect_rejected) on repeated attempts — could not verify this session."
+      "reason": "RE-ATTEMPTED (3 retries): still 'CONNECT tunnel failed, response 502' (egress proxy 'connect_unreachable') every time, unchanged from the prior attempt."
     },
     {
       "url": "https://www.indiacode.nic.in/handle/123456789/16513",
-      "reason": "India Code central legislation repository page (candidate for Factories Act applicability/extension to J&K). curl times out after 40s with 0 bytes received on two attempts — not independently verifiable via this session's fetch method."
+      "reason": "RE-ATTEMPTED (tried both www. and bare indiacode.nic.in): both time out after ~20s with 0 bytes received, unchanged from the prior attempt."
     },
     {
       "url": "https://www.nsws.gov.in/",
-      "reason": "Central National Single Window System portal, which secondary sources say J&K's industrial approvals route through. curl returns HTTP 200 with real (non-empty) page text, but the content is a generic login/'complete your profile' shell with PAN-verification instructions — no Jammu & Kashmir-specific or factory-license-specific content is visible without an authenticated account, so it does not pass the 'is in fact what it claims to be' check for this state/service."
+      "reason": "RE-ATTEMPTED: curl HTTP 200 again (590009 bytes this time, a larger page than before), but inspected text is still the same generic 'complete your profile' / PAN-verification login shell. It does list 'Jammu and Kashmir' as one of many entries under a generic State Approvals navigation menu, but no Jammu & Kashmir-specific or factory-license-specific content is visible without authentication — still does not pass the 'is in fact what it claims to be' check for this state/service."
     },
     {
       "url": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2026/04/20260427650973687.pdf",
-      "reason": "Surfaced by search as a gazette PDF citing the Jammu and Kashmir Factories Rules, 1972. curl returns HTTP 200 and a valid 20-page PDF, but pdftotext shows it is actually a Labour and Employment Department of Union Territory of Ladakh draft notification (superseding the J&K Factories Rules for Ladakh only) — wrong state/UT for this task, excluded."
+      "reason": "Not re-fetched this session (prior verification already succeeded at the transport level); excluded for the same substantive reason as before — the PDF is a Union Territory of Ladakh notification, not Jammu & Kashmir, so it is the wrong state/UT regardless of reachability."
     },
     {
       "url": "https://cdnbbsr.s3waas.gov.in/s395192c98732387165bf8e396c0f2dad2/uploads/2026/04/202604201549765010.pdf",
-      "reason": "Same source bucket as above; HTTP 200 valid PDF, but content is again a Labour and Employment Department of Union Territory of Ladakh draft notification, not Jammu & Kashmir — wrong state/UT, excluded."
+      "reason": "Not re-fetched this session; excluded for the same reason as above — content is a Union Territory of Ladakh notification, not Jammu & Kashmir."
     },
     {
       "url": "https://labour.gov.in/",
-      "reason": "Central Ministry of Labour & Employment homepage, checked as a possible directly-relevant central page. Same 'Recv failure: Connection reset by peer' pattern as the *.jk.gov.in hosts — not reachable this session."
+      "reason": "RE-ATTEMPTED — RESULT CHANGED BUT STILL EXCLUDED: no longer a connection reset. curl now gets a real HTTP 200 (8336 bytes), but inspection shows it is a Next.js single-page-app shell with no server-rendered <title> and zero visible text after scripts/styles are stripped — an empty JS-rendering shell, which the spec explicitly says not to include. Also not state/J&K-specific even if it rendered."
     },
     {
       "url": "https://shramsuvidha.gov.in/",
-      "reason": "Central Shram Suvidha single-window compliance portal, checked as a possible directly-relevant central page. Same connection-reset failure as labour.gov.in — not reachable this session."
+      "reason": "RE-ATTEMPTED: still 'Recv failure: Connection reset by peer', unchanged from the prior attempt."
     }
   ],
   "remarks": [
-    "Every *.jk.gov.in host tried this session (singlewindow.jk.gov.in, law.jk.gov.in, rgp.jk.gov.in, jk.gov.in, www.jk.gov.in) failed identically: the proxy's HTTPS CONNECT tunnel succeeds, but the TLS handshake itself is reset ('Recv failure: Connection reset by peer') immediately after the ClientHello, reproduced on repeated retries and confirmed with curl -v. This is the domain actually hosting J&K's Factory License single-window portal, its checklist/SOP/renewal PDFs, and the state's Factories Rules notifications — i.e. almost everything the spec asks this list to prioritize. A WebFetch attempt on the same host failed with a DNS/allowlist-style error, consistent with this being a this-session network restriction rather than the real-world site being down.",
-    "Two separate failure modes were observed and are reflected in the exclusion reasons: (a) 'Recv failure: Connection reset by peer' for *.jk.gov.in, labour.gov.in and shramsuvidha.gov.in (reaches the destination/TLS layer, then resets), vs (b) 'CONNECT tunnel failed, response 502' for investjk.in and services.india.gov.in (the egress proxy itself declines the host before any TLS). Re-running this task after the *.jk.gov.in and investjk.in domains are added to this environment's allowed network domains would very likely raise the verified-source count substantially, since the search step surfaced a plausible official checklist PDF, SOP PDF, renewal manual and Factories Rules amendment notifications that could not be independently confirmed this session purely for network-access reasons, not because they appear fake or wrong.",
-    "Other candidate categories from the spec (state gazette text of the Factories Rules, 1972; the J&K Single Window Act/Rules PDFs; a central NSWS page specific to J&K's factory-license service) were found via search but could not be verified: either the host was unreachable (as above), or (for nsws.gov.in) the only reachable content was a generic login/profile shell with no J&K- or factory-license-specific text.",
-    "Two PDFs discovered on a generic cdnbbsr.s3waas.gov.in bucket that search results associated with 'Jammu and Kashmir Factories Rules, 1972' turned out, on actual inspection, to be Union Territory of Ladakh notifications (Ladakh and J&K share the pre-2019 Factories Rules lineage, which appears to be why search conflated them) — flagged as a reminder that a 200 response and a plausible-looking filename are not sufficient verification; the content must be read."
+    "This is a retry of the same state/service. Net result: NO IMPROVEMENT in verified-source count (still 2 verified, same two DGFASLI sources as before). Every *.jk.gov.in host (singlewindow.jk.gov.in, law.jk.gov.in, rgp.jk.gov.in, jk.gov.in) still fails identically with a TLS-layer connection reset, reproduced on repeated retries spaced several seconds apart this session, exactly as in the prior attempt.",
+    "The agent-proxy status endpoint's recentRelayFailures log shows this is NOT specific to J&K or to this task: at the time of this retry, the same 'ws_closed_mid_exchange' tunnel failure was simultaneously hitting many unrelated Indian state-government hosts (e.g. labour.ap.gov.in, swcs.rajasthan.gov.in, fabkerala.gov.in, industries.assam.gov.in, kswift.kerala.gov.in, cglabour.gov.in, apindustries.gov.in, labour.rajasthan.gov.in, pblabour.gov.in, labour.kerala.gov.in), and the same 'connect_unreachable' 502 pattern was hitting other unrelated hosts (rpcb.rajasthan.gov.in, egazette.rajasthan.gov.in, bip.rajasthan.gov.in, invest.rajasthan.gov.in, industries.kerala.gov.in). This looks like a broad, session-wide egress/network condition affecting many Indian .gov.in-family domains right now, not a J&K-specific or URL-specific problem that more retries would fix.",
+    "One genuinely new and noteworthy finding from this retry: investjk.in, which previously only produced an opaque proxy 502, now completes its TLS handshake and returns a real HTTP 301 redirecting to https://rajasthanssoidlogin.in — an unrelated non-government domain unreachable itself. This suggests investjk.in's DNS/hosting may have lapsed or been reassigned and it may no longer be the legitimate J&K Invest Promotion & Facilitation Cell site at all. This is a substantive finding worth flagging to whoever maintains this source list, independent of this session's network limitations, though it does not add a verified source.",
+    "labour.gov.in also changed failure mode (reset -> HTTP 200) but remains unusable: it is a client-side-rendered Next.js shell with no server-side text, so it still fails the spec's 'not an empty JS shell' check regardless of network reachability.",
+    "nsws.gov.in was re-fetched and again returns only a generic authenticated-profile shell; it does list Jammu and Kashmir among all states in a generic navigation menu, which is a marginal confirmation that J&K is onboarded to NSWS in principle, but still no J&K- or factory-license-specific content is visible without login, so it remains excluded per the same reasoning as before.",
+    "Conclusion for this retry: network conditions for the *.jk.gov.in domain family and services.india.gov.in are unchanged from the prior attempt (still fully blocked), so the verified list is not better in count. The investjk.in finding is new information but points toward exclusion, not inclusion. No padding was added to verifiedSources to manufacture an improvement; the list stays at the same 2 genuinely verified sources as the original compilation."
   ]
 }

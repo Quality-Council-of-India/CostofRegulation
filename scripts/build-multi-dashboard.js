@@ -24,6 +24,7 @@ const ROOT = path.join(__dirname, '..');
 const ED_DIR = path.join(__dirname, 'ed_data');
 const FGD_DIR = path.join(__dirname, 'fgd_data');
 const STEP_EQUIV_DIR = path.join(__dirname, 'step_equivalence');
+const SECONDARY_DIR = path.join(__dirname, 'secondary_data');
 const SERVICES = JSON.parse(fs.readFileSync(path.join(__dirname, 'services.json'), 'utf8'));
 const STATE_UNIVERSE = JSON.parse(fs.readFileSync(path.join(__dirname, 'states.json'), 'utf8'));
 const PHASES = JSON.parse(fs.readFileSync(path.join(__dirname, 'phase-template.json'), 'utf8')).phases;
@@ -120,6 +121,26 @@ stepEquivFiles.forEach(f => {
   });
 });
 
+// ---- third source lane: secondary (published-rules) validation ----
+// Each file validates one state's claims for one licence against real government
+// sources, with a verdict per fact: confirmed / contradicted / not_found / fills_gap.
+// It sits alongside ED and FGD rather than overriding either.
+const secondaryFiles = fs.existsSync(SECONDARY_DIR) ? fs.readdirSync(SECONDARY_DIR).filter(f => f.endsWith('.json')) : [];
+let secondaryStates = 0, secondaryChecks = 0;
+const verdictCounts = {};
+secondaryFiles.forEach(f => {
+  const sd = JSON.parse(fs.readFileSync(path.join(SECONDARY_DIR, f), 'utf8'));
+  const st = stateByCode[sd.state];
+  const lic = st && st.licenses.find(l => l.serviceCode === sd.serviceCode);
+  if (!lic) return;
+  lic.secondary = { validatedAt: sd.validatedAt, checks: sd.checks || [], sourcesRead: sd.sourcesRead || [], remarks: sd.remarks || [] };
+  secondaryStates++;
+  (sd.checks || []).forEach(c => {
+    secondaryChecks++;
+    verdictCounts[c.verdict] = (verdictCounts[c.verdict] || 0) + 1;
+  });
+});
+
 // ---- coverage matrix: for each state, which service codes have data ----
 const coverage = {}; // coverage[stateCode][serviceCode] = {findings, gaps}
 states.forEach(s => {
@@ -196,7 +217,10 @@ const DATA = {
     inconsistencies: by('INCONSISTENT'),
     missing: by('MISSING'),
     vague: by('VAGUE'),
-    painPoints: allPain
+    painPoints: allPain,
+    secondaryStates,
+    secondaryChecks,
+    verdictCounts
   }
 };
 
@@ -206,4 +230,5 @@ fs.writeFileSync(path.join(ROOT, 'cor-dashboard.html'), out);
 
 console.log('Built cor-dashboard.html —', states.length, 'states,', SERVICES.length, 'services,', totalLicenses, 'license entries,', totalFindings, 'findings,', totalQuotes, 'quotes,', allGaps.length, 'gaps.');
 console.log('FGD merged into', fgdLicensesMerged, 'existing ED licenses (Mode A); added', fgdLicensesAdded, 'new FGD-only licenses (Mode B).');
+console.log('Secondary (published-rules) validation attached to', secondaryStates, 'license records —', secondaryChecks, 'facts checked:', JSON.stringify(verdictCounts));
 console.log('Gap flags:', JSON.stringify(gapFlagCounts));

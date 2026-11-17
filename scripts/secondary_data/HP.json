@@ -1,0 +1,86 @@
+{
+  "state": "HP",
+  "serviceCode": "FAL",
+  "validatedAt": "2026-11-17",
+  "checks": [
+    {
+      "key": "timeline",
+      "primaryClaim": "ED record: \"Factory License Approval has a prescribed timeline of 45 days, with deemed approval if no decision is communicated. This is preceded by the Factory Building Plan Approval (BPA) step, which has a separate 30-day timeline\" (timeline.minDays = timeline.maxDays = 45, basis stated as the OSH Code framework and related state rules)",
+      "verdict": "contradicted",
+      "sourceSays": "In the official departmental checklist, under 'B. Registration and grant of license under The Factories Act, 1948 — b) Service Delivery Process': \"Note: Department has mandated timelines (20 days after completion of all codal formalities) through the Public Service Delivery Guarantee Act for approval of complete application vide notification No. Shram (A)6-2/10-Part-File-1-L dated 27.02.2016.\" The same document gives the Building Plan Approval timeline as \"30 days after completion of all codal formalities ... vide notification No. Shram (A)6-2/10-Part-File-1-L dated 27.06.2016\". So the notified licence timeline is 20 days, not 45; only the 30-day Building Plan Approval figure matches the ED record.",
+      "citation": {
+        "title": "PROCEDURE AND CHECKLIST FOR APPROVAL, LICENSING & REGISTRATION AND RENEWAL OF FACTORIES UNDER THE FACTORIES ACT, 1948 — Department of Labour and Employment, Shimla, Himachal Pradesh",
+        "url": "https://ofris.hp.gov.in/newchecklist.pdf",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "fees",
+      "primaryClaim": "ED record: \"The fee is not based on the selected validity period; it is determined primarily by connected horsepower/power load and number of workers employed. The department indicated fees may range from approximately Rs 1,000 for smaller establishments to around Rs 2 lakh for large factories.\"",
+      "verdict": "contradicted",
+      "sourceSays": "The BASIS is confirmed: the official checklist's 'Fee Schedule' is a matrix of \"Quantity of Horse Power installed (Maximum Horse Power)\" against \"Number of persons to be employed on any day during the year\", and the OFRIS Guidelines page states \"The amount of licence fee is dependent upon the two variables i.e. maximum number of workers employed, amount of power installed.\" The RANGE is contradicted: the published schedule runs from Rs 250 (Nil horse power, up to 09 persons) to Rs 75,000 (horse power 'Above 15000', 'Above 2000' persons) — not Rs 1,000 to Rs 2 lakh. The lowest slab is Rs 250 and the highest figure anywhere in the schedule is Rs 75,000. The FAQ separately confirms the basis: \"Registration & Renewal fee will depend upon the maximum number of workers proposed to be employed on any one day during the year and maximum amount of power installed or proposed to be installed in your factory.\" Amendment fee is \"Rs 100/- (One Hundred) per amendment\"; late renewal attracts \"late fee @25% in excess of the fee ordinarily payable\".",
+      "citation": {
+        "title": "PROCEDURE AND CHECKLIST FOR APPROVAL, LICENSING & REGISTRATION AND RENEWAL OF FACTORIES UNDER THE FACTORIES ACT, 1948 — Department of Labour and Employment, Shimla, Himachal Pradesh (section B(c) 'Fee Schedule', p.9)",
+        "url": "https://ofris.hp.gov.in/newchecklist.pdf",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "deemedApproval",
+      "primaryClaim": "ED record: deemedApproval.status = \"yes\", days = 45 — \"Deemed approval is available for both services: Building Plan Approval after 30 days, and Factory License after 45 days, if no decision is communicated.\"",
+      "verdict": "not_found",
+      "sourceSays": "No fetched official source states a deemed approval for the GRANT of a factory licence, or any 45-day (or 30-day) deemed-approval clock. The only official statement of a deemed mechanism found is on the OFRIS home page, and it is about RENEWAL, not fresh grant, and carries no number of days: News & Updates item \"Automatic Non-discretionary Deemed Renewal.\" and the home-page panel \"AUTOMATIC NON-DISCRETIONARY DEEMED RENEWAL INTERDUCED\". The hyperlink behind that news item (himachal.nic.in/showfile.php?...lid=20433&sublinkid=19994) was fetched and resolves to the generic Government of Himachal Pradesh homepage, not to any notification, so the underlying order could not be read. Recorded as not_found for the specific ED claim.",
+      "citation": {
+        "title": "OFRIS — Himachal Pradesh Online Factory Registration Information System (home page, 'News & Updates')",
+        "url": "https://ofris.hp.gov.in/",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "documents",
+      "primaryClaim": "ED record: documents listed only vaguely as \"Building plan drawings\", \"Factory-related statutory documents\", \"Documents required under departmental rules for BPA and licensing\"; documentsNote states \"Fire NOC and Pollution NOC are not sought as part of the present factory licensing process unless specifically required under other applicable laws\" and that documentation has been \"substantially reduced\" under EoDB reforms.",
+      "verdict": "contradicted",
+      "sourceSays": "The official checklist's \"a) Checklist for registration and grant of license under The Factories Act, 1948\" lists eleven items, of which items 9 and 10 are: \"9. NOC from Chief Fire Officer.\" and \"10. NOC from HP Pollution Control Board.\" The full list is: 1. Form No.3 (online e-form only); 2. Certificate of Stability duly signed by the Chartered Engineer/Chartered Architect; 3. Resolution of the Board of Directors / partners declaring the occupier, or declaration of proprietor; 4. List of Directors/Partners with parentage and residential addresses; 5. List of partners with parentage and complete residential address; 6. Self-attested declaration of proprietor in case of proprietorship; 7. Certificate of incorporation from Registrar of Companies in case of company; 8. Copy of power sanction certificate from concerned authorities of HPSEB; 9. NOC from Chief Fire Officer; 10. NOC from HP Pollution Control Board; 11. \"All the documents are required to be signed by occupier (Prop, Partner or Director as the case may be) and to be uploaded.\" The separate Building Plan Approval instructions page likewise lists \"No objection Certificate from H.P. State Environment Protection & Pollution Control Board, if it is required\".",
+      "citation": {
+        "title": "PROCEDURE AND CHECKLIST FOR APPROVAL, LICENSING & REGISTRATION AND RENEWAL OF FACTORIES UNDER THE FACTORIES ACT, 1948 — Department of Labour and Employment, Shimla, Himachal Pradesh (section B(a), p.6)",
+        "url": "https://ofris.hp.gov.in/newchecklist.pdf",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "steps",
+      "primaryClaim": "ED record: 7 steps across BPA and licence; automationLevel \"full\"; applicantOfficeVisit \"no\"; Assistant Director (Factory) conducts field verification and forwards to the Chief Inspector of Factories, who issues the licence.",
+      "verdict": "confirmed",
+      "sourceSays": "The signed Office Order No. L&E (Lab)/Simplifying Labour Laws/2018 dated 29 June 2019 of the Commissioner, Labour-cum-Chief Inspector of Factories, HP states: \"it is hereby ordered that process of Registration & Renewal of licence under Factories Act, 1948 shall henceforth will be completely online through existing software namely online factory registration Information System (OFRIS). Employers shall not be required to submit the physical copy of documents & forms\", with conditions including \"The department shall not wait for any documents in physical form and process the application immediately once the registration & renewal fee get credited in the e-treasury (HIMKOSH) and grant approval if application is in order\" and \"Employer can download the certificate of registration online once approval is accorded by department and it shall not require signature of approving authority.\" The official checklist's licence Service Delivery Process confirms the same workflow shape and an explicit inspection step: the application routes to a Dealing Assistant for primary scrutiny, then to the Deputy Director (factories), then \"If the application is complete, user is apprised of the scheduled date for the Spot inspection through e-mail and SMS\", after which \"the application is recommended to the Chief Inspector of Factories for grant of approval\" and \"Approval letter is uploaded by the competent authority in the application and applicant may download the same.\" The ED's claim of randomised, system-driven inspector allocation is also borne out by the portal's \"System Generated Inspection Allocation Schedule\" page.",
+      "citation": {
+        "title": "Office Order No. L&E (Lab)/Simplifying Labour Laws/2018, dated 29 June 2019 — Government of Himachal Pradesh, Department of Labour & Employment (Dr S. S. Guleria, IAS, Commissioner Labour-cum-Chief Inspector of Factories, HP)",
+        "url": "https://ofris.hp.gov.in/elimination.pdf",
+        "transport": "https"
+      }
+    }
+  ],
+  "sourcesRead": [
+    "https://ofris.hp.gov.in/",
+    "https://ofris.hp.gov.in/newchecklist.pdf",
+    "https://ofris.hp.gov.in/Guidlines.aspx",
+    "https://ofris.hp.gov.in/FAQ.pdf",
+    "https://ofris.hp.gov.in/OFRIS.pdf",
+    "https://ofris.hp.gov.in/elimination.pdf",
+    "https://ofris.hp.gov.in/BuildingPlan_Instructions.aspx",
+    "https://ofris.hp.gov.in/inspections.aspx",
+    "https://himachal.nic.in/showfile.php?lang=1&dpt_id=14&level=1&lid=20433&sublinkid=19994",
+    "https://himachal.nic.in/WriteReadData/l892s/25_l892s/LEP-70836909.pdf"
+  ],
+  "remarks": [
+    "MOST SIGNIFICANT: the ED record's statement that Fire NOC and Pollution NOC are not sought for factory licensing is directly contradicted by the department's own published checklist, which lists 'NOC from Chief Fire Officer' and 'NOC from HP Pollution Control Board' as items 9 and 10 of the eleven-item checklist for registration and grant of licence. This checklist is the document the OFRIS home page itself links under 'Instructions → Factory Registration Applications', so it is the operative public instruction, not an archived file.",
+    "The official sources disagree with each other on the licence timeline, so the 45-day ED figure is unsupported by any of them: the departmental checklist says 20 days (PSDG Act notification No. Shram (A)6-2/10-Part-File-1-L dated 27.02.2016), while the OFRIS FAQ PDF says 'Registration & Renewal of factory licence- Thirty days' and 'Approval of Plans-3 months'. The checklist's own 30-day figure for Building Plan Approval (notification dated 27.06.2016) does match the ED's BPA figure. The underlying PSDG notification itself could not be read: the link printed in the checklist (https://himachal.nic.in/WriteReadData/l892s/25_l892s/LEP-70836909.pdf) returns HTTP 404, so the notification numbers above are quoted as the checklist reports them and were not independently verified against the gazette.",
+    "No fetched source carries an explicit date of issue for the fee schedule in newchecklist.pdf, and the service-delivery tables in that PDF still reference the retired legacy portal address 'admis.hp.nic.in/ofris'. The schedule may therefore predate the migration to ofris.hp.gov.in and may have been revised since; the Rs 250–Rs 75,000 range should be read as 'the only fee schedule the department currently publishes', not as a certified current-year schedule.",
+    "The ED's 'fully online, no office visit' claim is supported by the 29 June 2019 Office Order, but two other pages on the same live portal still instruct the opposite and appear not to have been updated: the Guidelines page says 'Send by post mandatory documents as per checklist duly signed by Occupier to \"Chief Inspector of Factories ... Himrus Building Shimla 9\" within 15 days from date of Submission'; the OFRIS User Manual says 'take the Print of FORM3 and attach all relevant documents signed by occupier and sent it to L&E Department by post. It must reach to L&E department within 30 days otherwise application is rejected by System automatically'; and the FAQ PDF says the applicant 'is required to submit the computer generated Form 3 duly signed by occupier as well as factory manager accompained with challan ... by post'. An applicant reading the portal today receives contradictory instructions on whether physical submission is still required.",
+    "Validity period (not one of the five required keys, flagged for the reviewer): the ED record states licences may be issued for 1, 5 or 10 years at the applicant's option. The OFRIS FAQ states 'A licence for a factory shall be granted by the Chief Inspector for a period of 1 year or 5 years, as may be requested in the application' — no 10-year option appears in any fetched official source.",
+    "The FAQ PDF also fills a gap the ED record left open on renewal: 'every factory is required to submit renewal application by 31, October', and late applications are renewed 'only on payment of late fee @25% in excess of the fee ordinarily payable for the licence'.",
+    "The checklist states 'No fees is applicable for approval of building plans', which fills the ED record's flagged MISSING gap on the Building Plan Approval fee.",
+    "No FGD record exists for HP FAL (scripts/fgd_data/HP.json contains only serviceCode RFNO), so every check above is against the ED record alone.",
+    "The OFRIS User Manual (OFRIS.pdf) is undated and still describes the pre-2019 postal workflow throughout; it was read in full but yielded no timeline, fee or deemed-approval figure, and was not cited for any check.",
+    "NSWS (nsws.gov.in) was not fetched this session — the earlier source-verification pass established that no Himachal-Pradesh-factory-licence service page on NSWS is reachable at a public URL, so it could not have addressed any of these five facts."
+  ]
+}
