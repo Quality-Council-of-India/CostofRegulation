@@ -1,0 +1,117 @@
+{
+  "state": "WB",
+  "serviceCode": "FAL",
+  "validatedAt": "2026-11-17",
+  "checks": [
+    {
+      "key": "timeline",
+      "primaryClaim": "65 days (minDays = maxDays = 65) for the Factory Licence, per the ED record, described as 'an approval timeline of around 65 days ... characterised in the source report as lengthy'; the ED record itself flags the governing Act/Rule for that figure as MISSING.",
+      "verdict": "not_found",
+      "sourceSays": null,
+      "citation": null
+    },
+    {
+      "key": "fees",
+      "primaryClaim": "not quantified in the ED record (flagged MISSING: 'The source report does not specify the statutory/application fee or any fee variation based on establishment size, employees or validity period.')",
+      "verdict": "not_found",
+      "sourceSays": null,
+      "citation": null
+    },
+    {
+      "key": "deemedApproval",
+      "primaryClaim": "ED record records deemed-approval status as 'unclear' (flagged VAGUE): 'The source report does not explicitly state whether deemed approval exists for Factory Licence; no specific provision or operational mechanism was identified in the discussion.'",
+      "verdict": "fills_gap",
+      "sourceSays": "6. Approval, licensing and registration of factories.—(1) The State Government may make rules— [(a) requiring, for the purposes of this Act, the submission of plans of any class or description of factories to the Chief Inspector or the State Government;] [(aa)] requiring, the previous permission in writing of the State Government or the Chief Inspector to be obtained for the site on which the factory is to be situated and for the construction or extension of any factory or class or description of factories; ... (d) requiring the registration and licensing of factories or any class or description of factories, and prescribing the fees payable for such registration and licensing and for the renewal of licences; (e) requiring that no licence shall be granted or renewed unless the notice specified in section 7 has been given. (2) If on an application for permission referred to in [clause (aa)] of sub-section (1) accompanied by the plans and specifications required by the rules made under clause (b) of that sub-section, sent to the State Government or Chief Inspector by registered post, no order is communicated to the applicant within three months from the date on which it is so sent, the permission applied for in the said application shall be deemed to have been granted. (3) Where a State Government or a Chief Inspector refuses to grant permission to the site, construction or extension of a factory or to the registration and licensing of a factory, the applicant may within thirty days of the date of such refusal appeal to the Central Government if the decision appealed from was of the State Government and to the State Government in any other case.",
+      "citation": {
+        "title": "THE FACTORIES ACT, 1948",
+        "url": "https://www.labour.gov.in/static/uploads/2025/06/b878b8d9f3d9abc62fbe0a6c92f606e3.pdf",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "documents",
+      "primaryClaim": "no item-wise document checklist in the ED record (documents[] is empty; flagged VAGUE — 'The source report does not provide an item-wise list of documents'), with the single specific observation that the factory building/layout plan must be resubmitted at renewal even when unchanged.",
+      "verdict": "fills_gap",
+      "sourceSays": "6.(1)(e) requiring that no licence shall be granted or renewed unless the notice specified in section 7 has been given. ... 7. Notice by occupier.—(1) The occupier shall, at least fifteen days before he begins to occupy or use any premises as a factory, send to the Chief Inspector a written notice containing— (a) the name and situation of the factory; (b) the name and address of the occupier; [(bb) the name and address of the owner of the premises or building (including the precincts thereof) referred to in section 93;] (c) the address to which communications relating to the factory may be sent; (d) the nature of the manufacturing process— (i) carried on in the factory during the last twelve months in the case of factories in existence on the date of the commencement of this Act; and (ii) to be carried on in the factory during the next twelve months in the case of all factories; [(e) the total rated horse power installed or to be installed in the factory, which shall not include the rated horse power of any separate stand-by plant;] (f) the name of the manager of the factory for the purposes of this Act; (g) the number of workers likely to be employed in the factory; (h) the average number of workers per day employed during the last twelve months in the case of a factory in existence on the date of the commencement of this Act; (i) such other particulars as may be prescribed.",
+      "citation": {
+        "title": "THE FACTORIES ACT, 1948",
+        "url": "https://www.labour.gov.in/static/uploads/2025/06/b878b8d9f3d9abc62fbe0a6c92f606e3.pdf",
+        "transport": "https"
+      }
+    },
+    {
+      "key": "steps",
+      "primaryClaim": "ED record describes a largely digitised process ('Submit Factory Licence application ... Through the digitised/online process', automationLevel 'partial') but could not name the portal ('Factory Licence digitised/online portal (specific portal name not given in source)', url null); later steps are departmental scrutiny at multiple levels, deficiency correction, physical inspection by the competent departmental authority, then issuance.",
+      "verdict": "confirmed",
+      "sourceSays": "2. In this Act, unless the context otherwise requires,— (a) \"agency\" means single window agency, namely, Silpa Sathi established under the aegis of the West Bengal Industrial Development Corporation ... to provide services required for setting up industries and operating business in the State of West Bengal through Single Window System; ... (h) \"services\" means grant or issue of permissions, approvals, certificates, enrolments, registrations, licences, allotments, consents, no objection certificates and includes incentives to be granted by any competent authority to set up and operate a business; ... 6. (1) The Single Window System shall have— (a) the provision of online submission of common application; (b) the provision of online payment; (c) the provision of online approval, tracking of real time status of application and delivery of services; (d) the provision of sending out alert through short message service (SMS) or e-mail notification to the applicant as and when the application is submitted and/or query is raised and/or application is approved/rejected; (e) the provision of sending automated short message service (SMS) or e-mail notification to the respective Head of competent authority concerned with status information on the applications in which clearances are likely to breach the stipulated time.",
+      "citation": {
+        "title": "The West Bengal Single Window System (Management, Control and Miscellaneous Provisions) Act, 2017 — Kolkata Gazette, Extraordinary, 25 September 2017, Law Department Notification No. 1147-L (India Code bitstream '2433_sarthac_act_rule.pdf')",
+        "url": "https://indiacode.gov.in/server/api/core/bitstreams/085c8829-9207-46b7-9a61-1af02cf2e193/content",
+        "transport": "https"
+      }
+    }
+  ],
+  "sourcesRead": [
+    "https://wbidc.com/home/industrial-parks/budge-budge-garment-park/State-Approvals-Clearances-NOC-status",
+    "https://www.wbidc.com/home/industrial-parks/paridhan/State-Approvals-Clearances-NOC-status",
+    "https://wbidc.com/",
+    "https://dgfasli.gov.in/",
+    "https://dgfasli.gov.in/public/Admin/Cms/AllPdf//667d45ce57e222.11029770.pdf",
+    "https://paschimmedinipur.gov.in/",
+    "https://indiacode.gov.in/",
+    "https://indiacode.gov.in/server/api/discover/search/objects?query=West%20Bengal%20Single%20Window%20System%20Act%202017&size=8",
+    "https://indiacode.gov.in/server/api/discover/search/objects?query=West%20Bengal%20Right%20to%20Public%20Services%20Act&size=8",
+    "https://indiacode.gov.in/server/api/discover/search/objects?query=West%20Bengal%20Factories%20Rules%201958&size=8",
+    "https://indiacode.gov.in/server/api/discover/search/objects?query=Factories%20Act%201948&size=20",
+    "https://indiacode.gov.in/server/api/core/items/95a48c2f-32e3-4ab3-ae03-ece0be734d0c",
+    "https://indiacode.gov.in/server/api/core/bitstreams/085c8829-9207-46b7-9a61-1af02cf2e193/content",
+    "https://indiacode.gov.in/server/api/core/bitstreams/869a173d-600b-416a-80f6-7ffbe7e275ae/content",
+    "https://indiacode.gov.in/server/api/core/bitstreams/b2b360ff-ed2d-45c6-acfa-97da2052fe13/content",
+    "https://www.labour.gov.in/static/uploads/2025/06/b878b8d9f3d9abc62fbe0a6c92f606e3.pdf",
+    "https://www.dpiit.gov.in/static/uploads/2025/07/e64f8a9ebf2694ed70a88f497799ef55.pdf",
+    "https://dpiit.gov.in/",
+    "https://www.nsws.gov.in/",
+    "https://www.nsws.gov.in/portal/westbengal",
+    "https://www.nsws.gov.in/portal/approval-details/uttarakhand/department-of-labour/registration-grant-of-license-under-the-factories-act-1948",
+    "https://www.nsws.gov.in/portal/static/js/main.dd0796e3.chunk.js",
+    "https://www.nsws.gov.in/gateway-sec/form-builder-sec/marketplace/state-license-summary-list?stateName=West%20Bengal",
+    "https://silpasathi.wb.gov.in/ (FAILED — TLS connection reset by peer)",
+    "http://silpasathi.wb.gov.in/ (FAILED — HTTP 503 from egress proxy, 'upstream connect error ... connection timeout')",
+    "https://silpasathi.wb.gov.in/service-delivery-timeline (FAILED — TLS connection reset; also returns HTTP 503 via WebFetch)",
+    "http://silpasathi.wb.gov.in/service-delivery-timeline (FAILED — HTTP 503 upstream connect error)",
+    "http://silpasathi.wb.gov.in/eodb-timelines (FAILED — HTTP 503 upstream connect error)",
+    "https://www.silpasathi.wb.gov.in/ (FAILED — TLS connection reset)",
+    "https://trainingss.wb.gov.in/service-delivery-timeline (FAILED — TLS connection reset)",
+    "http://trainingss.wb.gov.in/service-delivery-timeline (FAILED — HTTP 503 upstream connect error)",
+    "https://wbfactories.gov.in/ (FAILED — TLS connection reset)",
+    "http://wbfactories.gov.in/ (FAILED — HTTP 503 upstream connect error)",
+    "https://wbfactories.gov.in/faq (FAILED — TLS connection reset)",
+    "http://wbfactories.gov.in/fees-upto-2015 (FAILED — HTTP 503 upstream connect error)",
+    "https://factories.wb.gov.in/main/files/contents/rules/2_factories_rules_1958.pdf (FAILED — TLS connection reset)",
+    "http://factories.wb.gov.in/main/files/contents/rules/2_factories_rules_1958.pdf (FAILED — HTTP 503 upstream connect error)",
+    "https://industry.wb.gov.in/Reforms.html (FAILED — TLS connection reset)",
+    "http://industry.wb.gov.in/Reforms.html (FAILED — HTTP 503 upstream connect error)",
+    "http://labour.wb.gov.in/node/34 (FAILED — HTTP 503 upstream connect error)",
+    "http://wb.gov.in/government-schemes-details-shilpasathi.aspx (FAILED — HTTP 503 upstream connect error)",
+    "https://wblc.gov.in/ (FAILED — TLS connection reset)",
+    "https://silpasathi.in/ (FAILED — CONNECT tunnel failed, 502)",
+    "http://silpasathi.in/ and http://www.silpasathi.in/ (FAILED — DNS does not resolve)",
+    "https://paschimmedinipur.gov.in/scheme/silpasathi/ (FAILED this session — TLS connection reset, although the district site root loaded with HTTP 200)",
+    "https://eodb.dpiit.gov.in/ (FAILED — TLS connection reset)",
+    "https://www.indiacode.gov.in/ (FAILED — TLS 'unrecognized name'; the apex host indiacode.gov.in works)",
+    "https://archive.org/wayback/available?url=silpasathi.wb.gov.in/service-delivery-timeline (FAILED — HTTP 429)",
+    "http://web.archive.org/cdx/search/cdx?url=silpasathi.wb.gov.in* (FAILED — HTTP 403 'Blocked by egress policy')"
+  ],
+  "remarks": [
+    "THE 65-DAY FIGURE COULD NOT BE VERIFIED OR REFUTED. The authoritative page is Silpasathi's own 'service delivery timeline' listing, and every West Bengal state-hosted host remained unreachable from this session: *.wb.gov.in (silpasathi, trainingss, factories, labour, industry, wb.gov.in root) resets the TLS handshake, and the http:// fallback that unlocked Kerala does NOT work here — http returns HTTP 503 'upstream connect error or disconnect/reset before headers ... connection timeout' from the egress proxy, i.e. the failure is at the network path, not at TLS. The state's own non-wb.gov.in hosts behave identically: wbfactories.gov.in (164.100.163.185, the Directorate of Factories portal that WBIDC links to for Factory Licence) and wblc.gov.in (164.100.161.176) both fail the same way, so the problem is the West Bengal government network, not the wb.gov.in domain suffix. Reachable in the same session: wbidc.com, paschimmedinipur.gov.in (root), indiacode.gov.in, labour.gov.in, dgfasli.gov.in, dpiit.gov.in, nsws.gov.in. archive.org is blocked by this session's egress policy, so no archived capture could be substituted.",
+    "Timeline — what WAS established, from fetched Gazette text, is the LEGAL BASIS the ED record flagged as MISSING, though not the number of days. The West Bengal Single Window System (Management, Control and Miscellaneous Provisions) Act, 2017, s.2(k), defines 'stipulated time limit' as 'maximum time to provide the service as defined in clause (m) of section 2 of the West Bengal Right to Public Services Act, 2013' (https://indiacode.gov.in/server/api/core/bitstreams/085c8829-9207-46b7-9a61-1af02cf2e193/content). The WB Right to Public Services Act, 2013, s.3(2), provides that 'The State Government may from time to time. specify the Public Authority, services to be rendered, Designated Officer, Appellate Officer, Reviewing Officer and stipulated time limit for service by notification in the Official Gazette', and s.5(1) that the limit 'shall commence from the date when required application for notified service is submitted' (https://indiacode.gov.in/server/api/core/bitstreams/869a173d-600b-416a-80f6-7ffbe7e275ae/content). So any Factory Licence day-count is fixed by an RTPS Gazette notification, not by the Factories Act or the Single Window Act. That notification (hosted on labour.wb.gov.in / lc.wb.gov.in) could not be fetched.",
+    "MATERIAL CAVEAT ON HOW ANY SUCH DAY-COUNT IS COUNTED: rule 5 of the West Bengal Right to Public Services Rules, 2013 states 'Public holidays shall be excluded from the stipulated time limit-— Public holidays shall be excluded from the stipulated time limit for providing the services', and rule 4(1) provides that where a required document was not enclosed, 'the stipulated time limit for such service shall start from the date of production of the document' (https://indiacode.gov.in/server/api/core/bitstreams/b2b360ff-ed2d-45c6-acfa-97da2052fe13/content). If WB's Factory Licence limit is an RTPS-notified limit, 65 'days' is therefore a holiday-excluded clock that restarts on deficiency correction — materially longer in elapsed calendar time than 65 days, and not directly comparable with other states' calendar-day figures in the pilot. This also squares with the ED finding that deficiency communication delays stretch the process.",
+    "Deemed approval — supporting evidence beyond the cited Factories Act text: the WB Right to Public Services Act, 2013 contains NO deeming provision. Its remedy for a missed limit is appeal, not automatic grant: s.6(1) 'Any person, whose application is rejected under sub-section (2) of section 5 or who is not provided the service within the stipulated time limit, may file an appeal to the Appellate Officer within thirty days from the date of rejection of application or the expiry of the stipulated time limit', with a second appeal to the Reviewing Officer and a penalty under s.7 of 'not less than rupees 250 and not more than rupees ...' on the Designated Officer. The West Bengal Single Window System Act, 2017 likewise contains no deemed-approval clause; its only time-pressure mechanism is s.6(1)(e), an automated SMS/e-mail alert to the head of the competent authority for applications 'likely to breach the stipulated time'. Read with Factories Act s.6(2), which confines deemed grant to the clause (aa) site/construction/extension permission (three months), the position is: a statutory deemed approval exists for the factory PLAN/construction permission step, but no deemed approval was found anywhere for the Factory Licence itself. The ED's 'unclear' is therefore most likely 'none for the licence'. This is an inference from the statutes fetched; it is not a positive statement by a West Bengal source that no deemed approval exists, and the West Bengal Factories Rules, 1958 (which could in principle add one) could not be fetched.",
+    "Documents — the cited Factories Act s.6(1)(e) + s.7(1) particulars are the CENTRAL statutory minimum that conditions grant/renewal of the licence; they are not West Bengal's operational checklist. The actual WB checklist lives in the West Bengal Factories Rules, 1958 (Form 2 / Form 3 series) and on the Silpasathi 'dept-wise comprehensive checklist' and 'License under The Factories Act, 1948' user-manual pages, none of which could be fetched. Note that s.7(1)(e) requires total rated horse power and s.7(1)(g) the number of workers — the same two variables on which the WB licence fee schedules are understood to be banded, which is consistent with, but does not prove, the ED/renewal observation about plan resubmission.",
+    "Fees — not verifiable here, but the statutory locus was confirmed: Factories Act, 1948 s.6(1)(d) empowers the State Government to make rules 'requiring the registration and licensing of factories ... and prescribing the fees payable for such registration and licensing and for the renewal of licences' (https://www.labour.gov.in/static/uploads/2025/06/b878b8d9f3d9abc62fbe0a6c92f606e3.pdf). The fee schedules themselves (Schedules A/B/C of the West Bengal Factories Rules, 1958, as amended) are published only on factories.wb.gov.in and wbfactories.gov.in, both unreachable, so no amount or banding basis is asserted here. India Code carries West Bengal Acts but not the West Bengal Factories Rules, 1958 (searched; not present).",
+    "Steps — corroboration beyond the cited Single Window Act: two independent WBIDC industrial-park approval tables list 'Factory License under Factories Act 1948' as a PRE-OPERATION approval from the 'Directorate Of Factories, Department Of Labour' (and 'Approval of Factory Plan under the Factories Act, 1948' as a separate PRE-ESTABLISHMENT approval), with the Factory Licence row hyperlinked to https://wbfactories.gov.in/ — confirming the ED's issuing authority ('Labour Department, Government of West Bengal') and confirming that plan approval and licence are two distinct services. DGFASLI's 'List of Chief Inspectors of Factories/Director Industrial Safety and Health (as on 05.06.2024)' gives the West Bengal entry as 'Chief Inspector of Factories, New Secretariat Bldg., (8th Floor),1, K.S. Roy Road, West Bengal, Kolkata - 700 001, (O) 033- 22103274'. A West Bengal Government notification published on dpiit.gov.in (No. 686-ICE/O/IPI/GEN-MIS/14/2023, West Bengal Logistics Policy, 2023) describes 'The implementation of single window system - SilpaSathi, a 24*7 digital gateway for providing statutory compliances'. The ED's claim that a PHYSICAL INSPECTION is required before issuance could not be verified from any source fetched this session.",
+    "The portal the ED record could not name is Silpa Sathi: the Single Window System Act, 2017 s.2(a) names 'Silpa Sathi' as the statutory single window agency 'established under the aegis of the West Bengal Industrial Development Corporation', and WBIDC's own pages link to https://silpasathi.wb.gov.in. ed_data/WB.json portal.url is null and portal.name is 'specific portal name not given in source' — a reviewer can now fill that in from a Gazette source.",
+    "No FGD record exists for WB/FAL (fgd_data/WB.json carries only CTE, FBPA and RFNO), so the ED record was the sole primary source for every claim checked here.",
+    "Non-government aggregators (consultancy sites, slide-sharing copies of the 1958 Rules, Indian Kanoon) and WebSearch snippets did surface a '65 days' figure attributed to the Silpasathi service-delivery-timeline page; per the spec's anti-fabrication rule none of that was treated as verification, since the underlying official page could not be fetched and read this session. The timeline verdict is deliberately not_found rather than confirmed. It should be retried from an environment that can reach the West Bengal government network; the specific targets are https://silpasathi.wb.gov.in/service-delivery-timeline, https://silpasathi.wb.gov.in/eodb-timelines, and the Silpasathi user manual 'License under The Factories Act, 1948'."
+  ]
+}
