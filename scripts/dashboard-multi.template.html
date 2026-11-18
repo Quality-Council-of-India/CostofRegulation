@@ -325,8 +325,8 @@ table.dt td.n,table.dt th.n{text-align:right;font-family:var(--mono);font-varian
 .eqgrid{border-collapse:collapse;width:100%;font-size:11px}
 .eqgrid th,.eqgrid td{border:1px solid var(--border-2);padding:0}
 .eqgrid thead th{background:var(--bg);padding:7px 5px;font-size:9.5px;font-weight:800;color:var(--muted);text-align:center;writing-mode:vertical-rl;transform:rotate(180deg);height:118px;white-space:nowrap}
-.eqgrid thead th.corner{writing-mode:horizontal-tb;transform:none;text-align:left;padding:7px 10px;min-width:215px;height:auto}
-.eqgrid td.sub{text-align:left;padding:7px 10px;font-weight:700;color:var(--ink);font-size:11px;background:#fff}
+.eqgrid thead th.corner{writing-mode:horizontal-tb;transform:none;text-align:left;padding:7px 11px;width:300px;min-width:300px;height:auto;vertical-align:bottom}
+.eqgrid td.sub{text-align:left;padding:8px 11px;font-weight:700;color:var(--ink);font-size:11px;line-height:1.45;background:#fff;width:300px;min-width:300px;white-space:normal}
 .eqgrid td.c{text-align:center;height:30px;font-weight:800;font-size:11px}
 .eqgrid td.c.n0{background:#fff;color:var(--border-2)}
 .eqgrid td.c.n1{background:var(--primary-light);color:var(--primary-dark)}
@@ -754,7 +754,7 @@ function renderEquiv(){
     codes.map(c=>`<th>${esc((ST_BY_CODE[c]?ST_BY_CODE[c].name:c).slice(0,22))}</th>`).join('')+
     `</tr></thead><tbody>`+
     d.canonicalSubStages.map(ss=>{
-      return `<tr><td class="sub">${esc(ss.label.length>74?ss.label.slice(0,72)+'…':ss.label)}</td>`+
+      return `<tr><td class="sub">${esc(ss.label)}</td>`+
         codes.map(c=>{
           const m = d.stateMappings[c];
           const n = m.mappings.filter(x=>x.subStages.includes(ss.code)).length;
