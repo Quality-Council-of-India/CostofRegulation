@@ -1,0 +1,518 @@
+{
+  "license": "FAL",
+  "classifiedAt": "2026-11-18",
+  "states": {
+    "AP": {
+      "statedMin": 7,
+      "statedMax": 7,
+      "journeyScope": "licence-only",
+      "dayUnit": "working",
+      "clockBehaviour": "unclear",
+      "authority": "notified",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "ED timeline basis: 'Statutory timeline of 7 working days for disposal of the factory license application'; the antecedent is in the ED's own step 1, 'Obtain factory building plan approval (CAF-1)', and in the finding 'which documents carry forward from the plan-approval stage (CAF-1) versus what must be freshly submitted for the license (CAF-2)' — ed_data/AP.json",
+        "dayUnit": "ED timeline text: 'The factory license must be issued within a statutory 7 working days of application, applied uniformly across hazardous, non-hazardous and general category industries' — ed_data/AP.json",
+        "clockBehaviour": "No phrase in the record states what happens to the 7-day clock on a deficiency query; the only related text is 'leading to a deficiency/query (NCS) on the application', which says nothing about the time limit — ed_data/AP.json",
+        "authority": "ED timeline basis uses the word 'Statutory timeline of 7 working days for disposal of the factory license application', reinforced by the finding 'If an application is not disposed of within the 7 working day statutory timeline, the concerned Inspector is required to submit an explanation to the Commissioner of Industries' — ed_data/AP.json",
+        "promisedOrExperienced": "'The factory license must be issued within a statutory 7 working days of application' is a commitment, not an observed duration; the FGD gap expressly records that participants did not state a total elapsed time — ed_data/AP.json, fgd_data/AP.json"
+      },
+      "confidence": "low",
+      "comparisonGroup": "partial-journey",
+      "determinable": true,
+      "note": "Confidence is low because determinability turns on an unverified authority: 'notified' rests on the word 'statutory' alone — no gazette, RTS or PSGA instrument is named, AP has no published-rules lane, and clockBehaviour is unknown even though the record describes a recurring deficiency query (NCS) on the Stability Certificate."
+    },
+    "AR": {
+      "statedMin": 10,
+      "statedMax": 12,
+      "journeyScope": "licence-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "unclear",
+      "authority": "official-estimate",
+      "promisedOrExperienced": "experienced",
+      "evidence": {
+        "journeyScope": "ED timeline basis: 'Expert's own estimate for new online applications from submission to decision' — ed_data/AR.json",
+        "dayUnit": "Neither lane states a unit. ED says only 'Average processing time is around 10 to 12 days from submission to decision'; the published portal record says only 'Timeline of Service:- 15 Days'. The one 'working days' phrase in the published lane governs query-raising, not the service clock: 'All clarifications/queries related to applications submitted through the online portal shall be sought with 15 working days of receiving the application' — ed_data/AR.json, secondary_data/AR.json",
+        "clockBehaviour": "No phrase states what happens to the clock when a file is returned; the record says only 'Files spend the longest time pending after being sent back to the applicant for corrections' — ed_data/AR.json",
+        "authority": "ED timeline basis: 'Expert's own estimate for new online applications from submission to decision' — ed_data/AR.json",
+        "promisedOrExperienced": "'Average processing time is about 10-12 days from submission to decision' describes observed performance — ed_data/AR.json"
+      },
+      "confidence": "high",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "dayUnit is nowhere stated, and the figure is the interviewee's own estimate.",
+      "note": "Published-rules conflict recorded and followed: the notified service limit is 15 days ('Timeline of Service:- 15 Days', EoDB portal service record serviceId=13), not 10-12; the portal's own average (7) and median (6) are faster still. The published lane settled the number but not the day unit."
+    },
+    "AS": {
+      "statedMin": 15,
+      "statedMax": 45,
+      "journeyScope": "licence-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "unclear",
+      "authority": "unclear",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "Step 1 records the antecedent: 'Factory obtains plan approval and stability certificate acceptance from the same department (precondition)'; the figures attach to 'registration and licensing' — fgd_data/AS.json",
+        "dayUnit": "No unit word appears against any of the three figures — fgd_data/AS.json",
+        "clockBehaviour": "No phrase addresses the clock; the record says only 'objections on the occupier nomination, the board resolution and the fee schedule came one after another rather than together' — fgd_data/AS.json",
+        "authority": "Three mutually unreconciled authorities sit behind one range: 'the Citizen's Charter allows thirty days for registration and licensing, the Assam Factories (Amendment) Rules, 2017 prescribe forty-five, and neither is reconciled with the requirement to apply only fifteen days before the premises are used' — fgd_data/AS.json",
+        "promisedOrExperienced": "All three figures are prescriptive standards ('the Citizen's Charter allows thirty days', 'the Assam Factories (Amendment) Rules, 2017 prescribe forty-five'), not reported durations — fgd_data/AS.json"
+      },
+      "confidence": "high",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "dayUnit and authority both unstated; the 15-45 range is built from three different instruments that the record itself says are unreconciled.",
+      "note": "statedMin 15 is not a processing timeline at all — it is the pre-use application window ('apply at least fifteen days before the factory is taken into use'), so min and max measure different things and the range must not be charted as a band."
+    },
+    "CG": {
+      "statedMin": 30,
+      "statedMax": 30,
+      "journeyScope": "licence-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "unclear",
+      "authority": "unclear",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "ED step 2 records the antecedent: 'Obtain Factory Drawing Approval before construction of the factory can commence', and the finding 'Factory Licence is processed separately after obtaining required approvals such as Factory Drawing Approval' — ed_data/CG.json",
+        "dayUnit": "No unit word anywhere; the ED says 'No numerical statutory or average processing timeline is stated in this ED' — ed_data/CG.json",
+        "clockBehaviour": "No phrase addresses the clock; the record says only 'Multiple deficiencies or remarks raised across different stages can further extend the effective processing time' — ed_data/CG.json",
+        "authority": "No instrument is named anywhere. The only figure is the FGD finding 'The prescribed processing timeline discussed was 30 days, but internal movement can affect actual processing time' — fgd_data/CG.json",
+        "promisedOrExperienced": "'The prescribed processing timeline discussed was 30 days' — fgd_data/CG.json"
+      },
+      "confidence": "low",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "The ED record carries no figure at all; the only number is an FGD mention with no unit and no named instrument.",
+      "note": "statedMin/statedMax of 30 is NOT from the primary ED record (minDays and maxDays are both null there); it is taken from one FGD finding, and the dataset itself flags this as INCONSISTENT between the two lanes. CG has no published-rules lane to settle it."
+    },
+    "DL": {
+      "statedMin": 60,
+      "statedMax": 60,
+      "journeyScope": "licence-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "unclear",
+      "authority": "notified",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "Notified Schedule entry 233: 'Grant of factory license after receipt of complete documents along with prescribed fee | 60 days | Labour' — the clock covers the licence grant alone and starts only on complete documents — via secondary_data/DL.json",
+        "dayUnit": "No unit word in either official source. Rule 11A says only 'within 60 days from the date of the application', and the departmental table's column is 'Prescribed Timeline (In Days)' — via secondary_data/DL.json",
+        "clockBehaviour": "The FAQ records that defects are communicated ('All online applications are scrutinized and in case of any defect the same will be communicated to the applicant online, pointing out the defects') but says nothing about the 60-day limit; the notified entry's 'after receipt of complete documents' bears on when the clock starts, not on a mid-stream query — via secondary_data/DL.json",
+        "authority": "Department of Information Technology, GNCTD Notification No. F6(100)/IT/2014/7319-7353 dated 13 August 2014 amending the Schedule to the Delhi (Right of Citizen to Time Bound Delivery of Services) Act, 2011, entry 233 — via secondary_data/DL.json",
+        "promisedOrExperienced": "Rule 11A, second proviso: 'within 60 days from the date of the application, licence shall be deemed to have been granted or renewed' — a limit, not an observed duration — via secondary_data/DL.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "dayUnit is unstated in every official source located, so the 60 cannot be placed on a calendar or working axis.",
+      "note": "The field record has no timeline at all ('Participants did not discuss approval timelines in detail'); 60 comes entirely from the published-rules lane. Two official sources conflict and the notified one was preferred: the Labour Department's online-services page gives 30 ('Prescribed Timeline (In Days)') while the RTS Act Schedule and the Rule 11A deemed-approval trigger both give 60."
+    },
+    "DNHDD": {
+      "statedMin": 20,
+      "statedMax": 25,
+      "journeyScope": "licence-plus-antecedent",
+      "dayUnit": "working",
+      "clockBehaviour": "pauses",
+      "authority": "departmental-practice",
+      "promisedOrExperienced": "experienced",
+      "evidence": {
+        "journeyScope": "ED timeline text: 'The end-to-end process, from plan approval through license registration to certificate download, takes approximately 20 to 25 working days' — ed_data/DNHDD.json",
+        "dayUnit": "ED: 'takes approximately 20 to 25 working days'; corroborated by the published portal column heading 'Timeline (Working Days)' and by the Labour Department order's 'Registration of Factories under the Factories Act, 1948 / Factory Licence | 20 Days (Working Days)' — ed_data/DNHDD.json and secondary_data/DNHDD.json",
+        "clockBehaviour": "UT (Right of Citizens to Public Services) Rules, 2022, rule 6: 'The public holidays shall not be included while calculating the stipulated time limit for delivery of service and the number of days where the applicant has not responded to any query of the department shall not be included in calculation of time limit' — via secondary_data/DNHDD.json",
+        "authority": "ED timeline basis: 'UT-level administrative practice, not a statutory turnaround prescribed under the Factories Act, 1948' — ed_data/DNHDD.json",
+        "promisedOrExperienced": "'The end-to-end process takes approximately 20 to 25 working days, reflecting UT-level administrative practice rather than a statutory turnaround prescribed under the Factories Act, 1948' describes what happens, not what is promised — ed_data/DNHDD.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "full-journey-working",
+      "determinable": true,
+      "note": "Scope conflict recorded: the notified RTS Rules, 2022 Schedule-I treat these as two separate services — 'Registration of license under The Factories Act, 1948 | 20' and 'Approval of plan and permission to construct/extend/or take into use any building as a factory | 15' — so the notified sum for the same end-to-end journey is ~35 working days against the ED's 20-25; clockBehaviour 'pauses' is taken from rule 6, which governs the notified limit rather than the ED's practice estimate."
+    },
+    "GJ": {
+      "statedMin": null,
+      "statedMax": null,
+      "journeyScope": "unclear",
+      "dayUnit": "unclear",
+      "clockBehaviour": "unclear",
+      "authority": "unclear",
+      "promisedOrExperienced": "experienced",
+      "evidence": {
+        "journeyScope": "No timeline exists to scope: \"No consistent timeline could be established; processing was described as frequently remaining 'under process' for extended, unpredictable periods\" — fgd_data/GJ.json",
+        "dayUnit": "No figure and no unit are stated — fgd_data/GJ.json",
+        "clockBehaviour": "Step 4 says only 'Licence approval, subject to no fixed turnaround time'; nothing describes a clock — fgd_data/GJ.json",
+        "authority": "'No consistently enforced turnaround time was reported' — no instrument, estimate or standard is on record — fgd_data/GJ.json",
+        "promisedOrExperienced": "The only durations on record are lived ones: 'participants cited pending periods of six months, one year, two years and up to eight years in one case' — fgd_data/GJ.json"
+      },
+      "confidence": "high",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "There is no timeline figure at all for Gujarat — minDays and maxDays are both null and the record states no turnaround time is enforced.",
+      "note": "FGD-only (Mode B) record; Gujarat has no ED pass for FAL and no published-rules lane, so nothing can be recovered from another source."
+    },
+    "HP": {
+      "statedMin": 45,
+      "statedMax": 45,
+      "journeyScope": "licence-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "unclear",
+      "authority": "unclear",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "ED timeline text: 'This is preceded by the Factory Building Plan Approval (BPA) step, which has a separate 30-day timeline, also with deemed approval', and step 4 'Building plan approved; applicant becomes eligible to apply for a Factory License' — ed_data/HP.json",
+        "dayUnit": "No unit word in the ED record or in any official source located; the departmental checklist says only '20 days after completion of all codal formalities' and the OFRIS FAQ 'Registration & Renewal of factory licence- Thirty days' — ed_data/HP.json, secondary_data/HP.json",
+        "clockBehaviour": "No phrase addresses the clock in either lane — ed_data/HP.json, secondary_data/HP.json",
+        "authority": "The ED attributes the figure to the 'Occupational Safety, Health and Working Conditions (OSH) Code framework and related state rules', but the published-rules lane records that 'the 45-day ED figure is unsupported by any of them' and that the official sources themselves disagree (20 days under the PSDG notification vs thirty days in the OFRIS FAQ) — ed_data/HP.json, secondary_data/HP.json",
+        "promisedOrExperienced": "'Factory License Approval has a prescribed timeline of 45 days, with deemed approval if no decision is communicated' — ed_data/HP.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "No source states the day unit, and the stated authority for the 45-day figure is refuted by the published-rules lane without a replacement being settled.",
+      "note": "Published-rules conflict recorded and followed: no official source supports 45 days; the departmental checklist gives 20 days under PSDG notification No. Shram (A)6-2/10-Part-File-1-L dated 27.02.2016 and the OFRIS FAQ gives thirty, and the underlying notification itself could not be read (link returns HTTP 404). Only the ED's 30-day BPA figure is corroborated."
+    },
+    "HR": {
+      "statedMin": 30,
+      "statedMax": 45,
+      "journeyScope": "licence-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "unclear",
+      "authority": "business-reported",
+      "promisedOrExperienced": "experienced",
+      "evidence": {
+        "journeyScope": "The clock runs from filing: 'Authority comments typically appear only 10 to 15 days after submission, and the application then passes through three to four authority levels' — fgd_data/HR.json",
+        "dayUnit": "The record flags its own ambiguity: 'The stated time limit itself was cited inconsistently, variously as 30 days and as 45 working days' — the two figures cited are exactly the stated min and max, so the unit of the recorded range cannot be fixed — fgd_data/HR.json",
+        "clockBehaviour": "No phrase addresses the clock; the record says only 'No fixed response time communicated for the department side; file goes on hold until comments come from their side' — fgd_data/HR.json",
+        "authority": "Timeline basis: 'Participant testimony: a fresh (first-time) license reported taking about 30 to 45 days in practice' — fgd_data/HR.json",
+        "promisedOrExperienced": "'A fresh license takes about a month in practice (30 to 45 days)' — fgd_data/HR.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "The record itself records the time limit as cited 'variously as 30 days and as 45 working days', so the unit behind the 30-45 range cannot be fixed.",
+      "note": "The published-rules lane did not settle this: it could only find a Haryana Enterprise Promotion Centre service-charter commitment of 30 days for 'all industrial services', expressly caveated as 'NOT a Factories Act, 1948 notified or statutory timeline', served from a page returning an anomalous HTTP 404; the Labour Department's own site was unreachable for a third pass."
+    },
+    "JH": {
+      "statedMin": 30,
+      "statedMax": 30,
+      "journeyScope": "licence-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "resets",
+      "authority": "departmental-practice",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "ED timeline text: 'The current online procedure stipulates a 30-day processing timeline for a complete factory license application' — ed_data/JH.json",
+        "dayUnit": "No unit word in either lane; the published SOP states only 'within 12 days of submission of correct and complete application', 'within 8 days of receipt of recommendation from IF' and 'within 10 days from the receipt of recommendation from DCIF' — ed_data/JH.json, secondary_data/JH.json",
+        "clockBehaviour": "Published SOP: 'In case of any clarifications, the applicant is informed on actions to be taken and start date will be after all the clarifications have been received' — the clock starts afresh from the clarification date — via secondary_data/JH.json",
+        "authority": "ED timeline basis: 'Official procedure: 12-day sub-deadline for the Inspector to forward recommendation, within an overall 30-day processing window for complete applications'; the published source is a departmental 'Standard Operating Procedure and Timelines for Online Applications', not a gazette, RTS or PSGA instrument — ed_data/JH.json, secondary_data/JH.json",
+        "promisedOrExperienced": "'The current online procedure stipulates a 30-day processing timeline' — ed_data/JH.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "No source states whether the 30 days are calendar or working.",
+      "note": "This is the clearest demonstration of the binding constraint: Jharkhand has a published SOP whose three sub-limits total exactly 30 and which settles the clock question outright, and the record still cannot be charted because neither the SOP nor the ED ever says what a 'day' is."
+    },
+    "JK": {
+      "statedMin": 30,
+      "statedMax": 30,
+      "journeyScope": "licence-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "pauses",
+      "authority": "notified",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "ED step 1 'Apply online via the JK Single Window portal for Factory Registration (with Building Plan Approval where applicable)' and the remark 'Factory licence and building plan approval processes are closely linked; applicants typically require both' — ed_data/JK.json",
+        "dayUnit": "No unit word appears against the 30-day figure anywhere in the record; JK has no published-rules lane — ed_data/JK.json",
+        "clockBehaviour": "'The 30-day processing clock stops when a query/clarification is raised and is pending with the applicant, and restarts only once the applicant resubmits' — ed_data/JK.json",
+        "authority": "ED timeline basis: 'Prescribed 30-day processing timeline under the Public Services Guarantee Act, 2018' — ed_data/JK.json",
+        "promisedOrExperienced": "'The prescribed processing timeline is 30 days' — ed_data/JK.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "The PSGA-prescribed 30 days are never described as calendar or working.",
+      "note": "clockBehaviour is read as 'pauses' because the record says the clock 'stops' and 'restarts only once the applicant resubmits'; 'restarts' could alternatively be read as a reset to zero, which the record does not disambiguate. The FGD lane separately records that participants 'did not know any prescribed processing timeline' at all."
+    },
+    "KL": {
+      "statedMin": 90,
+      "statedMax": 120,
+      "journeyScope": "applicant-inclusive",
+      "dayUnit": "calendar",
+      "clockBehaviour": "resets",
+      "authority": "business-reported",
+      "promisedOrExperienced": "experienced",
+      "evidence": {
+        "journeyScope": "Timeline basis: 'Participant-reported average time from building-plan preparation to final approval for a fresh factory license'; step 1 is the applicant's own 'Engage licensed engineer/agency for structural plan and blueprint preparation' — fgd_data/KL.json",
+        "dayUnit": "The record states the duration in calendar months, not in days of any other kind: 'takes 3 months on average' and \"One participant cited 'three months, four months' as the typical range\" — fgd_data/KL.json",
+        "clockBehaviour": "'Applications are frequently rejected up to 3 times for minor technical or layout discrepancies, increasing total processing time', corroborated by the notified fee schedule which prices every \"second and subsequent scrutinise revision after total rejection\" as a further flat Rs. 1,904 per application — fgd_data/KL.json and secondary_data/KL.json",
+        "authority": "Timeline basis: 'Participant-reported average time from building-plan preparation to final approval for a fresh factory license' — fgd_data/KL.json",
+        "promisedOrExperienced": "'Obtaining a fresh factory license, from initial building-plan preparation to final approval, takes 3 months on average' — fgd_data/KL.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "full-journey-calendar",
+      "determinable": true,
+      "note": "This record is WIDER than any other in the set — it includes the applicant's own plan-preparation time and other departments' clearances — so even inside full-journey-calendar it must not be charted against a departmental figure; the published-rules lane records the comparable statutory ceiling as 50 days (Permit 30 days at Sl. 1 plus Registration and grant of Licence 20 days at Sl. 3, Kerala RTS notification), and confirms the Permit is a mandatory antecedent ('requires to get the factory permit approval before applying for the registration')."
+    },
+    "MH": {
+      "statedMin": 40,
+      "statedMax": 50,
+      "journeyScope": "licence-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "unclear",
+      "authority": "business-reported",
+      "promisedOrExperienced": "experienced",
+      "evidence": {
+        "journeyScope": "'The period from submission to grant runs to about forty to fifty days, with a provisional licence issued in the interim'; the antecedent is recorded in the record's own issuingAuthority note, 'plan approval (by the Directorate of Industrial Safety and Health) is described as a prerequisite for the Factory Licence' — fgd_data/MH.json",
+        "dayUnit": "No unit word attaches to the reported figure: 'Approval takes about forty to fifty days overall'. The published lane's unit statement — 'the prescribed time limits exclude public holidays' — governs the notified 7/30-day limits, not this reported duration — fgd_data/MH.json, secondary_data/MH.json",
+        "clockBehaviour": "No phrase addresses the clock; the record says only 'Department raises queries about 15 days after submission, typically over 4-6 rounds, communicated by phone call and message' — fgd_data/MH.json",
+        "authority": "Timeline basis: 'Participant-reported practical duration; a provisional licence is issued around the 15-day stage' — fgd_data/MH.json",
+        "promisedOrExperienced": "FGD quote recorded in the published-rules check: 'It takes forty to fifty days.' — fgd_data/MH.json, secondary_data/MH.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "The reported 40-50 days carry no stated unit, and the published unit rule attaches to a different (notified) figure.",
+      "note": "Published-rules conflict recorded: the notified RTS limits are 30 days for hazardous and 7 days for other factories, explicitly 'exclude public holidays', with a statutory deemed licence for non-hazardous factories 'within a period of seven working days' — so Maharashtra's notified regime and its lived 40-50 days are two different quantities and neither should be charted as the other."
+    },
+    "MN": {
+      "statedMin": 90,
+      "statedMax": 90,
+      "journeyScope": "licence-only",
+      "dayUnit": "working",
+      "clockBehaviour": "unclear",
+      "authority": "notified",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "The PSDG Schedule lists the licence and the plan permission as two distinct notified services: Sl. No. 7 'Approval of application for registration, grant and renewal of licence under Factories Act,1948' — Timeline '90'; Sl. No. 8 'Approval of application for plan and permission to construct/ extend/or take into use any building as a factory' — Timeline '90' — via secondary_data/MN.json",
+        "dayUnit": "Manipur Public Services Delivery Guarantee Act, 2021, section 2(c): '\"Days\" means the working days, referred to as the timeline.' — via secondary_data/MN.json",
+        "clockBehaviour": "No phrase in the Act, the Rules or the ED record states what happens to the 90-day limit on a query — ed_data/MN.json, secondary_data/MN.json",
+        "authority": "Manipur Gazette Extraordinary No. 420, 10 March 2021 — The Manipur Public Services Delivery Guarantee Act, 2021 (Manipur Act No. 8 of 2021), Schedule — via secondary_data/MN.json",
+        "promisedOrExperienced": "Notified service limit, corroborated by the EoDB portal record 'Authority: Trade Commerce and Industries / Stipulated Time: 90 / Wait Time: 30 days' — via secondary_data/MN.json"
+      },
+      "confidence": "high",
+      "comparisonGroup": "partial-journey",
+      "determinable": true,
+      "note": "The ED record carried minDays null and doubted that its single 90-day figure belonged to the licence at all; the PSDG Schedule settles both questions — 90 is the licence's own notified limit, in working days, with the plan/permission stage a separate 90-day clock in front of it, so Manipur's real end-to-end statutory exposure is two sequential 90-working-day limits."
+    },
+    "MP": {
+      "statedMin": 7,
+      "statedMax": 7,
+      "journeyScope": "licence-only",
+      "dayUnit": "working",
+      "clockBehaviour": "resets",
+      "authority": "notified",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "The published process flow scopes the clock to document scrutiny of the licence application: Step 2 'Scrutiny of Documents submitted by Applicant' is the step given the timeline, and MPIDC lists 'Factory Plan Approval, Factory License' as separate services — via secondary_data/MP.json",
+        "dayUnit": "DISH/MPOnline process-flow sheet, Note 1: 'the defined timeline (i.e 7 working days)' — via secondary_data/MP.json",
+        "clockBehaviour": "Published process flow, Step 2: 'During the scrutiny if respective division office finds any shortcoming in the application submitted, they reject the application (Applicant can re-apply in that case).' — a shortcoming ends the application and a fresh one starts a fresh clock — via secondary_data/MP.json",
+        "authority": "MPIDC Best Practice note: 'Updated Timeline notified under PSG' = '07 Days', 'supported by the Madhya Pradesh Lok Sewaon Ke Pradan ki Guarantee (Sanshodan) Adhiniyam, 2021, notified on 3rd April 2021' — via secondary_data/MP.json",
+        "promisedOrExperienced": "A notified limit with deemed approval attached: 'in case the officer fails to process the application within the defined timeline (i.e 7 working days), an auto-generated Licence Certificate is issued to the applicant' — via secondary_data/MP.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "partial-journey",
+      "determinable": true,
+      "note": "The 7 comes entirely from the published-rules lane — the field record has minDays and maxDays null and states 'No timeline was communicated to applicants in this session' — and the same field record reports a renewal 'submitted in September was still pending with no indication of when it would be resolved', so 7 working days must be published as a notified promise and never as observed performance."
+    },
+    "NL": {
+      "statedMin": 1,
+      "statedMax": 2,
+      "journeyScope": "final-leg-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "unclear",
+      "authority": "official-estimate",
+      "promisedOrExperienced": "experienced",
+      "evidence": {
+        "journeyScope": "ED timeline text: 'Where the papers are correct, processing takes hardly one to two days'; the published flow chart shows a mandatory earlier stage the ED never mentions — 'No site shall be used for the location of a factory or no building in a factory should be constructed, reconstructed, extended or taken into use as a factory or part of a factory unless previous permission in writing is obtained from the Chief Inspector of Factories' — ed_data/NL.json and secondary_data/NL.json",
+        "dayUnit": "No unit word anywhere in the ED record, and the published lane found no in-force instrument stating a processing deadline at all — ed_data/NL.json, secondary_data/NL.json",
+        "clockBehaviour": "No phrase addresses the clock; the published flow chart shows only 'Rectification' loops off each scrutiny — secondary_data/NL.json",
+        "authority": "ED timeline basis: 'Officer-reported processing time when papers are correct; reflects a newly online process and low application volume. No statutory or public-service guarantee timeline has been notified.' — ed_data/NL.json",
+        "promisedOrExperienced": "'processing takes hardly one to two days, reflecting the newly online process and currently low application volume' — ed_data/NL.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "No day unit is stated, and the figure is an officer's own estimate against an expressly un-notified timeline.",
+      "note": "The published-rules lane was decisive on scope, confirming the premise of this exercise: the department's own 'Flow Chart for Registration of Factories' shows TWO sequential applications, with mandatory previous permission to construct in front of the licence stage that the 1-2 day figure measures. 'final-leg-only' could equally be read as 'licence-only' here; either reading lands in partial-journey, and both are blocked from grouping by the day unit."
+    },
+    "PB": {
+      "statedMin": 30,
+      "statedMax": 30,
+      "journeyScope": "licence-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "unclear",
+      "authority": "unclear",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "The figure attaches to the licence decision alone — 'a statutory 30-day timeline for Factory License approval' — and the antecedent clearances are recorded separately: 'Documents already approved by PPCB and Fire are required again for the main licence' — fgd_data/PB.json",
+        "dayUnit": "No unit word is stated — fgd_data/PB.json",
+        "clockBehaviour": "No phrase addresses the clock; the record says only 'files are blocked on minor issues (format, signature) with no grace period, and small errors require resubmission' — fgd_data/PB.json",
+        "authority": "The only attribution is second-hand and names no instrument: 'Participants refer to a statutory 30-day timeline for Factory License approval'; Punjab has no ED lane and no published-rules lane — fgd_data/PB.json",
+        "promisedOrExperienced": "'Factory License approvals take 1 year or more in practice, against the statutory 30-day timeline they cite' — the 30 is the cited standard, not the experience — fgd_data/PB.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "No day unit, and the 'statutory' attribution is a participant recollection naming no instrument, with no second lane to check it against.",
+      "note": "The widest promise-to-experience gap in the set: the same record states 'Factory License approvals take 1 year or more in practice' against the 30 it carries as statedMin and statedMax — charting Punjab at 30 would be the single most misleading number on the dashboard."
+    },
+    "PY": {
+      "statedMin": 30,
+      "statedMax": 30,
+      "journeyScope": "licence-only",
+      "dayUnit": "calendar",
+      "clockBehaviour": "unclear",
+      "authority": "notified",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "ED timeline basis: '20 days for Inspector's physical inspection + 5 days JCF review + 5 days CAF final approval, for a fresh licence'; the antecedent is in the published procedure — 'Inspector of Factories inspects the factory for verification. If found as per the plans approved by CIF' — ed_data/PY.json and secondary_data/PY.json",
+        "dayUnit": "Order No. 1234/CIF &B/83/2019, 'Fixation of Timeline for processing of Application', Sl. No. 2: 'Within one month from the date of receipt of application complete in all respects' — the limit is fixed in a calendar unit — via secondary_data/PY.json",
+        "clockBehaviour": "No phrase states what happens to the 30-day limit on a query. The ED says only 'No fixed timeline applies to applicant responses to queries; the application proceeds once the applicant replies, and delay alone does not cause rejection' — ed_data/PY.json",
+        "authority": "BRAP-130 row 8 'Time Limit (Number of days)' gives 30 days, with the Chief Inspectorate process-flow sheet 'Timeline :- Maximum Number of Days to complete application :- 30 days' and Order No. 1234/CIF &B/83/2019, 'Fixation of Timeline for processing of Application' — via secondary_data/PY.json",
+        "promisedOrExperienced": "'The fresh-licence timeline is 30 days in total (20 days including inspection, plus two 5-day review stages); in practice approvals generally meet this timeline' — the figure is the standard, with practice reported separately — ed_data/PY.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "partial-journey",
+      "determinable": true,
+      "note": "dayUnit rests on the notified order expressing the limit as 'one month' rather than as a count of days; the authority is a departmental Order of the Chief Inspector of Factories & Boilers reproduced on the department's Time Bound Clearances page, not a gazette RTS schedule. The FGD lane does not corroborate the 30 — 'participants instead describe the timeline simply as unclear, without citing a number'."
+    },
+    "RJ": {
+      "statedMin": 15,
+      "statedMax": 60,
+      "journeyScope": "licence-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "unclear",
+      "authority": "official-estimate",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "The ED's five steps run from online application to issue with 'No physical inspection is required for this process, per the expert', and the record separately notes 'Factory Licence, Factory Licence Renewal, Factory Building Plan and Boiler Manufacture Permission are stated to be available through the same online system/link' — ed_data/RJ.json",
+        "dayUnit": "No unit word appears against any of the three category figures — ed_data/RJ.json",
+        "clockBehaviour": "No phrase addresses the clock; step 4 says only 'Applicant informed online of incomplete/incorrect documents and resubmits' — ed_data/RJ.json",
+        "authority": "ED timeline basis: 'Category-based timelines stated by the expert' — no Act, rule or notification is cited, and RJ has no published-rules lane — ed_data/RJ.json",
+        "promisedOrExperienced": "'The timeline varies by factory category: Major Accident Hazard (MAH) factories 60 days, Hazardous factories 21 days, and non-hazardous factories 15 days' — these are applicable standards, not observed durations — ed_data/RJ.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "No day unit, and the figures are the expert's own statement with no instrument cited.",
+      "note": "statedMin 15 and statedMax 60 are not an uncertainty band — they are three different category services (15 non-hazardous, 21 hazardous, 60 MAH) collapsed into one range; the FGD lane separately reports participants calling it 'an official 90-day process' that 'actually takes around 6 months or more'."
+    },
+    "TG": {
+      "statedMin": 10,
+      "statedMax": 10,
+      "journeyScope": "licence-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "unclear",
+      "authority": "departmental-practice",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "ED step 5: 'Physical site inspection against approved plan and trial-production readiness'; the published Annexure-VI lists the antecedent separately under 'TIME LIMITS - PRE-ESTABLISHMENT APPROVALS': '3  Factory Plans Approval   Factories Department   7 days' — ed_data/TG.json and secondary_data/TG.json",
+        "dayUnit": "No unit word attaches to the 10-day figure, nor to the notified entry '2  Factory License   Factories Department   7 days'. The TS-iPASS Act uses 'working days' elsewhere ('shall forward the applications to the concerned competent authority within three working days'), which shows the instrument marks the unit when it means it — and Annexure-VI does not — ed_data/TG.json, secondary_data/TG.json",
+        "clockBehaviour": "No phrase addresses the clock; the ED says only 'Minor deviations flagged for correction; a major deviation requires a revised plan approval first' — ed_data/TG.json",
+        "authority": "ED timeline basis: 'applied as a fixed standard under TS-iPASS rather than under a separate Right to Services Act/Citizen Charter timeline' — but the notified Annexure-VI figure is 7 days, so the stated 10 is practice rather than the notified limit — ed_data/TG.json, secondary_data/TG.json",
+        "promisedOrExperienced": "'The license is issued online in around 10 days from application — roughly 3 days for scrutiny and another 7 days for inspection' is presented as the applied standard — ed_data/TG.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "No day unit is stated in either the ED record or the notified Annexure-VI.",
+      "note": "Published-rules conflict recorded and followed: G.O.Ms.No.18 notifies the Factory Licence stage at 7 days, not the ED's 10, and lists Factory Plans Approval as a separate 7-day pre-establishment service."
+    },
+    "UP": {
+      "statedMin": 15,
+      "statedMax": 30,
+      "journeyScope": "unclear",
+      "dayUnit": "working",
+      "clockBehaviour": "unclear",
+      "authority": "unclear",
+      "promisedOrExperienced": "promised",
+      "evidence": {
+        "journeyScope": "The ED's own figure measures the plan stage, not the licence stage — basis: 'statutory period for plan disposal by the Chief Inspector', text: 'The plan of a factory must be disposed of within 15 working days of online receipt by the Chief Inspector's office' — while the published Nivesh Mitra table treats them as two separate 30-day services, row 124 'Registration and grant of license under The Factories Act 1948 | 30 | Pre-Establishment' and row 123 'Approval of plan and permission to constructextendor take into use any building as a factory under the Factories Act 1948 | 30 | Pre-Operation'. The record's deemed-approval text ties the two together ('Plans not rejected within 15 working days (30 for hazardous-process factories) are deemed approved, and the licence is also deemed approved'), so what the figure covers is genuinely in dispute — ed_data/UP.json and secondary_data/UP.json",
+        "dayUnit": "ED timeline text: 'within 15 working days of online receipt by the Chief Inspector's office; this extends to 30 working days for factories carrying out hazardous processes' — ed_data/UP.json",
+        "clockBehaviour": "The published Government Order fixes query conduct but not the effect on the overall limit: a maximum of one query 'within 07 working days' of the application reaching the portal, and 'if no query is sent within 07 working days, the application is automatically deemed free of deficiency' — via secondary_data/UP.json",
+        "authority": "The ED attributes the figure to 'Factories Act, 1948 (Section 2(cb)) / Manufacture, Storage and Import of Hazardous Chemical Rules, 1989 (Rule 2(ja))', but the published-rules lane records that 'No 15-day figure, and no hazardous/non-hazardous split, appears anywhere in the Labour Department block of the published table' — ed_data/UP.json, secondary_data/UP.json",
+        "promisedOrExperienced": "'The plan of a factory must be disposed of within 15 working days of online receipt' — a limit; the FGD lane carries no timeline at all — ed_data/UP.json, fgd_data/UP.json"
+      },
+      "confidence": "medium",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "What the 15/30 figure covers is disputed between the lanes, and the statutory basis the ED cites for it is not borne out by the published table.",
+      "note": "UP is the only State in the set with a clean day unit and no usable scope: it is the mirror image of the common failure, and the published-rules lane is what exposed it."
+    },
+    "WB": {
+      "statedMin": 65,
+      "statedMax": 65,
+      "journeyScope": "licence-only",
+      "dayUnit": "unclear",
+      "clockBehaviour": "unclear",
+      "authority": "official-estimate",
+      "promisedOrExperienced": "unclear",
+      "evidence": {
+        "journeyScope": "The ED's five steps run from 'Submit Factory Licence application' to 'Licence issued'; the antecedent plan stage is evidenced by the ED finding 'The factory building/layout plan must be resubmitted at renewal even when there has been no change in layout or infrastructure' and by Factories Act s.6(1)(aa), 'requiring, the previous permission in writing of the State Government or the Chief Inspector to be obtained for the site on which the factory is to be situated and for the construction or extension of any factory' — ed_data/WB.json and secondary_data/WB.json",
+        "dayUnit": "NOT established. The published-rules lane's holiday-exclusion text is expressly conditional: \"If WB's Factory Licence limit is an RTPS-notified limit, 65 'days' is therefore a holiday-excluded clock that restarts on deficiency correction\". The condition is unmet: that file's timeline check carries the verdict not_found with a null sourceSays and a null citation, and the ED itself records 'exact governing Act/Rule and average actual timeline not specified' — ed_data/WB.json, secondary_data/WB.json",
+        "clockBehaviour": "Same conditional defect: rule 4(1) of the WB Right to Public Services Rules, 2013 ('the stipulated time limit for such service shall start from the date of production of the document') only bites if the 65 is an RTPS-notified limit, which is unproven — secondary_data/WB.json",
+        "authority": "ED timeline basis: 'Approximate figure discussed by the expert; exact governing Act/Rule and average actual timeline not specified' — ed_data/WB.json",
+        "promisedOrExperienced": "Neither: the basis field rules out both readings at once — the governing Act/Rule is 'not specified' (so it is not a promise on record) and the 'average actual timeline' is likewise 'not specified' (so it is not an observed duration) — ed_data/WB.json"
+      },
+      "confidence": "high",
+      "comparisonGroup": "not-comparable",
+      "determinable": false,
+      "reason": "The 65 is an approximate expert figure whose governing instrument is expressly unidentified, so neither its day unit nor its clock behaviour can be fixed.",
+      "note": "This classification deliberately departs from the worked example in the spec, which assigns WB dayUnit 'working-holidays-excluded', clockBehaviour 'resets', confidence 'high' and determinable true. The underlying validation does not support that: secondary_data/WB.json records the timeline check as 'not_found' ('THE 65-DAY FIGURE COULD NOT BE VERIFIED OR REFUTED'), every West Bengal government host was unreachable, and the rule 5 / rule 4(1) quotations appear only inside an explicitly conditional remark. On the spec's own grouping rule, an official-estimate with no stated basis is not-comparable."
+    }
+  },
+  "groups": {
+    "full-journey-calendar": [
+      "KL"
+    ],
+    "full-journey-working": [
+      "DNHDD"
+    ],
+    "partial-journey": [
+      "AP",
+      "MN",
+      "MP",
+      "PY"
+    ],
+    "not-comparable": [
+      "AR",
+      "AS",
+      "CG",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "MH",
+      "NL",
+      "PB",
+      "RJ",
+      "TG",
+      "UP",
+      "WB"
+    ]
+  },
+  "calibration": {
+    "totalStates": 22,
+    "determinable": 6,
+    "notDeterminable": 16,
+    "byDimensionUnclear": {
+      "journeyScope": 2,
+      "dayUnit": 15,
+      "clockBehaviour": 17,
+      "authority": 6
+    },
+    "secondaryHelped": 10,
+    "verdict": "Do not extend this to the other 24 licences as it stands. Only 6 of 22 Factory Licence records could be placed in a comparable group, and the reason is almost entirely one dimension: 15 of 22 records never say whether their days are calendar or working, so a State can have a notified instrument, a published SOP and a settled clock rule (Jharkhand, Jammu & Kashmir, Delhi) and still be unchartable. Four of the six determinable States — DNHDD, MN, MP and PY — owe their day unit or their figure entirely to the published-rules lane, so on the only licence that has that lane, it is doing two-thirds of the work; on the 24 licences without it the determinable share would plausibly fall to the 2-in-22 the field records alone supported here. The honest recommendation is to spend the next tranche on fixing the instrument rather than widening it: add a mandatory 'days are calendar/working, and here is the phrase that says so' field to the ED and FGD protocols, and commission the published-rules validation for the licences before the fieldwork rather than after, since it changed or supplied a dimension in 10 of the 15 States where it existed."
+  },
+  "remarks": [
+    "RULE APPLIED FOR dayUnit: assigned only where a source uses an explicit unit word ('working days', 'calendar days', 'excluding public holidays') or states the limit in an inherently calendar unit ('one month', '3 months'). Everything else is 'unclear', including business-reported lived durations such as Maharashtra's 'about forty to fifty days'. This is the strict reading the spec requires; a laxer convention treating every experienced elapsed duration as calendar would move HR, MH and arguably AR and NL into comparable groups, taking determinable from 6 to about 10. Both numbers are given so the Council can choose the convention rather than inherit mine.",
+    "THE SPEC'S OWN WORKED EXAMPLE DOES NOT SURVIVE VERIFICATION. The WB example in the spec cites 'WB RTPS Rules 2013 rule 5' and 'rule 4(1)' as settling dayUnit and clockBehaviour 'via secondary_data/WB.json' with confidence 'high'. Those phrases are in that file, but only inside a remark that begins 'If WB's Factory Licence limit is an RTPS-notified limit' — and the file's own timeline check is verdict 'not_found', sourceSays null, citation null, because every West Bengal government host was unreachable. One of the three cases the spec calls 'already proven from official sources' is therefore not proven. The other two (NL final-leg, MN working days) are fully supported by the data.",
+    "statedMin/statedMax are kept as the FIELD record's figure wherever one exists, with published-rules conflicts recorded in the note rather than overwriting the number — this follows the spec's WB example, which keeps 65. Where the field record has no figure at all, the published figure was used and the note says so: DL (60), MP (7). CG's 30 comes from an FGD finding, not from its ED record, which carries null.",
+    "RANGES THAT ARE NOT RANGES. Three records carry a statedMin and statedMax that measure different things, and a min-max whisker on the dashboard would misrepresent all three: RJ 15-60 is three category services (15 non-hazardous / 21 hazardous / 60 MAH); AS 15-45 is a pre-use application window, a Citizen's Charter standard and a Rules standard that the record says are unreconciled; UP 15-30 is a non-hazardous and a hazardous plan-disposal limit.",
+    "THE GROUPING SCHEME HAS NO SLOT FOR applicant-inclusive. Kerala's 90-120 days runs 'from initial building-plan preparation to final approval' and includes the applicant's own engineer-engagement time and other departments' clearances; it lands in full-journey-calendar by the spec's rules but is materially wider than anything else that would sit there. Its own State's notified comparator is 50 days. Recommend a fifth group, or an explicit applicant-inclusive flag, before anything is charted.",
+    "PROMISE AND EXPERIENCE ARE BEING MIXED ON ONE AXIS. Of the 22, 13 records carry a promised standard and 6 carry a lived duration; PB is the extreme case, carrying 30 as its figure while the same record states approvals 'take 1 year or more in practice'. comparisonGroup does not separate these, so even within full-journey-calendar a promised figure and an experienced figure are not comparable. Recommend splitting each group by promisedOrExperienced.",
+    "clockBehaviour was the weakest dimension overall — 17 of 22 unclear — but it is not part of the determinability test, so it did not cost any State a group. It is worth noting that all five States where it WAS settled (DNHDD, JH, JK, KL, MP) were settled by a published rule or by a lane other than the timeline field itself, which is the strongest single argument for commissioning the published-rules validation earlier.",
+    "THE SIX DETERMINABLE STATES ARE NOT SIX SOLID STATES. Only MN is high confidence. DNHDD, KL, MP and PY are medium (DNHDD's scope conflicts with its own notified per-service limits; KL's scope is wider than the group allows; MP's figure is absent from the field record entirely; PY's day unit rests on a notified order saying 'one month' rather than counting days), and AP is low — its determinability turns on the single word 'statutory' with no instrument named and no second lane to check it. A dashboard built on this set would be charting one properly evidenced State.",
+    "Four States where the two field lanes flatly disagree are recorded in the dataset's own INCONSISTENT flags and are reflected in the confidence values here: AP (statutory 7 days vs no published timeline visible to applicants), CG (ED has no figure, FGD reports 30), DNHDD (ED says no deemed approval, FGD says 25-day deemed approval — the published order settles it at 20 working days), JK (ED cites a PSGA 30-day limit, FGD participants had never heard of any timeline)."
+  ]
+}

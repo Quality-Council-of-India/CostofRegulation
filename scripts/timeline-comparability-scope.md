@@ -15,7 +15,7 @@ the published-rules validation, each from an official source:
 |---|---|---|
 | Nagaland | **1–2 days** | Only the final leg. The department's own published procedure shows a prior plan-approval / permission-to-construct stage (Form 1, 16 documents, Pollution Board and Fire NOCs) that the field record does not mention. Its own text says "where the papers are correct" and "no statutory timeline has been notified". |
 | Manipur | **90 days** | Working days, by statutory definition (Manipur PSDG Act 2021, s.2(c)) — roughly 18 calendar weeks. Also two sequential 90-day clocks, licence and plan approval being separately notified services. |
-| West Bengal | **65 days** | Public holidays excluded, and the clock restarts when a missing document is produced (WB RTPS Rules 2013, rules 4(1) and 5). Materially longer in elapsed time than 65 calendar days. |
+| West Bengal | **65 days** | ⚠️ **Correction (18 Nov):** this was originally listed here as proven. It is not. The WB RTPS Rules 2013 rules 4(1) and 5 (holidays excluded, clock restarts on deficiency) are real and verified — but nothing establishes that WB's Factory Licence figure is governed by them. The published-rules check for WB's timeline is `not_found` with no citation, because every WB government host was unreachable, and the ED record says the governing Act/Rule is "not specified". Classified `not-comparable`. |
 
 Put on one chart, "Nagaland 1–2 days" against "West Bengal 65 days" compares a part-journey in
 calendar days with a whole journey in holiday-excluded, resettable days. The true gap is not
